@@ -4,7 +4,7 @@
 [![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
 
-中文 | [English](README.md)
+[English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
 > [!NOTE]
 > 本项目由 RenaissanceMind Agent 辅助自动更新。工具信息、Star、许可证和服务条款可能会变化，使用前请核实对应官网或仓库。

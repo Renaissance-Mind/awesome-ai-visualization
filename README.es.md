@@ -1,0 +1,342 @@
+![AI visualization banner](assets/banner.png)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
+
+> [!NOTE]
+> Este proyecto se actualiza automáticamente con ayuda de RenaissanceMind Agent. Los metadatos, estrellas, licencias y términos pueden cambiar; verifica el sitio oficial o el repositorio antes de depender de una entrada.
+
+Una lista curada de herramientas de IA y agentes que convierten papers, noticias, páginas web, documentos, codebases, datos y colecciones de conocimiento en artefactos visuales o de presentación legibles para humanos.
+
+El catálogo está etiquetado por **fuente de información**, **tipo de herramienta**, **artefacto de salida** y **tipo de dependencia**. Las diapositivas son solo una superficie de salida; muchas herramientas también producen reportes, páginas web, diagramas, mapas mentales, dashboards o mapas de código.
+
+Algunos nombres de proyectos, términos oficiales y descripciones breves se mantienen en inglés para preservar la búsqueda y la trazabilidad con las fuentes originales.
+
+## ✨ Uso recomendado
+
+| Lector | Recomendación |
+| --- | --- |
+| 🤖 Para Agent | Instala/activa la skill [`ai-visualization-advisor`](skills/ai-visualization-advisor/SKILL.md) y deja que el agente recomiende formatos de salida y herramientas según las fuentes, audiencia y restricciones del usuario. Debe leer primero [`data/catalog.yml`](data/catalog.yml) y [`data/tool-research.yml`](data/tool-research.yml). |
+| 👤 Para humanos | Consulta este README o usa [awesome-ai-visualization.renaissancemind.ai](https://awesome-ai-visualization.renaissancemind.ai/) (recomendado) para explorar y filtrar herramientas. |
+
+## Contenido
+
+- [Herramientas de flujo principal](#herramientas-de-flujo-principal)
+- [Herramientas auxiliares y de pre/postprocesamiento](#herramientas-auxiliares-y-de-prepostprocesamiento)
+- [Cómo elegir una herramienta](#cómo-elegir-una-herramienta)
+- [Encontrar más herramientas](#encontrar-más-herramientas)
+- [Datos](#datos)
+- [Contribuir](#contribuir)
+
+## Herramientas de flujo principal
+
+Esta sección contiene herramientas que convierten directamente fuentes de información en artefactos que se pueden leer, inspeccionar, presentar o compartir. Cada fila está etiquetada con las dimensiones principales.
+
+### Papers, investigación y descubrimiento académico
+
+Herramientas que parten de papers, temas de investigación o corpus académicos y producen explicaciones, reportes, mapas, figuras o artefactos de comunicación.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [Paper2Any](https://github.com/OpenDCAI/Paper2Any) [![Star](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=flat&logo=github&label=Star)](https://github.com/OpenDCAI/Paper2Any/stargazers) | Papers/investigación | App/framework open source | Resumen gráfico/infografía / PPT/deck / Página web/interactiva | Runtime local / API de modelo / Parsing de documentos/OCR / Renderizado/exportación / GPU/acelerador / Plantillas/assets |
+| [paper-2-web](https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/paper-2-web/SKILL.md?plain=1) [![Star](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat&logo=github&label=Star)](https://github.com/davila7/claude-code-templates/stargazers) | Papers/investigación | Agent skill | Resumen gráfico/infografía / PPT/deck / Página web/interactiva | Host de Agent / API de modelo / Runtime local / Renderizado/exportación / Plantillas/assets |
+| [paper-to-course](https://github.com/ZeroxZhang/paper-to-course) [![Star](https://img.shields.io/github/stars/ZeroxZhang/paper-to-course?style=flat&logo=github&label=Star)](https://github.com/ZeroxZhang/paper-to-course/stargazers) | Papers/investigación | Agent skill | Página web/interactiva / Q&A/material de estudio | Host de Agent / API de modelo / Runtime local / Renderizado/exportación |
+| [Auto-Research-In-Sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) [![Star](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=flat&logo=github&label=Star)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/stargazers) | Papers/investigación | Colección de skills | Reporte largo / Tabla de evidencia | Host de Agent / API de modelo / Runtime local / Herramientas de sistema / Renderizado/exportación / Plantillas/assets |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) [![Star](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/scientific-agent-skills/stargazers) | Papers/investigación | Colección de skills | Resumen gráfico/infografía / PPT/deck / Página web/interactiva | Host de Agent / API de modelo / Búsqueda/datos externos / Renderizado/exportación |
+| [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) [![Star](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-writer?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/claude-scientific-writer/stargazers) | Papers/investigación | Agent skill | Reporte largo / Tabla de evidencia | Host de Agent / API de modelo / Búsqueda/datos externos / Plantillas/assets |
+| [SciGA](https://github.com/IyatomiLab/SciGA) [![Star](https://img.shields.io/github/stars/IyatomiLab/SciGA?style=flat&logo=github&label=Star)](https://github.com/IyatomiLab/SciGA/stargazers) | Papers/investigación | Dataset/benchmark | Resumen gráfico/infografía / PPT/deck / Página web/interactiva | Runtime local / Parsing de documentos/OCR / GPU/acelerador |
+| [AI-Researcher](https://github.com/HKUDS/AI-Researcher) [![Star](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat&logo=github&label=Star)](https://github.com/HKUDS/AI-Researcher/stargazers) | Papers/investigación | Prototipo de investigación | Reporte largo / Tabla de evidencia | Runtime local / API de modelo / Búsqueda/datos externos / GPU/acelerador |
+| [Elicit](https://elicit.com/) | Papers/investigación | Producto/SaaS | Briefing/reporte / Tabla de evidencia | Navegador/cuenta / Búsqueda/datos externos |
+| [Paperguide](https://paperguide.ai/) | Papers/investigación | Producto/SaaS | Briefing/reporte / Tabla de evidencia | Navegador/cuenta / Búsqueda/datos externos |
+| [SciSpace Infographic Maker](https://scispace.com/agents/infographic-maker-hbcwetac) | Papers/investigación | Producto/SaaS | Resumen gráfico/infografía / PPT/deck / Página web/interactiva | Navegador/cuenta / Plantillas/assets |
+| [Grabstract](https://grabstract.io/graphical-abstracts) | Papers/investigación | Producto/SaaS | Resumen gráfico/infografía / PPT/deck / Página web/interactiva | Navegador/cuenta / Plantillas/assets |
+| [Open Knowledge Maps](https://openknowledgemaps.org/) | Papers/investigación / Grafo de citas | Producto/SaaS | Mapa de literatura/conocimiento | Navegador/cuenta / Búsqueda/datos externos |
+| [Connected Papers](https://www.connectedpapers.com/) | Papers/investigación / Grafo de citas | Producto/SaaS | Mapa de literatura/conocimiento | Navegador/cuenta / Búsqueda/datos externos |
+| [ResearchRabbit](https://www.researchrabbit.ai/) | Papers/investigación / Grafo de citas | Producto/SaaS | Mapa de literatura/conocimiento | Navegador/cuenta / Búsqueda/datos externos |
+| [Litmaps](https://www.litmaps.com/) | Papers/investigación / Grafo de citas | Producto/SaaS | Mapa de literatura/conocimiento | Navegador/cuenta / Búsqueda/datos externos |
+| [Consensus](https://consensus.app/) | Papers/investigación | Producto/SaaS | Briefing/reporte / Tabla de evidencia | Navegador/cuenta / Búsqueda/datos externos |
+
+### Web, noticias e inteligencia
+
+Herramientas que parten de páginas web, resultados de búsqueda, flujos de noticias, datos de mercado o inteligencia de amenazas y producen reportes, dashboards o mapas con fuentes.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) [![Star](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&logo=github&label=Star)](https://github.com/assafelovic/gpt-researcher/stargazers) | Web/búsqueda / Noticias/inteligencia | App/framework open source | Reporte largo / Respuesta con citas | Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice |
+| [STORM](https://github.com/stanford-oval/storm) [![Star](https://img.shields.io/github/stars/stanford-oval/storm?style=flat&logo=github&label=Star)](https://github.com/stanford-oval/storm/stargazers) | Web/búsqueda / Noticias/inteligencia | App/framework open source | Reporte largo / Respuesta con citas | Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice |
+| [Scira](https://github.com/zaidmukaddam/scira) [![Star](https://img.shields.io/github/stars/zaidmukaddam/scira?style=flat&logo=github&label=Star)](https://github.com/zaidmukaddam/scira/stargazers) | Web/búsqueda / Noticias/inteligencia | App/framework open source / Bot/asistente | Reporte largo / Respuesta con citas | Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice |
+| [Vane](https://github.com/ItzCrazyKns/Vane) [![Star](https://img.shields.io/github/stars/ItzCrazyKns/Vane?style=flat&logo=github&label=Star)](https://github.com/ItzCrazyKns/Vane/stargazers) | Web/búsqueda / Noticias/inteligencia | App/framework open source / Bot/asistente | Reporte largo / Respuesta con citas | Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice |
+| [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | Noticias/inteligencia / Datos/tablas / Web/búsqueda | App/framework open source | Reporte largo / Gráfico/dashboard | Runtime local / API de modelo / Búsqueda/datos externos / Renderizado/exportación |
+| [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | Noticias/inteligencia / Datos/tablas / Web/búsqueda | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Búsqueda/datos externos / Renderizado/exportación / Almacenamiento/índice |
+| [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | Noticias/inteligencia / Web/búsqueda | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Búsqueda/datos externos / Renderizado/exportación / Almacenamiento/índice |
+
+### Documentos, PDF y bases de conocimiento
+
+Herramientas que parten de PDF, archivos de oficina, páginas web, documentos personales o bases de conocimiento de equipo y producen briefings, Q&A, material de estudio o mapas de conocimiento.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [notex](https://github.com/smallnest/notex) [![Star](https://img.shields.io/github/stars/smallnest/notex?style=flat&logo=github&label=Star)](https://github.com/smallnest/notex/stargazers) | PDF/documentos / Web/búsqueda / Base de conocimiento | App/framework open source | Briefing/reporte / Mapa mental/mapa de conocimiento / Q&A/material de estudio | Runtime local / API de modelo / Parsing de documentos/OCR / Renderizado/exportación / Almacenamiento/índice |
+| [Open Notebook](https://github.com/lfnovo/open-notebook) [![Star](https://img.shields.io/github/stars/lfnovo/open-notebook?style=flat&logo=github&label=Star)](https://github.com/lfnovo/open-notebook/stargazers) | PDF/documentos / Web/búsqueda / Base de conocimiento | App/framework open source | Briefing/reporte / Mapa mental/mapa de conocimiento / Q&A/material de estudio | Runtime local / API de modelo / Parsing de documentos/OCR / Almacenamiento/índice |
+| [SurfSense](https://github.com/MODSetter/SurfSense) [![Star](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat&logo=github&label=Star)](https://github.com/MODSetter/SurfSense/stargazers) | PDF/documentos / Web/búsqueda / Base de conocimiento | App/framework open source | Briefing/reporte / Mapa mental/mapa de conocimiento / Q&A/material de estudio | Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice |
+| [NotebookLM](https://notebooklm.google/) | PDF/documentos / Web/búsqueda / Base de conocimiento | Producto/SaaS / Bot/asistente | Briefing/reporte / Mapa mental/mapa de conocimiento / Q&A/material de estudio | Navegador/cuenta |
+
+### Codebases y sistemas de software
+
+Herramientas que convierten repositorios, código local, dependencias o diffs en diagramas de arquitectura, wikis de repositorio, mapas de código o grafos de conocimiento.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram) [![Star](https://img.shields.io/github/stars/ahmedkhaleel2004/gitdiagram?style=flat&logo=github&label=Star)](https://github.com/ahmedkhaleel2004/gitdiagram/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Navegador/cuenta / API de modelo / Análisis de código |
+| [CodeBoarding](https://github.com/Codeboarding/CodeBoarding) [![Star](https://img.shields.io/github/stars/Codeboarding/CodeBoarding?style=flat&logo=github&label=Star)](https://github.com/Codeboarding/CodeBoarding/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Runtime local / API de modelo / Análisis de código / Renderizado/exportación / Almacenamiento/índice |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) [![Star](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat&logo=github&label=Star)](https://github.com/Egonex-AI/Understand-Anything/stargazers) | Codebase | Agent skill | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Host de Agent / Runtime local / API de modelo / Análisis de código / Almacenamiento/índice |
+| [DeepWiki Open](https://github.com/AsyncFuncAI/deepwiki-open) [![Star](https://img.shields.io/github/stars/AsyncFuncAI/deepwiki-open?style=flat&logo=github&label=Star)](https://github.com/AsyncFuncAI/deepwiki-open/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Runtime local / API de modelo / Análisis de código / Renderizado/exportación |
+| [PocketFlow Tutorial Codebase Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge) [![Star](https://img.shields.io/github/stars/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge?style=flat&logo=github&label=Star)](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Runtime local / API de modelo / Análisis de código / Renderizado/exportación |
+| [GitVizz](https://github.com/adithya-s-k/GitVizz) [![Star](https://img.shields.io/github/stars/adithya-s-k/GitVizz?style=flat&logo=github&label=Star)](https://github.com/adithya-s-k/GitVizz/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Navegador/cuenta / API de modelo / Análisis de código / Renderizado/exportación |
+| [codeflow](https://github.com/braedonsaunders/codeflow) [![Star](https://img.shields.io/github/stars/braedonsaunders/codeflow?style=flat&logo=github&label=Star)](https://github.com/braedonsaunders/codeflow/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Navegador/cuenta / API de modelo / Análisis de código / Renderizado/exportación |
+| [oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) [![Star](https://img.shields.io/github/stars/oh-my-mermaid/oh-my-mermaid?style=flat&logo=github&label=Star)](https://github.com/oh-my-mermaid/oh-my-mermaid/stargazers) | Codebase | Agent skill | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Host de Agent / API de modelo / Análisis de código / Renderizado/exportación |
+| [codag-visualizer](https://github.com/codag-megalith/codag-visualizer) [![Star](https://img.shields.io/github/stars/codag-megalith/codag-visualizer?style=flat&logo=github&label=Star)](https://github.com/codag-megalith/codag-visualizer/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Runtime local / Análisis de código / Renderizado/exportación |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) [![Star](https://img.shields.io/github/stars/DeusData/codebase-memory-mcp?style=flat&logo=github&label=Star)](https://github.com/DeusData/codebase-memory-mcp/stargazers) | Codebase | Servidor MCP | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Cliente MCP / Runtime local / Análisis de código / Almacenamiento/índice |
+| [CodeAtlas](https://github.com/lucyb0207/CodeAtlas) [![Star](https://img.shields.io/github/stars/lucyb0207/CodeAtlas?style=flat&logo=github&label=Star)](https://github.com/lucyb0207/CodeAtlas/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Runtime local / Análisis de código / Renderizado/exportación |
+| [devlensOSS](https://github.com/devlensio/devlensOSS) [![Star](https://img.shields.io/github/stars/devlensio/devlensOSS?style=flat&logo=github&label=Star)](https://github.com/devlensio/devlensOSS/stargazers) | Codebase | App/framework open source | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Runtime local / Análisis de código / Renderizado/exportación |
+| [Visual-Explainer](https://github.com/jircik/Visual-Explainer) [![Star](https://img.shields.io/github/stars/jircik/Visual-Explainer?style=flat&logo=github&label=Star)](https://github.com/jircik/Visual-Explainer/stargazers) | Codebase | Agent skill | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Host de Agent / API de modelo / Análisis de código / Renderizado/exportación |
+| [codemap-skill](https://github.com/Asixa/codemap-skill) [![Star](https://img.shields.io/github/stars/Asixa/codemap-skill?style=flat&logo=github&label=Star)](https://github.com/Asixa/codemap-skill/stargazers) | Codebase | Agent skill | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Host de Agent / API de modelo / Análisis de código |
+| [DeepWiki](https://docs.devin.ai/work-with-devin/deepwiki) | Codebase | Producto/SaaS | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Navegador/cuenta / Análisis de código |
+| [CodeSee](https://www.codesee.io/) | Codebase | Producto/SaaS | Mapa de código/repo wiki / Arquitectura/diagrama de flujo | Navegador/cuenta / Análisis de código |
+
+### Datos, tablas y métricas de negocio
+
+Tools that turn CSVs, databases, metrics, or business data into charts, dashboards, or analytical reports.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación |
+| [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación |
+| [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | Datos/tablas / Base de datos | Prototipo de investigación | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación |
+| [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación |
+| [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación / Almacenamiento/índice |
+| [OpenBI](https://github.com/narender-rk10/OpenBI) [![Star](https://img.shields.io/github/stars/narender-rk10/OpenBI?style=flat&logo=github&label=Star)](https://github.com/narender-rk10/OpenBI/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice / Renderizado/exportación |
+
+### Texto general, ideas y visuales de pizarra
+
+Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | Texto/ideas / PDF/documentos / Datos/tablas | Colección de skills | Infografía/reporte visual / Reporte largo | Host de Agent / API de modelo / Runtime local / Renderizado/exportación |
+| [Piktochart AI](https://piktochart.com/generative-ai/) | Texto/ideas / PDF/documentos / Datos/tablas | Producto/SaaS | Infografía/reporte visual / Reporte largo | Navegador/cuenta / Plantillas/assets |
+| [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | Texto/ideas / PDF/documentos / Datos/tablas | Producto/SaaS | Infografía/reporte visual / Reporte largo | Navegador/cuenta / Plantillas/assets |
+| [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | Texto/ideas / PDF/documentos / Datos/tablas | Producto/SaaS | Infografía/reporte visual / Reporte largo | Navegador/cuenta / Plantillas/assets |
+| [Jeda AI Infographic Generator](https://www.jeda.ai/ai-infographic-generator) | Texto/ideas / PDF/documentos / Datos/tablas | Producto/SaaS | Infografía/reporte visual / Reporte largo | Navegador/cuenta / Parsing de documentos/OCR / Plantillas/assets |
+| [Infogram](https://infogram.com/) | Texto/ideas / PDF/documentos / Datos/tablas | Producto/SaaS | Infografía/reporte visual / Reporte largo | Navegador/cuenta / Búsqueda/datos externos / Plantillas/assets |
+| [Napkin AI](https://www.napkin.ai/) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Plantillas/assets |
+| [Eraser AI](https://www.eraser.io/ai) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Plantillas/assets |
+| [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Renderizado/exportación |
+| [Whimsical AI](https://whimsical.com/ai) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Plantillas/assets |
+| [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Plantillas/assets |
+| [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Plantillas/assets |
+| [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | Texto/ideas / Código/texto técnico | Producto/SaaS | Arquitectura/diagrama de flujo / Pizarra/mapa mental | Navegador/cuenta / Plantillas/assets |
+
+### Presentaciones y contenido multisource
+
+Tools that turn text, documents, web pages, research material, or outlines into decks, or let agents generate/edit presentations.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source | PPT/deck | Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source / API/SDK/librería | PPT/deck | Runtime local / API de modelo / Renderizado/exportación / Cliente MCP / Plantillas/assets |
+| [PPTAgent](https://github.com/icip-cas/PPTAgent) [![Star](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=flat&logo=github&label=Star)](https://github.com/icip-cas/PPTAgent/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Prototipo de investigación | PPT/deck | Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [presentation-ai](https://github.com/allweonedev/presentation-ai) [![Star](https://img.shields.io/github/stars/allweonedev/presentation-ai?style=flat&logo=github&label=Star)](https://github.com/allweonedev/presentation-ai/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source | PPT/deck | Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [slide-deck-ai](https://github.com/barun-saha/slide-deck-ai) [![Star](https://img.shields.io/github/stars/barun-saha/slide-deck-ai?style=flat&logo=github&label=Star)](https://github.com/barun-saha/slide-deck-ai/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source | PPT/deck | Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [odin-slides](https://github.com/leonid20000/odin-slides) [![Star](https://img.shields.io/github/stars/leonid20000/odin-slides?style=flat&logo=github&label=Star)](https://github.com/leonid20000/odin-slides/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source | PPT/deck | Runtime local / API de modelo / Parsing de documentos/OCR / Renderizado/exportación / Herramientas de sistema |
+| [ppt-agents](https://github.com/chenxingqiang/ppt-agents) [![Star](https://img.shields.io/github/stars/chenxingqiang/ppt-agents?style=flat&logo=github&label=Star)](https://github.com/chenxingqiang/ppt-agents/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source | PPT/deck | Host de Agent / Runtime local / API de modelo / Renderizado/exportación |
+| [deckdown](https://github.com/adityachauhan0/deckdown) [![Star](https://img.shields.io/github/stars/adityachauhan0/deckdown?style=flat&logo=github&label=Star)](https://github.com/adityachauhan0/deckdown/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | App/framework open source | PPT/deck | Runtime local / Renderizado/exportación |
+| [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) [![Star](https://img.shields.io/github/stars/GongRzhe/Office-PowerPoint-MCP-Server?style=flat&logo=github&label=Star)](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Servidor MCP | PPT/deck | Cliente MCP / Runtime local / Renderizado/exportación / Herramientas de sistema |
+| [pptx-from-layouts-skill](https://github.com/tristan-mcinnis/pptx-from-layouts-skill) [![Star](https://img.shields.io/github/stars/tristan-mcinnis/pptx-from-layouts-skill?style=flat&logo=github&label=Star)](https://github.com/tristan-mcinnis/pptx-from-layouts-skill/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Agent skill | PPT/deck | Host de Agent / Runtime local / Renderizado/exportación / Plantillas/assets |
+| [hands-on-deck](https://github.com/EveryInc/hands-on-deck) [![Star](https://img.shields.io/github/stars/EveryInc/hands-on-deck?style=flat&logo=github&label=Star)](https://github.com/EveryInc/hands-on-deck/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Agent skill | PPT/deck | Host de Agent / Runtime local / Renderizado/exportación |
+| [agent-slides](https://github.com/mpuig/agent-slides) [![Star](https://img.shields.io/github/stars/mpuig/agent-slides?style=flat&logo=github&label=Star)](https://github.com/mpuig/agent-slides/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Agent skill | PPT/deck | Host de Agent / Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill) [![Star](https://img.shields.io/github/stars/kdnsna/ultimate-ppt-master-skill?style=flat&logo=github&label=Star)](https://github.com/kdnsna/ultimate-ppt-master-skill/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Agent skill | PPT/deck | Host de Agent / Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) [![Star](https://img.shields.io/github/stars/ningzimu/codex-ppt-skill?style=flat&logo=github&label=Star)](https://github.com/ningzimu/codex-ppt-skill/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Agent skill | PPT/deck | Host de Agent / Runtime local / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [presentation-skills](https://github.com/pamelafox/presentation-skills) [![Star](https://img.shields.io/github/stars/pamelafox/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/pamelafox/presentation-skills/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Colección de skills | PPT/deck | Host de Agent / Runtime local / Renderizado/exportación |
+| [anthropics/skills](https://github.com/anthropics/skills) [![Star](https://img.shields.io/github/stars/anthropics/skills?style=flat&logo=github&label=Star)](https://github.com/anthropics/skills/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Colección de skills | PPT/deck | Host de Agent / Runtime local / Parsing de documentos/OCR / Renderizado/exportación |
+| [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) [![Star](https://img.shields.io/github/stars/MiniMax-AI/skills?style=flat&logo=github&label=Star)](https://github.com/MiniMax-AI/skills/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | Colección de skills | PPT/deck | Host de Agent / Runtime local / API de modelo / Renderizado/exportación |
+| [Gamma](https://gamma.app/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+| [SlideSpeak](https://slidespeak.co/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Parsing de documentos/OCR / Plantillas/assets |
+| [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+| [Presentations.AI](https://www.presentations.ai/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Parsing de documentos/OCR / Plantillas/assets |
+| [Beautiful.ai](https://www.beautiful.ai/presentation-maker) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+| [Decktopus](https://www.decktopus.com/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+| [PPT.AI](https://ppt.ai/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Parsing de documentos/OCR / Plantillas/assets |
+| [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+| [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS / Bot/asistente | PPT/deck | Navegador/cuenta / Herramientas de sistema / Plantillas/assets |
+| [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+
+## Herramientas auxiliares y de pre/postprocesamiento
+
+This section contains smaller, lower-level, or more specialized tools. They may not cover a full content production workflow by themselves, but they are often key components inside agent workflows.
+
+### PDF, parsing de documentos y extracción estructurada
+
+Herramientas de preprocesamiento que convierten PDF, papers, archivos Office o escaneos en Markdown, JSON, layout, tablas o resultados OCR.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [MinerU](https://github.com/opendatalab/MinerU) [![Star](https://img.shields.io/github/stars/opendatalab/MinerU?style=flat&logo=github&label=Star)](https://github.com/opendatalab/MinerU/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | App/framework open source | Datos estructurados/Markdown | Runtime local / Parsing de documentos/OCR / GPU/acelerador |
+| [Docling](https://github.com/docling-project/docling) [![Star](https://img.shields.io/github/stars/docling-project/docling?style=flat&logo=github&label=Star)](https://github.com/docling-project/docling/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | App/framework open source | Datos estructurados/Markdown | Runtime local / Parsing de documentos/OCR |
+| [Marker](https://github.com/datalab-to/marker) [![Star](https://img.shields.io/github/stars/datalab-to/marker?style=flat&logo=github&label=Star)](https://github.com/datalab-to/marker/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | App/framework open source | Datos estructurados/Markdown | Runtime local / Parsing de documentos/OCR / GPU/acelerador |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) [![Star](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat&logo=github&label=Star)](https://github.com/Unstructured-IO/unstructured/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | App/framework open source | Datos estructurados/Markdown | Runtime local / Parsing de documentos/OCR |
+| [GROBID](https://github.com/grobidOrg/grobid) [![Star](https://img.shields.io/github/stars/grobidOrg/grobid?style=flat&logo=github&label=Star)](https://github.com/grobidOrg/grobid/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | App/framework open source | Datos estructurados/Markdown | Runtime local / Herramientas de sistema / Parsing de documentos/OCR |
+| [PaperMage](https://github.com/allenai/papermage) [![Star](https://img.shields.io/github/stars/allenai/papermage?style=flat&logo=github&label=Star)](https://github.com/allenai/papermage/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | API/SDK/librería | Datos estructurados/Markdown | Runtime local / Parsing de documentos/OCR |
+| [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) [![Star](https://img.shields.io/github/stars/allenai/s2orc-doc2json?style=flat&logo=github&label=Star)](https://github.com/allenai/s2orc-doc2json/stargazers) | PDF/documentos / Documentos Office / Papers/investigación | App/framework open source | Datos estructurados/Markdown | Runtime local / Parsing de documentos/OCR |
+
+### Herramientas enfocadas en mapas mentales
+
+Herramientas pequeñas y enfocadas para convertir documentos, páginas web, videos, inteligencia de amenazas o texto en mapas mentales.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [TI-Mindmap-GPT](https://github.com/format81/TI-Mindmap-GPT) [![Star](https://img.shields.io/github/stars/format81/TI-Mindmap-GPT?style=flat&logo=github&label=Star)](https://github.com/format81/TI-Mindmap-GPT/stargazers) | Noticias/inteligencia / Web/búsqueda / PDF/documentos | App/framework open source | Mapa mental/mapa de conocimiento / Reporte largo / Tablas/línea de tiempo | Runtime local / API de modelo / Parsing de documentos/OCR / Renderizado/exportación / Búsqueda/datos externos |
+| [mindmap-generator](https://github.com/Dicklesworthstone/mindmap-generator) [![Star](https://img.shields.io/github/stars/Dicklesworthstone/mindmap-generator?style=flat&logo=github&label=Star)](https://github.com/Dicklesworthstone/mindmap-generator/stargazers) | PDF/documentos / Web/búsqueda / Base de conocimiento | App/framework open source | Mapa mental/mapa de conocimiento | Runtime local / API de modelo / Parsing de documentos/OCR / Renderizado/exportación |
+| [Mapify](https://mapify.so/) | PDF/documentos / Web/búsqueda / Base de conocimiento | Producto/SaaS | Mapa mental/mapa de conocimiento | Navegador/cuenta / Parsing de documentos/OCR / Plantillas/assets |
+
+### Diagramas, Mermaid y componentes de renderizado
+
+Herramientas de postprocesamiento y renderizado que ayudan a agentes a generar, validar o exportar Mermaid, SVG, PNG, PDF y artefactos de diagramas.
+
+| Proyecto | Fuente de información | Tipo de herramienta | Artefacto de salida | Dependencias |
+| --- | --- | --- | --- | --- |
+| [Mermaid](https://github.com/mermaid-js/mermaid) [![Star](https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&logo=github&label=Star)](https://github.com/mermaid-js/mermaid/stargazers) | DSL/código | API/SDK/librería | Diagrama/Mermaid / SVG/PNG/PDF | Renderizado/exportación |
+| [mermaid-js-ai-agent](https://github.com/disler/mermaid-js-ai-agent) [![Star](https://img.shields.io/github/stars/disler/mermaid-js-ai-agent?style=flat&logo=github&label=Star)](https://github.com/disler/mermaid-js-ai-agent/stargazers) | Texto/ideas / Código/texto técnico | App/framework open source | Diagrama/Mermaid / SVG/PNG/PDF | Runtime local / API de modelo / Renderizado/exportación |
+| [mermaid-skill](https://github.com/Agents365-ai/mermaid-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/mermaid-skill/stargazers) | Texto/ideas / Código/texto técnico | Agent skill | Diagrama/Mermaid / SVG/PNG/PDF | Host de Agent / Runtime local / API de modelo / Renderizado/exportación |
+| [Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills) [![Star](https://img.shields.io/github/stars/imxv/Pretty-mermaid-skills?style=flat&logo=github&label=Star)](https://github.com/imxv/Pretty-mermaid-skills/stargazers) | Texto/ideas / Código/texto técnico | Agent skill | Diagrama/Mermaid / SVG/PNG/PDF | Host de Agent / Runtime local / Renderizado/exportación |
+| [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | Texto/ideas / Código/texto técnico | Colección de skills | Diagrama/Mermaid / SVG/PNG/PDF | Host de Agent / API de modelo / Renderizado/exportación |
+| [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/código | API/SDK/librería | Diagrama/Mermaid / SVG/PNG/PDF | Runtime local / Renderizado/exportación |
+| [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | Texto/ideas / Código/texto técnico | Prototipo de investigación | Diagrama/Mermaid / SVG/PNG/PDF | Runtime local / API de modelo / Renderizado/exportación |
+
+## Cómo elegir una herramienta
+
+### Fuente de información
+
+| Fuente de información | Significado |
+| --- | --- |
+| Papers/investigación | Papers, arXiv links, academic PDFs, research topics, and experimental results. |
+| PDF/documentos | PDFs, long documents, manuals, reports, and exported documents. |
+| Documentos Office | Word, PowerPoint, Excel, and other office files. |
+| Web/búsqueda | Web pages, URLs, search results, extracted page text, and cited sources. |
+| Noticias/inteligencia | News streams, market intelligence, threat intelligence, and industry updates. |
+| Codebase | GitHub repositories, local code, diffs, dependencies, and symbols. |
+| Datos/tablas | CSV, Excel, metrics, time series, and business data. |
+| Base de datos | SQL/BI sources, business databases, vector stores, or external data APIs. |
+| Base de conocimiento | Notion, Google Drive, Slack, meeting notes, and personal/team documents. |
+| Texto/ideas | Prompts, outlines, drafts, whiteboard ideas, and notes. |
+| Código/texto técnico | Code snippets, API descriptions, and system-design text. |
+| DSL/código | Mermaid, diagram DSLs, configuration, and executable drawing code. |
+| Grafo de citas | Paper citation relations, related-paper networks, and literature graphs. |
+| Cualquiera/multifuente | General tools that work across multiple source types. |
+
+### Tipo de herramienta
+
+| Tipo de herramienta | Significado |
+| --- | --- |
+| Producto/SaaS | Hosted website or commercial product, usually browser/account based. |
+| App/framework open source | Runnable or deployable application/framework. |
+| Agent skill | Workflow package for Claude Code, Codex, Cursor, Gemini CLI, or similar agents. |
+| Colección de skills | Repository or suite containing multiple agent skills. |
+| Servidor MCP | Model Context Protocol server exposing files, slides, code, or data capabilities to agents. |
+| API/SDK/librería | Parser, renderer, generator, or data interface called by other tools. |
+| Bot/asistente | Chat/search assistant, browser extension, or collaboration assistant. |
+| Prototipo de investigación/dataset | Paper, benchmark, dataset, or research code. |
+| Awesome/índice | Directory for discovering tools, papers, and skills. |
+
+### Artefacto de salida
+
+| Artefacto de salida | Significado |
+| --- | --- |
+| PPT/deck | PPTX, slides, decks, templates, and presentation masters. |
+| Reporte largo | Cited research reports, market reports, and analytical documents. |
+| Briefing/reporte | Summaries, briefings, study guides, and Q&A material. |
+| Página web/interactiva | HTML, interactive tutorials, explainers, and shareable pages. |
+| Resumen gráfico/infografía | Graphical abstracts, infographics, posters, and scientific schematics. |
+| Infografía/reporte visual | Business infographics, visual reports, and branded summaries. |
+| Arquitectura/diagrama de flujo | Mermaid, flowcharts, sequence diagrams, system diagrams, and whiteboards. |
+| Pizarra/mapa mental | Whiteboards, freeform canvases, and divergent visual maps. |
+| Mapa mental/mapa de conocimiento | Mind maps, concept maps, and knowledge networks. |
+| Mapa de literatura/conocimiento | Literature maps, related-paper graphs, and research knowledge maps. |
+| Gráfico/dashboard | Charts, BI dashboards, KPIs, and interactive data views. |
+| Tablas/línea de tiempo | Tabla de evidencias, IOC tables, event timelines, and comparison tables. |
+| Mapa de código/repo wiki | Repository maps, repo wikis, dependency graphs, and code knowledge graphs. |
+| Diagrama/Mermaid | Mermaid, diagrams-as-code, and verifiable diagram text. |
+| SVG/PNG/PDF | Rendered images, vector graphics, or exported files. |
+| Video/audio | Paper videos, narrated explainers, and audio briefings. |
+| Datos estructurados/Markdown | Markdown, JSON, layout, tables, and OCR outputs for downstream generation. |
+| Tabla de evidencia | Paper screening tables, evidence matrices, and citation tables. |
+| Respuesta con citas | Source-grounded answers or search-result synthesis. |
+| Q&A/material de estudio | Notebook Q&A, quizzes, and study guides. |
+| Índice de herramientas | Awesome lists, tool directories, and paper lists. |
+| Gráfico renderizado | Visual output from renderers or chart components. |
+
+### Tipos de dependencia
+
+`Dependencias` describe what a tool needs to run. They are separate from the source, tool, and output tags: those tags answer “where does the information come from, what is the tool, and what does it produce”; dependency tags answer “what does it need”.
+
+| Dependencia | Significado | Ejemplos comunes |
+| --- | --- | --- |
+| Navegador/cuenta | Browser and account based; usually no local installation. | Google account, Canva account, SaaS plan |
+| Host de Agent | Needs an agent environment to execute a skill/workflow. | Claude Code, Codex, Cursor, Gemini CLI, OpenCode |
+| API de modelo | Calls text, vision, or image model APIs. | OpenAI, Anthropic, Gemini, OpenRouter, Azure OpenAI, Replicate |
+| Runtime local | Needs local runtimes and package managers. | Python, Node.js, Go, Rust, Java, Conda, uv, pnpm |
+| Herramientas de sistema | Depends on local binaries or office software. | Docker, LibreOffice, Microsoft PowerPoint, Pandoc, LaTeX, Chrome |
+| Parsing de documentos/OCR | Needs PDF parsing, OCR, layout recovery, or document structure extraction. | MinerU, Docling, Marker, GROBID, Tesseract, layout models |
+| Renderizado/exportación | Renders intermediate formats into SVG, PNG, PDF, PPTX, or web pages. | Mermaid, Kroki, Playwright, python-pptx, pptxgenjs, SVG renderer |
+| Búsqueda/datos externos | Needs web search, paper databases, citation networks, or data APIs. | arXiv, Semantic Scholar, OpenAlex, Google Scholar, web search |
+| GPU/acelerador | Local model inference, OCR, vision, or image generation may need acceleration. | CUDA, ROCm, Apple Metal/MPS, cloud GPU |
+| Cliente MCP | Needs a client that can connect to Servidor MCPs. | Claude Desktop, Cursor, Codex, Cline, Continue |
+| Análisis de código | Parses files, symbols, dependencies, and repository structure. | tree-sitter, language servers, ripgrep, ctags, Git |
+| Almacenamiento/índice | Persists state, vector indexes, or graphs. | SQLite, Postgres, Chroma, Qdrant, Neo4j, file index |
+| Plantillas/assets | Needs templates, brand assets, or design resources for high-quality output. | PPTX template, slide master, brand kit, icons, image assets |
+
+Star badges are shown next to GitHub project names where available. Non-GitHub products do not show a star badge.
+
+## Encontrar más herramientas
+
+Estas son listas awesome, listas de papers, registros de skills y directorios MCP. No son herramientas de producción individuales, pero ayudan a ampliar este repositorio.
+
+| Proyecto | Cobertura | Tipo de herramienta | Útil para encontrar |
+| --- | --- | --- | --- |
+| [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) [![Star](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=flat&logo=github&label=Star)](https://github.com/VoltAgent/awesome-agent-skills/stargazers) | Cualquiera/multifuente | Awesome/índice | Large agent skill directory. |
+| [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) [![Star](https://img.shields.io/github/stars/Prat011/awesome-llm-skills?style=flat&logo=github&label=Star)](https://github.com/Prat011/awesome-llm-skills/stargazers) | Cualquiera/multifuente | Awesome/índice | Cross-agent LLM skills list. |
+| [Awesome-Powerpoint-AI-Agents](https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents) [![Star](https://img.shields.io/github/stars/ishandutta2007/Awesome-Powerpoint-AI-Agents?style=flat&logo=github&label=Star)](https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents/stargazers) | Cualquiera/multifuente | Awesome/índice | Directly similar PowerPoint AI agents ecosystem list. |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) [![Star](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat&logo=github&label=Star)](https://github.com/punkpeye/awesome-mcp-servers/stargazers) | Cualquiera/multifuente | Awesome/índice | Large Servidor MCP directory. |
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) [![Star](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat&logo=github&label=Star)](https://github.com/hesreallyhim/awesome-claude-code/stargazers) | Cualquiera/multifuente | Awesome/índice | Claude Code skill, hook, slash-command, app, and plugin index. |
+| [awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) [![Star](https://img.shields.io/github/stars/jim-schwoebel/awesome_ai_agents?style=flat&logo=github&label=Star)](https://github.com/jim-schwoebel/awesome_ai_agents/stargazers) | Cualquiera/multifuente | Awesome/índice | Broad AI agent resources. |
+| [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) [![Star](https://img.shields.io/github/stars/mahseema/awesome-ai-tools?style=flat&logo=github&label=Star)](https://github.com/mahseema/awesome-ai-tools/stargazers) | Cualquiera/multifuente | Awesome/índice | Broad AI tools list. |
+| [awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research) [![Star](https://img.shields.io/github/stars/worldbench/awesome-ai-auto-research?style=flat&logo=github&label=Star)](https://github.com/worldbench/awesome-ai-auto-research/stargazers) | Cualquiera/multifuente | Awesome/índice | AI auto-research landscape, including paper-to-slides, posters, videos, websites, and social outputs. |
+| [LLM-Visualization-Paper-List](https://github.com/zengxingchen/LLM-Visualization-Paper-List) [![Star](https://img.shields.io/github/stars/zengxingchen/LLM-Visualization-Paper-List?style=flat&logo=github&label=Star)](https://github.com/zengxingchen/LLM-Visualization-Paper-List/stargazers) | Cualquiera/multifuente | Awesome/índice | Paper list for visualization meets LLM. |
+| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) [![Star](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat&logo=github&label=Star)](https://github.com/ai-boost/awesome-ai-for-science/stargazers) | Cualquiera/multifuente | Awesome/índice | Broad AI-for-science tool, paper, dataset, and framework index. |
+| [AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) [![Star](https://img.shields.io/github/stars/AlterLab-IEU/AlterLab-Academic-Skills?style=flat&logo=github&label=Star)](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills/stargazers) | Cualquiera/multifuente | Colección de skills | Evaluated academic agent skills including visualization, reports, writing, and research pipelines. |
+| [SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) [![Star](https://img.shields.io/github/stars/OpenSenseNova/SenseNova-Skills?style=flat&logo=github&label=Star)](https://github.com/OpenSenseNova/SenseNova-Skills/stargazers) | Cualquiera/multifuente | Colección de skills | Office and productivity skills covering image generation, visualization, slide decks, Excel analysis, and deep research. |
+| [TransformingScienceLLMs](https://github.com/NL2G/TransformingScienceLLMs) [![Star](https://img.shields.io/github/stars/NL2G/TransformingScienceLLMs?style=flat&logo=github&label=Star)](https://github.com/NL2G/TransformingScienceLLMs/stargazers) | Cualquiera/multifuente | Awesome/índice | Collection of papers, AI models, and tools for LLM-assisted scientific work. |
+
+## Datos
+
+The structured catalog lives in [data/catalog.yml](data/catalog.yml). It includes information-source tags, tool-form tags, output-artifact tags, dependency tags, category, GitHub star snapshots, license, update date, and short notes.
+
+The research cache lives in [data/tool-research.yml](data/tool-research.yml). It stores official examples, docs, demos, templates, papers, videos, and other discovery links; it is not rendered directly into the README.
+
+The search trail and query strategy live in [docs/search-log.md](docs/search-log.md).
+
+## Contribuir
+
+Contributions are welcome. For a new entry, please include:
+
+- Proyecto name and URL.
+- Fuente de información, for example `Papers/investigación`, `Web/búsqueda`, `Noticias/inteligencia`, `PDF/documentos`, `Codebase`, or `Datos/tablas`.
+- Tipo de herramienta, for example `Producto/SaaS`, `App/framework open source`, `Agent skill`, `Servidor MCP`, `API/SDK/librería`, or `Bot/asistente`.
+- Artefacto de salida, for example `PPT/deck`, `Reporte largo`, `Página web/interactiva`, `Mapa mental/mapa de conocimiento`, or `Gráfico/dashboard`.
+- Dependency types from the table above, for example `API de modelo`, `Renderizado/exportación`, or `Plantillas/assets`.
+- One sentence explaining why the project belongs here.
+
+Prefer tools that produce artifacts people can inspect, edit, cite, present, or use to understand a complex system.
