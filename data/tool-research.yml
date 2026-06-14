@@ -1,4 +1,4 @@
-generated_at: '2026-06-14T07:06:43+00:00'
+generated_at: '2026-06-14T23:06:17+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -8,11 +8,11 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 120
-  fetched_sources_ok: 166
+  entries: 122
+  fetched_sources_ok: 169
   fetched_sources_failed: 5
-  official_examples: 528
-  official_docs: 412
+  official_examples: 548
+  official_docs: 414
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -74,6 +74,55 @@ entries:
   - 5. System dependencies (Ubuntu example; full list is mirrored in requirements-system-ubuntu.txt)
   - '... see .env.example for full list'
   - 2. Install Paper2Any-specific Dependencies (Recommended)
+- name: Paper2Slides
+  category: paper-visualization
+  surface: open-source
+  primary_url: https://github.com/pchi123/Paper2Slides
+  homepage: https://pchi123.github.io
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Convert research papers and documents into polished slide decks and posters in one click.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🎉 Paper2Slides - Create Presentations Effortlessly
+    bytes: 3611
+  - kind: homepage
+    url: https://pchi123.github.io/
+    final_url: https://pchi123.github.io/
+    status: 200
+    content_type: text/html
+    title: 🚀 Paper2Slides - Transform Your Papers into Presentations Instantly | pchi123
+    description: 🌟 Transform research papers into professional slides and posters in minutes with Paper2Slides, streamlining
+      your presentation process effortlessly.
+    bytes: 6903
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://github.com/pchi123/Paper2Slides/raw/refs/heads/main/frontend/src/Slides_Paper_2.8.zip
+    source: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
+  - kind: docs
+    title: User Manual
+    url: https://github.com/pchi123/Paper2Slides/wiki
+    source: https://pchi123.github.io/
+  official_links:
+  - kind: docs
+    title: Documentation
+    url: https://github.com/pchi123/Paper2Slides/raw/refs/heads/main/frontend/src/Slides_Paper_2.8.zip
+    source: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
+  - kind: docs
+    title: User Manual
+    url: https://github.com/pchi123/Paper2Slides/wiki
+    source: https://pchi123.github.io/
+  source_headings:
+  - 🎉 Paper2Slides - Create Presentations Effortlessly
+  - 🌐 How to Use Paper2Slides
 - name: paper-2-web
   category: paper-visualization
   surface: skill
@@ -160,7 +209,7 @@ entries:
     status: 200
     content_type: text/plain
     title: Auto-claude-code-research-in-sleep (ARIS ⚔️🌙)
-    bytes: 177261
+    bytes: 179458
   official_examples:
   - kind: tutorial
     title: Diffusion Foundations cheat sheet
@@ -2183,7 +2232,7 @@ entries:
     title: Google NotebookLM | AI Research Tool & Thinking Partner
     description: Meet NotebookLM, the AI research tool and thinking partner that can analyze your sources, turn complexity
       into clarity and transform your content.
-    bytes: 99071
+    bytes: 99070
 - name: Elicit
   category: research-report
   surface: product
@@ -3343,7 +3392,7 @@ entries:
     title: Unstructured Data Platform for GenAI | Unstructured
     description: Transform complex, unstructured data into clean, AI-ready inputs. Connect to any source, process 64+ file
       types, and power your GenAI projects. Start now.
-    bytes: 1669930
+    bytes: 1671022
   official_examples:
   - kind: demo
     title: Request a demo
@@ -4579,7 +4628,7 @@ entries:
     title: Turn Data Into Interactive Stories | Infogram
     description: Create interactive charts, maps, infographics, reports and more. Share and embed anywhere. All AI powered
       from charts to infographics.
-    bytes: 504587
+    bytes: 504556
   official_examples:
   - kind: template
     title: Infogram templates
@@ -4848,7 +4897,7 @@ entries:
     status: 200
     content_type: text/plain
     title: PPT Master — AI generates natively editable PPTX from any document
-    bytes: 25971
+    bytes: 25972
   official_docs:
   - kind: docs
     title: Getting Started
@@ -5613,6 +5662,260 @@ entries:
   - Showcase
   - Documentation
   - Example Decks
+- name: Frontend Slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/zarazhangrui/frontend-slides
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Agent skill that creates HTML presentations from prompts or converts PowerPoint files with selectable visual
+    themes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Frontend Slides
+    bytes: 35007
+  official_examples:
+  - kind: template
+    title: '`beautiful-html-templates`'
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Soft Editorial
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/soft-editorial/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Editorial Forest
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/editorial-forest/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Pin & Paper
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/pin-and-paper/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Sakura Chroma
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/sakura-chroma/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Stencil & Tablet
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/stencil-tablet/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Cobalt Grid
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/cobalt-grid/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Vellum
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/vellum/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Emerald Editorial
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/emerald-editorial/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Neo-Grid Bold
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/neo-grid-bold/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Editorial Tri-Tone
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/editorial-tri-tone/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Creative Mode
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/creative-mode/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Monochrome
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/monochrome/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: People's Platform (Block & Bold)
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/peoples-platform/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Pink Script — After Hours
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/pink-script/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: 8-Bit Orbit
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/8-bit-orbit/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: BlockFrame
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/block-frame/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Blue Professional
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/blue-professional/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Bold Poster
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/bold-poster/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Broadside
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/broadside/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`beautiful-html-templates`'
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Soft Editorial
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/soft-editorial/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Editorial Forest
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/editorial-forest/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Pin & Paper
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/pin-and-paper/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Sakura Chroma
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/sakura-chroma/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Stencil & Tablet
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/stencil-tablet/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Cobalt Grid
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/cobalt-grid/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Vellum
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/vellum/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Emerald Editorial
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/emerald-editorial/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Neo-Grid Bold
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/neo-grid-bold/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Editorial Tri-Tone
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/editorial-tri-tone/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Creative Mode
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/creative-mode/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Monochrome
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/monochrome/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: People's Platform (Block & Bold)
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/peoples-platform/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Pink Script — After Hours
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/pink-script/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: 8-Bit Orbit
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/8-bit-orbit/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: BlockFrame
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/block-frame/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Blue Professional
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/blue-professional/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Bold Poster
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/bold-poster/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Broadside
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/broadside/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Capsule
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/capsule/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Cartesian
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/cartesian/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Coral
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/coral/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Daisy Days
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/daisy-days/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Grove
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/grove/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Mat
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/mat/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Playful
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/playful/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Raw Grid
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/raw-grid/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Retro Windows
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/retro-windows/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Retro Zine
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/retro-zine/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Scatterbrain
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/scatterbrain/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Signal
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/signal/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Studio
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/studio/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Biennale Yellow
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/biennale-yellow/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: template
+    title: Long Table
+    url: https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/long-table/
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  source_headings:
+  - Frontend Slides
+  - Usage
+  - Create a New Presentation
+  - Bold Template Pack
+  - Bold Template Gallery
+  - '[Soft Editorial](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/soft-editorial/)'
+  - '[Editorial Forest](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/editorial-forest/)'
+  - '[Pin & Paper](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/pin-and-paper/)'
+  - '[Sakura Chroma](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/sakura-chroma/)'
+  - '[Stencil & Tablet](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/stencil-tablet/)'
+  - '[Cobalt Grid](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/cobalt-grid/)'
+  - '[Vellum](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/vellum/)'
 - name: Office-PowerPoint-MCP-Server
   category: presentation-tools
   surface: mcp
@@ -6982,7 +7285,7 @@ entries:
     content_type: text/html
     title: DeepWiki - Devin Docs
     description: Architecture diagrams, documentation, links to sources, and more for all your repos
-    bytes: 2538830
+    bytes: 2538837
   official_examples:
   - kind: showcase
     title: Use Cases
@@ -8658,7 +8961,7 @@ entries:
     title: Presentations.AI - The AI Presentation Platform
     description: Create AI presentations in seconds. Turn any topic, document, or URL into branded slides. Export to PowerPoint.
       Trusted by 10M+ teams. Try free.
-    bytes: 218524
+    bytes: 217177
   official_examples:
   - kind: template
     title: Presentation Templates
@@ -9511,10 +9814,10 @@ entries:
     final_url: https://glama.ai/mcp/servers
     status: 200
     content_type: text/html
-    title: Open-Source MCP Servers – 36,148 in the Glama Registry | Glama
+    title: Open-Source MCP Servers – 36,752 in the Glama Registry | Glama
     description: Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers,
       clients, tools, and integrations.
-    bytes: 160663
+    bytes: 161492
   official_examples:
   - kind: template
     title: Data-Everything/mcp-server-templates
@@ -10770,7 +11073,7 @@ entries:
     status: 200
     content_type: text/plain
     title: 📚 Contents
-    bytes: 140255
+    bytes: 141171
   official_examples:
   - kind: paper
     title: arXiv
@@ -10817,6 +11120,10 @@ entries:
     url: https://github.com/deep-diver/paper-reviewer
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   - kind: paper
+    title: ASI-Arch (GAIR-NLP, arXiv 2025)
+    url: https://github.com/GAIR-NLP/ASI-Arch
+    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
+  - kind: paper
     title: AIDE (WecoAI, arXiv 2025)
     url: https://github.com/WecoAI/aideml
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
@@ -10847,10 +11154,6 @@ entries:
   - kind: paper
     title: Google Dataset Search
     url: https://datasetsearch.research.google.com/
-    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
-  - kind: paper
-    title: Chinese Medical Dataset
-    url: https://github.com/Mengqi97/chinese-medical-dataset
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   official_docs:
   - kind: docs
@@ -10909,6 +11212,10 @@ entries:
   - kind: paper
     title: paper-reviewer
     url: https://github.com/deep-diver/paper-reviewer
+    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
+  - kind: paper
+    title: ASI-Arch (GAIR-NLP, arXiv 2025)
+    url: https://github.com/GAIR-NLP/ASI-Arch
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   - kind: paper
     title: AIDE (WecoAI, arXiv 2025)

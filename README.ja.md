@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-122_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -48,6 +48,7 @@
 | [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) [![Star](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/scientific-agent-skills/stargazers) | 論文/研究 | Skill 集合 | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | Agent ホスト / モデル API / 外部検索/データ / レンダリング/エクスポート |
 | [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) [![Star](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-writer?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/claude-scientific-writer/stargazers) | 論文/研究 | Agent Skill | 長文レポート / エビデンステーブル | Agent ホスト / モデル API / 外部検索/データ / テンプレート/素材 |
 | [SciGA](https://github.com/IyatomiLab/SciGA) [![Star](https://img.shields.io/github/stars/IyatomiLab/SciGA?style=flat&logo=github&label=Star)](https://github.com/IyatomiLab/SciGA/stargazers) | 論文/研究 | データセット/ベンチマーク | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | ローカル実行環境 / 文書解析/OCR / GPU/アクセラレータ |
+| [Paper2Slides](https://github.com/pchi123/Paper2Slides) [![Star](https://img.shields.io/github/stars/pchi123/Paper2Slides?style=flat&logo=github&label=Star)](https://github.com/pchi123/Paper2Slides/stargazers) | Papers/research | Open-source app/framework | Graphical abstract/infographic / PPT/deck | Local runtime / Document parsing/OCR / Rendering/export / Templates/assets |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher) [![Star](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat&logo=github&label=Star)](https://github.com/HKUDS/AI-Researcher/stargazers) | 論文/研究 | 研究プロトタイプ | 長文レポート / エビデンステーブル | ローカル実行環境 / モデル API / 外部検索/データ / GPU/アクセラレータ |
 | [Elicit](https://elicit.com/) | 論文/研究 | 製品/SaaS | ブリーフィング/レポート / エビデンステーブル | ブラウザ/アカウント / 外部検索/データ |
 | [Paperguide](https://paperguide.ai/) | 論文/研究 | 製品/SaaS | ブリーフィング/レポート / エビデンステーブル | ブラウザ/アカウント / 外部検索/データ |
@@ -154,6 +155,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [odin-slides](https://github.com/leonid20000/odin-slides) [![Star](https://img.shields.io/github/stars/leonid20000/odin-slides?style=flat&logo=github&label=Star)](https://github.com/leonid20000/odin-slides/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート / システムツール |
 | [ppt-agents](https://github.com/chenxingqiang/ppt-agents) [![Star](https://img.shields.io/github/stars/chenxingqiang/ppt-agents?style=flat&logo=github&label=Star)](https://github.com/chenxingqiang/ppt-agents/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [deckdown](https://github.com/adityachauhan0/deckdown) [![Star](https://img.shields.io/github/stars/adityachauhan0/deckdown?style=flat&logo=github&label=Star)](https://github.com/adityachauhan0/deckdown/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / レンダリング/エクスポート |
+| [Frontend Slides](https://github.com/zarazhangrui/frontend-slides) [![Star](https://img.shields.io/github/stars/zarazhangrui/frontend-slides?style=flat&logo=github&label=Star)](https://github.com/zarazhangrui/frontend-slides/stargazers) | Text/ideas / PDF/documents | Agent Skill | PPT/deck / Web/interactive page | Agent host / Model API / Local runtime / Rendering/export |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) [![Star](https://img.shields.io/github/stars/GongRzhe/Office-PowerPoint-MCP-Server?style=flat&logo=github&label=Star)](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | MCP Server | PPT/デッキ | MCP クライアント / ローカル実行環境 / レンダリング/エクスポート / システムツール |
 | [pptx-from-layouts-skill](https://github.com/tristan-mcinnis/pptx-from-layouts-skill) [![Star](https://img.shields.io/github/stars/tristan-mcinnis/pptx-from-layouts-skill?style=flat&logo=github&label=Star)](https://github.com/tristan-mcinnis/pptx-from-layouts-skill/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 | [hands-on-deck](https://github.com/EveryInc/hands-on-deck) [![Star](https://img.shields.io/github/stars/EveryInc/hands-on-deck?style=flat&logo=github&label=Star)](https://github.com/EveryInc/hands-on-deck/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート |
