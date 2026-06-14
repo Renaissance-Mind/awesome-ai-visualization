@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-122_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -48,6 +48,7 @@
 | [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) [![Star](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/scientific-agent-skills/stargazers) | 논문/연구 | Skill 모음 | 그래픽 초록/인포그래픽 / PPT/덱 / 웹/인터랙티브 페이지 | Agent 호스트 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
 | [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) [![Star](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-writer?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/claude-scientific-writer/stargazers) | 논문/연구 | Agent Skill | 긴 보고서 / 근거 표 | Agent 호스트 / 모델 API / 외부 검색/데이터 / 템플릿/자산 |
 | [SciGA](https://github.com/IyatomiLab/SciGA) [![Star](https://img.shields.io/github/stars/IyatomiLab/SciGA?style=flat&logo=github&label=Star)](https://github.com/IyatomiLab/SciGA/stargazers) | 논문/연구 | 데이터셋/벤치마크 | 그래픽 초록/인포그래픽 / PPT/덱 / 웹/인터랙티브 페이지 | 로컬 런타임 / 문서 파싱/OCR / GPU/가속기 |
+| [Paper2Slides](https://github.com/pchi123/Paper2Slides) [![Star](https://img.shields.io/github/stars/pchi123/Paper2Slides?style=flat&logo=github&label=Star)](https://github.com/pchi123/Paper2Slides/stargazers) | Papers/research | Open-source app/framework | Graphical abstract/infographic / PPT/deck | Local runtime / Document parsing/OCR / Rendering/export / Templates/assets |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher) [![Star](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat&logo=github&label=Star)](https://github.com/HKUDS/AI-Researcher/stargazers) | 논문/연구 | 연구 프로토타입 | 긴 보고서 / 근거 표 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / GPU/가속기 |
 | [Elicit](https://elicit.com/) | 논문/연구 | 제품/SaaS | 브리핑/보고서 / 근거 표 | 브라우저/계정 / 외부 검색/데이터 |
 | [Paperguide](https://paperguide.ai/) | 논문/연구 | 제품/SaaS | 브리핑/보고서 / 근거 표 | 브라우저/계정 / 외부 검색/데이터 |
@@ -154,6 +155,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [odin-slides](https://github.com/leonid20000/odin-slides) [![Star](https://img.shields.io/github/stars/leonid20000/odin-slides?style=flat&logo=github&label=Star)](https://github.com/leonid20000/odin-slides/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 렌더링/내보내기 / 시스템 도구 |
 | [ppt-agents](https://github.com/chenxingqiang/ppt-agents) [![Star](https://img.shields.io/github/stars/chenxingqiang/ppt-agents?style=flat&logo=github&label=Star)](https://github.com/chenxingqiang/ppt-agents/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 | PPT/덱 | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [deckdown](https://github.com/adityachauhan0/deckdown) [![Star](https://img.shields.io/github/stars/adityachauhan0/deckdown?style=flat&logo=github&label=Star)](https://github.com/adityachauhan0/deckdown/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 렌더링/내보내기 |
+| [Frontend Slides](https://github.com/zarazhangrui/frontend-slides) [![Star](https://img.shields.io/github/stars/zarazhangrui/frontend-slides?style=flat&logo=github&label=Star)](https://github.com/zarazhangrui/frontend-slides/stargazers) | Text/ideas / PDF/documents | Agent Skill | PPT/deck / Web/interactive page | Agent host / Model API / Local runtime / Rendering/export |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) [![Star](https://img.shields.io/github/stars/GongRzhe/Office-PowerPoint-MCP-Server?style=flat&logo=github&label=Star)](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | MCP Server | PPT/덱 | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 |
 | [pptx-from-layouts-skill](https://github.com/tristan-mcinnis/pptx-from-layouts-skill) [![Star](https://img.shields.io/github/stars/tristan-mcinnis/pptx-from-layouts-skill?style=flat&logo=github&label=Star)](https://github.com/tristan-mcinnis/pptx-from-layouts-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | Agent Skill | PPT/덱 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [hands-on-deck](https://github.com/EveryInc/hands-on-deck) [![Star](https://img.shields.io/github/stars/EveryInc/hands-on-deck?style=flat&logo=github&label=Star)](https://github.com/EveryInc/hands-on-deck/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | Agent Skill | PPT/덱 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 |

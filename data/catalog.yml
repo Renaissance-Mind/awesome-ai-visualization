@@ -1,4 +1,4 @@
-last_researched: '2026-06-14'
+last_researched: '2026-06-15'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -46,6 +46,30 @@ entries:
   - 图形摘要/信息图
   - PPT/演示文稿
   - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: Paper2Slides
+  url: https://github.com/pchi123/Paper2Slides
+  homepage: https://pchi123.github.io
+  category: paper-visualization
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: MIT
+  updated: '2026-06-14'
+  note: Convert research papers and documents into polished slide decks and posters in one click.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
   catalog_section: main
   readme_group: paper
 - name: paper-2-web
@@ -1169,6 +1193,29 @@ entries:
   - 开源应用/框架
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Frontend Slides
+  url: https://github.com/zarazhangrui/frontend-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  stars: 21628
+  license: MIT
+  updated: '2026-06-14'
+  note: Agent skill that creates HTML presentations from prompts or converts PowerPoint files with selectable visual themes.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
   catalog_section: main
   readme_group: presentation
 - name: Office-PowerPoint-MCP-Server
