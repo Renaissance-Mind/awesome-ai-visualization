@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Showroom — what AI visualization tools actually produce</title>
+<meta name="description" content="A visual showroom of AI and agent tools that turn papers, documents, codebases, and data into things you can see. See the real outputs — figures, posters, decks, maps, dashboards — not just links." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="aurora" aria-hidden="true">
+  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  <span class="grain"></span>
+</div>
+
+<header class="topbar" id="top">
+  <a class="brand" href="#top">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span>Showroom<i>· Awesome AI Visualization</i></span>
+  </a>
+  <nav class="topnav">
+    <span id="topCount"></span>
+    <a class="ghost-link" href="../README.md" data-repo>Catalog ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow" id="eyebrow"></p>
+    <h1 class="hero-title">See what these tools<br /><em>actually produce.</em></h1>
+    <p class="hero-lede">
+      A visual showroom of AI &amp; agent tools that turn papers, documents, codebases, and
+      data into things you can see — figures, posters, research reports, decks, code maps,
+      diagrams, and dashboards. Browse the real outputs, then open any one for the full story.
+    </p>
+    <div class="hero-stats" id="heroStats"></div>
+  </section>
+
+  <div class="marquee" id="marquee" aria-hidden="true"><div class="marquee-track" id="marqueeTrack"></div></div>
+
+  <nav class="fieldnav" id="fieldnav">
+    <div class="field-links" id="fieldLinks"></div>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+      <input id="search" type="search" placeholder="Search tools, outputs, capabilities…" autocomplete="off" spellcheck="false" />
+    </label>
+  </nav>
+
+  <section class="showcase" id="showcase"></section>
+
+  <div class="empty" id="empty" hidden>
+    <p>Nothing matches that search.</p>
+    <button id="resetAll" class="textbtn">Clear search</button>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="foot-inner">
+    <p class="foot-lead">A field guide to tools that make complex things legible.<br />
+       Built from the curated catalog in this repository.</p>
+    <nav class="foot-links">
+      <a href="../README.md">Catalog (EN)</a>
+      <a href="../README.zh-CN.md">目录 (中文)</a>
+      <a href="../data/catalog.yml">catalog.yml</a>
+      <a href="../docs/search-log.md">Search log</a>
+    </nav>
+  </div>
+  <p class="foot-base" id="footBase"></p>
+</footer>
+
+<!-- detail lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lb-backdrop" data-close></div>
+  <article class="lb-panel" role="dialog" aria-modal="true" aria-labelledby="lbName">
+    <button class="lb-close" data-close aria-label="Close">&times;</button>
+    <div class="lb-media" id="lbMedia"></div>
+    <div class="lb-info" id="lbInfo"></div>
+  </article>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Back to top" hidden>↑</button>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
