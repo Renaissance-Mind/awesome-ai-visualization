@@ -4,7 +4,7 @@
 [![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
 
-[中文](README.zh-CN.md) | English
+English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
 > [!NOTE]
 > This project is auto-updated with help from RenaissanceMind Agent. Tool metadata, stars, licenses, and terms may change over time; verify the official site or repository before relying on an entry.

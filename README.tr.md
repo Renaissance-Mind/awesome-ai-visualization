@@ -1,0 +1,342 @@
+![AI visualization banner](assets/banner.png)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
+
+> [!NOTE]
+> Bu proje RenaissanceMind Agent yardımıyla otomatik güncellenir. Araç meta verileri, yıldız sayıları, lisanslar ve şartlar değişebilir; bir girdiye güvenmeden önce resmi siteyi veya depoyu doğrulayın.
+
+Makaleleri, haberleri, web sayfalarını, belgeleri, kod tabanlarını, verileri ve bilgi koleksiyonlarını insanlar için okunabilir görsel veya sunum çıktıları haline getiren AI ve agent araçlarının kürasyonlu listesi.
+
+Katalog **bilgi kaynağı**, **araç türü**, **çıktı biçimi** ve **bağımlılık türü** ile etiketlenmiştir. Slaytlar yalnızca bir çıktı yüzeyidir; birçok araç raporlar, web sayfaları, diyagramlar, zihin haritaları, panolar veya kod haritaları da üretir.
+
+Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve kaynak izlenebilirliği için İngilizce bırakılmıştır.
+
+## ✨ Önerilen kullanım
+
+| Okuyucu | Öneri |
+| --- | --- |
+| 🤖 Agent için | [`ai-visualization-advisor`](skills/ai-visualization-advisor/SKILL.md) skillini kurun/etkinleştirin; agent, kullanıcının kaynaklarına, kitlesine ve kısıtlarına göre çıktı biçimleri ve araçlar önersin. Önce [`data/catalog.yml`](data/catalog.yml) ve [`data/tool-research.yml`](data/tool-research.yml) dosyalarını okumalıdır. |
+| 👤 İnsan için | Bu README dosyasını inceleyin veya araçları keşfetmek ve filtrelemek için [awesome-ai-visualization.renaissancemind.ai](https://awesome-ai-visualization.renaissancemind.ai/) adresini kullanın (önerilir). |
+
+## İçindekiler
+
+- [Ana iş akışı araçları](#ana-iş-akışı-araçları)
+- [Destekleyici, ön/son işleme araçları](#destekleyici-önson-işleme-araçları)
+- [Araç nasıl seçilir](#araç-nasıl-seçilir)
+- [Daha fazla araç bul](#daha-fazla-araç-bul)
+- [Veri](#veri)
+- [Katkı](#katkı)
+
+## Ana iş akışı araçları
+
+Bu bölüm, bilgi kaynaklarını insanların okuyabileceği, inceleyebileceği, sunabileceği veya paylaşabileceği çıktılara doğrudan dönüştüren araçları içerir. Her satır temel etiketlerle işaretlenmiştir.
+
+### Makaleler, araştırma ve akademik keşif
+
+Makalelerden, araştırma konularından veya akademik derlemlerden başlayıp açıklayıcılar, raporlar, haritalar, şekiller veya iletişim çıktıları üreten araçlar.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [Paper2Any](https://github.com/OpenDCAI/Paper2Any) [![Star](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=flat&logo=github&label=Star)](https://github.com/OpenDCAI/Paper2Any/stargazers) | Makaleler/araştırma | Açık kaynak uygulama/framework | Grafik özet/infografik / PPT/deck / Web/interaktif sayfa | Yerel runtime / Model API / Belge ayrıştırma/OCR / Render/dışa aktarma / GPU/hızlandırıcı / Şablonlar/assetler |
+| [paper-2-web](https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/paper-2-web/SKILL.md?plain=1) [![Star](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat&logo=github&label=Star)](https://github.com/davila7/claude-code-templates/stargazers) | Makaleler/araştırma | Agent skill | Grafik özet/infografik / PPT/deck / Web/interaktif sayfa | Agent host / Model API / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
+| [paper-to-course](https://github.com/ZeroxZhang/paper-to-course) [![Star](https://img.shields.io/github/stars/ZeroxZhang/paper-to-course?style=flat&logo=github&label=Star)](https://github.com/ZeroxZhang/paper-to-course/stargazers) | Makaleler/araştırma | Agent skill | Web/interaktif sayfa / Soru-cevap/çalışma materyali | Agent host / Model API / Yerel runtime / Render/dışa aktarma |
+| [Auto-Research-In-Sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) [![Star](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=flat&logo=github&label=Star)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/stargazers) | Makaleler/araştırma | Skill koleksiyonu | Uzun rapor / Kanıt tablosu | Agent host / Model API / Yerel runtime / Sistem araçları / Render/dışa aktarma / Şablonlar/assetler |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) [![Star](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/scientific-agent-skills/stargazers) | Makaleler/araştırma | Skill koleksiyonu | Grafik özet/infografik / PPT/deck / Web/interaktif sayfa | Agent host / Model API / Harici arama/veri / Render/dışa aktarma |
+| [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) [![Star](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-writer?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/claude-scientific-writer/stargazers) | Makaleler/araştırma | Agent skill | Uzun rapor / Kanıt tablosu | Agent host / Model API / Harici arama/veri / Şablonlar/assetler |
+| [SciGA](https://github.com/IyatomiLab/SciGA) [![Star](https://img.shields.io/github/stars/IyatomiLab/SciGA?style=flat&logo=github&label=Star)](https://github.com/IyatomiLab/SciGA/stargazers) | Makaleler/araştırma | Veri seti/benchmark | Grafik özet/infografik / PPT/deck / Web/interaktif sayfa | Yerel runtime / Belge ayrıştırma/OCR / GPU/hızlandırıcı |
+| [AI-Researcher](https://github.com/HKUDS/AI-Researcher) [![Star](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat&logo=github&label=Star)](https://github.com/HKUDS/AI-Researcher/stargazers) | Makaleler/araştırma | Araştırma prototipi | Uzun rapor / Kanıt tablosu | Yerel runtime / Model API / Harici arama/veri / GPU/hızlandırıcı |
+| [Elicit](https://elicit.com/) | Makaleler/araştırma | Ürün/SaaS | Brifing/rapor / Kanıt tablosu | Tarayıcı/hesap / Harici arama/veri |
+| [Paperguide](https://paperguide.ai/) | Makaleler/araştırma | Ürün/SaaS | Brifing/rapor / Kanıt tablosu | Tarayıcı/hesap / Harici arama/veri |
+| [SciSpace Infographic Maker](https://scispace.com/agents/infographic-maker-hbcwetac) | Makaleler/araştırma | Ürün/SaaS | Grafik özet/infografik / PPT/deck / Web/interaktif sayfa | Tarayıcı/hesap / Şablonlar/assetler |
+| [Grabstract](https://grabstract.io/graphical-abstracts) | Makaleler/araştırma | Ürün/SaaS | Grafik özet/infografik / PPT/deck / Web/interaktif sayfa | Tarayıcı/hesap / Şablonlar/assetler |
+| [Open Knowledge Maps](https://openknowledgemaps.org/) | Makaleler/araştırma / Atıf grafiği | Ürün/SaaS | Literatür/bilgi haritası | Tarayıcı/hesap / Harici arama/veri |
+| [Connected Papers](https://www.connectedpapers.com/) | Makaleler/araştırma / Atıf grafiği | Ürün/SaaS | Literatür/bilgi haritası | Tarayıcı/hesap / Harici arama/veri |
+| [ResearchRabbit](https://www.researchrabbit.ai/) | Makaleler/araştırma / Atıf grafiği | Ürün/SaaS | Literatür/bilgi haritası | Tarayıcı/hesap / Harici arama/veri |
+| [Litmaps](https://www.litmaps.com/) | Makaleler/araştırma / Atıf grafiği | Ürün/SaaS | Literatür/bilgi haritası | Tarayıcı/hesap / Harici arama/veri |
+| [Consensus](https://consensus.app/) | Makaleler/araştırma | Ürün/SaaS | Brifing/rapor / Kanıt tablosu | Tarayıcı/hesap / Harici arama/veri |
+
+### Web, haberler ve istihbarat
+
+Web sayfaları, arama sonuçları, haber akışları, piyasa verileri veya tehdit istihbaratından başlayıp kaynaklı raporlar, panolar veya haritalar üreten araçlar.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) [![Star](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&logo=github&label=Star)](https://github.com/assafelovic/gpt-researcher/stargazers) | Web/arama / Haber/istihbarat | Açık kaynak uygulama/framework | Uzun rapor / Atıflı yanıt | Yerel runtime / Model API / Harici arama/veri / Depolama/indeks |
+| [STORM](https://github.com/stanford-oval/storm) [![Star](https://img.shields.io/github/stars/stanford-oval/storm?style=flat&logo=github&label=Star)](https://github.com/stanford-oval/storm/stargazers) | Web/arama / Haber/istihbarat | Açık kaynak uygulama/framework | Uzun rapor / Atıflı yanıt | Yerel runtime / Model API / Harici arama/veri / Depolama/indeks |
+| [Scira](https://github.com/zaidmukaddam/scira) [![Star](https://img.shields.io/github/stars/zaidmukaddam/scira?style=flat&logo=github&label=Star)](https://github.com/zaidmukaddam/scira/stargazers) | Web/arama / Haber/istihbarat | Açık kaynak uygulama/framework / Bot/asistan | Uzun rapor / Atıflı yanıt | Yerel runtime / Model API / Harici arama/veri / Depolama/indeks |
+| [Vane](https://github.com/ItzCrazyKns/Vane) [![Star](https://img.shields.io/github/stars/ItzCrazyKns/Vane?style=flat&logo=github&label=Star)](https://github.com/ItzCrazyKns/Vane/stargazers) | Web/arama / Haber/istihbarat | Açık kaynak uygulama/framework / Bot/asistan | Uzun rapor / Atıflı yanıt | Yerel runtime / Model API / Harici arama/veri / Depolama/indeks |
+| [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | Haber/istihbarat / Veri/tablolar / Web/arama | Açık kaynak uygulama/framework | Uzun rapor / Grafik/pano | Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma |
+| [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | Haber/istihbarat / Veri/tablolar / Web/arama | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma / Depolama/indeks |
+| [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | Haber/istihbarat / Web/arama | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma / Depolama/indeks |
+
+### Belgeler, PDFler ve bilgi tabanları
+
+PDFler, ofis dosyaları, web sayfaları, kişisel belgeler veya ekip bilgi tabanlarından başlayıp brifingler, SSS, çalışma materyalleri veya bilgi haritaları üreten araçlar.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [notex](https://github.com/smallnest/notex) [![Star](https://img.shields.io/github/stars/smallnest/notex?style=flat&logo=github&label=Star)](https://github.com/smallnest/notex/stargazers) | PDF/belgeler / Web/arama / Bilgi tabanı | Açık kaynak uygulama/framework | Brifing/rapor / Zihin haritası/bilgi haritası / Soru-cevap/çalışma materyali | Yerel runtime / Model API / Belge ayrıştırma/OCR / Render/dışa aktarma / Depolama/indeks |
+| [Open Notebook](https://github.com/lfnovo/open-notebook) [![Star](https://img.shields.io/github/stars/lfnovo/open-notebook?style=flat&logo=github&label=Star)](https://github.com/lfnovo/open-notebook/stargazers) | PDF/belgeler / Web/arama / Bilgi tabanı | Açık kaynak uygulama/framework | Brifing/rapor / Zihin haritası/bilgi haritası / Soru-cevap/çalışma materyali | Yerel runtime / Model API / Belge ayrıştırma/OCR / Depolama/indeks |
+| [SurfSense](https://github.com/MODSetter/SurfSense) [![Star](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat&logo=github&label=Star)](https://github.com/MODSetter/SurfSense/stargazers) | PDF/belgeler / Web/arama / Bilgi tabanı | Açık kaynak uygulama/framework | Brifing/rapor / Zihin haritası/bilgi haritası / Soru-cevap/çalışma materyali | Yerel runtime / Model API / Harici arama/veri / Depolama/indeks |
+| [NotebookLM](https://notebooklm.google/) | PDF/belgeler / Web/arama / Bilgi tabanı | Ürün/SaaS / Bot/asistan | Brifing/rapor / Zihin haritası/bilgi haritası / Soru-cevap/çalışma materyali | Tarayıcı/hesap |
+
+### Kod tabanları ve yazılım sistemleri
+
+Depoları, yerel kodu, bağımlılıkları veya diffları mimari diyagramlara, repo wikilerine, kod haritalarına veya bilgi grafiklerine dönüştüren araçlar.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram) [![Star](https://img.shields.io/github/stars/ahmedkhaleel2004/gitdiagram?style=flat&logo=github&label=Star)](https://github.com/ahmedkhaleel2004/gitdiagram/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Tarayıcı/hesap / Model API / Kod analizi |
+| [CodeBoarding](https://github.com/Codeboarding/CodeBoarding) [![Star](https://img.shields.io/github/stars/Codeboarding/CodeBoarding?style=flat&logo=github&label=Star)](https://github.com/Codeboarding/CodeBoarding/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Yerel runtime / Model API / Kod analizi / Render/dışa aktarma / Depolama/indeks |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) [![Star](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat&logo=github&label=Star)](https://github.com/Egonex-AI/Understand-Anything/stargazers) | Kod tabanı | Agent skill | Kod haritası/repo wiki / Mimari/akış diyagramı | Agent host / Yerel runtime / Model API / Kod analizi / Depolama/indeks |
+| [DeepWiki Open](https://github.com/AsyncFuncAI/deepwiki-open) [![Star](https://img.shields.io/github/stars/AsyncFuncAI/deepwiki-open?style=flat&logo=github&label=Star)](https://github.com/AsyncFuncAI/deepwiki-open/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Yerel runtime / Model API / Kod analizi / Render/dışa aktarma |
+| [PocketFlow Tutorial Kod tabanı Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Kod tabanı-Knowledge) [![Star](https://img.shields.io/github/stars/The-Pocket/PocketFlow-Tutorial-Kod tabanı-Knowledge?style=flat&logo=github&label=Star)](https://github.com/The-Pocket/PocketFlow-Tutorial-Kod tabanı-Knowledge/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Yerel runtime / Model API / Kod analizi / Render/dışa aktarma |
+| [GitVizz](https://github.com/adithya-s-k/GitVizz) [![Star](https://img.shields.io/github/stars/adithya-s-k/GitVizz?style=flat&logo=github&label=Star)](https://github.com/adithya-s-k/GitVizz/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Tarayıcı/hesap / Model API / Kod analizi / Render/dışa aktarma |
+| [codeflow](https://github.com/braedonsaunders/codeflow) [![Star](https://img.shields.io/github/stars/braedonsaunders/codeflow?style=flat&logo=github&label=Star)](https://github.com/braedonsaunders/codeflow/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Tarayıcı/hesap / Model API / Kod analizi / Render/dışa aktarma |
+| [oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) [![Star](https://img.shields.io/github/stars/oh-my-mermaid/oh-my-mermaid?style=flat&logo=github&label=Star)](https://github.com/oh-my-mermaid/oh-my-mermaid/stargazers) | Kod tabanı | Agent skill | Kod haritası/repo wiki / Mimari/akış diyagramı | Agent host / Model API / Kod analizi / Render/dışa aktarma |
+| [codag-visualizer](https://github.com/codag-megalith/codag-visualizer) [![Star](https://img.shields.io/github/stars/codag-megalith/codag-visualizer?style=flat&logo=github&label=Star)](https://github.com/codag-megalith/codag-visualizer/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Yerel runtime / Kod analizi / Render/dışa aktarma |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) [![Star](https://img.shields.io/github/stars/DeusData/codebase-memory-mcp?style=flat&logo=github&label=Star)](https://github.com/DeusData/codebase-memory-mcp/stargazers) | Kod tabanı | MCP server | Kod haritası/repo wiki / Mimari/akış diyagramı | MCP client / Yerel runtime / Kod analizi / Depolama/indeks |
+| [CodeAtlas](https://github.com/lucyb0207/CodeAtlas) [![Star](https://img.shields.io/github/stars/lucyb0207/CodeAtlas?style=flat&logo=github&label=Star)](https://github.com/lucyb0207/CodeAtlas/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Yerel runtime / Kod analizi / Render/dışa aktarma |
+| [devlensOSS](https://github.com/devlensio/devlensOSS) [![Star](https://img.shields.io/github/stars/devlensio/devlensOSS?style=flat&logo=github&label=Star)](https://github.com/devlensio/devlensOSS/stargazers) | Kod tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı | Yerel runtime / Kod analizi / Render/dışa aktarma |
+| [Visual-Explainer](https://github.com/jircik/Visual-Explainer) [![Star](https://img.shields.io/github/stars/jircik/Visual-Explainer?style=flat&logo=github&label=Star)](https://github.com/jircik/Visual-Explainer/stargazers) | Kod tabanı | Agent skill | Kod haritası/repo wiki / Mimari/akış diyagramı | Agent host / Model API / Kod analizi / Render/dışa aktarma |
+| [codemap-skill](https://github.com/Asixa/codemap-skill) [![Star](https://img.shields.io/github/stars/Asixa/codemap-skill?style=flat&logo=github&label=Star)](https://github.com/Asixa/codemap-skill/stargazers) | Kod tabanı | Agent skill | Kod haritası/repo wiki / Mimari/akış diyagramı | Agent host / Model API / Kod analizi |
+| [DeepWiki](https://docs.devin.ai/work-with-devin/deepwiki) | Kod tabanı | Ürün/SaaS | Kod haritası/repo wiki / Mimari/akış diyagramı | Tarayıcı/hesap / Kod analizi |
+| [CodeSee](https://www.codesee.io/) | Kod tabanı | Ürün/SaaS | Kod haritası/repo wiki / Mimari/akış diyagramı | Tarayıcı/hesap / Kod analizi |
+
+### Veri, tablolar ve iş metrikleri
+
+Tools that turn CSVs, databases, metrics, or business data into charts, dashboards, or analytical reports.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
+| [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
+| [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | Veri/tablolar / Veritabanı | Araştırma prototipi | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
+| [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
+| [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma / Depolama/indeks |
+| [OpenBI](https://github.com/narender-rk10/OpenBI) [![Star](https://img.shields.io/github/stars/narender-rk10/OpenBI?style=flat&logo=github&label=Star)](https://github.com/narender-rk10/OpenBI/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Harici arama/veri / Depolama/indeks / Render/dışa aktarma |
+
+### Genel metin, fikirler ve beyaz tahta görselleri
+
+Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | Metin/fikirler / PDF/belgeler / Veri/tablolar | Skill koleksiyonu | İnfografik/görsel rapor / Uzun rapor | Agent host / Model API / Yerel runtime / Render/dışa aktarma |
+| [Piktochart AI](https://piktochart.com/generative-ai/) | Metin/fikirler / PDF/belgeler / Veri/tablolar | Ürün/SaaS | İnfografik/görsel rapor / Uzun rapor | Tarayıcı/hesap / Şablonlar/assetler |
+| [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | Metin/fikirler / PDF/belgeler / Veri/tablolar | Ürün/SaaS | İnfografik/görsel rapor / Uzun rapor | Tarayıcı/hesap / Şablonlar/assetler |
+| [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | Metin/fikirler / PDF/belgeler / Veri/tablolar | Ürün/SaaS | İnfografik/görsel rapor / Uzun rapor | Tarayıcı/hesap / Şablonlar/assetler |
+| [Jeda AI Infographic Generator](https://www.jeda.ai/ai-infographic-generator) | Metin/fikirler / PDF/belgeler / Veri/tablolar | Ürün/SaaS | İnfografik/görsel rapor / Uzun rapor | Tarayıcı/hesap / Belge ayrıştırma/OCR / Şablonlar/assetler |
+| [Infogram](https://infogram.com/) | Metin/fikirler / PDF/belgeler / Veri/tablolar | Ürün/SaaS | İnfografik/görsel rapor / Uzun rapor | Tarayıcı/hesap / Harici arama/veri / Şablonlar/assetler |
+| [Napkin AI](https://www.napkin.ai/) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [Eraser AI](https://www.eraser.io/ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Render/dışa aktarma |
+| [Whimsical AI](https://whimsical.com/ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+
+### Sunumlar ve çok kaynaklı içerik
+
+Tools that turn text, documents, web pages, research material, or outlines into decks, or let agents generate/edit presentations.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework | PPT/deck | Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework / API/SDK/kütüphane | PPT/deck | Yerel runtime / Model API / Render/dışa aktarma / MCP client / Şablonlar/assetler |
+| [PPTAgent](https://github.com/icip-cas/PPTAgent) [![Star](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=flat&logo=github&label=Star)](https://github.com/icip-cas/PPTAgent/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Araştırma prototipi | PPT/deck | Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [presentation-ai](https://github.com/allweonedev/presentation-ai) [![Star](https://img.shields.io/github/stars/allweonedev/presentation-ai?style=flat&logo=github&label=Star)](https://github.com/allweonedev/presentation-ai/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework | PPT/deck | Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [slide-deck-ai](https://github.com/barun-saha/slide-deck-ai) [![Star](https://img.shields.io/github/stars/barun-saha/slide-deck-ai?style=flat&logo=github&label=Star)](https://github.com/barun-saha/slide-deck-ai/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework | PPT/deck | Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [odin-slides](https://github.com/leonid20000/odin-slides) [![Star](https://img.shields.io/github/stars/leonid20000/odin-slides?style=flat&logo=github&label=Star)](https://github.com/leonid20000/odin-slides/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework | PPT/deck | Yerel runtime / Model API / Belge ayrıştırma/OCR / Render/dışa aktarma / Sistem araçları |
+| [ppt-agents](https://github.com/chenxingqiang/ppt-agents) [![Star](https://img.shields.io/github/stars/chenxingqiang/ppt-agents?style=flat&logo=github&label=Star)](https://github.com/chenxingqiang/ppt-agents/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework | PPT/deck | Agent host / Yerel runtime / Model API / Render/dışa aktarma |
+| [deckdown](https://github.com/adityachauhan0/deckdown) [![Star](https://img.shields.io/github/stars/adityachauhan0/deckdown?style=flat&logo=github&label=Star)](https://github.com/adityachauhan0/deckdown/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Açık kaynak uygulama/framework | PPT/deck | Yerel runtime / Render/dışa aktarma |
+| [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) [![Star](https://img.shields.io/github/stars/GongRzhe/Office-PowerPoint-MCP-Server?style=flat&logo=github&label=Star)](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | MCP server | PPT/deck | MCP client / Yerel runtime / Render/dışa aktarma / Sistem araçları |
+| [pptx-from-layouts-skill](https://github.com/tristan-mcinnis/pptx-from-layouts-skill) [![Star](https://img.shields.io/github/stars/tristan-mcinnis/pptx-from-layouts-skill?style=flat&logo=github&label=Star)](https://github.com/tristan-mcinnis/pptx-from-layouts-skill/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Agent skill | PPT/deck | Agent host / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
+| [hands-on-deck](https://github.com/EveryInc/hands-on-deck) [![Star](https://img.shields.io/github/stars/EveryInc/hands-on-deck?style=flat&logo=github&label=Star)](https://github.com/EveryInc/hands-on-deck/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Agent skill | PPT/deck | Agent host / Yerel runtime / Render/dışa aktarma |
+| [agent-slides](https://github.com/mpuig/agent-slides) [![Star](https://img.shields.io/github/stars/mpuig/agent-slides?style=flat&logo=github&label=Star)](https://github.com/mpuig/agent-slides/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Agent skill | PPT/deck | Agent host / Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill) [![Star](https://img.shields.io/github/stars/kdnsna/ultimate-ppt-master-skill?style=flat&logo=github&label=Star)](https://github.com/kdnsna/ultimate-ppt-master-skill/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Agent skill | PPT/deck | Agent host / Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) [![Star](https://img.shields.io/github/stars/ningzimu/codex-ppt-skill?style=flat&logo=github&label=Star)](https://github.com/ningzimu/codex-ppt-skill/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Agent skill | PPT/deck | Agent host / Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [presentation-skills](https://github.com/pamelafox/presentation-skills) [![Star](https://img.shields.io/github/stars/pamelafox/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/pamelafox/presentation-skills/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Skill koleksiyonu | PPT/deck | Agent host / Yerel runtime / Render/dışa aktarma |
+| [anthropics/skills](https://github.com/anthropics/skills) [![Star](https://img.shields.io/github/stars/anthropics/skills?style=flat&logo=github&label=Star)](https://github.com/anthropics/skills/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Skill koleksiyonu | PPT/deck | Agent host / Yerel runtime / Belge ayrıştırma/OCR / Render/dışa aktarma |
+| [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) [![Star](https://img.shields.io/github/stars/MiniMax-AI/skills?style=flat&logo=github&label=Star)](https://github.com/MiniMax-AI/skills/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | Skill koleksiyonu | PPT/deck | Agent host / Yerel runtime / Model API / Render/dışa aktarma |
+| [Gamma](https://gamma.app/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [SlideSpeak](https://slidespeak.co/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Belge ayrıştırma/OCR / Şablonlar/assetler |
+| [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [Presentations.AI](https://www.presentations.ai/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Belge ayrıştırma/OCR / Şablonlar/assetler |
+| [Beautiful.ai](https://www.beautiful.ai/presentation-maker) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [Decktopus](https://www.decktopus.com/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [PPT.AI](https://ppt.ai/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Belge ayrıştırma/OCR / Şablonlar/assetler |
+| [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS / Bot/asistan | PPT/deck | Tarayıcı/hesap / Sistem araçları / Şablonlar/assetler |
+| [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+
+## Destekleyici, ön/son işleme araçları
+
+This section contains smaller, lower-level, or more specialized tools. They may not cover a full content production workflow by themselves, but they are often key components inside agent workflows.
+
+### PDF, belge ayrıştırma ve yapılandırılmış çıkarım
+
+PDFleri, makaleleri, Office dosyalarını veya taramaları Markdown, JSON, düzen, tablo veya OCR sonuçlarına dönüştüren ön işleme araçları.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [MinerU](https://github.com/opendatalab/MinerU) [![Star](https://img.shields.io/github/stars/opendatalab/MinerU?style=flat&logo=github&label=Star)](https://github.com/opendatalab/MinerU/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR / GPU/hızlandırıcı |
+| [Docling](https://github.com/docling-project/docling) [![Star](https://img.shields.io/github/stars/docling-project/docling?style=flat&logo=github&label=Star)](https://github.com/docling-project/docling/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR |
+| [Marker](https://github.com/datalab-to/marker) [![Star](https://img.shields.io/github/stars/datalab-to/marker?style=flat&logo=github&label=Star)](https://github.com/datalab-to/marker/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR / GPU/hızlandırıcı |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) [![Star](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat&logo=github&label=Star)](https://github.com/Unstructured-IO/unstructured/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR |
+| [GROBID](https://github.com/grobidOrg/grobid) [![Star](https://img.shields.io/github/stars/grobidOrg/grobid?style=flat&logo=github&label=Star)](https://github.com/grobidOrg/grobid/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Sistem araçları / Belge ayrıştırma/OCR |
+| [PaperMage](https://github.com/allenai/papermage) [![Star](https://img.shields.io/github/stars/allenai/papermage?style=flat&logo=github&label=Star)](https://github.com/allenai/papermage/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | API/SDK/kütüphane | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR |
+| [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) [![Star](https://img.shields.io/github/stars/allenai/s2orc-doc2json?style=flat&logo=github&label=Star)](https://github.com/allenai/s2orc-doc2json/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR |
+
+### Odaklı zihin haritası araçları
+
+Belgeleri, web sayfalarını, videoları, tehdit istihbaratını veya metni zihin haritalarına dönüştüren daha küçük ve odaklı araçlar.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [TI-Mindmap-GPT](https://github.com/format81/TI-Mindmap-GPT) [![Star](https://img.shields.io/github/stars/format81/TI-Mindmap-GPT?style=flat&logo=github&label=Star)](https://github.com/format81/TI-Mindmap-GPT/stargazers) | Haber/istihbarat / Web/arama / PDF/belgeler | Açık kaynak uygulama/framework | Zihin haritası/bilgi haritası / Uzun rapor / Tablolar/zaman çizelgesi | Yerel runtime / Model API / Belge ayrıştırma/OCR / Render/dışa aktarma / Harici arama/veri |
+| [mindmap-generator](https://github.com/Dicklesworthstone/mindmap-generator) [![Star](https://img.shields.io/github/stars/Dicklesworthstone/mindmap-generator?style=flat&logo=github&label=Star)](https://github.com/Dicklesworthstone/mindmap-generator/stargazers) | PDF/belgeler / Web/arama / Bilgi tabanı | Açık kaynak uygulama/framework | Zihin haritası/bilgi haritası | Yerel runtime / Model API / Belge ayrıştırma/OCR / Render/dışa aktarma |
+| [Mapify](https://mapify.so/) | PDF/belgeler / Web/arama / Bilgi tabanı | Ürün/SaaS | Zihin haritası/bilgi haritası | Tarayıcı/hesap / Belge ayrıştırma/OCR / Şablonlar/assetler |
+
+### Diyagram, Mermaid ve render bileşenleri
+
+Agentların Mermaid, SVG, PNG, PDF ve diyagram çıktıları üretmesine, doğrulamasına veya dışa aktarmasına yardımcı olan son işleme ve render araçları.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [Mermaid](https://github.com/mermaid-js/mermaid) [![Star](https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&logo=github&label=Star)](https://github.com/mermaid-js/mermaid/stargazers) | DSL/kod | API/SDK/kütüphane | Diyagram/Mermaid / SVG/PNG/PDF | Render/dışa aktarma |
+| [mermaid-js-ai-agent](https://github.com/disler/mermaid-js-ai-agent) [![Star](https://img.shields.io/github/stars/disler/mermaid-js-ai-agent?style=flat&logo=github&label=Star)](https://github.com/disler/mermaid-js-ai-agent/stargazers) | Metin/fikirler / Kod/teknik metin | Açık kaynak uygulama/framework | Diyagram/Mermaid / SVG/PNG/PDF | Yerel runtime / Model API / Render/dışa aktarma |
+| [mermaid-skill](https://github.com/Agents365-ai/mermaid-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/mermaid-skill/stargazers) | Metin/fikirler / Kod/teknik metin | Agent skill | Diyagram/Mermaid / SVG/PNG/PDF | Agent host / Yerel runtime / Model API / Render/dışa aktarma |
+| [Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills) [![Star](https://img.shields.io/github/stars/imxv/Pretty-mermaid-skills?style=flat&logo=github&label=Star)](https://github.com/imxv/Pretty-mermaid-skills/stargazers) | Metin/fikirler / Kod/teknik metin | Agent skill | Diyagram/Mermaid / SVG/PNG/PDF | Agent host / Yerel runtime / Render/dışa aktarma |
+| [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | Metin/fikirler / Kod/teknik metin | Skill koleksiyonu | Diyagram/Mermaid / SVG/PNG/PDF | Agent host / Model API / Render/dışa aktarma |
+| [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/kod | API/SDK/kütüphane | Diyagram/Mermaid / SVG/PNG/PDF | Yerel runtime / Render/dışa aktarma |
+| [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | Metin/fikirler / Kod/teknik metin | Araştırma prototipi | Diyagram/Mermaid / SVG/PNG/PDF | Yerel runtime / Model API / Render/dışa aktarma |
+
+## Araç nasıl seçilir
+
+### Bilgi kaynağı
+
+| Bilgi kaynağı | Anlamı |
+| --- | --- |
+| Makaleler/araştırma | Papers, arXiv links, academic PDFs, research topics, and experimental results. |
+| PDF/belgeler | PDFs, long documents, manuals, reports, and exported documents. |
+| Office belgeleri | Word, PowerPoint, Excel, and other office files. |
+| Web/arama | Web pages, URLs, search results, extracted page text, and cited sources. |
+| Haber/istihbarat | News streams, market intelligence, threat intelligence, and industry updates. |
+| Kod tabanı | GitHub repositories, local code, diffs, dependencies, and symbols. |
+| Veri/tablolar | CSV, Excel, metrics, time series, and business data. |
+| Veritabanı | SQL/BI sources, business databases, vector stores, or external data APIs. |
+| Bilgi tabanı | Notion, Google Drive, Slack, meeting notes, and personal/team documents. |
+| Metin/fikirler | Prompts, outlines, drafts, whiteboard ideas, and notes. |
+| Kod/teknik metin | Code snippets, API descriptions, and system-design text. |
+| DSL/kod | Mermaid, diagram DSLs, configuration, and executable drawing code. |
+| Atıf grafiği | Paper citation relations, related-paper networks, and literature graphs. |
+| Herhangi/çok kaynaklı | General tools that work across multiple source types. |
+
+### Araç türü
+
+| Araç türü | Anlamı |
+| --- | --- |
+| Ürün/SaaS | Hosted website or commercial product, usually browser/account based. |
+| Açık kaynak uygulama/framework | Runnable or deployable application/framework. |
+| Agent skill | Workflow package for Claude Code, Codex, Cursor, Gemini CLI, or similar agents. |
+| Skill koleksiyonu | Repository or suite containing multiple agent skills. |
+| MCP server | Model Context Protocol server exposing files, slides, code, or data capabilities to agents. |
+| API/SDK/kütüphane | Parser, renderer, generator, or data interface called by other tools. |
+| Bot/asistan | Chat/search assistant, browser extension, or collaboration assistant. |
+| Araştırma prototipi/veri seti | Paper, benchmark, dataset, or research code. |
+| Awesome/indeks | Directory for discovering tools, papers, and skills. |
+
+### Çıktı
+
+| Çıktı | Anlamı |
+| --- | --- |
+| PPT/deck | PPTX, slides, decks, templates, and presentation masters. |
+| Uzun rapor | Cited research reports, market reports, and analytical documents. |
+| Brifing/rapor | Summaries, briefings, study guides, and Q&A material. |
+| Web/interaktif sayfa | HTML, interactive tutorials, explainers, and shareable pages. |
+| Grafik özet/infografik | Graphical abstracts, infographics, posters, and scientific schematics. |
+| İnfografik/görsel rapor | Business infographics, visual reports, and branded summaries. |
+| Mimari/akış diyagramı | Mermaid, flowcharts, sequence diagrams, system diagrams, and whiteboards. |
+| Beyaz tahta/zihin haritası | Whiteboards, freeform canvases, and divergent visual maps. |
+| Zihin haritası/bilgi haritası | Mind maps, concept maps, and knowledge networks. |
+| Literatür/bilgi haritası | Literature maps, related-paper graphs, and research knowledge maps. |
+| Grafik/pano | Charts, BI dashboards, KPIs, and interactive data views. |
+| Tablolar/zaman çizelgesi | Kanıt tablosus, IOC tables, event timelines, and comparison tables. |
+| Kod haritası/repo wiki | Repository maps, repo wikis, dependency graphs, and code knowledge graphs. |
+| Diyagram/Mermaid | Mermaid, diagrams-as-code, and verifiable diagram text. |
+| SVG/PNG/PDF | Rendered images, vector graphics, or exported files. |
+| Video/ses | Paper videos, narrated explainers, and audio briefings. |
+| Yapılandırılmış veri/Markdown | Markdown, JSON, layout, tables, and OCR outputs for downstream generation. |
+| Kanıt tablosu | Paper screening tables, evidence matrices, and citation tables. |
+| Atıflı yanıt | Source-grounded answers or search-result synthesis. |
+| Soru-cevap/çalışma materyali | Notebook Q&A, quizzes, and study guides. |
+| Araç indeksi | Awesome lists, tool directories, and paper lists. |
+| Render edilmiş grafik | Visual output from renderers or chart components. |
+
+### Bağımlılık türleri
+
+`Bağımlılıklar` describe what a tool needs to run. They are separate from the source, tool, and output tags: those tags answer “where does the information come from, what is the tool, and what does it produce”; dependency tags answer “what does it need”.
+
+| Bağımlılık | Anlamı | Yaygın örnekler |
+| --- | --- | --- |
+| Tarayıcı/hesap | Browser and account based; usually no local installation. | Google account, Canva account, SaaS plan |
+| Agent host | Needs an agent environment to execute a skill/workflow. | Claude Code, Codex, Cursor, Gemini CLI, OpenCode |
+| Model API | Calls text, vision, or image model APIs. | OpenAI, Anthropic, Gemini, OpenRouter, Azure OpenAI, Replicate |
+| Yerel runtime | Needs local runtimes and package managers. | Python, Node.js, Go, Rust, Java, Conda, uv, pnpm |
+| Sistem araçları | Depends on local binaries or office software. | Docker, LibreOffice, Microsoft PowerPoint, Pandoc, LaTeX, Chrome |
+| Belge ayrıştırma/OCR | Needs PDF parsing, OCR, layout recovery, or document structure extraction. | MinerU, Docling, Marker, GROBID, Tesseract, layout models |
+| Render/dışa aktarma | Renders intermediate formats into SVG, PNG, PDF, PPTX, or web pages. | Mermaid, Kroki, Playwright, python-pptx, pptxgenjs, SVG renderer |
+| Harici arama/veri | Needs web search, paper databases, citation networks, or data APIs. | arXiv, Semantic Scholar, OpenAlex, Google Scholar, web search |
+| GPU/hızlandırıcı | Local model inference, OCR, vision, or image generation may need acceleration. | CUDA, ROCm, Apple Metal/MPS, cloud GPU |
+| MCP client | Needs a client that can connect to MCP servers. | Claude Desktop, Cursor, Codex, Cline, Continue |
+| Kod analizi | Parses files, symbols, dependencies, and repository structure. | tree-sitter, language servers, ripgrep, ctags, Git |
+| Depolama/indeks | Persists state, vector indexes, or graphs. | SQLite, Postgres, Chroma, Qdrant, Neo4j, file index |
+| Şablonlar/assetler | Needs templates, brand assets, or design resources for high-quality output. | PPTX template, slide master, brand kit, icons, image assets |
+
+Star badges are shown next to GitHub project names where available. Non-GitHub products do not show a star badge.
+
+## Daha fazla araç bul
+
+Bunlar awesome listeleri, makale listeleri, skill kayıtları ve MCP dizinleridir. Tekil üretim araçları değildir, ancak bu depoyu genişletmek için yararlıdır.
+
+| Proje | Kapsam | Araç türü | Bulmak için yararlı |
+| --- | --- | --- | --- |
+| [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) [![Star](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=flat&logo=github&label=Star)](https://github.com/VoltAgent/awesome-agent-skills/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Large agent skill directory. |
+| [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) [![Star](https://img.shields.io/github/stars/Prat011/awesome-llm-skills?style=flat&logo=github&label=Star)](https://github.com/Prat011/awesome-llm-skills/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Cross-agent LLM skills list. |
+| [Awesome-Powerpoint-AI-Agents](https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents) [![Star](https://img.shields.io/github/stars/ishandutta2007/Awesome-Powerpoint-AI-Agents?style=flat&logo=github&label=Star)](https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Directly similar PowerPoint AI agents ecosystem list. |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) [![Star](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat&logo=github&label=Star)](https://github.com/punkpeye/awesome-mcp-servers/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Large MCP server directory. |
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) [![Star](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat&logo=github&label=Star)](https://github.com/hesreallyhim/awesome-claude-code/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Claude Code skill, hook, slash-command, app, and plugin index. |
+| [awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) [![Star](https://img.shields.io/github/stars/jim-schwoebel/awesome_ai_agents?style=flat&logo=github&label=Star)](https://github.com/jim-schwoebel/awesome_ai_agents/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Broad AI agent resources. |
+| [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) [![Star](https://img.shields.io/github/stars/mahseema/awesome-ai-tools?style=flat&logo=github&label=Star)](https://github.com/mahseema/awesome-ai-tools/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Broad AI tools list. |
+| [awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research) [![Star](https://img.shields.io/github/stars/worldbench/awesome-ai-auto-research?style=flat&logo=github&label=Star)](https://github.com/worldbench/awesome-ai-auto-research/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | AI auto-research landscape, including paper-to-slides, posters, videos, websites, and social outputs. |
+| [LLM-Visualization-Paper-List](https://github.com/zengxingchen/LLM-Visualization-Paper-List) [![Star](https://img.shields.io/github/stars/zengxingchen/LLM-Visualization-Paper-List?style=flat&logo=github&label=Star)](https://github.com/zengxingchen/LLM-Visualization-Paper-List/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Paper list for visualization meets LLM. |
+| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) [![Star](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat&logo=github&label=Star)](https://github.com/ai-boost/awesome-ai-for-science/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Broad AI-for-science tool, paper, dataset, and framework index. |
+| [AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) [![Star](https://img.shields.io/github/stars/AlterLab-IEU/AlterLab-Academic-Skills?style=flat&logo=github&label=Star)](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills/stargazers) | Herhangi/çok kaynaklı | Skill koleksiyonu | Evaluated academic agent skills including visualization, reports, writing, and research pipelines. |
+| [SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) [![Star](https://img.shields.io/github/stars/OpenSenseNova/SenseNova-Skills?style=flat&logo=github&label=Star)](https://github.com/OpenSenseNova/SenseNova-Skills/stargazers) | Herhangi/çok kaynaklı | Skill koleksiyonu | Office and productivity skills covering image generation, visualization, slide decks, Excel analysis, and deep research. |
+| [TransformingScienceLLMs](https://github.com/NL2G/TransformingScienceLLMs) [![Star](https://img.shields.io/github/stars/NL2G/TransformingScienceLLMs?style=flat&logo=github&label=Star)](https://github.com/NL2G/TransformingScienceLLMs/stargazers) | Herhangi/çok kaynaklı | Awesome/indeks | Collection of papers, AI models, and tools for LLM-assisted scientific work. |
+
+## Veri
+
+The structured catalog lives in [data/catalog.yml](data/catalog.yml). It includes information-source tags, tool-form tags, output-artifact tags, dependency tags, category, GitHub star snapshots, license, update date, and short notes.
+
+The research cache lives in [data/tool-research.yml](data/tool-research.yml). It stores official examples, docs, demos, templates, papers, videos, and other discovery links; it is not rendered directly into the README.
+
+The search trail and query strategy live in [docs/search-log.md](docs/search-log.md).
+
+## Katkı
+
+Contributions are welcome. For a new entry, please include:
+
+- Proje name and URL.
+- Bilgi kaynağı, for example `Makaleler/araştırma`, `Web/arama`, `Haber/istihbarat`, `PDF/belgeler`, `Kod tabanı`, or `Veri/tablolar`.
+- Araç türü, for example `Ürün/SaaS`, `Açık kaynak uygulama/framework`, `Agent skill`, `MCP server`, `API/SDK/kütüphane`, or `Bot/asistan`.
+- Çıktı, for example `PPT/deck`, `Uzun rapor`, `Web/interaktif sayfa`, `Zihin haritası/bilgi haritası`, or `Grafik/pano`.
+- Dependency types from the table above, for example `Model API`, `Render/dışa aktarma`, or `Şablonlar/assetler`.
+- One sentence explaining why the project belongs here.
+
+Prefer tools that produce artifacts people can inspect, edit, cite, present, or use to understand a complex system.

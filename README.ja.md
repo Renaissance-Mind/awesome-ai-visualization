@@ -1,0 +1,342 @@
+![AI visualization banner](assets/banner.png)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Catalog](https://img.shields.io/badge/catalog-120_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--14-brightgreen)](docs/search-log.md)
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
+
+> [!NOTE]
+> このプロジェクトは RenaissanceMind Agent の支援で自動更新されています。ツールのメタデータ、スター数、ライセンス、利用条件は変わる可能性があるため、利用前に公式サイトまたはリポジトリを確認してください。
+
+論文、ニュース、Webページ、文書、コードベース、データ、知識コレクションを、人が読めるビジュアル資料やプレゼンテーション成果物へ変換する AI / Agent ツールのキュレーションです。
+
+このカタログは **情報源**、**ツール形態**、**出力形式**、**依存タイプ** でタグ付けしています。スライドは出力の一つにすぎず、多くのツールはレポート、Webページ、図、マインドマップ、ダッシュボード、コードマップも生成します。
+
+一部のプロジェクト名、公式用語、短い説明は、検索性と原典との対応を保つため英語のまま残しています。
+
+## ✨ 推奨される使い方
+
+| 読者 | 推奨 |
+| --- | --- |
+| 🤖 Agent 向け | [`ai-visualization-advisor`](skills/ai-visualization-advisor/SKILL.md) skill をインストール/有効化し、ユーザーの情報源、読者、制約に基づいて出力形式とツールを提案させてください。まず [`data/catalog.yml`](data/catalog.yml) と [`data/tool-research.yml`](data/tool-research.yml) を読む想定です。 |
+| 👤 人間向け | この README を読むか、[awesome-ai-visualization.renaissancemind.ai](https://awesome-ai-visualization.renaissancemind.ai/)（推奨）でツールを閲覧・絞り込みしてください。 |
+
+## 目次
+
+- [メインワークフローツール](#メインワークフローツール)
+- [補助・前処理/後処理ツール](#補助前処理後処理ツール)
+- [ツールの選び方](#ツールの選び方)
+- [さらにツールを探す](#さらにツールを探す)
+- [データ](#データ)
+- [コントリビューション](#コントリビューション)
+
+## メインワークフローツール
+
+このセクションは、情報源を人が読み、確認し、発表し、共有できる成果物へ直接変換するツールを収録しています。各行は主要なタグで分類されています。
+
+### 論文・研究・学術探索
+
+論文、研究テーマ、学術コーパスから出発し、解説、レポート、マップ、図、コミュニケーション用成果物を生成するツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [Paper2Any](https://github.com/OpenDCAI/Paper2Any) [![Star](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=flat&logo=github&label=Star)](https://github.com/OpenDCAI/Paper2Any/stargazers) | 論文/研究 | オープンソースアプリ/フレームワーク | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート / GPU/アクセラレータ / テンプレート/素材 |
+| [paper-2-web](https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/paper-2-web/SKILL.md?plain=1) [![Star](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat&logo=github&label=Star)](https://github.com/davila7/claude-code-templates/stargazers) | 論文/研究 | Agent Skill | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [paper-to-course](https://github.com/ZeroxZhang/paper-to-course) [![Star](https://img.shields.io/github/stars/ZeroxZhang/paper-to-course?style=flat&logo=github&label=Star)](https://github.com/ZeroxZhang/paper-to-course/stargazers) | 論文/研究 | Agent Skill | Web/インタラクティブページ / Q&A/学習資料 | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート |
+| [Auto-Research-In-Sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) [![Star](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=flat&logo=github&label=Star)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/stargazers) | 論文/研究 | Skill 集合 | 長文レポート / エビデンステーブル | Agent ホスト / モデル API / ローカル実行環境 / システムツール / レンダリング/エクスポート / テンプレート/素材 |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) [![Star](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/scientific-agent-skills/stargazers) | 論文/研究 | Skill 集合 | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | Agent ホスト / モデル API / 外部検索/データ / レンダリング/エクスポート |
+| [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) [![Star](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-writer?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/claude-scientific-writer/stargazers) | 論文/研究 | Agent Skill | 長文レポート / エビデンステーブル | Agent ホスト / モデル API / 外部検索/データ / テンプレート/素材 |
+| [SciGA](https://github.com/IyatomiLab/SciGA) [![Star](https://img.shields.io/github/stars/IyatomiLab/SciGA?style=flat&logo=github&label=Star)](https://github.com/IyatomiLab/SciGA/stargazers) | 論文/研究 | データセット/ベンチマーク | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | ローカル実行環境 / 文書解析/OCR / GPU/アクセラレータ |
+| [AI-Researcher](https://github.com/HKUDS/AI-Researcher) [![Star](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat&logo=github&label=Star)](https://github.com/HKUDS/AI-Researcher/stargazers) | 論文/研究 | 研究プロトタイプ | 長文レポート / エビデンステーブル | ローカル実行環境 / モデル API / 外部検索/データ / GPU/アクセラレータ |
+| [Elicit](https://elicit.com/) | 論文/研究 | 製品/SaaS | ブリーフィング/レポート / エビデンステーブル | ブラウザ/アカウント / 外部検索/データ |
+| [Paperguide](https://paperguide.ai/) | 論文/研究 | 製品/SaaS | ブリーフィング/レポート / エビデンステーブル | ブラウザ/アカウント / 外部検索/データ |
+| [SciSpace Infographic Maker](https://scispace.com/agents/infographic-maker-hbcwetac) | 論文/研究 | 製品/SaaS | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | ブラウザ/アカウント / テンプレート/素材 |
+| [Grabstract](https://grabstract.io/graphical-abstracts) | 論文/研究 | 製品/SaaS | グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / Web/インタラクティブページ | ブラウザ/アカウント / テンプレート/素材 |
+| [Open Knowledge Maps](https://openknowledgemaps.org/) | 論文/研究 / 引用グラフ | 製品/SaaS | 文献/知識マップ | ブラウザ/アカウント / 外部検索/データ |
+| [Connected Papers](https://www.connectedpapers.com/) | 論文/研究 / 引用グラフ | 製品/SaaS | 文献/知識マップ | ブラウザ/アカウント / 外部検索/データ |
+| [ResearchRabbit](https://www.researchrabbit.ai/) | 論文/研究 / 引用グラフ | 製品/SaaS | 文献/知識マップ | ブラウザ/アカウント / 外部検索/データ |
+| [Litmaps](https://www.litmaps.com/) | 論文/研究 / 引用グラフ | 製品/SaaS | 文献/知識マップ | ブラウザ/アカウント / 外部検索/データ |
+| [Consensus](https://consensus.app/) | 論文/研究 | 製品/SaaS | ブリーフィング/レポート / エビデンステーブル | ブラウザ/アカウント / 外部検索/データ |
+
+### Web・ニュース・インテリジェンス
+
+Webページ、検索結果、ニュース、マーケットデータ、脅威インテリジェンスから、根拠付きレポート、ダッシュボード、マップを生成するツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) [![Star](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&logo=github&label=Star)](https://github.com/assafelovic/gpt-researcher/stargazers) | Web/検索 / ニュース/インテリジェンス | オープンソースアプリ/フレームワーク | 長文レポート / 引用付き回答 | ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 |
+| [STORM](https://github.com/stanford-oval/storm) [![Star](https://img.shields.io/github/stars/stanford-oval/storm?style=flat&logo=github&label=Star)](https://github.com/stanford-oval/storm/stargazers) | Web/検索 / ニュース/インテリジェンス | オープンソースアプリ/フレームワーク | 長文レポート / 引用付き回答 | ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 |
+| [Scira](https://github.com/zaidmukaddam/scira) [![Star](https://img.shields.io/github/stars/zaidmukaddam/scira?style=flat&logo=github&label=Star)](https://github.com/zaidmukaddam/scira/stargazers) | Web/検索 / ニュース/インテリジェンス | オープンソースアプリ/フレームワーク / Bot/アシスタント | 長文レポート / 引用付き回答 | ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 |
+| [Vane](https://github.com/ItzCrazyKns/Vane) [![Star](https://img.shields.io/github/stars/ItzCrazyKns/Vane?style=flat&logo=github&label=Star)](https://github.com/ItzCrazyKns/Vane/stargazers) | Web/検索 / ニュース/インテリジェンス | オープンソースアプリ/フレームワーク / Bot/アシスタント | 長文レポート / 引用付き回答 | ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 |
+| [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | ニュース/インテリジェンス / データ/表 / Web/検索 | オープンソースアプリ/フレームワーク | 長文レポート / チャート/ダッシュボード | ローカル実行環境 / モデル API / 外部検索/データ / レンダリング/エクスポート |
+| [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | ニュース/インテリジェンス / データ/表 / Web/検索 | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / 外部検索/データ / レンダリング/エクスポート / ストレージ/索引 |
+| [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | ニュース/インテリジェンス / Web/検索 | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / 外部検索/データ / レンダリング/エクスポート / ストレージ/索引 |
+
+### 文書・PDF・ナレッジベース
+
+PDF、Office ファイル、Webページ、個人文書、チームのナレッジベースから、ブリーフィング、Q&A、学習資料、知識マップを生成するツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [notex](https://github.com/smallnest/notex) [![Star](https://img.shields.io/github/stars/smallnest/notex?style=flat&logo=github&label=Star)](https://github.com/smallnest/notex/stargazers) | PDF/文書 / Web/検索 / ナレッジベース | オープンソースアプリ/フレームワーク | ブリーフィング/レポート / マインドマップ/知識マップ / Q&A/学習資料 | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート / ストレージ/索引 |
+| [Open Notebook](https://github.com/lfnovo/open-notebook) [![Star](https://img.shields.io/github/stars/lfnovo/open-notebook?style=flat&logo=github&label=Star)](https://github.com/lfnovo/open-notebook/stargazers) | PDF/文書 / Web/検索 / ナレッジベース | オープンソースアプリ/フレームワーク | ブリーフィング/レポート / マインドマップ/知識マップ / Q&A/学習資料 | ローカル実行環境 / モデル API / 文書解析/OCR / ストレージ/索引 |
+| [SurfSense](https://github.com/MODSetter/SurfSense) [![Star](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat&logo=github&label=Star)](https://github.com/MODSetter/SurfSense/stargazers) | PDF/文書 / Web/検索 / ナレッジベース | オープンソースアプリ/フレームワーク | ブリーフィング/レポート / マインドマップ/知識マップ / Q&A/学習資料 | ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 |
+| [NotebookLM](https://notebooklm.google/) | PDF/文書 / Web/検索 / ナレッジベース | 製品/SaaS / Bot/アシスタント | ブリーフィング/レポート / マインドマップ/知識マップ / Q&A/学習資料 | ブラウザ/アカウント |
+
+### コードベースとソフトウェアシステム
+
+リポジトリ、ローカルコード、依存関係、diff を、アーキテクチャ図、Repo Wiki、コードマップ、知識グラフへ変換するツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram) [![Star](https://img.shields.io/github/stars/ahmedkhaleel2004/gitdiagram?style=flat&logo=github&label=Star)](https://github.com/ahmedkhaleel2004/gitdiagram/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ブラウザ/アカウント / モデル API / コード解析 |
+| [CodeBoarding](https://github.com/Codeboarding/CodeBoarding) [![Star](https://img.shields.io/github/stars/Codeboarding/CodeBoarding?style=flat&logo=github&label=Star)](https://github.com/Codeboarding/CodeBoarding/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ローカル実行環境 / モデル API / コード解析 / レンダリング/エクスポート / ストレージ/索引 |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) [![Star](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat&logo=github&label=Star)](https://github.com/Egonex-AI/Understand-Anything/stargazers) | コードベース | Agent Skill | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | Agent ホスト / ローカル実行環境 / モデル API / コード解析 / ストレージ/索引 |
+| [DeepWiki Open](https://github.com/AsyncFuncAI/deepwiki-open) [![Star](https://img.shields.io/github/stars/AsyncFuncAI/deepwiki-open?style=flat&logo=github&label=Star)](https://github.com/AsyncFuncAI/deepwiki-open/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ローカル実行環境 / モデル API / コード解析 / レンダリング/エクスポート |
+| [PocketFlow Tutorial コードベース Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-コードベース-Knowledge) [![Star](https://img.shields.io/github/stars/The-Pocket/PocketFlow-Tutorial-コードベース-Knowledge?style=flat&logo=github&label=Star)](https://github.com/The-Pocket/PocketFlow-Tutorial-コードベース-Knowledge/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ローカル実行環境 / モデル API / コード解析 / レンダリング/エクスポート |
+| [GitVizz](https://github.com/adithya-s-k/GitVizz) [![Star](https://img.shields.io/github/stars/adithya-s-k/GitVizz?style=flat&logo=github&label=Star)](https://github.com/adithya-s-k/GitVizz/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ブラウザ/アカウント / モデル API / コード解析 / レンダリング/エクスポート |
+| [codeflow](https://github.com/braedonsaunders/codeflow) [![Star](https://img.shields.io/github/stars/braedonsaunders/codeflow?style=flat&logo=github&label=Star)](https://github.com/braedonsaunders/codeflow/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ブラウザ/アカウント / モデル API / コード解析 / レンダリング/エクスポート |
+| [oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) [![Star](https://img.shields.io/github/stars/oh-my-mermaid/oh-my-mermaid?style=flat&logo=github&label=Star)](https://github.com/oh-my-mermaid/oh-my-mermaid/stargazers) | コードベース | Agent Skill | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | Agent ホスト / モデル API / コード解析 / レンダリング/エクスポート |
+| [codag-visualizer](https://github.com/codag-megalith/codag-visualizer) [![Star](https://img.shields.io/github/stars/codag-megalith/codag-visualizer?style=flat&logo=github&label=Star)](https://github.com/codag-megalith/codag-visualizer/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ローカル実行環境 / コード解析 / レンダリング/エクスポート |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) [![Star](https://img.shields.io/github/stars/DeusData/codebase-memory-mcp?style=flat&logo=github&label=Star)](https://github.com/DeusData/codebase-memory-mcp/stargazers) | コードベース | MCP Server | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | MCP クライアント / ローカル実行環境 / コード解析 / ストレージ/索引 |
+| [CodeAtlas](https://github.com/lucyb0207/CodeAtlas) [![Star](https://img.shields.io/github/stars/lucyb0207/CodeAtlas?style=flat&logo=github&label=Star)](https://github.com/lucyb0207/CodeAtlas/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ローカル実行環境 / コード解析 / レンダリング/エクスポート |
+| [devlensOSS](https://github.com/devlensio/devlensOSS) [![Star](https://img.shields.io/github/stars/devlensio/devlensOSS?style=flat&logo=github&label=Star)](https://github.com/devlensio/devlensOSS/stargazers) | コードベース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ローカル実行環境 / コード解析 / レンダリング/エクスポート |
+| [Visual-Explainer](https://github.com/jircik/Visual-Explainer) [![Star](https://img.shields.io/github/stars/jircik/Visual-Explainer?style=flat&logo=github&label=Star)](https://github.com/jircik/Visual-Explainer/stargazers) | コードベース | Agent Skill | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | Agent ホスト / モデル API / コード解析 / レンダリング/エクスポート |
+| [codemap-skill](https://github.com/Asixa/codemap-skill) [![Star](https://img.shields.io/github/stars/Asixa/codemap-skill?style=flat&logo=github&label=Star)](https://github.com/Asixa/codemap-skill/stargazers) | コードベース | Agent Skill | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | Agent ホスト / モデル API / コード解析 |
+| [DeepWiki](https://docs.devin.ai/work-with-devin/deepwiki) | コードベース | 製品/SaaS | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ブラウザ/アカウント / コード解析 |
+| [CodeSee](https://www.codesee.io/) | コードベース | 製品/SaaS | コードマップ/Repo Wiki / アーキテクチャ/フロー図 | ブラウザ/アカウント / コード解析 |
+
+### データ・表・ビジネスメトリクス
+
+Tools that turn CSVs, databases, metrics, or business data into charts, dashboards, or analytical reports.
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | データ/表 / データベース | 研究プロトタイプ | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート / ストレージ/索引 |
+| [OpenBI](https://github.com/narender-rk10/OpenBI) [![Star](https://img.shields.io/github/stars/narender-rk10/OpenBI?style=flat&logo=github&label=Star)](https://github.com/narender-rk10/OpenBI/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 / レンダリング/エクスポート |
+
+### テキスト・アイデア・ホワイトボード図
+
+Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | テキスト/アイデア / PDF/文書 / データ/表 | Skill 集合 | インフォグラフィック/ビジュアルレポート / 長文レポート | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート |
+| [Piktochart AI](https://piktochart.com/generative-ai/) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / テンプレート/素材 |
+| [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / テンプレート/素材 |
+| [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / テンプレート/素材 |
+| [Jeda AI Infographic Generator](https://www.jeda.ai/ai-infographic-generator) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / 文書解析/OCR / テンプレート/素材 |
+| [Infogram](https://infogram.com/) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / 外部検索/データ / テンプレート/素材 |
+| [Napkin AI](https://www.napkin.ai/) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [Eraser AI](https://www.eraser.io/ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / レンダリング/エクスポート |
+| [Whimsical AI](https://whimsical.com/ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+
+### プレゼンテーションと複数ソースのコンテンツ
+
+Tools that turn text, documents, web pages, research material, or outlines into decks, or let agents generate/edit presentations.
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク / API/SDK/ライブラリ | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / MCP クライアント / テンプレート/素材 |
+| [PPTAgent](https://github.com/icip-cas/PPTAgent) [![Star](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=flat&logo=github&label=Star)](https://github.com/icip-cas/PPTAgent/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | 研究プロトタイプ | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [presentation-ai](https://github.com/allweonedev/presentation-ai) [![Star](https://img.shields.io/github/stars/allweonedev/presentation-ai?style=flat&logo=github&label=Star)](https://github.com/allweonedev/presentation-ai/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [slide-deck-ai](https://github.com/barun-saha/slide-deck-ai) [![Star](https://img.shields.io/github/stars/barun-saha/slide-deck-ai?style=flat&logo=github&label=Star)](https://github.com/barun-saha/slide-deck-ai/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [odin-slides](https://github.com/leonid20000/odin-slides) [![Star](https://img.shields.io/github/stars/leonid20000/odin-slides?style=flat&logo=github&label=Star)](https://github.com/leonid20000/odin-slides/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート / システムツール |
+| [ppt-agents](https://github.com/chenxingqiang/ppt-agents) [![Star](https://img.shields.io/github/stars/chenxingqiang/ppt-agents?style=flat&logo=github&label=Star)](https://github.com/chenxingqiang/ppt-agents/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [deckdown](https://github.com/adityachauhan0/deckdown) [![Star](https://img.shields.io/github/stars/adityachauhan0/deckdown?style=flat&logo=github&label=Star)](https://github.com/adityachauhan0/deckdown/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / レンダリング/エクスポート |
+| [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) [![Star](https://img.shields.io/github/stars/GongRzhe/Office-PowerPoint-MCP-Server?style=flat&logo=github&label=Star)](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | MCP Server | PPT/デッキ | MCP クライアント / ローカル実行環境 / レンダリング/エクスポート / システムツール |
+| [pptx-from-layouts-skill](https://github.com/tristan-mcinnis/pptx-from-layouts-skill) [![Star](https://img.shields.io/github/stars/tristan-mcinnis/pptx-from-layouts-skill?style=flat&logo=github&label=Star)](https://github.com/tristan-mcinnis/pptx-from-layouts-skill/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [hands-on-deck](https://github.com/EveryInc/hands-on-deck) [![Star](https://img.shields.io/github/stars/EveryInc/hands-on-deck?style=flat&logo=github&label=Star)](https://github.com/EveryInc/hands-on-deck/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート |
+| [agent-slides](https://github.com/mpuig/agent-slides) [![Star](https://img.shields.io/github/stars/mpuig/agent-slides?style=flat&logo=github&label=Star)](https://github.com/mpuig/agent-slides/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill) [![Star](https://img.shields.io/github/stars/kdnsna/ultimate-ppt-master-skill?style=flat&logo=github&label=Star)](https://github.com/kdnsna/ultimate-ppt-master-skill/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) [![Star](https://img.shields.io/github/stars/ningzimu/codex-ppt-skill?style=flat&logo=github&label=Star)](https://github.com/ningzimu/codex-ppt-skill/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Agent Skill | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [presentation-skills](https://github.com/pamelafox/presentation-skills) [![Star](https://img.shields.io/github/stars/pamelafox/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/pamelafox/presentation-skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート |
+| [anthropics/skills](https://github.com/anthropics/skills) [![Star](https://img.shields.io/github/stars/anthropics/skills?style=flat&logo=github&label=Star)](https://github.com/anthropics/skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | PPT/デッキ | Agent ホスト / ローカル実行環境 / 文書解析/OCR / レンダリング/エクスポート |
+| [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) [![Star](https://img.shields.io/github/stars/MiniMax-AI/skills?style=flat&logo=github&label=Star)](https://github.com/MiniMax-AI/skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [Gamma](https://gamma.app/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
+| [SlideSpeak](https://slidespeak.co/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / 文書解析/OCR / テンプレート/素材 |
+| [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
+| [Presentations.AI](https://www.presentations.ai/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / 文書解析/OCR / テンプレート/素材 |
+| [Beautiful.ai](https://www.beautiful.ai/presentation-maker) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
+| [Decktopus](https://www.decktopus.com/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
+| [PPT.AI](https://ppt.ai/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / 文書解析/OCR / テンプレート/素材 |
+| [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
+| [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS / Bot/アシスタント | PPT/デッキ | ブラウザ/アカウント / システムツール / テンプレート/素材 |
+| [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
+
+## 補助・前処理/後処理ツール
+
+This section contains smaller, lower-level, or more specialized tools. They may not cover a full content production workflow by themselves, but they are often key components inside agent workflows.
+
+### PDF・文書解析・構造化抽出
+
+PDF、論文、Office ファイル、スキャン画像を Markdown、JSON、レイアウト、表、OCR 結果へ変換する前処理ツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [MinerU](https://github.com/opendatalab/MinerU) [![Star](https://img.shields.io/github/stars/opendatalab/MinerU?style=flat&logo=github&label=Star)](https://github.com/opendatalab/MinerU/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | オープンソースアプリ/フレームワーク | 構造化データ/Markdown | ローカル実行環境 / 文書解析/OCR / GPU/アクセラレータ |
+| [Docling](https://github.com/docling-project/docling) [![Star](https://img.shields.io/github/stars/docling-project/docling?style=flat&logo=github&label=Star)](https://github.com/docling-project/docling/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | オープンソースアプリ/フレームワーク | 構造化データ/Markdown | ローカル実行環境 / 文書解析/OCR |
+| [Marker](https://github.com/datalab-to/marker) [![Star](https://img.shields.io/github/stars/datalab-to/marker?style=flat&logo=github&label=Star)](https://github.com/datalab-to/marker/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | オープンソースアプリ/フレームワーク | 構造化データ/Markdown | ローカル実行環境 / 文書解析/OCR / GPU/アクセラレータ |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) [![Star](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat&logo=github&label=Star)](https://github.com/Unstructured-IO/unstructured/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | オープンソースアプリ/フレームワーク | 構造化データ/Markdown | ローカル実行環境 / 文書解析/OCR |
+| [GROBID](https://github.com/grobidOrg/grobid) [![Star](https://img.shields.io/github/stars/grobidOrg/grobid?style=flat&logo=github&label=Star)](https://github.com/grobidOrg/grobid/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | オープンソースアプリ/フレームワーク | 構造化データ/Markdown | ローカル実行環境 / システムツール / 文書解析/OCR |
+| [PaperMage](https://github.com/allenai/papermage) [![Star](https://img.shields.io/github/stars/allenai/papermage?style=flat&logo=github&label=Star)](https://github.com/allenai/papermage/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | API/SDK/ライブラリ | 構造化データ/Markdown | ローカル実行環境 / 文書解析/OCR |
+| [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) [![Star](https://img.shields.io/github/stars/allenai/s2orc-doc2json?style=flat&logo=github&label=Star)](https://github.com/allenai/s2orc-doc2json/stargazers) | PDF/文書 / Office 文書 / 論文/研究 | オープンソースアプリ/フレームワーク | 構造化データ/Markdown | ローカル実行環境 / 文書解析/OCR |
+
+### マインドマップ特化ツール
+
+文書、Webページ、動画、脅威インテリジェンス、テキストをマインドマップへ変換する小規模で特化したツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [TI-Mindmap-GPT](https://github.com/format81/TI-Mindmap-GPT) [![Star](https://img.shields.io/github/stars/format81/TI-Mindmap-GPT?style=flat&logo=github&label=Star)](https://github.com/format81/TI-Mindmap-GPT/stargazers) | ニュース/インテリジェンス / Web/検索 / PDF/文書 | オープンソースアプリ/フレームワーク | マインドマップ/知識マップ / 長文レポート / 表/タイムライン | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート / 外部検索/データ |
+| [mindmap-generator](https://github.com/Dicklesworthstone/mindmap-generator) [![Star](https://img.shields.io/github/stars/Dicklesworthstone/mindmap-generator?style=flat&logo=github&label=Star)](https://github.com/Dicklesworthstone/mindmap-generator/stargazers) | PDF/文書 / Web/検索 / ナレッジベース | オープンソースアプリ/フレームワーク | マインドマップ/知識マップ | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート |
+| [Mapify](https://mapify.so/) | PDF/文書 / Web/検索 / ナレッジベース | 製品/SaaS | マインドマップ/知識マップ | ブラウザ/アカウント / 文書解析/OCR / テンプレート/素材 |
+
+### 図・Mermaid・レンダリング部品
+
+Agent が Mermaid、SVG、PNG、PDF、図表成果物を生成・検証・エクスポートするための後処理/レンダリングツールです。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [Mermaid](https://github.com/mermaid-js/mermaid) [![Star](https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&logo=github&label=Star)](https://github.com/mermaid-js/mermaid/stargazers) | DSL/コード | API/SDK/ライブラリ | 図/Mermaid / SVG/PNG/PDF | レンダリング/エクスポート |
+| [mermaid-js-ai-agent](https://github.com/disler/mermaid-js-ai-agent) [![Star](https://img.shields.io/github/stars/disler/mermaid-js-ai-agent?style=flat&logo=github&label=Star)](https://github.com/disler/mermaid-js-ai-agent/stargazers) | テキスト/アイデア / コード/技術文書 | オープンソースアプリ/フレームワーク | 図/Mermaid / SVG/PNG/PDF | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [mermaid-skill](https://github.com/Agents365-ai/mermaid-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/mermaid-skill/stargazers) | テキスト/アイデア / コード/技術文書 | Agent Skill | 図/Mermaid / SVG/PNG/PDF | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills) [![Star](https://img.shields.io/github/stars/imxv/Pretty-mermaid-skills?style=flat&logo=github&label=Star)](https://github.com/imxv/Pretty-mermaid-skills/stargazers) | テキスト/アイデア / コード/技術文書 | Agent Skill | 図/Mermaid / SVG/PNG/PDF | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート |
+| [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | テキスト/アイデア / コード/技術文書 | Skill 集合 | 図/Mermaid / SVG/PNG/PDF | Agent ホスト / モデル API / レンダリング/エクスポート |
+| [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/コード | API/SDK/ライブラリ | 図/Mermaid / SVG/PNG/PDF | ローカル実行環境 / レンダリング/エクスポート |
+| [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | テキスト/アイデア / コード/技術文書 | 研究プロトタイプ | 図/Mermaid / SVG/PNG/PDF | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+
+## ツールの選び方
+
+### 情報源
+
+| 情報源 | 意味 |
+| --- | --- |
+| 論文/研究 | Papers, arXiv links, academic PDFs, research topics, and experimental results. |
+| PDF/文書 | PDFs, long documents, manuals, reports, and exported documents. |
+| Office 文書 | Word, PowerPoint, Excel, and other office files. |
+| Web/検索 | Web pages, URLs, search results, extracted page text, and cited sources. |
+| ニュース/インテリジェンス | News streams, market intelligence, threat intelligence, and industry updates. |
+| コードベース | GitHub repositories, local code, diffs, dependencies, and symbols. |
+| データ/表 | CSV, Excel, metrics, time series, and business data. |
+| データベース | SQL/BI sources, business databases, vector stores, or external data APIs. |
+| ナレッジベース | Notion, Google Drive, Slack, meeting notes, and personal/team documents. |
+| テキスト/アイデア | Prompts, outlines, drafts, whiteboard ideas, and notes. |
+| コード/技術文書 | Code snippets, API descriptions, and system-design text. |
+| DSL/コード | Mermaid, diagram DSLs, configuration, and executable drawing code. |
+| 引用グラフ | Paper citation relations, related-paper networks, and literature graphs. |
+| 任意/複数ソース | General tools that work across multiple source types. |
+
+### ツール形態
+
+| ツール形態 | 意味 |
+| --- | --- |
+| 製品/SaaS | Hosted website or commercial product, usually browser/account based. |
+| オープンソースアプリ/フレームワーク | Runnable or deployable application/framework. |
+| Agent Skill | Workflow package for Claude Code, Codex, Cursor, Gemini CLI, or similar agents. |
+| Skill 集合 | Repository or suite containing multiple agent skills. |
+| MCP Server | Model Context Protocol server exposing files, slides, code, or data capabilities to agents. |
+| API/SDK/ライブラリ | Parser, renderer, generator, or data interface called by other tools. |
+| Bot/アシスタント | Chat/search assistant, browser extension, or collaboration assistant. |
+| 研究プロトタイプ/データセット | Paper, benchmark, dataset, or research code. |
+| Awesome/索引 | Directory for discovering tools, papers, and skills. |
+
+### 出力形式
+
+| 出力形式 | 意味 |
+| --- | --- |
+| PPT/デッキ | PPTX, slides, decks, templates, and presentation masters. |
+| 長文レポート | Cited research reports, market reports, and analytical documents. |
+| ブリーフィング/レポート | Summaries, briefings, study guides, and Q&A material. |
+| Web/インタラクティブページ | HTML, interactive tutorials, explainers, and shareable pages. |
+| グラフィカルアブストラクト/インフォグラフィック | Graphical abstracts, infographics, posters, and scientific schematics. |
+| インフォグラフィック/ビジュアルレポート | Business infographics, visual reports, and branded summaries. |
+| アーキテクチャ/フロー図 | Mermaid, flowcharts, sequence diagrams, system diagrams, and whiteboards. |
+| ホワイトボード/マインドマップ | Whiteboards, freeform canvases, and divergent visual maps. |
+| マインドマップ/知識マップ | Mind maps, concept maps, and knowledge networks. |
+| 文献/知識マップ | Literature maps, related-paper graphs, and research knowledge maps. |
+| チャート/ダッシュボード | Charts, BI dashboards, KPIs, and interactive data views. |
+| 表/タイムライン | エビデンステーブルs, IOC tables, event timelines, and comparison tables. |
+| コードマップ/Repo Wiki | Repository maps, repo wikis, dependency graphs, and code knowledge graphs. |
+| 図/Mermaid | Mermaid, diagrams-as-code, and verifiable diagram text. |
+| SVG/PNG/PDF | Rendered images, vector graphics, or exported files. |
+| 動画/音声 | Paper videos, narrated explainers, and audio briefings. |
+| 構造化データ/Markdown | Markdown, JSON, layout, tables, and OCR outputs for downstream generation. |
+| エビデンステーブル | Paper screening tables, evidence matrices, and citation tables. |
+| 引用付き回答 | Source-grounded answers or search-result synthesis. |
+| Q&A/学習資料 | Notebook Q&A, quizzes, and study guides. |
+| ツール索引 | Awesome lists, tool directories, and paper lists. |
+| レンダリング済みチャート | Visual output from renderers or chart components. |
+
+### 依存タイプ
+
+`依存関係` describe what a tool needs to run. They are separate from the source, tool, and output tags: those tags answer “where does the information come from, what is the tool, and what does it produce”; dependency tags answer “what does it need”.
+
+| 依存関係 | 意味 | よくある例 |
+| --- | --- | --- |
+| ブラウザ/アカウント | Browser and account based; usually no local installation. | Google account, Canva account, SaaS plan |
+| Agent ホスト | Needs an agent environment to execute a skill/workflow. | Claude Code, Codex, Cursor, Gemini CLI, OpenCode |
+| モデル API | Calls text, vision, or image model APIs. | OpenAI, Anthropic, Gemini, OpenRouter, Azure OpenAI, Replicate |
+| ローカル実行環境 | Needs local runtimes and package managers. | Python, Node.js, Go, Rust, Java, Conda, uv, pnpm |
+| システムツール | Depends on local binaries or office software. | Docker, LibreOffice, Microsoft PowerPoint, Pandoc, LaTeX, Chrome |
+| 文書解析/OCR | Needs PDF parsing, OCR, layout recovery, or document structure extraction. | MinerU, Docling, Marker, GROBID, Tesseract, layout models |
+| レンダリング/エクスポート | Renders intermediate formats into SVG, PNG, PDF, PPTX, or web pages. | Mermaid, Kroki, Playwright, python-pptx, pptxgenjs, SVG renderer |
+| 外部検索/データ | Needs web search, paper databases, citation networks, or data APIs. | arXiv, Semantic Scholar, OpenAlex, Google Scholar, web search |
+| GPU/アクセラレータ | Local model inference, OCR, vision, or image generation may need acceleration. | CUDA, ROCm, Apple Metal/MPS, cloud GPU |
+| MCP クライアント | Needs a client that can connect to MCP Servers. | Claude Desktop, Cursor, Codex, Cline, Continue |
+| コード解析 | Parses files, symbols, dependencies, and repository structure. | tree-sitter, language servers, ripgrep, ctags, Git |
+| ストレージ/索引 | Persists state, vector indexes, or graphs. | SQLite, Postgres, Chroma, Qdrant, Neo4j, file index |
+| テンプレート/素材 | Needs templates, brand assets, or design resources for high-quality output. | PPTX template, slide master, brand kit, icons, image assets |
+
+Star badges are shown next to GitHub project names where available. Non-GitHub products do not show a star badge.
+
+## さらにツールを探す
+
+awesome list、論文リスト、skill レジストリ、MCP ディレクトリです。単体の生成ツールではありませんが、このリポジトリを拡張するときに役立ちます。
+
+| プロジェクト | 範囲 | ツール形態 | 探す対象 |
+| --- | --- | --- | --- |
+| [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) [![Star](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=flat&logo=github&label=Star)](https://github.com/VoltAgent/awesome-agent-skills/stargazers) | 任意/複数ソース | Awesome/索引 | Large agent skill directory. |
+| [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) [![Star](https://img.shields.io/github/stars/Prat011/awesome-llm-skills?style=flat&logo=github&label=Star)](https://github.com/Prat011/awesome-llm-skills/stargazers) | 任意/複数ソース | Awesome/索引 | Cross-agent LLM skills list. |
+| [Awesome-Powerpoint-AI-Agents](https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents) [![Star](https://img.shields.io/github/stars/ishandutta2007/Awesome-Powerpoint-AI-Agents?style=flat&logo=github&label=Star)](https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents/stargazers) | 任意/複数ソース | Awesome/索引 | Directly similar PowerPoint AI agents ecosystem list. |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) [![Star](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat&logo=github&label=Star)](https://github.com/punkpeye/awesome-mcp-servers/stargazers) | 任意/複数ソース | Awesome/索引 | Large MCP Server directory. |
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) [![Star](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat&logo=github&label=Star)](https://github.com/hesreallyhim/awesome-claude-code/stargazers) | 任意/複数ソース | Awesome/索引 | Claude Code skill, hook, slash-command, app, and plugin index. |
+| [awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) [![Star](https://img.shields.io/github/stars/jim-schwoebel/awesome_ai_agents?style=flat&logo=github&label=Star)](https://github.com/jim-schwoebel/awesome_ai_agents/stargazers) | 任意/複数ソース | Awesome/索引 | Broad AI agent resources. |
+| [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) [![Star](https://img.shields.io/github/stars/mahseema/awesome-ai-tools?style=flat&logo=github&label=Star)](https://github.com/mahseema/awesome-ai-tools/stargazers) | 任意/複数ソース | Awesome/索引 | Broad AI tools list. |
+| [awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research) [![Star](https://img.shields.io/github/stars/worldbench/awesome-ai-auto-research?style=flat&logo=github&label=Star)](https://github.com/worldbench/awesome-ai-auto-research/stargazers) | 任意/複数ソース | Awesome/索引 | AI auto-research landscape, including paper-to-slides, posters, videos, websites, and social outputs. |
+| [LLM-Visualization-Paper-List](https://github.com/zengxingchen/LLM-Visualization-Paper-List) [![Star](https://img.shields.io/github/stars/zengxingchen/LLM-Visualization-Paper-List?style=flat&logo=github&label=Star)](https://github.com/zengxingchen/LLM-Visualization-Paper-List/stargazers) | 任意/複数ソース | Awesome/索引 | Paper list for visualization meets LLM. |
+| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) [![Star](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat&logo=github&label=Star)](https://github.com/ai-boost/awesome-ai-for-science/stargazers) | 任意/複数ソース | Awesome/索引 | Broad AI-for-science tool, paper, dataset, and framework index. |
+| [AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) [![Star](https://img.shields.io/github/stars/AlterLab-IEU/AlterLab-Academic-Skills?style=flat&logo=github&label=Star)](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills/stargazers) | 任意/複数ソース | Skill 集合 | Evaluated academic agent skills including visualization, reports, writing, and research pipelines. |
+| [SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) [![Star](https://img.shields.io/github/stars/OpenSenseNova/SenseNova-Skills?style=flat&logo=github&label=Star)](https://github.com/OpenSenseNova/SenseNova-Skills/stargazers) | 任意/複数ソース | Skill 集合 | Office and productivity skills covering image generation, visualization, slide decks, Excel analysis, and deep research. |
+| [TransformingScienceLLMs](https://github.com/NL2G/TransformingScienceLLMs) [![Star](https://img.shields.io/github/stars/NL2G/TransformingScienceLLMs?style=flat&logo=github&label=Star)](https://github.com/NL2G/TransformingScienceLLMs/stargazers) | 任意/複数ソース | Awesome/索引 | Collection of papers, AI models, and tools for LLM-assisted scientific work. |
+
+## データ
+
+The structured catalog lives in [data/catalog.yml](data/catalog.yml). It includes information-source tags, tool-form tags, output-artifact tags, dependency tags, category, GitHub star snapshots, license, update date, and short notes.
+
+The research cache lives in [data/tool-research.yml](data/tool-research.yml). It stores official examples, docs, demos, templates, papers, videos, and other discovery links; it is not rendered directly into the README.
+
+The search trail and query strategy live in [docs/search-log.md](docs/search-log.md).
+
+## コントリビューション
+
+Contributions are welcome. For a new entry, please include:
+
+- プロジェクト name and URL.
+- 情報源, for example `論文/研究`, `Web/検索`, `ニュース/インテリジェンス`, `PDF/文書`, `コードベース`, or `データ/表`.
+- ツール形態, for example `製品/SaaS`, `オープンソースアプリ/フレームワーク`, `Agent Skill`, `MCP Server`, `API/SDK/ライブラリ`, or `Bot/アシスタント`.
+- 出力形式, for example `PPT/デッキ`, `長文レポート`, `Web/インタラクティブページ`, `マインドマップ/知識マップ`, or `チャート/ダッシュボード`.
+- Dependency types from the table above, for example `モデル API`, `レンダリング/エクスポート`, or `テンプレート/素材`.
+- One sentence explaining why the project belongs here.
+
+Prefer tools that produce artifacts people can inspect, edit, cite, present, or use to understand a complex system.
