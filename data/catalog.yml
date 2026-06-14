@@ -1,0 +1,2576 @@
+last_researched: '2026-06-14'
+schema:
+  category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
+    | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
+  surface: open-source | product | skill | mcp | library | research | dataset | index
+  surface_zh: Legacy surface values are normalized into tool_forms for README display.
+  input_output: Human-readable comparison field in README.zh-CN.md; use 'input -> output' and keep outputs artifact-oriented.
+  runtime: Human-readable comparison field in README.zh-CN.md; use tags such as 浏览器/SaaS, Agent, LLM API, 本地运行, MCP, GPU/可选
+    GPU, 外部检索.
+  dependencies: 'Use README dependency tags: 浏览器/账号 | Agent 宿主 | 模型 API | 本地语言环境 | 系统工具 | 文档解析/OCR | 渲染/导出 | 外部检索/数据源 | GPU/加速器
+    | MCP Client | 代码分析工具 | 存储/索引 | 模板/素材'
+  stars: Snapshot GitHub stars when available on 2026-06-14; README.zh-CN.md uses Shields.io badges for dynamic GitHub star
+    display.
+  stars_badge: 'For GitHub repos: https://img.shields.io/github/stars/{owner}/{repo}?style=flat&logo=github&label=Star'
+  source_types: 'Information-source tags used in README: 论文/科研资料 | PDF/文档 | Office 文档 | 网页/搜索结果 | 新闻/资讯 | 代码库 | 数据/表格 | 数据库
+    | 知识库/个人资料 | 文本/想法 | 代码/技术描述 | DSL/代码 | 引用网络 | 任意/多源'
+  tool_forms: 'Tool-form tags used in README: 产品/SaaS | 开源应用/框架 | Agent Skill | Skill 集合 | MCP Server | API/SDK/库 | Bot/助手
+    | 研究原型 | 数据集/评测 | Awesome/索引'
+  output_forms: 'Artifact tags used in README: PPT/演示文稿 | 报告/长文档 | 报告/简报 | 网页/交互页面 | 图形摘要/信息图 | 信息图/视觉报告 | 架构图/流程图 | 白板/思维导图
+    | 思维导图/知识地图 | 文献地图/知识地图 | 图表/仪表盘 | 表格/时间线 | 代码地图/Repo Wiki | 图表/Mermaid | SVG/PNG/PDF | 视频/音频 | 结构化数据/Markdown | 证据表 |
+    引用答案 | 问答/学习材料 | 工具索引 | 图表/渲染输出'
+  catalog_section: 'README placement: main | support_doc_parse | support_render | support_mindmap | indexes'
+entries:
+- name: Paper2Any
+  url: https://github.com/OpenDCAI/Paper2Any
+  homepage: https://paper2any-studio.cpolar.cn/
+  category: paper-visualization
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 模板/素材
+  stars: 2605
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Paper/text/topic to editable research figures, technical route diagrams, presentation slides, posters, scripts, and
+    multimodal content.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: paper-2-web
+  url: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/paper-2-web/SKILL.md?plain=1
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  note: Agent skill for paper-to-web, paper-to-poster, and academic explainer artifacts.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: paper-to-course
+  url: https://github.com/ZeroxZhang/paper-to-course
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  stars: 6
+  license: Apache-2.0
+  updated: '2026-05-25'
+  note: Paper PDF or arXiv URL to interactive HTML tutorial with derivations, pseudocode, quizzes, glossary tooltips, and
+    lineage trees.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: paper
+- name: Auto-Research-In-Sleep
+  url: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 12028
+  license: MIT
+  updated: '2026-06-14'
+  note: Academic workflow skills including paper slides, poster HTML, paper writing, review, and rebuttal outputs.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  catalog_section: main
+  readme_group: paper
+- name: q-skills
+  url: https://github.com/TyrealQ/q-skills
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  stars: 23
+  license: MIT
+  updated: '2026-06-01'
+  note: Academic writing, data analysis, teaching, research communication, and document-to-infographic skills.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/长文档
+  catalog_section: main
+  readme_group: text_visual
+- name: scientific-agent-skills
+  url: https://github.com/K-Dense-AI/scientific-agent-skills
+  homepage: https://k-dense.ai
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 28146
+  license: MIT
+  updated: '2026-06-14'
+  note: Science skill library with scientific visualization, schematics, paper/report, and database workflows.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: claude-scientific-writer
+  url: https://github.com/K-Dense-AI/claude-scientific-writer
+  homepage: https://k-dense.ai
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 外部检索/数据源
+  - 模板/素材
+  stars: 1936
+  license: MIT
+  updated: '2026-06-13'
+  note: Scientific writing workflow with graphical abstract, highlights, research lookup, and journal-style output patterns.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  catalog_section: main
+  readme_group: paper
+- name: SciGA
+  url: https://github.com/IyatomiLab/SciGA
+  homepage: https://iyatomilab.github.io/SciGA/
+  category: paper-visualization
+  surface: dataset
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  stars: 3
+  license: unknown
+  updated: '2026-05-30'
+  note: Dataset and benchmark for graphical abstracts in academic papers.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 数据集/评测
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: GPT Researcher
+  url: https://github.com/assafelovic/gpt-researcher
+  homepage: https://gptr.dev
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 27686
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Deep research agent for cited reports, with optional AI-created illustrations embedded in reports.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/长文档
+  - 引用答案
+  catalog_section: main
+  readme_group: web_news
+- name: STORM
+  url: https://github.com/stanford-oval/storm
+  homepage: https://storm.genie.stanford.edu
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 28362
+  license: MIT
+  updated: '2026-06-14'
+  note: LLM-powered knowledge curation system that researches a topic and generates a full-length cited report.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/长文档
+  - 引用答案
+  catalog_section: main
+  readme_group: web_news
+- name: Scira
+  url: https://github.com/zaidmukaddam/scira
+  homepage: https://scira.ai
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 11720
+  license: AGPL-3.0
+  updated: '2026-06-13'
+  note: Open-source AI search engine that searches the web and cites sources.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 报告/长文档
+  - 引用答案
+  catalog_section: main
+  readme_group: web_news
+- name: Vane
+  url: https://github.com/ItzCrazyKns/Vane
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 35292
+  license: MIT
+  updated: '2026-06-14'
+  note: Privacy-focused AI answering engine over web knowledge and local models.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 报告/长文档
+  - 引用答案
+  catalog_section: main
+  readme_group: web_news
+- name: FinRobot
+  url: https://github.com/AI4Finance-Foundation/FinRobot
+  homepage: https://finrobot.ai
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 7258
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Open-source AI agent platform for financial analysis and equity research reports.
+  source_types:
+  - 新闻/资讯
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/长文档
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: web_news
+- name: TI-Mindmap-GPT
+  url: https://github.com/format81/TI-Mindmap-GPT
+  homepage: https://ti-mindmap-gpt.streamlit.app/
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 108
+  license: GPL-3.0
+  updated: '2026-03-20'
+  note: Threat-intelligence article/PDF/URL to mind map, IOC tables, TTP timeline, and PDF report.
+  source_types:
+  - 新闻/资讯
+  - 网页/搜索结果
+  - PDF/文档
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 思维导图/知识地图
+  - 报告/长文档
+  - 表格/时间线
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Market-Intelligence-Agent
+  url: https://github.com/vikas-kashyap97/Market-Intelligence-Agent
+  homepage: https://market-int-agent.streamlit.app/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 11
+  license: NOASSERTION
+  updated: '2026-06-04'
+  note: Market intelligence agent that analyzes live market data and visualizes trends with interactive charts.
+  source_types:
+  - 新闻/资讯
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: web_news
+- name: World Monitor
+  url: https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor
+  homepage: https://worldmonitor.app
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 6
+  license: NOASSERTION
+  updated: '2026-05-25'
+  note: Real-time global intelligence dashboard for news aggregation, geopolitical monitoring, and infrastructure tracking.
+  source_types:
+  - 新闻/资讯
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: web_news
+- name: notex
+  url: https://github.com/smallnest/notex
+  homepage: https://notex.rpcx.io
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  stars: 215
+  license: Apache-2.0
+  updated: '2026-06-08'
+  note: Open-source NotebookLM alternative with document chat and optional infographic generation.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/简报
+  - 思维导图/知识地图
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: Open Notebook
+  url: https://github.com/lfnovo/open-notebook
+  homepage: https://www.open-notebook.ai
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  stars: 30235
+  license: MIT
+  updated: '2026-06-14'
+  note: Open-source NotebookLM-style platform for private document research and source-grounded outputs.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/简报
+  - 思维导图/知识地图
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: SurfSense
+  url: https://github.com/MODSetter/SurfSense
+  homepage: https://www.surfsense.com
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 14451
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Open-source NotebookLM/Perplexity/Glean-style research agent for many personal and team data sources.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/简报
+  - 思维导图/知识地图
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: mindmap-generator
+  url: https://github.com/Dicklesworthstone/mindmap-generator
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 218
+  license: unknown
+  updated: '2026-06-12'
+  note: Turns arbitrary input documents into hierarchical mind maps and interactive visualizations.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 思维导图/知识地图
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Mapify
+  url: https://mapify.so/
+  category: doc-to-knowledge
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 模板/素材
+  note: Turns PDFs, YouTube videos, webpages, images, and research papers into structured mind maps.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 思维导图/知识地图
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: AI-Researcher
+  url: https://github.com/HKUDS/AI-Researcher
+  homepage: https://arxiv.org/abs/2505.18705
+  category: research-report
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - GPU/加速器
+  stars: 5461
+  license: unknown
+  updated: '2026-06-14'
+  note: Autonomous scientific innovation workflow that generates research artifacts.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 研究原型
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  catalog_section: main
+  readme_group: paper
+- name: NotebookLM
+  url: https://notebooklm.google/
+  category: doc-to-knowledge
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  note: Source-grounded research and thinking tool for summaries, mind maps, briefing artifacts, and study outputs.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 产品/SaaS
+  - Bot/助手
+  output_forms:
+  - 报告/简报
+  - 思维导图/知识地图
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: Elicit
+  url: https://elicit.com/
+  category: research-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: Research reports and systematic-review-inspired briefs over selected papers.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: paper
+- name: Paperguide
+  url: https://paperguide.ai/
+  category: research-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: AI research assistant for research-backed answers, paper analysis, literature reviews, references, and writing.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: paper
+- name: SciSpace Infographic Maker
+  url: https://scispace.com/agents/infographic-maker-hbcwetac
+  category: paper-visualization
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Research notes, data, and figures to infographics with PPTX, PDF, PNG, and SVG export.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: Grabstract
+  url: https://grabstract.io/graphical-abstracts
+  category: paper-visualization
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI graphical abstract generator for publication-ready visual summaries.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: Open Knowledge Maps
+  url: https://openknowledgemaps.org/
+  category: literature-map
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: AI-based visual search engine for scientific knowledge and topic maps.
+  source_types:
+  - 论文/科研资料
+  - 引用网络
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 文献地图/知识地图
+  catalog_section: main
+  readme_group: paper
+- name: Connected Papers
+  url: https://www.connectedpapers.com/
+  category: literature-map
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: Visual graph for exploring academic papers related to a seed paper.
+  source_types:
+  - 论文/科研资料
+  - 引用网络
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 文献地图/知识地图
+  catalog_section: main
+  readme_group: paper
+- name: ResearchRabbit
+  url: https://www.researchrabbit.ai/
+  category: literature-map
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: AI-powered literature review assistant with citation maps and built-in visualizations.
+  source_types:
+  - 论文/科研资料
+  - 引用网络
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 文献地图/知识地图
+  catalog_section: main
+  readme_group: paper
+- name: Litmaps
+  url: https://www.litmaps.com/
+  category: literature-map
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: Dynamic literature-review maps for discovery, visualization, sharing, and monitoring.
+  source_types:
+  - 论文/科研资料
+  - 引用网络
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 文献地图/知识地图
+  catalog_section: main
+  readme_group: paper
+- name: Consensus
+  url: https://consensus.app/
+  category: research-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  note: AI-powered scientific search and evidence synthesis; useful as report input.
+  source_types:
+  - 论文/科研资料
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: paper
+- name: MinerU
+  url: https://github.com/opendatalab/MinerU
+  homepage: https://opendatalab.github.io/MinerU/
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  stars: 67454
+  license: NOASSERTION
+  updated: '2026-06-14'
+  note: Complex PDFs and Office documents to LLM-ready markdown/JSON.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Docling
+  url: https://github.com/docling-project/docling
+  homepage: https://docling-project.github.io/docling
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  stars: 61506
+  license: MIT
+  updated: '2026-06-14'
+  note: Document conversion and structure extraction for gen-AI workflows.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Marker
+  url: https://github.com/datalab-to/marker
+  homepage: https://www.datalab.to
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  stars: 36067
+  license: GPL-3.0
+  updated: '2026-06-14'
+  note: Fast PDF to markdown and JSON conversion.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Unstructured
+  url: https://github.com/Unstructured-IO/unstructured
+  homepage: https://www.unstructured.io/
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  stars: 14903
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Document ETL for transforming complex documents into structured formats for language-model pipelines.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: GROBID
+  url: https://github.com/grobidOrg/grobid
+  homepage: https://grobid.readthedocs.io
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  stars: 4940
+  license: Apache-2.0
+  updated: '2026-06-13'
+  note: Scholarly-document information extraction for metadata, references, and full-text structure.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: PaperMage
+  url: https://github.com/allenai/papermage
+  homepage: https://papermage.org
+  category: doc-to-knowledge
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  stars: 797
+  license: Apache-2.0
+  updated: '2026-06-08'
+  note: NLP and CV library for scientific papers.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: s2orc-doc2json
+  url: https://github.com/allenai/s2orc-doc2json
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  stars: 469
+  license: Apache-2.0
+  updated: '2026-06-06'
+  note: Scientific paper parsers for PDF, LaTeX, and JATS to JSON.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Piktochart AI
+  url: https://piktochart.com/generative-ai/
+  category: infographic-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Prompt, notes, or uploaded content to editable infographics, reports, and presentations.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/长文档
+  catalog_section: main
+  readme_group: text_visual
+- name: Venngage AI Infographic Generator
+  url: https://venngage.com/ai-tools/infographic-generator
+  category: infographic-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Text or documents to on-brand infographics and visual summaries.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/长文档
+  catalog_section: main
+  readme_group: text_visual
+- name: Venngage AI Report Generator
+  url: https://venngage.com/ai-tools/report-generator
+  category: infographic-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Prompt to visual reports.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/长文档
+  catalog_section: main
+  readme_group: text_visual
+- name: Jeda AI Infographic Generator
+  url: https://www.jeda.ai/ai-infographic-generator
+  category: infographic-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 模板/素材
+  note: PDF/report/article or data to extracted insights and infographic structures.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/长文档
+  catalog_section: main
+  readme_group: text_visual
+- name: Infogram
+  url: https://infogram.com/
+  category: infographic-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 模板/素材
+  note: AI-assisted visuals, chart suggestions, and interactive data stories.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/长文档
+  catalog_section: main
+  readme_group: text_visual
+- name: ppt-master
+  url: https://github.com/hugohe3/ppt-master
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 27267
+  license: MIT
+  updated: '2026-06-14'
+  note: Document to editable PowerPoint with native shapes, animations, narration, and template support.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Presenton
+  url: https://github.com/presenton/presenton
+  homepage: https://presenton.ai
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - MCP Client
+  - 模板/素材
+  stars: 8167
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Open-source presentation generator and API with template and MCP positioning.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: PPTAgent
+  url: https://github.com/icip-cas/PPTAgent
+  homepage: https://arxiv.org/abs/2501.03936
+  category: presentation-tools
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 4649
+  license: MIT
+  updated: '2026-06-14'
+  note: Agentic reflective PowerPoint generation framework.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 研究原型
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: presentation-ai
+  url: https://github.com/allweonedev/presentation-ai
+  homepage: https://presentation.allweone.com
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 2863
+  license: MIT
+  updated: '2026-06-14'
+  note: Open-source Gamma-style AI presentation generator.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: slide-deck-ai
+  url: https://github.com/barun-saha/slide-deck-ai
+  homepage: https://slidedeckai.readthedocs.io/en/latest/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 360
+  license: MIT
+  updated: '2026-06-06'
+  note: Multi-provider AI assistant for professional presentation generation.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: odin-slides
+  url: https://github.com/leonid20000/odin-slides
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 152
+  license: MIT
+  updated: '2026-06-06'
+  note: GPT-based Word/document to PowerPoint generator.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-agents
+  url: https://github.com/chenxingqiang/ppt-agents
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 27
+  license: MIT
+  updated: '2026-05-14'
+  note: Markdown to PowerPoint workflow using AI agents.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: deckdown
+  url: https://github.com/adityachauhan0/deckdown
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  stars: 12
+  license: MIT
+  updated: '2026-05-13'
+  note: Markdown presentation engine for agents with PDF, PNG, and PPTX output.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Office-PowerPoint-MCP-Server
+  url: https://github.com/GongRzhe/Office-PowerPoint-MCP-Server
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 1787
+  license: MIT
+  updated: '2026-06-14'
+  note: MCP server for creating, editing, and manipulating PowerPoint through python-pptx.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: pptx-from-layouts-skill
+  url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 74
+  license: MIT
+  updated: '2026-06-14'
+  note: Agent skill that uses real slide master layouts and placeholders.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: hands-on-deck
+  url: https://github.com/EveryInc/hands-on-deck
+  homepage: https://everyinc.github.io/hands-on-deck/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 17
+  license: MIT
+  updated: '2026-06-12'
+  note: PowerPoint inspect/edit/create/verify CLI through atomic JSON patches.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: agent-slides
+  url: https://github.com/mpuig/agent-slides
+  homepage: http://agent-slides.com/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 6
+  license: MIT
+  updated: '2026-05-29'
+  note: Composable PowerPoint skills and CLI.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: ultimate-ppt-master-skill
+  url: https://github.com/kdnsna/ultimate-ppt-master-skill
+  homepage: https://kdnsna.github.io/ultimate-ppt-master-skill/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 47
+  license: MIT
+  updated: '2026-06-12'
+  note: Local-first AI presentation production workbench for source material to PPTX or web decks.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: codex-ppt-skill
+  url: https://github.com/ningzimu/codex-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1701
+  license: MIT
+  updated: '2026-06-14'
+  note: Codex-oriented PPT generation skill using staged planning and image generation.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: presentation-skills
+  url: https://github.com/pamelafox/presentation-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 88
+  license: MIT
+  updated: '2026-06-04'
+  note: Skills for AI agents to process presentations.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: anthropics-skills
+  url: https://github.com/anthropics/skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 150379
+  license: unknown
+  updated: '2026-06-14'
+  note: Official public Agent Skills repository including PPTX, PDF, document, and spreadsheet workflows.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: MiniMax-AI-skills
+  url: https://github.com/MiniMax-AI/skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 12617
+  license: MIT
+  updated: '2026-06-14'
+  note: Skills repository with PPTX generator/editor patterns.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: GitDiagram
+  url: https://github.com/ahmedkhaleel2004/gitdiagram
+  homepage: https://gitdiagram.com
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 代码分析工具
+  stars: 15685
+  license: MIT
+  updated: '2026-06-13'
+  note: Interactive diagrams for public GitHub repositories.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: CodeBoarding
+  url: https://github.com/Codeboarding/CodeBoarding
+  homepage: https://www.codeboarding.org
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 2196
+  license: MIT
+  updated: '2026-06-14'
+  note: Static analysis plus LLM reasoning for architecture diagrams and component documentation.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: Understand-Anything
+  url: https://github.com/Egonex-AI/Understand-Anything
+  homepage: https://understand-anything.com
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 存储/索引
+  stars: 58684
+  license: MIT
+  updated: '2026-06-14'
+  note: Interactive knowledge graphs for code and business knowledge, compatible with multiple coding agents.
+  source_types:
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: deepwiki-open
+  url: https://github.com/AsyncFuncAI/deepwiki-open
+  homepage: https://grok-wiki.com/
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 16875
+  license: MIT
+  updated: '2026-06-14'
+  note: Open-source repo wiki generator with diagrams.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: PocketFlow-Tutorial-Codebase-Knowledge
+  url: https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge
+  homepage: https://code2tutorial.com/
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 12391
+  license: MIT
+  updated: '2026-06-14'
+  note: Codebase-to-tutorial agent workflow, adjacent to visual explainers.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: GitVizz
+  url: https://github.com/adithya-s-k/GitVizz
+  homepage: https://gitvizz.com
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 447
+  license: unknown
+  updated: '2026-06-11'
+  note: LLM-friendly repo summaries and interactive dependency graphs.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: codeflow
+  url: https://github.com/braedonsaunders/codeflow
+  homepage: https://codeflow-five.vercel.app
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 3488
+  license: unknown
+  updated: '2026-06-14'
+  note: Browser-based GitHub URL to architecture map.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: oh-my-mermaid
+  url: https://github.com/oh-my-mermaid/oh-my-mermaid
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 1324
+  license: MIT
+  updated: '2026-06-14'
+  note: Claude Code oriented codebase-to-Mermaid architecture diagrams.
+  source_types:
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: codag-visualizer
+  url: https://github.com/codag-megalith/codag-visualizer
+  homepage: https://codag.ai/
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 539
+  license: MIT
+  updated: '2026-06-10'
+  note: Visualizes LLM workflows inside codebases as DAGs.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: codebase-memory-mcp
+  url: https://github.com/DeusData/codebase-memory-mcp
+  homepage: https://deusdata.github.io/codebase-memory-mcp/
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  stars: 3451
+  license: MIT
+  updated: '2026-06-14'
+  note: High-performance code knowledge graph MCP server for agents.
+  source_types:
+  - 代码库
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: CodeAtlas
+  url: https://github.com/lucyb0207/CodeAtlas
+  homepage: https://code-atlas-one.vercel.app
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 23
+  license: MIT
+  updated: '2026-05-23'
+  note: Interactive dependency graph for GitHub repositories.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: devlensOSS
+  url: https://github.com/devlensio/devlensOSS
+  homepage: https://devlens.io
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 31
+  license: AGPL-3.0
+  updated: '2026-06-12'
+  note: Open-source intelligent codebase visualizer for JavaScript stacks.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: Visual-Explainer
+  url: https://github.com/jircik/Visual-Explainer
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-05-16'
+  note: Claude Code skill for interactive HTML dashboards explaining codebases and diffs.
+  source_types:
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: codemap-skill
+  url: https://github.com/Asixa/codemap-skill
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 代码分析工具
+  stars: 2
+  license: MIT
+  updated: '2026-06-11'
+  note: Claude Code/Codex skill for module maps and technical debt scoring.
+  source_types:
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: DeepWiki
+  url: https://docs.devin.ai/work-with-devin/deepwiki
+  category: codebase-map
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 代码分析工具
+  note: Public repo documentation and architecture diagrams from Cognition/Devin.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: CodeSee
+  url: https://www.codesee.io/
+  category: codebase-map
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 代码分析工具
+  note: Commercial codebase visibility and map product.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: Mermaid
+  url: https://github.com/mermaid-js/mermaid
+  homepage: https://mermaid.ai/open-source/
+  category: rendering-primitive
+  surface: library
+  dependencies:
+  - 渲染/导出
+  stars: 88634
+  license: MIT
+  updated: '2026-06-14'
+  note: Primary diagrams-as-code target for LLM and agent outputs.
+  source_types:
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: mermaid-js-ai-agent
+  url: https://github.com/disler/mermaid-js-ai-agent
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 177
+  license: unknown
+  updated: '2026-05-31'
+  note: GenAI plus Mermaid diagram agent.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: mermaid-skill
+  url: https://github.com/Agents365-ai/mermaid-skill
+  homepage: https://agents365-ai.github.io/mermaid-skill/
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 76
+  license: MIT
+  updated: '2026-06-14'
+  note: Natural language to Mermaid with validation and export.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Pretty-mermaid-skills
+  url: https://github.com/imxv/Pretty-mermaid-skills
+  homepage: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 754
+  license: MIT
+  updated: '2026-06-13'
+  note: Mermaid rendering capability for agents with SVG and ASCII outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: agent-toolkit
+  url: https://github.com/softaworks/agent-toolkit
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  stars: 2015
+  license: MIT
+  updated: '2026-06-13'
+  note: Skill collection with Mermaid diagram patterns.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: beautiful-mermaid
+  url: https://github.com/lukilabs/beautiful-mermaid
+  category: rendering-primitive
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  stars: 10371
+  license: MIT
+  updated: '2026-06-14'
+  note: Themeable Mermaid renderer.
+  source_types:
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: LLMermaid
+  url: https://github.com/fladdict/llmermaid
+  category: diagram-generation
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 76
+  license: MIT
+  updated: '2026-04-17'
+  note: Prototype around Mermaid diagrams and LLM control.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 研究原型
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Napkin AI
+  url: https://www.napkin.ai/
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Text to business storytelling visuals with PPT, PNG, SVG, and PDF export.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: Eraser AI
+  url: https://www.eraser.io/ai
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Plain English or code snippets to editable technical diagrams.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: Mermaid Chart AI
+  url: https://mermaid.ai/mermaid-ai
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 渲染/导出
+  note: Mermaid-native AI diagram creation.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: Whimsical AI
+  url: https://whimsical.com/ai
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Prompt-generated flowcharts, sequence diagrams, mind maps, and summaries.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: Lucid AI
+  url: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI-generated diagrams on Lucidchart canvas.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: Miro AI diagrams
+  url: https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Prompt-to-diagram and prompt-to-mind-map on Miro boards.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: FigJam AI
+  url: https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI
+  category: diagram-generation
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI-generated boards and diagrams in FigJam.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: Data Formulator
+  url: https://github.com/microsoft/data-formulator
+  homepage: https://arxiv.org/abs/2408.16119
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 15824
+  license: MIT
+  updated: '2026-06-13'
+  note: AI-assisted rich data visualization and exploration.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: LIDA
+  url: https://github.com/microsoft/lida
+  homepage: https://microsoft.github.io/lida/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 3255
+  license: MIT
+  updated: '2026-06-12'
+  note: LLM-based automatic generation of visualizations and infographics.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: MatPlotAgent
+  url: https://github.com/thunlp/MatPlotAgent
+  category: data-dashboard
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 115
+  license: unknown
+  updated: '2026-06-08'
+  note: LLM agent framework for scientific data visualization.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 研究原型
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: OpenVizAI
+  url: https://github.com/OpenVizAI/OpenVizAI
+  homepage: https://openvizai.vercel.app
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 41
+  license: MIT
+  updated: '2026-05-18'
+  note: Prompt to chart recommendation and rendering.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: generative-dashboard-builder
+  url: https://github.com/KaranChandekar/generative-dashboard-builder
+  homepage: https://generative-dashboard-builder.vercel.app
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  stars: 18
+  license: unknown
+  updated: '2026-05-25'
+  note: Prompt-generated charts, KPIs, and dashboards.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: OpenBI
+  url: https://github.com/narender-rk10/OpenBI
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 5
+  license: NOASSERTION
+  updated: '2026-06-12'
+  note: AI-native BI with chat, dashboards, and reports.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: Gamma
+  url: https://gamma.app/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI presentation, document, website, and social content generator with PPT/PDF export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: SlideSpeak
+  url: https://slidespeak.co/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 模板/素材
+  note: AI presentation platform for native PowerPoint generation from documents, text, and ideas.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Canva AI Presentations
+  url: https://www.canva.com/create/ai-presentations/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Mainstream AI presentation maker inside Canva.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Presentations.AI
+  url: https://www.presentations.ai/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 模板/素材
+  note: Topic, document, data, or URL to branded presentation-ready decks with PowerPoint export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Beautiful.ai
+  url: https://www.beautiful.ai/presentation-maker
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI presentation maker with brand controls, collaboration, and analytics.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Decktopus
+  url: https://www.decktopus.com/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI presentation assistant for prompt-to-deck workflows.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: PPT.AI
+  url: https://ppt.ai/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 模板/素材
+  note: Web PPT generator for text, URL, PDF, Word, YouTube, and image inputs.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Slidesgo AI Presentation Maker
+  url: https://slidesgo.com/ai/presentation-maker
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: AI presentation generator with PPTX export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Microsoft Copilot in PowerPoint
+  url: https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 系统工具
+  - 模板/素材
+  note: Native AI presentation generation in PowerPoint.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Adobe Express AI Presentation Maker
+  url: https://www.adobe.com/express/create/ai/presentation
+  category: commercial-site
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模板/素材
+  note: Prompt-to-slide drafts inside Adobe Express.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: awesome-agent-skills
+  url: https://github.com/VoltAgent/awesome-agent-skills
+  homepage: https://officialskills.sh/
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 25252
+  license: MIT
+  updated: '2026-06-14'
+  note: Large agent skill directory.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-llm-skills
+  url: https://github.com/Prat011/awesome-llm-skills
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 1322
+  license: unknown
+  updated: '2026-06-13'
+  note: Cross-agent LLM skills list.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: Awesome-Powerpoint-AI-Agents
+  url: https://github.com/ishandutta2007/Awesome-Powerpoint-AI-Agents
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 14
+  license: unknown
+  updated: '2026-06-12'
+  note: Directly similar PowerPoint AI agents ecosystem list.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-mcp-servers
+  url: https://github.com/punkpeye/awesome-mcp-servers
+  homepage: https://glama.ai/mcp/servers
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 89089
+  license: MIT
+  updated: '2026-06-14'
+  note: Large MCP server directory.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-claude-code
+  url: https://github.com/hesreallyhim/awesome-claude-code
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 46383
+  license: NOASSERTION
+  updated: '2026-06-14'
+  note: Claude Code skill, hook, slash-command, app, and plugin index.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome_ai_agents
+  url: https://github.com/jim-schwoebel/awesome_ai_agents
+  homepage: https://agents.blog
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 1825
+  license: Apache-2.0
+  updated: '2026-06-14'
+  note: Broad AI agent resources.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-ai-tools
+  url: https://github.com/mahseema/awesome-ai-tools
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 5452
+  license: MIT
+  updated: '2026-06-14'
+  note: Broad AI tools list.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-ai-auto-research
+  url: https://github.com/worldbench/awesome-ai-auto-research
+  homepage: https://worldbench.github.io/awesome-ai-auto-research
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 366
+  license: MIT
+  updated: '2026-06-13'
+  note: AI auto-research landscape, including paper-to-slides, posters, videos, websites, and social outputs.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: LLM-Visualization-Paper-List
+  url: https://github.com/zengxingchen/LLM-Visualization-Paper-List
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 83
+  license: unknown
+  updated: '2026-06-04'
+  note: Paper list for visualization meets LLM.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-ai-for-science
+  url: https://github.com/ai-boost/awesome-ai-for-science
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 1644
+  license: MIT
+  updated: '2026-06-13'
+  note: Broad AI-for-science tool, paper, dataset, and framework index.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: AlterLab-Academic-Skills
+  url: https://github.com/AlterLab-IEU/AlterLab-Academic-Skills
+  homepage: https://alterlab-ieu.github.io/AlterLab-Academic-Skills/
+  category: meta-index
+  surface: skill
+  dependencies:
+  - 浏览器/账号
+  stars: 27
+  license: MIT
+  updated: '2026-06-12'
+  note: Evaluated academic agent skills including visualization, reports, writing, and research pipelines.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: SenseNova-Skills
+  url: https://github.com/OpenSenseNova/SenseNova-Skills
+  category: meta-index
+  surface: skill
+  dependencies:
+  - 浏览器/账号
+  stars: 4432
+  license: MIT
+  updated: '2026-06-14'
+  note: Office and productivity skills covering image generation, visualization, slide decks, Excel analysis, and deep research.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: TransformingScienceLLMs
+  url: https://github.com/NL2G/TransformingScienceLLMs
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 15
+  license: unknown
+  updated: '2026-06-10'
+  note: Collection of papers, AI models, and tools for LLM-assisted scientific work.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
