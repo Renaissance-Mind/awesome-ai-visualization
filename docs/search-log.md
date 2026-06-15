@@ -1,12 +1,14 @@
 # Search Log
 
-Last researched: 2026-06-14.
+Last researched: 2026-06-16.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
 Update on 2026-06-14: the scope was broadened from presentation/codebase examples to the larger category of "complex content to human-readable visual, explanatory, and report artifacts." PPT is now treated as one output surface, not the whole domain.
 
 Second update on 2026-06-14: the README was reorganized into three explicit axes: information source, tool form, and output artifact. This pass added more web/news/intelligence and knowledge-base tools so the catalog is not centered only on papers, decks, and codebases.
+
+Update on 2026-06-16: refreshed the presentation-agent and diagram-agent surface from official GitHub repositories and project pages. This pass added Azure's multi-agent presentation sample, Marp MCP, pptx-tools, DeepDiagram, and AI-Presentation-Builders-Index.
 
 ## Search Surfaces
 
@@ -152,6 +154,15 @@ Programmatic video and motion-explainer tools:
 - `site:github.com "AI Video Engine" "JSON timeline" "Scene components" "HTML/MP4"`
 - `site:github.com "Turn HTML" "video" "Puppeteer" "ffmpeg" "agent"`
 
+Presentation-agent and diagram-agent refresh:
+
+- `site:github.com AI agent presentation builder PPTX markdown slides MCP 2026`
+- `site:github.com LLM diagram agent mermaid visualization 2026`
+- `site:github.com AI research report dashboard agent visualization 2026`
+- `site:github.com AI multi agent presentation builder Azure Samples`
+- `Marp MCP GitHub AI agents build edit Marp slide decks structured tools`
+- `qmd_to_pptx editable PowerPoint Mermaid equations`
+
 ## Selection Heuristics
 
 Included if at least one is true:
@@ -199,6 +210,14 @@ Excluded if:
 - [Helios](https://github.com/BintzGavin/helios): web-standards programmatic video engine where CSS animations render to MP4.
 - [OpenMontage](https://github.com/calesthio/OpenMontage): agentic video production system covering research, scripting, assets, footage, editing, and rendering.
 - [ralphy](https://github.com/alecs5am/ralphy): agent-driven AI video runtime with HyperFrames rendering, model routing, logs, and quality gates.
+
+## Added in the 2026-06-16 Daily Refresh
+
+- [AI Multi-Agent Presentation Builder](https://github.com/Azure-Samples/ai-multi-agent-presentation-builder): Semantic Kernel and Azure OpenAI sample that uses multiple agents to produce downloadable PPTX decks.
+- [Marp MCP](https://github.com/masaki39/marp-mcp): MCP server and Claude Code skill for creating and editing Marp presentations with agent assistance.
+- [pptx-tools](https://github.com/jongalloway/pptx-tools): .NET MCP server and CLI for agent-native PowerPoint reading, editing, extraction, and generation.
+- [DeepDiagram](https://github.com/LingyiChen-AI/DeepDiagram): open-source agentic visualization platform for mind maps, flowcharts, ECharts, Draw.io, Mermaid, and infographics.
+- [AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index): focused index of open, self-hosted, and agent-driven presentation builders, skills, MCP servers, renderers, and parsers.
 
 ## Early Market Read
 
