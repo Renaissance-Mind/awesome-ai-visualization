@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-122_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
