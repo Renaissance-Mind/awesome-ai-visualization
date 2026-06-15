@@ -13,6 +13,7 @@ Create a production-quality frontend for `Renaissance-Mind/awesome-ai-visualizat
 - Use `data/tool-research.yml` for captured docs, examples, demos, and evidence links.
 - Preserve the repository's axes: information source, tool form, output artifact, dependency type, category, and README group.
 - Include a selected-tool detail panel with official links and a source-to-artifact flow.
+- Include visual output previews derived from catalog output artifact tags, so users can quickly see whether a tool produces decks, diagrams, dashboards, repo wikis, reports, maps, or structured tables.
 - Include compact catalog stats and result distribution.
 
 ## Design System
