@@ -14,6 +14,7 @@ import {
   Star,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
+import { EffectPreviewGrid, EffectStrip } from "./components/EffectPreview";
 import rawCatalog from "./data/catalog.generated.json";
 import {
   createEmptyFilters,
@@ -319,6 +320,10 @@ export function App() {
           </section>
 
           <section className="insight-block">
+            <EffectPreviewGrid entry={selectedEntry} />
+          </section>
+
+          <section className="insight-block">
             <div className="panel-kicker">
               <BookOpen size={15} />
               Evidence links
@@ -400,6 +405,7 @@ function ToolRow({
             <em>{categoryLabels[entry.category] ?? entry.category}</em>
           </span>
           <span className="tool-note">{entry.note}</span>
+          <EffectStrip entry={entry} />
           <span className="tag-row">
             {[...entry.sourceTypes, ...entry.toolForms, ...entry.outputForms].slice(0, 5).map((tag) => (
               <span key={tag}>{labelFor(tag)}</span>
