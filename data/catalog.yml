@@ -798,6 +798,28 @@ entries:
   - 结构化数据/Markdown
   catalog_section: support_doc_parse
   readme_group: support_doc_parse
+- name: MarkItDown
+  url: https://github.com/microsoft/markitdown
+  category: doc-to-knowledge
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 模型 API
+  stars: 153405
+  license: MIT
+  updated: '2026-06-15'
+  note: Lightweight Python library and CLI for converting PDFs, Office files, images, audio, HTML, structured text, ZIPs, YouTube URLs, and EPubs into LLM-ready Markdown.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
 - name: Marker
   url: https://github.com/datalab-to/marker
   homepage: https://www.datalab.to
