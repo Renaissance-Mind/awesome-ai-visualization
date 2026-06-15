@@ -8,11 +8,11 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 122
-  fetched_sources_ok: 169
+  entries: 123
+  fetched_sources_ok: 170
   fetched_sources_failed: 5
-  official_examples: 548
-  official_docs: 414
+  official_examples: 551
+  official_docs: 424
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -3234,6 +3234,142 @@ entries:
   - 3. Python usage (recommended)
   - Documentation
   - Examples
+- name: MarkItDown
+  category: doc-to-knowledge
+  surface: library
+  primary_url: https://github.com/microsoft/markitdown
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 模型 API
+  catalog_note: Lightweight Python library and CLI for converting PDFs, Office files, images, audio, HTML, structured text,
+    ZIPs, YouTube URLs, and EPubs into LLM-ready Markdown.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MarkItDown
+    bytes: 15757
+  official_examples:
+  - kind: example
+    title: Command-Line usage
+    url: https://github.com/microsoft/markitdown#command-line
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: example
+    title: Python API usage
+    url: https://github.com/microsoft/markitdown#python-api
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: example
+    title: Azure Content Understanding usage
+    url: https://github.com/microsoft/markitdown#azure-content-understanding
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: PyPI package
+    url: https://pypi.org/project/markitdown/
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Installation
+    url: https://github.com/microsoft/markitdown#installation
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Optional dependencies
+    url: https://github.com/microsoft/markitdown#optional-dependencies
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Plugins
+    url: https://github.com/microsoft/markitdown#plugins
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: markitdown-ocr plugin documentation
+    url: https://github.com/microsoft/markitdown/blob/HEAD/packages/markitdown-ocr/README.md
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Azure Content Understanding integration
+    url: https://github.com/microsoft/markitdown#azure-content-understanding
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Azure Content Understanding documentation
+    url: https://learn.microsoft.com/azure/ai-services/content-understanding/
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Azure Document Intelligence setup
+    url: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Docker usage
+    url: https://github.com/microsoft/markitdown#docker
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Security considerations
+    url: https://github.com/microsoft/markitdown#security-considerations
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Command-Line usage
+    url: https://github.com/microsoft/markitdown#command-line
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: example
+    title: Python API usage
+    url: https://github.com/microsoft/markitdown#python-api
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: example
+    title: Azure Content Understanding usage
+    url: https://github.com/microsoft/markitdown#azure-content-understanding
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: PyPI package
+    url: https://pypi.org/project/markitdown/
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Installation
+    url: https://github.com/microsoft/markitdown#installation
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Optional dependencies
+    url: https://github.com/microsoft/markitdown#optional-dependencies
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Plugins
+    url: https://github.com/microsoft/markitdown#plugins
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: markitdown-ocr plugin documentation
+    url: https://github.com/microsoft/markitdown/blob/HEAD/packages/markitdown-ocr/README.md
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Azure Content Understanding integration
+    url: https://github.com/microsoft/markitdown#azure-content-understanding
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Azure Content Understanding documentation
+    url: https://learn.microsoft.com/azure/ai-services/content-understanding/
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Azure Document Intelligence setup
+    url: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Docker usage
+    url: https://github.com/microsoft/markitdown#docker
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  - kind: docs
+    title: Security considerations
+    url: https://github.com/microsoft/markitdown#security-considerations
+    source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
+  source_headings:
+  - Usage
+  - Command-Line
+  - Optional Dependencies
+  - Plugins
+  - markitdown-ocr Plugin
+  - Azure Content Understanding
+  - Azure Document Intelligence
+  - Python API
+  - Docker
+  - Security Considerations
 - name: Marker
   category: doc-to-knowledge
   surface: open-source
