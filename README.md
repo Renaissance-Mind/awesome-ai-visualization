@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-122_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -22,12 +22,24 @@ The catalog is tagged by **information source**, **tool form**, **output artifac
 
 ## Contents
 
+- [Frontend](#frontend)
 - [Main Workflow Tools](#main-workflow-tools)
 - [Supporting and Pre/Post-Processing Tools](#supporting-and-prepost-processing-tools)
 - [How To Choose A Tool](#how-to-choose-a-tool)
 - [Find More Tools](#find-more-tools)
 - [Data](#data)
 - [Contributing](#contributing)
+
+## Frontend
+
+This repository now includes an Open Design-guided React frontend for browsing the catalog as a real application.
+
+```bash
+npm install
+npm run dev
+```
+
+The frontend regenerates [`src/data/catalog.generated.json`](src/data/catalog.generated.json) from [`data/catalog.yml`](data/catalog.yml) and [`data/tool-research.yml`](data/tool-research.yml) before development and production builds. The Open Design brief lives in [`docs/open-design-brief.md`](docs/open-design-brief.md), and the portable design system lives in [`design-systems/awesome-ai-visualization/DESIGN.md`](design-systems/awesome-ai-visualization/DESIGN.md).
 
 ## Main Workflow Tools
 
