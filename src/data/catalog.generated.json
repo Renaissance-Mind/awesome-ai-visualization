@@ -3,47 +3,47 @@
   "lastResearched": "2026-06-15",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 123,
-    "openSource": 42,
+    "total": 128,
+    "openSource": 46,
     "saas": 35,
-    "modelApi": 53,
-    "examples": 551,
-    "effectAssets": 512,
-    "docs": 424
+    "modelApi": 56,
+    "examples": 563,
+    "effectAssets": 526,
+    "docs": 438
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 25,
       "PDF/文档": 50,
-      "文本/想法": 46,
+      "文本/想法": 51,
       "数据/表格": 14,
-      "网页/搜索结果": 42,
-      "新闻/资讯": 8,
+      "网页/搜索结果": 45,
+      "新闻/资讯": 9,
       "知识库/个人资料": 6,
       "引用网络": 4,
       "Office 文档": 8,
-      "代码库": 16,
-      "DSL/代码": 2,
+      "代码库": 17,
+      "DSL/代码": 4,
       "代码/技术描述": 12,
       "数据库": 6,
       "任意/多源": 13
     },
     "toolForms": {
-      "开源应用/框架": 42,
-      "Agent Skill": 15,
+      "开源应用/框架": 46,
+      "Agent Skill": 16,
       "Skill 集合": 9,
       "数据集/评测": 1,
       "Bot/助手": 4,
       "产品/SaaS": 35,
       "研究原型": 4,
-      "API/SDK/库": 5,
+      "API/SDK/库": 6,
       "MCP Server": 2,
       "Awesome/索引": 11
     },
     "outputForms": {
       "图形摘要/信息图": 7,
       "PPT/演示文稿": 35,
-      "网页/交互页面": 8,
+      "网页/交互页面": 11,
       "问答/学习材料": 5,
       "报告/长文档": 15,
       "证据表": 6,
@@ -60,19 +60,20 @@
       "图表/Mermaid": 7,
       "SVG/PNG/PDF": 7,
       "白板/思维导图": 7,
+      "视频/音频": 5,
       "工具索引": 13
     },
     "dependencies": {
-      "本地语言环境": 65,
-      "模型 API": 53,
+      "本地语言环境": 70,
+      "模型 API": 56,
       "文档解析/OCR": 22,
-      "渲染/导出": 55,
+      "渲染/导出": 60,
       "GPU/加速器": 5,
-      "模板/素材": 38,
-      "Agent 宿主": 23,
-      "系统工具": 5,
-      "外部检索/数据源": 21,
-      "存储/索引": 14,
+      "模板/素材": 39,
+      "Agent 宿主": 27,
+      "系统工具": 10,
+      "外部检索/数据源": 22,
+      "存储/索引": 15,
       "浏览器/账号": 51,
       "MCP Client": 3,
       "代码分析工具": 16
@@ -88,6 +89,7 @@
       "codebase-map": 16,
       "rendering-primitive": 2,
       "diagram-generation": 12,
+      "video-generation": 5,
       "commercial-site": 10,
       "meta-index": 13
     },
@@ -102,6 +104,7 @@
       "code": 16,
       "support_render": 7,
       "data": 6,
+      "video": 5,
       "indexes": 13
     }
   },
@@ -10002,6 +10005,465 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "html-video",
+      "url": "https://github.com/nexu-io/html-video",
+      "primaryUrl": "https://github.com/nexu-io/html-video",
+      "homepage": "https://open-design.ai/html-video",
+      "category": "video-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 3132,
+      "license": "Apache-2.0",
+      "updated": "2026-06-15",
+      "note": "Agent-native HTML-to-video studio that turns prompts, articles, or GitHub repos into animated HTML storyboards and local MP4 renders.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "代码库"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Quick start",
+          "url": "https://github.com/nexu-io/html-video#quick-start",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "How it works",
+          "url": "https://github.com/nexu-io/html-video#how-it-works",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Showcase",
+          "url": "https://github.com/nexu-io/html-video#showcase",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Turn a link into a video",
+          "url": "https://github.com/nexu-io/html-video#turn-a-link-into-a-video",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Templates gallery",
+          "url": "https://github.com/nexu-io/html-video/tree/main/templates",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "html-video hero",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "NYT-style data chart",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-data-chart-nyt.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Glitch title",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-glitch-title.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Liquid background hero",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-liquid-bg-hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Light leak cinema",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-light-leak-cinema.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Typewriter cursor VFX",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/vfx-text-cursor.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Logo outro",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-logo-outro.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 3,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "NextFrame",
+      "url": "https://github.com/ChaosRealmsAI/NextFrame",
+      "primaryUrl": "https://github.com/ChaosRealmsAI/NextFrame",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 21,
+      "license": "MIT",
+      "updated": "2026-06-15",
+      "note": "AI-native video editor/runtime where JSON compositions become scene components, live previews, and MP4 exports.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Product north star",
+          "url": "https://github.com/ChaosRealmsAI/NextFrame/blob/main/spec/charter.md",
+          "source": "https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/ChaosRealmsAI/NextFrame/blob/main/spec/architecture.md",
+          "source": "https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Design system",
+          "url": "https://github.com/ChaosRealmsAI/NextFrame/tree/main/spec/design",
+          "source": "https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Behavior specs",
+          "url": "https://github.com/ChaosRealmsAI/NextFrame/tree/main/spec/bdd",
+          "source": "https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Example projects",
+          "url": "https://github.com/ChaosRealmsAI/NextFrame/tree/main/examples",
+          "source": "https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Helios",
+      "url": "https://github.com/BintzGavin/helios",
+      "primaryUrl": "https://github.com/BintzGavin/helios",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "Agent 宿主"
+      ],
+      "stars": 83,
+      "license": "NOASSERTION",
+      "updated": "2026-06-15",
+      "note": "Programmatic video engine for web-standard compositions where CSS animations and web components render to MP4.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/BintzGavin/helios#architecture",
+          "source": "https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Helios skills",
+          "url": "https://github.com/BintzGavin/helios-skills",
+          "source": "https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Video created with Helios",
+          "url": "https://github.com/user-attachments/assets/89ee2a20-77c5-4440-ad68-9f9180d969bd",
+          "source": "https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Video created with Helios",
+          "url": "https://github.com/user-attachments/assets/89ee2a20-77c5-4440-ad68-9f9180d969bd",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "primaryUrl": "https://github.com/calesthio/OpenMontage",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 4736,
+      "license": "AGPL-3.0",
+      "updated": "2026-06-15",
+      "note": "Agentic video production system with research, scripting, asset generation, footage retrieval, editing, and final composition pipelines.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Agent Guide",
+          "url": "https://github.com/calesthio/OpenMontage/blob/main/AGENT_GUIDE.md",
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "docs",
+          "title": "Providers",
+          "url": "https://github.com/calesthio/OpenMontage/blob/main/docs/PROVIDERS.md",
+          "source": "https://github.com/calesthio/OpenMontage"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Signal From Tomorrow",
+          "url": "https://github.com/user-attachments/assets/f77ce7a4-68b8-4f94-a287-e94bf50a32e1",
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "demo",
+          "title": "The Last Banana",
+          "url": "https://github.com/user-attachments/assets/8daca07f-cdf8-4bec-89c3-9dc2176363fa",
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "demo",
+          "title": "VOID Neural Interface",
+          "url": "https://github.com/user-attachments/assets/8a6d2cc3-7ad2-46f5-922f-a8e3e5848d9f",
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "demo",
+          "title": "Afternoon in Candyland",
+          "url": "https://github.com/user-attachments/assets/3c5d7122-7198-43e2-a97d-ed27558dd324",
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "demo",
+          "title": "Mori no Seishin",
+          "url": "https://github.com/user-attachments/assets/e8dc5e32-5c70-46de-bd52-eef887719d13",
+          "source": "https://github.com/calesthio/OpenMontage"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Signal From Tomorrow",
+          "url": "https://github.com/user-attachments/assets/f77ce7a4-68b8-4f94-a287-e94bf50a32e1",
+          "thumbnailUrl": null,
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "video",
+          "title": "The Last Banana",
+          "url": "https://github.com/user-attachments/assets/8daca07f-cdf8-4bec-89c3-9dc2176363fa",
+          "thumbnailUrl": null,
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "video",
+          "title": "VOID Neural Interface",
+          "url": "https://github.com/user-attachments/assets/8a6d2cc3-7ad2-46f5-922f-a8e3e5848d9f",
+          "thumbnailUrl": null,
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "video",
+          "title": "Afternoon in Candyland",
+          "url": "https://github.com/user-attachments/assets/3c5d7122-7198-43e2-a97d-ed27558dd324",
+          "thumbnailUrl": null,
+          "source": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "kind": "video",
+          "title": "Mori no Seishin",
+          "url": "https://github.com/user-attachments/assets/e8dc5e32-5c70-46de-bd52-eef887719d13",
+          "thumbnailUrl": null,
+          "source": "https://github.com/calesthio/OpenMontage"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 5,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "ralphy",
+      "url": "https://github.com/alecs5am/ralphy",
+      "primaryUrl": "https://github.com/alecs5am/ralphy",
+      "homepage": "https://alecs5am.com/ralphy",
+      "category": "video-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "系统工具",
+        "存储/索引"
+      ],
+      "stars": 74,
+      "license": "Apache-2.0",
+      "updated": "2026-06-15",
+      "note": "Agent-driven AI video runtime for reproducible short-form MP4 generation with HyperFrames, model routing, cost logs, and quality gates.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "CLI surface",
+          "url": "https://github.com/alecs5am/ralphy/blob/main/docs/cli-surface.md",
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "AGENTS routing rules",
+          "url": "https://github.com/alecs5am/ralphy/blob/main/AGENTS.md",
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Models",
+          "url": "https://github.com/alecs5am/ralphy/blob/main/MODELS.md",
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Playbooks",
+          "url": "https://github.com/alecs5am/ralphy/tree/main/docs/playbooks",
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Ralphy library",
+          "url": "https://www.alecs5am.com/library",
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "60-second tour",
+          "url": "https://github.com/alecs5am/ralphy#60-second-tour",
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "RALPHY banner",
+          "url": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/docs/branding/banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
     },
     {
       "name": "Gamma",

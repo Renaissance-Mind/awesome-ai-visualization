@@ -1,7 +1,7 @@
 last_researched: '2026-06-15'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
-    | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
+    | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
   surface: open-source | product | skill | mcp | library | research | dataset | index
   surface_zh: Legacy surface values are normalized into tool_forms for README display.
   input_output: Human-readable comparison field in README.zh-CN.md; use 'input -> output' and keep outputs artifact-oriented.
@@ -2219,6 +2219,129 @@ entries:
   - 报告/简报
   catalog_section: main
   readme_group: data
+- name: html-video
+  url: https://github.com/nexu-io/html-video
+  homepage: https://open-design.ai/html-video
+  category: video-generation
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 3132
+  license: Apache-2.0
+  updated: '2026-06-15'
+  note: Agent-native HTML-to-video studio that turns prompts, articles, or GitHub repos into animated HTML storyboards and local MP4 renders.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: NextFrame
+  url: https://github.com/ChaosRealmsAI/NextFrame
+  category: video-generation
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 21
+  license: MIT
+  updated: '2026-06-15'
+  note: AI-native video editor/runtime where JSON compositions become scene components, live previews, and MP4 exports.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: Helios
+  url: https://github.com/BintzGavin/helios
+  category: video-generation
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - Agent 宿主
+  stars: 83
+  license: NOASSERTION
+  updated: '2026-06-15'
+  note: Programmatic video engine for web-standard compositions where CSS animations and web components render to MP4.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: OpenMontage
+  url: https://github.com/calesthio/OpenMontage
+  category: video-generation
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  stars: 4736
+  license: AGPL-3.0
+  updated: '2026-06-15'
+  note: Agentic video production system with research, scripting, asset generation, footage retrieval, editing, and final composition pipelines.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 视频/音频
+  catalog_section: main
+  readme_group: video
+- name: ralphy
+  url: https://github.com/alecs5am/ralphy
+  homepage: https://alecs5am.com/ralphy
+  category: video-generation
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  - 存储/索引
+  stars: 74
+  license: Apache-2.0
+  updated: '2026-06-15'
+  note: Agent-driven AI video runtime for reproducible short-form MP4 generation with HyperFrames, model routing, cost logs, and quality gates.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 视频/音频
+  catalog_section: main
+  readme_group: video
 - name: Gamma
   url: https://gamma.app/
   category: commercial-site

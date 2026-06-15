@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-128_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -150,6 +150,18 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
+
+### Programmatic Video and Motion Explainers
+
+Tools that turn prompts, web pages, repositories, structured timelines, or agent-produced HTML into narrated or animated MP4/video artifacts.
+
+| Project | Information source | Tool form | Output artifact | Dependencies |
+| --- | --- | --- | --- | --- |
+| [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | Text/ideas / Web/search / Codebase | Open-source app/framework | Video/audio / Web/interactive page | Agent host / Local runtime / Model API / Rendering/export / System tools / Templates/assets |
+| [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/code / Text/ideas | Open-source app/framework | Video/audio / Web/interactive page | Local runtime / Rendering/export / System tools |
+| [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/code / Text/ideas | API/SDK/library / Agent skill | Video/audio / Web/interactive page | Local runtime / Rendering/export / System tools / Agent host |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | Text/ideas / Web/search / News/intelligence | Open-source app/framework | Video/audio | Agent host / Local runtime / Model API / External search/data / Rendering/export / System tools |
+| [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | Text/ideas / Web/search | Open-source app/framework | Video/audio | Agent host / Local runtime / Model API / Rendering/export / System tools / Storage/index |
 
 ### Presentations and Multi-Source Content
 

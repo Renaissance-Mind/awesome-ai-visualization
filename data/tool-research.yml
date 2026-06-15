@@ -10,12 +10,12 @@ schema:
   official_effect_assets: Official image/GIF/video assets and video thumbnails discovered from official sources for effect
     previews.
 summary:
-  entries: 123
-  fetched_sources_ok: 170
+  entries: 128
+  fetched_sources_ok: 175
   fetched_sources_failed: 5
-  official_examples: 551
-  official_docs: 424
-  official_effect_assets: 512
+  official_examples: 563
+  official_docs: 438
+  official_effect_assets: 526
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -10551,6 +10551,391 @@ entries:
     title: SQL Query
     url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/6c_chat_sql_query.png
     source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+- name: html-video
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/nexu-io/html-video
+  homepage: https://open-design.ai/html-video
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent-native HTML-to-video studio that turns prompts, articles, or GitHub repos into animated HTML storyboards
+    and local MP4 renders.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: html-video
+    bytes: 18266
+  official_examples:
+  - kind: showcase
+    title: Showcase
+    url: https://github.com/nexu-io/html-video#showcase
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: demo
+    title: Turn a link into a video
+    url: https://github.com/nexu-io/html-video#turn-a-link-into-a-video
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: template
+    title: Templates gallery
+    url: https://github.com/nexu-io/html-video/tree/main/templates
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Quick start
+    url: https://github.com/nexu-io/html-video#quick-start
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: docs
+    title: How it works
+    url: https://github.com/nexu-io/html-video#how-it-works
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: Showcase
+    url: https://github.com/nexu-io/html-video#showcase
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: demo
+    title: Turn a link into a video
+    url: https://github.com/nexu-io/html-video#turn-a-link-into-a-video
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: template
+    title: Templates gallery
+    url: https://github.com/nexu-io/html-video/tree/main/templates
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: docs
+    title: Quick start
+    url: https://github.com/nexu-io/html-video#quick-start
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: docs
+    title: How it works
+    url: https://github.com/nexu-io/html-video#how-it-works
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  source_headings:
+  - Showcase
+  - Why this exists
+  - At a glance
+  - How it works
+  - Turn a link into a video
+  - Quick start
+  - Supported agents
+  official_effect_assets:
+  - kind: image
+    title: html-video hero
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/hero.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: image
+    title: NYT-style data chart
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-data-chart-nyt.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: image
+    title: Glitch title
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-glitch-title.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: image
+    title: Liquid background hero
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-liquid-bg-hero.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: image
+    title: Light leak cinema
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-light-leak-cinema.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: image
+    title: Typewriter cursor VFX
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/vfx-text-cursor.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+  - kind: image
+    title: Logo outro
+    url: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/docs/assets/templates/frame-logo-outro.png
+    source: https://raw.githubusercontent.com/nexu-io/html-video/HEAD/README.md
+- name: NextFrame
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/ChaosRealmsAI/NextFrame
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: AI-native video editor/runtime where JSON compositions become scene components, live previews, and MP4 exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: NextFrame
+    bytes: 2778
+  official_examples:
+  - kind: example
+    title: Example projects
+    url: https://github.com/ChaosRealmsAI/NextFrame/tree/main/examples
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Product north star
+    url: https://github.com/ChaosRealmsAI/NextFrame/blob/main/spec/charter.md
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/ChaosRealmsAI/NextFrame/blob/main/spec/architecture.md
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  - kind: docs
+    title: Design system
+    url: https://github.com/ChaosRealmsAI/NextFrame/tree/main/spec/design
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  - kind: docs
+    title: Behavior specs
+    url: https://github.com/ChaosRealmsAI/NextFrame/tree/main/spec/bdd
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Example projects
+    url: https://github.com/ChaosRealmsAI/NextFrame/tree/main/examples
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  - kind: docs
+    title: Product north star
+    url: https://github.com/ChaosRealmsAI/NextFrame/blob/main/spec/charter.md
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/ChaosRealmsAI/NextFrame/blob/main/spec/architecture.md
+    source: https://raw.githubusercontent.com/ChaosRealmsAI/NextFrame/HEAD/README.md
+  source_headings:
+  - Run
+  - Directory Map
+  - Useful Commands
+  - Core Modules
+  - Documentation
+  official_effect_assets: []
+- name: Helios
+  category: video-generation
+  surface: library
+  primary_url: https://github.com/BintzGavin/helios
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - Agent 宿主
+  catalog_note: Programmatic video engine for web-standard compositions where CSS animations and web components render to
+    MP4.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Helios
+    bytes: 27797
+  official_examples:
+  - kind: demo
+    title: Video created with Helios
+    url: https://github.com/user-attachments/assets/89ee2a20-77c5-4440-ad68-9f9180d969bd
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Architecture
+    url: https://github.com/BintzGavin/helios#architecture
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+  - kind: docs
+    title: Helios skills
+    url: https://github.com/BintzGavin/helios-skills
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Video created with Helios
+    url: https://github.com/user-attachments/assets/89ee2a20-77c5-4440-ad68-9f9180d969bd
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/BintzGavin/helios#architecture
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+  - kind: docs
+    title: Helios skills
+    url: https://github.com/BintzGavin/helios-skills
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+  source_headings:
+  - Recommended Quickstart: Helios Skills
+  - Quick Start
+  - The Thesis
+  - Why Helios?
+  - Architecture
+  official_effect_assets:
+  - kind: video
+    title: Video created with Helios
+    url: https://github.com/user-attachments/assets/89ee2a20-77c5-4440-ad68-9f9180d969bd
+    source: https://raw.githubusercontent.com/BintzGavin/helios/HEAD/README.md
+- name: OpenMontage
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/calesthio/OpenMontage
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Agentic video production system with research, scripting, asset generation, footage retrieval, editing, and
+    final composition pipelines.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/calesthio/OpenMontage
+    final_url: https://github.com/calesthio/OpenMontage
+    status: 200
+    content_type: text/html
+    title: OpenMontage
+  official_examples:
+  - kind: demo
+    title: Signal From Tomorrow
+    url: https://github.com/user-attachments/assets/f77ce7a4-68b8-4f94-a287-e94bf50a32e1
+    source: https://github.com/calesthio/OpenMontage
+  - kind: demo
+    title: The Last Banana
+    url: https://github.com/user-attachments/assets/8daca07f-cdf8-4bec-89c3-9dc2176363fa
+    source: https://github.com/calesthio/OpenMontage
+  - kind: demo
+    title: VOID Neural Interface
+    url: https://github.com/user-attachments/assets/8a6d2cc3-7ad2-46f5-922f-a8e3e5848d9f
+    source: https://github.com/calesthio/OpenMontage
+  - kind: demo
+    title: Afternoon in Candyland
+    url: https://github.com/user-attachments/assets/3c5d7122-7198-43e2-a97d-ed27558dd324
+    source: https://github.com/calesthio/OpenMontage
+  - kind: demo
+    title: Mori no Seishin
+    url: https://github.com/user-attachments/assets/e8dc5e32-5c70-46de-bd52-eef887719d13
+    source: https://github.com/calesthio/OpenMontage
+  official_docs:
+  - kind: docs
+    title: Agent Guide
+    url: https://github.com/calesthio/OpenMontage/blob/main/AGENT_GUIDE.md
+    source: https://github.com/calesthio/OpenMontage
+  - kind: docs
+    title: Providers
+    url: https://github.com/calesthio/OpenMontage/blob/main/docs/PROVIDERS.md
+    source: https://github.com/calesthio/OpenMontage
+  official_links:
+  - kind: docs
+    title: Agent Guide
+    url: https://github.com/calesthio/OpenMontage/blob/main/AGENT_GUIDE.md
+    source: https://github.com/calesthio/OpenMontage
+  - kind: docs
+    title: Providers
+    url: https://github.com/calesthio/OpenMontage/blob/main/docs/PROVIDERS.md
+    source: https://github.com/calesthio/OpenMontage
+  - kind: demo
+    title: Signal From Tomorrow
+    url: https://github.com/user-attachments/assets/f77ce7a4-68b8-4f94-a287-e94bf50a32e1
+    source: https://github.com/calesthio/OpenMontage
+  source_headings:
+  - Start From A Video You Already Love
+  - Quick Start
+  - Try These Prompts
+  - Pipelines
+  - How It Works
+  official_effect_assets:
+  - kind: video
+    title: Signal From Tomorrow
+    url: https://github.com/user-attachments/assets/f77ce7a4-68b8-4f94-a287-e94bf50a32e1
+    source: https://github.com/calesthio/OpenMontage
+  - kind: video
+    title: The Last Banana
+    url: https://github.com/user-attachments/assets/8daca07f-cdf8-4bec-89c3-9dc2176363fa
+    source: https://github.com/calesthio/OpenMontage
+  - kind: video
+    title: VOID Neural Interface
+    url: https://github.com/user-attachments/assets/8a6d2cc3-7ad2-46f5-922f-a8e3e5848d9f
+    source: https://github.com/calesthio/OpenMontage
+  - kind: video
+    title: Afternoon in Candyland
+    url: https://github.com/user-attachments/assets/3c5d7122-7198-43e2-a97d-ed27558dd324
+    source: https://github.com/calesthio/OpenMontage
+  - kind: video
+    title: Mori no Seishin
+    url: https://github.com/user-attachments/assets/e8dc5e32-5c70-46de-bd52-eef887719d13
+    source: https://github.com/calesthio/OpenMontage
+- name: ralphy
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/alecs5am/ralphy
+  homepage: https://alecs5am.com/ralphy
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  - 存储/索引
+  catalog_note: Agent-driven AI video runtime for reproducible short-form MP4 generation with HyperFrames, model routing,
+    cost logs, and quality gates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ralphy
+    bytes: 8490
+  official_examples:
+  - kind: showcase
+    title: Ralphy library
+    url: https://www.alecs5am.com/library
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: demo
+    title: 60-second tour
+    url: https://github.com/alecs5am/ralphy#60-second-tour
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: CLI surface
+    url: https://github.com/alecs5am/ralphy/blob/main/docs/cli-surface.md
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: docs
+    title: AGENTS routing rules
+    url: https://github.com/alecs5am/ralphy/blob/main/AGENTS.md
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: docs
+    title: Models
+    url: https://github.com/alecs5am/ralphy/blob/main/MODELS.md
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: docs
+    title: Playbooks
+    url: https://github.com/alecs5am/ralphy/tree/main/docs/playbooks
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: Ralphy library
+    url: https://www.alecs5am.com/library
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: docs
+    title: CLI surface
+    url: https://github.com/alecs5am/ralphy/blob/main/docs/cli-surface.md
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: docs
+    title: AGENTS routing rules
+    url: https://github.com/alecs5am/ralphy/blob/main/AGENTS.md
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  - kind: docs
+    title: Models
+    url: https://github.com/alecs5am/ralphy/blob/main/MODELS.md
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
+  source_headings:
+  - What it is
+  - Demo
+  - Install
+  - 60-second tour
+  - Why Ralphy
+  - Architecture
+  official_effect_assets:
+  - kind: image
+    title: RALPHY banner
+    url: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/docs/branding/banner.png
+    source: https://raw.githubusercontent.com/alecs5am/ralphy/HEAD/README.md
 - name: Gamma
   category: commercial-site
   surface: product

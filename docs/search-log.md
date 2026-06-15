@@ -143,6 +143,15 @@ Infographic and visual-report products:
 - `Jeda AI infographic generator PDF report article`
 - `Infogram AI visuals chart suggestions interactive stories`
 
+Programmatic video and motion-explainer tools:
+
+- `html-video GitHub html-video`
+- `"html-video" "GitHub"`
+- `"html to video" "GitHub"`
+- `site:github.com "programmatic video" "HTML" "MP4" "agent"`
+- `site:github.com "AI Video Engine" "JSON timeline" "Scene components" "HTML/MP4"`
+- `site:github.com "Turn HTML" "video" "Puppeteer" "ffmpeg" "agent"`
+
 ## Selection Heuristics
 
 Included if at least one is true:
@@ -151,6 +160,7 @@ Included if at least one is true:
 - The project turns a paper or research topic into a figure, graphical abstract, poster, report, web explainer, course, briefing, or literature map.
 - The project gives an agent deterministic access to a visual artifact format.
 - The project turns a codebase, document, dataset, or prose into a visual map, diagram, dashboard, wiki, course, or deck.
+- The project turns prompts, articles, repositories, structured timelines, or web/HTML compositions into reproducible MP4/video explainers through an agent-facing workflow.
 - The project parses papers/documents into a structured representation that is a direct substrate for downstream visual or report generation.
 - The project is a major registry that helps discover relevant tools.
 - The project is a widely used rendering primitive that LLMs commonly target.
@@ -160,7 +170,7 @@ Excluded if:
 - It is only a generic agent framework with no presentation or visualization surface.
 - It is only a generic charting or slide library with no agent relevance.
 - It is a one-off toy demo with no clear reuse path.
-- It primarily generates images or video without a structured presentation, diagram, report, paper, or editable output workflow.
+- It primarily generates raw images or video without a structured presentation, diagram, report, paper, editable output, reproducible timeline, or agent-operable rendering workflow.
 
 ## Similar Efforts Found
 
@@ -169,6 +179,7 @@ Excluded if:
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) is the best broad MCP discovery surface.
 - [worldbench/awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research) is useful for the broader AI auto-research landscape, including paper-to-slides/posters/videos/websites/social outputs.
 - [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills), [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer), and related academic skill collections are strong skill-registry surfaces for paper/report/figure workflows.
+- [nexu-io/html-video](https://github.com/nexu-io/html-video), [ChaosRealmsAI/NextFrame](https://github.com/ChaosRealmsAI/NextFrame), [BintzGavin/helios](https://github.com/BintzGavin/helios), [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage), and [alecs5am/ralphy](https://github.com/alecs5am/ralphy) form a useful agent/programmatic-video cluster for HTML, structured timelines, and local MP4 rendering.
 - Commercial comparison pages around Gamma, Canva, Beautiful.ai, Decktopus, and Presentations.AI are plentiful, but most compare products rather than agent-native workflows.
 
 ## Added in the Three-Axis Pass
@@ -183,6 +194,11 @@ Excluded if:
 - [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot): financial analysis agents and research reports.
 - [Scira](https://github.com/zaidmukaddam/scira): open-source cited web search assistant.
 - [Vane](https://github.com/ItzCrazyKns/Vane): open-source AI answering engine.
+- [html-video](https://github.com/nexu-io/html-video): agent-native HTML/storyboard to local MP4 workflow for prompts, articles, and GitHub repos.
+- [NextFrame](https://github.com/ChaosRealmsAI/NextFrame): JSON composition to live editor/runtime and MP4 export.
+- [Helios](https://github.com/BintzGavin/helios): web-standards programmatic video engine where CSS animations render to MP4.
+- [OpenMontage](https://github.com/calesthio/OpenMontage): agentic video production system covering research, scripting, assets, footage, editing, and rendering.
+- [ralphy](https://github.com/alecs5am/ralphy): agent-driven AI video runtime with HyperFrames rendering, model routing, logs, and quality gates.
 
 ## Early Market Read
 
@@ -195,6 +211,7 @@ Excluded if:
 - Codebase visualization has two modes: instant public repository maps and deeper local/self-hosted code knowledge graphs for agents.
 - Mermaid remains the most common diagram target because LLMs can write it and tools can validate/render it.
 - Data visualization agents are strongest when they combine chart generation with executable analysis and provenance.
+- Programmatic video is emerging as a neighboring output surface: the most relevant projects keep the video reproducible through HTML, JSON timelines, templates, logs, or agent-visible render commands rather than only calling black-box video models.
 
 ## Gaps for the Next Pass
 
