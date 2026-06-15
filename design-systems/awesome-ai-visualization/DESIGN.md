@@ -29,8 +29,8 @@ Use this Open Design system for the Awesome AI Visualization catalog frontend.
 - Search input: large enough for long tool/category queries.
 - Filters: checkbox-like controls grouped by source, tool form, output artifact, dependency, and catalog area.
 - Tool rows: dense list rows with name, note, tags, stars, license, update date, source link, and homepage link.
-- Details: selected tool note, source-to-artifact flow, metadata, output previews, docs, examples, and result mix.
-- Output previews must be derived from `output_forms` and shown as visual artifact shapes, not invented product screenshots.
+- Details: selected tool note, source-to-artifact flow, metadata, live demo/example preview, docs, examples, and result mix.
+- Demo previews must come from captured official homepage/example/demo/showcase/video URLs. Do not replace real demos with invented visual thumbnails.
 - Use icon buttons for reset, source, homepage, search, and navigation actions.
 
 ## Typography

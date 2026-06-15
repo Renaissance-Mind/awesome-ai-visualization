@@ -14,7 +14,7 @@ import {
   Star,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import { EffectPreviewGrid, EffectStrip } from "./components/EffectPreview";
+import { DemoBadges, DemoPreview } from "./components/DemoPreview";
 import rawCatalog from "./data/catalog.generated.json";
 import {
   createEmptyFilters,
@@ -28,7 +28,7 @@ import {
   type SortKey,
 } from "./lib/catalog";
 import { categoryLabels, groupLabels, labelFor } from "./lib/labels";
-import type { CatalogData, CatalogEntry } from "./types";
+import type { CatalogData, CatalogEntry, CatalogLink } from "./types";
 
 const catalog = rawCatalog as CatalogData;
 
@@ -110,6 +110,7 @@ export function App() {
   const [filters, setFilters] = useState<Filters>(() => createEmptyFilters());
   const [sortKey, setSortKey] = useState<SortKey>("recommended");
   const [selectedName, setSelectedName] = useState("");
+  const [selectedPreviewUrl, setSelectedPreviewUrl] = useState("");
 
   const activeFilterCount = getActiveFilterCount(filters);
 
@@ -129,6 +130,13 @@ export function App() {
 
   const selectedEntry =
     filteredEntries.find((entry) => entry.name === selectedName) ?? filteredEntries[0] ?? catalog.entries[0];
+
+  const selectedPreviewLink =
+    selectedEntry.previewLinks.find((link) => link.url === selectedPreviewUrl) ?? selectedEntry.previewLinks[0];
+
+  useEffect(() => {
+    setSelectedPreviewUrl(selectedEntry.previewLinks[0]?.url ?? "");
+  }, [selectedEntry.name]);
 
   const visibleCategoryRows = useMemo(() => {
     const counts = filteredEntries.reduce<Record<string, number>>((acc, entry) => {
@@ -320,7 +328,11 @@ export function App() {
           </section>
 
           <section className="insight-block">
-            <EffectPreviewGrid entry={selectedEntry} />
+            <DemoPreview
+              entry={selectedEntry}
+              selectedLink={selectedPreviewLink}
+              onSelect={(link: CatalogLink) => setSelectedPreviewUrl(link.url)}
+            />
           </section>
 
           <section className="insight-block">
@@ -405,7 +417,7 @@ function ToolRow({
             <em>{categoryLabels[entry.category] ?? entry.category}</em>
           </span>
           <span className="tool-note">{entry.note}</span>
-          <EffectStrip entry={entry} />
+          <DemoBadges entry={entry} />
           <span className="tag-row">
             {[...entry.sourceTypes, ...entry.toolForms, ...entry.outputForms].slice(0, 5).map((tag) => (
               <span key={tag}>{labelFor(tag)}</span>

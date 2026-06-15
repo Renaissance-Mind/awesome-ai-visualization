@@ -8,6 +8,7 @@ export type CatalogLink = {
 export type CatalogEntry = {
   name: string;
   url: string;
+  primaryUrl: string | null;
   homepage: string | null;
   category: string;
   surface: string;
@@ -23,6 +24,7 @@ export type CatalogEntry = {
   readmeGroup: string;
   docs: CatalogLink[];
   examples: CatalogLink[];
+  previewLinks: CatalogLink[];
   docsCount: number;
   examplesCount: number;
 };
