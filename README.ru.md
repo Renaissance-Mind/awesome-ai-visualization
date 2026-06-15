@@ -327,7 +327,7 @@ Star badges are shown next to GitHub project names where available. Non-GitHub p
 
 The structured catalog lives in [data/catalog.yml](data/catalog.yml). It includes information-source tags, tool-form tags, output-artifact tags, dependency tags, category, GitHub star snapshots, license, update date, and short notes.
 
-The research cache lives in [data/tool-research.yml](data/tool-research.yml). It stores official examples, docs, demos, templates, papers, videos, and other discovery links; it is not rendered directly into the README.
+The research cache lives in [data/tool-research.yml](data/tool-research.yml). It stores official examples, docs, demos, templates, papers, videos, effect images/GIFs, and other discovery links; it is not rendered directly into the README.
 
 The search trail and query strategy live in [docs/search-log.md](docs/search-log.md).
 

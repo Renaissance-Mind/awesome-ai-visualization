@@ -325,7 +325,7 @@ GitHub 项目的 Star 徽章直接放在项目名后面，尽量使用实时 bad
 
 结构化目录在 [data/catalog.yml](data/catalog.yml)，包含信息来源、工具形态、产出物形式、依赖类型、分类、GitHub Star 快照、许可证、更新时间和简短说明。
 
-工具调研缓存放在 [data/tool-research.yml](data/tool-research.yml)，包含官方示例、文档、demo、模板、论文、视频等线索；它不直接渲染到 README。
+工具调研缓存放在 [data/tool-research.yml](data/tool-research.yml)，包含官方示例、文档、demo、模板、论文、视频、效果图/GIF 等线索；它不直接渲染到 README。
 
 搜索记录和检索策略在 [docs/search-log.md](docs/search-log.md)。
 

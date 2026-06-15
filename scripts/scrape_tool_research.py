@@ -17,7 +17,7 @@ from dataclasses import dataclass
 from html import unescape
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.parse import parse_qs, urljoin, urlparse, urlunparse
 
 import requests
 import yaml
@@ -33,6 +33,7 @@ REQUEST_TIMEOUT = 16
 MAX_WORKERS = 8
 MAX_LINKS_PER_ENTRY = 40
 MAX_EXAMPLE_LINKS_PER_ENTRY = 20
+MAX_EFFECT_ASSETS_PER_ENTRY = 12
 
 LINK_KIND_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("example", re.compile(r"\bexamples?\b|\bsamples?\b|示例|案例|case[- ]?stud(y|ies)", re.I)),
@@ -67,6 +68,7 @@ EXCLUDED_PATH_PARTS = {
 }
 
 MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[([^\]\n]{1,160})\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
+MARKDOWN_IMAGE_RE = re.compile(r"!\[([^\]\n]{0,180})\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 HTML_LINK_RE = re.compile(r"<a\s+[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", re.I | re.S)
 HEADING_RE = re.compile(r"^\s{0,3}#{1,4}\s+(.+?)\s*$", re.M)
 HEADING_SIGNAL_RE = re.compile(
@@ -76,6 +78,21 @@ HEADING_SIGNAL_RE = re.compile(
     re.I,
 )
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
+
+MEDIA_EXTENSIONS = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".mp4", ".webm", ".mov", ".avif")
+IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp", ".avif")
+ANIMATED_EXTENSIONS = (".gif",)
+VIDEO_EXTENSIONS = (".mp4", ".webm", ".mov")
+ASSET_SIGNAL_RE = re.compile(
+    r"screenshot|screen[-_ ]?shot|showcase|gallery|demo|example|sample|result|output|preview|cover|poster|"
+    r"before|after|workflow|comparison|效果|示例|案例|展示|演示|预览|输出|结果|截图|对比",
+    re.I,
+)
+MEDIA_NOISE_RE = re.compile(
+    r"badge|shield|logo|icon|favicon|avatar|profile|sponsor|license|stars?|fork|visitor|counter|"
+    r"download|pypi|npm|version|coverage|discord|twitter|x\.com|wechat|weixin|qr|二维码",
+    re.I,
+)
 
 
 class NoAliasDumper(yaml.SafeDumper):
@@ -102,6 +119,23 @@ def strip_tracking_query(url: str) -> str:
     parsed = urlparse(url)
     if parsed.netloc.endswith("github.com") and parsed.query == "plain=1":
         parsed = parsed._replace(query="")
+    return urlunparse(parsed)
+
+
+def normalize_asset_url(url: str) -> str:
+    parsed = urlparse(normalize_url(url))
+    if parsed.netloc.lower() == "github.com":
+        parts = [part for part in parsed.path.split("/") if part]
+        if len(parts) >= 5 and parts[2] == "blob":
+            owner, repo, branch = parts[0], parts[1], parts[3]
+            file_path = "/".join(parts[4:])
+            return urlunparse(
+                parsed._replace(
+                    netloc="raw.githubusercontent.com",
+                    path=f"/{owner}/{repo}/{branch}/{file_path}",
+                    query="",
+                )
+            )
     return urlunparse(parsed)
 
 
@@ -174,6 +208,75 @@ def classify_link(title: str, url: str) -> str | None:
     return None
 
 
+def media_extension(url: str) -> str:
+    parsed = urlparse(url)
+    path = parsed.path.lower()
+    return next((extension for extension in MEDIA_EXTENSIONS if path.endswith(extension)), "")
+
+
+def media_label_from_url(url: str) -> str:
+    filename = urlparse(url).path.rstrip("/").split("/")[-1]
+    stem = filename.rsplit(".", 1)[0] if "." in filename else filename
+    label = re.sub(r"[-_]+", " ", stem).strip()
+    return clean_text(label.title()) if label else "Official media"
+
+
+def youtube_id(url: str) -> str | None:
+    parsed = urlparse(url)
+    domain = parsed.netloc.lower()
+    if "youtube.com" in domain:
+        return parse_qs(parsed.query).get("v", [None])[0]
+    if domain == "youtu.be":
+        return parsed.path.strip("/") or None
+    return None
+
+
+def loom_id(url: str) -> str | None:
+    parsed = urlparse(url)
+    if "loom.com" not in parsed.netloc.lower():
+        return None
+    parts = [part for part in parsed.path.split("/") if part]
+    if len(parts) >= 2 and parts[0] in {"share", "embed"}:
+        return parts[1]
+    return None
+
+
+def asset_kind(url: str) -> str | None:
+    extension = media_extension(url)
+    if extension in IMAGE_EXTENSIONS:
+        return "image"
+    if extension in ANIMATED_EXTENSIONS:
+        return "gif"
+    if extension in VIDEO_EXTENSIONS:
+        return "video"
+    if youtube_id(url):
+        return "video"
+    if loom_id(url):
+        return "video"
+    return None
+
+
+def youtube_thumbnail_url(url: str) -> str | None:
+    video_id = youtube_id(url)
+    if not video_id:
+        return None
+    return f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
+
+
+def asset_score(asset: dict[str, str]) -> int:
+    haystack = f"{asset.get('title', '')} {urlparse(asset['url']).path}"
+    score = 0
+    if ASSET_SIGNAL_RE.search(haystack):
+        score += 5
+    if asset["kind"] in {"gif", "video"}:
+        score += 3
+    if asset["kind"] == "image":
+        score += 2
+    if "githubusercontent.com" in urlparse(asset["url"]).netloc:
+        score += 1
+    return score
+
+
 def is_noise_link(title: str, url: str) -> bool:
     title = title.strip()
     if title.startswith("!["):
@@ -224,6 +327,102 @@ def extract_links(text: str, content_type: str, base_url: str, source_url: str) 
         for label, href in MARKDOWN_LINK_RE.findall(text):
             add_link(links, href, clean_text(label), base_url, source_url)
     return links
+
+
+def srcset_first_url(srcset: str) -> str:
+    return srcset.split(",", 1)[0].strip().split(" ", 1)[0]
+
+
+def is_noise_asset(title: str, url: str) -> bool:
+    parsed = urlparse(url)
+    domain = parsed.netloc.lower()
+    haystack = f"{title} {parsed.path}".lower()
+    if domain in EXCLUDED_LINK_DOMAINS:
+        return True
+    if MEDIA_NOISE_RE.search(haystack):
+        return True
+    if parsed.path.lower().endswith(".svg") and not ASSET_SIGNAL_RE.search(haystack):
+        return True
+    return False
+
+
+def add_asset(
+    assets: list[dict[str, str]],
+    raw_url: str,
+    title: str,
+    base_url: str,
+    source_url: str,
+    *,
+    kind_override: str | None = None,
+    thumbnail_url: str | None = None,
+) -> None:
+    raw_url = raw_url.strip()
+    if not raw_url or raw_url.startswith(("#", "mailto:", "javascript:", "tel:", "data:")):
+        return
+    absolute = normalize_asset_url(urljoin(base_url, raw_url))
+    kind = kind_override or asset_kind(absolute)
+    if not kind or is_noise_asset(title, absolute):
+        return
+
+    asset = {
+        "kind": kind,
+        "title": clean_text(title) or media_label_from_url(absolute),
+        "url": absolute,
+        "source": source_url,
+    }
+    if thumbnail_url:
+        asset["thumbnail_url"] = thumbnail_url
+    assets.append(asset)
+
+
+def extract_html_media_assets(text: str, content_type: str, media_base_url: str, source_url: str) -> list[dict[str, str]]:
+    assets: list[dict[str, str]] = []
+    soup = BeautifulSoup(text, "html.parser")
+
+    if "html" in content_type:
+        for meta_name in ("og:image", "twitter:image"):
+            meta = soup.find("meta", attrs={"property": meta_name}) or soup.find("meta", attrs={"name": meta_name})
+            if meta and meta.get("content"):
+                add_asset(assets, meta["content"], source_title(text, content_type) or meta_name, media_base_url, source_url)
+
+    for image in soup.find_all("img"):
+        src = image.get("src") or image.get("data-src") or image.get("data-original")
+        if not src and image.get("srcset"):
+            src = srcset_first_url(image["srcset"])
+        if src:
+            title = image.get("alt") or image.get("title") or media_label_from_url(src)
+            add_asset(assets, src, title, media_base_url, source_url)
+
+    for video in soup.find_all("video"):
+        poster = video.get("poster")
+        if poster:
+            add_asset(assets, poster, video.get("title") or media_label_from_url(poster), media_base_url, source_url)
+        src = video.get("src")
+        if src:
+            add_asset(assets, src, video.get("title") or media_label_from_url(src), media_base_url, source_url)
+        for source in video.find_all("source"):
+            if source.get("src"):
+                add_asset(
+                    assets,
+                    source["src"],
+                    source.get("title") or media_label_from_url(source["src"]),
+                    media_base_url,
+                    source_url,
+                )
+    return assets
+
+
+def extract_effect_assets(text: str, content_type: str, media_base_url: str, source_url: str) -> list[dict[str, str]]:
+    assets: list[dict[str, str]] = extract_html_media_assets(text, content_type, media_base_url, source_url)
+    if "html" in content_type:
+        pass
+    else:
+        for label, href in MARKDOWN_IMAGE_RE.findall(text):
+            add_asset(assets, href, label or media_label_from_url(href), media_base_url, source_url)
+        for label, href in MARKDOWN_LINK_RE.findall(text):
+            if media_extension(href) or youtube_id(href) or loom_id(href):
+                add_asset(assets, href, label or media_label_from_url(href), media_base_url, source_url)
+    return assets
 
 
 def add_link(links: list[dict[str, str]], href: str, title: str, base_url: str, source_url: str) -> None:
@@ -291,6 +490,7 @@ def fetch_source(session: requests.Session, source: Source) -> dict[str, Any]:
         result["description"] = description
     result["bytes"] = len(response.content)
     result["_links"] = extract_links(text, content_type, source.link_base_url, response.url)
+    result["_effect_assets"] = extract_effect_assets(text, content_type, response.url, response.url)
     result["_headings"] = heading_signals(text)
     return result
 
@@ -333,12 +533,65 @@ def dedupe_links(links: list[dict[str, str]]) -> list[dict[str, str]]:
     return deduped
 
 
+def dedupe_assets(assets: list[dict[str, str]]) -> list[dict[str, str]]:
+    deduped: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for asset in sorted(assets, key=asset_score, reverse=True):
+        key = asset["url"]
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(asset)
+    return deduped
+
+
+def media_assets_from_links(links: list[dict[str, str]]) -> list[dict[str, str]]:
+    assets: list[dict[str, str]] = []
+    for link in links:
+        thumbnail_url = youtube_thumbnail_url(link["url"])
+        if thumbnail_url:
+            assets.append(
+                {
+                    "kind": "video",
+                    "title": link["title"],
+                    "url": link["url"],
+                    "thumbnail_url": thumbnail_url,
+                    "source": link.get("source", link["url"]),
+                }
+            )
+            continue
+
+        if loom_id(link["url"]):
+            assets.append(
+                {
+                    "kind": "video",
+                    "title": link["title"],
+                    "url": link["url"],
+                    "source": link.get("source", link["url"]),
+                }
+            )
+            continue
+
+        kind = asset_kind(link["url"])
+        if kind and not is_noise_asset(link["title"], link["url"]):
+            assets.append(
+                {
+                    "kind": kind,
+                    "title": link["title"],
+                    "url": normalize_asset_url(link["url"]),
+                    "source": link.get("source", link["url"]),
+                }
+            )
+    return assets
+
+
 def scrape_entry(entry: dict[str, Any]) -> dict[str, Any]:
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html,text/plain,application/xhtml+xml,*/*"})
 
     fetched_sources: list[dict[str, Any]] = []
     official_links: list[dict[str, str]] = []
+    official_effect_assets: list[dict[str, str]] = []
     source_headings: list[str] = []
 
     for source in entry_sources(entry):
@@ -352,12 +605,16 @@ def scrape_entry(entry: dict[str, Any]) -> dict[str, Any]:
                 "error": f"{exc.__class__.__name__}: {exc}",
             }
         official_links.extend(fetched.pop("_links", []))
+        official_effect_assets.extend(fetched.pop("_effect_assets", []))
         source_headings.extend(fetched.pop("_headings", []))
         fetched_sources.append(fetched)
 
     official_links = dedupe_links(official_links)[:MAX_LINKS_PER_ENTRY]
     official_examples = [link for link in official_links if link["kind"] in EXAMPLE_KINDS][:MAX_EXAMPLE_LINKS_PER_ENTRY]
     official_docs = [link for link in official_links if link["kind"] == "docs"][:MAX_EXAMPLE_LINKS_PER_ENTRY]
+    official_effect_assets = dedupe_assets(
+        official_effect_assets + media_assets_from_links(official_examples)
+    )[:MAX_EFFECT_ASSETS_PER_ENTRY]
 
     result: dict[str, Any] = {
         "name": entry["name"],
@@ -377,6 +634,8 @@ def scrape_entry(entry: dict[str, Any]) -> dict[str, Any]:
         result["official_examples"] = official_examples
     if official_docs:
         result["official_docs"] = official_docs
+    if official_effect_assets:
+        result["official_effect_assets"] = official_effect_assets
     if official_links:
         result["official_links"] = official_links
     if source_headings:
@@ -428,14 +687,21 @@ def scrape_catalog(catalog_path: Path, max_entries: int | None) -> dict[str, Any
     )
     example_count = sum(len(item.get("official_examples", [])) for item in results)
     docs_count = sum(len(item.get("official_docs", [])) for item in results)
+    effect_asset_count = sum(len(item.get("official_effect_assets", [])) for item in results)
+
+    try:
+        source_catalog = str(catalog_path.relative_to(ROOT))
+    except ValueError:
+        source_catalog = str(catalog_path)
 
     return {
         "generated_at": dt.datetime.now(dt.UTC).replace(microsecond=0).isoformat(),
-        "source_catalog": str(catalog_path.relative_to(ROOT)),
+        "source_catalog": source_catalog,
         "scope": "Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.",
         "schema": {
             "fetched_sources": "Official pages fetched for each catalog entry, with HTTP status and lightweight page metadata.",
             "official_examples": "Official example/demo/showcase/template/tutorial/paper/video links discovered from fetched sources.",
+            "official_effect_assets": "Official image/GIF/video assets and video thumbnails discovered from official sources for effect previews.",
             "official_docs": "Official documentation/guide/quickstart/API links discovered from fetched sources.",
             "official_links": "All official links matching research keywords, including examples and docs.",
             "source_headings": "README or page headings that mention examples, demos, docs, templates, papers, or tutorials.",
@@ -445,6 +711,7 @@ def scrape_catalog(catalog_path: Path, max_entries: int | None) -> dict[str, Any
             "fetched_sources_ok": fetched_count,
             "fetched_sources_failed": failed_count,
             "official_examples": example_count,
+            "official_effect_assets": effect_asset_count,
             "official_docs": docs_count,
         },
         "entries": results,
