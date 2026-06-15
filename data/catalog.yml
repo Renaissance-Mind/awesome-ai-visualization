@@ -1,4 +1,4 @@
-last_researched: '2026-06-15'
+last_researched: '2026-06-16'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1101,6 +1101,29 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: AI Multi-Agent Presentation Builder
+  url: https://github.com/Azure-Samples/ai-multi-agent-presentation-builder
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 49
+  license: MIT
+  updated: '2026-05-12'
+  note: Azure sample that uses Semantic Kernel and multiple agents to generate draft PowerPoint decks from a user topic.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
 - name: presentation-ai
   url: https://github.com/allweonedev/presentation-ai
   homepage: https://presentation.allweone.com
@@ -1261,6 +1284,56 @@ entries:
   - MCP Server
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: pptx-tools
+  url: https://github.com/jongalloway/pptx-tools
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 7
+  license: MIT
+  updated: '2026-06-08'
+  note: .NET MCP server and CLI for reading, updating, extracting, and generating PowerPoint files through agent tools.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Marp MCP
+  url: https://github.com/masaki39/marp-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 10
+  license: MIT
+  updated: '2026-06-08'
+  note: MCP server plus Claude Code skill for creating and editing Marp slide decks with academic and professional styles.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
   catalog_section: main
   readme_group: presentation
 - name: pptx-from-layouts-skill
@@ -1954,6 +2027,36 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: DeepDiagram
+  url: https://github.com/LingyiChen-AI/DeepDiagram
+  homepage: http://deepd.cturing.cn
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  - 存储/索引
+  stars: 907
+  license: AGPL-3.0
+  updated: '2026-06-15'
+  note: Agentic visualization platform that routes prompts and multimodal inputs into mind maps, flowcharts, ECharts,
+    Draw.io, Mermaid, and infographic outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 图表/Mermaid
+  catalog_section: main
+  readme_group: diagrams
 - name: Napkin AI
   url: https://www.napkin.ai/
   category: diagram-generation
@@ -2574,6 +2677,25 @@ entries:
   license: unknown
   updated: '2026-06-12'
   note: Directly similar PowerPoint AI agents ecosystem list.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: AI-Presentation-Builders-Index
+  url: https://github.com/danielrosehill/AI-Presentation-Builders-Index
+  category: meta-index
+  surface: index
+  dependencies:
+  - 外部检索/数据源
+  stars: 0
+  license: CC-BY-4.0
+  updated: '2026-04-23'
+  note: Point-in-time index of open, self-hosted, and agent-driven presentation builders, skills, MCP servers, renderers,
+    and parsers.
   source_types:
   - 任意/多源
   tool_forms:

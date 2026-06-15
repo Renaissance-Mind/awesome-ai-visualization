@@ -124,6 +124,8 @@ def strip_tracking_query(url: str) -> str:
 
 def normalize_asset_url(url: str) -> str:
     parsed = urlparse(normalize_url(url))
+    if "X-Amz-" in parsed.query or "AWS4-HMAC-SHA256" in parsed.query:
+        parsed = parsed._replace(query="")
     if parsed.netloc.lower() == "github.com":
         parts = [part for part in parsed.path.split("/") if part]
         if len(parts) >= 5 and parts[2] == "blob":
