@@ -45,6 +45,7 @@ export const matchesQuery = (entry: CatalogEntry, query: string) => {
     ...entry.toolForms,
     ...entry.outputForms,
     ...entry.dependencies,
+    ...entry.effectAssets.map((asset) => asset.title),
   ]
     .join(" ")
     .toLowerCase();
@@ -54,7 +55,7 @@ export const matchesQuery = (entry: CatalogEntry, query: string) => {
 
 export const scoreEntry = (entry: CatalogEntry) => {
   const stars = Math.log10((entry.stars ?? 0) + 1) * 8;
-  const evidence = Math.min(entry.docsCount + entry.examplesCount, 12);
+  const evidence = Math.min(entry.docsCount + entry.examplesCount + entry.effectAssetsCount * 2, 18);
   const openSource = entry.toolForms.includes("开源应用/框架") ? 5 : 0;
   const updated = entry.updated ? 3 : 0;
 
@@ -72,7 +73,12 @@ export const sortEntries = (entries: CatalogEntry[], sortKey: SortKey) =>
     }
 
     if (sortKey === "evidence") {
-      return b.docsCount + b.examplesCount - (a.docsCount + a.examplesCount);
+      return (
+        b.docsCount +
+        b.examplesCount +
+        b.effectAssetsCount * 2 -
+        (a.docsCount + a.examplesCount + a.effectAssetsCount * 2)
+      );
     }
 
     if (sortKey === "name") {

@@ -11,16 +11,6 @@ const catalog = YAML.parse(await readFile(catalogPath, "utf8"));
 const research = YAML.parse(await readFile(researchPath, "utf8"));
 const researchByName = new Map((research.entries ?? []).map((entry) => [entry.name, entry]));
 
-const previewKinds = new Set(["demo", "showcase", "video", "example", "tutorial"]);
-const previewKindRank = {
-  demo: 0,
-  showcase: 1,
-  video: 2,
-  example: 3,
-  tutorial: 4,
-  homepage: 5,
-};
-
 const uniqueLinks = (links) => {
   const seen = new Set();
   return links.filter((link) => {
@@ -32,23 +22,27 @@ const uniqueLinks = (links) => {
   });
 };
 
-const buildPreviewLinks = (entry, researchEntry) => {
-  const officialExamples = researchEntry?.official_examples ?? [];
-  const previewLinks = officialExamples
-    .filter((link) => previewKinds.has(link.kind))
-    .sort((a, b) => (previewKindRank[a.kind] ?? 9) - (previewKindRank[b.kind] ?? 9));
-
-  if (entry.homepage) {
-    previewLinks.push({
-      kind: "homepage",
-      title: "Official homepage",
-      url: entry.homepage,
-      source: entry.url,
-    });
-  }
-
-  return uniqueLinks(previewLinks).slice(0, 12);
+const uniqueAssets = (assets) => {
+  const seen = new Set();
+  return assets.filter((asset) => {
+    if (!asset?.url || seen.has(asset.url)) {
+      return false;
+    }
+    seen.add(asset.url);
+    return true;
+  });
 };
+
+const buildEffectAssets = (researchEntry) =>
+  uniqueAssets(researchEntry?.official_effect_assets ?? [])
+    .map((asset) => ({
+      kind: asset.kind,
+      title: asset.title,
+      url: asset.url,
+      thumbnailUrl: asset.thumbnail_url ?? null,
+      source: asset.source,
+    }))
+    .slice(0, 12);
 
 const entries = catalog.entries.map((entry) => {
   const researchEntry = researchByName.get(entry.name);
@@ -71,10 +65,11 @@ const entries = catalog.entries.map((entry) => {
     catalogSection: entry.catalog_section,
     readmeGroup: entry.readme_group,
     docs: (researchEntry?.official_docs ?? []).slice(0, 8),
-    examples: (researchEntry?.official_examples ?? []).slice(0, 12),
-    previewLinks: buildPreviewLinks(entry, researchEntry),
+    examples: uniqueLinks(researchEntry?.official_examples ?? []).slice(0, 12),
+    effectAssets: buildEffectAssets(researchEntry),
     docsCount: researchEntry?.official_docs?.length ?? 0,
     examplesCount: researchEntry?.official_examples?.length ?? 0,
+    effectAssetsCount: researchEntry?.official_effect_assets?.length ?? 0,
   };
 });
 
@@ -96,6 +91,7 @@ const payload = {
     saas: entries.filter((entry) => entry.toolForms.includes("产品/SaaS")).length,
     modelApi: entries.filter((entry) => entry.dependencies.includes("模型 API")).length,
     examples: research.summary?.official_examples ?? 0,
+    effectAssets: research.summary?.official_effect_assets ?? 0,
     docs: research.summary?.official_docs ?? 0,
   },
   facets: {

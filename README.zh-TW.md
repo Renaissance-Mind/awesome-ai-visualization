@@ -325,7 +325,7 @@ GitHub 專案的 Star 徽章直接放在專案名後面，盡量使用即時 bad
 
 結構化目錄在 [data/catalog.yml](data/catalog.yml)，包含資訊來源、工具形態、產出物形式、依賴類型、分類、GitHub Star 快照、授權條款、更新時間和簡短說明。
 
-工具調研快取放在 [data/tool-research.yml](data/tool-research.yml)，包含官方示例、文件、demo、模板、論文、影片等線索；它不直接渲染到 README。
+工具調研快取放在 [data/tool-research.yml](data/tool-research.yml)，包含官方示例、文件、demo、模板、論文、影片、效果圖/GIF 等線索；它不直接渲染到 README。
 
 搜尋記錄與檢索策略在 [docs/search-log.md](docs/search-log.md)。
 

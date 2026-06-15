@@ -14,7 +14,7 @@ import {
   Star,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import { DemoBadges, DemoPreview } from "./components/DemoPreview";
+import { EffectEvidenceBadges, EffectEvidencePreview } from "./components/EffectEvidencePreview";
 import rawCatalog from "./data/catalog.generated.json";
 import {
   createEmptyFilters,
@@ -28,7 +28,7 @@ import {
   type SortKey,
 } from "./lib/catalog";
 import { categoryLabels, groupLabels, labelFor } from "./lib/labels";
-import type { CatalogData, CatalogEntry, CatalogLink } from "./types";
+import type { CatalogAsset, CatalogData, CatalogEntry } from "./types";
 
 const catalog = rawCatalog as CatalogData;
 
@@ -110,7 +110,7 @@ export function App() {
   const [filters, setFilters] = useState<Filters>(() => createEmptyFilters());
   const [sortKey, setSortKey] = useState<SortKey>("recommended");
   const [selectedName, setSelectedName] = useState("");
-  const [selectedPreviewUrl, setSelectedPreviewUrl] = useState("");
+  const [selectedAssetUrl, setSelectedAssetUrl] = useState("");
 
   const activeFilterCount = getActiveFilterCount(filters);
 
@@ -131,11 +131,11 @@ export function App() {
   const selectedEntry =
     filteredEntries.find((entry) => entry.name === selectedName) ?? filteredEntries[0] ?? catalog.entries[0];
 
-  const selectedPreviewLink =
-    selectedEntry.previewLinks.find((link) => link.url === selectedPreviewUrl) ?? selectedEntry.previewLinks[0];
+  const selectedEffectAsset =
+    selectedEntry.effectAssets.find((asset) => asset.url === selectedAssetUrl) ?? selectedEntry.effectAssets[0];
 
   useEffect(() => {
-    setSelectedPreviewUrl(selectedEntry.previewLinks[0]?.url ?? "");
+    setSelectedAssetUrl(selectedEntry.effectAssets[0]?.url ?? "");
   }, [selectedEntry.name]);
 
   const visibleCategoryRows = useMemo(() => {
@@ -242,7 +242,7 @@ export function App() {
             <Metric label="Open source" value={formatNumber(catalog.summary.openSource)} accent="blue" />
             <Metric label="SaaS" value={formatNumber(catalog.summary.saas)} accent="green" />
             <Metric label="Model API" value={formatNumber(catalog.summary.modelApi)} />
-            <Metric label="Docs + examples" value={formatNumber(catalog.summary.docs + catalog.summary.examples)} />
+            <Metric label="Effect assets" value={formatNumber(catalog.summary.effectAssets)} />
           </section>
 
           <div className="control-row">
@@ -277,6 +277,14 @@ export function App() {
         </section>
 
         <aside className="insight-panel" aria-label="Catalog insights">
+          <section className="insight-block">
+            <EffectEvidencePreview
+              entry={selectedEntry}
+              selectedAsset={selectedEffectAsset}
+              onSelect={(asset: CatalogAsset) => setSelectedAssetUrl(asset.url)}
+            />
+          </section>
+
           <section className="insight-block selected-detail">
             <div className="panel-kicker">
               <Sparkles size={15} />
@@ -321,18 +329,10 @@ export function App() {
                 <dd>{selectedEntry.docsCount}</dd>
               </div>
               <div>
-                <dt>Examples</dt>
-                <dd>{selectedEntry.examplesCount}</dd>
+                <dt>Assets</dt>
+                <dd>{selectedEntry.effectAssetsCount}</dd>
               </div>
             </dl>
-          </section>
-
-          <section className="insight-block">
-            <DemoPreview
-              entry={selectedEntry}
-              selectedLink={selectedPreviewLink}
-              onSelect={(link: CatalogLink) => setSelectedPreviewUrl(link.url)}
-            />
           </section>
 
           <section className="insight-block">
@@ -417,7 +417,7 @@ function ToolRow({
             <em>{categoryLabels[entry.category] ?? entry.category}</em>
           </span>
           <span className="tool-note">{entry.note}</span>
-          <DemoBadges entry={entry} />
+          <EffectEvidenceBadges entry={entry} />
           <span className="tag-row">
             {[...entry.sourceTypes, ...entry.toolForms, ...entry.outputForms].slice(0, 5).map((tag) => (
               <span key={tag}>{labelFor(tag)}</span>

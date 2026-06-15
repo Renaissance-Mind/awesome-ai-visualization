@@ -1,4 +1,4 @@
-generated_at: '2026-06-14T23:06:17+00:00'
+generated_at: '2026-06-15T05:56:30+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -7,12 +7,15 @@ schema:
   official_docs: Official documentation/guide/quickstart/API links discovered from fetched sources.
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
+  official_effect_assets: Official image/GIF/video assets and video thumbnails discovered from official sources for effect
+    previews.
 summary:
   entries: 123
   fetched_sources_ok: 170
   fetched_sources_failed: 5
   official_examples: 551
   official_docs: 424
+  official_effect_assets: 512
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -74,6 +77,55 @@ entries:
   - 5. System dependencies (Ubuntu example; full list is mirrored in requirements-system-ubuntu.txt)
   - '... see .env.example for full list'
   - 2. Install Paper2Any-specific Dependencies (Recommended)
+  official_effect_assets:
+  - kind: gif
+    title: Model Arch Demo
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2figure/model-arch-demo.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Demo
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2ppt/demo.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Frontend Gallery Review
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2ppt/frontend-gallery-review.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Demo
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2video/demo.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Polish Demo
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/pptpolish/polish-demo.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: image
+    title: Technical Roadmap Output
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2figure/technical-roadmap-output.png
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: image
+    title: Paper2Poster Ppt Result
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2poster/paper2poster-ppt-result.png
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: image
+    title: Paper2Poster Png Result
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2poster/paper2poster-png-result.png
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Image To Drawio Editor
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/drawio/image-to-drawio-editor.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Framework Drawio Editor
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/drawio/framework-drawio-editor.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: gif
+    title: Frontend Canvas Edit
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/paper2ppt/frontend-canvas-edit.gif
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
+  - kind: image
+    title: Paper2Any Web Interface
+    url: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/static/new_readme/ui/home.png
+    source: https://raw.githubusercontent.com/OpenDCAI/Paper2Any/HEAD/README.md
 - name: Paper2Slides
   category: paper-visualization
   surface: open-source
@@ -189,6 +241,11 @@ entries:
   - kind: tutorial
     title: codebase-to-course
     url: https://github.com/zarazhangrui/codebase-to-course
+    source: https://raw.githubusercontent.com/ZeroxZhang/paper-to-course/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Paper-to-Course OnePage Overview
+    url: https://raw.githubusercontent.com/ZeroxZhang/paper-to-course/HEAD/onepage_output.png
     source: https://raw.githubusercontent.com/ZeroxZhang/paper-to-course/HEAD/README.md
 - name: Auto-Research-In-Sleep
   category: research-report
@@ -501,6 +558,42 @@ entries:
   - 6. 🏆 Community Showcase — Papers Built with ARIS
   - 'Workflow 6: Conference Talk Pipeline 🎤 (paper → slides → polish → audits)'
   - 10.4 Usage
+  official_effect_assets:
+  - kind: image
+    title: ARIS-in-AI-Offer preview — ① Foundations + ② Interview Q&A + ③ From-Scratch Code, three columns from a representative
+      cheat sheet
+    url: https://raw.githubusercontent.com/wanshuiyin/ARIS-in-AI-Offer/main/assets/preview_strip.jpg
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: Claude Fleet — full local web dashboard for many concurrent Claude Code / Codex windows (triage, Focus, full-text
+      search, skill/memory analytics)
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/claude-fleet-preview.png
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: ARIS-Monitor — minimal always-on-top floating widget showing which Claude Code sessions need approval (calm all-clear
+      vs red ATTENTION)
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/aris-monitor/assets/screenshot.png
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: 8/10 — CS Paper
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/community_showcase_8_10.png
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: 7/10 — AAAI 2026, Codex CLI
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/community_showcase_7_10_codex.png
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: ARIS-Code CLI terminal — Auto Research in Sleep
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/docs/aris-code-banner.png
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: Feishu Push
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/feishu_push.png
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
+  - kind: image
+    title: Feishu Interactive
+    url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/feishu_interactive.jpg
+    source: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md
 - name: q-skills
   category: infographic-report
   surface: skill
@@ -542,6 +635,27 @@ entries:
   - Sample outputs → see illustrations/q-infographics/ at repo root
   - q-presentations
   - Sample outputs → see illustrations/q-presentations/ at repo root
+  official_effect_assets:
+  - kind: image
+    title: 01-slide-cover
+    url: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/illustrations/q-presentations/01-slide-cover.png
+    source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
+  - kind: image
+    title: DIGITAL_ENTREPRENEURSHIP_INFO1
+    url: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/illustrations/q-infographics/DIGITAL_ENTREPRENEURSHIP_INFO1.png
+    source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
+  - kind: image
+    title: DIGITAL_ENTREPRENEURSHIP_INFO2
+    url: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/illustrations/q-infographics/DIGITAL_ENTREPRENEURSHIP_INFO2.png
+    source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
+  - kind: image
+    title: 02-slide-authenticity-trap
+    url: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/illustrations/q-presentations/02-slide-authenticity-trap.png
+    source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
+  - kind: image
+    title: 03-slide-two-playbooks
+    url: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/illustrations/q-presentations/03-slide-two-playbooks.png
+    source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
 - name: scientific-agent-skills
   category: paper-visualization
   surface: skill
@@ -1023,6 +1137,47 @@ entries:
   - $ bash benchmark/scripts/run_intra_with_ga_bc.sh
   - $ bash benchmark/scripts/run_inter_with_random.sh
   - $ bash benchmark/scripts/run_inter_with_abs2cap.sh
+  official_effect_assets:
+  - kind: image
+    title: CAR score example
+    url: https://iyatomilab.github.io/SciGA/static/images/CAR.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: video
+    title: '2207.07358'
+    url: https://iyatomilab.github.io/SciGA/static/videos/2207.07358.mp4
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: 'SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers - Kawada et al.'
+    url: https://iyatomilab.github.io/SciGA/static/images/teaser.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: arXiv:2401.09716
+    url: https://iyatomilab.github.io/SciGA/static/images/2401.09716.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: arXiv:2401.17856
+    url: https://iyatomilab.github.io/SciGA/static/images/2401.17856.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: arXiv:2402.08939
+    url: https://iyatomilab.github.io/SciGA/static/images/2402.08939.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: arXiv:2403.10179
+    url: https://iyatomilab.github.io/SciGA/static/images/2403.10179.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: arXiv:2403.11027
+    url: https://iyatomilab.github.io/SciGA/static/images/2403.11027.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: Overview of Intra-GA Recommendation
+    url: https://iyatomilab.github.io/SciGA/static/images/intra_GA_recommendation.png
+    source: https://iyatomilab.github.io/SciGA/
+  - kind: image
+    title: Overview of Inter-GA Recommendation
+    url: https://iyatomilab.github.io/SciGA/static/images/inter_GA_recommendation.png
+    source: https://iyatomilab.github.io/SciGA/
 - name: GPT Researcher
   category: research-report
   surface: open-source
@@ -1219,6 +1374,15 @@ entries:
   - Tutorials
   - 📖 Documentation
   - 'Example Usage:'
+  official_effect_assets:
+  - kind: video
+    title: Gptr New
+    url: https://cowriter-images.s3.us-east-1.amazonaws.com/gptr-new.mp4
+    source: https://gptr.dev/
+  - kind: image
+    title: GPT Researcher - Autonomous AI Research Agent
+    url: https://gptr.dev/thumbnail.png
+    source: https://gptr.dev/
 - name: STORM
   category: research-report
   surface: open-source
@@ -1309,6 +1473,15 @@ entries:
   - STORM examples
   - Co-STORM examples
   - Datasets
+  official_effect_assets:
+  - kind: image
+    title: Co Storm Workflow
+    url: https://raw.githubusercontent.com/stanford-oval/storm/HEAD/assets/co-storm-workflow.jpg
+    source: https://raw.githubusercontent.com/stanford-oval/storm/HEAD/README.md
+  - kind: image
+    title: Two Stages
+    url: https://raw.githubusercontent.com/stanford-oval/storm/HEAD/assets/two_stages.jpg
+    source: https://raw.githubusercontent.com/stanford-oval/storm/HEAD/README.md
 - name: Scira
   category: research-report
   surface: open-source
@@ -1346,6 +1519,19 @@ entries:
     title: Vercel AI SDK
     url: https://sdk.vercel.ai/docs
     source: https://raw.githubusercontent.com/zaidmukaddam/scira/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Exa AI
+    url: https://raw.githubusercontent.com/public/exa.png
+    source: https://raw.githubusercontent.com/zaidmukaddam/scira/HEAD/README.md
+  - kind: image
+    title: Scira
+    url: https://raw.githubusercontent.com/app/opengraph-image.png
+    source: https://raw.githubusercontent.com/zaidmukaddam/scira/HEAD/README.md
+  - kind: image
+    title: Scira - AI Search | Scira AI
+    url: https://scira.ai/opengraph-image.png?opengraph-image.2_1w0y54qy3t_.png?dpl=dpl_42o9ZhLJN3S5UC8k6teSFtrMLGAU
+    source: https://scira.ai/
 - name: Vane
   category: research-report
   surface: open-source
@@ -1389,6 +1575,19 @@ entries:
   - kind: docs
     title: here
     url: https://github.com/ItzCrazyKns/Vane/tree/master/docs/API/SEARCH.md
+    source: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: preview
+    url: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/.assets/vane-screenshot.png
+    source: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/README.md
+  - kind: image
+    title: Warp Terminal
+    url: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/.assets/sponsers/warp.png
+    source: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/README.md
+  - kind: image
+    title: Exa
+    url: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/.assets/sponsers/exa.png
     source: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/README.md
 - name: FinRobot
   category: research-report
@@ -1583,6 +1782,15 @@ entries:
   source_headings:
   - Live Demos
   - Live News & Video
+  official_effect_assets:
+  - kind: image
+    title: World Monitor Dashboard
+    url: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/new-world-monitor.png
+    source: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/README.md
+  - kind: image
+    title: World Monitor - Real-Time Global Intelligence Dashboard
+    url: https://www.worldmonitor.app/favico/og-image.png
+    source: https://www.worldmonitor.app/
 - name: notex
   category: doc-to-knowledge
   surface: open-source
@@ -1630,6 +1838,11 @@ entries:
     source: https://raw.githubusercontent.com/smallnest/notex/HEAD/README.md
   source_headings:
   - 📖 Usage
+  official_effect_assets:
+  - kind: image
+    title: Note2
+    url: https://raw.githubusercontent.com/smallnest/notex/HEAD/docs/note2.png
+    source: https://raw.githubusercontent.com/smallnest/notex/HEAD/README.md
 - name: Open Notebook
   category: doc-to-knowledge
   surface: open-source
@@ -1846,6 +2059,15 @@ entries:
     source: https://raw.githubusercontent.com/lfnovo/open-notebook/HEAD/README.md
   source_headings:
   - 📚 Documentation
+  official_effect_assets:
+  - kind: image
+    title: Check out our podcast sample
+    url: https://img.youtube.com/vi/D-760MlGwaI/0.jpg
+    source: https://raw.githubusercontent.com/lfnovo/open-notebook/HEAD/README.md
+  - kind: image
+    title: New Notebook
+    url: https://raw.githubusercontent.com/lfnovo/open-notebook/HEAD/docs/assets/asset_list.png
+    source: https://raw.githubusercontent.com/lfnovo/open-notebook/HEAD/README.md
 - name: SurfSense
   category: doc-to-knowledge
   surface: open-source
@@ -1887,6 +2109,55 @@ entries:
   source_headings:
   - Video Agent Sample
   - Podcast Agent Sample
+  official_effect_assets:
+  - kind: gif
+    title: Screenshot Assist
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/screenshot_assist.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: Login
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/LoginFlowGif.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: Connectors
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/ConnectorFlowGif.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: Upload Documents
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/DocUploadGif.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: General Assist
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/general_assist.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: Quick Assist
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/quick_assist.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: Watch Local Folder
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/folder_watch.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: AI Report Generator
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/ReportGenGif_compressed.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: AI Podcast Generator
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/PodcastGenGif.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: AI Presentation and Video Maker
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/video_gen_gif.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: AI Image Generator
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/ImageGenGif.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
+  - kind: gif
+    title: Chat With Your PDFs and Docs
+    url: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/surfsense_web/public/homepage/hero_tutorial/BQnaGif_compressed.gif
+    source: https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md
 - name: mindmap-generator
   category: doc-to-knowledge
   surface: open-source
@@ -1921,6 +2192,23 @@ entries:
   - Performance Metrics and Dashboards
   - 📝 Output Examples
   - Technical Documentation
+  official_effect_assets:
+  - kind: image
+    title: Mermaid mindmap diagram example
+    url: https://github.com/Dicklesworthstone/mindmap-generator/raw/refs/heads/main/screenshots/mermaid_diagram_example_durnovo.webp
+    source: https://raw.githubusercontent.com/Dicklesworthstone/mindmap-generator/HEAD/README.md
+  - kind: image
+    title: Markdown outline example
+    url: https://github.com/Dicklesworthstone/mindmap-generator/raw/refs/heads/main/screenshots/mindmap_outline_md_example_durnovo.webp
+    source: https://raw.githubusercontent.com/Dicklesworthstone/mindmap-generator/HEAD/README.md
+  - kind: image
+    title: here
+    url: https://github.com/Dicklesworthstone/mindmap-generator/raw/refs/heads/main/screenshots/logging_output_during_run.webp
+    source: https://raw.githubusercontent.com/Dicklesworthstone/mindmap-generator/HEAD/README.md
+  - kind: image
+    title: here
+    url: https://github.com/Dicklesworthstone/mindmap-generator/raw/refs/heads/main/screenshots/token_usage_report.webp
+    source: https://raw.githubusercontent.com/Dicklesworthstone/mindmap-generator/HEAD/README.md
 - name: Mapify
   category: doc-to-knowledge
   surface: product
@@ -2038,6 +2326,55 @@ entries:
   - kind: paper
     title: Research Paper Summarizer
     url: https://mapify.so/tools/research-paper-summarizer
+    source: https://mapify.so/
+  official_effect_assets:
+  - kind: image
+    title: Interactive mind map overview
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-map-en-1-preview.d1f555.png
+    source: https://mapify.so/
+  - kind: image
+    title: PDF/Doc to Mind Map
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-pdf-v2.8ae5ca.png
+    source: https://mapify.so/
+  - kind: image
+    title: YouTube to Mind Map
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-youtube-v2.2fd229.png
+    source: https://mapify.so/
+  - kind: image
+    title: Ask Anything
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-ask-anything-v2.fc749b.png
+    source: https://mapify.so/
+  - kind: image
+    title: Customize & Share
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-share-v2.cad126.png
+    source: https://mapify.so/
+  - kind: image
+    title: Convert webpage to mind map
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example1.57878d.png
+    source: https://mapify.so/
+  - kind: image
+    title: Transform long text into mind map
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example2.598fcb.png
+    source: https://mapify.so/
+  - kind: image
+    title: Create mind map from audio
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example3.d3593f.png
+    source: https://mapify.so/
+  - kind: image
+    title: Generate mind map from image
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example4.bf381d.png
+    source: https://mapify.so/
+  - kind: image
+    title: 'Mapify: AI Summarizer and Mind Map Generator for PDFs, Videos, and Webpages'
+    url: https://assets.chatmind.tech/prod_mapify/_nuxt/share-card.Bdc2icXW.png
+    source: https://mapify.so/
+  - kind: image
+    title: homepage-bg-mobile
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-bg-mobile-v2.ab02a8.png
+    source: https://mapify.so/
+  - kind: image
+    title: homepage-bg-mobile
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-bg-xs-v2.bec6b8.png
     source: https://mapify.so/
 - name: AI-Researcher
   category: research-report
@@ -2216,6 +2553,47 @@ entries:
   - 'Example 4 (Category: Recommendation)'
   - 'Example 5 (Category: Diffusion and Flow Matching)'
   - 'Example 6 (Category: Graph Neural Networks)'
+  official_effect_assets:
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/rotation_vq/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/fsq/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/hgcl/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/dccf/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/con_flowmatching/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/gnn_nodeformer/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: gif
+    title: PDF Document
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/examples/gnn_difformer/paper.gif
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: image
+    title: image-20250606135507970
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/assets/webgui/image-20250606135507970.png
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: image
+    title: image-20250606135137558
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/assets/webgui/image-20250606135137558.png
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
+  - kind: image
+    title: image-20250606135325373
+    url: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/assets/webgui/image-20250606135325373.png
+    source: https://raw.githubusercontent.com/HKUDS/AI-Researcher/HEAD/README.md
 - name: NotebookLM
   category: doc-to-knowledge
   surface: product
@@ -2233,6 +2611,11 @@ entries:
     description: Meet NotebookLM, the AI research tool and thinking partner that can analyze your sources, turn complexity
       into clarity and transform your content.
     bytes: 99070
+  official_effect_assets:
+  - kind: image
+    title: Google NotebookLM | AI Research Tool & Thinking Partner
+    url: https://notebooklm.google/_/static/branding/v4/og/notebook_lm_share.png
+    source: https://notebooklm.google/
 - name: Elicit
   category: research-report
   surface: product
@@ -2551,6 +2934,11 @@ entries:
     title: Paperguide vs Afforai
     url: https://paperguide.ai/blog/paperguide-vs-afforai/
     source: https://paperguide.ai/
+  official_effect_assets:
+  - kind: image
+    title: 'Paperguide: The AI Research Assistant'
+    url: https://paperguide.ai/og-image.png
+    source: https://paperguide.ai/
 - name: SciSpace Infographic Maker
   category: paper-visualization
   surface: product
@@ -2584,6 +2972,11 @@ entries:
     description: Transform complex scientific texts into clear, visual insights. Create publication-ready graphical abstracts,
       scientific visualizations, and more.
     bytes: 5136
+  official_effect_assets:
+  - kind: image
+    title: Grabstract - Science, visualized
+    url: https://grabstract.io/lovable-uploads/sm_preview.png
+    source: https://grabstract.io/graphical-abstracts
 - name: Open Knowledge Maps
   category: literature-map
   surface: product
@@ -2621,6 +3014,39 @@ entries:
     title:  Community Guidelines
     url: https://openknowledgemaps.org/community-guidelines
     source: https://openknowledgemaps.org/
+  official_effect_assets:
+  - kind: image
+    title: OKMaps Custom Services
+    url: https://openknowledgemaps.org/img/cs-examples/custom-services-teaser-mobile.jpg
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Open Knowledge Maps - Your guide to scientific knowledge
+    url: https://openknowledgemaps.org/img/cardfb.png
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Open Knowledge Maps - Your guide to scientific knowledge
+    url: https://openknowledgemaps.org/img/card.png
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Austrian Prize for Free Knowledge
+    url: https://openknowledgemaps.org/img/awards/austrian-prize-for-free-knowledge.png
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Open Minds Award Austria
+    url: https://openknowledgemaps.org/img/awards/openmindsaward.png
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Girija
+    url: https://openknowledgemaps.org/img/enthusiasts/girija.png
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Jcb Statement
+    url: https://openknowledgemaps.org/img/advisors/jcb-statement.png
+    source: https://openknowledgemaps.org/
+  - kind: image
+    title: Mari
+    url: https://openknowledgemaps.org/img/enthusiasts/mari.png
+    source: https://openknowledgemaps.org/
 - name: Connected Papers
   category: literature-map
   surface: product
@@ -2639,6 +3065,11 @@ entries:
     description: Connected Papers is a visual tool to help researchers and applied scientists find academic papers relevant
       to their field of work.
     bytes: 3876
+  official_effect_assets:
+  - kind: image
+    title: Connected Papers | Find and explore academic papers
+    url: https://www.connectedpapers.com/share-preview-img.png
+    source: https://www.connectedpapers.com/
 - name: ResearchRabbit
   category: literature-map
   surface: product
@@ -2684,6 +3115,55 @@ entries:
     title: Find papers
     url: http://app.researchrabbit.ai/
     source: https://www.researchrabbit.ai/
+  official_effect_assets:
+  - kind: image
+    title: 'ResearchRabbit: AI Tool for Smarter, Faster Literature Reviews'
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/69a142248805bae6f2148552_ResearchRabbit-visualize-collections.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: Explore literature with a visual map
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68f8224511d07142181923e4_image%201627.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68E4398Eecf34947B5Dd1Fe2 Frame%203860 3
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68e4398eecf34947b5dd1fe2_Frame%203860-3.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68D5F93E47Ed1452459C60Fa Rr 4 Best%20Of%20The%20Bunch
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68d5f93e47ed1452459c60fa_RR_4_Best%20of%20the%20Bunch.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: Understand your topic with ResearchRabbit mapping
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68f95dfed11ebcd935924c50_underestand_topic.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68F7F4Ae3Ffa989F2B908D9E 1D2Cf9388F507236A63998A80993D37D Global%20Medium
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68f7f4ae3ffa989f2b908d9e_1d2cf9388f507236a63998a80993d37d_Global%20Medium.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68F7F4Ae472630063Cc71A02 Book Medium
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68f7f4ae472630063cc71a02_Book_Medium.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68F7F4Aea7C2Bd5E5202Bc0A Lecture%20Medium
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68f7f4aea7c2bd5e5202bc0a_Lecture%20Medium.webp
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68C0D1327049A2E5754481E0 K
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68c0d1327049a2e5754481e0_k.jpg
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68C0D132C692967Ed51A1660 Tt
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68c0d132c692967ed51a1660_tt.jpg
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68C0D13237734Dcf4Bc6C225 Mu
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68c0d13237734dcf4bc6c225_mu.jpg
+    source: https://www.researchrabbit.ai/
+  - kind: image
+    title: 68Dda88E5332Ef2Fb7Ea42Cd Linkedin%20(1)
+    url: https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68dda88e5332ef2fb7ea42cd_linkedin%20(1).png
+    source: https://www.researchrabbit.ai/
 - name: Litmaps
   category: literature-map
   surface: product
@@ -2720,6 +3200,51 @@ entries:
     title: Discover Discover the most relevant academic papers faster LEARN MORE
     url: https://www.litmaps.com/features
     source: https://www.litmaps.com/
+  official_effect_assets:
+  - kind: image
+    title: 663439Afb7Ff8072D7F45D45 Screenshot%202024 05 03%20At%201.10.59%20Pm
+    url: https://cdn.prod.website-files.com/63462cbdb372e93edf828d84/663439afb7ff8072d7f45d45_Screenshot%202024-05-03%20at%201.10.59%20PM.png
+    source: https://www.litmaps.com/
+  - kind: video
+    title: 636B03854Ac23Dbf03E9D3Cd Litmaps Hero Video Transcode
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/636b03854ac23dbf03e9d3cd_Litmaps Hero Video-transcode.mp4
+    source: https://www.litmaps.com/
+  - kind: video
+    title: 636B03854Ac23Dbf03E9D3Cd Litmaps Hero Video Transcode
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/636b03854ac23dbf03e9d3cd_Litmaps Hero Video-transcode.webm
+    source: https://www.litmaps.com/
+  - kind: image
+    title: Litmaps | Your Literature Review Assistant
+    url: https://litmaps.com/site-seo.png
+    source: https://www.litmaps.com/
+  - kind: image
+    title: dots
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/636c77ee7a5de65ed823d78b_Hero%20Static%201.png
+    source: https://www.litmaps.com/
+  - kind: image
+    title: 638F955B4D736Be359193777 Search
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/638f955b4d736be359193777_search.png
+    source: https://www.litmaps.com/
+  - kind: image
+    title: 638Fcf52C8Ae1D06Ec1E9143 Left Chevron
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/638fcf52c8ae1d06ec1e9143_left-chevron.png
+    source: https://www.litmaps.com/
+  - kind: image
+    title: 663438E7045Fe417888Ad375 Varun%20(1)
+    url: https://cdn.prod.website-files.com/63462cbdb372e93edf828d84/663438e7045fe417888ad375_varun%20(1).jpeg
+    source: https://www.litmaps.com/
+  - kind: image
+    title: 6634393Bb110F1Dfa5Ba9859 Img 2617
+    url: https://cdn.prod.website-files.com/63462cbdb372e93edf828d84/6634393bb110f1dfa5ba9859_IMG_2617.jpg
+    source: https://www.litmaps.com/
+  - kind: image
+    title: 638Eacc056Ebf582Ffd6Eb80 Youtube
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/638eacc056ebf582ffd6eb80_youtube.png
+    source: https://www.litmaps.com/
+  - kind: image
+    title: 65656841D82F0C58639533Bd Linkedin
+    url: https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/65656841d82f0c58639533bd_linkedin.png
+    source: https://www.litmaps.com/
 - name: Consensus
   category: research-report
   surface: product
@@ -2738,6 +3263,11 @@ entries:
     description: Consensus is an AI academic search engine for peer-reviewed literature—your research OS for finding, organizing,
       and analyzing science 10x faster.
     bytes: 27815
+  official_effect_assets:
+  - kind: image
+    title: 'Consensus: AI for Research'
+    url: https://consensus.app/images/og-default.png
+    source: https://consensus.app/
 - name: MinerU
   category: doc-to-knowledge
   surface: open-source
@@ -3234,6 +3764,15 @@ entries:
   - 3. Python usage (recommended)
   - Documentation
   - Examples
+  official_effect_assets:
+  - kind: image
+    title: Docling
+    url: https://github.com/docling-project/docling/raw/main/docs/assets/docling_processing.png
+    source: https://raw.githubusercontent.com/docling-project/docling/HEAD/README.md
+  - kind: image
+    title: Docling
+    url: https://docling-project.github.io/docling/assets/docling_processing.png
+    source: https://docling-project.github.io/docling/
 - name: MarkItDown
   category: doc-to-knowledge
   surface: library
@@ -3503,6 +4042,19 @@ entries:
   - Benchmarks
   - Running your own benchmarks
   - Usage and Deployment Examples
+  official_effect_assets:
+  - kind: image
+    title: Overall
+    url: https://raw.githubusercontent.com/datalab-to/marker/HEAD/data/images/overall.png
+    source: https://raw.githubusercontent.com/datalab-to/marker/HEAD/README.md
+  - kind: image
+    title: Table
+    url: https://raw.githubusercontent.com/datalab-to/marker/HEAD/data/images/table.png
+    source: https://raw.githubusercontent.com/datalab-to/marker/HEAD/README.md
+  - kind: image
+    title: Per Doc
+    url: https://raw.githubusercontent.com/datalab-to/marker/HEAD/data/images/per_doc.png
+    source: https://raw.githubusercontent.com/datalab-to/marker/HEAD/README.md
 - name: Unstructured
   category: doc-to-knowledge
   surface: open-source
@@ -3631,6 +4183,55 @@ entries:
   source_headings:
   - Documentation
   - PDF Document Parsing Example
+  official_effect_assets:
+  - kind: image
+    title: Nodes
+    url: https://www.unstructured.io/images/demo-bg-panel.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Nodes
+    url: https://www.unstructured.io/images/demo-floating-node.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Nodes
+    url: https://www.unstructured.io/images/demo-floating-panel.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Nodes
+    url: https://www.unstructured.io/images/demo-bg-mobile.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Unstructured Data Platform for GenAI | Unstructured
+    url: https://cdn.sanity.io/images/d35hevy9/production/f19dac06a6b8d3e66fe818be470470e4cb954635-1200x628.jpg?rect=2,0,1196,628&w=1200&h=630&max-h=3840&max-w=3840&q=85&auto=format
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Cloud
+    url: https://www.unstructured.io/images/cloud.webp
+    source: https://www.unstructured.io/
+  - kind: image
+    title: B78F0A636884333C51C6E501Cd03604Fbcbe47Fd 64X85
+    url: https://cdn.sanity.io/images/d35hevy9/production/b78f0a636884333c51c6e501cd03604fbcbe47fd-64x85.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: 56Ed09Adbd54116Bff7A34D80A7D23F43B5E092B 220X62
+    url: https://cdn.sanity.io/images/d35hevy9/production/56ed09adbd54116bff7a34d80a7d23f43b5e092b-220x62.png?w=2048&h=577&max-h=3840&max-w=3840&q=85&auto=format
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Connections Illustration
+    url: https://www.unstructured.io/images/connections-top.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Connections Illustration
+    url: https://www.unstructured.io/images/connections-bottom.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: Connections Illustration
+    url: https://www.unstructured.io/images/connections.png
+    source: https://www.unstructured.io/
+  - kind: image
+    title: 2Fb036D0F7Bc7119D5D8991914838Bd836B23245 938X742
+    url: https://cdn.sanity.io/images/d35hevy9/production/2fb036d0f7bc7119d5d8991914838bd836b23245-938x742.png?w=2048&h=1620&max-h=3840&max-w=3840&q=85&auto=format
+    source: https://www.unstructured.io/
 - name: GROBID
   category: doc-to-knowledge
   surface: open-source
@@ -3844,6 +4445,11 @@ entries:
   source_headings:
   - Demo
   - Demo server
+  official_effect_assets:
+  - kind: image
+    title: Try in PWD
+    url: https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png
+    source: https://raw.githubusercontent.com/grobidOrg/grobid/HEAD/Readme.md
 - name: PaperMage
   category: doc-to-knowledge
   surface: library
@@ -4112,6 +4718,55 @@ entries:
     title: Piktochart Video vs Descript
     url: https://piktochart.com/piktochart-video-vs-descript/
     source: https://piktochart.com/generative-ai/
+  official_effect_assets:
+  - kind: image
+    title: piktochart infographic examples
+    url: https://piktochart.com/wp-content/uploads/2022/06/150-infographic-examples-featured-image.png
+    source: https://piktochart.com/generative-ai/
+  - kind: gif
+    title: generate ai images with piktochart ai image generator
+    url: https://piktochart.com/wp-content/uploads/2024/05/AI-Image-Generator_1B_Bring-your-vision-to-life.gif
+    source: https://piktochart.com/generative-ai/
+  - kind: video
+    title: Ani 1B
+    url: https://piktochart.com/wp-content/uploads/2023/10/ani_1b.webm
+    source: https://piktochart.com/generative-ai/
+  - kind: video
+    title: Ani 2B
+    url: https://piktochart.com/wp-content/uploads/2023/10/ani_2b.webm
+    source: https://piktochart.com/generative-ai/
+  - kind: video
+    title: Ani 3
+    url: https://piktochart.com/wp-content/uploads/2023/10/ani_3.webm
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: Free AI Infographic Generator | Piktochart
+    url: https://piktochart.com/wp-content/uploads/2023/11/Pikto-AI_feature-image_final_1-1.png
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: Ai Summarizer 1C
+    url: https://piktochart.com/wp-content/uploads/2024/05/AI-Summarizer_1C.png
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: piktochart ai outline structure ideas in a clear format
+    url: https://piktochart.com/wp-content/uploads/2024/10/Outline.png
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: list infographic about diverse education types generated by ai
+    url: https://piktochart.com/wp-content/uploads/2023/10/Diverse-Education-Types-1.png
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: list infographic about video generated by ai
+    url: https://piktochart.com/wp-content/uploads/2023/10/Video-a-Visual-Revolution.png
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: list infographic about employee engagement survey generated by ai
+    url: https://piktochart.com/wp-content/uploads/2023/10/Unlocking-Workplace-Hapiness.png
+    source: https://piktochart.com/generative-ai/
+  - kind: image
+    title: list infographic generated by ai about leadership types
+    url: https://piktochart.com/wp-content/uploads/2023/10/Leadership-Types-Unveiled.png
+    source: https://piktochart.com/generative-ai/
 - name: Venngage AI Infographic Generator
   category: infographic-report
   surface: product
@@ -4335,6 +4990,59 @@ entries:
   - kind: template
     title: Accessible Templates
     url: https://venngage.com/templates/accessible
+    source: https://venngage.com/ai-tools/infographic-generator
+  official_effect_assets:
+  - kind: image
+    title: Create an informative fact sheet about who refugees are by visualizing global displacement statistics, demographic
+      data, and the educational challenges faced by children.
+    url: https://cdn.venngage.com/template/thumbnail/310/1401bea2-8870-45e6-929a-f9e88cc638e8.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: E-Learning vs Traditional Learning Comparison Infographic
+    url: https://cdn.venngage.com/template/thumbnail/small/b0b6ef69-c3db-45c9-b23b-e2fc5bec7b13.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Comparison Infographic Ai
+    url: https://cdn.venngage.com/landing/img/comparison-infographic-ai.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Create a professional timeline for AEON that maps the company history from 2022 to 2029, showcasing key milestones
+      in growth and data-driven marketing with a clean teal aesthetic.
+    url: https://cdn.venngage.com/template/thumbnail/310/960d6bc3-ef00-4d15-a197-995180fcc070.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Design a playful brand journey for following the path from a 2023 lightbulb moment through global team expansion
+      to becoming a market leader by 2028.
+    url: https://cdn.venngage.com/template/thumbnail/310/ff259ed6-6715-4eb5-bfa3-93b9aa54fbdc.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Design an infographic on strategies for enhancing critical thinking abilities with illustrated characters and a
+      clean purple aesthetic.
+    url: https://cdn.venngage.com/template/thumbnail/310/84086841-f69f-4cb1-b259-b41799952862.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Customer Journey Timeline Infographic Template
+    url: https://cdn.venngage.com/template/thumbnail/small/b32d1317-9980-49a2-a108-9679d4972a0b.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Year End Review Infographic Template
+    url: https://cdn.venngage.com/template/thumbnail/small/9893996c-f0bc-4c52-a01f-a218d33b8267.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Essential Goal Setting Strategies List Infographic
+    url: https://cdn.venngage.com/template/thumbnail/small/9d6ac830-aa03-468e-bfaa-4aba3507bdcd.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: 4 Step Process to Boost Social Engagement Infographic
+    url: https://cdn.venngage.com/template/thumbnail/small/037ddd3d-4224-4835-afb5-4b095cb99bcb.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Gradient Facebook Features Timeline
+    url: https://cdn.venngage.com/template/thumbnail/small/484677d3-998a-4917-948f-8c8f925cd1ff.webp
+    source: https://venngage.com/ai-tools/infographic-generator
+  - kind: image
+    title: Brand Awareness Strategy Informational Infographic
+    url: https://cdn.venngage.com/template/thumbnail/small/ef52c813-a331-4556-80b4-25f22ba79c53.webp
     source: https://venngage.com/ai-tools/infographic-generator
 - name: Venngage AI Report Generator
   category: infographic-report
@@ -4746,6 +5454,31 @@ entries:
     title: Tutorials Step-by-step learning resources
     url: https://www.jeda.ai/resources/ai-tutorials
     source: https://www.jeda.ai/ai-infographic-generator
+  official_effect_assets:
+  - kind: image
+    title: Process Comparison
+    url: https://www.jeda.ai/objects/uploads/cc30f152-2a4f-46ef-8cfc-f470df89d6a7.webp
+    source: https://www.jeda.ai/ai-infographic-generator
+  - kind: image
+    title: "AI Infographic Generator â\x80\x94 Data to Visuals | Jeda.ai"
+    url: https://jeda.ai/images/featured-infographic.webp
+    source: https://www.jeda.ai/ai-infographic-generator
+  - kind: image
+    title: Growth Metrics
+    url: https://www.jeda.ai/objects/uploads/07359335-d41b-4970-99bc-29e79a6e67f3.webp
+    source: https://www.jeda.ai/ai-infographic-generator
+  - kind: image
+    title: Market Sizing
+    url: https://www.jeda.ai/objects/uploads/c41644d3-0452-40bb-860a-99740f7b9379.webp
+    source: https://www.jeda.ai/ai-infographic-generator
+  - kind: image
+    title: Tech Adoption Lifecycle
+    url: https://www.jeda.ai/objects/uploads/d65801a5-7d19-414b-93d1-18e08c592a45.webp
+    source: https://www.jeda.ai/ai-infographic-generator
+  - kind: image
+    title: Infographic Timeline
+    url: https://www.jeda.ai/objects/uploads/8bfa9894-ca87-45cc-9f2f-4105a970e033.webp
+    source: https://www.jeda.ai/ai-infographic-generator
 - name: Infogram
   category: infographic-report
   surface: product
@@ -5016,6 +5749,55 @@ entries:
     title: Social media graphics Craft impactful social media visuals fast.
     url: https://infogram.com/templates/posts
     source: https://infogram.com/
+  official_effect_assets:
+  - kind: image
+    title: schedule_a_demo
+    url: https://frontpage-assets.jifo.co/b719de74-9efe-4e6e-957b-22f26c5e503b.png
+    source: https://infogram.com/
+  - kind: image
+    title: schedule_a_demo
+    url: https://frontpage-assets.jifo.co/d5c678a7-9415-4b64-a2ba-e40caf4044fa.png
+    source: https://infogram.com/
+  - kind: image
+    title: schedule_a_demo
+    url: https://frontpage-assets.jifo.co/10d4c563-6311-4d30-ba60-471c659aacb3.png
+    source: https://infogram.com/
+  - kind: image
+    title: schedule_a_demo
+    url: https://frontpage-assets.jifo.co/d34c732d-077c-4cc3-baef-90a64780fbb2.png
+    source: https://infogram.com/
+  - kind: image
+    title: schedule_a_demo
+    url: https://frontpage-assets.jifo.co/76e829ad-c8c3-48e3-94a3-398da56e9e5f.png
+    source: https://infogram.com/
+  - kind: image
+    title: schedule_a_demo
+    url: https://frontpage-assets.jifo.co/b34f1dcf-09d8-451d-9ba2-6fdb5d46ca05.png
+    source: https://infogram.com/
+  - kind: image
+    title: Illustrated look at 5 new dinosaur discoveries
+    url: https://cdn.jifo.co/js/dist/07c4e537435f048a0ae40b407495eeea.webp
+    source: https://infogram.com/
+  - kind: video
+    title: C15772739987A778Fced364F24D072A0
+    url: https://cdn.jifo.co/js/dist/c15772739987a778fced364f24d072a0.webm
+    source: https://infogram.com/
+  - kind: video
+    title: 7Feb4C603567892756D34B420D3Dd3Fd
+    url: https://cdn.jifo.co/js/dist/7feb4c603567892756d34b420d3dd3fd.webm
+    source: https://infogram.com/
+  - kind: video
+    title: 5136D3B4Eeaff20Cc9802C5284014F34
+    url: https://cdn.jifo.co/js/dist/5136d3b4eeaff20cc9802c5284014f34.webm
+    source: https://infogram.com/
+  - kind: video
+    title: 07Eae9E5Aeb8746C17799E3C1C747D7B
+    url: https://cdn.jifo.co/js/dist/07eae9e5aeb8746c17799e3c1c747d7b.webm
+    source: https://infogram.com/
+  - kind: image
+    title: Turn Data Into Interactive Stories | Infogram
+    url: https://cdn.jifo.co/js/dist/f248da3747f83ee2a1a6a8768140ce82.png
+    source: https://infogram.com/
 - name: ppt-master
   category: presentation-tools
   surface: open-source
@@ -5126,6 +5908,31 @@ entries:
     source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
   source_headings:
   - Documentation
+  official_effect_assets:
+  - kind: image
+    title: Editorial magazine — Pritzker 2026 architecture review
+    url: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/docs/assets/screenshots/preview_pritzker_2026.png
+    source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
+  - kind: image
+    title: Data journalism — Global AI Capital 2026
+    url: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/docs/assets/screenshots/preview_global_ai_capital.png
+    source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
+  - kind: image
+    title: Swiss typographic grid — Grid Systems primer
+    url: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/docs/assets/screenshots/preview_swiss_grid.png
+    source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
+  - kind: image
+    title: Glassmorphism SaaS — AI Agent engineering demo
+    url: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/docs/assets/screenshots/preview_glassmorphism_demo.png
+    source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
+  - kind: image
+    title: Memphis pop — Sugar Rush festival
+    url: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/docs/assets/screenshots/preview_sugar_rush_memphis.png
+    source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
+  - kind: image
+    title: Risograph zine — Indie bookstore guide
+    url: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/docs/assets/screenshots/preview_indie_bookstore_zine.png
+    source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
 - name: Presenton
   category: presentation-tools
   surface: open-source
@@ -5236,6 +6043,56 @@ entries:
     and keep your data private.
   - Presentation memory (Mem0 OSS)
   - '### ✨ Generate Presentation via API'
+  official_effect_assets:
+  - kind: gif
+    title: Presenton
+    url: https://raw.githubusercontent.com/presenton/presenton/HEAD/readme_assets/images/banner_bg.gif
+    source: https://raw.githubusercontent.com/presenton/presenton/HEAD/README.md
+  - kind: image
+    title: Presenton Features
+    url: https://raw.githubusercontent.com/presenton/presenton/HEAD/readme_assets/images/features.png
+    source: https://raw.githubusercontent.com/presenton/presenton/HEAD/README.md
+  - kind: image
+    title: Create stunning presentations with your existing ChatGPT subscription — secure and private, instant access, no
+      API keys
+    url: https://raw.githubusercontent.com/presenton/presenton/HEAD/readme_assets/images/chatgpt-2-1.png
+    source: https://raw.githubusercontent.com/presenton/presenton/HEAD/README.md
+  - kind: image
+    title: Cloud deployment
+    url: https://raw.githubusercontent.com/presenton/presenton/HEAD/readme_assets/images/banner.png
+    source: https://raw.githubusercontent.com/presenton/presenton/HEAD/README.md
+  - kind: image
+    title: Presenton Cloud
+    url: https://raw.githubusercontent.com/presenton/presenton/HEAD/readme_assets/images/cloud-banner.png
+    source: https://raw.githubusercontent.com/presenton/presenton/HEAD/README.md
+  - kind: gif
+    title: Banner
+    url: https://presenton.ai/banner.gif
+    source: https://presenton.ai/
+  - kind: gif
+    title: Reusable PPTX Design
+    url: https://presenton.ai/new_feature/reusablepptx.gif
+    source: https://presenton.ai/
+  - kind: image
+    title: Presenton – Open-Source AI Presentation Generator and API
+    url: https://presenton.ai/presenton-feature-graphics.png
+    source: https://presenton.ai/
+  - kind: image
+    title: Presenton AI hero background
+    url: https://presenton.ai/hero_bg.png
+    source: https://presenton.ai/
+  - kind: image
+    title: AI Presentation Generation
+    url: https://presenton.ai/new_feature/ai_presentation_generation.jpg
+    source: https://presenton.ai/
+  - kind: image
+    title: Advanced Editing with Variants
+    url: https://presenton.ai/new_feature/advance_editing.jpg
+    source: https://presenton.ai/
+  - kind: image
+    title: AI Generation
+    url: https://presenton.ai/essential_features/ai_generation.png
+    source: https://presenton.ai/
 - name: PPTAgent
   category: presentation-tools
   surface: research
@@ -5421,6 +6278,55 @@ entries:
   source_headings:
   - Usage 📖
   - Generate a presentation
+  official_effect_assets:
+  - kind: image
+    title: 图片1
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0001.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片2
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0002.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片3
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0003.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片4
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0004.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片5
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0005.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片6
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0006.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片7
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0007.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片8
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0008.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片9
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0009.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片10
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/manuscript/0010.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片1
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/presentation1/0001.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
+  - kind: image
+    title: 图片2
+    url: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/resource/v2/presentation1/0002.jpg
+    source: https://raw.githubusercontent.com/icip-cas/PPTAgent/HEAD/README.md
 - name: presentation-ai
   category: presentation-tools
   surface: open-source
@@ -5512,6 +6418,11 @@ entries:
   - Presentation Tools
   - 💻 Usage
   - Creating a Presentation
+  official_effect_assets:
+  - kind: video
+    title: Video Tutorial
+    url: https://www.youtube.com/watch?v=UUePLJeFqVQ
+    source: https://raw.githubusercontent.com/allweonedev/presentation-ai/HEAD/README.md
 - name: slide-deck-ai
   category: presentation-tools
   surface: open-source
@@ -5634,6 +6545,15 @@ entries:
   - Python API Quickstart
   - CLI Usage
   - Live Demo
+  official_effect_assets:
+  - kind: video
+    title: See a demonstration using Azure OpenAI (YouTube)
+    url: https://youtu.be/oPbH-z3q0Mw
+    source: https://raw.githubusercontent.com/barun-saha/slide-deck-ai/HEAD/README.md
+  - kind: video
+    title: Watch the core chat interface in action (YouTube)
+    url: https://youtu.be/QvAKzNKtk9k
+    source: https://raw.githubusercontent.com/barun-saha/slide-deck-ai/HEAD/README.md
 - name: odin-slides
   category: presentation-tools
   surface: open-source
@@ -5668,6 +6588,11 @@ entries:
   - Demo Video
   - Usage
   - Examples
+  official_effect_assets:
+  - kind: image
+    title: odin-slides Demo Video
+    url: https://img.youtube.com/vi/s7ezOqQjMGA/0.jpg
+    source: https://raw.githubusercontent.com/leonid20000/odin-slides/HEAD/README.md
 - name: ppt-agents
   category: presentation-tools
   surface: open-source
@@ -5798,6 +6723,23 @@ entries:
   - Showcase
   - Documentation
   - Example Decks
+  official_effect_assets:
+  - kind: image
+    title: DeckDown v1.2.2 hero slide rendered from the release showcase deck
+    url: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/docs/assets/showcase/v1.2.2-slide-001.png
+    source: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/README.md
+  - kind: image
+    title: DeckDown feature slide showing Mermaid, LaTeX, and export workflow rendered from the same deck
+    url: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/docs/assets/showcase/v1.2.2-slide-002.png
+    source: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/README.md
+  - kind: image
+    title: DeckDown Studio with the v1.2.2 showcase deck open in the editor and preview
+    url: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/docs/assets/showcase/v1.2.2-studio-editor.png
+    source: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/README.md
+  - kind: image
+    title: DeckDown Studio showing the v1.2.2 showcase deck with the preview surface emphasized
+    url: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/docs/assets/showcase/v1.2.2-studio-preview.png
+    source: https://raw.githubusercontent.com/adityachauhan0/deckdown/HEAD/README.md
 - name: Frontend Slides
   category: presentation-tools
   surface: skill
@@ -6052,6 +6994,55 @@ entries:
   - '[Stencil & Tablet](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/stencil-tablet/)'
   - '[Cobalt Grid](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/cobalt-grid/)'
   - '[Vellum](https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/vellum/)'
+  official_effect_assets:
+  - kind: image
+    title: Soft Editorial — slide 4
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/soft-editorial-4.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Soft Editorial — slide 6
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/soft-editorial-6.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Soft Editorial — slide 10
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/soft-editorial-10.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Editorial Forest — slide 1
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/editorial-forest-1.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Editorial Forest — slide 2
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/editorial-forest-2.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Editorial Forest — slide 5
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/editorial-forest-5.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Pin & Paper — slide 1
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/pin-and-paper-1.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Pin & Paper — slide 11
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/pin-and-paper-11.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Pin & Paper — slide 3
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/pin-and-paper-3.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Sakura Chroma — slide 1
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/sakura-chroma-1.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Sakura Chroma — slide 3
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/sakura-chroma-3.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
+  - kind: image
+    title: Sakura Chroma — slide 4
+    url: https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/sakura-chroma-4.png
+    source: https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md
 - name: Office-PowerPoint-MCP-Server
   category: presentation-tools
   surface: mcp
@@ -6083,6 +7074,11 @@ entries:
   - Add professional slide
   - Apply theme to entire presentation
   - Enhance existing slide
+  official_effect_assets:
+  - kind: gif
+    title: demo
+    url: https://raw.githubusercontent.com/GongRzhe/Office-PowerPoint-MCP-Server/HEAD/public/demo.gif
+    source: https://raw.githubusercontent.com/GongRzhe/Office-PowerPoint-MCP-Server/HEAD/README.md
 - name: pptx-from-layouts-skill
   category: presentation-tools
   surface: skill
@@ -6167,6 +7163,11 @@ entries:
   - 'Slide 3: Investment Summary'
   - Visual Types
   - Example Output
+  official_effect_assets:
+  - kind: image
+    title: PPTX-from-layouts pipeline
+    url: https://raw.githubusercontent.com/tristan-mcinnis/pptx-from-layouts-skill/HEAD/docs/pipeline.png
+    source: https://raw.githubusercontent.com/tristan-mcinnis/pptx-from-layouts-skill/HEAD/README.md
 - name: hands-on-deck
   category: presentation-tools
   surface: skill
@@ -6457,6 +7458,11 @@ entries:
   - Ultimate PPT Master - AI Presentation Production Workbench
   - 60-second quickstart
   - Documentation Map
+  official_effect_assets:
+  - kind: image
+    title: Ultimate PPT Master - Local-first AI Presentation Hub
+    url: https://kdnsna.github.io/ultimate-ppt-master-skill/social-preview.png
+    source: https://kdnsna.github.io/ultimate-ppt-master-skill/
 - name: codex-ppt-skill
   category: presentation-tools
   surface: skill
@@ -6496,6 +7502,55 @@ entries:
     source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
   source_headings:
   - 风格示例
+  official_effect_assets:
+  - kind: image
+    title: 生成 PPT 效果示例
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/slides_example.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 论文原图插入案例
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/paper-figures-example.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 清爽专业风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/clean-professional.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 创意杂志风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/creative-magazine.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 电子墨水杂志风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/e-ink-magazine.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 数据仪表盘风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/data-dashboard.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 复古扁平插画风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/retro-flat-illustration.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 手绘技术解释风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/handdrawn-technical.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 手绘白板风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/handdrawn-whiteboard.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 温暖手工风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/warm-handmade.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 科研答辩风
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/scientific-defense.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 麦肯锡风格
+    url: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/mckinsey-style.png
+    source: https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md
 - name: presentation-skills
   category: presentation-tools
   surface: skill
@@ -6609,6 +7664,15 @@ entries:
   - GitDiagram
   - ⚙️ How GitDiagram Works
   - 🔒 How to diagram private repositories
+  official_effect_assets:
+  - kind: image
+    title: Image
+    url: https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/HEAD/docs/readme_img.png
+    source: https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/HEAD/README.md
+  - kind: image
+    title: GitDiagram - Visualize Any GitHub Repository
+    url: https://gitdiagram.com/opengraph-image.png?opengraph-image.174h-oeczhgif.png
+    source: https://gitdiagram.com/
 - name: CodeBoarding
   category: codebase-map
   surface: open-source
@@ -6691,6 +7755,27 @@ entries:
   source_headings:
   - Increase diagram depth
   - Examples
+  official_effect_assets:
+  - kind: gif
+    title: CodeBoarding demo
+    url: https://gist.githubusercontent.com/ivanmilevtues/1c4f921066613516cfd7b938014a6877/raw/611aec7711556807860ff2e1679a5dc4c0c23fed/CodeBoarding_extension_demo.gif
+    source: https://raw.githubusercontent.com/Codeboarding/CodeBoarding/HEAD/README.md
+  - kind: image
+    title: A
+    url: https://static.scarf.sh/a.png?x-pxid=0855d476-b2d0-44cc-b93d-69b47504719c
+    source: https://raw.githubusercontent.com/Codeboarding/CodeBoarding/HEAD/README.md
+  - kind: image
+    title: A
+    url: https://static.scarf.sh/a.png?x-pxid=ce87464c-2792-46b0-9ea2-87eefe853d7e
+    source: https://raw.githubusercontent.com/Codeboarding/CodeBoarding/HEAD/README.md
+  - kind: image
+    title: A
+    url: https://static.scarf.sh/a.png?x-pxid=8a3d26e0-6f6b-49c0-8482-114445de56a5
+    source: https://raw.githubusercontent.com/Codeboarding/CodeBoarding/HEAD/README.md
+  - kind: image
+    title: A
+    url: https://static.scarf.sh/a.png?x-pxid=1942e7e7-0762-4cdd-9f08-024acc098071
+    source: https://raw.githubusercontent.com/Codeboarding/CodeBoarding/HEAD/README.md
 - name: Understand-Anything
   category: codebase-map
   surface: skill
@@ -6749,6 +7834,19 @@ entries:
   source_headings:
   - Generate Chinese content (知识图节点描述和 Dashboard UI)
   - 3. Explore the dashboard
+  official_effect_assets:
+  - kind: image
+    title: Understand Anything — Turn any codebase into an interactive knowledge graph
+    url: https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/HEAD/assets/hero.png
+    source: https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/HEAD/README.md
+  - kind: image
+    title: Community walkthrough by Better Stack — watch on YouTube
+    url: https://img.youtube.com/vi/VmIUXVlt7_I/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/HEAD/README.md
+  - kind: image
+    title: Hero
+    url: https://understand-anything.com/images/hero.jpg
+    source: https://understand-anything.com/
 - name: deepwiki-open
   category: codebase-map
   surface: open-source
@@ -6839,6 +7937,55 @@ entries:
   - kind: docs
     title: Docs
     url: https://grok-wiki.com/public/docs
+    source: https://grok-wiki.com/
+  official_effect_assets:
+  - kind: image
+    title: Grok-Wiki - Repository wikis powered by local agents
+    url: https://grok-wiki.com/grok-wiki-preview-bottom-left.png
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Grok Wiki Ep1 Poster
+    url: https://grok-wiki.com/episodes/grok-wiki-ep1-poster.jpg
+    source: https://grok-wiki.com/
+  - kind: video
+    title: Grok Wiki Ep1 Dzvqftrc
+    url: https://grok-wiki.com/assets/grok-wiki-ep1-DzvqFtRC.mp4
+    source: https://grok-wiki.com/
+  - kind: image
+    title: '"Buy Me A Coffee"'
+    url: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
+    source: https://raw.githubusercontent.com/AsyncFuncAI/deepwiki-open/HEAD/README.md
+  - kind: image
+    title: Grok Wiki Office 01 H5Ze5Mw5
+    url: https://grok-wiki.com/assets/grok-wiki-office-01-H5Ze5Mw5.jpg
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Grok Wiki Office 02 Byiblx8
+    url: https://grok-wiki.com/assets/grok-wiki-office-02-ByiBlX8-.jpg
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Nwparker Wp3Swdax
+    url: https://grok-wiki.com/assets/nwparker-wp3SWDax.jpg
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Gabe Perez D4Si3Iei
+    url: https://grok-wiki.com/assets/gabe-perez-D4si3iEI.png
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Mvanhorn Dkkyoznc
+    url: https://grok-wiki.com/assets/mvanhorn-DkKyOZnC.jpg
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Endif Cmae8Jns
+    url: https://grok-wiki.com/assets/endif-Cmae8jnS.jpg
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Nasuy Revfm87E
+    url: https://grok-wiki.com/assets/nasuy-rEvfm87e.jpg
+    source: https://grok-wiki.com/
+  - kind: image
+    title: Grok Wiki Faq 90S Hardware Cpn4Moed
+    url: https://grok-wiki.com/assets/grok-wiki-faq-90s-hardware-Cpn4mOED.webp
     source: https://grok-wiki.com/
 - name: PocketFlow-Tutorial-Codebase-Knowledge
   category: codebase-map
@@ -7054,6 +8201,23 @@ entries:
   source_headings:
   - ⭐ Example Results for Popular GitHub Repositories!
   - 💡 Development Tutorial
+  official_effect_assets:
+  - kind: image
+    title: Example
+    url: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/assets/example.png
+    source: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/README.md
+  - kind: image
+    title: Banner
+    url: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/assets/banner.png
+    source: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/README.md
+  - kind: image
+    title: Pocket Flow Codebase Tutorial
+    url: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/assets/youtube_thumbnail.png
+    source: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/README.md
+  - kind: video
+    title: YouTube Development Tutorial
+    url: https://youtu.be/AFY67zOpbSo
+    source: https://raw.githubusercontent.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge/HEAD/README.md
 - name: GitVizz
   category: codebase-map
   surface: open-source
@@ -7128,6 +8292,35 @@ entries:
   source_headings:
   - Features Showcase
   - Documentation Generator
+  official_effect_assets:
+  - kind: image
+    title: Graph Search
+    url: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/frontend/public/screenshots/graph_search.png
+    source: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/README.md
+  - kind: image
+    title: Graph Dependency View
+    url: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/frontend/public/screenshots/graph_highlight.png
+    source: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/README.md
+  - kind: image
+    title: Chat with Repository
+    url: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/frontend/public/screenshots/chat_with_repo_powered_by_graph.png
+    source: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/README.md
+  - kind: image
+    title: Code Viewer
+    url: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/frontend/public/screenshots/code_viewer.png
+    source: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/README.md
+  - kind: image
+    title: LLM Context Builder
+    url: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/frontend/public/screenshots/build_context_for_llms.png
+    source: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/README.md
+  - kind: image
+    title: Documentation Generator
+    url: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/frontend/public/screenshots/generate_documentation.png
+    source: https://raw.githubusercontent.com/adithya-s-k/GitVizz/HEAD/README.md
+  - kind: image
+    title: gitvizz - From Repo to Reasoning Instantly
+    url: https://gitvizz.com/og-image.png
+    source: https://www.gitvizz.com/
 - name: codeflow
   category: codebase-map
   surface: open-source
@@ -7171,6 +8364,15 @@ entries:
   - Usage
   - Visualization Modes
   - Card Style Gallery
+  official_effect_assets:
+  - kind: image
+    title: CodeFlow Screenshot
+    url: https://raw.githubusercontent.com/braedonsaunders/codeflow/HEAD/screenshot.png
+    source: https://raw.githubusercontent.com/braedonsaunders/codeflow/HEAD/README.md
+  - kind: image
+    title: CodeFlow — Open Source Architecture Intelligence
+    url: https://codeflow-five.vercel.app/codeflow-social.png
+    source: https://codeflow-five.vercel.app/
 - name: oh-my-mermaid
   category: codebase-map
   surface: skill
@@ -7210,6 +8412,15 @@ entries:
     source: https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/HEAD/README.md
   source_headings:
   - Example
+  official_effect_assets:
+  - kind: gif
+    title: omm scan demo
+    url: https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/HEAD/docs/demo.gif
+    source: https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/HEAD/README.md
+  - kind: image
+    title: omm viewer
+    url: https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/HEAD/docs/screenshot.png
+    source: https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/HEAD/README.md
 - name: codag-visualizer
   category: codebase-map
   surface: open-source
@@ -7249,6 +8460,39 @@ entries:
     source: https://codag.ai/
   source_headings:
   - Gallery
+  official_effect_assets:
+  - kind: gif
+    title: Codag in action
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/media/demo.gif
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
+  - kind: image
+    title: Workflow Detection
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/features/workflow-detection.png
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
+  - kind: image
+    title: Codag | Log compression for AI agents
+    url: https://codag.ai/socialpreview.png
+    source: https://codag.ai/
+  - kind: gif
+    title: Live Updates
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/features/live-updates.gif
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
+  - kind: gif
+    title: Click to Source
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/features/click-to-source.gif
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
+  - kind: image
+    title: Vercel AI Chatbot
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/media/aichatbot.png
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
+  - kind: image
+    title: LangChain
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/media/langchain.png
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
+  - kind: image
+    title: TryCua
+    url: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/media/trycua.png
+    source: https://raw.githubusercontent.com/codag-megalith/codag-visualizer/HEAD/README.md
 - name: codebase-memory-mcp
   category: codebase-map
   surface: mcp
@@ -7298,6 +8542,15 @@ entries:
     source: https://deusdata.github.io/codebase-memory-mcp/
   source_headings:
   - Graph Visualization UI
+  official_effect_assets:
+  - kind: image
+    title: Graph visualization UI showing the codebase-memory-mcp knowledge graph
+    url: https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/HEAD/docs/graph-ui-screenshot.png
+    source: https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/HEAD/README.md
+  - kind: image
+    title: codebase-memory-mcp — Code Intelligence Knowledge Graph for AI Coding Agents
+    url: https://deusdata.github.io/codebase-memory-mcp/graph-ui-screenshot.png
+    source: https://deusdata.github.io/codebase-memory-mcp/
 - name: CodeAtlas
   category: codebase-map
   surface: open-source
@@ -7354,6 +8607,15 @@ entries:
     bytes: 79686
   source_headings:
   - Living documentation
+  official_effect_assets:
+  - kind: image
+    title: DevLens Demo
+    url: https://raw.githubusercontent.com/devlensio/devlensOSS/HEAD/assets/image.png
+    source: https://raw.githubusercontent.com/devlensio/devlensOSS/HEAD/README.md
+  - kind: video
+    title: Devlens Voice Video Compressed
+    url: https://devlens.io/devlens-voice-video-compressed.mp4
+    source: https://devlens.io/
 - name: Visual-Explainer
   category: codebase-map
   surface: skill
@@ -7405,6 +8667,19 @@ entries:
     source: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/README.md
   source_headings:
   - Usage
+  official_effect_assets:
+  - kind: image
+    title: Audit report panel
+    url: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/examples/03-report.png
+    source: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/README.md
+  - kind: image
+    title: architecture map
+    url: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/examples/01-map.png
+    source: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/README.md
+  - kind: image
+    title: Select a module — dependencies + audit
+    url: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/examples/02-module.png
+    source: https://raw.githubusercontent.com/Asixa/codemap-skill/HEAD/README.md
 - name: DeepWiki
   category: codebase-map
   surface: product
@@ -7609,6 +8884,11 @@ entries:
     title: Powered by This documentation is built and hosted on Mintlify, a developer documentation platform
     url: https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=cognitionai
     source: https://docs.devin.ai/work-with-devin/deepwiki
+  official_effect_assets:
+  - kind: image
+    title: Steerable Wiki UI
+    url: https://mintcdn.com/cognitionai/6h-DQE4o5ThJa2LC/images/work-with-devin/steering-deepwiki.png?fit=max&auto=format&n=6h-DQE4o5ThJa2LC&q=85&s=18f5f3e426d835a20cd1358d0733d63e
+    source: https://docs.devin.ai/work-with-devin/deepwiki
 - name: CodeSee
   category: codebase-map
   surface: product
@@ -7653,6 +8933,55 @@ entries:
   - kind: example
     title: Read case studies
     url: https://www.codesee.io/customer-success
+    source: https://www.codesee.io/
+  official_effect_assets:
+  - kind: image
+    title: Sanity check your workflow
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/64540b31e94db53a8e8089e2_Sanity%20check%20your%20work...webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: CodeSee – Bring visibility to your codebase
+    url: https://codeseeauth0logo.s3.amazonaws.com/CS_opengraph.png
+    source: https://www.codesee.io/
+  - kind: image
+    title: 620Ac400D2A3E77171F8051B Frame%2016%20(1)
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/620ac400d2a3e77171f8051b_Frame%2016%20(1).png
+    source: https://www.codesee.io/
+  - kind: image
+    title: 65493F775C0E9310398E7B80 Visualize%20Key%20Code%20Areas
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/65493f775c0e9310398e7b80_Visualize%20Key%20Code%20Areas.webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Understand variations in your architecture
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/6453f46997c632dfd8bb4bd8_Understand%20variations%20in%20your%20architecture.webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Flows image
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/6452c1555f674b893092c079_Flows.webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Flows image
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/6452c370b9ceb6381226fcd0_flows-2.webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Map your code
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/64540a6dfc650f2707c55371_Map%20your%20code.webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Created code knowledge
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/64540a7aa367f083bc037996_Created%20code%20knowledge%20connected...webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Collaborate in real-time with CodeSee
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/64540a818144429d9ce22bcc_Collaborate%20in%20real%20time...webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Service map image
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/6452bd60d820952dadb1dc50_Service%20Map%20Hero.webp
+    source: https://www.codesee.io/
+  - kind: image
+    title: Cross repo visibility
+    url: https://cdn.prod.website-files.com/61d5fe8761f6e57c29b38c10/6453f470dbd7fbdabc881f65_Cross%20repo%20visibility.webp
     source: https://www.codesee.io/
 - name: Mermaid
   category: rendering-primitive
@@ -7757,6 +9086,15 @@ entries:
   - User Journey diagram [ docs - live editor ]
   - C4 diagram [ docs ]
   - Security and safe diagrams
+  official_effect_assets:
+  - kind: image
+    title: Header
+    url: https://raw.githubusercontent.com/mermaid-js/mermaid/HEAD/img/header.png
+    source: https://raw.githubusercontent.com/mermaid-js/mermaid/HEAD/README.md
+  - kind: image
+    title: Banner for "The Official Guide to Mermaid.js" book
+    url: https://raw.githubusercontent.com/mermaid-js/mermaid/master/docs/intro/img/book-banner-post-release.jpg
+    source: https://raw.githubusercontent.com/mermaid-js/mermaid/HEAD/README.md
 - name: mermaid-js-ai-agent
   category: diagram-generation
   surface: open-source
@@ -7776,6 +9114,19 @@ entries:
     bytes: 2386
   source_headings:
   - Mermaid Diagram AI Agent
+  official_effect_assets:
+  - kind: image
+    title: Command Diagram
+    url: https://raw.githubusercontent.com/disler/mermaid-js-ai-agent/HEAD/imgs/mermaid_ai_agent.png
+    source: https://raw.githubusercontent.com/disler/mermaid-js-ai-agent/HEAD/README.md
+  - kind: image
+    title: Setup
+    url: https://raw.githubusercontent.com/disler/mermaid-js-ai-agent/HEAD/imgs/setup.png
+    source: https://raw.githubusercontent.com/disler/mermaid-js-ai-agent/HEAD/README.md
+  - kind: video
+    title: mer-bulk command with AIDER
+    url: https://youtu.be/ag-KxYS8Vuw
+    source: https://raw.githubusercontent.com/disler/mermaid-js-ai-agent/HEAD/README.md
 - name: mermaid-skill
   category: diagram-generation
   surface: skill
@@ -7859,6 +9210,47 @@ entries:
   - 🖼️ Examples
   - More diagram types
   - 🧩 Supported Diagram Types
+  official_effect_assets:
+  - kind: image
+    title: Microservices architecture — generated from a single natural-language prompt
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: OAuth login sequence diagram
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example-sequence.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: Blog domain class diagram
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example-class.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: Order lifecycle state machine
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example-state.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: E-commerce ER diagram
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example-er.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: Product launch Gantt chart
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example-gantt.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: Git branching strategy graph
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/example-gitgraph.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: Validation-first workflow
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/assets/workflow.png
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
+  - kind: image
+    title: mermaid-skill — From Code to Image, Automatically
+    url: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/main/assets/example.png
+    source: https://agents365-ai.github.io/mermaid-skill/
+  - kind: gif
+    title: Give a Reward
+    url: https://raw.githubusercontent.com/Agents365-ai/images_payment/main/awarding/award.gif
+    source: https://raw.githubusercontent.com/Agents365-ai/mermaid-skill/HEAD/README.md
 - name: Pretty-mermaid-skills
   category: diagram-generation
   surface: skill
@@ -7932,6 +9324,11 @@ entries:
   - Render Single Diagram
   - 📂 Examples
   - 📚 Documentation
+  official_effect_assets:
+  - kind: image
+    title: fLEWT5x.png
+    url: https://iili.io/fLEWT5x.png
+    source: https://raw.githubusercontent.com/imxv/Pretty-mermaid-skills/HEAD/README.md
 - name: agent-toolkit
   category: diagram-generation
   surface: skill
@@ -7992,6 +9389,11 @@ entries:
   - Class Diagrams
   - ER Diagrams
   - '`fromShikiTheme(theme): DiagramColors`'
+  official_effect_assets:
+  - kind: image
+    title: beautiful-mermaid sequence diagram example
+    url: https://raw.githubusercontent.com/lukilabs/beautiful-mermaid/HEAD/hero.png
+    source: https://raw.githubusercontent.com/lukilabs/beautiful-mermaid/HEAD/README.md
 - name: LLMermaid
   category: diagram-generation
   surface: research
@@ -8043,6 +9445,27 @@ entries:
     description: Just type, copy-paste or generate your text and Napkin will instantly transform it into insightful visuals.
       Make your communication more effective with Napkin.
     bytes: 73823
+  official_effect_assets:
+  - kind: image
+    title: Napkin AI - The visual AI for business storytelling
+    url: https://www.napkin.ai/assets/og-image-v5.png?v=2
+    source: https://www.napkin.ai/
+  - kind: image
+    title: Presentations
+    url: https://www.napkin.ai/assets/v5/use-cases/presentations.png?v=3
+    source: https://www.napkin.ai/
+  - kind: image
+    title: Blog use case
+    url: https://www.napkin.ai/assets/v5/use-cases/blog.png?v=2
+    source: https://www.napkin.ai/
+  - kind: image
+    title: Social Media use case
+    url: https://www.napkin.ai/assets/v5/use-cases/social-media.png?v=2
+    source: https://www.napkin.ai/
+  - kind: image
+    title: Document user case
+    url: https://www.napkin.ai/assets/v5/use-cases/docs.png?v=2
+    source: https://www.napkin.ai/
 - name: Eraser AI
   category: diagram-generation
   surface: product
@@ -8190,6 +9613,55 @@ entries:
     title: Docs →
     url: https://docs.eraser.io/
     source: https://www.eraser.io/ai
+  official_effect_assets:
+  - kind: image
+    title: Eraser AI
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/67030be268332b323bf0ffed_eraser-og-image-ai.png
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 67C86B0A520265749091350A Frame
+    url: https://cdn.prod.website-files.com/62db30bc372ce21ab184bf7b/67c86b0a520265749091350a_Frame.png
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 67C86B19519F4454D45Ed6Ff Frame 1
+    url: https://cdn.prod.website-files.com/62db30bc372ce21ab184bf7b/67c86b19519f4454d45ed6ff_Frame-1.png
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 67C86B28D4396901Fd7Dd231 Frame 2
+    url: https://cdn.prod.website-files.com/62db30bc372ce21ab184bf7b/67c86b28d4396901fd7dd231_Frame-2.png
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 67C86B36D8466A39399D6Aa2 Frame 3
+    url: https://cdn.prod.website-files.com/62db30bc372ce21ab184bf7b/67c86b36d8466a39399d6aa2_Frame-3.png
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 67C86B43Db385A471Cee96E5 Frame 4
+    url: https://cdn.prod.website-files.com/62db30bc372ce21ab184bf7b/67c86b43db385a471cee96e5_Frame-4.png
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 6634A9C3Df8893276Ce1504D Img
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/6634a9c3df8893276ce1504d_img.avif
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 66Fed6Af1250E01F5F4F758C Noise%20Purple 11Zon
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/66fed6af1250e01f5f4f758c_noise%20purple_11zon.avif
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 662B758F2C93A0F519Daaccb Ai%20Prompt%20Sidebar
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/662b758f2c93a0f519daaccb_AI%20Prompt%20Sidebar.avif
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 662B7639Bbed9A6Dcb6D08A3 Code%20Editor
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/662b7639bbed9a6dcb6d08a3_Code%20editor.avif
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 662B78F20Cc2B06Cc0Aab209 Cloud
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/662b78f20cc2b06cc0aab209_Cloud.avif
+    source: https://www.eraser.io/ai
+  - kind: image
+    title: 662B6Ce71860Aadcad30Abbb Noise%20%26%20Texture%20(1)
+    url: https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/662b6ce71860aadcad30abbb_Noise%20%26%20Texture%20(1).avif
+    source: https://www.eraser.io/ai
 - name: Mermaid Chart AI
   category: diagram-generation
   surface: product
@@ -8208,6 +9680,11 @@ entries:
     description: 'Mermaid Chart makes diagramming simple: create and edit flowcharts, sequence diagrams, and more online.
       Collaborate in real time and save hours.'
     bytes: 3079
+  official_effect_assets:
+  - kind: image
+    title: Mermaid Chart - Create complex, visual diagrams with text.
+    url: https://mermaid.ai/img/og-image.png
+    source: https://mermaid.ai/mermaid-ai
 - name: Whimsical AI
   category: diagram-generation
   surface: product
@@ -8244,6 +9721,55 @@ entries:
   - kind: template
     title: Templates
     url: https://whimsical.com/templates
+    source: https://whimsical.com/ai
+  official_effect_assets:
+  - kind: video
+    title: Ai Flowcharts Screen 1
+    url: https://whimsical.com/_next_public/tool-heroes/ai-flowcharts-screen-1.mp4
+    source: https://whimsical.com/ai
+  - kind: video
+    title: Ai Mind Maps Screen 1
+    url: https://whimsical.com/_next_public/tool-heroes/ai-mind-maps-screen-1.mp4
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Whimsical AI
+    url: https://whimsical.com/_next_public/cards/default.png
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Ui.C35Agvsc
+    url: https://whimsical.com/_astro/ui.C35aGvsc.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Boards Mobile.Dsjbz9Mf
+    url: https://whimsical.com/_astro/boards-mobile.DsJbZ9mF.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Boards Desktop.Deftifx
+    url: https://whimsical.com/_astro/boards-desktop.DEFtiFx_.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Diagrams Mobile.Dpwtojeu
+    url: https://whimsical.com/_astro/diagrams-mobile.DPwtOjEU.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Diagrams Desktop.Cgopmz1Z
+    url: https://whimsical.com/_astro/diagrams-desktop.CGOPMz1z.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Flowcharts Mobile.Dp5Npbwt
+    url: https://whimsical.com/_astro/flowcharts-mobile.Dp5NPbWT.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Flowcharts Desktop.Kwa1Phpc
+    url: https://whimsical.com/_astro/flowcharts-desktop.kWa1phPC.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Mind Maps Mobile.Cnjgqkey
+    url: https://whimsical.com/_astro/mind-maps-mobile.CnjGQkey.webp
+    source: https://whimsical.com/ai
+  - kind: image
+    title: Mind Maps Desktop.Cq21Xtyf
+    url: https://whimsical.com/_astro/mind-maps-desktop.Cq21xtYf.webp
     source: https://whimsical.com/ai
 - name: Lucid AI
   category: diagram-generation
@@ -8321,6 +9847,55 @@ entries:
   - kind: example
     title: Case studies
     url: https://lucid.co/customers
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  official_effect_assets:
+  - kind: image
+    title: 3402485B 8B07 4B67 B03D A1C33B717Cda
+    url: https://corporate-assets.lucid.co/chart/3402485b-8b07-4b67-b03d-a1c33b717cda.png?v=1769725872109
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: F390Cad9 A20B 4383 87D5 Bdab5D5Bb5C4
+    url: https://corporate-assets.lucid.co/chart/f390cad9-a20b-4383-87d5-bdab5d5bb5c4.png?v=1769725905431
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: F907D021 452E 4Bf8 8Ba4 760Bcc282A38
+    url: https://corporate-assets.lucid.co/chart/f907d021-452e-4bf8-8ba4-760bcc282a38.png?v=1769725929133
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: C479Bfd7 8060 4921 Bdab C557B4604B6D
+    url: https://corporate-assets.lucid.co/chart/c479bfd7-8060-4921-bdab-c557b4604b6d.png?v=1769725981808
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 2C8C7A08 6C8F 4B00 9A8E 6B1Ce6B57B9D
+    url: https://corporate-assets.lucid.co/chart/2c8c7a08-6c8f-4b00-9a8e-6b1ce6b57b9d.png?v=1769726083781
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 47E3Ee77 A57B 44F7 A6D1 78Cb2Ec53B40
+    url: https://corporate-assets.lucid.co/chart/47e3ee77-a57b-44f7-a6d1-78cb2ec53b40.png?v=1769726137387
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 122A1D8E Ecde 4418 83B1 Cbbb8D88Bb76
+    url: https://corporate-assets.lucid.co/chart/122a1d8e-ecde-4418-83b1-cbbb8d88bb76.png?v=1769726262539
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 61Ba0440 8405 443A Af3E Aeaa87Cdb90C
+    url: https://corporate-assets.lucid.co/chart/61ba0440-8405-443a-af3e-aeaa87cdb90c.png?v=1769726309895
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 3A9F0842 F1E4 47A5 978F 5112D9159E3D
+    url: https://corporate-assets.lucid.co/chart/3a9f0842-f1e4-47a5-978f-5112d9159e3d.png?v=1769726329046
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: D0Dd00B4 5A71 4696 Be90 Bb7Cfcf94Fb0
+    url: https://corporate-assets.lucid.co/chart/d0dd00b4-5a71-4696-be90-bb7cfcf94fb0.png?v=1769726417342
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 5D72958B 5Aae 4Ee7 B827 19B4Ac3976C9
+    url: https://corporate-assets.lucid.co/chart/5d72958b-5aae-4ee7-b827-19b4ac3976c9.png?v=1769726449341
+    source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
+  - kind: image
+    title: 13B34Ece 02Ba 4315 9113 Ce7256580C60
+    url: https://corporate-assets.lucid.co/chart/13b34ece-02ba-4315-9113-ce7256580c60.png?v=1769726678458
     source: https://www.lucidchart.com/pages/use-cases/diagram-with-AI
 - name: Miro AI diagrams
   category: diagram-generation
@@ -8639,6 +10214,11 @@ entries:
     source: https://arxiv.org/abs/2408.16119
   source_headings:
   - Get Started
+  official_effect_assets:
+  - kind: video
+    title: Video
+    url: https://youtu.be/3ndlwt0Wi3c
+    source: https://raw.githubusercontent.com/microsoft/data-formulator/HEAD/README.md
 - name: LIDA
   category: data-dashboard
   surface: open-source
@@ -8739,6 +10319,28 @@ entries:
     title: vLLM documentation
     url: https://docs.vllm.ai/en/latest/index.html
     source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: matplotagent framework
+    url: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/assets/workflow.png
+    source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
+  - kind: image
+    title: some examples of MatPlotBench
+    url: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/assets/example.png
+    source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
+  - kind: image
+    title: Examples to illustrate the effect of visual feedback. To investigate the effect of the visual feedback mechanism
+      on different models, we display the outputs of two representative L
+    url: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/assets/ablation.png
+    source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
+  - kind: image
+    title: MatPlotAgent
+    url: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/assets/title.png
+    source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
+  - kind: image
+    title: Case study of different models
+    url: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/assets/case.png
+    source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
 - name: OpenVizAI
   category: data-dashboard
   surface: open-source
@@ -8810,6 +10412,19 @@ entries:
   - Visualization layer for analytics platforms
   - Basic Usage
   - Playground Demo
+  official_effect_assets:
+  - kind: gif
+    title: Single chart generation demo
+    url: https://raw.githubusercontent.com/OpenVizAI/OpenVizAI/HEAD/assets/chart.gif
+    source: https://raw.githubusercontent.com/OpenVizAI/OpenVizAI/HEAD/README.md
+  - kind: gif
+    title: Dashboard generation demo
+    url: https://raw.githubusercontent.com/OpenVizAI/OpenVizAI/HEAD/assets/dashboard.gif
+    source: https://raw.githubusercontent.com/OpenVizAI/OpenVizAI/HEAD/README.md
+  - kind: image
+    title: Architecture
+    url: https://raw.githubusercontent.com/OpenVizAI/OpenVizAI/HEAD/assets/architecture.png
+    source: https://raw.githubusercontent.com/OpenVizAI/OpenVizAI/HEAD/README.md
 - name: generative-dashboard-builder
   category: data-dashboard
   surface: open-source
@@ -8887,6 +10502,55 @@ entries:
   - 📊 AI-Powered Dashboards
   - 5. Dashboard Widget Flow
   - Run the finance demo setup script (creates connection + agent + 16-widget dashboard)
+  official_effect_assets:
+  - kind: image
+    title: Landing Page
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/1.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Projects
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/2_projects.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Add Data Source
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/3a_data_.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Connected Sources
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/3b_data.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Table Preview
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/3c_data_.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Knowledge Bases
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/4_kb.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: KB Chunks
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/4b_kb.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: AI Agents
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/5b_ai_agents.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Create Agent
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/5a_ai_agents.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Chat Table
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/6a_chat_table.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: Chat Chart
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/6b_chat_chart.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
+  - kind: image
+    title: SQL Query
+    url: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/docs/screenshots/6c_chat_sql_query.png
+    source: https://raw.githubusercontent.com/narender-rk10/OpenBI/HEAD/README.md
 - name: Gamma
   category: commercial-site
   surface: product
@@ -9064,6 +10728,19 @@ entries:
     title: Google Docs to Presentation Converter
     url: https://slidespeak.co/free-tools/google-docs-to-presentation
     source: https://slidespeak.co/
+  official_effect_assets:
+  - kind: video
+    title: Demo Ai Assistant
+    url: https://website-assets.slidespeak.co/demo-ai-assistant.mp4
+    source: https://slidespeak.co/
+  - kind: image
+    title: World map
+    url: https://slidespeak.co/assets/world-map.webp
+    source: https://slidespeak.co/
+  - kind: image
+    title: Video Placeholder
+    url: https://slidespeak.co/video-placeholder.webp
+    source: https://slidespeak.co/
 - name: Canva AI Presentations
   category: commercial-site
   surface: product
@@ -9133,6 +10810,55 @@ entries:
     title: Presentations AI API
     url: https://www.presentations.ai/solutions/api
     source: https://www.presentations.ai/
+  official_effect_assets:
+  - kind: image
+    title: Presentations.AI - The AI Presentation Platform
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a071da4fffe58a68ba06ace_image.png
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Presentations.AI - The AI Presentation Platform
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/69e9fda72c0d7567b0df24ae_image.png
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Presentations AI
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a0479ef09b2585c7b8e1111_frame-desk.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Divider Lines
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/69d3667ef261ccde74262372_5f1b86426f1fa5a7b2390f87fce9ad5a_divider-w.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Data gets old fast
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a1970a54163b9c9a7e9a01e_challenge_01_.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: One size fits no one
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a1970a5811bf5688d7092c9_challenge_03_.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Founders
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09c2d85a19c441f18eb_Founders.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Sales
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09cff8637c48be87ae4_Sales.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Product Teams
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09b23bf5f5a7a9681de_Product%20Teams.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Product Managers
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b0efd2f4269ce74b2f0b_Product%20Managers.png
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Marketers
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09c3493030a834dc3c4_Marketers.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Freelancers
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09b7f80e84bb42991b7_Freelancers.webp
+    source: https://www.presentations.ai/
 - name: Beautiful.ai
   category: commercial-site
   surface: product
@@ -9200,6 +10926,55 @@ entries:
   - kind: demo
     title: Schedule a demo
     url: https://www.beautiful.ai/demorequest
+    source: https://www.beautiful.ai/presentation-maker
+  official_effect_assets:
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1193735146/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=41d1a7f282f4fe877bbef19557a37ae59c2122dee26aa57183065b86923b1ee6
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1193737308/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=c5f58ad453a771748310e001423aed266ec110ed541d840a849d0632cf600e3d
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1193737306/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=924fd306def757e5ffa32be0962f050958275ea583421b2eec4c2783920bcf37
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1193737307/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=240ead0deb4464a7001e57f418ccdd35d7fb376475401c8f1dac6754d84baf81
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1146498207/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=10aab375139e0ba2730a7e2afcabbc8e68c990d8f5199e56dee8c00050dc9964
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1146498223/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=1f76fd3b1d611678374560b097f9a1385b05076ced220b2dd768148f7d3d9de7
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1146498190/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=543d850ad21c7e72b397d57688fca4108437cc6ae78ae859cd36941a6782d270
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1146498241/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=b11d327afad60284587c0d1b83a0863ae23b8ca93bfc2c1d7d0cb273ea5b6c96
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1146498249/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=64ffdca327d890fef63c7d25d00d0335dd9fe0137b6b81bc954f4be78fca3c14
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: video
+    title: File.Mp4%20%28720P%29
+    url: https://player.vimeo.com/progressive_redirect/playback/1193739010/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=5f3ea2944dd403abd9f3a5df2ef45b0193c8905599ddad174d0bbf2d311ba64b
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: image
+    title: AI Presentation Maker | Create Slides & Decks in Minutes
+    url: https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/679345319c7f2f3d2301228b_Open%20Graph_final.jpg
+    source: https://www.beautiful.ai/presentation-maker
+  - kind: image
+    title: 693D9C1D2368Cf400C4Bb076 Ddc87B0270Bdb32E14B8E7F945497276 H3%20Gradient
+    url: https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/693d9c1d2368cf400c4bb076_ddc87b0270bdb32e14b8e7f945497276_H3%20Gradient.avif
     source: https://www.beautiful.ai/presentation-maker
 - name: Decktopus
   category: commercial-site
@@ -9277,6 +11052,55 @@ entries:
     title: Community Decks
     url: https://www.decktopus.com/community-templates
     source: https://www.decktopus.com/
+  official_effect_assets:
+  - kind: image
+    title: Decktopus AI | Make presentations with AI | AI Presentation Assistant
+    url: https://assets.decktopus.com/webflow/img/optimized_home_meta.jpg
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B9Dc87Ee49Af2005F9 Nyu Short Color%201 Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b9dc87ee49af2005f9_Nyu_short_color%201_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B9Dadf2F780924Cc74 Samsung Wordmark%201 Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b9dadf2f780924cc74_Samsung_wordmark%201_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B9824D5A9A5D7A3D47 Nike Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b9824d5a9a5d7a3d47_nike_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B9Ad89C5A937622193 Spotify Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b9ad89c5a937622193_spotify_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B908A1D30913De0228 Netflix Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b908a1d30913de0228_netflix_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B9945Ab55Daf73E7E1 Loreal Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b9945ab55daf73e7e1_loreal_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69Fc99B908A1D30913De0238 Nvidia Converted
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69fc99b908a1d30913de0238_nvidia_converted.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 6915830Eed9F964Ac86E6Cd0 How To
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/6915830eed9f964ac86e6cd0_how-to.png
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 693963533090B98E7F9C3F6A Lp Visuals Testimonials
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/693963533090b98e7f9c3f6a_lp-visuals-testimonials.avif
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 69A592733434A4182905Ff71 Frame%20313996
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/69a592733434a4182905ff71_Frame%20313996.png
+    source: https://www.decktopus.com/
+  - kind: image
+    title: 67600Ec38Edd871379Ae59E0 Vodafone Min
+    url: https://cdn.prod.website-files.com/622217130a9cad1a33ea9b0a/67600ec38edd871379ae59e0_vodafone-min.avif
+    source: https://www.decktopus.com/
 - name: PPT.AI
   category: commercial-site
   surface: product
@@ -9330,6 +11154,55 @@ entries:
   - kind: video
     title: Extract Videos from PPT
     url: https://ppt.ai/extract-video-from-ppt
+    source: https://ppt.ai/
+  official_effect_assets:
+  - kind: image
+    title: 1940702840225947648 En
+    url: https://file.ppt.ai/template_covers/1940702840225947648_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702801747402752 En
+    url: https://file.ppt.ai/template_covers/1940702801747402752_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702746550362112 En
+    url: https://file.ppt.ai/template_covers/1940702746550362112_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702687012216832 En
+    url: https://file.ppt.ai/template_covers/1940702687012216832_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702649670328320 En
+    url: https://file.ppt.ai/template_covers/1940702649670328320_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702601444220928 En
+    url: https://file.ppt.ai/template_covers/1940702601444220928_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702535136468992 En
+    url: https://file.ppt.ai/template_covers/1940702535136468992_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702493268926464 En
+    url: https://file.ppt.ai/template_covers/1940702493268926464_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702451384606720 En
+    url: https://file.ppt.ai/template_covers/1940702451384606720_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702404198686720 En
+    url: https://file.ppt.ai/template_covers/1940702404198686720_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702366810660864 En
+    url: https://file.ppt.ai/template_covers/1940702366810660864_en.png
+    source: https://ppt.ai/
+  - kind: image
+    title: 1940702329850454016 En
+    url: https://file.ppt.ai/template_covers/1940702329850454016_en.png
     source: https://ppt.ai/
 - name: Slidesgo AI Presentation Maker
   category: commercial-site
@@ -9431,6 +11304,55 @@ entries:
     title: https://www.tiktok.com/@slidesgotemplates
     url: https://www.tiktok.com/@slidesgotemplates
     source: https://slidesgo.com/ai/presentation-maker
+  official_effect_assets:
+  - kind: video
+    title: Ai Presentation Maker Intro
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/ai-presentation-maker-intro.webm
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: video
+    title: Ai Presentation Maker Intro
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/ai-presentation-maker-intro.mp4
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: video
+    title: Ai Text To Pptx
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/ai-text-to-pptx.webm
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: video
+    title: Ai Text To Pptx
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/ai-text-to-pptx.mp4
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: video
+    title: Best Ai Presentation Maker
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/best-ai-presentation-maker.webm
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: video
+    title: Best Ai Presentation Maker
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/best-ai-presentation-maker.mp4
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: image
+    title: Free AI Presentation Maker | Slidesgo
+    url: https://slidesgo.com/og-image.jpg
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: image
+    title: Gradient
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/gradient.webp
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: image
+    title: AI PDF to PPT Converter
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/presentation-maker.webp
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: image
+    title: AI PDF to PPT Converter
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/pdf-to-ppt.webp
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: image
+    title: AI Lesson Plan Generator
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/lesson-plan.webp
+    source: https://slidesgo.com/ai/presentation-maker
+  - kind: image
+    title: AI Quiz Maker
+    url: https://slidesgo.com/images/landing/ai-presentation-maker/quiz-maker.webp
+    source: https://slidesgo.com/ai/presentation-maker
 - name: Microsoft Copilot in PowerPoint
   category: commercial-site
   surface: product
@@ -9512,6 +11434,55 @@ entries:
   - kind: demo
     title: Try it
     url: https://adobesparkpost-web.app.link/e/ai-presentation?prompt=%7B%7Bprompt-text%7D%7D
+    source: https://www.adobe.com/express/create/ai/presentation
+  official_effect_assets:
+  - kind: image
+    title: Free AI Presentation Generator | Adobe Express x Adobe Acrobat
+    url: https://www.adobe.com/express/media_1e794b77d86a3cc74eea0c8a53c0efa4ce7102411.jpeg?width=1200&height=630&format=pjpg&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 1144E2A0E32B5A3B0Bd4F63A8713354568879Cbe2
+    url: https://www.adobe.com/express/create/ai/media_1144e2a0e32b5a3b0bd4f63a8713354568879cbe2.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 1Da5728F1Ef68C3431Cdb51F13275463932Ea6A7B
+    url: https://www.adobe.com/express/create/ai/media_1da5728f1ef68c3431cdb51f13275463932ea6a7b.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 1D0C8C65855204408A195591C54771549E91A4908
+    url: https://www.adobe.com/express/create/ai/media_1d0c8c65855204408a195591c54771549e91a4908.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 12A49E17Daeaf637E709A8Ab5Fa037D022D2Fc7Ca
+    url: https://www.adobe.com/express/create/ai/media_12a49e17daeaf637e709a8ab5fa037d022d2fc7ca.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 1Beeb4D50Ff17901Ae253027E0F86B3Add70D528D
+    url: https://www.adobe.com/express/create/ai/media_1beeb4d50ff17901ae253027e0f86b3add70d528d.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 13Ff4Ae1D226134848Ebad613672Fc954421F0543
+    url: https://www.adobe.com/express/create/ai/media_13ff4ae1d226134848ebad613672fc954421f0543.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 11C8967F4986Eaca3281Dd871C64689079488F216
+    url: https://www.adobe.com/express/create/ai/media_11c8967f4986eaca3281dd871c64689079488f216.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Media 143De2A2520B3Bc1C9F51E9E5888247F2099Fa83E
+    url: https://www.adobe.com/express/create/ai/media_143de2a2520b3bc1c9f51e9e5888247f2099fa83e.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Picture, Picture, Picture, Picture
+    url: https://www.adobe.com/express/create/ai/media_134aa62953557510b2b7cb54706d0afa20c1d8fb3.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Picture, Picture
+    url: https://www.adobe.com/express/create/ai/media_1de75814930ebf7d6b279d804eab744d6533d6f75.png?width=750&format=png&optimize=medium
+    source: https://www.adobe.com/express/create/ai/presentation
+  - kind: image
+    title: Picture, Picture
+    url: https://www.adobe.com/express/create/ai/media_1f2dce12f8c7fb747f0a19b3e255057c2739ab008.png?width=750&format=png&optimize=medium
     source: https://www.adobe.com/express/create/ai/presentation
 - name: awesome-agent-skills
   category: meta-index
@@ -9827,6 +11798,55 @@ entries:
     source: https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/HEAD/README.md
   source_headings:
   - video-search-and-summarization
+  official_effect_assets:
+  - kind: image
+    title: Microsoft
+    url: https://github.com/microsoft.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: OpenAI
+    url: https://github.com/openai.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Sentry
+    url: https://github.com/getsentry.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Garry Tan
+    url: https://github.com/garrytan.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Flutter
+    url: https://github.com/flutter.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Trail of Bits
+    url: https://github.com/trailofbits.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Anthropic
+    url: https://github.com/anthropics.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Google Workspace
+    url: https://github.com/googleworkspace.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: fal.ai
+    url: https://github.com/fal-ai.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Auth0
+    url: https://github.com/auth0.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Apollo GraphQL
+    url: https://github.com/apollographql.png?size=36
+    source: https://officialskills.sh/
+  - kind: image
+    title: Hugging Face
+    url: https://github.com/huggingface.png?size=36
+    source: https://officialskills.sh/
 - name: awesome-llm-skills
   category: meta-index
   surface: index
@@ -10244,6 +12264,11 @@ entries:
   source_headings:
   - Tutorials
   - 📊 Data Visualization
+  official_effect_assets:
+  - kind: video
+    title: Setup Claude Desktop App to Use a SQLite Database
+    url: https://youtu.be/wxCCzo9dGj0
+    source: https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/HEAD/README.md
 - name: awesome-claude-code
   category: meta-index
   surface: index
@@ -10611,6 +12636,55 @@ entries:
   - '**Agents Connect: The All-Demo Conference**'
   - Benchmarks
   - Datasets
+  official_effect_assets:
+  - kind: video
+    title: demo
+    url: https://www.youtube.com/watch?v=ujxKzS0b5qg
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: demo
+    url: https://www.youtube.com/watch?v=Fn1lQjC0GO0
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: demo
+    url: https://www.youtube.com/watch?v=QGkpd-tsFPA
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: image
+    title: '1'
+    url: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/assets/1.png
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: image
+    title: '2'
+    url: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/assets/2.png
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: image
+    title: '3'
+    url: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/assets/3.png
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: image
+    title: '4'
+    url: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/assets/4.png
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: video
+    url: https://www.youtube.com/watch?v=DXhqhpHWRuM
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: video
+    url: https://www.youtube.com/watch?v=Yidy_ePo7pE
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: video
+    url: https://www.youtube.com/watch?v=BEpDRj9H3zE
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: Agents Tools & Function Calling with Amazon Bedrock
+    url: https://www.youtube.com/watch?app=desktop&v=2L_XE6g3atI
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
+  - kind: video
+    title: Creating AI Agent Data Pipelines with Amazon Bedrock Agents
+    url: https://www.youtube.com/watch?v=kJEr7eFQSJw
+    source: https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/HEAD/README.md
 - name: awesome-ai-tools
   category: meta-index
   surface: index
@@ -10924,6 +12998,55 @@ entries:
   - Paper2Slides
   - Paper2Video
   - Paper2Web & Social Media
+  official_effect_assets:
+  - kind: image
+    title: '01'
+    url: https://worldbench.github.io/assets/auto-research/posters/Gemini-Pro.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: '02'
+    url: https://worldbench.github.io/assets/auto-research/posters/Qwen-Image-2.0.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: '03'
+    url: https://worldbench.github.io/assets/auto-research/posters/Claude-Opus4.7.jpg
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: '04'
+    url: https://worldbench.github.io/assets/auto-research/posters/SenseNova-U1-8B-MoT.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: '05'
+    url: https://worldbench.github.io/assets/auto-research/posters/GPT-5.5.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: '06'
+    url: https://worldbench.github.io/assets/auto-research/posters/Seedream-4.0.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: '07'
+    url: https://worldbench.github.io/assets/auto-research/posters/Gemini-Pro-Landscape.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: 08
+    url: https://worldbench.github.io/assets/auto-research/posters/Qwen-Image-2.0-Landscape.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: 'S8.3: Paper2Poster'
+    url: https://worldbench.github.io/assets/auto-research/figures/stages/paper2poster.png
+    source: https://worldbench.github.io/awesome-ai-auto-research
+  - kind: image
+    title: Claude Opus 4.7 Landscape Poster
+    url: https://worldbench.github.io/assets/auto-research/posters/Claude-Opus4.7-Landscape.jpg
+    source: https://worldbench.github.io/awesome-ai-auto-research
+  - kind: image
+    title: Teaser Paper
+    url: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/docs/assets/teaser_paper.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
+  - kind: image
+    title: S1
+    url: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/docs/assets/s1.png
+    source: https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md
 - name: LLM-Visualization-Paper-List
   category: meta-index
   surface: index
@@ -11446,6 +13569,11 @@ entries:
   - 📈 Evaluation & Benchmarking
   - 📈 Datasets & Benchmarks
   - Courses & Tutorials
+  official_effect_assets:
+  - kind: image
+    title: Awesome AI for Science Banner
+    url: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/assets/banner.jpg
+    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
 - name: AlterLab-Academic-Skills
   category: meta-index
   surface: skill
@@ -11589,6 +13717,19 @@ entries:
   - 📊 Presentations (PPT)
   - Sample Outputs
   - 🧩 Memory price analysis — insight → analysis → presentation → end-to-end workflow
+  official_effect_assets:
+  - kind: image
+    title: sn-infographic sample outputs
+    url: https://raw.githubusercontent.com/OpenSenseNova/SenseNova-Skills/HEAD/docs/images/teasers/cases_merge.webp
+    source: https://raw.githubusercontent.com/OpenSenseNova/SenseNova-Skills/HEAD/README.md
+  - kind: image
+    title: Teaser V2
+    url: https://raw.githubusercontent.com/OpenSenseNova/SenseNova-Skills/HEAD/docs/images/teasers/teaser_v2.webp
+    source: https://raw.githubusercontent.com/OpenSenseNova/SenseNova-Skills/HEAD/README.md
+  - kind: image
+    title: Sensenova Skills Chatgroup
+    url: https://raw.githubusercontent.com/OpenSenseNova/SenseNova-Skills/HEAD/assets/sensenova-skills-chatgroup.jpg
+    source: https://raw.githubusercontent.com/OpenSenseNova/SenseNova-Skills/HEAD/README.md
 - name: TransformingScienceLLMs
   category: meta-index
   surface: index
@@ -11674,3 +13815,8 @@ entries:
   source_headings:
   - Benchmarks
   - Scientific Slides and Poster Generation
+  official_effect_assets:
+  - kind: image
+    title: image
+    url: https://raw.githubusercontent.com/NL2G/TransformingScienceLLMs/HEAD/Images/overview_figure.png
+    source: https://raw.githubusercontent.com/NL2G/TransformingScienceLLMs/HEAD/README.md

@@ -5,6 +5,11 @@ export type CatalogLink = {
   source?: string;
 };
 
+export type CatalogAsset = CatalogLink & {
+  kind: "image" | "gif" | "video" | string;
+  thumbnailUrl?: string | null;
+};
+
 export type CatalogEntry = {
   name: string;
   url: string;
@@ -24,9 +29,10 @@ export type CatalogEntry = {
   readmeGroup: string;
   docs: CatalogLink[];
   examples: CatalogLink[];
-  previewLinks: CatalogLink[];
+  effectAssets: CatalogAsset[];
   docsCount: number;
   examplesCount: number;
+  effectAssetsCount: number;
 };
 
 export type CatalogData = {
@@ -39,6 +45,7 @@ export type CatalogData = {
     saas: number;
     modelApi: number;
     examples: number;
+    effectAssets: number;
     docs: number;
   };
   facets: {
