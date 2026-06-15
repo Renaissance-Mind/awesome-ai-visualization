@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-128_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
@@ -140,6 +140,18 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Текст/идеи / Код/технический текст | Продукт/SaaS | Архитектура/flow diagram / Доска/mind map | Браузер/аккаунт / Шаблоны/assets |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Текст/идеи / Код/технический текст | Продукт/SaaS | Архитектура/flow diagram / Доска/mind map | Браузер/аккаунт / Шаблоны/assets |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | Текст/идеи / Код/технический текст | Продукт/SaaS | Архитектура/flow diagram / Доска/mind map | Браузер/аккаунт / Шаблоны/assets |
+
+### Программируемое видео и motion-объяснения
+
+Инструменты, которые превращают промпты, веб-страницы, репозитории, структурированные таймлайны или HTML от агента в озвученные или анимированные MP4/video-артефакты.
+
+| Проект | Источник информации | Форма инструмента | Результат | Зависимости |
+| --- | --- | --- | --- | --- |
+| [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | Текст/идеи / Веб/поиск / Кодовая база | Open-source приложение/фреймворк | Видео/аудио / Веб/интерактивная страница | Agent host / Локальный runtime / Model API / Рендеринг/экспорт / Системные инструменты / Шаблоны/assets |
+| [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/код / Текст/идеи | Open-source приложение/фреймворк | Видео/аудио / Веб/интерактивная страница | Локальный runtime / Рендеринг/экспорт / Системные инструменты |
+| [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/код / Текст/идеи | API/SDK/библиотека / Agent Skill | Видео/аудио / Веб/интерактивная страница | Локальный runtime / Рендеринг/экспорт / Системные инструменты / Agent host |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | Текст/идеи / Веб/поиск / Новости | Open-source приложение/фреймворк | Видео/аудио | Agent host / Локальный runtime / Model API / Внешний поиск/данные / Рендеринг/экспорт / Системные инструменты |
+| [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | Текст/идеи / Веб/поиск | Open-source приложение/фреймворк | Видео/аудио | Agent host / Локальный runtime / Model API / Рендеринг/экспорт / Системные инструменты / Хранилище/индекс |
 
 ### Презентации и многоисточниковый контент
 

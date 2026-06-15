@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-128_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
@@ -140,6 +140,18 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+
+### Programatik video ve hareketli anlatımlar
+
+Promptları, web sayfalarını, depoları, yapılandırılmış zaman çizelgelerini veya agent tarafından üretilen HTML'i anlatımlı ya da animasyonlu MP4/video çıktılarına dönüştüren araçlar.
+
+| Proje | Bilgi kaynağı | Araç türü | Çıktı | Bağımlılıklar |
+| --- | --- | --- | --- | --- |
+| [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | Metin/fikirler / Web/arama / Kod tabanı | Açık kaynak uygulama/framework | Video/ses / Web/etkileşimli sayfa | Agent host / Yerel runtime / Model API / Render/dışa aktarma / Sistem araçları / Şablonlar/assetler |
+| [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/kod / Metin/fikirler | Açık kaynak uygulama/framework | Video/ses / Web/etkileşimli sayfa | Yerel runtime / Render/dışa aktarma / Sistem araçları |
+| [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/kod / Metin/fikirler | API/SDK/kütüphane / Agent Skill | Video/ses / Web/etkileşimli sayfa | Yerel runtime / Render/dışa aktarma / Sistem araçları / Agent host |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | Metin/fikirler / Web/arama / Haberler | Açık kaynak uygulama/framework | Video/ses | Agent host / Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma / Sistem araçları |
+| [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | Metin/fikirler / Web/arama | Açık kaynak uygulama/framework | Video/ses | Agent host / Yerel runtime / Model API / Render/dışa aktarma / Sistem araçları / Depolama/indeks |
 
 ### Sunumlar ve çok kaynaklı içerik
 

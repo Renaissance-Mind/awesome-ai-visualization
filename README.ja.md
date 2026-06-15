@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-128_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -140,6 +140,18 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+
+### プログラマティック動画とモーション解説
+
+プロンプト、Web ページ、リポジトリ、構造化タイムライン、Agent が生成した HTML を、ナレーション付きまたはアニメーション付きの MP4/動画成果物に変換するツール。
+
+| プロジェクト | 情報源 | ツール形態 | 出力形式 | 依存関係 |
+| --- | --- | --- | --- | --- |
+| [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | テキスト/アイデア / Web/検索 / コードベース | オープンソースアプリ/フレームワーク | 動画/音声 / Web/インタラクティブページ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート / システムツール / テンプレート/素材 |
+| [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/コード / テキスト/アイデア | オープンソースアプリ/フレームワーク | 動画/音声 / Web/インタラクティブページ | ローカル実行環境 / レンダリング/エクスポート / システムツール |
+| [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/コード / テキスト/アイデア | API/SDK/ライブラリ / Agent Skill | 動画/音声 / Web/インタラクティブページ | ローカル実行環境 / レンダリング/エクスポート / システムツール / Agent ホスト |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | テキスト/アイデア / Web/検索 / ニュース | オープンソースアプリ/フレームワーク | 動画/音声 | Agent ホスト / ローカル実行環境 / モデル API / 外部検索/データ / レンダリング/エクスポート / システムツール |
+| [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | テキスト/アイデア / Web/検索 | オープンソースアプリ/フレームワーク | 動画/音声 | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート / システムツール / ストレージ/索引 |
 
 ### プレゼンテーションと複数ソースのコンテンツ
 

@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-128_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -138,6 +138,18 @@
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |
+
+### 程式化影片與動態講解
+
+把提示詞、網頁、程式碼庫、結構化時間軸或 Agent 生成的 HTML 轉成帶旁白或動畫的 MP4/影片產物。
+
+| 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
+| --- | --- | --- | --- | --- |
+| [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | 文字/想法 / 網頁/搜尋結果 / 程式碼庫 | 開源應用/框架 | 影片/音訊 / 網頁/互動頁面 | Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 系統工具 / 範本/素材 |
+| [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/代碼 / 文字/想法 | 開源應用/框架 | 影片/音訊 / 網頁/互動頁面 | 本機語言環境 / 渲染/匯出 / 系統工具 |
+| [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/代碼 / 文字/想法 | API/SDK/庫 / Agent Skill | 影片/音訊 / 網頁/互動頁面 | 本機語言環境 / 渲染/匯出 / 系統工具 / Agent 宿主 |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | 文字/想法 / 網頁/搜尋結果 / 新聞/資訊 | 開源應用/框架 | 影片/音訊 | Agent 宿主 / 本機語言環境 / 模型 API / 外部檢索/資料源 / 渲染/匯出 / 系統工具 |
+| [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | 文字/想法 / 網頁/搜尋結果 | 開源應用/框架 | 影片/音訊 | Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 系統工具 / 儲存/索引 |
 
 ### 簡報與多來源內容呈現
 

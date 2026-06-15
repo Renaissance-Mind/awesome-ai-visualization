@@ -1,7 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-123_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-128_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--06--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -140,6 +140,18 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
+
+### 프로그래매틱 비디오와 모션 설명
+
+프롬프트, 웹 페이지, 저장소, 구조화된 타임라인, Agent가 생성한 HTML을 내레이션 또는 애니메이션이 포함된 MP4/비디오 결과물로 바꾸는 도구.
+
+| 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
+| --- | --- | --- | --- | --- |
+| [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | 텍스트/아이디어 / 웹/검색 / 코드베이스 | 오픈소스 앱/프레임워크 | 비디오/오디오 / 웹/인터랙티브 페이지 | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 시스템 도구 / 템플릿/자산 |
+| [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/코드 / 텍스트/아이디어 | 오픈소스 앱/프레임워크 | 비디오/오디오 / 웹/인터랙티브 페이지 | 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 |
+| [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/코드 / 텍스트/아이디어 | API/SDK/라이브러리 / Agent Skill | 비디오/오디오 / 웹/인터랙티브 페이지 | 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 / Agent 호스트 |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | 텍스트/아이디어 / 웹/검색 / 뉴스 | 오픈소스 앱/프레임워크 | 비디오/오디오 | Agent 호스트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 / 시스템 도구 |
+| [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | 텍스트/아이디어 / 웹/검색 | 오픈소스 앱/프레임워크 | 비디오/오디오 | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 시스템 도구 / 저장소/인덱스 |
 
 ### 프레젠테이션과 다중 출처 콘텐츠
 
