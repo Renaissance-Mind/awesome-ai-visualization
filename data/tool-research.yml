@@ -1,4 +1,4 @@
-generated_at: '2026-06-15T23:09:06+00:00'
+generated_at: '2026-06-16T23:10:14+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 133
-  fetched_sources_ok: 184
-  fetched_sources_failed: 4
-  official_examples: 585
-  official_effect_assets: 580
-  official_docs: 444
+  entries: 137
+  fetched_sources_ok: 188
+  fetched_sources_failed: 8
+  official_examples: 588
+  official_effect_assets: 593
+  official_docs: 483
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -139,42 +139,28 @@ entries:
   catalog_note: Convert research papers and documents into polished slide decks and posters in one click.
   fetched_sources:
   - kind: github_readme
-    url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
-    final_url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
-    status: 200
+    url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/readme.md
+    final_url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/readme.md
+    status: 404
     content_type: text/plain
-    title: 🎉 Paper2Slides - Create Presentations Effortlessly
-    bytes: 3611
+    attempted_urls:
+    - url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
+      status: 404
+    - url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/Readme.md
+      status: 404
+    - url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.rst
+      status: 404
+    - url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README
+      status: 404
+    - url: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/readme.md
+      status: 404
+    error: HTTP 404
   - kind: homepage
     url: https://pchi123.github.io/
     final_url: https://pchi123.github.io/
-    status: 200
+    status: 404
     content_type: text/html
-    title: 🚀 Paper2Slides - Transform Your Papers into Presentations Instantly | pchi123
-    description: 🌟 Transform research papers into professional slides and posters in minutes with Paper2Slides, streamlining
-      your presentation process effortlessly.
-    bytes: 6903
-  official_docs:
-  - kind: docs
-    title: Documentation
-    url: https://github.com/pchi123/Paper2Slides/raw/refs/heads/main/frontend/src/Slides_Paper_2.8.zip
-    source: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
-  - kind: docs
-    title: User Manual
-    url: https://github.com/pchi123/Paper2Slides/wiki
-    source: https://pchi123.github.io/
-  official_links:
-  - kind: docs
-    title: Documentation
-    url: https://github.com/pchi123/Paper2Slides/raw/refs/heads/main/frontend/src/Slides_Paper_2.8.zip
-    source: https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md
-  - kind: docs
-    title: User Manual
-    url: https://github.com/pchi123/Paper2Slides/wiki
-    source: https://pchi123.github.io/
-  source_headings:
-  - 🎉 Paper2Slides - Create Presentations Effortlessly
-  - 🌐 How to Use Paper2Slides
+    error: HTTP 404
 - name: paper-2-web
   category: paper-visualization
   surface: skill
@@ -690,7 +676,7 @@ entries:
     status: 200
     content_type: text/plain
     title: Scientific Agent Skills
-    bytes: 47073
+    bytes: 47230
   - kind: homepage
     url: https://www.k-dense.ai/
     final_url: https://www.k-dense.ai/
@@ -699,7 +685,7 @@ entries:
     title: K-Dense Web | Research. Analyze. Synthesize.
     description: K-Dense Web is an AI agent that autonomously executes complex tasks across science, engineering, healthcare,
       finance, and beyond. From question to insight, problem to solution.
-    bytes: 383341
+    bytes: 442133
   official_examples:
   - kind: video
     title: YouTube
@@ -714,24 +700,24 @@ entries:
     url: https://k-dense.ai/tutorials
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    url: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    url: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
     title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+    title: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
+    url: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
-    url: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
+    title: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
+    url: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
+    source: https://www.k-dense.ai/
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    url: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    source: https://www.k-dense.ai/
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
+    url: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
     source: https://www.k-dense.ai/
   official_docs:
   - kind: docs
@@ -750,10 +736,6 @@ entries:
     title: docs/skills.md
     url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md
     source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: Deadliest Animal Venoms Safety Guide
-    url: https://app.k-dense.ai/share/session_20251224_181033_118bb9451f72
-    source: https://www.k-dense.ai/
   official_links:
   - kind: video
     title: YouTube
@@ -784,28 +766,24 @@ entries:
     url: https://k-dense.ai/tutorials
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    url: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    url: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
     title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+    title: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
+    url: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
-    url: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
+    title: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
+    url: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
     source: https://www.k-dense.ai/
-  - kind: docs
-    title: Deadliest Animal Venoms Safety Guide
-    url: https://app.k-dense.ai/share/session_20251224_181033_118bb9451f72
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    url: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    source: https://www.k-dense.ai/
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
+    url: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
     source: https://www.k-dense.ai/
   source_headings:
   - 💡 Quick Examples
@@ -839,7 +817,7 @@ entries:
     title: K-Dense Web | Research. Analyze. Synthesize.
     description: K-Dense Web is an AI agent that autonomously executes complex tasks across science, engineering, healthcare,
       finance, and beyond. From question to insight, problem to solution.
-    bytes: 383341
+    bytes: 442133
   official_examples:
   - kind: video
     title: YouTube
@@ -882,24 +860,24 @@ entries:
     url: https://k-dense.ai/tutorials
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    url: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    url: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
     title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+    title: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
+    url: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
-    url: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
+    title: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
+    url: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
+    source: https://www.k-dense.ai/
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    url: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    source: https://www.k-dense.ai/
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
+    url: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
     source: https://www.k-dense.ai/
   official_docs:
   - kind: docs
@@ -930,10 +908,6 @@ entries:
     title: Claude Code SKILL.md format
     url: https://docs.anthropic.com/en/docs/claude-code/skills
     source: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-writer/HEAD/README.md
-  - kind: docs
-    title: Deadliest Animal Venoms Safety Guide
-    url: https://app.k-dense.ai/share/session_20251224_181033_118bb9451f72
-    source: https://www.k-dense.ai/
   official_links:
   - kind: video
     title: YouTube
@@ -1004,28 +978,24 @@ entries:
     url: https://k-dense.ai/tutorials
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    url: https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    url: https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
     title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+    title: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
+    url: https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf
     source: https://www.k-dense.ai/
   - kind: example
-    title: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
-    url: https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf
+    title: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
+    url: https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf
     source: https://www.k-dense.ai/
-  - kind: docs
-    title: Deadliest Animal Venoms Safety Guide
-    url: https://app.k-dense.ai/share/session_20251224_181033_118bb9451f72
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    url: https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf
+    source: https://www.k-dense.ai/
+  - kind: example
+    title: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
+    url: https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf
     source: https://www.k-dense.ai/
   source_headings:
   - 'Option 2: Install from PyPI (CLI/API Usage)'
@@ -1557,7 +1527,7 @@ entries:
     source: https://raw.githubusercontent.com/zaidmukaddam/scira/HEAD/README.md
   - kind: image
     title: Scira - AI Search | Scira AI
-    url: https://scira.ai/opengraph-image.png?opengraph-image.2_1w0y54qy3t_.png?dpl=dpl_4zdPcF4bQzBRtS12Acbuw6rsx5po
+    url: https://scira.ai/opengraph-image.png?opengraph-image.2_1w0y54qy3t_.png?dpl=dpl_6AEQYfUaaPUgj8eTBTCvnkaqZMiz
     source: https://scira.ai/
   official_links:
   - kind: docs
@@ -1687,7 +1657,7 @@ entries:
     status: 200
     content_type: text/html
     title: null
-    bytes: 7792
+    bytes: 7992
 - name: Market-Intelligence-Agent
   category: data-dashboard
   surface: open-source
@@ -1714,7 +1684,7 @@ entries:
     status: 200
     content_type: text/html
     title: null
-    bytes: 7792
+    bytes: 7992
   official_docs:
   - kind: docs
     title: Google AI Studio
@@ -1756,19 +1726,15 @@ entries:
     final_url: https://www.worldmonitor.app/
     status: 200
     content_type: text/html
-    title: World Monitor - Real-Time Global Intelligence Dashboard
-    description: Real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring,
-      and geopolitical data. OSINT in one view.
-    bytes: 35861
+    title: World Monitor — Free Real-Time Global Intelligence Dashboard
+    description: By the time it's news, you already knew. Conflicts, shipping chokepoints, military flights, markets and cyber
+      on one free live world map, with AI analysis. No signup.
+    bytes: 29566
   official_examples:
   - kind: example
     title: '`.env.example`'
     url: https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/blob/HEAD/.env.example
     source: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/README.md
-  - kind: video
-    title: World Monitor vs Bloomberg, Palantir, Dataminr
-    url: https://www.worldmonitor.app/blog/posts/worldmonitor-vs-traditional-intelligence-tools/
-    source: https://www.worldmonitor.app/
   official_docs:
   - kind: docs
     title: Vercel CLI
@@ -1783,8 +1749,8 @@ entries:
     url: https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/blob/HEAD/docs/DOCUMENTATION.md
     source: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/README.md
   - kind: docs
-    title: Dashboard variants guide
-    url: https://www.worldmonitor.app/blog/posts/five-dashboards-one-platform-worldmonitor-variants/
+    title: World Monitor Blog — OSINT guides & analysis
+    url: https://www.worldmonitor.app/blog/
     source: https://www.worldmonitor.app/
   official_effect_assets:
   - kind: image
@@ -1792,7 +1758,7 @@ entries:
     url: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/new-world-monitor.png
     source: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/README.md
   - kind: image
-    title: World Monitor - Real-Time Global Intelligence Dashboard
+    title: World Monitor — Free Real-Time Global Intelligence Dashboard
     url: https://www.worldmonitor.app/favico/og-image.png
     source: https://www.worldmonitor.app/
   official_links:
@@ -1813,16 +1779,88 @@ entries:
     url: https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/blob/HEAD/docs/DOCUMENTATION.md
     source: https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/README.md
   - kind: docs
-    title: Dashboard variants guide
-    url: https://www.worldmonitor.app/blog/posts/five-dashboards-one-platform-worldmonitor-variants/
-    source: https://www.worldmonitor.app/
-  - kind: video
-    title: World Monitor vs Bloomberg, Palantir, Dataminr
-    url: https://www.worldmonitor.app/blog/posts/worldmonitor-vs-traditional-intelligence-tools/
+    title: World Monitor Blog — OSINT guides & analysis
+    url: https://www.worldmonitor.app/blog/
     source: https://www.worldmonitor.app/
   source_headings:
   - Live Demos
   - Live News & Video
+- name: OSSInsight
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/pingcap/ossinsight
+  homepage: https://ossinsight.io/
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Open-source GitHub event analytics engine with natural-language data explorer, SQL, visualizations, repo analytics,
+    rankings, and trend dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What is OSSInsight?
+    bytes: 8677
+  - kind: homepage
+    url: https://ossinsight.io/
+    final_url: https://ossinsight.io/
+    status: 200
+    content_type: text/html
+    title: OSSInsight — AI Agent Analytics & Open Source GitHub Intelligence
+    description: Track AI agent frameworks, LLM tools, MCP servers & 10B+ GitHub events. Compare repos, discover trending
+      projects, and get real-time open source intelligence. Free & open source.
+    bytes: 255655
+  official_docs:
+  - kind: docs
+    title: Workshop
+    url: https://ossinsight.io/docs
+    source: https://ossinsight.io/
+  - kind: docs
+    title: API
+    url: https://ossinsight.io/docs/api
+    source: https://ossinsight.io/
+  - kind: docs
+    title: GitHub REST API ↗
+    url: https://docs.github.com/en/rest
+    source: https://ossinsight.io/
+  official_effect_assets:
+  - kind: gif
+    title: Homepage
+    url: https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage.gif
+    source: https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md
+  - kind: image
+    title: GitHub Collections Analytics
+    url: https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage-collection.png
+    source: https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md
+  - kind: image
+    title: Developer Analytics
+    url: https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage-developer.png
+    source: https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md
+  - kind: image
+    title: Repository Analytics
+    url: https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage-repository.png
+    source: https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md
+  - kind: image
+    title: OSSInsight — AI Agent Analytics & Open Source GitHub Intelligence
+    url: https://ossinsight.io/seo-widgets-homepage.jpeg
+    source: https://ossinsight.io/
+  official_links:
+  - kind: docs
+    title: Workshop
+    url: https://ossinsight.io/docs
+    source: https://ossinsight.io/
+  - kind: docs
+    title: API
+    url: https://ossinsight.io/docs/api
+    source: https://ossinsight.io/
+  - kind: docs
+    title: GitHub REST API ↗
+    url: https://docs.github.com/en/rest
+    source: https://ossinsight.io/
 - name: notex
   category: doc-to-knowledge
   surface: open-source
@@ -2642,7 +2680,7 @@ entries:
     title: Google NotebookLM | AI Research Tool & Thinking Partner
     description: Meet NotebookLM, the AI research tool and thinking partner that can analyze your sources, turn complexity
       into clarity and transform your content.
-    bytes: 99371
+    bytes: 99373
   official_effect_assets:
   - kind: image
     title: Google NotebookLM | AI Research Tool & Thinking Partner
@@ -3172,7 +3210,7 @@ entries:
     title: 'ResearchRabbit: AI Tool for Smarter, Faster Literature Reviews'
     description: Save hours on your literature review. Use ResearchRabbit to find related papers, build citation maps, and
       track research trends — powered by AI.
-    bytes: 50823
+    bytes: 50515
   official_examples:
   - kind: tutorial
     title: Tutorials
@@ -3521,7 +3559,7 @@ entries:
     status: 200
     content_type: text/plain
     title: Docling
-    bytes: 8002
+    bytes: 8018
   - kind: homepage
     url: https://docling-project.github.io/docling/
     final_url: https://docling-project.github.io/docling/
@@ -3922,7 +3960,7 @@ entries:
     title: Datalab
     description: High-precision document intelligence. Transform unstructured content into precise, production-ready data
       with Datalab.
-    bytes: 7643
+    bytes: 7642
   official_examples:
   - kind: demo
     title: public playground
@@ -4067,7 +4105,7 @@ entries:
     title: Unstructured Data Platform for GenAI | Unstructured
     description: Transform complex, unstructured data into clean, AI-ready inputs. Connect to any source, process 64+ file
       types, and power your GenAI projects. Start now.
-    bytes: 1669890
+    bytes: 1669882
   official_examples:
   - kind: demo
     title: Request a demo
@@ -4494,7 +4532,7 @@ entries:
     title: Free AI Infographic Generator | Piktochart
     description: Create editable infographics from prompts, notes, or uploaded content with Piktochart AI. Turn ideas into
       visual drafts with 60 monthly AI credits.
-    bytes: 125229
+    bytes: 125608
   official_examples:
   - kind: video
     title: Video Editor
@@ -6463,7 +6501,7 @@ entries:
     content_type: text/html
     title: ALLWEONE Presentation
     description: Create professional slides with customizable themes and AI-generated content in minutes.
-    bytes: 106015
+    bytes: 107538
   official_examples:
   - kind: demo
     title: Live Demo
@@ -7609,8 +7647,8 @@ entries:
     final_url: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
     status: 200
     content_type: text/plain
-    title: Ultimate PPT Master - AI Presentation Production Workbench
-    bytes: 9680
+    title: Ultimate PPT Master - v5 Delivery System for AI Presentations
+    bytes: 12037
   - kind: homepage
     url: https://kdnsna.github.io/ultimate-ppt-master-skill/
     final_url: https://kdnsna.github.io/ultimate-ppt-master-skill/
@@ -7627,12 +7665,12 @@ entries:
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   official_docs:
   - kind: docs
-    title: Rendered Review Loop v4.3
-    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/rendered-review-loop-v4.3.md
+    title: Release Notes - v5.0.0
+    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.0.0.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   - kind: docs
-    title: v4.3.0
-    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md
+    title: v4.3 Rendered Review Loop
+    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/rendered-review-loop-v4.3.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   - kind: docs
     title: DeckIR AI Planning Workflow v4.2
@@ -7649,6 +7687,10 @@ entries:
   - kind: docs
     title: Quality Workbench v2.5
     url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/quality-workbench-v2.5.md
+    source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
+  - kind: docs
+    title: v4.3.0
+    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   - kind: docs
     title: v4.2.0
@@ -7701,12 +7743,12 @@ entries:
     source: https://kdnsna.github.io/ultimate-ppt-master-skill/
   official_links:
   - kind: docs
-    title: Rendered Review Loop v4.3
-    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/rendered-review-loop-v4.3.md
+    title: Release Notes - v5.0.0
+    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.0.0.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   - kind: docs
-    title: v4.3.0
-    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md
+    title: v4.3 Rendered Review Loop
+    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/rendered-review-loop-v4.3.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   - kind: docs
     title: DeckIR AI Planning Workflow v4.2
@@ -7723,6 +7765,10 @@ entries:
   - kind: docs
     title: Quality Workbench v2.5
     url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/quality-workbench-v2.5.md
+    source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
+  - kind: docs
+    title: v4.3.0
+    url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   - kind: docs
     title: v4.2.0
@@ -7773,7 +7819,7 @@ entries:
     url: https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/guides/troubleshooting.md
     source: https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md
   source_headings:
-  - Ultimate PPT Master - AI Presentation Production Workbench
+  - Ultimate PPT Master - v5 Delivery System for AI Presentations
   - 60-second quickstart
   - Documentation Map
 - name: codex-ppt-skill
@@ -8108,7 +8154,7 @@ entries:
     status: 200
     content_type: text/plain
     title: ✨ Features
-    bytes: 16060
+    bytes: 16661
   - kind: homepage
     url: https://understand-anything.com/
     final_url: https://understand-anything.com/
@@ -9009,7 +9055,7 @@ entries:
     content_type: text/html
     title: DeepWiki - Devin Docs
     description: Architecture diagrams, documentation, links to sources, and more for all your repos
-    bytes: 2538884
+    bytes: 2542508
   official_examples:
   - kind: showcase
     title: Use Cases
@@ -9740,6 +9786,303 @@ entries:
   - 'Q: What is a Mermaid Diagram?'
   - 'Q: How can I create complex LLMermaid diagrams?'
   - 'Q: Where can I find sample LangChain code for LLMermaid?'
+- name: GenAIScript
+  category: diagram-generation
+  surface: library
+  primary_url: https://github.com/microsoft/genaiscript
+  homepage: https://microsoft.github.io/genaiscript/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Scriptable LLM workflow framework that ingests PDFs, DOCX, CSV, XLSX, files, and code, then generates structured
+    files including Mermaid diagrams with repair loops.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: GenAIScript
+    bytes: 11237
+  - kind: homepage
+    url: https://microsoft.github.io/genaiscript/
+    final_url: https://microsoft.github.io/genaiscript/
+    status: 200
+    content_type: text/html
+    title: Generative AI Scripting | GenAIScript
+    description: GenAIScript, scripting for Generative AI.
+    bytes: 224779
+  official_examples:
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@pelihalleux
+    source: https://microsoft.github.io/genaiscript/
+  official_docs:
+  - kind: docs
+    title: JavaScript
+    url: https://microsoft.github.io/genaiscript/reference/scripts/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: TypeScript
+    url: https://microsoft.github.io/genaiscript/reference/scripts/typescript
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: schemas
+    url: https://microsoft.github.io/genaiscript/reference/scripts/schemas
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: PDFs
+    url: https://microsoft.github.io/genaiscript/reference/scripts/pdf
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: DOCX
+    url: https://microsoft.github.io/genaiscript/reference/scripts/docx
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: CSV
+    url: https://microsoft.github.io/genaiscript/reference/scripts/csv
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: XLSX
+    url: https://microsoft.github.io/genaiscript/reference/scripts/xlsx
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: files
+    url: https://microsoft.github.io/genaiscript/reference/scripts/files
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: tools
+    url: https://microsoft.github.io/genaiscript/reference/scripts/tools
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Model Context Protocol (MCP) tools
+    url: https://microsoft.github.io/genaiscript/reference/scripts/mcp-tools
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Vector search
+    url: https://microsoft.github.io/genaiscript/reference/scripts/vector-search/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: containers
+    url: https://microsoft.github.io/genaiscript/reference/scripts/container
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Run LLMs
+    url: https://microsoft.github.io/genaiscript/reference/scripts/inline-prompts/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: secret scanning
+    url: https://github.com/genaiscript/reference/scripts/secret-scanning
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: CLI
+    url: https://microsoft.github.io/genaiscript/reference/cli
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://microsoft.github.io/genaiscript/reference/api
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: content safety
+    url: https://microsoft.github.io/genaiscript/reference/scripts/content-safety
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Pull Requests checks
+    url: https://microsoft.github.io/genaiscript/reference/cli/run/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: tests and evals
+    url: https://microsoft.github.io/genaiscript/reference/scripts/tests
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Microsoft's Trademark & Brand Guidelines
+    url: https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: A screenshot of VSCode with a genaiscript opened
+    url: https://microsoft.github.io/genaiscript/_astro/visual-studio-code.CzkSq6ro_ZQ8RMG.webp
+    source: https://microsoft.github.io/genaiscript/
+  - kind: image
+    title: A screenshot of a debugging session in a code editor with a breakpoint set on a line of code. The editor is displaying
+      several panels including the watch variables, call stack, and
+    url: https://microsoft.github.io/genaiscript/_astro/debugger.VhgOO6-1_ZMKDkn.webp
+    source: https://microsoft.github.io/genaiscript/
+  - kind: video
+    title: Mr. Maeda's Cozy AI Kitchen
+    url: https://youtu.be/ajEbAm6kjI4
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: image
+    title: Visual Studio Test Explorer opened with a few genaiscript tests.
+    url: https://microsoft.github.io/genaiscript/_astro/vscode-test-explorer.DHobrdnh_1FDdux.webp
+    source: https://microsoft.github.io/genaiscript/
+  official_links:
+  - kind: docs
+    title: JavaScript
+    url: https://microsoft.github.io/genaiscript/reference/scripts/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: TypeScript
+    url: https://microsoft.github.io/genaiscript/reference/scripts/typescript
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: schemas
+    url: https://microsoft.github.io/genaiscript/reference/scripts/schemas
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: PDFs
+    url: https://microsoft.github.io/genaiscript/reference/scripts/pdf
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: DOCX
+    url: https://microsoft.github.io/genaiscript/reference/scripts/docx
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: CSV
+    url: https://microsoft.github.io/genaiscript/reference/scripts/csv
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: XLSX
+    url: https://microsoft.github.io/genaiscript/reference/scripts/xlsx
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: files
+    url: https://microsoft.github.io/genaiscript/reference/scripts/files
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: tools
+    url: https://microsoft.github.io/genaiscript/reference/scripts/tools
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Model Context Protocol (MCP) tools
+    url: https://microsoft.github.io/genaiscript/reference/scripts/mcp-tools
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Vector search
+    url: https://microsoft.github.io/genaiscript/reference/scripts/vector-search/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: containers
+    url: https://microsoft.github.io/genaiscript/reference/scripts/container
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Run LLMs
+    url: https://microsoft.github.io/genaiscript/reference/scripts/inline-prompts/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: secret scanning
+    url: https://github.com/genaiscript/reference/scripts/secret-scanning
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: CLI
+    url: https://microsoft.github.io/genaiscript/reference/cli
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://microsoft.github.io/genaiscript/reference/api
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: content safety
+    url: https://microsoft.github.io/genaiscript/reference/scripts/content-safety
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Pull Requests checks
+    url: https://microsoft.github.io/genaiscript/reference/cli/run/
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: tests and evals
+    url: https://microsoft.github.io/genaiscript/reference/scripts/tests
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: docs
+    title: Microsoft's Trademark & Brand Guidelines
+    url: https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general
+    source: https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@pelihalleux
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Getting Started
+    url: https://microsoft.github.io/genaiscript/getting-started/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Getting Started
+    url: https://microsoft.github.io/genaiscript/getting-started/your-first-genai-script/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Scripting Reference
+    url: https://microsoft.github.io/genaiscript/reference/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: TypeScript
+    url: https://microsoft.github.io/genaiscript/reference/scripts/typescrip/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: LLM tools
+    url: https://microsoft.github.io/genaiscript/reference/scripts/tools/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: tools
+    url: https://modelcontextprotocol.io/docs/concepts/tool/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Model Context Provider Servers
+    url: https://microsoft.github.io/genaiscript/reference/scripts/mcp-tool/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Model Context Provider Tool
+    url: https://microsoft.github.io/genaiscript/reference/scripts/mcp-serve/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: tools
+    url: https://microsoft.github.io/genaiscript/reference/scripts/tool/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: agent
+    url: https://microsoft.github.io/genaiscript/reference/scripts/agent/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: schemas
+    url: https://microsoft.github.io/genaiscript/reference/scripts/schema/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: PDFs
+    url: https://microsoft.github.io/genaiscript/reference/scripts/pd/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: DOCX
+    url: https://microsoft.github.io/genaiscript/reference/scripts/doc/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: CSV
+    url: https://microsoft.github.io/genaiscript/reference/scripts/cs/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: XLSX
+    url: https://microsoft.github.io/genaiscript/reference/scripts/xls/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: files
+    url: https://microsoft.github.io/genaiscript/reference/scripts/file/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Web search
+    url: https://microsoft.github.io/genaiscript/reference/scripts/web-searc/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: Playwright
+    url: https://microsoft.github.io/genaiscript/reference/scripts/browse/
+    source: https://microsoft.github.io/genaiscript/
+  - kind: docs
+    title: content safety
+    url: https://microsoft.github.io/genaiscript/reference/scripts/content-safet/
+    source: https://microsoft.github.io/genaiscript/
+  source_headings:
+  - 🚀 Quickstart Guide
+  - Video processing
+  - LLM friendly docs
 - name: DeepDiagram
   category: diagram-generation
   surface: open-source
@@ -10116,7 +10459,12 @@ entries:
     title: Whimsical AI
     description: Generate mind maps, flowcharts, sequence diagrams, and more from a simple text prompt with Whimsical AI.
       Get started for free.
-    bytes: 225412
+    bytes: 225945
+  official_examples:
+  - kind: template
+    title: Templates
+    url: https://whimsical.com/templates
+    source: https://whimsical.com/ai
   official_docs:
   - kind: docs
     title: Read the guide
@@ -10175,6 +10523,10 @@ entries:
   - kind: docs
     title: Read the guide
     url: https://whimsical.com/learn/integrations/desktop-mcp
+    source: https://whimsical.com/ai
+  - kind: template
+    title: Templates
+    url: https://whimsical.com/templates
     source: https://whimsical.com/ai
 - name: Lucid AI
   category: diagram-generation
@@ -10314,22 +10666,9 @@ entries:
   - kind: primary_page
     url: https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps
     final_url: https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps
-    status: 200
+    status: 403
     content_type: text/html
-    title: Miro AI with Diagrams and mindmaps – Miro Help Center
-    description: 'Who can do it: All usersWhich plans: Free, Starter, Business, Enterprise, EducationWhich platforms: Browser,
-      Desktop, MobileUse Miro AI...'
-    bytes: 51511
-  official_docs:
-  - kind: docs
-    title: Miro AI with Docs and text
-    url: https://help.miro.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBJg32AtGjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBIl%2BVotGjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzI4NzgyMjAxMTAyMzU0LU1pcm8tQUktd2l0aC1Eb2NzLWFuZC10ZXh0BjsIVDoJcmFua2kG--4dbc841924745cb5294e29fa956a6ee67ac07ded
-    source: https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps
-  official_links:
-  - kind: docs
-    title: Miro AI with Docs and text
-    url: https://help.miro.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBJg32AtGjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBIl%2BVotGjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzI4NzgyMjAxMTAyMzU0LU1pcm8tQUktd2l0aC1Eb2NzLWFuZC10ZXh0BjsIVDoJcmFua2kG--4dbc841924745cb5294e29fa956a6ee67ac07ded
-    source: https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps
+    error: HTTP 403
 - name: FigJam AI
   category: diagram-generation
   surface: product
@@ -10347,7 +10686,7 @@ entries:
     title: Make boards and diagrams with FigJam AI – Figma Learn - Help Center
     description: Before you start Available on all paid plans Anyone with can edit access to a FigJam file can make boards
       and diagrams using AI. Check...
-    bytes: 73499
+    bytes: 73497
   official_examples:
   - kind: tutorial
     title: Courses and collections New Level up your Figma skills with these comprehensive skill-based courses.
@@ -10731,6 +11070,287 @@ entries:
   - Using an OpenAI Compatible Endpoint e.g. [vllm server](https://vllm.readthedocs.io/en/latest/getting_started/quickstart.html#openai-compatible-server)
   - Community Examples Built with LIDA
   - Documentation and Citation
+- name: WrenAI
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/Canner/WrenAI
+  homepage: https://docs.getwren.ai/oss/introduction
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  catalog_note: Open context layer for agents over business data, adding semantic context, governed SQL, and agentic GenBI/dashboard
+    workflows across many data sources.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: The open context layer for AI agents over business data.
+    bytes: 11045
+  - kind: homepage
+    url: https://docs.getwren.ai/oss/introduction
+    final_url: https://docs.getwren.ai/oss/introduction
+    status: 200
+    content_type: text/html
+    title: Wren AI
+    description: Turn any AI Agents into world-class data analysts through the open context layer that gives AI agents grounded,
+      governed memory, context, and SQL across 20+ data sources, that help
+    bytes: 47660
+  official_examples:
+  - kind: paper
+    title: vision paper
+    url: https://docs.getwren.ai/oss/introduction
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: example
+    title: Quickstart with jaffle_shop sample data
+    url: https://docs.getwren.ai/oss/get_started/quickstart
+    source: https://docs.getwren.ai/oss/introduction
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://docs.getwren.ai
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://docs.getwren.ai/oss/get_started/quickstart
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Connect a database
+    url: https://docs.getwren.ai/oss/guides/connect/overview
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Contributor guide
+    url: https://github.com/Canner/WrenAI/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Connector ecosystem program
+    url: https://github.com/Canner/WrenAI/blob/HEAD/docs/contributing-a-connector.md
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Architecture map
+    url: https://github.com/Canner/WrenAI/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Quickstart with your agent
+    url: https://docs.getwren.ai/oss/get_started/quickstart-with-agent/adal
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Connect your database
+    url: https://docs.getwren.ai/oss/guides/connect
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Model your business
+    url: https://docs.getwren.ai/oss/guides/model
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Refine answer quality
+    url: https://docs.getwren.ai/oss/guides/refine
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Pre-aggregate with cubes
+    url: https://docs.getwren.ai/oss/guides/cubes
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: dbt Integration
+    url: https://docs.getwren.ai/oss/guides/dbt-integration
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: OSI (Open Semantic Interchange)
+    url: https://docs.getwren.ai/oss/guides/osi
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Manage project
+    url: https://docs.getwren.ai/oss/guides/manage_project
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Build & deploy a GenBI app
+    url: https://docs.getwren.ai/oss/guides/genbi
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: CLI Reference
+    url: https://docs.getwren.ai/oss/reference/cli
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Skills
+    url: https://docs.getwren.ai/oss/reference/skills
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: MDL schema
+    url: https://docs.getwren.ai/oss/reference/mdl
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Architecture
+    url: https://docs.getwren.ai/oss/reference/architecture
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Operational reference
+    url: https://docs.getwren.ai/oss/reference/operational
+    source: https://docs.getwren.ai/oss/introduction
+  official_effect_assets:
+  - kind: image
+    title: Wren AI architecture
+    url: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/misc/wren-ai-architecture.png
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: image
+    title: Wren AI
+    url: https://docs.getwren.ai/img/og-image.png
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: image
+    title: Missing context layer
+    url: https://docs.getwren.ai/assets/images/missing-context-layer-6c0f4877e7d084312e979f375d820a7d.png
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: image
+    title: With and without Wren AI
+    url: https://docs.getwren.ai/assets/images/with_without_wren-4c495c14e0b5cf96a7b1988ad9133767.png
+    source: https://docs.getwren.ai/oss/introduction
+  official_links:
+  - kind: docs
+    title: Docs
+    url: https://docs.getwren.ai
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: paper
+    title: vision paper
+    url: https://docs.getwren.ai/oss/introduction
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://docs.getwren.ai/oss/get_started/quickstart
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Connect a database
+    url: https://docs.getwren.ai/oss/guides/connect/overview
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Contributor guide
+    url: https://github.com/Canner/WrenAI/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Connector ecosystem program
+    url: https://github.com/Canner/WrenAI/blob/HEAD/docs/contributing-a-connector.md
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Architecture map
+    url: https://github.com/Canner/WrenAI/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md
+  - kind: docs
+    title: Quickstart with your agent
+    url: https://docs.getwren.ai/oss/get_started/quickstart-with-agent/adal
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Connect your database
+    url: https://docs.getwren.ai/oss/guides/connect
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Model your business
+    url: https://docs.getwren.ai/oss/guides/model
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Refine answer quality
+    url: https://docs.getwren.ai/oss/guides/refine
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Pre-aggregate with cubes
+    url: https://docs.getwren.ai/oss/guides/cubes
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: dbt Integration
+    url: https://docs.getwren.ai/oss/guides/dbt-integration
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: OSI (Open Semantic Interchange)
+    url: https://docs.getwren.ai/oss/guides/osi
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Manage project
+    url: https://docs.getwren.ai/oss/guides/manage_project
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Build & deploy a GenBI app
+    url: https://docs.getwren.ai/oss/guides/genbi
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: CLI Reference
+    url: https://docs.getwren.ai/oss/reference/cli
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Skills
+    url: https://docs.getwren.ai/oss/reference/skills
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: MDL schema
+    url: https://docs.getwren.ai/oss/reference/mdl
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Architecture
+    url: https://docs.getwren.ai/oss/reference/architecture
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Operational reference
+    url: https://docs.getwren.ai/oss/reference/operational
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Getting Started
+    url: https://docs.getwren.ai/oss/installation
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Usage Guides
+    url: https://docs.getwren.ai/oss/guide/connect/overview
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Wren AI Service
+    url: https://docs.getwren.ai/oss/ai_service/guide/custom_llm
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: example
+    title: Quickstart with jaffle_shop sample data
+    url: https://docs.getwren.ai/oss/get_started/quickstart
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Documentation
+    url: https://docs.getwren.ai/cp/overview
+    source: https://docs.getwren.ai/oss/introduction
+  - kind: docs
+    title: Documentation
+    url: https://docs.getwren.ai/oss/introduction
+    source: https://docs.getwren.ai/oss/introduction
+  source_headings:
+  - Quickstart
+  - Documentation
+- name: chart-visualization-skills
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/antvis/chart-visualization-skills
+  homepage: https://www.npmjs.com/package/@antv/chart-visualization-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AntV skill collection for agent-generated charts, infographics, narrative data reports, icons, S2 tables,
+    G2 charts, and G6 graph visualizations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/antvis/chart-visualization-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/antvis/chart-visualization-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Chart Visualization Skills
+    bytes: 12704
+  - kind: homepage
+    url: https://www.npmjs.com/package/@antv/chart-visualization-skills
+    final_url: https://www.npmjs.com/package/@antv/chart-visualization-skills
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - Chart Visualization Skills
+  - Usage
+  - Library Usage
+  - CLI Usage
+  - API Usage
 - name: MatPlotAgent
   category: data-dashboard
   surface: research
@@ -11020,7 +11640,7 @@ entries:
     title: html-video — HTML to video, programmatic video for coding agents · Hyperframes
     description: 'html-video turns HTML into video — on your laptop. Programmatic video for coding agents: an HTML to video
       meta-layer — bring your local coding agent (Open Design, Claude Code, Curs'
-    bytes: 245455
+    bytes: 247322
   official_examples:
   - kind: video
     title: Revideo
@@ -11585,11 +12205,11 @@ entries:
     title: SlideSpeak – Create Professional AI Presentations
     description: An AI presentation platform for teams. Turn ideas, text, and documents into polished slides using your own
       PowerPoint templates. Export native, editable .pptx files. Free to try.
-    bytes: 2020830
+    bytes: 2101754
   official_examples:
   - kind: template
-    title: Branded Templates Create presentations using AI and your own custom branded template.
-    url: https://slidespeak.co/features/branded-template
+    title: Custom Templates Create AI presentations using your own PowerPoint template and slide master.
+    url: https://slidespeak.co/features/custom-template
     source: https://slidespeak.co/
   - kind: template
     title: Design Context for AI Agents Give Claude, Codex, Cursor, and any MCP client direct access to your brand assets
@@ -11677,8 +12297,8 @@ entries:
     url: https://slidespeak.co/features/slidespeak-api
     source: https://slidespeak.co/
   - kind: template
-    title: Branded Templates Create presentations using AI and your own custom branded template.
-    url: https://slidespeak.co/features/branded-template
+    title: Custom Templates Create AI presentations using your own PowerPoint template and slide master.
+    url: https://slidespeak.co/features/custom-template
     source: https://slidespeak.co/
   - kind: template
     title: Design Context for AI Agents Give Claude, Codex, Cursor, and any MCP client direct access to your brand assets
@@ -11877,7 +12497,7 @@ entries:
     title: AI Presentation Maker | Create Slides & Decks in Minutes
     description: More than an AI presentation maker, Beautiful.ai delivers unlimited AI creation, real-time collaboration,
       and brand controls for professional teams.
-    bytes: 385515
+    bytes: 391910
   official_examples:
   - kind: video
     title: How it works Feature overview & explainer video
@@ -12372,7 +12992,7 @@ entries:
     title: AI presentation maker with Copilot in PowerPoint | Microsoft PowerPoint
     description: Create amazing presentations using Copilot in PowerPoint. Share a topic idea to generate slide content with
       polished layouts and custom images.
-    bytes: 182170
+    bytes: 182213
   official_examples:
   - kind: template
     title: ideal presentation layout
@@ -12509,7 +13129,7 @@ entries:
     title: officialskills.sh — Official Agent Skills Directory
     description: Browse agent skills published by official developer teams. Cloudflare, Anthropic, Stripe, Microsoft, OpenAI
       and more.
-    bytes: 671628
+    bytes: 671687
   official_examples:
   - kind: template
     title: anthropics/theme-factory
@@ -12639,7 +13259,7 @@ entries:
   official_effect_assets:
   - kind: image
     title: launchkit
-    url: https://cdn.voltagent.dev/awesome-repo/launchkit-banner-1.png
+    url: https://cdn.voltagent.dev/awesome-repo/launchkit-banner-3.png
     source: https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/HEAD/README.md
   - kind: image
     title: Microsoft
@@ -12994,16 +13614,16 @@ entries:
     status: 200
     content_type: text/plain
     title: What is MCP?
-    bytes: 971769
+    bytes: 982795
   - kind: homepage
     url: https://glama.ai/mcp/servers
     final_url: https://glama.ai/mcp/servers
     status: 200
     content_type: text/html
-    title: Open-Source MCP Servers – 36,950 in the Glama Registry | Glama
+    title: Open-Source MCP Servers – 36,986 in the Glama Registry | Glama
     description: Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers,
       clients, tools, and integrations.
-    bytes: 163261
+    bytes: 162488
   official_examples:
   - kind: template
     title: Data-Everything/mcp-server-templates
@@ -14362,7 +14982,7 @@ entries:
     status: 200
     content_type: text/plain
     title: 📚 Contents
-    bytes: 141171
+    bytes: 141479
   official_examples:
   - kind: paper
     title: arXiv
@@ -14433,16 +15053,16 @@ entries:
     url: https://arxiv.org/abs/2510.15842
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   - kind: paper
+    title: Walrus (arXiv 2025)
+    url: https://github.com/PolymathicAI/walrus
+    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
+  - kind: paper
     title: AION (arXiv 2025)
     url: https://github.com/PolymathicAI/AION
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   - kind: paper
     title: Hugging Face Datasets
     url: https://huggingface.co/datasets
-    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
-  - kind: paper
-    title: Google Dataset Search
-    url: https://datasetsearch.research.google.com/
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   official_docs:
   - kind: docs
@@ -14530,6 +15150,10 @@ entries:
   - kind: paper
     title: 'Paper2Web: Let''s Make Your Paper Alive!'
     url: https://arxiv.org/abs/2510.15842
+    source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
+  - kind: paper
+    title: Walrus (arXiv 2025)
+    url: https://github.com/PolymathicAI/walrus
     source: https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md
   - kind: paper
     title: AION (arXiv 2025)

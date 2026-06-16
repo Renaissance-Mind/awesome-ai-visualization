@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-133_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--16-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-137_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -71,6 +71,7 @@
 | [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | 新聞/資訊 / 資料/表格 / 網頁/搜尋結果 | 開源應用/框架 | 報告/長文件 / 圖表/儀表板 | 本機語言環境 / 模型 API / 外部檢索/資料來源 / 渲染/匯出 |
 | [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | 新聞/資訊 / 資料/表格 / 網頁/搜尋結果 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 外部檢索/資料來源 / 渲染/匯出 / 儲存/索引 |
 | [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | 新聞/資訊 / 網頁/搜尋結果 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 外部檢索/資料來源 / 渲染/匯出 / 儲存/索引 |
+| [OSSInsight](https://github.com/pingcap/ossinsight) [![Star](https://img.shields.io/github/stars/pingcap/ossinsight?style=flat&logo=github&label=Star)](https://github.com/pingcap/ossinsight/stargazers) | 程式碼庫 / 資料/表格 / 網頁/搜尋結果 | 開源應用/框架 / 產品/SaaS | 圖表/儀表板 / 報告/簡報 | 瀏覽器/帳號 / 外部檢索/資料來源 / 渲染/匯出 / 儲存/索引 |
 
 ### 文件、PDF 與知識庫
 
@@ -114,6 +115,8 @@
 | --- | --- | --- | --- | --- |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 |
+| [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | 資料/表格 / 資料庫 / 知識庫/個人資料 | 開源應用/框架 / Agent Skill | 圖表/儀表板 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 模型 API / 外部檢索/資料來源 / 儲存/索引 |
+| [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) [![Star](https://img.shields.io/github/stars/antvis/chart-visualization-skills?style=flat&logo=github&label=Star)](https://github.com/antvis/chart-visualization-skills/stargazers) | 資料/表格 / 文字/想法 / 代碼/技術描述 | Skill 集合 / API/SDK/庫 | 圖表/儀表板 / 資訊圖/視覺報告 / 架構圖/流程圖 / 圖表/渲染輸出 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | 資料/表格 / 資料庫 | 研究原型 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 |
 | [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 |
 | [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 / 儲存/索引 |
@@ -232,6 +235,7 @@
 | [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | 文字/想法 / 代碼/技術描述 | Skill 集合 | 圖表/Mermaid / SVG/PNG/PDF | Agent 宿主 / 模型 API / 渲染/匯出 |
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/代碼 | API/SDK/庫 | 圖表/Mermaid / SVG/PNG/PDF | 本機語言環境 / 渲染/匯出 |
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | 文字/想法 / 代碼/技術描述 | 研究原型 | 圖表/Mermaid / SVG/PNG/PDF | 本機語言環境 / 模型 API / 渲染/匯出 |
+| [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/文件 / 資料/表格 / 程式碼庫 / DSL/代碼 | API/SDK/庫 | 圖表/Mermaid / 結構化資料/Markdown | 本機語言環境 / 模型 API / 文件解析/OCR / 渲染/匯出 |
 
 ## 如何篩選工具
 

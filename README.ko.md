@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-133_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--16-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-137_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -73,6 +73,7 @@
 | [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | 뉴스/인텔리전스 / 데이터/표 / 웹/검색 | 오픈소스 앱/프레임워크 | 긴 보고서 / 차트/대시보드 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
 | [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | 뉴스/인텔리전스 / 데이터/표 / 웹/검색 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 / 스토리지/인덱스 |
 | [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | 뉴스/인텔리전스 / 웹/검색 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 / 스토리지/인덱스 |
+| [OSSInsight](https://github.com/pingcap/ossinsight) [![Star](https://img.shields.io/github/stars/pingcap/ossinsight?style=flat&logo=github&label=Star)](https://github.com/pingcap/ossinsight/stargazers) | 코드베이스 / 데이터/표 / 웹/검색 | 오픈소스 앱/프레임워크 / 제품/SaaS | 차트/대시보드 / 브리핑/보고서 | 브라우저/계정 / 외부 검색/데이터 / 렌더링/내보내기 / 저장소/인덱스 |
 
 ### 문서, PDF 및 지식 베이스
 
@@ -116,6 +117,8 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | --- | --- | --- | --- | --- |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | 데이터/표 / 데이터베이스 / 지식 베이스 | 오픈소스 앱/프레임워크 / Agent Skill | 차트/대시보드 / 브리핑/보고서 | Agent 호스트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 저장소/인덱스 |
+| [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) [![Star](https://img.shields.io/github/stars/antvis/chart-visualization-skills?style=flat&logo=github&label=Star)](https://github.com/antvis/chart-visualization-skills/stargazers) | 데이터/표 / 텍스트/아이디어 / 코드/기술 문서 | Skill 모음 / API/SDK/라이브러리 | 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 / 렌더링된 차트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | 데이터/표 / 데이터베이스 | 연구 프로토타입 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 스토리지/인덱스 |
@@ -234,6 +237,7 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | Skill 모음 | 다이어그램/Mermaid / SVG/PNG/PDF | Agent 호스트 / 모델 API / 렌더링/내보내기 |
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/코드 | API/SDK/라이브러리 | 다이어그램/Mermaid / SVG/PNG/PDF | 로컬 런타임 / 렌더링/내보내기 |
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | 연구 프로토타입 | 다이어그램/Mermaid / SVG/PNG/PDF | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/문서 / 데이터/표 / 코드베이스 / DSL/코드 | API/SDK/라이브러리 | 다이어그램/Mermaid / 구조화 데이터/Markdown | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 렌더링/내보내기 |
 
 ## 도구 선택 방법
 

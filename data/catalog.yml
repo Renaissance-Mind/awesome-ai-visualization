@@ -1,4 +1,4 @@
-last_researched: '2026-06-16'
+last_researched: '2026-06-17'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -429,6 +429,33 @@ entries:
   - 网页/搜索结果
   tool_forms:
   - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: web_news
+- name: OSSInsight
+  url: https://github.com/pingcap/ossinsight
+  homepage: https://ossinsight.io/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 2436
+  license: unknown
+  updated: '2026-06-15'
+  note: Open-source GitHub event analytics engine with natural-language data explorer, SQL, visualizations, repo analytics,
+    rankings, and trend dashboards.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
   output_forms:
   - 图表/仪表盘
   - 报告/简报
@@ -2027,6 +2054,33 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: GenAIScript
+  url: https://github.com/microsoft/genaiscript
+  homepage: https://microsoft.github.io/genaiscript/
+  category: diagram-generation
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 2898
+  license: MIT
+  updated: '2026-06-15'
+  note: Scriptable LLM workflow framework that ingests PDFs, DOCX, CSV, XLSX, files, and code, then generates structured
+    files including Mermaid diagrams with repair loops.
+  source_types:
+  - PDF/文档
+  - 数据/表格
+  - 代码库
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 图表/Mermaid
+  - 结构化数据/Markdown
+  catalog_section: support_render
+  readme_group: support_render
 - name: DeepDiagram
   url: https://github.com/LingyiChen-AI/DeepDiagram
   homepage: http://deepd.cturing.cn
@@ -2227,6 +2281,63 @@ entries:
   output_forms:
   - 图表/仪表盘
   - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: WrenAI
+  url: https://github.com/Canner/WrenAI
+  homepage: https://docs.getwren.ai/oss/introduction
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 15564
+  license: Apache-2.0
+  updated: '2026-06-16'
+  note: Open context layer for agents over business data, adding semantic context, governed SQL, and agentic GenBI/dashboard
+    workflows across many data sources.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: chart-visualization-skills
+  url: https://github.com/antvis/chart-visualization-skills
+  homepage: https://www.npmjs.com/package/@antv/chart-visualization-skills
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 358
+  license: MIT
+  updated: '2026-06-16'
+  note: AntV skill collection for agent-generated charts, infographics, narrative data reports, icons, S2 tables, G2 charts,
+    and G6 graph visualizations.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 图表/渲染输出
   catalog_section: main
   readme_group: data
 - name: MatPlotAgent

@@ -10,6 +10,8 @@ Second update on 2026-06-14: the README was reorganized into three explicit axes
 
 Update on 2026-06-16: refreshed the presentation-agent and diagram-agent surface from official GitHub repositories and project pages. This pass added Azure's multi-agent presentation sample, Marp MCP, pptx-tools, DeepDiagram, and AI-Presentation-Builders-Index.
 
+Update on 2026-06-17: refreshed the data-dashboard, GenBI, chart-skill, OSS analytics, and scripted Mermaid support surface from official GitHub repositories, docs, package metadata, and project pages. This pass added WrenAI, AntV chart-visualization-skills, OSSInsight, and GenAIScript.
+
 ## Search Surfaces
 
 - GitHub repository search through `gh search repos` and `gh api search/repositories`.
@@ -162,6 +164,10 @@ Presentation-agent and diagram-agent refresh:
 - `site:github.com AI multi agent presentation builder Azure Samples`
 - `Marp MCP GitHub AI agents build edit Marp slide decks structured tools`
 - `qmd_to_pptx editable PowerPoint Mermaid equations`
+- `site:github.com "agentic GenBI" dashboard SQL charts`
+- `site:github.com "chart visualization skills" AntV agent`
+- `site:github.com "natural language" GitHub data visualizations OSSInsight`
+- `GenAIScript Mermaid diagrams repair PDF CSV official docs`
 
 ## Selection Heuristics
 
@@ -172,6 +178,8 @@ Included if at least one is true:
 - The project gives an agent deterministic access to a visual artifact format.
 - The project turns a codebase, document, dataset, or prose into a visual map, diagram, dashboard, wiki, course, or deck.
 - The project turns prompts, articles, repositories, structured timelines, or web/HTML compositions into reproducible MP4/video explainers through an agent-facing workflow.
+- The project turns business databases, warehouse schemas, or open-source event datasets into SQL-backed charts, dashboards, rankings, and shareable analytics views.
+- The project packages chart, infographic, graph, or Mermaid rendering expertise as reusable agent skills or scriptable LLM workflows.
 - The project parses papers/documents into a structured representation that is a direct substrate for downstream visual or report generation.
 - The project is a major registry that helps discover relevant tools.
 - The project is a widely used rendering primitive that LLMs commonly target.
@@ -218,6 +226,13 @@ Excluded if:
 - [pptx-tools](https://github.com/jongalloway/pptx-tools): .NET MCP server and CLI for agent-native PowerPoint reading, editing, extraction, and generation.
 - [DeepDiagram](https://github.com/LingyiChen-AI/DeepDiagram): open-source agentic visualization platform for mind maps, flowcharts, ECharts, Draw.io, Mermaid, and infographics.
 - [AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index): focused index of open, self-hosted, and agent-driven presentation builders, skills, MCP servers, renderers, and parsers.
+
+## Added in the 2026-06-17 Daily Refresh
+
+- [WrenAI](https://github.com/Canner/WrenAI): open context layer for agents over business data with semantic context, governed SQL, and GenBI/dashboard workflows.
+- [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills): AntV skill collection for agent-generated charts, infographics, narrative data reports, S2 tables, G2 charts, and G6 graphs.
+- [OSSInsight](https://github.com/pingcap/ossinsight): open-source GitHub event analytics engine with natural-language data explorer, SQL, visualizations, repo analytics, rankings, and trend dashboards.
+- [GenAIScript](https://github.com/microsoft/genaiscript): scriptable LLM workflow framework that ingests PDFs, DOCX, CSV, XLSX, files, and code and can generate/repair Mermaid diagrams.
 
 ## Early Market Read
 

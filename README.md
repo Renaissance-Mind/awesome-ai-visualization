@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-133_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--16-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-137_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--17-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -83,6 +83,7 @@ Tools that start from web pages, search results, news streams, market data, or t
 | [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | News/intelligence / Data/tables / Web/search | Open-source app/framework | Long report / Chart/dashboard | Local runtime / Model API / External search/data / Rendering/export |
 | [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | News/intelligence / Data/tables / Web/search | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / External search/data / Rendering/export / Storage/index |
 | [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | News/intelligence / Web/search | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / External search/data / Rendering/export / Storage/index |
+| [OSSInsight](https://github.com/pingcap/ossinsight) [![Star](https://img.shields.io/github/stars/pingcap/ossinsight?style=flat&logo=github&label=Star)](https://github.com/pingcap/ossinsight/stargazers) | Codebase / Data/tables / Web/search | Open-source app/framework / Product/SaaS | Chart/dashboard / Briefing/report | Browser/account / External search/data / Rendering/export / Storage/index |
 
 ### Documents, PDFs, and Knowledge Bases
 
@@ -126,6 +127,8 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | --- | --- | --- | --- | --- |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | Data/tables / Database | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | Data/tables / Database | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export |
+| [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | Data/tables / Database / Knowledge base | Open-source app/framework / Agent skill | Chart/dashboard / Briefing/report | Agent host / Local runtime / Model API / External data / Storage/index |
+| [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) [![Star](https://img.shields.io/github/stars/antvis/chart-visualization-skills?style=flat&logo=github&label=Star)](https://github.com/antvis/chart-visualization-skills/stargazers) | Data/tables / Text/ideas / Code/technical text | Skill collection / API/SDK/library | Chart/dashboard / Visual report / Flow diagram / Rendered chart | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | Data/tables / Database | Research prototype | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export |
 | [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | Data/tables / Database | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export |
 | [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | Data/tables / Database | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export / Storage/index |
@@ -244,6 +247,7 @@ Post-processing and rendering tools that help agents generate, validate, or expo
 | [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | Text/ideas / Code/technical text | Skill collection | Diagram/Mermaid / SVG/PNG/PDF | Agent host / Model API / Rendering/export |
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/code | API/SDK/library | Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Rendering/export |
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | Text/ideas / Code/technical text | Research prototype | Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Model API / Rendering/export |
+| [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/documents / Data/tables / Codebase / DSL/code | API/SDK/library | Diagram/Mermaid / Structured data/Markdown | Local runtime / Model API / Parsing/OCR / Rendering/export |
 
 ## How To Choose A Tool
 
