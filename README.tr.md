@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-133_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--16-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-137_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -73,6 +73,7 @@ Web sayfaları, arama sonuçları, haber akışları, piyasa verileri veya tehdi
 | [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) [![Star](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat&logo=github&label=Star)](https://github.com/AI4Finance-Foundation/FinRobot/stargazers) | Haber/istihbarat / Veri/tablolar / Web/arama | Açık kaynak uygulama/framework | Uzun rapor / Grafik/pano | Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma |
 | [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | Haber/istihbarat / Veri/tablolar / Web/arama | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma / Depolama/indeks |
 | [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | Haber/istihbarat / Web/arama | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma / Depolama/indeks |
+| [OSSInsight](https://github.com/pingcap/ossinsight) [![Star](https://img.shields.io/github/stars/pingcap/ossinsight?style=flat&logo=github&label=Star)](https://github.com/pingcap/ossinsight/stargazers) | Kod tabanı / Veri/tablolar / Web/arama | Açık kaynak uygulama/framework / Ürün/SaaS | Grafik/pano / Brifing/rapor | Tarayıcı/hesap / Harici arama/veri / Render/dışa aktarma / Depolama/indeks |
 
 ### Belgeler, PDFler ve bilgi tabanları
 
@@ -116,6 +117,8 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | --- | --- | --- | --- | --- |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
+| [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | Veri/tablolar / Veritabanı / Bilgi tabanı | Açık kaynak uygulama/framework / Agent skill | Grafik/pano / Brifing/rapor | Agent host / Yerel runtime / Model API / Harici arama/veri / Depolama/indeks |
+| [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) [![Star](https://img.shields.io/github/stars/antvis/chart-visualization-skills?style=flat&logo=github&label=Star)](https://github.com/antvis/chart-visualization-skills/stargazers) | Veri/tablolar / Metin/fikirler / Kod/teknik metin | Skill koleksiyonu / API/SDK/kütüphane | Grafik/pano / İnfografik/görsel rapor / Mimari/akış diyagramı / Render edilmiş grafik | Agent host / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
 | [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | Veri/tablolar / Veritabanı | Araştırma prototipi | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
 | [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma |
 | [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | Veri/tablolar / Veritabanı | Açık kaynak uygulama/framework | Grafik/pano / Brifing/rapor | Yerel runtime / Model API / Render/dışa aktarma / Depolama/indeks |
@@ -234,6 +237,7 @@ Agentların Mermaid, SVG, PNG, PDF ve diyagram çıktıları üretmesine, doğru
 | [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | Metin/fikirler / Kod/teknik metin | Skill koleksiyonu | Diyagram/Mermaid / SVG/PNG/PDF | Agent host / Model API / Render/dışa aktarma |
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/kod | API/SDK/kütüphane | Diyagram/Mermaid / SVG/PNG/PDF | Yerel runtime / Render/dışa aktarma |
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | Metin/fikirler / Kod/teknik metin | Araştırma prototipi | Diyagram/Mermaid / SVG/PNG/PDF | Yerel runtime / Model API / Render/dışa aktarma |
+| [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/belgeler / Veri/tablolar / Kod tabanı / DSL/kod | API/SDK/kütüphane | Diyagram/Mermaid / Yapılandırılmış veri/Markdown | Yerel runtime / Model API / Belge ayrıştırma/OCR / Render/dışa aktarma |
 
 ## Araç nasıl seçilir
 

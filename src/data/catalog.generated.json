@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-06-15T23:09:06+00:00",
-  "lastResearched": "2026-06-16",
+  "generatedAt": "2026-06-16T23:10:14+00:00",
+  "lastResearched": "2026-06-17",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 133,
-    "openSource": 48,
-    "saas": 35,
-    "modelApi": 58,
-    "examples": 585,
-    "effectAssets": 580,
-    "docs": 444
+    "total": 137,
+    "openSource": 50,
+    "saas": 36,
+    "modelApi": 60,
+    "examples": 588,
+    "effectAssets": 593,
+    "docs": 483
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 25,
-      "PDF/文档": 50,
-      "文本/想法": 55,
-      "数据/表格": 15,
-      "网页/搜索结果": 46,
+      "PDF/文档": 51,
+      "文本/想法": 56,
+      "数据/表格": 19,
+      "网页/搜索结果": 47,
       "新闻/资讯": 9,
-      "知识库/个人资料": 6,
+      "代码库": 19,
+      "知识库/个人资料": 7,
       "引用网络": 4,
       "Office 文档": 9,
-      "DSL/代码": 5,
-      "代码库": 17,
-      "代码/技术描述": 13,
-      "数据库": 6,
+      "DSL/代码": 6,
+      "代码/技术描述": 14,
+      "数据库": 7,
       "任意/多源": 14
     },
     "toolForms": {
-      "开源应用/框架": 48,
-      "Agent Skill": 17,
-      "Skill 集合": 9,
+      "开源应用/框架": 50,
+      "Agent Skill": 18,
+      "Skill 集合": 10,
       "数据集/评测": 1,
       "Bot/助手": 4,
-      "产品/SaaS": 35,
+      "产品/SaaS": 36,
       "研究原型": 4,
-      "API/SDK/库": 7,
+      "API/SDK/库": 9,
       "MCP Server": 4,
       "Awesome/索引": 12
     },
@@ -47,34 +47,35 @@
       "问答/学习材料": 5,
       "报告/长文档": 15,
       "证据表": 6,
-      "信息图/视觉报告": 7,
+      "信息图/视觉报告": 8,
       "引用答案": 4,
-      "图表/仪表盘": 10,
+      "图表/仪表盘": 13,
       "思维导图/知识地图": 7,
       "表格/时间线": 1,
-      "报告/简报": 15,
+      "报告/简报": 17,
       "文献地图/知识地图": 4,
-      "结构化数据/Markdown": 9,
+      "结构化数据/Markdown": 10,
       "代码地图/Repo Wiki": 16,
-      "架构图/流程图": 24,
-      "图表/Mermaid": 8,
+      "架构图/流程图": 25,
+      "图表/Mermaid": 9,
       "SVG/PNG/PDF": 7,
       "白板/思维导图": 8,
+      "图表/渲染输出": 1,
       "视频/音频": 5,
       "工具索引": 14
     },
     "dependencies": {
-      "本地语言环境": 74,
-      "模型 API": 58,
-      "文档解析/OCR": 22,
-      "渲染/导出": 64,
+      "本地语言环境": 77,
+      "模型 API": 60,
+      "文档解析/OCR": 23,
+      "渲染/导出": 67,
       "GPU/加速器": 5,
-      "模板/素材": 43,
-      "Agent 宿主": 28,
+      "模板/素材": 44,
+      "Agent 宿主": 30,
       "系统工具": 11,
-      "外部检索/数据源": 24,
-      "存储/索引": 16,
-      "浏览器/账号": 51,
+      "外部检索/数据源": 26,
+      "存储/索引": 18,
+      "浏览器/账号": 52,
       "MCP Client": 5,
       "代码分析工具": 16
     },
@@ -83,12 +84,12 @@
       "doc-to-knowledge": 15,
       "research-report": 11,
       "infographic-report": 7,
-      "data-dashboard": 8,
+      "data-dashboard": 11,
       "literature-map": 4,
       "presentation-tools": 21,
       "codebase-map": 16,
       "rendering-primitive": 2,
-      "diagram-generation": 13,
+      "diagram-generation": 14,
       "video-generation": 5,
       "commercial-site": 10,
       "meta-index": 14
@@ -96,15 +97,15 @@
     "groups": {
       "paper": 18,
       "text_visual": 13,
-      "web_news": 7,
+      "web_news": 8,
       "support_mindmap": 3,
       "docs": 4,
       "support_doc_parse": 8,
       "presentation": 31,
       "code": 16,
-      "support_render": 7,
+      "support_render": 8,
       "diagrams": 1,
-      "data": 6,
+      "data": 8,
       "video": 5,
       "indexes": 14
     }
@@ -277,23 +278,10 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "paper",
-      "docs": [
-        {
-          "kind": "docs",
-          "title": "Documentation",
-          "url": "https://github.com/pchi123/Paper2Slides/raw/refs/heads/main/frontend/src/Slides_Paper_2.8.zip",
-          "source": "https://raw.githubusercontent.com/pchi123/Paper2Slides/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "User Manual",
-          "url": "https://github.com/pchi123/Paper2Slides/wiki",
-          "source": "https://pchi123.github.io/"
-        }
-      ],
+      "docs": [],
       "examples": [],
       "effectAssets": [],
-      "docsCount": 2,
+      "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
     },
@@ -773,12 +761,6 @@
           "title": "docs/skills.md",
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md",
           "source": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "Deadliest Animal Venoms Safety Guide",
-          "url": "https://app.k-dense.ai/share/session_20251224_181033_118bb9451f72",
-          "source": "https://www.k-dense.ai/"
         }
       ],
       "examples": [
@@ -802,37 +784,37 @@
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf",
-          "url": "https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf",
-          "source": "https://www.k-dense.ai/"
-        },
-        {
-          "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf",
-          "url": "https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf",
-          "source": "https://www.k-dense.ai/"
-        },
-        {
-          "kind": "example",
           "title": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
           "url": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf",
-          "url": "https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf",
+          "title": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
+          "url": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf",
-          "url": "https://k-dense.ai/examples/session_20251224_181033_118bb9451f72/writing_outputs/final/v1_venom_guide.pdf",
+          "title": "https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf",
+          "url": "https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf",
+          "url": "https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf",
+          "url": "https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf",
           "source": "https://www.k-dense.ai/"
         }
       ],
       "effectAssets": [],
-      "docsCount": 5,
+      "docsCount": 4,
       "examplesCount": 8,
       "effectAssetsCount": 0
     },
@@ -907,12 +889,6 @@
           "title": "Claude Code SKILL.md format",
           "url": "https://docs.anthropic.com/en/docs/claude-code/skills",
           "source": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-writer/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "Deadliest Animal Venoms Safety Guide",
-          "url": "https://app.k-dense.ai/share/session_20251224_181033_118bb9451f72",
-          "source": "https://www.k-dense.ai/"
         }
       ],
       "examples": [
@@ -978,19 +954,19 @@
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf",
-          "url": "https://k-dense.ai/examples/session_20251212_210203_5e688fa2ddca/writing_outputs/final/ICD_Adverse_Events_Technical_Report.pdf",
+          "title": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
+          "url": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf",
-          "url": "https://k-dense.ai/examples/session_20251224_173534_9bb5ad16d19b/writing_outputs/final/NGS_Variant_Callers_Review.pdf",
+          "title": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
+          "url": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
           "source": "https://www.k-dense.ai/"
         }
       ],
       "effectAssets": [],
-      "docsCount": 8,
+      "docsCount": 7,
       "examplesCount": 15,
       "effectAssetsCount": 0
     },
@@ -1463,7 +1439,7 @@
         {
           "kind": "image",
           "title": "Scira - AI Search | Scira AI",
-          "url": "https://scira.ai/opengraph-image.png?opengraph-image.2_1w0y54qy3t_.png?dpl=dpl_4zdPcF4bQzBRtS12Acbuw6rsx5po",
+          "url": "https://scira.ai/opengraph-image.png?opengraph-image.2_1w0y54qy3t_.png?dpl=dpl_6AEQYfUaaPUgj8eTBTCvnkaqZMiz",
           "thumbnailUrl": null,
           "source": "https://scira.ai/"
         }
@@ -1734,8 +1710,8 @@
         },
         {
           "kind": "docs",
-          "title": "Dashboard variants guide",
-          "url": "https://www.worldmonitor.app/blog/posts/five-dashboards-one-platform-worldmonitor-variants/",
+          "title": "World Monitor Blog — OSINT guides & analysis",
+          "url": "https://www.worldmonitor.app/blog/",
           "source": "https://www.worldmonitor.app/"
         }
       ],
@@ -1745,12 +1721,6 @@
           "title": "`.env.example`",
           "url": "https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/blob/HEAD/.env.example",
           "source": "https://raw.githubusercontent.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/HEAD/README.md"
-        },
-        {
-          "kind": "video",
-          "title": "World Monitor vs Bloomberg, Palantir, Dataminr",
-          "url": "https://www.worldmonitor.app/blog/posts/worldmonitor-vs-traditional-intelligence-tools/",
-          "source": "https://www.worldmonitor.app/"
         }
       ],
       "effectAssets": [
@@ -1763,15 +1733,109 @@
         },
         {
           "kind": "image",
-          "title": "World Monitor - Real-Time Global Intelligence Dashboard",
+          "title": "World Monitor — Free Real-Time Global Intelligence Dashboard",
           "url": "https://www.worldmonitor.app/favico/og-image.png",
           "thumbnailUrl": null,
           "source": "https://www.worldmonitor.app/"
         }
       ],
       "docsCount": 4,
-      "examplesCount": 2,
+      "examplesCount": 1,
       "effectAssetsCount": 2
+    },
+    {
+      "name": "OSSInsight",
+      "url": "https://github.com/pingcap/ossinsight",
+      "primaryUrl": "https://github.com/pingcap/ossinsight",
+      "homepage": "https://ossinsight.io/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 2436,
+      "license": "unknown",
+      "updated": "2026-06-15",
+      "note": "Open-source GitHub event analytics engine with natural-language data explorer, SQL, visualizations, repo analytics, rankings, and trend dashboards.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "web_news",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Workshop",
+          "url": "https://ossinsight.io/docs",
+          "source": "https://ossinsight.io/"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://ossinsight.io/docs/api",
+          "source": "https://ossinsight.io/"
+        },
+        {
+          "kind": "docs",
+          "title": "GitHub REST API ↗",
+          "url": "https://docs.github.com/en/rest",
+          "source": "https://ossinsight.io/"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Homepage",
+          "url": "https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GitHub Collections Analytics",
+          "url": "https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage-collection.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Developer Analytics",
+          "url": "https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage-developer.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Repository Analytics",
+          "url": "https://raw.githubusercontent.com/pingcap/ossinsight/main/apps/docs/public/img/screenshots/homepage-repository.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/pingcap/ossinsight/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OSSInsight — AI Agent Analytics & Open Source GitHub Intelligence",
+          "url": "https://ossinsight.io/seo-widgets-homepage.jpeg",
+          "thumbnailUrl": null,
+          "source": "https://ossinsight.io/"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 0,
+      "effectAssetsCount": 5
     },
     {
       "name": "notex",
@@ -6948,14 +7012,14 @@
       "docs": [
         {
           "kind": "docs",
-          "title": "Rendered Review Loop v4.3",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/rendered-review-loop-v4.3.md",
+          "title": "Release Notes - v5.0.0",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.0.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         },
         {
           "kind": "docs",
-          "title": "v4.3.0",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md",
+          "title": "v4.3 Rendered Review Loop",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/rendered-review-loop-v4.3.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         },
         {
@@ -6984,14 +7048,14 @@
         },
         {
           "kind": "docs",
-          "title": "v4.2.0",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.2.0.md",
+          "title": "v4.3.0",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         },
         {
           "kind": "docs",
-          "title": "v4.0.0",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.0.0.md",
+          "title": "v4.2.0",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.2.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         }
       ],
@@ -7012,7 +7076,7 @@
           "source": "https://kdnsna.github.io/ultimate-ppt-master-skill/"
         }
       ],
-      "docsCount": 17,
+      "docsCount": 18,
       "examplesCount": 1,
       "effectAssetsCount": 1
     },
@@ -9177,6 +9241,130 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "GenAIScript",
+      "url": "https://github.com/microsoft/genaiscript",
+      "primaryUrl": "https://github.com/microsoft/genaiscript",
+      "homepage": "https://microsoft.github.io/genaiscript/",
+      "category": "diagram-generation",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 2898,
+      "license": "MIT",
+      "updated": "2026-06-15",
+      "note": "Scriptable LLM workflow framework that ingests PDFs, DOCX, CSV, XLSX, files, and code, then generates structured files including Mermaid diagrams with repair loops.",
+      "sourceTypes": [
+        "PDF/文档",
+        "数据/表格",
+        "代码库",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "JavaScript",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "TypeScript",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/typescript",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "schemas",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/schemas",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "PDFs",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/pdf",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "DOCX",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/docx",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CSV",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/csv",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "XLSX",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/xlsx",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "files",
+          "url": "https://microsoft.github.io/genaiscript/reference/scripts/files",
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/@pelihalleux",
+          "source": "https://microsoft.github.io/genaiscript/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "A screenshot of VSCode with a genaiscript opened",
+          "url": "https://microsoft.github.io/genaiscript/_astro/visual-studio-code.CzkSq6ro_ZQ8RMG.webp",
+          "thumbnailUrl": null,
+          "source": "https://microsoft.github.io/genaiscript/"
+        },
+        {
+          "kind": "image",
+          "title": "A screenshot of a debugging session in a code editor with a breakpoint set on a line of code. The editor is displaying several panels including the watch variables, call stack, and",
+          "url": "https://microsoft.github.io/genaiscript/_astro/debugger.VhgOO6-1_ZMKDkn.webp",
+          "thumbnailUrl": null,
+          "source": "https://microsoft.github.io/genaiscript/"
+        },
+        {
+          "kind": "video",
+          "title": "Mr. Maeda's Cozy AI Kitchen",
+          "url": "https://youtu.be/ajEbAm6kjI4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/genaiscript/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Visual Studio Test Explorer opened with a few genaiscript tests.",
+          "url": "https://microsoft.github.io/genaiscript/_astro/vscode-test-explorer.DHobrdnh_1FDdux.webp",
+          "thumbnailUrl": null,
+          "source": "https://microsoft.github.io/genaiscript/"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 1,
+      "effectAssetsCount": 4
+    },
+    {
       "name": "DeepDiagram",
       "url": "https://github.com/LingyiChen-AI/DeepDiagram",
       "primaryUrl": "https://github.com/LingyiChen-AI/DeepDiagram",
@@ -9667,7 +9855,14 @@
           "source": "https://whimsical.com/ai"
         }
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://whimsical.com/templates",
+          "source": "https://whimsical.com/ai"
+        }
+      ],
       "effectAssets": [
         {
           "kind": "video",
@@ -9755,7 +9950,7 @@
         }
       ],
       "docsCount": 1,
-      "examplesCount": 0,
+      "examplesCount": 1,
       "effectAssetsCount": 12
     },
     {
@@ -9950,17 +10145,10 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "text_visual",
-      "docs": [
-        {
-          "kind": "docs",
-          "title": "Miro AI with Docs and text",
-          "url": "https://help.miro.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBJg32AtGjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBIl%2BVotGjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzI4NzgyMjAxMTAyMzU0LU1pcm8tQUktd2l0aC1Eb2NzLWFuZC10ZXh0BjsIVDoJcmFua2kG--4dbc841924745cb5294e29fa956a6ee67ac07ded",
-          "source": "https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps"
-        }
-      ],
+      "docs": [],
       "examples": [],
       "effectAssets": [],
-      "docsCount": 1,
+      "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
     },
@@ -10282,6 +10470,178 @@
       "docsCount": 1,
       "examplesCount": 3,
       "effectAssetsCount": 5
+    },
+    {
+      "name": "WrenAI",
+      "url": "https://github.com/Canner/WrenAI",
+      "primaryUrl": "https://github.com/Canner/WrenAI",
+      "homepage": "https://docs.getwren.ai/oss/introduction",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "存储/索引"
+      ],
+      "stars": 15564,
+      "license": "Apache-2.0",
+      "updated": "2026-06-16",
+      "note": "Open context layer for agents over business data, adding semantic context, governed SQL, and agentic GenBI/dashboard workflows across many data sources.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.getwren.ai",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart",
+          "url": "https://docs.getwren.ai/oss/get_started/quickstart",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Connect a database",
+          "url": "https://docs.getwren.ai/oss/guides/connect/overview",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contributor guide",
+          "url": "https://github.com/Canner/WrenAI/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Connector ecosystem program",
+          "url": "https://github.com/Canner/WrenAI/blob/HEAD/docs/contributing-a-connector.md",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture map",
+          "url": "https://github.com/Canner/WrenAI/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart with your agent",
+          "url": "https://docs.getwren.ai/oss/get_started/quickstart-with-agent/adal",
+          "source": "https://docs.getwren.ai/oss/introduction"
+        },
+        {
+          "kind": "docs",
+          "title": "Connect your database",
+          "url": "https://docs.getwren.ai/oss/guides/connect",
+          "source": "https://docs.getwren.ai/oss/introduction"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "vision paper",
+          "url": "https://docs.getwren.ai/oss/introduction",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Quickstart with jaffle_shop sample data",
+          "url": "https://docs.getwren.ai/oss/get_started/quickstart",
+          "source": "https://docs.getwren.ai/oss/introduction"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Wren AI architecture",
+          "url": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/misc/wren-ai-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Wren AI",
+          "url": "https://docs.getwren.ai/img/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://docs.getwren.ai/oss/introduction"
+        },
+        {
+          "kind": "image",
+          "title": "Missing context layer",
+          "url": "https://docs.getwren.ai/assets/images/missing-context-layer-6c0f4877e7d084312e979f375d820a7d.png",
+          "thumbnailUrl": null,
+          "source": "https://docs.getwren.ai/oss/introduction"
+        },
+        {
+          "kind": "image",
+          "title": "With and without Wren AI",
+          "url": "https://docs.getwren.ai/assets/images/with_without_wren-4c495c14e0b5cf96a7b1988ad9133767.png",
+          "thumbnailUrl": null,
+          "source": "https://docs.getwren.ai/oss/introduction"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 2,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "chart-visualization-skills",
+      "url": "https://github.com/antvis/chart-visualization-skills",
+      "primaryUrl": "https://github.com/antvis/chart-visualization-skills",
+      "homepage": "https://www.npmjs.com/package/@antv/chart-visualization-skills",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 358,
+      "license": "MIT",
+      "updated": "2026-06-16",
+      "note": "AntV skill collection for agent-generated charts, infographics, narrative data reports, icons, S2 tables, G2 charts, and G6 graph visualizations.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "MatPlotAgent",
@@ -11239,8 +11599,8 @@
       "examples": [
         {
           "kind": "template",
-          "title": "Branded Templates Create presentations using AI and your own custom branded template.",
-          "url": "https://slidespeak.co/features/branded-template",
+          "title": "Custom Templates Create AI presentations using your own PowerPoint template and slide master.",
+          "url": "https://slidespeak.co/features/custom-template",
           "source": "https://slidespeak.co/"
         },
         {
@@ -12498,7 +12858,7 @@
         {
           "kind": "image",
           "title": "launchkit",
-          "url": "https://cdn.voltagent.dev/awesome-repo/launchkit-banner-1.png",
+          "url": "https://cdn.voltagent.dev/awesome-repo/launchkit-banner-3.png",
           "thumbnailUrl": null,
           "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/HEAD/README.md"
         },
