@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-137_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--17-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-141_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--18-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -119,6 +119,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | データ/表 / データベース / ナレッジベース | オープンソースアプリ/フレームワーク / Agent Skill | チャート/ダッシュボード / ブリーフィング/レポート | Agent ホスト / ローカル実行環境 / モデル API / 外部検索/データ / ストレージ/索引 |
 | [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) [![Star](https://img.shields.io/github/stars/antvis/chart-visualization-skills?style=flat&logo=github&label=Star)](https://github.com/antvis/chart-visualization-skills/stargazers) | データ/表 / テキスト/アイデア / コード/技術文書 | Skill 集合 / API/SDK/ライブラリ | チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 / レンダリング済みチャート | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [mcp-server-chart](https://github.com/antvis/mcp-server-chart) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-chart?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-chart/stargazers) | データ/表 / テキスト/アイデア / データベース | MCP Server / Skill 集合 | チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 / ホワイトボード/マインドマップ / レンダリング済みチャート | MCP クライアント / ローカル実行環境 / レンダリング/エクスポート |
 | [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | データ/表 / データベース | 研究プロトタイプ | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート / ストレージ/索引 |
@@ -238,6 +239,9 @@ Agent が Mermaid、SVG、PNG、PDF、図表成果物を生成・検証・エク
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/コード | API/SDK/ライブラリ | 図/Mermaid / SVG/PNG/PDF | ローカル実行環境 / レンダリング/エクスポート |
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | テキスト/アイデア / コード/技術文書 | 研究プロトタイプ | 図/Mermaid / SVG/PNG/PDF | ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/文書 / データ/表 / コードベース / DSL/コード | API/SDK/ライブラリ | 図/Mermaid / 構造化データ/Markdown | ローカル実行環境 / モデル API / 文書解析/OCR / レンダリング/エクスポート |
+| [mcp-mermaid](https://github.com/hustcc/mcp-mermaid) [![Star](https://img.shields.io/github/stars/hustcc/mcp-mermaid?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-mermaid/stargazers) | テキスト/アイデア / コード/技術文書 / DSL/コード | MCP Server | 図/Mermaid / SVG/PNG/PDF | MCP クライアント / ローカル実行環境 / レンダリング/エクスポート |
+| [Markdown Viewer Agent Skills](https://github.com/markdown-viewer/skills) [![Star](https://img.shields.io/github/stars/markdown-viewer/skills?style=flat&logo=github&label=Star)](https://github.com/markdown-viewer/skills/stargazers) | テキスト/アイデア / データ/表 / コード/技術文書 | Skill 集合 | アーキテクチャ/フロー図 / チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / マインドマップ/知識マップ / レンダリング済みチャート | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) [![Star](https://img.shields.io/github/stars/Dsadd4/AgentFigureGallery?style=flat&logo=github&label=Star)](https://github.com/Dsadd4/AgentFigureGallery/stargazers) | 論文/研究 / データ/表 | Agent Skill / データセット/ベンチマーク | レンダリング済みチャート / SVG/PNG/PDF | Agent ホスト / ローカル実行環境 / 外部検索/データ / レンダリング/エクスポート |
 
 ## ツールの選び方
 

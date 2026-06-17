@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-06-16T23:10:14+00:00",
-  "lastResearched": "2026-06-17",
+  "generatedAt": "2026-06-17T23:09:25+00:00",
+  "lastResearched": "2026-06-18",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 137,
+    "total": 141,
     "openSource": 50,
     "saas": 36,
     "modelApi": 60,
-    "examples": 588,
-    "effectAssets": 593,
-    "docs": 483
+    "examples": 629,
+    "effectAssets": 616,
+    "docs": 491
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 25,
+      "论文/科研资料": 26,
       "PDF/文档": 51,
-      "文本/想法": 56,
-      "数据/表格": 19,
+      "文本/想法": 59,
+      "数据/表格": 22,
       "网页/搜索结果": 47,
       "新闻/资讯": 9,
       "代码库": 19,
       "知识库/个人资料": 7,
       "引用网络": 4,
       "Office 文档": 9,
-      "DSL/代码": 6,
-      "代码/技术描述": 14,
-      "数据库": 7,
+      "DSL/代码": 7,
+      "代码/技术描述": 16,
+      "数据库": 8,
       "任意/多源": 14
     },
     "toolForms": {
       "开源应用/框架": 50,
-      "Agent Skill": 18,
-      "Skill 集合": 10,
-      "数据集/评测": 1,
+      "Agent Skill": 19,
+      "Skill 集合": 12,
+      "数据集/评测": 2,
       "Bot/助手": 4,
       "产品/SaaS": 36,
       "研究原型": 4,
       "API/SDK/库": 9,
-      "MCP Server": 4,
+      "MCP Server": 6,
       "Awesome/索引": 12
     },
     "outputForms": {
@@ -47,36 +47,36 @@
       "问答/学习材料": 5,
       "报告/长文档": 15,
       "证据表": 6,
-      "信息图/视觉报告": 8,
+      "信息图/视觉报告": 10,
       "引用答案": 4,
-      "图表/仪表盘": 13,
-      "思维导图/知识地图": 7,
+      "图表/仪表盘": 15,
+      "思维导图/知识地图": 8,
       "表格/时间线": 1,
       "报告/简报": 17,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 10,
       "代码地图/Repo Wiki": 16,
-      "架构图/流程图": 25,
-      "图表/Mermaid": 9,
-      "SVG/PNG/PDF": 7,
-      "白板/思维导图": 8,
-      "图表/渲染输出": 1,
+      "架构图/流程图": 27,
+      "图表/Mermaid": 10,
+      "SVG/PNG/PDF": 9,
+      "图表/渲染输出": 4,
+      "白板/思维导图": 9,
       "视频/音频": 5,
       "工具索引": 14
     },
     "dependencies": {
-      "本地语言环境": 77,
+      "本地语言环境": 81,
       "模型 API": 60,
       "文档解析/OCR": 23,
-      "渲染/导出": 67,
+      "渲染/导出": 71,
       "GPU/加速器": 5,
-      "模板/素材": 44,
-      "Agent 宿主": 30,
+      "模板/素材": 45,
+      "Agent 宿主": 32,
       "系统工具": 11,
-      "外部检索/数据源": 26,
+      "外部检索/数据源": 27,
       "存储/索引": 18,
       "浏览器/账号": 52,
-      "MCP Client": 5,
+      "MCP Client": 7,
       "代码分析工具": 16
     },
     "categories": {
@@ -84,12 +84,12 @@
       "doc-to-knowledge": 15,
       "research-report": 11,
       "infographic-report": 7,
-      "data-dashboard": 11,
+      "data-dashboard": 13,
       "literature-map": 4,
       "presentation-tools": 21,
       "codebase-map": 16,
       "rendering-primitive": 2,
-      "diagram-generation": 14,
+      "diagram-generation": 16,
       "video-generation": 5,
       "commercial-site": 10,
       "meta-index": 14
@@ -103,9 +103,9 @@
       "support_doc_parse": 8,
       "presentation": 31,
       "code": 16,
-      "support_render": 8,
+      "support_render": 11,
       "diagrams": 1,
-      "data": 8,
+      "data": 9,
       "video": 5,
       "indexes": 14
     }
@@ -784,32 +784,32 @@
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
-          "url": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
+          "title": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
+          "url": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
+          "url": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "https://k-dense.ai/examples/session_20251214_135820_a55c35bcb856/writing_outputs/final/JWST_Biosignature_Priority_Framework.pdf",
+          "url": "https://k-dense.ai/examples/session_20251214_135820_a55c35bcb856/writing_outputs/final/JWST_Biosignature_Priority_Framework.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "https://k-dense.ai/examples/session_20251212_165231_ad0681ba0d19/writing_outputs/final/Grant_Report.pdf",
+          "url": "https://k-dense.ai/examples/session_20251212_165231_ad0681ba0d19/writing_outputs/final/Grant_Report.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
           "title": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
           "url": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
-          "source": "https://www.k-dense.ai/"
-        },
-        {
-          "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf",
-          "url": "https://k-dense.ai/examples/session_20251212_162938_43788a48ae9a/writing_outputs/final/vqe_benchmarking_paper.pdf",
-          "source": "https://www.k-dense.ai/"
-        },
-        {
-          "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf",
-          "url": "https://k-dense.ai/examples/session_20260512_103421_e632f388fbf3/writing_outputs/final/daraxonrasib_pdac_tumor_board_brief.pdf",
-          "source": "https://www.k-dense.ai/"
-        },
-        {
-          "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf",
-          "url": "https://k-dense.ai/examples/session_20260515_155504_9fe22bb36e80/writing_outputs/final/FGFR2_SAR_WO2020231990_report.pdf",
           "source": "https://www.k-dense.ai/"
         }
       ],
@@ -954,14 +954,14 @@
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
-          "url": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
+          "title": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
+          "url": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
-          "url": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
+          "title": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
+          "url": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
           "source": "https://www.k-dense.ai/"
         }
       ],
@@ -4398,6 +4398,12 @@
       "docs": [],
       "examples": [
         {
+          "kind": "demo",
+          "title": "Try it free",
+          "url": "https://piktochart.com/ai-presentation-maker?ref=homepage_top_strip",
+          "source": "https://piktochart.com/generative-ai/"
+        },
+        {
           "kind": "video",
           "title": "Video Editor",
           "url": "https://piktochart.com/video-editor/",
@@ -4461,12 +4467,6 @@
           "kind": "template",
           "title": "Newsletter Templates",
           "url": "https://piktochart.com/templates/newsletters/",
-          "source": "https://piktochart.com/generative-ai/"
-        },
-        {
-          "kind": "template",
-          "title": "Presentation Templates",
-          "url": "https://piktochart.com/templates/presentations/",
           "source": "https://piktochart.com/generative-ai/"
         }
       ],
@@ -7012,6 +7012,12 @@
       "docs": [
         {
           "kind": "docs",
+          "title": "Release Notes - v5.1.0",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.1.0.md",
+          "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "Release Notes - v5.0.0",
           "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.0.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
@@ -7051,12 +7057,6 @@
           "title": "v4.3.0",
           "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "v4.2.0",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.2.0.md",
-          "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         }
       ],
       "examples": [
@@ -7076,7 +7076,7 @@
           "source": "https://kdnsna.github.io/ultimate-ppt-master-skill/"
         }
       ],
-      "docsCount": 18,
+      "docsCount": 19,
       "examplesCount": 1,
       "effectAssetsCount": 1
     },
@@ -7125,7 +7125,14 @@
           "source": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md"
         }
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "生图模型配置指南",
+          "url": "https://github.com/ningzimu/codex-ppt-skill/blob/HEAD/skills/codex-ppt/docs/image-model-configuration.md",
+          "source": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/README.md"
+        }
+      ],
       "effectAssets": [
         {
           "kind": "image",
@@ -7213,7 +7220,7 @@
         }
       ],
       "docsCount": 2,
-      "examplesCount": 0,
+      "examplesCount": 1,
       "effectAssetsCount": 12
     },
     {
@@ -9365,6 +9372,253 @@
       "effectAssetsCount": 4
     },
     {
+      "name": "mcp-mermaid",
+      "url": "https://github.com/hustcc/mcp-mermaid",
+      "primaryUrl": "https://github.com/hustcc/mcp-mermaid",
+      "homepage": "https://www.npmjs.com/package/mcp-mermaid",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 587,
+      "license": "MIT",
+      "updated": "2026-06-17",
+      "note": "MCP server that validates Mermaid syntax and exports diagrams as Mermaid text, SVG, PNG, files, base64, or shareable URLs.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "figure.ling.pub/gallery",
+          "url": "https://figure.ling.pub/gallery",
+          "source": "https://raw.githubusercontent.com/hustcc/mcp-mermaid/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "mcp-mermaid",
+          "url": "https://mermaid.js.org/header.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hustcc/mcp-mermaid/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Markdown Viewer Agent Skills",
+      "url": "https://github.com/markdown-viewer/skills",
+      "primaryUrl": "https://github.com/markdown-viewer/skills",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2971,
+      "license": "unknown",
+      "updated": "2026-06-17",
+      "note": "Agent skill collection for Markdown-rendered diagrams, Vega charts, infographics, JSON Canvas maps, PlantUML architecture diagrams, and HTML info cards.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "思维导图/知识地图",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AgentFigureGallery",
+      "url": "https://github.com/Dsadd4/AgentFigureGallery",
+      "primaryUrl": "https://github.com/Dsadd4/AgentFigureGallery",
+      "homepage": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 129,
+      "license": "MIT",
+      "updated": "2026-06-16",
+      "note": "Scientific plotting reference gallery and agent skill that lets agents query public figure examples, collect human selections, and export reference bundles before writing plotting code.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "数据集/评测"
+      ],
+      "outputForms": [
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://huggingface.co/docs",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Trust and Install Notes",
+          "url": "https://github.com/Dsadd4/AgentFigureGallery/blob/HEAD/docs/TRUST_AND_INSTALL.md",
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "AgentFigureGallery Space",
+          "url": "https://huggingface.co/spaces/dsadd4/AgentFigureGallery",
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Community Packs",
+          "url": "https://github.com/Dsadd4/AgentFigureGallery/blob/HEAD/docs/COMMUNITY_PACKS.md",
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Datasets",
+          "url": "https://huggingface.co/datasets",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "Daily Papers",
+          "url": "https://huggingface.co/papers",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "showcase",
+          "title": "AgentFigureGallery",
+          "url": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "Text",
+          "url": "https://huggingface.co/datasets?modality=modality%3Atext",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "webdataset",
+          "url": "https://huggingface.co/datasets?format=format%3Awebdataset",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "English",
+          "url": "https://huggingface.co/datasets?language=language%3Aen",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "10K - 100K",
+          "url": "https://huggingface.co/datasets?size_categories=size_categories%3A10K%3Cn%3C100K",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "scientific-figures",
+          "url": "https://huggingface.co/datasets?other=scientific-figures",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        },
+        {
+          "kind": "paper",
+          "title": "data-visualization",
+          "url": "https://huggingface.co/datasets?other=data-visualization",
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "AgentFigureGallery dynamic demo",
+          "url": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/docs/assets/agentfiguregallery-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AgentFigureGallery candidate counts by plot type",
+          "url": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/docs/assets/agentfiguregallery-scale-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Codex discovered Agent Figure Gallery",
+          "url": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/examples/plot_type_examples/screenshots/codex-skill-discovered.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AgentFigureGallery plot-type smoke examples",
+          "url": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/examples/plot_type_examples/figures/agentfiguregallery_plot_type_examples_preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Dsadd4/AgentFigureGallery/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "dsadd4/AgentFigureGallery · Datasets at Hugging Face",
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/dsadd4/AgentFigureGallery.png",
+          "thumbnailUrl": null,
+          "source": "https://huggingface.co/datasets/dsadd4/AgentFigureGallery"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 20,
+      "effectAssetsCount": 5
+    },
+    {
       "name": "DeepDiagram",
       "url": "https://github.com/LingyiChen-AI/DeepDiagram",
       "primaryUrl": "https://github.com/LingyiChen-AI/DeepDiagram",
@@ -9804,20 +10058,47 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "text_visual",
-      "docs": [],
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfaCwOgZq5uNMC2g5dBl7ZIRoTtuksoPi7l4SPZU2JH4GKqog/viewform",
+          "source": "https://mermaid.ai/mermaid-ai"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://mermaid.ai/docs/",
+          "source": "https://mermaid.ai/mermaid-ai"
+        }
+      ],
       "examples": [],
       "effectAssets": [
         {
-          "kind": "image",
-          "title": "Mermaid Chart - Create complex, visual diagrams with text.",
-          "url": "https://mermaid.ai/img/og-image.png",
+          "kind": "video",
+          "title": "Ai Chat",
+          "url": "https://mermaid.ai/web-assets/img/landing/ai-chat.mp4",
+          "thumbnailUrl": null,
+          "source": "https://mermaid.ai/mermaid-ai"
+        },
+        {
+          "kind": "video",
+          "title": "Visual Editor",
+          "url": "https://mermaid.ai/web-assets/img/landing/visual-editor.mp4",
+          "thumbnailUrl": null,
+          "source": "https://mermaid.ai/mermaid-ai"
+        },
+        {
+          "kind": "video",
+          "title": "Share And Collaborate",
+          "url": "https://mermaid.ai/web-assets/img/landing/share-and-collaborate.mp4",
           "thumbnailUrl": null,
           "source": "https://mermaid.ai/mermaid-ai"
         }
       ],
-      "docsCount": 0,
+      "docsCount": 2,
       "examplesCount": 0,
-      "effectAssetsCount": 1
+      "effectAssetsCount": 3
     },
     {
       "name": "Whimsical AI",
@@ -10145,10 +10426,17 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "text_visual",
-      "docs": [],
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Miro AI with Docs and text",
+          "url": "https://help.miro.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBJg32AtGjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBIl%2BVotGjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzI4NzgyMjAxMTAyMzU0LU1pcm8tQUktd2l0aC1Eb2NzLWFuZC10ZXh0BjsIVDoJcmFua2kH--a04594dbad5830b9ccbaf3a38db793ca753350ea",
+          "source": "https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps"
+        }
+      ],
       "examples": [],
       "effectAssets": [],
-      "docsCount": 0,
+      "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 0
     },
@@ -10642,6 +10930,69 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "mcp-server-chart",
+      "url": "https://github.com/antvis/mcp-server-chart",
+      "primaryUrl": "https://github.com/antvis/mcp-server-chart",
+      "homepage": "https://www.npmjs.com/package/@antv/mcp-server-chart",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 4166,
+      "license": "MIT",
+      "updated": "2026-06-17",
+      "note": "AntV MCP server with 26+ chart, graph, map, mind-map, flow, spreadsheet, and infographic tools for agent-driven chart generation and data analysis.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "数据库"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "白板/思维导图",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "mcp-server-chart preview",
+          "url": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*IyIRQIQHyKYAAAAAgCAAAAgAemJ7AQ/fmt.avif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/antvis/mcp-server-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "mcp-server-chart technical digram",
+          "url": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*XVH-Srg-b9UAAAAAgGAAAAgAemJ7AQ/fmt.avif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/antvis/mcp-server-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "my service identifier website",
+          "url": "https://mdn.alipayobjects.com/huamei_dxq8v0/afts/img/dASoTLt6EywAAAAARqAAAAgADu43AQFr/fmt.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/antvis/mcp-server-chart/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
     },
     {
       "name": "MatPlotAgent",
@@ -11628,12 +11979,6 @@
           "source": "https://slidespeak.co/"
         },
         {
-          "kind": "template",
-          "title": "Templates",
-          "url": "https://slidespeak.co/powerpoint-templates",
-          "source": "https://slidespeak.co/"
-        },
-        {
           "kind": "demo",
           "title": "Request Demo",
           "url": "https://slidespeak.co/book-meeting",
@@ -11688,7 +12033,7 @@
         }
       ],
       "docsCount": 6,
-      "examplesCount": 11,
+      "examplesCount": 10,
       "effectAssetsCount": 3
     },
     {
@@ -11719,12 +12064,189 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "presentation",
-      "docs": [],
-      "examples": [],
-      "effectAssets": [],
-      "docsCount": 0,
-      "examplesCount": 0,
-      "effectAssetsCount": 0
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://www.canva.com/docs/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "docs",
+          "title": "Eligibility guidelines",
+          "url": "https://www.canva.com/education/eligibility-guidelines/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "docs",
+          "title": "All create guides",
+          "url": "https://www.canva.com/create/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "Videos",
+          "url": "https://www.canva.com/video-editor/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube video editor",
+          "url": "https://www.canva.com/video-editor/youtube/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "video",
+          "title": "Video trimmer",
+          "url": "https://www.canva.com/features/video-trimmer/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "video",
+          "title": "Online video recorder",
+          "url": "https://www.canva.com/features/online-video-recorder/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "video",
+          "title": "Convert videos to MP4",
+          "url": "https://www.canva.com/features/mp4-converter/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "video",
+          "title": "AI video generator",
+          "url": "https://www.canva.com/features/ai-video-generator/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "template",
+          "title": "Templates Marketplace",
+          "url": "https://www.canva.com/templates/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "demo",
+          "title": "Demo video",
+          "url": "https://www.canva.com/enterprise/product-demo/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "template",
+          "title": "Brand templates",
+          "url": "https://www.canva.com/business/features/team-templates/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "example",
+          "title": "Case studies",
+          "url": "https://www.canva.com/business/case-studies/",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "example",
+          "title": "K-12 case studies",
+          "url": "https://www.canva.com/case-studies/?solution=Education",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "example",
+          "title": "Case studies",
+          "url": "https://www.canva.com/case-studies/?solution=HigherEducation",
+          "source": "https://www.canva.com/create/ai-presentations/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AI Presentation Maker: Create presentations with AI | Canva",
+          "url": "https://content-management-files.canva.com/1e1342e1-8c69-4314-9819-6c238df3b63b/clientuibusinessproductcreatepagessingleimagesOG_Generic_Create.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Client Ui Business Product Create Create Banner Template Overlay Image Images Desktop",
+          "url": "https://content-management-files.canva.com/7437c152-6038-487e-8da2-d004ca0f5c8b/client-ui-business-product-create-create_banner-template_overlay_image-images-desktop.png",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Business Case Presentation in Bright Red Cobalt Bright Green Chic Photocentric Frames Style",
+          "url": "https://template.canva.com/EAFb6dhVhgw/2/0/1600w-gR9YIea2HMY.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Canva AI Presentation Maker Lead Image",
+          "url": "https://content-management-files.canva.com/62c7ebe0-5c0b-4f1a-abd6-2361779737bc/create_ai-presentation-maker_lead.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Clientuicsehow It Workshow It Works Mediaimagesdevice",
+          "url": "https://content-management-files.canva.com/b00b7a8e-5b97-4b76-bfda-06e32c928f04/clientuicsehow_it_workshow_it_works_mediaimagesdevice.png",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "How to make presentations using AI",
+          "url": "https://content-management-files.canva.com/9b11ef32-f4a3-4674-9c01-4d2f05c06d92/create_ai-presentation-maker_how-to.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Research Proposal Business Presentation in Dark Green Orange Geometric Style",
+          "url": "https://template.canva.com/EAFR-HW2VIM/2/0/1600w-Pv2-sEnHd2w.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Pink Orange Yellow Happy Hippie Word List Game Presentation Party",
+          "url": "https://template.canva.com/EAFC-gXiY4w/1/0/1600w-SgzL4RtEEaw.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Black Neon Green Neon Pink Trendy Illustrative Creative Presentation",
+          "url": "https://template.canva.com/EAFLVBlZIJw/3/0/1600w-wicS8FWmyHM.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Green Blobs Basic Simple Presentation",
+          "url": "https://template.canva.com/EAE3W4uIAHg/5/0/1600w-feEkT7I23kI.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Composition Book Presentation",
+          "url": "https://template.canva.com/EAEskrc3C7Q/2/0/1600w-OPjQ2icjLrY.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        },
+        {
+          "kind": "image",
+          "title": "Blue Pie Chart Presentation",
+          "url": "https://template.canva.com/EADjXWUTA10/2/0/1600w-dF61KOwa5HM.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.canva.com/create/ai-presentations/"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 20,
+      "effectAssetsCount": 12
     },
     {
       "name": "Presentations.AI",
