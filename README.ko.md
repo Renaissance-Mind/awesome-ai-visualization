@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-137_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--17-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-141_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--18-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -119,6 +119,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | 데이터/표 / 데이터베이스 / 지식 베이스 | 오픈소스 앱/프레임워크 / Agent Skill | 차트/대시보드 / 브리핑/보고서 | Agent 호스트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 저장소/인덱스 |
 | [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) [![Star](https://img.shields.io/github/stars/antvis/chart-visualization-skills?style=flat&logo=github&label=Star)](https://github.com/antvis/chart-visualization-skills/stargazers) | 데이터/표 / 텍스트/아이디어 / 코드/기술 문서 | Skill 모음 / API/SDK/라이브러리 | 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 / 렌더링된 차트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
+| [mcp-server-chart](https://github.com/antvis/mcp-server-chart) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-chart?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-chart/stargazers) | 데이터/표 / 텍스트/아이디어 / 데이터베이스 | MCP Server / Skill 모음 | 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 / 화이트보드/마인드맵 / 렌더링된 차트 | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 | [MatPlotAgent](https://github.com/thunlp/MatPlotAgent) [![Star](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=flat&logo=github&label=Star)](https://github.com/thunlp/MatPlotAgent/stargazers) | 데이터/표 / 데이터베이스 | 연구 프로토타입 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [OpenVizAI](https://github.com/OpenVizAI/OpenVizAI) [![Star](https://img.shields.io/github/stars/OpenVizAI/OpenVizAI?style=flat&logo=github&label=Star)](https://github.com/OpenVizAI/OpenVizAI/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [generative-dashboard-builder](https://github.com/KaranChandekar/generative-dashboard-builder) [![Star](https://img.shields.io/github/stars/KaranChandekar/generative-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/KaranChandekar/generative-dashboard-builder/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 스토리지/인덱스 |
@@ -238,6 +239,9 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/코드 | API/SDK/라이브러리 | 다이어그램/Mermaid / SVG/PNG/PDF | 로컬 런타임 / 렌더링/내보내기 |
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | 연구 프로토타입 | 다이어그램/Mermaid / SVG/PNG/PDF | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/문서 / 데이터/표 / 코드베이스 / DSL/코드 | API/SDK/라이브러리 | 다이어그램/Mermaid / 구조화 데이터/Markdown | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 렌더링/내보내기 |
+| [mcp-mermaid](https://github.com/hustcc/mcp-mermaid) [![Star](https://img.shields.io/github/stars/hustcc/mcp-mermaid?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-mermaid/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server | 다이어그램/Mermaid / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
+| [Markdown Viewer Agent Skills](https://github.com/markdown-viewer/skills) [![Star](https://img.shields.io/github/stars/markdown-viewer/skills?style=flat&logo=github&label=Star)](https://github.com/markdown-viewer/skills/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 텍스트 | Skill 모음 | 아키텍처/흐름도 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 마인드맵/지식 지도 / 렌더링된 차트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
+| [AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) [![Star](https://img.shields.io/github/stars/Dsadd4/AgentFigureGallery?style=flat&logo=github&label=Star)](https://github.com/Dsadd4/AgentFigureGallery/stargazers) | 논문/연구 / 데이터/표 | Agent Skill / 데이터셋/벤치마크 | 렌더링된 차트 / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
 
 ## 도구 선택 방법
 

@@ -1,4 +1,4 @@
-last_researched: '2026-06-17'
+last_researched: '2026-06-18'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2081,6 +2081,82 @@ entries:
   - 结构化数据/Markdown
   catalog_section: support_render
   readme_group: support_render
+- name: mcp-mermaid
+  url: https://github.com/hustcc/mcp-mermaid
+  homepage: https://www.npmjs.com/package/mcp-mermaid
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 587
+  license: MIT
+  updated: '2026-06-17'
+  note: MCP server that validates Mermaid syntax and exports diagrams as Mermaid text, SVG, PNG, files, base64, or shareable URLs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Markdown Viewer Agent Skills
+  url: https://github.com/markdown-viewer/skills
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2971
+  license: unknown
+  updated: '2026-06-17'
+  note: Agent skill collection for Markdown-rendered diagrams, Vega charts, infographics, JSON Canvas maps, PlantUML architecture diagrams, and HTML info cards.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 架构图/流程图
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 思维导图/知识地图
+  - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render
+- name: AgentFigureGallery
+  url: https://github.com/Dsadd4/AgentFigureGallery
+  homepage: https://huggingface.co/datasets/dsadd4/AgentFigureGallery
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 129
+  license: MIT
+  updated: '2026-06-16'
+  note: Scientific plotting reference gallery and agent skill that lets agents query public figure examples, collect human selections, and export reference bundles before writing plotting code.
+  source_types:
+  - 论文/科研资料
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - 数据集/评测
+  output_forms:
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: DeepDiagram
   url: https://github.com/LingyiChen-AI/DeepDiagram
   homepage: http://deepd.cturing.cn
@@ -2337,6 +2413,34 @@ entries:
   - 图表/仪表盘
   - 信息图/视觉报告
   - 架构图/流程图
+  - 图表/渲染输出
+  catalog_section: main
+  readme_group: data
+- name: mcp-server-chart
+  url: https://github.com/antvis/mcp-server-chart
+  homepage: https://www.npmjs.com/package/@antv/mcp-server-chart
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 4166
+  license: MIT
+  updated: '2026-06-17'
+  note: AntV MCP server with 26+ chart, graph, map, mind-map, flow, spreadsheet, and infographic tools for agent-driven chart generation and data analysis.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - 数据库
+  tool_forms:
+  - MCP Server
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 白板/思维导图
   - 图表/渲染输出
   catalog_section: main
   readme_group: data

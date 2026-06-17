@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-16.
+Last researched: 2026-06-18.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -11,6 +11,8 @@ Second update on 2026-06-14: the README was reorganized into three explicit axes
 Update on 2026-06-16: refreshed the presentation-agent and diagram-agent surface from official GitHub repositories and project pages. This pass added Azure's multi-agent presentation sample, Marp MCP, pptx-tools, DeepDiagram, and AI-Presentation-Builders-Index.
 
 Update on 2026-06-17: refreshed the data-dashboard, GenBI, chart-skill, OSS analytics, and scripted Mermaid support surface from official GitHub repositories, docs, package metadata, and project pages. This pass added WrenAI, AntV chart-visualization-skills, OSSInsight, and GenAIScript.
+
+Update on 2026-06-18: refreshed agent-facing chart, Mermaid, Markdown visualization, and scientific plotting support from official GitHub repositories, npm package links, and dataset pages. This pass added AntV mcp-server-chart, hustcc mcp-mermaid, Markdown Viewer Agent Skills, and AgentFigureGallery.
 
 ## Search Surfaces
 
@@ -168,6 +170,10 @@ Presentation-agent and diagram-agent refresh:
 - `site:github.com "chart visualization skills" AntV agent`
 - `site:github.com "natural language" GitHub data visualizations OSSInsight`
 - `GenAIScript Mermaid diagrams repair PDF CSV official docs`
+- `mcp-server-chart AntV MCP skills chart generation official`
+- `mcp-mermaid GitHub Mermaid MCP AI diagram chart`
+- `Markdown Viewer Agent Skills diagrams visualizations Markdown GitHub`
+- `AgentFigureGallery scientific plotting skill Codex Claude Code official`
 
 ## Selection Heuristics
 
@@ -199,6 +205,7 @@ Excluded if:
 - [worldbench/awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research) is useful for the broader AI auto-research landscape, including paper-to-slides/posters/videos/websites/social outputs.
 - [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills), [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer), and related academic skill collections are strong skill-registry surfaces for paper/report/figure workflows.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video), [ChaosRealmsAI/NextFrame](https://github.com/ChaosRealmsAI/NextFrame), [BintzGavin/helios](https://github.com/BintzGavin/helios), [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage), and [alecs5am/ralphy](https://github.com/alecs5am/ralphy) form a useful agent/programmatic-video cluster for HTML, structured timelines, and local MP4 rendering.
+- [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart), [hustcc/mcp-mermaid](https://github.com/hustcc/mcp-mermaid), [markdown-viewer/skills](https://github.com/markdown-viewer/skills), and [Dsadd4/AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) are useful support surfaces for agents that need chart, Mermaid, Markdown-native visualization, or scientific plotting references before generating final artifacts.
 - Commercial comparison pages around Gamma, Canva, Beautiful.ai, Decktopus, and Presentations.AI are plentiful, but most compare products rather than agent-native workflows.
 
 ## Added in the Three-Axis Pass
