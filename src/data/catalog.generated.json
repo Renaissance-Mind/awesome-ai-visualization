@@ -1,83 +1,83 @@
 {
-  "generatedAt": "2026-06-17T23:09:25+00:00",
-  "lastResearched": "2026-06-18",
+  "generatedAt": "2026-06-18T23:15:04+00:00",
+  "lastResearched": "2026-06-19",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 141,
-    "openSource": 50,
-    "saas": 36,
-    "modelApi": 60,
-    "examples": 629,
-    "effectAssets": 616,
-    "docs": 491
+    "total": 145,
+    "openSource": 51,
+    "saas": 37,
+    "modelApi": 61,
+    "examples": 636,
+    "effectAssets": 628,
+    "docs": 496
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 26,
-      "PDF/文档": 51,
-      "文本/想法": 59,
-      "数据/表格": 22,
-      "网页/搜索结果": 47,
+      "PDF/文档": 53,
+      "文本/想法": 62,
+      "数据/表格": 23,
+      "网页/搜索结果": 49,
       "新闻/资讯": 9,
-      "代码库": 19,
+      "代码库": 20,
       "知识库/个人资料": 7,
       "引用网络": 4,
       "Office 文档": 9,
-      "DSL/代码": 7,
+      "DSL/代码": 8,
       "代码/技术描述": 16,
       "数据库": 8,
       "任意/多源": 14
     },
     "toolForms": {
-      "开源应用/框架": 50,
+      "开源应用/框架": 51,
       "Agent Skill": 19,
       "Skill 集合": 12,
       "数据集/评测": 2,
       "Bot/助手": 4,
-      "产品/SaaS": 36,
+      "产品/SaaS": 37,
       "研究原型": 4,
       "API/SDK/库": 9,
-      "MCP Server": 6,
+      "MCP Server": 10,
       "Awesome/索引": 12
     },
     "outputForms": {
       "图形摘要/信息图": 7,
-      "PPT/演示文稿": 38,
-      "网页/交互页面": 12,
+      "PPT/演示文稿": 41,
+      "网页/交互页面": 14,
       "问答/学习材料": 5,
       "报告/长文档": 15,
       "证据表": 6,
       "信息图/视觉报告": 10,
       "引用答案": 4,
-      "图表/仪表盘": 15,
+      "图表/仪表盘": 16,
       "思维导图/知识地图": 8,
       "表格/时间线": 1,
       "报告/简报": 17,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 10,
-      "代码地图/Repo Wiki": 16,
-      "架构图/流程图": 27,
-      "图表/Mermaid": 10,
-      "SVG/PNG/PDF": 9,
+      "SVG/PNG/PDF": 13,
+      "代码地图/Repo Wiki": 17,
+      "架构图/流程图": 29,
+      "图表/Mermaid": 11,
       "图表/渲染输出": 4,
       "白板/思维导图": 9,
       "视频/音频": 5,
       "工具索引": 14
     },
     "dependencies": {
-      "本地语言环境": 81,
-      "模型 API": 60,
+      "本地语言环境": 84,
+      "模型 API": 61,
       "文档解析/OCR": 23,
-      "渲染/导出": 71,
-      "GPU/加速器": 5,
-      "模板/素材": 45,
+      "渲染/导出": 75,
+      "GPU/加速器": 6,
+      "模板/素材": 46,
       "Agent 宿主": 32,
-      "系统工具": 11,
+      "系统工具": 12,
       "外部检索/数据源": 27,
-      "存储/索引": 18,
-      "浏览器/账号": 52,
-      "MCP Client": 7,
-      "代码分析工具": 16
+      "存储/索引": 19,
+      "浏览器/账号": 53,
+      "MCP Client": 11,
+      "代码分析工具": 17
     },
     "categories": {
       "paper-visualization": 7,
@@ -86,9 +86,9 @@
       "infographic-report": 7,
       "data-dashboard": 13,
       "literature-map": 4,
-      "presentation-tools": 21,
-      "codebase-map": 16,
-      "rendering-primitive": 2,
+      "presentation-tools": 23,
+      "codebase-map": 17,
+      "rendering-primitive": 3,
       "diagram-generation": 16,
       "video-generation": 5,
       "commercial-site": 10,
@@ -101,9 +101,9 @@
       "support_mindmap": 3,
       "docs": 4,
       "support_doc_parse": 8,
-      "presentation": 31,
-      "code": 16,
-      "support_render": 11,
+      "presentation": 33,
+      "code": 17,
+      "support_render": 12,
       "diagrams": 1,
       "data": 9,
       "video": 5,
@@ -6596,6 +6596,199 @@
       "effectAssetsCount": 1
     },
     {
+      "name": "Alai MCP Server",
+      "url": "https://github.com/getalai/alai-mcp-server",
+      "primaryUrl": "https://github.com/getalai/alai-mcp-server",
+      "homepage": "https://getalai.com",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-05-24",
+      "note": "Hosted Alai MCP endpoint and local wrapper for generating, editing, exporting, and adding speaker notes to designer-level presentations.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Get API Key",
+          "url": "https://app.getalai.com",
+          "source": "https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Documentation",
+          "url": "https://docs.getalai.com/api",
+          "source": "https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://getalai.com/api",
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://docs.getalai.com/",
+          "source": "https://getalai.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Pitch Deck Examples",
+          "url": "https://getalai.com/pitch-deck-examples/",
+          "source": "https://getalai.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Create Stunning Presentations with AI | Alai",
+          "url": "https://framerusercontent.com/images/L6gWNVRfSb2jfn4fPZ0BrvDAN3k.png",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Cagh1Gitkpphuvat3Erkyyyt0Qy",
+          "url": "https://framerusercontent.com/images/CaGh1GITkpphUVat3ErkYyyT0QY.png?width=1280&height=159",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "J1Bojaoluy7Clyjqhcol7Mrr8",
+          "url": "https://framerusercontent.com/images/J1boJaOluY7cLYjQHCOL7mrr8.png?width=1686&height=456",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Vz8Jl3Wtzksw0K8Pqnyyeqe0Mg",
+          "url": "https://framerusercontent.com/images/Vz8Jl3WtZkSW0K8PqNYYeqe0Mg.webp",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Mslvdxb2Yva45Wzqhjlmjdddhm",
+          "url": "https://framerusercontent.com/images/MsLVdxb2yvA45wZQHJlMjdDDHM.webp",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Gdubjqelu986Zyla2Gyma9Jsxk",
+          "url": "https://framerusercontent.com/images/GDUbjQelU986ZylA2gYma9jsxk.webp",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Agwqvpu5Czgrraqj4V0Rzapz2K",
+          "url": "https://framerusercontent.com/images/agWqvPU5CZgRraQJ4v0RzAPZ2k.webp",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "8Awgshw8Qksgurrdoy6Jmkeor0",
+          "url": "https://framerusercontent.com/images/8AWGshW8qksGuRRDOy6jMkEOr0.webp",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Xwzhuruynn1Oh1Axdetqeckvo",
+          "url": "https://framerusercontent.com/images/xWzHuRUynN1OH1axdEtQeckvo.webp?scale-down-to=512",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Lp5Gak6Xmhpg2Cpqez1Rgejalsm",
+          "url": "https://framerusercontent.com/images/Lp5gAk6XMhpG2cPQEZ1RgEjAlsM.webp?scale-down-to=512",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "0Oubxcnlq9Ey2Uc804Sgtck3Re0",
+          "url": "https://framerusercontent.com/images/0OubxcnlQ9eY2uC804SGTck3rE0.webp?scale-down-to=512",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "M5Bwcbjb0Qomab2X8J5Tod5S27G",
+          "url": "https://framerusercontent.com/images/m5BwcbJb0QoMab2x8j5tod5S27g.webp?scale-down-to=512",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "mcp-ppt",
+      "url": "https://github.com/ltc6539/mcp-ppt",
+      "primaryUrl": "https://github.com/ltc6539/mcp-ppt",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 66,
+      "license": "unknown",
+      "updated": "2026-03-30",
+      "note": "Python MCP server that creates, edits, saves, and exports PowerPoint presentations with slides, images, tables, outlines, base64 downloads, and SVG insertion.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "pptx-tools",
       "url": "https://github.com/jongalloway/pptx-tools",
       "primaryUrl": "https://github.com/jongalloway/pptx-tools",
@@ -7751,6 +7944,55 @@
       "docsCount": 5,
       "examplesCount": 2,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "local-deepwiki-mcp",
+      "url": "https://github.com/UrbanDiver/local-deepwiki-mcp",
+      "primaryUrl": "https://github.com/UrbanDiver/local-deepwiki-mcp",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出",
+        "GPU/加速器"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-05-21",
+      "note": "Local privacy-focused MCP server that indexes private repositories, generates DeepWiki-style documentation, exports HTML/PDF with Mermaid diagrams, and offers interactive codemaps.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "platform.openai.com/api-keys",
+          "url": "https://platform.openai.com/api-keys",
+          "source": "https://raw.githubusercontent.com/UrbanDiver/local-deepwiki-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "PocketFlow-Tutorial-Codebase-Knowledge",
@@ -9422,6 +9664,85 @@
       "docsCount": 0,
       "examplesCount": 1,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "mcp-media-forge",
+      "url": "https://github.com/PavelGuzenfeld/mcp-media-forge",
+      "primaryUrl": "https://github.com/PavelGuzenfeld/mcp-media-forge",
+      "homepage": "https://www.npmjs.com/package/mcp-media-forge",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-03-11",
+      "note": "MCP server that renders Mermaid, D2, Graphviz, Vega-Lite, self-contained HTML pages, and HTML slide decks into embeddable assets for technical docs.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/",
+          "url": "https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`mermaid/flowchart.mmd`",
+          "url": "https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/mermaid/flowchart.mmd",
+          "source": "https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`mermaid/sequence.mmd`",
+          "url": "https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/mermaid/sequence.mmd",
+          "source": "https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`d2/architecture.d2`",
+          "url": "https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/d2/architecture.d2",
+          "source": "https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`graphviz/dependencies.dot`",
+          "url": "https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/graphviz/dependencies.dot",
+          "source": "https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`vegalite/bar-chart.json`",
+          "url": "https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/vegalite/bar-chart.json",
+          "source": "https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 6,
+      "effectAssetsCount": 0
     },
     {
       "name": "Markdown Viewer Agent Skills",
