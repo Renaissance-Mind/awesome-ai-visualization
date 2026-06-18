@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-18.
+Last researched: 2026-06-19.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -13,6 +13,8 @@ Update on 2026-06-16: refreshed the presentation-agent and diagram-agent surface
 Update on 2026-06-17: refreshed the data-dashboard, GenBI, chart-skill, OSS analytics, and scripted Mermaid support surface from official GitHub repositories, docs, package metadata, and project pages. This pass added WrenAI, AntV chart-visualization-skills, OSSInsight, and GenAIScript.
 
 Update on 2026-06-18: refreshed agent-facing chart, Mermaid, Markdown visualization, and scientific plotting support from official GitHub repositories, npm package links, and dataset pages. This pass added AntV mcp-server-chart, hustcc mcp-mermaid, Markdown Viewer Agent Skills, and AgentFigureGallery.
+
+Update on 2026-06-19: refreshed presentation MCP, local code-wiki, and agent rendering/export surfaces from official GitHub repositories, README files, npm package links, and product pages. This pass added Alai MCP Server, mcp-ppt, local-deepwiki-mcp, and mcp-media-forge.
 
 ## Search Surfaces
 
@@ -174,6 +176,11 @@ Presentation-agent and diagram-agent refresh:
 - `mcp-mermaid GitHub Mermaid MCP AI diagram chart`
 - `Markdown Viewer Agent Skills diagrams visualizations Markdown GitHub`
 - `AgentFigureGallery scientific plotting skill Codex Claude Code official`
+- `site:github.com MCP presentation slides generator AI PowerPoint 2026`
+- `getalai alai-mcp-server AI presentation maker MCP official`
+- `mcp-media-forge MCP Mermaid D2 Graphviz Vega HTML slides official`
+- `local-deepwiki-mcp local DeepWiki MCP Mermaid PDF export official`
+- `mcp-ppt PowerPoint MCP python-pptx official`
 
 ## Selection Heuristics
 
@@ -206,6 +213,7 @@ Excluded if:
 - [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills), [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer), and related academic skill collections are strong skill-registry surfaces for paper/report/figure workflows.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video), [ChaosRealmsAI/NextFrame](https://github.com/ChaosRealmsAI/NextFrame), [BintzGavin/helios](https://github.com/BintzGavin/helios), [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage), and [alecs5am/ralphy](https://github.com/alecs5am/ralphy) form a useful agent/programmatic-video cluster for HTML, structured timelines, and local MP4 rendering.
 - [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart), [hustcc/mcp-mermaid](https://github.com/hustcc/mcp-mermaid), [markdown-viewer/skills](https://github.com/markdown-viewer/skills), and [Dsadd4/AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) are useful support surfaces for agents that need chart, Mermaid, Markdown-native visualization, or scientific plotting references before generating final artifacts.
+- [getalai/alai-mcp-server](https://github.com/getalai/alai-mcp-server), [ltc6539/mcp-ppt](https://github.com/ltc6539/mcp-ppt), [UrbanDiver/local-deepwiki-mcp](https://github.com/UrbanDiver/local-deepwiki-mcp), and [PavelGuzenfeld/mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge) fill MCP gaps around hosted presentation generation, local PowerPoint creation, private repo wiki/codemap generation, and deterministic rendering/export for diagrams, charts, HTML pages, and slide decks.
 - Commercial comparison pages around Gamma, Canva, Beautiful.ai, Decktopus, and Presentations.AI are plentiful, but most compare products rather than agent-native workflows.
 
 ## Added in the Three-Axis Pass
@@ -240,6 +248,13 @@ Excluded if:
 - [chart-visualization-skills](https://github.com/antvis/chart-visualization-skills): AntV skill collection for agent-generated charts, infographics, narrative data reports, S2 tables, G2 charts, and G6 graphs.
 - [OSSInsight](https://github.com/pingcap/ossinsight): open-source GitHub event analytics engine with natural-language data explorer, SQL, visualizations, repo analytics, rankings, and trend dashboards.
 - [GenAIScript](https://github.com/microsoft/genaiscript): scriptable LLM workflow framework that ingests PDFs, DOCX, CSV, XLSX, files, and code and can generate/repair Mermaid diagrams.
+
+## Added in the 2026-06-19 Daily Refresh
+
+- [Alai MCP Server](https://github.com/getalai/alai-mcp-server): hosted AI presentation-maker MCP endpoint plus local wrapper for generating, editing, exporting, and adding speaker notes to decks.
+- [mcp-ppt](https://github.com/ltc6539/mcp-ppt): Python MCP server for creating, editing, saving, outlining, and exporting PowerPoint presentations with slides, images, tables, and SVG insertion.
+- [local-deepwiki-mcp](https://github.com/UrbanDiver/local-deepwiki-mcp): local privacy-focused MCP server for private-repo wiki generation, RAG Q&A, architecture health, HTML/PDF export, Mermaid diagrams, and interactive codemaps.
+- [mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge): MCP renderer for Mermaid, D2, Graphviz, Vega-Lite, self-contained HTML reports/pages, and HTML slide decks that agents can embed in technical documentation.
 
 ## Early Market Read
 

@@ -1,4 +1,4 @@
-generated_at: '2026-06-17T23:09:25+00:00'
+generated_at: '2026-06-18T23:15:04+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 141
-  fetched_sources_ok: 195
-  fetched_sources_failed: 8
-  official_examples: 629
-  official_effect_assets: 616
-  official_docs: 491
+  entries: 145
+  fetched_sources_ok: 200
+  fetched_sources_failed: 9
+  official_examples: 636
+  official_effect_assets: 628
+  official_docs: 496
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -7231,6 +7231,162 @@ entries:
   - Add professional slide
   - Apply theme to entire presentation
   - Enhance existing slide
+- name: Alai MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/getalai/alai-mcp-server
+  homepage: https://getalai.com
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Hosted Alai MCP endpoint and local wrapper for generating, editing, exporting, and adding speaker notes to
+    designer-level presentations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Alai - AI Presentation Maker MCP Server
+    bytes: 6852
+  - kind: homepage
+    url: https://getalai.com/
+    final_url: https://getalai.com/
+    status: 200
+    content_type: text/html
+    title: Create Stunning Presentations with AI | Alai
+    description: Design and refine beautiful presentations instantly using Alai's AI presentation maker. Start free and turn
+      your ideas into professional decks in seconds.
+    bytes: 926563
+  official_examples:
+  - kind: example
+    title: Pitch Deck Examples
+    url: https://getalai.com/pitch-deck-examples/
+    source: https://getalai.com/
+  official_docs:
+  - kind: docs
+    title: Get API Key
+    url: https://app.getalai.com
+    source: https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: API Documentation
+    url: https://docs.getalai.com/api
+    source: https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://getalai.com/api
+    source: https://getalai.com/
+  - kind: docs
+    title: API
+    url: https://docs.getalai.com/
+    source: https://getalai.com/
+  official_effect_assets:
+  - kind: image
+    title: Create Stunning Presentations with AI | Alai
+    url: https://framerusercontent.com/images/L6gWNVRfSb2jfn4fPZ0BrvDAN3k.png
+    source: https://getalai.com/
+  - kind: image
+    title: Cagh1Gitkpphuvat3Erkyyyt0Qy
+    url: https://framerusercontent.com/images/CaGh1GITkpphUVat3ErkYyyT0QY.png?width=1280&height=159
+    source: https://getalai.com/
+  - kind: image
+    title: J1Bojaoluy7Clyjqhcol7Mrr8
+    url: https://framerusercontent.com/images/J1boJaOluY7cLYjQHCOL7mrr8.png?width=1686&height=456
+    source: https://getalai.com/
+  - kind: image
+    title: Vz8Jl3Wtzksw0K8Pqnyyeqe0Mg
+    url: https://framerusercontent.com/images/Vz8Jl3WtZkSW0K8PqNYYeqe0Mg.webp
+    source: https://getalai.com/
+  - kind: image
+    title: Mslvdxb2Yva45Wzqhjlmjdddhm
+    url: https://framerusercontent.com/images/MsLVdxb2yvA45wZQHJlMjdDDHM.webp
+    source: https://getalai.com/
+  - kind: image
+    title: Gdubjqelu986Zyla2Gyma9Jsxk
+    url: https://framerusercontent.com/images/GDUbjQelU986ZylA2gYma9jsxk.webp
+    source: https://getalai.com/
+  - kind: image
+    title: Agwqvpu5Czgrraqj4V0Rzapz2K
+    url: https://framerusercontent.com/images/agWqvPU5CZgRraQJ4v0RzAPZ2k.webp
+    source: https://getalai.com/
+  - kind: image
+    title: 8Awgshw8Qksgurrdoy6Jmkeor0
+    url: https://framerusercontent.com/images/8AWGshW8qksGuRRDOy6jMkEOr0.webp
+    source: https://getalai.com/
+  - kind: image
+    title: Xwzhuruynn1Oh1Axdetqeckvo
+    url: https://framerusercontent.com/images/xWzHuRUynN1OH1axdEtQeckvo.webp?scale-down-to=512
+    source: https://getalai.com/
+  - kind: image
+    title: Lp5Gak6Xmhpg2Cpqez1Rgejalsm
+    url: https://framerusercontent.com/images/Lp5gAk6XMhpG2cPQEZ1RgEjAlsM.webp?scale-down-to=512
+    source: https://getalai.com/
+  - kind: image
+    title: 0Oubxcnlq9Ey2Uc804Sgtck3Re0
+    url: https://framerusercontent.com/images/0OubxcnlQ9eY2uC804SGTck3rE0.webp?scale-down-to=512
+    source: https://getalai.com/
+  - kind: image
+    title: M5Bwcbjb0Qomab2X8J5Tod5S27G
+    url: https://framerusercontent.com/images/m5BwcbJb0QoMab2x8j5tod5S27g.webp?scale-down-to=512
+    source: https://getalai.com/
+  official_links:
+  - kind: docs
+    title: Get API Key
+    url: https://app.getalai.com
+    source: https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: API Documentation
+    url: https://docs.getalai.com/api
+    source: https://raw.githubusercontent.com/getalai/alai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://getalai.com/api
+    source: https://getalai.com/
+  - kind: docs
+    title: API
+    url: https://docs.getalai.com/
+    source: https://getalai.com/
+  - kind: example
+    title: Pitch Deck Examples
+    url: https://getalai.com/pitch-deck-examples/
+    source: https://getalai.com/
+  source_headings:
+  - Alai - AI Presentation Maker MCP Server
+  - Example Usage
+  - Generate a Presentation
+  - Export Presentation
+- name: mcp-ppt
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/ltc6539/mcp-ppt
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Python MCP server that creates, edits, saves, and exports PowerPoint presentations with slides, images, tables,
+    outlines, base64 downloads, and SVG insertion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ltc6539/mcp-ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ltc6539/mcp-ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PPT maker MCP server
+    bytes: 7190
+  source_headings:
+  - 1. Create Presentation
+  - 2. Add Title Slide
+  - 3. Add Content Slide
+  - 4. Add Section Slide
+  - 5. Add Image Slide
+  - 6. Add Table Slide
+  - 7. Save Presentation
+  - 8. Get Presentation Download Link
+  - 9. Get Presentation Info
+  - 10. Get Presentation Outline
+  - 11. Remove Slide
 - name: pptx-tools
   category: presentation-tools
   surface: mcp
@@ -8366,6 +8522,41 @@ entries:
     title: Docs
     url: https://grok-wiki.com/public/docs
     source: https://grok-wiki.com/
+- name: local-deepwiki-mcp
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/UrbanDiver/local-deepwiki-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  - GPU/加速器
+  catalog_note: Local privacy-focused MCP server that indexes private repositories, generates DeepWiki-style documentation,
+    exports HTML/PDF with Mermaid diagrams, and offers interactive codemaps.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/UrbanDiver/local-deepwiki-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/UrbanDiver/local-deepwiki-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Local DeepWiki MCP Server
+    bytes: 21019
+  official_docs:
+  - kind: docs
+    title: platform.openai.com/api-keys
+    url: https://platform.openai.com/api-keys
+    source: https://raw.githubusercontent.com/UrbanDiver/local-deepwiki-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: platform.openai.com/api-keys
+    url: https://platform.openai.com/api-keys
+    source: https://raw.githubusercontent.com/UrbanDiver/local-deepwiki-mcp/HEAD/README.md
+  source_headings:
+  - Quickstart
+  - Example Configurations
 - name: PocketFlow-Tutorial-Codebase-Knowledge
   category: codebase-map
   surface: open-source
@@ -10146,6 +10337,90 @@ entries:
   source_headings:
   - 🤖 Usage
   - 🐳 Docker Usage
+- name: mcp-media-forge
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/PavelGuzenfeld/mcp-media-forge
+  homepage: https://www.npmjs.com/package/mcp-media-forge
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP server that renders Mermaid, D2, Graphviz, Vega-Lite, self-contained HTML pages, and HTML slide decks
+    into embeddable assets for technical docs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Media Forge
+    bytes: 13371
+  - kind: homepage
+    url: https://www.npmjs.com/package/mcp-media-forge
+    final_url: https://www.npmjs.com/package/mcp-media-forge
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: example
+    title: examples/
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`mermaid/flowchart.mmd`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/mermaid/flowchart.mmd
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`mermaid/sequence.mmd`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/mermaid/sequence.mmd
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`d2/architecture.d2`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/d2/architecture.d2
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`graphviz/dependencies.dot`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/graphviz/dependencies.dot
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`vegalite/bar-chart.json`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/vegalite/bar-chart.json
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  official_links:
+  - kind: example
+    title: examples/
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`mermaid/flowchart.mmd`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/mermaid/flowchart.mmd
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`mermaid/sequence.mmd`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/mermaid/sequence.mmd
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`d2/architecture.d2`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/d2/architecture.d2
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`graphviz/dependencies.dot`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/graphviz/dependencies.dot
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  - kind: example
+    title: '`vegalite/bar-chart.json`'
+    url: https://github.com/PavelGuzenfeld/mcp-media-forge/blob/HEAD/examples/vegalite/bar-chart.json
+    source: https://raw.githubusercontent.com/PavelGuzenfeld/mcp-media-forge/HEAD/README.md
+  source_headings:
+  - Output Gallery
+  - Mermaid Sequence Diagram
+  - D2 Architecture Diagram
+  - Diagram & Chart Renderers (Docker)
+  - 1. Start the rendering container (for diagram tools)
+  - render_slides
+  - Examples
 - name: Markdown Viewer Agent Skills
   category: diagram-generation
   surface: skill
