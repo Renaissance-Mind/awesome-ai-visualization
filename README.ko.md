@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-141_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--18-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-150_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--20-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -48,6 +48,7 @@
 | [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) [![Star](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/scientific-agent-skills/stargazers) | 논문/연구 | Skill 모음 | 그래픽 초록/인포그래픽 / PPT/덱 / 웹/인터랙티브 페이지 | Agent 호스트 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
 | [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) [![Star](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-writer?style=flat&logo=github&label=Star)](https://github.com/K-Dense-AI/claude-scientific-writer/stargazers) | 논문/연구 | Agent Skill | 긴 보고서 / 근거 표 | Agent 호스트 / 모델 API / 외부 검색/데이터 / 템플릿/자산 |
 | [SciGA](https://github.com/IyatomiLab/SciGA) [![Star](https://img.shields.io/github/stars/IyatomiLab/SciGA?style=flat&logo=github&label=Star)](https://github.com/IyatomiLab/SciGA/stargazers) | 논문/연구 | 데이터셋/벤치마크 | 그래픽 초록/인포그래픽 / PPT/덱 / 웹/인터랙티브 페이지 | 로컬 런타임 / 문서 파싱/OCR / GPU/가속기 |
+| [Academic Figures](https://github.com/sai-tv/academic-figures) [![Star](https://img.shields.io/github/stars/sai-tv/academic-figures?style=flat&logo=github&label=Star)](https://github.com/sai-tv/academic-figures/stargazers) | 논문/연구 자료 / 텍스트/아이디어 | Agent Skill | 그래픽 초록/인포그래픽 / SVG/PNG/PDF | Agent 호스트 / 모델 API / 렌더링/내보내기 / 템플릿/소재 |
 | [Paper2Slides](https://github.com/pchi123/Paper2Slides) [![Star](https://img.shields.io/github/stars/pchi123/Paper2Slides?style=flat&logo=github&label=Star)](https://github.com/pchi123/Paper2Slides/stargazers) | Papers/research | Open-source app/framework | Graphical abstract/infographic / PPT/deck | Local runtime / Document parsing/OCR / Rendering/export / Templates/assets |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher) [![Star](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat&logo=github&label=Star)](https://github.com/HKUDS/AI-Researcher/stargazers) | 논문/연구 | 연구 프로토타입 | 긴 보고서 / 근거 표 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / GPU/가속기 |
 | [Elicit](https://elicit.com/) | 논문/연구 | 제품/SaaS | 브리핑/보고서 / 근거 표 | 브라우저/계정 / 외부 검색/데이터 |
@@ -85,6 +86,7 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [Open Notebook](https://github.com/lfnovo/open-notebook) [![Star](https://img.shields.io/github/stars/lfnovo/open-notebook?style=flat&logo=github&label=Star)](https://github.com/lfnovo/open-notebook/stargazers) | PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 | 브리핑/보고서 / 마인드맵/지식 지도 / Q&A/학습 자료 | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 스토리지/인덱스 |
 | [SurfSense](https://github.com/MODSetter/SurfSense) [![Star](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat&logo=github&label=Star)](https://github.com/MODSetter/SurfSense/stargazers) | PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 | 브리핑/보고서 / 마인드맵/지식 지도 / Q&A/학습 자료 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 스토리지/인덱스 |
 | [NotebookLM](https://notebooklm.google/) | PDF/문서 / 웹/검색 / 지식 베이스 | 제품/SaaS / Bot/어시스턴트 | 브리핑/보고서 / 마인드맵/지식 지도 / Q&A/학습 자료 | 브라우저/계정 |
+| [NotebookLM AI Plugin](https://github.com/proyecto26/notebooklm-ai-plugin) [![Star](https://img.shields.io/github/stars/proyecto26/notebooklm-ai-plugin?style=flat&logo=github&label=Star)](https://github.com/proyecto26/notebooklm-ai-plugin/stargazers) | PDF/문서 / 웹/검색 / 지식 베이스 / 임의/다중 소스 | Agent Skill / Bot/어시스턴트 | PPT/프레젠테이션 / 비디오/오디오 / 마인드맵/지식맵 / 인포그래픽/비주얼 리포트 / 브리핑/리포트 / 표/타임라인 / Q&A/학습 자료 | Agent 호스트 / 브라우저/계정 / 로컬 런타임 / 문서 파싱/OCR / 외부 검색/데이터 / 렌더링/내보내기 |
 
 ### 코드베이스와 소프트웨어 시스템
 
@@ -133,6 +135,8 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
 | [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | Skill 모음 | 인포그래픽/시각 보고서 / 긴 보고서 | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 |
+| [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 설명 | Agent Skill | 웹/인터랙티브 페이지 / PPT/프레젠테이션 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
+| [Visual Explainer Skill](https://github.com/ericblue/visual-explainer-skill) [![Star](https://img.shields.io/github/stars/ericblue/visual-explainer-skill?style=flat&logo=github&label=Star)](https://github.com/ericblue/visual-explainer-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / 코드베이스 / 코드/기술 설명 | Agent Skill | 인포그래픽/비주얼 리포트 / 화이트보드/마인드맵 / PPT/프레젠테이션 / 아키텍처/흐름도 / 그래픽 초록/인포그래픽 | Agent 호스트 / 모델 API / 렌더링/내보내기 / 템플릿/소재 |
 | [Piktochart AI](https://piktochart.com/generative-ai/) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | 제품/SaaS | 인포그래픽/시각 보고서 / 긴 보고서 | 브라우저/계정 / 템플릿/자산 |
 | [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | 제품/SaaS | 인포그래픽/시각 보고서 / 긴 보고서 | 브라우저/계정 / 템플릿/자산 |
 | [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | 제품/SaaS | 인포그래픽/시각 보고서 / 긴 보고서 | 브라우저/계정 / 템플릿/자산 |
@@ -244,6 +248,7 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/문서 / 데이터/표 / 코드베이스 / DSL/코드 | API/SDK/라이브러리 | 다이어그램/Mermaid / 구조화 데이터/Markdown | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 렌더링/내보내기 |
 | [mcp-mermaid](https://github.com/hustcc/mcp-mermaid) [![Star](https://img.shields.io/github/stars/hustcc/mcp-mermaid?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-mermaid/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server | 다이어그램/Mermaid / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 | [mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge) [![Star](https://img.shields.io/github/stars/PavelGuzenfeld/mcp-media-forge?style=flat&logo=github&label=Star)](https://github.com/PavelGuzenfeld/mcp-media-forge/stargazers) | 텍스트/아이디어 / 데이터/표 / DSL/코드 | MCP Server | 다이어그램/Mermaid / 아키텍처/흐름도 / 차트/대시보드 / 웹/인터랙티브 페이지 / PPT/덱 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 |
+| [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | 텍스트/아이디어 / 데이터/표 / DSL/코드 | API/SDK/라이브러리 | 인포그래픽/비주얼 리포트 / 차트/렌더링 출력 / SVG/PNG/PDF | 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
 | [Markdown Viewer Agent Skills](https://github.com/markdown-viewer/skills) [![Star](https://img.shields.io/github/stars/markdown-viewer/skills?style=flat&logo=github&label=Star)](https://github.com/markdown-viewer/skills/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 텍스트 | Skill 모음 | 아키텍처/흐름도 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 마인드맵/지식 지도 / 렌더링된 차트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) [![Star](https://img.shields.io/github/stars/Dsadd4/AgentFigureGallery?style=flat&logo=github&label=Star)](https://github.com/Dsadd4/AgentFigureGallery/stargazers) | 논문/연구 / 데이터/표 | Agent Skill / 데이터셋/벤치마크 | 렌더링된 차트 / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
 

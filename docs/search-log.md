@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-19.
+Last researched: 2026-06-20.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -15,6 +15,8 @@ Update on 2026-06-17: refreshed the data-dashboard, GenBI, chart-skill, OSS anal
 Update on 2026-06-18: refreshed agent-facing chart, Mermaid, Markdown visualization, and scientific plotting support from official GitHub repositories, npm package links, and dataset pages. This pass added AntV mcp-server-chart, hustcc mcp-mermaid, Markdown Viewer Agent Skills, and AgentFigureGallery.
 
 Update on 2026-06-19: refreshed presentation MCP, local code-wiki, and agent rendering/export surfaces from official GitHub repositories, README files, npm package links, and product pages. This pass added Alai MCP Server, mcp-ppt, local-deepwiki-mcp, and mcp-media-forge.
+
+Update on 2026-06-20: refreshed paper-figure, NotebookLM artifact, content-to-visual, and AI-friendly infographic rendering surfaces from official GitHub repositories and project pages. This pass added Academic Figures, NotebookLM AI Plugin, Visualize, Visual Explainer Skill, and AntV Infographic.
 
 ## Search Surfaces
 
