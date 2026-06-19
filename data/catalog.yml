@@ -1,4 +1,4 @@
-last_researched: '2026-06-19'
+last_researched: '2026-06-20'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -164,6 +164,62 @@ entries:
   - 报告/长文档
   catalog_section: main
   readme_group: text_visual
+- name: Visualize
+  url: https://github.com/careerhackeralex/visualize
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 163
+  license: MIT
+  updated: '2026-06-20'
+  note: Claude Code skill that turns natural-language briefs, CSVs, pitch ideas, and explainers into self-contained HTML slides, dashboards, infographics, flowcharts, and timelines.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: text_visual
+- name: Visual Explainer Skill
+  url: https://github.com/ericblue/visual-explainer-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 24
+  license: MIT
+  updated: '2026-06-20'
+  note: Claude Code skill that converts topics, documents, meeting notes, codebases, or Mermaid diagrams into whiteboard sketches, infographics, slides, diagrams, mind maps, and UI mockups through image-generation prompts.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 白板/思维导图
+  - PPT/演示文稿
+  - 架构图/流程图
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: text_visual
 - name: scientific-agent-skills
   url: https://github.com/K-Dense-AI/scientific-agent-skills
   homepage: https://k-dense.ai
@@ -232,6 +288,29 @@ entries:
   - 图形摘要/信息图
   - PPT/演示文稿
   - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: Academic Figures
+  url: https://github.com/sai-tv/academic-figures
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-06-20'
+  note: Claude skill for turning research stories into journal-compliant, editable SVG academic figures and graphical abstracts.
+  source_types:
+  - 论文/科研资料
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: paper
 - name: GPT Researcher
@@ -622,6 +701,39 @@ entries:
   output_forms:
   - 报告/简报
   - 思维导图/知识地图
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: NotebookLM AI Plugin
+  url: https://github.com/proyecto26/notebooklm-ai-plugin
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 56
+  license: MIT
+  updated: '2026-06-20'
+  note: Agent plugin for NotebookLM that manages sources and generates slide decks, videos, mind maps, infographics, reports, quizzes, flashcards, and data tables from notebooks.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 视频/音频
+  - 思维导图/知识地图
+  - 信息图/视觉报告
+  - 报告/简报
+  - 表格/时间线
   - 问答/学习材料
   catalog_section: main
   readme_group: docs
@@ -2208,6 +2320,31 @@ entries:
   - 图表/仪表盘
   - 网页/交互页面
   - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: AntV Infographic
+  url: https://github.com/antvis/infographic
+  homepage: https://infographic.antv.vision/
+  category: rendering-primitive
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 5500
+  license: MIT
+  updated: '2026-05-06'
+  note: AI-friendly declarative infographic generation and rendering framework with templates, streaming rendering, editable output, SVG export, and agent skill integration.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 信息图/视觉报告
+  - 图表/渲染输出
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render

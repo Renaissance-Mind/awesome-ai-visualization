@@ -1,4 +1,4 @@
-generated_at: '2026-06-18T23:15:04+00:00'
+generated_at: '2026-06-19T23:07:31+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 145
-  fetched_sources_ok: 200
+  entries: 150
+  fetched_sources_ok: 206
   fetched_sources_failed: 9
-  official_examples: 636
+  official_examples: 644
   official_effect_assets: 628
-  official_docs: 496
+  official_docs: 506
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -16477,3 +16477,244 @@ entries:
   source_headings:
   - Benchmarks
   - Scientific Slides and Poster Generation
+- name: Academic Figures
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/sai-tv/academic-figures
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill for turning research stories into journal-compliant, editable SVG academic figures and graphical abstracts.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/sai-tv/academic-figures
+    final_url: https://github.com/sai-tv/academic-figures
+    status: 200
+    content_type: text/html
+    title: Academic Figures — Claude Skill for Publication-Ready Scientific Illustrations
+  official_examples:
+  - kind: example
+    title: Academic figure examples
+    url: https://github.com/sai-tv/academic-figures/tree/master/examples
+    source: https://github.com/sai-tv/academic-figures
+  official_docs:
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/sai-tv/academic-figures/blob/master/SKILL.md
+    source: https://github.com/sai-tv/academic-figures
+  - kind: docs
+    title: Journal and figure references
+    url: https://github.com/sai-tv/academic-figures/tree/master/references
+    source: https://github.com/sai-tv/academic-figures
+  official_links:
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/sai-tv/academic-figures/blob/master/SKILL.md
+    source: https://github.com/sai-tv/academic-figures
+  - kind: example
+    title: Academic figure examples
+    url: https://github.com/sai-tv/academic-figures/tree/master/examples
+    source: https://github.com/sai-tv/academic-figures
+  source_headings:
+  - What It Does
+  - Graphical Abstracts & TOC Graphics
+  - Editing the Output
+- name: NotebookLM AI Plugin
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/proyecto26/notebooklm-ai-plugin
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Agent plugin for NotebookLM that manages sources and generates slide decks, videos, mind maps, infographics, reports, quizzes, flashcards, and data tables from notebooks.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/proyecto26/notebooklm-ai-plugin
+    final_url: https://github.com/proyecto26/notebooklm-ai-plugin
+    status: 200
+    content_type: text/html
+    title: NotebookLM AI Plugin
+  official_examples:
+  - kind: example
+    title: Generate your first artifact
+    url: https://github.com/proyecto26/notebooklm-ai-plugin#generate-your-first-artifact
+    source: https://github.com/proyecto26/notebooklm-ai-plugin
+  - kind: example
+    title: Usage examples
+    url: https://github.com/proyecto26/notebooklm-ai-plugin#usage-examples
+    source: https://github.com/proyecto26/notebooklm-ai-plugin
+  official_docs:
+  - kind: docs
+    title: Installation
+    url: https://github.com/proyecto26/notebooklm-ai-plugin#installation
+    source: https://github.com/proyecto26/notebooklm-ai-plugin
+  - kind: docs
+    title: Features
+    url: https://github.com/proyecto26/notebooklm-ai-plugin#features
+    source: https://github.com/proyecto26/notebooklm-ai-plugin
+  official_links:
+  - kind: docs
+    title: Installation
+    url: https://github.com/proyecto26/notebooklm-ai-plugin#installation
+    source: https://github.com/proyecto26/notebooklm-ai-plugin
+  - kind: example
+    title: Generate your first artifact
+    url: https://github.com/proyecto26/notebooklm-ai-plugin#generate-your-first-artifact
+    source: https://github.com/proyecto26/notebooklm-ai-plugin
+  source_headings:
+  - 9 Artifact Types
+  - Source Management
+  - Fast & Deep Research
+- name: Visualize
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/careerhackeralex/visualize
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns natural-language briefs, CSVs, pitch ideas, and explainers into self-contained HTML slides, dashboards, infographics, flowcharts, and timelines.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/careerhackeralex/visualize
+    final_url: https://github.com/careerhackeralex/visualize
+    status: 200
+    content_type: text/html
+    title: Visualize
+  official_examples:
+  - kind: example
+    title: Pitch deck, dashboard, and infographic prompts
+    url: https://github.com/careerhackeralex/visualize#what-it-does
+    source: https://github.com/careerhackeralex/visualize
+  - kind: example
+    title: Evaluation stress tests
+    url: https://github.com/careerhackeralex/visualize/blob/main/eval/stress-tests.md
+    source: https://github.com/careerhackeralex/visualize
+  official_docs:
+  - kind: docs
+    title: How it works
+    url: https://github.com/careerhackeralex/visualize#how-it-works
+    source: https://github.com/careerhackeralex/visualize
+  - kind: docs
+    title: Evaluation loop
+    url: https://github.com/careerhackeralex/visualize/blob/main/eval/LOOP.md
+    source: https://github.com/careerhackeralex/visualize
+  official_links:
+  - kind: example
+    title: Pitch deck, dashboard, and infographic prompts
+    url: https://github.com/careerhackeralex/visualize#what-it-does
+    source: https://github.com/careerhackeralex/visualize
+  - kind: docs
+    title: Evaluation loop
+    url: https://github.com/careerhackeralex/visualize/blob/main/eval/LOOP.md
+    source: https://github.com/careerhackeralex/visualize
+  source_headings:
+  - What It Does
+  - How It Works
+  - Quality Bar
+- name: Visual Explainer Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/ericblue/visual-explainer-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that converts topics, documents, meeting notes, codebases, or Mermaid diagrams into whiteboard sketches, infographics, slides, diagrams, mind maps, and UI mockups through image-generation prompts.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/ericblue/visual-explainer-skill
+    final_url: https://github.com/ericblue/visual-explainer-skill
+    status: 200
+    content_type: text/html
+    title: Visual Explainer Skill
+  official_examples:
+  - kind: example
+    title: Example gallery
+    url: https://github.com/ericblue/visual-explainer-skill#example-gallery
+    source: https://github.com/ericblue/visual-explainer-skill
+  official_docs:
+  - kind: docs
+    title: Design principles
+    url: https://github.com/ericblue/visual-explainer-skill#design-principles
+    source: https://github.com/ericblue/visual-explainer-skill
+  - kind: docs
+    title: Options
+    url: https://github.com/ericblue/visual-explainer-skill#options
+    source: https://github.com/ericblue/visual-explainer-skill
+  official_links:
+  - kind: example
+    title: Example gallery
+    url: https://github.com/ericblue/visual-explainer-skill#example-gallery
+    source: https://github.com/ericblue/visual-explainer-skill
+  - kind: docs
+    title: Options
+    url: https://github.com/ericblue/visual-explainer-skill#options
+    source: https://github.com/ericblue/visual-explainer-skill
+  source_headings:
+  - Example Gallery
+  - Design Principles
+  - Options
+- name: AntV Infographic
+  category: rendering-primitive
+  surface: library
+  primary_url: https://github.com/antvis/infographic
+  homepage: https://infographic.antv.vision/
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-friendly declarative infographic generation and rendering framework with templates, streaming rendering, editable output, SVG export, and agent skill integration.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/antvis/infographic
+    final_url: https://github.com/antvis/infographic
+    status: 200
+    content_type: text/html
+    title: AntV Infographic
+  - kind: homepage
+    url: https://infographic.antv.vision/
+    final_url: https://infographic.antv.vision/
+    status: 200
+    content_type: text/html
+    title: AntV Infographic
+  official_examples:
+  - kind: example
+    title: Quick Start demo
+    url: https://github.com/antvis/infographic#quick-start
+    source: https://github.com/antvis/infographic
+  - kind: example
+    title: Streaming rendering
+    url: https://github.com/antvis/infographic#streaming-rendering
+    source: https://github.com/antvis/infographic
+  official_docs:
+  - kind: docs
+    title: Installation
+    url: https://github.com/antvis/infographic#installation
+    source: https://github.com/antvis/infographic
+  - kind: docs
+    title: Skills integration
+    url: https://github.com/antvis/infographic#skills-integration
+    source: https://github.com/antvis/infographic
+  official_links:
+  - kind: docs
+    title: AntV Infographic homepage
+    url: https://infographic.antv.vision/
+    source: https://github.com/antvis/infographic
+  - kind: example
+    title: Quick Start demo
+    url: https://github.com/antvis/infographic#quick-start
+    source: https://github.com/antvis/infographic
+  source_headings:
+  - Features
+  - Streaming Rendering
+  - Skills Integration
