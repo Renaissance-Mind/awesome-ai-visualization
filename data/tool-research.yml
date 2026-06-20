@@ -1,4 +1,4 @@
-generated_at: '2026-06-19T23:07:31+00:00'
+generated_at: '2026-06-20T23:06:56+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 150
-  fetched_sources_ok: 206
+  entries: 156
+  fetched_sources_ok: 218
   fetched_sources_failed: 9
-  official_examples: 644
-  official_effect_assets: 628
-  official_docs: 506
+  official_examples: 654
+  official_effect_assets: 651
+  official_docs: 527
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -16718,3 +16718,570 @@ entries:
   - Features
   - Streaming Rendering
   - Skills Integration
+- name: PaperBanana
+  category: paper-visualization
+  surface: open-source
+  primary_url: https://github.com/dwzhu-pku/PaperBanana
+  homepage: https://dwzhu-pku.github.io/PaperBanana/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Reference-driven multi-agent framework for turning scientific method text and figure captions into publication-quality
+    diagrams, plots, and refined image outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PaperBanana 🍌
+    bytes: 21674
+  - kind: homepage
+    url: https://dwzhu-pku.github.io/PaperBanana/
+    final_url: https://dwzhu-pku.github.io/PaperBanana/
+    status: 200
+    content_type: text/html
+    title: 'PaperBanana: Automating Academic Illustration for AI Scientists'
+    description: 'PaperBanana: Automating Academic Illustration for AI Scientists'
+    bytes: 23687
+  official_examples:
+  - kind: paper
+    title: PaperBananaBench
+    url: https://huggingface.co/datasets/dwzhu/PaperBananaBench
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  - kind: paper
+    title: PaperBananaDiagramPDFs
+    url: https://huggingface.co/datasets/dwzhu/PaperBananaDiagramPDFs
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  - kind: paper
+    title: arXiv
+    url: https://arxiv.org/abs/2601.23265
+    source: https://dwzhu-pku.github.io/PaperBanana/
+  official_effect_assets:
+  - kind: image
+    title: Demo on HF Spaces
+    url: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/spaces-on-hf-xl.png
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  - kind: image
+    title: Examples
+    url: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/teaser_figure.jpg
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  - kind: image
+    title: PaperBanana Workflow
+    url: https://dwzhu-pku.github.io/PaperBanana/static/images/teaser_figure.jpg
+    source: https://dwzhu-pku.github.io/PaperBanana/
+  - kind: image
+    title: Main Results of PaperBanana
+    url: https://dwzhu-pku.github.io/PaperBanana/static/images/main_results.png
+    source: https://dwzhu-pku.github.io/PaperBanana/
+  - kind: image
+    title: Statistical Plots Comparison
+    url: https://dwzhu-pku.github.io/PaperBanana/static/images/plot_vanilla_vs_ours_v2.jpg
+    source: https://dwzhu-pku.github.io/PaperBanana/
+  - kind: image
+    title: PaperBanana Framework
+    url: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/method_diagram.png
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  official_links:
+  - kind: paper
+    title: PaperBananaBench
+    url: https://huggingface.co/datasets/dwzhu/PaperBananaBench
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  - kind: paper
+    title: PaperBananaDiagramPDFs
+    url: https://huggingface.co/datasets/dwzhu/PaperBananaDiagramPDFs
+    source: https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md
+  - kind: paper
+    title: arXiv
+    url: https://arxiv.org/abs/2601.23265
+    source: https://dwzhu-pku.github.io/PaperBanana/
+  source_headings:
+  - 'Step3: Downloading the Dataset'
+  - 'Option 2: Interactive Demo (Streamlit)'
+  - Basic usage with default settings
+  - Advanced usage with custom settings
+  - Visualization Tools
+  - Interactive Demo
+- name: Slides AI Plugin
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/proyecto26/slides-ai-plugin
+  homepage: https://proyecto26.com/slides-ai-plugin/
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent plugin for Claude, OpenClaw, and compatible hosts that turns a prompt into animated HTML slides or editable
+    PowerPoint decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/proyecto26/slides-ai-plugin/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/proyecto26/slides-ai-plugin/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Slides AI Plugin
+    bytes: 19532
+  - kind: homepage
+    url: https://proyecto26.com/slides-ai-plugin/
+    final_url: https://proyecto26.com/slides-ai-plugin/
+    status: 200
+    content_type: text/html
+    title: Slides AI Plugin — Getting Started
+    bytes: 45009
+  official_docs:
+  - kind: docs
+    title: contribution guide
+    url: https://github.com/proyecto26/.github/blob/master/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/proyecto26/slides-ai-plugin/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: contribution guide
+    url: https://github.com/proyecto26/.github/blob/master/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/proyecto26/slides-ai-plugin/HEAD/README.md
+  source_headings:
+  - Slides AI Plugin
+  - Slide Type Vocabulary
+  - Usage Examples
+  official_effect_assets: []
+- name: next-ai-draw-io
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/DayuanJiang/next-ai-draw-io
+  homepage: https://next-ai-drawio.jiang.jp/
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Next.js draw.io-style application for creating, modifying, and enhancing diagrams through natural-language
+    AI commands.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Next AI Draw.io
+    bytes: 11225
+  - kind: homepage
+    url: https://next-ai-drawio.jiang.jp/en
+    final_url: https://next-ai-drawio.jiang.jp/en
+    status: 200
+    content_type: text/html
+    title: Next AI Draw.io - AI-Powered Diagram Generator
+    description: Create AWS architecture diagrams, flowcharts, and technical diagrams using AI. Free online tool integrating
+      draw.io with AI assistance for professional diagram creation.
+    bytes: 42000
+  official_docs:
+  - kind: docs
+    title: 中文
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/cn/README_CN.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/ja/README_JA.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Go to Docker Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/docker.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Provider Configuration Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/ai-providers.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Tencent EdgeOne Pages documentation
+    url: https://pages.edgeone.ai/document/deployment-overview
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Next.js deployment documentation
+    url: https://nextjs.org/docs/app/building-your-application/deploying
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Go to Cloudflare Deploy Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/cloudflare-deploy.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Admin Panel Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/admin-panel.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/FAQ.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Doubao Color
+    url: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/main/public/doubao-color.png
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: image
+    title: Next AI Draw.io - AI-Powered Diagram Generator
+    url: https://next-ai-drawio.jiang.jp/architecture.png
+    source: https://next-ai-drawio.jiang.jp/en
+  official_links:
+  - kind: docs
+    title: 中文
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/cn/README_CN.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/ja/README_JA.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Go to Docker Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/docker.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Provider Configuration Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/ai-providers.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Tencent EdgeOne Pages documentation
+    url: https://pages.edgeone.ai/document/deployment-overview
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Next.js deployment documentation
+    url: https://nextjs.org/docs/app/building-your-application/deploying
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Go to Cloudflare Deploy Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/cloudflare-deploy.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: Admin Panel Guide
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/admin-panel.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/FAQ.md
+    source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
+  source_headings:
+  - Examples
+- name: Vanna
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/vanna-ai/vanna
+  homepage: https://vanna.ai/docs/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Agentic retrieval text-to-SQL system that turns natural-language database questions into SQL, interactive
+    tables, Plotly charts, and natural-language summaries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'Vanna 2.0: Turn Questions into Data Insights'
+    bytes: 9578
+  - kind: homepage
+    url: https://vanna.ai/docs
+    final_url: https://vanna.ai/docs
+    status: 200
+    content_type: text/html
+    title: Documentation - Vanna AI
+    description: Build AI agents that ship to production. User-scoped execution, rich UI components, and quota management
+      built-in.
+    bytes: 24574
+  official_examples:
+  - kind: example
+    title: Quickstart with Sample Database 30 sec
+    url: https://vanna.ai/docs/quick-start
+    source: https://vanna.ai/docs
+  official_docs:
+  - kind: docs
+    title: Migration Guide
+    url: https://github.com/vanna-ai/vanna/blob/HEAD/MIGRATION_GUIDE.md
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://vanna.ai/docs/quick-start
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Configure
+    url: https://vanna.ai/docs/configure
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Full Documentation
+    url: https://vanna.ai/docs
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Vanna AI Documentation
+    url: https://vanna.ai/
+    source: https://vanna.ai/docs
+  - kind: docs
+    title: Migration from 0.x
+    url: https://vanna.ai/docs/migration
+    source: https://vanna.ai/docs
+  official_effect_assets:
+  - kind: image
+    title: Vanna2 Demo
+    url: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/img/architecture.png
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: image
+    title: Documentation - Vanna AI
+    url: https://vanna.ai/og/architecture.png
+    source: https://vanna.ai/docs
+  official_links:
+  - kind: docs
+    title: Migration Guide
+    url: https://github.com/vanna-ai/vanna/blob/HEAD/MIGRATION_GUIDE.md
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://vanna.ai/docs/quick-start
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Configure
+    url: https://vanna.ai/docs/configure
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Full Documentation
+    url: https://vanna.ai/docs
+    source: https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md
+  - kind: docs
+    title: Vanna AI Documentation
+    url: https://vanna.ai/
+    source: https://vanna.ai/docs
+  - kind: example
+    title: Quickstart with Sample Database 30 sec
+    url: https://vanna.ai/docs/quick-start
+    source: https://vanna.ai/docs
+  - kind: docs
+    title: Migration from 0.x
+    url: https://vanna.ai/docs/migration
+    source: https://vanna.ai/docs
+  source_headings:
+  - Get Started
+  - Try it with Sample Data
+  - ✅ Get Started Instantly
+- name: VMind
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/VisActor/VMind
+  homepage: https://www.visactor.io/vmind
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: VisActor LLM chart component for natural-language chart generation, editing, data insight, and chart narrative
+    creation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Introduction
+    bytes: 12918
+  - kind: homepage
+    url: https://www.visactor.io/vmind
+    final_url: https://www.visactor.io/vmind
+    status: 200
+    content_type: ''
+    title: null
+    bytes: 35690
+  official_examples:
+  - kind: tutorial
+    title: Tutorial
+    url: https://visactor.io/vmind/guide/Basic_Tutorial/Chart_Insight
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  - kind: tutorial
+    title: Tutorial
+    url: https://visactor.io/vmind/guide/Basic_Tutorial/Data_Extraction
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Guide
+    url: https://github.com/VisActor/VMind/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Demo1
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo1.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Demo2
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo2.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Demo3
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo3.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Demo4
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo4.png
+    source: https://www.visactor.io/vmind
+  - kind: gif
+    title: Alt text
+    url: https://lf9-dp-fe-cms-tos.byteorg.com/obj/bit-cloud/VChart-Video-2.gif
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  - kind: gif
+    title: Alt text
+    url: https://lf9-dp-fe-cms-tos.byteorg.com/obj/bit-cloud/VChart-Video-1.gif
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  - kind: gif
+    title: Alt text
+    url: https://lf9-dp-fe-cms-tos.byteorg.com/obj/bit-cloud/VChart-Video-3.gif
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  - kind: image
+    title: banner-image
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/banner.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Story teller decoration
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vchart/banner-deco.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Performance1
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/performance1.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Gallarytopbg
+    url: https://www.visactor.io/img/vchart/gallaryTopBG.png
+    source: https://www.visactor.io/vmind
+  - kind: image
+    title: Volcengine
+    url: https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/common/volcengine.png
+    source: https://www.visactor.io/vmind
+  official_links:
+  - kind: tutorial
+    title: Tutorial
+    url: https://visactor.io/vmind/guide/Basic_Tutorial/Chart_Insight
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  - kind: tutorial
+    title: Tutorial
+    url: https://visactor.io/vmind/guide/Basic_Tutorial/Data_Extraction
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  - kind: docs
+    title: Guide
+    url: https://github.com/VisActor/VMind/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md
+  source_headings:
+  - Docs Page
+  - Start the demo page
+  - 📊 Usage Example
+- name: Semiotic
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/nteract/semiotic
+  homepage: https://semiotic.nteract.io/
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: React data-visualization library with AI-facing schemas, an MCP server, validation tooling, and components
+    for charts, networks, streaming data, and dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What's New in 3.7.4
+    bytes: 27562
+  - kind: homepage
+    url: https://semiotic.nteract.io/
+    final_url: https://semiotic.nteract.io/
+    status: 200
+    content_type: text/html
+    title: Semiotic — Data Visualization for React
+    description: Semiotic is a React data visualization framework. Build interactive charts, network diagrams, geo maps, and
+      streaming visualizations from simple, composable components.
+    bytes: 13950
+  official_examples:
+  - kind: example
+    title: Interactive docs and examples
+    url: https://semiotic.nteract.io
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: demo
+    title: Playground
+    url: https://semiotic.nteract.io/playground
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://semiotic.nteract.io/examples.md
+    source: https://semiotic.nteract.io/
+  - kind: example
+    title: See Examples
+    url: https://semiotic.nteract.io/cookbook
+    source: https://semiotic.nteract.io/
+  official_docs:
+  - kind: docs
+    title: '`datapitfalls`'
+    url: https://github.com/bjonesdataliteracy/datapitfalls
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://semiotic.nteract.io/getting-started
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: docs
+    title: Migration Guide
+    url: https://github.com/nteract/semiotic/blob/HEAD/MIGRATION.md
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://semiotic.nteract.io/api-reference.md
+    source: https://semiotic.nteract.io/
+  official_effect_assets:
+  - kind: image
+    title: Semiotic — Data Visualization for React
+    url: https://semiotic3.nteract.io/assets/img/semiotic-social.png
+    source: https://semiotic.nteract.io/
+  official_links:
+  - kind: docs
+    title: '`datapitfalls`'
+    url: https://github.com/bjonesdataliteracy/datapitfalls
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: example
+    title: Interactive docs and examples
+    url: https://semiotic.nteract.io
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://semiotic.nteract.io/getting-started
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: demo
+    title: Playground
+    url: https://semiotic.nteract.io/playground
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: docs
+    title: Migration Guide
+    url: https://github.com/nteract/semiotic/blob/HEAD/MIGRATION.md
+    source: https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://semiotic.nteract.io/api-reference.md
+    source: https://semiotic.nteract.io/
+  - kind: example
+    title: Examples
+    url: https://semiotic.nteract.io/examples.md
+    source: https://semiotic.nteract.io/
+  - kind: example
+    title: See Examples
+    url: https://semiotic.nteract.io/cookbook
+    source: https://semiotic.nteract.io/
+  source_headings:
+  - Quick Examples
+  - Coordinated Dashboard
+  - Geographic Visualization
+  - 'Example: get schema for a component'
+  - 'Example: suggest a chart for your data'
+  - 'Example: render a chart'
+  - 'Example: render a ChatGPT Apps widget'
+  - 'Example: diagnose a broken config'
+  - 'Example: report an issue'
+  - Documentation

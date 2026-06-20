@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-20.
+Last researched: 2026-06-21.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -17,6 +17,8 @@ Update on 2026-06-18: refreshed agent-facing chart, Mermaid, Markdown visualizat
 Update on 2026-06-19: refreshed presentation MCP, local code-wiki, and agent rendering/export surfaces from official GitHub repositories, README files, npm package links, and product pages. This pass added Alai MCP Server, mcp-ppt, local-deepwiki-mcp, and mcp-media-forge.
 
 Update on 2026-06-20: refreshed paper-figure, NotebookLM artifact, content-to-visual, and AI-friendly infographic rendering surfaces from official GitHub repositories and project pages. This pass added Academic Figures, NotebookLM AI Plugin, Visualize, Visual Explainer Skill, and AntV Infographic.
+
+Update on 2026-06-21: refreshed academic-illustration, GenBI/chart-component, AI diagram, and agent-presentation surfaces from official GitHub repositories, docs, project pages, and package/demo pages. This pass added PaperBanana, Vanna, VMind, Semiotic, next-ai-draw-io, and Slides AI Plugin.
 
 ## Search Surfaces
 
