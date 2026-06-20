@@ -1,4 +1,4 @@
-last_researched: '2026-06-20'
+last_researched: '2026-06-21'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -308,6 +308,32 @@ entries:
   - 文本/想法
   tool_forms:
   - Agent Skill
+  output_forms:
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
+- name: PaperBanana
+  url: https://github.com/dwzhu-pku/PaperBanana
+  homepage: https://dwzhu-pku.github.io/PaperBanana/
+  category: paper-visualization
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 6594
+  license: Apache-2.0
+  updated: '2026-05-11'
+  note: Reference-driven multi-agent framework for turning scientific method text and figure captions into publication-quality diagrams, plots, and refined image outputs.
+  source_types:
+  - 论文/科研资料
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
   output_forms:
   - 图形摘要/信息图
   - SVG/PNG/PDF
@@ -1402,6 +1428,32 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: Slides AI Plugin
+  url: https://github.com/proyecto26/slides-ai-plugin
+  homepage: https://proyecto26.com/slides-ai-plugin/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 19
+  license: MIT
+  updated: '2026-04-13'
+  note: Agent plugin for Claude, OpenClaw, and compatible hosts that turns a prompt into animated HTML slides or editable PowerPoint decks.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
 - name: Office-PowerPoint-MCP-Server
   url: https://github.com/GongRzhe/Office-PowerPoint-MCP-Server
   category: presentation-tools
@@ -2430,6 +2482,32 @@ entries:
   - 图表/Mermaid
   catalog_section: main
   readme_group: diagrams
+- name: next-ai-draw-io
+  url: https://github.com/DayuanJiang/next-ai-draw-io
+  homepage: https://next-ai-drawio.jiang.jp/
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 32155
+  license: Apache-2.0
+  updated: '2026-06-18'
+  note: Next.js draw.io-style application for creating, modifying, and enhancing diagrams through natural-language AI commands.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams
 - name: Napkin AI
   url: https://www.napkin.ai/
   category: diagram-generation
@@ -2630,6 +2708,57 @@ entries:
   - 报告/简报
   catalog_section: main
   readme_group: data
+- name: Vanna
+  url: https://github.com/vanna-ai/vanna
+  homepage: https://vanna.ai/docs/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 23651
+  license: MIT
+  updated: '2026-02-02'
+  note: Agentic retrieval text-to-SQL system that turns natural-language database questions into SQL, interactive tables, Plotly charts, and natural-language summaries.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: VMind
+  url: https://github.com/VisActor/VMind
+  homepage: https://www.visactor.io/vmind
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 462
+  license: MIT
+  updated: '2026-03-30'
+  note: VisActor LLM chart component for natural-language chart generation, editing, data insight, and chart narrative creation.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 图表/渲染输出
+  catalog_section: main
+  readme_group: data
 - name: chart-visualization-skills
   url: https://github.com/antvis/chart-visualization-skills
   homepage: https://www.npmjs.com/package/@antv/chart-visualization-skills
@@ -2657,6 +2786,32 @@ entries:
   - 信息图/视觉报告
   - 架构图/流程图
   - 图表/渲染输出
+  catalog_section: main
+  readme_group: data
+- name: Semiotic
+  url: https://github.com/nteract/semiotic
+  homepage: https://semiotic.nteract.io/
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 模板/素材
+  stars: 2675
+  license: Apache-2.0
+  updated: '2026-06-20'
+  note: React data-visualization library with AI-facing schemas, an MCP server, validation tooling, and components for charts, networks, streaming data, and dashboards.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
 - name: mcp-server-chart

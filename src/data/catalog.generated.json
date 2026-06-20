@@ -1,111 +1,111 @@
 {
-  "generatedAt": "2026-06-19T23:07:31+00:00",
-  "lastResearched": "2026-06-20",
+  "generatedAt": "2026-06-20T23:06:56+00:00",
+  "lastResearched": "2026-06-21",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 150,
-    "openSource": 51,
+    "total": 156,
+    "openSource": 54,
     "saas": 37,
-    "modelApi": 64,
-    "examples": 644,
-    "effectAssets": 628,
-    "docs": 506
+    "modelApi": 69,
+    "examples": 654,
+    "effectAssets": 651,
+    "docs": 527
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 27,
-      "PDF/文档": 55,
-      "文本/想法": 66,
-      "数据/表格": 25,
-      "代码/技术描述": 18,
+      "论文/科研资料": 28,
+      "PDF/文档": 56,
+      "文本/想法": 70,
+      "数据/表格": 28,
+      "代码/技术描述": 19,
       "代码库": 21,
-      "网页/搜索结果": 50,
+      "网页/搜索结果": 51,
       "新闻/资讯": 9,
       "知识库/个人资料": 8,
       "任意/多源": 15,
       "引用网络": 4,
       "Office 文档": 9,
-      "DSL/代码": 9,
-      "数据库": 8
+      "DSL/代码": 10,
+      "数据库": 9
     },
     "toolForms": {
-      "开源应用/框架": 51,
-      "Agent Skill": 23,
+      "开源应用/框架": 54,
+      "Agent Skill": 24,
       "Skill 集合": 12,
       "数据集/评测": 2,
       "Bot/助手": 5,
       "产品/SaaS": 37,
       "研究原型": 4,
-      "API/SDK/库": 10,
-      "MCP Server": 10,
+      "API/SDK/库": 13,
+      "MCP Server": 11,
       "Awesome/索引": 12
     },
     "outputForms": {
-      "图形摘要/信息图": 9,
-      "PPT/演示文稿": 44,
-      "网页/交互页面": 15,
+      "图形摘要/信息图": 10,
+      "PPT/演示文稿": 45,
+      "网页/交互页面": 16,
       "问答/学习材料": 6,
       "报告/长文档": 15,
       "证据表": 6,
-      "信息图/视觉报告": 14,
-      "图表/仪表盘": 17,
-      "架构图/流程图": 31,
-      "白板/思维导图": 10,
-      "SVG/PNG/PDF": 15,
+      "信息图/视觉报告": 15,
+      "图表/仪表盘": 20,
+      "架构图/流程图": 32,
+      "白板/思维导图": 11,
+      "SVG/PNG/PDF": 18,
       "引用答案": 4,
       "思维导图/知识地图": 9,
       "表格/时间线": 2,
-      "报告/简报": 18,
+      "报告/简报": 19,
       "视频/音频": 6,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 10,
       "代码地图/Repo Wiki": 17,
       "图表/Mermaid": 11,
-      "图表/渲染输出": 5,
+      "图表/渲染输出": 7,
       "工具索引": 14
     },
     "dependencies": {
-      "本地语言环境": 87,
-      "模型 API": 64,
-      "文档解析/OCR": 24,
-      "渲染/导出": 80,
+      "本地语言环境": 93,
+      "模型 API": 69,
+      "文档解析/OCR": 25,
+      "渲染/导出": 86,
       "GPU/加速器": 6,
-      "模板/素材": 50,
-      "Agent 宿主": 36,
+      "模板/素材": 55,
+      "Agent 宿主": 37,
       "系统工具": 12,
-      "外部检索/数据源": 28,
-      "存储/索引": 19,
-      "浏览器/账号": 54,
-      "MCP Client": 11,
+      "外部检索/数据源": 30,
+      "存储/索引": 20,
+      "浏览器/账号": 55,
+      "MCP Client": 12,
       "代码分析工具": 17
     },
     "categories": {
-      "paper-visualization": 8,
+      "paper-visualization": 9,
       "doc-to-knowledge": 16,
       "research-report": 11,
       "infographic-report": 9,
-      "data-dashboard": 13,
+      "data-dashboard": 16,
       "literature-map": 4,
-      "presentation-tools": 23,
+      "presentation-tools": 24,
       "codebase-map": 17,
       "rendering-primitive": 4,
-      "diagram-generation": 16,
+      "diagram-generation": 17,
       "video-generation": 5,
       "commercial-site": 10,
       "meta-index": 14
     },
     "groups": {
-      "paper": 19,
+      "paper": 20,
       "text_visual": 15,
       "web_news": 8,
       "support_mindmap": 3,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 33,
+      "presentation": 34,
       "code": 17,
       "support_render": 13,
-      "diagrams": 1,
-      "data": 9,
+      "diagrams": 2,
+      "data": 12,
       "video": 5,
       "indexes": 14
     }
@@ -1325,6 +1325,107 @@
       "docsCount": 2,
       "examplesCount": 1,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "PaperBanana",
+      "url": "https://github.com/dwzhu-pku/PaperBanana",
+      "primaryUrl": "https://github.com/dwzhu-pku/PaperBanana",
+      "homepage": "https://dwzhu-pku.github.io/PaperBanana/",
+      "category": "paper-visualization",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 6594,
+      "license": "Apache-2.0",
+      "updated": "2026-05-11",
+      "note": "Reference-driven multi-agent framework for turning scientific method text and figure captions into publication-quality diagrams, plots, and refined image outputs.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "PaperBananaBench",
+          "url": "https://huggingface.co/datasets/dwzhu/PaperBananaBench",
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "PaperBananaDiagramPDFs",
+          "url": "https://huggingface.co/datasets/dwzhu/PaperBananaDiagramPDFs",
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv",
+          "url": "https://arxiv.org/abs/2601.23265",
+          "source": "https://dwzhu-pku.github.io/PaperBanana/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Demo on HF Spaces",
+          "url": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/spaces-on-hf-xl.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Examples",
+          "url": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/teaser_figure.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PaperBanana Workflow",
+          "url": "https://dwzhu-pku.github.io/PaperBanana/static/images/teaser_figure.jpg",
+          "thumbnailUrl": null,
+          "source": "https://dwzhu-pku.github.io/PaperBanana/"
+        },
+        {
+          "kind": "image",
+          "title": "Main Results of PaperBanana",
+          "url": "https://dwzhu-pku.github.io/PaperBanana/static/images/main_results.png",
+          "thumbnailUrl": null,
+          "source": "https://dwzhu-pku.github.io/PaperBanana/"
+        },
+        {
+          "kind": "image",
+          "title": "Statistical Plots Comparison",
+          "url": "https://dwzhu-pku.github.io/PaperBanana/static/images/plot_vanilla_vs_ours_v2.jpg",
+          "thumbnailUrl": null,
+          "source": "https://dwzhu-pku.github.io/PaperBanana/"
+        },
+        {
+          "kind": "image",
+          "title": "PaperBanana Framework",
+          "url": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/method_diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 6
     },
     {
       "name": "GPT Researcher",
@@ -6811,6 +6912,52 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "Slides AI Plugin",
+      "url": "https://github.com/proyecto26/slides-ai-plugin",
+      "primaryUrl": "https://github.com/proyecto26/slides-ai-plugin",
+      "homepage": "https://proyecto26.com/slides-ai-plugin/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 19,
+      "license": "MIT",
+      "updated": "2026-04-13",
+      "note": "Agent plugin for Claude, OpenClaw, and compatible hosts that turns a prompt into animated HTML slides or editable PowerPoint decks.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "contribution guide",
+          "url": "https://github.com/proyecto26/.github/blob/master/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/proyecto26/slides-ai-plugin/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Office-PowerPoint-MCP-Server",
       "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
       "primaryUrl": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
@@ -10405,6 +10552,109 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "primaryUrl": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "homepage": "https://next-ai-drawio.jiang.jp/",
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 32155,
+      "license": "Apache-2.0",
+      "updated": "2026-06-18",
+      "note": "Next.js draw.io-style application for creating, modifying, and enhancing diagrams through natural-language AI commands.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/cn/README_CN.md",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/ja/README_JA.md",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Go to Docker Guide",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/docker.md",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Provider Configuration Guide",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/ai-providers.md",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Tencent EdgeOne Pages documentation",
+          "url": "https://pages.edgeone.ai/document/deployment-overview",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Next.js deployment documentation",
+          "url": "https://nextjs.org/docs/app/building-your-application/deploying",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Go to Cloudflare Deploy Guide",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/cloudflare-deploy.md",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Admin Panel Guide",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/HEAD/docs/en/admin-panel.md",
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Doubao Color",
+          "url": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/main/public/doubao-color.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Next AI Draw.io - AI-Powered Diagram Generator",
+          "url": "https://next-ai-drawio.jiang.jp/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://next-ai-drawio.jiang.jp/en"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
       "name": "Napkin AI",
       "url": "https://www.napkin.ai/",
       "primaryUrl": "https://www.napkin.ai/",
@@ -11536,6 +11786,247 @@
       "effectAssetsCount": 4
     },
     {
+      "name": "Vanna",
+      "url": "https://github.com/vanna-ai/vanna",
+      "primaryUrl": "https://github.com/vanna-ai/vanna",
+      "homepage": "https://vanna.ai/docs/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 23651,
+      "license": "MIT",
+      "updated": "2026-02-02",
+      "note": "Agentic retrieval text-to-SQL system that turns natural-language database questions into SQL, interactive tables, Plotly charts, and natural-language summaries.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Migration Guide",
+          "url": "https://github.com/vanna-ai/vanna/blob/HEAD/MIGRATION_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart",
+          "url": "https://vanna.ai/docs/quick-start",
+          "source": "https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Configure",
+          "url": "https://vanna.ai/docs/configure",
+          "source": "https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Full Documentation",
+          "url": "https://vanna.ai/docs",
+          "source": "https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Vanna AI Documentation",
+          "url": "https://vanna.ai/",
+          "source": "https://vanna.ai/docs"
+        },
+        {
+          "kind": "docs",
+          "title": "Migration from 0.x",
+          "url": "https://vanna.ai/docs/migration",
+          "source": "https://vanna.ai/docs"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Quickstart with Sample Database 30 sec",
+          "url": "https://vanna.ai/docs/quick-start",
+          "source": "https://vanna.ai/docs"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Vanna2 Demo",
+          "url": "https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/img/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vanna-ai/vanna/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Documentation - Vanna AI",
+          "url": "https://vanna.ai/og/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://vanna.ai/docs"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 1,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "VMind",
+      "url": "https://github.com/VisActor/VMind",
+      "primaryUrl": "https://github.com/VisActor/VMind",
+      "homepage": "https://www.visactor.io/vmind",
+      "category": "data-dashboard",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 462,
+      "license": "MIT",
+      "updated": "2026-03-30",
+      "note": "VisActor LLM chart component for natural-language chart generation, editing, data insight, and chart narrative creation.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Guide",
+          "url": "https://github.com/VisActor/VMind/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Tutorial",
+          "url": "https://visactor.io/vmind/guide/Basic_Tutorial/Chart_Insight",
+          "source": "https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Tutorial",
+          "url": "https://visactor.io/vmind/guide/Basic_Tutorial/Data_Extraction",
+          "source": "https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Demo1",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo1.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Demo2",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo2.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Demo3",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo3.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Demo4",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/demo4.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "gif",
+          "title": "Alt text",
+          "url": "https://lf9-dp-fe-cms-tos.byteorg.com/obj/bit-cloud/VChart-Video-2.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Alt text",
+          "url": "https://lf9-dp-fe-cms-tos.byteorg.com/obj/bit-cloud/VChart-Video-1.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Alt text",
+          "url": "https://lf9-dp-fe-cms-tos.byteorg.com/obj/bit-cloud/VChart-Video-3.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/VisActor/VMind/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "banner-image",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/banner.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Story teller decoration",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vchart/banner-deco.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Performance1",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/vmind/performance1.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Gallarytopbg",
+          "url": "https://www.visactor.io/img/vchart/gallaryTopBG.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        },
+        {
+          "kind": "image",
+          "title": "Volcengine",
+          "url": "https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/common/volcengine.png",
+          "thumbnailUrl": null,
+          "source": "https://www.visactor.io/vmind"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
       "name": "chart-visualization-skills",
       "url": "https://github.com/antvis/chart-visualization-skills",
       "primaryUrl": "https://github.com/antvis/chart-visualization-skills",
@@ -11575,6 +12066,103 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Semiotic",
+      "url": "https://github.com/nteract/semiotic",
+      "primaryUrl": "https://github.com/nteract/semiotic",
+      "homepage": "https://semiotic.nteract.io/",
+      "category": "data-dashboard",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "MCP Client",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2675,
+      "license": "Apache-2.0",
+      "updated": "2026-06-20",
+      "note": "React data-visualization library with AI-facing schemas, an MCP server, validation tooling, and components for charts, networks, streaming data, and dashboards.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`datapitfalls`",
+          "url": "https://github.com/bjonesdataliteracy/datapitfalls",
+          "source": "https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Getting Started",
+          "url": "https://semiotic.nteract.io/getting-started",
+          "source": "https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Migration Guide",
+          "url": "https://github.com/nteract/semiotic/blob/HEAD/MIGRATION.md",
+          "source": "https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://semiotic.nteract.io/api-reference.md",
+          "source": "https://semiotic.nteract.io/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Interactive docs and examples",
+          "url": "https://semiotic.nteract.io",
+          "source": "https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Playground",
+          "url": "https://semiotic.nteract.io/playground",
+          "source": "https://raw.githubusercontent.com/nteract/semiotic/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://semiotic.nteract.io/examples.md",
+          "source": "https://semiotic.nteract.io/"
+        },
+        {
+          "kind": "example",
+          "title": "See Examples",
+          "url": "https://semiotic.nteract.io/cookbook",
+          "source": "https://semiotic.nteract.io/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Semiotic — Data Visualization for React",
+          "url": "https://semiotic3.nteract.io/assets/img/semiotic-social.png",
+          "thumbnailUrl": null,
+          "source": "https://semiotic.nteract.io/"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
     },
     {
       "name": "mcp-server-chart",
