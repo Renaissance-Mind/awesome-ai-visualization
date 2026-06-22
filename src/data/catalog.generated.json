@@ -1,82 +1,82 @@
 {
-  "generatedAt": "2026-06-20T23:06:56+00:00",
-  "lastResearched": "2026-06-21",
+  "generatedAt": "2026-06-22T23:05:26+00:00",
+  "lastResearched": "2026-06-23",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 156,
-    "openSource": 54,
+    "total": 162,
+    "openSource": 55,
     "saas": 37,
     "modelApi": 69,
-    "examples": 654,
-    "effectAssets": 651,
-    "docs": 527
+    "examples": 680,
+    "effectAssets": 656,
+    "docs": 546
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 28,
-      "PDF/文档": 56,
-      "文本/想法": 70,
-      "数据/表格": 28,
-      "代码/技术描述": 19,
+      "PDF/文档": 57,
+      "文本/想法": 75,
+      "数据/表格": 29,
+      "代码/技术描述": 23,
       "代码库": 21,
-      "网页/搜索结果": 51,
+      "网页/搜索结果": 52,
       "新闻/资讯": 9,
       "知识库/个人资料": 8,
-      "任意/多源": 15,
+      "任意/多源": 16,
       "引用网络": 4,
       "Office 文档": 9,
-      "DSL/代码": 10,
+      "DSL/代码": 13,
       "数据库": 9
     },
     "toolForms": {
-      "开源应用/框架": 54,
-      "Agent Skill": 24,
-      "Skill 集合": 12,
+      "开源应用/框架": 55,
+      "Agent Skill": 26,
+      "Skill 集合": 13,
       "数据集/评测": 2,
       "Bot/助手": 5,
       "产品/SaaS": 37,
       "研究原型": 4,
       "API/SDK/库": 13,
-      "MCP Server": 11,
-      "Awesome/索引": 12
+      "MCP Server": 13,
+      "Awesome/索引": 13
     },
     "outputForms": {
       "图形摘要/信息图": 10,
-      "PPT/演示文稿": 45,
-      "网页/交互页面": 16,
+      "PPT/演示文稿": 47,
+      "网页/交互页面": 18,
       "问答/学习材料": 6,
       "报告/长文档": 15,
       "证据表": 6,
       "信息图/视觉报告": 15,
       "图表/仪表盘": 20,
-      "架构图/流程图": 32,
+      "架构图/流程图": 34,
       "白板/思维导图": 11,
-      "SVG/PNG/PDF": 18,
+      "SVG/PNG/PDF": 22,
       "引用答案": 4,
       "思维导图/知识地图": 9,
       "表格/时间线": 2,
       "报告/简报": 19,
       "视频/音频": 6,
       "文献地图/知识地图": 4,
-      "结构化数据/Markdown": 10,
+      "结构化数据/Markdown": 11,
       "代码地图/Repo Wiki": 17,
-      "图表/Mermaid": 11,
+      "图表/Mermaid": 14,
       "图表/渲染输出": 7,
-      "工具索引": 14
+      "工具索引": 15
     },
     "dependencies": {
-      "本地语言环境": 93,
+      "本地语言环境": 98,
       "模型 API": 69,
       "文档解析/OCR": 25,
-      "渲染/导出": 86,
+      "渲染/导出": 91,
       "GPU/加速器": 6,
-      "模板/素材": 55,
-      "Agent 宿主": 37,
+      "模板/素材": 57,
+      "Agent 宿主": 40,
       "系统工具": 12,
       "外部检索/数据源": 30,
       "存储/索引": 20,
-      "浏览器/账号": 55,
-      "MCP Client": 12,
+      "浏览器/账号": 56,
+      "MCP Client": 14,
       "代码分析工具": 17
     },
     "categories": {
@@ -86,13 +86,13 @@
       "infographic-report": 9,
       "data-dashboard": 16,
       "literature-map": 4,
-      "presentation-tools": 24,
+      "presentation-tools": 26,
       "codebase-map": 17,
-      "rendering-primitive": 4,
-      "diagram-generation": 17,
+      "rendering-primitive": 6,
+      "diagram-generation": 18,
       "video-generation": 5,
       "commercial-site": 10,
-      "meta-index": 14
+      "meta-index": 15
     },
     "groups": {
       "paper": 20,
@@ -101,13 +101,13 @@
       "support_mindmap": 3,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 34,
+      "presentation": 36,
       "code": 17,
-      "support_render": 13,
+      "support_render": 16,
       "diagrams": 2,
       "data": 12,
       "video": 5,
-      "indexes": 14
+      "indexes": 15
     }
   },
   "entries": [
@@ -6958,6 +6958,142 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "slidemason",
+      "url": "https://github.com/erickittelson/slidemason",
+      "primaryUrl": "https://github.com/erickittelson/slidemason",
+      "homepage": "https://github.com/erickittelson/slidemason#quick-start",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-03-03",
+      "note": "Local-first AI presentation builder that turns documents into polished decks through Cursor, Windsurf, Claude Code, or other coding agents without API keys or accounts.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "claude.ai/claude-code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.github.com",
+          "source": "https://github.com/erickittelson/slidemason#quick-start"
+        },
+        {
+          "kind": "docs",
+          "title": "documentation",
+          "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+          "source": "https://github.com/erickittelson/slidemason#quick-start"
+        },
+        {
+          "kind": "docs",
+          "title": "docs",
+          "url": "https://github.com/erickittelson/slidemason/tree/main/docs",
+          "source": "https://github.com/erickittelson/slidemason#quick-start"
+        },
+        {
+          "kind": "docs",
+          "title": "https://github.com/erickittelson/slidemason/blob/main/docs/napceo.gif",
+          "url": "https://github.com/erickittelson/slidemason/blob/main/docs/napceo.gif",
+          "source": "https://github.com/erickittelson/slidemason#quick-start"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.github.com/",
+          "source": "https://github.com/erickittelson/slidemason#quick-start"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Slidemason Demo — 15 slides generated from a brief",
+          "url": "https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/docs/napceo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Slidemason Demo — 15 slides generated from a brief",
+          "url": "https://github.com/erickittelson/slidemason/raw/main/docs/napceo.gif",
+          "thumbnailUrl": null,
+          "source": "https://github.com/erickittelson/slidemason#quick-start"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "cc-slidev",
+      "url": "https://github.com/rhuss/cc-slidev",
+      "primaryUrl": "https://github.com/rhuss/cc-slidev",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 40,
+      "license": "MIT",
+      "updated": "2026-03-28",
+      "note": "Claude Code plugin for developer-focused technical presentations in Slidev with evidence-based design guardrails and export-oriented workflows.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/presentation-best-practices.md`",
+          "url": "https://github.com/rhuss/cc-slidev/blob/HEAD/references/presentation-best-practices.md",
+          "source": "https://raw.githubusercontent.com/rhuss/cc-slidev/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Office-PowerPoint-MCP-Server",
       "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
       "primaryUrl": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
@@ -10152,6 +10288,138 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "UML-MCP",
+      "url": "https://github.com/antoinebou12/uml-mcp",
+      "primaryUrl": "https://github.com/antoinebou12/uml-mcp",
+      "homepage": "https://antoinebou12.github.io/uml-mcp/",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 88,
+      "license": "MIT",
+      "updated": "2026-06-22",
+      "note": "MCP server for natural-language or direct PlantUML, Mermaid, and Kroki diagram generation with Claude Desktop, Cursor, Claude Code, and HTTP deployment examples.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/integrations/claude_code.md",
+          "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/integrations/claude_code.md",
+          "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Mermaid",
+          "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/diagrams/mermaid.md",
+          "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/integrations/vercel_smithery.md",
+          "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/integrations/vercel_smithery.md",
+          "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/configuration.md",
+          "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/configuration.md",
+          "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contributing guide",
+          "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Browse the API reference :material-book-open-variant:",
+          "url": "https://antoinebou12.github.io/uml-mcp/reference/",
+          "source": "https://antoinebou12.github.io/uml-mcp/"
+        },
+        {
+          "kind": "docs",
+          "title": "Improve this page",
+          "url": "https://github.com/antoinebou12/uml-mcp/edit/main/docs/index.md",
+          "source": "https://antoinebou12.github.io/uml-mcp/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "BPMN 2.0.2 guide",
+          "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/tutorials/bpmn.md",
+          "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Get started in 5 minutes :material-rocket-launch:",
+          "url": "https://antoinebou12.github.io/uml-mcp/tutorials/getting-started.html",
+          "source": "https://antoinebou12.github.io/uml-mcp/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 7,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Kroki-MCP",
+      "url": "https://github.com/utain/kroki-mcp",
+      "primaryUrl": "https://github.com/utain/kroki-mcp",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 14,
+      "license": "MIT",
+      "updated": "2026-03-30",
+      "note": "Go MCP server that converts textual diagram definitions such as PlantUML and Mermaid into PNG, SVG, PDF, and other images through local or remote Kroki backends.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "AntV Infographic",
       "url": "https://github.com/antvis/infographic",
       "primaryUrl": "https://github.com/antvis/infographic",
@@ -10255,6 +10523,140 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Preview Skills",
+      "url": "https://github.com/veelenga/preview-skills",
+      "primaryUrl": "https://github.com/veelenga/preview-skills",
+      "homepage": "http://veelenga.github.io/preview-skills/",
+      "category": "rendering-primitive",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-05-17",
+      "note": "Agent skill collection that turns AI-generated plans, diffs, JSON, CSV, and Mermaid diagrams into browser-based previews for review and iteration.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "图表/Mermaid",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "📚 Live examples",
+          "url": "https://veelenga.github.io/preview-skills/examples/plan/sample.html",
+          "source": "https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Auth redesign",
+          "url": "http://veelenga.github.io/preview-skills/examples/plan/sample.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Employees",
+          "url": "http://veelenga.github.io/preview-skills/examples/csv/employees.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Sample",
+          "url": "http://veelenga.github.io/preview-skills/examples/json/sample.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Logs (JSONL)",
+          "url": "http://veelenga.github.io/preview-skills/examples/json/logs.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Sample",
+          "url": "http://veelenga.github.io/preview-skills/examples/markdown/sample.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Mermaid test",
+          "url": "http://veelenga.github.io/preview-skills/examples/markdown/mermaid-test.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Flowchart",
+          "url": "http://veelenga.github.io/preview-skills/examples/mermaid/sample.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "ECG Heartbeat",
+          "url": "http://veelenga.github.io/preview-skills/examples/svg/heartbeat.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Motion path",
+          "url": "http://veelenga.github.io/preview-skills/examples/svg/motion-path.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Bubble sort",
+          "url": "http://veelenga.github.io/preview-skills/examples/svg/bubble-sort.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "example",
+          "title": "Load balancer",
+          "url": "http://veelenga.github.io/preview-skills/examples/svg/load-balancer.html",
+          "source": "https://veelenga.github.io/preview-skills/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/docs/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Demo",
+          "url": "https://veelenga.github.io/preview-skills/demo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://veelenga.github.io/preview-skills/"
+        },
+        {
+          "kind": "image",
+          "title": "Preview Skills - Reduce cognitive load with AI agents",
+          "url": "https://veelenga.github.io/preview-skills/images/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://veelenga.github.io/preview-skills/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 20,
+      "effectAssetsCount": 3
     },
     {
       "name": "AgentFigureGallery",
@@ -14698,6 +15100,94 @@
       "docsCount": 20,
       "examplesCount": 11,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "primaryUrl": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "homepage": null,
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "浏览器/账号"
+      ],
+      "stars": 65547,
+      "license": "unknown",
+      "updated": "2026-05-22",
+      "note": "Curated Claude Skills, resources, and tool directory with visualization, data, document, automation, and MCP skill discovery surfaces.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Brand Guidelines",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/brand-guidelines/",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "mercury-mcp",
+          "url": "https://www.teamoffsite.ai/proton/docs/skill",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Skills API documentation",
+          "url": "https://docs.claude.com/en/api/skills-guide",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contributing Guidelines",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Skills User Guide",
+          "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Theme Factory",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/theme-factory/",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Video Downloader",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/video-downloader/",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "youtube-transcript",
+          "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube Automation",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/youtube-automation/",
+          "source": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 5,
+      "examplesCount": 4,
+      "effectAssetsCount": 0
     },
     {
       "name": "awesome-llm-skills",
