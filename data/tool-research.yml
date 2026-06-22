@@ -1,4 +1,4 @@
-generated_at: '2026-06-20T23:06:56+00:00'
+generated_at: '2026-06-22T23:05:26+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 156
-  fetched_sources_ok: 218
+  entries: 162
+  fetched_sources_ok: 227
   fetched_sources_failed: 9
-  official_examples: 654
-  official_effect_assets: 651
-  official_docs: 527
+  official_examples: 680
+  official_effect_assets: 656
+  official_docs: 546
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -17285,3 +17285,593 @@ entries:
   - 'Example: diagnose a broken config'
   - 'Example: report an issue'
   - Documentation
+- name: slidemason
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/erickittelson/slidemason
+  homepage: https://github.com/erickittelson/slidemason#quick-start
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Local-first AI presentation builder that turns documents into
+    polished decks through Cursor, Windsurf, Claude Code, or other coding agents
+    without API keys or accounts.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Slidemason
+      bytes: 23975
+    - kind: homepage
+      url: https://github.com/erickittelson/slidemason#quick-start
+      final_url: https://github.com/erickittelson/slidemason#quick-start
+      status: 200
+      content_type: text/html
+      title: "GitHub - erickittelson/slidemason: Open-source AI presentation builder —
+        turn documents into polished decks in minutes using Cursor, Windsurf,
+        Claude Code, or any AI coding agent. "
+      description: Open-source AI presentation builder — turn documents into polished
+        decks in minutes using Cursor, Windsurf, Claude Code, or any AI coding
+        agent. No API keys. No accounts. 100% loca
+      bytes: 496805
+  official_docs:
+    - kind: docs
+      title: claude.ai/claude-code
+      url: https://docs.anthropic.com/en/docs/claude-code
+      source: https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md
+    - kind: docs
+      title: Documentation
+      url: https://docs.github.com
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: documentation
+      url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: docs
+      url: https://github.com/erickittelson/slidemason/tree/main/docs
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: https://github.com/erickittelson/slidemason/blob/main/docs/napceo.gif
+      url: https://github.com/erickittelson/slidemason/blob/main/docs/napceo.gif
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: Docs
+      url: https://docs.github.com/
+      source: https://github.com/erickittelson/slidemason#quick-start
+  official_effect_assets:
+    - kind: gif
+      title: Slidemason Demo — 15 slides generated from a brief
+      url: https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/docs/napceo.gif
+      source: https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md
+    - kind: gif
+      title: Slidemason Demo — 15 slides generated from a brief
+      url: https://github.com/erickittelson/slidemason/raw/main/docs/napceo.gif
+      source: https://github.com/erickittelson/slidemason#quick-start
+  official_links:
+    - kind: docs
+      title: claude.ai/claude-code
+      url: https://docs.anthropic.com/en/docs/claude-code
+      source: https://raw.githubusercontent.com/erickittelson/slidemason/HEAD/README.md
+    - kind: docs
+      title: Documentation
+      url: https://docs.github.com
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: documentation
+      url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: docs
+      url: https://github.com/erickittelson/slidemason/tree/main/docs
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: https://github.com/erickittelson/slidemason/blob/main/docs/napceo.gif
+      url: https://github.com/erickittelson/slidemason/blob/main/docs/napceo.gif
+      source: https://github.com/erickittelson/slidemason#quick-start
+    - kind: docs
+      title: Docs
+      url: https://docs.github.com/
+      source: https://github.com/erickittelson/slidemason#quick-start
+  source_headings:
+    - Slidemason
+    - Why Slidemason?
+    - How Slides Work
+- name: cc-slidev
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/rhuss/cc-slidev
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Claude Code plugin for developer-focused technical presentations
+    in Slidev with evidence-based design guardrails and export-oriented
+    workflows.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/rhuss/cc-slidev/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/rhuss/cc-slidev/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Slidev Plugin for Claude Code
+      bytes: 15635
+  official_docs:
+    - kind: docs
+      title: "`references/presentation-best-practices.md`"
+      url: https://github.com/rhuss/cc-slidev/blob/HEAD/references/presentation-best-practices.md
+      source: https://raw.githubusercontent.com/rhuss/cc-slidev/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: "`references/presentation-best-practices.md`"
+      url: https://github.com/rhuss/cc-slidev/blob/HEAD/references/presentation-best-practices.md
+      source: https://raw.githubusercontent.com/rhuss/cc-slidev/HEAD/README.md
+  source_headings:
+    - Slidev Plugin for Claude Code
+    - Example Presentations
+    - Built on Slidev
+    - Complete Workflow Example
+    - 1. Frame your presentation
+    - 4. Generate modular slides
+    - 5. Preview with Slidev
+    - 6. Edit specific slides
+    - 7. Enhance with visuals
+    - 9. Export final presentation
+    - Slidev settings
+    - Presentation defaults
+- name: UML-MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/antoinebou12/uml-mcp
+  homepage: https://antoinebou12.github.io/uml-mcp/
+  dependencies:
+    - MCP Client
+    - 本地语言环境
+    - 渲染/导出
+  catalog_note: MCP server for natural-language or direct PlantUML, Mermaid, and
+    Kroki diagram generation with Claude Desktop, Cursor, Claude Code, and HTTP
+    deployment examples.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: "UML-MCP: Diagram Generation via MCP"
+      bytes: 9227
+    - kind: homepage
+      url: https://antoinebou12.github.io/uml-mcp/
+      final_url: https://antoinebou12.github.io/uml-mcp/
+      status: 200
+      content_type: text/html
+      title: UML-MCP | uml-mcp
+      description: "Diagram generation via Model Context Protocol: UML, Mermaid, D2,
+        TikZ, and 30+ more types from one MCP server."
+      bytes: 10982
+  official_examples:
+    - kind: tutorial
+      title: BPMN 2.0.2 guide
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/tutorials/bpmn.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: tutorial
+      title: "Get started in 5 minutes :material-rocket-launch:"
+      url: https://antoinebou12.github.io/uml-mcp/tutorials/getting-started.html
+      source: https://antoinebou12.github.io/uml-mcp/
+  official_docs:
+    - kind: docs
+      title: docs/integrations/claude_code.md
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/integrations/claude_code.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: Mermaid
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/diagrams/mermaid.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: docs/integrations/vercel_smithery.md
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/integrations/vercel_smithery.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: docs/configuration.md
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/configuration.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: Contributing guide
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/CONTRIBUTING.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: "Browse the API reference :material-book-open-variant:"
+      url: https://antoinebou12.github.io/uml-mcp/reference/
+      source: https://antoinebou12.github.io/uml-mcp/
+    - kind: docs
+      title: Improve this page
+      url: https://github.com/antoinebou12/uml-mcp/edit/main/docs/index.md
+      source: https://antoinebou12.github.io/uml-mcp/
+  official_links:
+    - kind: docs
+      title: docs/integrations/claude_code.md
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/integrations/claude_code.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: tutorial
+      title: BPMN 2.0.2 guide
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/tutorials/bpmn.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: Mermaid
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/diagrams/mermaid.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: docs/integrations/vercel_smithery.md
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/integrations/vercel_smithery.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: docs/configuration.md
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/configuration.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: docs
+      title: Contributing guide
+      url: https://github.com/antoinebou12/uml-mcp/blob/HEAD/CONTRIBUTING.md
+      source: https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md
+    - kind: tutorial
+      title: "Get started in 5 minutes :material-rocket-launch:"
+      url: https://antoinebou12.github.io/uml-mcp/tutorials/getting-started.html
+      source: https://antoinebou12.github.io/uml-mcp/
+    - kind: docs
+      title: "Browse the API reference :material-book-open-variant:"
+      url: https://antoinebou12.github.io/uml-mcp/reference/
+      source: https://antoinebou12.github.io/uml-mcp/
+    - kind: docs
+      title: Improve this page
+      url: https://github.com/antoinebou12/uml-mcp/edit/main/docs/index.md
+      source: https://antoinebou12.github.io/uml-mcp/
+  source_headings:
+    - "UML-MCP: Diagram Generation via MCP"
+    - Supported Diagram Types
+    - Documentation
+- name: Kroki-MCP
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/utain/kroki-mcp
+  dependencies:
+    - MCP Client
+    - 本地语言环境
+    - 渲染/导出
+  catalog_note: Go MCP server that converts textual diagram definitions such as
+    PlantUML and Mermaid into PNG, SVG, PDF, and other images through local or
+    remote Kroki backends.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/utain/kroki-mcp/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/utain/kroki-mcp/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Kroki-MCP
+      bytes: 4972
+  source_headings:
+    - Usage
+    - "Example: Running as an MCP Server"
+- name: Preview Skills
+  category: rendering-primitive
+  surface: skill
+  primary_url: https://github.com/veelenga/preview-skills
+  homepage: http://veelenga.github.io/preview-skills/
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+  catalog_note: Agent skill collection that turns AI-generated plans, diffs, JSON,
+    CSV, and Mermaid diagrams into browser-based previews for review and
+    iteration.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Preview Skills
+      bytes: 5657
+    - kind: homepage
+      url: https://veelenga.github.io/preview-skills/
+      final_url: https://veelenga.github.io/preview-skills/
+      status: 200
+      content_type: text/html
+      title: Preview Skills - Reduce cognitive load with AI agents
+      description: Reduce cognitive load when reviewing AI agent work. Transform
+        plans, diffs, and data into navigable previews.
+      bytes: 33740
+  official_examples:
+    - kind: example
+      title: 📚 Live examples
+      url: https://veelenga.github.io/preview-skills/examples/plan/sample.html
+      source: https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md
+    - kind: example
+      title: Auth redesign
+      url: http://veelenga.github.io/preview-skills/examples/plan/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Employees
+      url: http://veelenga.github.io/preview-skills/examples/csv/employees.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Sample
+      url: http://veelenga.github.io/preview-skills/examples/json/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Logs (JSONL)
+      url: http://veelenga.github.io/preview-skills/examples/json/logs.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Sample
+      url: http://veelenga.github.io/preview-skills/examples/markdown/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Mermaid test
+      url: http://veelenga.github.io/preview-skills/examples/markdown/mermaid-test.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Flowchart
+      url: http://veelenga.github.io/preview-skills/examples/mermaid/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: ECG Heartbeat
+      url: http://veelenga.github.io/preview-skills/examples/svg/heartbeat.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Motion path
+      url: http://veelenga.github.io/preview-skills/examples/svg/motion-path.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Bubble sort
+      url: http://veelenga.github.io/preview-skills/examples/svg/bubble-sort.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Load balancer
+      url: http://veelenga.github.io/preview-skills/examples/svg/load-balancer.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: HTTPS handshake
+      url: http://veelenga.github.io/preview-skills/examples/svg/https-handshake.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Feature branch
+      url: http://veelenga.github.io/preview-skills/examples/diff/feature.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Sample
+      url: http://veelenga.github.io/preview-skills/examples/d3/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Pie chart
+      url: http://veelenga.github.io/preview-skills/examples/d3/pie-chart.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Network
+      url: http://veelenga.github.io/preview-skills/examples/d3/network-graph.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Heatmap
+      url: http://veelenga.github.io/preview-skills/examples/d3/heatmap.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Rubik's Cube
+      url: http://veelenga.github.io/preview-skills/examples/threejs/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Molecule
+      url: http://veelenga.github.io/preview-skills/examples/threejs/molecule.html
+      source: https://veelenga.github.io/preview-skills/
+  official_effect_assets:
+    - kind: gif
+      title: Demo
+      url: https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/docs/demo.gif
+      source: https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md
+    - kind: video
+      title: Demo
+      url: https://veelenga.github.io/preview-skills/demo.mp4
+      source: https://veelenga.github.io/preview-skills/
+    - kind: image
+      title: Preview Skills - Reduce cognitive load with AI agents
+      url: https://veelenga.github.io/preview-skills/images/og-image.png
+      source: https://veelenga.github.io/preview-skills/
+  official_links:
+    - kind: example
+      title: 📚 Live examples
+      url: https://veelenga.github.io/preview-skills/examples/plan/sample.html
+      source: https://raw.githubusercontent.com/veelenga/preview-skills/HEAD/README.md
+    - kind: example
+      title: Auth redesign
+      url: http://veelenga.github.io/preview-skills/examples/plan/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Employees
+      url: http://veelenga.github.io/preview-skills/examples/csv/employees.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Sample
+      url: http://veelenga.github.io/preview-skills/examples/json/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Logs (JSONL)
+      url: http://veelenga.github.io/preview-skills/examples/json/logs.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Sample
+      url: http://veelenga.github.io/preview-skills/examples/markdown/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Mermaid test
+      url: http://veelenga.github.io/preview-skills/examples/markdown/mermaid-test.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Flowchart
+      url: http://veelenga.github.io/preview-skills/examples/mermaid/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: ECG Heartbeat
+      url: http://veelenga.github.io/preview-skills/examples/svg/heartbeat.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Motion path
+      url: http://veelenga.github.io/preview-skills/examples/svg/motion-path.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Bubble sort
+      url: http://veelenga.github.io/preview-skills/examples/svg/bubble-sort.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Load balancer
+      url: http://veelenga.github.io/preview-skills/examples/svg/load-balancer.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: HTTPS handshake
+      url: http://veelenga.github.io/preview-skills/examples/svg/https-handshake.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Feature branch
+      url: http://veelenga.github.io/preview-skills/examples/diff/feature.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Sample
+      url: http://veelenga.github.io/preview-skills/examples/d3/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Pie chart
+      url: http://veelenga.github.io/preview-skills/examples/d3/pie-chart.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Network
+      url: http://veelenga.github.io/preview-skills/examples/d3/network-graph.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Heatmap
+      url: http://veelenga.github.io/preview-skills/examples/d3/heatmap.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Rubik's Cube
+      url: http://veelenga.github.io/preview-skills/examples/threejs/sample.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Molecule
+      url: http://veelenga.github.io/preview-skills/examples/threejs/molecule.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Solar system
+      url: http://veelenga.github.io/preview-skills/examples/threejs/solar-system.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: World cities
+      url: http://veelenga.github.io/preview-skills/examples/leaflet/world-cities.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Everest trail
+      url: http://veelenga.github.io/preview-skills/examples/leaflet/everest-trail.html
+      source: https://veelenga.github.io/preview-skills/
+    - kind: example
+      title: Longest trails
+      url: http://veelenga.github.io/preview-skills/examples/leaflet/longest-trails.html
+      source: https://veelenga.github.io/preview-skills/
+  source_headings:
+    - Usage
+    - Examples
+    - Documentation
+    - Diagrams
+- name: awesome-claude-skills
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/ComposioHQ/awesome-claude-skills
+  dependencies:
+    - 浏览器/账号
+  catalog_note: Curated Claude Skills, resources, and tool directory with
+    visualization, data, document, automation, and MCP skill discovery surfaces.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: "Quickstart: Connect Claude to 500+ Apps"
+      bytes: 40615
+  official_examples:
+    - kind: template
+      title: Theme Factory
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/theme-factory/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: video
+      title: Video Downloader
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/video-downloader/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: video
+      title: youtube-transcript
+      url: https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: video
+      title: YouTube Automation
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/youtube-automation/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Brand Guidelines
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/brand-guidelines/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: mercury-mcp
+      url: https://www.teamoffsite.ai/proton/docs/skill
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: Skills API documentation
+      url: https://docs.claude.com/en/api/skills-guide
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: Contributing Guidelines
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/CONTRIBUTING.md
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: Skills User Guide
+      url: https://support.claude.com/en/articles/12512180-using-skills-in-claude
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: Brand Guidelines
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/brand-guidelines/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: template
+      title: Theme Factory
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/theme-factory/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: video
+      title: Video Downloader
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/video-downloader/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: video
+      title: youtube-transcript
+      url: https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: mercury-mcp
+      url: https://www.teamoffsite.ai/proton/docs/skill
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: video
+      title: YouTube Automation
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/youtube-automation/
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: Skills API documentation
+      url: https://docs.claude.com/en/api/skills-guide
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: Contributing Guidelines
+      url: https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/CONTRIBUTING.md
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+    - kind: docs
+      title: Skills User Guide
+      url: https://support.claude.com/en/articles/12512180-using-skills-in-claude
+      source: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+  source_headings:
+    - "Quickstart: Connect Claude to 500+ Apps"
+    - Basic Skill Template
+    - Examples
+    - Official Documentation

@@ -1,4 +1,4 @@
-last_researched: '2026-06-21'
+last_researched: '2026-06-23'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1454,6 +1454,58 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: slidemason
+  url: https://github.com/erickittelson/slidemason
+  homepage: https://github.com/erickittelson/slidemason#quick-start
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-03-03'
+  note: Local-first AI presentation builder that turns documents into polished decks through Cursor, Windsurf, Claude Code,
+    or other coding agents without API keys or accounts.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: cc-slidev
+  url: https://github.com/rhuss/cc-slidev
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 40
+  license: MIT
+  updated: '2026-03-28'
+  note: Claude Code plugin for developer-focused technical presentations in Slidev with evidence-based design guardrails
+    and export-oriented workflows.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: Office-PowerPoint-MCP-Server
   url: https://github.com/GongRzhe/Office-PowerPoint-MCP-Server
   category: presentation-tools
@@ -2375,6 +2427,57 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: UML-MCP
+  url: https://github.com/antoinebou12/uml-mcp
+  homepage: https://antoinebou12.github.io/uml-mcp/
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 88
+  license: MIT
+  updated: '2026-06-22'
+  note: MCP server for natural-language or direct PlantUML, Mermaid, and Kroki diagram generation with Claude Desktop,
+    Cursor, Claude Code, and HTTP deployment examples.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Kroki-MCP
+  url: https://github.com/utain/kroki-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 14
+  license: MIT
+  updated: '2026-03-30'
+  note: Go MCP server that converts textual diagram definitions such as PlantUML and Mermaid into PNG, SVG, PDF, and other
+    images through local or remote Kroki backends.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: AntV Infographic
   url: https://github.com/antvis/infographic
   homepage: https://infographic.antv.vision/
@@ -2425,6 +2528,33 @@ entries:
   - 信息图/视觉报告
   - 思维导图/知识地图
   - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render
+- name: Preview Skills
+  url: https://github.com/veelenga/preview-skills
+  homepage: http://veelenga.github.io/preview-skills/
+  category: rendering-primitive
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 7
+  license: MIT
+  updated: '2026-05-17'
+  note: Agent skill collection that turns AI-generated plans, diffs, JSON, CSV, and Mermaid diagrams into browser-based
+    previews for review and iteration.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 网页/交互页面
+  - 图表/Mermaid
+  - 结构化数据/Markdown
   catalog_section: support_render
   readme_group: support_render
 - name: AgentFigureGallery
@@ -3254,6 +3384,25 @@ entries:
   license: MIT
   updated: '2026-06-14'
   note: Large agent skill directory.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-claude-skills
+  url: https://github.com/ComposioHQ/awesome-claude-skills
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 65547
+  license: unknown
+  updated: '2026-05-22'
+  note: Curated Claude Skills, resources, and tool directory with visualization, data, document, automation, and MCP skill
+    discovery surfaces.
   source_types:
   - 任意/多源
   tool_forms:
