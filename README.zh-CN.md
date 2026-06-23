@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-162_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-168_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--24-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -139,6 +139,10 @@
 | [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | 文本/想法 / PDF/文档 / 数据/表格 | Skill 集合 | 信息图/视觉报告 / 报告/长文档 | Agent 宿主 / 模型 API / 本地语言环境 / 渲染/导出 |
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 文本/想法 / 数据/表格 / 代码/技术描述 | Agent Skill | 网页/交互页面 / PPT/演示文稿 / 图表/仪表盘 / 信息图/视觉报告 / 架构图/流程图 | Agent 宿主 / 模型 API / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [Visual Explainer Skill](https://github.com/ericblue/visual-explainer-skill) [![Star](https://img.shields.io/github/stars/ericblue/visual-explainer-skill?style=flat&logo=github&label=Star)](https://github.com/ericblue/visual-explainer-skill/stargazers) | 文本/想法 / PDF/文档 / 代码库 / 代码/技术描述 | Agent Skill | 信息图/视觉报告 / 白板/思维导图 / PPT/演示文稿 / 架构图/流程图 / 图形摘要/信息图 | Agent 宿主 / 模型 API / 渲染/导出 / 模板/素材 |
+| [visual-explainer](https://github.com/nicobailon/visual-explainer) [![Star](https://img.shields.io/github/stars/nicobailon/visual-explainer?style=flat&logo=github&label=Star)](https://github.com/nicobailon/visual-explainer/stargazers) | 文本/想法 / 代码库 / 代码/技术描述 / 数据/表格 | Agent Skill | 网页/交互页面 / PPT/演示文稿 / 架构图/流程图 / 图表/仪表盘 / 信息图/视觉报告 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
+| [baoyu-skills](https://github.com/JimLiu/baoyu-skills) [![Star](https://img.shields.io/github/stars/JimLiu/baoyu-skills?style=flat&logo=github&label=Star)](https://github.com/JimLiu/baoyu-skills/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | Skill 集合 | 信息图/视觉报告 / 图形摘要/信息图 / PPT/演示文稿 / SVG/PNG/PDF | Agent 宿主 / 模型 API / 本地语言环境 / 渲染/导出 / 模板/素材 |
+| [aiz-infographic](https://github.com/aizzaku/aiz-infographic) [![Star](https://img.shields.io/github/stars/aizzaku/aiz-infographic?style=flat&logo=github&label=Star)](https://github.com/aizzaku/aiz-infographic/stargazers) | 文本/想法 / 数据/表格 | Agent Skill | 信息图/视觉报告 / 网页/交互页面 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
+| [ascii-canvas](https://github.com/noodlebindev/ascii-canvas) [![Star](https://img.shields.io/github/stars/noodlebindev/ascii-canvas?style=flat&logo=github&label=Star)](https://github.com/noodlebindev/ascii-canvas/stargazers) | 文本/想法 / 代码/技术描述 / 论文/科研资料 / 数据/表格 | Agent Skill | 信息图/视觉报告 / 架构图/流程图 / 白板/思维导图 / 表格/时间线 / PPT/演示文稿 | Agent 宿主 / 本地语言环境 / 渲染/导出 |
 | [Piktochart AI](https://piktochart.com/generative-ai/) | 文本/想法 / PDF/文档 / 数据/表格 | 产品/SaaS | 信息图/视觉报告 / 报告/长文档 | 浏览器/账号 / 模板/素材 |
 | [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | 文本/想法 / PDF/文档 / 数据/表格 | 产品/SaaS | 信息图/视觉报告 / 报告/长文档 | 浏览器/账号 / 模板/素材 |
 | [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | 文本/想法 / PDF/文档 / 数据/表格 | 产品/SaaS | 信息图/视觉报告 / 报告/长文档 | 浏览器/账号 / 模板/素材 |
@@ -165,6 +169,7 @@
 | [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/代码 / 文本/想法 | API/SDK/库 / Agent Skill | 视频/音频 / 网页/交互页面 | 本地语言环境 / 渲染/导出 / 系统工具 / Agent 宿主 |
 | [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | 文本/想法 / 网页/搜索结果 / 新闻/资讯 | 开源应用/框架 | 视频/音频 | Agent 宿主 / 本地语言环境 / 模型 API / 外部检索/数据源 / 渲染/导出 / 系统工具 |
 | [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | 文本/想法 / 网页/搜索结果 | 开源应用/框架 | 视频/音频 | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 / 系统工具 / 存储/索引 |
+| [data-animation-skills](https://github.com/iart-ai/data-animation-skills) [![Star](https://img.shields.io/github/stars/iart-ai/data-animation-skills?style=flat&logo=github&label=Star)](https://github.com/iart-ai/data-animation-skills/stargazers) | 数据/表格 / 文本/想法 | Skill 集合 | 视频/音频 / 图表/仪表盘 / 信息图/视觉报告 / PPT/演示文稿 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 
 ### 演示文稿与多源内容呈现
 
@@ -198,6 +203,7 @@
 | [presentation-skills](https://github.com/pamelafox/presentation-skills) [![Star](https://img.shields.io/github/stars/pamelafox/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/pamelafox/presentation-skills/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | Skill 集合 | PPT/演示文稿 | Agent 宿主 / 本地语言环境 / 渲染/导出 |
 | [anthropics/skills](https://github.com/anthropics/skills) [![Star](https://img.shields.io/github/stars/anthropics/skills?style=flat&logo=github&label=Star)](https://github.com/anthropics/skills/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | Skill 集合 | PPT/演示文稿 | Agent 宿主 / 本地语言环境 / 文档解析/OCR / 渲染/导出 |
 | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) [![Star](https://img.shields.io/github/stars/MiniMax-AI/skills?style=flat&logo=github&label=Star)](https://github.com/MiniMax-AI/skills/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | Skill 集合 | PPT/演示文稿 | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 |
+| [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) [![Star](https://img.shields.io/github/stars/daymade/claude-code-skills?style=flat&logo=github&label=Star)](https://github.com/daymade/claude-code-skills/stargazers) | 文本/想法 / PDF/文档 / Office 文档 / DSL/代码 | Skill 集合 | PPT/演示文稿 / 图表/Mermaid / SVG/PNG/PDF / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 渲染/导出 / 系统工具 / 文档解析/OCR |
 | [Gamma](https://gamma.app/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |
 | [SlideSpeak](https://slidespeak.co/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 文档解析/OCR / 模板/素材 |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |

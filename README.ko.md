@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-162_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-168_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--24-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -141,6 +141,10 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | Skill 모음 | 인포그래픽/시각 보고서 / 긴 보고서 | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 |
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 설명 | Agent Skill | 웹/인터랙티브 페이지 / PPT/프레젠테이션 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
 | [Visual Explainer Skill](https://github.com/ericblue/visual-explainer-skill) [![Star](https://img.shields.io/github/stars/ericblue/visual-explainer-skill?style=flat&logo=github&label=Star)](https://github.com/ericblue/visual-explainer-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / 코드베이스 / 코드/기술 설명 | Agent Skill | 인포그래픽/비주얼 리포트 / 화이트보드/마인드맵 / PPT/프레젠테이션 / 아키텍처/흐름도 / 그래픽 초록/인포그래픽 | Agent 호스트 / 모델 API / 렌더링/내보내기 / 템플릿/소재 |
+| [visual-explainer](https://github.com/nicobailon/visual-explainer) [![Star](https://img.shields.io/github/stars/nicobailon/visual-explainer?style=flat&logo=github&label=Star)](https://github.com/nicobailon/visual-explainer/stargazers) | 텍스트/아이디어 / 코드베이스 / 코드/기술 설명 / 데이터/표 | Agent Skill | 웹/인터랙티브 페이지 / PPT/프레젠테이션 / 아키텍처/흐름도 / 차트/대시보드 / 인포그래픽/비주얼 리포트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
+| [baoyu-skills](https://github.com/JimLiu/baoyu-skills) [![Star](https://img.shields.io/github/stars/JimLiu/baoyu-skills?style=flat&logo=github&label=Star)](https://github.com/JimLiu/baoyu-skills/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | Skill 모음 | 인포그래픽/비주얼 리포트 / 그래픽 초록/인포그래픽 / PPT/프레젠테이션 / SVG/PNG/PDF | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
+| [aiz-infographic](https://github.com/aizzaku/aiz-infographic) [![Star](https://img.shields.io/github/stars/aizzaku/aiz-infographic?style=flat&logo=github&label=Star)](https://github.com/aizzaku/aiz-infographic/stargazers) | 텍스트/아이디어 / 데이터/표 | Agent Skill | 인포그래픽/비주얼 리포트 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
+| [ascii-canvas](https://github.com/noodlebindev/ascii-canvas) [![Star](https://img.shields.io/github/stars/noodlebindev/ascii-canvas?style=flat&logo=github&label=Star)](https://github.com/noodlebindev/ascii-canvas/stargazers) | 텍스트/아이디어 / 코드/기술 설명 / 논문/연구 자료 / 데이터/표 | Agent Skill | 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 / 화이트보드/마인드맵 / 표/타임라인 / PPT/프레젠테이션 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 |
 | [Piktochart AI](https://piktochart.com/generative-ai/) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | 제품/SaaS | 인포그래픽/시각 보고서 / 긴 보고서 | 브라우저/계정 / 템플릿/자산 |
 | [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | 제품/SaaS | 인포그래픽/시각 보고서 / 긴 보고서 | 브라우저/계정 / 템플릿/자산 |
 | [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | 제품/SaaS | 인포그래픽/시각 보고서 / 긴 보고서 | 브라우저/계정 / 템플릿/자산 |
@@ -167,6 +171,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/코드 / 텍스트/아이디어 | API/SDK/라이브러리 / Agent Skill | 비디오/오디오 / 웹/인터랙티브 페이지 | 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 / Agent 호스트 |
 | [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | 텍스트/아이디어 / 웹/검색 / 뉴스 | 오픈소스 앱/프레임워크 | 비디오/오디오 | Agent 호스트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 / 시스템 도구 |
 | [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | 텍스트/아이디어 / 웹/검색 | 오픈소스 앱/프레임워크 | 비디오/오디오 | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 시스템 도구 / 저장소/인덱스 |
+| [data-animation-skills](https://github.com/iart-ai/data-animation-skills) [![Star](https://img.shields.io/github/stars/iart-ai/data-animation-skills?style=flat&logo=github&label=Star)](https://github.com/iart-ai/data-animation-skills/stargazers) | 데이터/표 / 텍스트/아이디어 | Skill 모음 | 비디오/오디오 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / PPT/프레젠테이션 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
 
 ### 프레젠테이션과 다중 출처 콘텐츠
 
@@ -200,6 +205,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [presentation-skills](https://github.com/pamelafox/presentation-skills) [![Star](https://img.shields.io/github/stars/pamelafox/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/pamelafox/presentation-skills/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | Skill 모음 | PPT/덱 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 |
 | [anthropics/skills](https://github.com/anthropics/skills) [![Star](https://img.shields.io/github/stars/anthropics/skills?style=flat&logo=github&label=Star)](https://github.com/anthropics/skills/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | Skill 모음 | PPT/덱 | Agent 호스트 / 로컬 런타임 / 문서 파싱/OCR / 렌더링/내보내기 |
 | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) [![Star](https://img.shields.io/github/stars/MiniMax-AI/skills?style=flat&logo=github&label=Star)](https://github.com/MiniMax-AI/skills/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | Skill 모음 | PPT/덱 | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) [![Star](https://img.shields.io/github/stars/daymade/claude-code-skills?style=flat&logo=github&label=Star)](https://github.com/daymade/claude-code-skills/stargazers) | 텍스트/아이디어 / PDF/문서 / Office 문서 / DSL/코드 | Skill 모음 | PPT/프레젠테이션 / 다이어그램/Mermaid / SVG/PNG/PDF / 구조화 데이터/Markdown | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 / 문서 파싱/OCR |
 | [Gamma](https://gamma.app/) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS | PPT/덱 | 브라우저/계정 / 템플릿/자산 |
 | [SlideSpeak](https://slidespeak.co/) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS | PPT/덱 | 브라우저/계정 / 문서 파싱/OCR / 템플릿/자산 |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS | PPT/덱 | 브라우저/계정 / 템플릿/자산 |

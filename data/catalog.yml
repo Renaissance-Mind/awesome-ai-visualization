@@ -1,4 +1,4 @@
-last_researched: '2026-06-23'
+last_researched: '2026-06-24'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -218,6 +218,112 @@ entries:
   - PPT/演示文稿
   - 架构图/流程图
   - 图形摘要/信息图
+  catalog_section: main
+  readme_group: text_visual
+- name: visual-explainer
+  url: https://github.com/nicobailon/visual-explainer
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 8838
+  license: MIT
+  updated: '2026-06-23'
+  note: Agent skill for turning complex terminal output, system diagrams, diff reviews, plans, data tables, project recaps, and slide decks into self-contained HTML pages.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 架构图/流程图
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: text_visual
+- name: baoyu-skills
+  url: https://github.com/JimLiu/baoyu-skills
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 22315
+  license: MIT-0
+  updated: '2026-06-23'
+  note: Agent skill collection for content cards, article illustrations, cover images, slide decks, and professional infographics with layout and style systems.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: aiz-infographic
+  url: https://github.com/aizzaku/aiz-infographic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 8
+  license: unknown
+  updated: '2026-06-19'
+  note: Agent-portable infographic skill that turns data and text into self-contained HTML infographics with reliable PNG export, editable text, canvases, snippets, styles, and templates.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: ascii-canvas
+  url: https://github.com/noodlebindev/ascii-canvas
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-06-23'
+  note: Claude Code skill for composing diagrams, slideshows, infographics, playbooks, flashcards, dashboards, timelines, and mind maps as rendered ASCII or Unicode artifacts.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 论文/科研资料
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 白板/思维导图
+  - 表格/时间线
+  - PPT/演示文稿
   catalog_section: main
   readme_group: text_visual
 - name: scientific-agent-skills
@@ -1816,6 +1922,34 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: daymade-claude-code-skills
+  url: https://github.com/daymade/claude-code-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 文档解析/OCR
+  stars: 1208
+  license: MIT
+  updated: '2026-06-23'
+  note: Claude Code skills marketplace whose documentation suite includes doc-to-Markdown conversion, Mermaid PNG rendering, PDF creation, and professional PPT deck creation.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - DSL/代码
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
 - name: GitDiagram
   url: https://github.com/ahmedkhaleel2004/gitdiagram
   homepage: https://gitdiagram.com
@@ -3186,6 +3320,32 @@ entries:
   - 开源应用/框架
   output_forms:
   - 视频/音频
+  catalog_section: main
+  readme_group: video
+- name: data-animation-skills
+  url: https://github.com/iart-ai/data-animation-skills
+  homepage: https://www.iart.ai
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-06-23'
+  note: Claude Code skill pack for turning CSVs and slide outlines into animated charts, animated infographics, and narrated presentation videos with exact numbers.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 视频/音频
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - PPT/演示文稿
   catalog_section: main
   readme_group: video
 - name: Gamma

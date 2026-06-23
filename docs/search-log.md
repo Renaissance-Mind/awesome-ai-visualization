@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-23.
+Last researched: 2026-06-24.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -21,6 +21,8 @@ Update on 2026-06-20: refreshed paper-figure, NotebookLM artifact, content-to-vi
 Update on 2026-06-21: refreshed academic-illustration, GenBI/chart-component, AI diagram, and agent-presentation surfaces from official GitHub repositories, docs, project pages, and package/demo pages. This pass added PaperBanana, Vanna, VMind, Semiotic, next-ai-draw-io, and Slides AI Plugin.
 
 Update on 2026-06-23: refreshed agent presentation, diagram MCP, preview-skill, and skill-index surfaces from official GitHub repositories, project docs, topic pages, and GitHub metadata. This pass added slidemason, cc-slidev, UML-MCP, Kroki-MCP, Preview Skills, and awesome-claude-skills.
+
+Update on 2026-06-24: refreshed visual-explainer, infographic-skill, programmatic data-animation, and documentation-skill surfaces from official GitHub repositories and README evidence. This pass added visual-explainer, baoyu-skills, aiz-infographic, ascii-canvas, data-animation-skills, and daymade-claude-code-skills.
 
 ## Search Surfaces
 
