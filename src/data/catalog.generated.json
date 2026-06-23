@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-06-22T23:05:26+00:00",
-  "lastResearched": "2026-06-23",
+  "generatedAt": "2026-06-23T23:08:09+00:00",
+  "lastResearched": "2026-06-24",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 162,
+    "total": 168,
     "openSource": 55,
     "saas": 37,
-    "modelApi": 69,
-    "examples": 680,
-    "effectAssets": 656,
-    "docs": 546
+    "modelApi": 70,
+    "examples": 692,
+    "effectAssets": 698,
+    "docs": 566
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 28,
-      "PDF/文档": 57,
-      "文本/想法": 75,
-      "数据/表格": 29,
-      "代码/技术描述": 23,
-      "代码库": 21,
-      "网页/搜索结果": 52,
+      "论文/科研资料": 29,
+      "PDF/文档": 59,
+      "文本/想法": 81,
+      "数据/表格": 33,
+      "代码/技术描述": 25,
+      "代码库": 22,
+      "网页/搜索结果": 53,
       "新闻/资讯": 9,
       "知识库/个人资料": 8,
       "任意/多源": 16,
       "引用网络": 4,
-      "Office 文档": 9,
-      "DSL/代码": 13,
+      "Office 文档": 10,
+      "DSL/代码": 14,
       "数据库": 9
     },
     "toolForms": {
       "开源应用/框架": 55,
-      "Agent Skill": 26,
-      "Skill 集合": 13,
+      "Agent Skill": 29,
+      "Skill 集合": 16,
       "数据集/评测": 2,
       "Bot/助手": 5,
       "产品/SaaS": 37,
@@ -41,38 +41,38 @@
       "Awesome/索引": 13
     },
     "outputForms": {
-      "图形摘要/信息图": 10,
-      "PPT/演示文稿": 47,
-      "网页/交互页面": 18,
+      "图形摘要/信息图": 11,
+      "PPT/演示文稿": 52,
+      "网页/交互页面": 20,
       "问答/学习材料": 6,
       "报告/长文档": 15,
       "证据表": 6,
-      "信息图/视觉报告": 15,
-      "图表/仪表盘": 20,
-      "架构图/流程图": 34,
-      "白板/思维导图": 11,
-      "SVG/PNG/PDF": 22,
+      "信息图/视觉报告": 20,
+      "图表/仪表盘": 22,
+      "架构图/流程图": 36,
+      "白板/思维导图": 12,
+      "SVG/PNG/PDF": 25,
+      "表格/时间线": 3,
       "引用答案": 4,
       "思维导图/知识地图": 9,
-      "表格/时间线": 2,
       "报告/简报": 19,
-      "视频/音频": 6,
+      "视频/音频": 7,
       "文献地图/知识地图": 4,
-      "结构化数据/Markdown": 11,
+      "结构化数据/Markdown": 12,
+      "图表/Mermaid": 15,
       "代码地图/Repo Wiki": 17,
-      "图表/Mermaid": 14,
       "图表/渲染输出": 7,
       "工具索引": 15
     },
     "dependencies": {
-      "本地语言环境": 98,
-      "模型 API": 69,
-      "文档解析/OCR": 25,
-      "渲染/导出": 91,
+      "本地语言环境": 104,
+      "模型 API": 70,
+      "文档解析/OCR": 26,
+      "渲染/导出": 97,
       "GPU/加速器": 6,
-      "模板/素材": 57,
-      "Agent 宿主": 40,
-      "系统工具": 12,
+      "模板/素材": 61,
+      "Agent 宿主": 46,
+      "系统工具": 13,
       "外部检索/数据源": 30,
       "存储/索引": 20,
       "浏览器/账号": 56,
@@ -83,30 +83,30 @@
       "paper-visualization": 9,
       "doc-to-knowledge": 16,
       "research-report": 11,
-      "infographic-report": 9,
+      "infographic-report": 13,
       "data-dashboard": 16,
       "literature-map": 4,
-      "presentation-tools": 26,
+      "presentation-tools": 27,
       "codebase-map": 17,
       "rendering-primitive": 6,
       "diagram-generation": 18,
-      "video-generation": 5,
+      "video-generation": 6,
       "commercial-site": 10,
       "meta-index": 15
     },
     "groups": {
       "paper": 20,
-      "text_visual": 15,
+      "text_visual": 19,
       "web_news": 8,
       "support_mindmap": 3,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 36,
+      "presentation": 37,
       "code": 17,
       "support_render": 16,
       "diagrams": 2,
       "data": 12,
-      "video": 5,
+      "video": 6,
       "indexes": 15
     }
   },
@@ -835,6 +835,297 @@
       "effectAssets": [],
       "docsCount": 2,
       "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "visual-explainer",
+      "url": "https://github.com/nicobailon/visual-explainer",
+      "primaryUrl": "https://github.com/nicobailon/visual-explainer",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8838,
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "note": "Agent skill for turning complex terminal output, system diagrams, diff reviews, plans, data tables, project recaps, and slide decks into self-contained HTML pages.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "PPT/演示文稿",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "visual-explainer",
+          "url": "https://raw.githubusercontent.com/nicobailon/visual-explainer/HEAD/banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nicobailon/visual-explainer/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "primaryUrl": "https://github.com/JimLiu/baoyu-skills",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 22315,
+      "license": "MIT-0",
+      "updated": "2026-06-23",
+      "note": "Agent skill collection for content cards, article illustrations, cover images, slide decks, and professional infographics with layout and style systems.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Cursor running baoyu-design",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/main/assets/screenshots/cursor-reader-mac-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Update Skills",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/update-plugins.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "cute",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/cute.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "fresh",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/fresh.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "warm",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/warm.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "bold",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/bold.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "minimal",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/minimal.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "retro",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/retro.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "pop",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/pop.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "notion",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/notion.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "chalkboard",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/chalkboard.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "sparse",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-layouts/sparse.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "aiz-infographic",
+      "url": "https://github.com/aizzaku/aiz-infographic",
+      "primaryUrl": "https://github.com/aizzaku/aiz-infographic",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8,
+      "license": "unknown",
+      "updated": "2026-06-19",
+      "note": "Agent-portable infographic skill that turns data and text into self-contained HTML infographics with reliable PNG export, editable text, canvases, snippets, styles, and templates.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "aiz-infographic — skill banner",
+          "url": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/readme-banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "24 styles, 1 skill",
+          "url": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/styles-showcase.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The 5-layer system: Canvas → Snippet → Style → Element → Template",
+          "url": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/mental-model.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The 4 canvases — bento-box, editorial, dashboard, poster",
+          "url": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/canvases-showcase.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "All 27 snippets at a glance",
+          "url": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/snippets-showcase.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "ascii-canvas",
+      "url": "https://github.com/noodlebindev/ascii-canvas",
+      "primaryUrl": "https://github.com/noodlebindev/ascii-canvas",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "note": "Claude Code skill for composing diagrams, slideshows, infographics, playbooks, flashcards, dashboards, timelines, and mind maps as rendered ASCII or Unicode artifacts.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "论文/科研资料",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "白板/思维导图",
+        "表格/时间线",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -8084,6 +8375,195 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "daymade-claude-code-skills",
+      "url": "https://github.com/daymade/claude-code-skills",
+      "primaryUrl": "https://github.com/daymade/claude-code-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "文档解析/OCR"
+      ],
+      "stars": 1208,
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "note": "Claude Code skills marketplace whose documentation suite includes doc-to-Markdown conversion, Mermaid PNG rendering, PDF creation, and professional PPT deck creation.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/Mermaid",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "skill-creator/references/skill-development-methodology.md",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-skill/skill-creator/references/skill-development-methodology.md",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "daymade-audio/transcript-fixer/references/",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-audio/transcript-fixer/references/",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "video-comparer/references/",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/video-comparer/references/",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "qa-expert/references/",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/qa-expert/references/",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "prompt-optimizer/references/",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/prompt-optimizer/references/",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "daymade-claude-code/claude-code-history-files-finder/references/",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-claude-code/claude-code-history-files-finder/references/",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "daymade-docs/pdf-creator/SKILL.md",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-docs/pdf-creator/SKILL.md",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "promptfoo-evaluation/references/promptfoo_api.md",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/promptfoo-evaluation/references/promptfoo_api.md",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "deep-research/references/research_report_template.md",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/deep-research/references/research_report_template.md",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "interactive demo gallery",
+          "url": "https://github.com/daymade/claude-code-skills/blob/HEAD/demos/index.html",
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Initialize Skill Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/skill-creator/init-skill.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Validate Skill Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/skill-creator/validate-skill.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Package Skill Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/skill-creator/package-skill.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "GitHub Ops Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/github-ops/create-pr.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Markdown Tools Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/doc-to-markdown/convert-docs.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Mermaid Tools Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/mermaid-tools/extract-diagrams.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Statusline Generator Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/statusline-generator/customize-statusline.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Teams Channel Post Writer Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/teams-channel-post-writer/write-post.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Repomix Unmixer Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/repomix-unmixer/extract-repo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "CLI Demo Generator Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/cli-demo-generator/generate-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Cloudflare Troubleshooting Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/cloudflare-troubleshooting/diagnose-redirect-loop.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "UI Designer Demo",
+          "url": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/ui-designer/extract-design-system.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
       "name": "GitDiagram",
       "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
       "primaryUrl": "https://github.com/ahmedkhaleel2004/gitdiagram",
@@ -13478,6 +13958,191 @@
       ],
       "docsCount": 4,
       "examplesCount": 3,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "data-animation-skills",
+      "url": "https://github.com/iart-ai/data-animation-skills",
+      "primaryUrl": "https://github.com/iart-ai/data-animation-skills",
+      "homepage": "https://www.iart.ai",
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "note": "Claude Code skill pack for turning CSVs and slide outlines into animated charts, animated infographics, and narrated presentation videos with exact numbers.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "presentation-video",
+          "url": "https://github.com/iart-ai/data-animation-skills/blob/HEAD/skills/presentation-video",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "tiktok-video-skills",
+          "url": "https://github.com/iart-ai/tiktok-video-skills",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "text-message-video-skills",
+          "url": "https://github.com/iart-ai/text-message-video-skills",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "youtube-video-skills",
+          "url": "https://github.com/iart-ai/youtube-video-skills",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "ecommerce-video-skills",
+          "url": "https://github.com/iart-ai/ecommerce-video-skills",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "ad-video-skills",
+          "url": "https://github.com/iart-ai/ad-video-skills",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "explainer-video-skills",
+          "url": "https://github.com/iart-ai/explainer-video-skills",
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Make an explainer video",
+          "url": "https://www.iart.ai/explainer-video",
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://www.iart.ai/templates",
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/@iartai",
+          "source": "https://www.iart.ai/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Data Animation Skills — animated showcase",
+          "url": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/showcase.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Hero",
+          "url": "https://cdn.iart.ai/video-asset/posters/hero.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase1",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase1.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase2",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase2.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase3",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase3.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase4",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase4.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase6",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase6.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase7",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase7.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase8",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase8.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase9",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase9.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase10",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase10.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "Showcase11",
+          "url": "https://cdn.iart.ai/video-asset/posters/showcase11.webp",
+          "thumbnailUrl": null,
+          "source": "https://www.iart.ai/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 10,
       "effectAssetsCount": 12
     },
     {

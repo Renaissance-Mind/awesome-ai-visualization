@@ -1,4 +1,4 @@
-generated_at: '2026-06-22T23:05:26+00:00'
+generated_at: '2026-06-23T23:08:09+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 162
-  fetched_sources_ok: 227
+  entries: 168
+  fetched_sources_ok: 234
   fetched_sources_failed: 9
-  official_examples: 680
-  official_effect_assets: 656
-  official_docs: 546
+  official_examples: 692
+  official_effect_assets: 698
+  official_docs: 566
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -17875,3 +17875,617 @@ entries:
     - Basic Skill Template
     - Examples
     - Official Documentation
+- name: visual-explainer
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/nicobailon/visual-explainer
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for turning complex terminal output, system diagrams, diff reviews, plans, data tables, project
+    recaps, and slide decks into self-contained HTML pages.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nicobailon/visual-explainer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nicobailon/visual-explainer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: visual-explainer
+    bytes: 8367
+  official_effect_assets:
+  - kind: image
+    title: visual-explainer
+    url: https://raw.githubusercontent.com/nicobailon/visual-explainer/HEAD/banner.png
+    source: https://raw.githubusercontent.com/nicobailon/visual-explainer/HEAD/README.md
+  source_headings:
+  - visual-explainer
+  - 'Optional, only if your Codex build supports prompt templates:'
+  - 'Optional command templates:'
+  - Slide Deck Mode
+- name: baoyu-skills
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/JimLiu/baoyu-skills
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill collection for content cards, article illustrations, cover images, slide decks, and professional
+    infographics with layout and style systems.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: baoyu-skills
+    bytes: 60217
+  official_effect_assets:
+  - kind: image
+    title: Cursor running baoyu-design
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-design/main/assets/screenshots/cursor-reader-mac-app.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: Update Skills
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/update-plugins.png
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: cute
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/cute.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: fresh
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/fresh.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: warm
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/warm.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: bold
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/bold.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: minimal
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/minimal.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: retro
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/retro.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: pop
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/pop.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: notion
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/notion.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: chalkboard
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-styles/chalkboard.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  - kind: image
+    title: sparse
+    url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/screenshots/xhs-images-layouts/sparse.webp
+    source: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/README.md
+  source_headings:
+  - baoyu-diagram
+  - Visual only (no title text)
+  - baoyu-slide-deck
+  - Target slide count
+  - Post with video
+  - Download media (images/videos) to local files
+  - OPENROUTER_HTTP_REFERER=https://your-app.example.com
+  - JIMENG_BASE_URL=https://visual.volcengineapi.com
+- name: aiz-infographic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/aizzaku/aiz-infographic
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-portable infographic skill that turns data and text into self-contained HTML infographics with reliable
+    PNG export, editable text, canvases, snippets, styles, and templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: aiz-infographic
+    bytes: 8227
+  official_effect_assets:
+  - kind: image
+    title: aiz-infographic — skill banner
+    url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/readme-banner.png
+    source: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+  - kind: image
+    title: 24 styles, 1 skill
+    url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/styles-showcase.png
+    source: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+  - kind: image
+    title: 'The 5-layer system: Canvas → Snippet → Style → Element → Template'
+    url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/mental-model.png
+    source: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+  - kind: image
+    title: The 4 canvases — bento-box, editorial, dashboard, poster
+    url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/canvases-showcase.png
+    source: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+  - kind: image
+    title: All 27 snippets at a glance
+    url: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/examples/showcase/snippets-showcase.png
+    source: https://raw.githubusercontent.com/aizzaku/aiz-infographic/HEAD/README.md
+  source_headings:
+  - Usage
+  - Templates
+- name: ascii-canvas
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/noodlebindev/ascii-canvas
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Claude Code skill for composing diagrams, slideshows, infographics, playbooks, flashcards, dashboards, timelines,
+    and mind maps as rendered ASCII or Unicode artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/noodlebindev/ascii-canvas/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/noodlebindev/ascii-canvas/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ascii-canvas
+    bytes: 29219
+  source_headings:
+  - Usage
+  - Sample output
+- name: daymade-claude-code-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/daymade/claude-code-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 文档解析/OCR
+  catalog_note: Claude Code skills marketplace whose documentation suite includes doc-to-Markdown conversion, Mermaid PNG
+    rendering, PDF creation, and professional PPT deck creation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Code Skills Marketplace
+    bytes: 142733
+  official_examples:
+  - kind: template
+    title: deep-research/references/research_report_template.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/deep-research/references/research_report_template.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: demo
+    title: interactive demo gallery
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/demos/index.html
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: skill-creator/references/skill-development-methodology.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-skill/skill-creator/references/skill-development-methodology.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-audio/transcript-fixer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-audio/transcript-fixer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: video-comparer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/video-comparer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: qa-expert/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/qa-expert/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: prompt-optimizer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/prompt-optimizer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-claude-code/claude-code-history-files-finder/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-claude-code/claude-code-history-files-finder/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-docs/pdf-creator/SKILL.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-docs/pdf-creator/SKILL.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: promptfoo-evaluation/references/promptfoo_api.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/promptfoo-evaluation/references/promptfoo_api.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: iOS-APP-developer/references/xcodegen-full.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/iOS-APP-developer/references/xcodegen-full.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: macos-cleaner/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/macos-cleaner/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-skill/skill-reviewer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-skill/daymade-skill/skill-reviewer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: github-contributor/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/github-contributor/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: competitors-analysis/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/competitors-analysis/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: tunnel-doctor/references/proxy_conflict_reference.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/tunnel-doctor/references/proxy_conflict_reference.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: windows-remote-desktop-connection-doctor/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/windows-remote-desktop-connection-doctor/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: product-analysis/references/analysis_dimensions.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/product-analysis/references/analysis_dimensions.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: output-schema.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/financial-data-collector/references/output-schema.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: yfinance-pitfalls.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/financial-data-collector/references/yfinance-pitfalls.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: formatting-reference.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/excel-automation/references/formatting-reference.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: scrapling-skill/references/troubleshooting.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/scrapling-skill/references/troubleshooting.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Initialize Skill Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/skill-creator/init-skill.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Validate Skill Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/skill-creator/validate-skill.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Package Skill Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/skill-creator/package-skill.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: GitHub Ops Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/github-ops/create-pr.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Markdown Tools Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/doc-to-markdown/convert-docs.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Mermaid Tools Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/mermaid-tools/extract-diagrams.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Statusline Generator Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/statusline-generator/customize-statusline.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Teams Channel Post Writer Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/teams-channel-post-writer/write-post.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Repomix Unmixer Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/repomix-unmixer/extract-repo.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: CLI Demo Generator Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/cli-demo-generator/generate-demo.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: Cloudflare Troubleshooting Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/cloudflare-troubleshooting/diagnose-redirect-loop.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: gif
+    title: UI Designer Demo
+    url: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/demos/ui-designer/extract-design-system.gif
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: skill-creator/references/skill-development-methodology.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-skill/skill-creator/references/skill-development-methodology.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-audio/transcript-fixer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-audio/transcript-fixer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: video-comparer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/video-comparer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: qa-expert/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/qa-expert/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: prompt-optimizer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/prompt-optimizer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-claude-code/claude-code-history-files-finder/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-claude-code/claude-code-history-files-finder/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-docs/pdf-creator/SKILL.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-docs/pdf-creator/SKILL.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: promptfoo-evaluation/references/promptfoo_api.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/promptfoo-evaluation/references/promptfoo_api.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: iOS-APP-developer/references/xcodegen-full.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/iOS-APP-developer/references/xcodegen-full.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: macos-cleaner/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/macos-cleaner/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: daymade-skill/skill-reviewer/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/daymade-skill/daymade-skill/skill-reviewer/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: github-contributor/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/github-contributor/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: template
+    title: deep-research/references/research_report_template.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/deep-research/references/research_report_template.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: competitors-analysis/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/competitors-analysis/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: tunnel-doctor/references/proxy_conflict_reference.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/tunnel-doctor/references/proxy_conflict_reference.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: windows-remote-desktop-connection-doctor/references/
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/windows-remote-desktop-connection-doctor/references/
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: product-analysis/references/analysis_dimensions.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/product-analysis/references/analysis_dimensions.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: output-schema.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/financial-data-collector/references/output-schema.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: yfinance-pitfalls.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/financial-data-collector/references/yfinance-pitfalls.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: formatting-reference.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/excel-automation/references/formatting-reference.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: scrapling-skill/references/troubleshooting.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/scrapling-skill/references/troubleshooting.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: ima-copilot/references/known_issues.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/ima-copilot/references/known_issues.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: douban-skill/references/troubleshooting.md
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/douban-skill/references/troubleshooting.md
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: demo
+    title: interactive demo gallery
+    url: https://github.com/daymade/claude-code-skills/blob/HEAD/demos/index.html
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: Agent Skills Guide
+    url: https://docs.claude.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  - kind: docs
+    title: Plugin Marketplaces
+    url: https://docs.claude.com/en/docs/claude-code/plugin-marketplaces
+    source: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+  source_headings:
+  - Live Demos
+  - CLI demo generation
+  - YouTube video/audio downloading
+  - Video comparison and quality analysis
+  - Complete Chinese Documentation
+  - 3. **mermaid-tools** - Diagram Generation
+  - 8. **cli-demo-generator** - CLI Demo Generation
+  - 11. **ppt-creator** - Professional Presentation Creation
+  - 12. **youtube-downloader** - YouTube Video & Audio Downloader
+  - 15. **video-comparer** - Video Comparison and Quality Analysis
+  - Full prompt includes Role, Skills, Workflows, Examples, Formats
+  - 19. **docs-cleaner** - Documentation Consolidation
+- name: data-animation-skills
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/iart-ai/data-animation-skills
+  homepage: https://www.iart.ai
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill pack for turning CSVs and slide outlines into animated charts, animated infographics, and
+    narrated presentation videos with exact numbers.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Data Animation Skills
+    bytes: 4762
+  - kind: homepage
+    url: https://www.iart.ai/
+    final_url: https://www.iart.ai/
+    status: 200
+    content_type: text/html
+    title: iArt.ai — AI Motion Graphics Software | Create Animated Videos with AI
+    description: AI motion graphics software — the After Effects alternative anyone can use. Create animations and explainer
+      videos from a text prompt in seconds.
+    bytes: 228555
+  official_examples:
+  - kind: video
+    title: presentation-video
+    url: https://github.com/iart-ai/data-animation-skills/blob/HEAD/skills/presentation-video
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: tiktok-video-skills
+    url: https://github.com/iart-ai/tiktok-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: text-message-video-skills
+    url: https://github.com/iart-ai/text-message-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: youtube-video-skills
+    url: https://github.com/iart-ai/youtube-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: ecommerce-video-skills
+    url: https://github.com/iart-ai/ecommerce-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: ad-video-skills
+    url: https://github.com/iart-ai/ad-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: explainer-video-skills
+    url: https://github.com/iart-ai/explainer-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: Make an explainer video
+    url: https://www.iart.ai/explainer-video
+    source: https://www.iart.ai/
+  - kind: template
+    title: Templates
+    url: https://www.iart.ai/templates
+    source: https://www.iart.ai/
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@iartai
+    source: https://www.iart.ai/
+  official_effect_assets:
+  - kind: gif
+    title: Data Animation Skills — animated showcase
+    url: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/showcase.gif
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: image
+    title: Hero
+    url: https://cdn.iart.ai/video-asset/posters/hero.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase1
+    url: https://cdn.iart.ai/video-asset/posters/showcase1.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase2
+    url: https://cdn.iart.ai/video-asset/posters/showcase2.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase3
+    url: https://cdn.iart.ai/video-asset/posters/showcase3.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase4
+    url: https://cdn.iart.ai/video-asset/posters/showcase4.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase6
+    url: https://cdn.iart.ai/video-asset/posters/showcase6.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase7
+    url: https://cdn.iart.ai/video-asset/posters/showcase7.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase8
+    url: https://cdn.iart.ai/video-asset/posters/showcase8.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase9
+    url: https://cdn.iart.ai/video-asset/posters/showcase9.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase10
+    url: https://cdn.iart.ai/video-asset/posters/showcase10.webp
+    source: https://www.iart.ai/
+  - kind: image
+    title: Showcase11
+    url: https://cdn.iart.ai/video-asset/posters/showcase11.webp
+    source: https://www.iart.ai/
+  official_links:
+  - kind: video
+    title: presentation-video
+    url: https://github.com/iart-ai/data-animation-skills/blob/HEAD/skills/presentation-video
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: tiktok-video-skills
+    url: https://github.com/iart-ai/tiktok-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: text-message-video-skills
+    url: https://github.com/iart-ai/text-message-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: youtube-video-skills
+    url: https://github.com/iart-ai/youtube-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: ecommerce-video-skills
+    url: https://github.com/iart-ai/ecommerce-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: ad-video-skills
+    url: https://github.com/iart-ai/ad-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: explainer-video-skills
+    url: https://github.com/iart-ai/explainer-video-skills
+    source: https://raw.githubusercontent.com/iart-ai/data-animation-skills/HEAD/README.md
+  - kind: video
+    title: Make an explainer video
+    url: https://www.iart.ai/explainer-video
+    source: https://www.iart.ai/
+  - kind: template
+    title: Templates
+    url: https://www.iart.ai/templates
+    source: https://www.iart.ai/
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@iartai
+    source: https://www.iart.ai/
+  source_headings:
+  - Example prompts

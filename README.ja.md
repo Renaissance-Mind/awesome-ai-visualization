@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-162_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-168_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--24-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -141,6 +141,10 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | テキスト/アイデア / PDF/文書 / データ/表 | Skill 集合 | インフォグラフィック/ビジュアルレポート / 長文レポート | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート |
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | テキスト/アイデア / データ/表 / コード/技術記述 | Agent Skill | Web/インタラクティブページ / PPT/スライド / チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 | [Visual Explainer Skill](https://github.com/ericblue/visual-explainer-skill) [![Star](https://img.shields.io/github/stars/ericblue/visual-explainer-skill?style=flat&logo=github&label=Star)](https://github.com/ericblue/visual-explainer-skill/stargazers) | テキスト/アイデア / PDF/ドキュメント / コードベース / コード/技術記述 | Agent Skill | インフォグラフィック/ビジュアルレポート / ホワイトボード/マインドマップ / PPT/スライド / アーキテクチャ/フロー図 / グラフィカルアブストラクト/インフォグラフィック | Agent ホスト / モデル API / レンダリング/エクスポート / テンプレート/素材 |
+| [visual-explainer](https://github.com/nicobailon/visual-explainer) [![Star](https://img.shields.io/github/stars/nicobailon/visual-explainer?style=flat&logo=github&label=Star)](https://github.com/nicobailon/visual-explainer/stargazers) | テキスト/アイデア / コードベース / コード/技術記述 / データ/表 | Agent Skill | Web/インタラクティブページ / PPT/デッキ / アーキテクチャ/フロー図 / チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [baoyu-skills](https://github.com/JimLiu/baoyu-skills) [![Star](https://img.shields.io/github/stars/JimLiu/baoyu-skills?style=flat&logo=github&label=Star)](https://github.com/JimLiu/baoyu-skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | インフォグラフィック/ビジュアルレポート / グラフィカルアブストラクト/インフォグラフィック / PPT/デッキ / SVG/PNG/PDF | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [aiz-infographic](https://github.com/aizzaku/aiz-infographic) [![Star](https://img.shields.io/github/stars/aizzaku/aiz-infographic?style=flat&logo=github&label=Star)](https://github.com/aizzaku/aiz-infographic/stargazers) | テキスト/アイデア / データ/表 | Agent Skill | インフォグラフィック/ビジュアルレポート / Web/インタラクティブページ / SVG/PNG/PDF | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
+| [ascii-canvas](https://github.com/noodlebindev/ascii-canvas) [![Star](https://img.shields.io/github/stars/noodlebindev/ascii-canvas?style=flat&logo=github&label=Star)](https://github.com/noodlebindev/ascii-canvas/stargazers) | テキスト/アイデア / コード/技術記述 / 論文/研究資料 / データ/表 | Agent Skill | インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 / ホワイトボード/マインドマップ / 表/タイムライン / PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート |
 | [Piktochart AI](https://piktochart.com/generative-ai/) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / テンプレート/素材 |
 | [Venngage AI Infographic Generator](https://venngage.com/ai-tools/infographic-generator) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / テンプレート/素材 |
 | [Venngage AI Report Generator](https://venngage.com/ai-tools/report-generator) | テキスト/アイデア / PDF/文書 / データ/表 | 製品/SaaS | インフォグラフィック/ビジュアルレポート / 長文レポート | ブラウザ/アカウント / テンプレート/素材 |
@@ -167,6 +171,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/コード / テキスト/アイデア | API/SDK/ライブラリ / Agent Skill | 動画/音声 / Web/インタラクティブページ | ローカル実行環境 / レンダリング/エクスポート / システムツール / Agent ホスト |
 | [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | テキスト/アイデア / Web/検索 / ニュース | オープンソースアプリ/フレームワーク | 動画/音声 | Agent ホスト / ローカル実行環境 / モデル API / 外部検索/データ / レンダリング/エクスポート / システムツール |
 | [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | テキスト/アイデア / Web/検索 | オープンソースアプリ/フレームワーク | 動画/音声 | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート / システムツール / ストレージ/索引 |
+| [data-animation-skills](https://github.com/iart-ai/data-animation-skills) [![Star](https://img.shields.io/github/stars/iart-ai/data-animation-skills?style=flat&logo=github&label=Star)](https://github.com/iart-ai/data-animation-skills/stargazers) | データ/表 / テキスト/アイデア | Skill 集合 | 動画/音声 / チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 
 ### プレゼンテーションと複数ソースのコンテンツ
 
@@ -200,6 +205,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [presentation-skills](https://github.com/pamelafox/presentation-skills) [![Star](https://img.shields.io/github/stars/pamelafox/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/pamelafox/presentation-skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | PPT/デッキ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート |
 | [anthropics/skills](https://github.com/anthropics/skills) [![Star](https://img.shields.io/github/stars/anthropics/skills?style=flat&logo=github&label=Star)](https://github.com/anthropics/skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | PPT/デッキ | Agent ホスト / ローカル実行環境 / 文書解析/OCR / レンダリング/エクスポート |
 | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) [![Star](https://img.shields.io/github/stars/MiniMax-AI/skills?style=flat&logo=github&label=Star)](https://github.com/MiniMax-AI/skills/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | Skill 集合 | PPT/デッキ | Agent ホスト / ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) [![Star](https://img.shields.io/github/stars/daymade/claude-code-skills?style=flat&logo=github&label=Star)](https://github.com/daymade/claude-code-skills/stargazers) | テキスト/アイデア / PDF/文書 / Office 文書 / DSL/コード | Skill 集合 | PPT/デッキ / 図/Mermaid / SVG/PNG/PDF / 構造化データ/Markdown | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / システムツール / 文書解析/OCR |
 | [Gamma](https://gamma.app/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
 | [SlideSpeak](https://slidespeak.co/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / 文書解析/OCR / テンプレート/素材 |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | テキスト/アイデア / PDF/文書 / Web/検索 | 製品/SaaS | PPT/デッキ | ブラウザ/アカウント / テンプレート/素材 |
