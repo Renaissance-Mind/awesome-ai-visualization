@@ -1,4 +1,4 @@
-last_researched: '2026-06-24'
+last_researched: '2026-06-25'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1221,6 +1221,30 @@ entries:
   - 报告/长文档
   catalog_section: main
   readme_group: text_visual
+- name: hbr-style-visualization
+  url: https://github.com/kgraph57/hbr-style-visualization
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-06-16'
+  note: Claude Code skill for HBR-style editorial charts, strategic matrices, flywheels, and business infographics.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图表/仪表盘
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: text_visual
 - name: Venngage AI Infographic Generator
   url: https://venngage.com/ai-tools/infographic-generator
   category: infographic-report
@@ -1734,6 +1758,79 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: PptxGenJS-mcp-server
+  url: https://github.com/Hrithik-s-Raj/PptxGenJS-mcp-server
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-01-06'
+  note: Node.js MCP server that lets LLMs create, edit, manage, and export PowerPoint decks with text, shapes, images, tables, and charts through PptxGenJS.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: md-slides
+  url: https://github.com/zl190/md-slides
+  homepage: https://zl190.github.io/md-slides/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 8
+  license: MIT
+  updated: '2026-06-15'
+  note: Claude Code skill that turns topics or Markdown files into Marp, Beamer, PDF, PPTX, and HTML slide outputs with optional AI-generated diagrams and illustrations.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: presentation
+- name: deckset-claude-skill
+  url: https://github.com/doudou1337/deckset-claude-skill
+  homepage: https://docs.deckset.com/English.lproj/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 10
+  license: MIT
+  updated: '2026-05-28'
+  note: Claude Code and Claude Desktop skill for creating Deckset Markdown presentations, with bundled Deckset documentation, examples, and documentation scraper.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
 - name: pptx-from-layouts-skill
   url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill
   category: presentation-tools
@@ -2018,6 +2115,32 @@ entries:
   output_forms:
   - 代码地图/Repo Wiki
   - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: GitNexus
+  url: https://github.com/abhigyanpatwari/GitNexus
+  homepage: https://gitnexus.vercel.app
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 42897
+  license: PolyForm-Noncommercial-1.0.0
+  updated: '2026-06-24'
+  note: Local CLI, MCP server, and browser UI that index repositories into interactive dependency, call-chain, cluster, and execution-flow knowledge graphs for AI agents.
+  source_types:
+  - 代码库
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 网页/交互页面
   catalog_section: main
   readme_group: code
 - name: deepwiki-open
@@ -3106,6 +3229,32 @@ entries:
   - 图表/渲染输出
   catalog_section: main
   readme_group: data
+- name: mcp-dashboards
+  url: https://github.com/KyuRish/mcp-dashboards
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 33
+  license: FSL-1.1-MIT
+  updated: '2026-06-11'
+  note: MCP Apps-compatible server that renders interactive in-chat charts, dashboards, KPI widgets, live-polling views, and PNG/PPT/A4 exports from plain-language data requests.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
 - name: MatPlotAgent
   url: https://github.com/thunlp/MatPlotAgent
   category: data-dashboard
@@ -3224,6 +3373,36 @@ entries:
   output_forms:
   - 视频/音频
   - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: HyperFrames
+  url: https://github.com/heygen-com/hyperframes
+  homepage: https://hyperframes.heygen.com/
+  category: video-generation
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 31033
+  license: Apache-2.0
+  updated: '2026-06-24'
+  note: Open-source HTML/CSS/animation-to-MP4 framework with agent skills, CLI preview/render loop, showcase examples, and docs-to-video, PDF-to-video, data-animation, and website-to-video workflows.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - PDF/文档
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  - 图表/仪表盘
   catalog_section: main
   readme_group: video
 - name: NextFrame

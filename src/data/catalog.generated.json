@@ -1,112 +1,112 @@
 {
-  "generatedAt": "2026-06-23T23:08:09+00:00",
-  "lastResearched": "2026-06-24",
+  "generatedAt": "2026-06-24T23:10:31+00:00",
+  "lastResearched": "2026-06-25",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 168,
-    "openSource": 55,
+    "total": 175,
+    "openSource": 57,
     "saas": 37,
-    "modelApi": 70,
-    "examples": 692,
-    "effectAssets": 698,
-    "docs": 566
+    "modelApi": 73,
+    "examples": 696,
+    "effectAssets": 725,
+    "docs": 579
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 29,
-      "PDF/文档": 59,
-      "文本/想法": 81,
-      "数据/表格": 33,
+      "PDF/文档": 60,
+      "文本/想法": 86,
+      "数据/表格": 37,
       "代码/技术描述": 25,
-      "代码库": 22,
-      "网页/搜索结果": 53,
+      "代码库": 23,
+      "网页/搜索结果": 54,
       "新闻/资讯": 9,
       "知识库/个人资料": 8,
-      "任意/多源": 16,
+      "任意/多源": 17,
       "引用网络": 4,
       "Office 文档": 10,
-      "DSL/代码": 14,
-      "数据库": 9
+      "DSL/代码": 17,
+      "数据库": 10
     },
     "toolForms": {
-      "开源应用/框架": 55,
-      "Agent Skill": 29,
+      "开源应用/框架": 57,
+      "Agent Skill": 33,
       "Skill 集合": 16,
       "数据集/评测": 2,
       "Bot/助手": 5,
       "产品/SaaS": 37,
       "研究原型": 4,
       "API/SDK/库": 13,
-      "MCP Server": 13,
+      "MCP Server": 16,
       "Awesome/索引": 13
     },
     "outputForms": {
       "图形摘要/信息图": 11,
-      "PPT/演示文稿": 52,
-      "网页/交互页面": 20,
+      "PPT/演示文稿": 57,
+      "网页/交互页面": 23,
       "问答/学习材料": 6,
       "报告/长文档": 15,
       "证据表": 6,
-      "信息图/视觉报告": 20,
-      "图表/仪表盘": 22,
-      "架构图/流程图": 36,
+      "信息图/视觉报告": 21,
+      "图表/仪表盘": 26,
+      "架构图/流程图": 38,
       "白板/思维导图": 12,
-      "SVG/PNG/PDF": 25,
+      "SVG/PNG/PDF": 26,
       "表格/时间线": 3,
       "引用答案": 4,
       "思维导图/知识地图": 9,
       "报告/简报": 19,
-      "视频/音频": 7,
+      "视频/音频": 8,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 12,
       "图表/Mermaid": 15,
-      "代码地图/Repo Wiki": 17,
+      "代码地图/Repo Wiki": 18,
       "图表/渲染输出": 7,
       "工具索引": 15
     },
     "dependencies": {
-      "本地语言环境": 104,
-      "模型 API": 70,
+      "本地语言环境": 110,
+      "模型 API": 73,
       "文档解析/OCR": 26,
-      "渲染/导出": 97,
+      "渲染/导出": 104,
       "GPU/加速器": 6,
-      "模板/素材": 61,
-      "Agent 宿主": 46,
-      "系统工具": 13,
-      "外部检索/数据源": 30,
-      "存储/索引": 20,
+      "模板/素材": 65,
+      "Agent 宿主": 52,
+      "系统工具": 14,
+      "外部检索/数据源": 31,
+      "存储/索引": 21,
       "浏览器/账号": 56,
-      "MCP Client": 14,
-      "代码分析工具": 17
+      "MCP Client": 17,
+      "代码分析工具": 18
     },
     "categories": {
       "paper-visualization": 9,
       "doc-to-knowledge": 16,
       "research-report": 11,
-      "infographic-report": 13,
-      "data-dashboard": 16,
+      "infographic-report": 14,
+      "data-dashboard": 17,
       "literature-map": 4,
-      "presentation-tools": 27,
-      "codebase-map": 17,
+      "presentation-tools": 30,
+      "codebase-map": 18,
       "rendering-primitive": 6,
       "diagram-generation": 18,
-      "video-generation": 6,
+      "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 15
     },
     "groups": {
       "paper": 20,
-      "text_visual": 19,
+      "text_visual": 20,
       "web_news": 8,
       "support_mindmap": 3,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 37,
-      "code": 17,
+      "presentation": 40,
+      "code": 18,
       "support_render": 16,
       "diagrams": 2,
-      "data": 12,
-      "video": 6,
+      "data": 13,
+      "video": 7,
       "indexes": 15
     }
   },
@@ -5213,6 +5213,51 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "hbr-style-visualization",
+      "url": "https://github.com/kgraph57/hbr-style-visualization",
+      "primaryUrl": "https://github.com/kgraph57/hbr-style-visualization",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-06-16",
+      "note": "Claude Code skill for HBR-style editorial charts, strategic matrices, flywheels, and business infographics.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图表/仪表盘",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Skills API documentation",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide",
+          "source": "https://raw.githubusercontent.com/kgraph57/hbr-style-visualization/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Venngage AI Infographic Generator",
       "url": "https://venngage.com/ai-tools/infographic-generator",
       "primaryUrl": "https://venngage.com/ai-tools/infographic-generator",
@@ -7818,6 +7863,226 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "PptxGenJS-mcp-server",
+      "url": "https://github.com/Hrithik-s-Raj/PptxGenJS-mcp-server",
+      "primaryUrl": "https://github.com/Hrithik-s-Raj/PptxGenJS-mcp-server",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-01-06",
+      "note": "Node.js MCP server that lets LLMs create, edit, manage, and export PowerPoint decks with text, shapes, images, tables, and charts through PptxGenJS.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "md-slides",
+      "url": "https://github.com/zl190/md-slides",
+      "primaryUrl": "https://github.com/zl190/md-slides",
+      "homepage": "https://zl190.github.io/md-slides/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8,
+      "license": "MIT",
+      "updated": "2026-06-15",
+      "note": "Claude Code skill that turns topics or Markdown files into Marp, Beamer, PDF, PPTX, and HTML slide outputs with optional AI-generated diagrams and illustrations.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "full report",
+          "url": "https://github.com/zl190/md-slides/blob/HEAD/docs/report-research-zh.md",
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "How md-slides works",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/flowchart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Markdown to Slides concept",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Title slide",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-en-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Content slide",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-en-2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Title slide (Chinese)",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-zh-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Content slide (Chinese)",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-zh-2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Marp",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/marp_gaia-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Beamer",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/beamer_metropolis-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Code",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/marp_code-2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Math",
+          "url": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/beamer_math-4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 10
+    },
+    {
+      "name": "deckset-claude-skill",
+      "url": "https://github.com/doudou1337/deckset-claude-skill",
+      "primaryUrl": "https://github.com/doudou1337/deckset-claude-skill",
+      "homepage": "https://docs.deckset.com/English.lproj/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 10,
+      "license": "MIT",
+      "updated": "2026-05-28",
+      "note": "Claude Code and Claude Desktop skill for creating Deckset Markdown presentations, with bundled Deckset documentation, examples, and documentation scraper.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Getting Started",
+          "url": "https://docs.deckset.com/English.lproj/getting-started.html",
+          "source": "https://docs.deckset.com/English.lproj/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "Videos",
+          "url": "https://docs.deckset.com/English.lproj/Media/03-videos.html",
+          "source": "https://docs.deckset.com/English.lproj/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Background",
+          "url": "https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/background.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "inline fill",
+          "url": "https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/photo.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 2
+    },
+    {
       "name": "pptx-from-layouts-skill",
       "url": "https://github.com/tristan-mcinnis/pptx-from-layouts-skill",
       "primaryUrl": "https://github.com/tristan-mcinnis/pptx-from-layouts-skill",
@@ -8802,6 +9067,71 @@
       "docsCount": 1,
       "examplesCount": 2,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "primaryUrl": "https://github.com/abhigyanpatwari/GitNexus",
+      "homepage": "https://gitnexus.vercel.app",
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 42897,
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "updated": "2026-06-24",
+      "note": "Local CLI, MCP server, and browser UI that index repositories into interactive dependency, call-chain, cluster, and execution-flow knowledge graphs for AI agents.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Gemini CLI hooks schema",
+          "url": "https://geminicli.com/docs/hooks/reference/",
+          "source": "https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "protocol spec",
+          "url": "https://github.com/looptech-ai/understand-quickly/blob/main/docs/integrations/protocol.md",
+          "source": "https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "transformers.js",
+          "url": "https://huggingface.co/docs/transformers.js",
+          "source": "https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": ".env.example",
+          "url": "https://github.com/abhigyanpatwari/GitNexus/blob/HEAD/.env.example",
+          "source": "https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     },
     {
       "name": "deepwiki-open",
@@ -13110,6 +13440,82 @@
       "effectAssetsCount": 3
     },
     {
+      "name": "mcp-dashboards",
+      "url": "https://github.com/KyuRish/mcp-dashboards",
+      "primaryUrl": "https://github.com/KyuRish/mcp-dashboards",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 33,
+      "license": "FSL-1.1-MIT",
+      "updated": "2026-06-11",
+      "note": "MCP Apps-compatible server that renders interactive in-chat charts, dashboards, KPI widgets, live-polling views, and PNG/PPT/A4 exports from plain-language data requests.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP Apps",
+          "url": "https://modelcontextprotocol.io/docs/extensions/apps",
+          "source": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "MCP Dashboards demo",
+          "url": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Infrastructure Command Center dashboard",
+          "url": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/dashboard-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chart Catalog - 31 chart tools",
+          "url": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/chart-catalog.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Theme Catalog - 21 themes",
+          "url": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/theme-catalog.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
       "name": "MatPlotAgent",
       "url": "https://github.com/thunlp/MatPlotAgent",
       "primaryUrl": "https://github.com/thunlp/MatPlotAgent",
@@ -13621,6 +14027,177 @@
       "docsCount": 2,
       "examplesCount": 20,
       "effectAssetsCount": 7
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "primaryUrl": "https://github.com/heygen-com/hyperframes",
+      "homepage": "https://hyperframes.heygen.com/",
+      "category": "video-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 31033,
+      "license": "Apache-2.0",
+      "updated": "2026-06-24",
+      "note": "Open-source HTML/CSS/animation-to-MP4 framework with agent skills, CLI preview/render loop, showcase examples, and docs-to-video, PDF-to-video, data-animation, and website-to-video workflows.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "PDF/文档",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Design guide",
+          "url": "https://hyperframes.heygen.com/guides/claude-design",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Open Design guide",
+          "url": "https://hyperframes.heygen.com/guides/open-design",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "HyperFrames vs Remotion guide",
+          "url": "https://hyperframes.heygen.com/guides/hyperframes-vs-remotion",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart",
+          "url": "https://hyperframes.heygen.com/quickstart",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Guides",
+          "url": "https://hyperframes.heygen.com/guides/gsap-animation",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://hyperframes.heygen.com/packages/core",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Showcase",
+          "url": "https://hyperframes.heygen.com/showcase",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://hyperframes.heygen.com/examples",
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Bold Poster",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/bold-poster.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Intro",
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/intro.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Biennale Yellow",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/biennale-yellow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "BlockFrame",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/blockframe.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Blue Professional",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/blue-professional.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Broadside",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/broadside.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Capsule",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/capsule.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cartesian",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/cartesian.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cobalt Grid",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/cobalt-grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Coral",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/coral.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Creative Mode",
+          "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/creative-mode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 2,
+      "effectAssetsCount": 11
     },
     {
       "name": "NextFrame",
