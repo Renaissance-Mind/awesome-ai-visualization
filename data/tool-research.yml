@@ -1,4 +1,4 @@
-generated_at: '2026-06-23T23:08:09+00:00'
+generated_at: '2026-06-24T23:10:31+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 168
-  fetched_sources_ok: 234
-  fetched_sources_failed: 9
-  official_examples: 692
-  official_effect_assets: 698
-  official_docs: 566
+  entries: 175
+  fetched_sources_ok: 244
+  fetched_sources_failed: 10
+  official_examples: 696
+  official_effect_assets: 725
+  official_docs: 579
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -18489,3 +18489,472 @@ entries:
     source: https://www.iart.ai/
   source_headings:
   - Example prompts
+- name: hbr-style-visualization
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/kgraph57/hbr-style-visualization
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for HBR-style editorial charts, strategic matrices, flywheels, and business infographics.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kgraph57/hbr-style-visualization/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kgraph57/hbr-style-visualization/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: HBR-Style Visualization
+    bytes: 4579
+  official_docs:
+  - kind: docs
+    title: Skills API documentation
+    url: https://platform.claude.com/docs/en/build-with-claude/skills-guide
+    source: https://raw.githubusercontent.com/kgraph57/hbr-style-visualization/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Skills API documentation
+    url: https://platform.claude.com/docs/en/build-with-claude/skills-guide
+    source: https://raw.githubusercontent.com/kgraph57/hbr-style-visualization/HEAD/README.md
+  source_headings:
+  - HBR-Style Visualization
+  - Usage Examples
+  - 'Example 1: Create a Flywheel Diagram'
+  - 'Example 2: Annotated Chart with Sidebar'
+  - 'Example 3: 2x2 Strategic Matrix'
+- name: PptxGenJS-mcp-server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/Hrithik-s-Raj/PptxGenJS-mcp-server
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Node.js MCP server that lets LLMs create, edit, manage, and export PowerPoint decks with text, shapes, images,
+    tables, and charts through PptxGenJS.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Hrithik-s-Raj/PptxGenJS-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Hrithik-s-Raj/PptxGenJS-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PptxGenJS MCP Server
+    bytes: 5433
+  source_headings:
+  - Usage
+  - 1. create_presentation
+  - 2. add_slide
+  - 8. save_presentation
+  - 9. list_presentations
+  - 10. delete_presentation
+  - Example Workflow
+- name: md-slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/zl190/md-slides
+  homepage: https://zl190.github.io/md-slides/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns topics or Markdown files into Marp, Beamer, PDF, PPTX, and HTML slide outputs
+    with optional AI-generated diagrams and illustrations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What is this?
+    bytes: 7955
+  - kind: homepage
+    url: https://zl190.github.io/md-slides/
+    final_url: https://zl190.github.io/md-slides/
+    status: 200
+    content_type: text/html
+    title: Markdown 幻灯片工具对比
+    bytes: 122447
+  official_docs:
+  - kind: docs
+    title: full report
+    url: https://github.com/zl190/md-slides/blob/HEAD/docs/report-research-zh.md
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: How md-slides works
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/flowchart.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Markdown to Slides concept
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/hero.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Title slide
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-en-1.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Content slide
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-en-2.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Title slide (Chinese)
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-zh-1.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Content slide (Chinese)
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/visual-zh-2.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Marp
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/marp_gaia-1.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Beamer
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/beamer_metropolis-1.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Code
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/marp_code-2.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  - kind: image
+    title: Math
+    url: https://raw.githubusercontent.com/zl190/md-slides/HEAD/assets/beamer_math-4.png
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: full report
+    url: https://github.com/zl190/md-slides/blob/HEAD/docs/report-research-zh.md
+    source: https://raw.githubusercontent.com/zl190/md-slides/HEAD/README.md
+  source_headings:
+  - The skill is in .claude/skills/md-slides/
+  - Usage
+  - Examples
+  - Technical tutorial
+  - Research presentation
+  - Visual Templates
+  - Visual Comparison
+  - Ask for slides with visuals
+  - Manual Usage (without Claude)
+- name: deckset-claude-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/doudou1337/deckset-claude-skill
+  homepage: https://docs.deckset.com/English.lproj/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Claude Desktop skill for creating Deckset Markdown presentations, with bundled Deckset documentation,
+    examples, and documentation scraper.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Deckset Presentation Expert
+    bytes: 2633
+  - kind: homepage
+    url: https://docs.deckset.com/English.lproj/
+    final_url: https://docs.deckset.com/English.lproj/
+    status: 200
+    content_type: text/html
+    title: Deckset Help - Deckset Help
+    description: Browse the Deckset help hub for formatting tips, media workflows, customization commands, and presenter tools
+      for crafting polished slides.
+    bytes: 10725
+  official_examples:
+  - kind: video
+    title: Videos
+    url: https://docs.deckset.com/English.lproj/Media/03-videos.html
+    source: https://docs.deckset.com/English.lproj/
+  official_docs:
+  - kind: docs
+    title: Getting Started
+    url: https://docs.deckset.com/English.lproj/getting-started.html
+    source: https://docs.deckset.com/English.lproj/
+  official_effect_assets:
+  - kind: image
+    title: Background
+    url: https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/background.jpg
+    source: https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/README.md
+  - kind: image
+    title: inline fill
+    url: https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/photo.jpg
+    source: https://raw.githubusercontent.com/doudou1337/deckset-claude-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Getting Started
+    url: https://docs.deckset.com/English.lproj/getting-started.html
+    source: https://docs.deckset.com/English.lproj/
+  - kind: video
+    title: Videos
+    url: https://docs.deckset.com/English.lproj/Media/03-videos.html
+    source: https://docs.deckset.com/English.lproj/
+  source_headings:
+  - Deckset Presentation Expert
+  - Usage
+  - Title Slide
+  - Slide Heading
+  - Update Docs
+- name: GitNexus
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/abhigyanpatwari/GitNexus
+  homepage: https://gitnexus.vercel.app
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local CLI, MCP server, and browser UI that index repositories into interactive dependency, call-chain, cluster,
+    and execution-flow knowledge graphs for AI agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: GitNexus
+    bytes: 55890
+  - kind: homepage
+    url: https://gitnexus.vercel.app/
+    final_url: https://gitnexus.vercel.app/
+    status: 200
+    content_type: text/html
+    title: GitNexus
+    bytes: 1647
+  official_examples:
+  - kind: example
+    title: .env.example
+    url: https://github.com/abhigyanpatwari/GitNexus/blob/HEAD/.env.example
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Gemini CLI hooks schema
+    url: https://geminicli.com/docs/hooks/reference/
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  - kind: docs
+    title: protocol spec
+    url: https://github.com/looptech-ai/understand-quickly/blob/main/docs/integrations/protocol.md
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  - kind: docs
+    title: transformers.js
+    url: https://huggingface.co/docs/transformers.js
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Gemini CLI hooks schema
+    url: https://geminicli.com/docs/hooks/reference/
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  - kind: docs
+    title: protocol spec
+    url: https://github.com/looptech-ai/understand-quickly/blob/main/docs/integrations/protocol.md
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  - kind: example
+    title: .env.example
+    url: https://github.com/abhigyanpatwari/GitNexus/blob/HEAD/.env.example
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  - kind: docs
+    title: transformers.js
+    url: https://huggingface.co/docs/transformers.js
+    source: https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/HEAD/README.md
+  source_headings:
+  - Tool Examples
+- name: mcp-dashboards
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/KyuRish/mcp-dashboards
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: MCP Apps-compatible server that renders interactive in-chat charts, dashboards, KPI widgets, live-polling
+    views, and PNG/PPT/A4 exports from plain-language data requests.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Dashboards
+    bytes: 12040
+  official_docs:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: MCP Dashboards demo
+    url: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/demo.gif
+    source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+  - kind: image
+    title: Infrastructure Command Center dashboard
+    url: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/dashboard-example.png
+    source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+  - kind: image
+    title: Chart Catalog - 31 chart tools
+    url: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/chart-catalog.png
+    source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+  - kind: image
+    title: Theme Catalog - 21 themes
+    url: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/assets/theme-catalog.png
+    source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
+  source_headings:
+  - MCP Dashboards
+- name: HyperFrames
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/heygen-com/hyperframes
+  homepage: https://hyperframes.heygen.com/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Open-source HTML/CSS/animation-to-MP4 framework with agent skills, CLI preview/render loop, showcase examples,
+    and docs-to-video, PDF-to-video, data-animation, and website-to-video workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Quick Start
+    bytes: 15986
+  - kind: homepage
+    url: https://hyperframes.heygen.com/
+    final_url: https://hyperframes.heygen.com/
+    status: 404
+    content_type: text/html
+    error: HTTP 404
+  official_examples:
+  - kind: showcase
+    title: Showcase
+    url: https://hyperframes.heygen.com/showcase
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://hyperframes.heygen.com/examples
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Design guide
+    url: https://hyperframes.heygen.com/guides/claude-design
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: Open Design guide
+    url: https://hyperframes.heygen.com/guides/open-design
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: HyperFrames vs Remotion guide
+    url: https://hyperframes.heygen.com/guides/hyperframes-vs-remotion
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://hyperframes.heygen.com/quickstart
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: Guides
+    url: https://hyperframes.heygen.com/guides/gsap-animation
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://hyperframes.heygen.com/packages/core
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Bold Poster
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/bold-poster.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: video
+    title: Intro
+    url: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/intro.mp4
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Biennale Yellow
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/biennale-yellow.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: BlockFrame
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/blockframe.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Blue Professional
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/blue-professional.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Broadside
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/broadside.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Capsule
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/capsule.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Cartesian
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/cartesian.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Cobalt Grid
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/cobalt-grid.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Coral
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/coral.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: image
+    title: Creative Mode
+    url: https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/creative-mode.png
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Design guide
+    url: https://hyperframes.heygen.com/guides/claude-design
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: Open Design guide
+    url: https://hyperframes.heygen.com/guides/open-design
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: showcase
+    title: Showcase
+    url: https://hyperframes.heygen.com/showcase
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: HyperFrames vs Remotion guide
+    url: https://hyperframes.heygen.com/guides/hyperframes-vs-remotion
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://hyperframes.heygen.com/quickstart
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: Guides
+    url: https://hyperframes.heygen.com/guides/gsap-animation
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://hyperframes.heygen.com/packages/core
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://hyperframes.heygen.com/examples
+    source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+  source_headings:
+  - Documentation
