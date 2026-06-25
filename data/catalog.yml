@@ -1,4 +1,4 @@
-last_researched: '2026-06-25'
+last_researched: '2026-06-26'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1245,6 +1245,33 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: text_visual
+- name: Claude Design
+  url: https://www.anthropic.com/news/claude-design-anthropic-labs
+  homepage: https://claude.ai/design
+  category: infographic-report
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  note: Anthropic Labs product for collaborating with Claude on polished visual work from prompts, images, documents, PPTX/XLSX/DOCX files, websites, and codebases, with export to PPTX, PDF, Canva, folders, or standalone HTML.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  - 代码库
+  tool_forms:
+  - 产品/SaaS
+  - Bot/助手
+  output_forms:
+  - 信息图/视觉报告
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
 - name: Venngage AI Infographic Generator
   url: https://venngage.com/ai-tools/infographic-generator
   category: infographic-report
@@ -1657,6 +1684,34 @@ entries:
   - MCP Server
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: PptMcp
+  url: https://github.com/trsdn/mcp-server-ppt
+  homepage: https://www.nuget.org/packages/PptMcp.McpServer
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 34
+  license: MIT
+  updated: '2026-06-21'
+  note: Windows PowerPoint COM automation MCP server and CLI for AI assistants to create, edit, chart, animate, validate, and export decks as PDF, slide images, video, or other formats.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 视频/音频
+  - 图表/仪表盘
   catalog_section: main
   readme_group: presentation
 - name: Alai MCP Server
@@ -3253,6 +3308,61 @@ entries:
   - 图表/仪表盘
   - PPT/演示文稿
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: Claude Data Analysis Assistant
+  url: https://github.com/liangdabiao/claude-data-analysis
+  homepage: https://linux.do/t/topic/998433
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 415
+  license: unknown
+  updated: '2026-06-25'
+  note: Claude Code data-analysis assistant with sub-agents and slash commands for exploratory analysis, visualization, code generation, quality checks, hypotheses, and Markdown/HTML/PDF reports.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - Agent Skill
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: wshm
+  url: https://github.com/wshm-dev/wshm
+  homepage: https://wshm.dev
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 66
+  license: SSPL-1.0
+  updated: '2026-06-23'
+  note: Self-hosted repository operations agent that turns GitHub/GitLab/Gitea/Azure DevOps issues, PRs, and repo activity into an embedded dashboard, AI changelogs, and Markdown/HTML/PDF health reports with optional local models.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - 网页/交互页面
   catalog_section: main
   readme_group: data
 - name: MatPlotAgent

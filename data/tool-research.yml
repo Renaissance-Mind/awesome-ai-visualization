@@ -1,4 +1,4 @@
-generated_at: '2026-06-24T23:10:31+00:00'
+generated_at: '2026-06-25T23:07:09+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 175
-  fetched_sources_ok: 244
-  fetched_sources_failed: 10
-  official_examples: 696
-  official_effect_assets: 725
-  official_docs: 579
+  entries: 179
+  fetched_sources_ok: 250
+  fetched_sources_failed: 12
+  official_examples: 700
+  official_effect_assets: 737
+  official_docs: 602
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -18957,4 +18957,403 @@ entries:
     url: https://hyperframes.heygen.com/examples
     source: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
   source_headings:
+  - Documentation
+- name: Claude Design
+  category: infographic-report
+  surface: product
+  primary_url: https://www.anthropic.com/news/claude-design-anthropic-labs
+  homepage: https://claude.ai/design
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Anthropic Labs product for collaborating with Claude on polished visual work from prompts, images, documents,
+    PPTX/XLSX/DOCX files, websites, and codebases, with export to PPTX, PDF, Canva, folders, or standalone HTML.
+  fetched_sources:
+  - kind: primary_page
+    url: https://www.anthropic.com/news/claude-design-anthropic-labs
+    final_url: https://www.anthropic.com/news/claude-design-anthropic-labs
+    status: 200
+    content_type: text/html
+    title: Introducing Claude Design by Anthropic Labs \ Anthropic
+    description: Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude
+      to create polished visual work like designs, prototypes, slides, one-pagers
+    bytes: 146741
+  - kind: homepage
+    url: https://claude.ai/design
+    final_url: https://claude.ai/design
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: tutorial
+    title: Courses
+    url: https://www.anthropic.com/learn
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: tutorial
+    title: Tutorials
+    url: https://claude.com/resources/tutorials
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  official_docs:
+  - kind: docs
+    title: extra usage
+    url: https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Organization settings
+    url: https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Overview
+    url: https://claude.com/platform/api
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Developer docs
+    url: https://platform.claude.com/docs
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Usage policy
+    url: https://www.anthropic.com/legal/aup
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  official_links:
+  - kind: docs
+    title: extra usage
+    url: https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Organization settings
+    url: https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Overview
+    url: https://claude.com/platform/api
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Developer docs
+    url: https://platform.claude.com/docs
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: tutorial
+    title: Courses
+    url: https://www.anthropic.com/learn
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: tutorial
+    title: Tutorials
+    url: https://claude.com/resources/tutorials
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - kind: docs
+    title: Usage policy
+    url: https://www.anthropic.com/legal/aup
+    source: https://www.anthropic.com/news/claude-design-anthropic-labs
+- name: PptMcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/trsdn/mcp-server-ppt
+  homepage: https://www.nuget.org/packages/PptMcp.McpServer
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Windows PowerPoint COM automation MCP server and CLI for AI assistants to create, edit, chart, animate, validate,
+    and export decks as PDF, slide images, video, or other formats.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PptMcp - MCP Server for Microsoft PowerPoint
+    bytes: 12475
+  - kind: homepage
+    url: https://www.nuget.org/packages/PptMcp.McpServer
+    final_url: https://www.nuget.org/packages/PptMcp.McpServer
+    status: 200
+    content_type: text/html
+    title: NuGet Gallery | PptMcp.McpServer 1.0.3
+    description: PowerPoint automation for AI assistants - manage Slides, Shapes, Text, Charts, and more. Requires PowerPoint
+      to be installed. Only runs on Windows.
+    bytes: 59991
+  official_examples:
+  - kind: example
+    title: Learn more and see examples
+    url: https://trsdn.github.io/mcp-server-ppt/
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: example
+    title: examples/mcp-configs/
+    url: https://github.com/trsdn/mcp-server-ppt/tree/main/examples/mcp-configs
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  official_docs:
+  - kind: docs
+    title: Complete Feature Reference →
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/FEATURES.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Installation Guide
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/INSTALLATION.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Agent Client Architecture
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/AGENT-CLIENT.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Archetype Pipeline
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/ARCHETYPE-PIPELINE.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: CONTRIBUTING.md
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.microsoft.com/nuget/
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: docs
+    title: Installation Guide
+    url: https://github.com/trsdn/mcp-server-ppt/blob/main/docs/INSTALLATION.md
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: docs
+    title: Download package
+    url: https://www.nuget.org/api/v2/package/PptMcp.McpServer/1.0.3
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  official_links:
+  - kind: docs
+    title: Complete Feature Reference →
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/FEATURES.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Installation Guide
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/INSTALLATION.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Agent Client Architecture
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/AGENT-CLIENT.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Archetype Pipeline
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/ARCHETYPE-PIPELINE.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: CONTRIBUTING.md
+    url: https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.microsoft.com/nuget/
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: example
+    title: Learn more and see examples
+    url: https://trsdn.github.io/mcp-server-ppt/
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: docs
+    title: Installation Guide
+    url: https://github.com/trsdn/mcp-server-ppt/blob/main/docs/INSTALLATION.md
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: example
+    title: examples/mcp-configs/
+    url: https://github.com/trsdn/mcp-server-ppt/tree/main/examples/mcp-configs
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  - kind: docs
+    title: Download package
+    url: https://www.nuget.org/api/v2/package/PptMcp.McpServer/1.0.3
+    source: https://www.nuget.org/packages/PptMcp.McpServer
+  source_headings:
+  - 💬 Example Prompts
+- name: Claude Data Analysis Assistant
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/liangdabiao/claude-data-analysis
+  homepage: https://linux.do/t/topic/998433
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code data-analysis assistant with sub-agents and slash commands for exploratory analysis, visualization,
+    code generation, quality checks, hypotheses, and Markdown/HTML/PDF reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/liangdabiao/claude-data-analysis/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/liangdabiao/claude-data-analysis/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Data Analysis Assistant
+    bytes: 7020
+  - kind: homepage
+    url: https://linux.do/t/topic/998433
+    final_url: https://linux.do/t/topic/998433
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - Create visualizations
+  - 📊 Usage Examples
+  - 🎨 Sample Data
+  - 📈 Visualization Types
+  - All Visualizations
+- name: wshm
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/wshm-dev/wshm
+  homepage: https://wshm.dev
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Self-hosted repository operations agent that turns GitHub/GitLab/Gitea/Azure DevOps issues, PRs, and repo
+    activity into an embedded dashboard, AI changelogs, and Markdown/HTML/PDF health reports with optional local models.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: wshm
+    bytes: 32442
+  - kind: homepage
+    url: https://wshm.dev/
+    final_url: https://wshm.dev/
+    status: 200
+    content_type: text/html
+    title: "wshm â\x80\x94 Open-source AI agent for your repos"
+    description: Open-source, self-hosted AI agent for repository maintenance. Triage issues, review PRs, auto-fix bugs, manage
+      merge queues. Bring your own AI keys. SSPL-1.0.
+    bytes: 53281
+  official_docs:
+  - kind: docs
+    title: docs/vault.md
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/vault.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Configuration
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/configuration.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: CLI Reference
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/cli-reference.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Deployment
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/deployment.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Daemon & Web UI
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/daemon.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Pro Features
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/pro-features.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: SSO & RBAC
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/sso-rbac.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Triage results
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-triage.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: wshm
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wizard.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: wshm in action
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/hero.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: wshm TUI — issues
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-tui.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: wshm TUI — PRs
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-tui-prs.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: wshm TUI — stats
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-tui-stats.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: Dashboard — repo status overview
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-dashboard.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: Issues view
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-issues.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: Merge queue
+    url: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-queue.png
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: image
+    title: wshm wizard
+    url: https://wshm.dev/static/images/hero.png
+    source: https://wshm.dev/
+  - kind: image
+    title: Issue Triage
+    url: https://wshm.dev/static/images/wshm-triage.png
+    source: https://wshm.dev/
+  - kind: image
+    title: PR Review
+    url: https://wshm.dev/static/images/wshm-review.png
+    source: https://wshm.dev/
+  official_links:
+  - kind: docs
+    title: docs/vault.md
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/vault.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Configuration
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/configuration.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: CLI Reference
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/cli-reference.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Deployment
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/deployment.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Daemon & Web UI
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/daemon.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Pro Features
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/pro-features.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: SSO & RBAC
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/sso-rbac.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/wshm-dev/wshm/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md
+  source_headings:
+  - Daemon + Web dashboard (Free)
   - Documentation
