@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-24T23:10:31+00:00",
-  "lastResearched": "2026-06-25",
+  "generatedAt": "2026-06-25T23:07:09+00:00",
+  "lastResearched": "2026-06-26",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 175,
-    "openSource": 57,
-    "saas": 37,
-    "modelApi": 73,
-    "examples": 696,
-    "effectAssets": 725,
-    "docs": 579
+    "total": 179,
+    "openSource": 59,
+    "saas": 38,
+    "modelApi": 76,
+    "examples": 700,
+    "effectAssets": 737,
+    "docs": 602
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 29,
-      "PDF/文档": 60,
-      "文本/想法": 86,
-      "数据/表格": 37,
+      "PDF/文档": 61,
+      "文本/想法": 88,
+      "数据/表格": 40,
       "代码/技术描述": 25,
-      "代码库": 23,
-      "网页/搜索结果": 54,
+      "代码库": 25,
+      "网页/搜索结果": 56,
       "新闻/资讯": 9,
       "知识库/个人资料": 8,
       "任意/多源": 17,
       "引用网络": 4,
-      "Office 文档": 10,
+      "Office 文档": 12,
       "DSL/代码": 17,
-      "数据库": 10
+      "数据库": 11
     },
     "toolForms": {
-      "开源应用/框架": 57,
-      "Agent Skill": 33,
+      "开源应用/框架": 59,
+      "Agent Skill": 34,
       "Skill 集合": 16,
       "数据集/评测": 2,
-      "Bot/助手": 5,
-      "产品/SaaS": 37,
+      "Bot/助手": 6,
+      "产品/SaaS": 38,
       "研究原型": 4,
-      "API/SDK/库": 13,
-      "MCP Server": 16,
+      "API/SDK/库": 14,
+      "MCP Server": 17,
       "Awesome/索引": 13
     },
     "outputForms": {
       "图形摘要/信息图": 11,
-      "PPT/演示文稿": 57,
-      "网页/交互页面": 23,
+      "PPT/演示文稿": 59,
+      "网页/交互页面": 25,
       "问答/学习材料": 6,
-      "报告/长文档": 15,
+      "报告/长文档": 17,
       "证据表": 6,
-      "信息图/视觉报告": 21,
-      "图表/仪表盘": 26,
+      "信息图/视觉报告": 22,
+      "图表/仪表盘": 29,
       "架构图/流程图": 38,
       "白板/思维导图": 12,
-      "SVG/PNG/PDF": 26,
+      "SVG/PNG/PDF": 29,
       "表格/时间线": 3,
       "引用答案": 4,
       "思维导图/知识地图": 9,
       "报告/简报": 19,
-      "视频/音频": 8,
+      "视频/音频": 9,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 12,
       "图表/Mermaid": 15,
@@ -65,28 +65,28 @@
       "工具索引": 15
     },
     "dependencies": {
-      "本地语言环境": 110,
-      "模型 API": 73,
+      "本地语言环境": 113,
+      "模型 API": 76,
       "文档解析/OCR": 26,
-      "渲染/导出": 104,
+      "渲染/导出": 108,
       "GPU/加速器": 6,
-      "模板/素材": 65,
-      "Agent 宿主": 52,
-      "系统工具": 14,
-      "外部检索/数据源": 31,
-      "存储/索引": 21,
-      "浏览器/账号": 56,
-      "MCP Client": 17,
-      "代码分析工具": 18
+      "模板/素材": 67,
+      "Agent 宿主": 53,
+      "系统工具": 15,
+      "外部检索/数据源": 32,
+      "存储/索引": 22,
+      "浏览器/账号": 57,
+      "MCP Client": 18,
+      "代码分析工具": 19
     },
     "categories": {
       "paper-visualization": 9,
       "doc-to-knowledge": 16,
       "research-report": 11,
-      "infographic-report": 14,
-      "data-dashboard": 17,
+      "infographic-report": 15,
+      "data-dashboard": 19,
       "literature-map": 4,
-      "presentation-tools": 30,
+      "presentation-tools": 31,
       "codebase-map": 18,
       "rendering-primitive": 6,
       "diagram-generation": 18,
@@ -96,16 +96,16 @@
     },
     "groups": {
       "paper": 20,
-      "text_visual": 20,
+      "text_visual": 21,
       "web_news": 8,
       "support_mindmap": 3,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 40,
+      "presentation": 41,
       "code": 18,
       "support_render": 16,
       "diagrams": 2,
-      "data": 13,
+      "data": 15,
       "video": 7,
       "indexes": 15
     }
@@ -5258,6 +5258,93 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "Claude Design",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "primaryUrl": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "homepage": "https://claude.ai/design",
+      "category": "infographic-report",
+      "surface": "product",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": null,
+      "license": null,
+      "updated": null,
+      "note": "Anthropic Labs product for collaborating with Claude on polished visual work from prompts, images, documents, PPTX/XLSX/DOCX files, websites, and codebases, with export to PPTX, PDF, Canva, folders, or standalone HTML.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果",
+        "代码库"
+      ],
+      "toolForms": [
+        "产品/SaaS",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "extra usage",
+          "url": "https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        },
+        {
+          "kind": "docs",
+          "title": "Organization settings",
+          "url": "https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        },
+        {
+          "kind": "docs",
+          "title": "Overview",
+          "url": "https://claude.com/platform/api",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        },
+        {
+          "kind": "docs",
+          "title": "Developer docs",
+          "url": "https://platform.claude.com/docs",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        },
+        {
+          "kind": "docs",
+          "title": "Usage policy",
+          "url": "https://www.anthropic.com/legal/aup",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Courses",
+          "url": "https://www.anthropic.com/learn",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Tutorials",
+          "url": "https://claude.com/resources/tutorials",
+          "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 5,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Venngage AI Infographic Generator",
       "url": "https://venngage.com/ai-tools/infographic-generator",
       "primaryUrl": "https://venngage.com/ai-tools/infographic-generator",
@@ -7473,6 +7560,109 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "PptMcp",
+      "url": "https://github.com/trsdn/mcp-server-ppt",
+      "primaryUrl": "https://github.com/trsdn/mcp-server-ppt",
+      "homepage": "https://www.nuget.org/packages/PptMcp.McpServer",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 34,
+      "license": "MIT",
+      "updated": "2026-06-21",
+      "note": "Windows PowerPoint COM automation MCP server and CLI for AI assistants to create, edit, chart, animate, validate, and export decks as PDF, slide images, video, or other formats.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "视频/音频",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Complete Feature Reference →",
+          "url": "https://github.com/trsdn/mcp-server-ppt/blob/HEAD/FEATURES.md",
+          "source": "https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Installation Guide",
+          "url": "https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/INSTALLATION.md",
+          "source": "https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Agent Client Architecture",
+          "url": "https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/AGENT-CLIENT.md",
+          "source": "https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Archetype Pipeline",
+          "url": "https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/ARCHETYPE-PIPELINE.md",
+          "source": "https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CONTRIBUTING.md",
+          "url": "https://github.com/trsdn/mcp-server-ppt/blob/HEAD/docs/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/trsdn/mcp-server-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.microsoft.com/nuget/",
+          "source": "https://www.nuget.org/packages/PptMcp.McpServer"
+        },
+        {
+          "kind": "docs",
+          "title": "Installation Guide",
+          "url": "https://github.com/trsdn/mcp-server-ppt/blob/main/docs/INSTALLATION.md",
+          "source": "https://www.nuget.org/packages/PptMcp.McpServer"
+        },
+        {
+          "kind": "docs",
+          "title": "Download package",
+          "url": "https://www.nuget.org/api/v2/package/PptMcp.McpServer/1.0.3",
+          "source": "https://www.nuget.org/packages/PptMcp.McpServer"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Learn more and see examples",
+          "url": "https://trsdn.github.io/mcp-server-ppt/",
+          "source": "https://www.nuget.org/packages/PptMcp.McpServer"
+        },
+        {
+          "kind": "example",
+          "title": "examples/mcp-configs/",
+          "url": "https://github.com/trsdn/mcp-server-ppt/tree/main/examples/mcp-configs",
+          "source": "https://www.nuget.org/packages/PptMcp.McpServer"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 8,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
     },
     {
       "name": "Alai MCP Server",
@@ -13514,6 +13704,221 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 4
+    },
+    {
+      "name": "Claude Data Analysis Assistant",
+      "url": "https://github.com/liangdabiao/claude-data-analysis",
+      "primaryUrl": "https://github.com/liangdabiao/claude-data-analysis",
+      "homepage": "https://linux.do/t/topic/998433",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 415,
+      "license": "unknown",
+      "updated": "2026-06-25",
+      "note": "Claude Code data-analysis assistant with sub-agents and slash commands for exploratory analysis, visualization, code generation, quality checks, hypotheses, and Markdown/HTML/PDF reports.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "wshm",
+      "url": "https://github.com/wshm-dev/wshm",
+      "primaryUrl": "https://github.com/wshm-dev/wshm",
+      "homepage": "https://wshm.dev",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 66,
+      "license": "SSPL-1.0",
+      "updated": "2026-06-23",
+      "note": "Self-hosted repository operations agent that turns GitHub/GitLab/Gitea/Azure DevOps issues, PRs, and repo activity into an embedded dashboard, AI changelogs, and Markdown/HTML/PDF health reports with optional local models.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/vault.md",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/vault.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/`",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Getting Started",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/getting-started.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Configuration",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/configuration.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI Reference",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/cli-reference.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Deployment",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/deployment.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Daemon & Web UI",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/daemon.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Pro Features",
+          "url": "https://github.com/wshm-dev/wshm/blob/HEAD/docs/pro-features.md",
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Triage results",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-triage.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "wshm",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wizard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "wshm in action",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "wshm TUI — issues",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-tui.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "wshm TUI — PRs",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-tui-prs.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "wshm TUI — stats",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-tui-stats.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dashboard — repo status overview",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Issues view",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-issues.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Merge queue",
+          "url": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/docs/assets/wshm-web-queue.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wshm-dev/wshm/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "wshm wizard",
+          "url": "https://wshm.dev/static/images/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://wshm.dev/"
+        },
+        {
+          "kind": "image",
+          "title": "Issue Triage",
+          "url": "https://wshm.dev/static/images/wshm-triage.png",
+          "thumbnailUrl": null,
+          "source": "https://wshm.dev/"
+        },
+        {
+          "kind": "image",
+          "title": "PR Review",
+          "url": "https://wshm.dev/static/images/wshm-review.png",
+          "thumbnailUrl": null,
+          "source": "https://wshm.dev/"
+        }
+      ],
+      "docsCount": 10,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
     },
     {
       "name": "MatPlotAgent",
