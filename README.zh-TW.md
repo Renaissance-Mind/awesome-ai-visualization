@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-179_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--06--26-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-182_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--06--27-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -270,9 +270,12 @@
 | [LLMermaid](https://github.com/fladdict/llmermaid) [![Star](https://img.shields.io/github/stars/fladdict/llmermaid?style=flat&logo=github&label=Star)](https://github.com/fladdict/llmermaid/stargazers) | 文字/想法 / 代碼/技術描述 | 研究原型 | 圖表/Mermaid / SVG/PNG/PDF | 本機語言環境 / 模型 API / 渲染/匯出 |
 | [GenAIScript](https://github.com/microsoft/genaiscript) [![Star](https://img.shields.io/github/stars/microsoft/genaiscript?style=flat&logo=github&label=Star)](https://github.com/microsoft/genaiscript/stargazers) | PDF/文件 / 資料/表格 / 程式碼庫 / DSL/代碼 | API/SDK/庫 | 圖表/Mermaid / 結構化資料/Markdown | 本機語言環境 / 模型 API / 文件解析/OCR / 渲染/匯出 |
 | [mcp-mermaid](https://github.com/hustcc/mcp-mermaid) [![Star](https://img.shields.io/github/stars/hustcc/mcp-mermaid?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-mermaid/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server | 圖表/Mermaid / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
+| [Claude Mermaid](https://github.com/veelenga/claude-mermaid) [![Star](https://img.shields.io/github/stars/veelenga/claude-mermaid?style=flat&logo=github&label=Star)](https://github.com/veelenga/claude-mermaid/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server / Agent Skill | 圖表/Mermaid / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本機語言環境 / 渲染/匯出 |
 | [mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge) [![Star](https://img.shields.io/github/stars/PavelGuzenfeld/mcp-media-forge?style=flat&logo=github&label=Star)](https://github.com/PavelGuzenfeld/mcp-media-forge/stargazers) | 文字/想法 / 資料/表格 / DSL/代碼 | MCP Server | 圖表/Mermaid / 架構圖/流程圖 / 圖表/儀表板 / 網頁/互動頁面 / PPT/簡報 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 / 系統工具 |
 | [UML-MCP](https://github.com/antoinebou12/uml-mcp) [![Star](https://img.shields.io/github/stars/antoinebou12/uml-mcp?style=flat&logo=github&label=Star)](https://github.com/antoinebou12/uml-mcp/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server | 架構圖/流程圖 / 圖表/Mermaid / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server | 圖表/Mermaid / 架構圖/流程圖 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
+| [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server / Agent Skill | 架構圖/流程圖 / 圖表/Mermaid / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本機語言環境 / 渲染/匯出 / 系統工具 |
+| [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | 文字/想法 / 代碼/技術描述 | MCP Server | 架構圖/流程圖 / 白板/心智圖 / 網頁/互動頁 | MCP Client / 瀏覽器/帳號 / 本機語言環境 / 渲染/匯出 |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | 文字/想法 / 資料/表格 / DSL/程式碼 | API/SDK/庫 | 資訊圖/視覺報告 / 圖表/渲染輸出 / SVG/PNG/PDF | 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [Markdown Viewer Agent Skills](https://github.com/markdown-viewer/skills) [![Star](https://img.shields.io/github/stars/markdown-viewer/skills?style=flat&logo=github&label=Star)](https://github.com/markdown-viewer/skills/stargazers) | 文字/想法 / 資料/表格 / 代碼/技術描述 | Skill 集合 | 架構圖/流程圖 / 圖表/儀表板 / 資訊圖/視覺報告 / 心智圖/知識地圖 / 圖表/渲染輸出 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [Preview Skills](https://github.com/veelenga/preview-skills) [![Star](https://img.shields.io/github/stars/veelenga/preview-skills?style=flat&logo=github&label=Star)](https://github.com/veelenga/preview-skills/stargazers) | 文字/想法 / 資料/表格 / DSL/代碼 / 代碼/技術描述 | Skill 集合 | 網頁/互動頁面 / 圖表/Mermaid / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 渲染/匯出 |

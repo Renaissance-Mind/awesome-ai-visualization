@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-25T23:07:09+00:00",
-  "lastResearched": "2026-06-26",
+  "generatedAt": "2026-06-26T23:07:16+00:00",
+  "lastResearched": "2026-06-27",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 179,
+    "total": 182,
     "openSource": 59,
     "saas": 38,
     "modelApi": 76,
     "examples": 700,
-    "effectAssets": 737,
-    "docs": 602
+    "effectAssets": 742,
+    "docs": 609
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 29,
       "PDF/文档": 61,
-      "文本/想法": 88,
+      "文本/想法": 91,
       "数据/表格": 40,
-      "代码/技术描述": 25,
+      "代码/技术描述": 28,
       "代码库": 25,
       "网页/搜索结果": 56,
       "新闻/资讯": 9,
@@ -25,33 +25,33 @@
       "任意/多源": 17,
       "引用网络": 4,
       "Office 文档": 12,
-      "DSL/代码": 17,
+      "DSL/代码": 19,
       "数据库": 11
     },
     "toolForms": {
       "开源应用/框架": 59,
-      "Agent Skill": 34,
+      "Agent Skill": 36,
       "Skill 集合": 16,
       "数据集/评测": 2,
       "Bot/助手": 6,
       "产品/SaaS": 38,
       "研究原型": 4,
       "API/SDK/库": 14,
-      "MCP Server": 17,
+      "MCP Server": 20,
       "Awesome/索引": 13
     },
     "outputForms": {
       "图形摘要/信息图": 11,
       "PPT/演示文稿": 59,
-      "网页/交互页面": 25,
+      "网页/交互页面": 26,
       "问答/学习材料": 6,
       "报告/长文档": 17,
       "证据表": 6,
       "信息图/视觉报告": 22,
       "图表/仪表盘": 29,
-      "架构图/流程图": 38,
-      "白板/思维导图": 12,
-      "SVG/PNG/PDF": 29,
+      "架构图/流程图": 40,
+      "白板/思维导图": 13,
+      "SVG/PNG/PDF": 31,
       "表格/时间线": 3,
       "引用答案": 4,
       "思维导图/知识地图": 9,
@@ -59,24 +59,24 @@
       "视频/音频": 9,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 12,
-      "图表/Mermaid": 15,
+      "图表/Mermaid": 17,
       "代码地图/Repo Wiki": 18,
       "图表/渲染输出": 7,
       "工具索引": 15
     },
     "dependencies": {
-      "本地语言环境": 113,
+      "本地语言环境": 116,
       "模型 API": 76,
       "文档解析/OCR": 26,
-      "渲染/导出": 108,
+      "渲染/导出": 111,
       "GPU/加速器": 6,
       "模板/素材": 67,
-      "Agent 宿主": 53,
-      "系统工具": 15,
+      "Agent 宿主": 55,
+      "系统工具": 16,
       "外部检索/数据源": 32,
       "存储/索引": 22,
-      "浏览器/账号": 57,
-      "MCP Client": 18,
+      "浏览器/账号": 58,
+      "MCP Client": 21,
       "代码分析工具": 19
     },
     "categories": {
@@ -89,7 +89,7 @@
       "presentation-tools": 31,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 18,
+      "diagram-generation": 21,
       "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 15
@@ -103,7 +103,7 @@
       "support_doc_parse": 8,
       "presentation": 41,
       "code": 18,
-      "support_render": 16,
+      "support_render": 19,
       "diagrams": 2,
       "data": 15,
       "video": 7,
@@ -11209,6 +11209,87 @@
       "effectAssetsCount": 1
     },
     {
+      "name": "Claude Mermaid",
+      "url": "https://github.com/veelenga/claude-mermaid",
+      "primaryUrl": "https://github.com/veelenga/claude-mermaid",
+      "homepage": "https://www.npmjs.com/package/claude-mermaid",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 175,
+      "license": "MIT",
+      "updated": "2026-06-26",
+      "note": "MCP server and Claude Code plugin for live-reloading Mermaid previews, interactive browser review, SVG/PNG/PDF export, themes, and bundled diagram-authoring skill guidance.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code Documentation",
+          "url": "https://docs.claude.com/claude-code",
+          "source": "https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Mermaid Documentation",
+          "url": "https://mermaid.js.org/",
+          "source": "https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "User Workflow Diagram",
+          "url": "https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dependencies Diagram",
+          "url": "https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/dependencies.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
       "name": "mcp-media-forge",
       "url": "https://github.com/PavelGuzenfeld/mcp-media-forge",
       "primaryUrl": "https://github.com/PavelGuzenfeld/mcp-media-forge",
@@ -11418,6 +11499,125 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "drawio-mcp",
+      "url": "https://github.com/jgraph/drawio-mcp",
+      "primaryUrl": "https://github.com/jgraph/drawio-mcp",
+      "homepage": "https://mcp.draw.io/mcp",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 4609,
+      "license": "Apache-2.0",
+      "updated": "2026-06-26",
+      "note": "Official draw.io MCP server, MCP App server, and Claude Code plugin for creating inline, editable draw.io diagrams from XML, CSV, or Mermaid, with optional local PNG/SVG/PDF export and self-hosting paths.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP Apps",
+          "url": "https://modelcontextprotocol.io/docs/extensions/apps",
+          "source": "https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`shared/xml-reference.md`",
+          "url": "https://github.com/jgraph/drawio-mcp/blob/HEAD/shared/xml-reference.md",
+          "source": "https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "GitHub raw URL",
+          "url": "https://raw.githubusercontent.com/jgraph/drawio-mcp/main/shared/xml-reference.md",
+          "source": "https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Mermaid.js Documentation",
+          "url": "https://mermaid.js.org/intro/",
+          "source": "https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Excalidraw MCP",
+      "url": "https://github.com/excalidraw/excalidraw-mcp",
+      "primaryUrl": "https://github.com/excalidraw/excalidraw-mcp",
+      "homepage": "https://mcp.excalidraw.com",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 4810,
+      "license": "MIT",
+      "updated": "2026-06-26",
+      "note": "Excalidraw MCP App server that streams hand-drawn diagrams with viewport control, interactive fullscreen editing, hosted or local deployment, and prompts for architecture diagrams.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP Apps",
+          "url": "https://modelcontextprotocol.io/docs/extensions/apps",
+          "source": "https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/docs/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     },
     {
       "name": "AntV Infographic",

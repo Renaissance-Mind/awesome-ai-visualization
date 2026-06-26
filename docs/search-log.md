@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-26.
+Last researched: 2026-06-27.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -27,6 +27,8 @@ Update on 2026-06-24: refreshed visual-explainer, infographic-skill, programmati
 Update on 2026-06-25: refreshed agent-native dashboard, presentation, codebase-map, video-rendering, and editorial-visualization surfaces from official GitHub repositories, README evidence, release metadata, and project docs. This pass added hbr-style-visualization, PptxGenJS-mcp-server, md-slides, deckset-claude-skill, GitNexus, mcp-dashboards, and HyperFrames.
 
 Update on 2026-06-26: refreshed PowerPoint automation, data-analysis assistant, repository reporting dashboard, and hosted design-product surfaces from official GitHub repositories, NuGet metadata, product pages, and official announcement pages. This pass added PptMcp, Claude Data Analysis Assistant, wshm, and Claude Design.
+
+Update on 2026-06-27: refreshed diagram MCP App, draw.io, Excalidraw, and Mermaid preview surfaces from official GitHub repositories, hosted MCP endpoints, npm package metadata, and official README documentation. This pass added drawio-mcp, Excalidraw MCP, and Claude Mermaid.
 
 ## Search Surfaces
 
