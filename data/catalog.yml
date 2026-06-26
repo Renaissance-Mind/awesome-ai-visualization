@@ -1,4 +1,4 @@
-last_researched: '2026-06-26'
+last_researched: '2026-06-27'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2710,6 +2710,32 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: Claude Mermaid
+  url: https://github.com/veelenga/claude-mermaid
+  homepage: https://www.npmjs.com/package/claude-mermaid
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 175
+  license: MIT
+  updated: '2026-06-26'
+  note: MCP server and Claude Code plugin for live-reloading Mermaid previews, interactive browser review, SVG/PNG/PDF export, themes, and bundled diagram-authoring skill guidance.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: mcp-media-forge
   url: https://github.com/PavelGuzenfeld/mcp-media-forge
   homepage: https://www.npmjs.com/package/mcp-media-forge
@@ -2788,6 +2814,59 @@ entries:
   - 图表/Mermaid
   - 架构图/流程图
   - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: drawio-mcp
+  url: https://github.com/jgraph/drawio-mcp
+  homepage: https://mcp.draw.io/mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 4609
+  license: Apache-2.0
+  updated: '2026-06-26'
+  note: Official draw.io MCP server, MCP App server, and Claude Code plugin for creating inline, editable draw.io diagrams from XML, CSV, or Mermaid, with optional local PNG/SVG/PDF export and self-hosting paths.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Excalidraw MCP
+  url: https://github.com/excalidraw/excalidraw-mcp
+  homepage: https://mcp.excalidraw.com
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  stars: 4810
+  license: MIT
+  updated: '2026-06-26'
+  note: Excalidraw MCP App server that streams hand-drawn diagrams with viewport control, interactive fullscreen editing, hosted or local deployment, and prompts for architecture diagrams.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 网页/交互页面
   catalog_section: support_render
   readme_group: support_render
 - name: AntV Infographic

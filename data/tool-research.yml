@@ -1,4 +1,4 @@
-generated_at: '2026-06-25T23:07:09+00:00'
+generated_at: '2026-06-26T23:07:16+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 179
-  fetched_sources_ok: 250
-  fetched_sources_failed: 12
+  entries: 182
+  fetched_sources_ok: 253
+  fetched_sources_failed: 15
   official_examples: 700
-  official_effect_assets: 737
-  official_docs: 602
+  official_effect_assets: 742
+  official_docs: 609
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -19357,3 +19357,177 @@ entries:
   source_headings:
   - Daemon + Web dashboard (Free)
   - Documentation
+- name: Claude Mermaid
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/veelenga/claude-mermaid
+  homepage: https://www.npmjs.com/package/claude-mermaid
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server and Claude Code plugin for live-reloading Mermaid previews, interactive browser review, SVG/PNG/PDF
+    export, themes, and bundled diagram-authoring skill guidance.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Mermaid MCP Server
+    bytes: 11697
+  - kind: homepage
+    url: https://www.npmjs.com/package/claude-mermaid
+    final_url: https://www.npmjs.com/package/claude-mermaid
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/claude-code
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Demo
+    url: https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/demo.gif
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  - kind: image
+    title: User Workflow Diagram
+    url: https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/workflow.png
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  - kind: image
+    title: Architecture Diagram
+    url: https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/architecture.png
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  - kind: image
+    title: Dependencies Diagram
+    url: https://raw.githubusercontent.com/veelenga/claude-mermaid/main/assets/dependencies.png
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/claude-code
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/veelenga/claude-mermaid/HEAD/README.md
+  source_headings:
+  - 💡 Usage
+  - Basic Examples
+  - Advanced Examples
+  - Complete Example
+- name: drawio-mcp
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/jgraph/drawio-mcp
+  homepage: https://mcp.draw.io/mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Official draw.io MCP server, MCP App server, and Claude Code plugin for creating inline, editable draw.io
+    diagrams from XML, CSV, or Mermaid, with optional local PNG/SVG/PDF export and self-hosting paths.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Draw.io MCP Server
+    bytes: 11329
+  - kind: homepage
+    url: https://mcp.draw.io/mcp
+    final_url: https://mcp.draw.io/mcp
+    status: 400
+    content_type: text/plain
+    error: HTTP 400
+  official_docs:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  - kind: docs
+    title: '`shared/xml-reference.md`'
+    url: https://github.com/jgraph/drawio-mcp/blob/HEAD/shared/xml-reference.md
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  - kind: docs
+    title: GitHub raw URL
+    url: https://raw.githubusercontent.com/jgraph/drawio-mcp/main/shared/xml-reference.md
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  - kind: docs
+    title: Mermaid.js Documentation
+    url: https://mermaid.js.org/intro/
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  - kind: docs
+    title: '`shared/xml-reference.md`'
+    url: https://github.com/jgraph/drawio-mcp/blob/HEAD/shared/xml-reference.md
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  - kind: docs
+    title: GitHub raw URL
+    url: https://raw.githubusercontent.com/jgraph/drawio-mcp/main/shared/xml-reference.md
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  - kind: docs
+    title: Mermaid.js Documentation
+    url: https://mermaid.js.org/intro/
+    source: https://raw.githubusercontent.com/jgraph/drawio-mcp/HEAD/README.md
+  source_headings:
+  - Four Ways to Create Diagrams
+  - Diagram layouts
+  - Does your diagram leave the machine?
+- name: Excalidraw MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/excalidraw/excalidraw-mcp
+  homepage: https://mcp.excalidraw.com
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Excalidraw MCP App server that streams hand-drawn diagrams with viewport control, interactive fullscreen editing,
+    hosted or local deployment, and prompts for architecture diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Excalidraw MCP App Server
+    bytes: 2946
+  - kind: homepage
+    url: https://mcp.excalidraw.com/mcp
+    final_url: https://mcp.excalidraw.com/mcp
+    status: 405
+    content_type: text/plain
+    error: HTTP 405
+  official_docs:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Demo
+    url: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/docs/demo.gif
+    source: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md
+  source_headings:
+  - Usage
