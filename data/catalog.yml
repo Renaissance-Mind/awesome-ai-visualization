@@ -1,4 +1,4 @@
-last_researched: '2026-06-27'
+last_researched: '2026-06-29'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2102,6 +2102,160 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
+- name: LobsterAI
+  url: https://github.com/netease-youdao/LobsterAI
+  homepage: https://lobsterai.youdao.com
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - MCP Client
+  - 系统工具
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 5383
+  license: MIT
+  updated: '2026-06-26'
+  note: NetEase Youdao desktop-grade office agent for data analysis, PPT creation, video generation, document writing, web research, scheduled reports, and IM-controlled desktop work.
+  source_types:
+  - 任意/多源
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: Garden Skills
+  url: https://github.com/ConardLi/garden-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 8853
+  license: MIT
+  updated: '2026-06-10'
+  note: Agent skill collection whose web-video-presentation, web-design-engineer, GPT-image, knowledge retrieval, and beautiful-article skills turn source material into web presentations, visual articles, dashboards, infographics, diagrams, and recordable video surfaces.
+  source_types:
+  - 任意/多源
+  - PDF/文档
+  - 网页/搜索结果
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 报告/长文档
+  - 信息图/视觉报告
+  - 图表/仪表盘
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: ai-agents-skills
+  url: https://github.com/hoodini/ai-agents-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 239
+  license: unknown
+  updated: '2026-06-18'
+  note: Creative agent-skill stack for cinematic decks, branded design systems, viral videos, video editing, video-to-landing pages, parallax landing pages, HyperFrames captures, AI images, and Mermaid diagrams.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - 网页/搜索结果
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  - 图表/Mermaid
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: presentation
+- name: keynote-slides-skill
+  url: https://github.com/dbmcco/keynote-slides-skill
+  homepage: https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 18
+  license: unknown
+  updated: '2026-06-09'
+  note: Keynote-style agent skill for single-file HTML decks with Gemini-generated infographics, multi-brand theming, content databases, and narrative-framework selection.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: presentation
+- name: Claude Office Skills
+  url: https://github.com/claude-office-skills/skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - MCP Client
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 254
+  license: MIT
+  updated: '2026-01-31'
+  note: Practical office skill suite plus Office MCP server for PDF, spreadsheet, Word, conversion, and presentation operations including PPT creation, Markdown-to-slides, and HTML export.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
 - name: GitDiagram
   url: https://github.com/ahmedkhaleel2004/gitdiagram
   homepage: https://gitdiagram.com
@@ -2569,6 +2723,31 @@ entries:
   - Agent Skill
   output_forms:
   - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Mermaid Skill for Claude Code
+  url: https://github.com/WH-2099/mermaid-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 122
+  license: MIT
+  updated: '2026-06-21'
+  note: Claude Code skill for generating Mermaid diagrams with documentation for 23 diagram types, including flowcharts, sequence, class, ER, C4, Gantt, timeline, mindmap, Kanban, XY chart, Sankey, radar, and treemap.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 白板/思维导图
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
@@ -4157,6 +4336,56 @@ entries:
   tool_forms:
   - Skill 集合
   output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: OpenClaw Medical Skills
+  url: https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills
+  category: meta-index
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 2777
+  license: unknown
+  updated: '2026-06-18'
+  note: Large OpenClaw/NanoClaw medical and scientific skill library with deep research, PDF/DOCX/XLSX/PPTX utilities, clinical reports, literature reviews, omics visualizations, pathway diagrams, QC reports, heatmaps, and spatial/transcriptomics visual outputs.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  - 图表/仪表盘
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: indexes
+  readme_group: indexes
+- name: Awesome HTML Slide Skills
+  url: https://github.com/ToseaAI/awesome-html-slide-skills
+  homepage: https://tosea.ai/slide-skills
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 64
+  license: CC-BY-4.0
+  updated: '2026-06-23'
+  note: Curated index of HTML slide generation skills and template libraries for Claude Code, Codex, Cursor, OpenClaw, and Hermes, with official previews and GitHub metadata for single-file HTML presentation ecosystems.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
   - 工具索引
   catalog_section: indexes
   readme_group: indexes
