@@ -1,82 +1,82 @@
 {
-  "generatedAt": "2026-06-26T23:07:16+00:00",
-  "lastResearched": "2026-06-27",
+  "generatedAt": "2026-06-28T23:05:15+00:00",
+  "lastResearched": "2026-06-29",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 182,
-    "openSource": 59,
+    "total": 190,
+    "openSource": 60,
     "saas": 38,
-    "modelApi": 76,
-    "examples": 700,
-    "effectAssets": 742,
-    "docs": 609
+    "modelApi": 80,
+    "examples": 711,
+    "effectAssets": 792,
+    "docs": 634
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 29,
-      "PDF/文档": 61,
-      "文本/想法": 91,
-      "数据/表格": 40,
-      "代码/技术描述": 28,
+      "论文/科研资料": 30,
+      "PDF/文档": 65,
+      "文本/想法": 96,
+      "数据/表格": 45,
+      "代码/技术描述": 30,
       "代码库": 25,
-      "网页/搜索结果": 56,
+      "网页/搜索结果": 60,
       "新闻/资讯": 9,
       "知识库/个人资料": 8,
-      "任意/多源": 17,
+      "任意/多源": 21,
       "引用网络": 4,
-      "Office 文档": 12,
-      "DSL/代码": 19,
-      "数据库": 11
+      "Office 文档": 14,
+      "DSL/代码": 20,
+      "数据库": 12
     },
     "toolForms": {
-      "开源应用/框架": 59,
-      "Agent Skill": 36,
-      "Skill 集合": 16,
+      "开源应用/框架": 60,
+      "Agent Skill": 38,
+      "Skill 集合": 20,
       "数据集/评测": 2,
-      "Bot/助手": 6,
+      "Bot/助手": 7,
       "产品/SaaS": 38,
       "研究原型": 4,
       "API/SDK/库": 14,
-      "MCP Server": 20,
-      "Awesome/索引": 13
+      "MCP Server": 21,
+      "Awesome/索引": 14
     },
     "outputForms": {
-      "图形摘要/信息图": 11,
-      "PPT/演示文稿": 59,
-      "网页/交互页面": 26,
+      "图形摘要/信息图": 13,
+      "PPT/演示文稿": 65,
+      "网页/交互页面": 31,
       "问答/学习材料": 6,
-      "报告/长文档": 17,
-      "证据表": 6,
-      "信息图/视觉报告": 22,
-      "图表/仪表盘": 29,
-      "架构图/流程图": 40,
-      "白板/思维导图": 13,
-      "SVG/PNG/PDF": 31,
+      "报告/长文档": 21,
+      "证据表": 7,
+      "信息图/视觉报告": 24,
+      "图表/仪表盘": 32,
+      "架构图/流程图": 41,
+      "白板/思维导图": 14,
+      "SVG/PNG/PDF": 34,
       "表格/时间线": 3,
       "引用答案": 4,
       "思维导图/知识地图": 9,
       "报告/简报": 19,
-      "视频/音频": 9,
+      "视频/音频": 12,
       "文献地图/知识地图": 4,
-      "结构化数据/Markdown": 12,
-      "图表/Mermaid": 17,
+      "结构化数据/Markdown": 13,
+      "图表/Mermaid": 19,
       "代码地图/Repo Wiki": 18,
       "图表/渲染输出": 7,
-      "工具索引": 15
+      "工具索引": 16
     },
     "dependencies": {
-      "本地语言环境": 116,
-      "模型 API": 76,
-      "文档解析/OCR": 26,
-      "渲染/导出": 111,
+      "本地语言环境": 123,
+      "模型 API": 80,
+      "文档解析/OCR": 28,
+      "渲染/导出": 118,
       "GPU/加速器": 6,
-      "模板/素材": 67,
-      "Agent 宿主": 55,
-      "系统工具": 16,
-      "外部检索/数据源": 32,
-      "存储/索引": 22,
-      "浏览器/账号": 58,
-      "MCP Client": 21,
+      "模板/素材": 71,
+      "Agent 宿主": 62,
+      "系统工具": 19,
+      "外部检索/数据源": 34,
+      "存储/索引": 23,
+      "浏览器/账号": 59,
+      "MCP Client": 23,
       "代码分析工具": 19
     },
     "categories": {
@@ -86,13 +86,13 @@
       "infographic-report": 15,
       "data-dashboard": 19,
       "literature-map": 4,
-      "presentation-tools": 31,
+      "presentation-tools": 36,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 21,
+      "diagram-generation": 22,
       "video-generation": 7,
       "commercial-site": 10,
-      "meta-index": 15
+      "meta-index": 17
     },
     "groups": {
       "paper": 20,
@@ -101,13 +101,13 @@
       "support_mindmap": 3,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 41,
+      "presentation": 46,
       "code": 18,
-      "support_render": 19,
+      "support_render": 20,
       "diagrams": 2,
       "data": 15,
       "video": 7,
-      "indexes": 15
+      "indexes": 17
     }
   },
   "entries": [
@@ -451,14 +451,14 @@
         },
         {
           "kind": "docs",
-          "title": "`AGENT_GUIDE.md`",
-          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/HEAD/AGENT_GUIDE.md",
+          "title": "ARIS-Code",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/HEAD/docs/ARIS-Code-README_EN.md",
           "source": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md"
         },
         {
           "kind": "docs",
-          "title": "Cosmos 3 — understanding + generation in one Transformer (MoT)",
-          "url": "https://wanshuiyin.github.io/ARIS-in-AI-Offer/blogs/cosmos3_mot_guide.html",
+          "title": "`AGENT_GUIDE.md`",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/HEAD/AGENT_GUIDE.md",
           "source": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md"
         }
       ],
@@ -596,6 +596,13 @@
         },
         {
           "kind": "image",
+          "title": "ARIS-Movie-Director method — the audited spiral: authored source of truth (asset library · outline · storyboard · comic.json) → per-panel image_gen + cross-model panel_gate (blind ",
+          "url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/docs/aris-movie-director-method.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md"
+        },
+        {
+          "kind": "image",
           "title": "ARIS-Code CLI terminal — Auto Research in Sleep",
           "url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/docs/aris-code-banner.png",
           "thumbnailUrl": null,
@@ -605,13 +612,6 @@
           "kind": "image",
           "title": "Feishu Push",
           "url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/feishu_push.png",
-          "thumbnailUrl": null,
-          "source": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md"
-        },
-        {
-          "kind": "image",
-          "title": "Feishu Interactive",
-          "url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/assets/feishu_interactive.jpg",
           "thumbnailUrl": null,
           "source": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/HEAD/README.md"
         }
@@ -742,37 +742,18 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "text_visual",
-      "docs": [
-        {
-          "kind": "docs",
-          "title": "How it works",
-          "url": "https://github.com/careerhackeralex/visualize#how-it-works",
-          "source": "https://github.com/careerhackeralex/visualize"
-        },
-        {
-          "kind": "docs",
-          "title": "Evaluation loop",
-          "url": "https://github.com/careerhackeralex/visualize/blob/main/eval/LOOP.md",
-          "source": "https://github.com/careerhackeralex/visualize"
-        }
-      ],
+      "docs": [],
       "examples": [
         {
           "kind": "example",
-          "title": "Pitch deck, dashboard, and infographic prompts",
-          "url": "https://github.com/careerhackeralex/visualize#what-it-does",
-          "source": "https://github.com/careerhackeralex/visualize"
-        },
-        {
-          "kind": "example",
-          "title": "Evaluation stress tests",
-          "url": "https://github.com/careerhackeralex/visualize/blob/main/eval/stress-tests.md",
-          "source": "https://github.com/careerhackeralex/visualize"
+          "title": "`examples/`",
+          "url": "https://github.com/careerhackeralex/visualize/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/careerhackeralex/visualize/HEAD/README.md"
         }
       ],
       "effectAssets": [],
-      "docsCount": 2,
-      "examplesCount": 2,
+      "docsCount": 0,
+      "examplesCount": 1,
       "effectAssetsCount": 0
     },
     {
@@ -813,29 +794,107 @@
       "docs": [
         {
           "kind": "docs",
-          "title": "Design principles",
-          "url": "https://github.com/ericblue/visual-explainer-skill#design-principles",
-          "source": "https://github.com/ericblue/visual-explainer-skill"
+          "title": "platform.openai.com/api-keys",
+          "url": "https://platform.openai.com/api-keys",
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
         },
         {
           "kind": "docs",
-          "title": "Options",
-          "url": "https://github.com/ericblue/visual-explainer-skill#options",
-          "source": "https://github.com/ericblue/visual-explainer-skill"
+          "title": "aistudio.google.com/apikey",
+          "url": "https://aistudio.google.com/apikey",
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
         }
       ],
-      "examples": [
+      "examples": [],
+      "effectAssets": [
         {
-          "kind": "example",
-          "title": "Example gallery",
-          "url": "https://github.com/ericblue/visual-explainer-skill#example-gallery",
-          "source": "https://github.com/ericblue/visual-explainer-skill"
+          "kind": "image",
+          "title": "Whiteboard: DNS Resolution",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/01-whiteboard-dns/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Infographic: Machine Learning",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/02-infographic-ml/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sketch: Git Branching",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/03-sketch-git/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram: K8s Networking",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/04-diagram-k8s/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OAuth Frame 1: The Setup",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/05-multiframe-oauth/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OAuth Frame 2: The Authorization Dance",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/05-multiframe-oauth/visual-explainer-2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OAuth Frame 3: The Complete Picture",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/05-multiframe-oauth/visual-explainer-3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Presentation: Microservices",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/06-microservices-arch/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mindmap: OOP",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/07-mindmap-oop/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mindmap Structured: PM",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/08-mindmap-structured-pm/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mermaid Flowchart to Infographic",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/09-mermaid-flowchart-infographic/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mermaid Sequence to Whiteboard",
+          "url": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/examples/10-mermaid-sequence-whiteboard/visual-explainer-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md"
         }
       ],
-      "effectAssets": [],
       "docsCount": 2,
-      "examplesCount": 1,
-      "effectAssetsCount": 0
+      "examplesCount": 0,
+      "effectAssetsCount": 12
     },
     {
       "name": "visual-explainer",
@@ -1205,38 +1264,50 @@
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
-          "url": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
+          "title": "https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf",
+          "url": "https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
-          "url": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
+          "title": "https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf",
+          "url": "https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251214_135820_a55c35bcb856/writing_outputs/final/JWST_Biosignature_Priority_Framework.pdf",
-          "url": "https://k-dense.ai/examples/session_20251214_135820_a55c35bcb856/writing_outputs/final/JWST_Biosignature_Priority_Framework.pdf",
+          "title": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
+          "url": "https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251212_165231_ad0681ba0d19/writing_outputs/final/Grant_Report.pdf",
-          "url": "https://k-dense.ai/examples/session_20251212_165231_ad0681ba0d19/writing_outputs/final/Grant_Report.pdf",
+          "title": "https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf",
+          "url": "https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
-          "url": "https://k-dense.ai/examples/session_20251214_140801_5fd244475cff/writing_outputs/final/manuscript.pdf",
+          "title": "https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf",
+          "url": "https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf",
+          "url": "https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf",
+          "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "paper",
+          "title": "AI Research Benchmarking NVIDIA BioNeMo Agent Toolkit Skills for NIM microservices A controlled benchmark of 10 NVIDIA BioNeMo Agent Toolkit skills for NIM microservices shows wher",
+          "url": "https://k-dense.ai/blog/benchmarking-nvidia-bionemo-nim-skill",
           "source": "https://www.k-dense.ai/"
         }
       ],
       "effectAssets": [],
       "docsCount": 4,
-      "examplesCount": 8,
+      "examplesCount": 10,
       "effectAssetsCount": 0
     },
     {
@@ -1375,20 +1446,20 @@
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
-          "url": "https://k-dense.ai/examples/session_20251215_165944_a1f9981a1a45/writing_outputs/final/longevity_translation_scorecard.pdf",
+          "title": "https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf",
+          "url": "https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf",
           "source": "https://www.k-dense.ai/"
         },
         {
           "kind": "example",
-          "title": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
-          "url": "https://k-dense.ai/examples/session_20251221_093619_3390c5c3bed6/writing_outputs/final/india_vegetarian_diet_plan.pdf",
+          "title": "https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf",
+          "url": "https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf",
           "source": "https://www.k-dense.ai/"
         }
       ],
       "effectAssets": [],
       "docsCount": 7,
-      "examplesCount": 15,
+      "examplesCount": 17,
       "effectAssetsCount": 0
     },
     {
@@ -1590,31 +1661,11 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "paper",
-      "docs": [
-        {
-          "kind": "docs",
-          "title": "SKILL.md",
-          "url": "https://github.com/sai-tv/academic-figures/blob/master/SKILL.md",
-          "source": "https://github.com/sai-tv/academic-figures"
-        },
-        {
-          "kind": "docs",
-          "title": "Journal and figure references",
-          "url": "https://github.com/sai-tv/academic-figures/tree/master/references",
-          "source": "https://github.com/sai-tv/academic-figures"
-        }
-      ],
-      "examples": [
-        {
-          "kind": "example",
-          "title": "Academic figure examples",
-          "url": "https://github.com/sai-tv/academic-figures/tree/master/examples",
-          "source": "https://github.com/sai-tv/academic-figures"
-        }
-      ],
+      "docs": [],
+      "examples": [],
       "effectAssets": [],
-      "docsCount": 2,
-      "examplesCount": 1,
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -1712,11 +1763,53 @@
           "url": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/assets/method_diagram.png",
           "thumbnailUrl": null,
           "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dawei Zhu",
+          "url": "https://github.com/dwzhu-pku.png?s=100",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "lemon-prog123",
+          "url": "https://github.com/lemon-prog123.png?s=100",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "memray",
+          "url": "https://github.com/memray.png?s=100",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "elpsykongloo",
+          "url": "https://github.com/elpsykongloo.png?s=100",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "weathon",
+          "url": "https://github.com/weathon.png?s=100",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "arashabadi",
+          "url": "https://github.com/arashabadi.png?s=100",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dwzhu-pku/PaperBanana/HEAD/README.md"
         }
       ],
       "docsCount": 0,
       "examplesCount": 3,
-      "effectAssetsCount": 6
+      "effectAssetsCount": 12
     },
     {
       "name": "GPT Researcher",
@@ -2018,7 +2111,7 @@
         {
           "kind": "image",
           "title": "Scira - AI Search | Scira AI",
-          "url": "https://scira.ai/opengraph-image.png?opengraph-image.2_1w0y54qy3t_.png?dpl=dpl_6AEQYfUaaPUgj8eTBTCvnkaqZMiz",
+          "url": "https://scira.ai/opengraph-image.png?opengraph-image.0sbxa-ko-p7n6.png",
           "thumbnailUrl": null,
           "source": "https://scira.ai/"
         }
@@ -2289,8 +2382,8 @@
         },
         {
           "kind": "docs",
-          "title": "World Monitor Blog — OSINT guides & analysis",
-          "url": "https://www.worldmonitor.app/blog/",
+          "title": "Docs",
+          "url": "https://www.worldmonitor.app/docs",
           "source": "https://www.worldmonitor.app/"
         }
       ],
@@ -2316,11 +2409,18 @@
           "url": "https://www.worldmonitor.app/favico/og-image.png",
           "thumbnailUrl": null,
           "source": "https://www.worldmonitor.app/"
+        },
+        {
+          "kind": "image",
+          "title": "World Monitor live intelligence dashboard — global map with conflict, shipping and market layers",
+          "url": "https://www.worldmonitor.app/pro/assets/worldmonitor-7-mar-2026-CtI5YvxO.jpg",
+          "thumbnailUrl": null,
+          "source": "https://www.worldmonitor.app/"
         }
       ],
       "docsCount": 4,
       "examplesCount": 1,
-      "effectAssetsCount": 2
+      "effectAssetsCount": 3
     },
     {
       "name": "OSSInsight",
@@ -2637,6 +2737,12 @@
           "title": "docs",
           "url": "https://www.surfsense.com/docs/",
           "source": "https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://www.surfsense.com/docs",
+          "source": "https://www.surfsense.com/"
         }
       ],
       "examples": [],
@@ -2726,7 +2832,7 @@
           "source": "https://raw.githubusercontent.com/MODSetter/SurfSense/HEAD/README.md"
         }
       ],
-      "docsCount": 1,
+      "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 12
     },
@@ -3285,34 +3391,15 @@
       "docs": [
         {
           "kind": "docs",
-          "title": "Installation",
-          "url": "https://github.com/proyecto26/notebooklm-ai-plugin#installation",
-          "source": "https://github.com/proyecto26/notebooklm-ai-plugin"
-        },
-        {
-          "kind": "docs",
-          "title": "Features",
-          "url": "https://github.com/proyecto26/notebooklm-ai-plugin#features",
-          "source": "https://github.com/proyecto26/notebooklm-ai-plugin"
+          "title": "contribution guide",
+          "url": "https://github.com/proyecto26/.github/blob/master/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/proyecto26/notebooklm-ai-plugin/HEAD/README.md"
         }
       ],
-      "examples": [
-        {
-          "kind": "example",
-          "title": "Generate your first artifact",
-          "url": "https://github.com/proyecto26/notebooklm-ai-plugin#generate-your-first-artifact",
-          "source": "https://github.com/proyecto26/notebooklm-ai-plugin"
-        },
-        {
-          "kind": "example",
-          "title": "Usage examples",
-          "url": "https://github.com/proyecto26/notebooklm-ai-plugin#usage-examples",
-          "source": "https://github.com/proyecto26/notebooklm-ai-plugin"
-        }
-      ],
+      "examples": [],
       "effectAssets": [],
-      "docsCount": 2,
-      "examplesCount": 2,
+      "docsCount": 1,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -4181,6 +4268,12 @@
       "docs": [
         {
           "kind": "docs",
+          "title": "Model Source Documentation",
+          "url": "https://opendatalab.github.io/MinerU/usage/model_source/",
+          "source": "https://raw.githubusercontent.com/opendatalab/MinerU/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "Changelog",
           "url": "https://opendatalab.github.io/MinerU/reference/changelog/",
           "source": "https://raw.githubusercontent.com/opendatalab/MinerU/HEAD/README.md"
@@ -4219,12 +4312,6 @@
           "kind": "docs",
           "title": "Quick Usage",
           "url": "https://opendatalab.github.io/MinerU/usage/quick_usage/",
-          "source": "https://opendatalab.github.io/MinerU/"
-        },
-        {
-          "kind": "docs",
-          "title": "Model Source",
-          "url": "https://opendatalab.github.io/MinerU/usage/model_source/",
           "source": "https://opendatalab.github.io/MinerU/"
         }
       ],
@@ -4284,6 +4371,12 @@
         },
         {
           "kind": "docs",
+          "title": "API server",
+          "url": "https://docling-project.github.io/docling/usage/api_server/",
+          "source": "https://raw.githubusercontent.com/docling-project/docling/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "usage",
           "url": "https://docling-project.github.io/docling/usage/",
           "source": "https://raw.githubusercontent.com/docling-project/docling/HEAD/README.md"
@@ -4316,12 +4409,6 @@
           "kind": "docs",
           "title": "Supported formats",
           "url": "https://docling-project.github.io/usage/supported_formats/",
-          "source": "https://docling-project.github.io/docling/"
-        },
-        {
-          "kind": "docs",
-          "title": "Audio & video",
-          "url": "https://docling-project.github.io/usage/processing_audio_media/",
           "source": "https://docling-project.github.io/docling/"
         }
       ],
@@ -4415,7 +4502,7 @@
           "source": "https://docling-project.github.io/docling/"
         }
       ],
-      "docsCount": 18,
+      "docsCount": 19,
       "examplesCount": 20,
       "effectAssetsCount": 2
     },
@@ -4742,7 +4829,21 @@
         },
         {
           "kind": "image",
-          "title": "Cloud",
+          "title": "Thumbnail",
+          "url": "https://image.mux.com/bOz3iIz3lQY8Y3wGzzNhws42CRXfBVDlZdRkZo1M013E/thumbnail.webp?width=3840&height=1770&time=1&fit_mode=smartcrop",
+          "thumbnailUrl": null,
+          "source": "https://www.unstructured.io/"
+        },
+        {
+          "kind": "image",
+          "title": "Thumbnail",
+          "url": "https://image.mux.com/bOz3iIz3lQY8Y3wGzzNhws42CRXfBVDlZdRkZo1M013E/thumbnail.webp?width=2718&height=3840&time=1&fit_mode=smartcrop",
+          "thumbnailUrl": null,
+          "source": "https://www.unstructured.io/"
+        },
+        {
+          "kind": "image",
+          "title": "cloud",
           "url": "https://www.unstructured.io/images/cloud.webp",
           "thumbnailUrl": null,
           "source": "https://www.unstructured.io/"
@@ -4750,7 +4851,7 @@
         {
           "kind": "image",
           "title": "B78F0A636884333C51C6E501Cd03604Fbcbe47Fd 64X85",
-          "url": "https://cdn.sanity.io/images/d35hevy9/production/b78f0a636884333c51c6e501cd03604fbcbe47fd-64x85.png",
+          "url": "https://cdn.sanity.io/images/d35hevy9/production/b78f0a636884333c51c6e501cd03604fbcbe47fd-64x85.png?w=64&h=85&max-h=3840&max-w=3840&q=85&auto=format",
           "thumbnailUrl": null,
           "source": "https://www.unstructured.io/"
         },
@@ -4772,20 +4873,6 @@
           "kind": "image",
           "title": "Connections Illustration",
           "url": "https://www.unstructured.io/images/connections-bottom.png",
-          "thumbnailUrl": null,
-          "source": "https://www.unstructured.io/"
-        },
-        {
-          "kind": "image",
-          "title": "Connections Illustration",
-          "url": "https://www.unstructured.io/images/connections.png",
-          "thumbnailUrl": null,
-          "source": "https://www.unstructured.io/"
-        },
-        {
-          "kind": "image",
-          "title": "2Fb036D0F7Bc7119D5D8991914838Bd836B23245 938X742",
-          "url": "https://cdn.sanity.io/images/d35hevy9/production/2fb036d0f7bc7119d5d8991914838bd836b23245-938x742.png?w=2048&h=1620&max-h=3840&max-w=3840&q=85&auto=format",
           "thumbnailUrl": null,
           "source": "https://www.unstructured.io/"
         }
@@ -5050,12 +5137,6 @@
       "docs": [],
       "examples": [
         {
-          "kind": "demo",
-          "title": "Try it free",
-          "url": "https://piktochart.com/ai-presentation-maker?ref=homepage_top_strip",
-          "source": "https://piktochart.com/generative-ai/"
-        },
-        {
           "kind": "video",
           "title": "Video Editor",
           "url": "https://piktochart.com/video-editor/",
@@ -5119,6 +5200,12 @@
           "kind": "template",
           "title": "Newsletter Templates",
           "url": "https://piktochart.com/templates/newsletters/",
+          "source": "https://piktochart.com/generative-ai/"
+        },
+        {
+          "kind": "template",
+          "title": "Presentation Templates",
+          "url": "https://piktochart.com/templates/presentations/",
           "source": "https://piktochart.com/generative-ai/"
         }
       ],
@@ -5389,12 +5476,6 @@
           "source": "https://venngage.com/ai-tools/infographic-generator"
         },
         {
-          "kind": "example",
-          "title": "Case Study Generator",
-          "url": "https://venngage.com/features/create-a-case-study",
-          "source": "https://venngage.com/ai-tools/infographic-generator"
-        },
-        {
           "kind": "paper",
           "title": "AI White Paper Generator",
           "url": "https://venngage.com/ai-tools/white-paper-generator",
@@ -5452,6 +5533,12 @@
           "kind": "template",
           "title": "Timeline",
           "url": "https://venngage.com/templates/infographics/timeline",
+          "source": "https://venngage.com/ai-tools/infographic-generator"
+        },
+        {
+          "kind": "template",
+          "title": "List",
+          "url": "https://venngage.com/templates/infographics/list",
           "source": "https://venngage.com/ai-tools/infographic-generator"
         }
       ],
@@ -5590,12 +5677,6 @@
           "source": "https://venngage.com/ai-tools/report-generator"
         },
         {
-          "kind": "example",
-          "title": "Case Study Generator",
-          "url": "https://venngage.com/features/create-a-case-study",
-          "source": "https://venngage.com/ai-tools/report-generator"
-        },
-        {
           "kind": "paper",
           "title": "AI White Paper Generator",
           "url": "https://venngage.com/ai-tools/white-paper-generator",
@@ -5653,6 +5734,12 @@
           "kind": "template",
           "title": "Human Resources",
           "url": "https://venngage.com/templates/reports/human-resources",
+          "source": "https://venngage.com/ai-tools/report-generator"
+        },
+        {
+          "kind": "template",
+          "title": "Annual",
+          "url": "https://venngage.com/templates/reports/annual",
           "source": "https://venngage.com/ai-tools/report-generator"
         }
       ],
@@ -7172,6 +7259,12 @@
       "docs": [],
       "examples": [
         {
+          "kind": "video",
+          "title": "Watch on YouTube →",
+          "url": "https://www.youtube.com/watch?v=372Iksaz8b0",
+          "source": "https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md"
+        },
+        {
           "kind": "template",
           "title": "`beautiful-html-templates`",
           "url": "https://github.com/zarazhangrui/beautiful-html-templates",
@@ -7235,12 +7328,6 @@
           "kind": "template",
           "title": "Editorial Tri-Tone",
           "url": "https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/editorial-tri-tone/",
-          "source": "https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md"
-        },
-        {
-          "kind": "template",
-          "title": "Creative Mode",
-          "url": "https://github.com/zarazhangrui/beautiful-html-templates/tree/main/templates/creative-mode/",
           "source": "https://raw.githubusercontent.com/zarazhangrui/frontend-slides/HEAD/README.md"
         }
       ],
@@ -7740,6 +7827,13 @@
         },
         {
           "kind": "image",
+          "title": "Maxresdefault",
+          "url": "https://i.ytimg.com/vi_webp/PW5zbsxEJbk/maxresdefault.webp",
+          "thumbnailUrl": null,
+          "source": "https://getalai.com/"
+        },
+        {
+          "kind": "image",
           "title": "Cagh1Gitkpphuvat3Erkyyyt0Qy",
           "url": "https://framerusercontent.com/images/CaGh1GITkpphUVat3ErkYyyT0QY.png?width=1280&height=159",
           "thumbnailUrl": null,
@@ -7754,64 +7848,57 @@
         },
         {
           "kind": "image",
-          "title": "Vz8Jl3Wtzksw0K8Pqnyyeqe0Mg",
-          "url": "https://framerusercontent.com/images/Vz8Jl3WtZkSW0K8PqNYYeqe0Mg.webp",
+          "title": "Spquhibrtp17Ih325Sfdn2Umwy",
+          "url": "https://framerusercontent.com/images/SpQuhiBRtP17ih325Sfdn2umwY.webp?width=1436&height=1986",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "Mslvdxb2Yva45Wzqhjlmjdddhm",
-          "url": "https://framerusercontent.com/images/MsLVdxb2yvA45wZQHJlMjdDDHM.webp",
+          "title": "Om5Jyzlgm4Jf7O2O9P4Ibcvxrsg",
+          "url": "https://framerusercontent.com/images/OM5jYZLGm4jF7O2o9p4IBcvxrSg.webp?width=954&height=1194",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "Gdubjqelu986Zyla2Gyma9Jsxk",
-          "url": "https://framerusercontent.com/images/GDUbjQelU986ZylA2gYma9jsxk.webp",
+          "title": "Lpsscrzzilmsr44Uv0Cnjoi0Kgo",
+          "url": "https://framerusercontent.com/images/LpSSCrzZilMSR44Uv0cNJoi0kGo.webp?width=954&height=1431",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "Agwqvpu5Czgrraqj4V0Rzapz2K",
-          "url": "https://framerusercontent.com/images/agWqvPU5CZgRraQJ4v0RzAPZ2k.webp",
+          "title": "Ljeyjngqfjbddzewnbpcibwomc4",
+          "url": "https://framerusercontent.com/images/ljeYjNGqFjBDdzeWNbpciBwomC4.webp?width=954&height=537",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "8Awgshw8Qksgurrdoy6Jmkeor0",
-          "url": "https://framerusercontent.com/images/8AWGshW8qksGuRRDOy6jMkEOr0.webp",
+          "title": "Wcpuap2H0Uxhnsvjipkllwvcolo",
+          "url": "https://framerusercontent.com/images/WCPuap2h0uxHnSvJiPklLWVcOLo.webp?width=954&height=954",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "Xwzhuruynn1Oh1Axdetqeckvo",
-          "url": "https://framerusercontent.com/images/xWzHuRUynN1OH1axdEtQeckvo.webp?scale-down-to=512",
+          "title": "Ay6Clbinjas9Efa5Deo5Ivehvag",
+          "url": "https://framerusercontent.com/images/Ay6cLBiNjAS9efa5DeO5iVeHVag.webp?width=954&height=537",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "Lp5Gak6Xmhpg2Cpqez1Rgejalsm",
-          "url": "https://framerusercontent.com/images/Lp5gAk6XMhpG2cPQEZ1RgEjAlsM.webp?scale-down-to=512",
+          "title": "Nowyv1Kvvihfisygqnwl7Ulm",
+          "url": "https://framerusercontent.com/images/NOwYV1KvviHFisYGqNwL7uLM.webp?width=954&height=954",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         },
         {
           "kind": "image",
-          "title": "0Oubxcnlq9Ey2Uc804Sgtck3Re0",
-          "url": "https://framerusercontent.com/images/0OubxcnlQ9eY2uC804SGTck3rE0.webp?scale-down-to=512",
-          "thumbnailUrl": null,
-          "source": "https://getalai.com/"
-        },
-        {
-          "kind": "image",
-          "title": "M5Bwcbjb0Qomab2X8J5Tod5S27G",
-          "url": "https://framerusercontent.com/images/m5BwcbJb0QoMab2x8j5tod5S27g.webp?scale-down-to=512",
+          "title": "Jopq3S8Nvmxl0Ctdv4Ngi46Pwfk",
+          "url": "https://framerusercontent.com/images/jOpQ3s8nVmxl0CtDv4ngI46Pwfk.webp?width=954&height=537",
           "thumbnailUrl": null,
           "source": "https://getalai.com/"
         }
@@ -8494,8 +8581,20 @@
       "docs": [
         {
           "kind": "docs",
+          "title": "Release Notes - v5.3.0",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.3.0.md",
+          "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "Release Notes - v5.1.0",
           "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.1.0.md",
+          "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Release Notes - v5.2.0",
+          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v5.2.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         },
         {
@@ -8527,18 +8626,6 @@
           "title": "Hybrid-Editable Visual Workflow v4.0",
           "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/hybrid-editable-visual-workflow-v4.0.md",
           "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "Quality Workbench v2.5",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/quality/quality-workbench-v2.5.md",
-          "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "v4.3.0",
-          "url": "https://github.com/kdnsna/ultimate-ppt-master-skill/blob/HEAD/docs/release/release-notes-v4.3.0.md",
-          "source": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/HEAD/README.md"
         }
       ],
       "examples": [
@@ -8558,7 +8645,7 @@
           "source": "https://kdnsna.github.io/ultimate-ppt-master-skill/"
         }
       ],
-      "docsCount": 19,
+      "docsCount": 20,
       "examplesCount": 1,
       "effectAssetsCount": 1
     },
@@ -9019,6 +9106,653 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "LobsterAI",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "primaryUrl": "https://github.com/netease-youdao/LobsterAI",
+      "homepage": "https://lobsterai.youdao.com",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "MCP Client",
+        "系统工具",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 5383,
+      "license": "MIT",
+      "updated": "2026-06-26",
+      "note": "NetEase Youdao desktop-grade office agent for data analysis, PPT creation, video generation, document writing, web research, scheduled reports, and IM-controlled desktop work.",
+      "sourceTypes": [
+        "任意/多源",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "NetEase Bee personal digital assistant",
+          "url": "https://wp.m.163.com/163/html/bee/lobsterai_guide/index.html",
+          "source": "https://raw.githubusercontent.com/netease-youdao/LobsterAI/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Architecture",
+          "url": "https://raw.githubusercontent.com/netease-youdao/LobsterAI/HEAD/docs/res/architecture_v2_en.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/netease-youdao/LobsterAI/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "LobsterAI æéé¾è¾ - å ¨åºæ¯åå ¬å©æ Agent",
+          "url": "https://ydhardwarecommon.nosdn.127.net/85ca628b73b3d3ddab9394f9f85e9ced.jpg",
+          "thumbnailUrl": null,
+          "source": "https://lobsterai.youdao.com/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Garden Skills",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "primaryUrl": "https://github.com/ConardLi/garden-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8853,
+      "license": "MIT",
+      "updated": "2026-06-10",
+      "note": "Agent skill collection whose web-video-presentation, web-design-engineer, GPT-image, knowledge retrieval, and beautiful-article skills turn source material into web presentations, visual articles, dashboards, infographics, diagrams, and recordable video surfaces.",
+      "sourceTypes": [
+        "任意/多源",
+        "PDF/文档",
+        "网页/搜索结果",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "报告/长文档",
+        "信息图/视觉报告",
+        "图表/仪表盘",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文文档",
+          "url": "https://github.com/ConardLi/garden-skills/blob/HEAD/README.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Anthropic's reference repository",
+          "url": "https://github.com/anthropics/skills",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "`web-video-presentation`",
+          "url": "https://github.com/ConardLi/garden-skills/blob/HEAD/skills/web-video-presentation",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "SKILL.md",
+          "url": "https://github.com/ConardLi/garden-skills/blob/HEAD/skills/web-video-presentation/SKILL.md",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Download v1.2.2 .zip",
+          "url": "https://github.com/ConardLi/garden-skills/releases/download/web-video-presentation-v1.2.2/web-video-presentation-1.2.2.zip",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Demo",
+          "url": "https://github.com/ConardLi/garden-skills/blob/HEAD/demo/web-design-demo",
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "creative-voltage preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-video/creative-voltage.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "blueprint preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-video/blueprint.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "swiss-ikb preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-video/swiss-ikb.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "chalk-garden preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-video/chalk-garden.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Theme gallery — 23 built-in themes for web-video-presentation",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-video/gallery.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "aesop preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/aesop.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "muji-kenya-hara preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/muji-kenya-hara.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "monocle-magazine preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/monocle-magazine.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "stripe-press preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/stripe-press.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "bloomberg-terminal preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/bloomberg-terminal.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "linear preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/linear.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "vercel-mesh preview",
+          "url": "https://cdn.jsdelivr.net/gh/ConardLi/assets@main/imgs/web-design/vercel-mesh.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConardLi/garden-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 4,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "ai-agents-skills",
+      "url": "https://github.com/hoodini/ai-agents-skills",
+      "primaryUrl": "https://github.com/hoodini/ai-agents-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 239,
+      "license": "unknown",
+      "updated": "2026-06-18",
+      "note": "Creative agent-skill stack for cinematic decks, branded design systems, viral videos, video editing, video-to-landing pages, parallax landing pages, HyperFrames captures, AI images, and Mermaid diagrams.",
+      "sourceTypes": [
+        "任意/多源",
+        "文本/想法",
+        "网页/搜索结果",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "视频/音频",
+        "图表/Mermaid",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "copilot-docs",
+          "url": "https://github.com/hoodini/ai-agents-skills/blob/HEAD/skills/copilot-docs/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/parasites/",
+          "url": "https://github.com/hoodini/ai-agents-skills/blob/HEAD/examples/parasites/",
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "View the Video-Edit Skill →",
+          "url": "https://github.com/hoodini/ai-agents-skills/blob/HEAD/skills/video-edit/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "View the Video-to-Landing-Page Skill →",
+          "url": "https://github.com/hoodini/ai-agents-skills/blob/HEAD/skills/video-to-landing-page/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "View the Yuv-Viral-Video Skill →",
+          "url": "https://github.com/hoodini/ai-agents-skills/blob/HEAD/skills/yuv-viral-video/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "skill template",
+          "url": "https://github.com/hoodini/ai-agents-skills/blob/HEAD/templates/skill-template/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AI Agent Skills Hero",
+          "url": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/hero-skills.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mouse-scrub hero",
+          "url": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/skills/cinematic-scrub-landing/assets/01-hero-mouse-scrub.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bright primary section",
+          "url": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/skills/cinematic-scrub-landing/assets/02-yellow-recipe.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cream album section",
+          "url": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/skills/cinematic-scrub-landing/assets/03-cream-album.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark pricing section",
+          "url": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/skills/cinematic-scrub-landing/assets/04-dark-pricing.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Red CTA finale",
+          "url": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/skills/cinematic-scrub-landing/assets/05-red-cta.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Yuval Avidani",
+          "url": "https://github.com/hoodini.png?size=180",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hoodini/ai-agents-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 5,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "keynote-slides-skill",
+      "url": "https://github.com/dbmcco/keynote-slides-skill",
+      "primaryUrl": "https://github.com/dbmcco/keynote-slides-skill",
+      "homepage": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 18,
+      "license": "unknown",
+      "updated": "2026-06-09",
+      "note": "Keynote-style agent skill for single-file HTML decks with Gemini-generated infographics, multi-brand theming, content databases, and narrative-framework selection.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Storytelling Guide",
+          "url": "https://github.com/dbmcco/keynote-slides-skill/blob/HEAD/docs/storytelling-guide.md",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Framework Selection Guide",
+          "url": "https://github.com/dbmcco/keynote-slides-skill/blob/HEAD/skills/keynote-slides/references/narrative-engine/framework_selection_guide.md",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Narrative Engine Checklists",
+          "url": "https://github.com/dbmcco/keynote-slides-skill/blob/HEAD/skills/keynote-slides/references/narrative-engine/checklists.md",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Infographic Prompting",
+          "url": "https://github.com/dbmcco/keynote-slides-skill/blob/HEAD/docs/nano-banana-prompting.md",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Video Guide",
+          "url": "https://github.com/dbmcco/keynote-slides-skill/blob/HEAD/docs/veo-video-guide.md",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Brand Guidelines",
+          "url": "https://github.com/dbmcco/keynote-slides-skill/blob/HEAD/skills/keynote-slides/references/brand-guidelines.md",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "See it in action",
+          "url": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html",
+          "source": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Time lost to formatting visualized",
+          "url": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/resources/assets/workflow-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html"
+        },
+        {
+          "kind": "image",
+          "title": "Clean prompt interface vs cluttered toolbar",
+          "url": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/resources/assets/cli-workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html"
+        },
+        {
+          "kind": "image",
+          "title": "Generated infographic example",
+          "url": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/resources/assets/text-to-image-demo.png",
+          "thumbnailUrl": null,
+          "source": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html"
+        },
+        {
+          "kind": "image",
+          "title": "Three brand treatments of the same content",
+          "url": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/resources/assets/brand-system.png",
+          "thumbnailUrl": null,
+          "source": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html"
+        },
+        {
+          "kind": "image",
+          "title": "Framework selection flowchart",
+          "url": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/resources/assets/template-preview.png",
+          "thumbnailUrl": null,
+          "source": "https://dbmcco.github.io/keynote-slides-skill/decks/skill-demo/index.html"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 1,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "Claude Office Skills",
+      "url": "https://github.com/claude-office-skills/skills",
+      "primaryUrl": "https://github.com/claude-office-skills/skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "MCP Client",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 254,
+      "license": "MIT",
+      "updated": "2026-01-31",
+      "note": "Practical office skill suite plus Office MCP server for PDF, spreadsheet, Word, conversion, and presentation operations including PPT creation, Markdown-to-slides, and HTML export.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "📖 Full MCP Documentation",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/office-mcp/SKILL.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/brand-guidelines/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/official-skills/doc-coauthoring.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Source-available",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/official-skills/docx-guide.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Source-available",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/official-skills/xlsx-guide.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Source-available",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/official-skills/pptx-guide.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Source-available",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/official-skills/pdf-guide.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/doc-parser/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "🛠️ Create Custom Agent",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/agents/_template/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/layout-analyzer/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/contract-template/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/invoice-template/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/template-engine/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "View",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/youtube-automation/",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "template",
+          "url": "https://github.com/claude-office-skills/skills/blob/HEAD/_template/SKILL.md",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Awesome n8n Templates",
+          "url": "https://github.com/enescingoz/awesome-n8n-templates",
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Claude Office Skills Architecture",
+          "url": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/claude-office-skills/skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 10,
+      "examplesCount": 8,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "GitDiagram",
       "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
       "primaryUrl": "https://github.com/ahmedkhaleel2004/gitdiagram",
@@ -9126,15 +9860,15 @@
           "source": "https://raw.githubusercontent.com/Codeboarding/CodeBoarding/HEAD/README.md"
         },
         {
-          "kind": "demo",
-          "title": "Book a demo",
-          "url": "https://calendly.com/ivan-i-milev/codeboarding",
+          "kind": "example",
+          "title": "or see a live example",
+          "url": "https://www.codeboarding.org/diagrams",
           "source": "https://www.codeboarding.org/"
         },
         {
-          "kind": "example",
-          "title": "Example Diagrams",
-          "url": "https://www.codeboarding.org/diagrams",
+          "kind": "demo",
+          "title": "Book a demo",
+          "url": "https://calendly.com/ivan-i-milev/codeboarding",
           "source": "https://www.codeboarding.org/"
         }
       ],
@@ -9176,7 +9910,7 @@
         }
       ],
       "docsCount": 3,
-      "examplesCount": 3,
+      "examplesCount": 4,
       "effectAssetsCount": 5
     },
     {
@@ -10823,6 +11557,45 @@
       "effectAssetsCount": 10
     },
     {
+      "name": "Mermaid Skill for Claude Code",
+      "url": "https://github.com/WH-2099/mermaid-skill",
+      "primaryUrl": "https://github.com/WH-2099/mermaid-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 122,
+      "license": "MIT",
+      "updated": "2026-06-21",
+      "note": "Claude Code skill for generating Mermaid diagrams with documentation for 23 diagram types, including flowcharts, sequence, class, ER, C4, Gantt, timeline, mindmap, Kanban, XY chart, Sankey, radar, and treemap.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Pretty-mermaid-skills",
       "url": "https://github.com/imxv/Pretty-mermaid-skills",
       "primaryUrl": "https://github.com/imxv/Pretty-mermaid-skills",
@@ -11429,18 +12202,6 @@
           "title": "Contributing guide",
           "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/CONTRIBUTING.md",
           "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "Browse the API reference :material-book-open-variant:",
-          "url": "https://antoinebou12.github.io/uml-mcp/reference/",
-          "source": "https://antoinebou12.github.io/uml-mcp/"
-        },
-        {
-          "kind": "docs",
-          "title": "Improve this page",
-          "url": "https://github.com/antoinebou12/uml-mcp/edit/main/docs/index.md",
-          "source": "https://antoinebou12.github.io/uml-mcp/"
         }
       ],
       "examples": [
@@ -11449,18 +12210,20 @@
           "title": "BPMN 2.0.2 guide",
           "url": "https://github.com/antoinebou12/uml-mcp/blob/HEAD/docs/tutorials/bpmn.md",
           "source": "https://raw.githubusercontent.com/antoinebou12/uml-mcp/HEAD/README.md"
-        },
+        }
+      ],
+      "effectAssets": [
         {
-          "kind": "tutorial",
-          "title": "Get started in 5 minutes :material-rocket-launch:",
-          "url": "https://antoinebou12.github.io/uml-mcp/tutorials/getting-started.html",
+          "kind": "image",
+          "title": "UML-MCP - UML-MCP Documentation",
+          "url": "https://antoinebou12.github.io/uml-mcp/assets/images/social/index.png",
+          "thumbnailUrl": null,
           "source": "https://antoinebou12.github.io/uml-mcp/"
         }
       ],
-      "effectAssets": [],
-      "docsCount": 7,
-      "examplesCount": 2,
-      "effectAssetsCount": 0
+      "docsCount": 5,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
     },
     {
       "name": "Kroki-MCP",
@@ -11653,35 +12416,75 @@
       "docs": [
         {
           "kind": "docs",
-          "title": "Installation",
-          "url": "https://github.com/antvis/infographic#installation",
-          "source": "https://github.com/antvis/infographic"
+          "title": "Reference",
+          "url": "https://infographic.antv.vision/reference",
+          "source": "https://infographic.antv.vision/"
         },
         {
           "kind": "docs",
-          "title": "Skills integration",
-          "url": "https://github.com/antvis/infographic#skills-integration",
-          "source": "https://github.com/antvis/infographic"
+          "title": "Docs",
+          "url": "https://infographic.antv.vision/learn",
+          "source": "https://infographic.antv.vision/"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://infographic.antv.vision/reference/infographic-api",
+          "source": "https://infographic.antv.vision/"
+        },
+        {
+          "kind": "docs",
+          "title": "JSX",
+          "url": "https://infographic.antv.vision/reference/jsx",
+          "source": "https://infographic.antv.vision/"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://infographic.antv.vision/reference/api",
+          "source": "https://infographic.antv.vision/"
+        },
+        {
+          "kind": "docs",
+          "title": "Design Assets",
+          "url": "https://infographic.antv.vision/reference/design-assets",
+          "source": "https://infographic.antv.vision/"
         }
       ],
       "examples": [
         {
-          "kind": "example",
-          "title": "Quick Start demo",
-          "url": "https://github.com/antvis/infographic#quick-start",
-          "source": "https://github.com/antvis/infographic"
-        },
-        {
-          "kind": "example",
-          "title": "Streaming rendering",
-          "url": "https://github.com/antvis/infographic#streaming-rendering",
-          "source": "https://github.com/antvis/infographic"
+          "kind": "showcase",
+          "title": "Gallery",
+          "url": "https://infographic.antv.vision/gallery",
+          "source": "https://infographic.antv.vision/"
         }
       ],
-      "effectAssets": [],
-      "docsCount": 2,
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AntV Infographic Preview",
+          "url": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*ZdeISZWHuyIAAAAAbEAAAAgAemJ7AQ/fmt.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/antvis/infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AntV Infographic DEMO",
+          "url": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*uvj8Qb26F1MAAAAARAAAAAgAemJ7AQ/fmt.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/antvis/infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AntV Infographic, an infographic generation and rendering framework that brings words to life.",
+          "url": "https://en-US.infographic.antv.vision/images/og-home.png",
+          "thumbnailUrl": null,
+          "source": "https://infographic.antv.vision/"
+        }
+      ],
+      "docsCount": 6,
       "examplesCount": 2,
-      "effectAssetsCount": 0
+      "effectAssetsCount": 3
     },
     {
       "name": "Markdown Viewer Agent Skills",
@@ -12923,17 +13726,10 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "text_visual",
-      "docs": [
-        {
-          "kind": "docs",
-          "title": "Miro AI with Docs and text",
-          "url": "https://help.miro.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBJg32AtGjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBIl%2BVotGjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzI4NzgyMjAxMTAyMzU0LU1pcm8tQUktd2l0aC1Eb2NzLWFuZC10ZXh0BjsIVDoJcmFua2kH--a04594dbad5830b9ccbaf3a38db793ca753350ea",
-          "source": "https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps"
-        }
-      ],
+      "docs": [],
       "examples": [],
       "effectAssets": [],
-      "docsCount": 1,
+      "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
     },
@@ -12987,6 +13783,12 @@
       ],
       "examples": [
         {
+          "kind": "video",
+          "title": "Figma Weave New AI workflows for imagery, video, and audio",
+          "url": "https://help.weavy.ai/en/",
+          "source": "https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI"
+        },
+        {
           "kind": "tutorial",
           "title": "Courses and collections New Level up your Figma skills with these comprehensive skill-based courses.",
           "url": "https://help.figma.com/hc/sections/23691657321239",
@@ -13007,7 +13809,7 @@
       ],
       "effectAssets": [],
       "docsCount": 3,
-      "examplesCount": 3,
+      "examplesCount": 4,
       "effectAssetsCount": 0
     },
     {
@@ -13298,6 +14100,12 @@
         },
         {
           "kind": "docs",
+          "title": "Build & deploy a GenBI app guide",
+          "url": "https://docs.getwren.ai/oss/guides/genbi",
+          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "Quickstart",
           "url": "https://docs.getwren.ai/oss/get_started/quickstart",
           "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
@@ -13305,7 +14113,7 @@
         {
           "kind": "docs",
           "title": "Connect a database",
-          "url": "https://docs.getwren.ai/oss/guides/connect/overview",
+          "url": "https://docs.getwren.ai/oss/guides/connect",
           "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
         },
         {
@@ -13331,21 +14139,9 @@
           "title": "Quickstart with your agent",
           "url": "https://docs.getwren.ai/oss/get_started/quickstart-with-agent/adal",
           "source": "https://docs.getwren.ai/oss/introduction"
-        },
-        {
-          "kind": "docs",
-          "title": "Connect your database",
-          "url": "https://docs.getwren.ai/oss/guides/connect",
-          "source": "https://docs.getwren.ai/oss/introduction"
         }
       ],
       "examples": [
-        {
-          "kind": "paper",
-          "title": "vision paper",
-          "url": "https://docs.getwren.ai/oss/introduction",
-          "source": "https://raw.githubusercontent.com/Canner/WrenAI/HEAD/README.md"
-        },
         {
           "kind": "example",
           "title": "Quickstart with jaffle_shop sample data",
@@ -13384,7 +14180,7 @@
         }
       ],
       "docsCount": 20,
-      "examplesCount": 2,
+      "examplesCount": 1,
       "effectAssetsCount": 4
     },
     {
@@ -13749,7 +14545,7 @@
         {
           "kind": "example",
           "title": "See Examples",
-          "url": "https://semiotic.nteract.io/cookbook",
+          "url": "https://semiotic.nteract.io/examples",
           "source": "https://semiotic.nteract.io/"
         }
       ],
@@ -14555,12 +15351,6 @@
         },
         {
           "kind": "video",
-          "title": "ZH-TW 繁體中文",
-          "url": "https://open-design.ai/zh-tw/html-video/",
-          "source": "https://open-design.ai/html-video/"
-        },
-        {
-          "kind": "video",
           "title": "JA 日本語",
           "url": "https://open-design.ai/ja/html-video/",
           "source": "https://open-design.ai/html-video/"
@@ -14575,6 +15365,12 @@
           "kind": "video",
           "title": "DE Deutsch",
           "url": "https://open-design.ai/de/html-video/",
+          "source": "https://open-design.ai/html-video/"
+        },
+        {
+          "kind": "video",
+          "title": "FR Français",
+          "url": "https://open-design.ai/fr/html-video/",
           "source": "https://open-design.ai/html-video/"
         }
       ],
@@ -14630,7 +15426,7 @@
         }
       ],
       "docsCount": 2,
-      "examplesCount": 20,
+      "examplesCount": 18,
       "effectAssetsCount": 7
     },
     {
@@ -15247,8 +16043,8 @@
         },
         {
           "kind": "image",
-          "title": "Hero",
-          "url": "https://cdn.iart.ai/video-asset/posters/hero.webp",
+          "title": "Hero Cover",
+          "url": "https://cdn.iart.ai/video-asset/posters/hero-cover.jpg",
           "thumbnailUrl": null,
           "source": "https://www.iart.ai/"
         },
@@ -15406,8 +16202,8 @@
         },
         {
           "kind": "docs",
-          "title": "Artificial Intelligence Dec 24, 2025 Editable Nano Banana Slides in SlideSpeak Learn how SlideSpeak now brings Nano Banana's powerful slide visuals and makes them fully editable, s",
-          "url": "https://slidespeak.co/blog/guide-on-nano-banana-editable-text",
+          "title": "Artificial Intelligence Germán Calcedo • Jun 22, 2026 DESIGN.md and MCP: How They Work Together for AI Brand Guidelines DESIGN.md and MCP solve different parts of the AI brand-guid",
+          "url": "https://slidespeak.co/blog/design-md-vs-mcp-ai-brand-guidelines",
           "source": "https://slidespeak.co/"
         },
         {
@@ -15467,6 +16263,30 @@
           "source": "https://slidespeak.co/"
         },
         {
+          "kind": "template",
+          "title": "https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "template",
+          "title": "https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "template",
+          "title": "https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "template",
+          "title": "https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/"
+        },
+        {
           "kind": "video",
           "title": "Extract Videos from PowerPoint",
           "url": "https://slidespeak.co/free-tools/extract-videos-from-powerpoint",
@@ -15476,18 +16296,6 @@
           "kind": "video",
           "title": "Convert PowerPoint to Video with AI",
           "url": "https://slidespeak.co/free-tools/convert-powerpoint-to-video-ai",
-          "source": "https://slidespeak.co/"
-        },
-        {
-          "kind": "video",
-          "title": "Convert YouTube to PowerPoint with AI",
-          "url": "https://slidespeak.co/free-tools/convert-youtube-to-powerpoint",
-          "source": "https://slidespeak.co/"
-        },
-        {
-          "kind": "paper",
-          "title": "Convert Research Paper to Presentation",
-          "url": "https://slidespeak.co/free-tools/convert-research-paper-to-presentation-ai",
           "source": "https://slidespeak.co/"
         }
       ],
@@ -15515,7 +16323,7 @@
         }
       ],
       "docsCount": 6,
-      "examplesCount": 10,
+      "examplesCount": 14,
       "effectAssetsCount": 3
     },
     {
@@ -15546,189 +16354,12 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "presentation",
-      "docs": [
-        {
-          "kind": "docs",
-          "title": "Docs",
-          "url": "https://www.canva.com/docs/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "docs",
-          "title": "Eligibility guidelines",
-          "url": "https://www.canva.com/education/eligibility-guidelines/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "docs",
-          "title": "All create guides",
-          "url": "https://www.canva.com/create/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        }
-      ],
-      "examples": [
-        {
-          "kind": "video",
-          "title": "Videos",
-          "url": "https://www.canva.com/video-editor/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "video",
-          "title": "YouTube video editor",
-          "url": "https://www.canva.com/video-editor/youtube/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "video",
-          "title": "Video trimmer",
-          "url": "https://www.canva.com/features/video-trimmer/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "video",
-          "title": "Online video recorder",
-          "url": "https://www.canva.com/features/online-video-recorder/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "video",
-          "title": "Convert videos to MP4",
-          "url": "https://www.canva.com/features/mp4-converter/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "video",
-          "title": "AI video generator",
-          "url": "https://www.canva.com/features/ai-video-generator/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "template",
-          "title": "Templates Marketplace",
-          "url": "https://www.canva.com/templates/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "demo",
-          "title": "Demo video",
-          "url": "https://www.canva.com/enterprise/product-demo/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "template",
-          "title": "Brand templates",
-          "url": "https://www.canva.com/business/features/team-templates/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "example",
-          "title": "Case studies",
-          "url": "https://www.canva.com/business/case-studies/",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "example",
-          "title": "K-12 case studies",
-          "url": "https://www.canva.com/case-studies/?solution=Education",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "example",
-          "title": "Case studies",
-          "url": "https://www.canva.com/case-studies/?solution=HigherEducation",
-          "source": "https://www.canva.com/create/ai-presentations/"
-        }
-      ],
-      "effectAssets": [
-        {
-          "kind": "image",
-          "title": "AI Presentation Maker: Create presentations with AI | Canva",
-          "url": "https://content-management-files.canva.com/1e1342e1-8c69-4314-9819-6c238df3b63b/clientuibusinessproductcreatepagessingleimagesOG_Generic_Create.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Client Ui Business Product Create Create Banner Template Overlay Image Images Desktop",
-          "url": "https://content-management-files.canva.com/7437c152-6038-487e-8da2-d004ca0f5c8b/client-ui-business-product-create-create_banner-template_overlay_image-images-desktop.png",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Business Case Presentation in Bright Red Cobalt Bright Green Chic Photocentric Frames Style",
-          "url": "https://template.canva.com/EAFb6dhVhgw/2/0/1600w-gR9YIea2HMY.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Canva AI Presentation Maker Lead Image",
-          "url": "https://content-management-files.canva.com/62c7ebe0-5c0b-4f1a-abd6-2361779737bc/create_ai-presentation-maker_lead.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Clientuicsehow It Workshow It Works Mediaimagesdevice",
-          "url": "https://content-management-files.canva.com/b00b7a8e-5b97-4b76-bfda-06e32c928f04/clientuicsehow_it_workshow_it_works_mediaimagesdevice.png",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "How to make presentations using AI",
-          "url": "https://content-management-files.canva.com/9b11ef32-f4a3-4674-9c01-4d2f05c06d92/create_ai-presentation-maker_how-to.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Research Proposal Business Presentation in Dark Green Orange Geometric Style",
-          "url": "https://template.canva.com/EAFR-HW2VIM/2/0/1600w-Pv2-sEnHd2w.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Pink Orange Yellow Happy Hippie Word List Game Presentation Party",
-          "url": "https://template.canva.com/EAFC-gXiY4w/1/0/1600w-SgzL4RtEEaw.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Black Neon Green Neon Pink Trendy Illustrative Creative Presentation",
-          "url": "https://template.canva.com/EAFLVBlZIJw/3/0/1600w-wicS8FWmyHM.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Green Blobs Basic Simple Presentation",
-          "url": "https://template.canva.com/EAE3W4uIAHg/5/0/1600w-feEkT7I23kI.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Composition Book Presentation",
-          "url": "https://template.canva.com/EAEskrc3C7Q/2/0/1600w-OPjQ2icjLrY.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        },
-        {
-          "kind": "image",
-          "title": "Blue Pie Chart Presentation",
-          "url": "https://template.canva.com/EADjXWUTA10/2/0/1600w-dF61KOwa5HM.jpg",
-          "thumbnailUrl": null,
-          "source": "https://www.canva.com/create/ai-presentations/"
-        }
-      ],
-      "docsCount": 3,
-      "examplesCount": 20,
-      "effectAssetsCount": 12
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "Presentations.AI",
@@ -15818,56 +16449,56 @@
         },
         {
           "kind": "image",
-          "title": "Data gets old fast",
-          "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a1970a54163b9c9a7e9a01e_challenge_01_.webp",
+          "title": "6A3Bc0B10Dbfac6C82618012 6D99Db06B1928Bf4526Bbed89214F0B4 Creationisagrind",
+          "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a3bc0b10dbfac6c82618012_6d99db06b1928bf4526bbed89214f0b4_creationisagrind.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "One size fits no one",
-          "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a1970a5811bf5688d7092c9_challenge_03_.webp",
+          "title": "6A3Bc0B53364C891392982Af 8B6Bb6176B9C0D9331643D0855D05E05 Data Gets Old",
+          "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a3bc0b53364c891392982af_8b6bb6176b9c0d9331643d0855d05e05_data-gets-old_.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "Founders",
-          "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09c2d85a19c441f18eb_Founders.webp",
+          "title": "6A3Bc0B13Ca654Fa9987877C 53F445Ebffa77C84E2C65Cb33F68Ea32 One Size",
+          "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a3bc0b13ca654fa9987877c_53f445ebffa77c84e2c65cb33f68ea32_one-size.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "Sales",
+          "title": "AI Presentation Maker for Business and Sales Teams – Pitch Decks and Client Proposals",
           "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09cff8637c48be87ae4_Sales.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "Product Teams",
+          "title": "AI Presentation Maker for Students and Educators – Lesson Plans and Course Slides",
           "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09b23bf5f5a7a9681de_Product%20Teams.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "Product Managers",
+          "title": "AI Presentation Maker for Product Managers – Roadmap and Feature Planning Decks",
           "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b0efd2f4269ce74b2f0b_Product%20Managers.png",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "Marketers",
+          "title": "AI Presentation Maker for Marketing Teams – Campaign Briefs and Strategy Decks",
           "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09c3493030a834dc3c4_Marketers.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
         },
         {
           "kind": "image",
-          "title": "Freelancers",
+          "title": "AI Presentation Maker for Consultants and Agencies – Client Deliverables at Scale",
           "url": "https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09b7f80e84bb42991b7_Freelancers.webp",
           "thumbnailUrl": null,
           "source": "https://www.presentations.ai/"
@@ -16861,6 +17492,13 @@
       "effectAssets": [
         {
           "kind": "image",
+          "title": "TestMu AI",
+          "url": "https://cdn.voltagent.dev/awesome-repo/testmui/testmuai-black.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
           "title": "launchkit",
           "url": "https://cdn.voltagent.dev/awesome-repo/launchkit-banner-3.png",
           "thumbnailUrl": null,
@@ -16931,15 +17569,8 @@
         },
         {
           "kind": "image",
-          "title": "Auth0",
-          "url": "https://github.com/auth0.png?size=36",
-          "thumbnailUrl": null,
-          "source": "https://officialskills.sh/"
-        },
-        {
-          "kind": "image",
-          "title": "Apollo GraphQL",
-          "url": "https://github.com/apollographql.png?size=36",
+          "title": "Venice AI",
+          "url": "https://github.com/veniceai.png?size=36",
           "thumbnailUrl": null,
           "source": "https://officialskills.sh/"
         }
@@ -17240,6 +17871,12 @@
         },
         {
           "kind": "docs",
+          "title": "scotia1973-bot/api-hub",
+          "url": "https://github.com/scotia1973-bot/api-hub",
+          "source": "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "whiteknightonhorse/APIbase",
           "url": "https://github.com/whiteknightonhorse/APIbase",
           "source": "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/HEAD/README.md"
@@ -17248,12 +17885,6 @@
           "kind": "docs",
           "title": "apireno/DOMShell",
           "url": "https://github.com/apireno/DOMShell",
-          "source": "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/HEAD/README.md"
-        },
-        {
-          "kind": "docs",
-          "title": "softvoyagers/pageshot-api",
-          "url": "https://github.com/softvoyagers/pageshot-api",
           "source": "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/HEAD/README.md"
         }
       ],
@@ -17787,6 +18418,12 @@
         },
         {
           "kind": "paper",
+          "title": "Website",
+          "url": "https://huggingface.co/datasets/BGPT-OFFICIAL/refute",
+          "source": "https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
           "title": "Awesome-AI-Scientist-Papers",
           "url": "https://github.com/openags/Awesome-AI-Scientist-Papers",
           "source": "https://raw.githubusercontent.com/worldbench/awesome-ai-auto-research/HEAD/README.md"
@@ -17843,12 +18480,6 @@
           "kind": "video",
           "title": "Paper2Video",
           "url": "https://arxiv.org/abs/2510.05096",
-          "source": "https://worldbench.github.io/awesome-ai-auto-research"
-        },
-        {
-          "kind": "video",
-          "title": "https://github.com/showlab/Paper2Video",
-          "url": "https://github.com/showlab/Paper2Video",
           "source": "https://worldbench.github.io/awesome-ai-auto-research"
         }
       ],
@@ -17939,7 +18570,7 @@
         }
       ],
       "docsCount": 1,
-      "examplesCount": 12,
+      "examplesCount": 13,
       "effectAssetsCount": 12
     },
     {
@@ -18107,6 +18738,12 @@
           "source": "https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md"
         },
         {
+          "kind": "paper",
+          "title": "paper-search-mcp",
+          "url": "https://github.com/openags/paper-search-mcp",
+          "source": "https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md"
+        },
+        {
           "kind": "example",
           "title": "AI Multi-Agent Presentation Builder",
           "url": "https://github.com/Azure-Samples/ai-multi-agent-presentation-builder",
@@ -18158,12 +18795,6 @@
           "kind": "paper",
           "title": "paper-reviewer",
           "url": "https://github.com/deep-diver/paper-reviewer",
-          "source": "https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md"
-        },
-        {
-          "kind": "paper",
-          "title": "ASI-Arch (GAIR-NLP, arXiv 2025)",
-          "url": "https://github.com/GAIR-NLP/ASI-Arch",
           "source": "https://raw.githubusercontent.com/ai-boost/awesome-ai-for-science/HEAD/README.md"
         }
       ],
@@ -18342,6 +18973,274 @@
       "effectAssetsCount": 3
     },
     {
+      "name": "OpenClaw Medical Skills",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+      "primaryUrl": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+      "homepage": null,
+      "category": "meta-index",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 2777,
+      "license": "unknown",
+      "updated": "2026-06-18",
+      "note": "Large OpenClaw/NanoClaw medical and scientific skill library with deep research, PDF/DOCX/XLSX/PPTX utilities, clinical reports, literature reviews, omics visualizations, pathway diagrams, QC reports, heatmaps, and spatial/transcriptomics visual outputs.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "证据表",
+        "图表/仪表盘",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "doc-coauthoring",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/doc-coauthoring/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "tooluniverse-clinical-guidelines",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/tooluniverse-clinical-guidelines/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "bio-reference-operations",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/bio-reference-operations/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "bio-codon-usage",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/bio-codon-usage/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "bio-phasing-imputation-reference-panels",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/bio-phasing-imputation-reference-panels/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "crispr-guide-design",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/crispr-guide-design/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arxiv-search",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/arxiv-search/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "bio-genome-engineering-hdr-template-design",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/bio-genome-engineering-hdr-template-design/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "spatial-tutorials",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/spatial-tutorials/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "bio-experimental-design-sample-size",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/bio-experimental-design-sample-size/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "bgpt-paper-search",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/bgpt-paper-search/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "paper-2-web",
+          "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/HEAD/skills/paper-2-web/",
+          "source": "https://raw.githubusercontent.com/FreedomIntelligence/OpenClaw-Medical-Skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 6,
+      "examplesCount": 6,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Awesome HTML Slide Skills",
+      "url": "https://github.com/ToseaAI/awesome-html-slide-skills",
+      "primaryUrl": "https://github.com/ToseaAI/awesome-html-slide-skills",
+      "homepage": "https://tosea.ai/slide-skills",
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "浏览器/账号"
+      ],
+      "stars": 64,
+      "license": "CC-BY-4.0",
+      "updated": "2026-06-23",
+      "note": "Curated index of HTML slide generation skills and template libraries for Claude Code, Codex, Cursor, OpenClaw, and Hermes, with official previews and GitHub metadata for single-file HTML presentation ecosystems.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "工具索引"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Agent Skills",
+          "url": "https://docs.claude.com/en/docs/claude-code/skills",
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "zarazhangrui/beautiful-html-templates",
+          "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "op7418 / guizang-ppt-skill A Claude Code Skill that turns prompts into horizontal-swipe magazine-style HTML decks — 10 layouts, 5 curated themes, WebGL hero backgrounds, single-fil",
+          "url": "https://github.com/op7418/guizang-ppt-skill",
+          "source": "https://tosea.ai/slide-skills"
+        },
+        {
+          "kind": "template",
+          "title": "lewislulu / html-ppt-skill HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations 2 Contributors 5 Issues 3.6K Stars 3",
+          "url": "https://github.com/lewislulu/html-ppt-skill",
+          "source": "https://tosea.ai/slide-skills"
+        },
+        {
+          "kind": "template",
+          "title": "likaku / Mck-ppt-design-skill Consulting firm-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦麸风格PPT设计系统。 2 Contributors 2 Issues 133 S",
+          "url": "https://github.com/likaku/Mck-ppt-design-skill",
+          "source": "https://tosea.ai/slide-skills"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "html-ppt-skill — hero with live previews",
+          "url": "https://raw.githubusercontent.com/lewislulu/html-ppt-skill/main/docs/readme/hero.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "bold-signal cover preset",
+          "url": "https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/main/docs/preset-previews/bold-signal-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "soft editorial template",
+          "url": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/soft-editorial-4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ppt-workflow preview",
+          "url": "https://raw.githubusercontent.com/mucsbr/ppt-agent-workflow-san/main/1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Electric Studio",
+          "url": "https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/main/docs/preset-previews/electric-studio-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Neon Cyber",
+          "url": "https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/main/docs/preset-previews/neon-cyber-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bold Signal demo",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/main/demos/screenshots/bold-signal.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Electric Studio demo",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/main/demos/screenshots/electric-studio.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "slide-writer example",
+          "url": "https://raw.githubusercontent.com/FeeiCN/slide-writer/main/examples/slide-writer.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Huawei-style demo",
+          "url": "https://raw.githubusercontent.com/zuiho-kai/huawei-style-ppt-skill/master/docs/demo-1.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Swiss International preview",
+          "url": "https://raw.githubusercontent.com/Phlegonlabs/Powerpoint-fancy-design/main/assets/style-preview-a.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "skills-slides features slide",
+          "url": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/main/examples/screenshots/slide-06-features.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ToseaAI/awesome-html-slide-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 4,
+      "effectAssetsCount": 12
+    },
+    {
       "name": "TransformingScienceLLMs",
       "url": "https://github.com/NL2G/TransformingScienceLLMs",
       "primaryUrl": "https://github.com/NL2G/TransformingScienceLLMs",
@@ -18375,12 +19274,24 @@
         },
         {
           "kind": "docs",
+          "title": "TikZero: Zero-Shot Text-Guided Graphics Program Synthesis",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Belouadi_TikZero_Zero-Shot_Text-Guided_Graphics_Program_Synthesis_ICCV_2025_paper",
+          "source": "https://raw.githubusercontent.com/NL2G/TransformingScienceLLMs/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
           "title": "**Paperguide**",
           "url": "https://paperguide.ai/",
           "source": "https://raw.githubusercontent.com/NL2G/TransformingScienceLLMs/HEAD/README.md"
         }
       ],
       "examples": [
+        {
+          "kind": "paper",
+          "title": "TSCIEval: Evaluating and Benchmarking the Faithfulness of Scientific Image Generation and Interpretation with Large Multimodal Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ye_SCIEval_Evaluating_and_Benchmarking_the_Faithfulness_of_Scientific_Image_Generation_CVPR_2026_paper",
+          "source": "https://raw.githubusercontent.com/NL2G/TransformingScienceLLMs/HEAD/README.md"
+        },
         {
           "kind": "paper",
           "title": "our survey paper",
@@ -18427,8 +19338,8 @@
           "source": "https://raw.githubusercontent.com/NL2G/TransformingScienceLLMs/HEAD/README.md"
         }
       ],
-      "docsCount": 2,
-      "examplesCount": 6,
+      "docsCount": 3,
+      "examplesCount": 7,
       "effectAssetsCount": 1
     }
   ]
