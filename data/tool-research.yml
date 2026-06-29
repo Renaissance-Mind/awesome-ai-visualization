@@ -1,4 +1,4 @@
-generated_at: '2026-06-28T23:05:15+00:00'
+generated_at: '2026-06-29T23:05:26+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 190
-  fetched_sources_ok: 262
+  entries: 195
+  fetched_sources_ok: 269
   fetched_sources_failed: 17
-  official_examples: 711
-  official_effect_assets: 792
-  official_docs: 634
+  official_examples: 721
+  official_effect_assets: 831
+  official_docs: 658
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -1647,6 +1647,207 @@ entries:
   - Advanced usage with custom settings
   - Visualization Tools
   - Interactive Demo
+- name: PaperBanana Skills
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/PlutoLei/paperbanana-skill
+  homepage: https://github.com/llmsresearch/paperbanana
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skills wrapper for PaperBanana that turns text, PDFs, CSV/JSON data, and slide prompts into academic
+    diagrams, plots, presentation slides, and quality-evaluated figures.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PaperBanana Skills
+    bytes: 22160
+  - kind: homepage
+    url: https://github.com/llmsresearch/paperbanana
+    final_url: https://github.com/llmsresearch/paperbanana
+    status: 200
+    content_type: text/html
+    title: 'GitHub - llmsresearch/paperbanana: Open source implementation and extension of Google Research’s PaperBanana for
+      automated academic figures, diagrams, and research visuals, expande'
+    description: Open source implementation and extension of Google Research’s PaperBanana for automated academic figures,
+      diagrams, and research visuals, expanded to new domains like slide generat
+    bytes: 577207
+  official_examples:
+  - kind: example
+    title: examples
+    url: https://github.com/llmsresearch/paperbanana/tree/main/examples
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: example
+    title: .env.example
+    url: https://github.com/llmsresearch/paperbanana/blob/main/.env.example
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: paper
+    title: arXiv:2601.23265
+    url: https://arxiv.org/abs/2601.23265
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: paper
+    title: PaperBananaBench
+    url: https://huggingface.co/datasets/dwzhu/PaperBananaBench
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: paper
+    title: arxiv
+    url: https://github.com/topics/arxiv
+    source: https://github.com/llmsresearch/paperbanana
+  official_docs:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/PlutoLei/paperbanana-skill/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: documentation
+    url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: docs
+    url: https://github.com/llmsresearch/paperbanana/tree/main/docs
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: https://colab.research.google.com/github/llmsresearch/paperbanana/blob/main/notebooks/PaperBanana_Colab_Quickstart.ipynb
+    url: https://colab.research.google.com/github/llmsresearch/paperbanana/blob/main/notebooks/PaperBanana_Colab_Quickstart.ipynb
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: platform.openai.com
+    url: https://platform.openai.com/api-keys
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: Google AI Studio
+    url: https://makersuite.google.com/app/apikey
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/llmsresearch/paperbanana
+  official_effect_assets:
+  - kind: image
+    title: Bio Signaling Pathway
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/bio_signaling_pathway.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Nlp Rag Pipeline
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/nlp_rag_pipeline.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Data Lakehouse
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/data_lakehouse.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Unet Mamba Segmentation
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/unet_mamba_segmentation.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Textmamba3D Architecture
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/textmamba3d_architecture.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Game Theory Influence Diagram
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/game_theory_influence_diagram.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Ablation Brats Figure
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/ablation_brats_figure.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Slide Scrna Workflow
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_scrna_workflow.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Slide Flywheel 01 Cover
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_01_cover.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Slide Flywheel 04 Model
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_04_model.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Slide Flywheel 07 Ai Tools
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_07_ai_tools.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: image
+    title: Slide Flywheel 10 Summary
+    url: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_10_summary.png
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/PlutoLei/paperbanana-skill/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: documentation
+    url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: docs
+    url: https://github.com/llmsresearch/paperbanana/tree/main/docs
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: example
+    title: examples
+    url: https://github.com/llmsresearch/paperbanana/tree/main/examples
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: example
+    title: .env.example
+    url: https://github.com/llmsresearch/paperbanana/blob/main/.env.example
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: https://colab.research.google.com/github/llmsresearch/paperbanana/blob/main/notebooks/PaperBanana_Colab_Quickstart.ipynb
+    url: https://colab.research.google.com/github/llmsresearch/paperbanana/blob/main/notebooks/PaperBanana_Colab_Quickstart.ipynb
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: paper
+    title: arXiv:2601.23265
+    url: https://arxiv.org/abs/2601.23265
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: platform.openai.com
+    url: https://platform.openai.com/api-keys
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: Google AI Studio
+    url: https://makersuite.google.com/app/apikey
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: paper
+    title: PaperBananaBench
+    url: https://huggingface.co/datasets/dwzhu/PaperBananaBench
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: paper
+    title: arxiv
+    url: https://github.com/topics/arxiv
+    source: https://github.com/llmsresearch/paperbanana
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/llmsresearch/paperbanana
+  source_headings:
+  - Gallery
+  - Slide Deck Showcase — "The Flywheel Learning Method"
+  - 1. Chinese slide titles — GPT wins (Gemini has a duplicate-character bug)
+  - Slide Deck Orchestrator
+  - Batch generate slides with style
+  - Example — paperbanana skill, adjust the target dir per the table above
+  - paperbanana-slide-deck skill (optional)
+  - GOOGLE_BASE_URL=https://your-gemini-proxy.example.com
+  - GOOGLE_IMAGE_MODEL=gemini-3-pro-image-preview"> cp .env.example .env
+  - '2. Edit the style guides — or generate them from a corpus of example figures:'
+  - paperbanana guidelines synthesize --reference-set ./examples \
 - name: GPT Researcher
   category: research-report
   surface: open-source
@@ -2933,6 +3134,226 @@ entries:
     title: Research Paper Summarizer
     url: https://mapify.so/tools/research-paper-summarizer
     source: https://mapify.so/
+- name: Mapify MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/xmindltd/mapify-mcp-server
+  homepage: https://mapify.so
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 模板/素材
+  catalog_note: Official Mapify MCP server that lets assistants turn text prompts, YouTube videos, websites, documents, and
+    AI search results into mind-map images plus editable Mapify links.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mapify MCP Server
+    bytes: 4561
+  - kind: homepage
+    url: https://mapify.so/
+    final_url: https://mapify.so/
+    status: 200
+    content_type: text/html
+    title: 'Mapify: AI Summarizer and Mind Map Generator for PDFs, Videos, and Webpages'
+    description: Mapify helps you summarize PDFs, YouTube videos, webpages, and research papers into structured mind maps
+      and actionable understanding.
+    bytes: 245418
+  official_examples:
+  - kind: demo
+    title: Try it Free >
+    url: https://mapify.so/signin
+    source: https://mapify.so/
+  - kind: video
+    title: YouTube Summarizer
+    url: https://mapify.so/tools/youtube-video-summarizer
+    source: https://mapify.so/
+  - kind: video
+    title: YouTube to Transcript
+    url: https://mapify.so/tools/youtube-to-transcript
+    source: https://mapify.so/
+  - kind: paper
+    title: Research Paper Summarizer
+    url: https://mapify.so/tools/research-paper-summarizer
+    source: https://mapify.so/
+  official_docs:
+  - kind: docs
+    title: mapify.so
+    url: https://mapify.so
+    source: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+  - kind: docs
+    title: https://chromewebstore.google.com/detail/mapify-ai-mind-map-by-cla/fldgacclkckcmflokaialbihppmndpbd
+    url: https://chromewebstore.google.com/detail/mapify-ai-mind-map-by-cla/fldgacclkckcmflokaialbihppmndpbd
+    source: https://mapify.so/
+  - kind: docs
+    title: Trustpilot
+    url: https://www.trustpilot.com/review/mapify.so
+    source: https://mapify.so/
+  - kind: docs
+    title: Product Hunt
+    url: https://www.producthunt.com/products/mapify-anything-into-mind-map-with-ai
+    source: https://mapify.so/
+  - kind: docs
+    title: G2
+    url: https://www.g2.com/products/mapify/reviews
+    source: https://mapify.so/
+  - kind: docs
+    title: https://twitter.com/MapifySo
+    url: https://twitter.com/MapifySo
+    source: https://mapify.so/
+  - kind: docs
+    title: https://www.youtube.com/@MapifyEverything
+    url: https://www.youtube.com/@MapifyEverything
+    source: https://mapify.so/
+  - kind: docs
+    title: https://www.instagram.com/mapify.so/
+    url: https://www.instagram.com/mapify.so/
+    source: https://mapify.so/
+  - kind: docs
+    title: https://www.facebook.com/people/MapifySo/61581229480510/
+    url: https://www.facebook.com/people/MapifySo/61581229480510/
+    source: https://mapify.so/
+  official_effect_assets:
+  - kind: image
+    title: Interactive mind map overview
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-map-en-1-preview.d1f555.png
+    source: https://mapify.so/
+  - kind: image
+    title: PDF/Doc to Mind Map
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-pdf-v2.8ae5ca.png
+    source: https://mapify.so/
+  - kind: image
+    title: YouTube to Mind Map
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-youtube-v2.2fd229.png
+    source: https://mapify.so/
+  - kind: image
+    title: Ask Anything
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-ask-anything-v2.fc749b.png
+    source: https://mapify.so/
+  - kind: image
+    title: Customize & Share
+    url: https://assets.chatmind.tech/prod_mapify/_images/poster-share-v2.cad126.png
+    source: https://mapify.so/
+  - kind: image
+    title: Convert webpage to mind map
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example1.57878d.png
+    source: https://mapify.so/
+  - kind: image
+    title: Transform long text into mind map
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example2.598fcb.png
+    source: https://mapify.so/
+  - kind: image
+    title: Create mind map from audio
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example3.d3593f.png
+    source: https://mapify.so/
+  - kind: image
+    title: Generate mind map from image
+    url: https://assets.chatmind.tech/prod_mapify/_images/homepage-example4.bf381d.png
+    source: https://mapify.so/
+  - kind: image
+    title: 'Step 1: Sign up for Mapify'
+    url: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/docs/images/step1-signup.png
+    source: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+  - kind: image
+    title: 'Step 2: Mapify main dashboard'
+    url: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/docs/images/step2-dashboard.png
+    source: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+  - kind: image
+    title: 'Step 3: Open account settings'
+    url: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/docs/images/step3-account-menu.png
+    source: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: mapify.so
+    url: https://mapify.so
+    source: https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md
+  - kind: docs
+    title: https://chromewebstore.google.com/detail/mapify-ai-mind-map-by-cla/fldgacclkckcmflokaialbihppmndpbd
+    url: https://chromewebstore.google.com/detail/mapify-ai-mind-map-by-cla/fldgacclkckcmflokaialbihppmndpbd
+    source: https://mapify.so/
+  - kind: demo
+    title: Try it Free >
+    url: https://mapify.so/signin
+    source: https://mapify.so/
+  - kind: docs
+    title: Trustpilot
+    url: https://www.trustpilot.com/review/mapify.so
+    source: https://mapify.so/
+  - kind: docs
+    title: Product Hunt
+    url: https://www.producthunt.com/products/mapify-anything-into-mind-map-with-ai
+    source: https://mapify.so/
+  - kind: docs
+    title: G2
+    url: https://www.g2.com/products/mapify/reviews
+    source: https://mapify.so/
+  - kind: docs
+    title: https://twitter.com/MapifySo
+    url: https://twitter.com/MapifySo
+    source: https://mapify.so/
+  - kind: docs
+    title: https://www.youtube.com/@MapifyEverything
+    url: https://www.youtube.com/@MapifyEverything
+    source: https://mapify.so/
+  - kind: docs
+    title: https://www.instagram.com/mapify.so/
+    url: https://www.instagram.com/mapify.so/
+    source: https://mapify.so/
+  - kind: docs
+    title: https://www.facebook.com/people/MapifySo/61581229480510/
+    url: https://www.facebook.com/people/MapifySo/61581229480510/
+    source: https://mapify.so/
+  - kind: video
+    title: YouTube Summarizer
+    url: https://mapify.so/tools/youtube-video-summarizer
+    source: https://mapify.so/
+  - kind: video
+    title: YouTube to Transcript
+    url: https://mapify.so/tools/youtube-to-transcript
+    source: https://mapify.so/
+  - kind: paper
+    title: Research Paper Summarizer
+    url: https://mapify.so/tools/research-paper-summarizer
+    source: https://mapify.so/
+  source_headings:
+  - 'Step 2: Access Main Dashboard'
+  - 📖 Usage Examples
+  - YouTube Video Analysis
+- name: mind-map-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/sawyer-shi/mind-map-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Fully local MCP and HTTP server for converting Markdown headings and lists into PNG mind maps with center,
+    horizontal, or smart layouts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mind Map MCP Server
+    bytes: 5417
+  official_docs:
+  - kind: docs
+    title: GITHUB_URL_USAGE.md
+    url: https://github.com/sawyer-shi/mind-map-mcp/blob/HEAD/GITHUB_URL_USAGE.md
+    source: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: GITHUB_URL_USAGE.md
+    url: https://github.com/sawyer-shi/mind-map-mcp/blob/HEAD/GITHUB_URL_USAGE.md
+    source: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp/HEAD/README.md
+  source_headings:
+  - Usage
 - name: AI-Researcher
   category: research-report
   surface: research
@@ -7874,6 +8295,111 @@ entries:
   - Slides AI Plugin
   - Slide Type Vocabulary
   - Usage Examples
+- name: Present
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/glebis/claude-skills/tree/main/present
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns research, notes, meeting summaries, proposals, or educational material into self-contained
+    HTML presentations with article mode, slide mode, optional images, and narrated audio.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Skills
+    bytes: 87446
+  official_examples:
+  - kind: video
+    title: YouTube Transcript
+    url: https://github.com/glebis/claude-skills/blob/HEAD/youtube-transcript/
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Agency Docs Updater
+    url: https://github.com/glebis/claude-skills/blob/HEAD/agency-docs-updater/
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: QUICK_REFERENCE.md
+    url: https://github.com/glebis/claude-skills/blob/HEAD/llm-cli/QUICK_REFERENCE.md
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: Google Cloud Console
+    url: https://console.cloud.google.com/apis/credentials
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: skill-creator guide
+    url: https://docs.claude.com/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/docs/claude-code
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: OpenAI Deep Research API
+    url: https://platform.openai.com/docs/guides/deep-research
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: GPT Image 2
+    url: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/gpt-image-2/screenshot.png
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: image
+    title: Temple Generator Screenshot
+    url: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/temple-generator/screenshot.png
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: video
+    title: Continual Learning in Claude Code
+    url: https://www.youtube.com/watch?v=sWbsD-cP4rI
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Agency Docs Updater
+    url: https://github.com/glebis/claude-skills/blob/HEAD/agency-docs-updater/
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: QUICK_REFERENCE.md
+    url: https://github.com/glebis/claude-skills/blob/HEAD/llm-cli/QUICK_REFERENCE.md
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: video
+    title: YouTube Transcript
+    url: https://github.com/glebis/claude-skills/blob/HEAD/youtube-transcript/
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: Google Cloud Console
+    url: https://console.cloud.google.com/apis/credentials
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: skill-creator guide
+    url: https://docs.claude.com/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/docs/claude-code
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  - kind: docs
+    title: OpenAI Deep Research API
+    url: https://platform.openai.com/docs/guides/deep-research
+    source: https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md
+  source_headings:
+  - 'in a project: scaffold release.config.json from templates/, then:'
+  - '[Present — Narrated Interactive Presentations](./present/) ⭐ NEW'
+  - '"send an email to alice@example.com"'
+  - '[Agency Docs Updater](./agency-docs-updater/)'
+  - Requires ffmpeg for video downloads
+  - Download video recording
+  - Before your demo
+  - '[Presentation Generator](./presentation-generator/)'
+  - Export to PNG/PDF/video
+  - Render all templates
+  - Render specific template
+  - List templates
 - name: slidemason
   category: presentation-tools
   surface: open-source
@@ -8159,6 +8685,80 @@ entries:
     source: https://www.nuget.org/packages/PptMcp.McpServer
   source_headings:
   - 💬 Example Prompts
+- name: ppt-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/ykuwai/ppt-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Windows PowerPoint COM automation MCP server with live presentation control, slide/shape/text/table/chart/media/animation
+    tools, Material Symbols insertion, and export to PDF or slide images.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ✨ Key Features
+    bytes: 13051
+  official_effect_assets:
+  - kind: image
+    title: Slide1
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example1/Slide1.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide2
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example1/Slide2.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide3
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example1/Slide3.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide1
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide1.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide2
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide2.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide3
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide3.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide4
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide4.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide1
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide1.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide2
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide2.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide3
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide3.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide4
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide4.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  - kind: image
+    title: Slide5
+    url: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide5.png
+    source: https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md
+  source_headings:
+  - 💡 Example Prompts
+  - 🎯 Presentation Targeting
+  - Switched — all tools now operate on demo.pptx
+  - 📁 Template Support
 - name: Alai MCP Server
   category: presentation-tools
   surface: mcp

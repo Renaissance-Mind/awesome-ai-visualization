@@ -1,4 +1,4 @@
-last_researched: '2026-06-29'
+last_researched: '2026-06-30'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -445,6 +445,36 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: paper
+- name: PaperBanana Skills
+  url: https://github.com/PlutoLei/paperbanana-skill
+  homepage: https://github.com/llmsresearch/paperbanana
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 36
+  license: MIT
+  updated: '2026-06-30'
+  note: Agent Skills wrapper for PaperBanana that turns text, PDFs, CSV/JSON data, and slide prompts into academic diagrams, plots, presentation slides, and quality-evaluated figures.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
 - name: GPT Researcher
   url: https://github.com/assafelovic/gpt-researcher
   homepage: https://gptr.dev
@@ -791,6 +821,57 @@ entries:
   - 产品/SaaS
   output_forms:
   - 思维导图/知识地图
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Mapify MCP Server
+  url: https://github.com/xmindltd/mapify-mcp-server
+  homepage: https://mapify.so
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 模板/素材
+  stars: 26
+  license: MIT
+  updated: '2026-06-30'
+  note: Official Mapify MCP server that lets assistants turn text prompts, YouTube videos, websites, documents, and AI search results into mind-map images plus editable Mapify links.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 思维导图/知识地图
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: mind-map-mcp
+  url: https://github.com/sawyer-shi/mind-map-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 3
+  license: unknown
+  updated: '2026-06-30'
+  note: Fully local MCP and HTTP server for converting Markdown headings and lists into PNG mind maps with center, horizontal, or smart layouts.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 思维导图/知识地图
+  - SVG/PNG/PDF
   catalog_section: support_mindmap
   readme_group: support_mindmap
 - name: AI-Researcher
@@ -1611,6 +1692,34 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: Present
+  url: https://github.com/glebis/claude-skills/tree/main/present
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 296
+  license: unknown
+  updated: '2026-06-30'
+  note: Claude Code skill that turns research, notes, meeting summaries, proposals, or educational material into self-contained HTML presentations with article mode, slide mode, optional images, and narrated audio.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  - 报告/长文档
+  catalog_section: main
+  readme_group: presentation
 - name: slidemason
   url: https://github.com/erickittelson/slidemason
   homepage: https://github.com/erickittelson/slidemason#quick-start
@@ -1711,6 +1820,32 @@ entries:
   - PPT/演示文稿
   - SVG/PNG/PDF
   - 视频/音频
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-mcp
+  url: https://github.com/ykuwai/ppt-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 42
+  license: MIT
+  updated: '2026-06-30'
+  note: Windows PowerPoint COM automation MCP server with live presentation control, slide/shape/text/table/chart/media/animation tools, Material Symbols insertion, and export to PDF or slide images.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
   - 图表/仪表盘
   catalog_section: main
   readme_group: presentation

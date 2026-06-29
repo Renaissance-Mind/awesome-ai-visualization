@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-28T23:05:15+00:00",
-  "lastResearched": "2026-06-29",
+  "generatedAt": "2026-06-29T23:05:26+00:00",
+  "lastResearched": "2026-06-30",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 190,
-    "openSource": 60,
-    "saas": 38,
-    "modelApi": 80,
-    "examples": 711,
-    "effectAssets": 792,
-    "docs": 634
+    "total": 195,
+    "openSource": 61,
+    "saas": 39,
+    "modelApi": 83,
+    "examples": 721,
+    "effectAssets": 831,
+    "docs": 658
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 30,
-      "PDF/文档": 65,
-      "文本/想法": 96,
-      "数据/表格": 45,
+      "论文/科研资料": 31,
+      "PDF/文档": 69,
+      "文本/想法": 101,
+      "数据/表格": 47,
       "代码/技术描述": 30,
       "代码库": 25,
-      "网页/搜索结果": 60,
+      "网页/搜索结果": 62,
       "新闻/资讯": 9,
-      "知识库/个人资料": 8,
-      "任意/多源": 21,
+      "知识库/个人资料": 10,
+      "任意/多源": 22,
       "引用网络": 4,
-      "Office 文档": 14,
+      "Office 文档": 15,
       "DSL/代码": 20,
       "数据库": 12
     },
     "toolForms": {
-      "开源应用/框架": 60,
-      "Agent Skill": 38,
+      "开源应用/框架": 61,
+      "Agent Skill": 40,
       "Skill 集合": 20,
       "数据集/评测": 2,
       "Bot/助手": 7,
-      "产品/SaaS": 38,
+      "产品/SaaS": 39,
+      "MCP Server": 24,
       "研究原型": 4,
       "API/SDK/库": 14,
-      "MCP Server": 21,
       "Awesome/索引": 14
     },
     "outputForms": {
-      "图形摘要/信息图": 13,
-      "PPT/演示文稿": 65,
-      "网页/交互页面": 31,
+      "图形摘要/信息图": 14,
+      "PPT/演示文稿": 68,
+      "网页/交互页面": 32,
       "问答/学习材料": 6,
-      "报告/长文档": 21,
+      "报告/长文档": 22,
       "证据表": 7,
       "信息图/视觉报告": 24,
-      "图表/仪表盘": 32,
+      "图表/仪表盘": 33,
       "架构图/流程图": 41,
       "白板/思维导图": 14,
-      "SVG/PNG/PDF": 34,
+      "SVG/PNG/PDF": 37,
       "表格/时间线": 3,
       "引用答案": 4,
-      "思维导图/知识地图": 9,
+      "思维导图/知识地图": 11,
       "报告/简报": 19,
-      "视频/音频": 12,
+      "视频/音频": 13,
       "文献地图/知识地图": 4,
       "结构化数据/Markdown": 13,
       "图表/Mermaid": 19,
@@ -65,28 +65,28 @@
       "工具索引": 16
     },
     "dependencies": {
-      "本地语言环境": 123,
-      "模型 API": 80,
-      "文档解析/OCR": 28,
-      "渲染/导出": 118,
+      "本地语言环境": 127,
+      "模型 API": 83,
+      "文档解析/OCR": 29,
+      "渲染/导出": 122,
       "GPU/加速器": 6,
-      "模板/素材": 71,
-      "Agent 宿主": 62,
-      "系统工具": 19,
-      "外部检索/数据源": 34,
+      "模板/素材": 75,
+      "Agent 宿主": 64,
+      "系统工具": 20,
+      "外部检索/数据源": 36,
       "存储/索引": 23,
-      "浏览器/账号": 59,
-      "MCP Client": 23,
+      "浏览器/账号": 60,
+      "MCP Client": 26,
       "代码分析工具": 19
     },
     "categories": {
-      "paper-visualization": 9,
-      "doc-to-knowledge": 16,
+      "paper-visualization": 10,
+      "doc-to-knowledge": 18,
       "research-report": 11,
       "infographic-report": 15,
       "data-dashboard": 19,
       "literature-map": 4,
-      "presentation-tools": 36,
+      "presentation-tools": 38,
       "codebase-map": 18,
       "rendering-primitive": 6,
       "diagram-generation": 22,
@@ -95,13 +95,13 @@
       "meta-index": 17
     },
     "groups": {
-      "paper": 20,
+      "paper": 21,
       "text_visual": 21,
       "web_news": 8,
-      "support_mindmap": 3,
+      "support_mindmap": 5,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 46,
+      "presentation": 48,
       "code": 18,
       "support_render": 20,
       "diagrams": 2,
@@ -1812,6 +1812,214 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "PaperBanana Skills",
+      "url": "https://github.com/PlutoLei/paperbanana-skill",
+      "primaryUrl": "https://github.com/PlutoLei/paperbanana-skill",
+      "homepage": "https://github.com/llmsresearch/paperbanana",
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 36,
+      "license": "MIT",
+      "updated": "2026-06-30",
+      "note": "Agent Skills wrapper for PaperBanana that turns text, PDFs, CSV/JSON data, and slide prompts into academic diagrams, plots, presentation slides, and quality-evaluated figures.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Contributing Guide",
+          "url": "https://github.com/PlutoLei/paperbanana-skill/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.github.com",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "docs",
+          "title": "documentation",
+          "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "docs",
+          "title": "docs",
+          "url": "https://github.com/llmsresearch/paperbanana/tree/main/docs",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "docs",
+          "title": "https://colab.research.google.com/github/llmsresearch/paperbanana/blob/main/notebooks/PaperBanana_Colab_Quickstart.ipynb",
+          "url": "https://colab.research.google.com/github/llmsresearch/paperbanana/blob/main/notebooks/PaperBanana_Colab_Quickstart.ipynb",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "docs",
+          "title": "platform.openai.com",
+          "url": "https://platform.openai.com/api-keys",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "docs",
+          "title": "Google AI Studio",
+          "url": "https://makersuite.google.com/app/apikey",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.github.com/",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples",
+          "url": "https://github.com/llmsresearch/paperbanana/tree/main/examples",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "example",
+          "title": ".env.example",
+          "url": "https://github.com/llmsresearch/paperbanana/blob/main/.env.example",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2601.23265",
+          "url": "https://arxiv.org/abs/2601.23265",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "paper",
+          "title": "PaperBananaBench",
+          "url": "https://huggingface.co/datasets/dwzhu/PaperBananaBench",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        },
+        {
+          "kind": "paper",
+          "title": "arxiv",
+          "url": "https://github.com/topics/arxiv",
+          "source": "https://github.com/llmsresearch/paperbanana"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Bio Signaling Pathway",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/bio_signaling_pathway.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Nlp Rag Pipeline",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/nlp_rag_pipeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Data Lakehouse",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/data_lakehouse.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Unet Mamba Segmentation",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/unet_mamba_segmentation.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Textmamba3D Architecture",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/textmamba3d_architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Game Theory Influence Diagram",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/game_theory_influence_diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Ablation Brats Figure",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/ablation_brats_figure.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide Scrna Workflow",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_scrna_workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide Flywheel 01 Cover",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_01_cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide Flywheel 04 Model",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_04_model.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide Flywheel 07 Ai Tools",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_07_ai_tools.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide Flywheel 10 Summary",
+          "url": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/examples/slide_flywheel_10_summary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/PlutoLei/paperbanana-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 8,
+      "examplesCount": 5,
+      "effectAssetsCount": 12
+    },
+    {
       "name": "GPT Researcher",
       "url": "https://github.com/assafelovic/gpt-researcher",
       "primaryUrl": "https://github.com/assafelovic/gpt-researcher",
@@ -3103,6 +3311,250 @@
       "docsCount": 8,
       "examplesCount": 4,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "Mapify MCP Server",
+      "url": "https://github.com/xmindltd/mapify-mcp-server",
+      "primaryUrl": "https://github.com/xmindltd/mapify-mcp-server",
+      "homepage": "https://mapify.so",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "外部检索/数据源",
+        "模板/素材"
+      ],
+      "stars": 26,
+      "license": "MIT",
+      "updated": "2026-06-30",
+      "note": "Official Mapify MCP server that lets assistants turn text prompts, YouTube videos, websites, documents, and AI search results into mind-map images plus editable Mapify links.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "思维导图/知识地图"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "mapify.so",
+          "url": "https://mapify.so",
+          "source": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "https://chromewebstore.google.com/detail/mapify-ai-mind-map-by-cla/fldgacclkckcmflokaialbihppmndpbd",
+          "url": "https://chromewebstore.google.com/detail/mapify-ai-mind-map-by-cla/fldgacclkckcmflokaialbihppmndpbd",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "docs",
+          "title": "Trustpilot",
+          "url": "https://www.trustpilot.com/review/mapify.so",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "docs",
+          "title": "Product Hunt",
+          "url": "https://www.producthunt.com/products/mapify-anything-into-mind-map-with-ai",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "docs",
+          "title": "G2",
+          "url": "https://www.g2.com/products/mapify/reviews",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://twitter.com/MapifySo",
+          "url": "https://twitter.com/MapifySo",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://www.youtube.com/@MapifyEverything",
+          "url": "https://www.youtube.com/@MapifyEverything",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://www.instagram.com/mapify.so/",
+          "url": "https://www.instagram.com/mapify.so/",
+          "source": "https://mapify.so/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Try it Free >",
+          "url": "https://mapify.so/signin",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube Summarizer",
+          "url": "https://mapify.so/tools/youtube-video-summarizer",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube to Transcript",
+          "url": "https://mapify.so/tools/youtube-to-transcript",
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "paper",
+          "title": "Research Paper Summarizer",
+          "url": "https://mapify.so/tools/research-paper-summarizer",
+          "source": "https://mapify.so/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Interactive mind map overview",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/homepage-map-en-1-preview.d1f555.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "PDF/Doc to Mind Map",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/poster-pdf-v2.8ae5ca.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "YouTube to Mind Map",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/poster-youtube-v2.2fd229.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Ask Anything",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/poster-ask-anything-v2.fc749b.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Customize & Share",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/poster-share-v2.cad126.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Convert webpage to mind map",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/homepage-example1.57878d.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Transform long text into mind map",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/homepage-example2.598fcb.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Create mind map from audio",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/homepage-example3.d3593f.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Generate mind map from image",
+          "url": "https://assets.chatmind.tech/prod_mapify/_images/homepage-example4.bf381d.png",
+          "thumbnailUrl": null,
+          "source": "https://mapify.so/"
+        },
+        {
+          "kind": "image",
+          "title": "Step 1: Sign up for Mapify",
+          "url": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/docs/images/step1-signup.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Step 2: Mapify main dashboard",
+          "url": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/docs/images/step2-dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Step 3: Open account settings",
+          "url": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/docs/images/step3-account-menu.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xmindltd/mapify-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 4,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "mind-map-mcp",
+      "url": "https://github.com/sawyer-shi/mind-map-mcp",
+      "primaryUrl": "https://github.com/sawyer-shi/mind-map-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 3,
+      "license": "unknown",
+      "updated": "2026-06-30",
+      "note": "Fully local MCP and HTTP server for converting Markdown headings and lists into PNG mind maps with center, horizontal, or smart layouts.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "GITHUB_URL_USAGE.md",
+          "url": "https://github.com/sawyer-shi/mind-map-mcp/blob/HEAD/GITHUB_URL_USAGE.md",
+          "source": "https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "AI-Researcher",
@@ -7468,6 +7920,114 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "Present",
+      "url": "https://github.com/glebis/claude-skills/tree/main/present",
+      "primaryUrl": "https://github.com/glebis/claude-skills/tree/main/present",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 296,
+      "license": "unknown",
+      "updated": "2026-06-30",
+      "note": "Claude Code skill that turns research, notes, meeting summaries, proposals, or educational material into self-contained HTML presentations with article mode, slide mode, optional images, and narrated audio.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "视频/音频",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Agency Docs Updater",
+          "url": "https://github.com/glebis/claude-skills/blob/HEAD/agency-docs-updater/",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "QUICK_REFERENCE.md",
+          "url": "https://github.com/glebis/claude-skills/blob/HEAD/llm-cli/QUICK_REFERENCE.md",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Google Cloud Console",
+          "url": "https://console.cloud.google.com/apis/credentials",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "skill-creator guide",
+          "url": "https://docs.claude.com/docs/claude-code/skills",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude Code Documentation",
+          "url": "https://docs.claude.com/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "OpenAI Deep Research API",
+          "url": "https://platform.openai.com/docs/guides/deep-research",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "YouTube Transcript",
+          "url": "https://github.com/glebis/claude-skills/blob/HEAD/youtube-transcript/",
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "GPT Image 2",
+          "url": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/gpt-image-2/screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Temple Generator Screenshot",
+          "url": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/temple-generator/screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Continual Learning in Claude Code",
+          "url": "https://www.youtube.com/watch?v=sWbsD-cP4rI",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/glebis/claude-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 1,
+      "effectAssetsCount": 3
+    },
+    {
       "name": "slidemason",
       "url": "https://github.com/erickittelson/slidemason",
       "primaryUrl": "https://github.com/erickittelson/slidemason",
@@ -7750,6 +8310,131 @@
       "docsCount": 8,
       "examplesCount": 2,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "ppt-mcp",
+      "url": "https://github.com/ykuwai/ppt-mcp",
+      "primaryUrl": "https://github.com/ykuwai/ppt-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 42,
+      "license": "MIT",
+      "updated": "2026-06-30",
+      "note": "Windows PowerPoint COM automation MCP server with live presentation control, slide/shape/text/table/chart/media/animation tools, Material Symbols insertion, and export to PDF or slide images.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Slide1",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example1/Slide1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide2",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example1/Slide2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide3",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example1/Slide3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide1",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide2",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide3",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide4",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example2/Slide4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide1",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide2",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide3",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide4",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide5",
+          "url": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/assets/examples/example3/Slide5.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ykuwai/ppt-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
     },
     {
       "name": "Alai MCP Server",

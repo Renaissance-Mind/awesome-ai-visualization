@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-29.
+Last researched: 2026-06-30.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -31,6 +31,8 @@ Update on 2026-06-26: refreshed PowerPoint automation, data-analysis assistant, 
 Update on 2026-06-27: refreshed diagram MCP App, draw.io, Excalidraw, and Mermaid preview surfaces from official GitHub repositories, hosted MCP endpoints, npm package metadata, and official README documentation. This pass added drawio-mcp, Excalidraw MCP, and Claude Mermaid.
 
 Update on 2026-06-29: refreshed desktop/office agents, HTML slide skills, Mermaid skills, medical-scientific skill libraries, and creative presentation/video skill stacks from official GitHub repositories, README evidence, product pages, and GitHub metadata. This pass added LobsterAI, Garden Skills, ai-agents-skills, keynote-slides-skill, Claude Office Skills, Mermaid Skill for Claude Code, OpenClaw Medical Skills, and Awesome HTML Slide Skills.
+
+Update on 2026-06-30: refreshed paper-figure skills, narrated HTML presentation skills, live PowerPoint MCP control, and mind-map MCP surfaces from official GitHub repositories, README evidence, product pages, and GitHub metadata. This pass added PaperBanana Skills, Present, ppt-mcp, Mapify MCP Server, and mind-map-mcp.
 
 ## Search Surfaces
 
