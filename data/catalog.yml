@@ -1,4 +1,4 @@
-last_researched: '2026-06-30'
+last_researched: '2026-07-01'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -475,6 +475,55 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: paper
+- name: academic-slides-skill
+  url: https://github.com/Rebeccca2000/academic-slides-skill
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-06-30'
+  note: Claude Code skill for dense academic conference slide decks, plain-spoken presenter scripts, and screenshot-based PowerPoint export with native speaker notes.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
+- name: PaperToSlides
+  url: https://github.com/jxtse/PaperToSlides
+  homepage: https://paper-to-slides.lovable.app/
+  category: paper-visualization
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  stars: 14
+  license: unknown
+  updated: '2026-06-21'
+  note: MinerU-backed AI tool that converts academic PDFs into presentation-ready PowerPoint slides while preserving paper figures, tables, and images.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: paper
 - name: GPT Researcher
   url: https://github.com/assafelovic/gpt-researcher
   homepage: https://gptr.dev
@@ -872,6 +921,32 @@ entries:
   output_forms:
   - 思维导图/知识地图
   - SVG/PNG/PDF
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: MindRepo
+  url: https://github.com/NguyenVu04/mind-repo
+  homepage: https://mindrep.io
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  stars: 1
+  license: MIT
+  updated: '2026-06-13'
+  note: Open-source knowledge platform that organizes PDF, DOCX, and Markdown document repositories into learning paths, AI-tutor Q&A, summaries, and mind-map-style learning experiences.
+  source_types:
+  - PDF/文档
+  - 知识库/个人资料
+  - 论文/科研资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 思维导图/知识地图
+  - 问答/学习材料
+  - 报告/简报
   catalog_section: support_mindmap
   readme_group: support_mindmap
 - name: AI-Researcher
@@ -1326,6 +1401,30 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: text_visual
+- name: viz-skills
+  url: https://github.com/silvere/viz-skills
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-03-30'
+  note: Claude Code command skills that analyze articles or concepts into seven logical relationship types and generate SVG infographics using matching spatial metaphors.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
 - name: Claude Design
   url: https://www.anthropic.com/news/claude-design-anthropic-labs
   homepage: https://claude.ai/design
@@ -1551,6 +1650,35 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: DeckForge
+  url: https://github.com/Whatsonyourmind/deckforge
+  homepage: https://landing-two-beta-63.vercel.app
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  - 存储/索引
+  stars: 3
+  license: MIT
+  updated: '2026-06-09'
+  note: API-first presentation engine for agents that turns prompts or structured Presentation IR into PPTX or Google Slides decks with slide/chart discovery tools, themes, QA checks, and a TypeScript SDK.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
 - name: slide-deck-ai
   url: https://github.com/barun-saha/slide-deck-ai
   homepage: https://slidedeckai.readthedocs.io/en/latest/
@@ -1772,6 +1900,32 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: slidev-deck-stack
+  url: https://github.com/astroicers/slidev-deck-stack
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-06-23'
+  note: Claude Code skill and plugin that codifies Slidev v52 deck construction, covering Markdown/Vue layouts, magic-move, Mermaid/PlantUML, KaTeX, Chinese fonts, and PDF/PPTX/PNG/SPA export.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: Office-PowerPoint-MCP-Server
   url: https://github.com/GongRzhe/Office-PowerPoint-MCP-Server
   category: presentation-tools
@@ -1866,6 +2020,34 @@ entries:
   source_types:
   - 文本/想法
   - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Presentations.AI MCP Server
+  url: https://github.com/slidecraft-in/presentations-ai-mcp-server
+  homepage: https://www.presentations.ai
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-06-16'
+  note: Official Presentations.AI MCP server that creates designed decks from topics, raw text, or PDF/DOCX/PPTX/TXT/Markdown files and exposes PPTX, PDF, image, share, and render exports.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
   - 网页/搜索结果
   tool_forms:
   - MCP Server
@@ -1995,6 +2177,30 @@ entries:
   - PPT/演示文稿
   - 网页/交互页面
   - 架构图/流程图
+  catalog_section: main
+  readme_group: presentation
+- name: md2html
+  url: https://github.com/ogermer/md2html
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-06-26'
+  note: Claude Code skill that converts Markdown deck sources into standalone branded HTML web-viewer and print/PDF slide renderings with offline-friendly assets and reusable templates.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
 - name: deckset-claude-skill
@@ -3021,6 +3227,31 @@ entries:
   - MCP Server
   output_forms:
   - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Mermaid Live MCP Server
+  url: https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1
+  homepage: https://www.npmjs.com/package/@takanarishimbo/mermaid-live-mcp-server
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2025-08-24'
+  note: MCP server for AI assistants to create Mermaid flowcharts, sequence diagrams, class diagrams, Gantt charts, and network diagrams, then return Mermaid Live URLs or save PNG, JPEG, WebP, SVG, and PDF outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render

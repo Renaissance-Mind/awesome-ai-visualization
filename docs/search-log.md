@@ -274,6 +274,18 @@ Excluded if:
 - [local-deepwiki-mcp](https://github.com/UrbanDiver/local-deepwiki-mcp): local privacy-focused MCP server for private-repo wiki generation, RAG Q&A, architecture health, HTML/PDF export, Mermaid diagrams, and interactive codemaps.
 - [mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge): MCP renderer for Mermaid, D2, Graphviz, Vega-Lite, self-contained HTML reports/pages, and HTML slide decks that agents can embed in technical documentation.
 
+## Added in the 2026-07-01 Daily Refresh
+
+- [academic-slides-skill](https://github.com/Rebeccca2000/academic-slides-skill): Claude Code skill for dense academic conference HTML decks, presenter scripts, and screenshot-based PowerPoint export with speaker notes.
+- [PaperToSlides](https://github.com/jxtse/PaperToSlides): MinerU-backed academic PDF to PowerPoint workflow that preserves figures, tables, and images for research-group presentations.
+- [viz-skills](https://github.com/silvere/viz-skills): Claude Code commands that analyze articles or concepts into logical relationship types and generate SVG infographics.
+- [DeckForge](https://github.com/Whatsonyourmind/deckforge): API-first presentation engine and MCP surface that renders prompts or structured IR into PPTX or Google Slides decks with chart/theme discovery and QA checks.
+- [slidev-deck-stack](https://github.com/astroicers/slidev-deck-stack): Claude Code skill/plugin for Slidev technical decks with Markdown/Vue, Mermaid/PlantUML, KaTeX, Chinese fonts, and PDF/PPTX/PNG/SPA export guidance.
+- [Presentations.AI MCP Server](https://github.com/slidecraft-in/presentations-ai-mcp-server): official MCP endpoint for creating designed decks from topics, text, and PDF/DOCX/PPTX/TXT/Markdown files with PPTX/PDF/image/share/render exports.
+- [md2html](https://github.com/ogermer/md2html): Claude Code skill that turns Markdown deck sources into standalone HTML web-viewer and print/PDF slide renderings.
+- [MindRepo](https://github.com/NguyenVu04/mind-repo): open-source knowledge platform for document repositories, learning paths, AI-tutor Q&A, summaries, and mind-map-style learning experiences.
+- [Mermaid Live MCP Server](https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1): MCP server for AI assistants to create Mermaid diagrams, Mermaid Live URLs, and PNG/JPEG/WebP/SVG/PDF outputs.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.
