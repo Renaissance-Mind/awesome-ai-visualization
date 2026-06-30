@@ -1,4 +1,4 @@
-generated_at: '2026-06-29T23:05:26+00:00'
+generated_at: '2026-06-30T23:08:38+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 195
-  fetched_sources_ok: 269
-  fetched_sources_failed: 17
-  official_examples: 721
-  official_effect_assets: 831
-  official_docs: 658
+  entries: 204
+  fetched_sources_ok: 281
+  fetched_sources_failed: 19
+  official_examples: 733
+  official_effect_assets: 844
+  official_docs: 675
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -20835,3 +20835,555 @@ entries:
   source_headings:
   - Benchmarks
   - Scientific Slides and Poster Generation
+- name: academic-slides-skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/Rebeccca2000/academic-slides-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for dense academic conference slide decks, plain-spoken presenter scripts, and screenshot-based
+    PowerPoint export with native speaker notes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Rebeccca2000/academic-slides-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Rebeccca2000/academic-slides-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: academic-slides-skill
+    bytes: 3284
+  source_headings:
+  - academic-slides-skill
+  - 2. Screenshot every slide at 1920x1080 (see build_pptx.py's docstring for
+  - a worked headless-Chrome example), saving to shots/slide_01.png ... etc.
+- name: PaperToSlides
+  category: paper-visualization
+  surface: open-source
+  primary_url: https://github.com/jxtse/PaperToSlides
+  homepage: https://paper-to-slides.lovable.app/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  catalog_note: MinerU-backed AI tool that converts academic PDFs into presentation-ready PowerPoint slides while preserving
+    paper figures, tables, and images.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jxtse/PaperToSlides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jxtse/PaperToSlides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PaperToSlides
+    bytes: 13520
+  - kind: homepage
+    url: https://paper-to-slides.lovable.app/
+    final_url: https://paper-to-slides.lovable.app/
+    status: 200
+    content_type: text/html
+    title: Paper to Slides Genius
+    description: Convert academic papers to presentation slides effortlessly.
+    bytes: 11840
+  official_effect_assets:
+  - kind: image
+    title: Paper to Slides Genius
+    url: https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f4b2b7c0-7f9c-4dff-b487-34cbd9bec9d2/id-preview-2c8a4af5--9537e1b1-ecaf-4c57-a077-4250bc73c4fe.lovable.app-1750009960646.png
+    source: https://paper-to-slides.lovable.app/
+  source_headings:
+  - PaperToSlides
+  - PaperToSlides Installation and Setup (README.md Clarifications)
+  - 'md_file_path = "output/Example/auto/Example.md" # Comment out this line'
+- name: MindRepo
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/NguyenVu04/mind-repo
+  homepage: https://mindrep.io
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  catalog_note: Open-source knowledge platform that organizes PDF, DOCX, and Markdown document repositories into learning
+    paths, AI-tutor Q&A, summaries, and mind-map-style learning experiences.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧠 MindRepo
+    bytes: 28042
+  - kind: homepage
+    url: https://mindrep.io
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''mindrep.io'', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8,
+      ''[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)'')))'
+  official_examples:
+  - kind: demo
+    title: '**Live Demo**'
+    url: https://mindrep.io
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: paper
+    title: RAGAS paper
+    url: https://arxiv.org/abs/2309.15217
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: paper
+    title: Precise Zero-Shot Dense Retrieval (arxiv)
+    url: https://arxiv.org/abs/2212.10496
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: paper
+    title: vLLM paper — PagedAttention
+    url: https://arxiv.org/abs/2309.06180
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '**Documentation**'
+    url: https://docs.mindrep.io
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: docs
+    title: Qdrant hybrid search docs
+    url: https://qdrant.tech/documentation/concepts/hybrid-queries/
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: '**Live Demo**'
+    url: https://mindrep.io
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: docs
+    title: '**Documentation**'
+    url: https://docs.mindrep.io
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: paper
+    title: RAGAS paper
+    url: https://arxiv.org/abs/2309.15217
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: docs
+    title: Qdrant hybrid search docs
+    url: https://qdrant.tech/documentation/concepts/hybrid-queries/
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: paper
+    title: Precise Zero-Shot Dense Retrieval (arxiv)
+    url: https://arxiv.org/abs/2212.10496
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  - kind: paper
+    title: vLLM paper — PagedAttention
+    url: https://arxiv.org/abs/2309.06180
+    source: https://raw.githubusercontent.com/NguyenVu04/mind-repo/HEAD/README.md
+  source_headings:
+  - 🎬 Video + Document Sync
+- name: viz-skills
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/silvere/viz-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Claude Code command skills that analyze articles or concepts into seven logical relationship types and generate
+    SVG infographics using matching spatial metaphors.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/silvere/viz-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/silvere/viz-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: viz-skills
+    bytes: 3898
+  source_headings:
+  - '`/viz` — End-to-End Visualization'
+- name: DeckForge
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Whatsonyourmind/deckforge
+  homepage: https://landing-two-beta-63.vercel.app
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  - 存储/索引
+  catalog_note: API-first presentation engine for agents that turns prompts or structured Presentation IR into PPTX or Google
+    Slides decks with slide/chart discovery tools, themes, QA checks, and a TypeScript SDK.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What this solves
+    bytes: 21170
+  - kind: homepage
+    url: https://landing-two-beta-63.vercel.app/
+    final_url: https://landing-two-beta-63.vercel.app/
+    status: 200
+    content_type: text/html
+    title: DeckForge - Executive-Ready Slides, One API Call Away
+    description: Professional presentations via API. 32 slide types, constraint layout engine, native charts, finance vertical.
+      For AI agents and developers.
+    bytes: 43658
+  official_examples:
+  - kind: example
+    title: '`.env.example`'
+    url: https://github.com/Whatsonyourmind/deckforge/blob/HEAD/.env.example
+    source: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: http://localhost:8000/docs
+    url: http://localhost:8000/docs
+    source: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+  - kind: docs
+    title: API Status
+    url: https://deckforge-api.onrender.com/v1/health
+    source: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://github.com/Whatsonyourmind/deckforge
+    source: https://landing-two-beta-63.vercel.app/
+  official_links:
+  - kind: docs
+    title: http://localhost:8000/docs
+    url: http://localhost:8000/docs
+    source: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+  - kind: example
+    title: '`.env.example`'
+    url: https://github.com/Whatsonyourmind/deckforge/blob/HEAD/.env.example
+    source: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+  - kind: docs
+    title: API Status
+    url: https://deckforge-api.onrender.com/v1/health
+    source: https://raw.githubusercontent.com/Whatsonyourmind/deckforge/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://github.com/Whatsonyourmind/deckforge
+    source: https://landing-two-beta-63.vercel.app/
+  source_headings:
+  - API Examples
+  - Check available themes and slide types
+  - List all 32 slide types with example IR
+  - Demo Decks
+- name: slidev-deck-stack
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/astroicers/slidev-deck-stack
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and plugin that codifies Slidev v52 deck construction, covering Markdown/Vue layouts, magic-move,
+    Mermaid/PlantUML, KaTeX, Chinese fonts, and PDF/PPTX/PNG/SPA export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/astroicers/slidev-deck-stack/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/astroicers/slidev-deck-stack/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slidev-deck-stack
+    bytes: 7336
+  source_headings:
+  - slidev-deck-stack
+- name: Presentations.AI MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/slidecraft-in/presentations-ai-mcp-server
+  homepage: https://www.presentations.ai
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Official Presentations.AI MCP server that creates designed decks from topics, raw text, or PDF/DOCX/PPTX/TXT/Markdown
+    files and exposes PPTX, PDF, image, share, and render exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Presentations.AI MCP Server
+    bytes: 2051
+  - kind: homepage
+    url: https://www.presentations.ai/
+    final_url: https://www.presentations.ai/
+    status: 200
+    content_type: text/html
+    title: Presentations.AI - The AI Presentation Platform
+    description: Create AI presentations in seconds. Turn any topic, document, or URL into branded slides. Export to PowerPoint.
+      Trusted by 10M+ teams. Try free.
+    bytes: 219488
+  official_examples:
+  - kind: template
+    title: Presentation Templates
+    url: https://www.presentations.ai/presentation-templates
+    source: https://www.presentations.ai/
+  - kind: template
+    title: Slide Templates
+    url: https://www.presentations.ai/slide-templates
+    source: https://www.presentations.ai/
+  - kind: template
+    title: Presentation Color Themes
+    url: https://www.presentations.ai/background-color
+    source: https://www.presentations.ai/
+  official_docs:
+  - kind: docs
+    title: REST + MCP reference
+    url: https://console.presentations.ai/apiref/docs/
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/claude-desktop.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/claude-desktop.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/cursor.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/cursor.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/cline.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/cline.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/vs-code.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/vs-code.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/gemini-cli.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/gemini-cli.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: Presentations AI API
+    url: https://www.presentations.ai/solutions/api
+    source: https://www.presentations.ai/
+  official_effect_assets:
+  - kind: image
+    title: Presentations.AI - The AI Presentation Platform
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a071da4fffe58a68ba06ace_image.png
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Presentations.AI - The AI Presentation Platform
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/69e9fda72c0d7567b0df24ae_image.png
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Presentations AI
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a0479ef09b2585c7b8e1111_frame-desk.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: Divider Lines
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/69d3667ef261ccde74262372_5f1b86426f1fa5a7b2390f87fce9ad5a_divider-w.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: 6A3Bc0B10Dbfac6C82618012 6D99Db06B1928Bf4526Bbed89214F0B4 Creationisagrind
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a3bc0b10dbfac6c82618012_6d99db06b1928bf4526bbed89214f0b4_creationisagrind.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: 6A3Bc0B53364C891392982Af 8B6Bb6176B9C0D9331643D0855D05E05 Data Gets Old
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a3bc0b53364c891392982af_8b6bb6176b9c0d9331643d0855d05e05_data-gets-old_.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: 6A3Bc0B13Ca654Fa9987877C 53F445Ebffa77C84E2C65Cb33F68Ea32 One Size
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a3bc0b13ca654fa9987877c_53f445ebffa77c84e2c65cb33f68ea32_one-size.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: AI Presentation Maker for Business and Sales Teams – Pitch Decks and Client Proposals
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09cff8637c48be87ae4_Sales.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: AI Presentation Maker for Students and Educators – Lesson Plans and Course Slides
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09b23bf5f5a7a9681de_Product%20Teams.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: AI Presentation Maker for Product Managers – Roadmap and Feature Planning Decks
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b0efd2f4269ce74b2f0b_Product%20Managers.png
+    source: https://www.presentations.ai/
+  - kind: image
+    title: AI Presentation Maker for Marketing Teams – Campaign Briefs and Strategy Decks
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09c3493030a834dc3c4_Marketers.webp
+    source: https://www.presentations.ai/
+  - kind: image
+    title: AI Presentation Maker for Consultants and Agencies – Client Deliverables at Scale
+    url: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/6a06b09b7f80e84bb42991b7_Freelancers.webp
+    source: https://www.presentations.ai/
+  official_links:
+  - kind: docs
+    title: REST + MCP reference
+    url: https://console.presentations.ai/apiref/docs/
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/claude-desktop.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/claude-desktop.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/cursor.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/cursor.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/cline.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/cline.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/vs-code.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/vs-code.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/clients/gemini-cli.md
+    url: https://github.com/slidecraft-in/presentations-ai-mcp-server/blob/HEAD/docs/clients/gemini-cli.md
+    source: https://raw.githubusercontent.com/slidecraft-in/presentations-ai-mcp-server/HEAD/README.md
+  - kind: template
+    title: Presentation Templates
+    url: https://www.presentations.ai/presentation-templates
+    source: https://www.presentations.ai/
+  - kind: template
+    title: Slide Templates
+    url: https://www.presentations.ai/slide-templates
+    source: https://www.presentations.ai/
+  - kind: template
+    title: Presentation Color Themes
+    url: https://www.presentations.ai/background-color
+    source: https://www.presentations.ai/
+  - kind: docs
+    title: Presentations AI API
+    url: https://www.presentations.ai/solutions/api
+    source: https://www.presentations.ai/
+  source_headings:
+  - Presentations.AI MCP Server
+- name: md2html
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ogermer/md2html
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that converts Markdown deck sources into standalone branded HTML web-viewer and print/PDF
+    slide renderings with offline-friendly assets and reusable templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ogermer/md2html/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ogermer/md2html/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: md2html
+    bytes: 2884
+  official_examples:
+  - kind: example
+    title: '`example/`'
+    url: https://github.com/ogermer/md2html/blob/HEAD/example/
+    source: https://raw.githubusercontent.com/ogermer/md2html/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`example/`'
+    url: https://github.com/ogermer/md2html/blob/HEAD/example/
+    source: https://raw.githubusercontent.com/ogermer/md2html/HEAD/README.md
+  source_headings:
+  - This is a clean, brand-agnostic template
+  - Example
+- name: Mermaid Live MCP Server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1
+  homepage: https://www.npmjs.com/package/@takanarishimbo/mermaid-live-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server for AI assistants to create Mermaid flowcharts, sequence diagrams, class diagrams, Gantt charts,
+    and network diagrams, then return Mermaid Live URLs or save PNG, JPEG, WebP, SVG, and PDF outputs.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+    final_url: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+    status: 200
+    content_type: text/plain
+    title: Mermaid Live MCP Server
+    bytes: 14162
+  - kind: homepage
+    url: https://www.npmjs.com/package/@takanarishimbo/mermaid-live-mcp-server
+    final_url: https://www.npmjs.com/package/@takanarishimbo/mermaid-live-mcp-server
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: tutorial
+    title: Mermaid Tutorial
+    url: https://mermaid.js.org/intro/
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: example
+    title: Diagram Examples
+    url: https://mermaid.js.org/syntax/examples.html
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: example
+    title: Live Editor Examples
+    url: https://mermaid.live/edit
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  official_docs:
+  - kind: docs
+    title: 日本語
+    url: https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README_ja.md
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: Mermaid Ink API
+    url: https://mermaid.ink/
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: MCP SDK Documentation
+    url: https://github.com/modelcontextprotocol/typescript-sdk
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: Claude Desktop MCP Guide
+    url: https://docs.anthropic.com/en/docs/build-with-claude/mcp
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  official_links:
+  - kind: docs
+    title: 日本語
+    url: https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README_ja.md
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: Mermaid Ink API
+    url: https://mermaid.ink/
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: MCP SDK Documentation
+    url: https://github.com/modelcontextprotocol/typescript-sdk
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: docs
+    title: Claude Desktop MCP Guide
+    url: https://docs.anthropic.com/en/docs/build-with-claude/mcp
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: tutorial
+    title: Mermaid Tutorial
+    url: https://mermaid.js.org/intro/
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: example
+    title: Diagram Examples
+    url: https://mermaid.js.org/syntax/examples.html
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  - kind: example
+    title: Live Editor Examples
+    url: https://mermaid.live/edit
+    source: https://raw.githubusercontent.com/TakanariShimbo/mermaid-live-mcp-server/main/docs/README.md
+  source_headings:
+  - Save to custom diagrams directory (Linux/macOS)
+  - Save to custom diagrams directory (Windows)
+  - '`create-mermaid-diagram`'
+  - Mermaid Diagram Examples
+  - Sequence Diagram
+  - Class Diagram
+  - State Diagram
+  - Entity Relationship Diagram
+  - Official Documentation
+  - Diagram Types
+  - Tutorials & Examples
+  - Advanced Usage
