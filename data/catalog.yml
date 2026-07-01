@@ -1,4 +1,4 @@
-last_researched: '2026-07-01'
+last_researched: '2026-07-02'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -246,6 +246,33 @@ entries:
   - 架构图/流程图
   - 图表/仪表盘
   - 信息图/视觉报告
+  catalog_section: main
+  readme_group: text_visual
+- name: Sideshow
+  url: https://github.com/modem-dev/sideshow
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 304
+  license: MIT
+  updated: '2026-07-01'
+  note: Local or Cloudflare-hosted visual surface for terminal agents to publish live HTML, Markdown, diffs, terminal output, images, JSON trees, and Mermaid diagrams into a browser viewer.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 网页/交互页面
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: text_visual
 - name: baoyu-skills
@@ -2057,6 +2084,58 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: google-slides-mcp
+  url: https://github.com/matteoantoci/google-slides-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  stars: 179
+  license: unknown
+  updated: '2025-06-30'
+  note: TypeScript MCP server for creating, reading, and modifying Google Slides presentations through the Google Slides API and batch update requests.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: DocGem MCP
+  url: https://github.com/xpm-cmd/docgem-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: unknown
+  updated: '2026-03-05'
+  note: Claude Code MCP plugin that generates PowerPoint, Word, Excel, PDF, HTML, Markdown, LaTeX, Mermaid, Gantt, Draw.io, CSV, and JSON artifacts from natural-language prompts.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
 - name: mcp-ppt
   url: https://github.com/ltc6539/mcp-ppt
   category: presentation-tools
@@ -2128,6 +2207,56 @@ entries:
   output_forms:
   - PPT/演示文稿
   - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: Marp Slide Creator
+  url: https://github.com/softaworks/agent-toolkit/blob/main/skills/marp-slide/README.md
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2131
+  license: MIT
+  updated: '2026-03-05'
+  note: Agent Toolkit skill for creating Marp presentations with seven embedded themes, image-layout patterns, theme-selection guidance, and slide-design quality checks.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: marp-slides
+  url: https://github.com/robonuggets/marp-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 250
+  license: unknown
+  updated: '2026-04-08'
+  note: Claude Code skill for polished Marp decks with 22 reference decks, SVG charts, dashboard components, dark/light themes, interactive elements, and Marp PDF/PPTX/HTML export.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
 - name: PptxGenJS-mcp-server
@@ -2441,6 +2570,32 @@ entries:
   - 图表/Mermaid
   - SVG/PNG/PDF
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: typst-claude-skill
+  url: https://github.com/ChanMeng666/typst-claude-skill
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: MIT
+  updated: '2026-06-16'
+  note: Claude Code skill for producing Typst PDFs, reports, academic papers, resumes, invoices, and presentation slides from natural-language requests with bundled templates and CLI references.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 论文/科研资料
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
 - name: LobsterAI
