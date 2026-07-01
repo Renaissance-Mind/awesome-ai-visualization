@@ -1,4 +1,4 @@
-generated_at: '2026-06-30T23:08:38+00:00'
+generated_at: '2026-07-01T23:06:56+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 204
-  fetched_sources_ok: 281
+  entries: 210
+  fetched_sources_ok: 287
   fetched_sources_failed: 19
-  official_examples: 733
-  official_effect_assets: 844
-  official_docs: 675
+  official_examples: 734
+  official_effect_assets: 855
+  official_docs: 679
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -21387,3 +21387,237 @@ entries:
   - Diagram Types
   - Tutorials & Examples
   - Advanced Usage
+- name: Sideshow
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/modem-dev/sideshow
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Local or Cloudflare-hosted visual surface for terminal agents to publish live HTML, Markdown, diffs, terminal
+    output, images, JSON trees, and Mermaid diagrams into a browser viewer.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: sideshow
+    bytes: 10004
+  official_docs:
+  - kind: docs
+    title: docs/connecting-agents.md
+    url: https://github.com/modem-dev/sideshow/blob/HEAD/docs/connecting-agents.md
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: docs
+    title: docs/deploying.md
+    url: https://github.com/modem-dev/sideshow/blob/HEAD/docs/deploying.md
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: terminal part — shell output with ANSI color
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/04-terminal.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: 'The sideshow viewer: agent sessions in a sidebar, a published JWT-flow diagram with a comment thread between the
+      user and claude-code, and an interactive backoff explainer below'
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/sideshow-light.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: html part — an interactive UI you author
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/01-html.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: markdown part — prose, tables and code, rendered
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/02-markdown.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: diff part — a patch rendered as code review
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/03-diff.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: trace part — an agent run as a step timeline
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/05-trace.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: image part — an uploaded, content-addressed asset
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/06-image.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: mermaid part — a flowchart rendered from a few lines of text
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/07-mermaid.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: json part — a JSON value rendered as a collapsible tree
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/08-json.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: code part — source highlighted with line numbers
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/09-code.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: image
+    title: markdown + diff — two parts composed in one card
+    url: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/docs/surfaces/10-combined.png
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/connecting-agents.md
+    url: https://github.com/modem-dev/sideshow/blob/HEAD/docs/connecting-agents.md
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  - kind: docs
+    title: docs/deploying.md
+    url: https://github.com/modem-dev/sideshow/blob/HEAD/docs/deploying.md
+    source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
+  source_headings:
+  - Docs
+- name: google-slides-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/matteoantoci/google-slides-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  catalog_note: TypeScript MCP server for creating, reading, and modifying Google Slides presentations through the Google
+    Slides API and batch update requests.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/matteoantoci/google-slides-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/matteoantoci/google-slides-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Google Slides MCP Server
+    bytes: 8194
+  official_examples:
+  - kind: demo
+    title: Google OAuth 2.0 Playground
+    url: https://developers.google.com/oauthplayground/
+    source: https://raw.githubusercontent.com/matteoantoci/google-slides-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Google Slides API `batchUpdate` documentation
+    url: https://developers.google.com/slides/api/reference/rest/v1/presentations/batchUpdate
+    source: https://raw.githubusercontent.com/matteoantoci/google-slides-mcp/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Google OAuth 2.0 Playground
+    url: https://developers.google.com/oauthplayground/
+    source: https://raw.githubusercontent.com/matteoantoci/google-slides-mcp/HEAD/README.md
+  - kind: docs
+    title: Google Slides API `batchUpdate` documentation
+    url: https://developers.google.com/slides/api/reference/rest/v1/presentations/batchUpdate
+    source: https://raw.githubusercontent.com/matteoantoci/google-slides-mcp/HEAD/README.md
+  source_headings:
+  - Google Slides MCP Server
+- name: DocGem MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/xpm-cmd/docgem-mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Claude Code MCP plugin that generates PowerPoint, Word, Excel, PDF, HTML, Markdown, LaTeX, Mermaid, Gantt,
+    Draw.io, CSV, and JSON artifacts from natural-language prompts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xpm-cmd/docgem-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xpm-cmd/docgem-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DocGen MCP
+    bytes: 7955
+  source_headings:
+  - Diagrams
+  - Usage
+  - 1. Formula Template (per-row, on the column)
+  - Template-Based PowerPoint
+- name: Marp Slide Creator
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/softaworks/agent-toolkit/blob/main/skills/marp-slide/README.md
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Toolkit skill for creating Marp presentations with seven embedded themes, image-layout patterns, theme-selection
+    guidance, and slide-design quality checks.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/marp-slide/README.md
+    final_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/marp-slide/README.md
+    status: 200
+    content_type: text/plain
+    title: Marp Slide Creator
+    bytes: 7664
+  source_headings:
+  - Marp Slide Creator
+  - 3. Template Application
+  - Usage Examples
+  - 'Example 1: Basic Presentation'
+  - 'Example 2: Tech Meetup'
+  - 'Example 3: Business Proposal'
+  - 'Example 4: Vague Request (Japanese)'
+  - Internal Documentation
+- name: marp-slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/robonuggets/marp-slides
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for polished Marp decks with 22 reference decks, SVG charts, dashboard components, dark/light
+    themes, interactive elements, and Marp PDF/PPTX/HTML export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/robonuggets/marp-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/robonuggets/marp-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MARP Slides
+    bytes: 3914
+  source_headings:
+  - MARP Slides
+  - 4. Ask for a presentation
+  - Example categories
+  - How the examples help
+- name: typst-claude-skill
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/ChanMeng666/typst-claude-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for producing Typst PDFs, reports, academic papers, resumes, invoices, and presentation
+    slides from natural-language requests with bundled templates and CLI references.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ChanMeng666/typst-claude-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ChanMeng666/typst-claude-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Typst Skill for Claude Code
+    bytes: 11584
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/ChanMeng666/typst-claude-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/ChanMeng666/typst-claude-skill/HEAD/README.md
+  source_headings:
+  - Usage
+  - Templates Included
+  - Examples

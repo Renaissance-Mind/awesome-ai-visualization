@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-06-30.
+Last researched: 2026-07-02.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -33,6 +33,8 @@ Update on 2026-06-27: refreshed diagram MCP App, draw.io, Excalidraw, and Mermai
 Update on 2026-06-29: refreshed desktop/office agents, HTML slide skills, Mermaid skills, medical-scientific skill libraries, and creative presentation/video skill stacks from official GitHub repositories, README evidence, product pages, and GitHub metadata. This pass added LobsterAI, Garden Skills, ai-agents-skills, keynote-slides-skill, Claude Office Skills, Mermaid Skill for Claude Code, OpenClaw Medical Skills, and Awesome HTML Slide Skills.
 
 Update on 2026-06-30: refreshed paper-figure skills, narrated HTML presentation skills, live PowerPoint MCP control, and mind-map MCP surfaces from official GitHub repositories, README evidence, product pages, and GitHub metadata. This pass added PaperBanana Skills, Present, ppt-mcp, Mapify MCP Server, and mind-map-mcp.
+
+Update on 2026-07-02: refreshed agent visual surfaces, Google Slides MCP control, multi-format document MCP generation, Marp slide skills, and Typst document/presentation skills from official GitHub repositories, README evidence, and GitHub metadata. This pass added Sideshow, google-slides-mcp, DocGem MCP, Marp Slide Creator, marp-slides, and typst-claude-skill.
 
 ## Search Surfaces
 
@@ -285,6 +287,12 @@ Excluded if:
 - [md2html](https://github.com/ogermer/md2html): Claude Code skill that turns Markdown deck sources into standalone HTML web-viewer and print/PDF slide renderings.
 - [MindRepo](https://github.com/NguyenVu04/mind-repo): open-source knowledge platform for document repositories, learning paths, AI-tutor Q&A, summaries, and mind-map-style learning experiences.
 - [Mermaid Live MCP Server](https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1): MCP server for AI assistants to create Mermaid diagrams, Mermaid Live URLs, and PNG/JPEG/WebP/SVG/PDF outputs.
+- [Sideshow](https://github.com/modem-dev/sideshow): live visual surface for terminal agents to publish HTML, Markdown, diffs, terminal output, images, JSON trees, and Mermaid diagrams into a browser viewer.
+- [google-slides-mcp](https://github.com/matteoantoci/google-slides-mcp): TypeScript MCP server for creating, reading, and modifying Google Slides presentations through the Google Slides API.
+- [DocGem MCP](https://github.com/xpm-cmd/docgem-mcp): Claude Code MCP plugin that generates PowerPoint, Word, Excel, PDF, Mermaid, Gantt, Draw.io, HTML, Markdown, LaTeX, CSV, and JSON artifacts.
+- [Marp Slide Creator](https://github.com/softaworks/agent-toolkit/blob/main/skills/marp-slide/README.md): Agent Toolkit skill for Marp decks with seven themes, image-layout patterns, and presentation-design quality checks.
+- [marp-slides](https://github.com/robonuggets/marp-slides): Claude Code Marp skill with curated reference decks, SVG charts, dashboard components, dark/light themes, and PDF/PPTX/HTML export.
+- [typst-claude-skill](https://github.com/ChanMeng666/typst-claude-skill): Claude Code skill for Typst PDFs, reports, academic papers, resumes, invoices, and presentation slides.
 
 ## Early Market Read
 
