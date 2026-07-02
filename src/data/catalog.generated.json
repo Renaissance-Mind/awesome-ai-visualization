@@ -1,111 +1,111 @@
 {
-  "generatedAt": "2026-07-01T23:06:56+00:00",
-  "lastResearched": "2026-07-02",
+  "generatedAt": "2026-07-02T23:07:51+00:00",
+  "lastResearched": "2026-07-03",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 210,
+    "total": 216,
     "openSource": 65,
     "saas": 40,
-    "modelApi": 86,
+    "modelApi": 90,
     "examples": 734,
-    "effectAssets": 855,
-    "docs": 679
+    "effectAssets": 858,
+    "docs": 685
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 35,
-      "PDF/文档": 75,
-      "文本/想法": 114,
-      "数据/表格": 51,
-      "代码/技术描述": 33,
+      "论文/科研资料": 36,
+      "PDF/文档": 79,
+      "文本/想法": 118,
+      "数据/表格": 53,
+      "代码/技术描述": 34,
       "代码库": 25,
-      "DSL/代码": 28,
-      "网页/搜索结果": 64,
+      "DSL/代码": 29,
+      "网页/搜索结果": 66,
       "新闻/资讯": 9,
       "知识库/个人资料": 11,
-      "任意/多源": 22,
+      "任意/多源": 23,
       "引用网络": 4,
-      "Office 文档": 18,
-      "数据库": 13
+      "Office 文档": 20,
+      "数据库": 14
     },
     "toolForms": {
       "开源应用/框架": 65,
-      "Agent Skill": 47,
+      "Agent Skill": 51,
       "Skill 集合": 20,
       "数据集/评测": 2,
       "Bot/助手": 7,
       "产品/SaaS": 40,
-      "MCP Server": 29,
+      "MCP Server": 31,
       "研究原型": 4,
       "API/SDK/库": 15,
       "Awesome/索引": 14
     },
     "outputForms": {
-      "图形摘要/信息图": 14,
-      "PPT/演示文稿": 79,
-      "网页/交互页面": 38,
+      "图形摘要/信息图": 15,
+      "PPT/演示文稿": 83,
+      "网页/交互页面": 40,
       "问答/学习材料": 7,
       "报告/长文档": 24,
-      "证据表": 7,
+      "证据表": 8,
       "信息图/视觉报告": 25,
-      "图表/仪表盘": 36,
+      "图表/仪表盘": 37,
       "架构图/流程图": 44,
       "白板/思维导图": 15,
-      "图表/Mermaid": 23,
-      "SVG/PNG/PDF": 48,
+      "图表/Mermaid": 24,
+      "SVG/PNG/PDF": 50,
       "表格/时间线": 3,
+      "报告/简报": 22,
       "引用答案": 4,
       "思维导图/知识地图": 12,
-      "报告/简报": 20,
       "视频/音频": 13,
       "文献地图/知识地图": 4,
-      "结构化数据/Markdown": 14,
+      "结构化数据/Markdown": 15,
       "代码地图/Repo Wiki": 18,
-      "图表/渲染输出": 7,
+      "图表/渲染输出": 8,
       "工具索引": 16
     },
     "dependencies": {
-      "本地语言环境": 141,
-      "模型 API": 86,
-      "文档解析/OCR": 32,
-      "渲染/导出": 136,
+      "本地语言环境": 144,
+      "模型 API": 90,
+      "文档解析/OCR": 34,
+      "渲染/导出": 142,
       "GPU/加速器": 7,
-      "模板/素材": 83,
-      "Agent 宿主": 73,
-      "系统工具": 21,
-      "外部检索/数据源": 36,
+      "模板/素材": 87,
+      "Agent 宿主": 77,
+      "系统工具": 23,
+      "外部检索/数据源": 37,
       "存储/索引": 25,
-      "浏览器/账号": 62,
-      "MCP Client": 31,
+      "浏览器/账号": 63,
+      "MCP Client": 33,
       "代码分析工具": 19
     },
     "categories": {
-      "paper-visualization": 12,
+      "paper-visualization": 13,
       "doc-to-knowledge": 19,
       "research-report": 12,
       "infographic-report": 17,
-      "data-dashboard": 19,
+      "data-dashboard": 20,
       "literature-map": 4,
-      "presentation-tools": 46,
+      "presentation-tools": 49,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 23,
+      "diagram-generation": 24,
       "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 17
     },
     "groups": {
-      "paper": 23,
+      "paper": 24,
       "text_visual": 23,
       "web_news": 8,
       "support_mindmap": 6,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 57,
+      "presentation": 60,
       "code": 18,
-      "support_render": 21,
+      "support_render": 22,
       "diagrams": 2,
-      "data": 15,
+      "data": 16,
       "video": 7,
       "indexes": 17
     }
@@ -2180,6 +2180,44 @@
         "PPT/演示文稿",
         "网页/交互页面",
         "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "academic-pptx-skill",
+      "url": "https://github.com/Gabberflast/academic-pptx-skill",
+      "primaryUrl": "https://github.com/Gabberflast/academic-pptx-skill",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 633,
+      "license": "MIT",
+      "updated": "2026-07-02",
+      "note": "Claude Skill for academic presentations, thesis defenses, seminar decks, and grant briefings with action titles, argument structure, citation standards, and PptxGenJS slide patterns.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报"
       ],
       "catalogSection": "main",
       "readmeGroup": "paper",
@@ -8603,6 +8641,129 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "high-quality-slides",
+      "url": "https://github.com/andyqiu847-ai/high-quality-slides",
+      "primaryUrl": "https://github.com/andyqiu847-ai/high-quality-slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-06-24",
+      "note": "Claude Code skill for research-first, narrative-driven HTML decks with design-system gates, viewport-locked output, and optional PPTX export through a companion pptx skill.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Presentation Skill",
+      "url": "https://github.com/grapeot/presentation_skill",
+      "primaryUrl": "https://github.com/grapeot/presentation_skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-30",
+      "note": "Platform-agnostic AI-agent skill for image-generated slide decks with an HTML module fallback for editable or interactive presentations.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "presentation-writing-claude-skill",
+      "url": "https://github.com/marcusnelson/presentation-writing-claude-skill",
+      "primaryUrl": "https://github.com/marcusnelson/presentation-writing-claude-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "note": "Claude skill that turns notes, documents, spreadsheets, transcripts, and briefings into persuasive slide-by-slide narrative outlines with optional clean PPTX output.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Office-PowerPoint-MCP-Server",
       "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
       "primaryUrl": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
@@ -13558,6 +13719,78 @@
       "effectAssetsCount": 1
     },
     {
+      "name": "mermaider",
+      "url": "https://github.com/vtomilin/mermaider",
+      "primaryUrl": "https://github.com/vtomilin/mermaider",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2025-12-05",
+      "note": "MCP server that gives LLMs a reusable browser-backed validate_syntax tool for checking Mermaid diagrams before committing or exporting them.",
+      "sourceTypes": [
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "may install Chrome browser",
+          "url": "https://pptr.dev/guides/installation",
+          "source": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`Launchoptions`",
+          "url": "https://pptr.dev/api/puppeteer.launchoptions",
+          "source": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Error image example",
+          "url": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/assets/error.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Correct Syntax",
+          "url": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/assets/use-sample.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Invalid Syntax",
+          "url": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/assets/sample-error.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
       "name": "Mermaid Live MCP Server",
       "url": "https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1",
       "primaryUrl": "https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1",
@@ -16364,6 +16597,71 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 4
+    },
+    {
+      "name": "mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "primaryUrl": "https://github.com/grafana/mcp-grafana",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 3209,
+      "license": "Apache-2.0",
+      "updated": "2026-07-02",
+      "note": "Official Grafana MCP server for agent access to dashboards, datasources, panel queries, annotations, snapshots, deeplinks, and PNG rendering of panels or dashboards.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Grafana Image Renderer",
+          "url": "https://grafana.com/docs/grafana/latest/setup-grafana/image-rendering/",
+          "source": "https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "official documentation",
+          "url": "https://grafana.com/docs/grafana/latest/administration/roles-and-permissions/access-control/",
+          "source": "https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "OTel MCP semantic conventions",
+          "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/mcp/",
+          "source": "https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "OTel exporter spec",
+          "url": "https://opentelemetry.io/docs/specs/otel/protocol/exporter/",
+          "source": "https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "Claude Data Analysis Assistant",

@@ -1,4 +1,4 @@
-last_researched: '2026-07-02'
+last_researched: '2026-07-03'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -525,6 +525,31 @@ entries:
   - PPT/演示文稿
   - 网页/交互页面
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
+- name: academic-pptx-skill
+  url: https://github.com/Gabberflast/academic-pptx-skill
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 633
+  license: MIT
+  updated: '2026-07-02'
+  note: Claude Skill for academic presentations, thesis defenses, seminar decks, and grant briefings with action titles,
+    argument structure, citation standards, and PptxGenJS slide patterns.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
   catalog_section: main
   readme_group: paper
 - name: PaperToSlides
@@ -1951,6 +1976,90 @@ entries:
   - 网页/交互页面
   - 图表/Mermaid
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: high-quality-slides
+  url: https://github.com/andyqiu847-ai/high-quality-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: MIT
+  updated: '2026-06-24'
+  note: Claude Code skill for research-first, narrative-driven HTML decks with design-system gates, viewport-locked output,
+    and optional PPTX export through a companion pptx skill.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Presentation Skill
+  url: https://github.com/grapeot/presentation_skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-06-30'
+  note: Platform-agnostic AI-agent skill for image-generated slide decks with an HTML module fallback for editable or
+    interactive presentations.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: presentation
+- name: presentation-writing-claude-skill
+  url: https://github.com/marcusnelson/presentation-writing-claude-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-06-23'
+  note: Claude skill that turns notes, documents, spreadsheets, transcripts, and briefings into persuasive slide-by-slide
+    narrative outlines with optional clean PPTX output.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
 - name: Office-PowerPoint-MCP-Server
@@ -3385,6 +3494,30 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: mermaider
+  url: https://github.com/vtomilin/mermaider
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 4
+  license: MIT
+  updated: '2025-12-05'
+  note: MCP server that gives LLMs a reusable browser-backed validate_syntax tool for checking Mermaid diagrams before
+    committing or exporting them.
+  source_types:
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render
 - name: Mermaid Live MCP Server
   url: https://github.com/TakanariShimbo/mermaid-live-mcp-server/blob/main/docs/README.md?plain=1
   homepage: https://www.npmjs.com/package/@takanarishimbo/mermaid-live-mcp-server
@@ -4087,6 +4220,33 @@ entries:
   - 图表/仪表盘
   - PPT/演示文稿
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: mcp-grafana
+  url: https://github.com/grafana/mcp-grafana
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  stars: 3209
+  license: Apache-2.0
+  updated: '2026-07-02'
+  note: Official Grafana MCP server for agent access to dashboards, datasources, panel queries, annotations, snapshots,
+    deeplinks, and PNG rendering of panels or dashboards.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 证据表
   catalog_section: main
   readme_group: data
 - name: Claude Data Analysis Assistant
