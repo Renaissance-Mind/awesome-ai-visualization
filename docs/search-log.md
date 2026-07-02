@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-02.
+Last researched: 2026-07-03.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -35,6 +35,8 @@ Update on 2026-06-29: refreshed desktop/office agents, HTML slide skills, Mermai
 Update on 2026-06-30: refreshed paper-figure skills, narrated HTML presentation skills, live PowerPoint MCP control, and mind-map MCP surfaces from official GitHub repositories, README evidence, product pages, and GitHub metadata. This pass added PaperBanana Skills, Present, ppt-mcp, Mapify MCP Server, and mind-map-mcp.
 
 Update on 2026-07-02: refreshed agent visual surfaces, Google Slides MCP control, multi-format document MCP generation, Marp slide skills, and Typst document/presentation skills from official GitHub repositories, README evidence, and GitHub metadata. This pass added Sideshow, google-slides-mcp, DocGem MCP, Marp Slide Creator, marp-slides, and typst-claude-skill.
+
+Update on 2026-07-03: refreshed academic and narrative presentation skills, image/HTML slide-deck skills, Mermaid validation MCP support, and Grafana dashboard MCP support from official GitHub repositories, README evidence, license files, and GitHub metadata. This pass added academic-pptx-skill, high-quality-slides, Presentation Skill, presentation-writing-claude-skill, mermaider, and mcp-grafana.
 
 ## Search Surfaces
 
@@ -293,6 +295,15 @@ Excluded if:
 - [Marp Slide Creator](https://github.com/softaworks/agent-toolkit/blob/main/skills/marp-slide/README.md): Agent Toolkit skill for Marp decks with seven themes, image-layout patterns, and presentation-design quality checks.
 - [marp-slides](https://github.com/robonuggets/marp-slides): Claude Code Marp skill with curated reference decks, SVG charts, dashboard components, dark/light themes, and PDF/PPTX/HTML export.
 - [typst-claude-skill](https://github.com/ChanMeng666/typst-claude-skill): Claude Code skill for Typst PDFs, reports, academic papers, resumes, invoices, and presentation slides.
+
+## Added in the 2026-07-03 Daily Refresh
+
+- [academic-pptx-skill](https://github.com/Gabberflast/academic-pptx-skill): Claude Skill for academic presentations, thesis defenses, seminar decks, and grant briefings with action titles, citation standards, and PptxGenJS slide patterns.
+- [high-quality-slides](https://github.com/andyqiu847-ai/high-quality-slides): Claude Code skill for research-first, narrative-driven HTML decks with design-system gates and optional PPTX export through a companion pptx skill.
+- [Presentation Skill](https://github.com/grapeot/presentation_skill): platform-agnostic AI-agent skill for image-generated decks with an HTML module fallback for editable or interactive presentations.
+- [presentation-writing-claude-skill](https://github.com/marcusnelson/presentation-writing-claude-skill): Claude skill that turns notes, documents, spreadsheets, transcripts, and briefings into persuasive slide-by-slide narrative outlines with optional clean PPTX output.
+- [mermaider](https://github.com/vtomilin/mermaider): MCP server that gives LLMs a reusable browser-backed Mermaid `validate_syntax` tool before committing or exporting diagrams.
+- [mcp-grafana](https://github.com/grafana/mcp-grafana): official Grafana MCP server for dashboard, datasource, panel-query, snapshot, deeplink, and PNG-rendering workflows.
 
 ## Early Market Read
 

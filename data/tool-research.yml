@@ -1,4 +1,4 @@
-generated_at: '2026-07-01T23:06:56+00:00'
+generated_at: '2026-07-02T23:07:51+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 210
-  fetched_sources_ok: 287
+  entries: 216
+  fetched_sources_ok: 293
   fetched_sources_failed: 19
   official_examples: 734
-  official_effect_assets: 855
-  official_docs: 679
+  official_effect_assets: 858
+  official_docs: 685
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -21621,3 +21621,206 @@ entries:
   - Usage
   - Templates Included
   - Examples
+- name: academic-pptx-skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/Gabberflast/academic-pptx-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Skill for academic presentations, thesis defenses, seminar decks, and grant briefings with action titles,
+    argument structure, citation standards, and PptxGenJS slide patterns.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Gabberflast/academic-pptx-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Gabberflast/academic-pptx-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Academic Presentations Skill for Claude (plus basic PDF summary of general advice)
+    bytes: 3033
+  source_headings:
+  - Academic Presentations Skill for Claude (plus basic PDF summary of general advice)
+  - Usage
+- name: high-quality-slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/andyqiu847-ai/high-quality-slides
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for research-first, narrative-driven HTML decks with design-system gates, viewport-locked
+    output, and optional PPTX export through a companion pptx skill.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/andyqiu847-ai/high-quality-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/andyqiu847-ai/high-quality-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: High-Quality Slides
+    bytes: 7328
+  source_headings:
+  - High-Quality Slides
+  - SKILL.md layouts.md html-template.md README.md LICENSE
+  - Usage
+- name: Presentation Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/grapeot/presentation_skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Platform-agnostic AI-agent skill for image-generated slide decks with an HTML module fallback for editable
+    or interactive presentations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/grapeot/presentation_skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/grapeot/presentation_skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Presentation Skill
+    bytes: 1859
+  source_headings:
+  - Presentation Skill
+- name: presentation-writing-claude-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/marcusnelson/presentation-writing-claude-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill that turns notes, documents, spreadsheets, transcripts, and briefings into persuasive slide-by-slide
+    narrative outlines with optional clean PPTX output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/marcusnelson/presentation-writing-claude-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/marcusnelson/presentation-writing-claude-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Presentation Narrative Skill for Claude
+    bytes: 5633
+  source_headings:
+  - Presentation Narrative Skill for Claude
+  - Usage
+- name: mermaider
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/vtomilin/mermaider
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP server that gives LLMs a reusable browser-backed validate_syntax tool for checking Mermaid diagrams before
+    committing or exporting them.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'The `mermaider` MCP server: fast, reliable Mermaid diagram syntax checker'
+    bytes: 6836
+  official_docs:
+  - kind: docs
+    title: may install Chrome browser
+    url: https://pptr.dev/guides/installation
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  - kind: docs
+    title: '`Launchoptions`'
+    url: https://pptr.dev/api/puppeteer.launchoptions
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Error image example
+    url: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/assets/error.png
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  - kind: image
+    title: Correct Syntax
+    url: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/assets/use-sample.png
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  - kind: image
+    title: Invalid Syntax
+    url: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/assets/sample-error.png
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: may install Chrome browser
+    url: https://pptr.dev/guides/installation
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  - kind: docs
+    title: '`Launchoptions`'
+    url: https://pptr.dev/api/puppeteer.launchoptions
+    source: https://raw.githubusercontent.com/vtomilin/mermaider/HEAD/README.md
+  source_headings:
+  - 'The `mermaider` MCP server: fast, reliable Mermaid diagram syntax checker'
+  - Usage Examples
+- name: mcp-grafana
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/grafana/mcp-grafana
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Official Grafana MCP server for agent access to dashboards, datasources, panel queries, annotations, snapshots,
+    deeplinks, and PNG rendering of panels or dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Grafana MCP server
+    bytes: 78720
+  official_docs:
+  - kind: docs
+    title: Grafana Image Renderer
+    url: https://grafana.com/docs/grafana/latest/setup-grafana/image-rendering/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  - kind: docs
+    title: official documentation
+    url: https://grafana.com/docs/grafana/latest/administration/roles-and-permissions/access-control/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  - kind: docs
+    title: OTel MCP semantic conventions
+    url: https://opentelemetry.io/docs/specs/semconv/gen-ai/mcp/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  - kind: docs
+    title: OTel exporter spec
+    url: https://opentelemetry.io/docs/specs/otel/protocol/exporter/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Grafana Image Renderer
+    url: https://grafana.com/docs/grafana/latest/setup-grafana/image-rendering/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  - kind: docs
+    title: official documentation
+    url: https://grafana.com/docs/grafana/latest/administration/roles-and-permissions/access-control/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  - kind: docs
+    title: OTel MCP semantic conventions
+    url: https://opentelemetry.io/docs/specs/semconv/gen-ai/mcp/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  - kind: docs
+    title: OTel exporter spec
+    url: https://opentelemetry.io/docs/specs/otel/protocol/exporter/
+    source: https://raw.githubusercontent.com/grafana/mcp-grafana/HEAD/README.md
+  source_headings:
+  - Dashboards
+  - Query Examples
+  - Usage
