@@ -1,4 +1,4 @@
-last_researched: '2026-07-03'
+last_researched: '2026-07-04'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2681,6 +2681,134 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
+- name: slide-design-skill
+  url: https://github.com/SlideSpeak/slide-design-skill
+  homepage: https://slidespeak.co
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 7
+  license: MIT
+  updated: '2026-06-29'
+  note: SlideSpeak presentation-design skill that derives a bespoke visual style from a topic, brand URL, reference site, or moodboard and renders polished 1920x1080 HTML slide decks with charts, tables, and imagery.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: presentation
+- name: html-slides
+  url: https://github.com/bluedusk/html-slides
+  homepage: https://htmlslides.com
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 58
+  license: MIT
+  updated: '2026-07-03'
+  note: Agent skill for Claude Code, Gemini, Codex, and Copilot that creates HTML presentations with speaker notes, converts PPTX files to web slideshows, and targets the HTMLSlides presenter app.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: pptx-mcp-live
+  url: https://github.com/ykarapazar/pptx-mcp-live
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 2
+  license: MIT
+  updated: '2026-06-18'
+  note: MCP server for PowerPoint with 32 cross-platform python-pptx tools plus 26 Windows COM live-automation tools for open decks, picture effects, shape formatting, transitions, and PDF/image export.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: claude-skill-academic-ppt
+  url: https://github.com/PHY041/claude-skill-academic-ppt
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 19
+  license: unknown
+  updated: '2026-07-01'
+  note: Claude Code skill for generating academic defense PPTX decks from LaTeX, PDFs, or text, with dual-engine figure generation, action titles, speaker notes, and Q&A prediction.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-skills
+  url: https://github.com/danny0926/ppt-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: unknown
+  updated: '2026-07-01'
+  note: Claude Code skill and text-to-PPTX pipeline for hand-drawn Rough.js-style visual slides, Playwright rendering, and editable dual-layer PowerPoint output.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: typst-claude-skill
   url: https://github.com/ChanMeng666/typst-claude-skill
   category: research-report
@@ -3564,6 +3692,29 @@ entries:
   tool_forms:
   - MCP Server
   - Agent Skill
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: mermaid-mcp-server
+  url: https://github.com/peng-shawn/mermaid-mcp-server
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 231
+  license: MIT
+  updated: '2026-07-03'
+  note: MCP server that converts Mermaid diagram code into PNG or SVG files with configurable theme, background color, and output format for multiple MCP clients.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
   output_forms:
   - 图表/Mermaid
   - SVG/PNG/PDF

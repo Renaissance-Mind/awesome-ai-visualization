@@ -1,4 +1,4 @@
-generated_at: '2026-07-02T23:07:51+00:00'
+generated_at: '2026-07-03T23:06:05+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 216
-  fetched_sources_ok: 293
+  entries: 222
+  fetched_sources_ok: 301
   fetched_sources_failed: 19
-  official_examples: 734
-  official_effect_assets: 858
-  official_docs: 685
+  official_examples: 748
+  official_effect_assets: 871
+  official_docs: 695
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -126,6 +126,7 @@ entries:
   - 5. System dependencies (Ubuntu example; full list is mirrored in requirements-system-ubuntu.txt)
   - '... see .env.example for full list'
   - 2. Install Paper2Any-specific Dependencies (Recommended)
+  official_examples: []
 - name: Paper2Slides
   category: paper-visualization
   surface: open-source
@@ -161,6 +162,8 @@ entries:
     status: 404
     content_type: text/html
     error: HTTP 404
+  official_examples: []
+  official_links: []
 - name: paper-2-web
   category: paper-visualization
   surface: skill
@@ -190,6 +193,8 @@ entries:
   - Poster Printing
   - Video Distribution
   - Advanced Usage
+  official_examples: []
+  official_links: []
 - name: paper-to-course
   category: doc-to-knowledge
   surface: skill
@@ -650,15 +655,12 @@ entries:
     title: platform.openai.com/api-keys
     url: https://platform.openai.com/api-keys
     source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
-  - kind: docs
-    title: Google AI Studio
-    url: https://aistudio.google.com/apikey
-    source: https://raw.githubusercontent.com/TyrealQ/q-skills/HEAD/README.md
   source_headings:
   - Visual Content Skills
   - Sample outputs → see illustrations/q-infographics/ at repo root
   - q-presentations
   - Sample outputs → see illustrations/q-presentations/ at repo root
+  official_examples: []
 - name: Visualize
   category: infographic-report
   surface: skill
@@ -776,10 +778,6 @@ entries:
     title: platform.openai.com/api-keys
     url: https://platform.openai.com/api-keys
     source: https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md
-  - kind: docs
-    title: aistudio.google.com/apikey
-    url: https://aistudio.google.com/apikey
-    source: https://raw.githubusercontent.com/ericblue/visual-explainer-skill/HEAD/README.md
   source_headings:
   - Visual Explainer Skill
   - Example Gallery
@@ -792,6 +790,7 @@ entries:
   - Converting Mermaid diagrams
   - Inline Mermaid — paste or type the diagram as the content
   - v1.1.0 — Mermaid Diagram Conversion
+  official_examples: []
 - name: visual-explainer
   category: infographic-report
   surface: skill
@@ -821,6 +820,8 @@ entries:
   - 'Optional, only if your Codex build supports prompt templates:'
   - 'Optional command templates:'
   - Slide Deck Mode
+  official_examples: []
+  official_links: []
 - name: baoyu-skills
   category: infographic-report
   surface: skill
@@ -899,6 +900,8 @@ entries:
   - Download media (images/videos) to local files
   - OPENROUTER_HTTP_REFERER=https://your-app.example.com
   - JIMENG_BASE_URL=https://visual.volcengineapi.com
+  official_examples: []
+  official_links: []
 - name: aiz-infographic
   category: infographic-report
   surface: skill
@@ -942,6 +945,8 @@ entries:
   source_headings:
   - Usage
   - Templates
+  official_examples: []
+  official_links: []
 - name: ascii-canvas
   category: infographic-report
   surface: skill
@@ -963,6 +968,8 @@ entries:
   source_headings:
   - Usage
   - Sample output
+  official_examples: []
+  official_links: []
 - name: scientific-agent-skills
   category: paper-visualization
   surface: skill
@@ -1535,6 +1542,8 @@ entries:
   source_headings:
   - Usage
   - Examples
+  official_examples: []
+  official_links: []
 - name: PaperBanana
   category: paper-visualization
   surface: open-source
@@ -2210,6 +2219,7 @@ entries:
     title: Vercel AI SDK
     url: https://sdk.vercel.ai/docs
     source: https://raw.githubusercontent.com/zaidmukaddam/scira/HEAD/README.md
+  official_examples: []
 - name: Vane
   category: research-report
   surface: open-source
@@ -2267,6 +2277,7 @@ entries:
     title: here
     url: https://github.com/ItzCrazyKns/Vane/tree/master/docs/API/SEARCH.md
     source: https://raw.githubusercontent.com/ItzCrazyKns/Vane/HEAD/README.md
+  official_examples: []
 - name: FinRobot
   category: research-report
   surface: open-source
@@ -2334,6 +2345,8 @@ entries:
     content_type: text/html
     title: null
     bytes: 7902
+  official_examples: []
+  official_links: []
 - name: Market-Intelligence-Agent
   category: data-dashboard
   surface: open-source
@@ -2376,6 +2389,7 @@ entries:
   - 📊 Dashboard Tab - Interactive Analytics
   - 🔍 Usage Examples
   - Dashboard Customization
+  official_examples: []
 - name: World Monitor
   category: data-dashboard
   surface: open-source
@@ -2541,6 +2555,7 @@ entries:
     title: GitHub REST API ↗
     url: https://docs.github.com/en/rest
     source: https://ossinsight.io/
+  official_examples: []
 - name: notex
   category: doc-to-knowledge
   surface: open-source
@@ -2593,6 +2608,7 @@ entries:
     source: https://raw.githubusercontent.com/smallnest/notex/HEAD/README.md
   source_headings:
   - 📖 Usage
+  official_examples: []
 - name: Open Notebook
   category: doc-to-knowledge
   surface: open-source
@@ -2916,6 +2932,7 @@ entries:
   source_headings:
   - Video Agent Sample
   - Podcast Agent Sample
+  official_examples: []
 - name: mindmap-generator
   category: doc-to-knowledge
   surface: open-source
@@ -2967,6 +2984,7 @@ entries:
   - Performance Metrics and Dashboards
   - 📝 Output Examples
   - Technical Documentation
+  official_examples: []
 - name: Mapify
   category: doc-to-knowledge
   surface: product
@@ -3354,6 +3372,7 @@ entries:
     source: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp/HEAD/README.md
   source_headings:
   - Usage
+  official_examples: []
 - name: AI-Researcher
   category: research-report
   surface: research
@@ -3594,6 +3613,8 @@ entries:
     title: Google NotebookLM | AI Research Tool & Thinking Partner
     url: https://notebooklm.google/_/static/branding/v4/og/notebook_lm_share.png
     source: https://notebooklm.google/
+  official_examples: []
+  official_links: []
 - name: NotebookLM AI Plugin
   category: doc-to-knowledge
   surface: skill
@@ -3627,6 +3648,7 @@ entries:
     source: https://raw.githubusercontent.com/proyecto26/notebooklm-ai-plugin/HEAD/README.md
   source_headings:
   - Usage Examples
+  official_examples: []
 - name: Elicit
   category: research-report
   surface: product
@@ -4018,6 +4040,8 @@ entries:
     status: 403
     content_type: text/html
     error: HTTP 403
+  official_examples: []
+  official_links: []
 - name: Grabstract
   category: paper-visualization
   surface: product
@@ -4041,6 +4065,8 @@ entries:
     title: Grabstract - Science, visualized
     url: https://grabstract.io/lovable-uploads/sm_preview.png
     source: https://grabstract.io/graphical-abstracts
+  official_examples: []
+  official_links: []
 - name: Open Knowledge Maps
   category: literature-map
   surface: product
@@ -4134,6 +4160,8 @@ entries:
     title: Connected Papers | Find and explore academic papers
     url: https://www.connectedpapers.com/share-preview-img.png
     source: https://www.connectedpapers.com/
+  official_examples: []
+  official_links: []
 - name: ResearchRabbit
   category: literature-map
   surface: product
@@ -4332,6 +4360,8 @@ entries:
     title: 'Consensus: AI for Research'
     url: https://consensus.app/images/og-default.png
     source: https://consensus.app/
+  official_examples: []
+  official_links: []
 - name: MinerU
   category: doc-to-knowledge
   surface: open-source
@@ -4879,6 +4909,7 @@ entries:
     source: https://raw.githubusercontent.com/microsoft/markitdown/HEAD/README.md
   source_headings:
   - Usage
+  official_examples: []
 - name: Marker
   category: doc-to-knowledge
   surface: open-source
@@ -5444,6 +5475,8 @@ entries:
     content_type: text/html
     title: Semantic Scholar - Paper QA Beta
     bytes: 537
+  official_examples: []
+  official_links: []
 - name: s2orc-doc2json
   category: doc-to-knowledge
   surface: open-source
@@ -5460,6 +5493,8 @@ entries:
     content_type: text/plain
     title: Convert scientific papers to S2ORC JSON
     bytes: 5489
+  official_examples: []
+  official_links: []
 - name: Piktochart AI
   category: infographic-report
   surface: product
@@ -5771,6 +5806,7 @@ entries:
   - 'Example 1: Create a Flywheel Diagram'
   - 'Example 2: Annotated Chart with Sidebar'
   - 'Example 3: 2x2 Strategic Matrix'
+  official_examples: []
 - name: Claude Design
   category: infographic-report
   surface: product
@@ -7071,6 +7107,7 @@ entries:
     source: https://raw.githubusercontent.com/hugohe3/ppt-master/HEAD/README.md
   source_headings:
   - Documentation
+  official_examples: []
 - name: Presenton
   category: presentation-tools
   surface: open-source
@@ -7713,10 +7750,6 @@ entries:
   official_links:
   - kind: docs
     title: get here
-    url: https://aistudio.google.com/apikey
-    source: https://raw.githubusercontent.com/barun-saha/slide-deck-ai/HEAD/README.md
-  - kind: docs
-    title: get here
     url: https://platform.openai.com/settings/organization/api-keys
     source: https://raw.githubusercontent.com/barun-saha/slide-deck-ai/HEAD/README.md
   - kind: demo
@@ -7826,6 +7859,8 @@ entries:
   - Slide Separation
   - Example Markdown
   - Presentation Title
+  official_examples: []
+  official_links: []
 - name: deckdown
   category: presentation-tools
   surface: open-source
@@ -8295,6 +8330,7 @@ entries:
   - Slides AI Plugin
   - Slide Type Vocabulary
   - Usage Examples
+  official_examples: []
 - name: Present
   category: presentation-tools
   surface: skill
@@ -8493,6 +8529,7 @@ entries:
   - Slidemason
   - Why Slidemason?
   - How Slides Work
+  official_examples: []
 - name: cc-slidev
   category: presentation-tools
   surface: skill
@@ -8535,6 +8572,7 @@ entries:
   - 9. Export final presentation
   - Slidev settings
   - Presentation defaults
+  official_examples: []
 - name: Office-PowerPoint-MCP-Server
   category: presentation-tools
   surface: mcp
@@ -8571,6 +8609,8 @@ entries:
   - Add professional slide
   - Apply theme to entire presentation
   - Enhance existing slide
+  official_examples: []
+  official_links: []
 - name: PptMcp
   category: presentation-tools
   surface: mcp
@@ -8759,6 +8799,8 @@ entries:
   - 🎯 Presentation Targeting
   - Switched — all tools now operate on demo.pptx
   - 📁 Template Support
+  official_examples: []
+  official_links: []
 - name: Alai MCP Server
   category: presentation-tools
   surface: mcp
@@ -8915,6 +8957,8 @@ entries:
   - 9. Get Presentation Info
   - 10. Get Presentation Outline
   - 11. Remove Slide
+  official_examples: []
+  official_links: []
 - name: pptx-tools
   category: presentation-tools
   surface: mcp
@@ -9145,6 +9189,8 @@ entries:
   - 9. list_presentations
   - 10. delete_presentation
   - Example Workflow
+  official_examples: []
+  official_links: []
 - name: md-slides
   category: presentation-tools
   surface: skill
@@ -9234,6 +9280,7 @@ entries:
   - Visual Comparison
   - Ask for slides with visuals
   - Manual Usage (without Claude)
+  official_examples: []
 - name: deckset-claude-skill
   category: presentation-tools
   surface: skill
@@ -9416,6 +9463,8 @@ entries:
   source_headings:
   - Design slides in HTML, keep one writer
   - Benchmarked, not just claimed
+  official_examples: []
+  official_links: []
 - name: agent-slides
   category: presentation-tools
   surface: skill
@@ -9831,6 +9880,8 @@ entries:
   - 📝 extract-slide-text
   - 📥 fetch-slides
   - 🗂️ outline-slides
+  official_examples: []
+  official_links: []
 - name: anthropics-skills
   category: presentation-tools
   surface: skill
@@ -9888,6 +9939,8 @@ entries:
     content_type: text/plain
     title: MiniMax Skills
     bytes: 7865
+  official_examples: []
+  official_links: []
 - name: daymade-claude-code-skills
   category: presentation-tools
   surface: skill
@@ -10230,6 +10283,7 @@ entries:
     title: NetEase Bee personal digital assistant
     url: https://wp.m.163.com/163/html/bee/lobsterai_guide/index.html
     source: https://raw.githubusercontent.com/netease-youdao/LobsterAI/HEAD/README.md
+  official_examples: []
 - name: Garden Skills
   category: presentation-tools
   surface: skill
@@ -10806,6 +10860,8 @@ entries:
   - GitDiagram
   - ⚙️ How GitDiagram Works
   - 🔒 How to diagram private repositories
+  official_examples: []
+  official_links: []
 - name: CodeBoarding
   category: codebase-map
   surface: open-source
@@ -11228,6 +11284,7 @@ entries:
   source_headings:
   - Quickstart
   - Example Configurations
+  official_examples: []
 - name: PocketFlow-Tutorial-Codebase-Knowledge
   category: codebase-map
   surface: open-source
@@ -11819,6 +11876,8 @@ entries:
     bytes: 459
   source_headings:
   - Dependency Graph Visualisation
+  official_examples: []
+  official_links: []
 - name: devlensOSS
   category: codebase-map
   surface: open-source
@@ -11855,6 +11914,8 @@ entries:
     title: Devlens Voice Video Compressed
     url: https://devlens.io/devlens-voice-video-compressed.mp4
     source: https://devlens.io/
+  official_examples: []
+  official_links: []
 - name: Visual-Explainer
   category: codebase-map
   surface: skill
@@ -11877,6 +11938,8 @@ entries:
   - Visual Explainer
   - Usage
   - 'Companion Skill: `visual-explainer-diff`'
+  official_examples: []
+  official_links: []
 - name: codemap-skill
   category: codebase-map
   surface: skill
@@ -12366,6 +12429,8 @@ entries:
     source: https://raw.githubusercontent.com/disler/mermaid-js-ai-agent/HEAD/README.md
   source_headings:
   - Mermaid Diagram AI Agent
+  official_examples: []
+  official_links: []
 - name: mermaid-skill
   category: diagram-generation
   surface: skill
@@ -12512,6 +12577,8 @@ entries:
   - Usage
   - Supported Diagrams
   - Documentation Sync
+  official_examples: []
+  official_links: []
 - name: Pretty-mermaid-skills
   category: diagram-generation
   surface: skill
@@ -12590,6 +12657,7 @@ entries:
   - Render Single Diagram
   - 📂 Examples
   - 📚 Documentation
+  official_examples: []
 - name: agent-toolkit
   category: diagram-generation
   surface: skill
@@ -12617,6 +12685,7 @@ entries:
     title: Claude Code Documentation
     url: https://docs.anthropic.com/claude/docs
     source: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/README.md
+  official_examples: []
 - name: beautiful-mermaid
   category: rendering-primitive
   surface: library
@@ -13094,6 +13163,7 @@ entries:
   - Basic Examples
   - Advanced Examples
   - Complete Example
+  official_examples: []
 - name: mcp-media-forge
   category: rendering-primitive
   surface: mcp
@@ -13286,6 +13356,8 @@ entries:
   source_headings:
   - Usage
   - 'Example: Running as an MCP Server'
+  official_examples: []
+  official_links: []
 - name: drawio-mcp
   category: diagram-generation
   surface: mcp
@@ -13351,6 +13423,7 @@ entries:
   - Four Ways to Create Diagrams
   - Diagram layouts
   - Does your diagram leave the machine?
+  official_examples: []
 - name: Excalidraw MCP
   category: diagram-generation
   surface: mcp
@@ -13394,6 +13467,7 @@ entries:
     source: https://raw.githubusercontent.com/excalidraw/excalidraw-mcp/HEAD/README.md
   source_headings:
   - Usage
+  official_examples: []
 - name: AntV Infographic
   category: rendering-primitive
   surface: library
@@ -13523,6 +13597,8 @@ entries:
     bytes: 12175
   source_headings:
   - 🎯 Usage Tips
+  official_examples: []
+  official_links: []
 - name: Preview Skills
   category: rendering-primitive
   surface: skill
@@ -14220,6 +14296,7 @@ entries:
     source: https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/HEAD/README.md
   source_headings:
   - Examples
+  official_examples: []
 - name: Napkin AI
   category: diagram-generation
   surface: product
@@ -14259,6 +14336,8 @@ entries:
     title: Document user case
     url: https://www.napkin.ai/assets/v5/use-cases/docs.png?v=2
     source: https://www.napkin.ai/
+  official_examples: []
+  official_links: []
 - name: Eraser AI
   category: diagram-generation
   surface: product
@@ -14503,6 +14582,7 @@ entries:
     title: Docs
     url: https://mermaid.ai/docs/
     source: https://mermaid.ai/mermaid-ai
+  official_examples: []
 - name: Whimsical AI
   category: diagram-generation
   surface: product
@@ -14730,6 +14810,8 @@ entries:
     status: 403
     content_type: text/html
     error: HTTP 403
+  official_examples: []
+  official_links: []
 - name: FigJam AI
   category: diagram-generation
   surface: product
@@ -15618,6 +15700,8 @@ entries:
   - Library Usage
   - CLI Usage
   - API Usage
+  official_examples: []
+  official_links: []
 - name: Semiotic
   category: data-dashboard
   surface: library
@@ -15771,6 +15855,8 @@ entries:
   source_headings:
   - 🤖 Usage
   - 🎨 Skill Usage
+  official_examples: []
+  official_links: []
 - name: mcp-dashboards
   category: data-dashboard
   surface: mcp
@@ -15820,6 +15906,7 @@ entries:
     source: https://raw.githubusercontent.com/KyuRish/mcp-dashboards/HEAD/README.md
   source_headings:
   - MCP Dashboards
+  official_examples: []
 - name: Claude Data Analysis Assistant
   category: data-dashboard
   surface: skill
@@ -15853,6 +15940,8 @@ entries:
   - 🎨 Sample Data
   - 📈 Visualization Types
   - All Visualizations
+  official_examples: []
+  official_links: []
 - name: wshm
   category: data-dashboard
   surface: open-source
@@ -16018,6 +16107,7 @@ entries:
   source_headings:
   - Daemon + Web dashboard (Free)
   - Documentation
+  official_examples: []
 - name: MatPlotAgent
   category: data-dashboard
   surface: research
@@ -16067,6 +16157,7 @@ entries:
     title: vLLM documentation
     url: https://docs.vllm.ai/en/latest/index.html
     source: https://raw.githubusercontent.com/thunlp/MatPlotAgent/HEAD/README.md
+  official_examples: []
 - name: OpenVizAI
   category: data-dashboard
   surface: open-source
@@ -16184,13 +16275,10 @@ entries:
     title: aistudio.google.com/apikey
     url: https://aistudio.google.com/apikey
     source: https://raw.githubusercontent.com/KaranChandekar/generative-dashboard-builder/HEAD/README.md
-  official_links:
-  - kind: docs
-    title: aistudio.google.com/apikey
-    url: https://aistudio.google.com/apikey
-    source: https://raw.githubusercontent.com/KaranChandekar/generative-dashboard-builder/HEAD/README.md
+  official_links: []
   source_headings:
   - Generative Dashboard Builder
+  official_examples: []
 - name: OpenBI
   category: data-dashboard
   surface: open-source
@@ -16277,6 +16365,7 @@ entries:
   - 📊 AI-Powered Dashboards
   - 5. Dashboard Widget Flow
   - Run the finance demo setup script (creates connection + agent + 16-widget dashboard)
+  official_examples: []
 - name: html-video
   category: video-generation
   surface: open-source
@@ -16665,6 +16754,8 @@ entries:
     bytes: 2778
   source_headings:
   - Documentation
+  official_examples: []
+  official_links: []
 - name: Helios
   category: video-generation
   surface: library
@@ -17121,6 +17212,8 @@ entries:
     status: 403
     content_type: text/html
     error: HTTP 403
+  official_examples: []
+  official_links: []
 - name: SlideSpeak
   category: commercial-site
   surface: product
@@ -17165,22 +17258,6 @@ entries:
   - kind: demo
     title: Request Demo
     url: https://slidespeak.co/book-meeting
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
     source: https://slidespeak.co/
   - kind: video
     title: Extract Videos from PowerPoint
@@ -17276,22 +17353,6 @@ entries:
       DESIGN.md and MCP solve different parts of the AI brand-guid'
     url: https://slidespeak.co/blog/design-md-vs-mcp-ai-brand-guidelines
     source: https://slidespeak.co/
-  - kind: template
-    title: https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
-  - kind: template
-    title: https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    url: https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)
-    source: https://slidespeak.co/
   - kind: docs
     title: API Docs
     url: https://docs.slidespeak.co
@@ -17335,6 +17396,8 @@ entries:
     status: 403
     content_type: text/html
     error: HTTP 403
+  official_examples: []
+  official_links: []
 - name: Presentations.AI
   category: commercial-site
   surface: product
@@ -18624,6 +18687,8 @@ entries:
     bytes: 10485
   source_headings:
   - Dedicated AI Slide / PowerPoint Agents 📂
+  official_examples: []
+  official_links: []
 - name: AI-Presentation-Builders-Index
   category: meta-index
   surface: index
@@ -18653,6 +18718,8 @@ entries:
   - Visual Explainer
   - Slidev
   - 2slides MCP
+  official_examples: []
+  official_links: []
 - name: awesome-mcp-servers
   category: meta-index
   surface: index
@@ -18988,6 +19055,8 @@ entries:
     content_type: text/plain
     title: Awesome Claude Code
     bytes: 1204
+  official_examples: []
+  official_links: []
 - name: awesome_ai_agents
   category: meta-index
   surface: index
@@ -20341,6 +20410,7 @@ entries:
   - 📈 Visualization — Scientific Plotting & Graphics (8 Skills)
   - Output Templates
   - 💡 Usage Examples
+  official_examples: []
 - name: SenseNova-Skills
   category: meta-index
   surface: skill
@@ -20858,6 +20928,8 @@ entries:
   - academic-slides-skill
   - 2. Screenshot every slide at 1920x1080 (see build_pptx.py's docstring for
   - a worked headless-Chrome example), saving to shots/slide_01.png ... etc.
+  official_examples: []
+  official_links: []
 - name: PaperToSlides
   category: paper-visualization
   surface: open-source
@@ -20896,6 +20968,8 @@ entries:
   - PaperToSlides
   - PaperToSlides Installation and Setup (README.md Clarifications)
   - 'md_file_path = "output/Example/auto/Example.md" # Comment out this line'
+  official_examples: []
+  official_links: []
 - name: MindRepo
   category: doc-to-knowledge
   surface: open-source
@@ -20994,6 +21068,8 @@ entries:
     bytes: 3898
   source_headings:
   - '`/viz` — End-to-End Visualization'
+  official_examples: []
+  official_links: []
 - name: DeckForge
   category: presentation-tools
   surface: open-source
@@ -21086,6 +21162,8 @@ entries:
     bytes: 7336
   source_headings:
   - slidev-deck-stack
+  official_examples: []
+  official_links: []
 - name: Presentations.AI MCP Server
   category: presentation-tools
   surface: mcp
@@ -21471,6 +21549,7 @@ entries:
     source: https://raw.githubusercontent.com/modem-dev/sideshow/HEAD/README.md
   source_headings:
   - Docs
+  official_examples: []
 - name: google-slides-mcp
   category: presentation-tools
   surface: mcp
@@ -21536,6 +21615,8 @@ entries:
   - Usage
   - 1. Formula Template (per-row, on the column)
   - Template-Based PowerPoint
+  official_examples: []
+  official_links: []
 - name: Marp Slide Creator
   category: presentation-tools
   surface: skill
@@ -21564,6 +21645,8 @@ entries:
   - 'Example 3: Business Proposal'
   - 'Example 4: Vague Request (Japanese)'
   - Internal Documentation
+  official_examples: []
+  official_links: []
 - name: marp-slides
   category: presentation-tools
   surface: skill
@@ -21588,6 +21671,8 @@ entries:
   - 4. Ask for a presentation
   - Example categories
   - How the examples help
+  official_examples: []
+  official_links: []
 - name: typst-claude-skill
   category: research-report
   surface: skill
@@ -21621,6 +21706,7 @@ entries:
   - Usage
   - Templates Included
   - Examples
+  official_examples: []
 - name: academic-pptx-skill
   category: paper-visualization
   surface: skill
@@ -21643,6 +21729,8 @@ entries:
   source_headings:
   - Academic Presentations Skill for Claude (plus basic PDF summary of general advice)
   - Usage
+  official_examples: []
+  official_links: []
 - name: high-quality-slides
   category: presentation-tools
   surface: skill
@@ -21668,6 +21756,8 @@ entries:
   - High-Quality Slides
   - SKILL.md layouts.md html-template.md README.md LICENSE
   - Usage
+  official_examples: []
+  official_links: []
 - name: Presentation Skill
   category: presentation-tools
   surface: skill
@@ -21690,6 +21780,8 @@ entries:
     bytes: 1859
   source_headings:
   - Presentation Skill
+  official_examples: []
+  official_links: []
 - name: presentation-writing-claude-skill
   category: presentation-tools
   surface: skill
@@ -21713,6 +21805,8 @@ entries:
   source_headings:
   - Presentation Narrative Skill for Claude
   - Usage
+  official_examples: []
+  official_links: []
 - name: mermaider
   category: diagram-generation
   surface: mcp
@@ -21766,6 +21860,7 @@ entries:
   source_headings:
   - 'The `mermaider` MCP server: fast, reliable Mermaid diagram syntax checker'
   - Usage Examples
+  official_examples: []
 - name: mcp-grafana
   category: data-dashboard
   surface: mcp
@@ -21824,3 +21919,458 @@ entries:
   - Dashboards
   - Query Examples
   - Usage
+  official_examples: []
+- name: slide-design-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/SlideSpeak/slide-design-skill
+  homepage: https://slidespeak.co
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: SlideSpeak presentation-design skill that derives a bespoke visual style from a topic, brand URL, reference
+    site, or moodboard and renders polished 1920x1080 HTML slide decks with charts, tables, and imagery.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slide-design-skill
+    bytes: 11166
+  - kind: homepage
+    url: https://slidespeak.co/
+    final_url: https://slidespeak.co/
+    status: 200
+    content_type: text/html
+    title: SlideSpeak – Free AI Presentation Maker for PowerPoint
+    description: AI presentation maker for teams. Turn ideas and documents into professional PowerPoint slides in minutes.
+      Native, editable .pptx export. Free to try.
+    bytes: 701846
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/SlideSpeak/slide-design-skill/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: pitch
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/ai-trust-layer-pitch.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: keynote
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/work-is-a-verb-keynote.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: report
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/trade-ledger-report.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: teaching
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/balance-sheet-explainer.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: consulting
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/cost-to-serve-teardown.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: template
+    title: Custom Templates Create AI presentations using your own PowerPoint template and slide master.
+    url: https://slidespeak.co/features/custom-template
+    source: https://slidespeak.co/
+  - kind: template
+    title: Design Context for AI Agents Give Claude, Codex, Cursor, and any MCP client direct access to your brand assets
+      and slide layouts.
+    url: https://slidespeak.co/features/onbrand
+    source: https://slidespeak.co/
+  - kind: video
+    title: AI Video from Presentation Transform your presentations into engaging videos with AI voiceovers.
+    url: https://slidespeak.co/features/ai-video-from-presentation
+    source: https://slidespeak.co/
+  - kind: template
+    title: Translate with AI Translate PowerPoint presentations with AI. Layout and formatting preserved.
+    url: https://slidespeak.co/features/ai-translation
+    source: https://slidespeak.co/
+  - kind: tutorial
+    title: For Education Enhance your lectures and course materials with engaging, AI-generated slides.
+    url: https://slidespeak.co/use-cases/education
+    source: https://slidespeak.co/
+  - kind: demo
+    title: Request Demo
+    url: https://slidespeak.co/book-meeting
+    source: https://slidespeak.co/
+  - kind: video
+    title: Extract Videos from PowerPoint
+    url: https://slidespeak.co/free-tools/extract-videos-from-powerpoint
+    source: https://slidespeak.co/
+  - kind: video
+    title: Convert PowerPoint to Video with AI
+    url: https://slidespeak.co/free-tools/convert-powerpoint-to-video-ai
+    source: https://slidespeak.co/
+  - kind: video
+    title: Convert YouTube to PowerPoint with AI
+    url: https://slidespeak.co/free-tools/convert-youtube-to-powerpoint
+    source: https://slidespeak.co/
+  - kind: paper
+    title: Convert Research Paper to Presentation
+    url: https://slidespeak.co/free-tools/convert-research-paper-to-presentation-ai
+    source: https://slidespeak.co/
+  official_docs:
+  - kind: docs
+    title: SlideSpeak API Use our API to integrate AI presentation generation into your own applications.
+    url: https://slidespeak.co/features/slidespeak-api
+    source: https://slidespeak.co/
+  - kind: docs
+    title: Create presentations from Word docs
+    url: https://slidespeak.co/features/create-presentations-from-word-with-ai
+    source: https://slidespeak.co/
+  - kind: docs
+    title: 'Artificial Intelligence Germán Calcedo • Jun 22, 2026 DESIGN.md and MCP: How They Work Together for AI Brand Guidelines
+      DESIGN.md and MCP solve different parts of the AI brand-guid'
+    url: https://slidespeak.co/blog/design-md-vs-mcp-ai-brand-guidelines
+    source: https://slidespeak.co/
+  - kind: docs
+    title: API Docs
+    url: https://docs.slidespeak.co
+    source: https://slidespeak.co/
+  - kind: docs
+    title: Guides
+    url: https://slidespeak.co/guides
+    source: https://slidespeak.co/
+  - kind: docs
+    title: Google Docs to Presentation Converter
+    url: https://slidespeak.co/free-tools/google-docs-to-presentation
+    source: https://slidespeak.co/
+  official_effect_assets:
+  - kind: image
+    title: Chromafield
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/chromafield.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Couture
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/couture.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Broadsheet
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/broadsheet.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Memphis
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/memphis.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Synthwave
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/synthwave.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Fieldnote
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/fieldnote.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Hypergradient
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/hypergradient.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Gridform
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/gridform.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Risoclub
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/risoclub.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Obscura
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/obscura.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Storytime
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/storytime.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: image
+    title: Anvil
+    url: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/anvil.jpg
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/SlideSpeak/slide-design-skill/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: pitch
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/ai-trust-layer-pitch.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: keynote
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/work-is-a-verb-keynote.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: report
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/trade-ledger-report.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: teaching
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/balance-sheet-explainer.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: example
+    title: consulting
+    url: https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/cost-to-serve-teardown.html
+    source: https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md
+  - kind: docs
+    title: SlideSpeak API Use our API to integrate AI presentation generation into your own applications.
+    url: https://slidespeak.co/features/slidespeak-api
+    source: https://slidespeak.co/
+  - kind: template
+    title: Custom Templates Create AI presentations using your own PowerPoint template and slide master.
+    url: https://slidespeak.co/features/custom-template
+    source: https://slidespeak.co/
+  - kind: template
+    title: Design Context for AI Agents Give Claude, Codex, Cursor, and any MCP client direct access to your brand assets
+      and slide layouts.
+    url: https://slidespeak.co/features/onbrand
+    source: https://slidespeak.co/
+  - kind: video
+    title: AI Video from Presentation Transform your presentations into engaging videos with AI voiceovers.
+    url: https://slidespeak.co/features/ai-video-from-presentation
+    source: https://slidespeak.co/
+  - kind: template
+    title: Translate with AI Translate PowerPoint presentations with AI. Layout and formatting preserved.
+    url: https://slidespeak.co/features/ai-translation
+    source: https://slidespeak.co/
+  - kind: tutorial
+    title: For Education Enhance your lectures and course materials with engaging, AI-generated slides.
+    url: https://slidespeak.co/use-cases/education
+    source: https://slidespeak.co/
+  - kind: demo
+    title: Request Demo
+    url: https://slidespeak.co/book-meeting
+    source: https://slidespeak.co/
+  - kind: docs
+    title: Create presentations from Word docs
+    url: https://slidespeak.co/features/create-presentations-from-word-with-ai
+    source: https://slidespeak.co/
+  - kind: docs
+    title: 'Artificial Intelligence Germán Calcedo • Jun 22, 2026 DESIGN.md and MCP: How They Work Together for AI Brand Guidelines
+      DESIGN.md and MCP solve different parts of the AI brand-guid'
+    url: https://slidespeak.co/blog/design-md-vs-mcp-ai-brand-guidelines
+    source: https://slidespeak.co/
+  - kind: docs
+    title: API Docs
+    url: https://docs.slidespeak.co
+    source: https://slidespeak.co/
+  - kind: docs
+    title: Guides
+    url: https://slidespeak.co/guides
+    source: https://slidespeak.co/
+  - kind: video
+    title: Extract Videos from PowerPoint
+    url: https://slidespeak.co/free-tools/extract-videos-from-powerpoint
+    source: https://slidespeak.co/
+  - kind: video
+    title: Convert PowerPoint to Video with AI
+    url: https://slidespeak.co/free-tools/convert-powerpoint-to-video-ai
+    source: https://slidespeak.co/
+  - kind: video
+    title: Convert YouTube to PowerPoint with AI
+    url: https://slidespeak.co/free-tools/convert-youtube-to-powerpoint
+    source: https://slidespeak.co/
+  - kind: paper
+    title: Convert Research Paper to Presentation
+    url: https://slidespeak.co/free-tools/convert-research-paper-to-presentation-ai
+    source: https://slidespeak.co/
+  - kind: docs
+    title: Google Docs to Presentation Converter
+    url: https://slidespeak.co/free-tools/google-docs-to-presentation
+    source: https://slidespeak.co/
+  source_headings:
+  - slide-design-skill
+  - Examples
+  - check the render for underfilled slides
+- name: html-slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/bluedusk/html-slides
+  homepage: https://htmlslides.com
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for Claude Code, Gemini, Codex, and Copilot that creates HTML presentations with speaker notes,
+    converts PPTX files to web slideshows, and targets the HTMLSlides presenter app.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: HTML Slides
+    bytes: 10948
+  - kind: homepage
+    url: https://htmlslides.com/
+    final_url: https://htmlslides.com/
+    status: 200
+    content_type: text/html
+    title: HTMLSlides — AI HTML Slide Generator + Presenter App
+    description: Generate HTML presentations with AI using Claude Code, Copilot, or Gemini CLI. Dual-display presenter mode,
+      speaker notes, timer, and laser pointer. Free, local-first.
+    bytes: 68913
+  official_examples:
+  - kind: demo
+    title: 'Live Demo: Introducing HTML Slides'
+    url: https://bluedusk.github.io/html-slides/introducing-html-slides.html
+    source: https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Quick Start
+    url: https://github.com/bluedusk/html-slides/blob/HEAD/QUICKSTART.md
+    source: https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://htmlslides.com/docs
+    source: https://htmlslides.com/
+  official_effect_assets:
+  - kind: image
+    title: HTMLSlides — AI HTML Slide Generator + Presenter App
+    url: https://htmlslides.com/og-image.png
+    source: https://htmlslides.com/
+  official_links:
+  - kind: docs
+    title: Quick Start
+    url: https://github.com/bluedusk/html-slides/blob/HEAD/QUICKSTART.md
+    source: https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md
+  - kind: demo
+    title: 'Live Demo: Introducing HTML Slides'
+    url: https://bluedusk.github.io/html-slides/introducing-html-slides.html
+    source: https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://htmlslides.com/docs
+    source: https://htmlslides.com/
+  source_headings:
+  - HTML Slides
+  - Sharing Your Presentations
+- name: pptx-mcp-live
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/ykarapazar/pptx-mcp-live
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP server for PowerPoint with 32 cross-platform python-pptx tools plus 26 Windows COM live-automation tools
+    for open decks, picture effects, shape formatting, transitions, and PDF/image export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ykarapazar/pptx-mcp-live/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ykarapazar/pptx-mcp-live/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptx-mcp-live
+    bytes: 8208
+  official_examples: []
+  official_links: []
+- name: claude-skill-academic-ppt
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/PHY041/claude-skill-academic-ppt
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for generating academic defense PPTX decks from LaTeX, PDFs, or text, with dual-engine figure
+    generation, action titles, speaker notes, and Q&A prediction.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/PHY041/claude-skill-academic-ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/PHY041/claude-skill-academic-ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: /academic-ppt — Academic Deck Engine
+    bytes: 8388
+  official_examples:
+  - kind: tutorial
+    title: Anthropic pptx skill
+    url: https://github.com/anthropics/courses/tree/master/prompt_engineering_interactive_tutorial/skills
+    source: https://raw.githubusercontent.com/PHY041/claude-skill-academic-ppt/HEAD/README.md
+  official_links:
+  - kind: tutorial
+    title: Anthropic pptx skill
+    url: https://github.com/anthropics/courses/tree/master/prompt_engineering_interactive_tutorial/skills
+    source: https://raw.githubusercontent.com/PHY041/claude-skill-academic-ppt/HEAD/README.md
+  source_headings:
+  - 学术答辩 PPT 自动生成 | Academic Presentation Generator
+  - 'Optional: Gemini image generation (for concept diagrams)'
+  - 'Optional: Mermaid (fallback for concept diagrams)'
+  - 3. Scene Templates / 场景模板
+- name: ppt-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/danny0926/ppt-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and text-to-PPTX pipeline for hand-drawn Rough.js-style visual slides, Playwright rendering,
+    and editable dual-layer PowerPoint output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/danny0926/ppt-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/danny0926/ppt-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Excalidraw Slides
+    bytes: 3896
+  official_docs:
+  - kind: docs
+    title: '`docs/SKILL.md`'
+    url: https://github.com/danny0926/ppt-skills/blob/HEAD/docs/SKILL.md
+    source: https://raw.githubusercontent.com/danny0926/ppt-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/SKILL.md`'
+    url: https://github.com/danny0926/ppt-skills/blob/HEAD/docs/SKILL.md
+    source: https://raw.githubusercontent.com/danny0926/ppt-skills/HEAD/README.md
+  source_headings:
+  - Excalidraw Slides
+  - Usage
+  - 2. Render slides to PNG
+  official_examples: []
+- name: mermaid-mcp-server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/peng-shawn/mermaid-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server that converts Mermaid diagram code into PNG or SVG files with configurable theme, background color,
+    and output format for multiple MCP clients.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/peng-shawn/mermaid-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/peng-shawn/mermaid-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mermaid MCP Server
+    bytes: 8062
+  official_docs:
+  - kind: docs
+    title: here
+    url: https://modelcontextprotocol.io/docs/tools/inspector
+    source: https://raw.githubusercontent.com/peng-shawn/mermaid-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: here
+    url: https://modelcontextprotocol.io/docs/tools/inspector
+    source: https://raw.githubusercontent.com/peng-shawn/mermaid-mcp-server/HEAD/README.md
+  source_headings:
+  - Usage
+  - Examples
+  - Basic Usage
+  official_examples: []

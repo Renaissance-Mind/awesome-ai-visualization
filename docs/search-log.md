@@ -305,6 +305,15 @@ Excluded if:
 - [mermaider](https://github.com/vtomilin/mermaider): MCP server that gives LLMs a reusable browser-backed Mermaid `validate_syntax` tool before committing or exporting diagrams.
 - [mcp-grafana](https://github.com/grafana/mcp-grafana): official Grafana MCP server for dashboard, datasource, panel-query, snapshot, deeplink, and PNG-rendering workflows.
 
+## Added in the 2026-07-04 Daily Refresh
+
+- [slide-design-skill](https://github.com/SlideSpeak/slide-design-skill): SlideSpeak agent skill that derives visual style from a topic, brand URL, reference site, or moodboard and renders 1920x1080 HTML decks with charts, tables, and imagery.
+- [html-slides](https://github.com/bluedusk/html-slides): agent skill for Claude Code, Gemini, Codex, and Copilot that creates HTML slide decks with speaker notes and can convert PPTX files into web slideshows.
+- [pptx-mcp-live](https://github.com/ykarapazar/pptx-mcp-live): PowerPoint MCP server with cross-platform python-pptx tools plus Windows COM live automation for open decks, effects, transitions, and PDF/image export.
+- [claude-skill-academic-ppt](https://github.com/PHY041/claude-skill-academic-ppt): Claude Code skill for academic defense PPTX decks from LaTeX, PDFs, or text, with figure generation, speaker notes, and Q&A preparation.
+- [ppt-skills](https://github.com/danny0926/ppt-skills): Claude Code text-to-PPTX skill for hand-drawn Rough.js-style visual slides, Playwright rendering, and editable dual-layer PowerPoint output.
+- [mermaid-mcp-server](https://github.com/peng-shawn/mermaid-mcp-server): MCP server that converts Mermaid diagram code into PNG or SVG files with theme and background controls.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.
