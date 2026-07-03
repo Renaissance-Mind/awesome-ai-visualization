@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-07-02T23:07:51+00:00",
-  "lastResearched": "2026-07-03",
+  "generatedAt": "2026-07-03T23:06:05+00:00",
+  "lastResearched": "2026-07-04",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 216,
+    "total": 222,
     "openSource": 65,
     "saas": 40,
-    "modelApi": 90,
-    "examples": 734,
-    "effectAssets": 858,
-    "docs": 685
+    "modelApi": 92,
+    "examples": 748,
+    "effectAssets": 871,
+    "docs": 695
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 36,
-      "PDF/文档": 79,
-      "文本/想法": 118,
-      "数据/表格": 53,
-      "代码/技术描述": 34,
+      "论文/科研资料": 37,
+      "PDF/文档": 80,
+      "文本/想法": 124,
+      "数据/表格": 56,
+      "代码/技术描述": 35,
       "代码库": 25,
-      "DSL/代码": 29,
-      "网页/搜索结果": 66,
+      "DSL/代码": 32,
+      "网页/搜索结果": 67,
       "新闻/资讯": 9,
       "知识库/个人资料": 11,
       "任意/多源": 23,
       "引用网络": 4,
-      "Office 文档": 20,
+      "Office 文档": 22,
       "数据库": 14
     },
     "toolForms": {
       "开源应用/框架": 65,
-      "Agent Skill": 51,
+      "Agent Skill": 55,
       "Skill 集合": 20,
       "数据集/评测": 2,
       "Bot/助手": 7,
       "产品/SaaS": 40,
-      "MCP Server": 31,
+      "MCP Server": 33,
       "研究原型": 4,
       "API/SDK/库": 15,
       "Awesome/索引": 14
     },
     "outputForms": {
-      "图形摘要/信息图": 15,
-      "PPT/演示文稿": 83,
-      "网页/交互页面": 40,
+      "图形摘要/信息图": 16,
+      "PPT/演示文稿": 88,
+      "网页/交互页面": 42,
       "问答/学习材料": 7,
       "报告/长文档": 24,
       "证据表": 8,
-      "信息图/视觉报告": 25,
-      "图表/仪表盘": 37,
+      "信息图/视觉报告": 27,
+      "图表/仪表盘": 38,
       "架构图/流程图": 44,
       "白板/思维导图": 15,
-      "图表/Mermaid": 24,
-      "SVG/PNG/PDF": 50,
+      "图表/Mermaid": 25,
+      "SVG/PNG/PDF": 53,
       "表格/时间线": 3,
       "报告/简报": 22,
       "引用答案": 4,
@@ -65,18 +65,18 @@
       "工具索引": 16
     },
     "dependencies": {
-      "本地语言环境": 144,
-      "模型 API": 90,
-      "文档解析/OCR": 34,
-      "渲染/导出": 142,
+      "本地语言环境": 150,
+      "模型 API": 92,
+      "文档解析/OCR": 35,
+      "渲染/导出": 148,
       "GPU/加速器": 7,
-      "模板/素材": 87,
-      "Agent 宿主": 77,
-      "系统工具": 23,
+      "模板/素材": 91,
+      "Agent 宿主": 81,
+      "系统工具": 24,
       "外部检索/数据源": 37,
       "存储/索引": 25,
       "浏览器/账号": 63,
-      "MCP Client": 33,
+      "MCP Client": 35,
       "代码分析工具": 19
     },
     "categories": {
@@ -86,10 +86,10 @@
       "infographic-report": 17,
       "data-dashboard": 20,
       "literature-map": 4,
-      "presentation-tools": 49,
+      "presentation-tools": 54,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 24,
+      "diagram-generation": 25,
       "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 17
@@ -101,9 +101,9 @@
       "support_mindmap": 6,
       "docs": 5,
       "support_doc_parse": 8,
-      "presentation": 60,
+      "presentation": 65,
       "code": 18,
-      "support_render": 22,
+      "support_render": 23,
       "diagrams": 2,
       "data": 16,
       "video": 7,
@@ -10796,6 +10796,439 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "slide-design-skill",
+      "url": "https://github.com/SlideSpeak/slide-design-skill",
+      "primaryUrl": "https://github.com/SlideSpeak/slide-design-skill",
+      "homepage": "https://slidespeak.co",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-06-29",
+      "note": "SlideSpeak presentation-design skill that derives a bespoke visual style from a topic, brand URL, reference site, or moodboard and renders polished 1920x1080 HTML slide decks with charts, tables, and imagery.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "SlideSpeak API Use our API to integrate AI presentation generation into your own applications.",
+          "url": "https://slidespeak.co/features/slidespeak-api",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "docs",
+          "title": "Create presentations from Word docs",
+          "url": "https://slidespeak.co/features/create-presentations-from-word-with-ai",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "docs",
+          "title": "Artificial Intelligence Germán Calcedo • Jun 22, 2026 DESIGN.md and MCP: How They Work Together for AI Brand Guidelines DESIGN.md and MCP solve different parts of the AI brand-guid",
+          "url": "https://slidespeak.co/blog/design-md-vs-mcp-ai-brand-guidelines",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "docs",
+          "title": "API Docs",
+          "url": "https://docs.slidespeak.co",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "docs",
+          "title": "Guides",
+          "url": "https://slidespeak.co/guides",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "docs",
+          "title": "Google Docs to Presentation Converter",
+          "url": "https://slidespeak.co/free-tools/google-docs-to-presentation",
+          "source": "https://slidespeak.co/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/SlideSpeak/slide-design-skill/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "pitch",
+          "url": "https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/ai-trust-layer-pitch.html",
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "keynote",
+          "url": "https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/work-is-a-verb-keynote.html",
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "report",
+          "url": "https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/trade-ledger-report.html",
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "teaching",
+          "url": "https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/balance-sheet-explainer.html",
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "consulting",
+          "url": "https://htmlpreview.github.io/?https://github.com/SlideSpeak/slide-design-skill/blob/main/examples/cost-to-serve-teardown.html",
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Custom Templates Create AI presentations using your own PowerPoint template and slide master.",
+          "url": "https://slidespeak.co/features/custom-template",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "template",
+          "title": "Design Context for AI Agents Give Claude, Codex, Cursor, and any MCP client direct access to your brand assets and slide layouts.",
+          "url": "https://slidespeak.co/features/onbrand",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "video",
+          "title": "AI Video from Presentation Transform your presentations into engaging videos with AI voiceovers.",
+          "url": "https://slidespeak.co/features/ai-video-from-presentation",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "template",
+          "title": "Translate with AI Translate PowerPoint presentations with AI. Layout and formatting preserved.",
+          "url": "https://slidespeak.co/features/ai-translation",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "For Education Enhance your lectures and course materials with engaging, AI-generated slides.",
+          "url": "https://slidespeak.co/use-cases/education",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "demo",
+          "title": "Request Demo",
+          "url": "https://slidespeak.co/book-meeting",
+          "source": "https://slidespeak.co/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Chromafield",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/chromafield.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Couture",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/couture.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Broadsheet",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/broadsheet.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Memphis",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/memphis.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Synthwave",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/synthwave.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Fieldnote",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/fieldnote.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Hypergradient",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/hypergradient.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gridform",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/gridform.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Risoclub",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/risoclub.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Obscura",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/obscura.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Storytime",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/storytime.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Anvil",
+          "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/assets/examples/anvil.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 16,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "html-slides",
+      "url": "https://github.com/bluedusk/html-slides",
+      "primaryUrl": "https://github.com/bluedusk/html-slides",
+      "homepage": "https://htmlslides.com",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 58,
+      "license": "MIT",
+      "updated": "2026-07-03",
+      "note": "Agent skill for Claude Code, Gemini, Codex, and Copilot that creates HTML presentations with speaker notes, converts PPTX files to web slideshows, and targets the HTMLSlides presenter app.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Quick Start",
+          "url": "https://github.com/bluedusk/html-slides/blob/HEAD/QUICKSTART.md",
+          "source": "https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://htmlslides.com/docs",
+          "source": "https://htmlslides.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Live Demo: Introducing HTML Slides",
+          "url": "https://bluedusk.github.io/html-slides/introducing-html-slides.html",
+          "source": "https://raw.githubusercontent.com/bluedusk/html-slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "HTMLSlides — AI HTML Slide Generator + Presenter App",
+          "url": "https://htmlslides.com/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://htmlslides.com/"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "pptx-mcp-live",
+      "url": "https://github.com/ykarapazar/pptx-mcp-live",
+      "primaryUrl": "https://github.com/ykarapazar/pptx-mcp-live",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-06-18",
+      "note": "MCP server for PowerPoint with 32 cross-platform python-pptx tools plus 26 Windows COM live-automation tools for open decks, picture effects, shape formatting, transitions, and PDF/image export.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "claude-skill-academic-ppt",
+      "url": "https://github.com/PHY041/claude-skill-academic-ppt",
+      "primaryUrl": "https://github.com/PHY041/claude-skill-academic-ppt",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 19,
+      "license": "unknown",
+      "updated": "2026-07-01",
+      "note": "Claude Code skill for generating academic defense PPTX decks from LaTeX, PDFs, or text, with dual-engine figure generation, action titles, speaker notes, and Q&A prediction.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Anthropic pptx skill",
+          "url": "https://github.com/anthropics/courses/tree/master/prompt_engineering_interactive_tutorial/skills",
+          "source": "https://raw.githubusercontent.com/PHY041/claude-skill-academic-ppt/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ppt-skills",
+      "url": "https://github.com/danny0926/ppt-skills",
+      "primaryUrl": "https://github.com/danny0926/ppt-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-07-01",
+      "note": "Claude Code skill and text-to-PPTX pipeline for hand-drawn Rough.js-style visual slides, Playwright rendering, and editable dual-layer PowerPoint output.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/SKILL.md`",
+          "url": "https://github.com/danny0926/ppt-skills/blob/HEAD/docs/SKILL.md",
+          "source": "https://raw.githubusercontent.com/danny0926/ppt-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "typst-claude-skill",
       "url": "https://github.com/ChanMeng666/typst-claude-skill",
       "primaryUrl": "https://github.com/ChanMeng666/typst-claude-skill",
@@ -13958,6 +14391,50 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 4
+    },
+    {
+      "name": "mermaid-mcp-server",
+      "url": "https://github.com/peng-shawn/mermaid-mcp-server",
+      "primaryUrl": "https://github.com/peng-shawn/mermaid-mcp-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 231,
+      "license": "MIT",
+      "updated": "2026-07-03",
+      "note": "MCP server that converts Mermaid diagram code into PNG or SVG files with configurable theme, background color, and output format for multiple MCP clients.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "here",
+          "url": "https://modelcontextprotocol.io/docs/tools/inspector",
+          "source": "https://raw.githubusercontent.com/peng-shawn/mermaid-mcp-server/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "mcp-media-forge",
@@ -18225,30 +18702,6 @@
           "source": "https://slidespeak.co/"
         },
         {
-          "kind": "template",
-          "title": "https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "url": "https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "source": "https://slidespeak.co/"
-        },
-        {
-          "kind": "template",
-          "title": "https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "url": "https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "source": "https://slidespeak.co/"
-        },
-        {
-          "kind": "template",
-          "title": "https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "url": "https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "source": "https://slidespeak.co/"
-        },
-        {
-          "kind": "template",
-          "title": "https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "url": "https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
-          "source": "https://slidespeak.co/"
-        },
-        {
           "kind": "video",
           "title": "Extract Videos from PowerPoint",
           "url": "https://slidespeak.co/free-tools/extract-videos-from-powerpoint",
@@ -18258,6 +18711,18 @@
           "kind": "video",
           "title": "Convert PowerPoint to Video with AI",
           "url": "https://slidespeak.co/free-tools/convert-powerpoint-to-video-ai",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "video",
+          "title": "Convert YouTube to PowerPoint with AI",
+          "url": "https://slidespeak.co/free-tools/convert-youtube-to-powerpoint",
+          "source": "https://slidespeak.co/"
+        },
+        {
+          "kind": "paper",
+          "title": "Convert Research Paper to Presentation",
+          "url": "https://slidespeak.co/free-tools/convert-research-paper-to-presentation-ai",
           "source": "https://slidespeak.co/"
         }
       ],
@@ -18285,7 +18750,7 @@
         }
       ],
       "docsCount": 6,
-      "examplesCount": 14,
+      "examplesCount": 10,
       "effectAssetsCount": 3
     },
     {
