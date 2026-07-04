@@ -1,4 +1,4 @@
-generated_at: '2026-07-03T23:06:05+00:00'
+generated_at: '2026-07-04T23:30:52+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 222
-  fetched_sources_ok: 301
-  fetched_sources_failed: 19
-  official_examples: 748
-  official_effect_assets: 871
-  official_docs: 695
+  entries: 229
+  fetched_sources_ok: 313
+  fetched_sources_failed: 20
+  official_examples: 765
+  official_effect_assets: 890
+  official_docs: 750
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -22374,3 +22374,962 @@ entries:
   - Examples
   - Basic Usage
   official_examples: []
+- name: Social Card Images for AI Agents
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/kostja94/social-cards-skills
+  homepage: https://oginify.com
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skills for programmatic OG and Twitter/X card images with 1200px social-card formats, Satori and resvg
+    layout, AI or hybrid texture pipelines, visual styles, templates, and reusable agent-native workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Social Card Images for AI Agents
+    bytes: 9292
+  - kind: homepage
+    url: https://oginify.com/
+    final_url: https://oginify.com/
+    status: 200
+    content_type: text/html
+    title: AI Open Graph Image Generator — Oginify
+    description: Paste a URL for four 1200×630 Open Graph cards — one on-brand, three wildcards. 5 free credits daily; screenshots
+      & templates free. Open source. No signup.
+    bytes: 70488
+  official_examples:
+  - kind: template
+    title: Templates
+    url: https://oginify.com/templates
+    source: https://oginify.com/
+  - kind: showcase
+    title: Gallery
+    url: https://oginify.com/gallery
+    source: https://oginify.com/
+  official_docs:
+  - kind: docs
+    title: pipeline-guide
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/pipeline-guide.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: content-strategy
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/content-strategy.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: style-system-v3
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/style-system-v3.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: style-system
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/style-system.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: typography
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/typography.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: font-loading
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/font-loading.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: satori-constraints
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/satori-constraints.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: twitter-specific
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/twitter-card-image-generator/references/twitter-specific.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Page Comparison Devtool
+    url: https://oginify.com/og/page-comparison-devtool.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Page Comparison
+    url: https://oginify.com/og/page-comparison.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Page Comparison Saas
+    url: https://oginify.com/og/page-comparison-saas.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Style Swiss Comparison
+    url: https://oginify.com/og/style-swiss-comparison.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Page Comparison Ecommerce
+    url: https://oginify.com/og/page-comparison-ecommerce.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Page Comparison Content
+    url: https://oginify.com/og/page-comparison-content.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Example Open Graph card generated by Oginify
+    url: https://oginify.com/og/website-saas-homepage.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: AI Open Graph Image Generator — Oginify
+    url: https://oginify.com/og/home.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Style Brutalist
+    url: https://oginify.com/og/style-brutalist.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Website Saas
+    url: https://oginify.com/og/website-saas.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Page Homepage
+    url: https://oginify.com/og/page-homepage.jpg
+    source: https://oginify.com/
+  - kind: image
+    title: Style Swiss Meridian
+    url: https://oginify.com/og/style-swiss-meridian.jpg
+    source: https://oginify.com/
+  official_links:
+  - kind: docs
+    title: pipeline-guide
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/pipeline-guide.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: content-strategy
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/content-strategy.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: style-system-v3
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/style-system-v3.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: style-system
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/style-system.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: typography
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/typography.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: font-loading
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/font-loading.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: satori-constraints
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/satori-constraints.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: docs
+    title: twitter-specific
+    url: https://github.com/kostja94/social-cards-skills/blob/HEAD/twitter-card-image-generator/references/twitter-specific.md
+    source: https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md
+  - kind: template
+    title: Templates
+    url: https://oginify.com/templates
+    source: https://oginify.com/
+  - kind: showcase
+    title: Gallery
+    url: https://oginify.com/gallery
+    source: https://oginify.com/
+  source_headings:
+  - 16 Visual Styles + Dual Pipeline
+  - Texture-Type (AI/Hybrid Pipeline — visual richness, hybrid text accuracy)
+  - Templates & Frameworks
+  - Docs & References
+- name: gemini-infographic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/charlie947/social-media-skills/blob/main/skills/gemini-infographic/SKILL.md
+  homepage: https://github.com/charlie947/social-media-skills
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 模板/素材
+  catalog_note: Social-media skill that converts source content, posts, newsletters, blogs, or research notes into structured
+    Gemini prompts for hand-drawn whiteboard infographics and visual summaries.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/charlie947/social-media-skills/main/skills/gemini-infographic/SKILL.md
+    final_url: https://raw.githubusercontent.com/charlie947/social-media-skills/main/skills/gemini-infographic/SKILL.md
+    status: 200
+    content_type: text/plain
+    title: Gemini Infographic
+    bytes: 3647
+  - kind: homepage
+    url: https://github.com/charlie947/social-media-skills
+    final_url: https://github.com/charlie947/social-media-skills
+    status: 200
+    content_type: text/html
+    title: GitHub - charlie947/social-media-skills · GitHub
+    description: Contribute to charlie947/social-media-skills development by creating an account on GitHub.
+    bytes: 341947
+  official_examples:
+  - kind: video
+    title: youtube-thumbnail
+    url: https://github.com/charlie947/social-media-skills/blob/main/skills/youtube-thumbnail
+    source: https://github.com/charlie947/social-media-skills
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/charlie947/social-media-skills
+  - kind: docs
+    title: documentation
+    url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+    source: https://github.com/charlie947/social-media-skills
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/charlie947/social-media-skills
+  official_links:
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/charlie947/social-media-skills
+  - kind: docs
+    title: documentation
+    url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+    source: https://github.com/charlie947/social-media-skills
+  - kind: video
+    title: youtube-thumbnail
+    url: https://github.com/charlie947/social-media-skills/blob/main/skills/youtube-thumbnail
+    source: https://github.com/charlie947/social-media-skills
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/charlie947/social-media-skills
+- name: notebooklm-py
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/teng-lin/notebooklm-py
+  homepage: https://pypi.org/project/notebooklm-py/
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Unofficial NotebookLM Python API, CLI, and agent skill for bulk-importing URLs, PDFs, YouTube, and Drive sources,
+    then generating and downloading slide decks, infographics, mind maps, audio, video, quizzes, flashcards, tables, PDFs,
+    PNGs, CSV, JSON, and Markdown.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: notebooklm-py
+    bytes: 19422
+  - kind: homepage
+    url: https://pypi.org/project/notebooklm-py/
+    final_url: https://pypi.org/project/notebooklm-py/
+    status: 200
+    content_type: text/html
+    title: notebooklm-py · PyPI
+    description: Unofficial Python library for automating Google NotebookLM
+    bytes: 111273
+  official_examples:
+  - kind: video
+    title: a browser-free YouTube→notebook→cited-answers pipeline driven entirely from the terminal
+    url: https://artemxtech.substack.com/p/notebooklm-has-a-knowledge-graph
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: tutorial
+    title: installing packages
+    url: https://packaging.python.org/tutorials/installing-packages/
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: tutorial
+    title: Uploading packages
+    url: https://packaging.python.org/tutorials/packaging-projects/
+    source: https://pypi.org/project/notebooklm-py/
+  official_docs:
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Deep Research
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/cli-reference.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: MCP server
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/mcp-guide.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Python API
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/python-api.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: docs/installation.md
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/installation.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Configuration
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/configuration.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Release Guide
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: API Stability
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/stability.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Upgrading to v0.8.0
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/upgrading-to-0.8.0.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/development.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: RPC Development
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/rpc-development.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: RPC Reference
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/rpc-reference.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://docs.pypi.org/
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Documentation
+    url: https://github.com/teng-lin/notebooklm-py
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/troubleshooting.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: docs/installation.md
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/installation.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: CLI Reference
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/cli-reference.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Python API
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/python-api.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Configuration
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/configuration.md
+    source: https://pypi.org/project/notebooklm-py/
+  official_effect_assets:
+  - kind: video
+    title: '"Claude Code + NotebookLM = CHEAT CODE"'
+    url: https://www.youtube.com/watch?v=usTeU4Uh0iM
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: video
+    title: '"…+ Obsidian = GOD MODE"'
+    url: https://www.youtube.com/watch?v=kU3qYQ7ACMA
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Deep Research
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/cli-reference.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: MCP server
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/mcp-guide.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Python API
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/python-api.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: video
+    title: a browser-free YouTube→notebook→cited-answers pipeline driven entirely from the terminal
+    url: https://artemxtech.substack.com/p/notebooklm-has-a-knowledge-graph
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: docs/installation.md
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/installation.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Configuration
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/configuration.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Release Guide
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: API Stability
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/stability.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Upgrading to v0.8.0
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/upgrading-to-0.8.0.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/development.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: RPC Development
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/rpc-development.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: RPC Reference
+    url: https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/rpc-reference.md
+    source: https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://docs.pypi.org/
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Documentation
+    url: https://github.com/teng-lin/notebooklm-py
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/troubleshooting.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: docs/installation.md
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/installation.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: CLI Reference
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/cli-reference.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Python API
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/python-api.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Configuration
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/configuration.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Release Guide
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/releasing.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: API Stability
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/stability.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Upgrading to v0.8.0
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/upgrading-to-0.8.0.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Architecture
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/architecture.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/development.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: RPC Development
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/rpc-development.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: RPC Reference
+    url: https://github.com/teng-lin/notebooklm-py/blob/v0.7.3/docs/rpc-reference.md
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: tutorial
+    title: installing packages
+    url: https://packaging.python.org/tutorials/installing-packages/
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: https://docs.pypi.org/attestations/publish/v1
+    url: https://docs.pypi.org/attestations/publish/v1
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: tutorial
+    title: Uploading packages
+    url: https://packaging.python.org/tutorials/packaging-projects/
+    source: https://pypi.org/project/notebooklm-py/
+  - kind: docs
+    title: User guide
+    url: https://packaging.python.org/
+    source: https://pypi.org/project/notebooklm-py/
+  source_headings:
+  - Documentation
+- name: SlideSmith AI
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/SalmanSattar01/docweaver
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  catalog_note: Local document-to-presentation generator that turns PDFs, Markdown, Word documents, and plain text into structured
+    slide narratives with local AI backends and PPTX, PDF, or HTML export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SalmanSattar01/docweaver/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SalmanSattar01/docweaver/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SlideSmith AI – Turn Your Documents Into Polished Presentations Without a Single Upload
+    bytes: 9475
+  source_headings:
+  - SlideSmith AI – Turn Your Documents Into Polished Presentations Without a Single Upload
+  - Why SlideSmith AI Exists
+  - Mermaid Diagram – How SlideSmith AI Works
+  - Example Profile Configuration
+  - ~/.slidesmith/config.yaml
+  - Example Console Invocation
+- name: gemini-diagram-mcp
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/arunsanna/gemini-diagram-mcp
+  homepage: https://www.npmjs.com/package/gemini-diagram-mcp
+  dependencies:
+  - MCP Client
+  - 模型 API
+  - 渲染/导出
+  catalog_note: MCP server that uses Gemini image generation on Vertex AI to create diagrams, charts, and visualizations from
+    natural language, with smart diagram-type detection, prompt preparation, iterative refinement, and generated-image validation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/arunsanna/gemini-diagram-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/arunsanna/gemini-diagram-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: gemini-diagram-mcp
+    bytes: 16803
+  - kind: homepage
+    url: https://www.npmjs.com/package/gemini-diagram-mcp
+    final_url: https://www.npmjs.com/package/gemini-diagram-mcp
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - gemini-diagram-mcp
+  - OIDC_ISSUER=https://issuer.example.com/realms/your-realm
+  - OIDC_JWKS_URI=https://issuer.example.com/.../jwks.json
+  - CLI Usage
+  - Usage Examples
+- name: MCP Visuals Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/harrybin/visuals-mcp
+  homepage: http://harrybin.de/visuals-mcp/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server that lets AI agents display interactive tables, Recharts charts, image previews with metadata,
+    master-detail views, hierarchical trees, custom lists, and exportable table/chart payloads inside the host application.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Visuals Server
+    bytes: 8108
+  - kind: homepage
+    url: http://harrybin.de/visuals-mcp/
+    final_url: http://harrybin.de/visuals-mcp/
+    status: 200
+    content_type: text/html
+    title: storybook - Storybook
+    bytes: 3636
+  official_examples:
+  - kind: example
+    title: MCP Apps Examples
+    url: https://github.com/modelcontextprotocol/ext-apps/tree/main/examples
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: MCP Apps Documentation
+    url: https://modelcontextprotocol.github.io/ext-apps/api/
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: docs
+    title: TanStack Table Docs
+    url: https://tanstack.com/table/latest
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: docs
+    title: Recharts Documentation
+    url: https://recharts.org/
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: docs
+    title: VS Code MCP Guide
+    url: https://code.visualstudio.com/docs/copilot/guides/mcp-developer-guide
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Table Example
+    url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/table-example.png
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: image
+    title: Chart Example
+    url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/screenshots/chart-grid.png
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: image
+    title: Master-Detail Example
+    url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/master-detail-example.png
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: image
+    title: List Example
+    url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/list-example.png
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: image
+    title: Tree Example
+    url: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/tree-example.png
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Apps Documentation
+    url: https://modelcontextprotocol.github.io/ext-apps/api/
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: example
+    title: MCP Apps Examples
+    url: https://github.com/modelcontextprotocol/ext-apps/tree/main/examples
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: docs
+    title: TanStack Table Docs
+    url: https://tanstack.com/table/latest
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: docs
+    title: Recharts Documentation
+    url: https://recharts.org/
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  - kind: docs
+    title: VS Code MCP Guide
+    url: https://code.visualstudio.com/docs/copilot/guides/mcp-developer-guide
+    source: https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md
+  source_headings:
+  - MCP Visuals Server
+  - Table Visualization
+  - Chart Visualization
+  - List Visualization
+  - Repository Metrics Dashboard Example
+- name: HeyClaude
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/JSONbored/awesome-claude
+  homepage: https://heyclau.de
+  dependencies:
+  - 浏览器/账号
+  catalog_note: File-backed, human-reviewed Claude workflow directory and machine-readable registry covering agents, MCP servers,
+    skills, tools, hooks, commands, guides, templates, feeds, JSON exports, Raycast integration, and a read-only MCP package.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Explore The Directory
+    bytes: 398077
+  - kind: homepage
+    url: https://heyclau.de/
+    final_url: https://heyclau.de/
+    status: 200
+    content_type: text/html
+    title: HeyClaude — directory for Claude Code, MCP, agents, skills & hooks
+    description: Search, compare, and inspect trust on Claude Code MCP servers, skills, hooks, commands, agents, and tools.
+      GitHub-native, source-backed, reviewed.
+    bytes: 290795
+  official_examples:
+  - kind: paper
+    title: Inspect AI Benchmark Rubric Agent
+    url: https://heyclau.de/entry/agents/inspect-ai-benchmark-rubric-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: demo
+    title: Sandbox Boundary Review Agent
+    url: https://heyclau.de/entry/agents/sandbox-boundary-review-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: arXiv MCP Server
+    url: https://heyclau.de/entry/mcp/arxiv-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Financial Datasets MCP Server
+    url: https://heyclau.de/entry/mcp/financial-datasets-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: video
+    title: Invideo MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/invideo-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: demo
+    title: Microsandbox MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/microsandbox-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Paper Search MCP Server
+    url: https://heyclau.de/entry/mcp/paper-search-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: video
+    title: Short Video Maker MCP Server
+    url: https://heyclau.de/entry/mcp/short-video-maker-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: video
+    title: YouTube MCP Server
+    url: https://heyclau.de/entry/mcp/youtube-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Hugging Face Datasets
+    url: https://heyclau.de/entry/tools/hugging-face-datasets
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Submission gate ops
+    url: https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/submission-queue-ops.md
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: package trust model
+    url: https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/package-security-policy.md
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: API security contract
+    url: https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/api-security-contract.md
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Allways Agent Quickstart for Claude
+    url: https://heyclau.de/entry/agents/allways-agent-quickstart
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: API Builder Agent for Claude
+    url: https://heyclau.de/entry/agents/api-builder-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Buf Protobuf API Review Agent
+    url: https://heyclau.de/entry/agents/buf-protobuf-api-review-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Technical Doc Writer
+    url: https://heyclau.de/entry/agents/technical-documentation-writer-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Vale Documentation Maintenance Agent
+    url: https://heyclau.de/entry/agents/vale-documentation-maintenance-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Tandem Docs MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/ac-tandem-docs-mcp-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: CueAPI MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/ai-cueapi-mcp-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Apify MCP Server
+    url: https://heyclau.de/entry/mcp/apify-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Apple Docs MCP Server
+    url: https://heyclau.de/entry/mcp/apple-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Docs MCP Server for Claude (Grounded Docs)
+    url: https://heyclau.de/entry/mcp/arabold-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: AWS Documentation MCP Server
+    url: https://heyclau.de/entry/mcp/aws-documentation-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: ContrastAPI Security Tools
+    url: https://heyclau.de/entry/mcp/contrastapi-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Data API Builder MCP Tools
+    url: https://heyclau.de/entry/mcp/data-api-builder-mcp-tools
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: FastAPI-MCP Server
+    url: https://heyclau.de/entry/mcp/fastapi-mcp
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: GitBook Published Docs MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/gitbook-published-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: GitMCP Docs Server
+    url: https://heyclau.de/entry/mcp/gitmcp-docs-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: HAPI MCP Server
+    url: https://heyclau.de/entry/mcp/hapi-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Submission gate ops
+    url: https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/submission-queue-ops.md
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: package trust model
+    url: https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/package-security-policy.md
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: API security contract
+    url: https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/api-security-contract.md
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Allways Agent Quickstart for Claude
+    url: https://heyclau.de/entry/agents/allways-agent-quickstart
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: API Builder Agent for Claude
+    url: https://heyclau.de/entry/agents/api-builder-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Buf Protobuf API Review Agent
+    url: https://heyclau.de/entry/agents/buf-protobuf-api-review-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Inspect AI Benchmark Rubric Agent
+    url: https://heyclau.de/entry/agents/inspect-ai-benchmark-rubric-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: demo
+    title: Sandbox Boundary Review Agent
+    url: https://heyclau.de/entry/agents/sandbox-boundary-review-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Technical Doc Writer
+    url: https://heyclau.de/entry/agents/technical-documentation-writer-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Vale Documentation Maintenance Agent
+    url: https://heyclau.de/entry/agents/vale-documentation-maintenance-agent
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Tandem Docs MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/ac-tandem-docs-mcp-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: CueAPI MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/ai-cueapi-mcp-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Apify MCP Server
+    url: https://heyclau.de/entry/mcp/apify-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Apple Docs MCP Server
+    url: https://heyclau.de/entry/mcp/apple-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Docs MCP Server for Claude (Grounded Docs)
+    url: https://heyclau.de/entry/mcp/arabold-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: arXiv MCP Server
+    url: https://heyclau.de/entry/mcp/arxiv-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: AWS Documentation MCP Server
+    url: https://heyclau.de/entry/mcp/aws-documentation-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: ContrastAPI Security Tools
+    url: https://heyclau.de/entry/mcp/contrastapi-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Data API Builder MCP Tools
+    url: https://heyclau.de/entry/mcp/data-api-builder-mcp-tools
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: FastAPI-MCP Server
+    url: https://heyclau.de/entry/mcp/fastapi-mcp
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Financial Datasets MCP Server
+    url: https://heyclau.de/entry/mcp/financial-datasets-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: GitBook Published Docs MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/gitbook-published-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: GitMCP Docs Server
+    url: https://heyclau.de/entry/mcp/gitmcp-docs-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: HAPI MCP Server
+    url: https://heyclau.de/entry/mcp/hapi-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: video
+    title: Invideo MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/invideo-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Langfuse Docs MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/langfuse-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: LiveKit Docs MCP Server
+    url: https://heyclau.de/entry/mcp/livekit-docs-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: mcpo MCP OpenAPI Proxy
+    url: https://heyclau.de/entry/mcp/mcpo-mcp-openapi-proxy
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: demo
+    title: Microsandbox MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/microsandbox-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: OpenAPI MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/openapi-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Paper Search MCP Server
+    url: https://heyclau.de/entry/mcp/paper-search-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: pg-aiguide MCP Server
+    url: https://heyclau.de/entry/mcp/pg-aiguide-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: video
+    title: Short Video Maker MCP Server
+    url: https://heyclau.de/entry/mcp/short-video-maker-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Vapi MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/vapi-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: video
+    title: YouTube MCP Server
+    url: https://heyclau.de/entry/mcp/youtube-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Zapier MCP Server for Claude
+    url: https://heyclau.de/entry/mcp/zapier-mcp-server
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: Apify
+    url: https://heyclau.de/entry/tools/apify
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: ccusage
+    url: https://heyclau.de/entry/tools/ccusage
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: paper
+    title: Hugging Face Datasets
+    url: https://heyclau.de/entry/tools/hugging-face-datasets
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  - kind: docs
+    title: OpenAPI Generator
+    url: https://heyclau.de/entry/tools/openapi-generator
+    source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
+  source_headings:
+  - Project Docs

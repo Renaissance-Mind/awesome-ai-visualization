@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-07-03T23:06:05+00:00",
-  "lastResearched": "2026-07-04",
+  "generatedAt": "2026-07-04T23:30:52+00:00",
+  "lastResearched": "2026-07-05",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 222,
-    "openSource": 65,
+    "total": 229,
+    "openSource": 66,
     "saas": 40,
-    "modelApi": 92,
-    "examples": 748,
-    "effectAssets": 871,
-    "docs": 695
+    "modelApi": 96,
+    "examples": 765,
+    "effectAssets": 890,
+    "docs": 750
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 37,
-      "PDF/文档": 80,
-      "文本/想法": 124,
-      "数据/表格": 56,
-      "代码/技术描述": 35,
+      "PDF/文档": 82,
+      "文本/想法": 128,
+      "数据/表格": 58,
+      "代码/技术描述": 36,
       "代码库": 25,
       "DSL/代码": 32,
-      "网页/搜索结果": 67,
-      "新闻/资讯": 9,
-      "知识库/个人资料": 11,
-      "任意/多源": 23,
+      "网页/搜索结果": 70,
+      "新闻/资讯": 11,
+      "知识库/个人资料": 13,
+      "任意/多源": 26,
       "引用网络": 4,
-      "Office 文档": 22,
+      "Office 文档": 23,
       "数据库": 14
     },
     "toolForms": {
-      "开源应用/框架": 65,
-      "Agent Skill": 55,
+      "开源应用/框架": 66,
+      "Agent Skill": 58,
       "Skill 集合": 20,
       "数据集/评测": 2,
       "Bot/助手": 7,
       "产品/SaaS": 40,
-      "MCP Server": 33,
+      "MCP Server": 36,
       "研究原型": 4,
-      "API/SDK/库": 15,
-      "Awesome/索引": 14
+      "API/SDK/库": 16,
+      "Awesome/索引": 15
     },
     "outputForms": {
-      "图形摘要/信息图": 16,
-      "PPT/演示文稿": 88,
-      "网页/交互页面": 42,
+      "图形摘要/信息图": 17,
+      "PPT/演示文稿": 90,
+      "网页/交互页面": 44,
       "问答/学习材料": 7,
       "报告/长文档": 24,
       "证据表": 8,
-      "信息图/视觉报告": 27,
-      "图表/仪表盘": 38,
-      "架构图/流程图": 44,
+      "信息图/视觉报告": 30,
+      "图表/仪表盘": 40,
+      "架构图/流程图": 45,
       "白板/思维导图": 15,
       "图表/Mermaid": 25,
-      "SVG/PNG/PDF": 53,
-      "表格/时间线": 3,
+      "SVG/PNG/PDF": 56,
+      "表格/时间线": 5,
       "报告/简报": 22,
       "引用答案": 4,
-      "思维导图/知识地图": 12,
-      "视频/音频": 13,
+      "思维导图/知识地图": 13,
+      "视频/音频": 14,
+      "结构化数据/Markdown": 16,
       "文献地图/知识地图": 4,
-      "结构化数据/Markdown": 15,
       "代码地图/Repo Wiki": 18,
       "图表/渲染输出": 8,
-      "工具索引": 16
+      "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 150,
-      "模型 API": 92,
-      "文档解析/OCR": 35,
-      "渲染/导出": 148,
-      "GPU/加速器": 7,
-      "模板/素材": 91,
-      "Agent 宿主": 81,
+      "本地语言环境": 154,
+      "模型 API": 96,
+      "文档解析/OCR": 37,
+      "渲染/导出": 153,
+      "GPU/加速器": 8,
+      "模板/素材": 93,
+      "Agent 宿主": 84,
       "系统工具": 24,
-      "外部检索/数据源": 37,
+      "外部检索/数据源": 38,
       "存储/索引": 25,
-      "浏览器/账号": 63,
-      "MCP Client": 35,
+      "浏览器/账号": 65,
+      "MCP Client": 37,
       "代码分析工具": 19
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 19,
+      "doc-to-knowledge": 20,
       "research-report": 12,
-      "infographic-report": 17,
-      "data-dashboard": 20,
+      "infographic-report": 19,
+      "data-dashboard": 21,
       "literature-map": 4,
-      "presentation-tools": 54,
+      "presentation-tools": 55,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 25,
+      "diagram-generation": 26,
       "video-generation": 7,
       "commercial-site": 10,
-      "meta-index": 17
+      "meta-index": 18
     },
     "groups": {
       "paper": 24,
-      "text_visual": 23,
+      "text_visual": 25,
       "web_news": 8,
       "support_mindmap": 6,
-      "docs": 5,
+      "docs": 6,
       "support_doc_parse": 8,
-      "presentation": 65,
+      "presentation": 66,
       "code": 18,
-      "support_render": 23,
+      "support_render": 24,
       "diagrams": 2,
-      "data": 16,
+      "data": 17,
       "video": 7,
-      "indexes": 17
+      "indexes": 18
     }
   },
   "entries": [
@@ -1277,6 +1277,255 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 5
+    },
+    {
+      "name": "Social Card Images for AI Agents",
+      "url": "https://github.com/kostja94/social-cards-skills",
+      "primaryUrl": "https://github.com/kostja94/social-cards-skills",
+      "homepage": "https://oginify.com",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-06-19",
+      "note": "Agent skills for programmatic OG and Twitter/X card images with 1200px social-card formats, Satori and resvg layout, AI or hybrid texture pipelines, visual styles, templates, and reusable agent-native workflows.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "pipeline-guide",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/pipeline-guide.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "content-strategy",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/content-strategy.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "style-system-v3",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/style-system-v3.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "style-system",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/style-system.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "typography",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/typography.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "font-loading",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/font-loading.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "satori-constraints",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/og-image-generator/references/satori-constraints.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "twitter-specific",
+          "url": "https://github.com/kostja94/social-cards-skills/blob/HEAD/twitter-card-image-generator/references/twitter-specific.md",
+          "source": "https://raw.githubusercontent.com/kostja94/social-cards-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://oginify.com/templates",
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "showcase",
+          "title": "Gallery",
+          "url": "https://oginify.com/gallery",
+          "source": "https://oginify.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Page Comparison Devtool",
+          "url": "https://oginify.com/og/page-comparison-devtool.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Page Comparison",
+          "url": "https://oginify.com/og/page-comparison.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Page Comparison Saas",
+          "url": "https://oginify.com/og/page-comparison-saas.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Style Swiss Comparison",
+          "url": "https://oginify.com/og/style-swiss-comparison.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Page Comparison Ecommerce",
+          "url": "https://oginify.com/og/page-comparison-ecommerce.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Page Comparison Content",
+          "url": "https://oginify.com/og/page-comparison-content.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Example Open Graph card generated by Oginify",
+          "url": "https://oginify.com/og/website-saas-homepage.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "AI Open Graph Image Generator — Oginify",
+          "url": "https://oginify.com/og/home.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Style Brutalist",
+          "url": "https://oginify.com/og/style-brutalist.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Website Saas",
+          "url": "https://oginify.com/og/website-saas.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Page Homepage",
+          "url": "https://oginify.com/og/page-homepage.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Style Swiss Meridian",
+          "url": "https://oginify.com/og/style-swiss-meridian.jpg",
+          "thumbnailUrl": null,
+          "source": "https://oginify.com/"
+        }
+      ],
+      "docsCount": 8,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "gemini-infographic",
+      "url": "https://github.com/charlie947/social-media-skills/blob/main/skills/gemini-infographic/SKILL.md",
+      "primaryUrl": "https://github.com/charlie947/social-media-skills/blob/main/skills/gemini-infographic/SKILL.md",
+      "homepage": "https://github.com/charlie947/social-media-skills",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "模板/素材"
+      ],
+      "stars": 1583,
+      "license": "MIT",
+      "updated": "2026-07-04",
+      "note": "Social-media skill that converts source content, posts, newsletters, blogs, or research notes into structured Gemini prompts for hand-drawn whiteboard infographics and visual summaries.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.github.com",
+          "source": "https://github.com/charlie947/social-media-skills"
+        },
+        {
+          "kind": "docs",
+          "title": "documentation",
+          "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+          "source": "https://github.com/charlie947/social-media-skills"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.github.com/",
+          "source": "https://github.com/charlie947/social-media-skills"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "youtube-thumbnail",
+          "url": "https://github.com/charlie947/social-media-skills/blob/main/skills/youtube-thumbnail",
+          "source": "https://github.com/charlie947/social-media-skills"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     },
     {
       "name": "ascii-canvas",
@@ -4184,6 +4433,135 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "notebooklm-py",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "primaryUrl": "https://github.com/teng-lin/notebooklm-py",
+      "homepage": "https://pypi.org/project/notebooklm-py/",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 17188,
+      "license": "MIT",
+      "updated": "2026-07-04",
+      "note": "Unofficial NotebookLM Python API, CLI, and agent skill for bulk-importing URLs, PDFs, YouTube, and Drive sources, then generating and downloading slide decks, infographics, mind maps, audio, video, quizzes, flashcards, tables, PDFs, PNGs, CSV, JSON, and Markdown.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "信息图/视觉报告",
+        "思维导图/知识地图",
+        "视频/音频",
+        "表格/时间线",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Troubleshooting",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/troubleshooting.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Deep Research",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/cli-reference.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP server",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/mcp-guide.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Python API",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/python-api.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/installation.md",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/installation.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Configuration",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/configuration.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Release Guide",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/releasing.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Stability",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/HEAD/docs/stability.md",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "a browser-free YouTube→notebook→cited-answers pipeline driven entirely from the terminal",
+          "url": "https://artemxtech.substack.com/p/notebooklm-has-a-knowledge-graph",
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "installing packages",
+          "url": "https://packaging.python.org/tutorials/installing-packages/",
+          "source": "https://pypi.org/project/notebooklm-py/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Uploading packages",
+          "url": "https://packaging.python.org/tutorials/packaging-projects/",
+          "source": "https://pypi.org/project/notebooklm-py/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "\"Claude Code + NotebookLM = CHEAT CODE\"",
+          "url": "https://www.youtube.com/watch?v=usTeU4Uh0iM",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "\"…+ Obsidian = GOD MODE\"",
+          "url": "https://www.youtube.com/watch?v=kU3qYQ7ACMA",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 3,
+      "effectAssetsCount": 2
     },
     {
       "name": "Elicit",
@@ -7951,6 +8329,46 @@
       "docsCount": 0,
       "examplesCount": 1,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "SlideSmith AI",
+      "url": "https://github.com/SalmanSattar01/docweaver",
+      "primaryUrl": "https://github.com/SalmanSattar01/docweaver",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "GPU/加速器"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-07-04",
+      "note": "Local document-to-presentation generator that turns PDFs, Markdown, Word documents, and plain text into structured slide narratives with local AI backends and PPTX, PDF, or HTML export.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "ppt-agents",
@@ -14312,6 +14730,44 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "gemini-diagram-mcp",
+      "url": "https://github.com/arunsanna/gemini-diagram-mcp",
+      "primaryUrl": "https://github.com/arunsanna/gemini-diagram-mcp",
+      "homepage": "https://www.npmjs.com/package/gemini-diagram-mcp",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-06-02",
+      "note": "MCP server that uses Gemini image generation on Vertex AI to create diagrams, charts, and visualizations from natural language, with smart diagram-type detection, prompt preparation, iterative refinement, and generated-image validation.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Claude Mermaid",
       "url": "https://github.com/veelenga/claude-mermaid",
       "primaryUrl": "https://github.com/veelenga/claude-mermaid",
@@ -17691,6 +18147,112 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "MCP Visuals Server",
+      "url": "https://github.com/harrybin/visuals-mcp",
+      "primaryUrl": "https://github.com/harrybin/visuals-mcp",
+      "homepage": "http://harrybin.de/visuals-mcp/",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 5,
+      "license": "unknown",
+      "updated": "2026-07-03",
+      "note": "MCP server that lets AI agents display interactive tables, Recharts charts, image previews with metadata, master-detail views, hierarchical trees, custom lists, and exportable table/chart payloads inside the host application.",
+      "sourceTypes": [
+        "数据/表格",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "表格/时间线",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP Apps Documentation",
+          "url": "https://modelcontextprotocol.github.io/ext-apps/api/",
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "TanStack Table Docs",
+          "url": "https://tanstack.com/table/latest",
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Recharts Documentation",
+          "url": "https://recharts.org/",
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "VS Code MCP Guide",
+          "url": "https://code.visualstudio.com/docs/copilot/guides/mcp-developer-guide",
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "MCP Apps Examples",
+          "url": "https://github.com/modelcontextprotocol/ext-apps/tree/main/examples",
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Table Example",
+          "url": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/table-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chart Example",
+          "url": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/screenshots/chart-grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Master-Detail Example",
+          "url": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/master-detail-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "List Example",
+          "url": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/list-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tree Example",
+          "url": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/doc/tree-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/harrybin/visuals-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 5
     },
     {
       "name": "html-video",
@@ -21768,6 +22330,149 @@
       "docsCount": 3,
       "examplesCount": 7,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "HeyClaude",
+      "url": "https://github.com/JSONbored/awesome-claude",
+      "primaryUrl": "https://github.com/JSONbored/awesome-claude",
+      "homepage": "https://heyclau.de",
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "浏览器/账号"
+      ],
+      "stars": 277,
+      "license": "MIT",
+      "updated": "2026-07-04",
+      "note": "File-backed, human-reviewed Claude workflow directory and machine-readable registry covering agents, MCP servers, skills, tools, hooks, commands, guides, templates, feeds, JSON exports, Raycast integration, and a read-only MCP package.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "工具索引"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Submission gate ops",
+          "url": "https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/submission-queue-ops.md",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "package trust model",
+          "url": "https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/package-security-policy.md",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API security contract",
+          "url": "https://github.com/JSONbored/awesome-claude/blob/HEAD/docs/api-security-contract.md",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Allways Agent Quickstart for Claude",
+          "url": "https://heyclau.de/entry/agents/allways-agent-quickstart",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Builder Agent for Claude",
+          "url": "https://heyclau.de/entry/agents/api-builder-agent",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Buf Protobuf API Review Agent",
+          "url": "https://heyclau.de/entry/agents/buf-protobuf-api-review-agent",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Technical Doc Writer",
+          "url": "https://heyclau.de/entry/agents/technical-documentation-writer-agent",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Vale Documentation Maintenance Agent",
+          "url": "https://heyclau.de/entry/agents/vale-documentation-maintenance-agent",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "Inspect AI Benchmark Rubric Agent",
+          "url": "https://heyclau.de/entry/agents/inspect-ai-benchmark-rubric-agent",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Sandbox Boundary Review Agent",
+          "url": "https://heyclau.de/entry/agents/sandbox-boundary-review-agent",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv MCP Server",
+          "url": "https://heyclau.de/entry/mcp/arxiv-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Financial Datasets MCP Server",
+          "url": "https://heyclau.de/entry/mcp/financial-datasets-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Invideo MCP Server for Claude",
+          "url": "https://heyclau.de/entry/mcp/invideo-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Microsandbox MCP Server for Claude",
+          "url": "https://heyclau.de/entry/mcp/microsandbox-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Paper Search MCP Server",
+          "url": "https://heyclau.de/entry/mcp/paper-search-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Short Video Maker MCP Server",
+          "url": "https://heyclau.de/entry/mcp/short-video-maker-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube MCP Server",
+          "url": "https://heyclau.de/entry/mcp/youtube-mcp-server",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Hugging Face Datasets",
+          "url": "https://heyclau.de/entry/tools/hugging-face-datasets",
+          "source": "https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 20,
+      "examplesCount": 10,
+      "effectAssetsCount": 0
     }
   ]
 }

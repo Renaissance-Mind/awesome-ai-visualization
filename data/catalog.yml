@@ -1,4 +1,4 @@
-last_researched: '2026-07-04'
+last_researched: '2026-07-05'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -324,6 +324,56 @@ entries:
   - 信息图/视觉报告
   - 网页/交互页面
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Social Card Images for AI Agents
+  url: https://github.com/kostja94/social-cards-skills
+  homepage: https://oginify.com
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 6
+  license: MIT
+  updated: '2026-06-19'
+  note: Agent skills for programmatic OG and Twitter/X card images with 1200px social-card formats, Satori and resvg layout, AI or hybrid texture pipelines, visual styles, templates, and reusable agent-native workflows.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: gemini-infographic
+  url: https://github.com/charlie947/social-media-skills/blob/main/skills/gemini-infographic/SKILL.md
+  homepage: https://github.com/charlie947/social-media-skills
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 模板/素材
+  stars: 1583
+  license: MIT
+  updated: '2026-07-04'
+  note: Social-media skill that converts source content, posts, newsletters, blogs, or research notes into structured Gemini prompts for hand-drawn whiteboard infographics and visual summaries.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
   catalog_section: main
   readme_group: text_visual
 - name: ascii-canvas
@@ -1077,6 +1127,39 @@ entries:
   - 问答/学习材料
   catalog_section: main
   readme_group: docs
+- name: notebooklm-py
+  url: https://github.com/teng-lin/notebooklm-py
+  homepage: https://pypi.org/project/notebooklm-py/
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 17188
+  license: MIT
+  updated: '2026-07-04'
+  note: Unofficial NotebookLM Python API, CLI, and agent skill for bulk-importing URLs, PDFs, YouTube, and Drive sources, then generating and downloading slide decks, infographics, mind maps, audio, video, quizzes, flashcards, tables, PDFs, PNGs, CSV, JSON, and Markdown.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - 思维导图/知识地图
+  - 视频/音频
+  - 表格/时间线
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
 - name: Elicit
   url: https://elicit.com/
   category: research-report
@@ -1777,6 +1860,32 @@ entries:
   - 开源应用/框架
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: SlideSmith AI
+  url: https://github.com/SalmanSattar01/docweaver
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  stars: 0
+  license: unknown
+  updated: '2026-07-04'
+  note: Local document-to-presentation generator that turns PDFs, Markdown, Word documents, and plain text into structured slide narratives with local AI backends and PPTX, PDF, or HTML export.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 网页/交互页面
   catalog_section: main
   readme_group: presentation
 - name: ppt-agents
@@ -3671,6 +3780,31 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: gemini-diagram-mcp
+  url: https://github.com/arunsanna/gemini-diagram-mcp
+  homepage: https://www.npmjs.com/package/gemini-diagram-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 模型 API
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-06-02'
+  note: MCP server that uses Gemini image generation on Vertex AI to create diagrams, charts, and visualizations from natural language, with smart diagram-type detection, prompt preparation, iterative refinement, and generated-image validation.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: Claude Mermaid
   url: https://github.com/veelenga/claude-mermaid
   homepage: https://www.npmjs.com/package/claude-mermaid
@@ -4548,6 +4682,31 @@ entries:
   - 报告/简报
   catalog_section: main
   readme_group: data
+- name: MCP Visuals Server
+  url: https://github.com/harrybin/visuals-mcp
+  homepage: http://harrybin.de/visuals-mcp/
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 5
+  license: unknown
+  updated: '2026-07-03'
+  note: MCP server that lets AI agents display interactive tables, Recharts charts, image previews with metadata, master-detail views, hierarchical trees, custom lists, and exportable table/chart payloads inside the host application.
+  source_types:
+  - 数据/表格
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
 - name: html-video
   url: https://github.com/nexu-io/html-video
   homepage: https://open-design.ai/html-video
@@ -5235,6 +5394,26 @@ entries:
   - 任意/多源
   tool_forms:
   - Awesome/索引
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: HeyClaude
+  url: https://github.com/JSONbored/awesome-claude
+  homepage: https://heyclau.de
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 277
+  license: MIT
+  updated: '2026-07-04'
+  note: File-backed, human-reviewed Claude workflow directory and machine-readable registry covering agents, MCP servers, skills, tools, hooks, commands, guides, templates, feeds, JSON exports, Raycast integration, and a read-only MCP package.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  - MCP Server
   output_forms:
   - 工具索引
   catalog_section: indexes
