@@ -314,6 +314,16 @@ Excluded if:
 - [ppt-skills](https://github.com/danny0926/ppt-skills): Claude Code text-to-PPTX skill for hand-drawn Rough.js-style visual slides, Playwright rendering, and editable dual-layer PowerPoint output.
 - [mermaid-mcp-server](https://github.com/peng-shawn/mermaid-mcp-server): MCP server that converts Mermaid diagram code into PNG or SVG files with theme and background controls.
 
+## Added in the 2026-07-05 Daily Refresh
+
+- [notebooklm-py](https://github.com/teng-lin/notebooklm-py): unofficial NotebookLM Python API, CLI, and agent skill for bulk source import, NotebookLM artifact generation, and local downloads of slide decks, infographics, mind maps, audio, video, tables, PDFs, PNGs, CSV, JSON, and Markdown.
+- [Social Card Images for AI Agents](https://github.com/kostja94/social-cards-skills): agent skills for generating OG and Twitter/X card images through Satori/resvg layouts, AI or hybrid texture pipelines, visual styles, templates, and reusable social-card workflows.
+- [gemini-infographic](https://github.com/charlie947/social-media-skills/blob/main/skills/gemini-infographic/SKILL.md): Claude social-media skill that turns source content, newsletters, blogs, or research notes into structured Gemini prompts for hand-drawn infographic outputs.
+- [SlideSmith AI](https://github.com/SalmanSattar01/docweaver): local document-to-presentation generator for PDFs, Markdown, Word documents, and plain text with local AI backends and PPTX, PDF, or HTML export.
+- [gemini-diagram-mcp](https://github.com/arunsanna/gemini-diagram-mcp): MCP server that uses Gemini image generation on Vertex AI to generate diagrams, charts, and visualizations with prompt preparation and iterative refinement.
+- [MCP Visuals Server](https://github.com/harrybin/visuals-mcp): MCP server for displaying agent-produced tables, Recharts charts, image previews, master-detail views, hierarchical trees, custom lists, and exportable chart/table payloads.
+- [HeyClaude](https://github.com/JSONbored/awesome-claude): file-backed, human-reviewed Claude workflow registry with agents, MCP servers, skills, commands, hooks, tools, templates, feeds, JSON exports, Raycast integration, and a read-only MCP package.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.
