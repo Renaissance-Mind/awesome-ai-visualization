@@ -1,63 +1,63 @@
 {
-  "generatedAt": "2026-07-04T23:30:52+00:00",
-  "lastResearched": "2026-07-05",
+  "generatedAt": "2026-07-05T23:06:40+00:00",
+  "lastResearched": "2026-07-06",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 229,
+    "total": 237,
     "openSource": 66,
     "saas": 40,
-    "modelApi": 96,
-    "examples": 765,
-    "effectAssets": 890,
-    "docs": 750
+    "modelApi": 101,
+    "examples": 779,
+    "effectAssets": 908,
+    "docs": 758
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 37,
-      "PDF/文档": 82,
-      "文本/想法": 128,
-      "数据/表格": 58,
-      "代码/技术描述": 36,
+      "论文/科研资料": 38,
+      "PDF/文档": 87,
+      "文本/想法": 134,
+      "数据/表格": 61,
+      "代码/技术描述": 37,
       "代码库": 25,
-      "DSL/代码": 32,
-      "网页/搜索结果": 70,
+      "DSL/代码": 34,
+      "网页/搜索结果": 74,
       "新闻/资讯": 11,
-      "知识库/个人资料": 13,
-      "任意/多源": 26,
+      "知识库/个人资料": 14,
+      "任意/多源": 28,
       "引用网络": 4,
-      "Office 文档": 23,
+      "Office 文档": 25,
       "数据库": 14
     },
     "toolForms": {
       "开源应用/框架": 66,
-      "Agent Skill": 58,
-      "Skill 集合": 20,
+      "Agent Skill": 64,
+      "Skill 集合": 22,
       "数据集/评测": 2,
       "Bot/助手": 7,
       "产品/SaaS": 40,
-      "MCP Server": 36,
+      "MCP Server": 37,
       "研究原型": 4,
       "API/SDK/库": 16,
       "Awesome/索引": 15
     },
     "outputForms": {
       "图形摘要/信息图": 17,
-      "PPT/演示文稿": 90,
-      "网页/交互页面": 44,
-      "问答/学习材料": 7,
-      "报告/长文档": 24,
+      "PPT/演示文稿": 97,
+      "网页/交互页面": 47,
+      "问答/学习材料": 8,
+      "报告/长文档": 26,
       "证据表": 8,
-      "信息图/视觉报告": 30,
-      "图表/仪表盘": 40,
-      "架构图/流程图": 45,
-      "白板/思维导图": 15,
+      "信息图/视觉报告": 34,
+      "图表/仪表盘": 42,
+      "架构图/流程图": 46,
+      "白板/思维导图": 16,
       "图表/Mermaid": 25,
-      "SVG/PNG/PDF": 56,
+      "SVG/PNG/PDF": 60,
       "表格/时间线": 5,
-      "报告/简报": 22,
+      "报告/简报": 23,
       "引用答案": 4,
-      "思维导图/知识地图": 13,
-      "视频/音频": 14,
+      "思维导图/知识地图": 14,
+      "视频/音频": 16,
       "结构化数据/Markdown": 16,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 18,
@@ -65,31 +65,31 @@
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 154,
-      "模型 API": 96,
-      "文档解析/OCR": 37,
-      "渲染/导出": 153,
+      "本地语言环境": 162,
+      "模型 API": 101,
+      "文档解析/OCR": 39,
+      "渲染/导出": 161,
       "GPU/加速器": 8,
-      "模板/素材": 93,
-      "Agent 宿主": 84,
+      "模板/素材": 99,
+      "Agent 宿主": 92,
       "系统工具": 24,
-      "外部检索/数据源": 38,
+      "外部检索/数据源": 39,
       "存储/索引": 25,
-      "浏览器/账号": 65,
-      "MCP Client": 37,
+      "浏览器/账号": 67,
+      "MCP Client": 38,
       "代码分析工具": 19
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 20,
-      "research-report": 12,
+      "doc-to-knowledge": 21,
+      "research-report": 13,
       "infographic-report": 19,
       "data-dashboard": 21,
       "literature-map": 4,
-      "presentation-tools": 55,
+      "presentation-tools": 60,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 26,
+      "diagram-generation": 27,
       "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 18
@@ -99,11 +99,11 @@
       "text_visual": 25,
       "web_news": 8,
       "support_mindmap": 6,
-      "docs": 6,
+      "docs": 7,
       "support_doc_parse": 8,
-      "presentation": 66,
+      "presentation": 72,
       "code": 18,
-      "support_render": 24,
+      "support_render": 25,
       "diagrams": 2,
       "data": 17,
       "video": 7,
@@ -4562,6 +4562,50 @@
       "docsCount": 20,
       "examplesCount": 3,
       "effectAssetsCount": 2
+    },
+    {
+      "name": "qiaomu-anything-to-notebooklm",
+      "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "primaryUrl": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 5500,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "Claude Skill that imports WeChat articles, web pages, YouTube, PDFs, Markdown, and search queries into NotebookLM and drives Podcast, PPT, MindMap, Quiz, and related notebook artifacts.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "思维导图/知识地图",
+        "视频/音频",
+        "问答/学习材料",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "Elicit",
@@ -12341,6 +12385,487 @@
       "effectAssetsCount": 1
     },
     {
+      "name": "guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "primaryUrl": "https://github.com/op7418/guizang-ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 20195,
+      "license": "AGPL-3.0",
+      "updated": "2026-07-05",
+      "note": "Codex and Claude Code skill for polished single-file HTML slide decks, deck illustrations, social covers, and WebGL or low-power presentation runtimes using editorial-magazine and Swiss visual systems.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/image-prompts.md`",
+          "url": "https://github.com/op7418/guizang-ppt-skill/blob/HEAD/references/image-prompts.md",
+          "source": "https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/screenshot-framing.md`",
+          "url": "https://github.com/op7418/guizang-ppt-skill/blob/HEAD/references/screenshot-framing.md",
+          "source": "https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "gpt-image2-ppt-skills",
+      "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "primaryUrl": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1023,
+      "license": "Apache-2.0",
+      "updated": "2026-07-05",
+      "note": "Claude Code, Codex, OpenClaw, and Hermes skill that uses OpenAI gpt-image-2 to generate image-first PPTX decks, clone reference PPTX layouts, apply bundled styles, and retouch pages through image-to-image edits.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/README.en.md",
+          "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/README.en.md",
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/ppt-implementation-logic.md`",
+          "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/ppt-implementation-logic.md",
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/distilled-styles.md`",
+          "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/distilled-styles.md",
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/edit_guide.md`",
+          "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/edit_guide.md",
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "input template",
+          "url": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/template-demo-input.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "generated output",
+          "url": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/template-demo-output.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "10 种风格封面对照 · 同一主题直出",
+          "url": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/style-gallery.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "system architecture",
+          "url": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/architecture_cn.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "ppt-image-first",
+      "url": "https://github.com/NyxTides/ppt-image-first",
+      "primaryUrl": "https://github.com/NyxTides/ppt-image-first",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1127,
+      "license": "Apache-2.0",
+      "updated": "2026-07-05",
+      "note": "Conversation-first, image-first PPT workflow skill for Codex, Claude Code, and Opencode CLI that turns vague deck needs into content bases, style previews, locked plans, and image-backed PPTX delivery.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "下载示例 PPT（ppt-image-first-demo-deck.pptx）",
+          "url": "https://github.com/NyxTides/ppt-image-first/blob/HEAD/docs/demo/ppt-image-first-demo-deck.pptx",
+          "source": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "整体流程示意图",
+          "url": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/workflow-overview-slide.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "气象答辩首页示例",
+          "url": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/sample-meteorology-defense-deck.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "校园红色主题 PPT 示例",
+          "url": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/sample-red-campus-deck.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "技术研究正文页示例",
+          "url": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/sample-tech-research-body-page.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Skywork-Skills",
+      "url": "https://github.com/SkyworkAI/Skywork-Skills",
+      "primaryUrl": "https://github.com/SkyworkAI/Skywork-Skills",
+      "homepage": "https://skywork.ai/skill-landing",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 185,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "Skywork Agent Skills suite for AI office workflows including AI PPT, AI Document, AI Excel, AI Image, AI Search or DeepResearch, and AI Music, usable by Claude Code, Codex CLI, and OpenClaw.",
+      "sourceTypes": [
+        "任意/多源",
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Skills documentation",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/skills",
+          "source": "https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "skywork-doc",
+          "url": "https://clawhub.ai/gxcun17/skywork-doc",
+          "source": "https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Tutorial",
+          "url": "https://skywork.ai/tutorial/",
+          "source": "https://skywork.ai/skill-landing"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Skyworkï¸±The Originator of AI Workspace Agents",
+          "url": "https://static-s3.skyworkcdn.com/fe/skywork-site-assets/images/ad_260603.jpeg",
+          "thumbnailUrl": null,
+          "source": "https://skywork.ai/skill-landing"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "slide-deck-generator",
+      "url": "https://github.com/code-on-sunday/slide-deck-generator",
+      "primaryUrl": "https://github.com/code-on-sunday/slide-deck-generator",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 125,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "Coding-agent skill that builds production-ready browser-based presentation decks with React, Vite, and Framer Motion from scripts, outlines, or presentation briefs.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "View all example slides live",
+          "url": "https://codeonsunday.com/make/slides",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`en-context-engineering`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-context-engineering/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`en-claude-code-skills`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-claude-code-skills/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`en-how-llm-works`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-how-llm-works/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`vi-context-engineering`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-context-engineering/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`vi-claude-code-skills`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-claude-code-skills/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`vi-how-llm-works`",
+          "url": "https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-how-llm-works/",
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "en-context-engineering",
+          "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/en-context-engineering.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "en-claude-code-skills",
+          "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/en-claude-code-skills.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "en-how-llm-works",
+          "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/en-how-llm-works.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "vi-context-engineering",
+          "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/vi-context-engineering.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "vi-claude-code-skills",
+          "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/vi-claude-code-skills.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "vi-how-llm-works",
+          "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/vi-how-llm-works.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 8,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "codex-claude-academic-skills",
+      "url": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "primaryUrl": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1472,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "Chinese academic skill suite whose office-academic skill produces paper-reading reports and academic PPT or Word documents, while companion skills cover research writing, peer-review responses, scientific computing, and publication-grade charts.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "SNL-UCSB/paper-writing-skill",
+          "url": "https://github.com/SNL-UCSB/paper-writing-skill",
+          "source": "https://raw.githubusercontent.com/zLanqing/codex-claude-academic-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "GitDiagram",
       "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
       "primaryUrl": "https://github.com/ahmedkhaleel2004/gitdiagram",
@@ -15211,6 +15736,77 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "mcp_excalidraw",
+      "url": "https://github.com/yctimlin/mcp_excalidraw",
+      "primaryUrl": "https://github.com/yctimlin/mcp_excalidraw",
+      "homepage": "https://mcp-excalidraw-landing.vercel.app/",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 2127,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "Watch full video on YouTube",
+          "url": "https://youtu.be/ufW78Amq5qA",
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "MCP Excalidraw Demo",
+          "url": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "mcp_excalidraw — a whiteboard for your AI agent",
+          "url": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/main/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://mcp-excalidraw-landing.vercel.app/"
+        },
+        {
+          "kind": "video",
+          "title": "Watch 90-sec demo",
+          "url": "https://youtu.be/ufW78Amq5qA",
+          "thumbnailUrl": "https://img.youtube.com/vi/ufW78Amq5qA/hqdefault.jpg",
+          "source": "https://mcp-excalidraw-landing.vercel.app/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 3
     },
     {
       "name": "AntV Infographic",
