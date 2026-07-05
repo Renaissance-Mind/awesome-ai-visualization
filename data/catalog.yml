@@ -1,4 +1,4 @@
-last_researched: '2026-07-05'
+last_researched: '2026-07-06'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1158,6 +1158,36 @@ entries:
   - 视频/音频
   - 表格/时间线
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: qiaomu-anything-to-notebooklm
+  url: https://github.com/joeseesun/qiaomu-anything-to-notebooklm
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 5500
+  license: MIT
+  updated: '2026-07-05'
+  note: Claude Skill that imports WeChat articles, web pages, YouTube, PDFs, Markdown, and search queries into NotebookLM and drives Podcast, PPT, MindMap, Quiz, and related notebook artifacts.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 思维导图/知识地图
+  - 视频/音频
+  - 问答/学习材料
+  - 报告/简报
   catalog_section: main
   readme_group: docs
 - name: Elicit
@@ -3098,6 +3128,167 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
+- name: guizang-ppt-skill
+  url: https://github.com/op7418/guizang-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 20195
+  license: AGPL-3.0
+  updated: '2026-07-05'
+  note: Codex and Claude Code skill for polished single-file HTML slide decks, deck illustrations, social covers, and WebGL or low-power presentation runtimes using editorial-magazine and Swiss visual systems.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: gpt-image2-ppt-skills
+  url: https://github.com/JuneYaooo/gpt-image2-ppt-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1023
+  license: Apache-2.0
+  updated: '2026-07-05'
+  note: Claude Code, Codex, OpenClaw, and Hermes skill that uses OpenAI gpt-image-2 to generate image-first PPTX decks, clone reference PPTX layouts, apply bundled styles, and retouch pages through image-to-image edits.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-image-first
+  url: https://github.com/NyxTides/ppt-image-first
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1127
+  license: Apache-2.0
+  updated: '2026-07-05'
+  note: Conversation-first, image-first PPT workflow skill for Codex, Claude Code, and Opencode CLI that turns vague deck needs into content bases, style previews, locked plans, and image-backed PPTX delivery.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: presentation
+- name: Skywork-Skills
+  url: https://github.com/SkyworkAI/Skywork-Skills
+  homepage: https://skywork.ai/skill-landing
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 185
+  license: MIT
+  updated: '2026-07-05'
+  note: Skywork Agent Skills suite for AI office workflows including AI PPT, AI Document, AI Excel, AI Image, AI Search or DeepResearch, and AI Music, usable by Claude Code, Codex CLI, and OpenClaw.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: slide-deck-generator
+  url: https://github.com/code-on-sunday/slide-deck-generator
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 125
+  license: MIT
+  updated: '2026-07-05'
+  note: Coding-agent skill that builds production-ready browser-based presentation decks with React, Vite, and Framer Motion from scripts, outlines, or presentation briefs.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: codex-claude-academic-skills
+  url: https://github.com/zLanqing/codex-claude-academic-skills
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 1472
+  license: MIT
+  updated: '2026-07-05'
+  note: Chinese academic skill suite whose office-academic skill produces paper-reading reports and academic PPT or Word documents, while companion skills cover research writing, peer-review responses, scientific computing, and publication-grade charts.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: GitDiagram
   url: https://github.com/ahmedkhaleel2004/gitdiagram
   homepage: https://gitdiagram.com
@@ -3985,6 +4176,35 @@ entries:
   - 架构图/流程图
   - 白板/思维导图
   - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
+- name: mcp_excalidraw
+  url: https://github.com/yctimlin/mcp_excalidraw
+  homepage: https://mcp-excalidraw-landing.vercel.app/
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  stars: 2127
+  license: MIT
+  updated: '2026-07-05'
+  note: MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 网页/交互页面
+  - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
 - name: AntV Infographic

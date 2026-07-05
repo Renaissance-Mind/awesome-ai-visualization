@@ -324,6 +324,17 @@ Excluded if:
 - [MCP Visuals Server](https://github.com/harrybin/visuals-mcp): MCP server for displaying agent-produced tables, Recharts charts, image previews, master-detail views, hierarchical trees, custom lists, and exportable chart/table payloads.
 - [HeyClaude](https://github.com/JSONbored/awesome-claude): file-backed, human-reviewed Claude workflow registry with agents, MCP servers, skills, commands, hooks, tools, templates, feeds, JSON exports, Raycast integration, and a read-only MCP package.
 
+## Added in the 2026-07-06 Daily Refresh
+
+- [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm): Claude Skill for importing WeChat articles, web pages, YouTube, PDFs, Markdown, and search queries into NotebookLM and driving Podcast, PPT, MindMap, Quiz, and related notebook artifacts.
+- [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): Codex and Claude Code skill for polished single-file HTML slide decks, deck illustrations, social covers, and WebGL or low-power presentation runtimes with editorial-magazine and Swiss visual systems.
+- [gpt-image2-ppt-skills](https://github.com/JuneYaooo/gpt-image2-ppt-skills): Claude Code, Codex, OpenClaw, and Hermes skill that uses OpenAI gpt-image-2 for image-first PPTX decks, reference PPTX layout cloning, bundled styles, and page retouching.
+- [ppt-image-first](https://github.com/NyxTides/ppt-image-first): conversation-first image-backed PPT workflow skill for Codex, Claude Code, and Opencode CLI, moving from vague deck needs to content bases, style previews, locked plans, and PPTX delivery.
+- [Skywork-Skills](https://github.com/SkyworkAI/Skywork-Skills): Skywork Agent Skills suite for AI office workflows including AI PPT, AI Document, AI Excel, AI Image, AI Search/DeepResearch, and AI Music across Claude Code, Codex CLI, and OpenClaw.
+- [slide-deck-generator](https://github.com/code-on-sunday/slide-deck-generator): coding-agent skill for production-ready browser-based presentation decks with React, Vite, and Framer Motion from scripts, outlines, or presentation briefs.
+- [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills): Chinese academic skill suite for paper-reading reports, academic PPT or Word documents, research writing, peer-review responses, scientific computing, and publication-grade charts.
+- [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw): MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.

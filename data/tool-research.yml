@@ -1,4 +1,4 @@
-generated_at: '2026-07-04T23:30:52+00:00'
+generated_at: '2026-07-05T23:06:40+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 229
-  fetched_sources_ok: 313
+  entries: 237
+  fetched_sources_ok: 323
   fetched_sources_failed: 20
-  official_examples: 765
-  official_effect_assets: 890
-  official_docs: 750
+  official_examples: 779
+  official_effect_assets: 908
+  official_docs: 758
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -23333,3 +23333,486 @@ entries:
     source: https://raw.githubusercontent.com/JSONbored/awesome-claude/HEAD/README.md
   source_headings:
   - Project Docs
+- name: qiaomu-anything-to-notebooklm
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/joeseesun/qiaomu-anything-to-notebooklm
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Claude Skill that imports WeChat articles, web pages, YouTube, PDFs, Markdown, and search queries into NotebookLM
+    and drives Podcast, PPT, MindMap, Quiz, and related notebook artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/joeseesun/qiaomu-anything-to-notebooklm/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/joeseesun/qiaomu-anything-to-notebooklm/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🎯 Anything → NotebookLM
+    bytes: 16673
+  source_headings:
+  - 📚 电子书与文档
+  - 📄 Office 文档
+  - 💡 使用示例
+  - 场景 5：微信文章 → 飞书文档（深度分析）
+  - 飞书文档输出
+  - 深度分析后自动创建飞书文档
+- name: guizang-ppt-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/op7418/guizang-ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex and Claude Code skill for polished single-file HTML slide decks, deck illustrations, social covers,
+    and WebGL or low-power presentation runtimes using editorial-magazine and Swiss visual systems.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Guizang PPT Skill · 网页 PPT / 配图 / 封面
+    bytes: 18920
+  official_docs:
+  - kind: docs
+    title: '`references/image-prompts.md`'
+    url: https://github.com/op7418/guizang-ppt-skill/blob/HEAD/references/image-prompts.md
+    source: https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/screenshot-framing.md`'
+    url: https://github.com/op7418/guizang-ppt-skill/blob/HEAD/references/screenshot-framing.md
+    source: https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`references/image-prompts.md`'
+    url: https://github.com/op7418/guizang-ppt-skill/blob/HEAD/references/image-prompts.md
+    source: https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/screenshot-framing.md`'
+    url: https://github.com/op7418/guizang-ppt-skill/blob/HEAD/references/screenshot-framing.md
+    source: https://raw.githubusercontent.com/op7418/guizang-ppt-skill/HEAD/README.md
+  source_headings:
+  - 示例请求
+- name: gpt-image2-ppt-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/JuneYaooo/gpt-image2-ppt-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code, Codex, OpenClaw, and Hermes skill that uses OpenAI gpt-image-2 to generate image-first PPTX decks,
+    clone reference PPTX layouts, apply bundled styles, and retouch pages through image-to-image edits.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: gpt-image2-ppt-skills
+    bytes: 13439
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/README.en.md
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/README.en.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/ppt-implementation-logic.md`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/ppt-implementation-logic.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/distilled-styles.md`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/distilled-styles.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/edit_guide.md`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/edit_guide.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: input template
+    url: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/template-demo-input.jpg
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: image
+    title: generated output
+    url: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/template-demo-output.jpg
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: image
+    title: 10 种风格封面对照 · 同一主题直出
+    url: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/style-gallery.jpg
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: image
+    title: system architecture
+    url: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/docs/assets/architecture_cn.jpg
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/README.en.md
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/README.en.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/ppt-implementation-logic.md`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/ppt-implementation-logic.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/distilled-styles.md`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/distilled-styles.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/edit_guide.md`'
+    url: https://github.com/JuneYaooo/gpt-image2-ppt-skills/blob/HEAD/docs/edit_guide.md
+    source: https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/HEAD/README.md
+  source_headings:
+  - 🎬 效果演示：喂一张模板，仿出一套新内容
+  - 模板克隆的 Vision 分析（可选）
+  - 可选：模板克隆的 vision 分析（仅纯文本 agent 需要，多模态 agent 不用配）
+- name: ppt-image-first
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/NyxTides/ppt-image-first
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Conversation-first, image-first PPT workflow skill for Codex, Claude Code, and Opencode CLI that turns vague
+    deck needs into content bases, style previews, locked plans, and image-backed PPTX delivery.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ppt-image-first
+    bytes: 9534
+  official_examples:
+  - kind: example
+    title: 下载示例 PPT（ppt-image-first-demo-deck.pptx）
+    url: https://github.com/NyxTides/ppt-image-first/blob/HEAD/docs/demo/ppt-image-first-demo-deck.pptx
+    source: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 整体流程示意图
+    url: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/workflow-overview-slide.png
+    source: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+  - kind: image
+    title: 气象答辩首页示例
+    url: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/sample-meteorology-defense-deck.png
+    source: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+  - kind: image
+    title: 校园红色主题 PPT 示例
+    url: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/sample-red-campus-deck.png
+    source: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+  - kind: image
+    title: 技术研究正文页示例
+    url: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/docs/images/sample-tech-research-body-page.png
+    source: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+  official_links:
+  - kind: example
+    title: 下载示例 PPT（ppt-image-first-demo-deck.pptx）
+    url: https://github.com/NyxTides/ppt-image-first/blob/HEAD/docs/demo/ppt-image-first-demo-deck.pptx
+    source: https://raw.githubusercontent.com/NyxTides/ppt-image-first/HEAD/README.md
+  source_headings:
+  - 示例速览
+  - 2. 答辩 / 汇报类首页示例
+  - 3. 校园 / 红色主题类成品示例
+  - 4. 技术研究类正文页示例
+  - 示例 PPT
+  - '`slide_blueprint.md`'
+  - 不是 template-first
+- name: Skywork-Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/SkyworkAI/Skywork-Skills
+  homepage: https://skywork.ai/skill-landing
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Skywork Agent Skills suite for AI office workflows including AI PPT, AI Document, AI Excel, AI Image, AI Search
+    or DeepResearch, and AI Music, usable by Claude Code, Codex CLI, and OpenClaw.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Skywork Skills
+    bytes: 3343
+  - kind: homepage
+    url: https://skywork.ai/skill-landing
+    final_url: https://skywork.ai/skill-landing
+    status: 200
+    content_type: text/html
+    title: Skyworkï¸±The Originator of AI Workspace Agents
+    description: Skywork - Skywork turns simple input into multimodal content - docs, slides, sheets with deep research, podcasts
+      & webpages. Perfect for analysts creating reports, educators design
+    bytes: 1773975
+  official_examples:
+  - kind: tutorial
+    title: Tutorial
+    url: https://skywork.ai/tutorial/
+    source: https://skywork.ai/skill-landing
+  official_docs:
+  - kind: docs
+    title: Claude Skills documentation
+    url: https://docs.anthropic.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md
+  - kind: docs
+    title: skywork-doc
+    url: https://clawhub.ai/gxcun17/skywork-doc
+    source: https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Skyworkï¸±The Originator of AI Workspace Agents
+    url: https://static-s3.skyworkcdn.com/fe/skywork-site-assets/images/ad_260603.jpeg
+    source: https://skywork.ai/skill-landing
+  official_links:
+  - kind: docs
+    title: Claude Skills documentation
+    url: https://docs.anthropic.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md
+  - kind: docs
+    title: skywork-doc
+    url: https://clawhub.ai/gxcun17/skywork-doc
+    source: https://raw.githubusercontent.com/SkyworkAI/Skywork-Skills/HEAD/README.md
+  - kind: tutorial
+    title: Tutorial
+    url: https://skywork.ai/tutorial/
+    source: https://skywork.ai/skill-landing
+- name: slide-deck-generator
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/code-on-sunday/slide-deck-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Coding-agent skill that builds production-ready browser-based presentation decks with React, Vite, and Framer
+    Motion from scripts, outlines, or presentation briefs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Slide Deck Generator
+    bytes: 5077
+  official_examples:
+  - kind: example
+    title: View all example slides live
+    url: https://codeonsunday.com/make/slides
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`en-context-engineering`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-context-engineering/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`en-claude-code-skills`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-claude-code-skills/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`en-how-llm-works`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-how-llm-works/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`vi-context-engineering`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-context-engineering/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`vi-claude-code-skills`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-claude-code-skills/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`vi-how-llm-works`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-how-llm-works/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: en-context-engineering
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/en-context-engineering.png
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: image
+    title: en-claude-code-skills
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/en-claude-code-skills.png
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: image
+    title: en-how-llm-works
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/en-how-llm-works.png
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: image
+    title: vi-context-engineering
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/vi-context-engineering.png
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: image
+    title: vi-claude-code-skills
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/vi-claude-code-skills.png
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: image
+    title: vi-how-llm-works
+    url: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/examples/vi-how-llm-works.png
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  official_links:
+  - kind: example
+    title: View all example slides live
+    url: https://codeonsunday.com/make/slides
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`en-context-engineering`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-context-engineering/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`en-claude-code-skills`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-claude-code-skills/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`en-how-llm-works`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/en-how-llm-works/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`vi-context-engineering`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-context-engineering/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`vi-claude-code-skills`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-claude-code-skills/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  - kind: example
+    title: '`vi-how-llm-works`'
+    url: https://github.com/code-on-sunday/slide-deck-generator/blob/HEAD/examples/vi-how-llm-works/
+    source: https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/HEAD/README.md
+  source_headings:
+  - Slide Deck Generator
+  - Usage
+  - Examples
+- name: codex-claude-academic-skills
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/zLanqing/codex-claude-academic-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Chinese academic skill suite whose office-academic skill produces paper-reading reports and academic PPT or
+    Word documents, while companion skills cover research writing, peer-review responses, scientific computing, and publication-grade
+    charts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zLanqing/codex-claude-academic-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zLanqing/codex-claude-academic-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Academic Skills for Claude Code & Codex
+    bytes: 9458
+  official_examples:
+  - kind: paper
+    title: SNL-UCSB/paper-writing-skill
+    url: https://github.com/SNL-UCSB/paper-writing-skill
+    source: https://raw.githubusercontent.com/zLanqing/codex-claude-academic-skills/HEAD/README.md
+  official_links:
+  - kind: paper
+    title: SNL-UCSB/paper-writing-skill
+    url: https://github.com/SNL-UCSB/paper-writing-skill
+    source: https://raw.githubusercontent.com/zLanqing/codex-claude-academic-skills/HEAD/README.md
+  source_headings:
+  - 2. office-academic-skill — 学术 Office 文档
+- name: mcp_excalidraw
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/yctimlin/mcp_excalidraw
+  homepage: https://mcp-excalidraw-landing.vercel.app/
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn
+    diagrams through a local canvas bridge.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Excalidraw MCP Server & Agent Skill
+    bytes: 17448
+  - kind: homepage
+    url: https://mcp-excalidraw-landing.vercel.app/
+    final_url: https://mcp-excalidraw-landing.vercel.app/
+    status: 200
+    content_type: text/html
+    title: mcp_excalidraw — a whiteboard for your AI agent
+    description: Drop-in agent skill (and MCP server) that gives Claude Code, Codex CLI, Cursor & friends a live Excalidraw
+      canvas — 26 tools to draw, look, and refine.
+    bytes: 81758
+  official_examples:
+  - kind: video
+    title: Watch full video on YouTube
+    url: https://youtu.be/ufW78Amq5qA
+    source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+  - kind: demo
+    title: Watch 90-sec demo
+    url: https://youtu.be/ufW78Amq5qA
+    source: https://mcp-excalidraw-landing.vercel.app/
+  official_effect_assets:
+  - kind: gif
+    title: MCP Excalidraw Demo
+    url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/demo.gif
+    source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+  - kind: gif
+    title: mcp_excalidraw — a whiteboard for your AI agent
+    url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/main/demo.gif
+    source: https://mcp-excalidraw-landing.vercel.app/
+  - kind: video
+    title: Watch 90-sec demo
+    url: https://youtu.be/ufW78Amq5qA
+    thumbnail_url: https://img.youtube.com/vi/ufW78Amq5qA/hqdefault.jpg
+    source: https://mcp-excalidraw-landing.vercel.app/
+  official_links:
+  - kind: video
+    title: Watch full video on YouTube
+    url: https://youtu.be/ufW78Amq5qA
+    source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+  - kind: demo
+    title: Watch 90-sec demo
+    url: https://youtu.be/ufW78Amq5qA
+    source: https://mcp-excalidraw-landing.vercel.app/
+  source_headings:
+  - Demo
+  - Install The Skill (Codex CLI example)
+  - (example for Claude Desktop config — same shape for others)
