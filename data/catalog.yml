@@ -1,4 +1,4 @@
-last_researched: '2026-07-06'
+last_researched: '2026-07-07'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1001,6 +1001,35 @@ entries:
   - 思维导图/知识地图
   catalog_section: support_mindmap
   readme_group: support_mindmap
+- name: mindmapio-mcp
+  url: https://github.com/MohGanji/mindmapio-mcp
+  homepage: https://mindmap.io
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  stars: 0
+  license: MIT
+  updated: '2026-07-05'
+  note: MCP server and agent skill for driving mindmap.io maps from research, plans, and conversations with map/node CRUD, publish/embed links, prompt execution, and auto-expansion through a personal account token.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - 产品/SaaS
+  output_forms:
+  - 思维导图/知识地图
+  - 问答/学习材料
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
 - name: mind-map-mcp
   url: https://github.com/sawyer-shi/mind-map-mcp
   category: doc-to-knowledge
@@ -1023,6 +1052,30 @@ entries:
   output_forms:
   - 思维导图/知识地图
   - SVG/PNG/PDF
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: mindmap-mcp-server
+  url: https://github.com/YuChenSSR/mindmap-mcp-server
+  homepage: https://pypi.org/project/mindmap-mcp-server/
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 236
+  license: MIT
+  updated: '2026-07-06'
+  note: MCP server that converts Markdown content into interactive Markmap-style mind maps, with pip, uvx, Docker, and artifact-oriented HTML rendering paths.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - 网页/交互页面
   catalog_section: support_mindmap
   readme_group: support_mindmap
 - name: MindRepo
@@ -1918,6 +1971,36 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: PresentationSkill-ClaudeCode
+  url: https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-06-01'
+  note: Claude Code skill suite that turns source material, outlines, notes, and datasets into citation-disciplined HTML decks, print-quality posters, and research-synthesis outlines through an HTML plus Playwright pipeline.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图形摘要/信息图
+  - 报告/简报
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: ppt-agents
   url: https://github.com/chenxingqiang/ppt-agents
   category: presentation-tools
@@ -2430,6 +2513,30 @@ entries:
   output_forms:
   - PPT/演示文稿
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: che-pptx-mcp
+  url: https://github.com/PsychQuant/che-pptx-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 1
+  license: unknown
+  updated: '2026-07-02'
+  note: Swift-native PowerPoint MCP server for creating, opening, editing, reading, and exporting PPTX files through roughly 45 PresentationML tools without requiring PowerPoint.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
 - name: Marp MCP
@@ -3996,6 +4103,60 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: diagrams-mcp
+  url: https://github.com/ByteOverDev/diagrams-mcp
+  homepage: https://pypi.org/project/diagrams-mcp-server/
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 3
+  license: unknown
+  updated: '2026-06-25'
+  note: MCP server for generating cloud architecture diagrams, flowcharts, sequence diagrams, and UML-style visuals through hosted or local Graphviz, Mermaid, and PlantUML rendering engines.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: diagramzu-mcp
+  url: https://github.com/yenchieh/diagramzu-mcp
+  homepage: https://diagramzu.ai
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 1
+  license: MIT
+  updated: '2026-07-05'
+  note: MCP server for diagramzu.ai that lets AI clients list, create, update, analyze, version, and share Mermaid diagrams stored in a team Space through hosted HTTP or local stdio transport.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
 - name: Claude Mermaid
   url: https://github.com/veelenga/claude-mermaid
   homepage: https://www.npmjs.com/package/claude-mermaid
@@ -4203,6 +4364,37 @@ entries:
   output_forms:
   - 架构图/流程图
   - 白板/思维导图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: whiteboard
+  url: https://github.com/kamiazya/whiteboard
+  homepage: https://kamiazya-whiteboard.pages.dev/
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 2
+  license: MIT
+  updated: '2026-07-06'
+  note: Excalidraw-based collaborative whiteboard plugin and MCP server for Claude Code, Codex, and Gemini that lets agents draw, annotate, refine, persist, and export architecture, workflow, review, and onboarding diagrams on a shared canvas.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - 开源应用/框架
+  output_forms:
+  - 白板/思维导图
+  - 架构图/流程图
   - 网页/交互页面
   - SVG/PNG/PDF
   catalog_section: support_render

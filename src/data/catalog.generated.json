@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-07-05T23:06:40+00:00",
-  "lastResearched": "2026-07-06",
+  "generatedAt": "2026-07-06T23:04:46+00:00",
+  "lastResearched": "2026-07-07",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 237,
-    "openSource": 66,
-    "saas": 40,
+    "total": 244,
+    "openSource": 67,
+    "saas": 42,
     "modelApi": 101,
-    "examples": 779,
-    "effectAssets": 908,
-    "docs": 758
+    "examples": 782,
+    "effectAssets": 930,
+    "docs": 765
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 38,
-      "PDF/文档": 87,
-      "文本/想法": 134,
-      "数据/表格": 61,
-      "代码/技术描述": 37,
+      "PDF/文档": 89,
+      "文本/想法": 141,
+      "数据/表格": 62,
+      "代码/技术描述": 40,
       "代码库": 25,
-      "DSL/代码": 34,
-      "网页/搜索结果": 74,
+      "DSL/代码": 36,
+      "网页/搜索结果": 75,
       "新闻/资讯": 11,
-      "知识库/个人资料": 14,
-      "任意/多源": 28,
+      "知识库/个人资料": 17,
+      "任意/多源": 30,
       "引用网络": 4,
-      "Office 文档": 25,
+      "Office 文档": 26,
       "数据库": 14
     },
     "toolForms": {
-      "开源应用/框架": 66,
-      "Agent Skill": 64,
-      "Skill 集合": 22,
+      "开源应用/框架": 67,
+      "Agent Skill": 67,
+      "Skill 集合": 23,
       "数据集/评测": 2,
       "Bot/助手": 7,
-      "产品/SaaS": 40,
-      "MCP Server": 37,
+      "产品/SaaS": 42,
+      "MCP Server": 43,
       "研究原型": 4,
       "API/SDK/库": 16,
       "Awesome/索引": 15
     },
     "outputForms": {
-      "图形摘要/信息图": 17,
-      "PPT/演示文稿": 97,
-      "网页/交互页面": 47,
-      "问答/学习材料": 8,
+      "图形摘要/信息图": 18,
+      "PPT/演示文稿": 99,
+      "网页/交互页面": 51,
+      "问答/学习材料": 9,
       "报告/长文档": 26,
       "证据表": 8,
       "信息图/视觉报告": 34,
       "图表/仪表盘": 42,
-      "架构图/流程图": 46,
-      "白板/思维导图": 16,
-      "图表/Mermaid": 25,
-      "SVG/PNG/PDF": 60,
+      "架构图/流程图": 49,
+      "白板/思维导图": 17,
+      "图表/Mermaid": 27,
+      "SVG/PNG/PDF": 64,
       "表格/时间线": 5,
-      "报告/简报": 23,
+      "报告/简报": 24,
       "引用答案": 4,
-      "思维导图/知识地图": 14,
+      "思维导图/知识地图": 16,
       "视频/音频": 16,
-      "结构化数据/Markdown": 16,
+      "结构化数据/Markdown": 17,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 18,
       "图表/渲染输出": 8,
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 162,
+      "本地语言环境": 169,
       "模型 API": 101,
       "文档解析/OCR": 39,
-      "渲染/导出": 161,
+      "渲染/导出": 167,
       "GPU/加速器": 8,
-      "模板/素材": 99,
-      "Agent 宿主": 92,
-      "系统工具": 24,
-      "外部检索/数据源": 39,
-      "存储/索引": 25,
-      "浏览器/账号": 67,
-      "MCP Client": 38,
+      "模板/素材": 100,
+      "Agent 宿主": 95,
+      "系统工具": 27,
+      "外部检索/数据源": 40,
+      "存储/索引": 27,
+      "浏览器/账号": 70,
+      "MCP Client": 44,
       "代码分析工具": 19
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 21,
+      "doc-to-knowledge": 23,
       "research-report": 13,
       "infographic-report": 19,
       "data-dashboard": 21,
       "literature-map": 4,
-      "presentation-tools": 60,
+      "presentation-tools": 62,
       "codebase-map": 18,
       "rendering-primitive": 6,
-      "diagram-generation": 27,
+      "diagram-generation": 30,
       "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 18
@@ -98,12 +98,12 @@
       "paper": 24,
       "text_visual": 25,
       "web_news": 8,
-      "support_mindmap": 6,
+      "support_mindmap": 8,
       "docs": 7,
       "support_doc_parse": 8,
-      "presentation": 72,
+      "presentation": 74,
       "code": 18,
-      "support_render": 25,
+      "support_render": 28,
       "diagrams": 2,
       "data": 17,
       "video": 7,
@@ -4015,6 +4015,84 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "mindmapio-mcp",
+      "url": "https://github.com/MohGanji/mindmapio-mcp",
+      "primaryUrl": "https://github.com/MohGanji/mindmapio-mcp",
+      "homepage": "https://mindmap.io",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "MCP server and agent skill for driving mindmap.io maps from research, plans, and conversations with map/node CRUD, publish/embed links, prompt execution, and auto-expansion through a personal account token.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "问答/学习材料"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`skills/mindmapio/SKILL.md`",
+          "url": "https://github.com/MohGanji/mindmapio-mcp/blob/HEAD/skills/mindmapio/SKILL.md",
+          "source": "https://raw.githubusercontent.com/MohGanji/mindmapio-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Auto Expand",
+          "url": "https://mindmap.io/videos/auto-expand.mp4",
+          "thumbnailUrl": null,
+          "source": "https://mindmap.io/"
+        },
+        {
+          "kind": "video",
+          "title": "Zoom Levels",
+          "url": "https://mindmap.io/videos/zoom-levels.mp4",
+          "thumbnailUrl": null,
+          "source": "https://mindmap.io/"
+        },
+        {
+          "kind": "video",
+          "title": "Multi Model",
+          "url": "https://mindmap.io/videos/multi-model.mp4",
+          "thumbnailUrl": null,
+          "source": "https://mindmap.io/"
+        },
+        {
+          "kind": "image",
+          "title": "mindmap.io - Think in branches, not lines",
+          "url": "https://mindmap.io/og-default.png",
+          "thumbnailUrl": null,
+          "source": "https://mindmap.io/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
       "name": "mind-map-mcp",
       "url": "https://github.com/sawyer-shi/mind-map-mcp",
       "primaryUrl": "https://github.com/sawyer-shi/mind-map-mcp",
@@ -4058,6 +4136,100 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "mindmap-mcp-server",
+      "url": "https://github.com/YuChenSSR/mindmap-mcp-server",
+      "primaryUrl": "https://github.com/YuChenSSR/mindmap-mcp-server",
+      "homepage": "https://pypi.org/project/mindmap-mcp-server/",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 236,
+      "license": "MIT",
+      "updated": "2026-07-06",
+      "note": "MCP server that converts Markdown content into interactive Markmap-style mind maps, with pip, uvx, Docker, and artifact-oriented HTML rendering paths.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "html_preview",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-21/SujqY2L5lhWSHWvi.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "mindmap_mcp",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-21/JMi7Mn89Hw5ikd9z.jpeg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "system_prompt_artifact",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-05-20/1i9LIfoVRdCV97HM.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "system_prompt_render",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-05-20/qv4ActvFaphc64oA.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "return_html_content",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-20/qAEimhwZJDQ3NBLs.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "generate_file",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-20/WDqlWhsoiAYpLmBF.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "file_to_open",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-20/jfRIDc5mfvNtKykC.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "mindmapinbrowser",
+          "url": "https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-22/w7DZ4shFhLoQZruq.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
     },
     {
       "name": "MindRepo",
@@ -8415,6 +8587,50 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "PresentationSkill-ClaudeCode",
+      "url": "https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode",
+      "primaryUrl": "https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-06-01",
+      "note": "Claude Code skill suite that turns source material, outlines, notes, and datasets into citation-disciplined HTML decks, print-quality posters, and research-synthesis outlines through an HTML plus Playwright pipeline.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "报告/简报",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "ppt-agents",
       "url": "https://github.com/chenxingqiang/ppt-agents",
       "primaryUrl": "https://github.com/chenxingqiang/ppt-agents",
@@ -10072,6 +10288,44 @@
       "effectAssets": [],
       "docsCount": 8,
       "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "che-pptx-mcp",
+      "url": "https://github.com/PsychQuant/che-pptx-mcp",
+      "primaryUrl": "https://github.com/PsychQuant/che-pptx-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-07-02",
+      "note": "Swift-native PowerPoint MCP server for creating, opening, editing, reading, and exporting PPTX files through roughly 45 PresentationML tools without requiring PowerPoint.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -15293,6 +15547,137 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "diagrams-mcp",
+      "url": "https://github.com/ByteOverDev/diagrams-mcp",
+      "primaryUrl": "https://github.com/ByteOverDev/diagrams-mcp",
+      "homepage": "https://pypi.org/project/diagrams-mcp-server/",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 3,
+      "license": "unknown",
+      "updated": "2026-06-25",
+      "note": "MCP server for generating cloud architecture diagrams, flowcharts, sequence diagrams, and UML-style visuals through hosted or local Graphviz, Mermaid, and PlantUML rendering engines.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "mingrammer/diagrams",
+          "url": "https://diagrams.mingrammer.com/docs/nodes/aws",
+          "source": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Example diagram",
+          "url": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/main/assets/hero-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mermaid flowchart",
+          "url": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/main/assets/mermaid-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PlantUML sequence diagram",
+          "url": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/main/assets/plantuml-example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "diagramzu-mcp",
+      "url": "https://github.com/yenchieh/diagramzu-mcp",
+      "primaryUrl": "https://github.com/yenchieh/diagramzu-mcp",
+      "homepage": "https://diagramzu.ai",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "MCP server for diagramzu.ai that lets AI clients list, create, update, analyze, version, and share Mermaid diagrams stored in a team Space through hosted HTTP or local stdio transport.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://diagramzu.ai/docs",
+          "source": "https://diagramzu.ai/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "See an example diagram",
+          "url": "https://diagramzu.ai/s/Kv19elalKNK1hv58qd2Iea",
+          "source": "https://diagramzu.ai/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "DiagramZu — diagrams for AI-assisted development",
+          "url": "https://diagramzu.ai/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://diagramzu.ai/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "Claude Mermaid",
       "url": "https://github.com/veelenga/claude-mermaid",
       "primaryUrl": "https://github.com/veelenga/claude-mermaid",
@@ -15807,6 +16192,131 @@
       "docsCount": 0,
       "examplesCount": 2,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "whiteboard",
+      "url": "https://github.com/kamiazya/whiteboard",
+      "primaryUrl": "https://github.com/kamiazya/whiteboard",
+      "homepage": "https://kamiazya-whiteboard.pages.dev/",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-06",
+      "note": "Excalidraw-based collaborative whiteboard plugin and MCP server for Claude Code, Codex, and Gemini that lets agents draw, annotate, refine, persist, and export architecture, workflow, review, and onboarding diagrams on a shared canvas.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "白板/思维导图",
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Self-host with Docker",
+          "url": "https://github.com/kamiazya/whiteboard/blob/HEAD/docs/how-to/self-host-with-docker.md",
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/reference/configuration.md",
+          "url": "https://github.com/kamiazya/whiteboard/blob/HEAD/docs/reference/configuration.md",
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/explanation/architecture.md",
+          "url": "https://github.com/kamiazya/whiteboard/blob/HEAD/docs/explanation/architecture.md",
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/explanation/security-model.md",
+          "url": "https://github.com/kamiazya/whiteboard/blob/HEAD/docs/explanation/security-model.md",
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Get started →",
+          "url": "https://github.com/kamiazya/whiteboard/blob/HEAD/docs/tutorials/getting-started.md",
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "docs/reference/templates.md",
+          "url": "https://github.com/kamiazya/whiteboard/blob/HEAD/docs/reference/templates.md",
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Architecture diagram: Skills and Whiteboard MCP are packaged in the kamiazya/whiteboard Plugin. You and Agent (Claude/Codex/Gemini) interact via prompts/replies; Agent calls Whiteb",
+          "url": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The browser canvas: workspace and canvas selector in the top bar, Excalidraw drawing toolbar, live diagram synced from the agent in real time",
+          "url": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-browser-ui.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Auth service request flow: client → API Gateway → Token Service → Database, with Redis Cache path shown",
+          "url": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-auth-flow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Agent drew the architecture diagram",
+          "url": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-agent-drew.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Review notes added by the user",
+          "url": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-user-annotated.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Fullscreen presentation mode",
+          "url": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-presentation.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 6
     },
     {
       "name": "AntV Infographic",

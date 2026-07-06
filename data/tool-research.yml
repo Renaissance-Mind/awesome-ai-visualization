@@ -1,4 +1,4 @@
-generated_at: '2026-07-05T23:06:40+00:00'
+generated_at: '2026-07-06T23:04:46+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 237
-  fetched_sources_ok: 323
+  entries: 244
+  fetched_sources_ok: 335
   fetched_sources_failed: 20
-  official_examples: 779
-  official_effect_assets: 908
-  official_docs: 758
+  official_examples: 782
+  official_effect_assets: 930
+  official_docs: 765
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -23816,3 +23816,400 @@ entries:
   - Demo
   - Install The Skill (Codex CLI example)
   - (example for Claude Desktop config — same shape for others)
+- name: mindmapio-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/MohGanji/mindmapio-mcp
+  homepage: https://mindmap.io
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  catalog_note: MCP server and agent skill for driving mindmap.io maps from research, plans, and conversations with map/node
+    CRUD, publish/embed links, prompt execution, and auto-expansion through a personal account token.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/MohGanji/mindmapio-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/MohGanji/mindmapio-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mindmapio-mcp
+    bytes: 5265
+  - kind: homepage
+    url: https://mindmap.io/
+    final_url: https://mindmap.io/
+    status: 200
+    content_type: text/html
+    title: mindmap.io - Think in branches, not lines
+    description: Think in branches, not lines. A mindmap where every node is a live AI conversation you can fork, switch models
+      per node, and zoom out to see your whole map. Keep your thinking instant context
+    bytes: 40543
+  official_docs:
+  - kind: docs
+    title: '`skills/mindmapio/SKILL.md`'
+    url: https://github.com/MohGanji/mindmapio-mcp/blob/HEAD/skills/mindmapio/SKILL.md
+    source: https://raw.githubusercontent.com/MohGanji/mindmapio-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: Auto Expand
+    url: https://mindmap.io/videos/auto-expand.mp4
+    source: https://mindmap.io/
+  - kind: video
+    title: Zoom Levels
+    url: https://mindmap.io/videos/zoom-levels.mp4
+    source: https://mindmap.io/
+  - kind: video
+    title: Multi Model
+    url: https://mindmap.io/videos/multi-model.mp4
+    source: https://mindmap.io/
+  - kind: image
+    title: mindmap.io - Think in branches, not lines
+    url: https://mindmap.io/og-default.png
+    source: https://mindmap.io/
+  official_links:
+  - kind: docs
+    title: '`skills/mindmapio/SKILL.md`'
+    url: https://github.com/MohGanji/mindmapio-mcp/blob/HEAD/skills/mindmapio/SKILL.md
+    source: https://raw.githubusercontent.com/MohGanji/mindmapio-mcp/HEAD/README.md
+  official_examples: []
+- name: mindmap-mcp-server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/YuChenSSR/mindmap-mcp-server
+  homepage: https://pypi.org/project/mindmap-mcp-server/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server that converts Markdown content into interactive Markmap-style mind maps, with pip, uvx, Docker,
+    and artifact-oriented HTML rendering paths.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mindmap MCP Server
+    bytes: 10230
+  - kind: homepage
+    url: https://pypi.org/project/mindmap-mcp-server/
+    final_url: https://pypi.org/project/mindmap-mcp-server/
+    status: 200
+    content_type: text/html
+    title: Client Challenge
+    bytes: 3038
+  official_effect_assets:
+  - kind: image
+    title: html_preview
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-21/SujqY2L5lhWSHWvi.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: mindmap_mcp
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-21/JMi7Mn89Hw5ikd9z.jpeg
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: system_prompt_artifact
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-05-20/1i9LIfoVRdCV97HM.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: system_prompt_render
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-05-20/qv4ActvFaphc64oA.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: return_html_content
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-20/qAEimhwZJDQ3NBLs.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: generate_file
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-20/WDqlWhsoiAYpLmBF.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: file_to_open
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-20/jfRIDc5mfvNtKykC.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  - kind: image
+    title: mindmapinbrowser
+    url: https://raw.githubusercontent.com/YuChenSSR/pics/master/imgs/2025-03-22/w7DZ4shFhLoQZruq.png
+    source: https://raw.githubusercontent.com/YuChenSSR/mindmap-mcp-server/HEAD/README.md
+  source_headings:
+  - Usage
+  - Example
+  official_examples: []
+  official_docs: []
+  official_links: []
+- name: PresentationSkill-ClaudeCode
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code skill suite that turns source material, outlines, notes, and datasets into citation-disciplined
+    HTML decks, print-quality posters, and research-synthesis outlines through an HTML plus Playwright pipeline.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ZeroAlcoholic/PresentationSkill-ClaudeCode/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ZeroAlcoholic/PresentationSkill-ClaudeCode/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PresentationSkill-ClaudeCode
+    bytes: 3286
+  source_headings:
+  - PresentationSkill-ClaudeCode
+  - '🎞️ `dark-deck-report` — render: presentation'
+  - '🖼️ `poster-maker` — render: single-page poster'
+  official_examples: []
+  official_docs: []
+  official_links: []
+- name: che-pptx-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/PsychQuant/che-pptx-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Swift-native PowerPoint MCP server for creating, opening, editing, reading, and exporting PPTX files through
+    roughly 45 PresentationML tools without requiring PowerPoint.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/PsychQuant/che-pptx-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/PsychQuant/che-pptx-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: che-pptx-mcp
+    bytes: 1468
+  official_examples: []
+  official_docs: []
+  official_links: []
+- name: diagrams-mcp
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/ByteOverDev/diagrams-mcp
+  homepage: https://pypi.org/project/diagrams-mcp-server/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP server for generating cloud architecture diagrams, flowcharts, sequence diagrams, and UML-style visuals
+    through hosted or local Graphviz, Mermaid, and PlantUML rendering engines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: diagrams-mcp-server
+    bytes: 11272
+  - kind: homepage
+    url: https://pypi.org/project/diagrams-mcp-server/
+    final_url: https://pypi.org/project/diagrams-mcp-server/
+    status: 200
+    content_type: text/html
+    title: diagrams-mcp-server · PyPI
+    description: MCP server for rendering diagrams using mingrammer/diagrams, Mermaid, and PlantUML
+    bytes: 97417
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: mingrammer/diagrams
+    url: https://diagrams.mingrammer.com/docs/nodes/aws
+    source: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Example diagram
+    url: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/main/assets/hero-diagram.png
+    source: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+  - kind: image
+    title: Mermaid flowchart
+    url: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/main/assets/mermaid-example.png
+    source: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+  - kind: image
+    title: PlantUML sequence diagram
+    url: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/main/assets/plantuml-example.png
+    source: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: mingrammer/diagrams
+    url: https://diagrams.mingrammer.com/docs/nodes/aws
+    source: https://raw.githubusercontent.com/ByteOverDev/diagrams-mcp/HEAD/README.md
+  source_headings:
+  - diagrams-mcp-server
+  - Examples
+  - Cloud Architecture (mingrammer/diagrams)
+  - Sequence Diagram (PlantUML)
+- name: diagramzu-mcp
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/yenchieh/diagramzu-mcp
+  homepage: https://diagramzu.ai
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: MCP server for diagramzu.ai that lets AI clients list, create, update, analyze, version, and share Mermaid
+    diagrams stored in a team Space through hosted HTTP or local stdio transport.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yenchieh/diagramzu-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yenchieh/diagramzu-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '@diagramzu/mcp'
+    bytes: 3359
+  - kind: homepage
+    url: https://diagramzu.ai/
+    final_url: https://diagramzu.ai/
+    status: 200
+    content_type: text/html
+    title: DiagramZu — diagrams for AI-assisted development
+    description: The home for diagrams your AI writes. Generate Mermaid with Claude, ChatGPT, or Cursor; organize, render,
+      and share with your team.
+    bytes: 679468
+  official_examples:
+  - kind: example
+    title: See an example diagram
+    url: https://diagramzu.ai/s/Kv19elalKNK1hv58qd2Iea
+    source: https://diagramzu.ai/
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://diagramzu.ai/docs
+    source: https://diagramzu.ai/
+  official_effect_assets:
+  - kind: image
+    title: DiagramZu — diagrams for AI-assisted development
+    url: https://diagramzu.ai/og-image.png
+    source: https://diagramzu.ai/
+  official_links:
+  - kind: docs
+    title: Docs
+    url: https://diagramzu.ai/docs
+    source: https://diagramzu.ai/
+  - kind: example
+    title: See an example diagram
+    url: https://diagramzu.ai/s/Kv19elalKNK1hv58qd2Iea
+    source: https://diagramzu.ai/
+  source_headings:
+  - '@diagramzu/mcp'
+  - with DIAGRAMZU_BASE_URL / DIAGRAMZU_API_TOKEN / DIAGRAMZU_SPACE_ID
+- name: whiteboard
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/kamiazya/whiteboard
+  homepage: https://kamiazya-whiteboard.pages.dev/
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Excalidraw-based collaborative whiteboard plugin and MCP server for Claude Code, Codex, and Gemini that lets
+    agents draw, annotate, refine, persist, and export architecture, workflow, review, and onboarding diagrams on a shared
+    canvas.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '@kamiazya/whiteboard'
+    bytes: 10015
+  - kind: homepage
+    url: https://kamiazya-whiteboard.pages.dev/
+    final_url: https://kamiazya-whiteboard.pages.dev/
+    status: 200
+    content_type: text/html
+    title: Whiteboard
+    bytes: 395
+  official_examples:
+  - kind: tutorial
+    title: Get started →
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/tutorials/getting-started.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: template
+    title: docs/reference/templates.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/reference/templates.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Self-host with Docker
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/how-to/self-host-with-docker.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: docs/reference/configuration.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/reference/configuration.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: docs/explanation/architecture.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/explanation/architecture.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: docs/explanation/security-model.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/explanation/security-model.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Architecture diagram: Skills and Whiteboard MCP are packaged in the kamiazya/whiteboard Plugin. You and Agent
+      (Claude/Codex/Gemini) interact via prompts/replies; Agent calls Whiteb'
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/architecture.png
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: image
+    title: 'The browser canvas: workspace and canvas selector in the top bar, Excalidraw drawing toolbar, live diagram synced
+      from the agent in real time'
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-browser-ui.png
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: image
+    title: 'Auth service request flow: client → API Gateway → Token Service → Database, with Redis Cache path shown'
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-auth-flow.png
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: image
+    title: Agent drew the architecture diagram
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-agent-drew.png
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: image
+    title: Review notes added by the user
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-user-annotated.png
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: image
+    title: Fullscreen presentation mode
+    url: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/docs/assets/canvas-presentation.png
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  official_links:
+  - kind: tutorial
+    title: Get started →
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/tutorials/getting-started.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: Self-host with Docker
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/how-to/self-host-with-docker.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: docs/reference/configuration.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/reference/configuration.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: docs/explanation/architecture.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/explanation/architecture.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: template
+    title: docs/reference/templates.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/reference/templates.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  - kind: docs
+    title: docs/explanation/security-model.md
+    url: https://github.com/kamiazya/whiteboard/blob/HEAD/docs/explanation/security-model.md
+    source: https://raw.githubusercontent.com/kamiazya/whiteboard/HEAD/README.md
+  source_headings:
+  - Example transcript
+  - Documentation

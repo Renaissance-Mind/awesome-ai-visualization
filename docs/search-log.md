@@ -335,6 +335,16 @@ Excluded if:
 - [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills): Chinese academic skill suite for paper-reading reports, academic PPT or Word documents, research writing, peer-review responses, scientific computing, and publication-grade charts.
 - [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw): MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.
 
+## Added in the 2026-07-07 Daily Refresh
+
+- [mindmapio-mcp](https://github.com/MohGanji/mindmapio-mcp): MCP server and agent skill for turning research, plans, and conversations into mindmap.io maps with node editing, publishing, prompt execution, and auto-expansion.
+- [mindmap-mcp-server](https://github.com/YuChenSSR/mindmap-mcp-server): MCP server that converts Markdown into interactive Markmap-style mind maps through pip, uvx, Docker, or HTML artifact workflows.
+- [PresentationSkill-ClaudeCode](https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode): Claude Code skill suite for source-backed research synthesis, dense HTML presentation decks, and print-quality posters through an HTML plus Playwright pipeline.
+- [che-pptx-mcp](https://github.com/PsychQuant/che-pptx-mcp): Swift-native PowerPoint MCP server for creating, reading, editing, and exporting PPTX files without requiring PowerPoint.
+- [diagrams-mcp](https://github.com/ByteOverDev/diagrams-mcp): MCP server for hosted or local architecture diagrams, flowcharts, sequence diagrams, Mermaid, and PlantUML rendering.
+- [diagramzu-mcp](https://github.com/yenchieh/diagramzu-mcp): diagramzu.ai MCP server for creating, updating, analyzing, versioning, and sharing Mermaid diagrams in a team Space.
+- [whiteboard](https://github.com/kamiazya/whiteboard): Excalidraw-based collaborative whiteboard plugin and MCP server for Codex, Claude Code, and Gemini agents to draw, annotate, persist, and export visual explanations.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.
