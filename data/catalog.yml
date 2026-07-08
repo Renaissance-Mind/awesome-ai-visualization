@@ -1,4 +1,4 @@
-last_researched: '2026-07-07'
+last_researched: '2026-07-09'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -190,6 +190,36 @@ entries:
   - 图表/仪表盘
   - 信息图/视觉报告
   - 架构图/流程图
+  catalog_section: main
+  readme_group: text_visual
+- name: Infographic Agent
+  url: https://github.com/ryanbaumann/infographic-agent
+  homepage: https://infographic-agent-gajikud3na-uc.a.run.app
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-07-08'
+  note: Browser app and portable agent skill that turns PDFs, URLs, CSV/spreadsheets, images, text, or topics into editable infographic drafts with Gemini research/design agents, live refinement, history, and PNG export.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: text_visual
 - name: Visual Explainer Skill
@@ -1078,6 +1108,31 @@ entries:
   - 网页/交互页面
   catalog_section: support_mindmap
   readme_group: support_mindmap
+- name: Obsidian Visual Skills Pack
+  url: https://github.com/axtonliu/axton-obsidian-visual-skills
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 3167
+  license: MIT
+  updated: '2026-06-26'
+  note: Claude Code visual skills pack for turning text into Obsidian Canvas files, Excalidraw diagrams, and Mermaid diagrams, with demos for hand-drawn, hierarchical flowchart, and colorful card-layout outputs.
+  source_types:
+  - 文本/想法
+  - 知识库/个人资料
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 白板/思维导图
+  - 图表/Mermaid
+  - 架构图/流程图
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
 - name: MindRepo
   url: https://github.com/NguyenVu04/mind-repo
   homepage: https://mindrep.io
@@ -1178,6 +1233,32 @@ entries:
   - 报告/简报
   - 表格/时间线
   - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: printable-docs-skill
+  url: https://github.com/sam33339999/printable-docs-skill
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: unknown
+  updated: '2026-06-15'
+  note: Claude Code skill and template system for Chinese A4 HTML documents that print cleanly to PDF, covering reports, contracts, meeting minutes, forms, resumes, slides, study sheets, grids, page assembly, and embeddable SVG infographic modules.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 信息图/视觉报告
+  - PPT/演示文稿
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: docs
 - name: notebooklm-py
@@ -1971,6 +2052,38 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: slide-maker
+  url: https://github.com/addsumtech/slides_maker
+  homepage: https://slides.addsum.top/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-08'
+  note: Codex and Claude Code deck-maker that reads papers, repos, documents, data, or topics, plans and critiques slide narratives with specialized agents, then ships source-traced, fully editable native PPTX decks with charts, equations, speaker notes, and template galleries.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - Office 文档
+  - 代码库
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: PresentationSkill-ClaudeCode
   url: https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode
   category: presentation-tools
@@ -2171,6 +2284,34 @@ entries:
   output_forms:
   - PPT/演示文稿
   - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: revealjs-skill
+  url: https://github.com/ryanbbrown/revealjs-skill
+  homepage: https://ryanbbrown.com/revealjs-skill/examples/revealjs/presentation.html
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 368
+  license: MIT
+  updated: '2026-05-02'
+  note: Claude Code plugin and skill for creating Reveal.js HTML presentations from natural language, with professional themes, Chart.js data visuals, speaker notes, overflow checks, screenshots, and PDF export via Playwright and DeckTape.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
@@ -4078,6 +4219,32 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: Mermaid PowerPoint Add-in
+  url: https://github.com/accionlabs/mermaid-powerpoint-addin
+  homepage: https://accionlabs.github.io/mermaid-powerpoint-addin/
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 7
+  license: unknown
+  updated: '2025-07-08'
+  note: PowerPoint add-in for writing, previewing, inserting, and re-editing Mermaid diagrams directly inside slide decks, with persistent source storage in the presentation and high-quality PNG insertion.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: gemini-diagram-mcp
   url: https://github.com/arunsanna/gemini-diagram-mcp
   homepage: https://www.npmjs.com/package/gemini-diagram-mcp
@@ -4126,6 +4293,37 @@ entries:
   output_forms:
   - 架构图/流程图
   - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: drawio-skill
+  url: https://github.com/Agents365-ai/drawio-skill
+  homepage: https://agents365-ai.github.io/drawio-skill/
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 代码分析工具
+  - 模板/素材
+  stars: 5513
+  license: MIT
+  updated: '2026-07-08'
+  note: Agent skill that turns natural-language, Mermaid, codebases, IaC, SQL DDL, JSON sequence specs, and style references into editable draw.io XML plus PNG, SVG, PDF, or JPG exports with presets, official shape search, Graphviz layout, and visual self-check loops.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 代码/技术描述
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 代码地图/Repo Wiki
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
@@ -4728,6 +4926,30 @@ entries:
   - 开源应用/框架
   output_forms:
   - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: tufte-claude-skill
+  url: https://github.com/aref-vc/tufte-claude-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 276
+  license: MIT
+  updated: '2026-06-15'
+  note: Claude Code skill that turns chart, graph, dashboard, KPI tile, table, sparkline, small-multiple, time-series, distribution, choropleth, and infographic requests into Tufte-style quantitative visuals with statistical-honesty and layout rules.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 信息图/视觉报告
   - 报告/简报
   catalog_section: main
   readme_group: data

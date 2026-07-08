@@ -345,6 +345,17 @@ Excluded if:
 - [diagramzu-mcp](https://github.com/yenchieh/diagramzu-mcp): diagramzu.ai MCP server for creating, updating, analyzing, versioning, and sharing Mermaid diagrams in a team Space.
 - [whiteboard](https://github.com/kamiazya/whiteboard): Excalidraw-based collaborative whiteboard plugin and MCP server for Codex, Claude Code, and Gemini agents to draw, annotate, persist, and export visual explanations.
 
+## Added in the 2026-07-09 Daily Refresh
+
+- [Infographic Agent](https://github.com/ryanbaumann/infographic-agent): browser app and portable agent skill that turns PDFs, URLs, CSV/spreadsheets, images, text, or topics into Gemini-assisted infographic drafts with refinement and PNG export.
+- [slide-maker](https://github.com/addsumtech/slides_maker): Codex and Claude Code deck-maker that reads papers, repos, documents, data, or topics and ships source-traced, critic-reviewed native PPTX decks.
+- [revealjs-skill](https://github.com/ryanbbrown/revealjs-skill): Claude Code plugin and skill for Reveal.js HTML presentations with themes, Chart.js visuals, speaker notes, overflow checks, screenshots, and PDF export.
+- [printable-docs-skill](https://github.com/sam33339999/printable-docs-skill): Claude Code skill and template system for Chinese A4 HTML documents, printable PDFs, slides, study sheets, and embeddable SVG infographic modules.
+- [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill): Claude Code chart and dashboard skill that applies Tufte-style quantitative-visual rules to charts, KPI tiles, small multiples, tables, and infographics.
+- [Obsidian Visual Skills Pack](https://github.com/axtonliu/axton-obsidian-visual-skills): Claude Code visual skills for generating Obsidian Canvas, Excalidraw, and Mermaid diagrams from text.
+- [Mermaid PowerPoint Add-in](https://github.com/accionlabs/mermaid-powerpoint-addin): PowerPoint add-in for writing, previewing, inserting, and re-editing Mermaid diagrams inside slide decks.
+- [drawio-skill](https://github.com/Agents365-ai/drawio-skill): agent skill for natural-language, Mermaid, codebase, IaC, SQL, and sequence-spec inputs to editable draw.io diagrams with PNG/SVG/PDF/JPG export.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.
