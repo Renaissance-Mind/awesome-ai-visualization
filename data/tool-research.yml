@@ -1,4 +1,4 @@
-generated_at: '2026-07-06T23:04:46+00:00'
+generated_at: '2026-07-08T23:06:59+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 244
-  fetched_sources_ok: 335
+  entries: 252
+  fetched_sources_ok: 348
   fetched_sources_failed: 20
-  official_examples: 782
-  official_effect_assets: 930
-  official_docs: 765
+  official_examples: 790
+  official_effect_assets: 964
+  official_docs: 785
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -24213,3 +24213,627 @@ entries:
   source_headings:
   - Example transcript
   - Documentation
+- name: Infographic Agent
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/ryanbaumann/infographic-agent
+  homepage: https://infographic-agent-gajikud3na-uc.a.run.app
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Browser app and portable agent skill that turns PDFs, URLs, CSV/spreadsheets, images, text, or topics into
+    editable infographic drafts with Gemini research/design agents, live refinement, history, and PNG export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Turn any content into beautiful infographics
+    bytes: 17599
+  - kind: homepage
+    url: https://infographic-agent-gajikud3na-uc.a.run.app/
+    final_url: https://infographic-agent-gajikud3na-uc.a.run.app/
+    status: 200
+    content_type: text/html
+    title: Infographic Agent
+    bytes: 597235
+  official_examples:
+  - kind: demo
+    title: Try the Live Demo
+    url: https://infographic-agent-gajikud3na-uc.a.run.app
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Gemini API key
+    url: https://aistudio.google.com/apikey
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  - kind: docs
+    title: '`docs/architecture.md`'
+    url: https://github.com/ryanbaumann/infographic-agent/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Generated Infographic Example
+    url: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/docs/assets/infographic-example.png
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  - kind: image
+    title: Evolution of AI Agents
+    url: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/examples/ai_agents_evolution.png
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  - kind: image
+    title: How Infographic Agent Works
+    url: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/examples/how_it_works.png
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  - kind: image
+    title: The 3 Hard Rules of Infographics
+    url: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/examples/infographic_rules.png
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Try the Live Demo
+    url: https://infographic-agent-gajikud3na-uc.a.run.app
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  - kind: docs
+    title: Gemini API key
+    url: https://aistudio.google.com/apikey
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  - kind: docs
+    title: '`docs/architecture.md`'
+    url: https://github.com/ryanbaumann/infographic-agent/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/ryanbaumann/infographic-agent/HEAD/README.md
+  source_headings:
+  - 🚀 Get Started Immediately
+  - Usage Examples
+  - Gallery of Generated Infographics
+- name: Obsidian Visual Skills Pack
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/axtonliu/axton-obsidian-visual-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude Code visual skills pack for turning text into Obsidian Canvas files, Excalidraw diagrams, and Mermaid
+    diagrams, with demos for hand-drawn, hierarchical flowchart, and colorful card-layout outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Obsidian Visual Skills Pack
+    bytes: 10096
+  official_examples:
+  - kind: tutorial
+    title: MAPS™ AI Agent Course
+    url: https://www.axtonliu.ai/aiagent
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: tutorial
+    title: Free AI Course
+    url: https://www.axtonliu.ai/axton-free-course
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 中文文档
+    url: https://github.com/axtonliu/axton-obsidian-visual-skills/blob/HEAD/README_CN.md
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: docs
+    title: 'Claude Skills: A Systematic Guide'
+    url: https://www.axtonliu.ai/newsletters/ai-2/posts/claude-agent-skills-maps-framework
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Excalidraw Demo
+    url: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/assets/excalidraw-demo.png
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: image
+    title: Mermaid Demo
+    url: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/assets/mermaid-demo.png
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: image
+    title: Canvas Demo
+    url: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/assets/canvas-demo.png
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: image
+    title: Watch the demo
+    url: https://img.youtube.com/vi/TUJ_3G1cylc/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 中文文档
+    url: https://github.com/axtonliu/axton-obsidian-visual-skills/blob/HEAD/README_CN.md
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: tutorial
+    title: MAPS™ AI Agent Course
+    url: https://www.axtonliu.ai/aiagent
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: docs
+    title: 'Claude Skills: A Systematic Guide'
+    url: https://www.axtonliu.ai/newsletters/ai-2/posts/claude-agent-skills-maps-framework
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  - kind: tutorial
+    title: Free AI Course
+    url: https://www.axtonliu.ai/axton-free-course
+    source: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/README.md
+  source_headings:
+  - Obsidian Visual Skills Pack
+  - Demo
+  - Video Demo
+  - 1. Excalidraw Diagram Generator
+  - 2. Mermaid Visualizer
+  - Usage
+- name: printable-docs-skill
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/sam33339999/printable-docs-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and template system for Chinese A4 HTML documents that print cleanly to PDF, covering reports,
+    contracts, meeting minutes, forms, resumes, slides, study sheets, grids, page assembly, and embeddable SVG infographic
+    modules.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: printable-docs — Printable Chinese HTML Documents Skill
+    bytes: 14491
+  official_docs:
+  - kind: docs
+    title: 繁體中文
+    url: https://github.com/sam33339999/printable-docs-skill/blob/HEAD/README-zh-tw.md
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  - kind: docs
+    title: Claude Code Skill
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  - kind: docs
+    title: '`infographic/catalog.md`'
+    url: https://github.com/sam33339999/printable-docs-skill/blob/HEAD/infographic/catalog.md
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  - kind: docs
+    title: '`SKILL.md`'
+    url: https://github.com/sam33339999/printable-docs-skill/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 繁體中文
+    url: https://github.com/sam33339999/printable-docs-skill/blob/HEAD/README-zh-tw.md
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  - kind: docs
+    title: Claude Code Skill
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  - kind: docs
+    title: '`infographic/catalog.md`'
+    url: https://github.com/sam33339999/printable-docs-skill/blob/HEAD/infographic/catalog.md
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  - kind: docs
+    title: '`SKILL.md`'
+    url: https://github.com/sam33339999/printable-docs-skill/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/sam33339999/printable-docs-skill/HEAD/README.md
+  source_headings:
+  - printable-docs — Printable Chinese HTML Documents Skill
+  - ② Template — 39 A4 templates
+  - ③ Grid System — multi-column on any template
+- name: slide-maker
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/addsumtech/slides_maker
+  homepage: https://slides.addsum.top/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex and Claude Code deck-maker that reads papers, repos, documents, data, or topics, plans and critiques
+    slide narratives with specialized agents, then ships source-traced, fully editable native PPTX decks with charts, equations,
+    speaker notes, and template galleries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'slide-maker: turn a paper, a repo, a doc, or just a topic into a native PPTX you can present'
+    bytes: 24675
+  - kind: homepage
+    url: https://slides.addsum.top/
+    final_url: https://slides.addsum.top/
+    status: 200
+    content_type: text/html
+    title: slide-maker Demo Gallery | Open-Source AI Slide Generator (AI PPT)
+    description: Flip through 16 complete decks generated by slide-maker, Addsum's free open-source AI slide generator for
+      Codex / Claude Code. Download the natively editable PPTX and click anythin
+    bytes: 20746
+  official_effect_assets:
+  - kind: image
+    title: Lab Meeting / Paper Talk template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_transformer-talk.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: Company / Product Intro template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_nvidia-overview.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: Data / Market Analysis template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_nl-job-market-2026.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: AI Trends / Solo Talk template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_solo-company-talk.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: Teaching / Knowledge Sharing template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_kids-ai-explainer.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: Visual Storytelling / Culture template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_chengdu.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: History / Evolution Narrative template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_standup-history.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  - kind: image
+    title: Biography / Brand Story template preview
+    url: https://slides.addsum.top/docs/assets/screenshots/preview_en_michael-jackson-king-of-pop.png
+    source: https://raw.githubusercontent.com/addsumtech/slides_maker/HEAD/README.md
+  source_headings:
+  - 'slide-maker: turn a paper, a repo, a doc, or just a topic into a native PPTX you can present'
+  - Template gallery
+  - How to use the templates
+  - What makes slide-maker different
+- name: revealjs-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ryanbbrown/revealjs-skill
+  homepage: https://ryanbbrown.com/revealjs-skill/examples/revealjs/presentation.html
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code plugin and skill for creating Reveal.js HTML presentations from natural language, with professional
+    themes, Chart.js data visuals, speaker notes, overflow checks, screenshots, and PDF export via Playwright and DeckTape.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ryanbbrown/revealjs-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ryanbbrown/revealjs-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: revealjs-skill
+    bytes: 3965
+  - kind: homepage
+    url: https://ryanbbrown.com/revealjs-skill/examples/revealjs/presentation.html
+    final_url: https://ryanbbrown.com/revealjs-skill/examples/revealjs/presentation.html
+    status: 200
+    content_type: text/html
+    title: LexiContract AI - Investor Pitch Deck
+    bytes: 31597
+  official_examples:
+  - kind: example
+    title: View Example Presentation
+    url: https://ryanbbrown.com/revealjs-skill/examples/revealjs/presentation.html
+    source: https://raw.githubusercontent.com/ryanbbrown/revealjs-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: View Example Presentation
+    url: https://ryanbbrown.com/revealjs-skill/examples/revealjs/presentation.html
+    source: https://raw.githubusercontent.com/ryanbbrown/revealjs-skill/HEAD/README.md
+  source_headings:
+  - Usage
+- name: Mermaid PowerPoint Add-in
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/accionlabs/mermaid-powerpoint-addin
+  homepage: https://accionlabs.github.io/mermaid-powerpoint-addin/
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: PowerPoint add-in for writing, previewing, inserting, and re-editing Mermaid diagrams directly inside slide
+    decks, with persistent source storage in the presentation and high-quality PNG insertion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/accionlabs/mermaid-powerpoint-addin/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/accionlabs/mermaid-powerpoint-addin/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📊 Mermaid PowerPoint Add-in
+    bytes: 6320
+  - kind: homepage
+    url: https://accionlabs.github.io/mermaid-powerpoint-addin/
+    final_url: https://accionlabs.github.io/mermaid-powerpoint-addin/
+    status: 200
+    content_type: text/html
+    title: Mermaid PowerPoint Add-in
+    bytes: 3705
+  official_examples:
+  - kind: demo
+    title: live demo page
+    url: https://accionlabs.github.io/mermaid-powerpoint-addin/
+    source: https://raw.githubusercontent.com/accionlabs/mermaid-powerpoint-addin/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/accionlabs/mermaid-powerpoint-addin/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: live demo page
+    url: https://accionlabs.github.io/mermaid-powerpoint-addin/
+    source: https://raw.githubusercontent.com/accionlabs/mermaid-powerpoint-addin/HEAD/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/accionlabs/mermaid-powerpoint-addin/HEAD/README.md
+  source_headings:
+  - 📊 Supported Diagram Types
+- name: drawio-skill
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/Agents365-ai/drawio-skill
+  homepage: https://agents365-ai.github.io/drawio-skill/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 代码分析工具
+  - 模板/素材
+  catalog_note: Agent skill that turns natural-language, Mermaid, codebases, IaC, SQL DDL, JSON sequence specs, and style
+    references into editable draw.io XML plus PNG, SVG, PDF, or JPG exports with presets, official shape search, Graphviz
+    layout, and visual self-check loops.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: drawio-skill — From Text to Professional Diagrams
+    bytes: 25777
+  - kind: homepage
+    url: https://agents365-ai.github.io/drawio-skill/
+    final_url: https://agents365-ai.github.io/drawio-skill/
+    status: 200
+    content_type: text/html
+    title: drawio-skill — From Text to Professional Diagrams
+    description: 'Claude Code skill for professional draw.io diagrams from natural language: 6 presets, ML/DL support, codebase
+      visualization, 10,000+ official shapes, 321 AI/LLM brand logos, self-c'
+    bytes: 28951
+  official_examples:
+  - kind: template
+    title: references/autolayout.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/skills/drawio-skill/references/autolayout.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: template
+    title: 📊 mermaid-skill Text-based, auto-layout — README-embeddable, version-control friendly.
+    url: https://github.com/Agents365-ai/mermaid-skill
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: video
+    title: Bilibili
+    url: https://space.bilibili.com/441831884
+    source: https://agents365-ai.github.io/drawio-skill/
+  official_docs:
+  - kind: docs
+    title: 📖 Online Docs
+    url: https://agents365-ai.github.io/drawio-skill/
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/USAGE.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: troubleshooting
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/skills/drawio-skill/references/troubleshooting.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/INSTALL_CLI.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/INSTALL_CLI.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/INSTALL_SKILL.md#updates
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/INSTALL_SKILL.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/CI.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/CI.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: references/shapes.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/skills/drawio-skill/references/shapes.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/STYLE_PRESETS.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/STYLE_PRESETS.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/COMPARISON.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/COMPARISON.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Microservices Architecture — generated from a single natural-language prompt
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/assets/microservices-example.png
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: image
+    title: Layered flow
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/assets/demo-layered.png
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: image
+    title: Ring cycle
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/assets/demo-ring.png
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: image
+    title: Auto-generated class hierarchy of Python's logging package — modules boxed, inheritance arrows resolved
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/assets/code-structure-example.png
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: image
+    title: Internal workflow
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/assets/workflow.png
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: image
+    title: Microservices architecture diagram generated by drawio-skill from a single natural-language prompt
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/main/assets/microservices-example.png
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: image
+    title: Layered flow diagram
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/main/assets/demo-layered.png
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: image
+    title: Ring cycle diagram
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/main/assets/demo-ring.png
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: image
+    title: Auto-generated class hierarchy coloured by module
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/main/assets/code-structure-example.png
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: image
+    title: Serverless AWS architecture from official shapes
+    url: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/main/assets/shape-search-example.png
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: gif
+    title: Give a Reward
+    url: https://raw.githubusercontent.com/Agents365-ai/images_payment/main/awarding/award.gif
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 📖 Online Docs
+    url: https://agents365-ai.github.io/drawio-skill/
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/USAGE.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: troubleshooting
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/skills/drawio-skill/references/troubleshooting.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/INSTALL_CLI.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/INSTALL_CLI.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/INSTALL_SKILL.md#updates
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/INSTALL_SKILL.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: template
+    title: references/autolayout.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/skills/drawio-skill/references/autolayout.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/CI.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/CI.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: references/shapes.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/skills/drawio-skill/references/shapes.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/STYLE_PRESETS.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/STYLE_PRESETS.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: docs
+    title: docs/COMPARISON.md
+    url: https://github.com/Agents365-ai/drawio-skill/blob/HEAD/docs/COMPARISON.md
+    source: https://raw.githubusercontent.com/Agents365-ai/drawio-skill/HEAD/README.md
+  - kind: template
+    title: 📊 mermaid-skill Text-based, auto-layout — README-embeddable, version-control friendly.
+    url: https://github.com/Agents365-ai/mermaid-skill
+    source: https://agents365-ai.github.io/drawio-skill/
+  - kind: video
+    title: Bilibili
+    url: https://space.bilibili.com/441831884
+    source: https://agents365-ai.github.io/drawio-skill/
+  source_headings:
+  - drawio-skill — From Text to Professional Diagrams
+  - 🖼️ Examples
+  - 🗺️ Visualize Code & Infrastructure
+  - Diff two diagrams / snapshots → colour-coded "what changed"
+  - Diagram → PowerPoint deck (one page per slide; C4 model → presentation)
+  - 'Reverse: .drawio → Mermaid flowchart (diagrams-as-code GitHub renders)'
+  - 🧩 Supported Diagram Types
+- name: tufte-claude-skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/aref-vc/tufte-claude-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns chart, graph, dashboard, KPI tile, table, sparkline, small-multiple, time-series,
+    distribution, choropleth, and infographic requests into Tufte-style quantitative visuals with statistical-honesty and
+    layout rules.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: tufte-claude-skill
+    bytes: 10657
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Before vs after: category comparison'
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/pair-1-category.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  - kind: image
+    title: 'Before vs after: time series'
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/pair-3-timeseries.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  - kind: image
+    title: 'Before vs after: dashboard'
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/pair-4-dashboard.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  - kind: image
+    title: 'Before vs after: slopegraph'
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/pair-7-slopegraph.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  - kind: image
+    title: 'Before vs after: funnel'
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/pair-8-funnel.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  - kind: image
+    title: 'Before vs after: cohort retention'
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/pair-9-cohort.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  - kind: image
+    title: One-page Tufte cheatsheet
+    url: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/assets/cheatsheet.png
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
+  source_headings:
+  - 3. Dashboard — four KPIs
