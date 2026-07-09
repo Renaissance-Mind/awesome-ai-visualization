@@ -1,4 +1,4 @@
-generated_at: '2026-07-08T23:06:59+00:00'
+generated_at: '2026-07-09T23:06:19+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 252
-  fetched_sources_ok: 348
+  entries: 258
+  fetched_sources_ok: 354
   fetched_sources_failed: 20
-  official_examples: 790
-  official_effect_assets: 964
-  official_docs: 785
+  official_examples: 792
+  official_effect_assets: 965
+  official_docs: 793
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -24837,3 +24837,232 @@ entries:
     source: https://raw.githubusercontent.com/aref-vc/tufte-claude-skill/HEAD/README.md
   source_headings:
   - 3. Dashboard — four KPIs
+- name: Infographics Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/amigoscode/infographics-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns technical topics into branded "how it works" educational infographics by generating
+    a Gemini diagram, compositing it into an HTML template, screenshotting a final PNG, and writing a ready-to-post caption.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/amigoscode/infographics-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/amigoscode/infographics-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infographic Skill
+    bytes: 4047
+  official_effect_assets:
+  - kind: image
+    title: 'Example topics: Docker, Kafka, Rate Limiting'
+    url: https://raw.githubusercontent.com/amigoscode/infographics-skill/HEAD/assets/reference-kafka.jpeg
+    source: https://raw.githubusercontent.com/amigoscode/infographics-skill/HEAD/README.md
+  source_headings:
+  - Usage
+- name: Metabase Dashboard Skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/TongHuaLabs/metabase-dashboard-skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for building Metabase dashboards end-to-end, including schema exploration, dashboard layout
+    design, SQL-backed chart/KPI cards, and filter wiring through the Metabase MCP server.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TongHuaLabs/metabase-dashboard-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TongHuaLabs/metabase-dashboard-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Metabase Dashboard Skill for Claude Code
+    bytes: 2525
+  source_headings:
+  - Metabase Dashboard Skill for Claude Code
+  - Usage
+- name: Data Analytics Skills for Claude
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/nimrodfisher/data-analytics-skills
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Portable Claude skill library for analytics workflows, including visualization-builder, dashboard-specification,
+    insight synthesis, executive summaries, and data narratives that turn raw findings into charts, dashboard specs, and stakeholder-ready
+    reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Data Analytics Skills for Claude
+    bytes: 10565
+  official_examples:
+  - kind: template
+    title: peer-review-template
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/06-workflow-optimization/peer-review-template/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: semantic-model-builder
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/semantic-model-builder/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: analysis-documentation
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/analysis-documentation/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: data-catalog-entry
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/data-catalog-entry/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: sql-to-business-logic
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/sql-to-business-logic/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: analysis-assumptions-log
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/analysis-assumptions-log/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: semantic-model-builder
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/semantic-model-builder/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: analysis-documentation
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/analysis-documentation/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: data-catalog-entry
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/data-catalog-entry/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: sql-to-business-logic
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/sql-to-business-logic/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: docs
+    title: analysis-assumptions-log
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/02-documentation-knowledge/analysis-assumptions-log/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+  - kind: template
+    title: peer-review-template
+    url: https://github.com/nimrodfisher/data-analytics-skills/blob/HEAD/06-workflow-optimization/peer-review-template/
+    source: https://raw.githubusercontent.com/nimrodfisher/data-analytics-skills/HEAD/README.md
+- name: viz-mcp
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/mindfullabai/viz-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Data visualization MCP server that auto-detects chart types from dict/list/nested data, generates Plotly HTML
+    or Matplotlib PNG charts, builds multi-chart dashboards, and stores chart history.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mindfullabai/viz-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mindfullabai/viz-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: viz-mcp
+    bytes: 12378
+  source_headings:
+  - Basic Usage
+  - 1. `visualize`
+  - 2. `visualize_multi`
+  - Advanced Usage
+  - Dashboard with Mixed Chart Types
+  - Transform and visualize
+  - '"No data to visualize" error'
+- name: data-visualization-mcp-server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/kate-marine/data-visualization-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: FastMCP server that lets an AI client upload CSV data, inspect columns and distributions, transform datasets,
+    define plots, and retrieve static PNG or interactive HTML visualizations with persisted SQLite/CSV state.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kate-marine/data-visualization-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kate-marine/data-visualization-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Data Visualization MCP Server
+    bytes: 10323
+  official_docs:
+  - kind: docs
+    title: MCP Inspector
+    url: https://modelcontextprotocol.io/docs/tools/inspector
+    source: https://raw.githubusercontent.com/kate-marine/data-visualization-mcp-server/HEAD/README.md
+  - kind: docs
+    title: What is the Model Context Protocol (MCP)?
+    url: https://modelcontextprotocol.io/docs/getting-started/intro
+    source: https://raw.githubusercontent.com/kate-marine/data-visualization-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Inspector
+    url: https://modelcontextprotocol.io/docs/tools/inspector
+    source: https://raw.githubusercontent.com/kate-marine/data-visualization-mcp-server/HEAD/README.md
+  - kind: docs
+    title: What is the Model Context Protocol (MCP)?
+    url: https://modelcontextprotocol.io/docs/getting-started/intro
+    source: https://raw.githubusercontent.com/kate-marine/data-visualization-mcp-server/HEAD/README.md
+  source_headings:
+  - Data Visualization MCP Server
+  - Immutable datasets
+- name: DataViz
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/SCKelemen/dataviz
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Go charting and data-visualization library with an MCP server, CLI, SVG and terminal outputs, line/bar/scatter/heatmap/pie/stat-card
+    components, and agent-friendly generic data types.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DataViz
+    bytes: 15952
+  official_examples:
+  - kind: template
+    title: SCKelemen rendering stack
+    url: https://github.com/SCKelemen/layout
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Roadmap
+    url: https://github.com/SCKelemen/dataviz/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  official_links:
+  - kind: template
+    title: SCKelemen rendering stack
+    url: https://github.com/SCKelemen/layout
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  - kind: docs
+    title: Roadmap
+    url: https://github.com/SCKelemen/dataviz/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  source_headings:
+  - Usage Examples
+  - 4. Interactive Dashboard

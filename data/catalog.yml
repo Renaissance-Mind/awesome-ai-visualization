@@ -1,4 +1,4 @@
-last_researched: '2026-07-09'
+last_researched: '2026-07-10'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -215,6 +215,31 @@ entries:
   - 文本/想法
   tool_forms:
   - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Infographics Skill
+  url: https://github.com/amigoscode/infographics-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-06-24'
+  note: Claude Code skill that turns technical topics into branded "how it works" educational infographics by generating a Gemini diagram, compositing it into an HTML template, screenshotting a final PNG, and writing a ready-to-post caption.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
   - Agent Skill
   output_forms:
   - 信息图/视觉报告
@@ -5168,6 +5193,31 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: data
+- name: Metabase Dashboard Skill
+  url: https://github.com/TongHuaLabs/metabase-dashboard-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-07-07'
+  note: Claude Code skill for building Metabase dashboards end-to-end, including schema exploration, dashboard layout design, SQL-backed chart/KPI cards, and filter wiring through the Metabase MCP server.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 证据表
+  catalog_section: main
+  readme_group: data
 - name: Claude Data Analysis Assistant
   url: https://github.com/liangdabiao/claude-data-analysis
   homepage: https://linux.do/t/topic/998433
@@ -5193,6 +5243,31 @@ entries:
   - 图表/仪表盘
   - 报告/长文档
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: Data Analytics Skills for Claude
+  url: https://github.com/nimrodfisher/data-analytics-skills
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 225
+  license: unknown
+  updated: '2026-07-09'
+  note: Portable Claude skill library for analytics workflows, including visualization-builder, dashboard-specification, insight synthesis, executive summaries, and data narratives that turn raw findings into charts, dashboard specs, and stakeholder-ready reports.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 信息图/视觉报告
   catalog_section: main
   readme_group: data
 - name: wshm
@@ -5339,6 +5414,78 @@ entries:
   - 图表/仪表盘
   - 表格/时间线
   - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: viz-mcp
+  url: https://github.com/mindfullabai/viz-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-01-16'
+  note: Data visualization MCP server that auto-detects chart types from dict/list/nested data, generates Plotly HTML or Matplotlib PNG charts, builds multi-chart dashboards, and stores chart history.
+  source_types:
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: data-visualization-mcp-server
+  url: https://github.com/kate-marine/data-visualization-mcp-server
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-06-23'
+  note: FastMCP server that lets an AI client upload CSV data, inspect columns and distributions, transform datasets, define plots, and retrieve static PNG or interactive HTML visualizations with persisted SQLite/CSV state.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: DataViz
+  url: https://github.com/SCKelemen/dataviz
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 2
+  license: BearWare-1.0
+  updated: '2026-04-29'
+  note: Go charting and data-visualization library with an MCP server, CLI, SVG and terminal outputs, line/bar/scatter/heatmap/pie/stat-card components, and agent-friendly generic data types.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
 - name: html-video
