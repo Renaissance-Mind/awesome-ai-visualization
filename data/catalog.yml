@@ -1,4 +1,4 @@
-last_researched: '2026-07-10'
+last_researched: '2026-07-11'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -247,6 +247,57 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: text_visual
+- name: print-onepager-skill
+  url: https://github.com/JavierDiaz90/print-onepager-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-06-23'
+  note: Claude skill for fixed A4 one-pagers, sell sheets, and infographics with programmatic fit verification and print-ready PDF output.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: visual-note-card-skills
+  url: https://github.com/beilunyang/visual-note-card-skills
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 77
+  license: MIT
+  updated: '2026-07-02'
+  note: Claude Code and OpenClaw skill for generating professional Chinese visual note cards, knowledge cards, one-page summaries, and HTML infographics.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: text_visual
 - name: Visual Explainer Skill
   url: https://github.com/ericblue/visual-explainer-skill
   category: infographic-report
@@ -328,6 +379,37 @@ entries:
   - 架构图/流程图
   - 图表/仪表盘
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Open Design
+  url: https://github.com/nexu-io/open-design
+  homepage: https://open-design.ai
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 77123
+  license: Apache-2.0
+  updated: '2026-07-10'
+  note: Local-first desktop app where coding agents generate prototypes, dashboards, slides, images, videos, and exportable HTML/PDF/PPTX/MP4 artifacts from prompts.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 代码库
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 视频/音频
   catalog_section: main
   readme_group: text_visual
 - name: baoyu-skills
@@ -2471,6 +2553,79 @@ entries:
   - MCP Server
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: Presentation Gen MCP Server
+  url: https://github.com/kevinten-ai/mcp-presentation
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-03-31'
+  note: MCP server for AI-assisted PowerPoint generation from structured content, templates, layouts, and styling, usable from Claude Code, Claude Desktop, Cursor, and other MCP clients.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: 2slides MCP Server
+  url: https://github.com/2slides/mcp-2slides
+  homepage: https://2slides.com
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 30
+  license: MIT
+  updated: '2026-06-24'
+  note: Official 2slides MCP server for generating PowerPoint presentations through the 2slides API, including theme search and fast PPT creation from agent workflows.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: PPT-MCP
+  url: https://github.com/guangxiangdebizi/PPT-MCP
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 5
+  license: Apache-2.0
+  updated: '2026-04-18'
+  note: Pure Node.js PowerPoint MCP server built with PptxGenJS for creating, analyzing, and managing presentations with AI assistance.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
   catalog_section: main
   readme_group: presentation
 - name: PptMcp
@@ -5481,6 +5636,30 @@ entries:
   - DSL/代码
   tool_forms:
   - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: QuickChart MCP Server
+  url: https://github.com/GongRzhe/Quickchart-MCP-Server
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 160
+  license: MIT
+  updated: '2026-06-01'
+  note: TypeScript MCP server for generating chart images through QuickChart.io, letting agents create bar, line, pie, radar, scatter, and other charts from structured data.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
   - MCP Server
   output_forms:
   - 图表/仪表盘
