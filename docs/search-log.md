@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-10.
+Last researched: 2026-07-11.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -39,6 +39,8 @@ Update on 2026-07-02: refreshed agent visual surfaces, Google Slides MCP control
 Update on 2026-07-03: refreshed academic and narrative presentation skills, image/HTML slide-deck skills, Mermaid validation MCP support, and Grafana dashboard MCP support from official GitHub repositories, README evidence, license files, and GitHub metadata. This pass added academic-pptx-skill, high-quality-slides, Presentation Skill, presentation-writing-claude-skill, mermaider, and mcp-grafana.
 
 Update on 2026-07-10: refreshed infographic skills, Metabase dashboard skills, data-storytelling skill collections, and data-visualization MCP/library surfaces from official GitHub repositories, README evidence, PyPI metadata, and GitHub metadata. This pass added Infographics Skill, Metabase Dashboard Skill, Data Analytics Skills for Claude, viz-mcp, data-visualization-mcp-server, and DataViz.
+
+Update on 2026-07-11: refreshed local-first design workspaces, one-page infographic skills, PowerPoint generation MCP servers, and QuickChart-backed visualization MCP surfaces from official GitHub repositories, product pages, README evidence, and GitHub metadata. This pass added Open Design, print-onepager-skill, visual-note-card-skills, Presentation Gen MCP Server, 2slides MCP Server, PPT-MCP, and QuickChart MCP Server.
 
 ## Search Surfaces
 
