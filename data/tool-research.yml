@@ -1,4 +1,4 @@
-generated_at: '2026-07-10T23:05:17+00:00'
+generated_at: '2026-07-11T23:08:34+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 265
-  fetched_sources_ok: 363
+  entries: 271
+  fetched_sources_ok: 373
   fetched_sources_failed: 20
-  official_examples: 822
-  official_effect_assets: 991
-  official_docs: 819
+  official_examples: 825
+  official_effect_assets: 995
+  official_docs: 841
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -25856,3 +25856,406 @@ entries:
   source_headings:
   - Usage
   - Documentation References
+- name: MarkSight
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/Rinava/MarkSight
+  homepage: https://marksight.laramateo.com
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Browser-local Markdown editor and MCP server that turns Markdown documents into installable Agent Skills,
+    live Mermaid previews, styled HTML, and print-ready PDF exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MarkSight
+    bytes: 11698
+  - kind: homepage
+    url: https://marksight.laramateo.com/
+    final_url: https://marksight.laramateo.com/
+    status: 200
+    content_type: text/html
+    title: MarkSight - Advanced Markdown Editor with Real-time Preview
+    description: Free, open source markdown editor with real-time preview, smart toolbar, keyboard shortcuts, document outline,
+      and HTML/PDF export.
+    bytes: 24774
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: Claude Agent Skill
+    url: https://code.claude.com/docs/en/skills
+    source: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+  - kind: docs
+    title: contributing guide
+    url: https://github.com/Rinava/MarkSight/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: MarkSight Editor - Light Theme
+    url: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/docs/editor-light.png
+    source: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+  - kind: image
+    title: MarkSight Editor - Dark Theme
+    url: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/docs/editor-dark.png
+    source: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Agent Skill
+    url: https://code.claude.com/docs/en/skills
+    source: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+  - kind: docs
+    title: contributing guide
+    url: https://github.com/Rinava/MarkSight/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/Rinava/MarkSight/HEAD/README.md
+- name: Slideia
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Fidelisaboke/slideia
+  homepage: https://slideia.vercel.app
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Open-source monorepo with Next.js, FastAPI, CLI, API, and MCP server surfaces for proposing slide outlines,
+    drafting content, and exporting LLM-generated PowerPoint decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Fidelisaboke/slideia/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Fidelisaboke/slideia/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Slideia
+    bytes: 2558
+  - kind: homepage
+    url: https://slideia.vercel.app/
+    final_url: https://slideia.vercel.app/
+    status: 200
+    content_type: text/html
+    title: Slideia
+    description: AI-Powered Slide Deck Generator
+    bytes: 34967
+  source_headings:
+  - Slideia
+  - Basic Usage
+- name: PowerPointMcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/sbroenne/mcp-server-powerpoint
+  homepage: https://powerpointmcpserver.dev/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Windows-only MCP server, CLI, VS Code extension, and optional skill for live Microsoft PowerPoint COM automation
+    with slide, shape, table, chart, note, animation, template, and export-to-image verification operations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sbroenne/mcp-server-powerpoint/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sbroenne/mcp-server-powerpoint/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPointMcp — MCP Server & CLI for Microsoft PowerPoint
+    bytes: 13815
+  - kind: homepage
+    url: https://powerpointmcpserver.dev/
+    final_url: https://powerpointmcpserver.dev/
+    status: 200
+    content_type: text/html
+    title: PowerPoint MCP Server — Automate Slides, Charts & Tables with AI
+    description: 'Control Microsoft PowerPoint with natural language through AI assistants like GitHub Copilot and Claude.
+      Automate slides, shapes, tables, charts and export-to-verify visual checks '
+    bytes: 35971
+  official_docs:
+  - kind: docs
+    title: Complete Feature Reference →
+    url: https://powerpointmcpserver.dev/features/
+    source: https://raw.githubusercontent.com/sbroenne/mcp-server-powerpoint/HEAD/README.md
+  - kind: docs
+    title: Full Installation Guide →
+    url: https://powerpointmcpserver.dev/installation/
+    source: https://raw.githubusercontent.com/sbroenne/mcp-server-powerpoint/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: PowerPoint MCP Server — Automate Slides, Charts & Tables with AI
+    url: https://powerpointmcpserver.dev/assets/images/og-card.png
+    source: https://powerpointmcpserver.dev/
+  official_links:
+  - kind: docs
+    title: Complete Feature Reference →
+    url: https://powerpointmcpserver.dev/features/
+    source: https://raw.githubusercontent.com/sbroenne/mcp-server-powerpoint/HEAD/README.md
+  - kind: docs
+    title: Full Installation Guide →
+    url: https://powerpointmcpserver.dev/installation/
+    source: https://raw.githubusercontent.com/sbroenne/mcp-server-powerpoint/HEAD/README.md
+  source_headings:
+  - 💬 Example Prompts
+- name: Figma Console MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/southleft/figma-console-mcp
+  homepage: https://docs.figma-console-mcp.southleft.com
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Figma MCP server that gives agents read/write design-system, FigJam, accessibility, screenshot, token-sync,
+    and Figma Slides deck creation and management tools through local, cloud, or SSE modes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Figma Console MCP Server
+    bytes: 60217
+  - kind: homepage
+    url: https://docs.figma-console-mcp.southleft.com/
+    final_url: https://docs.figma-console-mcp.southleft.com/
+    status: 200
+    content_type: text/html
+    title: Figma Console MCP - Turn Your Design System Into a Living API
+    description: Your design system as an API. Connect AI to Figma for extraction, creation, debugging, and token sync.
+    bytes: 411276
+  official_examples:
+  - kind: example
+    title: More Use Cases & Examples
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/USE_CASES.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Complete Setup Guide
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/setup.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Complete Feature Comparison
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/mode-comparison.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Detailed Tool Documentation
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/TOOLS.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Setup Guide
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Self-Hosting
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/SELF_HOSTING.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: OAuth Setup
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/OAUTH_SETUP.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/TROUBLESHOOTING.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Full Roadmap
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Documentation Site
+    url: https://docs.figma-console-mcp.southleft.com
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Local Docs
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Figma API
+    url: https://www.figma.com/developers/api
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.figma-console-mcp.southleft.com/
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Setup Guide
+    url: https://docs.figma-console-mcp.southleft.com/setup
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Tools Reference
+    url: https://docs.figma-console-mcp.southleft.com/tools
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Full FigJam Guide →
+    url: https://docs.figma-console-mcp.southleft.com/figjam
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Full Slides Guide →
+    url: https://docs.figma-console-mcp.southleft.com/slides
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Powered by This documentation is built and hosted on Mintlify, a developer documentation platform
+    url: https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=southleftllc
+    source: https://docs.figma-console-mcp.southleft.com/
+  official_effect_assets:
+  - kind: image
+    title: Figma Console MCP - Turn Your Design System Into a Living API
+    url: https://southleftllc.mintlify.app//images/og-image.jpg
+    source: https://docs.figma-console-mcp.southleft.com/
+  official_links:
+  - kind: docs
+    title: Complete Setup Guide
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/setup.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Complete Feature Comparison
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/mode-comparison.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Detailed Tool Documentation
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/TOOLS.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: example
+    title: More Use Cases & Examples
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/USE_CASES.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Setup Guide
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Self-Hosting
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/SELF_HOSTING.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: OAuth Setup
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/OAUTH_SETUP.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/TROUBLESHOOTING.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Full Roadmap
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Documentation Site
+    url: https://docs.figma-console-mcp.southleft.com
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Local Docs
+    url: https://github.com/southleft/figma-console-mcp/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Figma API
+    url: https://www.figma.com/developers/api
+    source: https://raw.githubusercontent.com/southleft/figma-console-mcp/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.figma-console-mcp.southleft.com/
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Setup Guide
+    url: https://docs.figma-console-mcp.southleft.com/setup
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Tools Reference
+    url: https://docs.figma-console-mcp.southleft.com/tools
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Full FigJam Guide →
+    url: https://docs.figma-console-mcp.southleft.com/figjam
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Full Slides Guide →
+    url: https://docs.figma-console-mcp.southleft.com/slides
+    source: https://docs.figma-console-mcp.southleft.com/
+  - kind: docs
+    title: Powered by This documentation is built and hosted on Mintlify, a developer documentation platform
+    url: https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=southleftllc
+    source: https://docs.figma-console-mcp.southleft.com/
+  source_headings:
+  - Visual Debugging
+  - 🎞️ Slides Presentation Tools (Local Mode + Cloud Mode)
+  - 📖 Example Prompts
+  - Slides Presentations
+  - Example Workflows
+  - Visual Validation
+  - Design System Dashboard
+- name: slide-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/Rikuto-des/slide-mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Figma Slides plugin and bundled MCP bridge that turns prompts or create_deck JSON into designed decks with
+    39 layouts, 17 design systems, charts, images, tables, BYOK LLM mode, and local-only key storage.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Rikuto-des/slide-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Rikuto-des/slide-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slide-mcp
+    bytes: 15268
+  official_examples:
+  - kind: example
+    title: examples/
+    url: https://github.com/Rikuto-des/slide-mcp/blob/HEAD/examples
+    source: https://raw.githubusercontent.com/Rikuto-des/slide-mcp/HEAD/README.md
+  - kind: example
+    title: examples/all-layouts.json
+    url: https://github.com/Rikuto-des/slide-mcp/blob/HEAD/examples/all-layouts.json
+    source: https://raw.githubusercontent.com/Rikuto-des/slide-mcp/HEAD/README.md
+  official_docs: []
+  official_links:
+  - kind: example
+    title: examples/
+    url: https://github.com/Rikuto-des/slide-mcp/blob/HEAD/examples
+    source: https://raw.githubusercontent.com/Rikuto-des/slide-mcp/HEAD/README.md
+  - kind: example
+    title: examples/all-layouts.json
+    url: https://github.com/Rikuto-des/slide-mcp/blob/HEAD/examples/all-layouts.json
+    source: https://raw.githubusercontent.com/Rikuto-des/slide-mcp/HEAD/README.md
+  source_headings:
+  - slide-mcp
+  - alias slidetunnel='gh codespace ports forward 3055:3055 -c '
+- name: figma-slides-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/luan007/figma-slides-mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server, Figma plugin, and optional design skill that lets AI agents create and edit Figma Slides with
+    text, shapes, images, D3 charts, Rough.js sketches, Satori HTML-to-SVG layouts, screenshots, and PNG/SVG/PDF export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/luan007/figma-slides-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/luan007/figma-slides-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: figma-slides-mcp
+    bytes: 6913
+  source_headings:
+  - figma-slides-mcp

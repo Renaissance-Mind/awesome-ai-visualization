@@ -1,4 +1,4 @@
-last_researched: '2026-07-11'
+last_researched: '2026-07-12'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1653,6 +1653,33 @@ entries:
   - 结构化数据/Markdown
   catalog_section: support_doc_parse
   readme_group: support_doc_parse
+- name: MarkSight
+  url: https://github.com/Rinava/MarkSight
+  homepage: https://marksight.laramateo.com
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 11
+  license: unknown
+  updated: '2026-07-11'
+  note: Browser-local Markdown editor and MCP server that turns Markdown documents into installable Agent Skills, live Mermaid previews, styled HTML, and print-ready PDF exports.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 结构化数据/Markdown
+  - 网页/交互页面
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
 - name: Marker
   url: https://github.com/datalab-to/marker
   homepage: https://www.datalab.to
@@ -2244,6 +2271,32 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: Slideia
+  url: https://github.com/Fidelisaboke/slideia
+  homepage: https://slideia.vercel.app
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-06-20'
+  note: Open-source monorepo with Next.js, FastAPI, CLI, API, and MCP server surfaces for proposing slide outlines, drafting content, and exporting LLM-generated PowerPoint decks.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
 - name: deckdown
   url: https://github.com/adityachauhan0/deckdown
   category: presentation-tools
@@ -2604,6 +2657,33 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: PowerPointMcp
+  url: https://github.com/sbroenne/mcp-server-powerpoint
+  homepage: https://powerpointmcpserver.dev/
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 2
+  license: MIT
+  updated: '2026-07-11'
+  note: Windows-only MCP server, CLI, VS Code extension, and optional skill for live Microsoft PowerPoint COM automation with slide, shape, table, chart, note, animation, template, and export-to-image verification operations.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
 - name: PPT-MCP
   url: https://github.com/guangxiangdebizi/PPT-MCP
   category: presentation-tools
@@ -2736,6 +2816,34 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: Figma Console MCP
+  url: https://github.com/southleft/figma-console-mcp
+  homepage: https://docs.figma-console-mcp.southleft.com
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 1966
+  license: MIT
+  updated: '2026-07-11'
+  note: Figma MCP server that gives agents read/write design-system, FigJam, accessibility, screenshot, token-sync, and Figma Slides deck creation and management tools through local, cloud, or SSE modes.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 白板/思维导图
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: google-slides-mcp
   url: https://github.com/matteoantoci/google-slides-mcp
   category: presentation-tools
@@ -2808,6 +2916,62 @@ entries:
   - MCP Server
   output_forms:
   - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: slide-mcp
+  url: https://github.com/Rikuto-des/slide-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-06-26'
+  note: Figma Slides plugin and bundled MCP bridge that turns prompts or create_deck JSON into designed decks with 39 layouts, 17 design systems, charts, images, tables, BYOK LLM mode, and local-only key storage.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: figma-slides-mcp
+  url: https://github.com/luan007/figma-slides-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 8
+  license: MIT
+  updated: '2026-05-24'
+  note: MCP server, Figma plugin, and optional design skill that lets AI agents create and edit Figma Slides with text, shapes, images, D3 charts, Rough.js sketches, Satori HTML-to-SVG layouts, screenshots, and PNG/SVG/PDF export.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 架构图/流程图
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
