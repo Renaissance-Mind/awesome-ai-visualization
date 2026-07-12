@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-12.
+Last researched: 2026-07-13.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -43,6 +43,8 @@ Update on 2026-07-10: refreshed infographic skills, Metabase dashboard skills, d
 Update on 2026-07-11: refreshed local-first design workspaces, one-page infographic skills, PowerPoint generation MCP servers, and QuickChart-backed visualization MCP surfaces from official GitHub repositories, product pages, README evidence, and GitHub metadata. This pass added Open Design, print-onepager-skill, visual-note-card-skills, Presentation Gen MCP Server, 2slides MCP Server, PPT-MCP, and QuickChart MCP Server.
 
 Update on 2026-07-12: refreshed local Markdown-to-skill/document export, Figma Slides and design-system MCP, Figma slide generation, open-source slide-generation API/MCP, and live PowerPoint COM automation surfaces from official GitHub repositories, product docs, README evidence, and GitHub metadata. This pass added MarkSight, PowerPointMcp, Figma Console MCP, slide-mcp, figma-slides-mcp, and Slideia.
+
+Update on 2026-07-13: refreshed data-dashboard MCP Apps, Python visualization display servers, HoloViz/amCharts assistant references, Mermaid-Claude integrations, and agent diagram/consulting-visual skills from official GitHub repositories, project docs, README evidence, HoloViz announcement material, and GitHub metadata. This pass added Elastic MCP Dashbuilder, Chart Canvas, Panel Live Server, HoloViz MCP, amCharts 5 MCP Server, mermaid-diagram-claude-code, System Design Visualizer, Strategy Consulting Visualization Skill, and Diagram Creator Skill.
 
 ## Search Surfaces
 
