@@ -1,4 +1,4 @@
-generated_at: '2026-07-11T23:08:34+00:00'
+generated_at: '2026-07-12T23:07:40+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 271
-  fetched_sources_ok: 373
-  fetched_sources_failed: 20
-  official_examples: 825
-  official_effect_assets: 995
-  official_docs: 841
+  entries: 280
+  fetched_sources_ok: 384
+  fetched_sources_failed: 21
+  official_examples: 877
+  official_effect_assets: 1007
+  official_docs: 865
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -26259,3 +26259,943 @@ entries:
     bytes: 6913
   source_headings:
   - figma-slides-mcp
+- name: mermaid-diagram-claude-code
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/zabolotiny/mermaid-diagram-claude-code
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Claude Code integration that uses Mermaid MCP coordination, automatic triggers, code-analysis context, and
+    cross-session persistence to generate flowcharts, sequence diagrams, architecture diagrams, state diagrams, Markdown Mermaid
+    blocks, and zoomable HTML previews.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mermaid Diagram Support for Claude Code
+    bytes: 14574
+  official_examples:
+  - kind: example
+    title: '`EXAMPLES.md`'
+    url: https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/EXAMPLES.md
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  - kind: template
+    title: '`TEMPLATES.md`'
+    url: https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/TEMPLATES.md
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`HTML_GUIDE.md`'
+    url: https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/HTML_GUIDE.md
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`HTML_GUIDE.md`'
+    url: https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/HTML_GUIDE.md
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  - kind: example
+    title: '`EXAMPLES.md`'
+    url: https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/EXAMPLES.md
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  - kind: template
+    title: '`TEMPLATES.md`'
+    url: https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/TEMPLATES.md
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md
+  source_headings:
+  - Mermaid Diagram Support for Claude Code
+  - Usage
+  - Auto-Detection Examples
+  - Interactive HTML Diagrams
+  - Diagram Title
+  - Diagram
+  - Documentation
+  - Examples
+  - 'Example 1: Architecture from Code'
+  - 'Example 2: Flowchart from Description'
+  - 'Example 3: Sequence from API'
+  - Templates
+- name: amCharts 5 MCP Server
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/amcharts/amcharts5-mcp
+  homepage: https://mcp.amcharts.com/mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Hosted or local MCP server that gives AI assistants on-demand access to amCharts 5 documentation, hundreds
+    of code examples, and class API references for building chart and dashboard artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/amcharts/amcharts5-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/amcharts/amcharts5-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: amCharts 5 MCP Server
+    bytes: 6743
+  - kind: homepage
+    url: https://mcp.amcharts.com/mcp
+    final_url: https://mcp.amcharts.com/mcp
+    status: 406
+    content_type: text/plain
+    error: HTTP 406
+  source_headings:
+  - Example Usage
+- name: System Design Visualizer
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/mallahyari/system-design-visualizer
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Upload static system-design images or architecture diagrams, have an OpenAI vision model convert them into
+    editable Mermaid, then explore the result as an interactive React Flow graph with component deep dives.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: System Design Visualizer
+    bytes: 2371
+  official_effect_assets:
+  - kind: image
+    title: Dashboard View
+    url: https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/screenshot-1.png
+    source: https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/README.md
+  - kind: image
+    title: Interactive Graph
+    url: https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/screenshot-2.png
+    source: https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/README.md
+  source_headings:
+  - System Design Visualizer
+- name: Strategy Consulting Visualization Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/kgraph57/mckinsey-style-visualization-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill that turns messy notes, metrics, prose, and process descriptions into executive-ready board slides,
+    reports, proposals, technical diagrams, and infographics with a local SVG renderer and validation loop.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Strategy Consulting Visualization Skill
+    bytes: 25485
+  official_examples:
+  - kind: example
+    title: examples/render-specs/
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/render-specs
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: template
+    title: prompt-templates.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/prompt-templates.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: examples/
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: Board update input
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/board-update-input.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: expert review loop
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/expert-review-loop.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: persona playbook
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/persona-playbook.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: document-type-profiles.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/document-type-profiles.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: input-triage.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/input-triage.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: Public reference corpus
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/public-reference-corpus.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: Iterative review loop
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/iterative-review-loop.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: visualization-patterns.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/visualization-patterns.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: style-system.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/style-system.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: quality-rubric.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/quality-rubric.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: references/
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: expert review loop
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/expert-review-loop.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: examples/render-specs/
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/render-specs
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: persona playbook
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/persona-playbook.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: document-type-profiles.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/document-type-profiles.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: input-triage.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/input-triage.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: Public reference corpus
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/public-reference-corpus.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: Iterative review loop
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/iterative-review-loop.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-draft-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-review-v1.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: draft
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-draft-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: review
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/market-entry-review-v2.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: visualization-patterns.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/visualization-patterns.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: style-system.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/style-system.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: template
+    title: prompt-templates.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/prompt-templates.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: quality-rubric.md
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/quality-rubric.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: examples/
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: Board update input
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/board-update-input.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: Expected slide spec
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/board-update-slide-spec.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: example
+    title: Evaluation report
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/evaluation-report.md
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: references/
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  - kind: template
+    title: .github/ISSUE_TEMPLATE
+    url: https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/.github/ISSUE_TEMPLATE
+    source: https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md
+  source_headings:
+  - Strategy Consulting Visualization Skill
+  - 30-Second Quickstart
+  - Rendered Output Gallery
+  - Beyond Board Slides
+  - Example Gallery
+  - One-Minute Example
+  - Visualization Patterns
+  - Example Prompt
+- name: Diagram Creator Skill
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/ferdinandobons/diagram-creator-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that accepts files, code, config, data, docs, PDFs, spreadsheets, API specs, database schemas,
+    CI/CD pipelines, or plain-language topics and emits self-contained interactive HTML diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Diagram Creator — Claude Code Skill
+    bytes: 7305
+  official_examples:
+  - kind: template
+    title: appropriate template
+    url: https://github.com/ferdinandobons/diagram-creator-skill/blob/HEAD/.github/PULL_REQUEST_TEMPLATE/
+    source: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/ferdinandobons/diagram-creator-skill/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Diagram Creator — SaaS Microservices Architecture example
+    url: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/assets/demo.png
+    source: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/ferdinandobons/diagram-creator-skill/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+  - kind: template
+    title: appropriate template
+    url: https://github.com/ferdinandobons/diagram-creator-skill/blob/HEAD/.github/PULL_REQUEST_TEMPLATE/
+    source: https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md
+  source_headings:
+  - Diagram Creator — Claude Code Skill
+  - Usage
+- name: Elastic MCP Dashbuilder
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/elastic/example-mcp-dashbuilder
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Elastic MCP App that lets AI assistants explore Elasticsearch with ES|QL, create Elastic Charts, preview an
+    interactive dashboard inline in chat, and export the result to Kibana Lens dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: example-mcp-dashbuilder
+    bytes: 12374
+  official_examples:
+  - kind: example
+    title: ARCHITECTURE.md
+    url: https://github.com/elastic/example-mcp-dashbuilder/blob/HEAD/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  - kind: example
+    title: GitHub Releases
+    url: https://github.com/elastic/example-mcp-dashbuilder/releases
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  - kind: template
+    title: kbn-grid-layout
+    url: https://github.com/elastic/kibana
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  - kind: example
+    title: Elastic License 2.0
+    url: https://github.com/elastic/example-mcp-dashbuilder/blob/HEAD/LICENSE.txt
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Claude Desktop showing the inline dashboard preview
+    url: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/claude-desktop-preview.png
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  official_links:
+  - kind: example
+    title: ARCHITECTURE.md
+    url: https://github.com/elastic/example-mcp-dashbuilder/blob/HEAD/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  - kind: example
+    title: GitHub Releases
+    url: https://github.com/elastic/example-mcp-dashbuilder/releases
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  - kind: template
+    title: kbn-grid-layout
+    url: https://github.com/elastic/kibana
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  - kind: example
+    title: Elastic License 2.0
+    url: https://github.com/elastic/example-mcp-dashbuilder/blob/HEAD/LICENSE.txt
+    source: https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md
+  source_headings:
+  - example-mcp-dashbuilder
+  - Usage
+  - Example prompts
+  - Inline dashboard preview (MCP Apps)
+- name: Chart Canvas
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/gluip/chart-canvas
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: MCP server and browser dashboard for AI-created charts, diagrams, and tables, using DuckDB-backed local queries
+    over SQLite, CSV, Parquet, JSON, and NDJSON while keeping source data local.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Chart Canvas MCP Server
+    bytes: 6864
+  official_examples:
+  - kind: demo
+    title: full demo on YouTube
+    url: https://www.youtube.com/watch?v=XVucQstPisc
+    source: https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: full demo on YouTube
+    url: https://www.youtube.com/watch?v=XVucQstPisc
+    source: https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md
+  - kind: image
+    title: Chart Canvas Demo
+    url: https://img.youtube.com/vi/XVucQstPisc/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: full demo on YouTube
+    url: https://www.youtube.com/watch?v=XVucQstPisc
+    source: https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md
+  source_headings:
+  - Demo
+  - Usage
+  - Example Prompts
+  - addVisualization
+  - removeVisualization
+  - queryAndVisualize
+- name: Panel Live Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/panel-extensions/panel-live-server
+  homepage: https://panel-extensions.github.io/panel-live-server/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Local Panel web server and MCP server that executes Python snippets, validates them, renders live interactive
+    visualization pages, stores permanent URLs, and exposes a screenshot tool for visual inspection.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ✨ panel-live-server
+    bytes: 5962
+  - kind: homepage
+    url: https://panel-extensions.github.io/panel-live-server/
+    final_url: https://panel-extensions.github.io/panel-live-server/
+    status: 200
+    content_type: text/html
+    title: panel-live-server - panel-live-server
+    description: Panel Live Server is a local Panel web server that executes Python code snippets and renders the resulting
+      visualizations as live, interactive web pages, enabling humans and AI ass
+    bytes: 51590
+  official_examples:
+  - kind: tutorial
+    title: Installation guide
+    url: https://panel-extensions.github.io/panel-live-server/tutorials/installation/
+    source: https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md
+  - kind: tutorial
+    title: Standalone Server
+    url: https://panel-extensions.github.io/panel-live-server/tutorials/standalone-server/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: tutorial
+    title: MCP Server
+    url: https://panel-extensions.github.io/panel-live-server/tutorials/mcp-server/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: example
+    title: Examples
+    url: https://panel-extensions.github.io/panel-live-server/examples/
+    source: https://panel-extensions.github.io/panel-live-server/
+  official_docs:
+  - kind: docs
+    title: API Reference
+    url: https://panel-extensions.github.io/panel-live-server/reference/panel_live_server/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: docs
+    title: https://github.com/panel-extensions/panel-live-server/edit/main/docs/index.md
+    url: https://github.com/panel-extensions/panel-live-server/edit/main/docs/index.md
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: docs
+    title: https://github.com/panel-extensions/panel-live-server/raw/main/docs/index.md
+    url: https://github.com/panel-extensions/panel-live-server/raw/main/docs/index.md
+    source: https://panel-extensions.github.io/panel-live-server/
+  official_effect_assets:
+  - kind: gif
+    title: panel-live-server showcase
+    url: https://raw.githubusercontent.com/panel-extensions/panel-live-server/main/docs/assets/gif/panel-live-server-showcase.gif
+    source: https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md
+  - kind: gif
+    title: panel-live-server MCP showcase
+    url: https://raw.githubusercontent.com/panel-extensions/panel-live-server/main/docs/assets/gif/panel-live-server-showcase-mcp.gif
+    source: https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md
+  - kind: video
+    title: Panel Live Server Showcase Mcp
+    url: https://panel-extensions.github.io/panel-live-server/assets/videos/panel-live-server-showcase-mcp.mp4
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: video
+    title: Panel Live Server Showcase
+    url: https://panel-extensions.github.io/panel-live-server/assets/videos/panel-live-server-showcase.mp4
+    source: https://panel-extensions.github.io/panel-live-server/
+  official_links:
+  - kind: tutorial
+    title: Installation guide
+    url: https://panel-extensions.github.io/panel-live-server/tutorials/installation/
+    source: https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md
+  - kind: tutorial
+    title: Standalone Server
+    url: https://panel-extensions.github.io/panel-live-server/tutorials/standalone-server/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: tutorial
+    title: MCP Server
+    url: https://panel-extensions.github.io/panel-live-server/tutorials/mcp-server/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: example
+    title: Examples
+    url: https://panel-extensions.github.io/panel-live-server/examples/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: docs
+    title: API Reference
+    url: https://panel-extensions.github.io/panel-live-server/reference/panel_live_server/
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: docs
+    title: https://github.com/panel-extensions/panel-live-server/edit/main/docs/index.md
+    url: https://github.com/panel-extensions/panel-live-server/edit/main/docs/index.md
+    source: https://panel-extensions.github.io/panel-live-server/
+  - kind: docs
+    title: https://github.com/panel-extensions/panel-live-server/raw/main/docs/index.md
+    url: https://github.com/panel-extensions/panel-live-server/raw/main/docs/index.md
+    source: https://panel-extensions.github.io/panel-live-server/
+  source_headings:
+  - Usage
+- name: HoloViz MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/MarcSkovMadsen/holoviz-mcp
+  homepage: https://marcskovmadsen.github.io/holoviz-mcp/
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: HoloViz ecosystem MCP server and standalone skill collection that gives AI assistants searchable docs, component
+    intelligence, a display server, and guidance for building Panel, hvPlot, Lumen, HoloViews, and Datashader dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ✨ HoloViz MCP
+    bytes: 6110
+  - kind: homepage
+    url: https://marcskovmadsen.github.io/holoviz-mcp/
+    final_url: https://marcskovmadsen.github.io/holoviz-mcp/
+    status: 200
+    content_type: text/html
+    title: holoviz-mcp
+    description: A Model Context Protocol (MCP) server for the HoloViz ecosystem
+    bytes: 56724
+  official_examples:
+  - kind: tutorial
+    title: Quick Start
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: tutorial
+    title: Discourse
+    url: https://discourse.holoviz.org/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: tutorial
+    title: Claude Code
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-claude-code/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Claude Desktop
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-claude-desktop/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Copilot + VS Code
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-copilot-vscode/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Cursor
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-cursor/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Windsurf
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-windsurf/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Display System
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/display-system/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Stock Analysis (Copilot)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/stock-analysis-copilot-vscode/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Stock Analysis (Claude)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/stock-analysis-claude-code/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Weather Dashboard (Copilot)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/weather-dashboard-copilot-vscode/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Weather Dashboard (Claude)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/weather-dashboard-claude-code/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Examples
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Plot from Picture
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/generate-plot-from-picture/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Dashboard from Picture
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/generate-dashboard-from-picture/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Create ML Experiment Tracker
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/create-ml-experiment-tracker/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Build A Shipping Form
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/build-a-shipping-form/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Convert Excel Sheet
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/convert-excel-app/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Convert Streamlit App
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/convert-streamlit-app/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Convert Gradio Component
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/convert-gradio-component/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  official_docs:
+  - kind: docs
+    title: Full Documentation
+    url: https://marcskovmadsen.github.io/holoviz-mcp/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: Docker Guide
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/docker/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: How-To Guides
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/installation/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: Reference
+    url: https://marcskovmadsen.github.io/holoviz-mcp/reference/holoviz_mcp/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: Custom Docs
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/add-custom-docs/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: https://github.com/MarcSkovMadsen/holoviz-mcp/edit/main/docs/index.md
+    url: https://github.com/MarcSkovMadsen/holoviz-mcp/edit/main/docs/index.md
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: https://github.com/MarcSkovMadsen/holoviz-mcp/raw/main/docs/index.md
+    url: https://github.com/MarcSkovMadsen/holoviz-mcp/raw/main/docs/index.md
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: Troubleshooting Guide
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/troubleshooting/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  official_effect_assets:
+  - kind: image
+    title: HoloViz MCP Introduction
+    url: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/docs/assets/images/holoviz-mcp-introduction.png
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: video
+    title: HoloViz MCP Introduction
+    url: https://youtu.be/M-YUZWEeSDA
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Full Documentation
+    url: https://marcskovmadsen.github.io/holoviz-mcp/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: tutorial
+    title: Quick Start
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: Docker Guide
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/docker/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: How-To Guides
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/installation/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: docs
+    title: Reference
+    url: https://marcskovmadsen.github.io/holoviz-mcp/reference/holoviz_mcp/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: tutorial
+    title: Discourse
+    url: https://discourse.holoviz.org/
+    source: https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md
+  - kind: tutorial
+    title: Claude Code
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-claude-code/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Claude Desktop
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-claude-desktop/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Copilot + VS Code
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-copilot-vscode/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Cursor
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-cursor/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Windsurf
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-windsurf/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Display System
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/display-system/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Stock Analysis (Copilot)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/stock-analysis-copilot-vscode/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Stock Analysis (Claude)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/stock-analysis-claude-code/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Weather Dashboard (Copilot)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/weather-dashboard-copilot-vscode/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: tutorial
+    title: Weather Dashboard (Claude)
+    url: https://marcskovmadsen.github.io/holoviz-mcp/tutorials/weather-dashboard-claude-code/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Examples
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Plot from Picture
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/generate-plot-from-picture/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Dashboard from Picture
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/generate-dashboard-from-picture/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Create ML Experiment Tracker
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/create-ml-experiment-tracker/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Build A Shipping Form
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/build-a-shipping-form/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Convert Excel Sheet
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/convert-excel-app/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Convert Streamlit App
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/convert-streamlit-app/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Convert Gradio Component
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/convert-gradio-component/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: example
+    title: Build Custom Model Viewer
+    url: https://marcskovmadsen.github.io/holoviz-mcp/examples/build-custom-model-viewer/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: Custom Docs
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/add-custom-docs/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: https://github.com/MarcSkovMadsen/holoviz-mcp/edit/main/docs/index.md
+    url: https://github.com/MarcSkovMadsen/holoviz-mcp/edit/main/docs/index.md
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: https://github.com/MarcSkovMadsen/holoviz-mcp/raw/main/docs/index.md
+    url: https://github.com/MarcSkovMadsen/holoviz-mcp/raw/main/docs/index.md
+    source: https://marcskovmadsen.github.io/holoviz-mcp/
+  - kind: docs
+    title: Troubleshooting Guide
+    url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/troubleshooting/
+    source: https://marcskovmadsen.github.io/holoviz-mcp/

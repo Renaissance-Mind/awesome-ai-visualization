@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-07-11T23:08:34+00:00",
-  "lastResearched": "2026-07-12",
+  "generatedAt": "2026-07-12T23:07:40+00:00",
+  "lastResearched": "2026-07-13",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 271,
-    "openSource": 74,
+    "total": 280,
+    "openSource": 75,
     "saas": 43,
-    "modelApi": 110,
-    "examples": 825,
-    "effectAssets": 995,
-    "docs": 841
+    "modelApi": 111,
+    "examples": 877,
+    "effectAssets": 1007,
+    "docs": 865
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 39,
-      "PDF/文档": 97,
-      "文本/想法": 163,
-      "数据/表格": 81,
-      "代码/技术描述": 45,
+      "PDF/文档": 98,
+      "文本/想法": 167,
+      "数据/表格": 88,
+      "代码/技术描述": 48,
       "网页/搜索结果": 80,
-      "代码库": 28,
-      "DSL/代码": 43,
+      "代码库": 29,
+      "DSL/代码": 48,
       "新闻/资讯": 11,
       "知识库/个人资料": 18,
       "任意/多源": 31,
-      "Office 文档": 31,
+      "Office 文档": 32,
       "引用网络": 4,
-      "数据库": 17
+      "数据库": 19
     },
     "toolForms": {
-      "开源应用/框架": 74,
-      "Agent Skill": 78,
-      "Skill 集合": 25,
+      "开源应用/框架": 75,
+      "Agent Skill": 81,
+      "Skill 集合": 26,
       "数据集/评测": 2,
       "Bot/助手": 7,
       "产品/SaaS": 43,
-      "MCP Server": 56,
+      "MCP Server": 62,
       "研究原型": 4,
-      "API/SDK/库": 19,
+      "API/SDK/库": 20,
       "Awesome/索引": 15
     },
     "outputForms": {
       "图形摘要/信息图": 21,
-      "PPT/演示文稿": 112,
-      "网页/交互页面": 57,
+      "PPT/演示文稿": 113,
+      "网页/交互页面": 64,
       "问答/学习材料": 9,
       "报告/长文档": 27,
       "证据表": 9,
-      "信息图/视觉报告": 41,
-      "图表/仪表盘": 56,
-      "架构图/流程图": 54,
-      "SVG/PNG/PDF": 82,
+      "信息图/视觉报告": 42,
+      "图表/仪表盘": 62,
+      "架构图/流程图": 57,
+      "SVG/PNG/PDF": 83,
       "报告/简报": 27,
-      "白板/思维导图": 19,
-      "图表/Mermaid": 31,
+      "白板/思维导图": 20,
+      "图表/Mermaid": 34,
       "视频/音频": 17,
       "表格/时间线": 5,
       "引用答案": 4,
@@ -61,51 +61,51 @@
       "结构化数据/Markdown": 18,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 19,
-      "图表/渲染输出": 10,
+      "图表/渲染输出": 11,
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 193,
-      "模型 API": 110,
+      "本地语言环境": 201,
+      "模型 API": 111,
       "文档解析/OCR": 41,
-      "渲染/导出": 194,
+      "渲染/导出": 203,
       "GPU/加速器": 8,
-      "模板/素材": 116,
-      "Agent 宿主": 107,
+      "模板/素材": 118,
+      "Agent 宿主": 111,
       "系统工具": 33,
-      "浏览器/账号": 77,
-      "存储/索引": 31,
-      "外部检索/数据源": 42,
-      "MCP Client": 58,
-      "代码分析工具": 20
+      "浏览器/账号": 79,
+      "存储/索引": 33,
+      "外部检索/数据源": 45,
+      "MCP Client": 64,
+      "代码分析工具": 21
     },
     "categories": {
       "paper-visualization": 13,
       "doc-to-knowledge": 25,
       "research-report": 13,
-      "infographic-report": 24,
-      "data-dashboard": 28,
-      "diagram-generation": 33,
+      "infographic-report": 25,
+      "data-dashboard": 32,
+      "diagram-generation": 36,
       "literature-map": 4,
       "presentation-tools": 72,
       "codebase-map": 18,
-      "rendering-primitive": 6,
+      "rendering-primitive": 7,
       "video-generation": 7,
       "commercial-site": 10,
       "meta-index": 18
     },
     "groups": {
       "paper": 24,
-      "text_visual": 30,
+      "text_visual": 33,
       "web_news": 8,
       "support_mindmap": 9,
       "docs": 8,
       "support_doc_parse": 9,
       "presentation": 84,
       "code": 18,
-      "support_render": 30,
+      "support_render": 32,
       "diagrams": 2,
-      "data": 24,
+      "data": 28,
       "video": 7,
       "indexes": 18
     }
@@ -17496,6 +17496,74 @@
       "effectAssetsCount": 4
     },
     {
+      "name": "mermaid-diagram-claude-code",
+      "url": "https://github.com/zabolotiny/mermaid-diagram-claude-code",
+      "primaryUrl": "https://github.com/zabolotiny/mermaid-diagram-claude-code",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-07-07",
+      "note": "Claude Code integration that uses Mermaid MCP coordination, automatic triggers, code-analysis context, and cross-session persistence to generate flowcharts, sequence diagrams, architecture diagrams, state diagrams, Markdown Mermaid blocks, and zoomable HTML previews.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`HTML_GUIDE.md`",
+          "url": "https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/HTML_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Mermaid Documentation",
+          "url": "https://mermaid.js.org/",
+          "source": "https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`EXAMPLES.md`",
+          "url": "https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/EXAMPLES.md",
+          "source": "https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`TEMPLATES.md`",
+          "url": "https://github.com/zabolotiny/mermaid-diagram-claude-code/blob/HEAD/TEMPLATES.md",
+          "source": "https://raw.githubusercontent.com/zabolotiny/mermaid-diagram-claude-code/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "mermaid-mcp-server",
       "url": "https://github.com/peng-shawn/mermaid-mcp-server",
       "primaryUrl": "https://github.com/peng-shawn/mermaid-mcp-server",
@@ -18487,6 +18555,43 @@
       "docsCount": 1,
       "examplesCount": 20,
       "effectAssetsCount": 5
+    },
+    {
+      "name": "amCharts 5 MCP Server",
+      "url": "https://github.com/amcharts/amcharts5-mcp",
+      "primaryUrl": "https://github.com/amcharts/amcharts5-mcp",
+      "homepage": "https://mcp.amcharts.com/mcp",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 8,
+      "license": "MIT",
+      "updated": "2026-06-29",
+      "note": "Hosted or local MCP server that gives AI assistants on-demand access to amCharts 5 documentation, hundreds of code examples, and class API references for building chart and dashboard artifacts.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "DeepDiagram",
@@ -19484,6 +19589,283 @@
       "docsCount": 3,
       "examplesCount": 4,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "System Design Visualizer",
+      "url": "https://github.com/mallahyari/system-design-visualizer",
+      "primaryUrl": "https://github.com/mallahyari/system-design-visualizer",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 592,
+      "license": "MIT",
+      "updated": "2026-07-01",
+      "note": "Upload static system-design images or architecture diagrams, have an OpenAI vision model convert them into editable Mermaid, then explore the result as an interactive React Flow graph with component deep dives.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Dashboard View",
+          "url": "https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/screenshot-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Interactive Graph",
+          "url": "https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/screenshot-2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mallahyari/system-design-visualizer/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Strategy Consulting Visualization Skill",
+      "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+      "primaryUrl": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 47,
+      "license": "MIT",
+      "updated": "2026-07-11",
+      "note": "Agent skill that turns messy notes, metrics, prose, and process descriptions into executive-ready board slides, reports, proposals, technical diagrams, and infographics with a local SVG renderer and validation loop.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "expert review loop",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/expert-review-loop.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "persona playbook",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/persona-playbook.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "document-type-profiles.md",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/document-type-profiles.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "input-triage.md",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/input-triage.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Public reference corpus",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/public-reference-corpus.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Iterative review loop",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/iterative-review-loop.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "visualization-patterns.md",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/visualization-patterns.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "style-system.md",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/references/style-system.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/render-specs/",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/render-specs",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "draft",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-draft-v1.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "review",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-review-v1.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "draft",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-draft-v2.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "review",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/board-update-review-v2.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "draft",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-draft-v1.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "review",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-review-v1.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "draft",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-draft-v2.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "review",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/vendor-selection-review-v2.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "draft",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-draft-v1.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "review",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-review-v1.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "draft",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill/blob/HEAD/examples/review-loop/investment-memo-draft-v2.md",
+          "source": "https://raw.githubusercontent.com/kgraph57/mckinsey-style-visualization-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 10,
+      "examplesCount": 20,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Diagram Creator Skill",
+      "url": "https://github.com/ferdinandobons/diagram-creator-skill",
+      "primaryUrl": "https://github.com/ferdinandobons/diagram-creator-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 14,
+      "license": "MIT",
+      "updated": "2026-06-08",
+      "note": "Claude Code skill that accepts files, code, config, data, docs, PDFs, spreadsheets, API specs, database schemas, CI/CD pipelines, or plain-language topics and emits self-contained interactive HTML diagrams.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "白板/思维导图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Contributing Guide",
+          "url": "https://github.com/ferdinandobons/diagram-creator-skill/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "appropriate template",
+          "url": "https://github.com/ferdinandobons/diagram-creator-skill/blob/HEAD/.github/PULL_REQUEST_TEMPLATE/",
+          "source": "https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Diagram Creator — SaaS Microservices Architecture example",
+          "url": "https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/assets/demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ferdinandobons/diagram-creator-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
     },
     {
       "name": "Data Formulator",
@@ -21499,6 +21881,424 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Elastic MCP Dashbuilder",
+      "url": "https://github.com/elastic/example-mcp-dashbuilder",
+      "primaryUrl": "https://github.com/elastic/example-mcp-dashbuilder",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 15,
+      "license": "unknown",
+      "updated": "2026-07-10",
+      "note": "Elastic MCP App that lets AI assistants explore Elasticsearch with ES|QL, create Elastic Charts, preview an interactive dashboard inline in chat, and export the result to Kibana Lens dashboards.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "ARCHITECTURE.md",
+          "url": "https://github.com/elastic/example-mcp-dashbuilder/blob/HEAD/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "GitHub Releases",
+          "url": "https://github.com/elastic/example-mcp-dashbuilder/releases",
+          "source": "https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "kbn-grid-layout",
+          "url": "https://github.com/elastic/kibana",
+          "source": "https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Elastic License 2.0",
+          "url": "https://github.com/elastic/example-mcp-dashbuilder/blob/HEAD/LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Claude Desktop showing the inline dashboard preview",
+          "url": "https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/claude-desktop-preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/elastic/example-mcp-dashbuilder/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Chart Canvas",
+      "url": "https://github.com/gluip/chart-canvas",
+      "primaryUrl": "https://github.com/gluip/chart-canvas",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-05-09",
+      "note": "MCP server and browser dashboard for AI-created charts, diagrams, and tables, using DuckDB-backed local queries over SQLite, CSV, Parquet, JSON, and NDJSON while keeping source data local.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/Mermaid",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "full demo on YouTube",
+          "url": "https://www.youtube.com/watch?v=XVucQstPisc",
+          "source": "https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "full demo on YouTube",
+          "url": "https://www.youtube.com/watch?v=XVucQstPisc",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chart Canvas Demo",
+          "url": "https://img.youtube.com/vi/XVucQstPisc/maxresdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gluip/chart-canvas/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Panel Live Server",
+      "url": "https://github.com/panel-extensions/panel-live-server",
+      "primaryUrl": "https://github.com/panel-extensions/panel-live-server",
+      "homepage": "https://panel-extensions.github.io/panel-live-server/",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 3,
+      "license": "BSD-3-Clause",
+      "updated": "2026-07-10",
+      "note": "Local Panel web server and MCP server that executes Python snippets, validates them, renders live interactive visualization pages, stores permanent URLs, and exposes a screenshot tool for visual inspection.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://panel-extensions.github.io/panel-live-server/reference/panel_live_server/",
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://github.com/panel-extensions/panel-live-server/edit/main/docs/index.md",
+          "url": "https://github.com/panel-extensions/panel-live-server/edit/main/docs/index.md",
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://github.com/panel-extensions/panel-live-server/raw/main/docs/index.md",
+          "url": "https://github.com/panel-extensions/panel-live-server/raw/main/docs/index.md",
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Installation guide",
+          "url": "https://panel-extensions.github.io/panel-live-server/tutorials/installation/",
+          "source": "https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Standalone Server",
+          "url": "https://panel-extensions.github.io/panel-live-server/tutorials/standalone-server/",
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "MCP Server",
+          "url": "https://panel-extensions.github.io/panel-live-server/tutorials/mcp-server/",
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        },
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://panel-extensions.github.io/panel-live-server/examples/",
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "panel-live-server showcase",
+          "url": "https://raw.githubusercontent.com/panel-extensions/panel-live-server/main/docs/assets/gif/panel-live-server-showcase.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "panel-live-server MCP showcase",
+          "url": "https://raw.githubusercontent.com/panel-extensions/panel-live-server/main/docs/assets/gif/panel-live-server-showcase-mcp.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/panel-extensions/panel-live-server/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Panel Live Server Showcase Mcp",
+          "url": "https://panel-extensions.github.io/panel-live-server/assets/videos/panel-live-server-showcase-mcp.mp4",
+          "thumbnailUrl": null,
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        },
+        {
+          "kind": "video",
+          "title": "Panel Live Server Showcase",
+          "url": "https://panel-extensions.github.io/panel-live-server/assets/videos/panel-live-server-showcase.mp4",
+          "thumbnailUrl": null,
+          "source": "https://panel-extensions.github.io/panel-live-server/"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 4,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "HoloViz MCP",
+      "url": "https://github.com/MarcSkovMadsen/holoviz-mcp",
+      "primaryUrl": "https://github.com/MarcSkovMadsen/holoviz-mcp",
+      "homepage": "https://marcskovmadsen.github.io/holoviz-mcp/",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 34,
+      "license": "BSD-3-Clause",
+      "updated": "2026-06-03",
+      "note": "HoloViz ecosystem MCP server and standalone skill collection that gives AI assistants searchable docs, component intelligence, a display server, and guidance for building Panel, hvPlot, Lumen, HoloViews, and Datashader dashboards.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Full Documentation",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/",
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docker Guide",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/how-to/docker/",
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "How-To Guides",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/how-to/installation/",
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Reference",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/reference/holoviz_mcp/",
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Custom Docs",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/how-to/add-custom-docs/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://github.com/MarcSkovMadsen/holoviz-mcp/edit/main/docs/index.md",
+          "url": "https://github.com/MarcSkovMadsen/holoviz-mcp/edit/main/docs/index.md",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "docs",
+          "title": "https://github.com/MarcSkovMadsen/holoviz-mcp/raw/main/docs/index.md",
+          "url": "https://github.com/MarcSkovMadsen/holoviz-mcp/raw/main/docs/index.md",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "docs",
+          "title": "Troubleshooting Guide",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/how-to/troubleshooting/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Quick Start",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started/",
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Discourse",
+          "url": "https://discourse.holoviz.org/",
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Claude Code",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-claude-code/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Claude Desktop",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-claude-desktop/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Copilot + VS Code",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-copilot-vscode/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Cursor",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-cursor/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Windsurf",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/getting-started-windsurf/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Display System",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/display-system/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Stock Analysis (Copilot)",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/stock-analysis-copilot-vscode/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Stock Analysis (Claude)",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/stock-analysis-claude-code/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Weather Dashboard (Copilot)",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/weather-dashboard-copilot-vscode/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Weather Dashboard (Claude)",
+          "url": "https://marcskovmadsen.github.io/holoviz-mcp/tutorials/weather-dashboard-claude-code/",
+          "source": "https://marcskovmadsen.github.io/holoviz-mcp/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "HoloViz MCP Introduction",
+          "url": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/docs/assets/images/holoviz-mcp-introduction.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "HoloViz MCP Introduction",
+          "url": "https://youtu.be/M-YUZWEeSDA",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MarcSkovMadsen/holoviz-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 8,
+      "examplesCount": 20,
+      "effectAssetsCount": 2
     },
     {
       "name": "html-video",

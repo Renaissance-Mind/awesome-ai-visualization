@@ -1,4 +1,4 @@
-last_researched: '2026-07-12'
+last_researched: '2026-07-13'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -4725,6 +4725,34 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: mermaid-diagram-claude-code
+  url: https://github.com/zabolotiny/mermaid-diagram-claude-code
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 4
+  license: unknown
+  updated: '2026-07-07'
+  note: Claude Code integration that uses Mermaid MCP coordination, automatic triggers, code-analysis context, and cross-session persistence to generate flowcharts, sequence diagrams, architecture diagrams, state diagrams, Markdown Mermaid blocks, and zoomable HTML previews.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
 - name: mermaid-mcp-server
   url: https://github.com/peng-shawn/mermaid-mcp-server
   category: diagram-generation
@@ -5045,6 +5073,30 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: amCharts 5 MCP Server
+  url: https://github.com/amcharts/amcharts5-mcp
+  homepage: https://mcp.amcharts.com/mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 8
+  license: MIT
+  updated: '2026-06-29'
+  note: Hosted or local MCP server that gives AI assistants on-demand access to amCharts 5 documentation, hundreds of code examples, and class API references for building chart and dashboard artifacts.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render
 - name: DeepDiagram
   url: https://github.com/LingyiChen-AI/DeepDiagram
   homepage: http://deepd.cturing.cn
@@ -5224,6 +5276,82 @@ entries:
   - 产品/SaaS
   output_forms:
   - 架构图/流程图
+  - 白板/思维导图
+  catalog_section: main
+  readme_group: text_visual
+- name: System Design Visualizer
+  url: https://github.com/mallahyari/system-design-visualizer
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 592
+  license: MIT
+  updated: '2026-07-01'
+  note: Upload static system-design images or architecture diagrams, have an OpenAI vision model convert them into editable Mermaid, then explore the result as an interactive React Flow graph with component deep dives.
+  source_types:
+  - 代码/技术描述
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: text_visual
+- name: Strategy Consulting Visualization Skill
+  url: https://github.com/kgraph57/mckinsey-style-visualization-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 47
+  license: MIT
+  updated: '2026-07-11'
+  note: Agent skill that turns messy notes, metrics, prose, and process descriptions into executive-ready board slides, reports, proposals, technical diagrams, and infographics with a local SVG renderer and validation loop.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: text_visual
+- name: Diagram Creator Skill
+  url: https://github.com/ferdinandobons/diagram-creator-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 14
+  license: MIT
+  updated: '2026-06-08'
+  note: Claude Code skill that accepts files, code, config, data, docs, PDFs, spreadsheets, API specs, database schemas, CI/CD pipelines, or plain-language topics and emits self-contained interactive HTML diagrams.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
   - 白板/思维导图
   catalog_section: main
   readme_group: text_visual
@@ -5829,6 +5957,105 @@ entries:
   - 图表/仪表盘
   - 图表/渲染输出
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: Elastic MCP Dashbuilder
+  url: https://github.com/elastic/example-mcp-dashbuilder
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 15
+  license: unknown
+  updated: '2026-07-10'
+  note: Elastic MCP App that lets AI assistants explore Elasticsearch with ES|QL, create Elastic Charts, preview an interactive dashboard inline in chat, and export the result to Kibana Lens dashboards.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: Chart Canvas
+  url: https://github.com/gluip/chart-canvas
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-05-09'
+  note: MCP server and browser dashboard for AI-created charts, diagrams, and tables, using DuckDB-backed local queries over SQLite, CSV, Parquet, JSON, and NDJSON while keeping source data local.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/Mermaid
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: Panel Live Server
+  url: https://github.com/panel-extensions/panel-live-server
+  homepage: https://panel-extensions.github.io/panel-live-server/
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 3
+  license: BSD-3-Clause
+  updated: '2026-07-10'
+  note: Local Panel web server and MCP server that executes Python snippets, validates them, renders live interactive visualization pages, stores permanent URLs, and exposes a screenshot tool for visual inspection.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: HoloViz MCP
+  url: https://github.com/MarcSkovMadsen/holoviz-mcp
+  homepage: https://marcskovmadsen.github.io/holoviz-mcp/
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 34
+  license: BSD-3-Clause
+  updated: '2026-06-03'
+  note: HoloViz ecosystem MCP server and standalone skill collection that gives AI assistants searchable docs, component intelligence, a display server, and guidance for building Panel, hvPlot, Lumen, HoloViews, and Datashader dashboards.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
   catalog_section: main
   readme_group: data
 - name: html-video

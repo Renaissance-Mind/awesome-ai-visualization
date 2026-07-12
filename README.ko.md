@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-271_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--12-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-280_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--13-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -151,6 +151,10 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [data-visualization-mcp-server](https://github.com/kate-marine/data-visualization-mcp-server) [![Star](https://img.shields.io/github/stars/kate-marine/data-visualization-mcp-server?style=flat&logo=github&label=Star)](https://github.com/kate-marine/data-visualization-mcp-server/stargazers) | 데이터/표 / 데이터베이스 | MCP Server | 차트/대시보드 / SVG/PNG/PDF / 웹/인터랙티브 페이지 | MCP Client / 로컬 런타임 / 렌더링/내보내기 / 저장소/인덱스 |
 | [DataViz](https://github.com/SCKelemen/dataviz) [![Star](https://img.shields.io/github/stars/SCKelemen/dataviz?style=flat&logo=github&label=Star)](https://github.com/SCKelemen/dataviz/stargazers) | 데이터/표 / DSL/코드 | API/SDK/라이브러리 / MCP Server | 차트/대시보드 / 렌더링된 차트 / SVG/PNG/PDF | MCP Client / 로컬 런타임 / 렌더링/내보내기 |
 | [QuickChart MCP Server](https://github.com/GongRzhe/Quickchart-MCP-Server) [![Star](https://img.shields.io/github/stars/GongRzhe/Quickchart-MCP-Server?style=flat&logo=github&label=Star)](https://github.com/GongRzhe/Quickchart-MCP-Server/stargazers) | 데이터/표 / DSL/코드 | MCP server | 차트/대시보드 / 렌더링된 차트 / SVG/PNG/PDF | MCP client / 로컬 런타임 / 렌더링/내보내기 / 외부 검색/데이터 |
+| [Elastic MCP Dashbuilder](https://github.com/elastic/example-mcp-dashbuilder) [![Star](https://img.shields.io/github/stars/elastic/example-mcp-dashbuilder?style=flat&logo=github&label=Star)](https://github.com/elastic/example-mcp-dashbuilder/stargazers) | 데이터베이스 / 데이터/표 | MCP Server | 차트/대시보드 / 웹/인터랙티브 페이지 | MCP Client / 로컬 런타임 / 외부 검색/데이터 / 저장소/인덱스 / 렌더링/내보내기 |
+| [Chart Canvas](https://github.com/gluip/chart-canvas) [![Star](https://img.shields.io/github/stars/gluip/chart-canvas?style=flat&logo=github&label=Star)](https://github.com/gluip/chart-canvas/stargazers) | 데이터/표 / 데이터베이스 / DSL/코드 | MCP Server | 차트/대시보드 / 다이어그램/Mermaid / 웹/인터랙티브 페이지 | MCP Client / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
+| [Panel Live Server](https://github.com/panel-extensions/panel-live-server) [![Star](https://img.shields.io/github/stars/panel-extensions/panel-live-server?style=flat&logo=github&label=Star)](https://github.com/panel-extensions/panel-live-server/stargazers) | 데이터/표 / DSL/코드 | MCP Server / API/SDK/라이브러리 | 차트/대시보드 / 웹/인터랙티브 페이지 | MCP Client / 로컬 런타임 / 렌더링/내보내기 / 저장소/인덱스 |
+| [HoloViz MCP](https://github.com/MarcSkovMadsen/holoviz-mcp) [![Star](https://img.shields.io/github/stars/MarcSkovMadsen/holoviz-mcp?style=flat&logo=github&label=Star)](https://github.com/MarcSkovMadsen/holoviz-mcp/stargazers) | 데이터/표 / DSL/코드 | MCP Server / Skill 모음 | 차트/대시보드 / 웹/인터랙티브 페이지 | MCP Client / Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 |
 
 ### 일반 텍스트, 아이디어 및 화이트보드 시각화
 
@@ -190,6 +194,9 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
+| [System Design Visualizer](https://github.com/mallahyari/system-design-visualizer) [![Star](https://img.shields.io/github/stars/mallahyari/system-design-visualizer?style=flat&logo=github&label=Star)](https://github.com/mallahyari/system-design-visualizer/stargazers) | 코드/기술 텍스트 / 텍스트/아이디어 | 오픈소스 앱/프레임워크 | 아키텍처/흐름도 / 다이어그램/Mermaid / 웹/인터랙티브 페이지 | 브라우저/계정 / 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [Strategy Consulting Visualization Skill](https://github.com/kgraph57/mckinsey-style-visualization-skill) [![Star](https://img.shields.io/github/stars/kgraph57/mckinsey-style-visualization-skill?style=flat&logo=github&label=Star)](https://github.com/kgraph57/mckinsey-style-visualization-skill/stargazers) | 텍스트/아이디어 / 데이터/표 | Agent Skill | 인포그래픽/비주얼 리포트 / PPT/프레젠테이션 / SVG/PNG/PDF / 차트/대시보드 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
+| [Diagram Creator Skill](https://github.com/ferdinandobons/diagram-creator-skill) [![Star](https://img.shields.io/github/stars/ferdinandobons/diagram-creator-skill?style=flat&logo=github&label=Star)](https://github.com/ferdinandobons/diagram-creator-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / Office 문서 / 데이터/표 / 코드/기술 텍스트 | Agent Skill | 아키텍처/흐름도 / 웹/인터랙티브 페이지 / 화이트보드/마인드맵 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 
 ### 프로그래매틱 비디오와 모션 설명
 
@@ -356,6 +363,7 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [drawio-skill](https://github.com/Agents365-ai/drawio-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/drawio-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/drawio-skill/stargazers) | 텍스트/아이디어 / 코드베이스 / 코드/기술 텍스트 / DSL/코드 / 데이터/표 | Agent Skill | 아키텍처/흐름도 / 다이어그램/Mermaid / 코드 맵/Repo Wiki / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 / 코드 분석 / 템플릿/자산 |
 | [diagramzu-mcp](https://github.com/yenchieh/diagramzu-mcp) [![Star](https://img.shields.io/github/stars/yenchieh/diagramzu-mcp?style=flat&logo=github&label=Star)](https://github.com/yenchieh/diagramzu-mcp/stargazers) | 텍스트/아이디어 / 코드/기술 설명 / DSL/코드 | MCP Server / 제품/SaaS | Diagram/Mermaid / 아키텍처/흐름도 / 웹/인터랙티브 페이지 | MCP Client / 브라우저/계정 / 로컬 런타임 / 렌더링/내보내기 / 스토리지/인덱스 |
 | [Claude Mermaid](https://github.com/veelenga/claude-mermaid) [![Star](https://img.shields.io/github/stars/veelenga/claude-mermaid?style=flat&logo=github&label=Star)](https://github.com/veelenga/claude-mermaid/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server / Agent Skill | 다이어그램/Mermaid / SVG/PNG/PDF | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 |
+| [mermaid-diagram-claude-code](https://github.com/zabolotiny/mermaid-diagram-claude-code) [![Star](https://img.shields.io/github/stars/zabolotiny/mermaid-diagram-claude-code?style=flat&logo=github&label=Star)](https://github.com/zabolotiny/mermaid-diagram-claude-code/stargazers) | 텍스트/아이디어 / 코드베이스 / 코드/기술 텍스트 / DSL/코드 | Agent Skill / MCP Server | 다이어그램/Mermaid / 아키텍처/흐름도 / 웹/인터랙티브 페이지 | Agent 호스트 / MCP Client / 로컬 런타임 / 코드 분석 / 렌더링/내보내기 |
 | [mermaid-mcp-server](https://github.com/peng-shawn/mermaid-mcp-server) [![Star](https://img.shields.io/github/stars/peng-shawn/mermaid-mcp-server?style=flat&logo=github&label=Star)](https://github.com/peng-shawn/mermaid-mcp-server/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server | 다이어그램/Mermaid / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 | [mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge) [![Star](https://img.shields.io/github/stars/PavelGuzenfeld/mcp-media-forge?style=flat&logo=github&label=Star)](https://github.com/PavelGuzenfeld/mcp-media-forge/stargazers) | 텍스트/아이디어 / 데이터/표 / DSL/코드 | MCP Server | 다이어그램/Mermaid / 아키텍처/흐름도 / 차트/대시보드 / 웹/인터랙티브 페이지 / PPT/덱 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 |
 | [UML-MCP](https://github.com/antoinebou12/uml-mcp) [![Star](https://img.shields.io/github/stars/antoinebou12/uml-mcp?style=flat&logo=github&label=Star)](https://github.com/antoinebou12/uml-mcp/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server | 아키텍처/흐름도 / 다이어그램/Mermaid / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
@@ -368,6 +376,7 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [Markdown Viewer Agent Skills](https://github.com/markdown-viewer/skills) [![Star](https://img.shields.io/github/stars/markdown-viewer/skills?style=flat&logo=github&label=Star)](https://github.com/markdown-viewer/skills/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 텍스트 | Skill 모음 | 아키텍처/흐름도 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 마인드맵/지식 지도 / 렌더링된 차트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [Preview Skills](https://github.com/veelenga/preview-skills) [![Star](https://img.shields.io/github/stars/veelenga/preview-skills?style=flat&logo=github&label=Star)](https://github.com/veelenga/preview-skills/stargazers) | 텍스트/아이디어 / 데이터/표 / DSL/코드 / 코드/기술 텍스트 | Skill 모음 | 웹/인터랙티브 페이지 / 다이어그램/Mermaid / 구조화 데이터/Markdown | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 |
 | [AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) [![Star](https://img.shields.io/github/stars/Dsadd4/AgentFigureGallery?style=flat&logo=github&label=Star)](https://github.com/Dsadd4/AgentFigureGallery/stargazers) | 논문/연구 / 데이터/표 | Agent Skill / 데이터셋/벤치마크 | 렌더링된 차트 / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
+| [amCharts 5 MCP Server](https://github.com/amcharts/amcharts5-mcp) [![Star](https://img.shields.io/github/stars/amcharts/amcharts5-mcp?style=flat&logo=github&label=Star)](https://github.com/amcharts/amcharts5-mcp/stargazers) | 데이터/표 / DSL/코드 | MCP Server | 차트/대시보드 / 렌더링된 차트 | MCP Client / 브라우저/계정 / 외부 검색/데이터 / 렌더링/내보내기 |
 
 ## 도구 선택 방법
 
