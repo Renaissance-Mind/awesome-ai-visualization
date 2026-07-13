@@ -1,4 +1,4 @@
-generated_at: '2026-07-12T23:07:40+00:00'
+generated_at: '2026-07-13T23:07:54+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 280
-  fetched_sources_ok: 384
+  entries: 286
+  fetched_sources_ok: 392
   fetched_sources_failed: 21
-  official_examples: 877
-  official_effect_assets: 1007
-  official_docs: 865
+  official_examples: 879
+  official_effect_assets: 1032
+  official_docs: 890
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -27199,3 +27199,599 @@ entries:
     title: Troubleshooting Guide
     url: https://marcskovmadsen.github.io/holoviz-mcp/how-to/troubleshooting/
     source: https://marcskovmadsen.github.io/holoviz-mcp/
+- name: notebooklm-skill
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/claude-world/notebooklm-skill
+  homepage: https://pypi.org/project/notebooklm-skill/
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Claude Code skill and MCP server that sends URLs, PDFs, YouTube videos, and trending topics into NotebookLM,
+    runs research, and generates slides, reports, mind maps, infographics, audio, video, quizzes, flashcards, data tables,
+    and study guides.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: notebooklm-skill
+    bytes: 14812
+  - kind: homepage
+    url: https://pypi.org/project/notebooklm-skill/
+    final_url: https://pypi.org/project/notebooklm-skill/
+    status: 200
+    content_type: text/html
+    title: Client Challenge
+    bytes: 3038
+  official_docs:
+  - kind: docs
+    title: docs/SETUP.md
+    url: https://github.com/claude-world/notebooklm-skill/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: Watch
+    url: https://youtu.be/q1kj_OccaVE
+    source: https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md
+  - kind: video
+    title: Watch
+    url: https://youtu.be/6M3K4sxahdE
+    source: https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/SETUP.md
+    url: https://github.com/claude-world/notebooklm-skill/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md
+  source_headings:
+  - Demo
+  - Usage Examples
+  - 6. Slides + Podcast → YouTube Video
+  - Generate slides and podcast
+  - Convert PDF to PNG + compose video
+  official_examples: []
+- name: NotebookLM MCP
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/alfredang/notebooklm-mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: MCP server that gives Claude Desktop and Claude Code programmatic NotebookLM access for creating notebooks,
+    adding URL/text/file sources, chatting with sources, and generating podcasts, videos, slides, mind maps, infographics,
+    quizzes, flashcards, and reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alfredang/notebooklm-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alfredang/notebooklm-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: NotebookLM MCP for Claude (Desktop & CLI)
+    bytes: 11060
+  source_headings:
+  - Usage Examples
+  official_links: []
+  official_docs: []
+  official_examples: []
+  official_effect_assets: []
+- name: Sailor
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/aj-geddes/sailor
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Web interface and FastMCP server for natural-language Mermaid generation, live preview, validation, themes,
+    hand-drawn styling, inline PNG returns, and Docker or remote HTTP/SSE deployment.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧜‍♀️ Sailor - Mermaid Diagram Generator
+    bytes: 12551
+  official_docs:
+  - kind: docs
+    title: Railway Deployment Guide
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/RAILWAY_DEPLOYMENT.md
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  - kind: docs
+    title: docs/DOCKER.md
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/DOCKER.md
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  - kind: docs
+    title: docs/PRODUCTION.md
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/PRODUCTION.md
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Sailor Architecture
+    url: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/docs/images/sailor-architecture.png
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Railway Deployment Guide
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/RAILWAY_DEPLOYMENT.md
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  - kind: docs
+    title: docs/DOCKER.md
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/DOCKER.md
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  - kind: docs
+    title: docs/PRODUCTION.md
+    url: https://github.com/aj-geddes/sailor/blob/HEAD/docs/PRODUCTION.md
+    source: https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md
+  source_headings:
+  - 🧜‍♀️ Sailor - Mermaid Diagram Generator
+  - 📖 Usage
+  - Help & Examples Tools
+  - Flow & Process Diagrams
+  - Data & Structure Diagrams
+  - Visualization Diagrams
+  - 📚 Documentation
+  official_examples: []
+- name: Mermaid MCP App
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/finfin/mermaid-mcp-app
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP App for rendering Mermaid diagrams in Claude Desktop, VS Code, and MCP-App hosts with pan/zoom, split-view
+    source editing, live re-render, copyable SVG, context sync back to the LLM, and 13 supported Mermaid diagram types including
+    mind maps and timelines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mermaid MCP App
+    bytes: 5722
+  official_effect_assets:
+  - kind: image
+    title: Send to AI
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/send-to-ai.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Flowchart
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/flowchart.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Sequence Diagram
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/sequence-diagram.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Class Diagram
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/class-diagram.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: State Diagram
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/state-diagram.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: ER Diagram
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/er-diagram.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Gantt Chart
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/gantt-chart.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Pie Chart
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/pie-chart.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Git Graph
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/git-graph.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Mindmap
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/mindmap.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: Timeline
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/timeline.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  - kind: image
+    title: User Journey
+    url: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/user-journey.png
+    source: https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md
+  source_headings:
+  - Usage
+  - Diagram Types (13 supported)
+  - Sequence Diagram
+  - Class Diagram
+  - State Diagram
+  - ER Diagram
+  - Requirement Diagram
+  official_links: []
+  official_docs: []
+  official_examples: []
+- name: Data-Analysis-Agent
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/Zafer-Liu/Data-Analysis-Agent
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Conversational business data analysis agent that connects to Excel, CSV, or databases, discovers schemas,
+    generates SQL, recommends charts, streams the analysis process, and produces interactive dashboards plus business insights.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📝 更新日志
+    bytes: 19945
+  official_examples:
+  - kind: tutorial
+    title: MCP_tutorial
+    url: https://github.com/Zafer-Liu/Data-Analysis-Agent/blob/HEAD/Information/MCP_tutorial.md
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: tutorial
+    title: repository_tutorial
+    url: https://github.com/Zafer-Liu/Data-Analysis-Agent/blob/HEAD/Information/repository_tutorial.md
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  official_docs: []
+  official_effect_assets:
+  - kind: image
+    title: Data Preview
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Data_preview.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: 智能商业分析 Agent Banner
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Banner.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: Data Query
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Data_query.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: Auto Generated
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Auto_generated_image.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: MCP
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/MCP1.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: repository
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/repository2.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: Configure the API3
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Deepseek3.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: Update
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Update.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: Configure the API1
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Deepseek1.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: image
+    title: Configure the API2
+    url: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Deepseek2.png
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  official_links:
+  - kind: tutorial
+    title: MCP_tutorial
+    url: https://github.com/Zafer-Liu/Data-Analysis-Agent/blob/HEAD/Information/MCP_tutorial.md
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  - kind: tutorial
+    title: repository_tutorial
+    url: https://github.com/Zafer-Liu/Data-Analysis-Agent/blob/HEAD/Information/repository_tutorial.md
+    source: https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md
+  source_headings:
+  - 🎬 产品演示
+  - 3️⃣ 智能图表系统
+  - 📈 使用示例
+  - 示例 1：趋势分析
+  - 示例 2：区域分析
+  - 示例 3：图表优先模式
+- name: Amplitude MCP Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/amplitude/mcp-server-guide
+  homepage: https://amplitude.com/docs/analytics/amplitude-mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 存储/索引
+  catalog_note: Official Amplitude-hosted MCP server guide for conversational product analytics over charts, dashboards, notebooks,
+    experiments, feature flags, datasets, metrics, and session replays with OAuth-scoped permissions.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/amplitude/mcp-server-guide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/amplitude/mcp-server-guide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Amplitude MCP Server
+    bytes: 5878
+  - kind: homepage
+    url: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+    final_url: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+    status: 200
+    content_type: text/html
+    title: Amplitude MCP Server | Amplitude Docs
+    description: Connect the Amplitude MCP server to AI tools so teams can query and create Amplitude content with natural
+      language.
+    bytes: 411127
+  official_docs:
+  - kind: docs
+    title: Amplitude MCP Documentation
+    url: https://amplitude.com/docs/analytics/amplitude-mcp
+    source: https://raw.githubusercontent.com/amplitude/mcp-server-guide/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://amplitude.com/docs/en
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Get Started
+    url: https://amplitude.com/docs/en/get-started
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Admin
+    url: https://amplitude.com/docs/en/admin
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: FAQ
+    url: https://amplitude.com/docs/en/faq
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Data
+    url: https://amplitude.com/docs/en/data
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Analytics
+    url: https://amplitude.com/docs/en/analytics
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Session Replay
+    url: https://amplitude.com/docs/en/session-replay
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Zoning Insights
+    url: https://amplitude.com/docs/en/zoning-insights
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Heatmaps
+    url: https://amplitude.com/docs/en/heatmaps
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Amplitude AI
+    url: https://amplitude.com/docs/en/amplitude-ai
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Wave
+    url: https://amplitude.com/docs/en/wave
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: AI Assistant
+    url: https://amplitude.com/docs/en/assistant
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Web Experiment
+    url: https://amplitude.com/docs/en/web-experiment
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Feature Experiment
+    url: https://amplitude.com/docs/en/feature-experiment
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Guides and Surveys
+    url: https://amplitude.com/docs/en/guides-and-surveys
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: SDKs
+    url: https://amplitude.com/docs/en/sdks
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: APIs
+    url: https://amplitude.com/docs/en/apis
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Amplitude MCP Server
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Guides and Surveys MCP tools
+    url: https://amplitude.com/docs/en/amplitude-ai/guides-surveys-mcp
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  official_links:
+  - kind: docs
+    title: Amplitude MCP Documentation
+    url: https://amplitude.com/docs/analytics/amplitude-mcp
+    source: https://raw.githubusercontent.com/amplitude/mcp-server-guide/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://amplitude.com/docs/en
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Get Started
+    url: https://amplitude.com/docs/en/get-started
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Admin
+    url: https://amplitude.com/docs/en/admin
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: FAQ
+    url: https://amplitude.com/docs/en/faq
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Data
+    url: https://amplitude.com/docs/en/data
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Analytics
+    url: https://amplitude.com/docs/en/analytics
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Session Replay
+    url: https://amplitude.com/docs/en/session-replay
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Zoning Insights
+    url: https://amplitude.com/docs/en/zoning-insights
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Heatmaps
+    url: https://amplitude.com/docs/en/heatmaps
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Amplitude AI
+    url: https://amplitude.com/docs/en/amplitude-ai
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Wave
+    url: https://amplitude.com/docs/en/wave
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: AI Assistant
+    url: https://amplitude.com/docs/en/assistant
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Web Experiment
+    url: https://amplitude.com/docs/en/web-experiment
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Feature Experiment
+    url: https://amplitude.com/docs/en/feature-experiment
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Guides and Surveys
+    url: https://amplitude.com/docs/en/guides-and-surveys
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: SDKs
+    url: https://amplitude.com/docs/en/sdks
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: APIs
+    url: https://amplitude.com/docs/en/apis
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Amplitude MCP Server
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Guides and Surveys MCP tools
+    url: https://amplitude.com/docs/en/amplitude-ai/guides-surveys-mcp
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Claude Code
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/claude-code
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Cursor
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/cursor
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: ChatGPT
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/chatgpt
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Claude
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/claude
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Gemini CLI
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/gemini-cli
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Replit
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/replit
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Lovable
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/lovable
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Figma Make
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/figma-make
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Kiro
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/kiro
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Codex CLI
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/codex-cli
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: GitHub Agent
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/github-agent
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Other clients
+    url: https://amplitude.com/docs/en/amplitude-ai/amplitude-mcp/other-clients
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: AI Feedback
+    url: https://amplitude.com/docs/en/amplitude-ai/ai-feedback
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: AI Settings and Controls
+    url: https://amplitude.com/docs/en/amplitude-ai/ai-controls
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: AI Context
+    url: https://amplitude.com/docs/en/amplitude-ai/ai-context
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Privacy and Security
+    url: https://amplitude.com/docs/en/amplitude-ai/privacy-and-security
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Prepare data for AI
+    url: https://amplitude.com/docs/en/amplitude-ai/preparing-data-for-ai-ingestion
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Docs MCP server
+    url: https://amplitude.com/docs/en/amplitude-ai/docs-mcp-server
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: Anthropic's Claude documentation
+    url: https://docs.anthropic.com/en/docs/build-with-claude/mcp
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  - kind: docs
+    title: MCP quickstart resources
+    url: https://github.com/modelcontextprotocol/quickstart-resources
+    source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+  source_headings:
+  - Example Queries
+  official_examples: []
+  official_effect_assets: []

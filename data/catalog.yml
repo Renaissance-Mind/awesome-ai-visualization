@@ -1,4 +1,4 @@
-last_researched: '2026-07-13'
+last_researched: '2026-07-14'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1399,6 +1399,72 @@ entries:
   - 视频/音频
   - 表格/时间线
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: notebooklm-skill
+  url: https://github.com/claude-world/notebooklm-skill
+  homepage: https://pypi.org/project/notebooklm-skill/
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 336
+  license: MIT
+  updated: '2026-07-13'
+  note: Claude Code skill and MCP server that sends URLs, PDFs, YouTube videos, and trending topics into NotebookLM, runs research, and generates slides, reports, mind maps, infographics, audio, video, quizzes, flashcards, data tables, and study guides.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 思维导图/知识地图
+  - 信息图/视觉报告
+  - 视频/音频
+  - 表格/时间线
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: NotebookLM MCP
+  url: https://github.com/alfredang/notebooklm-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 32
+  license: unknown
+  updated: '2026-07-13'
+  note: MCP server that gives Claude Desktop and Claude Code programmatic NotebookLM access for creating notebooks, adding URL/text/file sources, chatting with sources, and generating podcasts, videos, slides, mind maps, infographics, quizzes, flashcards, and reports.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 思维导图/知识地图
+  - 信息图/视觉报告
+  - 视频/音频
+  - 报告/简报
+  - 问答/学习材料
   catalog_section: main
   readme_group: docs
 - name: qiaomu-anything-to-notebooklm
@@ -4725,6 +4791,61 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: Sailor
+  url: https://github.com/aj-geddes/sailor
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  stars: 5
+  license: MIT
+  updated: '2026-03-06'
+  note: Web interface and FastMCP server for natural-language Mermaid generation, live preview, validation, themes, hand-drawn styling, inline PNG returns, and Docker or remote HTTP/SSE deployment.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Mermaid MCP App
+  url: https://github.com/finfin/mermaid-mcp-app
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-03-25'
+  note: MCP App for rendering Mermaid diagrams in Claude Desktop, VS Code, and MCP-App hosts with pan/zoom, split-view source editing, live re-render, copyable SVG, context sync back to the LLM, and 13 supported Mermaid diagram types including mind maps and timelines.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: mermaid-diagram-claude-code
   url: https://github.com/zabolotiny/mermaid-diagram-claude-code
   category: diagram-generation
@@ -6056,6 +6177,57 @@ entries:
   output_forms:
   - 图表/仪表盘
   - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: Data-Analysis-Agent
+  url: https://github.com/Zafer-Liu/Data-Analysis-Agent
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 2061
+  license: CC-BY-NC-4.0
+  updated: '2026-07-10'
+  note: Conversational business data analysis agent that connects to Excel, CSV, or databases, discovers schemas, generates SQL, recommends charts, streams the analysis process, and produces interactive dashboards plus business insights.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: Amplitude MCP Server
+  url: https://github.com/amplitude/mcp-server-guide
+  homepage: https://amplitude.com/docs/analytics/amplitude-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 45
+  license: unknown
+  updated: '2025-10-24'
+  note: Official Amplitude-hosted MCP server guide for conversational product analytics over charts, dashboards, notebooks, experiments, feature flags, datasets, metrics, and session replays with OAuth-scoped permissions.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 图表/仪表盘
+  - 证据表
   catalog_section: main
   readme_group: data
 - name: html-video
