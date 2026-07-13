@@ -1,63 +1,63 @@
 {
-  "generatedAt": "2026-07-12T23:07:40+00:00",
-  "lastResearched": "2026-07-13",
+  "generatedAt": "2026-07-13T23:07:54+00:00",
+  "lastResearched": "2026-07-14",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 280,
-    "openSource": 75,
-    "saas": 43,
-    "modelApi": 111,
-    "examples": 877,
-    "effectAssets": 1007,
-    "docs": 865
+    "total": 286,
+    "openSource": 78,
+    "saas": 44,
+    "modelApi": 113,
+    "examples": 879,
+    "effectAssets": 1032,
+    "docs": 890
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 39,
-      "PDF/文档": 98,
-      "文本/想法": 167,
-      "数据/表格": 88,
-      "代码/技术描述": 48,
-      "网页/搜索结果": 80,
+      "PDF/文档": 100,
+      "文本/想法": 169,
+      "数据/表格": 90,
+      "代码/技术描述": 50,
+      "网页/搜索结果": 82,
       "代码库": 29,
-      "DSL/代码": 48,
+      "DSL/代码": 50,
       "新闻/资讯": 11,
-      "知识库/个人资料": 18,
-      "任意/多源": 31,
+      "知识库/个人资料": 20,
+      "任意/多源": 33,
       "Office 文档": 32,
       "引用网络": 4,
-      "数据库": 19
+      "数据库": 21
     },
     "toolForms": {
-      "开源应用/框架": 75,
-      "Agent Skill": 81,
+      "开源应用/框架": 78,
+      "Agent Skill": 82,
       "Skill 集合": 26,
       "数据集/评测": 2,
-      "Bot/助手": 7,
-      "产品/SaaS": 43,
-      "MCP Server": 62,
+      "Bot/助手": 8,
+      "产品/SaaS": 44,
+      "MCP Server": 67,
       "研究原型": 4,
       "API/SDK/库": 20,
       "Awesome/索引": 15
     },
     "outputForms": {
       "图形摘要/信息图": 21,
-      "PPT/演示文稿": 113,
+      "PPT/演示文稿": 115,
       "网页/交互页面": 64,
-      "问答/学习材料": 9,
+      "问答/学习材料": 11,
       "报告/长文档": 27,
-      "证据表": 9,
-      "信息图/视觉报告": 42,
-      "图表/仪表盘": 62,
-      "架构图/流程图": 57,
-      "SVG/PNG/PDF": 83,
-      "报告/简报": 27,
-      "白板/思维导图": 20,
-      "图表/Mermaid": 34,
-      "视频/音频": 17,
-      "表格/时间线": 5,
+      "证据表": 10,
+      "信息图/视觉报告": 44,
+      "图表/仪表盘": 64,
+      "架构图/流程图": 59,
+      "SVG/PNG/PDF": 85,
+      "报告/简报": 30,
+      "白板/思维导图": 22,
+      "图表/Mermaid": 36,
+      "视频/音频": 19,
+      "表格/时间线": 6,
       "引用答案": 4,
-      "思维导图/知识地图": 16,
+      "思维导图/知识地图": 18,
       "结构化数据/Markdown": 18,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 19,
@@ -65,27 +65,27 @@
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 201,
-      "模型 API": 111,
-      "文档解析/OCR": 41,
-      "渲染/导出": 203,
+      "本地语言环境": 206,
+      "模型 API": 113,
+      "文档解析/OCR": 43,
+      "渲染/导出": 208,
       "GPU/加速器": 8,
       "模板/素材": 118,
-      "Agent 宿主": 111,
-      "系统工具": 33,
-      "浏览器/账号": 79,
-      "存储/索引": 33,
-      "外部检索/数据源": 45,
-      "MCP Client": 64,
+      "Agent 宿主": 112,
+      "系统工具": 34,
+      "浏览器/账号": 84,
+      "存储/索引": 35,
+      "外部检索/数据源": 49,
+      "MCP Client": 69,
       "代码分析工具": 21
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 25,
+      "doc-to-knowledge": 27,
       "research-report": 13,
       "infographic-report": 25,
-      "data-dashboard": 32,
-      "diagram-generation": 36,
+      "data-dashboard": 34,
+      "diagram-generation": 38,
       "literature-map": 4,
       "presentation-tools": 72,
       "codebase-map": 18,
@@ -99,13 +99,13 @@
       "text_visual": 33,
       "web_news": 8,
       "support_mindmap": 9,
-      "docs": 8,
+      "docs": 10,
       "support_doc_parse": 9,
       "presentation": 84,
       "code": 18,
-      "support_render": 32,
+      "support_render": 34,
       "diagrams": 2,
-      "data": 28,
+      "data": 30,
       "video": 7,
       "indexes": 18
     }
@@ -5391,6 +5391,121 @@
       "docsCount": 20,
       "examplesCount": 3,
       "effectAssetsCount": 2
+    },
+    {
+      "name": "notebooklm-skill",
+      "url": "https://github.com/claude-world/notebooklm-skill",
+      "primaryUrl": "https://github.com/claude-world/notebooklm-skill",
+      "homepage": "https://pypi.org/project/notebooklm-skill/",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 336,
+      "license": "MIT",
+      "updated": "2026-07-13",
+      "note": "Claude Code skill and MCP server that sends URLs, PDFs, YouTube videos, and trending topics into NotebookLM, runs research, and generates slides, reports, mind maps, infographics, audio, video, quizzes, flashcards, data tables, and study guides.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "思维导图/知识地图",
+        "信息图/视觉报告",
+        "视频/音频",
+        "表格/时间线",
+        "问答/学习材料"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/SETUP.md",
+          "url": "https://github.com/claude-world/notebooklm-skill/blob/HEAD/docs/SETUP.md",
+          "source": "https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Watch",
+          "url": "https://youtu.be/q1kj_OccaVE",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Watch",
+          "url": "https://youtu.be/6M3K4sxahdE",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/claude-world/notebooklm-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "NotebookLM MCP",
+      "url": "https://github.com/alfredang/notebooklm-mcp",
+      "primaryUrl": "https://github.com/alfredang/notebooklm-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 32,
+      "license": "unknown",
+      "updated": "2026-07-13",
+      "note": "MCP server that gives Claude Desktop and Claude Code programmatic NotebookLM access for creating notebooks, adding URL/text/file sources, chatting with sources, and generating podcasts, videos, slides, mind maps, infographics, quizzes, flashcards, and reports.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "思维导图/知识地图",
+        "信息图/视觉报告",
+        "视频/音频",
+        "报告/简报",
+        "问答/学习材料"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "qiaomu-anything-to-notebooklm",
@@ -17496,6 +17611,207 @@
       "effectAssetsCount": 4
     },
     {
+      "name": "Sailor",
+      "url": "https://github.com/aj-geddes/sailor",
+      "primaryUrl": "https://github.com/aj-geddes/sailor",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 5,
+      "license": "MIT",
+      "updated": "2026-03-06",
+      "note": "Web interface and FastMCP server for natural-language Mermaid generation, live preview, validation, themes, hand-drawn styling, inline PNG returns, and Docker or remote HTTP/SSE deployment.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Railway Deployment Guide",
+          "url": "https://github.com/aj-geddes/sailor/blob/HEAD/docs/RAILWAY_DEPLOYMENT.md",
+          "source": "https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/`",
+          "url": "https://github.com/aj-geddes/sailor/blob/HEAD/docs/",
+          "source": "https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/DOCKER.md",
+          "url": "https://github.com/aj-geddes/sailor/blob/HEAD/docs/DOCKER.md",
+          "source": "https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/PRODUCTION.md",
+          "url": "https://github.com/aj-geddes/sailor/blob/HEAD/docs/PRODUCTION.md",
+          "source": "https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Sailor Architecture",
+          "url": "https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/docs/images/sailor-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aj-geddes/sailor/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Mermaid MCP App",
+      "url": "https://github.com/finfin/mermaid-mcp-app",
+      "primaryUrl": "https://github.com/finfin/mermaid-mcp-app",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-03-25",
+      "note": "MCP App for rendering Mermaid diagrams in Claude Desktop, VS Code, and MCP-App hosts with pan/zoom, split-view source editing, live re-render, copyable SVG, context sync back to the LLM, and 13 supported Mermaid diagram types including mind maps and timelines.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Send to AI",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/send-to-ai.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flowchart",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/flowchart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sequence Diagram",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/sequence-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Class Diagram",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/class-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "State Diagram",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/state-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ER Diagram",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/er-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gantt Chart",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/gantt-chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Pie Chart",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/pie-chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Git Graph",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/git-graph.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mindmap",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/mindmap.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Timeline",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/timeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "User Journey",
+          "url": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/master/assets/images/user-journey.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/finfin/mermaid-mcp-app/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
+    },
+    {
       "name": "mermaid-diagram-claude-code",
       "url": "https://github.com/zabolotiny/mermaid-diagram-claude-code",
       "primaryUrl": "https://github.com/zabolotiny/mermaid-diagram-claude-code",
@@ -22299,6 +22615,217 @@
       "docsCount": 8,
       "examplesCount": 20,
       "effectAssetsCount": 2
+    },
+    {
+      "name": "Data-Analysis-Agent",
+      "url": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+      "primaryUrl": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 2061,
+      "license": "CC-BY-NC-4.0",
+      "updated": "2026-07-10",
+      "note": "Conversational business data analysis agent that connects to Excel, CSV, or databases, discovers schemas, generates SQL, recommends charts, streams the analysis process, and produces interactive dashboards plus business insights.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "MCP_tutorial",
+          "url": "https://github.com/Zafer-Liu/Data-Analysis-Agent/blob/HEAD/Information/MCP_tutorial.md",
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "repository_tutorial",
+          "url": "https://github.com/Zafer-Liu/Data-Analysis-Agent/blob/HEAD/Information/repository_tutorial.md",
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Data Preview",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Data_preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "智能商业分析 Agent Banner",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Data Query",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Data_query.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Auto Generated",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Auto_generated_image.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "MCP",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/MCP1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "repository",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/repository2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Configure the API3",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Deepseek3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Update",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Update.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Configure the API1",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Deepseek1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Configure the API2",
+          "url": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/Information/assets/Deepseek2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Zafer-Liu/Data-Analysis-Agent/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 10
+    },
+    {
+      "name": "Amplitude MCP Server",
+      "url": "https://github.com/amplitude/mcp-server-guide",
+      "primaryUrl": "https://github.com/amplitude/mcp-server-guide",
+      "homepage": "https://amplitude.com/docs/analytics/amplitude-mcp",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "存储/索引"
+      ],
+      "stars": 45,
+      "license": "unknown",
+      "updated": "2025-10-24",
+      "note": "Official Amplitude-hosted MCP server guide for conversational product analytics over charts, dashboards, notebooks, experiments, feature flags, datasets, metrics, and session replays with OAuth-scoped permissions.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Amplitude MCP Documentation",
+          "url": "https://amplitude.com/docs/analytics/amplitude-mcp",
+          "source": "https://raw.githubusercontent.com/amplitude/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://amplitude.com/docs/en",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Get Started",
+          "url": "https://amplitude.com/docs/en/get-started",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Admin",
+          "url": "https://amplitude.com/docs/en/admin",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "FAQ",
+          "url": "https://amplitude.com/docs/en/faq",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Data",
+          "url": "https://amplitude.com/docs/en/data",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Analytics",
+          "url": "https://amplitude.com/docs/en/analytics",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Session Replay",
+          "url": "https://amplitude.com/docs/en/session-replay",
+          "source": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 20,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "html-video",
