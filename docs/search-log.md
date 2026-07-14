@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-14.
+Last researched: 2026-07-15.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -47,6 +47,8 @@ Update on 2026-07-12: refreshed local Markdown-to-skill/document export, Figma S
 Update on 2026-07-13: refreshed data-dashboard MCP Apps, Python visualization display servers, HoloViz/amCharts assistant references, Mermaid-Claude integrations, and agent diagram/consulting-visual skills from official GitHub repositories, project docs, README evidence, HoloViz announcement material, and GitHub metadata. This pass added Elastic MCP Dashbuilder, Chart Canvas, Panel Live Server, HoloViz MCP, amCharts 5 MCP Server, mermaid-diagram-claude-code, System Design Visualizer, Strategy Consulting Visualization Skill, and Diagram Creator Skill.
 
 Update on 2026-07-14: refreshed NotebookLM artifact automation, business data-analysis agents, product analytics MCP, and interactive Mermaid MCP/App renderers from official GitHub repositories, product docs, README evidence, PyPI metadata, and GitHub metadata. This pass added notebooklm-skill, NotebookLM MCP, Data-Analysis-Agent, Amplitude MCP Server, Sailor, and Mermaid MCP App.
+
+Update on 2026-07-15: refreshed AI report/dashboard builders, low-code visualization apps, generative UI frameworks, AntV visualization MCP support, PowerPoint generation MCP servers, and Figma Slides agent skills from official GitHub repositories, product docs, README evidence, and GitHub metadata. This pass added JimuReport, Vizro, OpenGenerativeUI, mcp-server-antv, Deckbuilder, figma-use-slides, and slidespeak-mcp.
 
 ## Search Surfaces
 

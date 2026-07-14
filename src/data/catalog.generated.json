@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-07-13T23:07:54+00:00",
-  "lastResearched": "2026-07-14",
+  "generatedAt": "2026-07-14T23:05:37+00:00",
+  "lastResearched": "2026-07-15",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 286,
-    "openSource": 78,
-    "saas": 44,
-    "modelApi": 113,
-    "examples": 879,
-    "effectAssets": 1032,
-    "docs": 890
+    "total": 293,
+    "openSource": 81,
+    "saas": 45,
+    "modelApi": 115,
+    "examples": 908,
+    "effectAssets": 1057,
+    "docs": 953
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 39,
-      "PDF/文档": 100,
-      "文本/想法": 169,
-      "数据/表格": 90,
-      "代码/技术描述": 50,
-      "网页/搜索结果": 82,
+      "PDF/文档": 101,
+      "文本/想法": 174,
+      "数据/表格": 96,
+      "代码/技术描述": 52,
+      "网页/搜索结果": 84,
       "代码库": 29,
-      "DSL/代码": 50,
+      "DSL/代码": 53,
       "新闻/资讯": 11,
       "知识库/个人资料": 20,
       "任意/多源": 33,
-      "Office 文档": 32,
+      "Office 文档": 33,
       "引用网络": 4,
-      "数据库": 21
+      "数据库": 23
     },
     "toolForms": {
-      "开源应用/框架": 78,
-      "Agent Skill": 82,
+      "开源应用/框架": 81,
+      "Agent Skill": 84,
       "Skill 集合": 26,
       "数据集/评测": 2,
       "Bot/助手": 8,
-      "产品/SaaS": 44,
-      "MCP Server": 67,
+      "产品/SaaS": 45,
+      "MCP Server": 72,
       "研究原型": 4,
-      "API/SDK/库": 20,
+      "API/SDK/库": 22,
       "Awesome/索引": 15
     },
     "outputForms": {
       "图形摘要/信息图": 21,
-      "PPT/演示文稿": 115,
-      "网页/交互页面": 64,
+      "PPT/演示文稿": 118,
+      "网页/交互页面": 68,
       "问答/学习材料": 11,
       "报告/长文档": 27,
       "证据表": 10,
-      "信息图/视觉报告": 44,
-      "图表/仪表盘": 64,
-      "架构图/流程图": 59,
-      "SVG/PNG/PDF": 85,
-      "报告/简报": 30,
+      "信息图/视觉报告": 45,
+      "图表/仪表盘": 68,
+      "架构图/流程图": 61,
+      "SVG/PNG/PDF": 86,
+      "报告/简报": 31,
       "白板/思维导图": 22,
       "图表/Mermaid": 36,
       "视频/音频": 19,
@@ -61,33 +61,33 @@
       "结构化数据/Markdown": 18,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 19,
-      "图表/渲染输出": 11,
+      "图表/渲染输出": 12,
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 206,
-      "模型 API": 113,
+      "本地语言环境": 211,
+      "模型 API": 115,
       "文档解析/OCR": 43,
-      "渲染/导出": 208,
+      "渲染/导出": 215,
       "GPU/加速器": 8,
-      "模板/素材": 118,
-      "Agent 宿主": 112,
+      "模板/素材": 123,
+      "Agent 宿主": 114,
       "系统工具": 34,
-      "浏览器/账号": 84,
-      "存储/索引": 35,
-      "外部检索/数据源": 49,
-      "MCP Client": 69,
+      "浏览器/账号": 87,
+      "存储/索引": 36,
+      "外部检索/数据源": 51,
+      "MCP Client": 74,
       "代码分析工具": 21
     },
     "categories": {
       "paper-visualization": 13,
       "doc-to-knowledge": 27,
       "research-report": 13,
-      "infographic-report": 25,
-      "data-dashboard": 34,
+      "infographic-report": 26,
+      "data-dashboard": 37,
       "diagram-generation": 38,
       "literature-map": 4,
-      "presentation-tools": 72,
+      "presentation-tools": 75,
       "codebase-map": 18,
       "rendering-primitive": 7,
       "video-generation": 7,
@@ -96,16 +96,16 @@
     },
     "groups": {
       "paper": 24,
-      "text_visual": 33,
+      "text_visual": 34,
       "web_news": 8,
       "support_mindmap": 9,
       "docs": 10,
       "support_doc_parse": 9,
-      "presentation": 84,
+      "presentation": 87,
       "code": 18,
       "support_render": 34,
       "diagrams": 2,
-      "data": 30,
+      "data": 33,
       "video": 7,
       "indexes": 18
     }
@@ -8759,6 +8759,88 @@
       "effectAssetsCount": 12
     },
     {
+      "name": "Deckbuilder",
+      "url": "https://github.com/teknologika/Deckbuilder",
+      "primaryUrl": "https://github.com/teknologika/Deckbuilder",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "Apache-2.0",
+      "updated": "2025-08-21",
+      "note": "Python library, CLI, and MCP server that turns Markdown or JSON into complete PowerPoint decks, analyzes templates, recommends layouts, and remaps fonts or languages in existing presentations.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Feature Documentation",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/old_docs/Features/",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Complete Documentation",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Deckbuilder Library",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/deckbuilder.md",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Command-Line Interface",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/cli.md",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP Server",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/mcp_server.md",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "PlaceKitten Library",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/placekitten.md",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Supported Templates",
+          "url": "https://github.com/teknologika/Deckbuilder/blob/HEAD/docs/supported_templates.md",
+          "source": "https://raw.githubusercontent.com/teknologika/Deckbuilder/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 6,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "PPTAgent",
       "url": "https://github.com/icip-cas/PPTAgent",
       "primaryUrl": "https://github.com/icip-cas/PPTAgent",
@@ -11797,6 +11879,130 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "figma-use-slides",
+      "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/SKILL.md",
+      "primaryUrl": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/SKILL.md",
+      "homepage": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "Agent 宿主",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1757,
+      "license": "unknown",
+      "updated": "2026-07-13",
+      "note": "Official Figma MCP guide skill for building, editing, restyling, validating, screenshotting, and organizing Figma Slides decks through the use_figma tool and Slides-specific Plugin API rules.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "figma-use",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use/SKILL.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "slide-gotchas.md",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/references/slide-gotchas.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "slide-lifecycle.md",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/references/slide-lifecycle.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "slide-grid.md",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/references/slide-grid.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "slide-design.md",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/references/slide-design.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "slide-properties.md",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/references/slide-properties.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "slide-content",
+          "url": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/references/slide-content.md",
+          "source": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-slides/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Developer docs Work with APIs, embeds, and more",
+          "url": "https://www.figma.com/developers",
+          "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "Figma Weave New AI workflows for imagery, video, and audio",
+          "url": "https://help.weavy.ai/en/",
+          "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Courses and collections New Level up your Figma skills with these comprehensive skill-based courses.",
+          "url": "https://help.figma.com/hc/sections/23691657321239",
+          "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Tutorials Explore tools and features by watching and following along with these expert-led video tutorials.",
+          "url": "https://www.youtube.com/@Figma",
+          "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server"
+        },
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://www.figma.com/templates/?utm_source=help-center&utm_medium=marketing_referral&utm_campaign=help_center",
+          "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "MCP client with link-based prompt",
+          "url": "https://developers.figma.com/assets/images/mcp-client-link-prompt-9d423d7411aa6f368abb1e71ad9fd93c.png",
+          "thumbnailUrl": null,
+          "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
     },
     {
       "name": "pptx-tools",
@@ -22828,6 +23034,475 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "JimuReport",
+      "url": "https://github.com/jeecgboot/jimureport",
+      "primaryUrl": "https://github.com/jeecgboot/jimureport",
+      "homepage": "http://jimureport.com",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 8113,
+      "license": "GPL-3.0",
+      "updated": "2026-06-26",
+      "note": "Free AI visualization reporting platform that turns one-sentence requirements or screenshots into editable reports, big screens, dashboards, portals, and mobile report pages over 30+ data sources.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "快速集成文档",
+          "url": "https://help.jimureport.com/quick.html",
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "AI 助手配置文档",
+          "url": "https://help.jimureport.com/rumen/aiAssistant/",
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "文档",
+          "url": "https://my.oschina.net/jeecg/blog/4905722",
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "配置教程",
+          "url": "https://my.oschina.net/jeecg/blog/19711672",
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "集成版源码运行",
+          "url": "https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example",
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Up 752B454F64Ed87C798B3E8A083Fbd6622D4",
+          "url": "https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Up 5A4D68Eb1999F84A4A0205C2904A94B24Ad",
+          "url": "https://oscimg.oschina.net/oscnet/up-5a4d68eb1999f84a4a0205c2904a94b24ad.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Up 1868Dddbbef4Ddeccb4099B92C68636D20E",
+          "url": "https://oscimg.oschina.net/oscnet/up-1868dddbbef4ddeccb4099b92c68636d20e.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Up 4F8F995C055810A91Eda0327B737D61F6C9",
+          "url": "https://oscimg.oschina.net/oscnet/up-4f8f995c055810a91eda0327b737d61f6c9.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "JimuReport 功能全景",
+          "url": "https://upload.jeecg.com/jeecg/jimusite/jimureport_function_202605.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up 3Eda428Ef182Cb64A1A8E132E4Bfeb87718",
+          "url": "https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up Fe2Ac0Dfc3933734961924De0538B3049D2",
+          "url": "https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up 8863Ea4E67C02Dbd844Bb8022652F1Be651",
+          "url": "https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up Be956Cbc19287E4Df9Cc46C9D15E96Da99D",
+          "url": "https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up 22096123C5B6A10A801967C33Cc33A7Af11",
+          "url": "https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up 9B6Cd73719De68E0E45E1Cf95Cd6104A103",
+          "url": "https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Up 0139Eb90F2D255152Aa69D3B37Fcc85E4A2",
+          "url": "https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jeecgboot/jimureport/HEAD/README.md"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Vizro",
+      "url": "https://github.com/mckinsey/vizro",
+      "primaryUrl": "https://github.com/mckinsey/vizro",
+      "homepage": "https://vizro.readthedocs.io/en/stable/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3731,
+      "license": "Apache-2.0",
+      "updated": "2026-07-13",
+      "note": "Low-code Python toolkit for assembling production-grade data visualization apps, multi-page dashboards, charts, tables, KPI cards, forms, filters, and live demo galleries.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://vizro.readthedocs.io/en/stable/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Components",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/components/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Controls",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/controls/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Navigation",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/navigation/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "**visual formatting**",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/visual-formatting/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "**custom components**",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/extensions/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "\"How-to guides\"",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/install/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Vizro-AI documentation",
+          "url": "https://vizro.readthedocs.io/projects/vizro-ai/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Get Started",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/tutorials/first_dashboard/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Layouts",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/layouts/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Vizro Gallery",
+          "url": "https://huggingface.co/collections/vizro/vizro-official-gallery",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "get started documentation",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/tutorials/first-dashboard/",
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Tutorials",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/tutorials/quickstart-tutorial/",
+          "source": "https://vizro.readthedocs.io/en/stable/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Explore Vizro",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/tutorials/explore-components/",
+          "source": "https://vizro.readthedocs.io/en/stable/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Write your own actions",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/tutorials/custom-actions-tutorial/",
+          "source": "https://vizro.readthedocs.io/en/stable/"
+        },
+        {
+          "kind": "template",
+          "title": "Themes and colors",
+          "url": "https://vizro.readthedocs.io/en/stable/pages/user-guides/themes/",
+          "source": "https://vizro.readthedocs.io/en/stable/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Vizro MCP Demo",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/vizro-mcp.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gif to demonstrate Vizro features",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/vizro_spash_teaser_fallback.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gif to demonstrate Vizro-AI",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/toolkit_vizro_ai_fallback.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Code Dashboard",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/code_dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Basic Dashboard",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/basic_dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Visual Vocabulary",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/visual_vocabulary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "BI Dashboard",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/bi_dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Call Center Dashboard",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/call_center_dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "KPI Dashboard",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/kpi_dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Features Dashboard",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/features_dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Toolkit Visual Vocabulary",
+          "url": "https://raw.githubusercontent.com/mckinsey/vizro/main/.github/images/toolkit_visual_vocabulary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mckinsey/vizro/HEAD/README.md"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 8,
+      "effectAssetsCount": 11
+    },
+    {
+      "name": "OpenGenerativeUI",
+      "url": "https://github.com/CopilotKit/OpenGenerativeUI",
+      "primaryUrl": "https://github.com/CopilotKit/OpenGenerativeUI",
+      "homepage": "https://opengenerativeui.copilotkit.ai/",
+      "category": "infographic-report",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1445,
+      "license": "MIT",
+      "updated": "2026-06-10",
+      "note": "Open-source generative UI framework and MCP server where agents assemble iframe-ready HTML, SVG diagrams, charts, network visuals, dashboards, widgets, and interactive algorithm explainers.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/bring-to-your-app.md",
+          "url": "https://github.com/CopilotKit/OpenGenerativeUI/blob/HEAD/docs/bring-to-your-app.md",
+          "source": "https://raw.githubusercontent.com/CopilotKit/OpenGenerativeUI/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "mcp-server-antv",
+      "url": "https://github.com/antvis/mcp-server-antv",
+      "primaryUrl": "https://github.com/antvis/mcp-server-antv",
+      "homepage": "https://www.npmjs.com/package/@antv/mcp-server-antv",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 40,
+      "license": "MIT",
+      "updated": "2026-04-27",
+      "note": "Official AntV MCP server that gives agents documentation context and code examples for G2, G6, F2, and related visualization libraries when building charts, graph/network views, and mobile visualizations.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "mcp-server-antv Technical Architecture",
+          "url": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*WHSOR7L8U0YAAAAATjAAAAgAemJ7AQ/fmt.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/antvis/mcp-server-antv/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "html-video",
       "url": "https://github.com/nexu-io/html-video",
       "primaryUrl": "https://github.com/nexu-io/html-video",
@@ -23887,6 +24562,167 @@
       "docsCount": 6,
       "examplesCount": 10,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "slidespeak-mcp",
+      "url": "https://github.com/SlideSpeak/slidespeak-mcp",
+      "primaryUrl": "https://github.com/SlideSpeak/slidespeak-mcp",
+      "homepage": "https://slidespeak.co/slidespeak-api/",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 12,
+      "license": "unknown",
+      "updated": "2026-04-30",
+      "note": "Official SlideSpeak MCP server and remote MCP endpoint for creating reports, PowerPoint presentations, and other slide decks through the SlideSpeak API, Docker image, or mcp-remote.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "SlideSpeak API Use our API to integrate AI presentation generation into your own applications.",
+          "url": "https://slidespeak.co/features/slidespeak-api",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "View API Docs",
+          "url": "https://docs.slidespeak.co/",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "Talk to Sales",
+          "url": "https://slidespeak.co/book-meeting?referrer=api_hero",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "See docs",
+          "url": "https://docs.slidespeak.co/basics/api-references/generate-presentation/",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "See docs",
+          "url": "https://docs.slidespeak.co/basics/api-references/edit-presentation/",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "Read Detailed Comparison",
+          "url": "https://slidespeak.co/guides/top-5-ai-presentation-apis-2025",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "Contact Sales",
+          "url": "https://slidespeak.co/book-meeting/?referrer=api_pricing",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "docs",
+          "title": "See Detailed Pricing",
+          "url": "https://slidespeak.co/api-pricing",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Custom Templates Create AI presentations using your own PowerPoint template and slide master.",
+          "url": "https://slidespeak.co/features/custom-template",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "template",
+          "title": "Design Context for AI Agents Give Claude, Codex, Cursor, and any MCP client direct access to your brand assets and slide layouts.",
+          "url": "https://slidespeak.co/features/onbrand",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "video",
+          "title": "AI Video Generator Turn your presentations into AI-narrated videos with 50+ voices in 20+ languages.",
+          "url": "https://slidespeak.co/features/ai-video-from-presentation",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "template",
+          "title": "Translate with AI Translate PowerPoint presentations with AI. Layout and formatting preserved.",
+          "url": "https://slidespeak.co/features/ai-translation",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "tutorial",
+          "title": "For Education Enhance your lectures and course materials with engaging, AI-generated slides.",
+          "url": "https://slidespeak.co/use-cases/education",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "demo",
+          "title": "Request Demo",
+          "url": "https://slidespeak.co/book-meeting",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "template",
+          "title": "https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://chatgpt.com/?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "template",
+          "title": "https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://claude.ai/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "template",
+          "title": "https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://aistudio.google.com/prompts/new_chat?prompt=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "template",
+          "title": "https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "url": "https://www.perplexity.ai/search/new?q=As%20a%20potential%20user%2C%20I%20want%20to%20understand%20what%20SlideSpeak%20offers%20and%20how%20it%20helps%20me%20create%20professional%20presentations%20with%20AI.%0A%0ADetail%20step%20by%20step%3A%0A-%20What%20problems%20SlideSpeak%20solves%20and%20who%20it%20is%20for%0A-%20How%20SlideSpeak%20turns%20prompts%20and%20documents%20(PDF%2C%20Word%2C%20PowerPoint%2C%20Excel)%20into%20slide%20decks%0A-%20What%20makes%20its%20editor%2C%20template%20switching%20and%20brand%20controls%20unique%0A-%20Key%20features%20like%20AI%20translation%2C%20AI%20narrated%20video%2C%20document%20summaries%20and%20the%20API%0A-%20Real%20examples%20of%20use%20cases%20(pitch%20decks%2C%20reports%2C%20document-to-deck%2C%20training%2C%20sales)",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "video",
+          "title": "Extract Videos from PowerPoint",
+          "url": "https://slidespeak.co/free-tools/extract-videos-from-powerpoint",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        },
+        {
+          "kind": "video",
+          "title": "Convert PowerPoint to Video with AI",
+          "url": "https://slidespeak.co/free-tools/convert-powerpoint-to-video-ai",
+          "source": "https://slidespeak.co/features/slidespeak-api"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 13,
+      "examplesCount": 14,
+      "effectAssetsCount": 0
     },
     {
       "name": "Canva AI Presentations",

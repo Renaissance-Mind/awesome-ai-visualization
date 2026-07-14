@@ -1,4 +1,4 @@
-last_researched: '2026-07-14'
+last_researched: '2026-07-15'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2078,6 +2078,30 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: Deckbuilder
+  url: https://github.com/teknologika/Deckbuilder
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 7
+  license: Apache-2.0
+  updated: '2025-08-21'
+  note: Python library, CLI, and MCP server that turns Markdown or JSON into complete PowerPoint decks, analyzes templates, recommends layouts, and remaps fonts or languages in existing presentations.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
 - name: PPTAgent
   url: https://github.com/icip-cas/PPTAgent
   homepage: https://arxiv.org/abs/2501.03936
@@ -3038,6 +3062,35 @@ entries:
   - PPT/演示文稿
   - 图表/仪表盘
   - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: figma-use-slides
+  url: https://github.com/figma/mcp-server-guide/blob/main/skills/figma-use-slides/SKILL.md
+  homepage: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - Agent 宿主
+  - 渲染/导出
+  - 模板/素材
+  stars: 1757
+  license: unknown
+  updated: '2026-07-13'
+  note: Official Figma MCP guide skill for building, editing, restyling, validating, screenshotting, and organizing Figma Slides decks through the use_figma tool and Slides-specific Plugin API rules.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
@@ -6230,6 +6283,115 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: data
+- name: JimuReport
+  url: https://github.com/jeecgboot/jimureport
+  homepage: http://jimureport.com
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 8113
+  license: GPL-3.0
+  updated: '2026-06-26'
+  note: Free AI visualization reporting platform that turns one-sentence requirements or screenshots into editable reports, big screens, dashboards, portals, and mobile report pages over 30+ data sources.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: Vizro
+  url: https://github.com/mckinsey/vizro
+  homepage: https://vizro.readthedocs.io/en/stable/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3731
+  license: Apache-2.0
+  updated: '2026-07-13'
+  note: Low-code Python toolkit for assembling production-grade data visualization apps, multi-page dashboards, charts, tables, KPI cards, forms, filters, and live demo galleries.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: OpenGenerativeUI
+  url: https://github.com/CopilotKit/OpenGenerativeUI
+  homepage: https://opengenerativeui.copilotkit.ai/
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1445
+  license: MIT
+  updated: '2026-06-10'
+  note: Open-source generative UI framework and MCP server where agents assemble iframe-ready HTML, SVG diagrams, charts, network visuals, dashboards, widgets, and interactive algorithm explainers.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 网页/交互页面
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: text_visual
+- name: mcp-server-antv
+  url: https://github.com/antvis/mcp-server-antv
+  homepage: https://www.npmjs.com/package/@antv/mcp-server-antv
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 40
+  license: MIT
+  updated: '2026-04-27'
+  note: Official AntV MCP server that gives agents documentation context and code examples for G2, G6, F2, and related visualization libraries when building charts, graph/network views, and mobile visualizations.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: data
 - name: html-video
   url: https://github.com/nexu-io/html-video
   homepage: https://open-design.ai/html-video
@@ -6441,6 +6603,32 @@ entries:
   - PDF/文档
   - 网页/搜索结果
   tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: slidespeak-mcp
+  url: https://github.com/SlideSpeak/slidespeak-mcp
+  homepage: https://slidespeak.co/slidespeak-api/
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 12
+  license: unknown
+  updated: '2026-04-30'
+  note: Official SlideSpeak MCP server and remote MCP endpoint for creating reports, PowerPoint presentations, and other slide decks through the SlideSpeak API, Docker image, or mcp-remote.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
   - 产品/SaaS
   output_forms:
   - PPT/演示文稿
