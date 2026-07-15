@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-07-14T23:05:37+00:00",
-  "lastResearched": "2026-07-15",
+  "generatedAt": "2026-07-15T23:07:26+00:00",
+  "lastResearched": "2026-07-16",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 293,
-    "openSource": 81,
+    "total": 303,
+    "openSource": 85,
     "saas": 45,
-    "modelApi": 115,
-    "examples": 908,
-    "effectAssets": 1057,
-    "docs": 953
+    "modelApi": 117,
+    "examples": 920,
+    "effectAssets": 1077,
+    "docs": 958
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 39,
-      "PDF/文档": 101,
-      "文本/想法": 174,
-      "数据/表格": 96,
-      "代码/技术描述": 52,
-      "网页/搜索结果": 84,
-      "代码库": 29,
-      "DSL/代码": 53,
+      "论文/科研资料": 40,
+      "PDF/文档": 103,
+      "文本/想法": 182,
+      "数据/表格": 104,
+      "代码/技术描述": 55,
+      "网页/搜索结果": 88,
+      "代码库": 32,
+      "DSL/代码": 54,
       "新闻/资讯": 11,
       "知识库/个人资料": 20,
       "任意/多源": 33,
-      "Office 文档": 33,
+      "Office 文档": 36,
       "引用网络": 4,
-      "数据库": 23
+      "数据库": 24
     },
     "toolForms": {
-      "开源应用/框架": 81,
-      "Agent Skill": 84,
+      "开源应用/框架": 85,
+      "Agent Skill": 89,
       "Skill 集合": 26,
       "数据集/评测": 2,
       "Bot/助手": 8,
       "产品/SaaS": 45,
-      "MCP Server": 72,
+      "MCP Server": 77,
       "研究原型": 4,
-      "API/SDK/库": 22,
+      "API/SDK/库": 23,
       "Awesome/索引": 15
     },
     "outputForms": {
       "图形摘要/信息图": 21,
-      "PPT/演示文稿": 118,
-      "网页/交互页面": 68,
+      "PPT/演示文稿": 126,
+      "网页/交互页面": 73,
       "问答/学习材料": 11,
-      "报告/长文档": 27,
+      "报告/长文档": 29,
       "证据表": 10,
       "信息图/视觉报告": 45,
-      "图表/仪表盘": 68,
-      "架构图/流程图": 61,
-      "SVG/PNG/PDF": 86,
-      "报告/简报": 31,
+      "图表/仪表盘": 73,
+      "架构图/流程图": 64,
+      "SVG/PNG/PDF": 93,
+      "报告/简报": 32,
       "白板/思维导图": 22,
-      "图表/Mermaid": 36,
-      "视频/音频": 19,
+      "图表/Mermaid": 37,
+      "视频/音频": 22,
       "表格/时间线": 6,
       "引用答案": 4,
       "思维导图/知识地图": 18,
-      "结构化数据/Markdown": 18,
+      "结构化数据/Markdown": 20,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 19,
+      "代码地图/Repo Wiki": 21,
       "图表/渲染输出": 12,
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 211,
-      "模型 API": 115,
-      "文档解析/OCR": 43,
-      "渲染/导出": 215,
+      "本地语言环境": 221,
+      "模型 API": 117,
+      "文档解析/OCR": 45,
+      "渲染/导出": 225,
       "GPU/加速器": 8,
-      "模板/素材": 123,
-      "Agent 宿主": 114,
-      "系统工具": 34,
+      "模板/素材": 130,
+      "Agent 宿主": 121,
+      "系统工具": 42,
       "浏览器/账号": 87,
-      "存储/索引": 36,
-      "外部检索/数据源": 51,
-      "MCP Client": 74,
-      "代码分析工具": 21
+      "存储/索引": 37,
+      "外部检索/数据源": 52,
+      "MCP Client": 79,
+      "代码分析工具": 24
     },
     "categories": {
       "paper-visualization": 13,
       "doc-to-knowledge": 27,
       "research-report": 13,
-      "infographic-report": 26,
+      "infographic-report": 27,
       "data-dashboard": 37,
-      "diagram-generation": 38,
+      "diagram-generation": 40,
       "literature-map": 4,
-      "presentation-tools": 75,
-      "codebase-map": 18,
+      "presentation-tools": 81,
+      "codebase-map": 19,
       "rendering-primitive": 7,
       "video-generation": 7,
       "commercial-site": 10,
@@ -96,14 +96,14 @@
     },
     "groups": {
       "paper": 24,
-      "text_visual": 34,
+      "text_visual": 35,
       "web_news": 8,
       "support_mindmap": 9,
       "docs": 10,
       "support_doc_parse": 9,
-      "presentation": 87,
-      "code": 18,
-      "support_render": 34,
+      "presentation": 93,
+      "code": 19,
+      "support_render": 36,
       "diagrams": 2,
       "data": 33,
       "video": 7,
@@ -1569,6 +1569,57 @@
       "docsCount": 14,
       "examplesCount": 20,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "iPolloWork",
+      "url": "https://github.com/Devin-AXIS/iPolloWork",
+      "primaryUrl": "https://github.com/Devin-AXIS/iPolloWork",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 1242,
+      "license": "unknown",
+      "updated": "2026-07-15",
+      "note": "Source-available local-first agent workspace for code, office work, editable design, presentations, websites, and video, with canvas editing, browser, files, skills, plugins, and MCP.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Windows protocol switching",
+          "url": "https://github.com/Devin-AXIS/iPolloWork/blob/HEAD/docs/windows-protocol-switcher.md",
+          "source": "https://raw.githubusercontent.com/Devin-AXIS/iPolloWork/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "baoyu-skills",
@@ -9611,6 +9662,345 @@
       "effectAssetsCount": 8
     },
     {
+      "name": "edit2docs",
+      "url": "https://github.com/CocoRoF/edit2docs",
+      "primaryUrl": "https://github.com/CocoRoF/edit2docs",
+      "homepage": "https://pypi.org/project/edit2docs/",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-07-15",
+      "note": "Agent-native Python document engine, MCP server, and hosted service that generates or chat-edits native DOCX, XLSX, and PPTX files with real paragraphs, cells, charts, previews, and PDF/SVG/PNG rendering.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "dashi-ppt-skill",
+      "url": "https://github.com/chuspeeism/dashi-ppt-skill",
+      "primaryUrl": "https://github.com/chuspeeism/dashi-ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 3369,
+      "license": "AGPL-3.0",
+      "updated": "2026-07-15",
+      "note": "Agent skill for workplace presentation decks with browser-editable HTML output, 12 visual themes, 1020 layouts, adjustable controls, editable text/media, and one-click export to offline HTML, PDF, or editable PPTX.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "deck-factory",
+      "url": "https://github.com/kimsh-1/deck-factory",
+      "primaryUrl": "https://github.com/kimsh-1/deck-factory",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 57,
+      "license": "MIT",
+      "updated": "2026-07-15",
+      "note": "Claude Code skill that turns one-line intent into presentation-grade editorial HTML decks with dark and paper-light profiles, deterministic quality gates, Chromium rendering, shareable PDFs, and showcase motion films.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Hook · 30s",
+          "url": "https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/01-hook-30s.mp4",
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Making-of · 40s",
+          "url": "https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/02-making.mp4",
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Usage · 30s",
+          "url": "https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/03-usage-30s.mp4",
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Slide 1",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-01.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 2",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-02.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 3",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-03.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 4",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-04.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 5",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-05.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 6",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-06.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 7",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-07.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 8",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-08.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 9",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-09.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 10",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-10.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 11",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-11.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 12",
+          "url": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-12.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "econ-slides-skill",
+      "url": "https://github.com/hanlulong/econ-slides-skill",
+      "primaryUrl": "https://github.com/hanlulong/econ-slides-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-15",
+      "note": "Claude Code and Codex skill that turns economics papers into verified Beamer talks or discussant decks, tracing numbers to source pages, rebuilding regression exhibits, compiling LaTeX, and checking rendered geometry.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "sample deck",
+          "url": "https://github.com/hanlulong/econ-slides-skill/blob/HEAD/docs/sample-talk/",
+          "source": "https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "econ-paper-review-skill",
+          "url": "https://github.com/hanlulong/econ-paper-review-skill",
+          "source": "https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Punchline slide: framing sentence, numbered contributions with the key magnitude highlighted, implication line",
+          "url": "https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/docs/images/sample-punchline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Appendix table: highlighted baseline column, controls collapsed to indicator rows, embedded interpretation row, magnitude takeaway",
+          "url": "https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/docs/images/sample-mainresult.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "voiceover-deck",
+      "url": "https://github.com/Gostems87/voiceover-deck",
+      "primaryUrl": "https://github.com/Gostems87/voiceover-deck",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-15",
+      "note": "Claude Code skill that builds narrated, self-playing single-page web slide decks with browser text-to-speech by default, optional ElevenLabs voice cloning, captions, controls, fullscreen playback, and static-host sharing.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "PresentationSkill-ClaudeCode",
       "url": "https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode",
       "primaryUrl": "https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode",
@@ -10639,6 +11029,48 @@
       "effectAssets": [],
       "docsCount": 0,
       "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "MCP Office Documents Server",
+      "url": "https://github.com/ForLegalAI/mcp-ms-office-documents",
+      "primaryUrl": "https://github.com/ForLegalAI/mcp-ms-office-documents",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材",
+        "存储/索引"
+      ],
+      "stars": 31,
+      "license": "MIT",
+      "updated": "2026-07-15",
+      "note": "Dockerized MCP server that lets AI assistants create PowerPoint, Word, Excel, email, and XML files from prompts or Markdown, with custom templates and local, S3, GCS, Azure Blob, or MinIO output storage.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -15240,6 +15672,55 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "Django ORM Lens",
+      "url": "https://github.com/FROWNINGdev/django-orm-lens",
+      "primaryUrl": "https://github.com/FROWNINGdev/django-orm-lens",
+      "homepage": "https://marketplace.visualstudio.com/items?itemName=frowningdev.django-orm-lens",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-07-15",
+      "note": "VS Code extension, CLI, and MCP server that scans Django projects without a database and exposes grouped model trees, live ER diagrams, editor sidebars, terminal output, and AI-agent schema inspection.",
+      "sourceTypes": [
+        "代码库",
+        "数据库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Django ORM Lens — live sidebar and ER diagram for your Django models",
+          "url": "https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/media/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "deepwiki-open",
       "url": "https://github.com/AsyncFuncAI/deepwiki-open",
       "primaryUrl": "https://github.com/AsyncFuncAI/deepwiki-open",
@@ -17671,6 +18152,202 @@
       "docsCount": 9,
       "examplesCount": 3,
       "effectAssetsCount": 11
+    },
+    {
+      "name": "Draw.io MCP Plugin",
+      "url": "https://github.com/jmo808/drawio_plugin",
+      "primaryUrl": "https://github.com/jmo808/drawio_plugin",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "代码分析工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-15",
+      "note": "MCP wrapper and skill/plugin layer over the upstream draw.io MCP server, adding 13 builder tools, validation, topology correction, domain validators, codebase-to-diagram generation, and fully editable native draw.io XML output.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "代码/技术描述",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "代码地图/Repo Wiki",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "gas-compression.xml",
+          "url": "https://github.com/jmo808/drawio_plugin/blob/HEAD/examples/gas-compression.xml",
+          "source": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "copper-flotation.xml",
+          "url": "https://github.com/jmo808/drawio_plugin/blob/HEAD/examples/copper-flotation.xml",
+          "source": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AWS Architecture Example Diagram",
+          "url": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/aws-architecture.png?v=2",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Process Flow Diagram Example",
+          "url": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/gas-compression.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Copper Flotation Example",
+          "url": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/copper-flotation.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Org Chart Example Diagram",
+          "url": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/org-chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Network Sketcher",
+      "url": "https://github.com/cisco-open/network-sketcher",
+      "primaryUrl": "https://github.com/cisco-open/network-sketcher",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "系统工具",
+        "代码分析工具"
+      ],
+      "stars": 371,
+      "license": "Apache-2.0",
+      "updated": "2026-07-15",
+      "note": "Cisco-open AI-native network design and diagramming tool with Local MCP, online, and offline editions for generating L1/L2/L3 topology diagrams, PowerPoint diagrams, HTML device tables, and AI context files from structured or inventory-derived network data.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "HTTPS",
+          "url": "https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Online_Edition)",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude Code MCP installation scopes documentation",
+          "url": "https://docs.claude.com/en/docs/claude-code/mcp",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Link",
+          "url": "https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Local_MCP_Edition)",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Link",
+          "url": "https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Offline_Edition)",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "template_converter",
+          "url": "https://github.com/CiscoDevNet/network-sketcher-cisco-extension/tree/main/template_converter",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Full_Version_link(Youtube)",
+          "url": "https://www.youtube.com/watch?v=g5N3yg0jMSg",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Network Sketcher Ver 2.6.1 supported the creation of a network configuration with LLM from scratch",
+          "url": "https://github.com/cisco-open/network-sketcher/wiki/1%E2%80%905.-Examples-of-General%E2%80%90Purpose-AI-(LLM",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Sample.figure5.zip",
+          "url": "https://github.com/user-attachments/files/24335488/Sample.figure5.zip",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Sample Office.zip",
+          "url": "https://github.com/user-attachments/files/24340917/Sample.Office.zip",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Full_Version_link(Youtube)",
+          "url": "https://www.youtube.com/watch?v=g5N3yg0jMSg",
+          "thumbnailUrl": "https://img.youtube.com/vi/g5N3yg0jMSg/hqdefault.jpg",
+          "source": "https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 5,
+      "effectAssetsCount": 1
     },
     {
       "name": "diagramzu-mcp",

@@ -1,4 +1,4 @@
-last_researched: '2026-07-15'
+last_researched: '2026-07-16'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -402,6 +402,36 @@ entries:
   - 网页/搜索结果
   - 代码库
   - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: text_visual
+- name: iPolloWork
+  url: https://github.com/Devin-AXIS/iPolloWork
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 1242
+  license: unknown
+  updated: '2026-07-15'
+  note: Source-available local-first agent workspace for code, office work, editable design, presentations, websites, and video, with canvas editing, browser, files, skills, plugins, and MCP.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 数据/表格
+  - 网页/搜索结果
   tool_forms:
   - 开源应用/框架
   output_forms:
@@ -2308,6 +2338,144 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: edit2docs
+  url: https://github.com/CocoRoF/edit2docs
+  homepage: https://pypi.org/project/edit2docs/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 0
+  license: Apache-2.0
+  updated: '2026-07-15'
+  note: Agent-native Python document engine, MCP server, and hosted service that generates or chat-edits native DOCX, XLSX, and PPTX files with real paragraphs, cells, charts, previews, and PDF/SVG/PNG rendering.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: dashi-ppt-skill
+  url: https://github.com/chuspeeism/dashi-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 3369
+  license: AGPL-3.0
+  updated: '2026-07-15'
+  note: Agent skill for workplace presentation decks with browser-editable HTML output, 12 visual themes, 1020 layouts, adjustable controls, editable text/media, and one-click export to offline HTML, PDF, or editable PPTX.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: deck-factory
+  url: https://github.com/kimsh-1/deck-factory
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 57
+  license: MIT
+  updated: '2026-07-15'
+  note: Claude Code skill that turns one-line intent into presentation-grade editorial HTML decks with dark and paper-light profiles, deterministic quality gates, Chromium rendering, shareable PDFs, and showcase motion films.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: econ-slides-skill
+  url: https://github.com/hanlulong/econ-slides-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-07-15'
+  note: Claude Code and Codex skill that turns economics papers into verified Beamer talks or discussant decks, tracing numbers to source pages, rebuilding regression exhibits, compiling LaTeX, and checking rendered geometry.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: voiceover-deck
+  url: https://github.com/Gostems87/voiceover-deck
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-15'
+  note: Claude Code skill that builds narrated, self-playing single-page web slide decks with browser text-to-speech by default, optional ElevenLabs voice cloning, captions, controls, fullscreen playback, and static-host sharing.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
 - name: PresentationSkill-ClaudeCode
   url: https://github.com/ZeroAlcoholic/PresentationSkill-ClaudeCode
   category: presentation-tools
@@ -2719,6 +2887,34 @@ entries:
   - MCP Server
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: MCP Office Documents Server
+  url: https://github.com/ForLegalAI/mcp-ms-office-documents
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  - 存储/索引
+  stars: 31
+  license: MIT
+  updated: '2026-07-15'
+  note: Dockerized MCP server that lets AI assistants create PowerPoint, Word, Excel, email, and XML files from prompts or Markdown, with custom templates and local, S3, GCS, Azure Blob, or MinIO output storage.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
 - name: 2slides MCP Server
@@ -4096,6 +4292,34 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: code
+- name: Django ORM Lens
+  url: https://github.com/FROWNINGdev/django-orm-lens
+  homepage: https://marketplace.visualstudio.com/items?itemName=frowningdev.django-orm-lens
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 系统工具
+  stars: 3
+  license: MIT
+  updated: '2026-07-15'
+  note: VS Code extension, CLI, and MCP server that scans Django projects without a database and exposes grouped model trees, live ER diagrams, editor sidebars, terminal output, and AI-agent schema inspection.
+  source_types:
+  - 代码库
+  - 数据库
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: code
 - name: deepwiki-open
   url: https://github.com/AsyncFuncAI/deepwiki-open
   homepage: https://grok-wiki.com/
@@ -4788,6 +5012,68 @@ entries:
   - 图表/Mermaid
   - 代码地图/Repo Wiki
   - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Draw.io MCP Plugin
+  url: https://github.com/jmo808/drawio_plugin
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 代码分析工具
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-15'
+  note: MCP wrapper and skill/plugin layer over the upstream draw.io MCP server, adding 13 builder tools, validation, topology correction, domain validators, codebase-to-diagram generation, and fully editable native draw.io XML output.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 代码/技术描述
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 代码地图/Repo Wiki
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Network Sketcher
+  url: https://github.com/cisco-open/network-sketcher
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  - 代码分析工具
+  stars: 371
+  license: Apache-2.0
+  updated: '2026-07-15'
+  note: Cisco-open AI-native network design and diagramming tool with Local MCP, online, and offline editions for generating L1/L2/L3 topology diagrams, PowerPoint diagrams, HTML device tables, and AI context files from structured or inventory-derived network data.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
   catalog_section: support_render
   readme_group: support_render
 - name: diagramzu-mcp

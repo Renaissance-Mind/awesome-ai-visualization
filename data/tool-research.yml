@@ -1,4 +1,4 @@
-generated_at: '2026-07-14T23:05:37+00:00'
+generated_at: '2026-07-15T23:07:26+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 293
-  fetched_sources_ok: 404
+  entries: 303
+  fetched_sources_ok: 416
   fetched_sources_failed: 22
-  official_examples: 908
-  official_effect_assets: 1057
-  official_docs: 953
+  official_examples: 920
+  official_effect_assets: 1077
+  official_docs: 958
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -28935,3 +28935,520 @@ entries:
   - slidespeak-mcp
   - Usage with Claude Desktop
   - Development of SlideSpeak MCP
+- name: iPolloWork
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/Devin-AXIS/iPolloWork
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Source-available local-first agent workspace for code, office work,
+    editable design, presentations, websites, and video, with canvas editing, browser,
+    files, skills, plugins, and MCP.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Devin-AXIS/iPolloWork/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Devin-AXIS/iPolloWork/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: iPolloWork
+    bytes: 10359
+  official_docs:
+  - kind: docs
+    title: Windows protocol switching
+    url: https://github.com/Devin-AXIS/iPolloWork/blob/HEAD/docs/windows-protocol-switcher.md
+    source: https://raw.githubusercontent.com/Devin-AXIS/iPolloWork/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Windows protocol switching
+    url: https://github.com/Devin-AXIS/iPolloWork/blob/HEAD/docs/windows-protocol-switcher.md
+    source: https://raw.githubusercontent.com/Devin-AXIS/iPolloWork/HEAD/README.md
+- name: edit2docs
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/CocoRoF/edit2docs
+  homepage: https://pypi.org/project/edit2docs/
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Agent-native Python document engine, MCP server, and hosted service
+    that generates or chat-edits native DOCX, XLSX, and PPTX files with real paragraphs,
+    cells, charts, previews, and PDF/SVG/PNG rendering.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/CocoRoF/edit2docs/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/CocoRoF/edit2docs/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: edit2docs
+    bytes: 16190
+  - kind: homepage
+    url: https://pypi.org/project/edit2docs/
+    final_url: https://pypi.org/project/edit2docs/
+    status: 200
+    content_type: text/html
+    title: edit2docs · PyPI
+    description: 'AI-agent-native document engine: generate and chat-edit DOCX, XLSX
+      and PPTX as a Python library, agent tool set, MCP server or hosted service.
+      English-first with first-class Korean'
+    bytes: 110861
+  official_examples: []
+  official_docs: []
+  official_links: []
+  source_headings:
+  - edit2docs
+- name: dashi-ppt-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/chuspeeism/dashi-ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent skill for workplace presentation decks with browser-editable
+    HTML output, 12 visual themes, 1020 layouts, adjustable controls, editable text/media,
+    and one-click export to offline HTML, PDF, or editable PPTX.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/chuspeeism/dashi-ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/chuspeeism/dashi-ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Dashi PPT Skill · 大师 PPT / 网页 PPT / 可编辑 PPTX
+    bytes: 13413
+  source_headings:
+  - 控制台改：布局、模块数量、图表、配色
+- name: deck-factory
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/kimsh-1/deck-factory
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code skill that turns one-line intent into presentation-grade
+    editorial HTML decks with dark and paper-light profiles, deterministic quality
+    gates, Chromium rendering, shareable PDFs, and showcase motion films.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: deck-factory
+    bytes: 7560
+  official_examples:
+  - kind: showcase
+    title: Hook · 30s
+    url: https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/01-hook-30s.mp4
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: showcase
+    title: Making-of · 40s
+    url: https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/02-making.mp4
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: showcase
+    title: Usage · 30s
+    url: https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/03-usage-30s.mp4
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Slide 1
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-01.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 2
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-02.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 3
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-03.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 4
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-04.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 5
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-05.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 6
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-06.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 7
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-07.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 8
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-08.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 9
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-09.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 10
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-10.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 11
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-11.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: image
+    title: Slide 12
+    url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/docs/gallery/slide-12.jpg
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: Hook · 30s
+    url: https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/01-hook-30s.mp4
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: showcase
+    title: Making-of · 40s
+    url: https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/02-making.mp4
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  - kind: showcase
+    title: Usage · 30s
+    url: https://github.com/kimsh-1/deck-factory/releases/download/showcase-v1/03-usage-30s.mp4
+    source: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
+  source_headings:
+  - Gallery
+- name: econ-slides-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/hanlulong/econ-slides-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill that turns economics papers into verified
+    Beamer talks or discussant decks, tracing numbers to source pages, rebuilding
+    regression exhibits, compiling LaTeX, and checking rendered geometry.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Econ Slides Skill
+    bytes: 9683
+  official_examples:
+  - kind: example
+    title: sample deck
+    url: https://github.com/hanlulong/econ-slides-skill/blob/HEAD/docs/sample-talk/
+    source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+  - kind: paper
+    title: econ-paper-review-skill
+    url: https://github.com/hanlulong/econ-paper-review-skill
+    source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Punchline slide: framing sentence, numbered contributions with the key
+      magnitude highlighted, implication line'
+    url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/docs/images/sample-punchline.png
+    source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+  - kind: image
+    title: 'Appendix table: highlighted baseline column, controls collapsed to indicator
+      rows, embedded interpretation row, magnitude takeaway'
+    url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/docs/images/sample-mainresult.png
+    source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: sample deck
+    url: https://github.com/hanlulong/econ-slides-skill/blob/HEAD/docs/sample-talk/
+    source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+  - kind: paper
+    title: econ-paper-review-skill
+    url: https://github.com/hanlulong/econ-paper-review-skill
+    source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
+  source_headings:
+  - Econ Slides Skill
+- name: voiceover-deck
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Gostems87/voiceover-deck
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that builds narrated, self-playing single-page web
+    slide decks with browser text-to-speech by default, optional ElevenLabs voice
+    cloning, captions, controls, fullscreen playback, and static-host sharing.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Gostems87/voiceover-deck/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Gostems87/voiceover-deck/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Voiceover Deck
+    bytes: 5163
+- name: MCP Office Documents Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/ForLegalAI/mcp-ms-office-documents
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  - 存储/索引
+  catalog_note: Dockerized MCP server that lets AI assistants create PowerPoint, Word,
+    Excel, email, and XML files from prompts or Markdown, with custom templates and
+    local, S3, GCS, Azure Blob, or MinIO output storage.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ForLegalAI/mcp-ms-office-documents/HEAD/Readme.md
+    final_url: https://raw.githubusercontent.com/ForLegalAI/mcp-ms-office-documents/HEAD/Readme.md
+    status: 200
+    content_type: text/plain
+    attempted_urls:
+    - url: https://raw.githubusercontent.com/ForLegalAI/mcp-ms-office-documents/HEAD/README.md
+      status: 404
+    - url: https://raw.githubusercontent.com/ForLegalAI/mcp-ms-office-documents/HEAD/Readme.md
+      status: 200
+    title: 📄 MCP Office Documents Server
+    bytes: 24708
+  source_headings:
+  - 🎨 Custom Templates
+  - Static Templates
+  - Dynamic Email Templates
+  - Dynamic Word (DOCX) Templates
+  - config/docx_templates.yaml
+  - 🖥️ Template Admin UI (optional)
+- name: Django ORM Lens
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/FROWNINGdev/django-orm-lens
+  homepage: https://marketplace.visualstudio.com/items?itemName=frowningdev.django-orm-lens
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 系统工具
+  catalog_note: VS Code extension, CLI, and MCP server that scans Django projects
+    without a database and exposes grouped model trees, live ER diagrams, editor sidebars,
+    terminal output, and AI-agent schema inspection.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Django ORM Lens
+    bytes: 23848
+  - kind: homepage
+    url: https://marketplace.visualstudio.com/items?itemName=frowningdev.django-orm-lens
+    final_url: https://marketplace.visualstudio.com/items?itemName=frowningdev.django-orm-lens
+    status: 200
+    content_type: text/html
+    title: Django ORM Lens - Visual Studio Marketplace
+    description: Extension for Visual Studio Code - Live sidebar + ER diagram for
+      your Django models. Navigate apps, models, fields and relationships without
+      leaving the editor.
+    bytes: 107033
+  official_effect_assets:
+  - kind: image
+    title: Django ORM Lens — live sidebar and ER diagram for your Django models
+    url: https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/media/hero.png
+    source: https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/README.md
+  source_headings:
+  - 🕸️ A live ER diagram
+  - 'Example: Cursor / any MCP client'
+  - 🚀 Get started (30 seconds)
+- name: Draw.io MCP Plugin
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/jmo808/drawio_plugin
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 代码分析工具
+  - 模板/素材
+  catalog_note: MCP wrapper and skill/plugin layer over the upstream draw.io MCP server,
+    adding 13 builder tools, validation, topology correction, domain validators, codebase-to-diagram
+    generation, and fully editable native draw.io XML output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📐 Draw.io MCP Plugin
+    bytes: 25566
+  official_examples:
+  - kind: example
+    title: gas-compression.xml
+    url: https://github.com/jmo808/drawio_plugin/blob/HEAD/examples/gas-compression.xml
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  - kind: example
+    title: copper-flotation.xml
+    url: https://github.com/jmo808/drawio_plugin/blob/HEAD/examples/copper-flotation.xml
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: AWS Architecture Example Diagram
+    url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/aws-architecture.png?v=2
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  - kind: image
+    title: Process Flow Diagram Example
+    url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/gas-compression.png
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  - kind: image
+    title: Copper Flotation Example
+    url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/copper-flotation.png
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  - kind: image
+    title: Org Chart Example Diagram
+    url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/examples/org-chart.png
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  official_links:
+  - kind: example
+    title: gas-compression.xml
+    url: https://github.com/jmo808/drawio_plugin/blob/HEAD/examples/gas-compression.xml
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  - kind: example
+    title: copper-flotation.xml
+    url: https://github.com/jmo808/drawio_plugin/blob/HEAD/examples/copper-flotation.xml
+    source: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
+  source_headings:
+  - '💬 Example: Generating a Diagram'
+  - '🏭 Example: Engineering Process Flow Diagram (PFD)'
+  - '⛏️ Example: Mining Flotation Circuit (PFD)'
+  - '📊 Example: Generating an Org Chart (CSV)'
+  - Reference Docs (`skills/drawio/references/`)
+  - Example Diagrams (`examples/`)
+- name: Network Sketcher
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/cisco-open/network-sketcher
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  - 代码分析工具
+  catalog_note: Cisco-open AI-native network design and diagramming tool with Local
+    MCP, online, and offline editions for generating L1/L2/L3 topology diagrams, PowerPoint
+    diagrams, HTML device tables, and AI context files from structured or inventory-derived
+    network data.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Network Sketcher
+    bytes: 29729
+  official_examples:
+  - kind: template
+    title: template_converter
+    url: https://github.com/CiscoDevNet/network-sketcher-cisco-extension/tree/main/template_converter
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: video
+    title: Full_Version_link(Youtube)
+    url: https://www.youtube.com/watch?v=g5N3yg0jMSg
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: example
+    title: Network Sketcher Ver 2.6.1 supported the creation of a network configuration
+      with LLM from scratch
+    url: https://github.com/cisco-open/network-sketcher/wiki/1%E2%80%905.-Examples-of-General%E2%80%90Purpose-AI-(LLM
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: example
+    title: Sample.figure5.zip
+    url: https://github.com/user-attachments/files/24335488/Sample.figure5.zip
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: example
+    title: Sample Office.zip
+    url: https://github.com/user-attachments/files/24340917/Sample.Office.zip
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: HTTPS
+    url: https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Online_Edition)
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: docs
+    title: Claude Code MCP installation scopes documentation
+    url: https://docs.claude.com/en/docs/claude-code/mcp
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: docs
+    title: Link
+    url: https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Local_MCP_Edition)
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: docs
+    title: Link
+    url: https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Offline_Edition)
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: Full_Version_link(Youtube)
+    url: https://www.youtube.com/watch?v=g5N3yg0jMSg
+    thumbnail_url: https://img.youtube.com/vi/g5N3yg0jMSg/hqdefault.jpg
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: HTTPS
+    url: https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Online_Edition)
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: template
+    title: template_converter
+    url: https://github.com/CiscoDevNet/network-sketcher-cisco-extension/tree/main/template_converter
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: docs
+    title: Claude Code MCP installation scopes documentation
+    url: https://docs.claude.com/en/docs/claude-code/mcp
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: docs
+    title: Link
+    url: https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Local_MCP_Edition)
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: video
+    title: Full_Version_link(Youtube)
+    url: https://www.youtube.com/watch?v=g5N3yg0jMSg
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: example
+    title: Network Sketcher Ver 2.6.1 supported the creation of a network configuration
+      with LLM from scratch
+    url: https://github.com/cisco-open/network-sketcher/wiki/1%E2%80%905.-Examples-of-General%E2%80%90Purpose-AI-(LLM
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: docs
+    title: Link
+    url: https://github.com/cisco-open/network-sketcher/wiki/User_Guide(Offline_Edition)
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: example
+    title: Sample.figure5.zip
+    url: https://github.com/user-attachments/files/24335488/Sample.figure5.zip
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  - kind: example
+    title: Sample Office.zip
+    url: https://github.com/user-attachments/files/24340917/Sample.Office.zip
+    source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
+  source_headings:
+  - 5min Demo video of the Local MCP edition.
+  - Connection Examples
+  - Demo Video (Ver 3.0.1b)
+  - Demo video of basic usage
+  - AI(LLM) utilization demo video
+  - SAMPLE
