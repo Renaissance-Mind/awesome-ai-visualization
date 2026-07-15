@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-15.
+Last researched: 2026-07-16.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -49,6 +49,8 @@ Update on 2026-07-13: refreshed data-dashboard MCP Apps, Python visualization di
 Update on 2026-07-14: refreshed NotebookLM artifact automation, business data-analysis agents, product analytics MCP, and interactive Mermaid MCP/App renderers from official GitHub repositories, product docs, README evidence, PyPI metadata, and GitHub metadata. This pass added notebooklm-skill, NotebookLM MCP, Data-Analysis-Agent, Amplitude MCP Server, Sailor, and Mermaid MCP App.
 
 Update on 2026-07-15: refreshed AI report/dashboard builders, low-code visualization apps, generative UI frameworks, AntV visualization MCP support, PowerPoint generation MCP servers, and Figma Slides agent skills from official GitHub repositories, product docs, README evidence, and GitHub metadata. This pass added JimuReport, Vizro, OpenGenerativeUI, mcp-server-antv, Deckbuilder, figma-use-slides, and slidespeak-mcp.
+
+Update on 2026-07-16: refreshed local-first agent workspaces, native Office document engines, browser-editable deck skills, narrated web decks, network and draw.io diagram MCP tools, and Django schema visualization from official GitHub repositories, README evidence, PyPI/marketplace metadata, and GitHub metadata. This pass added iPolloWork, edit2docs, dashi-ppt-skill, deck-factory, econ-slides-skill, voiceover-deck, MCP Office Documents Server, Django ORM Lens, Draw.io MCP Plugin, and Network Sketcher.
 
 ## Search Surfaces
 
