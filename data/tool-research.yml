@@ -1,4 +1,4 @@
-generated_at: '2026-07-15T23:07:26+00:00'
+generated_at: '2026-07-16T23:06:48+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 303
-  fetched_sources_ok: 416
+  entries: 310
+  fetched_sources_ok: 423
   fetched_sources_failed: 22
-  official_examples: 920
+  official_examples: 928
   official_effect_assets: 1077
-  official_docs: 958
+  official_docs: 976
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -29452,3 +29452,403 @@ entries:
   - Demo video of basic usage
   - AI(LLM) utilization demo video
   - SAMPLE
+- name: OfficeCLI
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/iOfficeAI/OfficeCLI
+  homepage: https://officecli.ai
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Local Office suite for AI agents to create, inspect, edit, render, and automate Word, Excel, and PowerPoint
+    files without Microsoft Office, including HTML/PNG preview loops and an installable agent skill.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/iOfficeAI/OfficeCLI
+    final_url: https://github.com/iOfficeAI/OfficeCLI
+    status: 200
+    content_type: text/html
+    title: iOfficeAI/OfficeCLI
+  official_examples:
+  - kind: example
+    title: OfficeCLI examples directory
+    url: https://github.com/iOfficeAI/OfficeCLI/tree/main/examples
+    source: https://github.com/iOfficeAI/OfficeCLI
+  official_docs:
+  - kind: docs
+    title: OfficeCLI agent skill
+    url: https://github.com/iOfficeAI/OfficeCLI/blob/main/SKILL.md
+    source: https://github.com/iOfficeAI/OfficeCLI
+  - kind: docs
+    title: Install script
+    url: https://github.com/iOfficeAI/OfficeCLI/blob/main/install.sh
+    source: https://github.com/iOfficeAI/OfficeCLI
+  - kind: docs
+    title: GitHub Releases
+    url: https://github.com/iOfficeAI/OfficeCLI/releases
+    source: https://github.com/iOfficeAI/OfficeCLI
+  official_links:
+  - kind: docs
+    title: OfficeCLI agent skill
+    url: https://github.com/iOfficeAI/OfficeCLI/blob/main/SKILL.md
+    source: https://github.com/iOfficeAI/OfficeCLI
+  - kind: example
+    title: OfficeCLI examples directory
+    url: https://github.com/iOfficeAI/OfficeCLI/tree/main/examples
+    source: https://github.com/iOfficeAI/OfficeCLI
+  - kind: docs
+    title: Install script
+    url: https://github.com/iOfficeAI/OfficeCLI/blob/main/install.sh
+    source: https://github.com/iOfficeAI/OfficeCLI
+  - kind: docs
+    title: GitHub Releases
+    url: https://github.com/iOfficeAI/OfficeCLI/releases
+    source: https://github.com/iOfficeAI/OfficeCLI
+  source_headings:
+  - OfficeCLI
+  - For AI Agents — Get Started in One Line
+  - For Developers — See It Live in 30 Seconds
+  - Why OfficeCLI?
+- name: image-to-editable-ppt-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ningzimu/image-to-editable-ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Codex skill that reconstructs slide images, PDFs, and image-based PPTX pages into editable PowerPoint decks
+    with OCR-guided text boxes, simple native shapes, extracted visual assets, notes preservation, and per-page verification
+    loops.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill
+    final_url: https://github.com/ningzimu/image-to-editable-ppt-skill
+    status: 200
+    content_type: text/html
+    title: Image to Editable PPT Skill
+  official_examples:
+  - kind: example
+    title: Skill duo introduction deck
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skill_duo_intro.pdf
+    source: https://github.com/ningzimu/image-to-editable-ppt-skill
+  official_docs:
+  - kind: docs
+    title: English README
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/README_en.md
+    source: https://github.com/ningzimu/image-to-editable-ppt-skill
+  - kind: docs
+    title: Image to editable PPT skill file
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skills/image-to-editable-ppt/SKILL.md
+    source: https://github.com/ningzimu/image-to-editable-ppt-skill
+  official_links:
+  - kind: docs
+    title: English README
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/README_en.md
+    source: https://github.com/ningzimu/image-to-editable-ppt-skill
+  - kind: docs
+    title: Image to editable PPT skill file
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skills/image-to-editable-ppt/SKILL.md
+    source: https://github.com/ningzimu/image-to-editable-ppt-skill
+  - kind: example
+    title: Skill duo introduction deck
+    url: https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skill_duo_intro.pdf
+    source: https://github.com/ningzimu/image-to-editable-ppt-skill
+  source_headings:
+  - Image to Editable PPT Skill
+  - 转换效果示例
+  - 特点
+  - 适用场景
+  - 运行要求
+- name: dom-to-pptx
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/atharva9167j/dom-to-pptx
+  homepage: https://preso-ai.vercel.app
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Client-side HTML/DOM-to-PowerPoint library and agent skill installer that maps computed layout, CSS gradients,
+    shadows, SVGs, fonts, animations, and transitions into editable PPTX slides.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/atharva9167j/dom-to-pptx
+    final_url: https://github.com/atharva9167j/dom-to-pptx
+    status: 200
+    content_type: text/html
+    title: dom-to-pptx
+  official_examples:
+  - kind: example
+    title: Preso AI featured project
+    url: https://preso-ai.vercel.app
+    source: https://github.com/atharva9167j/dom-to-pptx
+  official_docs:
+  - kind: docs
+    title: Usage guide
+    url: https://github.com/atharva9167j/dom-to-pptx/blob/master/USAGE.md
+    source: https://github.com/atharva9167j/dom-to-pptx
+  - kind: docs
+    title: Supported features
+    url: https://github.com/atharva9167j/dom-to-pptx/blob/master/SUPPORTED.md
+    source: https://github.com/atharva9167j/dom-to-pptx
+  official_links:
+  - kind: docs
+    title: Usage guide
+    url: https://github.com/atharva9167j/dom-to-pptx/blob/master/USAGE.md
+    source: https://github.com/atharva9167j/dom-to-pptx
+  - kind: docs
+    title: Supported features
+    url: https://github.com/atharva9167j/dom-to-pptx/blob/master/SUPPORTED.md
+    source: https://github.com/atharva9167j/dom-to-pptx
+  - kind: example
+    title: Preso AI featured project
+    url: https://preso-ai.vercel.app
+    source: https://github.com/atharva9167j/dom-to-pptx
+  source_headings:
+  - dom-to-pptx
+  - What's New in v2
+  - Advanced Visual Fidelity
+  - 'Featured Project: Preso AI'
+- name: MinerU2PPT
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/JuniverseCoder/MinerU2PPT
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - GPU/加速器
+  catalog_note: Windows GUI and converter that uses MinerU-structured PDF/image extraction to rebuild source documents as
+    high-fidelity editable PowerPoint presentations with CPU and CUDA package variants.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/JuniverseCoder/MinerU2PPT
+    final_url: https://github.com/JuniverseCoder/MinerU2PPT
+    status: 200
+    content_type: text/html
+    title: MinerU to PPT Converter
+  official_examples:
+  - kind: example
+    title: Demo directory
+    url: https://github.com/JuniverseCoder/MinerU2PPT/tree/master/demo
+    source: https://github.com/JuniverseCoder/MinerU2PPT
+  official_docs:
+  - kind: docs
+    title: Docs directory
+    url: https://github.com/JuniverseCoder/MinerU2PPT/tree/master/docs
+    source: https://github.com/JuniverseCoder/MinerU2PPT
+  - kind: docs
+    title: GitHub Releases
+    url: https://github.com/JuniverseCoder/MinerU2PPT/releases
+    source: https://github.com/JuniverseCoder/MinerU2PPT
+  official_links:
+  - kind: docs
+    title: Docs directory
+    url: https://github.com/JuniverseCoder/MinerU2PPT/tree/master/docs
+    source: https://github.com/JuniverseCoder/MinerU2PPT
+  - kind: example
+    title: Demo directory
+    url: https://github.com/JuniverseCoder/MinerU2PPT/tree/master/demo
+    source: https://github.com/JuniverseCoder/MinerU2PPT
+  - kind: docs
+    title: GitHub Releases
+    url: https://github.com/JuniverseCoder/MinerU2PPT/releases
+    source: https://github.com/JuniverseCoder/MinerU2PPT
+  source_headings:
+  - MinerU to PPT Converter
+  - 'For Users: How to Use'
+  - Using Batch Mode
+- name: ppt-rs
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/yingkitw/ppt-rs
+  homepage: https://crates.io/crates/ppt-rs
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Rust PowerPoint generation library, CLI, and optional MCP server that converts Markdown or HTML into valid
+    editable PPTX, supports templates, charts, media, package validation, and image/export round trips.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/yingkitw/ppt-rs
+    final_url: https://github.com/yingkitw/ppt-rs
+    status: 200
+    content_type: text/html
+    title: ppt-rs
+  official_examples:
+  - kind: example
+    title: Examples directory
+    url: https://github.com/yingkitw/ppt-rs/tree/main/examples
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: example
+    title: Samples directory
+    url: https://github.com/yingkitw/ppt-rs/tree/main/samples
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: example
+    title: Comprehensive demo PPTX
+    url: https://github.com/yingkitw/ppt-rs/blob/main/comprehensive_demo.pptx
+    source: https://github.com/yingkitw/ppt-rs
+  official_docs:
+  - kind: docs
+    title: API guide
+    url: https://github.com/yingkitw/ppt-rs/blob/main/API_GUIDE.md
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: docs
+    title: Architecture
+    url: https://github.com/yingkitw/ppt-rs/blob/main/ARCHITECTURE.md
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: docs
+    title: HTML parsers
+    url: https://github.com/yingkitw/ppt-rs/blob/main/HTML_PARSERS.md
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: docs
+    title: Docs directory
+    url: https://github.com/yingkitw/ppt-rs/tree/main/docs
+    source: https://github.com/yingkitw/ppt-rs
+  official_links:
+  - kind: docs
+    title: API guide
+    url: https://github.com/yingkitw/ppt-rs/blob/main/API_GUIDE.md
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: docs
+    title: Architecture
+    url: https://github.com/yingkitw/ppt-rs/blob/main/ARCHITECTURE.md
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: docs
+    title: HTML parsers
+    url: https://github.com/yingkitw/ppt-rs/blob/main/HTML_PARSERS.md
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: docs
+    title: Docs directory
+    url: https://github.com/yingkitw/ppt-rs/tree/main/docs
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: example
+    title: Examples directory
+    url: https://github.com/yingkitw/ppt-rs/tree/main/examples
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: example
+    title: Samples directory
+    url: https://github.com/yingkitw/ppt-rs/tree/main/samples
+    source: https://github.com/yingkitw/ppt-rs
+  - kind: example
+    title: Comprehensive demo PPTX
+    url: https://github.com/yingkitw/ppt-rs/blob/main/comprehensive_demo.pptx
+    source: https://github.com/yingkitw/ppt-rs
+  source_headings:
+  - ppt-rs
+  - Why ppt-rs?
+  - Markdown to PowerPoint
+  - HTML to PowerPoint
+  - Features
+- name: html2pptx
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/abdelkrimkr/html2pptx
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Node.js CLI and library for converting HTML files into PowerPoint presentations while preserving text, lists,
+    images, SVGs, hyperlinks, CSS styling, transforms, layouts, and post-processed PPTX validity.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/abdelkrimkr/html2pptx
+    final_url: https://github.com/abdelkrimkr/html2pptx
+    status: 200
+    content_type: text/html
+    title: HTML2PPTX - HTML to PowerPoint Converter
+  official_examples:
+  - kind: example
+    title: Examples directory
+    url: https://github.com/abdelkrimkr/html2pptx/tree/master/examples
+    source: https://github.com/abdelkrimkr/html2pptx
+  official_docs:
+  - kind: docs
+    title: Quickstart
+    url: https://github.com/abdelkrimkr/html2pptx/blob/master/QUICKSTART.md
+    source: https://github.com/abdelkrimkr/html2pptx
+  - kind: docs
+    title: Comparison
+    url: https://github.com/abdelkrimkr/html2pptx/blob/master/COMPARISON.md
+    source: https://github.com/abdelkrimkr/html2pptx
+  - kind: docs
+    title: Corruption fixes
+    url: https://github.com/abdelkrimkr/html2pptx/blob/master/CORRUPTION_FIXES.md
+    source: https://github.com/abdelkrimkr/html2pptx
+  official_links:
+  - kind: docs
+    title: Quickstart
+    url: https://github.com/abdelkrimkr/html2pptx/blob/master/QUICKSTART.md
+    source: https://github.com/abdelkrimkr/html2pptx
+  - kind: docs
+    title: Comparison
+    url: https://github.com/abdelkrimkr/html2pptx/blob/master/COMPARISON.md
+    source: https://github.com/abdelkrimkr/html2pptx
+  - kind: docs
+    title: Corruption fixes
+    url: https://github.com/abdelkrimkr/html2pptx/blob/master/CORRUPTION_FIXES.md
+    source: https://github.com/abdelkrimkr/html2pptx
+  - kind: example
+    title: Examples directory
+    url: https://github.com/abdelkrimkr/html2pptx/tree/master/examples
+    source: https://github.com/abdelkrimkr/html2pptx
+  source_headings:
+  - HTML2PPTX - HTML to PowerPoint Converter
+  - Recent Fixes
+  - Features
+  - Installation
+  - Usage
+- name: office-editor-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/theWDY/office-editor-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Python MCP server for AI assistants to create, edit, format, and analyze Word, Excel, and PowerPoint documents,
+    including slide management, graphic elements, tables, charts, animations, transitions, OCR, translation, and encryption
+    utilities.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/theWDY/office-editor-mcp
+    final_url: https://github.com/theWDY/office-editor-mcp
+    status: 200
+    content_type: text/html
+    title: Office Document Processing MCP Server
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: Docs directory
+    url: https://github.com/theWDY/office-editor-mcp/tree/main/docs
+    source: https://github.com/theWDY/office-editor-mcp
+  - kind: docs
+    title: Chinese README
+    url: https://github.com/theWDY/office-editor-mcp/blob/main/README_CN.md
+    source: https://github.com/theWDY/office-editor-mcp
+  official_links:
+  - kind: docs
+    title: Docs directory
+    url: https://github.com/theWDY/office-editor-mcp/tree/main/docs
+    source: https://github.com/theWDY/office-editor-mcp
+  - kind: docs
+    title: Chinese README
+    url: https://github.com/theWDY/office-editor-mcp/blob/main/README_CN.md
+    source: https://github.com/theWDY/office-editor-mcp
+  source_headings:
+  - Office Document Processing MCP Server
+  - Overview
+  - PowerPoint Operations
+  - Advanced Features
+  - Installation Guide
