@@ -1,56 +1,56 @@
 {
-  "generatedAt": "2026-07-15T23:07:26+00:00",
-  "lastResearched": "2026-07-16",
+  "generatedAt": "2026-07-16T23:06:48+00:00",
+  "lastResearched": "2026-07-17",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 303,
-    "openSource": 85,
+    "total": 310,
+    "openSource": 87,
     "saas": 45,
-    "modelApi": 117,
-    "examples": 920,
+    "modelApi": 118,
+    "examples": 928,
     "effectAssets": 1077,
-    "docs": 958
+    "docs": 976
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 40,
-      "PDF/文档": 103,
-      "文本/想法": 182,
-      "数据/表格": 104,
+      "PDF/文档": 105,
+      "文本/想法": 187,
+      "数据/表格": 106,
       "代码/技术描述": 55,
-      "网页/搜索结果": 88,
+      "网页/搜索结果": 90,
       "代码库": 32,
-      "DSL/代码": 54,
+      "DSL/代码": 57,
       "新闻/资讯": 11,
       "知识库/个人资料": 20,
       "任意/多源": 33,
-      "Office 文档": 36,
+      "Office 文档": 41,
       "引用网络": 4,
       "数据库": 24
     },
     "toolForms": {
-      "开源应用/框架": 85,
-      "Agent Skill": 89,
+      "开源应用/框架": 87,
+      "Agent Skill": 92,
       "Skill 集合": 26,
       "数据集/评测": 2,
       "Bot/助手": 8,
       "产品/SaaS": 45,
-      "MCP Server": 77,
+      "MCP Server": 79,
       "研究原型": 4,
-      "API/SDK/库": 23,
+      "API/SDK/库": 26,
       "Awesome/索引": 15
     },
     "outputForms": {
       "图形摘要/信息图": 21,
-      "PPT/演示文稿": 126,
+      "PPT/演示文稿": 133,
       "网页/交互页面": 73,
       "问答/学习材料": 11,
-      "报告/长文档": 29,
+      "报告/长文档": 31,
       "证据表": 10,
       "信息图/视觉报告": 45,
-      "图表/仪表盘": 73,
+      "图表/仪表盘": 76,
       "架构图/流程图": 64,
-      "SVG/PNG/PDF": 93,
+      "SVG/PNG/PDF": 97,
       "报告/简报": 32,
       "白板/思维导图": 22,
       "图表/Mermaid": 37,
@@ -58,25 +58,25 @@
       "表格/时间线": 6,
       "引用答案": 4,
       "思维导图/知识地图": 18,
-      "结构化数据/Markdown": 20,
+      "结构化数据/Markdown": 21,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 21,
       "图表/渲染输出": 12,
       "工具索引": 17
     },
     "dependencies": {
-      "本地语言环境": 221,
-      "模型 API": 117,
-      "文档解析/OCR": 45,
-      "渲染/导出": 225,
-      "GPU/加速器": 8,
-      "模板/素材": 130,
-      "Agent 宿主": 121,
-      "系统工具": 42,
+      "本地语言环境": 228,
+      "模型 API": 118,
+      "文档解析/OCR": 48,
+      "渲染/导出": 232,
+      "GPU/加速器": 9,
+      "模板/素材": 131,
+      "Agent 宿主": 124,
+      "系统工具": 47,
       "浏览器/账号": 87,
       "存储/索引": 37,
       "外部检索/数据源": 52,
-      "MCP Client": 79,
+      "MCP Client": 81,
       "代码分析工具": 24
     },
     "categories": {
@@ -87,7 +87,7 @@
       "data-dashboard": 37,
       "diagram-generation": 40,
       "literature-map": 4,
-      "presentation-tools": 81,
+      "presentation-tools": 88,
       "codebase-map": 19,
       "rendering-primitive": 7,
       "video-generation": 7,
@@ -101,7 +101,7 @@
       "support_mindmap": 9,
       "docs": 10,
       "support_doc_parse": 9,
-      "presentation": 93,
+      "presentation": 100,
       "code": 19,
       "support_render": 36,
       "diagrams": 2,
@@ -11634,6 +11634,447 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "primaryUrl": "https://github.com/iOfficeAI/OfficeCLI",
+      "homepage": "https://officecli.ai",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 18300,
+      "license": "Apache-2.0",
+      "updated": "2026-07-17",
+      "note": "Local Office suite for AI agents to create, inspect, edit, render, and automate Word, Excel, and PowerPoint files without Microsoft Office, including HTML/PNG preview loops and an installable agent skill.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "OfficeCLI agent skill",
+          "url": "https://github.com/iOfficeAI/OfficeCLI/blob/main/SKILL.md",
+          "source": "https://github.com/iOfficeAI/OfficeCLI"
+        },
+        {
+          "kind": "docs",
+          "title": "Install script",
+          "url": "https://github.com/iOfficeAI/OfficeCLI/blob/main/install.sh",
+          "source": "https://github.com/iOfficeAI/OfficeCLI"
+        },
+        {
+          "kind": "docs",
+          "title": "GitHub Releases",
+          "url": "https://github.com/iOfficeAI/OfficeCLI/releases",
+          "source": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "OfficeCLI examples directory",
+          "url": "https://github.com/iOfficeAI/OfficeCLI/tree/main/examples",
+          "source": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "image-to-editable-ppt-skill",
+      "url": "https://github.com/ningzimu/image-to-editable-ppt-skill",
+      "primaryUrl": "https://github.com/ningzimu/image-to-editable-ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 1400,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Codex skill that reconstructs slide images, PDFs, and image-based PPTX pages into editable PowerPoint decks with OCR-guided text boxes, simple native shapes, extracted visual assets, notes preservation, and per-page verification loops.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "English README",
+          "url": "https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/README_en.md",
+          "source": "https://github.com/ningzimu/image-to-editable-ppt-skill"
+        },
+        {
+          "kind": "docs",
+          "title": "Image to editable PPT skill file",
+          "url": "https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skills/image-to-editable-ppt/SKILL.md",
+          "source": "https://github.com/ningzimu/image-to-editable-ppt-skill"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Skill duo introduction deck",
+          "url": "https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skill_duo_intro.pdf",
+          "source": "https://github.com/ningzimu/image-to-editable-ppt-skill"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "dom-to-pptx",
+      "url": "https://github.com/atharva9167j/dom-to-pptx",
+      "primaryUrl": "https://github.com/atharva9167j/dom-to-pptx",
+      "homepage": "https://preso-ai.vercel.app",
+      "category": "presentation-tools",
+      "surface": "library",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 284,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Client-side HTML/DOM-to-PowerPoint library and agent skill installer that maps computed layout, CSS gradients, shadows, SVGs, fonts, animations, and transitions into editable PPTX slides.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Usage guide",
+          "url": "https://github.com/atharva9167j/dom-to-pptx/blob/master/USAGE.md",
+          "source": "https://github.com/atharva9167j/dom-to-pptx"
+        },
+        {
+          "kind": "docs",
+          "title": "Supported features",
+          "url": "https://github.com/atharva9167j/dom-to-pptx/blob/master/SUPPORTED.md",
+          "source": "https://github.com/atharva9167j/dom-to-pptx"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Preso AI featured project",
+          "url": "https://preso-ai.vercel.app",
+          "source": "https://github.com/atharva9167j/dom-to-pptx"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "MinerU2PPT",
+      "url": "https://github.com/JuniverseCoder/MinerU2PPT",
+      "primaryUrl": "https://github.com/JuniverseCoder/MinerU2PPT",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具",
+        "GPU/加速器"
+      ],
+      "stars": 190,
+      "license": "unknown",
+      "updated": "2026-07-17",
+      "note": "Windows GUI and converter that uses MinerU-structured PDF/image extraction to rebuild source documents as high-fidelity editable PowerPoint presentations with CPU and CUDA package variants.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs directory",
+          "url": "https://github.com/JuniverseCoder/MinerU2PPT/tree/master/docs",
+          "source": "https://github.com/JuniverseCoder/MinerU2PPT"
+        },
+        {
+          "kind": "docs",
+          "title": "GitHub Releases",
+          "url": "https://github.com/JuniverseCoder/MinerU2PPT/releases",
+          "source": "https://github.com/JuniverseCoder/MinerU2PPT"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Demo directory",
+          "url": "https://github.com/JuniverseCoder/MinerU2PPT/tree/master/demo",
+          "source": "https://github.com/JuniverseCoder/MinerU2PPT"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ppt-rs",
+      "url": "https://github.com/yingkitw/ppt-rs",
+      "primaryUrl": "https://github.com/yingkitw/ppt-rs",
+      "homepage": "https://crates.io/crates/ppt-rs",
+      "category": "presentation-tools",
+      "surface": "library",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 46,
+      "license": "Apache-2.0",
+      "updated": "2026-07-17",
+      "note": "Rust PowerPoint generation library, CLI, and optional MCP server that converts Markdown or HTML into valid editable PPTX, supports templates, charts, media, package validation, and image/export round trips.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "API guide",
+          "url": "https://github.com/yingkitw/ppt-rs/blob/main/API_GUIDE.md",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/yingkitw/ppt-rs/blob/main/ARCHITECTURE.md",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        },
+        {
+          "kind": "docs",
+          "title": "HTML parsers",
+          "url": "https://github.com/yingkitw/ppt-rs/blob/main/HTML_PARSERS.md",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs directory",
+          "url": "https://github.com/yingkitw/ppt-rs/tree/main/docs",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Examples directory",
+          "url": "https://github.com/yingkitw/ppt-rs/tree/main/examples",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        },
+        {
+          "kind": "example",
+          "title": "Samples directory",
+          "url": "https://github.com/yingkitw/ppt-rs/tree/main/samples",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        },
+        {
+          "kind": "example",
+          "title": "Comprehensive demo PPTX",
+          "url": "https://github.com/yingkitw/ppt-rs/blob/main/comprehensive_demo.pptx",
+          "source": "https://github.com/yingkitw/ppt-rs"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "html2pptx",
+      "url": "https://github.com/abdelkrimkr/html2pptx",
+      "primaryUrl": "https://github.com/abdelkrimkr/html2pptx",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 20,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Node.js CLI and library for converting HTML files into PowerPoint presentations while preserving text, lists, images, SVGs, hyperlinks, CSS styling, transforms, layouts, and post-processed PPTX validity.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Quickstart",
+          "url": "https://github.com/abdelkrimkr/html2pptx/blob/master/QUICKSTART.md",
+          "source": "https://github.com/abdelkrimkr/html2pptx"
+        },
+        {
+          "kind": "docs",
+          "title": "Comparison",
+          "url": "https://github.com/abdelkrimkr/html2pptx/blob/master/COMPARISON.md",
+          "source": "https://github.com/abdelkrimkr/html2pptx"
+        },
+        {
+          "kind": "docs",
+          "title": "Corruption fixes",
+          "url": "https://github.com/abdelkrimkr/html2pptx/blob/master/CORRUPTION_FIXES.md",
+          "source": "https://github.com/abdelkrimkr/html2pptx"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Examples directory",
+          "url": "https://github.com/abdelkrimkr/html2pptx/tree/master/examples",
+          "source": "https://github.com/abdelkrimkr/html2pptx"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "office-editor-mcp",
+      "url": "https://github.com/theWDY/office-editor-mcp",
+      "primaryUrl": "https://github.com/theWDY/office-editor-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 91,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Python MCP server for AI assistants to create, edit, format, and analyze Word, Excel, and PowerPoint documents, including slide management, graphic elements, tables, charts, animations, transitions, OCR, translation, and encryption utilities.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs directory",
+          "url": "https://github.com/theWDY/office-editor-mcp/tree/main/docs",
+          "source": "https://github.com/theWDY/office-editor-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Chinese README",
+          "url": "https://github.com/theWDY/office-editor-mcp/blob/main/README_CN.md",
+          "source": "https://github.com/theWDY/office-editor-mcp"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "Alai MCP Server",

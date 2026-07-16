@@ -1,4 +1,4 @@
-last_researched: '2026-07-16'
+last_researched: '2026-07-17'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -3046,6 +3046,183 @@ entries:
   - PPT/演示文稿
   - SVG/PNG/PDF
   - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: OfficeCLI
+  url: https://github.com/iOfficeAI/OfficeCLI
+  homepage: https://officecli.ai
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 18300
+  license: Apache-2.0
+  updated: '2026-07-17'
+  note: Local Office suite for AI agents to create, inspect, edit, render, and automate Word, Excel, and PowerPoint files without Microsoft Office, including HTML/PNG preview loops and an installable agent skill.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: image-to-editable-ppt-skill
+  url: https://github.com/ningzimu/image-to-editable-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 1400
+  license: MIT
+  updated: '2026-07-17'
+  note: Codex skill that reconstructs slide images, PDFs, and image-based PPTX pages into editable PowerPoint decks with OCR-guided text boxes, simple native shapes, extracted visual assets, notes preservation, and per-page verification loops.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: dom-to-pptx
+  url: https://github.com/atharva9167j/dom-to-pptx
+  homepage: https://preso-ai.vercel.app
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 284
+  license: MIT
+  updated: '2026-07-17'
+  note: Client-side HTML/DOM-to-PowerPoint library and agent skill installer that maps computed layout, CSS gradients, shadows, SVGs, fonts, animations, and transitions into editable PPTX slides.
+  source_types:
+  - 网页/搜索结果
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: MinerU2PPT
+  url: https://github.com/JuniverseCoder/MinerU2PPT
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - GPU/加速器
+  stars: 190
+  license: unknown
+  updated: '2026-07-17'
+  note: Windows GUI and converter that uses MinerU-structured PDF/image extraction to rebuild source documents as high-fidelity editable PowerPoint presentations with CPU and CUDA package variants.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-rs
+  url: https://github.com/yingkitw/ppt-rs
+  homepage: https://crates.io/crates/ppt-rs
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 46
+  license: Apache-2.0
+  updated: '2026-07-17'
+  note: Rust PowerPoint generation library, CLI, and optional MCP server that converts Markdown or HTML into valid editable PPTX, supports templates, charts, media, package validation, and image/export round trips.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: html2pptx
+  url: https://github.com/abdelkrimkr/html2pptx
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  stars: 20
+  license: MIT
+  updated: '2026-07-17'
+  note: Node.js CLI and library for converting HTML files into PowerPoint presentations while preserving text, lists, images, SVGs, hyperlinks, CSS styling, transforms, layouts, and post-processed PPTX validity.
+  source_types:
+  - 网页/搜索结果
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: office-editor-mcp
+  url: https://github.com/theWDY/office-editor-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 91
+  license: MIT
+  updated: '2026-07-17'
+  note: Python MCP server for AI assistants to create, edit, format, and analyze Word, Excel, and PowerPoint documents, including slide management, graphic elements, tables, charts, animations, transitions, OCR, translation, and encryption utilities.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
 - name: Alai MCP Server
