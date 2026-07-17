@@ -1,4 +1,4 @@
-generated_at: '2026-07-16T23:06:48+00:00'
+generated_at: '2026-07-17T23:11:20+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 310
-  fetched_sources_ok: 423
-  fetched_sources_failed: 22
-  official_examples: 928
-  official_effect_assets: 1077
-  official_docs: 976
+  entries: 317
+  fetched_sources_ok: 435
+  fetched_sources_failed: 21
+  official_examples: 931
+  official_effect_assets: 1088
+  official_docs: 981
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -29852,3 +29852,334 @@ entries:
   - PowerPoint Operations
   - Advanced Features
   - Installation Guide
+- name: ai-frontier-daily
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/yinjialu/ai-frontier-daily
+  homepage: https://yinjialu.github.io/ai-frontier-daily/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill and scheduled workflow that fetches official AI vendor updates, curates them in Chinese, renders
+    Xiaohongshu and WeChat card images, and publishes a GitHub Pages review gallery.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yinjialu/ai-frontier-daily/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yinjialu/ai-frontier-daily/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI 前哨 · 每日 AI 大厂动态
+    bytes: 3288
+  - kind: homepage
+    url: https://yinjialu.github.io/ai-frontier-daily/
+    final_url: https://yinjialu.github.io/ai-frontier-daily/
+    status: 200
+    content_type: text/html
+    title: AI 前哨 · 每日 AI 大厂动态
+    bytes: 26474
+  official_examples:
+  - kind: demo
+    title: GitHub Pages visual display page
+    url: https://yinjialu.github.io/ai-frontier-daily/
+    source: https://raw.githubusercontent.com/yinjialu/ai-frontier-daily/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: GitHub Pages visual display page
+    url: https://yinjialu.github.io/ai-frontier-daily/
+    source: https://raw.githubusercontent.com/yinjialu/ai-frontier-daily/HEAD/README.md
+- name: slide-wright
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/arifszn/slide-wright
+  homepage: https://slidewright.netlify.app
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill that turns topics, notes, or outlines into custom Reveal.js slide decks, showing style previews
+    before building a self-contained deck that can export to PDF or deploy to a live URL.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/arifszn/slide-wright/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/arifszn/slide-wright/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slide-wright
+    bytes: 4861
+  - kind: homepage
+    url: https://slidewright.netlify.app/
+    final_url: https://slidewright.netlify.app/
+    status: 200
+    content_type: text/html
+    title: Slide-Wright — Free AI Presentation Maker for Beautiful Slide Decks
+    description: Slide-Wright is a free, open-source AI presentation maker that generates beautiful, unique slide decks —
+      a custom design for every prompt. Open source on GitHub.
+    bytes: 39515
+  official_examples:
+  - kind: example
+    title: View Example →
+    url: https://slidewright.netlify.app
+    source: https://raw.githubusercontent.com/arifszn/slide-wright/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Slide-Wright — Free AI Presentation Maker for Beautiful Slide Decks
+    url: https://slidewright.netlify.app/og.png
+    source: https://slidewright.netlify.app/
+  official_links:
+  - kind: example
+    title: View Example →
+    url: https://slidewright.netlify.app
+    source: https://raw.githubusercontent.com/arifszn/slide-wright/HEAD/README.md
+  source_headings:
+  - slide-wright
+  - More Examples
+  - Usage
+- name: Terry-slide-gen
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/TerryFYL/Terry-slide-gen
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code slide-generation skill that collects notes, outlines, research, optional figures, or style references
+    once, then autonomously produces generated slide PNGs and an assembled editable PPTX deck.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Terry-slide-gen
+    bytes: 5055
+  official_effect_assets:
+  - kind: image
+    title: Japanese minimal style — precise spacing, craft in every detail
+    url: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/assets/style1-japanese-minimal.png
+    source: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/README.md
+  - kind: image
+    title: Scientific style — data visualization as the hero
+    url: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/assets/style2-scientific-chart.png
+    source: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/README.md
+  - kind: image
+    title: Business style — McKinsey density, every pixel earns its place
+    url: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/assets/style3-business-dense.png
+    source: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/README.md
+  - kind: image
+    title: Playful style — cat mascot breaking out of frame
+    url: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/assets/style4-cute-cat.png
+    source: https://raw.githubusercontent.com/TerryFYL/Terry-slide-gen/HEAD/README.md
+  source_headings:
+  - Terry-slide-gen
+  - Usage
+- name: Huashu Design
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/alchaincyf/huashu-design
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-agnostic HTML-native design skill for turning one-sentence briefs and optional brand assets into product
+    launch animations, clickable app prototypes, editable PPT decks, MP4/GIF motion outputs, and print-grade infographics.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Huashu Design
+    bytes: 18380
+  official_effect_assets:
+  - kind: image
+    title: huashu-design 使用教程
+    url: https://img.youtube.com/vi/m-_BlUdcIvw/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.md
+  - kind: video
+    title: Hero animation MP4
+    url: https://github.com/alchaincyf/huashu-design/releases/download/v2.0/hero-animation-v10-en.mp4
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.en.md
+  - kind: gif
+    title: HTML slides to editable PPTX demo
+    url: https://github.com/alchaincyf/huashu-design/releases/download/v2.0/c2-slides-pptx-en.gif
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.en.md
+  - kind: gif
+    title: Infographic and data visualization demo
+    url: https://github.com/alchaincyf/huashu-design/releases/download/v2.0/c5-infographic-en.gif
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.en.md
+  source_headings:
+  - 📺 新手教程（花叔亲录）
+  - Demo 画廊
+  - HTML Slides → 可编辑 PPTX
+  - 信息图 / 数据可视化
+  - Showcase · 真实案例
+  official_links:
+  - kind: demo
+    title: Hero animation MP4
+    url: https://github.com/alchaincyf/huashu-design/releases/download/v2.0/hero-animation-v10-en.mp4
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.en.md
+  - kind: demo
+    title: HTML slides to editable PPTX demo
+    url: https://github.com/alchaincyf/huashu-design/releases/download/v2.0/c2-slides-pptx-en.gif
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.en.md
+  - kind: demo
+    title: Infographic and data visualization demo
+    url: https://github.com/alchaincyf/huashu-design/releases/download/v2.0/c5-infographic-en.gif
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.en.md
+  official_docs:
+  - kind: docs
+    title: English README
+    url: https://github.com/alchaincyf/huashu-design/blob/HEAD/README.en.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-design/HEAD/README.md
+- name: brandsystem-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/Brandcode-Studio/brandsystem-mcp
+  homepage: https://www.brandcode.studio/
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first MCP server that extracts websites, PDF brand guides, Figma libraries, local files, or Brandcode
+    Studio brands into a portable .brand runtime with design tokens, voice rules, provenance, compliance checks, and visual
+    brand reports for agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Brandcode-Studio/brandsystem-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Brandcode-Studio/brandsystem-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Use your brand guidelines with AI
+    bytes: 40088
+  - kind: homepage
+    url: https://www.brandcode.studio/
+    final_url: https://www.brandcode.studio/
+    status: 200
+    content_type: text/html
+    title: Brandcode — Keep your brand running
+    description: Brandcode compiles your identity, voice, and governance into a portable brand system that's present everywhere
+      you create.
+    bytes: 56250
+  official_docs:
+  - kind: docs
+    title: installation guide
+    url: https://github.com/Brandcode-Studio/brandsystem-mcp/blob/HEAD/llms-install.md
+    source: https://raw.githubusercontent.com/Brandcode-Studio/brandsystem-mcp/HEAD/README.md
+  - kind: docs
+    title: Part 1 Your Brand Guidelines Are Already Fiction Brand guidelines are fiction the moment they’re created. Not because
+      they’re wrong, but because they’re static documents describing
+    url: https://www.brandcode.studio/brandcode/articles/brand-guidelines-fiction
+    source: https://www.brandcode.studio/
+  official_links:
+  - kind: docs
+    title: installation guide
+    url: https://github.com/Brandcode-Studio/brandsystem-mcp/blob/HEAD/llms-install.md
+    source: https://raw.githubusercontent.com/Brandcode-Studio/brandsystem-mcp/HEAD/README.md
+  - kind: docs
+    title: Part 1 Your Brand Guidelines Are Already Fiction Brand guidelines are fiction the moment they’re created. Not because
+      they’re wrong, but because they’re static documents describing
+    url: https://www.brandcode.studio/brandcode/articles/brand-guidelines-fiction
+    source: https://www.brandcode.studio/
+  source_headings:
+  - 'Session 2: Visual Identity'
+  - Visual Extraction
+- name: Mediator
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/nathanfhh/nbp-web-gen
+  homepage: https://nathanfhh.github.io/nbp-web-gen/
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - GPU/加速器
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first browser workspace for Gemini and Veo that creates images, videos, technical diagrams, mind maps,
+    narrated slide pages, MP4 exports, editable PPTX conversions from slide images or PDFs, and visual-history dashboards
+    with BYOK privacy.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mediator - AI Image & Video Generator
+    bytes: 26780
+  - kind: homepage
+    url: https://nathanfhh.github.io/nbp-web-gen/
+    final_url: https://nathanfhh.github.io/nbp-web-gen/
+    status: 200
+    content_type: text/html
+    title: Mediator | AI Image & Video Generator - Powered by Gemini & Veo
+    description: 'Mediator (Media + Creator) - AI Image & Video Generator powered by Gemini & Veo 3.1. Create images, videos,
+      stickers, stories, diagrams, and presentation slides. 100% client-side, '
+    bytes: 5203
+  official_examples:
+  - kind: demo
+    title: 'Live Demo: https://nathanfhh.github.io/nbp-web-gen/'
+    url: https://nathanfhh.github.io/nbp-web-gen/
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 繁體中文
+    url: https://nathanfhh.github.io/nbp-web-gen/docs/
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  - kind: docs
+    title: English
+    url: https://nathanfhh.github.io/nbp-web-gen/docs/en/
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Mediator Demo
+    url: https://img.youtube.com/vi/w7yAHJq66Pk/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  - kind: image
+    title: Mediator | AI Image & Video Generator - Powered by Gemini & Veo
+    url: https://nathanfhh.github.io/nbp-web-gen/nbp-title.webp
+    source: https://nathanfhh.github.io/nbp-web-gen/
+  official_links:
+  - kind: demo
+    title: 'Live Demo: https://nathanfhh.github.io/nbp-web-gen/'
+    url: https://nathanfhh.github.io/nbp-web-gen/
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  - kind: docs
+    title: 繁體中文
+    url: https://nathanfhh.github.io/nbp-web-gen/docs/
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  - kind: docs
+    title: English
+    url: https://nathanfhh.github.io/nbp-web-gen/docs/en/
+    source: https://raw.githubusercontent.com/nathanfhh/nbp-web-gen/HEAD/README.md
+  source_headings:
+  - Mediator - AI Image & Video Generator
+  - 📺 Video Introduction | 影片介紹
+- name: trending-claude-skills
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/linny006/trending-claude-skills
+  dependencies:
+  - 外部检索/数据源
+  - 系统工具
+  catalog_note: Auto-updated GitHub Actions leaderboard that queries GitHub Search API every 15 minutes for recently created
+    or updated Claude Skills and AI-agent repositories, publishing freshness- and momentum-ranked multilingual README tables.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/linny006/trending-claude-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/linny006/trending-claude-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Trending Claude Skills
+    bytes: 15407

@@ -1,4 +1,4 @@
-last_researched: '2026-07-17'
+last_researched: '2026-07-18'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2059,6 +2059,32 @@ entries:
   - 报告/长文档
   catalog_section: main
   readme_group: text_visual
+- name: ai-frontier-daily
+  url: https://github.com/yinjialu/ai-frontier-daily
+  homepage: https://yinjialu.github.io/ai-frontier-daily/
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-07-17'
+  note: Agent skill and scheduled workflow that fetches official AI vendor updates, curates them in Chinese, renders Xiaohongshu and WeChat card images, and publishes a GitHub Pages review gallery.
+  source_types:
+  - 新闻/资讯
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  - 开源应用/框架
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: text_visual
 - name: ppt-master
   url: https://github.com/hugohe3/ppt-master
   category: presentation-tools
@@ -3782,6 +3808,60 @@ entries:
   - Agent Skill
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: slide-wright
+  url: https://github.com/arifszn/slide-wright
+  homepage: https://slidewright.netlify.app
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 12
+  license: MIT
+  updated: '2026-07-17'
+  note: Agent skill that turns topics, notes, or outlines into custom Reveal.js slide decks, showing style previews before building a self-contained deck that can export to PDF or deploy to a live URL.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Terry-slide-gen
+  url: https://github.com/TerryFYL/Terry-slide-gen
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-04-15'
+  note: Claude Code slide-generation skill that collects notes, outlines, research, optional figures, or style references once, then autonomously produces generated slide PNGs and an assembled editable PPTX deck.
+  source_types:
+  - 文本/想法
+  - 论文/科研资料
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
 - name: codex-ppt-skill
@@ -5992,6 +6072,63 @@ entries:
   - 白板/思维导图
   catalog_section: main
   readme_group: text_visual
+- name: Huashu Design
+  url: https://github.com/alchaincyf/huashu-design
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 21607
+  license: MIT
+  updated: '2026-07-17'
+  note: Agent-agnostic HTML-native design skill for turning one-sentence briefs and optional brand assets into product launch animations, clickable app prototypes, editable PPT decks, MP4/GIF motion outputs, and print-grade infographics.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: text_visual
+- name: brandsystem-mcp
+  url: https://github.com/Brandcode-Studio/brandsystem-mcp
+  homepage: https://www.brandcode.studio/
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: MIT
+  updated: '2026-07-17'
+  note: Local-first MCP server that extracts websites, PDF brand guides, Figma libraries, local files, or Brandcode Studio brands into a portable .brand runtime with design tokens, voice rules, provenance, compliance checks, and visual brand reports for agents.
+  source_types:
+  - 网页/搜索结果
+  - PDF/文档
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  - 报告/长文档
+  - 证据表
+  catalog_section: main
+  readme_group: text_visual
 - name: Data Formulator
   url: https://github.com/microsoft/data-formulator
   homepage: https://arxiv.org/abs/2408.16119
@@ -7034,6 +7171,38 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: video
+- name: Mediator
+  url: https://github.com/nathanfhh/nbp-web-gen
+  homepage: https://nathanfhh.github.io/nbp-web-gen/
+  category: video-generation
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - GPU/加速器
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 17
+  license: Apache-2.0
+  updated: '2026-06-28'
+  note: Local-first browser workspace for Gemini and Veo that creates images, videos, technical diagrams, mind maps, narrated slide pages, MP4 exports, editable PPTX conversions from slide images or PDFs, and visual-history dashboards with BYOK privacy.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - 架构图/流程图
+  - 白板/思维导图
+  - 视频/音频
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: video
 - name: Gamma
   url: https://gamma.app/
   category: commercial-site
@@ -7429,6 +7598,27 @@ entries:
   - Awesome/索引
   output_forms:
   - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: trending-claude-skills
+  url: https://github.com/linny006/trending-claude-skills
+  category: meta-index
+  surface: index
+  dependencies:
+  - 外部检索/数据源
+  - 系统工具
+  stars: 14
+  license: unknown
+  updated: '2026-07-17'
+  note: Auto-updated GitHub Actions leaderboard that queries GitHub Search API every 15 minutes for recently created or updated Claude Skills and AI-agent repositories, publishing freshness- and momentum-ranked multilingual README tables.
+  source_types:
+  - 代码库
+  - 网页/搜索结果
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  - 证据表
   catalog_section: indexes
   readme_group: indexes
 - name: LLM-Visualization-Paper-List
