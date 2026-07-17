@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-16.
+Last researched: 2026-07-18.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -53,6 +53,8 @@ Update on 2026-07-15: refreshed AI report/dashboard builders, low-code visualiza
 Update on 2026-07-16: refreshed local-first agent workspaces, native Office document engines, browser-editable deck skills, narrated web decks, network and draw.io diagram MCP tools, and Django schema visualization from official GitHub repositories, README evidence, PyPI/marketplace metadata, and GitHub metadata. This pass added iPolloWork, edit2docs, dashi-ppt-skill, deck-factory, econ-slides-skill, voiceover-deck, MCP Office Documents Server, Django ORM Lens, Draw.io MCP Plugin, and Network Sketcher.
 
 Update on 2026-07-17: refreshed local Office/PPTX automation and conversion surfaces from official GitHub project pages and repository evidence. This pass added OfficeCLI, image-to-editable-ppt-skill, dom-to-pptx, MinerU2PPT, ppt-rs, html2pptx, and office-editor-mcp. The shell-targeted scraper was run for only these entries but raw GitHub/homepage DNS resolution failed in the sandbox, so the merged research records keep browser-verified official GitHub page evidence instead of the failed scraper output.
+
+Update on 2026-07-18: refreshed agent-native design, presentation, daily visual-news, brand-runtime, browser media-generation, and skill-index surfaces from official GitHub repositories, project pages, GitHub Pages demos, release media, and GitHub metadata. This pass added ai-frontier-daily, slide-wright, Terry-slide-gen, Huashu Design, brandsystem-mcp, Mediator, and trending-claude-skills. The targeted scraper ran only against these new records and all 11 official sources returned successfully; one unrelated Huashu README asset and one generic MDN link were scrubbed before merging.
 
 ## Search Surfaces
 
