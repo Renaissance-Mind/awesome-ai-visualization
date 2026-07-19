@@ -1,4 +1,4 @@
-generated_at: '2026-07-17T23:11:20+00:00'
+generated_at: '2026-07-19T23:05:39+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 317
-  fetched_sources_ok: 435
-  fetched_sources_failed: 21
-  official_examples: 931
-  official_effect_assets: 1088
-  official_docs: 981
+  entries: 322
+  fetched_sources_ok: 441
+  fetched_sources_failed: 24
+  official_examples: 932
+  official_effect_assets: 1092
+  official_docs: 984
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -30183,3 +30183,196 @@ entries:
     content_type: text/plain
     title: Trending Claude Skills
     bytes: 15407
+- name: NodeSlide
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/HomenShum/NodeSlide
+  homepage: https://nodeslide.vercel.app
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Reviewable deck-as-code app that turns prompts, structured briefs, or raw data into typed DeckSpec presentations
+    with cited agent proposals, editable charts, HTML publishing, and PowerPoint export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: NodeSlide
+    bytes: 17575
+  - kind: homepage
+    url: https://nodeslide.vercel.app/
+    final_url: https://nodeslide.vercel.app/
+    status: 200
+    content_type: text/html
+    title: NodeSlide — reviewable presentations, built from a brief
+    description: Turn a structured brief into an editable, reviewable presentation. Approve scoped AI changes, keep sources
+      and versions attached, then present or export to HTML and PowerPoint.
+    bytes: 1265
+  official_examples:
+  - kind: demo
+    title: '**Live demo →**'
+    url: https://nodeslide.vercel.app
+    source: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '**Product Requirements (PRD)**'
+    url: https://github.com/HomenShum/NodeSlide/blob/HEAD/docs/PRD.md
+    source: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+  - kind: docs
+    title: '**Technical Design (TDD)**'
+    url: https://github.com/HomenShum/NodeSlide/blob/HEAD/docs/TDD.md
+    source: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: '**Live demo →**'
+    url: https://nodeslide.vercel.app
+    source: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+  - kind: docs
+    title: '**Product Requirements (PRD)**'
+    url: https://github.com/HomenShum/NodeSlide/blob/HEAD/docs/PRD.md
+    source: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+  - kind: docs
+    title: '**Technical Design (TDD)**'
+    url: https://github.com/HomenShum/NodeSlide/blob/HEAD/docs/TDD.md
+    source: https://raw.githubusercontent.com/HomenShum/NodeSlide/HEAD/README.md
+  source_headings:
+  - NodeSlide
+  - Documentation
+  - Quickstart
+- name: powerpoint-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/juanocampo400/powerpoint-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Lightweight local MCP server that creates and edits PowerPoint files cross-platform through python-pptx without
+    external API calls or COM automation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/juanocampo400/powerpoint-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/juanocampo400/powerpoint-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPoint MCP Server
+    bytes: 5877
+  source_headings:
+  - Use a Template
+  - Prepare the Template
+  - Presentation & Slides
+- name: Lutrin
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/julien-riel/lutrin
+  homepage: https://www.npmjs.com/package/lutrin
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Markdown deck compiler, VS Code/Obsidian workflow, and agent skill that infers layouts, validates overflow,
+    and exports editable PowerPoint or standalone HTML presenter pages.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Lutrin
+    bytes: 15182
+  - kind: homepage
+    url: https://www.npmjs.com/package/lutrin
+    final_url: https://www.npmjs.com/package/lutrin
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: docs/dsl.md
+    url: https://github.com/julien-riel/lutrin/blob/HEAD/docs/dsl.md
+    source: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Cover slide
+    url: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/docs/images/cover.png
+    source: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+  - kind: image
+    title: 'Overview of Lutrin: a Markdown deck and the .pptx it produces'
+    url: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/docs/images/overview.png
+    source: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+  - kind: image
+    title: Slide with a donut chart
+    url: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/docs/images/chart.png
+    source: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+  - kind: image
+    title: Two-column "pros / cons" slide
+    url: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/docs/images/pros-cons.png
+    source: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/dsl.md
+    url: https://github.com/julien-riel/lutrin/blob/HEAD/docs/dsl.md
+    source: https://raw.githubusercontent.com/julien-riel/lutrin/HEAD/README.md
+  source_headings:
+  - Why not Marp / Slidev / reveal.js / Pandoc?
+- name: BriefPress
+  category: infographic-report
+  surface: library
+  primary_url: https://github.com/liustack/briefpress
+  homepage: https://www.npmjs.com/package/@liustack/briefpress
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: CLI and Agent Skill for deterministic Playwright/Chromium capture of local HTML into high-DPI PNG visual briefs,
+    dashboards, reports, and infographics, with a safe mode for disabling JavaScript and network requests.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/liustack/briefpress/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/liustack/briefpress/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: BriefPress
+    bytes: 1647
+  - kind: homepage
+    url: https://www.npmjs.com/package/@liustack/briefpress
+    final_url: https://www.npmjs.com/package/@liustack/briefpress
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - Usage
+  - High-DPI poster
+- name: MCP Chart Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/KamranBiglari/mcp-server-chart
+  homepage: https://chart.mcp.cloudcertainty.com/mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: TypeScript MCP server and hosted HTTP/SSE endpoint for generating validated Chart.js-style business, statistical,
+    financial, gauge, sparkline, and Sankey charts from structured data.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/KamranBiglari/mcp-server-chart/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/KamranBiglari/mcp-server-chart/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Chart Server
+    bytes: 7281
+  - kind: homepage
+    url: https://chart.mcp.cloudcertainty.com/mcp
+    final_url: https://chart.mcp.cloudcertainty.com/mcp
+    status: 502
+    content_type: text/html
+    error: HTTP 502
+  source_headings:
+  - Usage Examples

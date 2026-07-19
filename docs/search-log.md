@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-18.
+Last researched: 2026-07-20.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -55,6 +55,8 @@ Update on 2026-07-16: refreshed local-first agent workspaces, native Office docu
 Update on 2026-07-17: refreshed local Office/PPTX automation and conversion surfaces from official GitHub project pages and repository evidence. This pass added OfficeCLI, image-to-editable-ppt-skill, dom-to-pptx, MinerU2PPT, ppt-rs, html2pptx, and office-editor-mcp. The shell-targeted scraper was run for only these entries but raw GitHub/homepage DNS resolution failed in the sandbox, so the merged research records keep browser-verified official GitHub page evidence instead of the failed scraper output.
 
 Update on 2026-07-18: refreshed agent-native design, presentation, daily visual-news, brand-runtime, browser media-generation, and skill-index surfaces from official GitHub repositories, project pages, GitHub Pages demos, release media, and GitHub metadata. This pass added ai-frontier-daily, slide-wright, Terry-slide-gen, Huashu Design, brandsystem-mcp, Mediator, and trending-claude-skills. The targeted scraper ran only against these new records and all 11 official sources returned successfully; one unrelated Huashu README asset and one generic MDN link were scrubbed before merging.
+
+Update on 2026-07-20: refreshed reviewable deck-as-code, HTML-to-infographic capture, Markdown-to-PPT/HTML compilation, local PowerPoint MCP automation, and chart-generation MCP surfaces from official GitHub repositories, npm package pages, live demos, README evidence, and GitHub metadata. This pass added NodeSlide, BriefPress, Lutrin, powerpoint-mcp, and MCP Chart Server. The targeted scraper ran only against these new records; one `.env.example` setup link was scrubbed from NodeSlide's example list before merging.
 
 ## Search Surfaces
 
@@ -373,6 +375,14 @@ Excluded if:
 - [Obsidian Visual Skills Pack](https://github.com/axtonliu/axton-obsidian-visual-skills): Claude Code visual skills for generating Obsidian Canvas, Excalidraw, and Mermaid diagrams from text.
 - [Mermaid PowerPoint Add-in](https://github.com/accionlabs/mermaid-powerpoint-addin): PowerPoint add-in for writing, previewing, inserting, and re-editing Mermaid diagrams inside slide decks.
 - [drawio-skill](https://github.com/Agents365-ai/drawio-skill): agent skill for natural-language, Mermaid, codebase, IaC, SQL, and sequence-spec inputs to editable draw.io diagrams with PNG/SVG/PDF/JPG export.
+
+## Added in the 2026-07-20 Daily Refresh
+
+- [NodeSlide](https://github.com/HomenShum/NodeSlide): reviewable deck-as-code app that turns prompts, structured briefs, or raw data into typed DeckSpec presentations with cited agent proposals, editable charts, HTML publishing, and PowerPoint export.
+- [BriefPress](https://github.com/liustack/briefpress): CLI and Agent Skill for deterministic Playwright/Chromium capture of local HTML into high-DPI PNG visual briefs, dashboards, reports, and infographics.
+- [Lutrin](https://github.com/julien-riel/lutrin): Markdown deck compiler, VS Code/Obsidian workflow, and agent skill that infers layouts, validates overflow, and exports editable PowerPoint or standalone HTML presenter pages.
+- [powerpoint-mcp](https://github.com/juanocampo400/powerpoint-mcp): lightweight local MCP server that creates and edits PowerPoint files cross-platform through python-pptx without external API calls or COM automation.
+- [MCP Chart Server](https://github.com/KamranBiglari/mcp-server-chart): TypeScript MCP server and hosted HTTP/SSE endpoint for generating validated business, statistical, financial, gauge, sparkline, and Sankey charts from structured data.
 
 ## Early Market Read
 
