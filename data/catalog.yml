@@ -1,4 +1,4 @@
-last_researched: '2026-07-18'
+last_researched: '2026-07-20'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -2134,6 +2134,34 @@ entries:
   - PPT/演示文稿
   catalog_section: main
   readme_group: presentation
+- name: NodeSlide
+  url: https://github.com/HomenShum/NodeSlide
+  homepage: https://nodeslide.vercel.app
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-07-19'
+  note: Reviewable deck-as-code app that turns prompts, structured briefs, or raw data into typed DeckSpec presentations with cited agent proposals, editable charts, HTML publishing, and PowerPoint export.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - PDF/文档
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
 - name: Deckbuilder
   url: https://github.com/teknologika/Deckbuilder
   category: presentation-tools
@@ -3277,6 +3305,28 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: powerpoint-mcp
+  url: https://github.com/juanocampo400/powerpoint-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 7
+  license: MIT
+  updated: '2026-07-15'
+  note: Lightweight local MCP server that creates and edits PowerPoint files cross-platform through python-pptx without external API calls or COM automation.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
 - name: Presentations.AI MCP Server
   url: https://github.com/slidecraft-in/presentations-ai-mcp-server
   homepage: https://www.presentations.ai
@@ -3406,6 +3456,34 @@ entries:
   output_forms:
   - PPT/演示文稿
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Lutrin
+  url: https://github.com/julien-riel/lutrin
+  homepage: https://www.npmjs.com/package/lutrin
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-19'
+  note: Markdown deck compiler, VS Code/Obsidian workflow, and agent skill that infers layouts, validates overflow, and exports editable PowerPoint or standalone HTML presenter pages.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/Mermaid
+  - 图表/仪表盘
   catalog_section: main
   readme_group: presentation
 - name: slide-mcp
@@ -5519,6 +5597,57 @@ entries:
   - 图表/仪表盘
   - 网页/交互页面
   - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: BriefPress
+  url: https://github.com/liustack/briefpress
+  homepage: https://www.npmjs.com/package/@liustack/briefpress
+  category: infographic-report
+  surface: library
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 3
+  license: MIT
+  updated: '2026-07-19'
+  note: CLI and Agent Skill for deterministic Playwright/Chromium capture of local HTML into high-DPI PNG visual briefs, dashboards, reports, and infographics, with a safe mode for disabling JavaScript and network requests.
+  source_types:
+  - 网页/搜索结果
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 信息图/视觉报告
+  - 报告/简报
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: MCP Chart Server
+  url: https://github.com/KamranBiglari/mcp-server-chart
+  homepage: https://chart.mcp.cloudcertainty.com/mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 7
+  license: MIT
+  updated: '2026-03-16'
+  note: TypeScript MCP server and hosted HTTP/SSE endpoint for generating validated Chart.js-style business, statistical, financial, gauge, sparkline, and Sankey charts from structured data.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
