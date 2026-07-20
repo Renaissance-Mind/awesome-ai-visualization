@@ -1,4 +1,4 @@
-generated_at: '2026-07-19T23:05:39+00:00'
+generated_at: '2026-07-20T23:06:55+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 322
-  fetched_sources_ok: 441
-  fetched_sources_failed: 24
-  official_examples: 932
-  official_effect_assets: 1092
-  official_docs: 984
+  entries: 328
+  fetched_sources_ok: 449
+  fetched_sources_failed: 25
+  official_examples: 944
+  official_effect_assets: 1117
+  official_docs: 999
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -30376,3 +30376,503 @@ entries:
     error: HTTP 502
   source_headings:
   - Usage Examples
+- name: Report Skills
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/dashaworks/report-skills
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 模型 API
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill bundle that turns agent-made research, analysis, proposals, status updates, and
+    client work into live tracked web reports, recurring branded pages, proposals, and responsive slide decks through ReportRoom
+    MCP.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dashaworks/report-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dashaworks/report-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Report Skills — Claude Code & Codex skills for AI reports, decks & client reports
+    bytes: 6358
+  official_effect_assets:
+  - kind: image
+    title: 'Report Skills — AI report generator skills for Claude Code and Codex: AI reports, decks and client reports published
+      via the ReportRoom MCP'
+    url: https://raw.githubusercontent.com/dashaworks/report-skills/HEAD/assets/hero.jpg
+    source: https://raw.githubusercontent.com/dashaworks/report-skills/HEAD/README.md
+  source_headings:
+  - Why not a PDF or a DocSend link?
+  - Is this a DocSend alternative?
+- name: CREPE
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/mariolpantunes/crepe-mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Compile, Research, Export, Presentation Engine MCP server that lets agents draft Pandoc Markdown decks, compile
+    Beamer PDF or PowerPoint, render slides to PNG for visual validation, and pull context from Semantic Scholar, Wikipedia,
+    and the web.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mariolpantunes/crepe-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mariolpantunes/crepe-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: CREPE — Compile, Research, Export, Presentation Engine
+    bytes: 8363
+  source_headings:
+  - CREPE — Compile, Research, Export, Presentation Engine
+  - Presentation (stateful)
+  - Pandoc slide syntax quick reference
+- name: Knossos MCP
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/AraneaDev/Knossos-MCP
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Local-first MCP and CLI that scans PHP, TypeScript/JavaScript, and Python repositories into an evidence-backed
+    architecture graph, then exports Mermaid or PlantUML diagrams plus impact, flow, boundary, health, and change-analysis
+    reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Knossos MCP
+    bytes: 13103
+  official_docs:
+  - kind: docs
+    title: MCP tool reference
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/mcp-tools.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: CLI reference
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/cli.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: installation
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/guides/installation.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Laravel
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/php-laravel.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Symfony
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/php-symfony.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Next.js, React, Vue, stores, endpoints
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/typescript.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: FastAPI, Django, Celery
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/python.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: scanner SDK
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/scanner-sdk.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: HTTP threat model
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/http-threat-model.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: fault recovery matrix
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/recovery-matrix.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Checked-in project configuration
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/guides/project-configuration.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Running in Docker
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/container.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting and migrations
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/troubleshooting-and-migrations.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: quality gates
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/development/quality.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP tool reference
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/mcp-tools.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: CLI reference
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/cli.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: installation
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/guides/installation.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Laravel
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/php-laravel.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Symfony
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/php-symfony.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Next.js, React, Vue, stores, endpoints
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/typescript.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: FastAPI, Django, Celery
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/python.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: scanner SDK
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/scanner-sdk.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: HTTP threat model
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/http-threat-model.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: fault recovery matrix
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/recovery-matrix.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Checked-in project configuration
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/guides/project-configuration.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Running in Docker
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/container.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting and migrations
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/operations/troubleshooting-and-migrations.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  - kind: docs
+    title: quality gates
+    url: https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/development/quality.md
+    source: https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md
+  source_headings:
+  - Worked example
+  - Documentation
+- name: media-gen-mcp
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/wangdong233/media-gen-mcp
+  homepage: https://www.npmjs.com/package/media-gen-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: All-in-one Claude Code image MCP for local and API-backed image/video generation, OCR, chart and table recognition,
+    architecture diagrams, data charts, cards, QR codes, formulas, SVG/PNG rendering, and HTML/CSS animation capture.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wangdong233/media-gen-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wangdong233/media-gen-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: media-gen-mcp
+    bytes: 29311
+  - kind: homepage
+    url: https://www.npmjs.com/package/media-gen-mcp-server
+    final_url: https://www.npmjs.com/package/media-gen-mcp-server
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - (智谱 cogview-3-flash / cogvideox-flash 也永久免费,可二选一或都配)
+  - 看懂一张图 / 一份 PDF(把图和文档变数据)
+  - 二、识别类配置(识图 / OCR / 表格 / 图表 / 视觉理解)
+- name: excalidraw-skill-pack
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/isatimur/excalidraw-skill-pack
+  homepage: https://excalidraw-skill-pack.vercel.app
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-agnostic Excalidraw methodology, themes, renderers, installers, and MCP server for turning prompt-driven
+    diagrams into argument-quality editable figures with book-grade examples and themed exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Install
+    bytes: 7563
+  - kind: homepage
+    url: https://excalidraw-skill-pack.vercel.app/
+    final_url: https://excalidraw-skill-pack.vercel.app/
+    status: 200
+    content_type: text/html
+    title: excalidraw-skill-pack — Make your AI agent argue visually
+    description: 'The diagram-quality layer for AI agents: an opinionated Excalidraw methodology + themes that makes diagrams
+      that argue, not boxes that label. Claude Code, Cursor, Copilot, Codex, G'
+    bytes: 11886
+  official_examples:
+  - kind: template
+    title: Browse the theme registry →
+    url: https://excalidraw-skill-pack.vercel.app/themes
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/create-theme`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/create-theme
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-stripe-press`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-stripe-press
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-notion`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-notion
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-whiteboard`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-whiteboard
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-dark`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-dark
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: example
+    title: '`examples/book`'
+    url: https://github.com/isatimur/excalidraw-skill-pack/tree/main/examples/book
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: full methodology
+    url: https://excalidraw-skill-pack.vercel.app/spec/theme-manifest
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: Create a custom theme
+    url: https://excalidraw-skill-pack.vercel.app/themes/create
+    source: https://excalidraw-skill-pack.vercel.app/
+  official_effect_assets:
+  - kind: gif
+    title: Real architecture diagrams the pack rendered for a published book — cycling to show they argue, not just label
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/demo.gif
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Book argument spine
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/01-book-argument-spine.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Autoresearch machine
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/02-autoresearch-machine.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Chapter 1 — the shift
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/05-chapter1-the-shift.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Chapter 4 — evals
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/08-chapter4-evals.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Default Sketchy
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/default-sketchy.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Stripe Press
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/stripe-press.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Notion
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/notion.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Whiteboard
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/whiteboard.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: Dark
+    url: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/dark.png
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: image
+    title: excalidraw-skill-pack — Make your AI agent argue visually
+    url: https://excalidraw-skill-pack.vercel.app/images/hero.png
+    source: https://excalidraw-skill-pack.vercel.app/
+  - kind: image
+    title: default-sketchy
+    url: https://excalidraw-skill-pack.vercel.app/images/themes/default-sketchy.png
+    source: https://excalidraw-skill-pack.vercel.app/
+  official_links:
+  - kind: template
+    title: Browse the theme registry →
+    url: https://excalidraw-skill-pack.vercel.app/themes
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/create-theme`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/create-theme
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-stripe-press`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-stripe-press
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-notion`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-notion
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-whiteboard`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-whiteboard
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: '`@excalidraw-skill-pack/theme-dark`'
+    url: https://www.npmjs.com/package/@excalidraw-skill-pack/theme-dark
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: example
+    title: '`examples/book`'
+    url: https://github.com/isatimur/excalidraw-skill-pack/tree/main/examples/book
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: full methodology
+    url: https://excalidraw-skill-pack.vercel.app/spec/theme-manifest
+    source: https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md
+  - kind: template
+    title: Create a custom theme
+    url: https://excalidraw-skill-pack.vercel.app/themes/create
+    source: https://excalidraw-skill-pack.vercel.app/
+- name: Capci MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/vishal-bulbule/capci-mcp
+  homepage: https://capci.app
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Hosted Streamable HTTP MCP server that turns plain-text prompts into publish-ready architecture, flowchart,
+    sequence, ER, class, mind map, Gantt, chart, logo, post, and animated GIF diagram artifacts with brand-aware refinement.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Capci MCP — Text-to-Diagram MCP Server for Claude, VS Code & Antigravity
+    bytes: 7500
+  - kind: homepage
+    url: https://capci.app/
+    final_url: https://capci.app/
+    status: 200
+    content_type: text/html
+    title: 'Capci: Prompt-to-Diagram Tool for Your Agent'
+    description: 'Capci is a prompt-to-diagram engine: turn one line into a real, accurate architecture, ER or flow diagram
+      with real cloud-provider icons, on your brand. Built for humans, callable '
+    bytes: 115280
+  official_examples:
+  - kind: example
+    title: Text-to-diagram examples
+    url: https://github.com/vishal-bulbule/text-to-diagram-examples
+    source: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+  - kind: example
+    title: AI social post examples
+    url: https://github.com/vishal-bulbule/ai-social-post-examples
+    source: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+  - kind: showcase
+    title: Gallery
+    url: https://capci.app/gallery
+    source: https://capci.app/
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://capci.app/docs
+    source: https://capci.app/
+  official_effect_assets:
+  - kind: gif
+    title: Animated architecture diagram GIF
+    url: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/media/demo-animated-architecture.gif
+    source: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+  - kind: image
+    title: Prompt-to-architecture diagram generated via the Capci MCP server
+    url: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/media/demo-architecture.png
+    source: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+  - kind: gif
+    title: Diagram2 Databricks Medallion
+    url: https://capci.app/showcase/diagram2-databricks-medallion.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Diagram Agent
+    url: https://capci.app/showcase/diagram-agent.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Lp Flow Amber
+    url: https://capci.app/showcase/lp-flow-amber.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Diagram Sales Red
+    url: https://capci.app/showcase/diagram-sales-red.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Lp Flow Rose
+    url: https://capci.app/showcase/lp-flow-rose.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Enterprise AI Platform Â· Structured Â· animated AI architecture diagram generator Â· Capci
+    url: https://capci.app/showcase/diagram-enterprise-boxed.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Real-time Fraud Detection Â· animated AI architecture diagram generator Â· Capci
+    url: https://capci.app/showcase/diagram-fraud-boxed.gif
+    source: https://capci.app/
+  - kind: gif
+    title: E-commerce Subscription ERD Â· animated AI architecture diagram generator Â· Capci
+    url: https://capci.app/showcase/diagram-er-platform.gif
+    source: https://capci.app/
+  - kind: gif
+    title: RAG on Google Cloud Â· animated AI architecture diagram generator Â· Capci
+    url: https://capci.app/showcase/diagram-rag-gcp.gif
+    source: https://capci.app/
+  - kind: gif
+    title: Product roadmap Â· animated AI architecture diagram generator Â· Capci
+    url: https://capci.app/showcase/lp-roadmap-violet.gif
+    source: https://capci.app/
+  official_links:
+  - kind: example
+    title: Text-to-diagram examples
+    url: https://github.com/vishal-bulbule/text-to-diagram-examples
+    source: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+  - kind: example
+    title: AI social post examples
+    url: https://github.com/vishal-bulbule/ai-social-post-examples
+    source: https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md
+  - kind: showcase
+    title: Gallery
+    url: https://capci.app/gallery
+    source: https://capci.app/
+  - kind: docs
+    title: Docs
+    url: https://capci.app/docs
+    source: https://capci.app/
+  source_headings:
+  - Capci MCP — Text-to-Diagram MCP Server for Claude, VS Code & Antigravity
+  - Why an MCP diagram server?
+  - Example prompts

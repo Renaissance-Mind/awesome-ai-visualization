@@ -1,109 +1,109 @@
 {
-  "generatedAt": "2026-07-19T23:05:39+00:00",
-  "lastResearched": "2026-07-20",
+  "generatedAt": "2026-07-20T23:06:55+00:00",
+  "lastResearched": "2026-07-21",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 322,
+    "total": 328,
     "openSource": 91,
-    "saas": 46,
-    "modelApi": 123,
-    "examples": 932,
-    "effectAssets": 1092,
-    "docs": 984
+    "saas": 47,
+    "modelApi": 126,
+    "examples": 944,
+    "effectAssets": 1117,
+    "docs": 999
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 41,
-      "PDF/文档": 110,
-      "文本/想法": 196,
-      "数据/表格": 112,
-      "代码/技术描述": 55,
-      "网页/搜索结果": 98,
-      "代码库": 33,
+      "论文/科研资料": 42,
+      "PDF/文档": 111,
+      "文本/想法": 200,
+      "数据/表格": 114,
+      "代码/技术描述": 57,
+      "网页/搜索结果": 100,
+      "代码库": 34,
       "DSL/代码": 59,
       "新闻/资讯": 12,
       "知识库/个人资料": 21,
-      "任意/多源": 35,
+      "任意/多源": 38,
       "Office 文档": 42,
       "引用网络": 4,
       "数据库": 24
     },
     "toolForms": {
       "开源应用/框架": 91,
-      "Agent Skill": 98,
-      "Skill 集合": 26,
+      "Agent Skill": 99,
+      "Skill 集合": 27,
       "数据集/评测": 2,
       "Bot/助手": 8,
-      "产品/SaaS": 46,
-      "MCP Server": 82,
+      "产品/SaaS": 47,
+      "MCP Server": 88,
       "研究原型": 4,
-      "API/SDK/库": 29,
+      "API/SDK/库": 30,
       "Awesome/索引": 16
     },
     "outputForms": {
-      "图形摘要/信息图": 22,
-      "PPT/演示文稿": 140,
-      "网页/交互页面": 78,
+      "图形摘要/信息图": 25,
+      "PPT/演示文稿": 142,
+      "网页/交互页面": 79,
       "问答/学习材料": 11,
-      "报告/长文档": 32,
-      "证据表": 12,
+      "报告/长文档": 33,
+      "证据表": 13,
       "信息图/视觉报告": 48,
-      "图表/仪表盘": 80,
-      "架构图/流程图": 65,
-      "SVG/PNG/PDF": 102,
+      "图表/仪表盘": 82,
+      "架构图/流程图": 69,
+      "SVG/PNG/PDF": 105,
       "报告/简报": 33,
-      "白板/思维导图": 23,
-      "图表/Mermaid": 38,
-      "视频/音频": 24,
+      "白板/思维导图": 25,
+      "图表/Mermaid": 39,
+      "视频/音频": 26,
       "表格/时间线": 6,
       "引用答案": 4,
       "思维导图/知识地图": 18,
-      "结构化数据/Markdown": 22,
+      "结构化数据/Markdown": 23,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 21,
+      "代码地图/Repo Wiki": 22,
       "图表/渲染输出": 12,
       "工具索引": 18
     },
     "dependencies": {
-      "本地语言环境": 238,
-      "模型 API": 123,
-      "文档解析/OCR": 50,
-      "渲染/导出": 243,
+      "本地语言环境": 242,
+      "模型 API": 126,
+      "文档解析/OCR": 51,
+      "渲染/导出": 249,
       "GPU/加速器": 10,
-      "模板/素材": 139,
-      "Agent 宿主": 130,
-      "系统工具": 49,
-      "浏览器/账号": 89,
-      "存储/索引": 37,
-      "外部检索/数据源": 54,
-      "MCP Client": 84,
-      "代码分析工具": 24
+      "模板/素材": 142,
+      "Agent 宿主": 133,
+      "系统工具": 52,
+      "浏览器/账号": 91,
+      "存储/索引": 38,
+      "外部检索/数据源": 56,
+      "MCP Client": 90,
+      "代码分析工具": 25
     },
     "categories": {
       "paper-visualization": 13,
       "doc-to-knowledge": 28,
-      "research-report": 13,
+      "research-report": 14,
       "infographic-report": 30,
       "data-dashboard": 38,
-      "diagram-generation": 40,
+      "diagram-generation": 42,
       "literature-map": 4,
-      "presentation-tools": 93,
-      "codebase-map": 19,
-      "rendering-primitive": 7,
+      "presentation-tools": 94,
+      "codebase-map": 20,
+      "rendering-primitive": 8,
       "video-generation": 8,
       "commercial-site": 10,
       "meta-index": 19
     },
     "groups": {
       "paper": 24,
-      "text_visual": 38,
+      "text_visual": 40,
       "web_news": 8,
       "support_mindmap": 9,
-      "docs": 10,
+      "docs": 11,
       "support_doc_parse": 9,
-      "presentation": 105,
-      "code": 19,
-      "support_render": 38,
+      "presentation": 106,
+      "code": 20,
+      "support_render": 39,
       "diagrams": 2,
       "data": 33,
       "video": 8,
@@ -22061,6 +22061,567 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Report Skills",
+      "url": "https://github.com/dashaworks/report-skills",
+      "primaryUrl": "https://github.com/dashaworks/report-skills",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "模型 API",
+        "浏览器/账号",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "Claude Code and Codex skill bundle that turns agent-made research, analysis, proposals, status updates, and client work into live tracked web reports, recurring branded pages, proposals, and responsive slide decks through ReportRoom MCP.",
+      "sourceTypes": [
+        "任意/多源",
+        "文本/想法",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Report Skills — AI report generator skills for Claude Code and Codex: AI reports, decks and client reports published via the ReportRoom MCP",
+          "url": "https://raw.githubusercontent.com/dashaworks/report-skills/HEAD/assets/hero.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dashaworks/report-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "CREPE",
+      "url": "https://github.com/mariolpantunes/crepe-mcp",
+      "primaryUrl": "https://github.com/mariolpantunes/crepe-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "Compile, Research, Export, Presentation Engine MCP server that lets agents draft Pandoc Markdown decks, compile Beamer PDF or PowerPoint, render slides to PNG for visual validation, and pull context from Semantic Scholar, Wikipedia, and the web.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Knossos MCP",
+      "url": "https://github.com/AraneaDev/Knossos-MCP",
+      "primaryUrl": "https://github.com/AraneaDev/Knossos-MCP",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "Local-first MCP and CLI that scans PHP, TypeScript/JavaScript, and Python repositories into an evidence-backed architecture graph, then exports Mermaid or PlantUML diagrams plus impact, flow, boundary, health, and change-analysis reports.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "图表/Mermaid",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP tool reference",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/mcp-tools.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI reference",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/cli.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "installation",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/guides/installation.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Laravel",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/php-laravel.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Symfony",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/php-symfony.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Next.js, React, Vue, stores, endpoints",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/typescript.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "FastAPI, Django, Celery",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/languages/python.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "scanner SDK",
+          "url": "https://github.com/AraneaDev/Knossos-MCP/blob/HEAD/docs/reference/scanner-sdk.md",
+          "source": "https://raw.githubusercontent.com/AraneaDev/Knossos-MCP/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 14,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "media-gen-mcp",
+      "url": "https://github.com/wangdong233/media-gen-mcp",
+      "primaryUrl": "https://github.com/wangdong233/media-gen-mcp",
+      "homepage": "https://www.npmjs.com/package/media-gen-mcp-server",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "All-in-one Claude Code image MCP for local and API-backed image/video generation, OCR, chart and table recognition, architecture diagrams, data charts, cards, QR codes, formulas, SVG/PNG rendering, and HTML/CSS animation capture.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "视频/音频",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "excalidraw-skill-pack",
+      "url": "https://github.com/isatimur/excalidraw-skill-pack",
+      "primaryUrl": "https://github.com/isatimur/excalidraw-skill-pack",
+      "homepage": "https://excalidraw-skill-pack.vercel.app",
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "Agent-agnostic Excalidraw methodology, themes, renderers, installers, and MCP server for turning prompt-driven diagrams into argument-quality editable figures with book-grade examples and themed exports.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Browse the theme registry →",
+          "url": "https://excalidraw-skill-pack.vercel.app/themes",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@excalidraw-skill-pack/create-theme`",
+          "url": "https://www.npmjs.com/package/@excalidraw-skill-pack/create-theme",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@excalidraw-skill-pack/theme-stripe-press`",
+          "url": "https://www.npmjs.com/package/@excalidraw-skill-pack/theme-stripe-press",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@excalidraw-skill-pack/theme-notion`",
+          "url": "https://www.npmjs.com/package/@excalidraw-skill-pack/theme-notion",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@excalidraw-skill-pack/theme-whiteboard`",
+          "url": "https://www.npmjs.com/package/@excalidraw-skill-pack/theme-whiteboard",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@excalidraw-skill-pack/theme-dark`",
+          "url": "https://www.npmjs.com/package/@excalidraw-skill-pack/theme-dark",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/book`",
+          "url": "https://github.com/isatimur/excalidraw-skill-pack/tree/main/examples/book",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "full methodology",
+          "url": "https://excalidraw-skill-pack.vercel.app/spec/theme-manifest",
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Create a custom theme",
+          "url": "https://excalidraw-skill-pack.vercel.app/themes/create",
+          "source": "https://excalidraw-skill-pack.vercel.app/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Real architecture diagrams the pack rendered for a published book — cycling to show they argue, not just label",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Book argument spine",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/01-book-argument-spine.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Autoresearch machine",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/02-autoresearch-machine.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chapter 1 — the shift",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/05-chapter1-the-shift.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chapter 4 — evals",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/examples/book/08-chapter4-evals.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Default Sketchy",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/default-sketchy.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Stripe Press",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/stripe-press.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Notion",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/notion.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Whiteboard",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/whiteboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark",
+          "url": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/docs/site/images/themes/dark.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/excalidraw-skill-pack/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "excalidraw-skill-pack — Make your AI agent argue visually",
+          "url": "https://excalidraw-skill-pack.vercel.app/images/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://excalidraw-skill-pack.vercel.app/"
+        },
+        {
+          "kind": "image",
+          "title": "default-sketchy",
+          "url": "https://excalidraw-skill-pack.vercel.app/images/themes/default-sketchy.png",
+          "thumbnailUrl": null,
+          "source": "https://excalidraw-skill-pack.vercel.app/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 9,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Capci MCP",
+      "url": "https://github.com/vishal-bulbule/capci-mcp",
+      "primaryUrl": "https://github.com/vishal-bulbule/capci-mcp",
+      "homepage": "https://capci.app",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-07-20",
+      "note": "Hosted Streamable HTTP MCP server that turns plain-text prompts into publish-ready architecture, flowchart, sequence, ER, class, mind map, Gantt, chart, logo, post, and animated GIF diagram artifacts with brand-aware refinement.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "图表/仪表盘",
+        "图形摘要/信息图",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://capci.app/docs",
+          "source": "https://capci.app/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Text-to-diagram examples",
+          "url": "https://github.com/vishal-bulbule/text-to-diagram-examples",
+          "source": "https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "AI social post examples",
+          "url": "https://github.com/vishal-bulbule/ai-social-post-examples",
+          "source": "https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Gallery",
+          "url": "https://capci.app/gallery",
+          "source": "https://capci.app/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Animated architecture diagram GIF",
+          "url": "https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/media/demo-animated-architecture.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Prompt-to-architecture diagram generated via the Capci MCP server",
+          "url": "https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/media/demo-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vishal-bulbule/capci-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Diagram2 Databricks Medallion",
+          "url": "https://capci.app/showcase/diagram2-databricks-medallion.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Diagram Agent",
+          "url": "https://capci.app/showcase/diagram-agent.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Lp Flow Amber",
+          "url": "https://capci.app/showcase/lp-flow-amber.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Diagram Sales Red",
+          "url": "https://capci.app/showcase/diagram-sales-red.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Lp Flow Rose",
+          "url": "https://capci.app/showcase/lp-flow-rose.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Enterprise AI Platform Â· Structured Â· animated AI architecture diagram generator Â· Capci",
+          "url": "https://capci.app/showcase/diagram-enterprise-boxed.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Real-time Fraud Detection Â· animated AI architecture diagram generator Â· Capci",
+          "url": "https://capci.app/showcase/diagram-fraud-boxed.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "E-commerce Subscription ERD Â· animated AI architecture diagram generator Â· Capci",
+          "url": "https://capci.app/showcase/diagram-er-platform.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "RAG on Google Cloud Â· animated AI architecture diagram generator Â· Capci",
+          "url": "https://capci.app/showcase/diagram-rag-gcp.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        },
+        {
+          "kind": "gif",
+          "title": "Product roadmap Â· animated AI architecture diagram generator Â· Capci",
+          "url": "https://capci.app/showcase/lp-roadmap-violet.gif",
+          "thumbnailUrl": null,
+          "source": "https://capci.app/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 3,
+      "effectAssetsCount": 12
     },
     {
       "name": "Data Formulator",
