@@ -1,4 +1,4 @@
-last_researched: '2026-07-20'
+last_researched: '2026-07-21'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -6256,6 +6256,178 @@ entries:
   - 结构化数据/Markdown
   - 报告/长文档
   - 证据表
+  catalog_section: main
+  readme_group: text_visual
+- name: Report Skills
+  url: https://github.com/dashaworks/report-skills
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 模型 API
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-07-20'
+  note: Claude Code and Codex skill bundle that turns agent-made research, analysis, proposals, status updates, and client work into live tracked web reports, recurring branded pages, proposals, and responsive slide decks through ReportRoom MCP.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - Skill 集合
+  - MCP Server
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: docs
+- name: CREPE
+  url: https://github.com/mariolpantunes/crepe-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-07-20'
+  note: Compile, Research, Export, Presentation Engine MCP server that lets agents draft Pandoc Markdown decks, compile Beamer PDF or PowerPoint, render slides to PNG for visual validation, and pull context from Semantic Scholar, Wikipedia, and the web.
+  source_types:
+  - 论文/科研资料
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: presentation
+- name: Knossos MCP
+  url: https://github.com/AraneaDev/Knossos-MCP
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-07-20'
+  note: Local-first MCP and CLI that scans PHP, TypeScript/JavaScript, and Python repositories into an evidence-backed architecture graph, then exports Mermaid or PlantUML diagrams plus impact, flow, boundary, health, and change-analysis reports.
+  source_types:
+  - 代码库
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: media-gen-mcp
+  url: https://github.com/wangdong233/media-gen-mcp
+  homepage: https://www.npmjs.com/package/media-gen-mcp-server
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-07-20'
+  note: All-in-one Claude Code image MCP for local and API-backed image/video generation, OCR, chart and table recognition, architecture diagrams, data charts, cards, QR codes, formulas, SVG/PNG rendering, and HTML/CSS animation capture.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图形摘要/信息图
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 视频/音频
+  - 结构化数据/Markdown
+  catalog_section: support_render
+  readme_group: support_render
+- name: excalidraw-skill-pack
+  url: https://github.com/isatimur/excalidraw-skill-pack
+  homepage: https://excalidraw-skill-pack.vercel.app
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-20'
+  note: Agent-agnostic Excalidraw methodology, themes, renderers, installers, and MCP server for turning prompt-driven diagrams into argument-quality editable figures with book-grade examples and themed exports.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Capci MCP
+  url: https://github.com/vishal-bulbule/capci-mcp
+  homepage: https://capci.app
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-07-20'
+  note: Hosted Streamable HTTP MCP server that turns plain-text prompts into publish-ready architecture, flowchart, sequence, ER, class, mind map, Gantt, chart, logo, post, and animated GIF diagram artifacts with brand-aware refinement.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 图表/仪表盘
+  - 图形摘要/信息图
+  - 视频/音频
   catalog_section: main
   readme_group: text_visual
 - name: Data Formulator

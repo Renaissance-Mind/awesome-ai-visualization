@@ -384,6 +384,15 @@ Excluded if:
 - [powerpoint-mcp](https://github.com/juanocampo400/powerpoint-mcp): lightweight local MCP server that creates and edits PowerPoint files cross-platform through python-pptx without external API calls or COM automation.
 - [MCP Chart Server](https://github.com/KamranBiglari/mcp-server-chart): TypeScript MCP server and hosted HTTP/SSE endpoint for generating validated business, statistical, financial, gauge, sparkline, and Sankey charts from structured data.
 
+## Added in the 2026-07-21 Daily Refresh
+
+- [Report Skills](https://github.com/dashaworks/report-skills): Claude Code and Codex skill bundle for publishing agent-made research, proposals, status reports, client pages, and slide decks as live tracked ReportRoom documents.
+- [CREPE](https://github.com/mariolpantunes/crepe-mcp): Compile, Research, Export, Presentation Engine MCP server for drafting Pandoc Markdown decks, compiling Beamer PDF or PowerPoint, rendering PNG validation frames, and researching via Semantic Scholar, Wikipedia, and the web.
+- [Knossos MCP](https://github.com/AraneaDev/Knossos-MCP): local-first architecture-intelligence MCP and CLI that scans PHP, TypeScript/JavaScript, and Python repositories into evidence-backed graphs with Mermaid/PlantUML diagram export.
+- [media-gen-mcp](https://github.com/wangdong233/media-gen-mcp): all-in-one Claude Code image MCP for image/video generation, OCR, table/chart recognition, architecture diagrams, data charts, social cards, QR codes, formulas, and local render capture.
+- [excalidraw-skill-pack](https://github.com/isatimur/excalidraw-skill-pack): agent-agnostic Excalidraw methodology, theme, renderer, installer, and MCP package for producing argument-quality editable diagrams with book-grade examples.
+- [Capci MCP](https://github.com/vishal-bulbule/capci-mcp): hosted text-to-diagram MCP server for prompt-generated architecture, flowchart, sequence, ER, class, mind map, Gantt, chart, social post, and animated GIF artifacts.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.

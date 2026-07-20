@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-322_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--20-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-328_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -95,6 +95,7 @@
 | [notebooklm-skill](https://github.com/claude-world/notebooklm-skill) [![Star](https://img.shields.io/github/stars/claude-world/notebooklm-skill?style=flat&logo=github&label=Star)](https://github.com/claude-world/notebooklm-skill/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Agent skill / MCP server | PPT/deck / Briefing/report / Mind map/knowledge map / Infographic/visual report / Video/audio / Table/timeline / Q&A/study material | Agent host / MCP client / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [NotebookLM MCP](https://github.com/alfredang/notebooklm-mcp) [![Star](https://img.shields.io/github/stars/alfredang/notebooklm-mcp?style=flat&logo=github&label=Star)](https://github.com/alfredang/notebooklm-mcp/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | MCP server | PPT/deck / Mind map/knowledge map / Infographic/visual report / Video/audio / Briefing/report / Q&A/study material | MCP client / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) [![Star](https://img.shields.io/github/stars/joeseesun/qiaomu-anything-to-notebooklm?style=flat&logo=github&label=Star)](https://github.com/joeseesun/qiaomu-anything-to-notebooklm/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Agent skill | PPT/deck / Mind map/knowledge map / Video/audio / Q&A/study material / Briefing/report | Agent host / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
+| [Report Skills](https://github.com/dashaworks/report-skills) [![Star](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat&logo=github&label=Star)](https://github.com/dashaworks/report-skills/stargazers) | Any/multi-source / Text/ideas / Web/search | Skill collection / MCP server | Long report / Web/interactive page / PPT/deck | Agent host / MCP client / Model API / Browser/account / Rendering/export / Templates/assets |
 
 ### 程式碼庫與軟體系統
 
@@ -121,6 +122,7 @@
 | [codemap-skill](https://github.com/Asixa/codemap-skill) [![Star](https://img.shields.io/github/stars/Asixa/codemap-skill?style=flat&logo=github&label=Star)](https://github.com/Asixa/codemap-skill/stargazers) | 程式碼庫 | Agent Skill | 程式碼地圖/Repo Wiki / 架構圖/流程圖 | Agent 宿主 / 模型 API / 程式碼分析工具 |
 | [DeepWiki](https://docs.devin.ai/work-with-devin/deepwiki) | 程式碼庫 | 產品/SaaS | 程式碼地圖/Repo Wiki / 架構圖/流程圖 | 瀏覽器/帳號 / 程式碼分析工具 |
 | [CodeSee](https://www.codesee.io/) | 程式碼庫 | 產品/SaaS | 程式碼地圖/Repo Wiki / 架構圖/流程圖 | 瀏覽器/帳號 / 程式碼分析工具 |
+| [Knossos MCP](https://github.com/AraneaDev/Knossos-MCP) [![Star](https://img.shields.io/github/stars/AraneaDev/Knossos-MCP?style=flat&logo=github&label=Star)](https://github.com/AraneaDev/Knossos-MCP/stargazers) | Codebase | MCP server | Code map/Repo Wiki / Architecture/flow diagram / Diagram/Mermaid / Evidence table | MCP client / Local runtime / Code analysis / Storage/index / Rendering/export / System tools |
 
 ### 資料、表格與業務指標
 
@@ -208,6 +210,8 @@
 | [Diagram Creator Skill](https://github.com/ferdinandobons/diagram-creator-skill) [![Star](https://img.shields.io/github/stars/ferdinandobons/diagram-creator-skill?style=flat&logo=github&label=Star)](https://github.com/ferdinandobons/diagram-creator-skill/stargazers) | 文字/想法 / PDF/文件 / Office 文件 / 資料/表格 / 代碼/技術描述 | Agent Skill | 架構圖/流程圖 / 網頁/互動頁面 / 白板/心智圖 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
 | [Huashu Design](https://github.com/alchaincyf/huashu-design) [![Star](https://img.shields.io/github/stars/alchaincyf/huashu-design?style=flat&logo=github&label=Star)](https://github.com/alchaincyf/huashu-design/stargazers) | Text/ideas / Data/tables / Web/search | Agent skill | Infographic/visual report / PPT/deck / Web/interactive page / Video/audio | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [brandsystem-mcp](https://github.com/Brandcode-Studio/brandsystem-mcp) [![Star](https://img.shields.io/github/stars/Brandcode-Studio/brandsystem-mcp?style=flat&logo=github&label=Star)](https://github.com/Brandcode-Studio/brandsystem-mcp/stargazers) | Web/search / PDF/documents / Knowledge base / Any/multi-source | MCP server / API/SDK/library | Structured data/Markdown / Long report / Evidence table | MCP client / Agent host / Local runtime / Document parsing/OCR / Rendering/export / Templates/assets |
+| [excalidraw-skill-pack](https://github.com/isatimur/excalidraw-skill-pack) [![Star](https://img.shields.io/github/stars/isatimur/excalidraw-skill-pack?style=flat&logo=github&label=Star)](https://github.com/isatimur/excalidraw-skill-pack/stargazers) | Text/ideas / Code/technical text | Agent skill / MCP server / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | Agent host / MCP client / Local runtime / Rendering/export / Templates/assets |
+| [Capci MCP](https://github.com/vishal-bulbule/capci-mcp) [![Star](https://img.shields.io/github/stars/vishal-bulbule/capci-mcp?style=flat&logo=github&label=Star)](https://github.com/vishal-bulbule/capci-mcp/stargazers) | Text/ideas / Data/tables / Code/technical text | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Chart/dashboard / Graphical abstract/infographic / Video/audio | MCP client / Browser/account / Model API / External search/data / Rendering/export / Templates/assets |
 
 ### 程式化影片與動態講解
 
@@ -234,6 +238,7 @@
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | 文字/想法 / PDF/文件 / 網頁/搜尋結果 | 開源應用/框架 / API/SDK/庫 | PPT/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 / MCP Client / 範本/素材 |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | 文字/想法 / 資料/表格 / PDF/文件 | 開源應用/框架 / 產品/SaaS | PPT/簡報 / 網頁/互動頁面 / 圖表/儀表板 | 瀏覽器/帳號 / 本地語言環境 / 模型 API / 渲染/匯出 / 範本/素材 |
 | [Deckbuilder](https://github.com/teknologika/Deckbuilder) [![Star](https://img.shields.io/github/stars/teknologika/Deckbuilder?style=flat&logo=github&label=Star)](https://github.com/teknologika/Deckbuilder/stargazers) | 文字/想法 / DSL/程式碼 / 資料/表格 | MCP Server / API/SDK/庫 | PPT/簡報 | MCP Client / 本地語言環境 / 渲染/匯出 / 模板/素材 |
+| [CREPE](https://github.com/mariolpantunes/crepe-mcp) [![Star](https://img.shields.io/github/stars/mariolpantunes/crepe-mcp?style=flat&logo=github&label=Star)](https://github.com/mariolpantunes/crepe-mcp/stargazers) | Papers/research / Web/search / Any/multi-source | MCP server | PPT/deck / SVG/PNG/PDF / Graphical abstract/infographic | MCP client / Agent host / Local runtime / External search/data / Rendering/export / System tools |
 | [PPTAgent](https://github.com/icip-cas/PPTAgent) [![Star](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=flat&logo=github&label=Star)](https://github.com/icip-cas/PPTAgent/stargazers) | 文字/想法 / PDF/文件 / 網頁/搜尋結果 | 研究原型 | PPT/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 / 範本/素材 |
 | [AI Multi-Agent Presentation Builder](https://github.com/Azure-Samples/ai-multi-agent-presentation-builder) [![Star](https://img.shields.io/github/stars/Azure-Samples/ai-multi-agent-presentation-builder?style=flat&logo=github&label=Star)](https://github.com/Azure-Samples/ai-multi-agent-presentation-builder/stargazers) | 文字/想法 / 網頁/搜尋結果 | 開源應用/框架 | PPT/簡報 | 本機語言環境 / 模型 API / 外部檢索/資料源 / 渲染/匯出 / 範本/素材 |
 | [presentation-ai](https://github.com/allweonedev/presentation-ai) [![Star](https://img.shields.io/github/stars/allweonedev/presentation-ai?style=flat&logo=github&label=Star)](https://github.com/allweonedev/presentation-ai/stargazers) | 文字/想法 / PDF/文件 / 網頁/搜尋結果 | 開源應用/框架 | PPT/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 / 範本/素材 |
@@ -416,6 +421,7 @@
 | [Preview Skills](https://github.com/veelenga/preview-skills) [![Star](https://img.shields.io/github/stars/veelenga/preview-skills?style=flat&logo=github&label=Star)](https://github.com/veelenga/preview-skills/stargazers) | 文字/想法 / 資料/表格 / DSL/代碼 / 代碼/技術描述 | Skill 集合 | 網頁/互動頁面 / 圖表/Mermaid / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 渲染/匯出 |
 | [AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) [![Star](https://img.shields.io/github/stars/Dsadd4/AgentFigureGallery?style=flat&logo=github&label=Star)](https://github.com/Dsadd4/AgentFigureGallery/stargazers) | 論文/科研資料 / 資料/表格 | Agent Skill / 資料集/評測 | 圖表/渲染輸出 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 外部檢索/資料來源 / 渲染/匯出 |
 | [amCharts 5 MCP Server](https://github.com/amcharts/amcharts5-mcp) [![Star](https://img.shields.io/github/stars/amcharts/amcharts5-mcp?style=flat&logo=github&label=Star)](https://github.com/amcharts/amcharts5-mcp/stargazers) | 資料/表格 / DSL/代碼 | MCP Server | 圖表/儀表板 / 圖表/渲染輸出 | MCP Client / 瀏覽器/帳號 / 外部檢索/資料源 / 渲染/匯出 |
+| [media-gen-mcp](https://github.com/wangdong233/media-gen-mcp) [![Star](https://img.shields.io/github/stars/wangdong233/media-gen-mcp?style=flat&logo=github&label=Star)](https://github.com/wangdong233/media-gen-mcp/stargazers) | Text/ideas / PDF/documents / Data/tables / Any/multi-source | MCP server | Graphical abstract/infographic / Architecture/flow diagram / Chart/dashboard / SVG/PNG/PDF / Video/audio / Structured data/Markdown | MCP client / Local runtime / Model API / Document parsing/OCR / Rendering/export / System tools |
 
 ## 如何篩選工具
 
