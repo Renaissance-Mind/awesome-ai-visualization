@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-20.
+Last researched: 2026-07-22.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -57,6 +57,8 @@ Update on 2026-07-17: refreshed local Office/PPTX automation and conversion surf
 Update on 2026-07-18: refreshed agent-native design, presentation, daily visual-news, brand-runtime, browser media-generation, and skill-index surfaces from official GitHub repositories, project pages, GitHub Pages demos, release media, and GitHub metadata. This pass added ai-frontier-daily, slide-wright, Terry-slide-gen, Huashu Design, brandsystem-mcp, Mediator, and trending-claude-skills. The targeted scraper ran only against these new records and all 11 official sources returned successfully; one unrelated Huashu README asset and one generic MDN link were scrubbed before merging.
 
 Update on 2026-07-20: refreshed reviewable deck-as-code, HTML-to-infographic capture, Markdown-to-PPT/HTML compilation, local PowerPoint MCP automation, and chart-generation MCP surfaces from official GitHub repositories, npm package pages, live demos, README evidence, and GitHub metadata. This pass added NodeSlide, BriefPress, Lutrin, powerpoint-mcp, and MCP Chart Server. The targeted scraper ran only against these new records; one `.env.example` setup link was scrubbed from NodeSlide's example list before merging.
+
+Update on 2026-07-22: refreshed agent-native slide skills, PowerPoint validation/repair MCPs, HTML report skills, diagram skills, and motion-graphics skills from official GitHub repositories, README evidence, and GitHub metadata. This pass added zifeiyu-ppt-skill, slides-from-video, claude-code-deck-skill, animated-diagram, deckproof-mcp, Muse, vibe-diagram, tech-diagram, HTML Express, and remotion-motion-graphics-skill. The targeted scraper ran only against these new records; a language README link, a generic YouTube channel link, and generic GitHub documentation links were scrubbed before merging.
 
 ## Search Surfaces
 
@@ -392,6 +394,19 @@ Excluded if:
 - [media-gen-mcp](https://github.com/wangdong233/media-gen-mcp): all-in-one Claude Code image MCP for image/video generation, OCR, table/chart recognition, architecture diagrams, data charts, social cards, QR codes, formulas, and local render capture.
 - [excalidraw-skill-pack](https://github.com/isatimur/excalidraw-skill-pack): agent-agnostic Excalidraw methodology, theme, renderer, installer, and MCP package for producing argument-quality editable diagrams with book-grade examples.
 - [Capci MCP](https://github.com/vishal-bulbule/capci-mcp): hosted text-to-diagram MCP server for prompt-generated architecture, flowchart, sequence, ER, class, mind map, Gantt, chart, social post, and animated GIF artifacts.
+
+## Added in the 2026-07-22 Daily Refresh
+
+- [zifeiyu-ppt-skill](https://github.com/ye4wzp/zifeiyu-ppt-skill): Agent Skill for design-locked HTML slide decks with registered layouts, deterministic editable PPTX export, PDF and PNG delivery, speaker mode, and Playwright quality gates.
+- [slides-from-video](https://github.com/guoxiaojiang/slides-from-video): Claude Code skill and CLI for extracting slide regions from lecture or conference videos, de-duplicating pages with OCR and perceptual hashes, and emitting a clean PDF deck.
+- [claude-code-deck-skill](https://github.com/Jhonzw/claude-code-deck-skill): Claude Code skill and python-pptx toolkit for turning DOCX, PDF, Markdown, or pasted text into executive-grade native editable PowerPoint decks with visual QA.
+- [animated-diagram](https://github.com/mkierin/animated-diagram): Claude Code skill and template for turning static infographic ideas into animated, interactive 16:9 HTML diagram pages with presenter-stepped beats.
+- [deckproof-mcp](https://github.com/OwnOptic/deckproof-mcp): local MCP server that creates, validates, audits, and repairs PowerPoint files against OOXML/ECMA-376 while preserving existing templates and themes.
+- [Muse](https://github.com/edheltzel/Muse): agent skill that turns dense agent output into browser-native pages for architecture diagrams, visual plans, diff reviews, project recaps, slide decks, and MDX reviews.
+- [vibe-diagram](https://github.com/imchenway/vibe-diagram): host-neutral agent skill and Codex plugin source for producing polished self-contained HTML diagrams with offline checks and reusable templates.
+- [tech-diagram](https://github.com/k0tter/tech-diagram): Agent Skill that converts JSON grid specs into validated draw.io diagrams for cloud architectures, ER models, UML classes, and flowcharts.
+- [HTML Express](https://github.com/zjp1997720/html-express): Zhijian Agent Skill for turning dense research, comparisons, checklists, timelines, dashboards, decision pages, and visual summaries into self-contained HTML reports.
+- [remotion-motion-graphics-skill](https://github.com/liamrjohnston30/remotion-motion-graphics-skill): Agent Skills for producing Remotion motion-graphics clips from scripts or product ideas, including kinetic text, AI workflow diagrams, UI mockups, and editor-ready renders.
 
 ## Early Market Read
 

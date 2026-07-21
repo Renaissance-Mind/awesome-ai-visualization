@@ -1,4 +1,4 @@
-last_researched: '2026-07-21'
+last_researched: '2026-07-22'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -6430,6 +6430,260 @@ entries:
   - 视频/音频
   catalog_section: main
   readme_group: text_visual
+- name: zifeiyu-ppt-skill
+  url: https://github.com/ye4wzp/zifeiyu-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-21'
+  note: Agent Skill for design-locked HTML slide decks with registered layouts, deterministic editable PPTX export, PDF and PNG delivery, speaker mode, and Playwright quality gates.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: slides-from-video
+  url: https://github.com/guoxiaojiang/slides-from-video
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-07-14'
+  note: Claude Code skill and CLI that extracts slide regions from lecture or conference videos, de-duplicates pages with OCR and perceptual hashes, and emits a clean PDF deck.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: claude-code-deck-skill
+  url: https://github.com/Jhonzw/claude-code-deck-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-13'
+  note: Claude Code skill and python-pptx toolkit that turns DOCX, PDF, Markdown, or pasted text into executive-grade native editable PowerPoint decks with visual QA.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: animated-diagram
+  url: https://github.com/mkierin/animated-diagram
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-10'
+  note: Claude Code skill and template that turns static infographic ideas into animated, interactive 16:9 HTML diagram pages with presenter-stepped beats for talks, clips, and explainers.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  - 架构图/流程图
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: video
+- name: deckproof-mcp
+  url: https://github.com/OwnOptic/deckproof-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-14'
+  note: Local MCP server that creates, validates, audits, and repairs PowerPoint files against OOXML/ECMA-376 while preserving existing corporate templates, masters, layouts, and themes.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: Muse
+  url: https://github.com/edheltzel/Muse
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-07-18'
+  note: Agent skill that turns dense agent output into browser-native pages for architecture diagrams, visual plans, diff reviews, project recaps, slide decks, and approval-aware MDX reviews.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 架构图/流程图
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: text_visual
+- name: vibe-diagram
+  url: https://github.com/imchenway/vibe-diagram
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: Apache-2.0
+  updated: '2026-07-21'
+  note: Host-neutral agent skill and Codex plugin source for producing polished self-contained HTML diagrams from prompts with offline checks, reusable templates, and generated client packages.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
+  - 图表/Mermaid
+  catalog_section: main
+  readme_group: text_visual
+- name: tech-diagram
+  url: https://github.com/k0tter/tech-diagram
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-19'
+  note: Agent Skill that converts JSON grid specs into validated draw.io diagrams for AWS, Azure, GCP architectures, ER models, UML classes, and flowcharts using pure Python.
+  source_types:
+  - 代码/技术描述
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: HTML Express
+  url: https://github.com/zjp1997720/html-express
+  homepage: https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-17'
+  note: Zhijian Agent Skill for turning dense research, comparisons, checklists, timelines, dashboards, decision pages, and visual summaries into self-contained local HTML reports.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: docs
+- name: remotion-motion-graphics-skill
+  url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-07-21'
+  note: Agent Skills for producing Remotion motion-graphics clips from scripts or product ideas, including kinetic text, AI workflow diagrams, UI mockups, camera moves, QA, and editor-ready renders.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: video
 - name: Data Formulator
   url: https://github.com/microsoft/data-formulator
   homepage: https://arxiv.org/abs/2408.16119
