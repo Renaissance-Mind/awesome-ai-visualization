@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-07-20T23:06:55+00:00",
-  "lastResearched": "2026-07-21",
+  "generatedAt": "2026-07-21T23:05:12+00:00",
+  "lastResearched": "2026-07-22",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 328,
+    "total": 338,
     "openSource": 91,
     "saas": 47,
     "modelApi": 126,
-    "examples": 944,
-    "effectAssets": 1117,
-    "docs": 999
+    "examples": 948,
+    "effectAssets": 1153,
+    "docs": 1003
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 42,
-      "PDF/文档": 111,
-      "文本/想法": 200,
-      "数据/表格": 114,
-      "代码/技术描述": 57,
-      "网页/搜索结果": 100,
-      "代码库": 34,
-      "DSL/代码": 59,
+      "PDF/文档": 112,
+      "文本/想法": 210,
+      "数据/表格": 117,
+      "代码/技术描述": 63,
+      "网页/搜索结果": 101,
+      "代码库": 35,
+      "DSL/代码": 61,
       "新闻/资讯": 12,
       "知识库/个人资料": 21,
-      "任意/多源": 38,
-      "Office 文档": 42,
+      "任意/多源": 40,
+      "Office 文档": 44,
       "引用网络": 4,
       "数据库": 24
     },
     "toolForms": {
       "开源应用/框架": 91,
-      "Agent Skill": 99,
+      "Agent Skill": 108,
       "Skill 集合": 27,
       "数据集/评测": 2,
       "Bot/助手": 8,
       "产品/SaaS": 47,
-      "MCP Server": 88,
+      "MCP Server": 89,
       "研究原型": 4,
-      "API/SDK/库": 30,
+      "API/SDK/库": 32,
       "Awesome/索引": 16
     },
     "outputForms": {
       "图形摘要/信息图": 25,
-      "PPT/演示文稿": 142,
-      "网页/交互页面": 79,
+      "PPT/演示文稿": 147,
+      "网页/交互页面": 84,
       "问答/学习材料": 11,
-      "报告/长文档": 33,
-      "证据表": 13,
-      "信息图/视觉报告": 48,
-      "图表/仪表盘": 82,
-      "架构图/流程图": 69,
-      "SVG/PNG/PDF": 105,
+      "报告/长文档": 34,
+      "证据表": 14,
+      "信息图/视觉报告": 51,
+      "图表/仪表盘": 84,
+      "架构图/流程图": 74,
+      "SVG/PNG/PDF": 108,
       "报告/简报": 33,
       "白板/思维导图": 25,
-      "图表/Mermaid": 39,
-      "视频/音频": 26,
+      "图表/Mermaid": 40,
+      "视频/音频": 28,
       "表格/时间线": 6,
       "引用答案": 4,
       "思维导图/知识地图": 18,
@@ -65,48 +65,48 @@
       "工具索引": 18
     },
     "dependencies": {
-      "本地语言环境": 242,
+      "本地语言环境": 252,
       "模型 API": 126,
-      "文档解析/OCR": 51,
-      "渲染/导出": 249,
+      "文档解析/OCR": 53,
+      "渲染/导出": 259,
       "GPU/加速器": 10,
-      "模板/素材": 142,
-      "Agent 宿主": 133,
-      "系统工具": 52,
+      "模板/素材": 151,
+      "Agent 宿主": 142,
+      "系统工具": 56,
       "浏览器/账号": 91,
       "存储/索引": 38,
       "外部检索/数据源": 56,
-      "MCP Client": 90,
+      "MCP Client": 91,
       "代码分析工具": 25
     },
     "categories": {
       "paper-visualization": 13,
       "doc-to-knowledge": 28,
-      "research-report": 14,
-      "infographic-report": 30,
+      "research-report": 15,
+      "infographic-report": 31,
       "data-dashboard": 38,
-      "diagram-generation": 42,
+      "diagram-generation": 44,
       "literature-map": 4,
-      "presentation-tools": 94,
+      "presentation-tools": 98,
       "codebase-map": 20,
       "rendering-primitive": 8,
-      "video-generation": 8,
+      "video-generation": 10,
       "commercial-site": 10,
       "meta-index": 19
     },
     "groups": {
       "paper": 24,
-      "text_visual": 40,
+      "text_visual": 43,
       "web_news": 8,
       "support_mindmap": 9,
-      "docs": 11,
+      "docs": 12,
       "support_doc_parse": 9,
-      "presentation": 106,
+      "presentation": 110,
       "code": 20,
       "support_render": 39,
       "diagrams": 2,
+      "video": 10,
       "data": 33,
-      "video": 8,
       "indexes": 19
     }
   },
@@ -22622,6 +22622,708 @@
       "docsCount": 1,
       "examplesCount": 3,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "zifeiyu-ppt-skill",
+      "url": "https://github.com/ye4wzp/zifeiyu-ppt-skill",
+      "primaryUrl": "https://github.com/ye4wzp/zifeiyu-ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-21",
+      "note": "Agent Skill for design-locked HTML slide decks with registered layouts, deterministic editable PPTX export, PDF and PNG delivery, speaker mode, and Playwright quality gates.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "封面版式",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "深色章节页",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/dark-divider.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "KPI 大字",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/kpi.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "图文半幅",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/text-image.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "墨韵封面",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/editorial-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "墨韵深色章节",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/editorial-dark.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "演讲者模式",
+          "url": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/presenter.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "slides-from-video",
+      "url": "https://github.com/guoxiaojiang/slides-from-video",
+      "primaryUrl": "https://github.com/guoxiaojiang/slides-from-video",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-14",
+      "note": "Claude Code skill and CLI that extracts slide regions from lecture or conference videos, de-duplicates pages with OCR and perceptual hashes, and emits a clean PDF deck.",
+      "sourceTypes": [
+        "任意/多源",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "claude-code-deck-skill",
+      "url": "https://github.com/Jhonzw/claude-code-deck-skill",
+      "primaryUrl": "https://github.com/Jhonzw/claude-code-deck-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-13",
+      "note": "Claude Code skill and python-pptx toolkit that turns DOCX, PDF, Markdown, or pasted text into executive-grade native editable PowerPoint decks with visual QA.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Cover slide",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/01-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "KPI cards",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/05-numbers.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chevron process flow",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/06-flow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Risk matrix",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/08-risk-matrix.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Impact / effort matrix",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/10-impact-effort.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "4-dimension diagnosis",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/07-diagnosis.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "SWOT",
+          "url": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/09-swot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "animated-diagram",
+      "url": "https://github.com/mkierin/animated-diagram",
+      "primaryUrl": "https://github.com/mkierin/animated-diagram",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-10",
+      "note": "Claude Code skill and template that turns static infographic ideas into animated, interactive 16:9 HTML diagram pages with presenter-stepped beats for talks, clips, and explainers.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面",
+        "架构图/流程图",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "deckproof-mcp",
+      "url": "https://github.com/OwnOptic/deckproof-mcp",
+      "primaryUrl": "https://github.com/OwnOptic/deckproof-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-14",
+      "note": "Local MCP server that creates, validates, audits, and repairs PowerPoint files against OOXML/ECMA-376 while preserving existing corporate templates, masters, layouts, and themes.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Muse",
+      "url": "https://github.com/edheltzel/Muse",
+      "primaryUrl": "https://github.com/edheltzel/Muse",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-18",
+      "note": "Agent skill that turns dense agent output into browser-native pages for architecture diagrams, visual plans, diff reviews, project recaps, slide decks, and approval-aware MDX reviews.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "PPT/演示文稿",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Muse component library screenshot",
+          "url": "https://raw.githubusercontent.com/edheltzel/Muse/HEAD/docs/assets/component-library-showcase.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/edheltzel/Muse/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Muse banner",
+          "url": "https://raw.githubusercontent.com/edheltzel/Muse/HEAD/banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/edheltzel/Muse/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "vibe-diagram",
+      "url": "https://github.com/imchenway/vibe-diagram",
+      "primaryUrl": "https://github.com/imchenway/vibe-diagram",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-07-21",
+      "note": "Host-neutral agent skill and Codex plugin source for producing polished self-contained HTML diagrams from prompts with offline checks, reusable templates, and generated client packages.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "图表/Mermaid"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "tech-diagram",
+      "url": "https://github.com/k0tter/tech-diagram",
+      "primaryUrl": "https://github.com/k0tter/tech-diagram",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-19",
+      "note": "Agent Skill that converts JSON grid specs into validated draw.io diagrams for AWS, Azure, GCP architectures, ER models, UML classes, and flowcharts using pure Python.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "references/patterns.md",
+          "url": "https://github.com/k0tter/tech-diagram/blob/HEAD/references/patterns.md",
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/reference-architectures/",
+          "url": "https://github.com/k0tter/tech-diagram/blob/HEAD/references/reference-architectures/",
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "templates/",
+          "url": "https://github.com/k0tter/tech-diagram/blob/HEAD/templates/",
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "CI/CD tab",
+          "url": "https://github.com/k0tter/tech-diagram/blob/HEAD/docs/images/templates/example-multiaccount-cicd.png",
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "ECS web app with Multi-AZ redundancy (sample)",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/samples/03-ecs-multiaz.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Multi-account + TGW",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/samples/04-multiaccount-tgw.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Event-driven reference",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/samples/06-reference-event-driven.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "3-tier web",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-3tier.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Complex",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-complex.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dense 42 nodes",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-dense-1page.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Multi-account",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-multiaccount-main.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Multi-cloud",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-multicloud.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Multi-region DR",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-multiregion.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Reference architecture",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-reference.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flowchart",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-flowchart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ER diagram",
+          "url": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-er-uml-er.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "HTML Express",
+      "url": "https://github.com/zjp1997720/html-express",
+      "primaryUrl": "https://github.com/zjp1997720/html-express",
+      "homepage": "https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Zhijian Agent Skill for turning dense research, comparisons, checklists, timelines, dashboards, decision pages, and visual summaries into self-contained local HTML reports.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "remotion-motion-graphics-skill",
+      "url": "https://github.com/liamrjohnston30/remotion-motion-graphics-skill",
+      "primaryUrl": "https://github.com/liamrjohnston30/remotion-motion-graphics-skill",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-21",
+      "note": "Agent Skills for producing Remotion motion-graphics clips from scripts or product ideas, including kinetic text, AI workflow diagrams, UI mockups, camera moves, QA, and editor-ready renders.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/`",
+          "url": "https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/terminal-inserts/references/",
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/prompt-threads.md",
+          "url": "https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/docs/prompt-threads.md",
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`assets/`",
+          "url": "https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/terminal-inserts/assets/examples/",
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`assets/examples/`",
+          "url": "https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/article-highlights/assets/examples/",
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Agent pipeline",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/openmontage-claude-pipeline.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Old way vs AI way",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/tsenta-apply-faster.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "One-click wall",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/tsenta-one-click-wall.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Parallel terminals",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/kickbacks-spinner-terminals.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Product workflow demo",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/kickbacks-same-run-editor.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Tool chaos",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/openmontage-tool-chaos.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Cinematic product story",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/smartlead-prewarmed-burn.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Article highlight",
+          "url": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/article-highlight.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 8
     },
     {
       "name": "Data Formulator",

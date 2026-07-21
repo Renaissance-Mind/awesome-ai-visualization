@@ -1,4 +1,4 @@
-generated_at: '2026-07-20T23:06:55+00:00'
+generated_at: '2026-07-21T23:05:12+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 328
-  fetched_sources_ok: 449
+  entries: 338
+  fetched_sources_ok: 460
   fetched_sources_failed: 25
-  official_examples: 944
-  official_effect_assets: 1117
-  official_docs: 999
+  official_examples: 948
+  official_effect_assets: 1153
+  official_docs: 1003
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -30876,3 +30876,455 @@ entries:
   - Capci MCP — Text-to-Diagram MCP Server for Claude, VS Code & Antigravity
   - Why an MCP diagram server?
   - Example prompts
+- name: zifeiyu-ppt-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ye4wzp/zifeiyu-ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent Skill for design-locked HTML slide decks with registered layouts, deterministic editable PPTX export,
+    PDF and PNG delivery, speaker mode, and Playwright quality gates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: zifeiyu-ppt-skill
+    bytes: 5344
+  official_effect_assets:
+  - kind: image
+    title: 封面版式
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/cover.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 深色章节页
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/dark-divider.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+  - kind: image
+    title: KPI 大字
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/kpi.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 图文半幅
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/text-image.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 墨韵封面
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/editorial-cover.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 墨韵深色章节
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/editorial-dark.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 演讲者模式
+    url: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/docs/preview/presenter.png
+    source: https://raw.githubusercontent.com/ye4wzp/zifeiyu-ppt-skill/HEAD/README.md
+- name: slides-from-video
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/guoxiaojiang/slides-from-video
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Claude Code skill and CLI that extracts slide regions from lecture or conference videos, de-duplicates pages
+    with OCR and perceptual hashes, and emits a clean PDF deck.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/guoxiaojiang/slides-from-video/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/guoxiaojiang/slides-from-video/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slides-from-video
+    bytes: 6843
+  source_headings:
+  - slides-from-video
+  - Quickstart
+  - 1) Grab a sample frame at t=5min to see the slide region
+  - 2) Extract, passing the slide region as ffmpeg crop (W:H:X:Y)
+- name: claude-code-deck-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Jhonzw/claude-code-deck-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and python-pptx toolkit that turns DOCX, PDF, Markdown, or pasted text into executive-grade
+    native editable PowerPoint decks with visual QA.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📊 claude-code-deck-skill
+    bytes: 6363
+  official_effect_assets:
+  - kind: image
+    title: Cover slide
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/01-cover.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  - kind: image
+    title: KPI cards
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/05-numbers.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  - kind: image
+    title: Chevron process flow
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/06-flow.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  - kind: image
+    title: Risk matrix
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/08-risk-matrix.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  - kind: image
+    title: Impact / effort matrix
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/10-impact-effort.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  - kind: image
+    title: 4-dimension diagnosis
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/07-diagnosis.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  - kind: image
+    title: SWOT
+    url: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/docs/screenshots/09-swot.png
+    source: https://raw.githubusercontent.com/Jhonzw/claude-code-deck-skill/HEAD/README.md
+  source_headings:
+  - 🖼️ Gallery
+  - 2. generate the sample deck
+  - -> examples/meridian_fulfillment_asis.pptx (12 slides, open it in PowerPoint)
+- name: animated-diagram
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/mkierin/animated-diagram
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and template that turns static infographic ideas into animated, interactive 16:9 HTML diagram
+    pages with presenter-stepped beats for talks, clips, and explainers.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mkierin/animated-diagram/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mkierin/animated-diagram/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: animated-diagram
+    bytes: 3817
+  source_headings:
+  - animated-diagram
+- name: deckproof-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/OwnOptic/deckproof-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Local MCP server that creates, validates, audits, and repairs PowerPoint files against OOXML/ECMA-376 while
+    preserving existing corporate templates, masters, layouts, and themes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/OwnOptic/deckproof-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/OwnOptic/deckproof-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: deckproof-mcp
+    bytes: 7784
+  source_headings:
+  - Bring-your-own-template workflow
+- name: Muse
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/edheltzel/Muse
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill that turns dense agent output into browser-native pages for architecture diagrams, visual plans,
+    diff reviews, project recaps, slide decks, and approval-aware MDX reviews.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/edheltzel/Muse/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/edheltzel/Muse/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Muse
+    bytes: 13682
+  official_effect_assets:
+  - kind: image
+    title: Muse component library screenshot
+    url: https://raw.githubusercontent.com/edheltzel/Muse/HEAD/docs/assets/component-library-showcase.png
+    source: https://raw.githubusercontent.com/edheltzel/Muse/HEAD/README.md
+  - kind: image
+    title: Muse banner
+    url: https://raw.githubusercontent.com/edheltzel/Muse/HEAD/banner.png
+    source: https://raw.githubusercontent.com/edheltzel/Muse/HEAD/README.md
+  source_headings:
+  - Quick examples
+- name: vibe-diagram
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/imchenway/vibe-diagram
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Host-neutral agent skill and Codex plugin source for producing polished self-contained HTML diagrams from
+    prompts with offline checks, reusable templates, and generated client packages.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/imchenway/vibe-diagram/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/imchenway/vibe-diagram/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: vibe-diagram
+    bytes: 14774
+  source_headings:
+  - vibe-diagram
+- name: tech-diagram
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/k0tter/tech-diagram
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skill that converts JSON grid specs into validated draw.io diagrams for AWS, Azure, GCP architectures,
+    ER models, UML classes, and flowcharts using pure Python.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: tech-diagram
+    bytes: 10911
+  official_examples:
+  - kind: template
+    title: templates/
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/templates/
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: example
+    title: CI/CD tab
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/docs/images/templates/example-multiaccount-cicd.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: references/patterns.md
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/references/patterns.md
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: docs
+    title: references/reference-architectures/
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/references/reference-architectures/
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: ECS web app with Multi-AZ redundancy (sample)
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/samples/03-ecs-multiaz.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Multi-account + TGW
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/samples/04-multiaccount-tgw.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Event-driven reference
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/samples/06-reference-event-driven.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: 3-tier web
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-3tier.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Complex
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-complex.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Dense 42 nodes
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-dense-1page.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Multi-account
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-multiaccount-main.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Multi-cloud
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-multicloud.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Multi-region DR
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-multiregion.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Reference architecture
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-reference.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: Flowchart
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-flowchart.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: image
+    title: ER diagram
+    url: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/docs/images/templates/example-er-uml-er.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  official_links:
+  - kind: template
+    title: templates/
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/templates/
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: example
+    title: CI/CD tab
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/docs/images/templates/example-multiaccount-cicd.png
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: docs
+    title: references/patterns.md
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/references/patterns.md
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  - kind: docs
+    title: references/reference-architectures/
+    url: https://github.com/k0tter/tech-diagram/blob/HEAD/references/reference-architectures/
+    source: https://raw.githubusercontent.com/k0tter/tech-diagram/HEAD/README.md
+  source_headings:
+  - tech-diagram
+  - Gallery
+  - Samples
+  - 10 templates
+  - Semantic correctness — diagrams that are architecturally right
+- name: HTML Express
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/zjp1997720/html-express
+  homepage: https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Zhijian Agent Skill for turning dense research, comparisons, checklists, timelines, dashboards, decision pages,
+    and visual summaries into self-contained local HTML reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zjp1997720/html-express/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zjp1997720/html-express/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: HTML Express
+    bytes: 2952
+  - kind: homepage
+    url: https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express
+    final_url: https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express
+    status: 200
+    content_type: text/html
+    title: zhijian-skills/skills/html-express at main · zjp1997720/zhijian-skills · GitHub
+    description: Canonical source and governance toolkit for Zhijian AI public Agent Skills - zhijian-skills/skills/html-express
+      at main · zjp1997720/zhijian-skills
+    bytes: 233537
+  source_headings:
+  - Example Requests
+- name: remotion-motion-graphics-skill
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent Skills for producing Remotion motion-graphics clips from scripts or product ideas, including kinetic
+    text, AI workflow diagrams, UI mockups, camera moves, QA, and editor-ready renders.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Remotion Motion Graphics Skills
+    bytes: 13601
+  official_examples:
+  - kind: example
+    title: '`assets/`'
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/terminal-inserts/assets/examples/
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: example
+    title: '`assets/examples/`'
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/article-highlights/assets/examples/
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`references/`'
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/terminal-inserts/references/
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: docs
+    title: docs/prompt-threads.md
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/docs/prompt-threads.md
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Agent pipeline
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/openmontage-claude-pipeline.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: Old way vs AI way
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/tsenta-apply-faster.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: One-click wall
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/tsenta-one-click-wall.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: Parallel terminals
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/kickbacks-spinner-terminals.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: Product workflow demo
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/kickbacks-same-run-editor.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: Tool chaos
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/openmontage-tool-chaos.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: Cinematic product story
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/smartlead-prewarmed-burn.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: gif
+    title: Article highlight
+    url: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/previews/article-highlight.gif
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`assets/`'
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/terminal-inserts/assets/examples/
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/`'
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/terminal-inserts/references/
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: example
+    title: '`assets/examples/`'
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/skills/article-highlights/assets/examples/
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  - kind: docs
+    title: docs/prompt-threads.md
+    url: https://github.com/liamrjohnston30/remotion-motion-graphics-skill/blob/HEAD/docs/prompt-threads.md
+    source: https://raw.githubusercontent.com/liamrjohnston30/remotion-motion-graphics-skill/HEAD/README.md
+  source_headings:
+  - Examples
+  - '`terminal-inserts` — authentic CLI demos'
