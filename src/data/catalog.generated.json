@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-07-21T23:05:12+00:00",
-  "lastResearched": "2026-07-22",
+  "generatedAt": "2026-07-23T23:05:45+00:00",
+  "lastResearched": "2026-07-24",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 338,
-    "openSource": 91,
+    "total": 348,
+    "openSource": 96,
     "saas": 47,
-    "modelApi": 126,
-    "examples": 948,
-    "effectAssets": 1153,
-    "docs": 1003
+    "modelApi": 129,
+    "examples": 963,
+    "effectAssets": 1192,
+    "docs": 1029
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 42,
-      "PDF/文档": 112,
-      "文本/想法": 210,
-      "数据/表格": 117,
-      "代码/技术描述": 63,
-      "网页/搜索结果": 101,
-      "代码库": 35,
+      "论文/科研资料": 43,
+      "PDF/文档": 116,
+      "文本/想法": 215,
+      "数据/表格": 122,
+      "代码/技术描述": 64,
+      "网页/搜索结果": 104,
+      "代码库": 36,
       "DSL/代码": 61,
       "新闻/资讯": 12,
-      "知识库/个人资料": 21,
-      "任意/多源": 40,
-      "Office 文档": 44,
+      "知识库/个人资料": 23,
+      "任意/多源": 45,
+      "Office 文档": 46,
       "引用网络": 4,
       "数据库": 24
     },
     "toolForms": {
-      "开源应用/框架": 91,
-      "Agent Skill": 108,
+      "开源应用/框架": 96,
+      "Agent Skill": 113,
       "Skill 集合": 27,
       "数据集/评测": 2,
-      "Bot/助手": 8,
+      "Bot/助手": 10,
       "产品/SaaS": 47,
       "MCP Server": 89,
       "研究原型": 4,
-      "API/SDK/库": 32,
-      "Awesome/索引": 16
+      "API/SDK/库": 33,
+      "Awesome/索引": 17
     },
     "outputForms": {
-      "图形摘要/信息图": 25,
-      "PPT/演示文稿": 147,
-      "网页/交互页面": 84,
-      "问答/学习材料": 11,
-      "报告/长文档": 34,
+      "图形摘要/信息图": 26,
+      "PPT/演示文稿": 152,
+      "网页/交互页面": 90,
+      "问答/学习材料": 12,
+      "报告/长文档": 37,
       "证据表": 14,
       "信息图/视觉报告": 51,
-      "图表/仪表盘": 84,
+      "图表/仪表盘": 87,
       "架构图/流程图": 74,
-      "SVG/PNG/PDF": 108,
-      "报告/简报": 33,
+      "SVG/PNG/PDF": 112,
+      "报告/简报": 34,
       "白板/思维导图": 25,
       "图表/Mermaid": 40,
-      "视频/音频": 28,
+      "视频/音频": 29,
       "表格/时间线": 6,
       "引用答案": 4,
-      "思维导图/知识地图": 18,
-      "结构化数据/Markdown": 23,
+      "思维导图/知识地图": 19,
+      "结构化数据/Markdown": 24,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 22,
+      "代码地图/Repo Wiki": 23,
       "图表/渲染输出": 12,
-      "工具索引": 18
+      "工具索引": 19
     },
     "dependencies": {
-      "本地语言环境": 252,
-      "模型 API": 126,
-      "文档解析/OCR": 53,
-      "渲染/导出": 259,
+      "本地语言环境": 261,
+      "模型 API": 129,
+      "文档解析/OCR": 57,
+      "渲染/导出": 268,
       "GPU/加速器": 10,
-      "模板/素材": 151,
-      "Agent 宿主": 142,
-      "系统工具": 56,
-      "浏览器/账号": 91,
-      "存储/索引": 38,
-      "外部检索/数据源": 56,
+      "模板/素材": 155,
+      "Agent 宿主": 146,
+      "系统工具": 61,
+      "浏览器/账号": 96,
+      "存储/索引": 42,
+      "外部检索/数据源": 58,
       "MCP Client": 91,
-      "代码分析工具": 25
+      "代码分析工具": 26
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 28,
+      "doc-to-knowledge": 29,
       "research-report": 15,
       "infographic-report": 31,
-      "data-dashboard": 38,
+      "data-dashboard": 40,
       "diagram-generation": 44,
       "literature-map": 4,
-      "presentation-tools": 98,
-      "codebase-map": 20,
+      "presentation-tools": 103,
+      "codebase-map": 21,
       "rendering-primitive": 8,
       "video-generation": 10,
       "commercial-site": 10,
-      "meta-index": 19
+      "meta-index": 20
     },
     "groups": {
       "paper": 24,
       "text_visual": 43,
       "web_news": 8,
       "support_mindmap": 9,
-      "docs": 12,
+      "docs": 13,
       "support_doc_parse": 9,
-      "presentation": 110,
-      "code": 20,
+      "presentation": 115,
+      "code": 21,
       "support_render": 39,
       "diagrams": 2,
       "video": 10,
-      "data": 33,
-      "indexes": 19
+      "data": 35,
+      "indexes": 20
     }
   },
   "entries": [
@@ -4089,6 +4089,64 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "DecipherIt",
+      "url": "https://github.com/mtwn105/decipher-research-agent",
+      "primaryUrl": "https://github.com/mtwn105/decipher-research-agent",
+      "homepage": "https://decipherit.xyz",
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 151,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "NotebookLM-style research assistant that turns documents, URLs, topics, and manual text into source-grounded research notebooks with summaries, Q&A, audio overviews, generated FAQs, and interactive visual mind maps.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "报告/简报",
+        "思维导图/知识地图",
+        "问答/学习材料",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Contributing Guide",
+          "url": "https://github.com/mtwn105/decipher-research-agent/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "🚀 Live Demo",
+          "url": "https://decipherit.xyz",
+          "source": "https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     },
     {
       "name": "mindmap-generator",
@@ -22243,6 +22301,81 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "NodeSecure Report",
+      "url": "https://github.com/NodeSecure/report",
+      "primaryUrl": "https://github.com/NodeSecure/report",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "外部检索/数据源",
+        "代码分析工具",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 16,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "NodeSecure report generator that scans Git and npm targets, visualizes security threats and quality issues over time, and emits periodic HTML and PDF reports from NodeSecure scanner data.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Governance Guide",
+          "url": "https://github.com/SlimIO/Governance/blob/master/docs/tooling.md",
+          "source": "https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "NodeSecure CLI documentation",
+          "url": "https://github.com/NodeSecure/cli?tab=readme-ov-file",
+          "source": "https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "@nodesecure/report",
+          "url": "https://user-images.githubusercontent.com/4438263/226182740-5da22495-8a32-4d5e-b5b3-95cafcd13d38.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Jhr76Ef",
+          "url": "https://i.imgur.com/Jhr76Ef.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Omv7Al6",
+          "url": "https://i.imgur.com/OmV7Al6.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
       "name": "media-gen-mcp",
       "url": "https://github.com/wangdong233/media-gen-mcp",
       "primaryUrl": "https://github.com/wangdong233/media-gen-mcp",
@@ -22840,6 +22973,456 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 7
+    },
+    {
+      "name": "getihu-p2h2p",
+      "url": "https://github.com/Allenfang2026/getihu-p2h2p",
+      "primaryUrl": "https://github.com/Allenfang2026/getihu-p2h2p",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-23",
+      "note": "Claude Code orchestration skill that rebuilds existing PPT files, rough topics, whiteboard photos, or screenshots through a PPT to HTML to PPT pipeline, coordinating template generation, editable HTML previews, PPTX conversion, and visual QA checkpoints.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.claude.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "**zarazhangrui/beautiful-html-templates**",
+          "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+          "source": "https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Talksmith",
+      "url": "https://github.com/veigap/talksmith",
+      "primaryUrl": "https://github.com/veigap/talksmith",
+      "homepage": "https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "存储/索引",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-07-19",
+      "note": "Claude Code presenter workflow that turns articles, papers, chat transcripts, screenshots, and notes into durable cited subject repositories, thesis-first Markdown outlines, self-contained Reveal.js decks, and optional PowerPoint exports.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/roles.md",
+          "url": "https://github.com/veigap/talksmith/blob/HEAD/docs/roles.md",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/methodology.md",
+          "url": "https://github.com/veigap/talksmith/blob/HEAD/docs/methodology.md",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "style-reference.html",
+          "url": "https://veigap.github.io/talksmith/tests/skills/md-to-deck/style-reference.html",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/reverse-pipeline.md",
+          "url": "https://github.com/veigap/talksmith/blob/HEAD/docs/reverse-pipeline.md",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "**a talk about Talksmith — built *with* Talksmith**",
+          "url": "https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "generated",
+          "url": "https://github.com/veigap/talksmith/blob/HEAD/tests/examples/talksmith-intro/",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "its `draft.md`",
+          "url": "https://github.com/veigap/talksmith/blob/HEAD/tests/examples/talksmith-intro/draft.md",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "example",
+          "url": "https://github.com/veigap/talksmith/blob/HEAD/tests/skills/md-to-deck/final.md",
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Talksmith introducing itself in Claude — the workflow chart and a new-vs-resume prompt",
+          "url": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/docs/claude.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Talksmith workflow",
+          "url": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/docs/workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 4,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "skill_doc2ppt",
+      "url": "https://github.com/ibadbasit/skill_doc2ppt",
+      "primaryUrl": "https://github.com/ibadbasit/skill_doc2ppt",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-19",
+      "note": "Windows document-to-slide utility and skill package that converts Word documents or Markdown into simple Claude-style HTML slides or editable PowerPoint decks.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ppt-agent-skill",
+      "url": "https://github.com/Akxan/ppt-agent-skill",
+      "primaryUrl": "https://github.com/Akxan/ppt-agent-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 109,
+      "license": "MIT",
+      "updated": "2026-07-21",
+      "note": "Claude Code skill for one-prompt presentation generation with 26 visual styles, 18 chart patterns, HTML-first rendering, editable PPTX export, and benchmark-inspired visual references.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`charts/basic.md`",
+          "url": "https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/basic.md",
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`charts/advanced.md`",
+          "url": "https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/advanced.md",
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`charts/complex.md`",
+          "url": "https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/complex.md",
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/superpowers/specs/2026-05-10-world-class-redesign-design.md`",
+          "url": "https://github.com/Akxan/ppt-agent-skill/blob/HEAD/docs/superpowers/specs/2026-05-10-world-class-redesign-design.md",
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "26 风格预览",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-all.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "暗色专业 7 风格",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-dark-professional.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "浅色高级 8 风格",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-light-premium.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "活力鲜明 4 风格",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-vibrant.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "东方文化 3 风格",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-cultural-oriental.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "自然/复古 4 风格",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-natural-retro.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "系统架构图",
+          "url": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "slide-creator",
+      "url": "https://github.com/kaisersong/slide-creator",
+      "primaryUrl": "https://github.com/kaisersong/slide-creator",
+      "homepage": "https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 46,
+      "license": "unknown",
+      "updated": "2026-07-17",
+      "note": "Claude Code and OpenClaw skill that renders zero-dependency HTML presentations from a structured BRIEF.json workflow, style gallery, strict validation, presenter controls, PDF export, and inline editing.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "See the guide as a report →",
+          "url": "https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html",
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Blue Sky",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/blue-sky.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bold Signal",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/bold-signal.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Electric Studio",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/electric-studio.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Creative Voltage",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/creative-voltage.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark Botanical",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/dark-botanical.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Notebook Tabs",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/notebook-tabs.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Pastel Geometry",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/pastel-geometry.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Split Pastel",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/split-pastel.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Vintage Editorial",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/vintage-editorial.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Neon Cyber",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/neon-cyber.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Terminal Green",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/terminal-green.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Swiss Modern",
+          "url": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/swiss-modern.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
     },
     {
       "name": "animated-diagram",
@@ -25881,6 +26464,108 @@
       "docsCount": 0,
       "examplesCount": 2,
       "effectAssetsCount": 10
+    },
+    {
+      "name": "AI-Report-Generator",
+      "url": "https://github.com/archanags001/AI-Report-Generator",
+      "primaryUrl": "https://github.com/archanags001/AI-Report-Generator",
+      "homepage": "https://ai-report-generator-2-0.streamlit.app",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 11,
+      "license": "MIT",
+      "updated": "2026-07-01",
+      "note": "LangGraph-based multi-agent data analyst that profiles uploaded CSVs, plans visualizations, generates charts and insights, drafts structured analytical reports, and exports the final report as PDF through a Streamlit app.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "architecture report gen",
+          "url": "https://raw.githubusercontent.com/archanags001/AI-Report-Generator/main/images/improved_architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/archanags001/AI-Report-Generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "report gen",
+          "url": "https://raw.githubusercontent.com/archanags001/AI-Report-Generator/48a61d00c5fccaaa0ed53233db8d45c5add79be8/images/report_ai_generated.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/archanags001/AI-Report-Generator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "PedroReports",
+      "url": "https://github.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool",
+      "primaryUrl": "https://github.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 53,
+      "license": "BSD-3-Clause",
+      "updated": "2026-05-25",
+      "note": "FastAPI and React report tool that uploads CSV datasets, runs Gemini-backed analysis, creates Matplotlib and Seaborn visualizations, performs statistical summaries, and generates polished PDF reports.",
+      "sourceTypes": [
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Watch tutorial",
+          "url": "https://img.youtube.com/vi/DFu0m22gfe8/maxresdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     },
     {
       "name": "Amplitude MCP Server",
@@ -29080,6 +29765,230 @@
       "docsCount": 5,
       "examplesCount": 4,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "awesome-claude-design",
+      "url": "https://github.com/rohitg00/awesome-claude-design",
+      "primaryUrl": "https://github.com/rohitg00/awesome-claude-design",
+      "homepage": null,
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "浏览器/账号"
+      ],
+      "stars": 911,
+      "license": "MIT",
+      "updated": "2026-07-23",
+      "note": "Claude Design ecosystem index collecting DESIGN.md prompts by aesthetic family, remix recipes, prompt packs, skills, video teardowns, community signal, preview screenshots, and concrete design references for agent-made visual artifacts.",
+      "sourceTypes": [
+        "任意/多源",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引",
+        "网页/交互页面",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "support.claude.com",
+          "url": "https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Prompt engineering overview",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Prompt generator (Console)",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/spec.md`",
+          "url": "https://github.com/google-labs-code/design.md/blob/main/docs/spec.md",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "**Connect Claude Code to tools via MCP**",
+          "url": "https://code.claude.com/docs/en/mcp",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "**Adobe AEM MCP**",
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "**Anthropic — Claude Design admin guide for Team and Enterprise plans**",
+          "url": "https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "agence-scroll guide",
+          "url": "https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Showcase Submission issue template",
+          "url": "https://github.com/rohitg00/awesome-claude-design/blob/HEAD/.github/ISSUE_TEMPLATE/showcase-submission.yml",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Abhi Chatterjee — Designer's first walkthrough",
+          "url": "https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Lalindra (Pen With Paper)",
+          "url": "https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-happens-441922202ef2",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "**philquist/awesome-claude-design-examples**",
+          "url": "https://github.com/philquist/awesome-claude-design-examples",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "**abhishekray07/claude-md-templates**",
+          "url": "https://github.com/abhishekray07/claude-md-templates",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "**LaoZhang — Starter Picks by Workflow**",
+          "url": "https://blog.laozhang.ai/en/posts/claude-code-best-mcp-servers",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "**Anthropic — Claude Cowork enterprise administrator guide**",
+          "url": "https://claude.com/resources/tutorials/claude-cowork-enterprise-administrator-guide",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "**Frontier 3D / shaders / voice / video**",
+          "url": "https://github.com/rohitg00/awesome-claude-design/blob/HEAD/recipes/frontier-3d-shaders.md",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "medium.com/@0xmega",
+          "url": "https://medium.com/@0xmega/how-to-use-claude-design-the-non-designers-walkthrough-2adc18053a5c",
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Linear — editorial minimalism",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/linear.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Ollama — terminal-core",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/ollama.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Anthropic / Claude — warm editorial",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/anthropic.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ClickHouse — data-dense pro",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/clickhouse.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "RunwayML — cinematic dark",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/runwayml.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Figma — playful color",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/figma.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Arc Browser — glass / soft-futurism",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/arc.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The Verge — neon brutalist",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/theverge.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Granola — cult / indie",
+          "url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/granola.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "AI for Work",
+          "url": "https://www.youtube.com/watch?v=4q2F4zblOLQ",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Malewicz",
+          "url": "https://www.youtube.com/watch?v=IkspcJdeP3U",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "\"Claude Design is slow and I love it anyway\"",
+          "url": "https://www.youtube.com/watch?v=wgPVh9wG6Ok",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md"
+        }
+      ],
+      "docsCount": 13,
+      "examplesCount": 9,
+      "effectAssetsCount": 12
     },
     {
       "name": "awesome-llm-skills",

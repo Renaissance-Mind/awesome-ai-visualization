@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-22.
+Last researched: 2026-07-24.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -59,6 +59,8 @@ Update on 2026-07-18: refreshed agent-native design, presentation, daily visual-
 Update on 2026-07-20: refreshed reviewable deck-as-code, HTML-to-infographic capture, Markdown-to-PPT/HTML compilation, local PowerPoint MCP automation, and chart-generation MCP surfaces from official GitHub repositories, npm package pages, live demos, README evidence, and GitHub metadata. This pass added NodeSlide, BriefPress, Lutrin, powerpoint-mcp, and MCP Chart Server. The targeted scraper ran only against these new records; one `.env.example` setup link was scrubbed from NodeSlide's example list before merging.
 
 Update on 2026-07-22: refreshed agent-native slide skills, PowerPoint validation/repair MCPs, HTML report skills, diagram skills, and motion-graphics skills from official GitHub repositories, README evidence, and GitHub metadata. This pass added zifeiyu-ppt-skill, slides-from-video, claude-code-deck-skill, animated-diagram, deckproof-mcp, Muse, vibe-diagram, tech-diagram, HTML Express, and remotion-motion-graphics-skill. The targeted scraper ran only against these new records; a language README link, a generic YouTube channel link, and generic GitHub documentation links were scrubbed before merging.
+
+Update on 2026-07-24: refreshed research-notebook, agent presentation, data-to-report, codebase-report, and design-index surfaces from official GitHub repositories, README evidence, live demo pages, and GitHub metadata. This pass added DecipherIt, getihu-p2h2p, Talksmith, skill_doc2ppt, ppt-agent-skill, slide-creator, AI-Report-Generator, PedroReports, NodeSecure Report, and awesome-claude-design. The targeted scraper ran only against these new records; two rendered Talksmith JavaScript placeholder URLs plus generic dependency/help links were scrubbed before merging.
 
 ## Search Surfaces
 
@@ -407,6 +409,19 @@ Excluded if:
 - [tech-diagram](https://github.com/k0tter/tech-diagram): Agent Skill that converts JSON grid specs into validated draw.io diagrams for cloud architectures, ER models, UML classes, and flowcharts.
 - [HTML Express](https://github.com/zjp1997720/html-express): Zhijian Agent Skill for turning dense research, comparisons, checklists, timelines, dashboards, decision pages, and visual summaries into self-contained HTML reports.
 - [remotion-motion-graphics-skill](https://github.com/liamrjohnston30/remotion-motion-graphics-skill): Agent Skills for producing Remotion motion-graphics clips from scripts or product ideas, including kinetic text, AI workflow diagrams, UI mockups, and editor-ready renders.
+
+## Added in the 2026-07-24 Daily Refresh
+
+- [DecipherIt](https://github.com/mtwn105/decipher-research-agent): NotebookLM-style research assistant for turning documents, URLs, topics, and manual text into source-grounded notebooks, summaries, Q&A, audio overviews, generated FAQs, and visual mind maps.
+- [getihu-p2h2p](https://github.com/Allenfang2026/getihu-p2h2p): Claude Code orchestration skill that rebuilds existing decks or rough prompts through a PPT to HTML to PPT pipeline with editable HTML previews and PPTX QA checkpoints.
+- [Talksmith](https://github.com/veigap/talksmith): presenter workflow that preserves sources in a subject repository, drafts thesis-first Markdown outlines, and projects them into self-contained Reveal.js decks or optional PowerPoint exports.
+- [skill_doc2ppt](https://github.com/ibadbasit/skill_doc2ppt): Windows document-to-slide utility and skill package for converting Word or Markdown documents into Claude-style HTML slides or editable PowerPoint files.
+- [ppt-agent-skill](https://github.com/Akxan/ppt-agent-skill): Claude Code skill for one-prompt deck generation with 26 visual styles, chart patterns, HTML-first rendering, and editable PPTX export.
+- [slide-creator](https://github.com/kaisersong/slide-creator): Claude Code and OpenClaw skill for validated BRIEF.json to zero-dependency HTML presentation workflows with style demos, presenter controls, PDF export, and inline editing.
+- [AI-Report-Generator](https://github.com/archanags001/AI-Report-Generator): LangGraph multi-agent analyst that profiles CSVs, plans visualizations, generates charts and insights, drafts reports, and exports PDF from a Streamlit app.
+- [PedroReports](https://github.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool): FastAPI and React report tool for CSV upload, Gemini-backed analysis, statistical summaries, visualizations, and generated PDF reports.
+- [NodeSecure Report](https://github.com/NodeSecure/report): NodeSecure scanner-based report generator for visualizing repository and package security/quality issues over time in HTML and PDF.
+- [awesome-claude-design](https://github.com/rohitg00/awesome-claude-design): Claude Design ecosystem index for DESIGN.md prompts, aesthetic families, recipes, skills, video teardowns, screenshots, and visual references.
 
 ## Early Market Read
 
