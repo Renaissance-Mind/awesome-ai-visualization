@@ -1,4 +1,4 @@
-generated_at: '2026-07-21T23:05:12+00:00'
+generated_at: '2026-07-23T23:05:45+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 338
-  fetched_sources_ok: 460
-  fetched_sources_failed: 25
-  official_examples: 948
-  official_effect_assets: 1153
-  official_docs: 1003
+  entries: 348
+  fetched_sources_ok: 473
+  fetched_sources_failed: 26
+  official_examples: 963
+  official_effect_assets: 1192
+  official_docs: 1029
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -31328,3 +31328,777 @@ entries:
   source_headings:
   - Examples
   - '`terminal-inserts` — authentic CLI demos'
+- name: DecipherIt
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/mtwn105/decipher-research-agent
+  homepage: https://decipherit.xyz
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: NotebookLM-style research assistant that turns documents, URLs, topics, and manual text into source-grounded
+    research notebooks with summaries, Q&A, audio overviews, generated FAQs, and interactive visual mind maps.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🔍 DecipherIt - AI-Powered Research Assistant
+    bytes: 21119
+  - kind: homepage
+    url: https://decipherit.xyz
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''decipherit.xyz'', port=443): Max retries exceeded with url: / (Caused by
+      SSLError(SSLEOFError(8, ''[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)'')))'
+  official_examples:
+  - kind: demo
+    title: 🚀 Live Demo
+    url: https://decipherit.xyz
+    source: https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/mtwn105/decipher-research-agent/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: 🚀 Live Demo
+    url: https://decipherit.xyz
+    source: https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/mtwn105/decipher-research-agent/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/mtwn105/decipher-research-agent/HEAD/README.md
+  source_headings:
+  - 🧠 Interactive Visual Mindmaps
+- name: NodeSecure Report
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/NodeSecure/report
+  dependencies:
+  - 本地语言环境
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  - 系统工具
+  catalog_note: NodeSecure report generator that scans Git and npm targets, visualizes security threats and quality issues
+    over time, and emits periodic HTML and PDF reports from NodeSecure scanner data.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 12302
+  official_docs:
+  - kind: docs
+    title: Governance Guide
+    url: https://github.com/SlimIO/Governance/blob/master/docs/tooling.md
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  - kind: docs
+    title: NodeSecure CLI documentation
+    url: https://github.com/NodeSecure/cli?tab=readme-ov-file
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: '@nodesecure/report'
+    url: https://user-images.githubusercontent.com/4438263/226182740-5da22495-8a32-4d5e-b5b3-95cafcd13d38.jpg
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  - kind: image
+    title: Jhr76Ef
+    url: https://i.imgur.com/Jhr76Ef.jpg
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  - kind: image
+    title: Omv7Al6
+    url: https://i.imgur.com/OmV7Al6.jpg
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Governance Guide
+    url: https://github.com/SlimIO/Governance/blob/master/docs/tooling.md
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  - kind: docs
+    title: NodeSecure CLI documentation
+    url: https://github.com/NodeSecure/cli?tab=readme-ov-file
+    source: https://raw.githubusercontent.com/NodeSecure/report/HEAD/README.md
+  source_headings:
+  - Configuration Example (.nodesecurerc)
+- name: getihu-p2h2p
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Allenfang2026/getihu-p2h2p
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code orchestration skill that rebuilds existing PPT files, rough topics, whiteboard photos, or screenshots
+    through a PPT to HTML to PPT pipeline, coordinating template generation, editable HTML previews, PPTX conversion, and
+    visual QA checkpoints.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: P2H2P — PPT → HTML → PPT
+    bytes: 6787
+  official_examples:
+  - kind: template
+    title: '**zarazhangrui/beautiful-html-templates**'
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md
+  - kind: template
+    title: '**zarazhangrui/beautiful-html-templates**'
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/Allenfang2026/getihu-p2h2p/HEAD/README.md
+- name: Talksmith
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/veigap/talksmith
+  homepage: https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  catalog_note: Claude Code presenter workflow that turns articles, papers, chat transcripts, screenshots, and notes into
+    durable cited subject repositories, thesis-first Markdown outlines, self-contained Reveal.js decks, and optional PowerPoint
+    exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Talksmith
+    bytes: 9933
+  - kind: homepage
+    url: https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html
+    final_url: https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html
+    status: 200
+    content_type: text/html
+    title: Talksmith
+    bytes: 1403540
+  official_examples:
+  - kind: example
+    title: '**a talk about Talksmith — built *with* Talksmith**'
+    url: https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: example
+    title: generated
+    url: https://github.com/veigap/talksmith/blob/HEAD/tests/examples/talksmith-intro/
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: example
+    title: its `draft.md`
+    url: https://github.com/veigap/talksmith/blob/HEAD/tests/examples/talksmith-intro/draft.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: example
+    title: example
+    url: https://github.com/veigap/talksmith/blob/HEAD/tests/skills/md-to-deck/final.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/roles.md
+    url: https://github.com/veigap/talksmith/blob/HEAD/docs/roles.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: docs/methodology.md
+    url: https://github.com/veigap/talksmith/blob/HEAD/docs/methodology.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: style-reference.html
+    url: https://veigap.github.io/talksmith/tests/skills/md-to-deck/style-reference.html
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: docs/reverse-pipeline.md
+    url: https://github.com/veigap/talksmith/blob/HEAD/docs/reverse-pipeline.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Talksmith introducing itself in Claude — the workflow chart and a new-vs-resume prompt
+    url: https://raw.githubusercontent.com/veigap/talksmith/HEAD/docs/claude.png
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: image
+    title: Talksmith workflow
+    url: https://raw.githubusercontent.com/veigap/talksmith/HEAD/docs/workflow.png
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '**a talk about Talksmith — built *with* Talksmith**'
+    url: https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: example
+    title: generated
+    url: https://github.com/veigap/talksmith/blob/HEAD/tests/examples/talksmith-intro/
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: example
+    title: its `draft.md`
+    url: https://github.com/veigap/talksmith/blob/HEAD/tests/examples/talksmith-intro/draft.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: docs/roles.md
+    url: https://github.com/veigap/talksmith/blob/HEAD/docs/roles.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: docs/methodology.md
+    url: https://github.com/veigap/talksmith/blob/HEAD/docs/methodology.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: example
+    title: example
+    url: https://github.com/veigap/talksmith/blob/HEAD/tests/skills/md-to-deck/final.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: style-reference.html
+    url: https://veigap.github.io/talksmith/tests/skills/md-to-deck/style-reference.html
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  - kind: docs
+    title: docs/reverse-pipeline.md
+    url: https://github.com/veigap/talksmith/blob/HEAD/docs/reverse-pipeline.md
+    source: https://raw.githubusercontent.com/veigap/talksmith/HEAD/README.md
+  source_headings:
+  - Quickstart
+- name: skill_doc2ppt
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ibadbasit/skill_doc2ppt
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Windows document-to-slide utility and skill package that converts Word documents or Markdown into simple Claude-style
+    HTML slides or editable PowerPoint decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ibadbasit/skill_doc2ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ibadbasit/skill_doc2ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📄 skill_doc2ppt - Convert Docs to Claude-Style Slides
+    bytes: 4778
+  source_headings:
+  - 📄 skill_doc2ppt - Convert Docs to Claude-Style Slides
+  - 'Step 4: Save Your Slides'
+- name: ppt-agent-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Akxan/ppt-agent-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code skill for one-prompt presentation generation with 26 visual styles, 18 chart patterns, HTML-first
+    rendering, editable PPTX export, and benchmark-inspired visual references.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 💡 这是什么？
+    bytes: 19051
+  official_docs:
+  - kind: docs
+    title: '`charts/basic.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/basic.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: docs
+    title: '`charts/advanced.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/advanced.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: docs
+    title: '`charts/complex.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/complex.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/superpowers/specs/2026-05-10-world-class-redesign-design.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/docs/superpowers/specs/2026-05-10-world-class-redesign-design.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 26 风格预览
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-all.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: image
+    title: 暗色专业 7 风格
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-dark-professional.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: image
+    title: 浅色高级 8 风格
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-light-premium.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: image
+    title: 活力鲜明 4 风格
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-vibrant.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: image
+    title: 东方文化 3 风格
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-cultural-oriental.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: image
+    title: 自然/复古 4 风格
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/hero-natural-retro.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: image
+    title: 系统架构图
+    url: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/assets/architecture.png
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`charts/basic.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/basic.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: docs
+    title: '`charts/advanced.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/advanced.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: docs
+    title: '`charts/complex.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/references/charts/complex.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/superpowers/specs/2026-05-10-world-class-redesign-design.md`'
+    url: https://github.com/Akxan/ppt-agent-skill/blob/HEAD/docs/superpowers/specs/2026-05-10-world-class-redesign-design.md
+    source: https://raw.githubusercontent.com/Akxan/ppt-agent-skill/HEAD/README.md
+  source_headings:
+  - 🎨 26 风格预览画廊
+  - 📈 18 种数据可视化
+  - → 6 pass / 0 fail（preview.html + svg/*.svg + presentation.pptx 三种产物全部生成）
+  - 📄 设计文档
+- name: slide-creator
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/kaisersong/slide-creator
+  homepage: https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code and OpenClaw skill that renders zero-dependency HTML presentations from a structured BRIEF.json
+    workflow, style gallery, strict validation, presenter controls, PDF export, and inline editing.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slide-creator
+    bytes: 34646
+  - kind: homepage
+    url: https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html
+    final_url: https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html
+    status: 200
+    content_type: text/html
+    title: kai-slide-creator — Zero-Dependency HTML Presentation Generator
+    bytes: 37435
+  official_docs:
+  - kind: docs
+    title: See the guide as a report →
+    url: https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Blue Sky
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/blue-sky.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Bold Signal
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/bold-signal.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Electric Studio
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/electric-studio.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Creative Voltage
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/creative-voltage.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Dark Botanical
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/dark-botanical.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Notebook Tabs
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/notebook-tabs.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Pastel Geometry
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/pastel-geometry.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Split Pastel
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/split-pastel.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Vintage Editorial
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/vintage-editorial.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Neon Cyber
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/neon-cyber.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Terminal Green
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/terminal-green.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  - kind: image
+    title: Swiss Modern
+    url: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/demos/screenshots/swiss-modern.png
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: See the guide as a report →
+    url: https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html
+    source: https://raw.githubusercontent.com/kaisersong/slide-creator/HEAD/README.md
+  source_headings:
+  - slide-creator
+  - Live Demo
+  - 4. Show, don't tell, for visual choices
+  - 7. Against slide slop, visual and semantic
+  - Usage
+- name: AI-Report-Generator
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/archanags001/AI-Report-Generator
+  homepage: https://ai-report-generator-2-0.streamlit.app
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: LangGraph-based multi-agent data analyst that profiles uploaded CSVs, plans visualizations, generates charts
+    and insights, drafts structured analytical reports, and exports the final report as PDF through a Streamlit app.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/archanags001/AI-Report-Generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/archanags001/AI-Report-Generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧠 AI Data Analyst & Report Generator
+    bytes: 12024
+  - kind: homepage
+    url: https://ai-report-generator-2-0.streamlit.app/
+    final_url: https://ai-report-generator-2-0.streamlit.app/
+    status: 200
+    content_type: text/html
+    title: null
+    bytes: 5843
+  official_effect_assets:
+  - kind: image
+    title: architecture report gen
+    url: https://raw.githubusercontent.com/archanags001/AI-Report-Generator/main/images/improved_architecture.png
+    source: https://raw.githubusercontent.com/archanags001/AI-Report-Generator/HEAD/README.md
+  - kind: image
+    title: report gen
+    url: https://raw.githubusercontent.com/archanags001/AI-Report-Generator/48a61d00c5fccaaa0ed53233db8d45c5add79be8/images/report_ai_generated.png
+    source: https://raw.githubusercontent.com/archanags001/AI-Report-Generator/HEAD/README.md
+  source_headings:
+  - 💬 Example Instructions You Can Provide
+  - 📈 Visual Generation Agent
+  - Workflow Diagram
+- name: PedroReports
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: FastAPI and React report tool that uploads CSV datasets, runs Gemini-backed analysis, creates Matplotlib and
+    Seaborn visualizations, performs statistical summaries, and generates polished PDF reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🦝 PedroReports
+    bytes: 5600
+  official_effect_assets:
+  - kind: image
+    title: Watch tutorial
+    url: https://img.youtube.com/vi/DFu0m22gfe8/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool/HEAD/README.md
+  source_headings:
+  - Rename .env.example to .env and add your API key
+  - Visualization
+- name: awesome-claude-design
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/rohitg00/awesome-claude-design
+  dependencies:
+  - 浏览器/账号
+  catalog_note: Claude Design ecosystem index collecting DESIGN.md prompts by aesthetic family, remix recipes, prompt packs,
+    skills, video teardowns, community signal, preview screenshots, and concrete design references for agent-made visual artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Awesome Claude Design
+    bytes: 97954
+  official_examples:
+  - kind: showcase
+    title: Showcase Submission issue template
+    url: https://github.com/rohitg00/awesome-claude-design/blob/HEAD/.github/ISSUE_TEMPLATE/showcase-submission.yml
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: tutorial
+    title: Abhi Chatterjee — Designer's first walkthrough
+    url: https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: paper
+    title: Lalindra (Pen With Paper)
+    url: https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-happens-441922202ef2
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: example
+    title: '**philquist/awesome-claude-design-examples**'
+    url: https://github.com/philquist/awesome-claude-design-examples
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: template
+    title: '**abhishekray07/claude-md-templates**'
+    url: https://github.com/abhishekray07/claude-md-templates
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: template
+    title: '**LaoZhang — Starter Picks by Workflow**'
+    url: https://blog.laozhang.ai/en/posts/claude-code-best-mcp-servers
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: tutorial
+    title: '**Anthropic — Claude Cowork enterprise administrator guide**'
+    url: https://claude.com/resources/tutorials/claude-cowork-enterprise-administrator-guide
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: video
+    title: '**Frontier 3D / shaders / voice / video**'
+    url: https://github.com/rohitg00/awesome-claude-design/blob/HEAD/recipes/frontier-3d-shaders.md
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: tutorial
+    title: medium.com/@0xmega
+    url: https://medium.com/@0xmega/how-to-use-claude-design-the-non-designers-walkthrough-2adc18053a5c
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: support.claude.com
+    url: https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: Prompt engineering overview
+    url: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: Prompt generator (Console)
+    url: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '`docs/spec.md`'
+    url: https://github.com/google-labs-code/design.md/blob/main/docs/spec.md
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '**Connect Claude Code to tools via MCP**'
+    url: https://code.claude.com/docs/en/mcp
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '**Adobe AEM MCP**'
+    url: https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '**Anthropic — Claude Design admin guide for Team and Enterprise plans**'
+    url: https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: agence-scroll guide
+    url: https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: solopreneurcode.substack.com
+    url: https://solopreneurcode.substack.com/p/claude-design-complete-guide-solopreneurs
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: docs.bswen.com
+    url: https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: tosea.ai/blog
+    url: https://tosea.ai/blog/claude-design-complete-guide
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: buildfastwithai.com
+    url: https://www.buildfastwithai.com/blogs/claude-design-anthropic-guide-2026
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: spicyadvisory.com
+    url: https://www.spicyadvisory.com/blog/claude-design-anthropic-labs-guide-workflows-2026
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Linear — editorial minimalism
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/linear.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: Ollama — terminal-core
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/ollama.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: Anthropic / Claude — warm editorial
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/anthropic.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: ClickHouse — data-dense pro
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/clickhouse.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: RunwayML — cinematic dark
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/runwayml.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: Figma — playful color
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/figma.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: Arc Browser — glass / soft-futurism
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/arc.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: The Verge — neon brutalist
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/theverge.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: image
+    title: Granola — cult / indie
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/assets/previews/granola.jpg
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: video
+    title: AI for Work
+    url: https://www.youtube.com/watch?v=4q2F4zblOLQ
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: video
+    title: Malewicz
+    url: https://www.youtube.com/watch?v=IkspcJdeP3U
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: video
+    title: '"Claude Design is slow and I love it anyway"'
+    url: https://www.youtube.com/watch?v=wgPVh9wG6Ok
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: Showcase Submission issue template
+    url: https://github.com/rohitg00/awesome-claude-design/blob/HEAD/.github/ISSUE_TEMPLATE/showcase-submission.yml
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: tutorial
+    title: Abhi Chatterjee — Designer's first walkthrough
+    url: https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: support.claude.com
+    url: https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: paper
+    title: Lalindra (Pen With Paper)
+    url: https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-happens-441922202ef2
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: Prompt engineering overview
+    url: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: Prompt generator (Console)
+    url: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: example
+    title: '**philquist/awesome-claude-design-examples**'
+    url: https://github.com/philquist/awesome-claude-design-examples
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '`docs/spec.md`'
+    url: https://github.com/google-labs-code/design.md/blob/main/docs/spec.md
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: template
+    title: '**abhishekray07/claude-md-templates**'
+    url: https://github.com/abhishekray07/claude-md-templates
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '**Connect Claude Code to tools via MCP**'
+    url: https://code.claude.com/docs/en/mcp
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '**Adobe AEM MCP**'
+    url: https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: template
+    title: '**LaoZhang — Starter Picks by Workflow**'
+    url: https://blog.laozhang.ai/en/posts/claude-code-best-mcp-servers
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: '**Anthropic — Claude Design admin guide for Team and Enterprise plans**'
+    url: https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: tutorial
+    title: '**Anthropic — Claude Cowork enterprise administrator guide**'
+    url: https://claude.com/resources/tutorials/claude-cowork-enterprise-administrator-guide
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: agence-scroll guide
+    url: https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: video
+    title: '**Frontier 3D / shaders / voice / video**'
+    url: https://github.com/rohitg00/awesome-claude-design/blob/HEAD/recipes/frontier-3d-shaders.md
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: solopreneurcode.substack.com
+    url: https://solopreneurcode.substack.com/p/claude-design-complete-guide-solopreneurs
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: tutorial
+    title: medium.com/@0xmega
+    url: https://medium.com/@0xmega/how-to-use-claude-design-the-non-designers-walkthrough-2adc18053a5c
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: docs.bswen.com
+    url: https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: tosea.ai/blog
+    url: https://tosea.ai/blog/claude-design-complete-guide
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: buildfastwithai.com
+    url: https://www.buildfastwithai.com/blogs/claude-design-anthropic-guide-2026
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  - kind: docs
+    title: spicyadvisory.com
+    url: https://www.spicyadvisory.com/blog/claude-design-anthropic-labs-guide-workflows-2026
+    source: https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/README.md
+  source_headings:
+  - Preview Gallery
+  - Video Teardowns
+  - Showcase
+  - Long-Form Tutorials
+  - Builder examples worth studying

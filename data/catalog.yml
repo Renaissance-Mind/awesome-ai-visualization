@@ -1,4 +1,4 @@
-last_researched: '2026-07-22'
+last_researched: '2026-07-24'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1097,6 +1097,37 @@ entries:
   - 报告/简报
   - 思维导图/知识地图
   - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: DecipherIt
+  url: https://github.com/mtwn105/decipher-research-agent
+  homepage: https://decipherit.xyz
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 151
+  license: MIT
+  updated: '2026-07-17'
+  note: NotebookLM-style research assistant that turns documents, URLs, topics, and manual text into source-grounded research notebooks with summaries, Q&A, audio overviews, generated FAQs, and interactive visual mind maps.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 报告/简报
+  - 思维导图/知识地图
+  - 问答/学习材料
+  - 视频/音频
   catalog_section: main
   readme_group: docs
 - name: mindmap-generator
@@ -6339,6 +6370,32 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: code
+- name: NodeSecure Report
+  url: https://github.com/NodeSecure/report
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  - 系统工具
+  stars: 16
+  license: MIT
+  updated: '2026-07-20'
+  note: NodeSecure report generator that scans Git and npm targets, visualizes security threats and quality issues over time, and emits periodic HTML and PDF reports from NodeSecure scanner data.
+  source_types:
+  - 代码库
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: code
 - name: media-gen-mcp
   url: https://github.com/wangdong233/media-gen-mcp
   homepage: https://www.npmjs.com/package/media-gen-mcp-server
@@ -6504,6 +6561,142 @@ entries:
   - API/SDK/库
   output_forms:
   - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+- name: getihu-p2h2p
+  url: https://github.com/Allenfang2026/getihu-p2h2p
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-23'
+  note: Claude Code orchestration skill that rebuilds existing PPT files, rough topics, whiteboard photos, or screenshots through a PPT to HTML to PPT pipeline, coordinating template generation, editable HTML previews, PPTX conversion, and visual QA checkpoints.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - PDF/文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: Talksmith
+  url: https://github.com/veigap/talksmith
+  homepage: https://veigap.github.io/talksmith/tests/examples/talksmith-intro/output/html/index.html
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  stars: 7
+  license: MIT
+  updated: '2026-07-19'
+  note: Claude Code presenter workflow that turns articles, papers, chat transcripts, screenshots, and notes into durable cited subject repositories, thesis-first Markdown outlines, self-contained Reveal.js decks, and optional PowerPoint exports.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: skill_doc2ppt
+  url: https://github.com/ibadbasit/skill_doc2ppt
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 1
+  license: MIT
+  updated: '2026-07-19'
+  note: Windows document-to-slide utility and skill package that converts Word documents or Markdown into simple Claude-style HTML slides or editable PowerPoint decks.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-agent-skill
+  url: https://github.com/Akxan/ppt-agent-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 109
+  license: MIT
+  updated: '2026-07-21'
+  note: Claude Code skill for one-prompt presentation generation with 26 visual styles, 18 chart patterns, HTML-first rendering, editable PPTX export, and benchmark-inspired visual references.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: slide-creator
+  url: https://github.com/kaisersong/slide-creator
+  homepage: https://kaisersong.github.io/slide-creator/demos/blue-sky-en.html
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 46
+  license: unknown
+  updated: '2026-07-17'
+  note: Claude Code and OpenClaw skill that renders zero-dependency HTML presentations from a structured BRIEF.json workflow, style gallery, strict validation, presenter controls, PDF export, and inline editing.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
 - name: animated-diagram
@@ -7413,6 +7606,58 @@ entries:
   - 报告/简报
   catalog_section: main
   readme_group: data
+- name: AI-Report-Generator
+  url: https://github.com/archanags001/AI-Report-Generator
+  homepage: https://ai-report-generator-2-0.streamlit.app
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  stars: 11
+  license: MIT
+  updated: '2026-07-01'
+  note: LangGraph-based multi-agent data analyst that profiles uploaded CSVs, plans visualizations, generates charts and insights, drafts structured analytical reports, and exports the final report as PDF through a Streamlit app.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: PedroReports
+  url: https://github.com/bobinsingh/PedroReports-LLM-Powered-Report-Tool
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  stars: 53
+  license: BSD-3-Clause
+  updated: '2026-05-25'
+  note: FastAPI and React report tool that uploads CSV datasets, runs Gemini-backed analysis, creates Matplotlib and Seaborn visualizations, performs statistical summaries, and generates polished PDF reports.
+  source_types:
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
 - name: Amplitude MCP Server
   url: https://github.com/amplitude/mcp-server-guide
   homepage: https://amplitude.com/docs/analytics/amplitude-mcp
@@ -8005,6 +8250,27 @@ entries:
   - Awesome/索引
   output_forms:
   - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-claude-design
+  url: https://github.com/rohitg00/awesome-claude-design
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  stars: 911
+  license: MIT
+  updated: '2026-07-23'
+  note: Claude Design ecosystem index collecting DESIGN.md prompts by aesthetic family, remix recipes, prompt packs, skills, video teardowns, community signal, preview screenshots, and concrete design references for agent-made visual artifacts.
+  source_types:
+  - 任意/多源
+  - 网页/搜索结果
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  - 网页/交互页面
+  - 图形摘要/信息图
   catalog_section: indexes
   readme_group: indexes
 - name: awesome-llm-skills
