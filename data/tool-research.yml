@@ -1,4 +1,4 @@
-generated_at: '2026-07-23T23:05:45+00:00'
+generated_at: '2026-07-25T23:05:14+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 348
-  fetched_sources_ok: 473
-  fetched_sources_failed: 26
-  official_examples: 963
-  official_effect_assets: 1192
-  official_docs: 1029
+  entries: 357
+  fetched_sources_ok: 485
+  fetched_sources_failed: 28
+  official_examples: 992
+  official_effect_assets: 1216
+  official_docs: 1082
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -32102,3 +32102,1089 @@ entries:
   - Showcase
   - Long-Form Tutorials
   - Builder examples worth studying
+- name: NotebookLM CLI & MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/jacob-bd/notebooklm-mcp-cli
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: CLI, MCP server, and AI-agent skill package for controlling Google NotebookLM notebooks, adding sources, generating
+    podcasts, slide decks, infographics, mind maps, reports, tables, quizzes, and downloading artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: NotebookLM CLI & MCP Server
+    bytes: 22904
+  official_docs:
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/GETTING_STARTED.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: CLI Guide
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/CLI_GUIDE.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: MCP Guide
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/MCP_GUIDE.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: Authentication
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/AUTHENTICATION.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: Remote MCP
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/REMOTE_MCP.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/API_REFERENCE.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: NotebookLM MCP Header
+    url: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/docs/media/header.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: Latest
+    url: https://img.youtube.com/vi/KrgLCrvU1dw/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: General
+    url: https://img.youtube.com/vi/d-PZDQlO4m4/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: Claude
+    url: https://img.youtube.com/vi/PU8JhgLPxes/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: Perplexity
+    url: https://img.youtube.com/vi/BCKlDNg-qxs/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: MCP SuperAssistant
+    url: https://img.youtube.com/vi/7aHDbkr-l_E/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: CLI Overview
+    url: https://img.youtube.com/vi/XyXVuALWZkE/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: CLI, MCP & Skills
+    url: https://img.youtube.com/vi/ZQBQigFK-E8/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: Setup, Doctor & mcpb
+    url: https://img.youtube.com/vi/5tOUilBTJ3Q/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: image
+    title: Infographics
+    url: https://img.youtube.com/vi/Uc6iH5NuQ9A/mqdefault.jpg
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/GETTING_STARTED.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: CLI Guide
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/CLI_GUIDE.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: MCP Guide
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/MCP_GUIDE.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: Authentication
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/AUTHENTICATION.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: Remote MCP
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/REMOTE_MCP.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/API_REFERENCE.md
+    source: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+  source_headings:
+  - MCP Demos
+  - CLI Demos
+- name: notebooklm-claude-workflows
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/CreatmanCEO/notebooklm-claude-workflows
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude Code slash-command workflow pack on top of notebooklm-mcp-cli for repeatable research, YouTube analysis,
+    tech-doc notebooks, Telegram imports, analytics reports, and NotebookLM artifact generation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: notebooklm-claude-workflows
+    bytes: 17436
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md
+  - kind: docs
+    title: notebooklm-mcp-cli docs
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli
+    source: https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md
+  - kind: docs
+    title: notebooklm-mcp-cli docs
+    url: https://github.com/jacob-bd/notebooklm-mcp-cli
+    source: https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md
+  source_headings:
+  - /init-notebook — Documentation for your stack
+- name: Journalism agent skills
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/jamditis/claude-skills-journalism
+  homepage: https://skills.amditis.tech/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Journalism, media, and academic skill suite with PDF playground/design skills for branded reports, proposals,
+    one-pagers, newsletters, slides, event material, visual explainers, KPI dashboards, and video-analysis dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Journalism agent skills
+    bytes: 32750
+  - kind: homepage
+    url: https://skills.amditis.tech/
+    final_url: https://skills.amditis.tech/
+    status: 200
+    content_type: text/html
+    title: Claude skills for journalism | Joe Amditis
+    description: A curated collection of Claude Code skills for journalists, researchers, academics, and media professionals.
+    bytes: 114160
+  official_examples:
+  - kind: demo
+    title: PDF Playground README
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/pdf-playground/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: project-templates-toolkit
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-toolkit
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: demo
+    title: document-design
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/pdf-playground/skills/document-design/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: project-memory
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/project-memory/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: project-retrospective
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/project-retrospective/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: template-selector
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/template-selector/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-download
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-download/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-transcribe
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-transcribe/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-frames
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-frames/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-dashboard
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-dashboard/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: tutorial
+    title: Self-improving autocontext Cross-session knowledge persistence with skill evolution. Lessons accumulate per-skill,
+      and /autocontext:evolve folds them back into skill files. Skill e
+    url: https://skills.amditis.tech/autocontext/
+    source: https://skills.amditis.tech/
+  - kind: demo
+    title: Interactive Plugin pdf-playground Full Claude Code plugin with 6 document types, live preview, brand customization,
+      and conversational editing. Create proposals, reports, slides, a
+    url: https://skills.amditis.tech/pdf-playground/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Plugin pdf-design Standalone skill for PDF reports and proposals with print-ready CSS patterns and layout guidance.
+      Print CSS Layouts Brand system Updated Jul 21, 2026
+    url: https://skills.amditis.tech/pdf-design/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: 'Plugin project-templates-toolkit Three skills for starting and closing projects: a CLAUDE.md project-memory writer,
+      a LESSONS.md retrospective writer, and a template-selector decis'
+    url: https://github.com/jamditis/claude-skills-journalism/tree/master/project-templates-toolkit
+    source: https://skills.amditis.tech/
+  - kind: video
+    title: 'New plugin video-toolkit Four-stage social-video reporting pipeline for public downloads, traceable Whisper transcripts,
+      frame analysis, and cross-platform dashboards. Transcripts '
+    url: https://skills.amditis.tech/video-toolkit/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Pitching story-pitch Pitch templates for daily news, features, investigations, op-eds, and freelance queries. Updated
+      May 8, 2026
+    url: https://skills.amditis.tech/story-pitch/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Memory project-memory Generate CLAUDE.md files that capture project-specific knowledge. Includes 6 project type
+      templates. Updated May 11, 2026
+    url: https://skills.amditis.tech/project-memory/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Featured project-retrospective Generate LESSONS.md files that document what worked and what didn't. 4 project type
+      templates. Updated May 10, 2026
+    url: https://skills.amditis.tech/project-retrospective/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Selector template-selector Decision tree for choosing the right project documentation template. Updated May 10,
+      2026
+    url: https://skills.amditis.tech/template-selector/
+    source: https://skills.amditis.tech/
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code/overview
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Codex CLI
+    url: https://learn.chatgpt.com/docs/codex/cli
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: import skills from another agent
+    url: https://learn.chatgpt.com/docs/import.md
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: free-apis-catalog
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/research-toolkit/skills/free-apis-catalog/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: web-scraping
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/dev-toolkit/skills/web-scraping/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: api-hardening
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/security-toolkit/skills/api-hardening/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Claude Code documentation
+    url: https://docs.anthropic.com/claude-code
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Codex skills documentation
+    url: https://learn.chatgpt.com/docs/build-skills
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Bellingcat OSINT guides
+    url: https://www.bellingcat.com/resources/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Field guide · 2026 The Codex review setup I run. How I set up OpenAI's Codex for code review, how I use it day
+      to day, and the token math behind routing the heavy work to it. A two
+    url: https://codex.amditis.tech/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: 'Plugin dev-toolkit Eleven development skills for small newsroom teams: accessibility (WCAG 2.2), Electron, mobile
+      debugging, Python pipelines, test-first bug fixing, ethical scrapi'
+    url: https://github.com/jamditis/claude-skills-journalism/tree/master/dev-toolkit
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: 'Plugin security-toolkit Four defensive security skills plus /security-toolkit:hotpatch : OWASP audit checklists,
+      secure auth (hashing, JWT, OAuth, passkeys), API hardening, and npm'
+    url: https://github.com/jamditis/claude-skills-journalism/tree/master/security-toolkit
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Interviews interview-prep Pre-interview research, question frameworks, recording consent, attribution guidelines.
+      Updated May 8, 2026
+    url: https://skills.amditis.tech/interview-prep/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Crisis crisis-communications Breaking news protocol, rapid verification, crisis response, misinformation countering.
+      Updated Jul 21, 2026
+    url: https://skills.amditis.tech/crisis-communications/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Access content-access Unpaywall, CORE, Semantic Scholar APIs, library databases, ethical access patterns. Updated
+      Jul 21, 2026
+    url: https://skills.amditis.tech/content-access/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Scraping web-scraping Content extraction with anti-bot handling and poison pill detection. Updated Jul 21, 2026
+    url: https://skills.amditis.tech/web-scraping/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: API api-hardening Rate limiting, input validation, CORS, API key management. Updated May 9, 2026
+    url: https://skills.amditis.tech/api-hardening/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: 'APIs free-apis-catalog Curated free-API catalog organized by journalism use-case. Currency notes for major API
+      sunsets (IEX Cloud, CrowdTangle, ProPublica Congress, X, Reddit) and '
+    url: https://skills.amditis.tech/free-apis-catalog/
+    source: https://skills.amditis.tech/
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code/overview
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: demo
+    title: PDF Playground README
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/pdf-playground/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: project-templates-toolkit
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-toolkit
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Codex CLI
+    url: https://learn.chatgpt.com/docs/codex/cli
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: import skills from another agent
+    url: https://learn.chatgpt.com/docs/import.md
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: free-apis-catalog
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/research-toolkit/skills/free-apis-catalog/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: demo
+    title: document-design
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/pdf-playground/skills/document-design/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: project-memory
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/project-memory/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: project-retrospective
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/project-retrospective/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: template
+    title: template-selector
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/template-selector/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: web-scraping
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/dev-toolkit/skills/web-scraping/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: api-hardening
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/security-toolkit/skills/api-hardening/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-download
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-download/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-transcribe
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-transcribe/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-frames
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-frames/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: video
+    title: video-dashboard
+    url: https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-dashboard/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Claude Code documentation
+    url: https://docs.anthropic.com/claude-code
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Codex skills documentation
+    url: https://learn.chatgpt.com/docs/build-skills
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Bellingcat OSINT guides
+    url: https://www.bellingcat.com/resources/
+    source: https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md
+  - kind: docs
+    title: Field guide · 2026 The Codex review setup I run. How I set up OpenAI's Codex for code review, how I use it day
+      to day, and the token math behind routing the heavy work to it. A two
+    url: https://codex.amditis.tech/
+    source: https://skills.amditis.tech/
+  - kind: tutorial
+    title: Self-improving autocontext Cross-session knowledge persistence with skill evolution. Lessons accumulate per-skill,
+      and /autocontext:evolve folds them back into skill files. Skill e
+    url: https://skills.amditis.tech/autocontext/
+    source: https://skills.amditis.tech/
+  - kind: demo
+    title: Interactive Plugin pdf-playground Full Claude Code plugin with 6 document types, live preview, brand customization,
+      and conversational editing. Create proposals, reports, slides, a
+    url: https://skills.amditis.tech/pdf-playground/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Plugin pdf-design Standalone skill for PDF reports and proposals with print-ready CSS patterns and layout guidance.
+      Print CSS Layouts Brand system Updated Jul 21, 2026
+    url: https://skills.amditis.tech/pdf-design/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: 'Plugin dev-toolkit Eleven development skills for small newsroom teams: accessibility (WCAG 2.2), Electron, mobile
+      debugging, Python pipelines, test-first bug fixing, ethical scrapi'
+    url: https://github.com/jamditis/claude-skills-journalism/tree/master/dev-toolkit
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: 'Plugin project-templates-toolkit Three skills for starting and closing projects: a CLAUDE.md project-memory writer,
+      a LESSONS.md retrospective writer, and a template-selector decis'
+    url: https://github.com/jamditis/claude-skills-journalism/tree/master/project-templates-toolkit
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: 'Plugin security-toolkit Four defensive security skills plus /security-toolkit:hotpatch : OWASP audit checklists,
+      secure auth (hashing, JWT, OAuth, passkeys), API hardening, and npm'
+    url: https://github.com/jamditis/claude-skills-journalism/tree/master/security-toolkit
+    source: https://skills.amditis.tech/
+  - kind: video
+    title: 'New plugin video-toolkit Four-stage social-video reporting pipeline for public downloads, traceable Whisper transcripts,
+      frame analysis, and cross-platform dashboards. Transcripts '
+    url: https://skills.amditis.tech/video-toolkit/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Interviews interview-prep Pre-interview research, question frameworks, recording consent, attribution guidelines.
+      Updated May 8, 2026
+    url: https://skills.amditis.tech/interview-prep/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Pitching story-pitch Pitch templates for daily news, features, investigations, op-eds, and freelance queries. Updated
+      May 8, 2026
+    url: https://skills.amditis.tech/story-pitch/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Crisis crisis-communications Breaking news protocol, rapid verification, crisis response, misinformation countering.
+      Updated Jul 21, 2026
+    url: https://skills.amditis.tech/crisis-communications/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Memory project-memory Generate CLAUDE.md files that capture project-specific knowledge. Includes 6 project type
+      templates. Updated May 11, 2026
+    url: https://skills.amditis.tech/project-memory/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Featured project-retrospective Generate LESSONS.md files that document what worked and what didn't. 4 project type
+      templates. Updated May 10, 2026
+    url: https://skills.amditis.tech/project-retrospective/
+    source: https://skills.amditis.tech/
+  - kind: template
+    title: Selector template-selector Decision tree for choosing the right project documentation template. Updated May 10,
+      2026
+    url: https://skills.amditis.tech/template-selector/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Access content-access Unpaywall, CORE, Semantic Scholar APIs, library databases, ethical access patterns. Updated
+      Jul 21, 2026
+    url: https://skills.amditis.tech/content-access/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: Scraping web-scraping Content extraction with anti-bot handling and poison pill detection. Updated Jul 21, 2026
+    url: https://skills.amditis.tech/web-scraping/
+    source: https://skills.amditis.tech/
+  - kind: tutorial
+    title: 'Context claude-md-updater Propose scoped CLAUDE.md edits as a diff for approval: durable lessons, infra facts,
+      and workflows, never transient session notes. Updated Jul 21, 2026'
+    url: https://skills.amditis.tech/claude-md-updater/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: API api-hardening Rate limiting, input validation, CORS, API key management. Updated May 9, 2026
+    url: https://skills.amditis.tech/api-hardening/
+    source: https://skills.amditis.tech/
+  - kind: demo
+    title: Supply chain supply-chain-hardening npm/bun install-time cooldown plus a sandboxed pre-install scan. Defends against
+      Mini Shai-Hulud-class supply-chain worms; bundles the /security
+    url: https://skills.amditis.tech/supply-chain-hardening/
+    source: https://skills.amditis.tech/
+  - kind: docs
+    title: 'APIs free-apis-catalog Curated free-API catalog organized by journalism use-case. Currency notes for major API
+      sunsets (IEX Cloud, CrowdTangle, ProPublica Congress, X, Reddit) and '
+    url: https://skills.amditis.tech/free-apis-catalog/
+    source: https://skills.amditis.tech/
+  source_headings:
+  - PDF Playground skill
+  - Project documentation skills (in `project-templates-toolkit` plugin)
+  - Video analysis skills (in `video-toolkit` plugin)
+  - Usage examples
+  - Project documentation
+- name: LaTeX Document Skill
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/ndpvt-web/latex-document-skill
+  homepage: https://happycapy.ai/?via=gh
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code LaTeX document skill with OCR pipelines, templates, chart scripts, TikZ/Mermaid support, mail
+    merge, PDF form filling, and compiled PDF/PNG previews for reports, posters, exams, theses, resumes, and books.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: The 10-Second Pitch
+    bytes: 36206
+  - kind: homepage
+    url: https://happycapy.ai/?via=gh
+    final_url: https://happycapy.ai/?via=gh
+    status: 200
+    content_type: text/html
+    title: Happycapy - Agent-Native Computer for everyone
+    description: Try Happycapy — chat with 150+ AI models, generate images and slides, and run automations in a secure sandbox.
+      Sign up free.
+    bytes: 64574
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://docs.happycapy.ai
+    source: https://happycapy.ai/?via=gh
+  official_effect_assets:
+  - kind: image
+    title: Classic ATS
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-classic-ats.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: Modern Professional
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-modern-professional.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: Executive p1
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-executive-p1.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: Executive p2
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-executive-p2.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: Technical
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-technical.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: Entry-Level
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-entry-level.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: p1
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p1.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: p2
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p2.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: p3
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p3.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: p4
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p4.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: p5
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p5.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  - kind: image
+    title: p6
+    url: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p6.png
+    source: https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Docs
+    url: https://docs.happycapy.ai
+    source: https://happycapy.ai/?via=gh
+  source_headings:
+  - Template Gallery -- 27 Templates
+  - Scientific Posters -- `tikzposter` class
+  - Book -- Full-Length Publishing Template
+  - Interactive / Dynamic Templates
+  - Presentation (`presentation.tex`) -- Beamer 16:9
+  - Visual Elements
+  - Diagrams -- 4 Rendering Pipelines
+  - Reference Documentation
+- name: Academic Slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/rkdud007/academic-slides
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for publication-quality academic HTML presentations with Beamer-inspired themes, theorem
+    environments, KaTeX equation rendering, progressive disclosure, theme previews, and optional PowerPoint conversion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rkdud007/academic-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rkdud007/academic-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Academic Slides
+    bytes: 7312
+  source_headings:
+  - Academic Slides
+  - Usage
+  - Create a New Presentation
+  - More Examples
+  - Output Example
+- name: AI Research SKILLs
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/Orchestra-Research/AI-Research-SKILLs
+  homepage: http://orchestra-research.com
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Orchestra Research skill library for AI research agents spanning literature survey, ideation, experiment execution,
+    model engineering, paper writing, research artifact creation, and demo/system-diagram documentation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI Research `Skills` Library
+    bytes: 46673
+  - kind: homepage
+    url: http://orchestra-research.com
+    status: null
+    error: 'ReadTimeout: HTTPSConnectionPool(host=''orchestra-research.com'', port=443): Read timed out. (read timeout=16)'
+  official_examples:
+  - kind: paper
+    title: ML Paper Writing
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/20-ml-paper-writing/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: paper
+    title: Academic Plotting
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/20-ml-paper-writing/academic-plotting/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: demo
+    title: 'NeMo Eval: GPQA Benchmark'
+    url: https://github.com/zechenzhangAGI/Nemo-Eval-Skill-Demo
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: demo
+    title: Cross-Lingual Alignment Analysis
+    url: https://github.com/AmberLJC/faiss-demo
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: demo
+    title: Scientific Plotting Demo
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/scientific-plotting-demo/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: paper
+    title: Norm Heterogeneity paper
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/autoresearch-norm-heterogeneity/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: paper
+    title: RL Brain Scan paper
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/autoresearch-rl-brain-scan/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: detailed roadmap
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: AI Research Skills Demo
+    url: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/docs/assets/promo.gif
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: image
+    title: AI Research Agent System
+    url: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/docs/skills.png
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  official_links:
+  - kind: paper
+    title: ML Paper Writing
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/20-ml-paper-writing/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: paper
+    title: Academic Plotting
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/20-ml-paper-writing/academic-plotting/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: demo
+    title: 'NeMo Eval: GPQA Benchmark'
+    url: https://github.com/zechenzhangAGI/Nemo-Eval-Skill-Demo
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: demo
+    title: Cross-Lingual Alignment Analysis
+    url: https://github.com/AmberLJC/faiss-demo
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: demo
+    title: Scientific Plotting Demo
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/scientific-plotting-demo/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: paper
+    title: Norm Heterogeneity paper
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/autoresearch-norm-heterogeneity/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: paper
+    title: RL Brain Scan paper
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/autoresearch-rl-brain-scan/
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  - kind: docs
+    title: detailed roadmap
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md
+  source_headings:
+  - Demos
+- name: Claude-Skills
+  category: meta-index
+  surface: skill
+  primary_url: https://github.com/borghei/Claude-Skills
+  homepage: https://borghei.github.io/Claude-Skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Large cross-domain AI skills library and installer with product-management reports, board updates, markdown-to-HTML
+    publishing, document workflows, data analytics, research, and MCP-callable skill pipelines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Try it now
+    bytes: 8932
+  - kind: homepage
+    url: https://borghei.github.io/Claude-Skills/
+    final_url: https://borghei.github.io/Claude-Skills/
+    status: 200
+    content_type: text/html
+    title: 'Claude Skills: AI skills for every team, not just engineering'
+    description: 368 production-ready AI skills across 20 domains. The only OSS skills library covering regulated industries
+      (SOC 2, ISO 13485, MDR, FDA, EU AI Act, NIS2, DORA, HIPAA, GDPR). Projec
+    bytes: 30628
+  official_examples:
+  - kind: example
+    title: 'Research Ops 4 skills Applied research as a funded function: market sizing (TAM/SAM/SOM), discovery study design,
+      clinical sample-size and protocol planning, research budgeting mar'
+    url: https://borghei.github.io/skills/research-ops/
+    source: https://borghei.github.io/Claude-Skills/
+  - kind: paper
+    title: 'Markdown → HTML 4 skills Publishing pipeline: polished self-contained documents and slide decks, a CI-ready pre-publication
+      review gate, and a shared design-token layer. Stdlib onl'
+    url: https://borghei.github.io/skills/markdown-html/
+    source: https://borghei.github.io/Claude-Skills/
+  official_docs:
+  - kind: docs
+    title: docs/INSTALLATION.md
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/INSTALLATION.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: All skills →
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/SKILLS.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: docs/commands/
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/commands/
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: docs/AGENTS.md
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/AGENTS.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: docs/USAGE.md
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/INSTALLATION.md
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/INSTALLATION.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: All skills →
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/SKILLS.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: docs/commands/
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/commands/
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: docs/AGENTS.md
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/AGENTS.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: docs
+    title: docs/USAGE.md
+    url: https://github.com/borghei/Claude-Skills/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md
+  - kind: example
+    title: 'Research Ops 4 skills Applied research as a funded function: market sizing (TAM/SAM/SOM), discovery study design,
+      clinical sample-size and protocol planning, research budgeting mar'
+    url: https://borghei.github.io/skills/research-ops/
+    source: https://borghei.github.io/Claude-Skills/
+  - kind: paper
+    title: 'Markdown → HTML 4 skills Publishing pipeline: polished self-contained documents and slide decks, a CI-ready pre-publication
+      review gate, and a shared design-token layer. Stdlib onl'
+    url: https://borghei.github.io/skills/markdown-html/
+    source: https://borghei.github.io/Claude-Skills/
+  source_headings:
+  - Documentation
+- name: design-agent-skills
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/podo/design-agent-skills
+  homepage: https://www.npmjs.com/package/design-agent-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Curated design-skill catalogue and installer for Claude Code, Cursor, Codex, OpenCode, and other agents, covering
+    UI craft, motion, Figma, data visualization, presentations, diagrams, product/PM, content design, and research.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/podo/design-agent-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/podo/design-agent-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: design-agent-skills
+    bytes: 37511
+  - kind: homepage
+    url: https://www.npmjs.com/package/design-agent-skills
+    final_url: https://www.npmjs.com/package/design-agent-skills
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
+    url: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
+    source: https://raw.githubusercontent.com/podo/design-agent-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
+    url: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
+    source: https://raw.githubusercontent.com/podo/design-agent-skills/HEAD/README.md
+  source_headings:
+  - Visual Components
+  - Diagrams
+  - Data Visualization
+  - Presentations
+- name: awesome-claude-connectors
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/rdmgator12/awesome-claude-connectors
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  catalog_note: Directory of Claude connector and MCP integrations with descriptions and use cases, including visual-content,
+    presentation, chart-rendering, file, research, dashboard, and document-export connectors.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Awesome List for Claude Connectors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Last Commit](https://img.shields.io/github/last-commit/rdmgator12/awesome-claud
+    bytes: 183339
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: Connectors Documentation
+    url: https://claude.com/docs/connectors/directory
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Submission Guidelines
+    url: https://claude.com/docs/connectors/building/submission
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Zapier
+    url: https://zapier.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: AWS API MCP Server
+    url: https://aws.amazon.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: RED Atlas API
+    url: https://api.atlas.red
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Control your Mac
+    url: https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5b
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: macOS
+    url: https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5bos
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: pg-aiguide
+    url: https://www.postgresql.org/docs/
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Avanquest PDF API Extension
+    url: https://developers.avanquest.com/products/pdf-api
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Nutrient DWS
+    url: https://www.nutrient.io/api/processor-api/
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: PDF Viewer
+    url: https://github.com/anthropics/anthropic-quickstarts
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Superhuman Docs
+    url: https://superhuman.com/docs
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: OilPriceAPI — Oil, Gas & Commodity Prices
+    url: https://www.oilpriceapi.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Boltz API
+    url: https://boltz.bio
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Read and Write Apple Notes
+    url: https://support.apple.com/guide/notes
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Guidepoint
+    url: https://www.guidepoint.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Apiiro Guardian
+    url: https://apiiro.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Rapid7 Bulk Export
+    url: https://www.rapid7.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Apify
+    url: https://apify.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: Connectors Documentation
+    url: https://claude.com/docs/connectors/directory
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Submission Guidelines
+    url: https://claude.com/docs/connectors/building/submission
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Zapier
+    url: https://zapier.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: AWS API MCP Server
+    url: https://aws.amazon.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: RED Atlas API
+    url: https://api.atlas.red
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Control your Mac
+    url: https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5b
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: macOS
+    url: https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5bos
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: pg-aiguide
+    url: https://www.postgresql.org/docs/
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Avanquest PDF API Extension
+    url: https://developers.avanquest.com/products/pdf-api
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Nutrient DWS
+    url: https://www.nutrient.io/api/processor-api/
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: PDF Viewer
+    url: https://github.com/anthropics/anthropic-quickstarts
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Superhuman Docs
+    url: https://superhuman.com/docs
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: tutorial
+    title: Coursera
+    url: https://www.coursera.org
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: OilPriceAPI — Oil, Gas & Commodity Prices
+    url: https://www.oilpriceapi.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Boltz API
+    url: https://boltz.bio
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: demo
+    title: SandboxAQ
+    url: https://www.sandboxaq.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Read and Write Apple Notes
+    url: https://support.apple.com/guide/notes
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Guidepoint
+    url: https://www.guidepoint.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Apiiro Guardian
+    url: https://apiiro.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Rapid7 Bulk Export
+    url: https://www.rapid7.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+  - kind: docs
+    title: Apify
+    url: https://apify.com
+    source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md

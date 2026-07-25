@@ -423,6 +423,18 @@ Excluded if:
 - [NodeSecure Report](https://github.com/NodeSecure/report): NodeSecure scanner-based report generator for visualizing repository and package security/quality issues over time in HTML and PDF.
 - [awesome-claude-design](https://github.com/rohitg00/awesome-claude-design): Claude Design ecosystem index for DESIGN.md prompts, aesthetic families, recipes, skills, video teardowns, screenshots, and visual references.
 
+## Added in the 2026-07-26 Daily Refresh
+
+- [NotebookLM CLI & MCP Server](https://github.com/jacob-bd/notebooklm-mcp-cli): CLI, MCP server, and agent-skill package for controlling Google NotebookLM, adding sources, generating podcasts, slide decks, infographics, mind maps, reports, tables, quizzes, and downloading artifacts.
+- [notebooklm-claude-workflows](https://github.com/CreatmanCEO/notebooklm-claude-workflows): Claude Code slash-command workflows on top of notebooklm-mcp-cli for repeatable research, YouTube analysis, tech-doc notebooks, Telegram imports, analytics reports, and NotebookLM artifacts.
+- [Journalism agent skills](https://github.com/jamditis/claude-skills-journalism): journalism, media, and academic skill suite with PDF playground/design skills for reports, proposals, one-pagers, newsletters, slides, visual explainers, KPI dashboards, and video-analysis dashboards.
+- [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill): Claude Code skill for OCR-backed LaTeX document generation, chart scripts, TikZ/Mermaid support, mail merge, PDF form filling, and compiled PDF/PNG previews.
+- [Academic Slides](https://github.com/rkdud007/academic-slides): Claude Code skill for publication-quality academic HTML presentations with Beamer-inspired themes, theorem environments, KaTeX equations, progressive disclosure, and optional PowerPoint conversion.
+- [AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs): Orchestra Research skill library for AI research agents across literature survey, ideation, experiments, paper writing, artifact creation, plotting, and demo/system-diagram documentation.
+- [Claude-Skills](https://github.com/borghei/Claude-Skills): large cross-domain skill library and installer covering product-management reports, board updates, markdown-to-HTML publishing, document workflows, data analytics, research, and MCP-callable pipelines.
+- [design-agent-skills](https://github.com/podo/design-agent-skills): curated design-skill catalogue and installer for agent workflows across UI craft, motion, Figma, data visualization, presentations, diagrams, PM, content design, and research.
+- [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors): Claude connector and MCP directory with visual-content, presentation, chart-rendering, file, research, dashboard, and document-export integration coverage.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.

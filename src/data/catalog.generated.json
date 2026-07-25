@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-07-23T23:05:45+00:00",
-  "lastResearched": "2026-07-24",
+  "generatedAt": "2026-07-25T23:05:14+00:00",
+  "lastResearched": "2026-07-26",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 348,
+    "total": 357,
     "openSource": 96,
     "saas": 47,
     "modelApi": 129,
-    "examples": 963,
-    "effectAssets": 1192,
-    "docs": 1029
+    "examples": 992,
+    "effectAssets": 1216,
+    "docs": 1082
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 43,
-      "PDF/文档": 116,
-      "文本/想法": 215,
-      "数据/表格": 122,
+      "论文/科研资料": 45,
+      "PDF/文档": 121,
+      "文本/想法": 219,
+      "数据/表格": 126,
       "代码/技术描述": 64,
-      "网页/搜索结果": 104,
-      "代码库": 36,
+      "网页/搜索结果": 107,
+      "代码库": 37,
       "DSL/代码": 61,
-      "新闻/资讯": 12,
-      "知识库/个人资料": 23,
-      "任意/多源": 45,
+      "新闻/资讯": 13,
+      "知识库/个人资料": 25,
+      "任意/多源": 50,
       "Office 文档": 46,
       "引用网络": 4,
       "数据库": 24
     },
     "toolForms": {
       "开源应用/框架": 96,
-      "Agent Skill": 113,
-      "Skill 集合": 27,
+      "Agent Skill": 117,
+      "Skill 集合": 31,
       "数据集/评测": 2,
       "Bot/助手": 10,
       "产品/SaaS": 47,
-      "MCP Server": 89,
+      "MCP Server": 90,
       "研究原型": 4,
-      "API/SDK/库": 33,
-      "Awesome/索引": 17
+      "API/SDK/库": 34,
+      "Awesome/索引": 20
     },
     "outputForms": {
       "图形摘要/信息图": 26,
-      "PPT/演示文稿": 152,
-      "网页/交互页面": 90,
-      "问答/学习材料": 12,
-      "报告/长文档": 37,
-      "证据表": 14,
-      "信息图/视觉报告": 51,
-      "图表/仪表盘": 87,
-      "架构图/流程图": 74,
-      "SVG/PNG/PDF": 112,
-      "报告/简报": 34,
+      "PPT/演示文稿": 157,
+      "网页/交互页面": 94,
+      "问答/学习材料": 13,
+      "报告/长文档": 42,
+      "证据表": 15,
+      "信息图/视觉报告": 55,
+      "图表/仪表盘": 90,
+      "架构图/流程图": 77,
+      "SVG/PNG/PDF": 114,
+      "报告/简报": 37,
       "白板/思维导图": 25,
       "图表/Mermaid": 40,
-      "视频/音频": 29,
-      "表格/时间线": 6,
+      "视频/音频": 31,
+      "表格/时间线": 8,
       "引用答案": 4,
-      "思维导图/知识地图": 19,
-      "结构化数据/Markdown": 24,
+      "思维导图/知识地图": 21,
+      "结构化数据/Markdown": 27,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 23,
       "图表/渲染输出": 12,
-      "工具索引": 19
+      "工具索引": 22
     },
     "dependencies": {
-      "本地语言环境": 261,
+      "本地语言环境": 269,
       "模型 API": 129,
-      "文档解析/OCR": 57,
-      "渲染/导出": 268,
+      "文档解析/OCR": 61,
+      "渲染/导出": 276,
       "GPU/加速器": 10,
-      "模板/素材": 155,
-      "Agent 宿主": 146,
-      "系统工具": 61,
-      "浏览器/账号": 96,
-      "存储/索引": 42,
-      "外部检索/数据源": 58,
-      "MCP Client": 91,
-      "代码分析工具": 26
+      "模板/素材": 158,
+      "Agent 宿主": 153,
+      "系统工具": 63,
+      "浏览器/账号": 99,
+      "存储/索引": 43,
+      "外部检索/数据源": 63,
+      "MCP Client": 93,
+      "代码分析工具": 27
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 29,
-      "research-report": 15,
-      "infographic-report": 31,
+      "doc-to-knowledge": 32,
+      "research-report": 16,
+      "infographic-report": 32,
       "data-dashboard": 40,
       "diagram-generation": 44,
       "literature-map": 4,
-      "presentation-tools": 103,
+      "presentation-tools": 104,
       "codebase-map": 21,
       "rendering-primitive": 8,
       "video-generation": 10,
       "commercial-site": 10,
-      "meta-index": 20
+      "meta-index": 23
     },
     "groups": {
-      "paper": 24,
-      "text_visual": 43,
+      "paper": 25,
+      "text_visual": 44,
       "web_news": 8,
       "support_mindmap": 9,
-      "docs": 13,
+      "docs": 16,
       "support_doc_parse": 9,
-      "presentation": 115,
+      "presentation": 116,
       "code": 21,
       "support_render": 39,
       "diagrams": 2,
       "video": 10,
       "data": 35,
-      "indexes": 20
+      "indexes": 23
     }
   },
   "entries": [
@@ -31841,6 +31841,885 @@
       "effectAssets": [],
       "docsCount": 20,
       "examplesCount": 10,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "NotebookLM CLI & MCP Server",
+      "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+      "primaryUrl": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 5618,
+      "license": "MIT",
+      "updated": "2026-07-25",
+      "note": "CLI, MCP server, and AI-agent skill package for controlling Google NotebookLM notebooks, adding sources, generating podcasts, slide decks, infographics, mind maps, reports, tables, quizzes, and downloading artifacts.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "思维导图/知识地图",
+        "信息图/视觉报告",
+        "视频/音频",
+        "报告/简报",
+        "表格/时间线",
+        "问答/学习材料"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Getting Started",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/GETTING_STARTED.md",
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI Guide",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/CLI_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP Guide",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/MCP_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Authentication",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/AUTHENTICATION.md",
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Remote MCP",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/REMOTE_MCP.md",
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli/blob/HEAD/docs/API_REFERENCE.md",
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "NotebookLM MCP Header",
+          "url": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/docs/media/header.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Latest",
+          "url": "https://img.youtube.com/vi/KrgLCrvU1dw/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "General",
+          "url": "https://img.youtube.com/vi/d-PZDQlO4m4/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Claude",
+          "url": "https://img.youtube.com/vi/PU8JhgLPxes/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Perplexity",
+          "url": "https://img.youtube.com/vi/BCKlDNg-qxs/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "MCP SuperAssistant",
+          "url": "https://img.youtube.com/vi/7aHDbkr-l_E/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "CLI Overview",
+          "url": "https://img.youtube.com/vi/XyXVuALWZkE/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "CLI, MCP & Skills",
+          "url": "https://img.youtube.com/vi/ZQBQigFK-E8/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Setup, Doctor & mcpb",
+          "url": "https://img.youtube.com/vi/5tOUilBTJ3Q/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Infographics",
+          "url": "https://img.youtube.com/vi/Uc6iH5NuQ9A/mqdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 0,
+      "effectAssetsCount": 10
+    },
+    {
+      "name": "notebooklm-claude-workflows",
+      "url": "https://github.com/CreatmanCEO/notebooklm-claude-workflows",
+      "primaryUrl": "https://github.com/CreatmanCEO/notebooklm-claude-workflows",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-04-30",
+      "note": "Claude Code slash-command workflow pack on top of notebooklm-mcp-cli for repeatable research, YouTube analysis, tech-doc notebooks, Telegram imports, analytics reports, and NotebookLM artifact generation.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "报告/简报",
+        "思维导图/知识地图",
+        "信息图/视觉报告",
+        "PPT/演示文稿",
+        "视频/音频",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "notebooklm-mcp-cli docs",
+          "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+          "source": "https://raw.githubusercontent.com/CreatmanCEO/notebooklm-claude-workflows/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Journalism agent skills",
+      "url": "https://github.com/jamditis/claude-skills-journalism",
+      "primaryUrl": "https://github.com/jamditis/claude-skills-journalism",
+      "homepage": "https://skills.amditis.tech/",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 338,
+      "license": "MIT",
+      "updated": "2026-07-25",
+      "note": "Journalism, media, and academic skill suite with PDF playground/design skills for branded reports, proposals, one-pagers, newsletters, slides, event material, visual explainers, KPI dashboards, and video-analysis dashboards.",
+      "sourceTypes": [
+        "新闻/资讯",
+        "网页/搜索结果",
+        "PDF/文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "报告/简报",
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Codex CLI",
+          "url": "https://learn.chatgpt.com/docs/codex/cli",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "import skills from another agent",
+          "url": "https://learn.chatgpt.com/docs/import.md",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "free-apis-catalog",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/research-toolkit/skills/free-apis-catalog/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "web-scraping",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/dev-toolkit/skills/web-scraping/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "api-hardening",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/security-toolkit/skills/api-hardening/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude Code documentation",
+          "url": "https://docs.anthropic.com/claude-code",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Codex skills documentation",
+          "url": "https://learn.chatgpt.com/docs/build-skills",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "PDF Playground README",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/pdf-playground/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "project-templates-toolkit",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "video-toolkit",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "document-design",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/pdf-playground/skills/document-design/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "project-memory",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/project-memory/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "project-retrospective",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/project-retrospective/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "template-selector",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/project-templates-toolkit/skills/template-selector/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "video-download",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-download/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "video-transcribe",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-transcribe/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "video-frames",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-frames/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "video-dashboard",
+          "url": "https://github.com/jamditis/claude-skills-journalism/blob/HEAD/video-toolkit/skills/video-dashboard/",
+          "source": "https://raw.githubusercontent.com/jamditis/claude-skills-journalism/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Self-improving autocontext Cross-session knowledge persistence with skill evolution. Lessons accumulate per-skill, and /autocontext:evolve folds them back into skill files. Skill e",
+          "url": "https://skills.amditis.tech/autocontext/",
+          "source": "https://skills.amditis.tech/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 18,
+      "examplesCount": 20,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "LaTeX Document Skill",
+      "url": "https://github.com/ndpvt-web/latex-document-skill",
+      "primaryUrl": "https://github.com/ndpvt-web/latex-document-skill",
+      "homepage": "https://happycapy.ai/?via=gh",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 672,
+      "license": "unknown",
+      "updated": "2026-07-25",
+      "note": "Claude Code LaTeX document skill with OCR pipelines, templates, chart scripts, TikZ/Mermaid support, mail merge, PDF form filling, and compiled PDF/PNG previews for reports, posters, exams, theses, resumes, and books.",
+      "sourceTypes": [
+        "PDF/文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "SVG/PNG/PDF",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.happycapy.ai",
+          "source": "https://happycapy.ai/?via=gh"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Classic ATS",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-classic-ats.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Modern Professional",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-modern-professional.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Executive p1",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-executive-p1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Executive p2",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-executive-p2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Technical",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-technical.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Entry-Level",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/resume-entry-level.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "p1",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "p2",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "p3",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "p4",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "p5",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p5.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "p6",
+          "url": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/examples/thesis-p6.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ndpvt-web/latex-document-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Academic Slides",
+      "url": "https://github.com/rkdud007/academic-slides",
+      "primaryUrl": "https://github.com/rkdud007/academic-slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "MIT",
+      "updated": "2026-02-24",
+      "note": "Claude Code skill for publication-quality academic HTML presentations with Beamer-inspired themes, theorem environments, KaTeX equation rendering, progressive disclosure, theme previews, and optional PowerPoint conversion.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AI Research SKILLs",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "primaryUrl": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "homepage": "http://orchestra-research.com",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 11094,
+      "license": "MIT",
+      "updated": "2026-06-16",
+      "note": "Orchestra Research skill library for AI research agents spanning literature survey, ideation, experiment execution, model engineering, paper writing, research artifact creation, and demo/system-diagram documentation.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "代码库",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "证据表",
+        "结构化数据/Markdown",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "detailed roadmap",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/docs/ROADMAP.md",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "ML Paper Writing",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/20-ml-paper-writing/",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Academic Plotting",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/20-ml-paper-writing/academic-plotting/",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "NeMo Eval: GPQA Benchmark",
+          "url": "https://github.com/zechenzhangAGI/Nemo-Eval-Skill-Demo",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Cross-Lingual Alignment Analysis",
+          "url": "https://github.com/AmberLJC/faiss-demo",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Scientific Plotting Demo",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/scientific-plotting-demo/",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Norm Heterogeneity paper",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/autoresearch-norm-heterogeneity/",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "RL Brain Scan paper",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/HEAD/demos/autoresearch-rl-brain-scan/",
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "AI Research Skills Demo",
+          "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/docs/assets/promo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI Research Agent System",
+          "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/docs/skills.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 7,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Claude-Skills",
+      "url": "https://github.com/borghei/Claude-Skills",
+      "primaryUrl": "https://github.com/borghei/Claude-Skills",
+      "homepage": "https://borghei.github.io/Claude-Skills",
+      "category": "meta-index",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 407,
+      "license": "unknown",
+      "updated": "2026-07-21",
+      "note": "Large cross-domain AI skills library and installer with product-management reports, board updates, markdown-to-HTML publishing, document workflows, data analytics, research, and MCP-callable skill pipelines.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引",
+        "报告/长文档",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/INSTALLATION.md",
+          "url": "https://github.com/borghei/Claude-Skills/blob/HEAD/docs/INSTALLATION.md",
+          "source": "https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "All skills →",
+          "url": "https://github.com/borghei/Claude-Skills/blob/HEAD/docs/SKILLS.md",
+          "source": "https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/commands/",
+          "url": "https://github.com/borghei/Claude-Skills/blob/HEAD/docs/commands/",
+          "source": "https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/AGENTS.md",
+          "url": "https://github.com/borghei/Claude-Skills/blob/HEAD/docs/AGENTS.md",
+          "source": "https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/USAGE.md",
+          "url": "https://github.com/borghei/Claude-Skills/blob/HEAD/docs/USAGE.md",
+          "source": "https://raw.githubusercontent.com/borghei/Claude-Skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Research Ops 4 skills Applied research as a funded function: market sizing (TAM/SAM/SOM), discovery study design, clinical sample-size and protocol planning, research budgeting mar",
+          "url": "https://borghei.github.io/skills/research-ops/",
+          "source": "https://borghei.github.io/Claude-Skills/"
+        },
+        {
+          "kind": "paper",
+          "title": "Markdown → HTML 4 skills Publishing pipeline: polished self-contained documents and slide decks, a CI-ready pre-publication review gate, and a shared design-token layer. Stdlib onl",
+          "url": "https://borghei.github.io/skills/markdown-html/",
+          "source": "https://borghei.github.io/Claude-Skills/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 5,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "design-agent-skills",
+      "url": "https://github.com/podo/design-agent-skills",
+      "primaryUrl": "https://github.com/podo/design-agent-skills",
+      "homepage": "https://www.npmjs.com/package/design-agent-skills",
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-20",
+      "note": "Curated design-skill catalogue and installer for Claude Code, Cursor, Codex, OpenCode, and other agents, covering UI craft, motion, Figma, data visualization, presentations, diagrams, product/PM, content design, and research.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "工具索引",
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server",
+          "url": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server",
+          "source": "https://raw.githubusercontent.com/podo/design-agent-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "awesome-claude-connectors",
+      "url": "https://github.com/rdmgator12/awesome-claude-connectors",
+      "primaryUrl": "https://github.com/rdmgator12/awesome-claude-connectors",
+      "homepage": null,
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "浏览器/账号",
+        "外部检索/数据源"
+      ],
+      "stars": 79,
+      "license": "CC0-1.0",
+      "updated": "2026-07-23",
+      "note": "Directory of Claude connector and MCP integrations with descriptions and use cases, including visual-content, presentation, chart-rendering, file, research, dashboard, and document-export connectors.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Connectors Documentation",
+          "url": "https://claude.com/docs/connectors/directory",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Submission Guidelines",
+          "url": "https://claude.com/docs/connectors/building/submission",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Zapier",
+          "url": "https://zapier.com",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "AWS API MCP Server",
+          "url": "https://aws.amazon.com",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "RED Atlas API",
+          "url": "https://api.atlas.red",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Control your Mac",
+          "url": "https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5b",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "macOS",
+          "url": "https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5bos",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "pg-aiguide",
+          "url": "https://www.postgresql.org/docs/",
+          "source": "https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 19,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     }
   ]

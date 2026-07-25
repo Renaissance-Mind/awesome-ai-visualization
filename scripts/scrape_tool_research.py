@@ -697,7 +697,7 @@ def scrape_catalog(catalog_path: Path, max_entries: int | None) -> dict[str, Any
         source_catalog = str(catalog_path)
 
     return {
-        "generated_at": dt.datetime.now(dt.UTC).replace(microsecond=0).isoformat(),
+        "generated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
         "source_catalog": source_catalog,
         "scope": "Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.",
         "schema": {
