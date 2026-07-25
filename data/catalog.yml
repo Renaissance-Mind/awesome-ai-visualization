@@ -1,4 +1,4 @@
-last_researched: '2026-07-24'
+last_researched: '2026-07-26'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -8599,6 +8599,264 @@ entries:
   tool_forms:
   - Awesome/索引
   - MCP Server
+  output_forms:
+  - 工具索引
+  catalog_section: indexes
+  readme_group: indexes
+- name: NotebookLM CLI & MCP Server
+  url: https://github.com/jacob-bd/notebooklm-mcp-cli
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 5618
+  license: MIT
+  updated: '2026-07-25'
+  note: CLI, MCP server, and AI-agent skill package for controlling Google NotebookLM notebooks, adding sources, generating podcasts, slide decks, infographics, mind maps, reports, tables, quizzes, and downloading artifacts.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 思维导图/知识地图
+  - 信息图/视觉报告
+  - 视频/音频
+  - 报告/简报
+  - 表格/时间线
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: notebooklm-claude-workflows
+  url: https://github.com/CreatmanCEO/notebooklm-claude-workflows
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 4
+  license: MIT
+  updated: '2026-04-30'
+  note: Claude Code slash-command workflow pack on top of notebooklm-mcp-cli for repeatable research, YouTube analysis, tech-doc notebooks, Telegram imports, analytics reports, and NotebookLM artifact generation.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 报告/简报
+  - 思维导图/知识地图
+  - 信息图/视觉报告
+  - PPT/演示文稿
+  - 视频/音频
+  - 表格/时间线
+  catalog_section: main
+  readme_group: docs
+- name: Journalism agent skills
+  url: https://github.com/jamditis/claude-skills-journalism
+  homepage: https://skills.amditis.tech/
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 338
+  license: MIT
+  updated: '2026-07-25'
+  note: Journalism, media, and academic skill suite with PDF playground/design skills for branded reports, proposals, one-pagers, newsletters, slides, event material, visual explainers, KPI dashboards, and video-analysis dashboards.
+  source_types:
+  - 新闻/资讯
+  - 网页/搜索结果
+  - PDF/文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 报告/长文档
+  - 报告/简报
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: text_visual
+- name: LaTeX Document Skill
+  url: https://github.com/ndpvt-web/latex-document-skill
+  homepage: https://happycapy.ai/?via=gh
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 672
+  license: unknown
+  updated: '2026-07-25'
+  note: Claude Code LaTeX document skill with OCR pipelines, templates, chart scripts, TikZ/Mermaid support, mail merge, PDF form filling, and compiled PDF/PNG previews for reports, posters, exams, theses, resumes, and books.
+  source_types:
+  - PDF/文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: Academic Slides
+  url: https://github.com/rkdud007/academic-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: MIT
+  updated: '2026-02-24'
+  note: Claude Code skill for publication-quality academic HTML presentations with Beamer-inspired themes, theorem environments, KaTeX equation rendering, progressive disclosure, theme previews, and optional PowerPoint conversion.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: AI Research SKILLs
+  url: https://github.com/Orchestra-Research/AI-Research-SKILLs
+  homepage: http://orchestra-research.com
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  stars: 11094
+  license: MIT
+  updated: '2026-06-16'
+  note: Orchestra Research skill library for AI research agents spanning literature survey, ideation, experiment execution, model engineering, paper writing, research artifact creation, and demo/system-diagram documentation.
+  source_types:
+  - 论文/科研资料
+  - 代码库
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  - 结构化数据/Markdown
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: paper
+- name: Claude-Skills
+  url: https://github.com/borghei/Claude-Skills
+  homepage: https://borghei.github.io/Claude-Skills
+  category: meta-index
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 407
+  license: unknown
+  updated: '2026-07-21'
+  note: Large cross-domain AI skills library and installer with product-management reports, board updates, markdown-to-HTML publishing, document workflows, data analytics, research, and MCP-callable skill pipelines.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  - 报告/长文档
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: indexes
+  readme_group: indexes
+- name: design-agent-skills
+  url: https://github.com/podo/design-agent-skills
+  homepage: https://www.npmjs.com/package/design-agent-skills
+  category: meta-index
+  surface: index
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-07-20'
+  note: Curated design-skill catalogue and installer for Claude Code, Cursor, Codex, OpenCode, and other agents, covering UI craft, motion, Figma, data visualization, presentations, diagrams, product/PM, content design, and research.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  - Skill 集合
+  output_forms:
+  - 工具索引
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 架构图/流程图
+  - 网页/交互页面
+  catalog_section: indexes
+  readme_group: indexes
+- name: awesome-claude-connectors
+  url: https://github.com/rdmgator12/awesome-claude-connectors
+  category: meta-index
+  surface: index
+  dependencies:
+  - 浏览器/账号
+  - 外部检索/数据源
+  stars: 79
+  license: CC0-1.0
+  updated: '2026-07-23'
+  note: Directory of Claude connector and MCP integrations with descriptions and use cases, including visual-content, presentation, chart-rendering, file, research, dashboard, and document-export connectors.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
   output_forms:
   - 工具索引
   catalog_section: indexes
