@@ -1,4 +1,4 @@
-last_researched: '2026-07-26'
+last_researched: '2026-07-27'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -8861,3 +8861,224 @@ entries:
   - 工具索引
   catalog_section: indexes
   readme_group: indexes
+- name: Codex Slides
+  url: https://github.com/nexu-io/codex-slides
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 560
+  license: MIT
+  updated: '2026-07-26'
+  note: Open-source AI slide studio inside Codex that turns prompts, repositories, folders, and files into visible research-to-outline-to-render workflows with production PPTX/PDF export.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - PDF/文档
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: presentation-skill
+  url: https://github.com/siril9/presentation-skill
+  homepage: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 32
+  license: MIT
+  updated: '2026-07-26'
+  note: Codex skill/plugin for source-first editable PowerPoint decks with outline JSON, style routing, native chart/table/flow variants, deck QA, and reusable presentation workspaces.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: diagram-pptx
+  url: https://github.com/sci-gen/diagram-pptx
+  category: diagram-generation
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-07-26'
+  note: Pure-Python compiler that parses Mermaid into editable native PowerPoint AutoShapes, connectors, text, groups, and optional SVG/PNG/JPEG exports without requiring PowerPoint, Node.js, Docker, or LibreOffice.
+  source_types:
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: diagram
+- name: deck
+  url: https://github.com/k1LoW/deck
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 1236
+  license: MIT
+  updated: '2026-07-26'
+  note: Markdown-to-Google-Slides command-line utility for continuous deck building, theme reuse, OAuth or service-account automation, and content/design separation.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  catalog_section: support_render
+  readme_group: presentation
+- name: Bento
+  url: https://github.com/nyblnet/bento
+  homepage: https://bento.page
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2168
+  license: MIT
+  updated: '2026-07-26'
+  note: Local-first single-file office suite whose self-contained HTML decks include viewer, editor, presenter, charts, animations, PDF export, collaboration, and agent-editable plaintext JSON.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Talk to Figma MCP
+  url: https://github.com/grab/cursor-talk-to-figma-mcp
+  homepage: https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 6935
+  license: MIT
+  updated: '2026-07-26'
+  note: MCP server plus Figma plugin that lets AI agents read, create, and modify real Figma designs through WebSocket-backed canvas operations and design automation demos.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 网页/交互页面
+  - 图形摘要/信息图
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Danmo Work
+  url: https://github.com/danmo-ai/danmo-work
+  homepage: https://github.com/danmo-ai/danmo-work/releases/latest
+  category: research-report
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - MCP Client
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 4
+  license: MIT
+  updated: '2026-07-26'
+  note: Self-hosted AI work-agent workspace with a coding-agent-grade loop, inspectable tool-call trail, document stage for docs/slides/sheets/previews, MCP connectors, memory, table store, and IM surfaces.
+  source_types:
+  - 任意/多源
+  - 代码库
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - 表格/时间线
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: World Intelligence MCP Server
+  url: https://github.com/marc-shade/world-intel-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 160
+  license: MIT
+  updated: '2026-07-26'
+  note: MCP server for real-time global intelligence across markets, filings, disasters, conflict, military, cyber, climate, news, and geospatial domains with a live Leaflet dashboard, AI situation briefs, vector search, and PDF/HTML reports.
+  source_types:
+  - 新闻/资讯
+  - 数据/表格
+  - 数据库
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 表格/时间线
+  - 证据表
+  catalog_section: main
+  readme_group: data
