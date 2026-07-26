@@ -1,4 +1,4 @@
-generated_at: '2026-07-25T23:05:14+00:00'
+generated_at: '2026-07-26T23:07:03+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 357
-  fetched_sources_ok: 485
-  fetched_sources_failed: 28
-  official_examples: 992
-  official_effect_assets: 1216
-  official_docs: 1082
+  entries: 365
+  fetched_sources_ok: 496
+  fetched_sources_failed: 29
+  official_examples: 1007
+  official_effect_assets: 1251
+  official_docs: 1112
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -33188,3 +33188,764 @@ entries:
     title: Apify
     url: https://apify.com
     source: https://raw.githubusercontent.com/rdmgator12/awesome-claude-connectors/HEAD/README.md
+- name: Codex Slides
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/nexu-io/codex-slides
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Open-source AI slide studio inside Codex that turns prompts, repositories, folders, and files into visible
+    research-to-outline-to-render workflows with production PPTX/PDF export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Try it in 60 seconds
+    bytes: 52915
+  official_docs:
+  - kind: docs
+    title: Media & creator kit
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/docs/MEDIA_KIT.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: local plugin installation documentation
+    url: https://learn.chatgpt.com/docs/build-plugins
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: CAPABILITY_MATRIX.md
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/skills/codex-slides/references/CAPABILITY_MATRIX.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: '`docs/RELEASING.md`'
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/docs/RELEASING.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: docs/GITHUB_METADATA.md
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/docs/GITHUB_METADATA.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Community Styles gallery with 73 visual directions
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/02-community-styles.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Scenario library with 24 presentation workflows
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/03-scenarios.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Codex Slides — the open-source AI slide studio inside your coding agent, operated in the Codex in-app Browser
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/hero.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Research, Outline, Style, Render, Edit, Present, Export
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/pipeline.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Codex Slides home with the prompt composer, scenario shortcuts, and Community Styles
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/01-home-community.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: English clarification form inside a Codex Slides project
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/04-project-questions.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Source-backed English research brief in Design Files
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/05-research-brief.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Editable English presentation outline
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/05-research-outline.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Ranked visual direction picker inside a Codex Slides project
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/06-visual-style.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: English slide generation with completed and pending pages visible
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/07-parallel-generation.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: English slide editor with the complete 16:9 canvas contained in view, editing toolbar, speaker notes, and thumbnails
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/08-editor.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: image
+    title: Audience playback and Presenter Mode menu with the complete slide visible behind it
+    url: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/docs/assets/readme/09-presenter-mode.png
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Media & creator kit
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/docs/MEDIA_KIT.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: local plugin installation documentation
+    url: https://learn.chatgpt.com/docs/build-plugins
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: CAPABILITY_MATRIX.md
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/skills/codex-slides/references/CAPABILITY_MATRIX.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: '`docs/RELEASING.md`'
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/docs/RELEASING.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  - kind: docs
+    title: docs/GITHUB_METADATA.md
+    url: https://github.com/nexu-io/codex-slides/blob/HEAD/docs/GITHUB_METADATA.md
+    source: https://raw.githubusercontent.com/nexu-io/codex-slides/HEAD/README.md
+  source_headings:
+  - Why Codex Slides
+  - Examples
+  - Scenarios and visual systems
+  - 45 curated deck templates (15 categories × 3)
+  - Rewrite one slide
+  - One browser tab shows stale slides
+  - Star Codex Slides
+- name: presentation-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/siril9/presentation-skill
+  homepage: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex skill/plugin for source-first editable PowerPoint decks with outline JSON, style routing, native chart/table/flow
+    variants, deck QA, and reusable presentation workspaces.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: presentation-skill
+    bytes: 15678
+  - kind: homepage
+    url: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+    final_url: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+    status: 200
+    content_type: text/html
+    title: Release presentation-skill v0.9.0 · siril9/presentation-skill · GitHub
+    description: 'MIT license, Codex skill/plugin for source-first PowerPoint/PPTX generation: editable decks, style routing,
+      data artifacts, and QA. - Release presentation-skill v0.9.0 · siril9/pre'
+    bytes: 208273
+  official_examples:
+  - kind: example
+    title: 64-slide gallery
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/examples/v0.9_full_deck_taste_grammar_gallery.pptx
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: template
+    title: deck quality feedback template
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/.github/ISSUE_TEMPLATE/deck_quality_feedback.yml
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: showcase
+    title: Editable 64-slide gallery
+    url: https://github.com/siril9/presentation-skill/releases/download/v0.9.0/v0.9_full_deck_taste_grammar_gallery.pptx
+    source: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+  official_docs:
+  - kind: docs
+    title: '`references/deck_workspace_mode.md`'
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/references/deck_workspace_mode.md
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/PROMOTION.md`'
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/docs/PROMOTION.md
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: v0.9 narrative role-layout systems
+    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/examples/v0.9_narrative_structures.jpg
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: image
+    title: v0.9 evidence, chart, and table role-layout systems
+    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/examples/v0.9_evidence_data_structures.jpg
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: image
+    title: v0.9 decision and references role-layout systems
+    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/examples/v0.9_decisions_sources.jpg
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: image
+    title: Codex native vs updated presentation-skill comparison
+    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/decks/native-vs-latest-random-topics-20260623/readme_images/codex_native_vs_updated_clean_three_topics.png
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: 64-slide gallery
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/examples/v0.9_full_deck_taste_grammar_gallery.pptx
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: template
+    title: deck quality feedback template
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/.github/ISSUE_TEMPLATE/deck_quality_feedback.yml
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/deck_workspace_mode.md`'
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/references/deck_workspace_mode.md
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/PROMOTION.md`'
+    url: https://github.com/siril9/presentation-skill/blob/HEAD/docs/PROMOTION.md
+    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+  - kind: showcase
+    title: Editable 64-slide gallery
+    url: https://github.com/siril9/presentation-skill/releases/download/v0.9.0/v0.9_full_deck_taste_grammar_gallery.pptx
+    source: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+  source_headings:
+  - presentation-skill
+- name: diagram-pptx
+  category: diagram-generation
+  surface: library
+  primary_url: https://github.com/sci-gen/diagram-pptx
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Pure-Python compiler that parses Mermaid into editable native PowerPoint AutoShapes, connectors, text, groups,
+    and optional SVG/PNG/JPEG exports without requiring PowerPoint, Node.js, Docker, or LibreOffice.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: diagram-pptx
+    bytes: 3809
+  official_examples:
+  - kind: example
+    title: 日本語
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/examples/README.ja.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: User guide
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/user-guide.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/user-guide.ja.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: Mermaid compatibility
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/mermaid-compatibility.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/mermaid-compatibility.ja.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: Architecture and extension contracts
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/architecture.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: MCP and Codex integration
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/mcp-integration.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Flow, sequence, class, and state diagrams generated by diagram-pptx
+    url: https://raw.githubusercontent.com/sci-gen/diagram-pptx/main/docs/assets/readme/diagram-pptx-gallery.png
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: User guide
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/user-guide.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/user-guide.ja.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: Mermaid compatibility
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/mermaid-compatibility.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/mermaid-compatibility.ja.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: Architecture and extension contracts
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/architecture.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: docs
+    title: MCP and Codex integration
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/docs/mcp-integration.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  - kind: example
+    title: 日本語
+    url: https://github.com/sci-gen/diagram-pptx/blob/main/examples/README.ja.md
+    source: https://raw.githubusercontent.com/sci-gen/diagram-pptx/HEAD/README.md
+  source_headings:
+  - diagram-pptx
+  - Documentation
+- name: deck
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/k1LoW/deck
+  dependencies:
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Markdown-to-Google-Slides command-line utility for continuous deck building, theme reuse, OAuth or service-account
+    automation, and content/design separation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: deck
+    bytes: 28042
+  official_docs:
+  - kind: docs
+    title: '`Google Slides API`'
+    url: https://console.cloud.google.com/apis/library/slides.googleapis.com
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: '`Google Drive API`'
+    url: https://console.cloud.google.com/apis/library/drive.googleapis.com
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: '`API & Services` page'
+    url: https://console.cloud.google.com/apis/dashboard
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: '`Credentials` page'
+    url: https://console.cloud.google.com/apis/credentials
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: Service Account Setup Guide
+    url: https://github.com/k1LoW/deck/blob/HEAD/docs/setup-service-account.md
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: Markdown Support Documentation
+    url: https://github.com/k1LoW/deck/blob/HEAD/docs/markdown.md
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: img
+    url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/img/result.png
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: image
+    title: img
+    url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/img/layout.png
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: image
+    title: img
+    url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/img/style.png
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: image
+    title: table
+    url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/img/table.png
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: image
+    title: img
+    url: https://raw.githubusercontent.com/k1LoW/deck/HEAD/img/layout_name.png
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`Google Slides API`'
+    url: https://console.cloud.google.com/apis/library/slides.googleapis.com
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: '`Google Drive API`'
+    url: https://console.cloud.google.com/apis/library/drive.googleapis.com
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: '`API & Services` page'
+    url: https://console.cloud.google.com/apis/dashboard
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: '`Credentials` page'
+    url: https://console.cloud.google.com/apis/credentials
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: Service Account Setup Guide
+    url: https://github.com/k1LoW/deck/blob/HEAD/docs/setup-service-account.md
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  - kind: docs
+    title: Markdown Support Documentation
+    url: https://github.com/k1LoW/deck/blob/HEAD/docs/markdown.md
+    source: https://raw.githubusercontent.com/k1LoW/deck/HEAD/README.md
+  source_headings:
+  - Usage
+  - Prepare presentation ID and markdown file with `deck new`
+  - When creating a new presentation
+  - When using an existing presentation
+  - Write your slides in markdown
+  - Apply markdown content to Google Slides with `deck apply`
+  - Open presentation in your browser with `deck open`
+  - First Slide
+  - How markdown maps to slide placeholders
+  - Example
+  - Configuration file example
+  - Examples
+- name: Bento
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/nyblnet/bento
+  homepage: https://bento.page
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first single-file office suite whose self-contained HTML decks include viewer, editor, presenter, charts,
+    animations, PDF export, collaboration, and agent-editable plaintext JSON.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '[Bento — the office suite that fits in a file](https://bento.page/)'
+    bytes: 8874
+  - kind: homepage
+    url: https://bento.page/
+    final_url: https://bento.page/
+    status: 200
+    content_type: text/html
+    title: bento — the office suite that fits in a file
+    description: 'bento: office documents that are single HTML files — data, viewer and editor together. Local-first, AI-native,
+      end-to-end-encrypted live collaboration, works offline forever. slide'
+    bytes: 664440
+  official_examples:
+  - kind: showcase
+    title: gallery
+    url: https://bento.page/
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: demo
+    title: ▶ Try it
+    url: https://bento.page/slides/
+    source: https://bento.page/
+  - kind: showcase
+    title: 'SIGNAL — A FESTIVAL OF GRAPHIC IDEAS Loud letters. OCT 12—14 Three days on typography, grids, and the confidence
+      to be simple. HALL 6 · MAKETOWN · TICKETS AT THE DOOR · PHOTO: LIBR'
+    url: https://bento.page/gallery/signal-editorial-type.bento.html
+    source: https://bento.page/
+  - kind: showcase
+    title: TERRA OBJECTS — COLLECTION N°4 Quiet things, well made. Thrown, glazed and fired in one workshop. SPRING 2026 ·
+      EDITION OF 41
+    url: https://bento.page/gallery/terra-premium-product.bento.html
+    source: https://bento.page/
+  - kind: showcase
+    title: ORBITAL LOW-ORBIT DATA · A FICTIONAL COMPANY FOR A REAL TEMPLATE — PRESS → TO ENTER THE SYSTEM —
+    url: https://bento.page/gallery/orbital-dark-immersive.bento.html
+    source: https://bento.page/
+  - kind: showcase
+    title: last picnic!! PIXEL PICNIC a two-day jam for games, toys & useless websites AUG 22–23
+    url: https://bento.page/gallery/picnic-playful.bento.html
+    source: https://bento.page/
+  official_docs:
+  - kind: docs
+    title: docs/agents.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/agents.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/architecture.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/RELEASING.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/RELEASING.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/format.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/format.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/collab-design.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/collab-design.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: The agent guide → bento.page/agents.md
+    url: https://bento.page/agents.md
+    source: https://bento.page/
+  - kind: docs
+    title: Help & guide
+    url: https://bento.page/help
+    source: https://bento.page/
+  official_effect_assets:
+  - kind: image
+    title: bento — the office suite that fits in a file
+    url: https://bento.page/og.png
+    source: https://bento.page/
+  official_links:
+  - kind: showcase
+    title: gallery
+    url: https://bento.page/
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/agents.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/agents.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/architecture.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/RELEASING.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/RELEASING.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/format.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/format.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: docs
+    title: docs/collab-design.md
+    url: https://github.com/nyblnet/bento/blob/HEAD/docs/collab-design.md
+    source: https://raw.githubusercontent.com/nyblnet/bento/HEAD/README.md
+  - kind: demo
+    title: ▶ Try it
+    url: https://bento.page/slides/
+    source: https://bento.page/
+  - kind: showcase
+    title: 'SIGNAL — A FESTIVAL OF GRAPHIC IDEAS Loud letters. OCT 12—14 Three days on typography, grids, and the confidence
+      to be simple. HALL 6 · MAKETOWN · TICKETS AT THE DOOR · PHOTO: LIBR'
+    url: https://bento.page/gallery/signal-editorial-type.bento.html
+    source: https://bento.page/
+  - kind: showcase
+    title: TERRA OBJECTS — COLLECTION N°4 Quiet things, well made. Thrown, glazed and fired in one workshop. SPRING 2026 ·
+      EDITION OF 41
+    url: https://bento.page/gallery/terra-premium-product.bento.html
+    source: https://bento.page/
+  - kind: showcase
+    title: ORBITAL LOW-ORBIT DATA · A FICTIONAL COMPANY FOR A REAL TEMPLATE — PRESS → TO ENTER THE SYSTEM —
+    url: https://bento.page/gallery/orbital-dark-immersive.bento.html
+    source: https://bento.page/
+  - kind: showcase
+    title: last picnic!! PIXEL PICNIC a two-day jam for games, toys & useless websites AUG 22–23
+    url: https://bento.page/gallery/picnic-playful.bento.html
+    source: https://bento.page/
+  - kind: docs
+    title: The agent guide → bento.page/agents.md
+    url: https://bento.page/agents.md
+    source: https://bento.page/
+  - kind: docs
+    title: Help & guide
+    url: https://bento.page/help
+    source: https://bento.page/
+- name: Talk to Figma MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/grab/cursor-talk-to-figma-mcp
+  homepage: https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP server plus Figma plugin that lets AI agents read, create, and modify real Figma designs through WebSocket-backed
+    canvas operations and design automation demos.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Talk to Figma MCP
+    bytes: 9821
+  - kind: homepage
+    url: https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin
+    final_url: https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: video
+    title: Video Link
+    url: https://www.linkedin.com/posts/sonnylazuardi_just-wanted-to-share-my-latest-experiment-activity-7307821553654657024-yrh8
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  - kind: demo
+    title: demo video
+    url: https://www.youtube.com/watch?v=j05gGT3xfCs
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  - kind: demo
+    title: demo video
+    url: https://youtu.be/uvuT8LByroI
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: demo video
+    url: https://www.youtube.com/watch?v=j05gGT3xfCs
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  - kind: video
+    title: demo video
+    url: https://youtu.be/uvuT8LByroI
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  official_links:
+  - kind: video
+    title: Video Link
+    url: https://www.linkedin.com/posts/sonnylazuardi_just-wanted-to-share-my-latest-experiment-activity-7307821553654657024-yrh8
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  - kind: demo
+    title: demo video
+    url: https://www.youtube.com/watch?v=j05gGT3xfCs
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  - kind: demo
+    title: demo video
+    url: https://youtu.be/uvuT8LByroI
+    source: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
+  source_headings:
+  - Quick Video Tutorial
+  - Design Automation Example
+  - Usage
+- name: Danmo Work
+  category: research-report
+  surface: open-source
+  primary_url: https://github.com/danmo-ai/danmo-work
+  homepage: https://github.com/danmo-ai/danmo-work/releases/latest
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - MCP Client
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Self-hosted AI work-agent workspace with a coding-agent-grade loop, inspectable tool-call trail, document
+    stage for docs/slides/sheets/previews, MCP connectors, memory, table store, and IM surfaces.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Danmo Work
+    bytes: 19149
+  - kind: homepage
+    url: https://github.com/danmo-ai/danmo-work/releases/tag/v0.9.9
+    final_url: https://github.com/danmo-ai/danmo-work/releases/tag/v0.9.9
+    status: 200
+    content_type: text/html
+    title: Release v0.9.9 · danmo-ai/danmo-work · GitHub
+    description: 'Open-source AI Work Agent — coding-agent-grade loop for long-horizon work: code, docs, slides, sheets, MCP
+      & IM on one trail. Self-hosted, MIT. - Release v0.9.9 · danmo-ai/danmo-wo'
+    bytes: 211162
+  official_examples:
+  - kind: demo
+    title: '`docs/demo/product-tour.html`'
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/demo/product-tour.html
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: demo
+    title: MP4
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/demo/product-tour-en.mp4
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/core-design.md`'
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/core-design.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: docs/agent-table-store-plan.md
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/agent-table-store-plan.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: docs/channel-qq-feishu-plan.md
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/channel-qq-feishu-plan.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: docs/launch-posts.md
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/launch-posts.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Product tour (EN)
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/demo/product-tour-en.gif
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: video
+    title: MP4
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/demo/product-tour-en.mp4
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: Browser element annotate
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-browser-annotate.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: Market report
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-market-report.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: Cooking demo
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-cooking-demo.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: Snake game
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-snake-game.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: Explorer system prompt
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-expert-prompts.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: playable-slides skill
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-skill-editor.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: image
+    title: Runtime settings
+    url: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/docs/screenshots/ui-runtime-settings.png
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: '`docs/demo/product-tour.html`'
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/demo/product-tour.html
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: demo
+    title: MP4
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/demo/product-tour-en.mp4
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: '`docs/core-design.md`'
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/core-design.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: docs/agent-table-store-plan.md
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/agent-table-store-plan.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: docs/channel-qq-feishu-plan.md
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/channel-qq-feishu-plan.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  - kind: docs
+    title: docs/launch-posts.md
+    url: https://github.com/danmo-ai/danmo-work/blob/HEAD/docs/launch-posts.md
+    source: https://raw.githubusercontent.com/danmo-ai/danmo-work/HEAD/README.md
+  source_headings:
+  - Document Stage — docs, slides, sheets, preview
+  - Docs
+- name: World Intelligence MCP Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/marc-shade/world-intel-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP server for real-time global intelligence across markets, filings, disasters, conflict, military, cyber,
+    climate, news, and geospatial domains with a live Leaflet dashboard, AI situation briefs, vector search, and PDF/HTML
+    reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/marc-shade/world-intel-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/marc-shade/world-intel-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: World Intelligence MCP Server
+    bytes: 20906
+  official_effect_assets:
+  - kind: image
+    title: Phoenix Intelligence Dashboard
+    url: https://raw.githubusercontent.com/marc-shade/world-intel-mcp/HEAD/docs/dashboard.png
+    source: https://raw.githubusercontent.com/marc-shade/world-intel-mcp/HEAD/README.md
+  source_headings:
+  - Dashboard
+  - Geospatial Datasets (10)
+  - Semantic Search Examples

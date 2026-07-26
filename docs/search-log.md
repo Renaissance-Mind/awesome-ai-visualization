@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-24.
+Last researched: 2026-07-27.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -434,6 +434,19 @@ Excluded if:
 - [Claude-Skills](https://github.com/borghei/Claude-Skills): large cross-domain skill library and installer covering product-management reports, board updates, markdown-to-HTML publishing, document workflows, data analytics, research, and MCP-callable pipelines.
 - [design-agent-skills](https://github.com/podo/design-agent-skills): curated design-skill catalogue and installer for agent workflows across UI craft, motion, Figma, data visualization, presentations, diagrams, PM, content design, and research.
 - [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors): Claude connector and MCP directory with visual-content, presentation, chart-rendering, file, research, dashboard, and document-export integration coverage.
+
+## Added in the 2026-07-27 Daily Refresh
+
+Update on 2026-07-27: refreshed agent-native deck studios, source-first PowerPoint skills, Mermaid-to-editable-PPTX utilities, local-first deck formats, Figma canvas-writing MCPs, work-agent document stages, and live intelligence dashboard/report MCPs from official GitHub repositories, project pages, README evidence, release metadata, and GitHub metadata. This pass added Codex Slides, presentation-skill, diagram-pptx, deck, Bento, Talk to Figma MCP, Danmo Work, and World Intelligence MCP Server.
+
+- [Codex Slides](https://github.com/nexu-io/codex-slides): open-source AI slide studio inside Codex for prompt/repo/file-to-deck workflows with visible research, outline, style, render, edit, present, and PPTX/PDF export stages.
+- [presentation-skill](https://github.com/siril9/presentation-skill): Codex skill/plugin for editable PowerPoint decks from source JSON, style routing, native chart/table/flow variants, workspace rebuilds, and QA loops.
+- [diagram-pptx](https://github.com/sci-gen/diagram-pptx): pure-Python Mermaid compiler that renders editable native PowerPoint shapes/connectors/text and optional SVG/PNG/JPEG exports.
+- [deck](https://github.com/k1LoW/deck): Markdown-to-Google-Slides utility for continuous deck building, theme reuse, and OAuth or service-account automation.
+- [Bento](https://github.com/nyblnet/bento): local-first single-file office suite where each HTML deck carries its own editor, presenter, charts, animations, PDF export, and agent-editable plaintext JSON.
+- [Talk to Figma MCP](https://github.com/grab/cursor-talk-to-figma-mcp): MCP server and Figma plugin for AI agents to read, create, and modify real Figma designs through a local WebSocket bridge.
+- [Danmo Work](https://github.com/danmo-ai/danmo-work): self-hosted work-agent workspace with a document stage for docs, slides, sheets, and previews plus MCP connectors, memory, table store, IM surfaces, and replayable tool trails.
+- [World Intelligence MCP Server](https://github.com/marc-shade/world-intel-mcp): real-time global-intelligence MCP with market, filing, disaster, conflict, cyber, climate, news, and geospatial tools plus a Leaflet dashboard, situation briefs, vector search, and PDF/HTML reports.
 
 ## Early Market Read
 
