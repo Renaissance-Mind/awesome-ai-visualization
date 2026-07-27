@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-27.
+Last researched: 2026-07-28.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -61,6 +61,8 @@ Update on 2026-07-20: refreshed reviewable deck-as-code, HTML-to-infographic cap
 Update on 2026-07-22: refreshed agent-native slide skills, PowerPoint validation/repair MCPs, HTML report skills, diagram skills, and motion-graphics skills from official GitHub repositories, README evidence, and GitHub metadata. This pass added zifeiyu-ppt-skill, slides-from-video, claude-code-deck-skill, animated-diagram, deckproof-mcp, Muse, vibe-diagram, tech-diagram, HTML Express, and remotion-motion-graphics-skill. The targeted scraper ran only against these new records; a language README link, a generic YouTube channel link, and generic GitHub documentation links were scrubbed before merging.
 
 Update on 2026-07-24: refreshed research-notebook, agent presentation, data-to-report, codebase-report, and design-index surfaces from official GitHub repositories, README evidence, live demo pages, and GitHub metadata. This pass added DecipherIt, getihu-p2h2p, Talksmith, skill_doc2ppt, ppt-agent-skill, slide-creator, AI-Report-Generator, PedroReports, NodeSecure Report, and awesome-claude-design. The targeted scraper ran only against these new records; two rendered Talksmith JavaScript placeholder URLs plus generic dependency/help links were scrubbed before merging.
+
+Update on 2026-07-28: refreshed AI-native chart/report skills, marketing and summary report skills, local PPTX studios, mind-map MCP tools, browser mind-map apps, and codebase knowledge-map MCP surfaces from official GitHub repositories, product pages, README evidence, and GitHub metadata. This pass added mviz, AI Marketing Suite for Claude Code, AI Summary Skill for Claude Code, ai-pptx-generator-studio, Mind Map Wizard, Markmap MCP Server, and AI Mind Map. The targeted scraper ran only against these new records; generic Skool and Lynote homepage effect assets were scrubbed before merging, and Markmap's official sample SVG was kept as the artifact preview.
 
 ## Search Surfaces
 

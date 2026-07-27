@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-365_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-372_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--28-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -107,6 +107,8 @@
 | [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) [![Star](https://img.shields.io/github/stars/joeseesun/qiaomu-anything-to-notebooklm?style=flat&logo=github&label=Star)](https://github.com/joeseesun/qiaomu-anything-to-notebooklm/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Agent skill | PPT/deck / Mind map/knowledge map / Video/audio / Q&A/study material / Briefing/report | Agent host / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [Report Skills](https://github.com/dashaworks/report-skills) [![Star](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat&logo=github&label=Star)](https://github.com/dashaworks/report-skills/stargazers) | Any/multi-source / Text/ideas / Web/search | Skill collection / MCP server | Long report / Web/interactive page / PPT/deck | Agent host / MCP client / Model API / Browser/account / Rendering/export / Templates/assets |
 | [HTML Express](https://github.com/zjp1997720/html-express) [![Star](https://img.shields.io/github/stars/zjp1997720/html-express?style=flat&logo=github&label=Star)](https://github.com/zjp1997720/html-express/stargazers) | Text/ideas / Data/tables / Web/search / Any/multi-source | Agent skill | Long report / Web/interactive page / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [AI Marketing Suite for Claude Code](https://github.com/zubair-trabzada/ai-marketing-claude) [![Star](https://img.shields.io/github/stars/zubair-trabzada/ai-marketing-claude?style=flat&logo=github&label=Star)](https://github.com/zubair-trabzada/ai-marketing-claude/stargazers) | Веб/поиск / Новости/разведка / Текст/идеи | Коллекция skills | Длинный отчет / Брифинг/отчет / Таблица доказательств | Agent host / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт / Шаблоны/assets |
+| [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/документы / Веб/поиск / Видео/аудио / Любой/многоисточниковый | Agent skill | Длинный отчет / Веб/интерактивная страница / Диаграмма/Mermaid / Структурированные данные/Markdown | Agent host / Локальный runtime / Парсинг документов/OCR / Внешний поиск/данные / Рендеринг/экспорт |
 
 ### Кодовые базы и программные системы
 
@@ -135,6 +137,7 @@
 | [CodeSee](https://www.codesee.io/) | Кодовая база | Продукт/SaaS | Карта кода/repo wiki / Архитектура/flow diagram | Браузер/аккаунт / Анализ кода |
 | [Knossos MCP](https://github.com/AraneaDev/Knossos-MCP) [![Star](https://img.shields.io/github/stars/AraneaDev/Knossos-MCP?style=flat&logo=github&label=Star)](https://github.com/AraneaDev/Knossos-MCP/stargazers) | Codebase | MCP server | Code map/Repo Wiki / Architecture/flow diagram / Diagram/Mermaid / Evidence table | MCP client / Local runtime / Code analysis / Storage/index / Rendering/export / System tools |
 | [NodeSecure Report](https://github.com/NodeSecure/report) [![Star](https://img.shields.io/github/stars/NodeSecure/report?style=flat&logo=github&label=Star)](https://github.com/NodeSecure/report/stargazers) | Codebase / Data/tables | Open-source app/framework / API/SDK/library | Code map/Repo Wiki / Long report / SVG/PNG/PDF | Local runtime / External search/data / Code analysis / Rendering/export / System tools |
+| [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | Кодовая база / База знаний | MCP server / Open-source приложение/фреймворк | Карта кода/repo wiki / Mind map/карта знаний / Веб/интерактивная страница | MCP client / Agent host / Локальный runtime / Анализ кода / Хранилище/индекс / Рендеринг/экспорт |
 
 ### Данные, таблицы и бизнес-метрики
 
@@ -177,6 +180,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [JimuReport](https://github.com/jeecgboot/jimureport) [![Star](https://img.shields.io/github/stars/jeecgboot/jimureport?style=flat&logo=github&label=Star)](https://github.com/jeecgboot/jimureport/stargazers) | Данные/таблицы / База данных / Текст/идеи | Open-source приложение/фреймворк / Agent skill | График/dashboard / Брифинг/отчет / Web/интерактивная страница | Браузер/аккаунт / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт / Хранилище/индекс |
 | [Vizro](https://github.com/mckinsey/vizro) [![Star](https://img.shields.io/github/stars/mckinsey/vizro?style=flat&logo=github&label=Star)](https://github.com/mckinsey/vizro/stargazers) | Данные/таблицы / База данных / DSL/код | Open-source приложение/фреймворк / API/SDK/библиотека | График/dashboard / Web/интерактивная страница | Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
 | [mcp-server-antv](https://github.com/antvis/mcp-server-antv) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-antv?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-antv/stargazers) | Данные/таблицы / DSL/код / Код/технический текст | MCP server | График/dashboard / Рендеренный график / Архитектура/flow diagram | MCP client / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт |
+| [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | Данные/таблицы / База данных / DSL/код | Agent skill / API/SDK/библиотека | График/дашборд / Длинный отчет / Веб/интерактивная страница | Agent host / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт / Шаблоны/assets |
 
 ### Текст, идеи и визуализации для доски
 
@@ -374,6 +378,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | Текст/идеи / PDF/документы / Веб/поиск | Продукт/SaaS | PPT/deck | Браузер/аккаунт / Шаблоны/assets |
 | [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | Текст/идеи / PDF/документы / Веб/поиск | Продукт/SaaS / Бот/ассистент | PPT/deck | Браузер/аккаунт / Системные инструменты / Шаблоны/assets |
 | [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | Текст/идеи / PDF/документы / Веб/поиск | Продукт/SaaS | PPT/deck | Браузер/аккаунт / Шаблоны/assets |
+| [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | Текст/идеи / PDF/документы / DSL/код | Open-source приложение/фреймворк | PPT/deck / Веб/интерактивная страница / SVG/PNG/PDF | Локальный runtime / Model API / Рендеринг/экспорт / Шаблоны/assets |
 
 ## Вспомогательные инструменты и пред/постобработка
 
@@ -410,6 +415,8 @@ This section contains smaller, lower-level, or more specialized tools. They may 
 | [mindmap-mcp-server](https://github.com/YuChenSSR/mindmap-mcp-server) [![Star](https://img.shields.io/github/stars/YuChenSSR/mindmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/YuChenSSR/mindmap-mcp-server/stargazers) | Текст/идеи / PDF/документы / База знаний/личные материалы | MCP server | Mind map/карта знаний / Веб/интерактивная страница | MCP client / Локальный runtime / Рендеринг/экспорт |
 | [Obsidian Visual Skills Pack](https://github.com/axtonliu/axton-obsidian-visual-skills) [![Star](https://img.shields.io/github/stars/axtonliu/axton-obsidian-visual-skills?style=flat&logo=github&label=Star)](https://github.com/axtonliu/axton-obsidian-visual-skills/stargazers) | Текст/идеи / База знаний/личные материалы / Код/технический текст | Коллекция skill | Доска/mind map / Диаграмма/Mermaid / Архитектура/flow diagram | Agent host / Локальный runtime / Рендеринг/экспорт / Хранилище/индекс |
 | [MindRepo](https://github.com/NguyenVu04/mind-repo) [![Star](https://img.shields.io/github/stars/NguyenVu04/mind-repo?style=flat&logo=github&label=Star)](https://github.com/NguyenVu04/mind-repo/stargazers) | PDF/документы / Knowledge base / Papers/research | Open-source приложение/фреймворк | Mind map/knowledge map / Q&A/учебные материалы / Briefing/отчет | Локальный runtime / Model API / Парсинг документов/OCR / Хранилище/индекс |
+| [Mind Map Wizard](https://github.com/linus-sch/Mind-Map-Wizard) [![Star](https://img.shields.io/github/stars/linus-sch/Mind-Map-Wizard?style=flat&logo=github&label=Star)](https://github.com/linus-sch/Mind-Map-Wizard/stargazers) | Текст/идеи / PDF/документы / Веб/поиск / База знаний | Open-source приложение/фреймворк / Продукт/SaaS | Mind map/карта знаний / Q&A/учебные материалы / SVG/PNG/PDF | Браузер/аккаунт / Локальный runtime / Model API / Внешний поиск/данные / Рендеринг/экспорт |
+| [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | Текст/идеи / PDF/документы / База знаний / DSL/код | MCP server | Mind map/карта знаний / Веб/интерактивная страница / SVG/PNG/PDF | MCP client / Локальный runtime / Рендеринг/экспорт |
 
 ### Диаграммы, Mermaid и компоненты рендеринга
 

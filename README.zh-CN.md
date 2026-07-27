@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-365_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-372_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--28-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -105,6 +105,8 @@
 | [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) [![Star](https://img.shields.io/github/stars/joeseesun/qiaomu-anything-to-notebooklm?style=flat&logo=github&label=Star)](https://github.com/joeseesun/qiaomu-anything-to-notebooklm/stargazers) | PDF/文档 / 网页/搜索结果 / 知识库/个人资料 / 任意/多源 | Agent Skill | PPT/演示文稿 / 思维导图/知识地图 / 视频/音频 / 问答/学习材料 / 报告/简报 | Agent 宿主 / 浏览器/账号 / 本地语言环境 / 文档解析/OCR / 外部检索/数据源 / 渲染/导出 |
 | [Report Skills](https://github.com/dashaworks/report-skills) [![Star](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat&logo=github&label=Star)](https://github.com/dashaworks/report-skills/stargazers) | Any/multi-source / Text/ideas / Web/search | Skill collection / MCP server | Long report / Web/interactive page / PPT/deck | Agent host / MCP client / Model API / Browser/account / Rendering/export / Templates/assets |
 | [HTML Express](https://github.com/zjp1997720/html-express) [![Star](https://img.shields.io/github/stars/zjp1997720/html-express?style=flat&logo=github&label=Star)](https://github.com/zjp1997720/html-express/stargazers) | Text/ideas / Data/tables / Web/search / Any/multi-source | Agent skill | Long report / Web/interactive page / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [AI Marketing Suite for Claude Code](https://github.com/zubair-trabzada/ai-marketing-claude) [![Star](https://img.shields.io/github/stars/zubair-trabzada/ai-marketing-claude?style=flat&logo=github&label=Star)](https://github.com/zubair-trabzada/ai-marketing-claude/stargazers) | 网页/搜索结果 / 新闻/资讯 / 文本/想法 | Skill 集合 | 报告/长文档 / 报告/简报 / 证据表 | Agent 宿主 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
+| [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/文档 / 网页/搜索结果 / 视频/音频 / 任意/多源 | Agent Skill | 报告/长文档 / 网页/交互页面 / 图表/Mermaid / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 文档解析/OCR / 外部检索/数据源 / 渲染/导出 |
 
 ### 代码库与软件系统
 
@@ -133,6 +135,7 @@
 | [CodeSee](https://www.codesee.io/) | 代码库 | 产品/SaaS | 代码地图/Repo Wiki / 架构图/流程图 | 浏览器/账号 / 代码分析工具 |
 | [Knossos MCP](https://github.com/AraneaDev/Knossos-MCP) [![Star](https://img.shields.io/github/stars/AraneaDev/Knossos-MCP?style=flat&logo=github&label=Star)](https://github.com/AraneaDev/Knossos-MCP/stargazers) | Codebase | MCP server | Code map/Repo Wiki / Architecture/flow diagram / Diagram/Mermaid / Evidence table | MCP client / Local runtime / Code analysis / Storage/index / Rendering/export / System tools |
 | [NodeSecure Report](https://github.com/NodeSecure/report) [![Star](https://img.shields.io/github/stars/NodeSecure/report?style=flat&logo=github&label=Star)](https://github.com/NodeSecure/report/stargazers) | Codebase / Data/tables | Open-source app/framework / API/SDK/library | Code map/Repo Wiki / Long report / SVG/PNG/PDF | Local runtime / External search/data / Code analysis / Rendering/export / System tools |
+| [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | 代码库 / 知识库/个人资料 | MCP Server / 开源应用/框架 | 代码地图/Repo Wiki / 思维导图/知识地图 / 网页/交互页面 | MCP Client / Agent 宿主 / 本地语言环境 / 代码分析工具 / 存储/索引 / 渲染/导出 |
 
 ### 数据、表格与业务指标
 
@@ -175,6 +178,7 @@
 | [JimuReport](https://github.com/jeecgboot/jimureport) [![Star](https://img.shields.io/github/stars/jeecgboot/jimureport?style=flat&logo=github&label=Star)](https://github.com/jeecgboot/jimureport/stargazers) | 数据/表格 / 数据库 / 文本/想法 | 开源应用/框架 / Agent Skill | 图表/仪表盘 / 报告/简报 / 网页/交互页面 | 浏览器/账号 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 存储/索引 |
 | [Vizro](https://github.com/mckinsey/vizro) [![Star](https://img.shields.io/github/stars/mckinsey/vizro?style=flat&logo=github&label=Star)](https://github.com/mckinsey/vizro/stargazers) | 数据/表格 / 数据库 / DSL/代码 | 开源应用/框架 / API/SDK/库 | 图表/仪表盘 / 网页/交互页面 | 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [mcp-server-antv](https://github.com/antvis/mcp-server-antv) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-antv?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-antv/stargazers) | 数据/表格 / DSL/代码 / 代码/技术描述 | MCP Server | 图表/仪表盘 / 图表/渲染输出 / 架构图/流程图 | MCP Client / 本地语言环境 / 外部检索/数据源 / 渲染/导出 |
+| [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | 数据/表格 / 数据库 / DSL/代码 | Agent Skill / API/SDK/库 | 图表/仪表盘 / 报告/长文档 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
 
 ### 通用文本、想法与白板图示
 
@@ -372,6 +376,7 @@
 | [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |
 | [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS / Bot/助手 | PPT/演示文稿 | 浏览器/账号 / 系统工具 / 模板/素材 |
 | [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |
+| [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | 文本/想法 / PDF/文档 / DSL/代码 | 开源应用/框架 | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF | 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
 
 ## 辅助、前后处理与小工具
 
@@ -408,6 +413,8 @@
 | [mindmap-mcp-server](https://github.com/YuChenSSR/mindmap-mcp-server) [![Star](https://img.shields.io/github/stars/YuChenSSR/mindmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/YuChenSSR/mindmap-mcp-server/stargazers) | 文本/想法 / PDF/文档 / 知识库/个人资料 | MCP Server | 思维导图/知识地图 / 网页/交互页面 | MCP Client / 本地语言环境 / 渲染/导出 |
 | [Obsidian Visual Skills Pack](https://github.com/axtonliu/axton-obsidian-visual-skills) [![Star](https://img.shields.io/github/stars/axtonliu/axton-obsidian-visual-skills?style=flat&logo=github&label=Star)](https://github.com/axtonliu/axton-obsidian-visual-skills/stargazers) | 文本/想法 / 知识库/个人资料 / 代码/技术描述 | Skill 集合 | 白板/思维导图 / 图表/Mermaid / 架构图/流程图 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 存储/索引 |
 | [MindRepo](https://github.com/NguyenVu04/mind-repo) [![Star](https://img.shields.io/github/stars/NguyenVu04/mind-repo?style=flat&logo=github&label=Star)](https://github.com/NguyenVu04/mind-repo/stargazers) | PDF/文档 / 知识库/个人资料 / 论文/科研资料 | 开源应用/框架 | 思维导图/知识地图 / 问答/学习材料 / 报告/简报 | 本地语言环境 / 模型 API / 文档解析/OCR / 存储/索引 |
+| [Mind Map Wizard](https://github.com/linus-sch/Mind-Map-Wizard) [![Star](https://img.shields.io/github/stars/linus-sch/Mind-Map-Wizard?style=flat&logo=github&label=Star)](https://github.com/linus-sch/Mind-Map-Wizard/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 / 知识库/个人资料 | 开源应用/框架 / 产品/SaaS | 思维导图/知识地图 / 问答/学习材料 / SVG/PNG/PDF | 浏览器/账号 / 本地语言环境 / 模型 API / 外部检索/数据源 / 渲染/导出 |
+| [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | 文本/想法 / PDF/文档 / 知识库/个人资料 / DSL/代码 | MCP Server | 思维导图/知识地图 / 网页/交互页面 / SVG/PNG/PDF | MCP Client / 本地语言环境 / 渲染/导出 |
 
 ### 图表、Mermaid 与渲染组件
 

@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-365_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-372_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--28-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -107,6 +107,8 @@ PDFler, ofis dosyaları, web sayfaları, kişisel belgeler veya ekip bilgi taban
 | [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) [![Star](https://img.shields.io/github/stars/joeseesun/qiaomu-anything-to-notebooklm?style=flat&logo=github&label=Star)](https://github.com/joeseesun/qiaomu-anything-to-notebooklm/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Agent skill | PPT/deck / Mind map/knowledge map / Video/audio / Q&A/study material / Briefing/report | Agent host / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [Report Skills](https://github.com/dashaworks/report-skills) [![Star](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat&logo=github&label=Star)](https://github.com/dashaworks/report-skills/stargazers) | Any/multi-source / Text/ideas / Web/search | Skill collection / MCP server | Long report / Web/interactive page / PPT/deck | Agent host / MCP client / Model API / Browser/account / Rendering/export / Templates/assets |
 | [HTML Express](https://github.com/zjp1997720/html-express) [![Star](https://img.shields.io/github/stars/zjp1997720/html-express?style=flat&logo=github&label=Star)](https://github.com/zjp1997720/html-express/stargazers) | Text/ideas / Data/tables / Web/search / Any/multi-source | Agent skill | Long report / Web/interactive page / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [AI Marketing Suite for Claude Code](https://github.com/zubair-trabzada/ai-marketing-claude) [![Star](https://img.shields.io/github/stars/zubair-trabzada/ai-marketing-claude?style=flat&logo=github&label=Star)](https://github.com/zubair-trabzada/ai-marketing-claude/stargazers) | Web/arama / Haber/istihbarat / Metin/fikirler | Skill koleksiyonu | Uzun rapor / Brifing/rapor / Kanıt tablosu | Agent host / Yerel runtime / Harici arama/veri / Render/dışa aktarma / Şablonlar/assetler |
+| [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/belgeler / Web/arama / Video/ses / Herhangi/çok kaynaklı | Agent skill | Uzun rapor / Web/etkileşimli sayfa / Diyagram/Mermaid / Yapılandırılmış veri/Markdown | Agent host / Yerel runtime / Belge ayrıştırma/OCR / Harici arama/veri / Render/dışa aktarma |
 
 ### Kod tabanları ve yazılım sistemleri
 
@@ -135,6 +137,7 @@ Depoları, yerel kodu, bağımlılıkları veya diffları mimari diyagramlara, r
 | [CodeSee](https://www.codesee.io/) | Kod tabanı | Ürün/SaaS | Kod haritası/repo wiki / Mimari/akış diyagramı | Tarayıcı/hesap / Kod analizi |
 | [Knossos MCP](https://github.com/AraneaDev/Knossos-MCP) [![Star](https://img.shields.io/github/stars/AraneaDev/Knossos-MCP?style=flat&logo=github&label=Star)](https://github.com/AraneaDev/Knossos-MCP/stargazers) | Codebase | MCP server | Code map/Repo Wiki / Architecture/flow diagram / Diagram/Mermaid / Evidence table | MCP client / Local runtime / Code analysis / Storage/index / Rendering/export / System tools |
 | [NodeSecure Report](https://github.com/NodeSecure/report) [![Star](https://img.shields.io/github/stars/NodeSecure/report?style=flat&logo=github&label=Star)](https://github.com/NodeSecure/report/stargazers) | Codebase / Data/tables | Open-source app/framework / API/SDK/library | Code map/Repo Wiki / Long report / SVG/PNG/PDF | Local runtime / External search/data / Code analysis / Rendering/export / System tools |
+| [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | Kod tabanı / Bilgi tabanı | MCP server / Açık kaynak uygulama/framework | Kod haritası/repo wiki / Zihin haritası/bilgi haritası / Web/etkileşimli sayfa | MCP client / Agent host / Yerel runtime / Kod analizi / Depolama/indeks / Render/dışa aktarma |
 
 ### Veri, tablolar ve iş metrikleri
 
@@ -177,6 +180,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [JimuReport](https://github.com/jeecgboot/jimureport) [![Star](https://img.shields.io/github/stars/jeecgboot/jimureport?style=flat&logo=github&label=Star)](https://github.com/jeecgboot/jimureport/stargazers) | Veri/tablolar / Veritabanı / Metin/fikirler | Açık kaynak uygulama/framework / Agent skill | Grafik/dashboard / Brifing/rapor / Web/etkileşimli sayfa | Tarayıcı/hesap / Yerel runtime / Harici arama/veri / Render/export / Depolama/indeks |
 | [Vizro](https://github.com/mckinsey/vizro) [![Star](https://img.shields.io/github/stars/mckinsey/vizro?style=flat&logo=github&label=Star)](https://github.com/mckinsey/vizro/stargazers) | Veri/tablolar / Veritabanı / DSL/kod | Açık kaynak uygulama/framework / API/SDK/kütüphane | Grafik/dashboard / Web/etkileşimli sayfa | Yerel runtime / Render/export / Şablonlar/assetler |
 | [mcp-server-antv](https://github.com/antvis/mcp-server-antv) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-antv?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-antv/stargazers) | Veri/tablolar / DSL/kod / Kod/teknik metin | MCP server | Grafik/dashboard / Render edilmiş grafik / Mimari/akış diyagramı | MCP client / Yerel runtime / Harici arama/veri / Render/export |
+| [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | Veri/tablolar / Veritabanı / DSL/kod | Agent skill / API/SDK/kütüphane | Grafik/pano / Uzun rapor / Web/etkileşimli sayfa | Agent host / Yerel runtime / Harici arama/veri / Render/dışa aktarma / Şablonlar/assetler |
 
 ### Genel metin, fikirler ve beyaz tahta görselleri
 
@@ -374,6 +378,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
 | [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS / Bot/asistan | PPT/deck | Tarayıcı/hesap / Sistem araçları / Şablonlar/assetler |
 | [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | Metin/fikirler / PDF/belgeler / DSL/kod | Açık kaynak uygulama/framework | PPT/deck / Web/etkileşimli sayfa / SVG/PNG/PDF | Yerel runtime / Model API / Render/dışa aktarma / Şablonlar/assetler |
 
 ## Destekleyici, ön/son işleme araçları
 
@@ -410,6 +415,8 @@ Belgeleri, web sayfalarını, videoları, tehdit istihbaratını veya metni zihi
 | [mindmap-mcp-server](https://github.com/YuChenSSR/mindmap-mcp-server) [![Star](https://img.shields.io/github/stars/YuChenSSR/mindmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/YuChenSSR/mindmap-mcp-server/stargazers) | Metin/fikirler / PDF/belgeler / Bilgi tabanı/kişisel veri | MCP server | Zihin haritası/bilgi haritası / Web/etkileşimli sayfa | MCP client / Yerel runtime / Render/dışa aktarma |
 | [Obsidian Visual Skills Pack](https://github.com/axtonliu/axton-obsidian-visual-skills) [![Star](https://img.shields.io/github/stars/axtonliu/axton-obsidian-visual-skills?style=flat&logo=github&label=Star)](https://github.com/axtonliu/axton-obsidian-visual-skills/stargazers) | Metin/fikirler / Bilgi tabanı/kişisel veri / Kod/teknik metin | Skill koleksiyonu | Beyaz tahta/zihin haritası / Diyagram/Mermaid / Mimari/akış diyagramı | Agent host / Yerel runtime / Render/dışa aktarma / Depolama/indeks |
 | [MindRepo](https://github.com/NguyenVu04/mind-repo) [![Star](https://img.shields.io/github/stars/NguyenVu04/mind-repo?style=flat&logo=github&label=Star)](https://github.com/NguyenVu04/mind-repo/stargazers) | PDF/belgeler / Knowledge base / Papers/research | Açık kaynak uygulama/framework | Mind map/knowledge map / Soru-cevap/öğrenme materyali / Briefing/rapor | Yerel runtime / Model API / Belge ayrıştırma/OCR / Depolama/indeks |
+| [Mind Map Wizard](https://github.com/linus-sch/Mind-Map-Wizard) [![Star](https://img.shields.io/github/stars/linus-sch/Mind-Map-Wizard?style=flat&logo=github&label=Star)](https://github.com/linus-sch/Mind-Map-Wizard/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama / Bilgi tabanı | Açık kaynak uygulama/framework / Ürün/SaaS | Zihin haritası/bilgi haritası / Soru-cevap/öğrenme materyali / SVG/PNG/PDF | Tarayıcı/hesap / Yerel runtime / Model API / Harici arama/veri / Render/dışa aktarma |
+| [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | Metin/fikirler / PDF/belgeler / Bilgi tabanı / DSL/kod | MCP server | Zihin haritası/bilgi haritası / Web/etkileşimli sayfa / SVG/PNG/PDF | MCP client / Yerel runtime / Render/dışa aktarma |
 
 ### Diyagram, Mermaid ve render bileşenleri
 

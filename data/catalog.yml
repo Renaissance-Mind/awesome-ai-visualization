@@ -1,4 +1,4 @@
-last_researched: '2026-07-27'
+last_researched: '2026-07-28'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -9082,3 +9082,201 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: data
+- name: mviz
+  url: https://github.com/matsonj/mviz
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 223
+  license: unknown
+  updated: '2026-07-20'
+  note: Claude skill and CLI renderer that turns compact JSON or Markdown specs from ad hoc data analysis into polished
+    static HTML dashboards and PDF-ready reports with ECharts.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: AI Marketing Suite for Claude Code
+  url: https://github.com/zubair-trabzada/ai-marketing-claude
+  homepage: https://www.skool.com/aiworkshop
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 2223
+  license: unknown
+  updated: '2026-07-27'
+  note: Claude Code marketing skill suite that launches parallel agents for site audits, competitive intelligence, funnels,
+    campaigns, and client-ready Markdown/PDF reports.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 报告/长文档
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: docs
+- name: AI Summary Skill for Claude Code
+  url: https://github.com/molly554/Multi_sources_summarizition_lynote.ai
+  homepage: https://lynote.ai/
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 4
+  license: unknown
+  updated: '2026-05-22'
+  note: Claude Code summarization skill that turns PDFs, web pages, YouTube, audio, video, and mixed sources into structured
+    Markdown plus illustrated HTML reports with Mermaid diagrams and verification checks.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 视频/音频
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/Mermaid
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: ai-pptx-generator-studio
+  url: https://github.com/sktt13ef/ai-pptx-generator-studio
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: unknown
+  updated: '2026-04-24'
+  note: Local-first Next.js workspace for generating, editing, previewing, and exporting AI-ready structured slide outlines
+    as PPTX, PNG, and HTML decks.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Mind Map Wizard
+  url: https://github.com/linus-sch/Mind-Map-Wizard
+  homepage: https://mindmapwizard.com
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 339
+  license: unknown
+  updated: '2026-07-24'
+  note: Open-source browser app for AI-powered topic and file-to-mind-map generation, branch expansion, web-backed summaries,
+    direct editing, image insertion, and multi-format export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  output_forms:
+  - 思维导图/知识地图
+  - 问答/学习材料
+  - SVG/PNG/PDF
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Markmap MCP Server
+  url: https://github.com/jinzcdev/markmap-mcp-server
+  homepage: https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 272
+  license: unknown
+  updated: '2026-07-21'
+  note: Node-based MCP server that converts Markdown text into interactive Markmap mind maps with browser preview and PNG,
+    JPG, and SVG export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 知识库/个人资料
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: AI Mind Map
+  url: https://github.com/shdra06/ai-mind-map
+  homepage: https://ai-mind-map-website.vercel.app
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-07-14'
+  note: MCP server and CLI that builds persistent codebase knowledge graphs, compression summaries, and an interactive D3
+    mind-map website for AI coding agents.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 思维导图/知识地图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code

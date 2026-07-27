@@ -1,94 +1,95 @@
 {
-  "generatedAt": "2026-07-26T23:07:03+00:00",
-  "lastResearched": "2026-07-27",
+  "generatedAt": "2026-07-27T23:06:45+00:00",
+  "lastResearched": "2026-07-28",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 365,
-    "openSource": 99,
-    "saas": 47,
-    "modelApi": 130,
-    "examples": 1007,
-    "effectAssets": 1251,
-    "docs": 1112
+    "total": 372,
+    "openSource": 102,
+    "saas": 48,
+    "modelApi": 132,
+    "examples": 1014,
+    "effectAssets": 1261,
+    "docs": 1118
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 46,
-      "PDF/文档": 124,
-      "文本/想法": 224,
-      "数据/表格": 131,
+      "PDF/文档": 128,
+      "文本/想法": 228,
+      "数据/表格": 132,
       "代码/技术描述": 66,
-      "网页/搜索结果": 110,
-      "代码库": 39,
-      "DSL/代码": 62,
-      "新闻/资讯": 14,
-      "知识库/个人资料": 26,
-      "任意/多源": 53,
+      "网页/搜索结果": 113,
+      "代码库": 40,
+      "DSL/代码": 65,
+      "新闻/资讯": 15,
+      "知识库/个人资料": 29,
+      "任意/多源": 54,
       "Office 文档": 46,
       "引用网络": 4,
-      "数据库": 25
+      "数据库": 26,
+      "视频/音频": 1
     },
     "toolForms": {
-      "开源应用/框架": 99,
-      "Agent Skill": 119,
-      "Skill 集合": 31,
+      "开源应用/框架": 102,
+      "Agent Skill": 121,
+      "Skill 集合": 32,
       "数据集/评测": 2,
       "Bot/助手": 11,
-      "产品/SaaS": 47,
-      "MCP Server": 93,
+      "产品/SaaS": 48,
+      "MCP Server": 95,
       "研究原型": 4,
-      "API/SDK/库": 36,
+      "API/SDK/库": 37,
       "Awesome/索引": 20
     },
     "outputForms": {
       "图形摘要/信息图": 27,
-      "PPT/演示文稿": 163,
-      "网页/交互页面": 98,
-      "问答/学习材料": 13,
-      "报告/长文档": 43,
-      "证据表": 16,
+      "PPT/演示文稿": 164,
+      "网页/交互页面": 103,
+      "问答/学习材料": 14,
+      "报告/长文档": 46,
+      "证据表": 17,
       "信息图/视觉报告": 55,
-      "图表/仪表盘": 93,
+      "图表/仪表盘": 94,
       "架构图/流程图": 80,
-      "SVG/PNG/PDF": 119,
-      "报告/简报": 39,
+      "SVG/PNG/PDF": 122,
+      "报告/简报": 40,
       "白板/思维导图": 25,
-      "图表/Mermaid": 41,
+      "图表/Mermaid": 42,
       "视频/音频": 31,
       "表格/时间线": 10,
       "引用答案": 4,
-      "思维导图/知识地图": 21,
-      "结构化数据/Markdown": 28,
+      "思维导图/知识地图": 24,
+      "结构化数据/Markdown": 29,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 23,
+      "代码地图/Repo Wiki": 24,
       "图表/渲染输出": 12,
       "工具索引": 22
     },
     "dependencies": {
-      "本地语言环境": 277,
-      "模型 API": 130,
-      "文档解析/OCR": 61,
-      "渲染/导出": 284,
+      "本地语言环境": 284,
+      "模型 API": 132,
+      "文档解析/OCR": 62,
+      "渲染/导出": 291,
       "GPU/加速器": 10,
-      "模板/素材": 162,
-      "Agent 宿主": 156,
+      "模板/素材": 165,
+      "Agent 宿主": 160,
       "系统工具": 64,
-      "浏览器/账号": 102,
-      "存储/索引": 45,
-      "外部检索/数据源": 66,
-      "MCP Client": 96,
-      "代码分析工具": 27
+      "浏览器/账号": 103,
+      "存储/索引": 46,
+      "外部检索/数据源": 70,
+      "MCP Client": 98,
+      "代码分析工具": 28
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 32,
-      "research-report": 17,
+      "doc-to-knowledge": 35,
+      "research-report": 18,
       "infographic-report": 32,
-      "data-dashboard": 41,
+      "data-dashboard": 42,
       "diagram-generation": 46,
       "literature-map": 4,
-      "presentation-tools": 108,
-      "codebase-map": 21,
+      "presentation-tools": 109,
+      "codebase-map": 22,
       "rendering-primitive": 8,
       "video-generation": 10,
       "commercial-site": 10,
@@ -98,15 +99,15 @@
       "paper": 25,
       "text_visual": 45,
       "web_news": 8,
-      "support_mindmap": 9,
-      "docs": 17,
+      "support_mindmap": 11,
+      "docs": 19,
       "support_doc_parse": 9,
-      "presentation": 120,
-      "code": 21,
+      "presentation": 121,
+      "code": 22,
       "support_render": 39,
       "diagrams": 2,
       "video": 10,
-      "data": 36,
+      "data": 37,
       "indexes": 23,
       "diagram": 1
     }
@@ -33585,6 +33586,450 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "mviz",
+      "url": "https://github.com/matsonj/mviz",
+      "primaryUrl": "https://github.com/matsonj/mviz",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 223,
+      "license": "unknown",
+      "updated": "2026-07-20",
+      "note": "Claude skill and CLI renderer that turns compact JSON or Markdown specs from ad hoc data analysis into polished static HTML dashboards and PDF-ready reports with ECharts.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MotherDuck MCP",
+          "url": "https://motherduck.com/docs/sql-reference/mcp/",
+          "source": "https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Light Mode Dashboard",
+          "url": "https://raw.githubusercontent.com/matsonj/mviz/HEAD/LightMode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark Mode Dashboard",
+          "url": "https://raw.githubusercontent.com/matsonj/mviz/HEAD/DarkMode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "AI Marketing Suite for Claude Code",
+      "url": "https://github.com/zubair-trabzada/ai-marketing-claude",
+      "primaryUrl": "https://github.com/zubair-trabzada/ai-marketing-claude",
+      "homepage": "https://www.skool.com/aiworkshop",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2223,
+      "license": "unknown",
+      "updated": "2026-07-27",
+      "note": "Claude Code marketing skill suite that launches parallel agents for site audits, competitive intelligence, funnels, campaigns, and client-ready Markdown/PDF reports.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "新闻/资讯",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AI Summary Skill for Claude Code",
+      "url": "https://github.com/molly554/Multi_sources_summarizition_lynote.ai",
+      "primaryUrl": "https://github.com/molly554/Multi_sources_summarizition_lynote.ai",
+      "homepage": "https://lynote.ai/",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-05-22",
+      "note": "Claude Code summarization skill that turns PDFs, web pages, YouTube, audio, video, and mixed sources into structured Markdown plus illustrated HTML reports with Mermaid diagrams and verification checks.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "视频/音频",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "图表/Mermaid",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "How to Reword AI to Human Text: The Ultimate Guide to Bypassing Detection (2026)",
+          "url": "https://lynote.ai/blog/reword-ai-to-human-text",
+          "source": "https://lynote.ai/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "Video Summarizer",
+          "url": "https://lynote.ai/youtube-summary",
+          "source": "https://lynote.ai/"
+        },
+        {
+          "kind": "video",
+          "title": "Transcript Generator",
+          "url": "https://lynote.ai/youtube-transcript",
+          "source": "https://lynote.ai/"
+        },
+        {
+          "kind": "video",
+          "title": "Video to Text",
+          "url": "https://lynote.ai/video-to-text",
+          "source": "https://lynote.ai/"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube Transcript Extension",
+          "url": "https://lynote.ai/plugin-youtube-transcript",
+          "source": "https://lynote.ai/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 4,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ai-pptx-generator-studio",
+      "url": "https://github.com/sktt13ef/ai-pptx-generator-studio",
+      "primaryUrl": "https://github.com/sktt13ef/ai-pptx-generator-studio",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-04-24",
+      "note": "Local-first Next.js workspace for generating, editing, previewing, and exporting AI-ready structured slide outlines as PPTX, PNG, and HTML decks.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Mind Map Wizard",
+      "url": "https://github.com/linus-sch/Mind-Map-Wizard",
+      "primaryUrl": "https://github.com/linus-sch/Mind-Map-Wizard",
+      "homepage": "https://mindmapwizard.com",
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 339,
+      "license": "unknown",
+      "updated": "2026-07-24",
+      "note": "Open-source browser app for AI-powered topic and file-to-mind-map generation, branch expansion, web-backed summaries, direct editing, image insertion, and multi-format export.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "问答/学习材料",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Create Manually",
+          "url": "https://mindmapwizard.com/new.html?manual=true",
+          "source": "https://mindmapwizard.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://mindmapwizard.com/api/docs.html",
+          "source": "https://mindmapwizard.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Try it!",
+          "url": "https://mindmapwizard.com/sign-in.html",
+          "source": "https://mindmapwizard.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Product showcase",
+          "url": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/mmw-main-screenshot.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Demo button of Mind Map Wizard",
+          "url": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/demo-link-button.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A screenshot of the context menu",
+          "url": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/context-menu.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A screenshot of the mind map style customization menu",
+          "url": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/customization-options.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Pdf Mind Maps Animation",
+          "url": "https://mindmapwizard.com/img/pdf-mind-maps-animation.mp4",
+          "thumbnailUrl": null,
+          "source": "https://mindmapwizard.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Free AI Mind Map Generator | No Signup | Mind Map Wizard",
+          "url": "https://mindmapwizard.com/img/meta-img.jpg",
+          "thumbnailUrl": null,
+          "source": "https://mindmapwizard.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Featured on TAAFT",
+          "url": "https://mindmapwizard.com/img/featured-on-taaft.webp",
+          "thumbnailUrl": null,
+          "source": "https://mindmapwizard.com/"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "Markmap MCP Server",
+      "url": "https://github.com/jinzcdev/markmap-mcp-server",
+      "primaryUrl": "https://github.com/jinzcdev/markmap-mcp-server",
+      "homepage": "https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 272,
+      "license": "unknown",
+      "updated": "2026-07-21",
+      "note": "Node-based MCP server that converts Markdown text into interactive Markmap mind maps with browser preview and PNG, JPG, and SVG export.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "知识库/个人资料",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Try it now →",
+          "url": "https://markxmind.js.org/",
+          "source": "https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Sample Mindmap",
+          "url": "https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/docs/markmap.svg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "AI Mind Map",
+      "url": "https://github.com/shdra06/ai-mind-map",
+      "primaryUrl": "https://github.com/shdra06/ai-mind-map",
+      "homepage": "https://ai-mind-map-website.vercel.app",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-07-14",
+      "note": "MCP server and CLI that builds persistent codebase knowledge graphs, compression summaries, and an interactive D3 mind-map website for AI coding agents.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "思维导图/知识地图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Tool Reference",
+          "url": "https://ai-mind-map-website.vercel.app/tools.html",
+          "source": "https://ai-mind-map-website.vercel.app/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Playground",
+          "url": "https://ai-mind-map-website.vercel.app/playground.html",
+          "source": "https://ai-mind-map-website.vercel.app/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     }
   ]
 }
