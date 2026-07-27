@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-365_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-372_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--28-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -107,6 +107,8 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) [![Star](https://img.shields.io/github/stars/joeseesun/qiaomu-anything-to-notebooklm?style=flat&logo=github&label=Star)](https://github.com/joeseesun/qiaomu-anything-to-notebooklm/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Agent skill | PPT/deck / Mind map/knowledge map / Video/audio / Q&A/study material / Briefing/report | Agent host / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [Report Skills](https://github.com/dashaworks/report-skills) [![Star](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat&logo=github&label=Star)](https://github.com/dashaworks/report-skills/stargazers) | Any/multi-source / Text/ideas / Web/search | Skill collection / MCP server | Long report / Web/interactive page / PPT/deck | Agent host / MCP client / Model API / Browser/account / Rendering/export / Templates/assets |
 | [HTML Express](https://github.com/zjp1997720/html-express) [![Star](https://img.shields.io/github/stars/zjp1997720/html-express?style=flat&logo=github&label=Star)](https://github.com/zjp1997720/html-express/stargazers) | Text/ideas / Data/tables / Web/search / Any/multi-source | Agent skill | Long report / Web/interactive page / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [AI Marketing Suite for Claude Code](https://github.com/zubair-trabzada/ai-marketing-claude) [![Star](https://img.shields.io/github/stars/zubair-trabzada/ai-marketing-claude?style=flat&logo=github&label=Star)](https://github.com/zubair-trabzada/ai-marketing-claude/stargazers) | 웹/검색 / 뉴스/인텔리전스 / 텍스트/아이디어 | Skill collection | 긴 보고서 / 브리핑/보고서 / 증거 표 | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 / 템플릿/자산 |
+| [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/문서 / 웹/검색 / 비디오/오디오 / 임의/다중 출처 | Agent skill | 긴 보고서 / 웹/인터랙티브 페이지 / 다이어그램/Mermaid / 구조화 데이터/Markdown | Agent 호스트 / 로컬 런타임 / 문서 파싱/OCR / 외부 검색/데이터 / 렌더링/내보내기 |
 
 ### 코드베이스와 소프트웨어 시스템
 
@@ -135,6 +137,7 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [CodeSee](https://www.codesee.io/) | 코드베이스 | 제품/SaaS | 코드 맵/Repo Wiki / 아키텍처/흐름도 | 브라우저/계정 / 코드 분석 |
 | [Knossos MCP](https://github.com/AraneaDev/Knossos-MCP) [![Star](https://img.shields.io/github/stars/AraneaDev/Knossos-MCP?style=flat&logo=github&label=Star)](https://github.com/AraneaDev/Knossos-MCP/stargazers) | Codebase | MCP server | Code map/Repo Wiki / Architecture/flow diagram / Diagram/Mermaid / Evidence table | MCP client / Local runtime / Code analysis / Storage/index / Rendering/export / System tools |
 | [NodeSecure Report](https://github.com/NodeSecure/report) [![Star](https://img.shields.io/github/stars/NodeSecure/report?style=flat&logo=github&label=Star)](https://github.com/NodeSecure/report/stargazers) | Codebase / Data/tables | Open-source app/framework / API/SDK/library | Code map/Repo Wiki / Long report / SVG/PNG/PDF | Local runtime / External search/data / Code analysis / Rendering/export / System tools |
+| [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | 코드베이스 / 지식 베이스 | MCP server / 오픈소스 앱/프레임워크 | 코드 맵/Repo Wiki / 마인드맵/지식 지도 / 웹/인터랙티브 페이지 | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 코드 분석 / 스토리지/인덱스 / 렌더링/내보내기 |
 
 ### 데이터, 표 및 비즈니스 지표
 
@@ -177,6 +180,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [JimuReport](https://github.com/jeecgboot/jimureport) [![Star](https://img.shields.io/github/stars/jeecgboot/jimureport?style=flat&logo=github&label=Star)](https://github.com/jeecgboot/jimureport/stargazers) | 데이터/표 / 데이터베이스 / 텍스트/아이디어 | 오픈소스 앱/프레임워크 / Agent Skill | 차트/대시보드 / 보고서/브리핑 / 웹/인터랙티브 페이지 | 브라우저/계정 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 / 저장소/인덱스 |
 | [Vizro](https://github.com/mckinsey/vizro) [![Star](https://img.shields.io/github/stars/mckinsey/vizro?style=flat&logo=github&label=Star)](https://github.com/mckinsey/vizro/stargazers) | 데이터/표 / 데이터베이스 / DSL/코드 | 오픈소스 앱/프레임워크 / API/SDK/라이브러리 | 차트/대시보드 / 웹/인터랙티브 페이지 | 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [mcp-server-antv](https://github.com/antvis/mcp-server-antv) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-antv?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-antv/stargazers) | 데이터/표 / DSL/코드 / 코드/기술 설명 | MCP Server | 차트/대시보드 / 렌더링된 차트 / 아키텍처/흐름도 | MCP Client / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
+| [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | 데이터/표 / 데이터베이스 / DSL/코드 | Agent skill / API/SDK/라이브러리 | 차트/대시보드 / 긴 보고서 / 웹/인터랙티브 페이지 | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 / 템플릿/자산 |
 
 ### 일반 텍스트, 아이디어 및 화이트보드 시각화
 
@@ -374,6 +378,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Slidesgo AI Presentation Maker](https://slidesgo.com/ai/presentation-maker) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS | PPT/덱 | 브라우저/계정 / 템플릿/자산 |
 | [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS / Bot/어시스턴트 | PPT/덱 | 브라우저/계정 / 시스템 도구 / 템플릿/자산 |
 | [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS | PPT/덱 | 브라우저/계정 / 템플릿/자산 |
+| [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | 텍스트/아이디어 / PDF/문서 / DSL/코드 | 오픈소스 앱/프레임워크 | PPT/덱 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
 
 ## 보조, 전처리 및 후처리 도구
 
@@ -410,6 +415,8 @@ PDF, 논문, Office 파일, 스캔을 Markdown, JSON, 레이아웃, 표, OCR 결
 | [mindmap-mcp-server](https://github.com/YuChenSSR/mindmap-mcp-server) [![Star](https://img.shields.io/github/stars/YuChenSSR/mindmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/YuChenSSR/mindmap-mcp-server/stargazers) | 텍스트/아이디어 / PDF/문서 / 지식베이스/개인 자료 | MCP Server | 마인드맵/지식맵 / 웹/인터랙티브 페이지 | MCP Client / 로컬 런타임 / 렌더링/내보내기 |
 | [Obsidian Visual Skills Pack](https://github.com/axtonliu/axton-obsidian-visual-skills) [![Star](https://img.shields.io/github/stars/axtonliu/axton-obsidian-visual-skills?style=flat&logo=github&label=Star)](https://github.com/axtonliu/axton-obsidian-visual-skills/stargazers) | 텍스트/아이디어 / 지식베이스/개인 자료 / 코드/기술 텍스트 | Skill 모음 | 화이트보드/마인드맵 / 다이어그램/Mermaid / 아키텍처/흐름도 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 스토리지/인덱스 |
 | [MindRepo](https://github.com/NguyenVu04/mind-repo) [![Star](https://img.shields.io/github/stars/NguyenVu04/mind-repo?style=flat&logo=github&label=Star)](https://github.com/NguyenVu04/mind-repo/stargazers) | PDF/문서 / 지식베이스/개인 자료 / 논문/연구 자료 | 오픈소스 앱/프레임워크 | 마인드맵/지식맵 / Q&A/학습 자료 / 브리핑/리포트 | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 저장소/인덱스 |
+| [Mind Map Wizard](https://github.com/linus-sch/Mind-Map-Wizard) [![Star](https://img.shields.io/github/stars/linus-sch/Mind-Map-Wizard?style=flat&logo=github&label=Star)](https://github.com/linus-sch/Mind-Map-Wizard/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 / Product/SaaS | 마인드맵/지식 지도 / Q&A/학습 자료 / SVG/PNG/PDF | 브라우저/계정 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
+| [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | 텍스트/아이디어 / PDF/문서 / 지식 베이스 / DSL/코드 | MCP server | 마인드맵/지식 지도 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 
 ### 다이어그램, Mermaid 및 렌더링 구성 요소
 

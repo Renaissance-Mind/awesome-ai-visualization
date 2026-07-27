@@ -1,4 +1,4 @@
-generated_at: '2026-07-26T23:07:03+00:00'
+generated_at: '2026-07-27T23:06:45+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 365
-  fetched_sources_ok: 496
-  fetched_sources_failed: 29
-  official_examples: 1007
-  official_effect_assets: 1251
-  official_docs: 1112
+  entries: 372
+  fetched_sources_ok: 507
+  fetched_sources_failed: 30
+  official_examples: 1014
+  official_effect_assets: 1261
+  official_docs: 1118
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -33949,3 +33949,359 @@ entries:
   - Dashboard
   - Geospatial Datasets (10)
   - Semantic Search Examples
+- name: mviz
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/matsonj/mviz
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill and CLI renderer that turns compact JSON or Markdown specs from ad hoc data analysis into polished
+    static HTML dashboards and PDF-ready reports with ECharts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mviz
+    bytes: 14430
+  official_docs:
+  - kind: docs
+    title: MotherDuck MCP
+    url: https://motherduck.com/docs/sql-reference/mcp/
+    source: https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Light Mode Dashboard
+    url: https://raw.githubusercontent.com/matsonj/mviz/HEAD/LightMode.png
+    source: https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md
+  - kind: image
+    title: Dark Mode Dashboard
+    url: https://raw.githubusercontent.com/matsonj/mviz/HEAD/DarkMode.png
+    source: https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MotherDuck MCP
+    url: https://motherduck.com/docs/sql-reference/mcp/
+    source: https://raw.githubusercontent.com/matsonj/mviz/HEAD/README.md
+  source_headings:
+  - Visual Style (mdsinabox theme)
+- name: AI Marketing Suite for Claude Code
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/zubair-trabzada/ai-marketing-claude
+  homepage: https://www.skool.com/aiworkshop
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code marketing skill suite that launches parallel agents for site audits, competitive intelligence,
+    funnels, campaigns, and client-ready Markdown/PDF reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI Marketing Suite for Claude Code
+    bytes: 7718
+  - kind: homepage
+    url: https://www.skool.com/aiworkshop/about
+    final_url: https://www.skool.com/aiworkshop/about
+    status: 200
+    content_type: text/html
+    title: AI Workshop
+    description: Learn how to build AI assistants & AI employees, then sell them to businesses.
+    bytes: 273823
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/HEAD/README.md
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/HEAD/README.md
+- name: AI Summary Skill for Claude Code
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/molly554/Multi_sources_summarizition_lynote.ai
+  homepage: https://lynote.ai/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Claude Code summarization skill that turns PDFs, web pages, YouTube, audio, video, and mixed sources into
+    structured Markdown plus illustrated HTML reports with Mermaid diagrams and verification checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/molly554/Multi_sources_summarizition_lynote.ai/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/molly554/Multi_sources_summarizition_lynote.ai/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI Summary Skill for Claude Code
+    bytes: 7803
+  - kind: homepage
+    url: https://lynote.ai/
+    final_url: https://lynote.ai/
+    status: 200
+    content_type: text/html
+    title: Lynote - AI Detector & AI Humanizer Free Online, No Sign-Up
+    description: Lynote is the best AI detector and AI humanizer for humanizing AI text, checking AI content, and studying
+      with notes, transcripts, flashcards, and AI chat.
+    bytes: 593596
+  official_examples:
+  - kind: video
+    title: Video Summarizer
+    url: https://lynote.ai/youtube-summary
+    source: https://lynote.ai/
+  - kind: video
+    title: Transcript Generator
+    url: https://lynote.ai/youtube-transcript
+    source: https://lynote.ai/
+  - kind: video
+    title: Video to Text
+    url: https://lynote.ai/video-to-text
+    source: https://lynote.ai/
+  - kind: video
+    title: YouTube Transcript Extension
+    url: https://lynote.ai/plugin-youtube-transcript
+    source: https://lynote.ai/
+  official_docs:
+  - kind: docs
+    title: 'How to Reword AI to Human Text: The Ultimate Guide to Bypassing Detection (2026)'
+    url: https://lynote.ai/blog/reword-ai-to-human-text
+    source: https://lynote.ai/
+  official_effect_assets: []
+  official_links:
+  - kind: video
+    title: Video Summarizer
+    url: https://lynote.ai/youtube-summary
+    source: https://lynote.ai/
+  - kind: video
+    title: Transcript Generator
+    url: https://lynote.ai/youtube-transcript
+    source: https://lynote.ai/
+  - kind: video
+    title: Video to Text
+    url: https://lynote.ai/video-to-text
+    source: https://lynote.ai/
+  - kind: docs
+    title: 'How to Reword AI to Human Text: The Ultimate Guide to Bypassing Detection (2026)'
+    url: https://lynote.ai/blog/reword-ai-to-human-text
+    source: https://lynote.ai/
+  - kind: video
+    title: YouTube Transcript Extension
+    url: https://lynote.ai/plugin-youtube-transcript
+    source: https://lynote.ai/
+  source_headings:
+  - 'Level 3: YouTube Videos'
+  - 'Level 4: Audio & Video Files'
+  - Example Output Structure
+- name: ai-pptx-generator-studio
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/sktt13ef/ai-pptx-generator-studio
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first Next.js workspace for generating, editing, previewing, and exporting AI-ready structured slide
+    outlines as PPTX, PNG, and HTML decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sktt13ef/ai-pptx-generator-studio/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sktt13ef/ai-pptx-generator-studio/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI PPTX Generator Studio
+    bytes: 1986
+- name: Mind Map Wizard
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/linus-sch/Mind-Map-Wizard
+  homepage: https://mindmapwizard.com
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Open-source browser app for AI-powered topic and file-to-mind-map generation, branch expansion, web-backed
+    summaries, direct editing, image insertion, and multi-format export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 9766
+  - kind: homepage
+    url: https://mindmapwizard.com/
+    final_url: https://mindmapwizard.com/
+    status: 200
+    content_type: text/html
+    title: Free AI Mind Map Generator | No Signup | Mind Map Wizard
+    description: Create instant AI mind maps on any topic. Mind Map Wizard is free to use, needs no signup and has no ads.
+      Just type a topic and get a clear mind map in seconds.
+    bytes: 172378
+  official_examples:
+  - kind: demo
+    title: Try it!
+    url: https://mindmapwizard.com/sign-in.html
+    source: https://mindmapwizard.com/
+  official_docs:
+  - kind: docs
+    title: Create Manually
+    url: https://mindmapwizard.com/new.html?manual=true
+    source: https://mindmapwizard.com/
+  - kind: docs
+    title: API
+    url: https://mindmapwizard.com/api/docs.html
+    source: https://mindmapwizard.com/
+  official_effect_assets:
+  - kind: image
+    title: Product showcase
+    url: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/mmw-main-screenshot.jpg
+    source: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md
+  - kind: image
+    title: Demo button of Mind Map Wizard
+    url: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/demo-link-button.webp
+    source: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md
+  - kind: image
+    title: A screenshot of the context menu
+    url: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/context-menu.jpg
+    source: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md
+  - kind: image
+    title: A screenshot of the mind map style customization menu
+    url: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/refs/heads/main/graphics/customization-options.jpg
+    source: https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/HEAD/README.md
+  - kind: video
+    title: Pdf Mind Maps Animation
+    url: https://mindmapwizard.com/img/pdf-mind-maps-animation.mp4
+    source: https://mindmapwizard.com/
+  - kind: image
+    title: Free AI Mind Map Generator | No Signup | Mind Map Wizard
+    url: https://mindmapwizard.com/img/meta-img.jpg
+    source: https://mindmapwizard.com/
+  - kind: image
+    title: Featured on TAAFT
+    url: https://mindmapwizard.com/img/featured-on-taaft.webp
+    source: https://mindmapwizard.com/
+  official_links:
+  - kind: docs
+    title: Create Manually
+    url: https://mindmapwizard.com/new.html?manual=true
+    source: https://mindmapwizard.com/
+  - kind: demo
+    title: Try it!
+    url: https://mindmapwizard.com/sign-in.html
+    source: https://mindmapwizard.com/
+  - kind: docs
+    title: API
+    url: https://mindmapwizard.com/api/docs.html
+    source: https://mindmapwizard.com/
+- name: Markmap MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/jinzcdev/markmap-mcp-server
+  homepage: https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Node-based MCP server that converts Markdown text into interactive Markmap mind maps with browser preview
+    and PNG, JPG, and SVG export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Markmap MCP Server
+    bytes: 4785
+  - kind: homepage
+    url: https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server
+    final_url: https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: demo
+    title: Try it now →
+    url: https://markxmind.js.org/
+    source: https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Try it now →
+    url: https://markxmind.js.org/
+    source: https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md
+  source_headings:
+  - Usage
+  official_effect_assets:
+  - kind: image
+    title: Sample Mindmap
+    url: https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/docs/markmap.svg
+    source: https://raw.githubusercontent.com/jinzcdev/markmap-mcp-server/HEAD/README.md
+- name: AI Mind Map
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/shdra06/ai-mind-map
+  homepage: https://ai-mind-map-website.vercel.app
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP server and CLI that builds persistent codebase knowledge graphs, compression summaries, and an interactive
+    D3 mind-map website for AI coding agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shdra06/ai-mind-map/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shdra06/ai-mind-map/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🌐 Live Website
+    bytes: 22809
+  - kind: homepage
+    url: https://ai-mind-map-website.vercel.app/
+    final_url: https://ai-mind-map-website.vercel.app/
+    status: 200
+    content_type: text/html
+    title: AI Mind Map — Your AI Agent's Permanent Brain | MCP Server
+    description: MCP Server that gives your AI coding agent persistent memory. Knowledge graphs, 50+ smart tools, 80-99% token
+      savings. Works with Claude, Cursor, Copilot, Antigravity and more.
+    bytes: 85964
+  official_examples:
+  - kind: demo
+    title: Playground
+    url: https://ai-mind-map-website.vercel.app/playground.html
+    source: https://ai-mind-map-website.vercel.app/
+  official_docs:
+  - kind: docs
+    title: Tool Reference
+    url: https://ai-mind-map-website.vercel.app/tools.html
+    source: https://ai-mind-map-website.vercel.app/
+  official_links:
+  - kind: demo
+    title: Playground
+    url: https://ai-mind-map-website.vercel.app/playground.html
+    source: https://ai-mind-map-website.vercel.app/
+  - kind: docs
+    title: Tool Reference
+    url: https://ai-mind-map-website.vercel.app/tools.html
+    source: https://ai-mind-map-website.vercel.app/
