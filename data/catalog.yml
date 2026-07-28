@@ -1,4 +1,4 @@
-last_researched: '2026-07-28'
+last_researched: '2026-07-29'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -9280,3 +9280,245 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: code
+- name: presentation-skill-pack
+  url: https://github.com/isatimur/presentation-md
+  homepage: https://presentation-skill-pack.vercel.app
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-07-27'
+  note: Agent skill plus MCP server that turns rough notes into schema-validated deck JSON, renders self-contained HTML
+    decks, and exports native editable PowerPoint/Keynote/Google Slides presentations with a gallery and browser studio.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: many-ppt-skills
+  url: https://github.com/brycewang-stanford/many-ppt-skills
+  category: meta-index
+  surface: index
+  dependencies:
+  - 外部检索/数据源
+  stars: 0
+  license: unknown
+  updated: '2026-07-28'
+  note: Bilingual, data-backed index and route guide comparing 26 AI slide-deck skills across HTML-native and native-PPTX
+    workflows, with reproducible counts and principles for choosing deck generation approaches.
+  source_types:
+  - 任意/多源
+  tool_forms:
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  - 证据表
+  catalog_section: indexes
+  readme_group: indexes
+- name: Power BI Skills for Claude Code
+  url: https://github.com/lukasreese/powerbi-claude-skills
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 102
+  license: unknown
+  updated: '2026-07-26'
+  note: Claude Code skills for gathering Power BI requirements and building PBIR report pages, visuals, and IBCS variance
+    charts directly in PBIP projects without hand-authoring JSON or DAX.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  catalog_section: main
+  readme_group: data
+- name: PPTX Generator MCP Server
+  url: https://github.com/dmytro-ustynov/pptx-generator-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: unknown
+  updated: '2026-06-30'
+  note: Node-based MCP server that converts Markdown lessons, documentation, code blocks, tables, bullet lists, and branded
+    content into professional PowerPoint presentations.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Draw.io MCP Server
+  url: https://github.com/lgazo/drawio-mcp-server
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1363
+  license: MIT
+  updated: '2026-07-28'
+  note: MCP server and hosted Draw.io editor that lets AI agents create, inspect, update, import, and export diagrams,
+    including Mermaid expansion, multi-page documents, stencils, XML, SVG, and PNG outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Carbone MCP Server
+  url: https://github.com/carboneio/carbone-mcp
+  homepage: https://carbone.io/documentation/developer/ai/mcp.html
+  category: research-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  - 外部检索/数据源
+  stars: 4
+  license: Apache-2.0
+  updated: '2026-07-28'
+  note: Official Carbone MCP server for generating templated reports and business documents from JSON data, converting
+    Office/HTML/PDF formats, batch-producing PDFs, and managing reusable document templates.
+  source_types:
+  - 数据/表格
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: AIOffice
+  url: https://github.com/onecer/AIOffice
+  homepage: https://www.npmjs.com/package/aioffice
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 6
+  license: MIT
+  updated: '2026-07-17'
+  note: Local single-binary CLI and MCP engine for creating, querying, editing, rendering, previewing, validating, and
+    converting real DOCX, XLSX, and PPTX files without Microsoft Office.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: Architecture Discovery MCP
+  url: https://github.com/rdtan/architecture-discovery-mcp
+  homepage: https://pypi.org/project/architecture-discovery-mcp/
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: unknown
+  updated: '2026-07-22'
+  note: Local MCP server that statically scans Java/Maven projects and generates TOGAF application architecture inventories,
+    Excel workbooks, and PPTX architecture and integration diagrams.
+  source_types:
+  - 代码库
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - PPT/演示文稿
+  - 表格/时间线
+  catalog_section: main
+  readme_group: code
+- name: DeepSeek-PPT-skill
+  url: https://github.com/lecutu/DeepSeek-PPT-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-07-28'
+  note: AI-native PPTX skill built around a constraint-solving loop where LLMs declare slide intent, receive structured
+    layout diagnostics, and iterate until the PowerPoint file passes visual correctness checks.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
