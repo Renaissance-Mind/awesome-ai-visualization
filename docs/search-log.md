@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-07-28.
+Last researched: 2026-07-29.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -63,6 +63,8 @@ Update on 2026-07-22: refreshed agent-native slide skills, PowerPoint validation
 Update on 2026-07-24: refreshed research-notebook, agent presentation, data-to-report, codebase-report, and design-index surfaces from official GitHub repositories, README evidence, live demo pages, and GitHub metadata. This pass added DecipherIt, getihu-p2h2p, Talksmith, skill_doc2ppt, ppt-agent-skill, slide-creator, AI-Report-Generator, PedroReports, NodeSecure Report, and awesome-claude-design. The targeted scraper ran only against these new records; two rendered Talksmith JavaScript placeholder URLs plus generic dependency/help links were scrubbed before merging.
 
 Update on 2026-07-28: refreshed AI-native chart/report skills, marketing and summary report skills, local PPTX studios, mind-map MCP tools, browser mind-map apps, and codebase knowledge-map MCP surfaces from official GitHub repositories, product pages, README evidence, and GitHub metadata. This pass added mviz, AI Marketing Suite for Claude Code, AI Summary Skill for Claude Code, ai-pptx-generator-studio, Mind Map Wizard, Markmap MCP Server, and AI Mind Map. The targeted scraper ran only against these new records; generic Skool and Lynote homepage effect assets were scrubbed before merging, and Markmap's official sample SVG was kept as the artifact preview.
+
+Update on 2026-07-29: refreshed agent-native presentation packs, PPTX/Office MCP engines, Power BI report skills, Draw.io automation, document-template generation, and Java architecture-discovery artifacts from official GitHub repositories, project pages, README evidence, PyPI/npm package pages, and GitHub metadata. This pass added presentation-skill-pack, many-ppt-skills, Power BI Skills for Claude Code, PPTX Generator MCP Server, Draw.io MCP Server, Carbone MCP Server, AIOffice, Architecture Discovery MCP, and DeepSeek-PPT-skill. The targeted scraper ran only against these new records; generic PyPI/packaging documentation links from the Architecture Discovery package page were scrubbed before merging.
 
 ## Search Surfaces
 

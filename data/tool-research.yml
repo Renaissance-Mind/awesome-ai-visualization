@@ -1,4 +1,4 @@
-generated_at: '2026-07-27T23:06:45+00:00'
+generated_at: '2026-07-28T23:04:43+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 372
-  fetched_sources_ok: 507
-  fetched_sources_failed: 30
-  official_examples: 1014
-  official_effect_assets: 1261
-  official_docs: 1118
+  entries: 381
+  fetched_sources_ok: 519
+  fetched_sources_failed: 31
+  official_examples: 1053
+  official_effect_assets: 1268
+  official_docs: 1148
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -34305,3 +34305,952 @@ entries:
     title: Tool Reference
     url: https://ai-mind-map-website.vercel.app/tools.html
     source: https://ai-mind-map-website.vercel.app/
+- name: presentation-skill-pack
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/isatimur/presentation-md
+  homepage: https://presentation-skill-pack.vercel.app
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill plus MCP server that turns rough notes into schema-validated deck JSON, renders self-contained
+    HTML decks, and exports native editable PowerPoint/Keynote/Google Slides presentations with a gallery and browser studio.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: presentation-skill-pack
+    bytes: 12383
+  - kind: homepage
+    url: https://presentation-skill-pack.vercel.app/
+    final_url: https://presentation-skill-pack.vercel.app/
+    status: 200
+    content_type: text/html
+    title: presentation-skill-pack — AI slide decks → PowerPoint, Keynote, Google Slides
+    description: Your AI agent (Claude Code, Cursor, Codex, Gemini CLI, Copilot) generates slide decks from plain notes —
+      then exports them to native, editable PowerPoint, Keynote, or Google Slides
+    bytes: 94837
+  official_examples:
+  - kind: showcase
+    title: 25 showcase decks
+    url: https://presentation-skill-pack.vercel.app/
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: paper
+    title: swiirl-deck-benchmark.vercel.app
+    url: https://swiirl-deck-benchmark.vercel.app
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/create-theme`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/create-theme
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-corporate`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/corporate
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-playful`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/playful
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-luxury-minimalist`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/luxury-minimalist
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-retro-arcade`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/retro-arcade
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: example
+    title: NovaSpark AI Series A · $14M 412 Customers 99.97% Uptime −73% Latency NovaSpark AI Pitch Deck Aurora Glass Open
+      deck →
+    url: https://presentation-skill-pack.vercel.app/examples/novaspark-pitch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: MERIDIAN CONFIDENTIAL Data That Moves the Needle SAVINGS $340K PAYBACK 4.2 mo Meridian Analytics Sales Proposal
+      FT Editorial Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/meridian-sales.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Bounce is here. 12,400 USERS NO ADS 87% 30-day retention 4.1× daily opens Bounce Product Launch Gen-Z Bento Open
+      deck →
+    url: https://presentation-skill-pack.vercel.app/examples/bounce-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: SOL STI CE Q2 2026 · LP Update Solstice Capital Net IRR 28.4% TVPI 2.1× Solstice Capital LP Update Ultra-Luxury
+      Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/solstice-update.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: RETRONET v2.1.0 — STABLE RETRO NET > INITIALIZING... > 2,847 DAILY USERS > 94% FASTER ■ OPEN SOURCE FREE TIER RetroNet
+      Product Demo CRT Terminal Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/retronet-demo.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Grid Systems Brand & Design Studio Order is the argument. Grid Systems Agency Credentials Swiss Typographic Open
+      deck →
+    url: https://presentation-skill-pack.vercel.app/examples/gridsystems-agency.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: // SERIES A MONO LITH ARR $4.2M MARGIN 94% MONOLITH Series A Pitch Brutalist Mono Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/monolith-seriesa.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Jelly bean Save together. Win together. GROUP SAVING GEN-Z Jellybean Product Launch Candy Pop Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/jellybean-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: SYS · AUTONOMOUS AXIOM ROBOTICS 3.4M PICKS/DAY −61% COST Axiom Robotics Series B Pitch Aerospace HUD Open deck
+      →
+    url: https://presentation-skill-pack.vercel.app/examples/axiom-robotics.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: 9 Est. MMXII · Maison Atelier No. 9 A house built on craft. Atelier No. 9 Brand Story Heritage Editorial Open deck
+      →
+    url: https://presentation-skill-pack.vercel.app/examples/atelier-brand.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Ledgerline Embedded payments, settled in 90 seconds. 0.2%+$0.10 per transaction $3.1B moved / yr Ledgerline Sales
+      Deck Fintech Clean Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/ledgerline-sales.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: forge — ci Forge . $ forge build --cache=remote → 9× faster · 96% cache hit ✓ done in 4.2s Forge Product Demo Developer
+      Dark Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/forge-demo.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Benchmark Report · 2026 State of Activation 847 companies Signalbox Industry Report Data Editorial Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/signalbox-report.html
+    source: https://presentation-skill-pack.vercel.app/
+  official_docs:
+  - kind: docs
+    title: '`packages/export/references/pptx-fidelity.md`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/export/references/pptx-fidelity.md
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Six decks the pack rendered — pitch, brand, pricing, keynote — cycling to show the range
+    url: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/docs/hero-demo.gif
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: image
+    title: presentation-skill-pack — AI slide decks → PowerPoint, Keynote, Google Slides
+    url: https://presentation-skill-pack.vercel.app/og-image.png
+    source: https://presentation-skill-pack.vercel.app/
+  official_links:
+  - kind: showcase
+    title: 25 showcase decks
+    url: https://presentation-skill-pack.vercel.app/
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: paper
+    title: swiirl-deck-benchmark.vercel.app
+    url: https://swiirl-deck-benchmark.vercel.app
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/create-theme`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/create-theme
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-corporate`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/corporate
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-playful`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/playful
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-luxury-minimalist`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/luxury-minimalist
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: template
+    title: '`@presentation-skill-pack/theme-retro-arcade`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/retro-arcade
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: docs
+    title: '`packages/export/references/pptx-fidelity.md`'
+    url: https://github.com/isatimur/presentation-md/blob/HEAD/packages/export/references/pptx-fidelity.md
+    source: https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md
+  - kind: example
+    title: NovaSpark AI Series A · $14M 412 Customers 99.97% Uptime −73% Latency NovaSpark AI Pitch Deck Aurora Glass Open
+      deck →
+    url: https://presentation-skill-pack.vercel.app/examples/novaspark-pitch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: MERIDIAN CONFIDENTIAL Data That Moves the Needle SAVINGS $340K PAYBACK 4.2 mo Meridian Analytics Sales Proposal
+      FT Editorial Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/meridian-sales.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Bounce is here. 12,400 USERS NO ADS 87% 30-day retention 4.1× daily opens Bounce Product Launch Gen-Z Bento Open
+      deck →
+    url: https://presentation-skill-pack.vercel.app/examples/bounce-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: SOL STI CE Q2 2026 · LP Update Solstice Capital Net IRR 28.4% TVPI 2.1× Solstice Capital LP Update Ultra-Luxury
+      Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/solstice-update.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: RETRONET v2.1.0 — STABLE RETRO NET > INITIALIZING... > 2,847 DAILY USERS > 94% FASTER ■ OPEN SOURCE FREE TIER RetroNet
+      Product Demo CRT Terminal Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/retronet-demo.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Grid Systems Brand & Design Studio Order is the argument. Grid Systems Agency Credentials Swiss Typographic Open
+      deck →
+    url: https://presentation-skill-pack.vercel.app/examples/gridsystems-agency.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: // SERIES A MONO LITH ARR $4.2M MARGIN 94% MONOLITH Series A Pitch Brutalist Mono Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/monolith-seriesa.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Jelly bean Save together. Win together. GROUP SAVING GEN-Z Jellybean Product Launch Candy Pop Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/jellybean-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: SYS · AUTONOMOUS AXIOM ROBOTICS 3.4M PICKS/DAY −61% COST Axiom Robotics Series B Pitch Aerospace HUD Open deck
+      →
+    url: https://presentation-skill-pack.vercel.app/examples/axiom-robotics.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: 9 Est. MMXII · Maison Atelier No. 9 A house built on craft. Atelier No. 9 Brand Story Heritage Editorial Open deck
+      →
+    url: https://presentation-skill-pack.vercel.app/examples/atelier-brand.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Ledgerline Embedded payments, settled in 90 seconds. 0.2%+$0.10 per transaction $3.1B moved / yr Ledgerline Sales
+      Deck Fintech Clean Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/ledgerline-sales.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: forge — ci Forge . $ forge build --cache=remote → 9× faster · 96% cache hit ✓ done in 4.2s Forge Product Demo Developer
+      Dark Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/forge-demo.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Benchmark Report · 2026 State of Activation 847 companies Signalbox Industry Report Data Editorial Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/signalbox-report.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: PRIMARY DESIGN CONFERENCE 2026 Primary Design Keynote Bauhaus Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/primary-keynote.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: BubbleFlow Real-time collab · Now live BubbleFlow Product Launch Y2K Aero Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/bubbleflow-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: INK WELL SEED ROUND · 2026 Write independently. Own your audience. Inkwell Seed Pitch Risograph Zine Open deck
+      →
+    url: https://presentation-skill-pack.vercel.app/examples/inkwell-pitch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: NEON DISTRICT STREAMING · LIVE 2.4M CREATORS 98ms LATENCY Neon District Platform Launch Neon Noir Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/neondistrict-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Homewares · Wholesale Hygge Slow living. Warm spaces. Hygge Brand Story Scandinavian Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/hygge-brand.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: Meridian Club PRIVATE FUND · MMXXVI Meridian Club Investor Prospectus Art Deco Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/meridianclub-investor.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: MALL SOFT ✦ MUSIC DISCOVERY ✦ Mallsoft Product Launch Vaporwave Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/mallsoft-launch.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: 'The Daily Ledger VOL. MMXXVI MEDIA KIT PRICE: FREE Readership 420,000 unique monthly readers Reach 12 sections
+      Est. 1924 Print + Digital The Daily Ledger Media Kit Broadsheet Open '
+    url: https://presentation-skill-pack.vercel.app/examples/dailyledger-mediakit.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: CloudPeak . STARTER $29 PRO ★ $79 TEAM $199 CloudPeak Pricing Deck Glassmorphism Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/cloudpeak-pricing.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: YOUR 2026 WRAP PED. 847 WORKOUTS Pulse Year in Review Kinetic Wrapped Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/pulse-wrapped.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: ✦ Impact Report · 2026 Verdant 14.2K tonnes CO₂ 98% Recycled Verdant Impact Report Botanical Luxe Open deck →
+    url: https://presentation-skill-pack.vercel.app/examples/verdant-impact.html
+    source: https://presentation-skill-pack.vercel.app/
+  - kind: example
+    title: 'DWG No. APX-2026 · SHT 1/9 APSIS ORBITAL PAYLOAD: 320 kg LEO COST/KG: $890 USD APSIS LAUNCH SYS. Apsis Mission
+      Brief Blueprint Open deck →'
+    url: https://presentation-skill-pack.vercel.app/examples/apsis-mission.html
+    source: https://presentation-skill-pack.vercel.app/
+  source_headings:
+  - presentation-skill-pack
+  - Why this vs. Gamma / Slidev / Marp
+  - Deck JSON example
+  - Export to PowerPoint, Keynote & Google Slides
+- name: many-ppt-skills
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/brycewang-stanford/many-ppt-skills
+  dependencies:
+  - 外部检索/数据源
+  catalog_note: Bilingual, data-backed index and route guide comparing 26 AI slide-deck skills across HTML-native and native-PPTX
+    workflows, with reproducible counts and principles for choosing deck generation approaches.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: many-ppt-skills
+    bytes: 18629
+  official_examples:
+  - kind: template
+    title: Beautiful HTML Templates
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: template
+    title: PPTX from Layouts
+    url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: paper
+    title: corpora
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/corpus/
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: paper
+    title: seven-dimension rubric
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/rubric.md
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: paper
+    title: Harness, corpus and rubric
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/research-notes-2026-07.md`'
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/docs/research-notes-2026-07.md
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  official_links:
+  - kind: template
+    title: Beautiful HTML Templates
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: template
+    title: PPTX from Layouts
+    url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: paper
+    title: corpora
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/corpus/
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: paper
+    title: seven-dimension rubric
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/rubric.md
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: paper
+    title: Harness, corpus and rubric
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/research-notes-2026-07.md`'
+    url: https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/docs/research-notes-2026-07.md
+    source: https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md
+  source_headings:
+  - The benchmark — parked
+- name: Power BI Skills for Claude Code
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/lukasreese/powerbi-claude-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skills for gathering Power BI requirements and building PBIR report pages, visuals, and IBCS variance
+    charts directly in PBIP projects without hand-authoring JSON or DAX.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lukasreese/powerbi-claude-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lukasreese/powerbi-claude-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Power BI Skills for Claude Code
+    bytes: 1867
+- name: PPTX Generator MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/dmytro-ustynov/pptx-generator-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Node-based MCP server that converts Markdown lessons, documentation, code blocks, tables, bullet lists, and
+    branded content into professional PowerPoint presentations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dmytro-ustynov/pptx-generator-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dmytro-ustynov/pptx-generator-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PPTX Generator MCP Server
+    bytes: 10837
+  source_headings:
+  - 🎯 Usage
+  - Slide Types
+  - '[content] Slide Title'
+  - 📚 Examples
+  - Simple Presentation
+- name: Draw.io MCP Server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/lgazo/drawio-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server and hosted Draw.io editor that lets AI agents create, inspect, update, import, and export diagrams,
+    including Mermaid expansion, multi-page documents, stencils, XML, SVG, and PNG outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Draw.io MCP server
+    bytes: 9796
+  official_examples:
+  - kind: example
+    title: Prompt examples
+    url: https://github.com/lgazo/drawio-mcp-server/blob/HEAD/docs/examples/index.md
+    source: https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Tools Reference
+    url: https://github.com/lgazo/drawio-mcp-server/blob/HEAD/TOOLS.md
+    source: https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Tools Reference
+    url: https://github.com/lgazo/drawio-mcp-server/blob/HEAD/TOOLS.md
+    source: https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md
+  - kind: example
+    title: Prompt examples
+    url: https://github.com/lgazo/drawio-mcp-server/blob/HEAD/docs/examples/index.md
+    source: https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md
+  source_headings:
+  - 3. Start diagramming
+- name: Carbone MCP Server
+  category: research-report
+  surface: mcp
+  primary_url: https://github.com/carboneio/carbone-mcp
+  homepage: https://carbone.io/documentation/developer/ai/mcp.html
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  - 外部检索/数据源
+  catalog_note: Official Carbone MCP server for generating templated reports and business documents from JSON data, converting
+    Office/HTML/PDF formats, batch-producing PDFs, and managing reusable document templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Carbone MCP Server
+    bytes: 18838
+  - kind: homepage
+    url: https://carbone.io/documentation/developer/ai/mcp.html
+    final_url: https://carbone.io/documentation/developer/ai/mcp.html
+    status: 200
+    content_type: text/html
+    title: MCP and AI Integration - Connect AI Assistants to Carbone via MCP
+    description: Official MCP server for Carbone. Enable AI assistants like Claude Desktop, Cursor, and VS Code to generate
+      documents, convert formats, and manage templates through natural language
+    bytes: 72709
+  official_examples:
+  - kind: template
+    title: →
+    url: https://carbone.io/documentation/developer/http-api/manage-templates.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: Template syntax
+    url: https://carbone.io/documentation/developer/introduction.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: HTML templates guide
+    url: https://carbone.io/documentation/design/template-formats/html.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: Markdown templates guide
+    url: https://carbone.io/documentation/design/template-formats/markdown.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: Features
+    url: https://carbone.io/features/universal-template.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Template Studio Speed up your design process with our studio
+    url: https://carbone.io/features/carbone-studio.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: AI document generation Design templates & generate docs with AI
+    url: https://carbone.io/features/ai-document-generation.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Document Generation API Generate PDF, Word & Excel from JSON + templates
+    url: https://carbone.io/features/document-generation-api.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Design Learn how to make Carbone templates
+    url: https://carbone.io/documentation/design/overview/getting-started.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: example
+    title: Examples Explore templates and document examples
+    url: https://carbone.io/examples/
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Template Management
+    url: https://carbone.io/documentation/developer/on-premise-installation/template-management.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  official_docs:
+  - kind: docs
+    title: →
+    url: https://carbone.io/documentation/developer/http-api/convert-reports.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: →
+    url: https://carbone.io/documentation/developer/http-api/generate-reports.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: Full API Reference →
+    url: https://github.com/carboneio/carbone-mcp/blob/HEAD/docs/API.md
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: Carbone Skill
+    url: https://carbone.io/documentation/developer/ai/skills.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.io/documentation/developer/ai/mcp.html
+    url: https://carbone.io/documentation/developer/ai/mcp.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.io/documentation/developer/http-api/introduction.html
+    url: https://carbone.io/documentation/developer/http-api/introduction.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.io/documentation/design/overview/getting-started.html
+    url: https://carbone.io/documentation/design/overview/getting-started.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.OpenAPI.yml
+    url: https://carbone.io/file/carbone.OpenAPI.yml
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: Document Conversion API Convert documents to PDF and 100+ formats
+    url: https://carbone.io/features/document-converter.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Documentation
+    url: https://carbone.io/documentation/quickstart/getting-started/generate-a-document.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Download reports
+    url: https://carbone.io/documentation/developer/http-api/download-reports.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: NodeJS
+    url: https://carbone.io/documentation/developer/api-sdks/nodejs.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Javascript
+    url: https://carbone.io/documentation/developer/api-sdks/javascript.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Go
+    url: https://carbone.io/documentation/developer/api-sdks/go.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: PHP
+    url: https://carbone.io/documentation/developer/api-sdks/php.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Python
+    url: https://carbone.io/documentation/developer/api-sdks/python.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Rust
+    url: https://carbone.io/documentation/developer/api-sdks/rust.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Java
+    url: https://carbone.io/documentation/developer/api-sdks/java.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Introduction
+    url: https://carbone.io/documentation/developer/on-premise-installation/introduction.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Requirements
+    url: https://carbone.io/documentation/developer/on-premise-installation/requirements.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  official_effect_assets:
+  - kind: image
+    title: MCP and AI Integration - Connect AI Assistants to Carbone via MCP
+    url: https://carbone.io/img/features/ai/automate-at-scale.webp
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  official_links:
+  - kind: docs
+    title: →
+    url: https://carbone.io/documentation/developer/http-api/convert-reports.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: →
+    url: https://carbone.io/documentation/developer/http-api/generate-reports.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: →
+    url: https://carbone.io/documentation/developer/http-api/manage-templates.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: Full API Reference →
+    url: https://github.com/carboneio/carbone-mcp/blob/HEAD/docs/API.md
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: Carbone Skill
+    url: https://carbone.io/documentation/developer/ai/skills.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: Template syntax
+    url: https://carbone.io/documentation/developer/introduction.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: HTML templates guide
+    url: https://carbone.io/documentation/design/template-formats/html.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: Markdown templates guide
+    url: https://carbone.io/documentation/design/template-formats/markdown.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.io/documentation/developer/ai/mcp.html
+    url: https://carbone.io/documentation/developer/ai/mcp.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.io/documentation/developer/http-api/introduction.html
+    url: https://carbone.io/documentation/developer/http-api/introduction.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.io/documentation/design/overview/getting-started.html
+    url: https://carbone.io/documentation/design/overview/getting-started.html
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: docs
+    title: carbone.OpenAPI.yml
+    url: https://carbone.io/file/carbone.OpenAPI.yml
+    source: https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md
+  - kind: template
+    title: Features
+    url: https://carbone.io/features/universal-template.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Template Studio Speed up your design process with our studio
+    url: https://carbone.io/features/carbone-studio.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: AI document generation Design templates & generate docs with AI
+    url: https://carbone.io/features/ai-document-generation.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Document Generation API Generate PDF, Word & Excel from JSON + templates
+    url: https://carbone.io/features/document-generation-api.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Document Conversion API Convert documents to PDF and 100+ formats
+    url: https://carbone.io/features/document-converter.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Documentation
+    url: https://carbone.io/documentation/quickstart/getting-started/generate-a-document.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Design Learn how to make Carbone templates
+    url: https://carbone.io/documentation/design/overview/getting-started.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: example
+    title: Examples Explore templates and document examples
+    url: https://carbone.io/examples/
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Download reports
+    url: https://carbone.io/documentation/developer/http-api/download-reports.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: NodeJS
+    url: https://carbone.io/documentation/developer/api-sdks/nodejs.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Javascript
+    url: https://carbone.io/documentation/developer/api-sdks/javascript.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Go
+    url: https://carbone.io/documentation/developer/api-sdks/go.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: PHP
+    url: https://carbone.io/documentation/developer/api-sdks/php.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Python
+    url: https://carbone.io/documentation/developer/api-sdks/python.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Rust
+    url: https://carbone.io/documentation/developer/api-sdks/rust.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Java
+    url: https://carbone.io/documentation/developer/api-sdks/java.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Introduction
+    url: https://carbone.io/documentation/developer/on-premise-installation/introduction.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Requirements
+    url: https://carbone.io/documentation/developer/on-premise-installation/requirements.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Configuration
+    url: https://carbone.io/documentation/developer/on-premise-installation/configuration.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Install on Linux
+    url: https://carbone.io/documentation/developer/on-premise-installation/install-on-linux.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Install on MacOS
+    url: https://carbone.io/documentation/developer/on-premise-installation/install-on-macos.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Upgrade Guide
+    url: https://carbone.io/documentation/developer/on-premise-installation/upgrade-guide.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Plugins
+    url: https://carbone.io/documentation/developer/on-premise-installation/plugins.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Container customization
+    url: https://carbone.io/documentation/developer/on-premise-installation/container-customization.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: template
+    title: Template Management
+    url: https://carbone.io/documentation/developer/on-premise-installation/template-management.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: HA and Scaling
+    url: https://carbone.io/documentation/developer/on-premise-installation/ha-and-scaling.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Metrics
+    url: https://carbone.io/documentation/developer/on-premise-installation/metrics.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  - kind: docs
+    title: Deploy with Docker
+    url: https://carbone.io/documentation/developer/self-hosted-deployment/deploy-with-docker.html
+    source: https://carbone.io/documentation/developer/ai/mcp.html
+  source_headings:
+  - Template Management
+  - 📚 Template Management
+  - Template Syntax
+- name: AIOffice
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/onecer/AIOffice
+  homepage: https://www.npmjs.com/package/aioffice
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local single-binary CLI and MCP engine for creating, querying, editing, rendering, previewing, validating,
+    and converting real DOCX, XLSX, and PPTX files without Microsoft Office.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AIOffice
+    bytes: 100258
+  - kind: homepage
+    url: https://www.npmjs.com/package/aioffice
+    final_url: https://www.npmjs.com/package/aioffice
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: showcase
+    title: SHOWCASE.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/SHOWCASE.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: example
+    title: '`examples/tour.sh`'
+    url: https://github.com/onecer/AIOffice/blob/HEAD/examples/tour.sh
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/INSTALL.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/INSTALL.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/SIGNING.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/SIGNING.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/MCP-SETUP.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/MCP-SETUP.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/COOKBOOK.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/COOKBOOK.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/PARITY.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/PARITY.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/DESIGN.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/DESIGN.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/MCP.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/MCP.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: deck.pptx — a dark pitch deck with a native chart
+    url: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/showcase/deck-1.png
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: image
+    title: dashboard.xlsx — a regional revenue dashboard
+    url: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/showcase/dashboard.png
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: image
+    title: report.docx — a typeset capability report
+    url: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/showcase/report.png
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: image
+    title: The quadratic formula, rendered from LaTeX through real Office Math
+    url: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/demo/equation-quadratic.png
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: SHOWCASE.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/SHOWCASE.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: example
+    title: '`examples/tour.sh`'
+    url: https://github.com/onecer/AIOffice/blob/HEAD/examples/tour.sh
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/INSTALL.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/INSTALL.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/SIGNING.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/SIGNING.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/MCP-SETUP.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/MCP-SETUP.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/COOKBOOK.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/COOKBOOK.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/PARITY.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/PARITY.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/DESIGN.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/DESIGN.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  - kind: docs
+    title: docs/MCP.md
+    url: https://github.com/onecer/AIOffice/blob/HEAD/docs/MCP.md
+    source: https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md
+  source_headings:
+  - '---- deck.pptx — 3 slides, dark background + accent shapes ----'
+  - '---- look → fix: the slide-2 card labels overflowed their cards ----'
+  - → target "/slide[1]/shape[@id=5]/omath[1]"
+  - docx → pptx — a slide per heading, its bullets as the slide body, tables as native pptx tables
+  - Docs
+- name: Architecture Discovery MCP
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/rdtan/architecture-discovery-mcp
+  homepage: https://pypi.org/project/architecture-discovery-mcp/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local MCP server that statically scans Java/Maven projects and generates TOGAF application architecture inventories,
+    Excel workbooks, and PPTX architecture and integration diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rdtan/architecture-discovery-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rdtan/architecture-discovery-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Architecture Discovery Engine
+    bytes: 3791
+  - kind: homepage
+    url: https://pypi.org/project/architecture-discovery-mcp/
+    final_url: https://pypi.org/project/architecture-discovery-mcp/
+    status: 200
+    content_type: text/html
+    title: architecture-discovery-mcp · PyPI
+    description: Auto-discover enterprise architecture artifacts from Java source code
+    bytes: 69886
+  official_examples: []
+  official_docs: []
+  official_links: []
+  source_headings:
+  - Usage
+- name: DeepSeek-PPT-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/lecutu/DeepSeek-PPT-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-native PPTX skill built around a constraint-solving loop where LLMs declare slide intent, receive structured
+    layout diagnostics, and iterate until the PowerPoint file passes visual correctness checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lecutu/DeepSeek-PPT-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lecutu/DeepSeek-PPT-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ppt_reflex — Blind-Proof PowerPoint. No Vision Needed.
+    bytes: 22483
+  source_headings:
+  - Template Intelligence — Semantic Contract, Not Just Colors

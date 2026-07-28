@@ -1,114 +1,114 @@
 {
-  "generatedAt": "2026-07-27T23:06:45+00:00",
-  "lastResearched": "2026-07-28",
+  "generatedAt": "2026-07-28T23:04:43+00:00",
+  "lastResearched": "2026-07-29",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 372,
+    "total": 381,
     "openSource": 102,
-    "saas": 48,
-    "modelApi": 132,
-    "examples": 1014,
-    "effectAssets": 1261,
-    "docs": 1118
+    "saas": 49,
+    "modelApi": 135,
+    "examples": 1053,
+    "effectAssets": 1268,
+    "docs": 1148
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 46,
-      "PDF/文档": 128,
-      "文本/想法": 228,
-      "数据/表格": 132,
-      "代码/技术描述": 66,
-      "网页/搜索结果": 113,
-      "代码库": 40,
-      "DSL/代码": 65,
+      "PDF/文档": 130,
+      "文本/想法": 235,
+      "数据/表格": 135,
+      "代码/技术描述": 67,
+      "网页/搜索结果": 114,
+      "代码库": 41,
+      "DSL/代码": 69,
       "新闻/资讯": 15,
       "知识库/个人资料": 29,
-      "任意/多源": 54,
-      "Office 文档": 46,
+      "任意/多源": 55,
+      "Office 文档": 48,
       "引用网络": 4,
-      "数据库": 26,
+      "数据库": 27,
       "视频/音频": 1
     },
     "toolForms": {
       "开源应用/框架": 102,
-      "Agent Skill": 121,
-      "Skill 集合": 32,
+      "Agent Skill": 123,
+      "Skill 集合": 33,
       "数据集/评测": 2,
       "Bot/助手": 11,
-      "产品/SaaS": 48,
-      "MCP Server": 95,
+      "产品/SaaS": 49,
+      "MCP Server": 101,
       "研究原型": 4,
-      "API/SDK/库": 37,
-      "Awesome/索引": 20
+      "API/SDK/库": 40,
+      "Awesome/索引": 21
     },
     "outputForms": {
       "图形摘要/信息图": 27,
-      "PPT/演示文稿": 164,
-      "网页/交互页面": 103,
+      "PPT/演示文稿": 170,
+      "网页/交互页面": 104,
       "问答/学习材料": 14,
-      "报告/长文档": 46,
-      "证据表": 17,
+      "报告/长文档": 49,
+      "证据表": 19,
       "信息图/视觉报告": 55,
-      "图表/仪表盘": 94,
-      "架构图/流程图": 80,
-      "SVG/PNG/PDF": 122,
+      "图表/仪表盘": 96,
+      "架构图/流程图": 82,
+      "SVG/PNG/PDF": 125,
       "报告/简报": 40,
       "白板/思维导图": 25,
-      "图表/Mermaid": 42,
+      "图表/Mermaid": 43,
       "视频/音频": 31,
-      "表格/时间线": 10,
+      "表格/时间线": 11,
       "引用答案": 4,
       "思维导图/知识地图": 24,
-      "结构化数据/Markdown": 29,
+      "结构化数据/Markdown": 31,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 24,
+      "代码地图/Repo Wiki": 25,
       "图表/渲染输出": 12,
-      "工具索引": 22
+      "工具索引": 23
     },
     "dependencies": {
-      "本地语言环境": 284,
-      "模型 API": 132,
+      "本地语言环境": 291,
+      "模型 API": 135,
       "文档解析/OCR": 62,
-      "渲染/导出": 291,
+      "渲染/导出": 299,
       "GPU/加速器": 10,
-      "模板/素材": 165,
-      "Agent 宿主": 160,
-      "系统工具": 64,
-      "浏览器/账号": 103,
+      "模板/素材": 173,
+      "Agent 宿主": 163,
+      "系统工具": 65,
+      "浏览器/账号": 104,
       "存储/索引": 46,
-      "外部检索/数据源": 70,
-      "MCP Client": 98,
-      "代码分析工具": 28
+      "外部检索/数据源": 73,
+      "MCP Client": 104,
+      "代码分析工具": 29
     },
     "categories": {
       "paper-visualization": 13,
       "doc-to-knowledge": 35,
-      "research-report": 18,
+      "research-report": 19,
       "infographic-report": 32,
-      "data-dashboard": 42,
-      "diagram-generation": 46,
+      "data-dashboard": 43,
+      "diagram-generation": 47,
       "literature-map": 4,
-      "presentation-tools": 109,
-      "codebase-map": 22,
+      "presentation-tools": 113,
+      "codebase-map": 23,
       "rendering-primitive": 8,
       "video-generation": 10,
       "commercial-site": 10,
-      "meta-index": 23
+      "meta-index": 24
     },
     "groups": {
       "paper": 25,
       "text_visual": 45,
       "web_news": 8,
       "support_mindmap": 11,
-      "docs": 19,
+      "docs": 20,
       "support_doc_parse": 9,
-      "presentation": 121,
-      "code": 22,
-      "support_render": 39,
+      "presentation": 125,
+      "code": 23,
+      "support_render": 40,
       "diagrams": 2,
       "video": 10,
-      "data": 37,
-      "indexes": 23,
+      "data": 38,
+      "indexes": 24,
       "diagram": 1
     }
   },
@@ -34029,6 +34029,717 @@
       "effectAssets": [],
       "docsCount": 1,
       "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "presentation-skill-pack",
+      "url": "https://github.com/isatimur/presentation-md",
+      "primaryUrl": "https://github.com/isatimur/presentation-md",
+      "homepage": "https://presentation-skill-pack.vercel.app",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-27",
+      "note": "Agent skill plus MCP server that turns rough notes into schema-validated deck JSON, renders self-contained HTML decks, and exports native editable PowerPoint/Keynote/Google Slides presentations with a gallery and browser studio.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`packages/export/references/pptx-fidelity.md`",
+          "url": "https://github.com/isatimur/presentation-md/blob/HEAD/packages/export/references/pptx-fidelity.md",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "25 showcase decks",
+          "url": "https://presentation-skill-pack.vercel.app/",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "swiirl-deck-benchmark.vercel.app",
+          "url": "https://swiirl-deck-benchmark.vercel.app",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@presentation-skill-pack/create-theme`",
+          "url": "https://github.com/isatimur/presentation-md/blob/HEAD/packages/create-theme",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@presentation-skill-pack/theme-corporate`",
+          "url": "https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/corporate",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@presentation-skill-pack/theme-playful`",
+          "url": "https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/playful",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@presentation-skill-pack/theme-luxury-minimalist`",
+          "url": "https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/luxury-minimalist",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`@presentation-skill-pack/theme-retro-arcade`",
+          "url": "https://github.com/isatimur/presentation-md/blob/HEAD/packages/themes/retro-arcade",
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "NovaSpark AI Series A · $14M 412 Customers 99.97% Uptime −73% Latency NovaSpark AI Pitch Deck Aurora Glass Open deck →",
+          "url": "https://presentation-skill-pack.vercel.app/examples/novaspark-pitch.html",
+          "source": "https://presentation-skill-pack.vercel.app/"
+        },
+        {
+          "kind": "example",
+          "title": "MERIDIAN CONFIDENTIAL Data That Moves the Needle SAVINGS $340K PAYBACK 4.2 mo Meridian Analytics Sales Proposal FT Editorial Open deck →",
+          "url": "https://presentation-skill-pack.vercel.app/examples/meridian-sales.html",
+          "source": "https://presentation-skill-pack.vercel.app/"
+        },
+        {
+          "kind": "example",
+          "title": "Bounce is here. 12,400 USERS NO ADS 87% 30-day retention 4.1× daily opens Bounce Product Launch Gen-Z Bento Open deck →",
+          "url": "https://presentation-skill-pack.vercel.app/examples/bounce-launch.html",
+          "source": "https://presentation-skill-pack.vercel.app/"
+        },
+        {
+          "kind": "example",
+          "title": "SOL STI CE Q2 2026 · LP Update Solstice Capital Net IRR 28.4% TVPI 2.1× Solstice Capital LP Update Ultra-Luxury Open deck →",
+          "url": "https://presentation-skill-pack.vercel.app/examples/solstice-update.html",
+          "source": "https://presentation-skill-pack.vercel.app/"
+        },
+        {
+          "kind": "example",
+          "title": "RETRONET v2.1.0 — STABLE RETRO NET > INITIALIZING... > 2,847 DAILY USERS > 94% FASTER ■ OPEN SOURCE FREE TIER RetroNet Product Demo CRT Terminal Open deck →",
+          "url": "https://presentation-skill-pack.vercel.app/examples/retronet-demo.html",
+          "source": "https://presentation-skill-pack.vercel.app/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Six decks the pack rendered — pitch, brand, pricing, keynote — cycling to show the range",
+          "url": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/docs/hero-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/isatimur/presentation-md/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "presentation-skill-pack — AI slide decks → PowerPoint, Keynote, Google Slides",
+          "url": "https://presentation-skill-pack.vercel.app/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://presentation-skill-pack.vercel.app/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 20,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "many-ppt-skills",
+      "url": "https://github.com/brycewang-stanford/many-ppt-skills",
+      "primaryUrl": "https://github.com/brycewang-stanford/many-ppt-skills",
+      "homepage": null,
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-07-28",
+      "note": "Bilingual, data-backed index and route guide comparing 26 AI slide-deck skills across HTML-native and native-PPTX workflows, with reproducible counts and principles for choosing deck generation approaches.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引",
+        "证据表"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/research-notes-2026-07.md`",
+          "url": "https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/docs/research-notes-2026-07.md",
+          "source": "https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Beautiful HTML Templates",
+          "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+          "source": "https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "PPTX from Layouts",
+          "url": "https://github.com/tristan-mcinnis/pptx-from-layouts-skill",
+          "source": "https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "corpora",
+          "url": "https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/corpus/",
+          "source": "https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "seven-dimension rubric",
+          "url": "https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/rubric.md",
+          "source": "https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Harness, corpus and rubric",
+          "url": "https://github.com/brycewang-stanford/many-ppt-skills/blob/HEAD/benchmark/",
+          "source": "https://raw.githubusercontent.com/brycewang-stanford/many-ppt-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 5,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Power BI Skills for Claude Code",
+      "url": "https://github.com/lukasreese/powerbi-claude-skills",
+      "primaryUrl": "https://github.com/lukasreese/powerbi-claude-skills",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 102,
+      "license": "unknown",
+      "updated": "2026-07-26",
+      "note": "Claude Code skills for gathering Power BI requirements and building PBIR report pages, visuals, and IBCS variance charts directly in PBIP projects without hand-authoring JSON or DAX.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "PPTX Generator MCP Server",
+      "url": "https://github.com/dmytro-ustynov/pptx-generator-mcp",
+      "primaryUrl": "https://github.com/dmytro-ustynov/pptx-generator-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "unknown",
+      "updated": "2026-06-30",
+      "note": "Node-based MCP server that converts Markdown lessons, documentation, code blocks, tables, bullet lists, and branded content into professional PowerPoint presentations.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Draw.io MCP Server",
+      "url": "https://github.com/lgazo/drawio-mcp-server",
+      "primaryUrl": "https://github.com/lgazo/drawio-mcp-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1363,
+      "license": "MIT",
+      "updated": "2026-07-28",
+      "note": "MCP server and hosted Draw.io editor that lets AI agents create, inspect, update, import, and export diagrams, including Mermaid expansion, multi-page documents, stencils, XML, SVG, and PNG outputs.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Tools Reference",
+          "url": "https://github.com/lgazo/drawio-mcp-server/blob/HEAD/TOOLS.md",
+          "source": "https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Prompt examples",
+          "url": "https://github.com/lgazo/drawio-mcp-server/blob/HEAD/docs/examples/index.md",
+          "source": "https://raw.githubusercontent.com/lgazo/drawio-mcp-server/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Carbone MCP Server",
+      "url": "https://github.com/carboneio/carbone-mcp",
+      "primaryUrl": "https://github.com/carboneio/carbone-mcp",
+      "homepage": "https://carbone.io/documentation/developer/ai/mcp.html",
+      "category": "research-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材",
+        "外部检索/数据源"
+      ],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updated": "2026-07-28",
+      "note": "Official Carbone MCP server for generating templated reports and business documents from JSON data, converting Office/HTML/PDF formats, batch-producing PDFs, and managing reusable document templates.",
+      "sourceTypes": [
+        "数据/表格",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "→",
+          "url": "https://carbone.io/documentation/developer/http-api/convert-reports.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "→",
+          "url": "https://carbone.io/documentation/developer/http-api/generate-reports.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Full API Reference →",
+          "url": "https://github.com/carboneio/carbone-mcp/blob/HEAD/docs/API.md",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Carbone Skill",
+          "url": "https://carbone.io/documentation/developer/ai/skills.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "carbone.io/documentation/developer/ai/mcp.html",
+          "url": "https://carbone.io/documentation/developer/ai/mcp.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "carbone.io/documentation/developer/http-api/introduction.html",
+          "url": "https://carbone.io/documentation/developer/http-api/introduction.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "carbone.io/documentation/design/overview/getting-started.html",
+          "url": "https://carbone.io/documentation/design/overview/getting-started.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "carbone.OpenAPI.yml",
+          "url": "https://carbone.io/file/carbone.OpenAPI.yml",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "→",
+          "url": "https://carbone.io/documentation/developer/http-api/manage-templates.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Template syntax",
+          "url": "https://carbone.io/documentation/developer/introduction.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "HTML templates guide",
+          "url": "https://carbone.io/documentation/design/template-formats/html.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Markdown templates guide",
+          "url": "https://carbone.io/documentation/design/template-formats/markdown.html",
+          "source": "https://raw.githubusercontent.com/carboneio/carbone-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Features",
+          "url": "https://carbone.io/features/universal-template.html",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        },
+        {
+          "kind": "template",
+          "title": "Template Studio Speed up your design process with our studio",
+          "url": "https://carbone.io/features/carbone-studio.html",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        },
+        {
+          "kind": "template",
+          "title": "AI document generation Design templates & generate docs with AI",
+          "url": "https://carbone.io/features/ai-document-generation.html",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        },
+        {
+          "kind": "template",
+          "title": "Document Generation API Generate PDF, Word & Excel from JSON + templates",
+          "url": "https://carbone.io/features/document-generation-api.html",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        },
+        {
+          "kind": "template",
+          "title": "Design Learn how to make Carbone templates",
+          "url": "https://carbone.io/documentation/design/overview/getting-started.html",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        },
+        {
+          "kind": "example",
+          "title": "Examples Explore templates and document examples",
+          "url": "https://carbone.io/examples/",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        },
+        {
+          "kind": "template",
+          "title": "Template Management",
+          "url": "https://carbone.io/documentation/developer/on-premise-installation/template-management.html",
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "MCP and AI Integration - Connect AI Assistants to Carbone via MCP",
+          "url": "https://carbone.io/img/features/ai/automate-at-scale.webp",
+          "thumbnailUrl": null,
+          "source": "https://carbone.io/documentation/developer/ai/mcp.html"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 11,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "AIOffice",
+      "url": "https://github.com/onecer/AIOffice",
+      "primaryUrl": "https://github.com/onecer/AIOffice",
+      "homepage": "https://www.npmjs.com/package/aioffice",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Local single-binary CLI and MCP engine for creating, querying, editing, rendering, previewing, validating, and converting real DOCX, XLSX, and PPTX files without Microsoft Office.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/INSTALL.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/INSTALL.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/SIGNING.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/SIGNING.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/MCP-SETUP.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/MCP-SETUP.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/COOKBOOK.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/COOKBOOK.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/PARITY.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/PARITY.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/DESIGN.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/DESIGN.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/MCP.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/docs/MCP.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "SHOWCASE.md",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/SHOWCASE.md",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/tour.sh`",
+          "url": "https://github.com/onecer/AIOffice/blob/HEAD/examples/tour.sh",
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "deck.pptx — a dark pitch deck with a native chart",
+          "url": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/showcase/deck-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "dashboard.xlsx — a regional revenue dashboard",
+          "url": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/showcase/dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "report.docx — a typeset capability report",
+          "url": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/showcase/report.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The quadratic formula, rendered from LaTeX through real Office Math",
+          "url": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/assets/demo/equation-quadratic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/onecer/AIOffice/HEAD/README.md"
+        }
+      ],
+      "docsCount": 7,
+      "examplesCount": 2,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Architecture Discovery MCP",
+      "url": "https://github.com/rdtan/architecture-discovery-mcp",
+      "primaryUrl": "https://github.com/rdtan/architecture-discovery-mcp",
+      "homepage": "https://pypi.org/project/architecture-discovery-mcp/",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-07-22",
+      "note": "Local MCP server that statically scans Java/Maven projects and generates TOGAF application architecture inventories, Excel workbooks, and PPTX architecture and integration diagrams.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "PPT/演示文稿",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DeepSeek-PPT-skill",
+      "url": "https://github.com/lecutu/DeepSeek-PPT-skill",
+      "primaryUrl": "https://github.com/lecutu/DeepSeek-PPT-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-28",
+      "note": "AI-native PPTX skill built around a constraint-solving loop where LLMs declare slide intent, receive structured layout diagnostics, and iterate until the PowerPoint file passes visual correctness checks.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     }
   ]
