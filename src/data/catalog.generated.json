@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-07-28T23:04:43+00:00",
-  "lastResearched": "2026-07-29",
+  "generatedAt": "2026-07-29T23:14:02+00:00",
+  "lastResearched": "2026-07-30",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 381,
-    "openSource": 102,
-    "saas": 49,
-    "modelApi": 135,
+    "total": 390,
+    "openSource": 105,
+    "saas": 50,
+    "modelApi": 139,
     "examples": 1053,
-    "effectAssets": 1268,
-    "docs": 1148
+    "effectAssets": 1292,
+    "docs": 1152
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 46,
-      "PDF/文档": 130,
-      "文本/想法": 235,
-      "数据/表格": 135,
-      "代码/技术描述": 67,
-      "网页/搜索结果": 114,
-      "代码库": 41,
-      "DSL/代码": 69,
+      "PDF/文档": 132,
+      "文本/想法": 242,
+      "数据/表格": 139,
+      "代码/技术描述": 70,
+      "网页/搜索结果": 116,
+      "代码库": 42,
+      "DSL/代码": 71,
       "新闻/资讯": 15,
-      "知识库/个人资料": 29,
+      "知识库/个人资料": 31,
       "任意/多源": 55,
-      "Office 文档": 48,
+      "Office 文档": 50,
       "引用网络": 4,
       "数据库": 27,
       "视频/音频": 1
     },
     "toolForms": {
-      "开源应用/框架": 102,
-      "Agent Skill": 123,
+      "开源应用/框架": 105,
+      "Agent Skill": 128,
       "Skill 集合": 33,
       "数据集/评测": 2,
       "Bot/助手": 11,
-      "产品/SaaS": 49,
-      "MCP Server": 101,
+      "产品/SaaS": 50,
+      "MCP Server": 102,
       "研究原型": 4,
-      "API/SDK/库": 40,
+      "API/SDK/库": 41,
       "Awesome/索引": 21
     },
     "outputForms": {
       "图形摘要/信息图": 27,
-      "PPT/演示文稿": 170,
-      "网页/交互页面": 104,
+      "PPT/演示文稿": 172,
+      "网页/交互页面": 110,
       "问答/学习材料": 14,
-      "报告/长文档": 49,
+      "报告/长文档": 50,
       "证据表": 19,
       "信息图/视觉报告": 55,
-      "图表/仪表盘": 96,
-      "架构图/流程图": 82,
-      "SVG/PNG/PDF": 125,
+      "图表/仪表盘": 100,
+      "架构图/流程图": 85,
+      "SVG/PNG/PDF": 130,
       "报告/简报": 40,
-      "白板/思维导图": 25,
-      "图表/Mermaid": 43,
+      "白板/思维导图": 26,
+      "图表/Mermaid": 46,
       "视频/音频": 31,
       "表格/时间线": 11,
       "引用答案": 4,
-      "思维导图/知识地图": 24,
-      "结构化数据/Markdown": 31,
+      "思维导图/知识地图": 26,
+      "结构化数据/Markdown": 33,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 25,
       "图表/渲染输出": 12,
       "工具索引": 23
     },
     "dependencies": {
-      "本地语言环境": 291,
-      "模型 API": 135,
-      "文档解析/OCR": 62,
-      "渲染/导出": 299,
+      "本地语言环境": 300,
+      "模型 API": 139,
+      "文档解析/OCR": 63,
+      "渲染/导出": 308,
       "GPU/加速器": 10,
-      "模板/素材": 173,
-      "Agent 宿主": 163,
-      "系统工具": 65,
-      "浏览器/账号": 104,
-      "存储/索引": 46,
-      "外部检索/数据源": 73,
-      "MCP Client": 104,
+      "模板/素材": 178,
+      "Agent 宿主": 168,
+      "系统工具": 66,
+      "浏览器/账号": 107,
+      "存储/索引": 49,
+      "外部检索/数据源": 74,
+      "MCP Client": 105,
       "代码分析工具": 29
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 35,
-      "research-report": 19,
+      "doc-to-knowledge": 37,
+      "research-report": 20,
       "infographic-report": 32,
-      "data-dashboard": 43,
-      "diagram-generation": 47,
+      "data-dashboard": 45,
+      "diagram-generation": 50,
       "literature-map": 4,
-      "presentation-tools": 113,
+      "presentation-tools": 114,
       "codebase-map": 23,
       "rendering-primitive": 8,
       "video-generation": 10,
@@ -99,15 +99,15 @@
       "paper": 25,
       "text_visual": 45,
       "web_news": 8,
-      "support_mindmap": 11,
-      "docs": 20,
+      "support_mindmap": 13,
+      "docs": 21,
       "support_doc_parse": 9,
-      "presentation": 125,
+      "presentation": 126,
       "code": 23,
-      "support_render": 40,
+      "support_render": 43,
       "diagrams": 2,
       "video": 10,
-      "data": 38,
+      "data": 40,
       "indexes": 24,
       "diagram": 1
     }
@@ -11675,6 +11675,47 @@
       "effectAssets": [],
       "docsCount": 8,
       "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Slides MCP Server",
+      "url": "https://github.com/zavora-ai/mcp_slides",
+      "primaryUrl": "https://github.com/zavora-ai/mcp_slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-07-26",
+      "note": "Rust MCP server for end-to-end PowerPoint deck authoring with 71 tools covering slides, text runs, shapes, connectors, tables, images, charts, themes, layouts, speaker notes, hyperlinks, SVG/PNG rendering, PDF export, contrast checks, and design linting.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -24895,6 +24936,89 @@
       "effectAssetsCount": 4
     },
     {
+      "name": "DashGen",
+      "url": "https://github.com/4mohdisa/DashGen",
+      "primaryUrl": "https://github.com/4mohdisa/DashGen",
+      "homepage": "https://dashgen.isaxcode.com",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-06-22",
+      "note": "Next.js AI dashboard generator that accepts CSV, JSON, or Excel uploads plus a natural-language dashboard brief, then produces interactive React dashboards with charts, KPI cards, live code preview, export, and deployment paths.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AI Dashboard Generator",
+      "url": "https://github.com/Leniolabs/ai-data-dashboard",
+      "primaryUrl": "https://github.com/Leniolabs/ai-data-dashboard",
+      "homepage": "https://labs.leniolabs.com/data-dashboard/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 121,
+      "license": "MIT",
+      "updated": "2026-06-29",
+      "note": "Open-source Next.js and GPT-powered dashboard generator that ingests existing CSV tables or datasets, infers visualization intent, and creates simple business data visualizations from the uploaded data.",
+      "sourceTypes": [
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AI Data Dashboard",
+          "url": "https://labs.leniolabs.com/data-dashboard/meta.png",
+          "thumbnailUrl": null,
+          "source": "https://labs.leniolabs.com/data-dashboard/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "mcp-grafana",
       "url": "https://github.com/grafana/mcp-grafana",
       "primaryUrl": "https://github.com/grafana/mcp-grafana",
@@ -34032,6 +34156,99 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "Mind Map Generator Skill",
+      "url": "https://github.com/0x-man/mindmap-skill",
+      "primaryUrl": "https://github.com/0x-man/mindmap-skill",
+      "homepage": "https://0x-man.github.io/mindmap-skill/",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 9,
+      "license": "unknown",
+      "updated": "2026-07-28",
+      "note": "Claude skill that turns text, documents, conversations, topics, brainstorms, and ideas into interactive mind maps with source links, gap nodes, adaptive layouts, Knowledge Atlas linking, and SVG, PNG, PDF, Markdown, Mermaid, or embeddable HTML export.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "图表/Mermaid"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "LLMapper Skill",
+      "url": "https://github.com/jorgearango/llmapper-skill",
+      "primaryUrl": "https://github.com/jorgearango/llmapper-skill",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 17,
+      "license": "Apache-2.0",
+      "updated": "2026-07-18",
+      "note": "Claude Skill version of LLMapper that converts PDFs, text files, URLs, or pasted articles into concept maps through a summarize-to-RDF knowledge graph pipeline, rendering Mermaid diagrams inline or Cytoscape HTML for reuse.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "文本/想法",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "图表/Mermaid",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "LLMapper Sample Concept Map",
+          "url": "https://raw.githubusercontent.com/jorgearango/llmapper-skill/HEAD/llmapper-sample.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jorgearango/llmapper-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "presentation-skill-pack",
       "url": "https://github.com/isatimur/presentation-md",
       "primaryUrl": "https://github.com/isatimur/presentation-md",
@@ -34372,6 +34589,231 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "Architecture Diagram Generator",
+      "url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+      "primaryUrl": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 6745,
+      "license": "MIT",
+      "updated": "2026-07-29",
+      "note": "Claude skill that turns system descriptions into standalone dark-themed HTML architecture diagrams with embedded SVG and built-in copy, PNG, and PDF export controls.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Web App Architecture",
+          "url": "https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/examples/images/web-app.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AWS Serverless Architecture",
+          "url": "https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/examples/images/aws-serverless.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Microservices Architecture",
+          "url": "https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/examples/images/microservices.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "FlowForge",
+      "url": "https://github.com/wentong2022-arch/flowforge-skill",
+      "primaryUrl": "https://github.com/wentong2022-arch/flowforge-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 133,
+      "license": "MIT",
+      "updated": "2026-07-14",
+      "note": "Claude Code skill that turns natural-language briefs into editable draw.io XML diagrams with deterministic layouts for flowcharts, architecture diagrams, comparisons, timelines, trees, funnels, matrices, and sequence-style diagrams.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "LLM Full-Stack Architecture — generated by FlowForge",
+          "url": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/05-llm-full-stack-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Economic Data Platform Architecture",
+          "url": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/03-platform-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PPO vs DPO vs GRPO",
+          "url": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/04-ppo-dpo-grpo-comparison.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Database Selection Decision Tree",
+          "url": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/07-storage-decision-tree-mint.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Agent Capabilities Hub",
+          "url": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/08-agent-capabilities-hub-indigo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "LLM Evolution Timeline",
+          "url": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/09-llm-history-timeline-terracotta.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "Dashmotion",
+      "url": "https://github.com/csthink/dashmotion",
+      "primaryUrl": "https://github.com/csthink/dashmotion",
+      "homepage": "https://csthink.github.io/dashmotion/",
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 147,
+      "license": "MIT",
+      "updated": "2026-07-27",
+      "note": "Claude skill that converts plain English or Mermaid source into dependency-free animated technical diagrams as self-contained HTML/SVG files with streaming connector motion.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/how-it-works.md",
+          "url": "https://github.com/csthink/dashmotion/blob/main/docs/how-it-works.md",
+          "source": "https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Dashmotion animating a checkout request through a Kubernetes architecture — ingress → cart → payments → Postgres, plus a Kafka async event to a worker",
+          "url": "https://github.com/csthink/dashmotion/raw/main/examples/images/k8s-hero.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "flow demo",
+          "url": "https://github.com/csthink/dashmotion/raw/main/examples/images/flow-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "architecture demo",
+          "url": "https://github.com/csthink/dashmotion/raw/main/examples/images/architecture-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "A Mermaid flowchart converted into an animated dashmotion diagram",
+          "url": "https://github.com/csthink/dashmotion/raw/main/examples/images/mermaid-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dashmotion — diagrams that move (live demo)",
+          "url": "https://csthink.github.io/dashmotion/og-card.png",
+          "thumbnailUrl": null,
+          "source": "https://csthink.github.io/dashmotion/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 5
+    },
+    {
       "name": "Carbone MCP Server",
       "url": "https://github.com/carboneio/carbone-mcp",
       "primaryUrl": "https://github.com/carboneio/carbone-mcp",
@@ -34537,6 +34979,123 @@
       "docsCount": 20,
       "examplesCount": 11,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "Sigrid Report Generator",
+      "url": "https://github.com/Software-Improvement-Group/sigrid-report-generator",
+      "primaryUrl": "https://github.com/Software-Improvement-Group/sigrid-report-generator",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updated": "2026-07-24",
+      "note": "Python report framework that pulls Sigrid API data into standard or custom Word and PowerPoint templates, generating IT due-diligence, objectives, modernization, maintainability, portfolio, hygiene, and custom report outputs as DOCX or PPTX.",
+      "sourceTypes": [
+        "数据/表格",
+        "代码库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "upgrade guide",
+          "url": "https://github.com/Software-Improvement-Group/sigrid-report-generator/blob/HEAD/docs/upgrade-v1.md",
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Sigrid documentation",
+          "url": "https://docs.sigrid-says.com/capabilities/reports/modernization-report.html",
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/developers.md",
+          "url": "https://github.com/Software-Improvement-Group/sigrid-report-generator/blob/HEAD/docs/developers.md",
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Sample: Architecture",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample: Test code ratio",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-test-code.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample Mgmt Summary",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-mgmt-summary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample Objectives",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-objectives.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample Modernization",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-modernization.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample System Maintainability One Pager",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-system-maintainability-one-pager.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample Portfolio Overview",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-portfolio-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample Hygiene",
+          "url": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-hygiene.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
     },
     {
       "name": "AIOffice",

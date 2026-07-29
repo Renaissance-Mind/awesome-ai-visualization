@@ -1,4 +1,4 @@
-last_researched: '2026-07-29'
+last_researched: '2026-07-30'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -3105,6 +3105,33 @@ entries:
   - SVG/PNG/PDF
   - 视频/音频
   - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: Slides MCP Server
+  url: https://github.com/zavora-ai/mcp_slides
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 2
+  license: unknown
+  updated: '2026-07-26'
+  note: Rust MCP server for end-to-end PowerPoint deck authoring with 71 tools covering slides, text runs, shapes, connectors, tables, images, charts, themes, layouts, speaker notes, hyperlinks, SVG/PNG rendering, PDF export, contrast checks, and design linting.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
 - name: ppt-mcp
@@ -7135,6 +7162,55 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: DashGen
+  url: https://github.com/4mohdisa/DashGen
+  homepage: https://dashgen.isaxcode.com
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  stars: 3
+  license: MIT
+  updated: '2026-06-22'
+  note: Next.js AI dashboard generator that accepts CSV, JSON, or Excel uploads plus a natural-language dashboard brief, then produces interactive React dashboards with charts, KPI cards, live code preview, export, and deployment paths.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: AI Dashboard Generator
+  url: https://github.com/Leniolabs/ai-data-dashboard
+  homepage: https://labs.leniolabs.com/data-dashboard/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 121
+  license: MIT
+  updated: '2026-06-29'
+  note: Open-source Next.js and GPT-powered dashboard generator that ingests existing CSV tables or datasets, infers visualization intent, and creates simple business data visualizations from the uploaded data.
+  source_types:
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
 - name: mcp-grafana
   url: https://github.com/grafana/mcp-grafana
   category: data-dashboard
@@ -9280,6 +9356,64 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: code
+- name: Mind Map Generator Skill
+  url: https://github.com/0x-man/mindmap-skill
+  homepage: https://0x-man.github.io/mindmap-skill/
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  stars: 9
+  license: unknown
+  updated: '2026-07-28'
+  note: Claude skill that turns text, documents, conversations, topics, brainstorms, and ideas into interactive mind maps with source links, gap nodes, adaptive layouts, Knowledge Atlas linking, and SVG, PNG, PDF, Markdown, Mermaid, or embeddable HTML export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 图表/Mermaid
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: LLMapper Skill
+  url: https://github.com/jorgearango/llmapper-skill
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  stars: 17
+  license: Apache-2.0
+  updated: '2026-07-18'
+  note: Claude Skill version of LLMapper that converts PDFs, text files, URLs, or pasted articles into concept maps through a summarize-to-RDF knowledge graph pipeline, rendering Mermaid diagrams inline or Cytoscape HTML for reuse.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 文本/想法
+  - 知识库/个人资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 思维导图/知识地图
+  - 图表/Mermaid
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
 - name: presentation-skill-pack
   url: https://github.com/isatimur/presentation-md
   homepage: https://presentation-skill-pack.vercel.app
@@ -9409,6 +9543,82 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: Architecture Diagram Generator
+  url: https://github.com/Cocoon-AI/architecture-diagram-generator
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 6745
+  license: MIT
+  updated: '2026-07-29'
+  note: Claude skill that turns system descriptions into standalone dark-themed HTML architecture diagrams with embedded SVG and built-in copy, PNG, and PDF export controls.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: FlowForge
+  url: https://github.com/wentong2022-arch/flowforge-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 133
+  license: MIT
+  updated: '2026-07-14'
+  note: Claude Code skill that turns natural-language briefs into editable draw.io XML diagrams with deterministic layouts for flowcharts, architecture diagrams, comparisons, timelines, trees, funnels, matrices, and sequence-style diagrams.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Dashmotion
+  url: https://github.com/csthink/dashmotion
+  homepage: https://csthink.github.io/dashmotion/
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 147
+  license: MIT
+  updated: '2026-07-27'
+  note: Claude skill that converts plain English or Mermaid source into dependency-free animated technical diagrams as self-contained HTML/SVG files with streaming connector motion.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: Carbone MCP Server
   url: https://github.com/carboneio/carbone-mcp
   homepage: https://carbone.io/documentation/developer/ai/mcp.html
@@ -9438,6 +9648,33 @@ entries:
   - PPT/演示文稿
   - SVG/PNG/PDF
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: Sigrid Report Generator
+  url: https://github.com/Software-Improvement-Group/sigrid-report-generator
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 5
+  license: Apache-2.0
+  updated: '2026-07-24'
+  note: Python report framework that pulls Sigrid API data into standard or custom Word and PowerPoint templates, generating IT due-diligence, objectives, modernization, maintainability, portfolio, hygiene, and custom report outputs as DOCX or PPTX.
+  source_types:
+  - 数据/表格
+  - 代码库
+  - Office 文档
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - 图表/仪表盘
   catalog_section: main
   readme_group: docs
 - name: AIOffice
