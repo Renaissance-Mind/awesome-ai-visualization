@@ -1,4 +1,4 @@
-generated_at: '2026-07-28T23:04:43+00:00'
+generated_at: '2026-07-29T23:14:02+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 381
-  fetched_sources_ok: 519
+  entries: 390
+  fetched_sources_ok: 532
   fetched_sources_failed: 31
   official_examples: 1053
-  official_effect_assets: 1268
-  official_docs: 1148
+  official_effect_assets: 1292
+  official_docs: 1152
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -35254,3 +35254,392 @@ entries:
     bytes: 22483
   source_headings:
   - Template Intelligence — Semantic Contract, Not Just Colors
+- name: Mind Map Generator Skill
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/0x-man/mindmap-skill
+  homepage: https://0x-man.github.io/mindmap-skill/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude skill that turns text, documents, conversations, topics, brainstorms, and ideas into interactive mind
+    maps with source links, gap nodes, adaptive layouts, Knowledge Atlas linking, and SVG, PNG, PDF, Markdown, Mermaid, or
+    embeddable HTML export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/0x-man/mindmap-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/0x-man/mindmap-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧠🗺️ Mind Map Generator — Claude Skill
+    bytes: 5846
+  - kind: homepage
+    url: https://0x-man.github.io/mindmap-skill/
+    final_url: https://0x-man.github.io/mindmap-skill/
+    status: 200
+    content_type: text/html
+    title: Mind Map Generator — Claude Skill
+    bytes: 53769
+  source_headings:
+  - Usage
+  - Token Usage Estimates
+- name: LLMapper Skill
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/jorgearango/llmapper-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude Skill version of LLMapper that converts PDFs, text files, URLs, or pasted articles into concept maps
+    through a summarize-to-RDF knowledge graph pipeline, rendering Mermaid diagrams inline or Cytoscape HTML for reuse.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jorgearango/llmapper-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jorgearango/llmapper-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: LLMapper Skill
+    bytes: 10930
+  official_effect_assets:
+  - kind: image
+    title: LLMapper Sample Concept Map
+    url: https://raw.githubusercontent.com/jorgearango/llmapper-skill/HEAD/llmapper-sample.png
+    source: https://raw.githubusercontent.com/jorgearango/llmapper-skill/HEAD/README.md
+  source_headings:
+  - Usage
+  - Modify Visual Style
+  - Alternative Visualizations
+  - Can't See the Visualization
+- name: Architecture Diagram Generator
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/Cocoon-AI/architecture-diagram-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill that turns system descriptions into standalone dark-themed HTML architecture diagrams with embedded
+    SVG and built-in copy, PNG, and PDF export controls.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Architecture Diagram Generator
+    bytes: 9085
+  official_effect_assets:
+  - kind: image
+    title: Web App Architecture
+    url: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/examples/images/web-app.png
+    source: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md
+  - kind: image
+    title: AWS Serverless Architecture
+    url: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/examples/images/aws-serverless.png
+    source: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md
+  - kind: image
+    title: Microservices Architecture
+    url: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/examples/images/microservices.png
+    source: https://raw.githubusercontent.com/Cocoon-AI/architecture-diagram-generator/HEAD/README.md
+  source_headings:
+  - Architecture Diagram Generator
+  - 'Step 3: Generate Your Diagram by Asking Claude to Use the Skill'
+  - Example Prompts for Common Scenarios
+  - 📸 Examples
+  - 📤 Export your diagram
+  - 📄 Example Output
+- name: FlowForge
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/wentong2022-arch/flowforge-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns natural-language briefs into editable draw.io XML diagrams with deterministic
+    layouts for flowcharts, architecture diagrams, comparisons, timelines, trees, funnels, matrices, and sequence-style diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: FlowForge
+    bytes: 8233
+  official_effect_assets:
+  - kind: image
+    title: LLM Full-Stack Architecture — generated by FlowForge
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/05-llm-full-stack-architecture.png
+    source: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+  - kind: image
+    title: Economic Data Platform Architecture
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/03-platform-architecture.png
+    source: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+  - kind: image
+    title: PPO vs DPO vs GRPO
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/04-ppo-dpo-grpo-comparison.png
+    source: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+  - kind: image
+    title: Database Selection Decision Tree
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/07-storage-decision-tree-mint.png
+    source: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+  - kind: image
+    title: Agent Capabilities Hub
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/08-agent-capabilities-hub-indigo.png
+    source: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+  - kind: image
+    title: LLM Evolution Timeline
+    url: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/assets/screenshots/09-llm-history-timeline-terracotta.png
+    source: https://raw.githubusercontent.com/wentong2022-arch/flowforge-skill/HEAD/README.md
+  source_headings:
+  - Usage
+  - Diagram Types
+  - Gallery
+- name: Dashmotion
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/csthink/dashmotion
+  homepage: https://csthink.github.io/dashmotion/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill that converts plain English or Mermaid source into dependency-free animated technical diagrams
+    as self-contained HTML/SVG files with streaming connector motion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Dashmotion
+    bytes: 11142
+  - kind: homepage
+    url: https://csthink.github.io/dashmotion/
+    final_url: https://csthink.github.io/dashmotion/
+    status: 200
+    content_type: text/html
+    title: Dashmotion — diagrams that move (live demo)
+    description: 'Live, unedited outputs of dashmotion: a Claude skill that turns a description or Mermaid source into a self-contained
+      animated HTML/SVG diagram. No animation library, a few KB, loo'
+    bytes: 8682
+  official_docs:
+  - kind: docs
+    title: docs/how-it-works.md
+    url: https://github.com/csthink/dashmotion/blob/main/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Dashmotion animating a checkout request through a Kubernetes architecture — ingress → cart → payments → Postgres,
+      plus a Kafka async event to a worker
+    url: https://github.com/csthink/dashmotion/raw/main/examples/images/k8s-hero.gif
+    source: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+  - kind: gif
+    title: flow demo
+    url: https://github.com/csthink/dashmotion/raw/main/examples/images/flow-demo.gif
+    source: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+  - kind: gif
+    title: architecture demo
+    url: https://github.com/csthink/dashmotion/raw/main/examples/images/architecture-demo.gif
+    source: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+  - kind: gif
+    title: A Mermaid flowchart converted into an animated dashmotion diagram
+    url: https://github.com/csthink/dashmotion/raw/main/examples/images/mermaid-demo.gif
+    source: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+  - kind: image
+    title: Dashmotion — diagrams that move (live demo)
+    url: https://csthink.github.io/dashmotion/og-card.png
+    source: https://csthink.github.io/dashmotion/
+  official_links:
+  - kind: docs
+    title: docs/how-it-works.md
+    url: https://github.com/csthink/dashmotion/blob/main/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/csthink/dashmotion/HEAD/README.md
+- name: DashGen
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/4mohdisa/DashGen
+  homepage: https://dashgen.isaxcode.com
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Next.js AI dashboard generator that accepts CSV, JSON, or Excel uploads plus a natural-language dashboard
+    brief, then produces interactive React dashboards with charts, KPI cards, live code preview, export, and deployment paths.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/4mohdisa/DashGen/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/4mohdisa/DashGen/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📊 DashGen
+    bytes: 7186
+  - kind: homepage
+    url: https://dashgen.isaxcode.com/
+    final_url: https://dashgen.isaxcode.com/
+    status: 200
+    content_type: text/html
+    title: DashGen – AI Dashboard Generator
+    description: Generate beautiful, interactive dashboards from your data with advanced AI
+    bytes: 62091
+  source_headings:
+  - 📈 Advanced Visualizations
+  - 📖 Usage
+  - Basic Dashboard Creation
+- name: AI Dashboard Generator
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/Leniolabs/ai-data-dashboard
+  homepage: https://labs.leniolabs.com/data-dashboard/
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Open-source Next.js and GPT-powered dashboard generator that ingests existing CSV tables or datasets, infers
+    visualization intent, and creates simple business data visualizations from the uploaded data.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Leniolabs/ai-data-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Leniolabs/ai-data-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI Dashboard Generator
+    bytes: 3086
+  - kind: homepage
+    url: https://labs.leniolabs.com/data-dashboard/
+    final_url: https://labs.leniolabs.com/data-dashboard/
+    status: 200
+    content_type: text/html
+    title: AI Data Dashboard
+    description: Visualize data with our tool created using OpenAI's GPT3 technology
+    bytes: 6206
+  official_effect_assets:
+  - kind: image
+    title: AI Data Dashboard
+    url: https://labs.leniolabs.com/data-dashboard/meta.png
+    source: https://labs.leniolabs.com/data-dashboard/
+  source_headings:
+  - AI Dashboard Generator
+  - Usage
+- name: Sigrid Report Generator
+  category: research-report
+  surface: open-source
+  primary_url: https://github.com/Software-Improvement-Group/sigrid-report-generator
+  dependencies:
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Python report framework that pulls Sigrid API data into standard or custom Word and PowerPoint templates,
+    generating IT due-diligence, objectives, modernization, maintainability, portfolio, hygiene, and custom report outputs
+    as DOCX or PPTX.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Sigrid Report Generator
+    bytes: 10883
+  official_docs:
+  - kind: docs
+    title: upgrade guide
+    url: https://github.com/Software-Improvement-Group/sigrid-report-generator/blob/HEAD/docs/upgrade-v1.md
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: docs
+    title: Sigrid documentation
+    url: https://docs.sigrid-says.com/capabilities/reports/modernization-report.html
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: docs
+    title: docs/developers.md
+    url: https://github.com/Software-Improvement-Group/sigrid-report-generator/blob/HEAD/docs/developers.md
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Sample: Architecture'
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-architecture.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: 'Sample: Test code ratio'
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-test-code.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: Sample Mgmt Summary
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-mgmt-summary.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: Sample Objectives
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-objectives.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: Sample Modernization
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-modernization.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: Sample System Maintainability One Pager
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-system-maintainability-one-pager.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: Sample Portfolio Overview
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-portfolio-overview.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: image
+    title: Sample Hygiene
+    url: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/docs/img/sample-hygiene.png
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: upgrade guide
+    url: https://github.com/Software-Improvement-Group/sigrid-report-generator/blob/HEAD/docs/upgrade-v1.md
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: docs
+    title: Sigrid documentation
+    url: https://docs.sigrid-says.com/capabilities/reports/modernization-report.html
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  - kind: docs
+    title: docs/developers.md
+    url: https://github.com/Software-Improvement-Group/sigrid-report-generator/blob/HEAD/docs/developers.md
+    source: https://raw.githubusercontent.com/Software-Improvement-Group/sigrid-report-generator/HEAD/README.md
+  source_headings:
+  - Usage
+  - Create your own template
+- name: Slides MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/zavora-ai/mcp_slides
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Rust MCP server for end-to-end PowerPoint deck authoring with 71 tools covering slides, text runs, shapes,
+    connectors, tables, images, charts, themes, layouts, speaker notes, hyperlinks, SVG/PNG rendering, PDF export, contrast
+    checks, and design linting.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zavora-ai/mcp_slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zavora-ai/mcp_slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Slides MCP Server
+    bytes: 6355
+  source_headings:
+  - Slides MCP Server
+  - Presentation lifecycle (9)
+  - Slides (12)
+  - Examples

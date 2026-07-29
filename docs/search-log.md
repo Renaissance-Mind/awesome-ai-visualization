@@ -66,6 +66,8 @@ Update on 2026-07-28: refreshed AI-native chart/report skills, marketing and sum
 
 Update on 2026-07-29: refreshed agent-native presentation packs, PPTX/Office MCP engines, Power BI report skills, Draw.io automation, document-template generation, and Java architecture-discovery artifacts from official GitHub repositories, project pages, README evidence, PyPI/npm package pages, and GitHub metadata. This pass added presentation-skill-pack, many-ppt-skills, Power BI Skills for Claude Code, PPTX Generator MCP Server, Draw.io MCP Server, Carbone MCP Server, AIOffice, Architecture Discovery MCP, and DeepSeek-PPT-skill. The targeted scraper ran only against these new records; generic PyPI/packaging documentation links from the Architecture Discovery package page were scrubbed before merging.
 
+Update on 2026-07-30: refreshed mind-map/concept-map skills, architecture and draw.io diagram skills, animated SVG diagrams, AI dashboard generators, Sigrid templated reports, and PowerPoint slide-authoring MCP tools from official GitHub repositories, project pages, README evidence, live demos, and GitHub metadata. This pass added Mind Map Generator Skill, LLMapper Skill, Architecture Diagram Generator, FlowForge, Dashmotion, DashGen, AI Dashboard Generator, Sigrid Report Generator, and Slides MCP Server. The targeted scraper ran only against these new records; generic dependency docs, an external social tutorial link, a contributing guide, and an authentication documentation page were scrubbed before merging.
+
 ## Search Surfaces
 
 - GitHub repository search through `gh search repos` and `gh api search/repositories`.
