@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-381_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--29-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-401_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--31-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -14,6 +14,22 @@
 このカタログは **情報源**、**ツール形態**、**出力形式**、**依存タイプ** でタグ付けしています。スライドは出力の一つにすぎず、多くのツールはレポート、Webページ、図、マインドマップ、ダッシュボード、コードマップも生成します。
 
 一部のプロジェクト名、公式用語、短い説明は、検索性と原典との対応を保つため英語のまま残しています。
+
+## 最新更新（2026-07-31）
+
+| プロジェクト | 今回追加した焦点 |
+| --- | --- |
+| [baoyu-design](https://github.com/JimLiu/baoyu-design) | Local Agent Skill for Claude Design-style HTML prototypes, dashboards, wireframes, and decks. |
+| [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) | Local-first prompt-to-artifact desktop app for prototypes, slides, PDFs, PPTX, ZIP, and Markdown. |
+| [Azure Architecture Diagram Builder](https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder) | AI and MCP workflow for Azure topology diagrams, blueprint diagrams, cost estimates, WAF checks, and IaC. |
+| [Emboss](https://github.com/GGChamp85/Emboss) | Python/MCP document engine for deterministic accessible PDFs from specs, Markdown, or LLM content. |
+| [StudyBros](https://github.com/Kirneill/StudyBros) | MCP and web app that turns learning files into flashcards, quizzes, practice tests, summaries, and exports. |
+| [pdf-mcp](https://github.com/jztan/pdf-mcp) | Agent PDF support for semantic search, page reads, OCR, table/image extraction, chart data, and rendering. |
+| [data-analysis-skill](https://github.com/dongzhang84/data-analysis-skill) | Claude Code skill for CSV/Excel to narrative HTML reports, interactive charts, and PowerPoint decks. |
+| [Felo AI CLI and Skills](https://github.com/Felo-Inc/felo-skills) | Search, web fetch, subtitles, X search, prompt/file-to-PPT, mind maps, landing pages, and API workflows. |
+| [Highcharts MCP Server](https://github.com/hasnaintypes/highchart-mcp-server) | MCP chart generation and validation with PNG, SVG, PDF, and interactive HTML exports. |
+| [Predictive Maintenance MCP](https://github.com/LGDiMaggio/predictive-maintenance-mcp) | Vibration CSV analysis to bearing-fault diagnostics, risk estimates, reports, evidence, and charts. |
+| [AnyGen Suite Skill](https://github.com/AnyGenIO/anygen-suite-skill) | All-in-one skill for PPT, DOCX, diagrams, storybooks, data visualization, research reports, websites, and images. |
 
 ## ✨ 推奨される使い方
 

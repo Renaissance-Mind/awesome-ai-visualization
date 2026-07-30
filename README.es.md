@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-381_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--29-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-401_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--31-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -14,6 +14,22 @@ Una lista curada de herramientas de IA y agentes que convierten papers, noticias
 El catálogo está etiquetado por **fuente de información**, **tipo de herramienta**, **artefacto de salida** y **tipo de dependencia**. Las diapositivas son solo una superficie de salida; muchas herramientas también producen reportes, páginas web, diagramas, mapas mentales, dashboards o mapas de código.
 
 Algunos nombres de proyectos, términos oficiales y descripciones breves se mantienen en inglés para preservar la búsqueda y la trazabilidad con las fuentes originales.
+
+## Actualización reciente (2026-07-31)
+
+| Proyecto | Foco añadido |
+| --- | --- |
+| [baoyu-design](https://github.com/JimLiu/baoyu-design) | Local Agent Skill for Claude Design-style HTML prototypes, dashboards, wireframes, and decks. |
+| [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) | Local-first prompt-to-artifact desktop app for prototypes, slides, PDFs, PPTX, ZIP, and Markdown. |
+| [Azure Architecture Diagram Builder](https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder) | AI and MCP workflow for Azure topology diagrams, blueprint diagrams, cost estimates, WAF checks, and IaC. |
+| [Emboss](https://github.com/GGChamp85/Emboss) | Python/MCP document engine for deterministic accessible PDFs from specs, Markdown, or LLM content. |
+| [StudyBros](https://github.com/Kirneill/StudyBros) | MCP and web app that turns learning files into flashcards, quizzes, practice tests, summaries, and exports. |
+| [pdf-mcp](https://github.com/jztan/pdf-mcp) | Agent PDF support for semantic search, page reads, OCR, table/image extraction, chart data, and rendering. |
+| [data-analysis-skill](https://github.com/dongzhang84/data-analysis-skill) | Claude Code skill for CSV/Excel to narrative HTML reports, interactive charts, and PowerPoint decks. |
+| [Felo AI CLI and Skills](https://github.com/Felo-Inc/felo-skills) | Search, web fetch, subtitles, X search, prompt/file-to-PPT, mind maps, landing pages, and API workflows. |
+| [Highcharts MCP Server](https://github.com/hasnaintypes/highchart-mcp-server) | MCP chart generation and validation with PNG, SVG, PDF, and interactive HTML exports. |
+| [Predictive Maintenance MCP](https://github.com/LGDiMaggio/predictive-maintenance-mcp) | Vibration CSV analysis to bearing-fault diagnostics, risk estimates, reports, evidence, and charts. |
+| [AnyGen Suite Skill](https://github.com/AnyGenIO/anygen-suite-skill) | All-in-one skill for PPT, DOCX, diagrams, storybooks, data visualization, research reports, websites, and images. |
 
 ## ✨ Uso recomendado
 

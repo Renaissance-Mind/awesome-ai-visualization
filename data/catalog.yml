@@ -1,4 +1,4 @@
-last_researched: '2026-07-30'
+last_researched: '2026-07-31'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -9757,5 +9757,320 @@ entries:
   output_forms:
   - PPT/演示文稿
   - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: baoyu-design
+  url: https://github.com/JimLiu/baoyu-design
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2944
+  license: MIT
+  updated: '2026-07-30'
+  note: Portable Agent Skill that runs a Claude Design-style workflow locally in Cursor, Claude Code, Codex, or other file-capable agents to produce polished HTML UI mockups, prototypes, dashboards, wireframes, landing pages, mobile apps, and slide decks.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - PDF/文档
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 信息图/视觉报告
+  - PPT/演示文稿
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: text_visual
+- name: Open CoDesign
+  url: https://github.com/OpenCoworkAI/open-codesign
+  homepage: https://opencoworkai.github.io/open-codesign/
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 7616
+  license: MIT
+  updated: '2026-06-28'
+  note: Local-first desktop app and Claude Design alternative that turns prompts into polished prototypes, slide decks, marketing assets, HTML pages, PDFs, PPTX files, ZIP packages, and Markdown using BYOK or imported Claude Code/Codex provider configs.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 代码库
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: text_visual
+- name: Azure Architecture Diagram Builder
+  url: https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder
+  homepage: https://aka.ms/diagram-builder
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - MCP Client
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 43
+  license: MIT
+  updated: '2026-07-30'
+  note: AI-powered Azure architecture design app and MCP server that converts natural-language or imported architecture images into editable topology and whiteboard-style diagrams, cost estimates, WAF validation, deployment guides, and IaC outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: code
+- name: Emboss
+  url: https://github.com/GGChamp85/Emboss
+  homepage: https://pypi.org/project/emboss-pdf/
+  category: research-report
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  - MCP Client
+  stars: 16
+  license: Apache-2.0
+  updated: '2026-07-30'
+  note: Pure-Python document engine that turns declarative specs, Markdown, or LLM-generated structured content into deterministic, accessible, print-ready PDFs with tables, charts, SVG, diagrams, embedded source data, document diffing, and optional MCP workflows.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 报告/长文档
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: StudyBros
+  url: https://github.com/Kirneill/StudyBros
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  stars: 0
+  license: unknown
+  updated: '2026-07-30'
+  note: MCP server and web app that ingests PDFs, PPTX, text, Markdown, video, and audio, then uses an attached LLM to generate flashcards, quizzes, practice tests, summaries, mastery tracking, Anki CSV, JSON, and Markdown exports.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 问答/学习材料
+  - 结构化数据/Markdown
+  - 报告/简报
+  catalog_section: main
+  readme_group: docs
+- name: pdf-mcp
+  url: https://github.com/jztan/pdf-mcp
+  homepage: https://pdf-mcp.jztan.com
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 存储/索引
+  - 渲染/导出
+  stars: 91
+  license: MIT
+  updated: '2026-07-29'
+  note: 'MCP server for surgical PDF access: semantic and keyword search, page-level reading, OCR, table/image extraction, chart-data extraction, page rendering, corpus search, SQLite caching, and hidden-text trust flags for agents handling large PDFs.'
+  source_types:
+  - PDF/文档
+  - 数据/表格
+  - 论文/科研资料
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 证据表
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: data-analysis-skill
+  url: https://github.com/dongzhang84/data-analysis-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 13
+  license: MIT
+  updated: '2026-02-28'
+  note: Claude Code skill for turning CSV or Excel files into publication-quality narrative HTML reports, interactive charts, expert-synthesized findings, structured profiles, and one-click PowerPoint decks.
+  source_types:
+  - 数据/表格
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Felo AI CLI and Skills
+  url: https://github.com/Felo-Inc/felo-skills
+  homepage: https://felo.ai
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 239
+  license: unknown
+  updated: '2026-07-22'
+  note: Felo CLI and Claude Code skill suite for real-time search, web fetch, YouTube subtitle ingestion, X search, style libraries, prompt/file-to-PPT generation, mind-map generation, landing pages, and API-backed research workflows.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 文本/想法
+  - PDF/文档
+  tool_forms:
+  - Skill 集合
+  - API/SDK/库
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - 引用答案
+  catalog_section: main
+  readme_group: presentation
+- name: Highcharts MCP Server
+  url: https://github.com/hasnaintypes/highchart-mcp-server
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模型 API
+  stars: 1
+  license: unknown
+  updated: '2026-03-03'
+  note: MCP server exposing Highcharts chart-generation tools with schema validation, natural-language chart creation, production deployment options, and export to PNG, SVG, PDF, or interactive HTML bundles.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
+- name: Predictive Maintenance MCP
+  url: https://github.com/LGDiMaggio/predictive-maintenance-mcp
+  homepage: https://lgdimaggio.github.io/predictive-maintenance-mcp/
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模型 API
+  stars: 61
+  license: NOASSERTION
+  updated: '2026-07-13'
+  note: MCP server and Claude Code plugin that lets agents analyze vibration CSVs, classify bearing faults, estimate risk and remaining useful life, and generate professional diagnostic reports with charts and severity assessments.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - PDF/文档
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: AnyGen Suite Skill
+  url: https://github.com/AnyGenIO/anygen-suite-skill
+  homepage: https://www.anygen.io/home?auto_create_openclaw_key=1
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 15
+  license: unknown
+  updated: '2026-03-30'
+  note: All-in-one OpenClaw, Claude Code, and Cursor skill that brokers AnyGen operations for PPT slides, DOCX documents, professional or hand-drawn diagrams, storybook decks, data visualization, deep-research reports, websites, finance reports, and design images.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 架构图/流程图
+  - 网页/交互页面
+  - 图形摘要/信息图
   catalog_section: main
   readme_group: presentation

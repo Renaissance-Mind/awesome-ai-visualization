@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-07-29T23:14:02+00:00",
-  "lastResearched": "2026-07-30",
+  "generatedAt": "2026-07-30T23:09:26+00:00",
+  "lastResearched": "2026-07-31",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 390,
-    "openSource": 105,
-    "saas": 50,
-    "modelApi": 139,
-    "examples": 1053,
-    "effectAssets": 1292,
-    "docs": 1152
+    "total": 401,
+    "openSource": 108,
+    "saas": 52,
+    "modelApi": 148,
+    "examples": 1065,
+    "effectAssets": 1320,
+    "docs": 1180
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 46,
-      "PDF/文档": 132,
-      "文本/想法": 242,
-      "数据/表格": 139,
-      "代码/技术描述": 70,
-      "网页/搜索结果": 116,
-      "代码库": 42,
-      "DSL/代码": 71,
-      "新闻/资讯": 15,
+      "论文/科研资料": 47,
+      "PDF/文档": 137,
+      "文本/想法": 250,
+      "数据/表格": 146,
+      "代码/技术描述": 72,
+      "网页/搜索结果": 120,
+      "代码库": 43,
+      "DSL/代码": 74,
+      "新闻/资讯": 16,
       "知识库/个人资料": 31,
-      "任意/多源": 55,
-      "Office 文档": 50,
+      "任意/多源": 58,
+      "Office 文档": 52,
       "引用网络": 4,
       "数据库": 27,
       "视频/音频": 1
     },
     "toolForms": {
-      "开源应用/框架": 105,
-      "Agent Skill": 128,
-      "Skill 集合": 33,
+      "开源应用/框架": 108,
+      "Agent Skill": 132,
+      "Skill 集合": 34,
       "数据集/评测": 2,
       "Bot/助手": 11,
-      "产品/SaaS": 50,
-      "MCP Server": 102,
+      "产品/SaaS": 52,
+      "MCP Server": 108,
       "研究原型": 4,
-      "API/SDK/库": 41,
+      "API/SDK/库": 43,
       "Awesome/索引": 21
     },
     "outputForms": {
-      "图形摘要/信息图": 27,
-      "PPT/演示文稿": 172,
-      "网页/交互页面": 110,
-      "问答/学习材料": 14,
-      "报告/长文档": 50,
-      "证据表": 19,
-      "信息图/视觉报告": 55,
-      "图表/仪表盘": 100,
-      "架构图/流程图": 85,
-      "SVG/PNG/PDF": 130,
-      "报告/简报": 40,
-      "白板/思维导图": 26,
+      "图形摘要/信息图": 28,
+      "PPT/演示文稿": 177,
+      "网页/交互页面": 115,
+      "问答/学习材料": 15,
+      "报告/长文档": 53,
+      "证据表": 21,
+      "信息图/视觉报告": 57,
+      "图表/仪表盘": 105,
+      "架构图/流程图": 87,
+      "SVG/PNG/PDF": 135,
+      "报告/简报": 42,
+      "白板/思维导图": 27,
       "图表/Mermaid": 46,
       "视频/音频": 31,
       "表格/时间线": 11,
-      "引用答案": 4,
-      "思维导图/知识地图": 26,
-      "结构化数据/Markdown": 33,
+      "引用答案": 5,
+      "思维导图/知识地图": 27,
+      "结构化数据/Markdown": 39,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 25,
-      "图表/渲染输出": 12,
+      "图表/渲染输出": 13,
       "工具索引": 23
     },
     "dependencies": {
-      "本地语言环境": 300,
-      "模型 API": 139,
-      "文档解析/OCR": 63,
-      "渲染/导出": 308,
+      "本地语言环境": 308,
+      "模型 API": 148,
+      "文档解析/OCR": 65,
+      "渲染/导出": 318,
       "GPU/加速器": 10,
-      "模板/素材": 178,
-      "Agent 宿主": 168,
-      "系统工具": 66,
-      "浏览器/账号": 107,
-      "存储/索引": 49,
-      "外部检索/数据源": 74,
-      "MCP Client": 105,
+      "模板/素材": 184,
+      "Agent 宿主": 172,
+      "系统工具": 67,
+      "浏览器/账号": 111,
+      "存储/索引": 51,
+      "外部检索/数据源": 78,
+      "MCP Client": 111,
       "代码分析工具": 29
     },
     "categories": {
       "paper-visualization": 13,
-      "doc-to-knowledge": 37,
-      "research-report": 20,
-      "infographic-report": 32,
-      "data-dashboard": 45,
-      "diagram-generation": 50,
+      "doc-to-knowledge": 39,
+      "research-report": 21,
+      "infographic-report": 34,
+      "data-dashboard": 48,
+      "diagram-generation": 51,
       "literature-map": 4,
-      "presentation-tools": 114,
+      "presentation-tools": 116,
       "codebase-map": 23,
       "rendering-primitive": 8,
       "video-generation": 10,
@@ -97,17 +97,17 @@
     },
     "groups": {
       "paper": 25,
-      "text_visual": 45,
+      "text_visual": 47,
       "web_news": 8,
       "support_mindmap": 13,
-      "docs": 21,
-      "support_doc_parse": 9,
-      "presentation": 126,
-      "code": 23,
-      "support_render": 43,
+      "docs": 23,
+      "support_doc_parse": 10,
+      "presentation": 128,
+      "code": 24,
+      "support_render": 44,
       "diagrams": 2,
       "video": 10,
-      "data": 40,
+      "data": 42,
       "indexes": 24,
       "diagram": 1
     }
@@ -35300,6 +35300,911 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "baoyu-design",
+      "url": "https://github.com/JimLiu/baoyu-design",
+      "primaryUrl": "https://github.com/JimLiu/baoyu-design",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2944,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "Portable Agent Skill that runs a Claude Design-style workflow locally in Cursor, Claude Code, Codex, or other file-capable agents to produce polished HTML UI mockups, prototypes, dashboards, wireframes, landing pages, mobile apps, and slide decks.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "PDF/文档",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "信息图/视觉报告",
+        "PPT/演示文稿",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`starter-components/`",
+          "url": "https://github.com/JimLiu/baoyu-design/blob/HEAD/skills/baoyu-design/starter-components/",
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Cursor running baoyu-design",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/assets/screenshots/cursor-reader-mac-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Codex running baoyu-design",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/assets/screenshots/codex-reader-mac-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Claude running baoyu-design",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/assets/screenshots/claude-reader-mac-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Claude Design running the same Reader Mac App prompt",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/assets/screenshots/claude-design-reader-mac-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "preview.html of a design system imported from the Chakra UI Figma Kit .fig",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/assets/screenshots/figma-import-chakra-preview.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chart",
+          "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "Open CoDesign",
+      "url": "https://github.com/OpenCoworkAI/open-codesign",
+      "primaryUrl": "https://github.com/OpenCoworkAI/open-codesign",
+      "homepage": "https://opencoworkai.github.io/open-codesign/",
+      "category": "infographic-report",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7616,
+      "license": "MIT",
+      "updated": "2026-06-28",
+      "note": "Local-first desktop app and Claude Design alternative that turns prompts into polished prototypes, slide decks, marketing assets, HTML pages, PDFs, PPTX files, ZIP packages, and Markdown using BYOK or imported Claude Code/Codex provider configs.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "代码库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "PPT/演示文稿",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://opencoworkai.github.io/open-codesign/quickstart",
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "BENCHMARKS.md",
+          "url": "https://github.com/OpenCoworkAI/open-codesign/blob/HEAD/BENCHMARKS.md",
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Generate a design from scratch",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/demos/generate-from-scratch.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Import from Claude Code or Codex in one click",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/demos/claude-code-import.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Iter-0 → iter-1 reconcile loop with honest score drift",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/demos/decompose-iter-reel.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Open CoDesign — prompt on the left, live artifact on the right",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/screenshots/product-hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Click any element, leave a pin, let the model rewrite that region",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/screenshots/comment-mode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI-emitted tweaks panel with color pickers and RGB inputs",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/screenshots/tweaks-sliders.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Your Designs hub, filled with real generated artifacts",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/screenshots/hub-your-designs.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Live agent panel showing todos and streaming tool calls",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/screenshots/agent-panel.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Decompose to UI Kit — source image vs agent-emitted ui_kit, side-by-side parity check",
+          "url": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/main/website/public/screenshots/decompose-to-ui-kit.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OpenCoworkAI/open-codesign/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Open CoDesign — chat on the left, live artifact on the right",
+          "url": "https://opencoworkai.github.io/open-codesign/screenshots/product-hero.png",
+          "thumbnailUrl": null,
+          "source": "https://opencoworkai.github.io/open-codesign/"
+        },
+        {
+          "kind": "image",
+          "title": "Comment mode — click any element, drop a pin, the model rewrites only that region",
+          "url": "https://opencoworkai.github.io/open-codesign/screenshots/comment-mode.png",
+          "thumbnailUrl": null,
+          "source": "https://opencoworkai.github.io/open-codesign/"
+        },
+        {
+          "kind": "image",
+          "title": "AI-emitted tweaks panel — color pickers and RGB inputs",
+          "url": "https://opencoworkai.github.io/open-codesign/screenshots/tweaks-sliders.png",
+          "thumbnailUrl": null,
+          "source": "https://opencoworkai.github.io/open-codesign/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Azure Architecture Diagram Builder",
+      "url": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder",
+      "primaryUrl": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder",
+      "homepage": "https://aka.ms/diagram-builder",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "MCP Client",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 43,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "AI-powered Azure architecture design app and MCP server that converts natural-language or imported architecture images into editable topology and whiteboard-style diagrams, cost estimates, WAF validation, deployment guides, and IaC outputs.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/blob/HEAD/DOCS/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Regional Pricing",
+          "url": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/blob/HEAD/DOCS/REGIONAL_PRICING_IMPLEMENTATION.md",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Services Pricing",
+          "url": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/blob/HEAD/DOCS/services_pricing.md",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Icon Mapping",
+          "url": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/blob/HEAD/DOCS/ICON_MAPPING.md",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Microsoft's usage guidelines",
+          "url": "https://docs.microsoft.com/en-us/azure/architecture/icons/",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Microsoft's Trademark & Brand Guidelines",
+          "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Live Demo",
+          "url": "https://azure-diagram-builder.yellowmushroom-f11e57c2.eastus2.azurecontainerapps.io",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Layout Engines: Dagre vs ELK",
+          "url": "https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/blob/HEAD/DOCS/LAYOUT_ENGINES_COMPARISON.md",
+          "source": "https://raw.githubusercontent.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 6,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Emboss",
+      "url": "https://github.com/GGChamp85/Emboss",
+      "primaryUrl": "https://github.com/GGChamp85/Emboss",
+      "homepage": "https://pypi.org/project/emboss-pdf/",
+      "category": "research-report",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材",
+        "MCP Client"
+      ],
+      "stars": 16,
+      "license": "Apache-2.0",
+      "updated": "2026-07-30",
+      "note": "Pure-Python document engine that turns declarative specs, Markdown, or LLM-generated structured content into deterministic, accessible, print-ready PDFs with tables, charts, SVG, diagrams, embedded source data, document diffing, and optional MCP workflows.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "SVG/PNG/PDF",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP Server guide",
+          "url": "https://ggchamp85.github.io/Emboss/mcp",
+          "source": "https://raw.githubusercontent.com/GGChamp85/Emboss/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "StudyBros",
+      "url": "https://github.com/Kirneill/StudyBros",
+      "primaryUrl": "https://github.com/Kirneill/StudyBros",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-07-30",
+      "note": "MCP server and web app that ingests PDFs, PPTX, text, Markdown, video, and audio, then uses an attached LLM to generate flashcards, quizzes, practice tests, summaries, mastery tracking, Anki CSV, JSON, and Markdown exports.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "问答/学习材料",
+        "结构化数据/Markdown",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "pdf-mcp",
+      "url": "https://github.com/jztan/pdf-mcp",
+      "primaryUrl": "https://github.com/jztan/pdf-mcp",
+      "homepage": "https://pdf-mcp.jztan.com",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 91,
+      "license": "MIT",
+      "updated": "2026-07-29",
+      "note": "MCP server for surgical PDF access: semantic and keyword search, page-level reading, OCR, table/image extraction, chart-data extraction, page rendering, corpus search, SQLite caching, and hidden-text trust flags for agents handling large PDFs.",
+      "sourceTypes": [
+        "PDF/文档",
+        "数据/表格",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "证据表",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/tool-reference.md",
+          "url": "https://github.com/jztan/pdf-mcp/blob/HEAD/docs/tool-reference.md",
+          "source": "https://raw.githubusercontent.com/jztan/pdf-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/embedding-models.md",
+          "url": "https://github.com/jztan/pdf-mcp/blob/HEAD/docs/embedding-models.md",
+          "source": "https://raw.githubusercontent.com/jztan/pdf-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/configuration.md",
+          "url": "https://github.com/jztan/pdf-mcp/blob/HEAD/docs/configuration.md",
+          "source": "https://raw.githubusercontent.com/jztan/pdf-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "ROADMAP.md",
+          "url": "https://github.com/jztan/pdf-mcp/blob/HEAD/docs/ROADMAP.md",
+          "source": "https://raw.githubusercontent.com/jztan/pdf-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://github.com/jztan/pdf-mcp",
+          "source": "https://pdf-mcp.jztan.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "pdf-mcp /demo",
+          "url": "https://github.com/jztan/pdf-mcp",
+          "source": "https://pdf-mcp.jztan.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "pdf-mcp browser demo: an AI agent maps a 216-page PDF, searches it, and reads only the matching pages — using a fraction of the tokens",
+          "url": "https://raw.githubusercontent.com/jztan/pdf-mcp/develop/docs/images/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jztan/pdf-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "data-analysis-skill",
+      "url": "https://github.com/dongzhang84/data-analysis-skill",
+      "primaryUrl": "https://github.com/dongzhang84/data-analysis-skill",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 13,
+      "license": "MIT",
+      "updated": "2026-02-28",
+      "note": "Claude Code skill for turning CSV or Excel files into publication-quality narrative HTML reports, interactive charts, expert-synthesized findings, structured profiles, and one-click PowerPoint decks.",
+      "sourceTypes": [
+        "数据/表格",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`sample-output/report.html`",
+          "url": "https://github.com/dongzhang84/data-analysis-skill/blob/HEAD/sample-output/report.html",
+          "source": "https://raw.githubusercontent.com/dongzhang84/data-analysis-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`sample-data/example.csv`",
+          "url": "https://github.com/dongzhang84/data-analysis-skill/blob/HEAD/sample-data/example.csv",
+          "source": "https://raw.githubusercontent.com/dongzhang84/data-analysis-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Felo AI CLI and Skills",
+      "url": "https://github.com/Felo-Inc/felo-skills",
+      "primaryUrl": "https://github.com/Felo-Inc/felo-skills",
+      "homepage": "https://felo.ai",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 239,
+      "license": "unknown",
+      "updated": "2026-07-22",
+      "note": "Felo CLI and Claude Code skill suite for real-time search, web fetch, YouTube subtitle ingestion, X search, style libraries, prompt/file-to-PPT generation, mind-map generation, landing pages, and API-backed research workflows.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "新闻/资讯",
+        "文本/想法",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "API/SDK/库",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "引用答案"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "full options →",
+          "url": "https://github.com/Felo-Inc/felo-skills/blob/HEAD/doc-snapshot-agent/SKILL.md",
+          "source": "https://raw.githubusercontent.com/Felo-Inc/felo-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "→",
+          "url": "https://github.com/Felo-Inc/felo-skills/blob/HEAD/doc-snapshot-agent/",
+          "source": "https://raw.githubusercontent.com/Felo-Inc/felo-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Full FAQ →",
+          "url": "https://github.com/Felo-Inc/felo-skills/blob/HEAD/docs/FAQ.md",
+          "source": "https://raw.githubusercontent.com/Felo-Inc/felo-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contributing guide →",
+          "url": "https://github.com/Felo-Inc/felo-skills/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/Felo-Inc/felo-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://openapi.felo.ai/",
+          "source": "https://felo.ai/search"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "See 40+ more examples →",
+          "url": "https://github.com/Felo-Inc/felo-skills/blob/HEAD/docs/EXAMPLES.md",
+          "source": "https://raw.githubusercontent.com/Felo-Inc/felo-skills/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "→",
+          "url": "https://github.com/Felo-Inc/felo-skills/blob/HEAD/felo-youtube-subtitling/",
+          "source": "https://raw.githubusercontent.com/Felo-Inc/felo-skills/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "LLM Playground",
+          "url": "https://playground.felo.ai",
+          "source": "https://felo.ai/search"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Felo — Free Multilingual AI Search & Creation Platform",
+          "url": "https://static.felo.ai/felo-search-ext/20251122-165010.webp",
+          "thumbnailUrl": null,
+          "source": "https://felo.ai/search"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 3,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Highcharts MCP Server",
+      "url": "https://github.com/hasnaintypes/highchart-mcp-server",
+      "primaryUrl": "https://github.com/hasnaintypes/highchart-mcp-server",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模型 API"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-03-03",
+      "note": "MCP server exposing Highcharts chart-generation tools with schema validation, natural-language chart creation, production deployment options, and export to PNG, SVG, PDF, or interactive HTML bundles.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Predictive Maintenance MCP",
+      "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp",
+      "primaryUrl": "https://github.com/LGDiMaggio/predictive-maintenance-mcp",
+      "homepage": "https://lgdimaggio.github.io/predictive-maintenance-mcp/",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模型 API"
+      ],
+      "stars": 61,
+      "license": "NOASSERTION",
+      "updated": "2026-07-13",
+      "note": "MCP server and Claude Code plugin that lets agents analyze vibration CSVs, classify bearing faults, estimate risk and remaining useful life, and generate professional diagnostic reports with charts and severity assessments.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docker / HTTPS deployment",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/HEAD/docs/DEPLOYMENT.md",
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "use with local LLMs (Ollama)",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/HEAD/docs/OLLAMA_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart for Engineers",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/HEAD/docs/QUICKSTART_ENGINEER.md",
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart for Developers",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/HEAD/docs/QUICKSTART_DEVELOPER.md",
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Engineer Quick Start →",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/main/docs/QUICKSTART_ENGINEER.md",
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        },
+        {
+          "kind": "docs",
+          "title": "Developer Quick Start →",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/main/docs/QUICKSTART_DEVELOPER.md",
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        },
+        {
+          "kind": "docs",
+          "title": "🐳 Deployment Docker + enterprise setup",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/main/docs/DEPLOYMENT.md",
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/HEAD/EXAMPLES.md",
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "📖 Examples Complete diagnostic workflows",
+          "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp/blob/main/EXAMPLES.md",
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Predictive Maintenance MCP — diagnostic workflow in Claude Desktop",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/assets/claude_gif.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Predictive Maintenance MCP — diagnostic workflow in Claude Desktop",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/main/assets/claude_gif.gif",
+          "thumbnailUrl": null,
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        },
+        {
+          "kind": "gif",
+          "title": "Claude Code Plugin — skills, agents, and slash commands in action",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/assets/plugin.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Claude Code Plugin — skills and slash commands in action",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/main/assets/plugin.gif",
+          "thumbnailUrl": null,
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        },
+        {
+          "kind": "image",
+          "title": "Envelope Analysis Report",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/assets/envelope_analysis.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ISO Severity Assessment",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/assets/iso.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Predictive Maintenance AI Agent — Open-Source MCP Server & Claude Plugin for Condition Monitoring",
+          "url": "https://raw.githubusercontent.com/LGDiMaggio/predictive-maintenance-mcp/main/assets/predictive-maintenance-mcp_com.jpg",
+          "thumbnailUrl": null,
+          "source": "https://lgdimaggio.github.io/predictive-maintenance-mcp/"
+        }
+      ],
+      "docsCount": 10,
+      "examplesCount": 2,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "AnyGen Suite Skill",
+      "url": "https://github.com/AnyGenIO/anygen-suite-skill",
+      "primaryUrl": "https://github.com/AnyGenIO/anygen-suite-skill",
+      "homepage": "https://www.anygen.io/home?auto_create_openclaw_key=1",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 15,
+      "license": "unknown",
+      "updated": "2026-03-30",
+      "note": "All-in-one OpenClaw, Claude Code, and Cursor skill that brokers AnyGen operations for PPT slides, DOCX documents, professional or hand-drawn diagrams, storybook decks, data visualization, deep-research reports, websites, finance reports, and design images.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "架构图/流程图",
+        "网页/交互页面",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AnyGen - A whole different way to do great work with AI",
+          "url": "https://sf16-scmcdn.larksuitecdn.com/obj/lark-static-sg/axon_resource/images/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://www.anygen.io/home?auto_create_openclaw_key=1"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     }
   ]
 }
