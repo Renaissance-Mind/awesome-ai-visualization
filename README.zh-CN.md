@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-381_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--29-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-401_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--07--31-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -12,6 +12,22 @@
 一个关于 AI 可视化与内容呈现的精选目录：收集使用 LLM 或 Agent，把论文、新闻、网页、文档、代码库、数据集和知识集合转成“给人看的”视觉产物的工具、网站、开源项目、Agent Skill 和 MCP Server。
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
+
+## 最新刷新（2026-07-31）
+
+| 项目 | 本次补充重点 |
+| --- | --- |
+| [baoyu-design](https://github.com/JimLiu/baoyu-design) | Local Agent Skill for Claude Design-style HTML prototypes, dashboards, wireframes, and decks. |
+| [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) | Local-first prompt-to-artifact desktop app for prototypes, slides, PDFs, PPTX, ZIP, and Markdown. |
+| [Azure Architecture Diagram Builder](https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder) | AI and MCP workflow for Azure topology diagrams, blueprint diagrams, cost estimates, WAF checks, and IaC. |
+| [Emboss](https://github.com/GGChamp85/Emboss) | Python/MCP document engine for deterministic accessible PDFs from specs, Markdown, or LLM content. |
+| [StudyBros](https://github.com/Kirneill/StudyBros) | MCP and web app that turns learning files into flashcards, quizzes, practice tests, summaries, and exports. |
+| [pdf-mcp](https://github.com/jztan/pdf-mcp) | Agent PDF support for semantic search, page reads, OCR, table/image extraction, chart data, and rendering. |
+| [data-analysis-skill](https://github.com/dongzhang84/data-analysis-skill) | Claude Code skill for CSV/Excel to narrative HTML reports, interactive charts, and PowerPoint decks. |
+| [Felo AI CLI and Skills](https://github.com/Felo-Inc/felo-skills) | Search, web fetch, subtitles, X search, prompt/file-to-PPT, mind maps, landing pages, and API workflows. |
+| [Highcharts MCP Server](https://github.com/hasnaintypes/highchart-mcp-server) | MCP chart generation and validation with PNG, SVG, PDF, and interactive HTML exports. |
+| [Predictive Maintenance MCP](https://github.com/LGDiMaggio/predictive-maintenance-mcp) | Vibration CSV analysis to bearing-fault diagnostics, risk estimates, reports, evidence, and charts. |
+| [AnyGen Suite Skill](https://github.com/AnyGenIO/anygen-suite-skill) | All-in-one skill for PPT, DOCX, diagrams, storybooks, data visualization, research reports, websites, and images. |
 
 ## ✨ 推荐使用方式
 
