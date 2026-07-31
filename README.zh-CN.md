@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-401_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--31-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-411_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--01-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -81,6 +81,7 @@
 | [ResearchRabbit](https://www.researchrabbit.ai/) | 论文/科研资料 / 引用网络 | 产品/SaaS | 文献地图/知识地图 | 浏览器/账号 / 外部检索/数据源 |
 | [Litmaps](https://www.litmaps.com/) | 论文/科研资料 / 引用网络 | 产品/SaaS | 文献地图/知识地图 | 浏览器/账号 / 外部检索/数据源 |
 | [Consensus](https://consensus.app/) | 论文/科研资料 | 产品/SaaS | 报告/简报 / 证据表 | 浏览器/账号 / 外部检索/数据源 |
+ | [FigureWeave](https://github.com/Krisocer/FigureWeave) [![Star](https://img.shields.io/github/stars/Krisocer/FigureWeave?style=flat&logo=github&label=Star)](https://github.com/Krisocer/FigureWeave/stargazers) | Papers/research / Text/ideas | Open-source app/framework | Graphical abstract/infographic / SVG/PNG/PDF / Web/interactive page | Local runtime / Model API / GPU/accelerator / Rendering/export |
 
 ### 网页、新闻、资讯与行业情报
 
@@ -155,6 +156,7 @@
 | [NodeSecure Report](https://github.com/NodeSecure/report) [![Star](https://img.shields.io/github/stars/NodeSecure/report?style=flat&logo=github&label=Star)](https://github.com/NodeSecure/report/stargazers) | Codebase / Data/tables | Open-source app/framework / API/SDK/library | Code map/Repo Wiki / Long report / SVG/PNG/PDF | Local runtime / External search/data / Code analysis / Rendering/export / System tools |
 | [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | 代码库 / 知识库/个人资料 | MCP Server / 开源应用/框架 | 代码地图/Repo Wiki / 思维导图/知识地图 / 网页/交互页面 | MCP Client / Agent 宿主 / 本地语言环境 / 代码分析工具 / 存储/索引 / 渲染/导出 |
 | [Architecture Discovery MCP](https://github.com/rdtan/architecture-discovery-mcp) [![Star](https://img.shields.io/github/stars/rdtan/architecture-discovery-mcp?style=flat&logo=github&label=Star)](https://github.com/rdtan/architecture-discovery-mcp/stargazers) | 代码库 | MCP Server | 代码地图/Repo Wiki / 架构图/流程图 / PPT/演示文稿 / 表格/时间线 | MCP Client / 本地语言环境 / 代码分析工具 / 渲染/导出 / 模板/素材 |
+ | [Architecture Review Agent Sample](https://github.com/Azure-Samples/agent-architecture-review-sample) [![Star](https://img.shields.io/github/stars/Azure-Samples/agent-architecture-review-sample?style=flat&logo=github&label=Star)](https://github.com/Azure-Samples/agent-architecture-review-sample/stargazers) | Code/technical text / PDF/documents / Text/ideas | Open-source app/framework / Bot/assistant | Code map/repo wiki / Architecture/flow diagram / Briefing/report / Evidence table | Local runtime / Model API / MCP client / Rendering/export / External search/data |
 
 ### 数据、表格与业务指标
 
@@ -201,6 +203,7 @@
 | [mcp-server-antv](https://github.com/antvis/mcp-server-antv) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-antv?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-antv/stargazers) | 数据/表格 / DSL/代码 / 代码/技术描述 | MCP Server | 图表/仪表盘 / 图表/渲染输出 / 架构图/流程图 | MCP Client / 本地语言环境 / 外部检索/数据源 / 渲染/导出 |
 | [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | 数据/表格 / 数据库 / DSL/代码 | Agent Skill / API/SDK/库 | 图表/仪表盘 / 报告/长文档 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
 | [Power BI Skills for Claude Code](https://github.com/lukasreese/powerbi-claude-skills) [![Star](https://img.shields.io/github/stars/lukasreese/powerbi-claude-skills?style=flat&logo=github&label=Star)](https://github.com/lukasreese/powerbi-claude-skills/stargazers) | 数据/表格 / 数据库 / 文本/想法 | Skill 集合 | 图表/仪表盘 / 报告/长文档 | Agent 宿主 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
+ | [Universal AI Dashboard Generator](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator) [![Star](https://img.shields.io/github/stars/shaikmohammedshoaib666/universal-ai-dashboard-generator?style=flat&logo=github&label=Star)](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator/stargazers) | Data/tables | Open-source app/framework | Chart/dashboard / Briefing/report / SVG/PNG/PDF | Local runtime / Model API / External search/data / Rendering/export |
 
 ### 通用文本、想法与白板图示
 
@@ -255,6 +258,11 @@
 | [Muse](https://github.com/edheltzel/Muse) [![Star](https://img.shields.io/github/stars/edheltzel/Muse?style=flat&logo=github&label=Star)](https://github.com/edheltzel/Muse/stargazers) | Text/ideas / Codebase / Code/technical text / Data/tables | Agent skill | Web/interactive page / PPT/deck / Architecture/flow diagram / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [vibe-diagram](https://github.com/imchenway/vibe-diagram) [![Star](https://img.shields.io/github/stars/imchenway/vibe-diagram?style=flat&logo=github&label=Star)](https://github.com/imchenway/vibe-diagram/stargazers) | Text/ideas / Code/technical text / DSL/code | Agent skill | Architecture/flow diagram / Web/interactive page / Diagram/Mermaid | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [tech-diagram](https://github.com/k0tter/tech-diagram) [![Star](https://img.shields.io/github/stars/k0tter/tech-diagram?style=flat&logo=github&label=Star)](https://github.com/k0tter/tech-diagram/stargazers) | Code/technical text / DSL/code / Text/ideas | Agent skill | Architecture/flow diagram / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+ | [MCP Diagram Agent](https://github.com/shaikn6/mcp-diagram-agent) [![Star](https://img.shields.io/github/stars/shaikn6/mcp-diagram-agent?style=flat&logo=github&label=Star)](https://github.com/shaikn6/mcp-diagram-agent/stargazers) | Text/ideas / Code/technical text | MCP server / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Model API / Rendering/export |
+ | [Excalidraw Icons MCP](https://github.com/iagogfe/excalidraw-icons-mcp) [![Star](https://img.shields.io/github/stars/iagogfe/excalidraw-icons-mcp?style=flat&logo=github&label=Star)](https://github.com/iagogfe/excalidraw-icons-mcp/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Rendering/export / Templates/assets |
+ | [statement-to-tikz](https://github.com/will702/statement-to-tikz) [![Star](https://img.shields.io/github/stars/will702/statement-to-tikz?style=flat&logo=github&label=Star)](https://github.com/will702/statement-to-tikz/stargazers) | Text/ideas / DSL/code | Open-source app/framework / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF / Structured data/Markdown | Local runtime / Model API / Rendering/export / System tools |
+ | [GenAI Drawio Creator](https://github.com/tuoxie2046/GenAI-DrawIO-Creator) [![Star](https://img.shields.io/github/stars/tuoxie2046/GenAI-DrawIO-Creator?style=flat&logo=github&label=Star)](https://github.com/tuoxie2046/GenAI-DrawIO-Creator/stargazers) | Text/ideas / PDF/documents / Codebase / Code/technical text | Open-source app/framework / MCP server | Architecture/flow diagram / SVG/PNG/PDF / Web/interactive page | Browser/account / Model API / MCP client / Local runtime / Rendering/export / Templates/assets |
+ | [FlowDoc](https://github.com/htlin222/flowdoc) [![Star](https://img.shields.io/github/stars/htlin222/flowdoc?style=flat&logo=github&label=Star)](https://github.com/htlin222/flowdoc/stargazers) | Data/tables / DSL/code / Papers/research | API/SDK/library | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Rendering/export |
 
 ### 程序化视频与动态讲解
 
@@ -404,6 +412,7 @@
 | [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS / Bot/助手 | PPT/演示文稿 | 浏览器/账号 / 系统工具 / 模板/素材 |
 | [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |
 | [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | 文本/想法 / PDF/文档 / DSL/代码 | 开源应用/框架 | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF | 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
+ | [Slide Alchemy](https://github.com/CodingFeng101/slide-alchemy) [![Star](https://img.shields.io/github/stars/CodingFeng101/slide-alchemy?style=flat&logo=github&label=Star)](https://github.com/CodingFeng101/slide-alchemy/stargazers) | Office docs / PDF/documents / Text/ideas | Agent skill | PPT/deck / SVG/PNG/PDF | Agent host / Model API / Local runtime / Document parsing/OCR / Rendering/export |
 
 ## 辅助、前后处理与小工具
 
@@ -424,6 +433,7 @@
 | [GROBID](https://github.com/grobidOrg/grobid) [![Star](https://img.shields.io/github/stars/grobidOrg/grobid?style=flat&logo=github&label=Star)](https://github.com/grobidOrg/grobid/stargazers) | PDF/文档 / Office 文档 / 论文/科研资料 | 开源应用/框架 | 结构化数据/Markdown | 本地语言环境 / 系统工具 / 文档解析/OCR |
 | [PaperMage](https://github.com/allenai/papermage) [![Star](https://img.shields.io/github/stars/allenai/papermage?style=flat&logo=github&label=Star)](https://github.com/allenai/papermage/stargazers) | PDF/文档 / Office 文档 / 论文/科研资料 | API/SDK/库 | 结构化数据/Markdown | 本地语言环境 / 文档解析/OCR |
 | [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) [![Star](https://img.shields.io/github/stars/allenai/s2orc-doc2json?style=flat&logo=github&label=Star)](https://github.com/allenai/s2orc-doc2json/stargazers) | PDF/文档 / Office 文档 / 论文/科研资料 | 开源应用/框架 | 结构化数据/Markdown | 本地语言环境 / 文档解析/OCR |
+ | [CloudPedagogy Word-to-Mermaid Renderer](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer) [![Star](https://img.shields.io/github/stars/cloudpedagogy/cloudpedagogy-word-mermaid-renderer?style=flat&logo=github&label=Star)](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer/stargazers) | Office docs / Text/ideas / DSL/code | Open-source app/framework | Diagram/Mermaid / Web/interactive page / Structured data/Markdown | Local runtime / Document parsing/OCR / Rendering/export |
 
 ### 思维导图专项工具
 
