@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-07-30T23:09:26+00:00",
-  "lastResearched": "2026-07-31",
+  "generatedAt": "2026-07-31T23:08:22+00:00",
+  "lastResearched": "2026-08-01",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 401,
-    "openSource": 108,
+    "total": 411,
+    "openSource": 114,
     "saas": 52,
-    "modelApi": 148,
-    "examples": 1065,
-    "effectAssets": 1320,
-    "docs": 1180
+    "modelApi": 155,
+    "examples": 1082,
+    "effectAssets": 1330,
+    "docs": 1187
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 47,
-      "PDF/文档": 137,
-      "文本/想法": 250,
-      "数据/表格": 146,
-      "代码/技术描述": 72,
+      "论文/科研资料": 49,
+      "PDF/文档": 140,
+      "文本/想法": 258,
+      "数据/表格": 148,
+      "代码/技术描述": 76,
       "网页/搜索结果": 120,
-      "代码库": 43,
-      "DSL/代码": 74,
+      "代码库": 44,
+      "DSL/代码": 78,
       "新闻/资讯": 16,
       "知识库/个人资料": 31,
       "任意/多源": 58,
-      "Office 文档": 52,
+      "Office 文档": 54,
       "引用网络": 4,
       "数据库": 27,
       "视频/音频": 1
     },
     "toolForms": {
-      "开源应用/框架": 108,
-      "Agent Skill": 132,
+      "开源应用/框架": 114,
+      "Agent Skill": 134,
       "Skill 集合": 34,
       "数据集/评测": 2,
-      "Bot/助手": 11,
+      "Bot/助手": 12,
       "产品/SaaS": 52,
-      "MCP Server": 108,
+      "MCP Server": 111,
       "研究原型": 4,
-      "API/SDK/库": 43,
+      "API/SDK/库": 46,
       "Awesome/索引": 21
     },
     "outputForms": {
-      "图形摘要/信息图": 28,
-      "PPT/演示文稿": 177,
-      "网页/交互页面": 115,
+      "图形摘要/信息图": 29,
+      "PPT/演示文稿": 178,
+      "网页/交互页面": 119,
       "问答/学习材料": 15,
       "报告/长文档": 53,
-      "证据表": 21,
+      "证据表": 22,
       "信息图/视觉报告": 57,
-      "图表/仪表盘": 105,
-      "架构图/流程图": 87,
-      "SVG/PNG/PDF": 135,
-      "报告/简报": 42,
-      "白板/思维导图": 27,
-      "图表/Mermaid": 46,
+      "图表/仪表盘": 106,
+      "架构图/流程图": 93,
+      "SVG/PNG/PDF": 143,
+      "报告/简报": 44,
+      "白板/思维导图": 28,
+      "图表/Mermaid": 48,
       "视频/音频": 31,
       "表格/时间线": 11,
       "引用答案": 5,
       "思维导图/知识地图": 27,
-      "结构化数据/Markdown": 39,
+      "结构化数据/Markdown": 41,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 25,
+      "代码地图/Repo Wiki": 26,
       "图表/渲染输出": 13,
       "工具索引": 23
     },
     "dependencies": {
-      "本地语言环境": 308,
-      "模型 API": 148,
-      "文档解析/OCR": 65,
-      "渲染/导出": 318,
-      "GPU/加速器": 10,
-      "模板/素材": 184,
-      "Agent 宿主": 172,
-      "系统工具": 67,
-      "浏览器/账号": 111,
+      "本地语言环境": 318,
+      "模型 API": 155,
+      "文档解析/OCR": 67,
+      "渲染/导出": 328,
+      "GPU/加速器": 11,
+      "模板/素材": 186,
+      "Agent 宿主": 173,
+      "系统工具": 68,
+      "浏览器/账号": 112,
       "存储/索引": 51,
-      "外部检索/数据源": 78,
-      "MCP Client": 111,
+      "外部检索/数据源": 80,
+      "MCP Client": 115,
       "代码分析工具": 29
     },
     "categories": {
-      "paper-visualization": 13,
-      "doc-to-knowledge": 39,
+      "paper-visualization": 14,
+      "doc-to-knowledge": 40,
       "research-report": 21,
       "infographic-report": 34,
-      "data-dashboard": 48,
-      "diagram-generation": 51,
+      "data-dashboard": 49,
+      "diagram-generation": 56,
       "literature-map": 4,
-      "presentation-tools": 116,
-      "codebase-map": 23,
+      "presentation-tools": 117,
+      "codebase-map": 24,
       "rendering-primitive": 8,
       "video-generation": 10,
       "commercial-site": 10,
       "meta-index": 24
     },
     "groups": {
-      "paper": 25,
+      "paper": 26,
       "text_visual": 47,
       "web_news": 8,
       "support_mindmap": 13,
       "docs": 23,
-      "support_doc_parse": 10,
-      "presentation": 128,
-      "code": 24,
+      "support_doc_parse": 11,
+      "presentation": 129,
+      "code": 25,
       "support_render": 44,
-      "diagrams": 2,
+      "diagrams": 7,
       "video": 10,
-      "data": 42,
+      "data": 43,
       "indexes": 24,
       "diagram": 1
     }
@@ -36205,6 +36205,621 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "MCP Diagram Agent",
+      "url": "https://github.com/shaikn6/mcp-diagram-agent",
+      "primaryUrl": "https://github.com/shaikn6/mcp-diagram-agent",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "MCP stdio server and FastAPI endpoint that turn natural-language software-system descriptions into deterministic, importable Excalidraw JSON with layer-aware layout, colors, arrows, and a narrow Claude-generated node/edge spec.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Excalidraw Icons MCP",
+      "url": "https://github.com/iagogfe/excalidraw-icons-mcp",
+      "primaryUrl": "https://github.com/iagogfe/excalidraw-icons-mcp",
+      "homepage": "https://github.com/iagogfe/excalidraw-icons-mcp/releases/latest",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 27,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "Excalidraw MCP server and portable agent skill with live canvas sync, 31 element tools, screenshot inspection, Mermaid import, snapshots, Excalidraw URL export, and vendor-icon search for AWS, Azure, GCP, OCI, Kubernetes, Simple Icons, Tabler, and Iconify diagrams.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "OCI diagram toolkit",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm",
+          "source": "https://raw.githubusercontent.com/iagogfe/excalidraw-icons-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Universal AI Dashboard Generator",
+      "url": "https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator",
+      "primaryUrl": "https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator",
+      "homepage": "https://universal-ai-dashboard-generator-ujh2776ay9xlwvrfy3q6bj.streamlit.app/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-07-30",
+      "note": "Streamlit and Plotly app that ingests CSV files, cleans and profiles data, generates ten deterministic insights, builds adaptive dashboards, creates shareable PDF reports, and can email scheduled daily reports with optional OpenAI narrative summaries.",
+      "sourceTypes": [
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Architecture Review Agent Sample",
+      "url": "https://github.com/Azure-Samples/agent-architecture-review-sample",
+      "primaryUrl": "https://github.com/Azure-Samples/agent-architecture-review-sample",
+      "homepage": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/step-by-step-deploy-the-architecture-review-agent-using-azd-ai-cli/4504460",
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "MCP Client",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 94,
+      "license": "MIT",
+      "updated": "2026-07-29",
+      "note": "Azure sample agent that reviews YAML, Markdown, plaintext, code, design docs, and architecture descriptions, then produces prioritized risk analysis, recommendations, structured reports, editable Excalidraw diagrams, PNG exports, a React UI, REST API, and Microsoft Foundry hosted-agent deployment.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "download and watch it here",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/screenshots/microservices_banking_demo.mp4",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "tools.py",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/tools.py",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "api.py",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/api.py",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Dockerfile.web",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/Dockerfile.web",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "frontend/",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/frontend/",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "scripts/windows/deploy-webapp.ps1",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/scripts/windows/deploy-webapp.ps1",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "main.py",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/main.py",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "agent.yaml",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/agent.yaml",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Dockerfile",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/Dockerfile",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "docs/deployment.md",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/docs/deployment.md",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "docs/azd-local.md",
+          "url": "https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/docs/azd-local.md",
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Microservices Banking Demo",
+          "url": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/screenshots/microservices_banking_demo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Architecture Overview",
+          "url": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/screenshots/architecture_overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 11,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "CloudPedagogy Word-to-Mermaid Renderer",
+      "url": "https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer",
+      "primaryUrl": "https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer",
+      "homepage": "http://cloudpedagogy-word-mermaid-renderer.s3-website.eu-west-2.amazonaws.com/",
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-28",
+      "note": "Python converter that extracts Mermaid diagram collections from structured Word documents using Heading styles, writes reusable .mmd files, and optionally creates standalone interactive Mermaid.js HTML pages for literature-review and documentation workflows.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Slide Alchemy",
+      "url": "https://github.com/CodingFeng101/slide-alchemy",
+      "primaryUrl": "https://github.com/CodingFeng101/slide-alchemy",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 32,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "Codex skill for converting slide screenshots, scanned decks, and image-based PPT/PPTX files into editable PowerPoint decks with real text boxes, native geometry for simple shapes, AI-cleaned backgrounds, and stable generated PNG assets for complex icons.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`image-ppt.pptx`",
+          "url": "https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/01-smart-campus/image-ppt.pptx",
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`editable.pptx`",
+          "url": "https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/01-smart-campus/editable.pptx",
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`image-ppt.pptx`",
+          "url": "https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/02-project-overview/image-ppt.pptx",
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`editable.pptx`",
+          "url": "https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/02-project-overview/editable.pptx",
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Smart campus image PPT",
+          "url": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/01-smart-campus/image-ppt-screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Smart campus editable PPTX",
+          "url": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/01-smart-campus/editable-selected-textboxes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Project overview image PPT",
+          "url": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/02-project-overview/image-ppt-screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Project overview editable PPTX",
+          "url": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/02-project-overview/editable-selected-textboxes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 4,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "statement-to-tikz",
+      "url": "https://github.com/will702/statement-to-tikz",
+      "primaryUrl": "https://github.com/will702/statement-to-tikz",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-28",
+      "note": "Python CLI and library that converts olympiad-style plane-geometry statements into GeometryIR, solves constraints with SciPy, emits standalone TikZ, IR JSON, residual reports, and optional compiled PDFs, with an offline pattern formalizer plus optional OpenAI-compatible LLM formalization.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "FigureWeave",
+      "url": "https://github.com/Krisocer/FigureWeave",
+      "primaryUrl": "https://github.com/Krisocer/FigureWeave",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "GPU/加速器",
+        "渲染/导出"
+      ],
+      "stars": 17,
+      "license": "MIT",
+      "updated": "2026-07-10",
+      "note": "Research-engineering pipeline and web UI that turn paper method text and figure captions into editable SVG scientific figures through image drafting, local SAM3 segmentation, asset extraction, SVG reasoning/reconstruction, multi-candidate generation, and final SVG assembly.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "img/case/multimodal_medical_report_template.svg",
+          "url": "https://github.com/Krisocer/FigureWeave/blob/HEAD/img/case/multimodal_medical_report_template.svg",
+          "source": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "FigureWeave showcase draft",
+          "url": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/case/multimodal_medical_report_draft.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "FigureWeave promo",
+          "url": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/UI/FigureWeave.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "FigureWeave config UI",
+          "url": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/UI/UI_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "FigureWeave editable canvas UI",
+          "url": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/UI/UI_2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "GenAI Drawio Creator",
+      "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator",
+      "primaryUrl": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "Apache-2.0",
+      "updated": "2026-07-13",
+      "note": "Next.js draw.io workspace that lets users generate, edit, and validate diagrams through chat, file upload, codebase-aware MCP context, non-destructive cell operations, cloud architecture icon libraries, animated connectors, and a preview MCP server for agent clients.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文",
+          "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/cn/README_CN.md",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/ja/README_JA.md",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Go to Docker Guide",
+          "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/docker.md",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Provider Configuration Guide",
+          "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/ai-providers.md",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Go to Cloudflare Deploy Guide",
+          "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/cloudflare-deploy.md",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "FAQ",
+          "url": "https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/FAQ.md",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arXiv:2601.05162",
+          "url": "https://arxiv.org/abs/2601.05162",
+          "source": "https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 6,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "FlowDoc",
+      "url": "https://github.com/htlin222/flowdoc",
+      "primaryUrl": "https://github.com/htlin222/flowdoc",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-19",
+      "note": "TypeScript package and CLI for deterministic PRISMA, CONSORT, and STROBE reporting-guideline flow diagrams from YAML, JSON, or CSV, exporting the same layout to SVG, draw.io, Mermaid, PDF, and PNG with schema and flow-accounting validation.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

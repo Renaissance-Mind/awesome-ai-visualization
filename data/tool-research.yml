@@ -1,4 +1,4 @@
-generated_at: '2026-07-30T23:09:26+00:00'
+generated_at: '2026-07-31T23:08:22+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 401
-  fetched_sources_ok: 550
+  entries: 411
+  fetched_sources_ok: 564
   fetched_sources_failed: 31
-  official_examples: 1065
-  official_effect_assets: 1320
-  official_docs: 1180
+  official_examples: 1082
+  official_effect_assets: 1330
+  official_docs: 1187
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -36434,3 +36434,527 @@ entries:
     title: AnyGen - A whole different way to do great work with AI
     url: https://sf16-scmcdn.larksuitecdn.com/obj/lark-static-sg/axon_resource/images/og-image.png
     source: https://www.anygen.io/home?auto_create_openclaw_key=1
+- name: MCP Diagram Agent
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/shaikn6/mcp-diagram-agent
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: MCP stdio server and FastAPI endpoint that turn natural-language software-system descriptions into deterministic,
+    importable Excalidraw JSON with layer-aware layout, colors, arrows, and a narrow Claude-generated node/edge spec.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shaikn6/mcp-diagram-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shaikn6/mcp-diagram-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Diagram Agent
+    bytes: 10012
+  source_headings:
+  - MCP Diagram Agent
+  - 4. Generate a diagram
+  - 5. Paste the "diagram" field contents into https://excalidraw.com/
+  - MCP Usage
+  - REST API Usage
+  - '{"status":"ok","version":"0.1.0","service":"mcp-diagram-agent"}'
+  - Supported Diagram Elements
+- name: Excalidraw Icons MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/iagogfe/excalidraw-icons-mcp
+  homepage: https://github.com/iagogfe/excalidraw-icons-mcp/releases/latest
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Excalidraw MCP server and portable agent skill with live canvas sync, 31 element tools, screenshot inspection,
+    Mermaid import, snapshots, Excalidraw URL export, and vendor-icon search for AWS, Azure, GCP, OCI, Kubernetes, Simple
+    Icons, Tabler, and Iconify diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/iagogfe/excalidraw-icons-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/iagogfe/excalidraw-icons-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Excalidraw Icons MCP
+    bytes: 22584
+  - kind: homepage
+    url: https://github.com/iagogfe/excalidraw-icons-mcp/releases/tag/v1.0.0
+    final_url: https://github.com/iagogfe/excalidraw-icons-mcp/releases/tag/v1.0.0
+    status: 200
+    content_type: text/html
+    title: Release v1.0.0 · iagogfe/excalidraw-icons-mcp · GitHub
+    description: Excalidraw MCP server with real vendor-icon search & insertion (AWS/Azure/GCP/OCI/Kubernetes) for AI-built
+      architecture diagrams — live canvas, 31 tools - Release v1.0.0 · iagogfe/
+    bytes: 220199
+  official_docs:
+  - kind: docs
+    title: OCI diagram toolkit
+    url: https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm
+    source: https://raw.githubusercontent.com/iagogfe/excalidraw-icons-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: OCI diagram toolkit
+    url: https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm
+    source: https://raw.githubusercontent.com/iagogfe/excalidraw-icons-mcp/HEAD/README.md
+  source_headings:
+  - Demo
+  - Install The Skill (Codex CLI example)
+  - Per-Domain Diagram Conventions
+- name: Universal AI Dashboard Generator
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator
+  homepage: https://universal-ai-dashboard-generator-ujh2776ay9xlwvrfy3q6bj.streamlit.app/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Streamlit and Plotly app that ingests CSV files, cleans and profiles data, generates ten deterministic insights,
+    builds adaptive dashboards, creates shareable PDF reports, and can email scheduled daily reports with optional OpenAI
+    narrative summaries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shaikmohammedshoaib666/universal-ai-dashboard-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shaikmohammedshoaib666/universal-ai-dashboard-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Universal AI Dashboard Generator
+    bytes: 3060
+  - kind: homepage
+    url: https://universal-ai-dashboard-generator-ujh2776ay9xlwvrfy3q6bj.streamlit.app/
+    final_url: https://universal-ai-dashboard-generator-ujh2776ay9xlwvrfy3q6bj.streamlit.app/
+    status: 200
+    content_type: text/html
+    title: null
+    bytes: 5843
+  source_headings:
+  - Universal AI Dashboard Generator
+  - Docker (dashboard + scheduler)
+- name: Architecture Review Agent Sample
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/Azure-Samples/agent-architecture-review-sample
+  homepage: https://techcommunity.microsoft.com/blog/educatordeveloperblog/step-by-step-deploy-the-architecture-review-agent-using-azd-ai-cli/4504460
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - MCP Client
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: Azure sample agent that reviews YAML, Markdown, plaintext, code, design docs, and architecture descriptions,
+    then produces prioritized risk analysis, recommendations, structured reports, editable Excalidraw diagrams, PNG exports,
+    a React UI, REST API, and Microsoft Foundry hosted-agent deployment.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Architecture Review Agent Sample
+    bytes: 22142
+  - kind: homepage
+    url: https://techcommunity.microsoft.com/blog/educatordeveloperblog/step-by-step-deploy-the-architecture-review-agent-using-azd-ai-cli/4504460
+    final_url: https://techcommunity.microsoft.com/blog/educatordeveloperblog/step-by-step-deploy-the-architecture-review-agent-using-azd-ai-cli/4504460
+    status: 200
+    content_type: text/html
+    title: 'Step-by-Step: Deploy the Architecture Review Agent Using AZD AI CLI | Microsoft Community Hub'
+    description: Building an AI agent is easy; operating it is an infrastructure trap. Discover how to use the azd ai CLI
+      extension to streamline your workflow. From local...
+    bytes: 295420
+  official_examples:
+  - kind: example
+    title: download and watch it here
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/screenshots/microservices_banking_demo.mp4
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: tools.py
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/tools.py
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: api.py
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/api.py
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: Dockerfile.web
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/Dockerfile.web
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: frontend/
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/frontend/
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: scripts/windows/deploy-webapp.ps1
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/scripts/windows/deploy-webapp.ps1
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: main.py
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/main.py
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: agent.yaml
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/agent.yaml
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: Dockerfile
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/Dockerfile
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: docs/deployment.md
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/docs/deployment.md
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: docs/azd-local.md
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/docs/azd-local.md
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: Microservices Banking Demo
+    url: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/screenshots/microservices_banking_demo.mp4
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: image
+    title: Architecture Overview
+    url: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/screenshots/architecture_overview.png
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  official_links:
+  - kind: example
+    title: download and watch it here
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/screenshots/microservices_banking_demo.mp4
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: tools.py
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/tools.py
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: api.py
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/api.py
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: Dockerfile.web
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/Dockerfile.web
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: frontend/
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/frontend/
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: scripts/windows/deploy-webapp.ps1
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/scripts/windows/deploy-webapp.ps1
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: main.py
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/main.py
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: agent.yaml
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/agent.yaml
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: Dockerfile
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/Dockerfile
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: docs/deployment.md
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/docs/deployment.md
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  - kind: example
+    title: docs/azd-local.md
+    url: https://github.com/Azure-Samples/agent-architecture-review-sample/blob/HEAD/docs/azd-local.md
+    source: https://raw.githubusercontent.com/Azure-Samples/agent-architecture-review-sample/HEAD/README.md
+  source_headings:
+  - Architecture Review Agent Sample
+  - Demo
+  - Copy the template
+  - Usage
+  - With Excalidraw MCP server rendering (interactive diagram)
+  - Template-based (rule-based inputs)
+- name: CloudPedagogy Word-to-Mermaid Renderer
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer
+  homepage: http://cloudpedagogy-word-mermaid-renderer.s3-website.eu-west-2.amazonaws.com/
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Python converter that extracts Mermaid diagram collections from structured Word documents using Heading styles,
+    writes reusable .mmd files, and optionally creates standalone interactive Mermaid.js HTML pages for literature-review
+    and documentation workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: CloudPedagogy Word-to-Mermaid Renderer
+    bytes: 7983
+  - kind: homepage
+    url: http://cloudpedagogy-word-mermaid-renderer.s3-website.eu-west-2.amazonaws.com/
+    final_url: http://cloudpedagogy-word-mermaid-renderer.s3-website.eu-west-2.amazonaws.com/
+    status: 200
+    content_type: text/html
+    title: Literature Review Branching Flow
+    bytes: 1993
+  source_headings:
+  - Live demo
+  - Example
+  - Supported Mermaid diagrams
+  - Run the supplied demonstration
+  - '`No Heading 2 diagram sections found`'
+- name: Slide Alchemy
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/CodingFeng101/slide-alchemy
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Codex skill for converting slide screenshots, scanned decks, and image-based PPT/PPTX files into editable
+    PowerPoint decks with real text boxes, native geometry for simple shapes, AI-cleaned backgrounds, and stable generated
+    PNG assets for complex icons.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Slide Alchemy
+    bytes: 5766
+  official_examples:
+  - kind: example
+    title: '`image-ppt.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/01-smart-campus/image-ppt.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: example
+    title: '`editable.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/01-smart-campus/editable.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: example
+    title: '`image-ppt.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/02-project-overview/image-ppt.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: example
+    title: '`editable.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/02-project-overview/editable.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Smart campus image PPT
+    url: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/01-smart-campus/image-ppt-screenshot.png
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: image
+    title: Smart campus editable PPTX
+    url: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/01-smart-campus/editable-selected-textboxes.png
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: image
+    title: Project overview image PPT
+    url: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/02-project-overview/image-ppt-screenshot.png
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: image
+    title: Project overview editable PPTX
+    url: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/examples/02-project-overview/editable-selected-textboxes.png
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`image-ppt.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/01-smart-campus/image-ppt.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: example
+    title: '`editable.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/01-smart-campus/editable.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: example
+    title: '`image-ppt.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/02-project-overview/image-ppt.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  - kind: example
+    title: '`editable.pptx`'
+    url: https://github.com/CodingFeng101/slide-alchemy/blob/HEAD/examples/02-project-overview/editable.pptx
+    source: https://raw.githubusercontent.com/CodingFeng101/slide-alchemy/HEAD/README.md
+  source_headings:
+  - Slide Alchemy
+  - 🖥️ Examples
+  - 🚀 Usage
+- name: statement-to-tikz
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/will702/statement-to-tikz
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Python CLI and library that converts olympiad-style plane-geometry statements into GeometryIR, solves constraints
+    with SciPy, emits standalone TikZ, IR JSON, residual reports, and optional compiled PDFs, with an offline pattern formalizer
+    plus optional OpenAI-compatible LLM formalization.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/will702/statement-to-tikz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/will702/statement-to-tikz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: statement-to-tikz
+    bytes: 2483
+  source_headings:
+  - Library usage
+- name: FigureWeave
+  category: paper-visualization
+  surface: open-source
+  primary_url: https://github.com/Krisocer/FigureWeave
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 渲染/导出
+  catalog_note: Research-engineering pipeline and web UI that turn paper method text and figure captions into editable SVG
+    scientific figures through image drafting, local SAM3 segmentation, asset extraction, SVG reasoning/reconstruction, multi-candidate
+    generation, and final SVG assembly.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Overview
+    bytes: 13012
+  official_examples:
+  - kind: template
+    title: img/case/multimodal_medical_report_template.svg
+    url: https://github.com/Krisocer/FigureWeave/blob/HEAD/img/case/multimodal_medical_report_template.svg
+    source: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: FigureWeave showcase draft
+    url: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/case/multimodal_medical_report_draft.png
+    source: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+  - kind: image
+    title: FigureWeave promo
+    url: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/UI/FigureWeave.jpg
+    source: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+  - kind: image
+    title: FigureWeave config UI
+    url: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/UI/UI_1.png
+    source: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+  - kind: image
+    title: FigureWeave editable canvas UI
+    url: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/img/UI/UI_2.png
+    source: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+  official_links:
+  - kind: template
+    title: img/case/multimodal_medical_report_template.svg
+    url: https://github.com/Krisocer/FigureWeave/blob/HEAD/img/case/multimodal_medical_report_template.svg
+    source: https://raw.githubusercontent.com/Krisocer/FigureWeave/HEAD/README.md
+  source_headings:
+  - 'Gallery: Editable Vectorization & Style Transfer'
+- name: GenAI Drawio Creator
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Next.js draw.io workspace that lets users generate, edit, and validate diagrams through chat, file upload,
+    codebase-aware MCP context, non-destructive cell operations, cloud architecture icon libraries, animated connectors, and
+    a preview MCP server for agent clients.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: GenAI Drawio Creator
+    bytes: 12301
+  official_examples:
+  - kind: paper
+    title: arXiv:2601.05162
+    url: https://arxiv.org/abs/2601.05162
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 中文
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/cn/README_CN.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/ja/README_JA.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: Go to Docker Guide
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/docker.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: Provider Configuration Guide
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/ai-providers.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: Go to Cloudflare Deploy Guide
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/cloudflare-deploy.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/FAQ.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 中文
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/cn/README_CN.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/ja/README_JA.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: Go to Docker Guide
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/docker.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: Provider Configuration Guide
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/ai-providers.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: Go to Cloudflare Deploy Guide
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/cloudflare-deploy.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: paper
+    title: arXiv:2601.05162
+    url: https://arxiv.org/abs/2601.05162
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator/blob/HEAD/docs/en/FAQ.md
+    source: https://raw.githubusercontent.com/tuoxie2046/GenAI-DrawIO-Creator/HEAD/README.md
+  source_headings:
+  - Examples
+- name: FlowDoc
+  category: diagram-generation
+  surface: library
+  primary_url: https://github.com/htlin222/flowdoc
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: TypeScript package and CLI for deterministic PRISMA, CONSORT, and STROBE reporting-guideline flow diagrams
+    from YAML, JSON, or CSV, exporting the same layout to SVG, draw.io, Mermaid, PDF, and PNG with schema and flow-accounting
+    validation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/htlin222/flowdoc/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/htlin222/flowdoc/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: FlowDoc
+    bytes: 16260
+  source_headings:
+  - Gallery
+  - Create a blank PRISMA 2020 template
+  - '... see examples/prisma-review.yaml for the full field list'

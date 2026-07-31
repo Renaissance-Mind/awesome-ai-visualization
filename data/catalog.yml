@@ -1,4 +1,4 @@
-last_researched: '2026-07-31'
+last_researched: '2026-08-01'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -10074,3 +10074,259 @@ entries:
   - 图形摘要/信息图
   catalog_section: main
   readme_group: presentation
+- name: MCP Diagram Agent
+  url: https://github.com/shaikn6/mcp-diagram-agent
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-07-30'
+  note: MCP stdio server and FastAPI endpoint that turn natural-language software-system descriptions into deterministic, importable Excalidraw JSON with layer-aware layout, colors, arrows, and a narrow Claude-generated node/edge spec.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams
+- name: Excalidraw Icons MCP
+  url: https://github.com/iagogfe/excalidraw-icons-mcp
+  homepage: https://github.com/iagogfe/excalidraw-icons-mcp/releases/latest
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 27
+  license: MIT
+  updated: '2026-07-30'
+  note: Excalidraw MCP server and portable agent skill with live canvas sync, 31 element tools, screenshot inspection, Mermaid import, snapshots, Excalidraw URL export, and vendor-icon search for AWS, Azure, GCP, OCI, Kubernetes, Simple Icons, Tabler, and Iconify diagrams.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: diagrams
+- name: Universal AI Dashboard Generator
+  url: https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator
+  homepage: https://universal-ai-dashboard-generator-ujh2776ay9xlwvrfy3q6bj.streamlit.app/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  license: unknown
+  updated: '2026-07-30'
+  note: Streamlit and Plotly app that ingests CSV files, cleans and profiles data, generates ten deterministic insights, builds adaptive dashboards, creates shareable PDF reports, and can email scheduled daily reports with optional OpenAI narrative summaries.
+  source_types:
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: Architecture Review Agent Sample
+  url: https://github.com/Azure-Samples/agent-architecture-review-sample
+  homepage: https://techcommunity.microsoft.com/blog/educatordeveloperblog/step-by-step-deploy-the-architecture-review-agent-using-azd-ai-cli/4504460
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - MCP Client
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 94
+  license: MIT
+  updated: '2026-07-29'
+  note: Azure sample agent that reviews YAML, Markdown, plaintext, code, design docs, and architecture descriptions, then produces prioritized risk analysis, recommendations, structured reports, editable Excalidraw diagrams, PNG exports, a React UI, REST API, and Microsoft Foundry hosted-agent deployment.
+  source_types:
+  - 代码/技术描述
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: CloudPedagogy Word-to-Mermaid Renderer
+  url: https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer
+  homepage: http://cloudpedagogy-word-mermaid-renderer.s3-website.eu-west-2.amazonaws.com/
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-07-28'
+  note: Python converter that extracts Mermaid diagram collections from structured Word documents using Heading styles, writes reusable .mmd files, and optionally creates standalone interactive Mermaid.js HTML pages for literature-review and documentation workflows.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/Mermaid
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Slide Alchemy
+  url: https://github.com/CodingFeng101/slide-alchemy
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 32
+  license: MIT
+  updated: '2026-07-30'
+  note: Codex skill for converting slide screenshots, scanned decks, and image-based PPT/PPTX files into editable PowerPoint decks with real text boxes, native geometry for simple shapes, AI-cleaned backgrounds, and stable generated PNG assets for complex icons.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: statement-to-tikz
+  url: https://github.com/will702/statement-to-tikz
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  stars: 1
+  license: MIT
+  updated: '2026-07-28'
+  note: Python CLI and library that converts olympiad-style plane-geometry statements into GeometryIR, solves constraints with SciPy, emits standalone TikZ, IR JSON, residual reports, and optional compiled PDFs, with an offline pattern formalizer plus optional OpenAI-compatible LLM formalization.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: diagrams
+- name: FigureWeave
+  url: https://github.com/Krisocer/FigureWeave
+  category: paper-visualization
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 渲染/导出
+  stars: 17
+  license: MIT
+  updated: '2026-07-10'
+  note: Research-engineering pipeline and web UI that turn paper method text and figure captions into editable SVG scientific figures through image drafting, local SAM3 segmentation, asset extraction, SVG reasoning/reconstruction, multi-candidate generation, and final SVG assembly.
+  source_types:
+  - 论文/科研资料
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: paper
+- name: GenAI Drawio Creator
+  url: https://github.com/tuoxie2046/GenAI-DrawIO-Creator
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: Apache-2.0
+  updated: '2026-07-13'
+  note: Next.js draw.io workspace that lets users generate, edit, and validate diagrams through chat, file upload, codebase-aware MCP context, non-destructive cell operations, cloud architecture icon libraries, animated connectors, and a preview MCP server for agent clients.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: diagrams
+- name: FlowDoc
+  url: https://github.com/htlin222/flowdoc
+  category: diagram-generation
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-06-19'
+  note: TypeScript package and CLI for deterministic PRISMA, CONSORT, and STROBE reporting-guideline flow diagrams from YAML, JSON, or CSV, exporting the same layout to SVG, draw.io, Mermaid, PDF, and PNG with schema and flow-accounting validation.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 论文/科研资料
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams

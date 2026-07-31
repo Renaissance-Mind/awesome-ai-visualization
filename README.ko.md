@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-401_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--07--31-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-411_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--01-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,21 +15,20 @@
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
 
-## 최신 갱신 (2026-07-31)
+## 최신 갱신 (2026-08-01)
 
 | 프로젝트 | 이번 추가 초점 |
 | --- | --- |
-| [baoyu-design](https://github.com/JimLiu/baoyu-design) | Local Agent Skill for Claude Design-style HTML prototypes, dashboards, wireframes, and decks. |
-| [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) | Local-first prompt-to-artifact desktop app for prototypes, slides, PDFs, PPTX, ZIP, and Markdown. |
-| [Azure Architecture Diagram Builder](https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder) | AI and MCP workflow for Azure topology diagrams, blueprint diagrams, cost estimates, WAF checks, and IaC. |
-| [Emboss](https://github.com/GGChamp85/Emboss) | Python/MCP document engine for deterministic accessible PDFs from specs, Markdown, or LLM content. |
-| [StudyBros](https://github.com/Kirneill/StudyBros) | MCP and web app that turns learning files into flashcards, quizzes, practice tests, summaries, and exports. |
-| [pdf-mcp](https://github.com/jztan/pdf-mcp) | Agent PDF support for semantic search, page reads, OCR, table/image extraction, chart data, and rendering. |
-| [data-analysis-skill](https://github.com/dongzhang84/data-analysis-skill) | Claude Code skill for CSV/Excel to narrative HTML reports, interactive charts, and PowerPoint decks. |
-| [Felo AI CLI and Skills](https://github.com/Felo-Inc/felo-skills) | Search, web fetch, subtitles, X search, prompt/file-to-PPT, mind maps, landing pages, and API workflows. |
-| [Highcharts MCP Server](https://github.com/hasnaintypes/highchart-mcp-server) | MCP chart generation and validation with PNG, SVG, PDF, and interactive HTML exports. |
-| [Predictive Maintenance MCP](https://github.com/LGDiMaggio/predictive-maintenance-mcp) | Vibration CSV analysis to bearing-fault diagnostics, risk estimates, reports, evidence, and charts. |
-| [AnyGen Suite Skill](https://github.com/AnyGenIO/anygen-suite-skill) | All-in-one skill for PPT, DOCX, diagrams, storybooks, data visualization, research reports, websites, and images. |
+| [MCP Diagram Agent](https://github.com/shaikn6/mcp-diagram-agent) | Natural-language system descriptions to deterministic Excalidraw JSON via MCP/REST. |
+| [Excalidraw Icons MCP](https://github.com/iagogfe/excalidraw-icons-mcp) | Live Excalidraw MCP canvas with vendor icons, screenshots, Mermaid import, and exports. |
+| [Universal AI Dashboard Generator](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator) | CSV cleaning to Plotly dashboards, deterministic insights, PDF reports, and scheduled emails. |
+| [Architecture Review Agent Sample](https://github.com/Azure-Samples/agent-architecture-review-sample) | Architecture docs/code to risk reviews, recommendations, Excalidraw diagrams, PNG, and UI/API. |
+| [CloudPedagogy Word-to-Mermaid Renderer](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer) | Structured Word documents to Mermaid .mmd files and optional interactive HTML pages. |
+| [Slide Alchemy](https://github.com/CodingFeng101/slide-alchemy) | Image-based or scanned slide decks to editable PowerPoint with real text and geometry. |
+| [statement-to-tikz](https://github.com/will702/statement-to-tikz) | Geometry statements to solved GeometryIR, TikZ, residual reports, and optional PDFs. |
+| [FigureWeave](https://github.com/Krisocer/FigureWeave) | Method text and captions to editable SVG scientific figures with SAM3-assisted reconstruction. |
+| [GenAI Drawio Creator](https://github.com/tuoxie2046/GenAI-DrawIO-Creator) | Chat and MCP-assisted draw.io diagrams with file upload, validation, cloud icons, and iterative edits. |
+| [FlowDoc](https://github.com/htlin222/flowdoc) | YAML/JSON/CSV reporting data to deterministic PRISMA/CONSORT/STROBE diagrams in SVG/drawio/Mermaid/PDF/PNG. |
 
 ## ✨ 추천 사용법
 
@@ -83,6 +82,7 @@
 | [ResearchRabbit](https://www.researchrabbit.ai/) | 논문/연구 / 인용 그래프 | 제품/SaaS | 문헌/지식 지도 | 브라우저/계정 / 외부 검색/데이터 |
 | [Litmaps](https://www.litmaps.com/) | 논문/연구 / 인용 그래프 | 제품/SaaS | 문헌/지식 지도 | 브라우저/계정 / 외부 검색/데이터 |
 | [Consensus](https://consensus.app/) | 논문/연구 | 제품/SaaS | 브리핑/보고서 / 근거 표 | 브라우저/계정 / 외부 검색/데이터 |
+ | [FigureWeave](https://github.com/Krisocer/FigureWeave) [![Star](https://img.shields.io/github/stars/Krisocer/FigureWeave?style=flat&logo=github&label=Star)](https://github.com/Krisocer/FigureWeave/stargazers) | Papers/research / Text/ideas | Open-source app/framework | Graphical abstract/infographic / SVG/PNG/PDF / Web/interactive page | Local runtime / Model API / GPU/accelerator / Rendering/export |
 
 ### 웹, 뉴스 및 인텔리전스
 
@@ -157,6 +157,7 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [NodeSecure Report](https://github.com/NodeSecure/report) [![Star](https://img.shields.io/github/stars/NodeSecure/report?style=flat&logo=github&label=Star)](https://github.com/NodeSecure/report/stargazers) | Codebase / Data/tables | Open-source app/framework / API/SDK/library | Code map/Repo Wiki / Long report / SVG/PNG/PDF | Local runtime / External search/data / Code analysis / Rendering/export / System tools |
 | [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | 코드베이스 / 지식 베이스 | MCP server / 오픈소스 앱/프레임워크 | 코드 맵/Repo Wiki / 마인드맵/지식 지도 / 웹/인터랙티브 페이지 | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 코드 분석 / 스토리지/인덱스 / 렌더링/내보내기 |
 | [Architecture Discovery MCP](https://github.com/rdtan/architecture-discovery-mcp) [![Star](https://img.shields.io/github/stars/rdtan/architecture-discovery-mcp?style=flat&logo=github&label=Star)](https://github.com/rdtan/architecture-discovery-mcp/stargazers) | 코드베이스 | MCP Server | 코드 맵/Repo Wiki / 아키텍처/흐름도 / PPT/발표자료 / 표/타임라인 | MCP 클라이언트 / 로컬 런타임 / 코드 분석 / 렌더링/내보내기 / 템플릿/자산 |
+ | [Architecture Review Agent Sample](https://github.com/Azure-Samples/agent-architecture-review-sample) [![Star](https://img.shields.io/github/stars/Azure-Samples/agent-architecture-review-sample?style=flat&logo=github&label=Star)](https://github.com/Azure-Samples/agent-architecture-review-sample/stargazers) | Code/technical text / PDF/documents / Text/ideas | Open-source app/framework / Bot/assistant | Code map/repo wiki / Architecture/flow diagram / Briefing/report / Evidence table | Local runtime / Model API / MCP client / Rendering/export / External search/data |
 
 ### 데이터, 표 및 비즈니스 지표
 
@@ -203,6 +204,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [mcp-server-antv](https://github.com/antvis/mcp-server-antv) [![Star](https://img.shields.io/github/stars/antvis/mcp-server-antv?style=flat&logo=github&label=Star)](https://github.com/antvis/mcp-server-antv/stargazers) | 데이터/표 / DSL/코드 / 코드/기술 설명 | MCP Server | 차트/대시보드 / 렌더링된 차트 / 아키텍처/흐름도 | MCP Client / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
 | [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | 데이터/표 / 데이터베이스 / DSL/코드 | Agent skill / API/SDK/라이브러리 | 차트/대시보드 / 긴 보고서 / 웹/인터랙티브 페이지 | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 / 템플릿/자산 |
 | [Power BI Skills for Claude Code](https://github.com/lukasreese/powerbi-claude-skills) [![Star](https://img.shields.io/github/stars/lukasreese/powerbi-claude-skills?style=flat&logo=github&label=Star)](https://github.com/lukasreese/powerbi-claude-skills/stargazers) | 데이터/표 / 데이터베이스 / 텍스트/아이디어 | Skill 모음 | 차트/대시보드 / 긴 보고서 | Agent 호스트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 / 템플릿/자산 |
+ | [Universal AI Dashboard Generator](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator) [![Star](https://img.shields.io/github/stars/shaikmohammedshoaib666/universal-ai-dashboard-generator?style=flat&logo=github&label=Star)](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator/stargazers) | Data/tables | Open-source app/framework | Chart/dashboard / Briefing/report / SVG/PNG/PDF | Local runtime / Model API / External search/data / Rendering/export |
 
 ### 일반 텍스트, 아이디어 및 화이트보드 시각화
 
@@ -257,6 +259,11 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Muse](https://github.com/edheltzel/Muse) [![Star](https://img.shields.io/github/stars/edheltzel/Muse?style=flat&logo=github&label=Star)](https://github.com/edheltzel/Muse/stargazers) | Text/ideas / Codebase / Code/technical text / Data/tables | Agent skill | Web/interactive page / PPT/deck / Architecture/flow diagram / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [vibe-diagram](https://github.com/imchenway/vibe-diagram) [![Star](https://img.shields.io/github/stars/imchenway/vibe-diagram?style=flat&logo=github&label=Star)](https://github.com/imchenway/vibe-diagram/stargazers) | Text/ideas / Code/technical text / DSL/code | Agent skill | Architecture/flow diagram / Web/interactive page / Diagram/Mermaid | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [tech-diagram](https://github.com/k0tter/tech-diagram) [![Star](https://img.shields.io/github/stars/k0tter/tech-diagram?style=flat&logo=github&label=Star)](https://github.com/k0tter/tech-diagram/stargazers) | Code/technical text / DSL/code / Text/ideas | Agent skill | Architecture/flow diagram / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+ | [MCP Diagram Agent](https://github.com/shaikn6/mcp-diagram-agent) [![Star](https://img.shields.io/github/stars/shaikn6/mcp-diagram-agent?style=flat&logo=github&label=Star)](https://github.com/shaikn6/mcp-diagram-agent/stargazers) | Text/ideas / Code/technical text | MCP server / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Model API / Rendering/export |
+ | [Excalidraw Icons MCP](https://github.com/iagogfe/excalidraw-icons-mcp) [![Star](https://img.shields.io/github/stars/iagogfe/excalidraw-icons-mcp?style=flat&logo=github&label=Star)](https://github.com/iagogfe/excalidraw-icons-mcp/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Rendering/export / Templates/assets |
+ | [statement-to-tikz](https://github.com/will702/statement-to-tikz) [![Star](https://img.shields.io/github/stars/will702/statement-to-tikz?style=flat&logo=github&label=Star)](https://github.com/will702/statement-to-tikz/stargazers) | Text/ideas / DSL/code | Open-source app/framework / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF / Structured data/Markdown | Local runtime / Model API / Rendering/export / System tools |
+ | [GenAI Drawio Creator](https://github.com/tuoxie2046/GenAI-DrawIO-Creator) [![Star](https://img.shields.io/github/stars/tuoxie2046/GenAI-DrawIO-Creator?style=flat&logo=github&label=Star)](https://github.com/tuoxie2046/GenAI-DrawIO-Creator/stargazers) | Text/ideas / PDF/documents / Codebase / Code/technical text | Open-source app/framework / MCP server | Architecture/flow diagram / SVG/PNG/PDF / Web/interactive page | Browser/account / Model API / MCP client / Local runtime / Rendering/export / Templates/assets |
+ | [FlowDoc](https://github.com/htlin222/flowdoc) [![Star](https://img.shields.io/github/stars/htlin222/flowdoc?style=flat&logo=github&label=Star)](https://github.com/htlin222/flowdoc/stargazers) | Data/tables / DSL/code / Papers/research | API/SDK/library | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Rendering/export |
 
 ### 프로그래매틱 비디오와 모션 설명
 
@@ -406,6 +413,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Microsoft Copilot in PowerPoint](https://powerpoint.cloud.microsoft/create/en/ai-presentation-maker/) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS / Bot/어시스턴트 | PPT/덱 | 브라우저/계정 / 시스템 도구 / 템플릿/자산 |
 | [Adobe Express AI Presentation Maker](https://www.adobe.com/express/create/ai/presentation) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 제품/SaaS | PPT/덱 | 브라우저/계정 / 템플릿/자산 |
 | [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | 텍스트/아이디어 / PDF/문서 / DSL/코드 | 오픈소스 앱/프레임워크 | PPT/덱 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
+ | [Slide Alchemy](https://github.com/CodingFeng101/slide-alchemy) [![Star](https://img.shields.io/github/stars/CodingFeng101/slide-alchemy?style=flat&logo=github&label=Star)](https://github.com/CodingFeng101/slide-alchemy/stargazers) | Office docs / PDF/documents / Text/ideas | Agent skill | PPT/deck / SVG/PNG/PDF | Agent host / Model API / Local runtime / Document parsing/OCR / Rendering/export |
 
 ## 보조, 전처리 및 후처리 도구
 
@@ -426,6 +434,7 @@ PDF, 논문, Office 파일, 스캔을 Markdown, JSON, 레이아웃, 표, OCR 결
 | [GROBID](https://github.com/grobidOrg/grobid) [![Star](https://img.shields.io/github/stars/grobidOrg/grobid?style=flat&logo=github&label=Star)](https://github.com/grobidOrg/grobid/stargazers) | PDF/문서 / Office 문서 / 논문/연구 | 오픈소스 앱/프레임워크 | 구조화 데이터/Markdown | 로컬 런타임 / 시스템 도구 / 문서 파싱/OCR |
 | [PaperMage](https://github.com/allenai/papermage) [![Star](https://img.shields.io/github/stars/allenai/papermage?style=flat&logo=github&label=Star)](https://github.com/allenai/papermage/stargazers) | PDF/문서 / Office 문서 / 논문/연구 | API/SDK/라이브러리 | 구조화 데이터/Markdown | 로컬 런타임 / 문서 파싱/OCR |
 | [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) [![Star](https://img.shields.io/github/stars/allenai/s2orc-doc2json?style=flat&logo=github&label=Star)](https://github.com/allenai/s2orc-doc2json/stargazers) | PDF/문서 / Office 문서 / 논문/연구 | 오픈소스 앱/프레임워크 | 구조화 데이터/Markdown | 로컬 런타임 / 문서 파싱/OCR |
+ | [CloudPedagogy Word-to-Mermaid Renderer](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer) [![Star](https://img.shields.io/github/stars/cloudpedagogy/cloudpedagogy-word-mermaid-renderer?style=flat&logo=github&label=Star)](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer/stargazers) | Office docs / Text/ideas / DSL/code | Open-source app/framework | Diagram/Mermaid / Web/interactive page / Structured data/Markdown | Local runtime / Document parsing/OCR / Rendering/export |
 
 ### 마인드맵 특화 도구
 
