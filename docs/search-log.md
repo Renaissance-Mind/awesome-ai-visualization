@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-08-01.
+Last researched: 2026-08-02.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -69,6 +69,8 @@ Update on 2026-07-29: refreshed agent-native presentation packs, PPTX/Office MCP
 Update on 2026-07-30: refreshed mind-map/concept-map skills, architecture and draw.io diagram skills, animated SVG diagrams, AI dashboard generators, Sigrid templated reports, and PowerPoint slide-authoring MCP tools from official GitHub repositories, project pages, README evidence, live demos, and GitHub metadata. This pass added Mind Map Generator Skill, LLMapper Skill, Architecture Diagram Generator, FlowForge, Dashmotion, DashGen, AI Dashboard Generator, Sigrid Report Generator, and Slides MCP Server. The targeted scraper ran only against these new records; generic dependency docs, an external social tutorial link, a contributing guide, and an authentication documentation page were scrubbed before merging.
 
 Update on 2026-08-01: refreshed Excalidraw/draw.io diagram agents, architecture-review report generators, scientific figure pipelines, Word-to-Mermaid conversion, slide-reconstruction skills, and data-dashboard/report utilities from official GitHub repositories, README evidence, demo pages, Microsoft article links, and GitHub metadata. This pass added MCP Diagram Agent, Excalidraw Icons MCP, Universal AI Dashboard Generator, Architecture Review Agent Sample, CloudPedagogy Word-to-Mermaid Renderer, Slide Alchemy, statement-to-tikz, FigureWeave, GenAI Drawio Creator, and FlowDoc. The targeted scraper ran only against these new records; generic GitHub/Next.js documentation links, a personal avatar asset, and a non-project homepage were scrubbed before merging.
+
+Update on 2026-08-02: refreshed agent-native presentation skills, TV/signage presentation MCP workflows, AWS/cloud architecture diagram MCP apps, web-analytics dashboards, workforce-data dashboards, AI slide studios, and presentation-skill indexes from official GitHub repositories, project pages, live demos, README evidence, and GitHub metadata. This pass added DeckMason, Sven presentation-skills, Interactive Presentation Skill, InfoSlides.MCP, AWS Architecture Diagram MCP, Cloud Diagram MCP App, GA4 Dashboard MCP, Workforce Data Explorer, Aniya Studio, and awesome-presentation-skills. The targeted scraper ran only against these new records; API-token documentation links were reviewed as docs references, not secrets, and no presigned URLs or placeholder assets were merged.
 
 ## Search Surfaces
 
