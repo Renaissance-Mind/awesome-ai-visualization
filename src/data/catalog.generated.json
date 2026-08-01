@@ -1,115 +1,116 @@
 {
-  "generatedAt": "2026-07-31T23:08:22+00:00",
-  "lastResearched": "2026-08-01",
+  "generatedAt": "2026-08-01T23:06:13+00:00",
+  "lastResearched": "2026-08-02",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 411,
-    "openSource": 114,
+    "total": 421,
+    "openSource": 117,
     "saas": 52,
-    "modelApi": 155,
-    "examples": 1082,
-    "effectAssets": 1330,
-    "docs": 1187
+    "modelApi": 156,
+    "examples": 1091,
+    "effectAssets": 1357,
+    "docs": 1194
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 49,
-      "PDF/文档": 140,
-      "文本/想法": 258,
-      "数据/表格": 148,
-      "代码/技术描述": 76,
-      "网页/搜索结果": 120,
+      "论文/科研资料": 50,
+      "PDF/文档": 144,
+      "文本/想法": 264,
+      "数据/表格": 153,
+      "代码/技术描述": 79,
+      "网页/搜索结果": 121,
       "代码库": 44,
-      "DSL/代码": 78,
-      "新闻/资讯": 16,
+      "DSL/代码": 80,
+      "新闻/资讯": 17,
       "知识库/个人资料": 31,
-      "任意/多源": 58,
-      "Office 文档": 54,
+      "任意/多源": 59,
+      "Office 文档": 57,
       "引用网络": 4,
-      "数据库": 27,
+      "数据库": 29,
       "视频/音频": 1
     },
     "toolForms": {
-      "开源应用/框架": 114,
-      "Agent Skill": 134,
-      "Skill 集合": 34,
+      "开源应用/框架": 117,
+      "Agent Skill": 136,
+      "Skill 集合": 35,
       "数据集/评测": 2,
       "Bot/助手": 12,
       "产品/SaaS": 52,
-      "MCP Server": 111,
+      "MCP Server": 116,
       "研究原型": 4,
-      "API/SDK/库": 46,
-      "Awesome/索引": 21
+      "API/SDK/库": 47,
+      "Awesome/索引": 22
     },
     "outputForms": {
-      "图形摘要/信息图": 29,
-      "PPT/演示文稿": 178,
-      "网页/交互页面": 119,
+      "图形摘要/信息图": 31,
+      "PPT/演示文稿": 183,
+      "网页/交互页面": 125,
       "问答/学习材料": 15,
-      "报告/长文档": 53,
+      "报告/长文档": 54,
       "证据表": 22,
       "信息图/视觉报告": 57,
-      "图表/仪表盘": 106,
-      "架构图/流程图": 93,
-      "SVG/PNG/PDF": 143,
-      "报告/简报": 44,
+      "图表/仪表盘": 108,
+      "架构图/流程图": 95,
+      "SVG/PNG/PDF": 146,
+      "报告/简报": 45,
       "白板/思维导图": 28,
       "图表/Mermaid": 48,
-      "视频/音频": 31,
+      "视频/音频": 33,
       "表格/时间线": 11,
       "引用答案": 5,
       "思维导图/知识地图": 27,
-      "结构化数据/Markdown": 41,
+      "结构化数据/Markdown": 43,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 26,
       "图表/渲染输出": 13,
-      "工具索引": 23
+      "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 318,
-      "模型 API": 155,
+      "本地语言环境": 326,
+      "模型 API": 156,
       "文档解析/OCR": 67,
-      "渲染/导出": 328,
+      "渲染/导出": 337,
       "GPU/加速器": 11,
-      "模板/素材": 186,
-      "Agent 宿主": 173,
-      "系统工具": 68,
-      "浏览器/账号": 112,
+      "模板/素材": 191,
+      "Agent 宿主": 176,
+      "系统工具": 70,
+      "浏览器/账号": 117,
       "存储/索引": 51,
-      "外部检索/数据源": 80,
-      "MCP Client": 115,
+      "外部检索/数据源": 84,
+      "MCP Client": 120,
       "代码分析工具": 29
     },
     "categories": {
-      "paper-visualization": 14,
+      "paper-visualization": 15,
       "doc-to-knowledge": 40,
       "research-report": 21,
       "infographic-report": 34,
-      "data-dashboard": 49,
-      "diagram-generation": 56,
+      "data-dashboard": 51,
+      "diagram-generation": 58,
       "literature-map": 4,
-      "presentation-tools": 117,
+      "presentation-tools": 121,
       "codebase-map": 24,
       "rendering-primitive": 8,
       "video-generation": 10,
       "commercial-site": 10,
-      "meta-index": 24
+      "meta-index": 25
     },
     "groups": {
-      "paper": 26,
+      "paper": 27,
       "text_visual": 47,
       "web_news": 8,
       "support_mindmap": 13,
       "docs": 23,
       "support_doc_parse": 11,
-      "presentation": 129,
+      "presentation": 133,
       "code": 25,
       "support_render": 44,
-      "diagrams": 7,
+      "diagrams": 9,
       "video": 10,
-      "data": 43,
+      "data": 45,
       "indexes": 24,
-      "diagram": 1
+      "diagram": 1,
+      "index": 1
     }
   },
   "entries": [
@@ -36819,6 +36820,696 @@
       "effectAssets": [],
       "docsCount": 0,
       "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DeckMason",
+      "url": "https://github.com/a692570/deckmason",
+      "primaryUrl": "https://github.com/a692570/deckmason",
+      "homepage": "https://a692570.github.io/deckmason/demo/example-deck.html",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-31",
+      "note": "Agent-agnostic presentation skill that turns prompts, notes, and briefs into production HTML slide decks with 31 curated themes, Pyramid Principle story planning, speaker notes, local persistence, and optional PPTX or PDF export without extra API keys.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "View the live demo",
+          "url": "https://a692570.github.io/deckmason/demo/example-deck.html",
+          "source": "https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "View",
+          "url": "https://a692570.github.io/deckmason/examples/paper-ink-editorial-essay.html",
+          "source": "https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "View",
+          "url": "https://a692570.github.io/deckmason/examples/deep-space-keynote-vision.html",
+          "source": "https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "View",
+          "url": "https://a692570.github.io/deckmason/examples/swiss-modern-design-talk.html",
+          "source": "https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 4,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Sven presentation-skills",
+      "url": "https://github.com/Sven-LI-sankyuu/presentation-skills",
+      "primaryUrl": "https://github.com/Sven-LI-sankyuu/presentation-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 163,
+      "license": "unknown",
+      "updated": "2026-07-31",
+      "note": "Codex-oriented skill collection for real office delivery, covering editable PowerPoint research and executive decks, formal Word reports, publishable narrated web-demo videos, Xiaohongshu image cards, native Office charts/tables, preview export, and quality checks for typography, overflow, object overlap, and screenshot backgrounds.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "视频/音频",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "PPT skill page",
+          "url": "https://github.com/Sven-LI-sankyuu/presentation-skills/blob/HEAD/docs/ppt-polished-deck-collab.md",
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Apple editorial ink iPhone and Services page",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/demos/apple-editorial-ink-native/build/rendered/ppt_preview/slide_004.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Apple editorial ink data pipeline page",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/demos/apple-editorial-ink-native/build/rendered/ppt_preview/slide_008.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Word refined consulting-report demo spread",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/word-refined-industrial-service-transformation_spread.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Web Demo Video Synthesis preview",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/demos/web-demo-video-synthesis-financial-agent/assets/preview_en.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Prompt example for the Apple financial report review deck",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/ppt-prompt-example.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Apple editorial ink native test contact sheet",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/apple-editorial-ink-native_contact-sheet.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Apple FY2025 financial report review contact sheet",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/apple-financial-report-review_contact-sheet.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Apple FY2025 revenue and net-income page",
+          "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/apple-financial-report-review_revenue-page.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
+    },
+    {
+      "name": "Interactive Presentation Skill",
+      "url": "https://github.com/MinnThikeTunn/Interactive-Presentation-Skill",
+      "primaryUrl": "https://github.com/MinnThikeTunn/Interactive-Presentation-Skill",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-28",
+      "note": "Agent skill that deconstructs research papers, technical articles, textbook sections, or technical concepts into single-file interactive HTML slide decks with MathJax equations, live HTML5 canvas simulations, sliders, and responsive command-center layouts.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "InfoSlides.MCP",
+      "url": "https://github.com/arnibj/InfoSlides.MCP",
+      "primaryUrl": "https://github.com/arnibj/InfoSlides.MCP",
+      "homepage": "https://infoslides.app",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-29",
+      "note": "Dependency-free CLI and MCP server that lets agents provision digital-signage workspaces, upload PPTX or media, clone gallery decks, create live-data template slides, schedule displays, retrieve HLS stream links, and inspect PNG slide previews for TV/lobby presentation delivery.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "视频/音频",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://infoslides.app/docs",
+          "source": "https://infoslides.app/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://infoslides.app/templates",
+          "source": "https://infoslides.app/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Infoslides Product Demo",
+          "url": "https://infoslides.app/videos/InfoSlides_product_demo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://infoslides.app/"
+        },
+        {
+          "kind": "image",
+          "title": "InfoSlides — Digital Signage with PowerPoint, Slide Designer, CLI & MCP",
+          "url": "https://infoslides.app/images/og-default.png",
+          "thumbnailUrl": null,
+          "source": "https://infoslides.app/"
+        },
+        {
+          "kind": "image",
+          "title": "Infoslides Video Background",
+          "url": "https://infoslides.app/videos/InfoSlides_video_background.png",
+          "thumbnailUrl": null,
+          "source": "https://infoslides.app/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "AWS Architecture Diagram MCP",
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server",
+      "primaryUrl": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材",
+        "系统工具"
+      ],
+      "stars": 1,
+      "license": "MIT-0",
+      "updated": "2026-07-29",
+      "note": "AWS sample MCP server that converts service and connection specs into self-contained interactive HTML architecture diagrams, guided walkthroughs, editable .drawio files, PNG/SVG/PDF exports, and structured JSON/IaC handoff payloads using official AWS icon assets supplied by the user.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "THIRD-PARTY-LICENSES",
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/HEAD/THIRD-PARTY-LICENSES",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Guided walkthrough",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/walkthrough.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Language switch",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/lang-switch.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Collapsible containers",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/collapse.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Theme toggle",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/theme.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Architecture diagram example",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/example.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "Cloud Diagram MCP App",
+      "url": "https://github.com/tubone24/preview-cloud-diagram-mcp-apps",
+      "primaryUrl": "https://github.com/tubone24/preview-cloud-diagram-mcp-apps",
+      "homepage": "https://ylomp4fr6ke2jrweklwzahf6gy0sryec.lambda-url.ap-northeast-1.on.aws/mcp",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-07-30",
+      "note": "MCP Apps server for Claude.ai and Claude Code that streams AWS, Azure, GCP, SaaS, or mixed-provider cloud architecture and sequence diagrams inline, rendering an interactive single-page UI with official icon manifests and deployable Worker or Lambda MCP endpoints.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Cloudflare Dashboard",
+          "url": "https://dash.cloudflare.com/profile/api-tokens",
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Claude.ai Custom Connector Setup",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/claude-ai-connector-setup.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AWS Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-aws-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GCP Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-gcp-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GCP Sequence Diagram",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-gcp-sequence.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Azure Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-azure-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Azure Sequence Diagram",
+          "url": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-azure-sequence.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "GA4 Dashboard MCP",
+      "url": "https://github.com/TheTechBasket/GA4-Dashboard-MCP",
+      "primaryUrl": "https://github.com/TheTechBasket/GA4-Dashboard-MCP",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "外部检索/数据源",
+        "MCP Client",
+        "浏览器/账号",
+        "渲染/导出"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-08-01",
+      "note": "Real-time Google Analytics 4 dashboard with 3D globe visualization, traffic-spike detection, visitor/persona cards, device and geography breakdowns, privacy shielding for query strings, quota-aware caching, and a standalone MCP server for GA4 Admin/Data API reports.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "GA4 Dashboard & MCP screenshot",
+          "url": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120214.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Screenshot",
+          "url": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120026.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Screenshot",
+          "url": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120087.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Screenshot",
+          "url": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120302.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Workforce Data Explorer",
+      "url": "https://github.com/thelancehaun/workforce-data-explorer",
+      "primaryUrl": "https://github.com/thelancehaun/workforce-data-explorer",
+      "homepage": "https://workforce-data-explorer.streamlit.app",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "MCP Client",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "Streamlit dashboard and hosted/local MCP connector that turns 89 US workforce and labor-market sources, including BLS, FRED, Census, O*NET, DOL, SEC EDGAR, Indeed, ADP, and Anthropic Economic Index data, into searchable catalogs, charts, CSV downloads, state snapshots, and AI-answerable labor-data reports.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "fred.stlouisfed.org",
+          "url": "https://fred.stlouisfed.org/docs/api/api_key.html",
+          "source": "https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "api.census.gov",
+          "url": "https://api.census.gov/data/key_signup.html",
+          "source": "https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Aniya Studio",
+      "url": "https://github.com/yizhian/Aniya-Studio",
+      "primaryUrl": "https://github.com/yizhian/Aniya-Studio",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "Apache-2.0",
+      "updated": "2026-07-30",
+      "note": "Self-hosted AI slide and HTML-PPT editor that combines a Go streaming agent, FastAPI backend, React/GrapesJS visual editor, AI design mode, presenter mode, PPTX export, hook governance, 58 presentation skills, and 30+ themes so users can generate and manually refine HTML slide decks on the same canvas.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "awesome-presentation-skills",
+      "url": "https://github.com/cosen1024/awesome-presentation-skills",
+      "primaryUrl": "https://github.com/cosen1024/awesome-presentation-skills",
+      "homepage": null,
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "CC0-1.0",
+      "updated": "2026-08-01",
+      "note": "Curated presentation-agent-skills index that compares verified editable PPTX, HTML presentation, and image-first deck workflows, with method notes, candidate tracking, related-tool docs, and guidance for choosing workflows by output editability.",
+      "sourceTypes": [
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "index",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "相关工具",
+          "url": "https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/docs/related-tools.md",
+          "source": "https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "收录与核验方法",
+          "url": "https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/docs/methodology.md",
+          "source": "https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "tristan-mcinnis/pptx-from-layouts-skill",
+          "url": "https://github.com/tristan-mcinnis/pptx-from-layouts-skill",
+          "source": "https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "pptx-from-layouts",
+          "url": "https://github.com/tristan-mcinnis/pptx-from-layouts-skill/blob/53b0e750694d807e3510c2017744197c3c5089b0/.claude/skills/pptx-from-layouts/SKILL.md",
+          "source": "https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "贡献指南",
+          "url": "https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 3,
       "effectAssetsCount": 0
     }
   ]

@@ -1,4 +1,4 @@
-generated_at: '2026-07-31T23:08:22+00:00'
+generated_at: '2026-08-01T23:06:13+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 411
-  fetched_sources_ok: 564
-  fetched_sources_failed: 31
-  official_examples: 1082
-  official_effect_assets: 1330
-  official_docs: 1187
+  entries: 421
+  fetched_sources_ok: 577
+  fetched_sources_failed: 32
+  official_examples: 1091
+  official_effect_assets: 1357
+  official_docs: 1194
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -36958,3 +36958,538 @@ entries:
   - Gallery
   - Create a blank PRISMA 2020 template
   - '... see examples/prisma-review.yaml for the full field list'
+- name: DeckMason
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/a692570/deckmason
+  homepage: https://a692570.github.io/deckmason/demo/example-deck.html
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-agnostic presentation skill that turns prompts, notes, and briefs into production HTML slide decks with
+    31 curated themes, Pyramid Principle story planning, speaker notes, local persistence, and optional PPTX or PDF export
+    without extra API keys.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DeckMason
+    bytes: 12533
+  - kind: homepage
+    url: https://a692570.github.io/deckmason/demo/example-deck.html
+    final_url: https://a692570.github.io/deckmason/demo/example-deck.html
+    status: 200
+    content_type: text/html
+    title: What is DeckMason? - AI Presentation Skill Demo
+    description: A demo deck built with DeckMason. 8 slides showing the Bold Signal preset, color theory validation, Canvas
+      Scale Architecture, and the full workflow.
+    bytes: 25929
+  official_examples:
+  - kind: example
+    title: View the live demo
+    url: https://a692570.github.io/deckmason/demo/example-deck.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  - kind: example
+    title: View
+    url: https://a692570.github.io/deckmason/examples/paper-ink-editorial-essay.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  - kind: example
+    title: View
+    url: https://a692570.github.io/deckmason/examples/deep-space-keynote-vision.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  - kind: example
+    title: View
+    url: https://a692570.github.io/deckmason/examples/swiss-modern-design-talk.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  official_links:
+  - kind: example
+    title: View the live demo
+    url: https://a692570.github.io/deckmason/demo/example-deck.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  - kind: example
+    title: View
+    url: https://a692570.github.io/deckmason/examples/paper-ink-editorial-essay.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  - kind: example
+    title: View
+    url: https://a692570.github.io/deckmason/examples/deep-space-keynote-vision.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  - kind: example
+    title: View
+    url: https://a692570.github.io/deckmason/examples/swiss-modern-design-talk.html
+    source: https://raw.githubusercontent.com/a692570/deckmason/HEAD/README.md
+  source_headings:
+  - Live Demo
+  - Examples
+  - What each example demonstrates
+  - Example Prompts
+- name: Sven presentation-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Sven-LI-sankyuu/presentation-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Codex-oriented skill collection for real office delivery, covering editable PowerPoint research and executive
+    decks, formal Word reports, publishable narrated web-demo videos, Xiaohongshu image cards, native Office charts/tables,
+    preview export, and quality checks for typography, overflow, object overlap, and screenshot backgrounds.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'Product Logic: Constrain Model Output with Real Office Experience'
+    bytes: 20798
+  official_docs:
+  - kind: docs
+    title: PPT skill page
+    url: https://github.com/Sven-LI-sankyuu/presentation-skills/blob/HEAD/docs/ppt-polished-deck-collab.md
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Apple editorial ink iPhone and Services page
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/demos/apple-editorial-ink-native/build/rendered/ppt_preview/slide_004.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Apple editorial ink data pipeline page
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/demos/apple-editorial-ink-native/build/rendered/ppt_preview/slide_008.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Word refined consulting-report demo spread
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/word-refined-industrial-service-transformation_spread.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Web Demo Video Synthesis preview
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/demos/web-demo-video-synthesis-financial-agent/assets/preview_en.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Prompt example for the Apple financial report review deck
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/ppt-prompt-example.jpg
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Apple editorial ink native test contact sheet
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/apple-editorial-ink-native_contact-sheet.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Apple FY2025 financial report review contact sheet
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/apple-financial-report-review_contact-sheet.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  - kind: image
+    title: Apple FY2025 revenue and net-income page
+    url: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/assets/apple-financial-report-review_revenue-page.png
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: PPT skill page
+    url: https://github.com/Sven-LI-sankyuu/presentation-skills/blob/HEAD/docs/ppt-polished-deck-collab.md
+    source: https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/HEAD/README.md
+  source_headings:
+  - PPT Gallery
+  - Other Artifact Demos
+  - Prompt Example
+  - '`web-demo-video-synthesis`'
+  - Demos
+  - XHS Demo Set
+- name: Interactive Presentation Skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/MinnThikeTunn/Interactive-Presentation-Skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Agent skill that deconstructs research papers, technical articles, textbook sections, or technical concepts
+    into single-file interactive HTML slide decks with MathJax equations, live HTML5 canvas simulations, sliders, and responsive
+    command-center layouts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/MinnThikeTunn/Interactive-Presentation-Skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/MinnThikeTunn/Interactive-Presentation-Skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Interactive HTML Presentation Creator 🎨🚀
+    bytes: 2367
+  source_headings:
+  - Interactive HTML Presentation Creator 🎨🚀
+- name: InfoSlides.MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/arnibj/InfoSlides.MCP
+  homepage: https://infoslides.app
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: Dependency-free CLI and MCP server that lets agents provision digital-signage workspaces, upload PPTX or media,
+    clone gallery decks, create live-data template slides, schedule displays, retrieve HLS stream links, and inspect PNG slide
+    previews for TV/lobby presentation delivery.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/arnibj/InfoSlides.MCP/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/arnibj/InfoSlides.MCP/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: InfoSlides — put content on a TV from your terminal or your agent
+    bytes: 7826
+  - kind: homepage
+    url: https://infoslides.app/
+    final_url: https://infoslides.app/
+    status: 200
+    content_type: text/html
+    title: InfoSlides — Digital Signage with PowerPoint, Slide Designer, CLI & MCP
+    description: Turn any TV into a digital sign. Upload PowerPoint, use our slide designer, or automate via CLI and MCP.
+      Live data, smart rules, and AI integration — no hardware required.
+    bytes: 223029
+  official_examples:
+  - kind: template
+    title: Templates
+    url: https://infoslides.app/templates
+    source: https://infoslides.app/
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://infoslides.app/docs
+    source: https://infoslides.app/
+  official_effect_assets:
+  - kind: video
+    title: Infoslides Product Demo
+    url: https://infoslides.app/videos/InfoSlides_product_demo.mp4
+    source: https://infoslides.app/
+  - kind: image
+    title: InfoSlides — Digital Signage with PowerPoint, Slide Designer, CLI & MCP
+    url: https://infoslides.app/images/og-default.png
+    source: https://infoslides.app/
+  - kind: image
+    title: Infoslides Video Background
+    url: https://infoslides.app/videos/InfoSlides_video_background.png
+    source: https://infoslides.app/
+  official_links:
+  - kind: template
+    title: Templates
+    url: https://infoslides.app/templates
+    source: https://infoslides.app/
+  - kind: docs
+    title: Documentation
+    url: https://infoslides.app/docs
+    source: https://infoslides.app/
+  source_headings:
+  - InfoSlides — put content on a TV from your terminal or your agent
+  - 2. Create a workspace — anonymous, prints an admin API key, saves it to ~/.infoslides
+  - 3. Grab a ready-made deck from the starter gallery
+- name: AWS Architecture Diagram MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/aws-samples/sample-architecture-diagram-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  - 系统工具
+  catalog_note: AWS sample MCP server that converts service and connection specs into self-contained interactive HTML architecture
+    diagrams, guided walkthroughs, editable .drawio files, PNG/SVG/PDF exports, and structured JSON/IaC handoff payloads using
+    official AWS icon assets supplied by the user.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AWS Architecture Diagram MCP
+    bytes: 15498
+  official_examples:
+  - kind: example
+    title: THIRD-PARTY-LICENSES
+    url: https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/HEAD/THIRD-PARTY-LICENSES
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Guided walkthrough
+    url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/walkthrough.gif
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  - kind: gif
+    title: Language switch
+    url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/lang-switch.gif
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  - kind: gif
+    title: Collapsible containers
+    url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/collapse.gif
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  - kind: gif
+    title: Theme toggle
+    url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/theme.gif
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: Architecture diagram example
+    url: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/docs/example.png
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  official_links:
+  - kind: example
+    title: THIRD-PARTY-LICENSES
+    url: https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/HEAD/THIRD-PARTY-LICENSES
+    source: https://raw.githubusercontent.com/aws-samples/sample-architecture-diagram-mcp-server/HEAD/README.md
+  source_headings:
+  - AWS Architecture Diagram MCP
+  - AWS diagram guidelines
+  - 'Example: `generate_html_diagram`'
+- name: Cloud Diagram MCP App
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/tubone24/preview-cloud-diagram-mcp-apps
+  homepage: https://ylomp4fr6ke2jrweklwzahf6gy0sryec.lambda-url.ap-northeast-1.on.aws/mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP Apps server for Claude.ai and Claude Code that streams AWS, Azure, GCP, SaaS, or mixed-provider cloud
+    architecture and sequence diagrams inline, rendering an interactive single-page UI with official icon manifests and deployable
+    Worker or Lambda MCP endpoints.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Cloud Diagram MCP App (AWS / Azure / GCP / SaaS)
+    bytes: 15424
+  - kind: homepage
+    url: https://ylomp4fr6ke2jrweklwzahf6gy0sryec.lambda-url.ap-northeast-1.on.aws/mcp
+    final_url: https://ylomp4fr6ke2jrweklwzahf6gy0sryec.lambda-url.ap-northeast-1.on.aws/mcp
+    status: 406
+    content_type: application/json
+    error: HTTP 406
+  official_docs:
+  - kind: docs
+    title: Cloudflare Dashboard
+    url: https://dash.cloudflare.com/profile/api-tokens
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Demo
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo.gif
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  - kind: image
+    title: Claude.ai Custom Connector Setup
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/claude-ai-connector-setup.png
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  - kind: image
+    title: AWS Architecture Diagram
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-aws-architecture.png
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  - kind: image
+    title: GCP Architecture Diagram
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-gcp-architecture.png
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  - kind: image
+    title: GCP Sequence Diagram
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-gcp-sequence.png
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  - kind: image
+    title: Azure Architecture Diagram
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-azure-architecture.png
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  - kind: image
+    title: Azure Sequence Diagram
+    url: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/docs/images/demo-azure-sequence.png
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Cloudflare Dashboard
+    url: https://dash.cloudflare.com/profile/api-tokens
+    source: https://raw.githubusercontent.com/tubone24/preview-cloud-diagram-mcp-apps/HEAD/README.md
+  source_headings:
+  - Cloud Diagram MCP App (AWS / Azure / GCP / SaaS)
+  - Examples
+  - GCP Sequence Diagram
+  - Azure Sequence Diagram
+  - render_diagram (UI-enabled tool)
+  - Usage Examples
+  - Multi-cloud diagram
+  - C4 model-style diagram
+  - CI/CD pipeline diagram
+- name: GA4 Dashboard MCP
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/TheTechBasket/GA4-Dashboard-MCP
+  dependencies:
+  - 本地语言环境
+  - 外部检索/数据源
+  - MCP Client
+  - 浏览器/账号
+  - 渲染/导出
+  catalog_note: Real-time Google Analytics 4 dashboard with 3D globe visualization, traffic-spike detection, visitor/persona
+    cards, device and geography breakdowns, privacy shielding for query strings, quota-aware caching, and a standalone MCP
+    server for GA4 Admin/Data API reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: GA4 Dashboard & MCP
+    bytes: 4780
+  official_effect_assets:
+  - kind: image
+    title: GA4 Dashboard & MCP screenshot
+    url: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120214.webp
+    source: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md
+  - kind: image
+    title: Screenshot
+    url: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120026.webp
+    source: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md
+  - kind: image
+    title: Screenshot
+    url: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120087.webp
+    source: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md
+  - kind: image
+    title: Screenshot
+    url: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/ss/ss_1785120302.webp
+    source: https://raw.githubusercontent.com/TheTechBasket/GA4-Dashboard-MCP/HEAD/README.md
+  source_headings:
+  - GA4 Dashboard & MCP
+- name: Workforce Data Explorer
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/thelancehaun/workforce-data-explorer
+  homepage: https://workforce-data-explorer.streamlit.app
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - MCP Client
+  - 渲染/导出
+  catalog_note: Streamlit dashboard and hosted/local MCP connector that turns 89 US workforce and labor-market sources, including
+    BLS, FRED, Census, O*NET, DOL, SEC EDGAR, Indeed, ADP, and Anthropic Economic Index data, into searchable catalogs, charts,
+    CSV downloads, state snapshots, and AI-answerable labor-data reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Workforce Data Explorer
+    bytes: 8009
+  - kind: homepage
+    url: https://workforce-data-explorer.streamlit.app/
+    final_url: https://workforce-data-explorer.streamlit.app/
+    status: 200
+    content_type: text/html
+    title: null
+    bytes: 5843
+  official_docs:
+  - kind: docs
+    title: fred.stlouisfed.org
+    url: https://fred.stlouisfed.org/docs/api/api_key.html
+    source: https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md
+  - kind: docs
+    title: api.census.gov
+    url: https://api.census.gov/data/key_signup.html
+    source: https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: fred.stlouisfed.org
+    url: https://fred.stlouisfed.org/docs/api/api_key.html
+    source: https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md
+  - kind: docs
+    title: api.census.gov
+    url: https://api.census.gov/data/key_signup.html
+    source: https://raw.githubusercontent.com/thelancehaun/workforce-data-explorer/HEAD/README.md
+  source_headings:
+  - 🖥️ The dashboard
+- name: Aniya Studio
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/yizhian/Aniya-Studio
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Self-hosted AI slide and HTML-PPT editor that combines a Go streaming agent, FastAPI backend, React/GrapesJS
+    visual editor, AI design mode, presenter mode, PPTX export, hook governance, 58 presentation skills, and 30+ themes so
+    users can generate and manually refine HTML slide decks on the same canvas.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yizhian/Aniya-Studio/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yizhian/Aniya-Studio/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Aniya Studio
+    bytes: 7997
+  source_headings:
+  - Documentation
+- name: awesome-presentation-skills
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/cosen1024/awesome-presentation-skills
+  dependencies:
+  - 外部检索/数据源
+  catalog_note: Curated presentation-agent-skills index that compares verified editable PPTX, HTML presentation, and image-first
+    deck workflows, with method notes, candidate tracking, related-tool docs, and guidance for choosing workflows by output
+    editability.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Awesome Presentation Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+    bytes: 13062
+  official_examples:
+  - kind: template
+    title: tristan-mcinnis/pptx-from-layouts-skill
+    url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: template
+    title: pptx-from-layouts
+    url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill/blob/53b0e750694d807e3510c2017744197c3c5089b0/.claude/skills/pptx-from-layouts/SKILL.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: tutorial
+    title: 贡献指南
+    url: https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 相关工具
+    url: https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/docs/related-tools.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: 收录与核验方法
+    url: https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/docs/methodology.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  official_links:
+  - kind: template
+    title: tristan-mcinnis/pptx-from-layouts-skill
+    url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: template
+    title: pptx-from-layouts
+    url: https://github.com/tristan-mcinnis/pptx-from-layouts-skill/blob/53b0e750694d807e3510c2017744197c3c5089b0/.claude/skills/pptx-from-layouts/SKILL.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: 相关工具
+    url: https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/docs/related-tools.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: 收录与核验方法
+    url: https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/docs/methodology.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  - kind: tutorial
+    title: 贡献指南
+    url: https://github.com/cosen1024/awesome-presentation-skills/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/cosen1024/awesome-presentation-skills/HEAD/README.md
+  source_headings:
+  - Awesome Presentation Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+  - HTML 演示

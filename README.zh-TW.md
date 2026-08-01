@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-411_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--01-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-421_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--02-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,21 +13,20 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## 最新刷新（2026-07-31）
+## 最新刷新（2026-08-02）
 
-| 專案 | 本次補充重點 |
+| Project | Catalog focus |
 | --- | --- |
-| [baoyu-design](https://github.com/JimLiu/baoyu-design) | Local Agent Skill for Claude Design-style HTML prototypes, dashboards, wireframes, and decks. |
-| [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) | Local-first prompt-to-artifact desktop app for prototypes, slides, PDFs, PPTX, ZIP, and Markdown. |
-| [Azure Architecture Diagram Builder](https://github.com/Arturo-Quiroga-MSFT/azure-architecture-diagram-builder) | AI and MCP workflow for Azure topology diagrams, blueprint diagrams, cost estimates, WAF checks, and IaC. |
-| [Emboss](https://github.com/GGChamp85/Emboss) | Python/MCP document engine for deterministic accessible PDFs from specs, Markdown, or LLM content. |
-| [StudyBros](https://github.com/Kirneill/StudyBros) | MCP and web app that turns learning files into flashcards, quizzes, practice tests, summaries, and exports. |
-| [pdf-mcp](https://github.com/jztan/pdf-mcp) | Agent PDF support for semantic search, page reads, OCR, table/image extraction, chart data, and rendering. |
-| [data-analysis-skill](https://github.com/dongzhang84/data-analysis-skill) | Claude Code skill for CSV/Excel to narrative HTML reports, interactive charts, and PowerPoint decks. |
-| [Felo AI CLI and Skills](https://github.com/Felo-Inc/felo-skills) | Search, web fetch, subtitles, X search, prompt/file-to-PPT, mind maps, landing pages, and API workflows. |
-| [Highcharts MCP Server](https://github.com/hasnaintypes/highchart-mcp-server) | MCP chart generation and validation with PNG, SVG, PDF, and interactive HTML exports. |
-| [Predictive Maintenance MCP](https://github.com/LGDiMaggio/predictive-maintenance-mcp) | Vibration CSV analysis to bearing-fault diagnostics, risk estimates, reports, evidence, and charts. |
-| [AnyGen Suite Skill](https://github.com/AnyGenIO/anygen-suite-skill) | All-in-one skill for PPT, DOCX, diagrams, storybooks, data visualization, research reports, websites, and images. |
+| [DeckMason](https://github.com/a692570/deckmason) | Agent prompts and briefs to themed HTML decks with speaker notes plus PPTX/PDF export. |
+| [Sven presentation-skills](https://github.com/Sven-LI-sankyuu/presentation-skills) | Office-delivery skills for editable PowerPoint, formal Word reports, videos, and image cards. |
+| [Interactive Presentation Skill](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill) | Research papers and technical concepts to interactive single-file HTML slide decks with MathJax and canvas simulations. |
+| [InfoSlides.MCP](https://github.com/arnibj/InfoSlides.MCP) | PPTX, media, and live data to scheduled digital-signage slideshows, streams, and slide previews through CLI/MCP. |
+| [AWS Architecture Diagram MCP](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) | AWS service specs to interactive HTML architecture diagrams, guided walkthroughs, .drawio, and exportable JSON. |
+| [Cloud Diagram MCP App](https://github.com/tubone24/preview-cloud-diagram-mcp-apps) | MCP Apps renderer for inline AWS, Azure, GCP, SaaS, and mixed-provider architecture/sequence diagrams. |
+| [GA4 Dashboard MCP](https://github.com/TheTechBasket/GA4-Dashboard-MCP) | GA4 data to real-time dashboards, 3D globe traffic views, visitor insights, and MCP-accessible reports. |
+| [Workforce Data Explorer](https://github.com/thelancehaun/workforce-data-explorer) | Labor-market data sources to Streamlit dashboards, charts, CSV downloads, and hosted/local MCP answers. |
+| [Aniya Studio](https://github.com/yizhian/Aniya-Studio) | Self-hosted AI HTML-PPT editor with visual canvas editing, 58 slide skills, themes, presenter mode, and export. |
+| [awesome-presentation-skills](https://github.com/cosen1024/awesome-presentation-skills) | Presentation-agent-skill index comparing editable PPTX, HTML slide, and image-first deck workflows. |
 
 ## ✨ 推薦使用方式
 
@@ -82,6 +81,8 @@
 | [Litmaps](https://www.litmaps.com/) | 論文/科研資料 / 引用網路 | 產品/SaaS | 文獻地圖/知識地圖 | 瀏覽器/帳號 / 外部檢索/資料來源 |
 | [Consensus](https://consensus.app/) | 論文/科研資料 | 產品/SaaS | 報告/簡報 / 證據表 | 瀏覽器/帳號 / 外部檢索/資料來源 |
  | [FigureWeave](https://github.com/Krisocer/FigureWeave) [![Star](https://img.shields.io/github/stars/Krisocer/FigureWeave?style=flat&logo=github&label=Star)](https://github.com/Krisocer/FigureWeave/stargazers) | Papers/research / Text/ideas | Open-source app/framework | Graphical abstract/infographic / SVG/PNG/PDF / Web/interactive page | Local runtime / Model API / GPU/accelerator / Rendering/export |
+
+| [Interactive Presentation Skill](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill) [![Star](https://img.shields.io/github/stars/MinnThikeTunn/Interactive-Presentation-Skill?style=flat&logo=github&label=Star)](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill/stargazers) | Papers/research / PDF/documents / Code/technical text | Agent skill | PPT/deck / Web/interactive page / Graphical abstract/infographic | Agent host / Local runtime / Rendering/export |
 
 ### 網頁、新聞、資訊與產業情報
 
@@ -204,6 +205,9 @@
 | [mviz](https://github.com/matsonj/mviz) [![Star](https://img.shields.io/github/stars/matsonj/mviz?style=flat&logo=github&label=Star)](https://github.com/matsonj/mviz/stargazers) | 資料/表格 / 資料庫 / DSL/代碼 | Agent skill / API/SDK/庫 | 圖表/儀表板 / 報告/長文件 / 網頁/互動頁面 | Agent host / 本機語言環境 / 外部檢索/資料來源 / 渲染/匯出 / Templates/assets |
 | [Power BI Skills for Claude Code](https://github.com/lukasreese/powerbi-claude-skills) [![Star](https://img.shields.io/github/stars/lukasreese/powerbi-claude-skills?style=flat&logo=github&label=Star)](https://github.com/lukasreese/powerbi-claude-skills/stargazers) | 資料/表格 / 資料庫 / 文本/想法 | Skill 集合 | 圖表/儀表板 / 報告/長文件 | Agent 宿主 / 本機語言環境 / 外部檢索/資料源 / 渲染/匯出 / 範本/素材 |
  | [Universal AI Dashboard Generator](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator) [![Star](https://img.shields.io/github/stars/shaikmohammedshoaib666/universal-ai-dashboard-generator?style=flat&logo=github&label=Star)](https://github.com/shaikmohammedshoaib666/universal-ai-dashboard-generator/stargazers) | Data/tables | Open-source app/framework | Chart/dashboard / Briefing/report / SVG/PNG/PDF | Local runtime / Model API / External search/data / Rendering/export |
+
+| [GA4 Dashboard MCP](https://github.com/TheTechBasket/GA4-Dashboard-MCP) [![Star](https://img.shields.io/github/stars/TheTechBasket/GA4-Dashboard-MCP?style=flat&logo=github&label=Star)](https://github.com/TheTechBasket/GA4-Dashboard-MCP/stargazers) | Data/tables / Database / Web/search | Open-source app/framework / MCP server | Chart/dashboard / Web/interactive page | Local runtime / External search/data / MCP client / Browser/account / Rendering/export |
+| [Workforce Data Explorer](https://github.com/thelancehaun/workforce-data-explorer) [![Star](https://img.shields.io/github/stars/thelancehaun/workforce-data-explorer?style=flat&logo=github&label=Star)](https://github.com/thelancehaun/workforce-data-explorer/stargazers) | Data/tables / Database / News/intelligence | Open-source app/framework / MCP server | Chart/dashboard / Briefing/report / Structured data/Markdown | Browser/account / Local runtime / External search/data / MCP client / Rendering/export |
 
 ### 通用文字、想法與白板圖示
 
@@ -414,6 +418,11 @@
 | [ai-pptx-generator-studio](https://github.com/sktt13ef/ai-pptx-generator-studio) [![Star](https://img.shields.io/github/stars/sktt13ef/ai-pptx-generator-studio?style=flat&logo=github&label=Star)](https://github.com/sktt13ef/ai-pptx-generator-studio/stargazers) | 文字/想法 / PDF/文件 / DSL/代碼 | 開源應用/框架 | PPT/簡報 / 網頁/互動頁面 / SVG/PNG/PDF | 本機語言環境 / Model API / 渲染/匯出 / Templates/assets |
  | [Slide Alchemy](https://github.com/CodingFeng101/slide-alchemy) [![Star](https://img.shields.io/github/stars/CodingFeng101/slide-alchemy?style=flat&logo=github&label=Star)](https://github.com/CodingFeng101/slide-alchemy/stargazers) | Office docs / PDF/documents / Text/ideas | Agent skill | PPT/deck / SVG/PNG/PDF | Agent host / Model API / Local runtime / Document parsing/OCR / Rendering/export |
 
+| [DeckMason](https://github.com/a692570/deckmason) [![Star](https://img.shields.io/github/stars/a692570/deckmason?style=flat&logo=github&label=Star)](https://github.com/a692570/deckmason/stargazers) | Text/ideas / PDF/documents / Data/tables | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Sven presentation-skills](https://github.com/Sven-LI-sankyuu/presentation-skills) [![Star](https://img.shields.io/github/stars/Sven-LI-sankyuu/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/Sven-LI-sankyuu/presentation-skills/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Skill collection | PPT/deck / Long report / Video/audio / Graphical abstract/infographic | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
+| [InfoSlides.MCP](https://github.com/arnibj/InfoSlides.MCP) [![Star](https://img.shields.io/github/stars/arnibj/InfoSlides.MCP?style=flat&logo=github&label=Star)](https://github.com/arnibj/InfoSlides.MCP/stargazers) | Office docs / Data/tables / Text/ideas | MCP server / API/SDK/library | PPT/deck / Video/audio / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export / External search/data |
+| [Aniya Studio](https://github.com/yizhian/Aniya-Studio) [![Star](https://img.shields.io/github/stars/yizhian/Aniya-Studio?style=flat&logo=github&label=Star)](https://github.com/yizhian/Aniya-Studio/stargazers) | Text/ideas / PDF/documents / Office docs | Open-source app/framework | PPT/deck / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
+
 ## 輔助、前後處理與小工具
 
 這一部分放更小、更底层或更專门的工具。它们不一定独立完成整條内容生產鏈，但經常是 Agent 工作流里的關键元件。
@@ -505,6 +514,9 @@
 | [AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) [![Star](https://img.shields.io/github/stars/Dsadd4/AgentFigureGallery?style=flat&logo=github&label=Star)](https://github.com/Dsadd4/AgentFigureGallery/stargazers) | 論文/科研資料 / 資料/表格 | Agent Skill / 資料集/評測 | 圖表/渲染輸出 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 外部檢索/資料來源 / 渲染/匯出 |
 | [amCharts 5 MCP Server](https://github.com/amcharts/amcharts5-mcp) [![Star](https://img.shields.io/github/stars/amcharts/amcharts5-mcp?style=flat&logo=github&label=Star)](https://github.com/amcharts/amcharts5-mcp/stargazers) | 資料/表格 / DSL/代碼 | MCP Server | 圖表/儀表板 / 圖表/渲染輸出 | MCP Client / 瀏覽器/帳號 / 外部檢索/資料源 / 渲染/匯出 |
 | [media-gen-mcp](https://github.com/wangdong233/media-gen-mcp) [![Star](https://img.shields.io/github/stars/wangdong233/media-gen-mcp?style=flat&logo=github&label=Star)](https://github.com/wangdong233/media-gen-mcp/stargazers) | Text/ideas / PDF/documents / Data/tables / Any/multi-source | MCP server | Graphical abstract/infographic / Architecture/flow diagram / Chart/dashboard / SVG/PNG/PDF / Video/audio / Structured data/Markdown | MCP client / Local runtime / Model API / Document parsing/OCR / Rendering/export / System tools |
+
+| [AWS Architecture Diagram MCP](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) [![Star](https://img.shields.io/github/stars/aws-samples/sample-architecture-diagram-mcp-server?style=flat&logo=github&label=Star)](https://github.com/aws-samples/sample-architecture-diagram-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF / Structured data/Markdown | MCP client / Local runtime / Rendering/export / Templates/assets / System tools |
+| [Cloud Diagram MCP App](https://github.com/tubone24/preview-cloud-diagram-mcp-apps) [![Star](https://img.shields.io/github/stars/tubone24/preview-cloud-diagram-mcp-apps?style=flat&logo=github&label=Star)](https://github.com/tubone24/preview-cloud-diagram-mcp-apps/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 
 ## 如何篩選工具
 
@@ -620,6 +632,8 @@ GitHub 專案的 Star 徽章直接放在專案名後面，盡量使用即時 bad
 | [Awesome HTML Slide Skills](https://github.com/ToseaAI/awesome-html-slide-skills) [![Star](https://img.shields.io/github/stars/ToseaAI/awesome-html-slide-skills?style=flat&logo=github&label=Star)](https://github.com/ToseaAI/awesome-html-slide-skills/stargazers) | 任意/多來源 | Awesome/索引 | HTML 簡報 Skill 與範本庫索引，面向 Agent 生成單文件簡報生態。 |
 | [TransformingScienceLLMs](https://github.com/NL2G/TransformingScienceLLMs) [![Star](https://img.shields.io/github/stars/NL2G/TransformingScienceLLMs?style=flat&logo=github&label=Star)](https://github.com/NL2G/TransformingScienceLLMs/stargazers) | 任意/多來源 | Awesome/索引 | LLM 輔助科學工作的論文、模型和工具集合。 |
 | [HeyClaude](https://github.com/JSONbored/awesome-claude) [![Star](https://img.shields.io/github/stars/JSONbored/awesome-claude?style=flat&logo=github&label=Star)](https://github.com/JSONbored/awesome-claude/stargazers) | Any/multi-source | Awesome/index / MCP server | Claude workflow registry for agents, MCP servers, skills, commands, hooks, tools, templates, feeds, JSON exports, Raycast, and read-only MCP discovery. |
+
+| [awesome-presentation-skills](https://github.com/cosen1024/awesome-presentation-skills) [![Star](https://img.shields.io/github/stars/cosen1024/awesome-presentation-skills?style=flat&logo=github&label=Star)](https://github.com/cosen1024/awesome-presentation-skills/stargazers) | Any/multi-source | Awesome/index | Presentation-agent-skill index comparing editable PPTX, HTML slide, and image-first deck workflows. |
 
 ## 資料
 
