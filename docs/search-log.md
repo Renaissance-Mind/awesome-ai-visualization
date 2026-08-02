@@ -72,6 +72,8 @@ Update on 2026-08-01: refreshed Excalidraw/draw.io diagram agents, architecture-
 
 Update on 2026-08-02: refreshed agent-native presentation skills, TV/signage presentation MCP workflows, AWS/cloud architecture diagram MCP apps, web-analytics dashboards, workforce-data dashboards, AI slide studios, and presentation-skill indexes from official GitHub repositories, project pages, live demos, README evidence, and GitHub metadata. This pass added DeckMason, Sven presentation-skills, Interactive Presentation Skill, InfoSlides.MCP, AWS Architecture Diagram MCP, Cloud Diagram MCP App, GA4 Dashboard MCP, Workforce Data Explorer, Aniya Studio, and awesome-presentation-skills. The targeted scraper ran only against these new records; API-token documentation links were reviewed as docs references, not secrets, and no presigned URLs or placeholder assets were merged.
 
+Update on 2026-08-03: refreshed natural-language MCP dashboards, marketing-report MCP workflows, multi-format report renderers, Claude Code diagram skills, and AntV Infographic MCP Apps from official GitHub repositories, project pages, README evidence, demo links, and GitHub metadata. This pass added Luminon MCP Dashboard, MCP Reportes, Egile MCP Reporter, drawing-skills, and Infographic MCP App. The targeted scraper ran only against these five new records; a duplicate google-slides-mcp candidate was rejected before merging, and no presigned URLs, placeholder assets, or token-looking links were merged.
+
 ## Search Surfaces
 
 - GitHub repository search through `gh search repos` and `gh api search/repositories`.

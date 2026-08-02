@@ -1,4 +1,4 @@
-last_researched: '2026-08-02'
+last_researched: '2026-08-03'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -5112,6 +5112,32 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: drawing-skills
+  url: https://github.com/aniryou/drawing-skills
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-07-08'
+  note: Claude Code diagram skill pair that renders and visually checks Mermaid drafts, then converts them into polished AWS, GCP, or Azure cloud-icon architecture diagrams with SVG, PNG, and editable draw.io outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
 - name: Pretty-mermaid-skills
   url: https://github.com/imxv/Pretty-mermaid-skills
   homepage: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
@@ -5896,6 +5922,30 @@ entries:
   - 信息图/视觉报告
   - 图表/渲染输出
   - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Infographic MCP App
+  url: https://github.com/VancySavoki/infographic-mcp-app
+  category: infographic-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 8
+  license: MIT
+  updated: '2026-04-03'
+  note: MCP Apps server that renders AntV Infographic diagrams from an interactive text DSL, with list, sequence, timeline, and architecture prompt examples, inline HTML app responses for MCP hosts, local stdio mode, Vercel deployment, and packaged MCP bundle release flow.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 网页/交互页面
   catalog_section: support_render
   readme_group: support_render
 - name: Markdown Viewer Agent Skills
@@ -7162,6 +7212,34 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: Luminon MCP Dashboard
+  url: https://github.com/luminondev/luminon-mcp-dashboard
+  homepage: https://luminon.dev
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 5
+  license: MIT
+  updated: '2026-08-01'
+  note: AI-first MCP dashboard builder that lets agents upload CSV/JSON, use natural-language dashboard actions, auto-layout bar/line/donut/scatter/KPI views, apply themes and filters, preview with a React renderer, serve static demo dashboards, and run stdio MCP or local web modes through the packaged CLI.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
 - name: DashGen
   url: https://github.com/4mohdisa/DashGen
   homepage: https://dashgen.isaxcode.com
@@ -7507,6 +7585,59 @@ entries:
   - 图表/仪表盘
   - SVG/PNG/PDF
   - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: MCP Reportes
+  url: https://github.com/cdgutierrez6/mcp-reportes
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-07-31'
+  note: Python MCP server for marketing-agency reporting that fetches GA4, Google Ads, and Meta Ads data into an in-memory session, then builds a polished client-ready Excel workbook with an executive summary, per-platform detail sheets, branded headers, banded rows, auto-fit columns, and default 30-day reporting windows.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: Egile MCP Reporter
+  url: https://github.com/jpoullet2000/egile-mcp-reporter
+  category: research-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-03-09'
+  note: FastMCP report-generation server that converts markdown or structured JSON/DataFrame sections into PDF, PPTX, HTML, Markdown, standalone Plotly/Matplotlib charts, combined reports, and prebuilt investment or business report templates.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
 - name: DataViz

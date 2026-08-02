@@ -1,4 +1,4 @@
-generated_at: '2026-08-01T23:06:13+00:00'
+generated_at: '2026-08-02T23:08:03+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 421
-  fetched_sources_ok: 577
+  entries: 426
+  fetched_sources_ok: 583
   fetched_sources_failed: 32
-  official_examples: 1091
-  official_effect_assets: 1357
-  official_docs: 1194
+  official_examples: 1096
+  official_effect_assets: 1363
+  official_docs: 1196
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -37493,3 +37493,218 @@ entries:
   source_headings:
   - Awesome Presentation Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
   - HTML 演示
+- name: drawing-skills
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/aniryou/drawing-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code diagram skill pair that renders and visually checks Mermaid drafts, then converts them into polished
+    AWS, GCP, or Azure cloud-icon architecture diagrams with SVG, PNG, and editable draw.io outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: drawing-skills
+    bytes: 4084
+  official_examples:
+  - kind: demo
+    title: '`aniryou/bedrock-demo`'
+    url: https://github.com/aniryou/bedrock-demo/tree/main/infra
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: demo
+    title: '`.drawio`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/bedrock-demo-architecture.drawio
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: demo
+    title: '`.png`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/bedrock-demo-architecture.png
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: demo
+    title: '`.svg`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/bedrock-demo-architecture.svg
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: first-pass Mermaid draft
+    url: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/docs/bedrock-demo-draft.png
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: image
+    title: after mermaid-check
+    url: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/docs/bedrock-demo-mermaid.png
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: image
+    title: cloud-architecture diagram
+    url: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/docs/bedrock-demo-architecture.png
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: '`aniryou/bedrock-demo`'
+    url: https://github.com/aniryou/bedrock-demo/tree/main/infra
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: demo
+    title: '`.drawio`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/bedrock-demo-architecture.drawio
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: demo
+    title: '`.png`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/bedrock-demo-architecture.png
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: demo
+    title: '`.svg`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/bedrock-demo-architecture.svg
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/aniryou/drawing-skills/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/aniryou/drawing-skills/HEAD/README.md
+  source_headings:
+  - Example
+- name: Infographic MCP App
+  category: infographic-report
+  surface: mcp
+  primary_url: https://github.com/VancySavoki/infographic-mcp-app
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP Apps server that renders AntV Infographic diagrams from an interactive text DSL, with list, sequence,
+    timeline, and architecture prompt examples, inline HTML app responses for MCP hosts, local stdio mode, Vercel deployment,
+    and packaged MCP bundle release flow.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infographic MCP App
+    bytes: 2669
+  official_docs:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: List Diagram
+    url: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/docs/list-zigzag-up-compact-card.png
+    source: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/README.md
+  - kind: image
+    title: Sequence Diagram
+    url: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/docs/sequence-mountain-underline-text.png
+    source: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.io/docs/extensions/apps
+    source: https://raw.githubusercontent.com/VancySavoki/infographic-mcp-app/HEAD/README.md
+  source_headings:
+  - Usage
+- name: Luminon MCP Dashboard
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/luminondev/luminon-mcp-dashboard
+  homepage: https://luminon.dev
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: AI-first MCP dashboard builder that lets agents upload CSV/JSON, use natural-language dashboard actions, auto-layout
+    bar/line/donut/scatter/KPI views, apply themes and filters, preview with a React renderer, serve static demo dashboards,
+    and run stdio MCP or local web modes through the packaged CLI.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/luminondev/luminon-mcp-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/luminondev/luminon-mcp-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Luminon MCP Dashboard
+    bytes: 4126
+  - kind: homepage
+    url: https://www.luminon.dev/
+    final_url: https://www.luminon.dev/
+    status: 200
+    content_type: text/html
+    title: Luminon | Redirecting…
+    bytes: 2191
+  official_examples:
+  - kind: demo
+    title: demo.luminon.dev
+    url: https://demo.luminon.dev
+    source: https://raw.githubusercontent.com/luminondev/luminon-mcp-dashboard/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Luminon dashboard preview
+    url: https://raw.githubusercontent.com/luminondev/luminon-mcp-dashboard/HEAD/Luminon.gif
+    source: https://raw.githubusercontent.com/luminondev/luminon-mcp-dashboard/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: demo.luminon.dev
+    url: https://demo.luminon.dev
+    source: https://raw.githubusercontent.com/luminondev/luminon-mcp-dashboard/HEAD/README.md
+  source_headings:
+  - Luminon MCP Dashboard
+  - Built-in demos and seeds
+- name: MCP Reportes
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/cdgutierrez6/mcp-reportes
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Python MCP server for marketing-agency reporting that fetches GA4, Google Ads, and Meta Ads data into an in-memory
+    session, then builds a polished client-ready Excel workbook with an executive summary, per-platform detail sheets, branded
+    headers, banded rows, auto-fit columns, and default 30-day reporting windows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cdgutierrez6/mcp-reportes/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cdgutierrez6/mcp-reportes/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Reportes — Automated Marketing Reports Server
+    bytes: 16532
+- name: Egile MCP Reporter
+  category: research-report
+  surface: mcp
+  primary_url: https://github.com/jpoullet2000/egile-mcp-reporter
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: FastMCP report-generation server that converts markdown or structured JSON/DataFrame sections into PDF, PPTX,
+    HTML, Markdown, standalone Plotly/Matplotlib charts, combined reports, and prebuilt investment or business report templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jpoullet2000/egile-mcp-reporter/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jpoullet2000/egile-mcp-reporter/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Egile MCP Reporter
+    bytes: 5736
+  source_headings:
+  - Usage
+  - 4. `create_data_visualization`
+  - Programmatic Usage
+  - Direct Service Usage
+  - Report Templates
+  - Investment Report Template
+  - Business Report Template
+  - Examples
