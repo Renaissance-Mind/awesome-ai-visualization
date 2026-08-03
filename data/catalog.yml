@@ -1,4 +1,4 @@
-last_researched: '2026-08-03'
+last_researched: '2026-08-04'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -10716,3 +10716,217 @@ entries:
   - 工具索引
   catalog_section: indexes
   readme_group: index
+- name: Beamer-MCP
+  url: https://github.com/context-machine-lab/Beamer-MCP
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-08-04'
+  note: MCP server for programmatic LaTeX Beamer slide decks and beamerposter research posters with themes, columns, images, custom frames, .tex saves, and PDF compilation.
+  source_types:
+  - 文本/想法
+  - 论文/科研资料
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: mdslides-mcp-server
+  url: https://github.com/bsmnyk/mdslides-mcp-server
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-08-04'
+  note: MCP server that wraps mkslides so agents can turn Markdown into hosted Reveal.js-style HTML slide decks with theme, highlight, and Reveal.js options plus Docker deployment.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Slidev MCP Server
+  url: https://github.com/raykuonz/slidev-mcp-server
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-04'
+  note: MCP server for AI chat-to-Slidev workflows with business, technical, and educational deck examples, atomic slide creation, themes, code blocks, tables, math, and Playwright-backed PDF export.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Presentation Pro Designer
+  url: https://github.com/DXBMark/presentation-pro-designer
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模板/素材
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-08-04'
+  note: Multi-platform AI presentation design skill and CLI toolkit that routes deck type, source rules, design systems, charts, QA, accessibility, and export packaging for ChatGPT, Claude, Gemini, IDE agents, and generic agents.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: Gamma MCP Server
+  url: https://github.com/cbruyndoncx/gamma-mcp-server
+  homepage: https://gamma.app/
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-08-04'
+  note: NPX-ready MCP server that brings Gamma API presentation generation into Claude Desktop and other clients, with public prompt templates for pitch decks, QBRs, training, sales, conference talks, briefings, and PPTX speaker-note exports.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  catalog_section: main
+  readme_group: presentation
+- name: delafuente-skills
+  url: https://github.com/menpente/delafuente-skills
+  homepage: https://www.delafuente.ai
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-04'
+  note: Claude skill library for data science, strategy, and communications, including XmR charts, 6-12 year-over-year charts, metric trees, companion infographic posts, and consulting-grade PowerPoint decks.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: data
+- name: Slide Builder
+  url: https://github.com/heisenberg-alt/gh-copilot-slides
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-08-04'
+  note: VS Code Copilot MCP server, Python agent team, and Go CLI that researches topics, URLs, and local files, curates deck narratives, applies style presets, supports natural-language edits, and exports HTML, PPTX, and PDF slides.
+  source_types:
+  - 网页/搜索结果
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Archy
+  url: https://github.com/phxdev1/archy-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  stars: 0
+  license: Apache-2.0
+  updated: '2026-08-04'
+  note: MCP architectural diagram builder that generates Mermaid diagrams from natural-language descriptions, GitHub repository URLs, code snippets, diffs, or repository history, with optional OpenRouter enhancement and PNG/SVG/PDF export.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams

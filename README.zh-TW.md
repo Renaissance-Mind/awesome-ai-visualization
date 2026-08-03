@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-426_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--03-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-434_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--04-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,15 +13,18 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## 最新刷新（2026-08-03）
+## Latest Refresh (2026-08-04)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Luminon MCP Dashboard](https://github.com/luminondev/luminon-mcp-dashboard) | CSV/JSON and prompts to natural-language MCP dashboards with React previews, filters, themes, and demo seeds. |
-| [MCP Reportes](https://github.com/cdgutierrez6/mcp-reportes) | GA4, Google Ads, and Meta Ads to client-ready Excel marketing reports through an MCP session workflow. |
-| [Egile MCP Reporter](https://github.com/jpoullet2000/egile-mcp-reporter) | Markdown/structured data to PDF, PPTX, HTML, Markdown reports and chart assets via FastMCP. |
-| [drawing-skills](https://github.com/aniryou/drawing-skills) | Claude Code Mermaid review loop plus cloud-icon architecture diagrams in SVG, PNG, and draw.io. |
-| [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) | AntV Infographic DSL to inline MCP Apps diagrams, list/sequence/timeline visuals, and Vercel/stdio deployments. |
+| [Beamer-MCP](https://github.com/context-machine-lab/Beamer-MCP) | LaTeX Beamer MCP server for slide decks, research posters, .tex saves, and PDF compilation. |
+| [mdslides-mcp-server](https://github.com/bsmnyk/mdslides-mcp-server) | Markdown-to-HTML slide MCP server backed by mkslides themes, Reveal.js options, and Docker deployment. |
+| [Slidev MCP Server](https://github.com/raykuonz/slidev-mcp-server) | AI chat-to-Slidev presentation workflow with business, technical, educational, and PDF export support. |
+| [Presentation Pro Designer](https://github.com/DXBMark/presentation-pro-designer) | Multi-platform presentation design skill and CLI toolkit for source-first deck planning, design, and QA. |
+| [Gamma MCP Server](https://github.com/cbruyndoncx/gamma-mcp-server) | NPX-ready Gamma API MCP server with public prompt templates and PPTX speaker-note exports. |
+| [delafuente-skills](https://github.com/menpente/delafuente-skills) | Data, communications, and strategy skills for charts, metric trees, infographics, and consulting PPTX decks. |
+| [Slide Builder](https://github.com/heisenberg-alt/gh-copilot-slides) | VS Code Copilot MCP, Python agent team, and Go CLI for research-driven HTML/PPTX/PDF decks. |
+| [Archy](https://github.com/phxdev1/archy-mcp) | MCP architecture diagram builder for text, GitHub repos, code, diffs, Mermaid, and image/PDF export. |
 
 ## ✨ 推薦使用方式
 
@@ -206,6 +209,7 @@
 
 | [GA4 Dashboard MCP](https://github.com/TheTechBasket/GA4-Dashboard-MCP) [![Star](https://img.shields.io/github/stars/TheTechBasket/GA4-Dashboard-MCP?style=flat&logo=github&label=Star)](https://github.com/TheTechBasket/GA4-Dashboard-MCP/stargazers) | Data/tables / Database / Web/search | Open-source app/framework / MCP server | Chart/dashboard / Web/interactive page | Local runtime / External search/data / MCP client / Browser/account / Rendering/export |
 | [Workforce Data Explorer](https://github.com/thelancehaun/workforce-data-explorer) [![Star](https://img.shields.io/github/stars/thelancehaun/workforce-data-explorer?style=flat&logo=github&label=Star)](https://github.com/thelancehaun/workforce-data-explorer/stargazers) | Data/tables / Database / News/intelligence | Open-source app/framework / MCP server | Chart/dashboard / Briefing/report / Structured data/Markdown | Browser/account / Local runtime / External search/data / MCP client / Rendering/export |
+| [delafuente-skills](https://github.com/menpente/delafuente-skills) [![Star](https://img.shields.io/github/stars/menpente/delafuente-skills?style=flat&logo=github&label=Star)](https://github.com/menpente/delafuente-skills/stargazers) | Data/tables / Text/ideas / Web/search | Skill collection | Chart/dashboard / PPT/deck / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 
 ### 通用文字、想法與白板圖示
 
@@ -420,6 +424,12 @@
 | [Sven presentation-skills](https://github.com/Sven-LI-sankyuu/presentation-skills) [![Star](https://img.shields.io/github/stars/Sven-LI-sankyuu/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/Sven-LI-sankyuu/presentation-skills/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Skill collection | PPT/deck / Long report / Video/audio / Graphical abstract/infographic | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [InfoSlides.MCP](https://github.com/arnibj/InfoSlides.MCP) [![Star](https://img.shields.io/github/stars/arnibj/InfoSlides.MCP?style=flat&logo=github&label=Star)](https://github.com/arnibj/InfoSlides.MCP/stargazers) | Office docs / Data/tables / Text/ideas | MCP server / API/SDK/library | PPT/deck / Video/audio / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export / External search/data |
 | [Aniya Studio](https://github.com/yizhian/Aniya-Studio) [![Star](https://img.shields.io/github/stars/yizhian/Aniya-Studio?style=flat&logo=github&label=Star)](https://github.com/yizhian/Aniya-Studio/stargazers) | Text/ideas / PDF/documents / Office docs | Open-source app/framework | PPT/deck / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
+| [Beamer-MCP](https://github.com/context-machine-lab/Beamer-MCP) [![Star](https://img.shields.io/github/stars/context-machine-lab/Beamer-MCP?style=flat&logo=github&label=Star)](https://github.com/context-machine-lab/Beamer-MCP/stargazers) | Text/ideas / Papers/research / DSL/code | MCP server | PPT/deck / Graphical abstract/infographic / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
+| [mdslides-mcp-server](https://github.com/bsmnyk/mdslides-mcp-server) [![Star](https://img.shields.io/github/stars/bsmnyk/mdslides-mcp-server?style=flat&logo=github&label=Star)](https://github.com/bsmnyk/mdslides-mcp-server/stargazers) | Text/ideas / DSL/code | MCP server | PPT/deck / Web/interactive page / Structured data/Markdown | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
+| [Slidev MCP Server](https://github.com/raykuonz/slidev-mcp-server) [![Star](https://img.shields.io/github/stars/raykuonz/slidev-mcp-server?style=flat&logo=github&label=Star)](https://github.com/raykuonz/slidev-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | PPT/deck / Web/interactive page / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
+| [Presentation Pro Designer](https://github.com/DXBMark/presentation-pro-designer) [![Star](https://img.shields.io/github/stars/DXBMark/presentation-pro-designer?style=flat&logo=github&label=Star)](https://github.com/DXBMark/presentation-pro-designer/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Agent skill / API/SDK/library | PPT/deck / Briefing/report / Chart/dashboard | Agent host / Local runtime / Templates/assets / Rendering/export |
+| [Gamma MCP Server](https://github.com/cbruyndoncx/gamma-mcp-server) [![Star](https://img.shields.io/github/stars/cbruyndoncx/gamma-mcp-server?style=flat&logo=github&label=Star)](https://github.com/cbruyndoncx/gamma-mcp-server/stargazers) | Text/ideas / PDF/documents / Web/search | MCP server / Product/SaaS | PPT/deck / Briefing/report | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |
+| [Slide Builder](https://github.com/heisenberg-alt/gh-copilot-slides) [![Star](https://img.shields.io/github/stars/heisenberg-alt/gh-copilot-slides?style=flat&logo=github&label=Star)](https://github.com/heisenberg-alt/gh-copilot-slides/stargazers) | Web/search / PDF/documents / Office docs / Text/ideas | Open-source app/framework / MCP server / Bot/assistant | PPT/deck / Web/interactive page / SVG/PNG/PDF | MCP client / Local runtime / Model API / External search/data / Document parsing/OCR / Rendering/export / Templates/assets |
 
 ## 輔助、前後處理與小工具
 
@@ -517,6 +527,7 @@
 
 | [AWS Architecture Diagram MCP](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) [![Star](https://img.shields.io/github/stars/aws-samples/sample-architecture-diagram-mcp-server?style=flat&logo=github&label=Star)](https://github.com/aws-samples/sample-architecture-diagram-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF / Structured data/Markdown | MCP client / Local runtime / Rendering/export / Templates/assets / System tools |
 | [Cloud Diagram MCP App](https://github.com/tubone24/preview-cloud-diagram-mcp-apps) [![Star](https://img.shields.io/github/stars/tubone24/preview-cloud-diagram-mcp-apps?style=flat&logo=github&label=Star)](https://github.com/tubone24/preview-cloud-diagram-mcp-apps/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
+| [Archy](https://github.com/phxdev1/archy-mcp) [![Star](https://img.shields.io/github/stars/phxdev1/archy-mcp?style=flat&logo=github&label=Star)](https://github.com/phxdev1/archy-mcp/stargazers) | Text/ideas / Codebase / Code/technical text | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Local runtime / Model API / Code analysis / Rendering/export |
 
 ## 如何篩選工具
 

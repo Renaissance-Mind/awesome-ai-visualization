@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-08-02T23:08:03+00:00",
-  "lastResearched": "2026-08-03",
+  "generatedAt": "2026-08-03T23:07:17+00:00",
+  "lastResearched": "2026-08-04",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 426,
-    "openSource": 118,
-    "saas": 52,
-    "modelApi": 156,
-    "examples": 1096,
+    "total": 434,
+    "openSource": 119,
+    "saas": 53,
+    "modelApi": 159,
+    "examples": 1113,
     "effectAssets": 1363,
-    "docs": 1196
+    "docs": 1218
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 50,
-      "PDF/文档": 144,
-      "文本/想法": 268,
-      "数据/表格": 156,
-      "代码/技术描述": 80,
-      "网页/搜索结果": 122,
-      "代码库": 44,
-      "DSL/代码": 82,
+      "论文/科研资料": 51,
+      "PDF/文档": 147,
+      "文本/想法": 276,
+      "数据/表格": 158,
+      "代码/技术描述": 82,
+      "网页/搜索结果": 125,
+      "代码库": 45,
+      "DSL/代码": 85,
       "新闻/资讯": 17,
       "知识库/个人资料": 31,
       "任意/多源": 59,
-      "Office 文档": 58,
+      "Office 文档": 60,
       "引用网络": 4,
       "数据库": 31,
       "视频/音频": 1
     },
     "toolForms": {
-      "开源应用/框架": 118,
-      "Agent Skill": 136,
-      "Skill 集合": 36,
+      "开源应用/框架": 119,
+      "Agent Skill": 137,
+      "Skill 集合": 37,
       "数据集/评测": 2,
-      "Bot/助手": 12,
-      "产品/SaaS": 52,
-      "MCP Server": 120,
+      "Bot/助手": 13,
+      "产品/SaaS": 53,
+      "MCP Server": 126,
       "研究原型": 4,
-      "API/SDK/库": 49,
+      "API/SDK/库": 50,
       "Awesome/索引": 22
     },
     "outputForms": {
-      "图形摘要/信息图": 31,
-      "PPT/演示文稿": 184,
-      "网页/交互页面": 128,
+      "图形摘要/信息图": 32,
+      "PPT/演示文稿": 191,
+      "网页/交互页面": 131,
       "问答/学习材料": 15,
       "报告/长文档": 55,
       "证据表": 22,
-      "信息图/视觉报告": 58,
-      "图表/仪表盘": 111,
-      "架构图/流程图": 97,
-      "SVG/PNG/PDF": 148,
-      "报告/简报": 46,
+      "信息图/视觉报告": 59,
+      "图表/仪表盘": 113,
+      "架构图/流程图": 98,
+      "SVG/PNG/PDF": 152,
+      "报告/简报": 48,
       "白板/思维导图": 28,
-      "图表/Mermaid": 49,
+      "图表/Mermaid": 50,
       "视频/音频": 33,
       "表格/时间线": 11,
       "引用答案": 5,
       "思维导图/知识地图": 27,
-      "结构化数据/Markdown": 43,
+      "结构化数据/Markdown": 44,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 26,
       "图表/渲染输出": 13,
       "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 331,
-      "模型 API": 156,
-      "文档解析/OCR": 67,
-      "渲染/导出": 342,
+      "本地语言环境": 338,
+      "模型 API": 159,
+      "文档解析/OCR": 68,
+      "渲染/导出": 350,
       "GPU/加速器": 11,
-      "模板/素材": 195,
-      "Agent 宿主": 178,
-      "系统工具": 71,
-      "浏览器/账号": 117,
+      "模板/素材": 202,
+      "Agent 宿主": 180,
+      "系统工具": 74,
+      "浏览器/账号": 118,
       "存储/索引": 52,
-      "外部检索/数据源": 85,
-      "MCP Client": 124,
-      "代码分析工具": 29
+      "外部检索/数据源": 86,
+      "MCP Client": 130,
+      "代码分析工具": 30
     },
     "categories": {
       "paper-visualization": 15,
       "doc-to-knowledge": 40,
       "research-report": 22,
       "infographic-report": 35,
-      "data-dashboard": 53,
-      "diagram-generation": 59,
+      "data-dashboard": 54,
+      "diagram-generation": 60,
       "literature-map": 4,
-      "presentation-tools": 121,
+      "presentation-tools": 127,
       "codebase-map": 24,
       "rendering-primitive": 8,
       "video-generation": 10,
@@ -102,12 +102,12 @@
       "support_mindmap": 13,
       "docs": 23,
       "support_doc_parse": 11,
-      "presentation": 133,
+      "presentation": 139,
       "code": 25,
       "support_render": 46,
-      "diagrams": 9,
+      "diagrams": 10,
       "video": 10,
-      "data": 48,
+      "data": 49,
       "indexes": 24,
       "diagram": 1,
       "index": 1
@@ -37800,6 +37800,580 @@
       ],
       "effectAssets": [],
       "docsCount": 2,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Beamer-MCP",
+      "url": "https://github.com/context-machine-lab/Beamer-MCP",
+      "primaryUrl": "https://github.com/context-machine-lab/Beamer-MCP",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "MCP server for programmatic LaTeX Beamer slide decks and beamerposter research posters with themes, columns, images, custom frames, .tex saves, and PDF compilation.",
+      "sourceTypes": [
+        "文本/想法",
+        "论文/科研资料",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "USAGE.md",
+          "url": "https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/USAGE.md",
+          "source": "https://github.com/context-machine-lab/Beamer-MCP"
+        },
+        {
+          "kind": "docs",
+          "title": "examples directory",
+          "url": "https://github.com/context-machine-lab/Beamer-MCP/tree/HEAD/examples",
+          "source": "https://github.com/context-machine-lab/Beamer-MCP"
+        },
+        {
+          "kind": "docs",
+          "title": "Beamer Documentation",
+          "url": "https://ctan.org/pkg/beamer",
+          "source": "https://github.com/context-machine-lab/Beamer-MCP"
+        },
+        {
+          "kind": "docs",
+          "title": "Beamerposter Documentation",
+          "url": "https://ctan.org/pkg/beamerposter",
+          "source": "https://github.com/context-machine-lab/Beamer-MCP"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "simple-presentation.md",
+          "url": "https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/examples/simple-presentation.md",
+          "source": "https://github.com/context-machine-lab/Beamer-MCP"
+        },
+        {
+          "kind": "example",
+          "title": "poster-example.md",
+          "url": "https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/examples/poster-example.md",
+          "source": "https://github.com/context-machine-lab/Beamer-MCP"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "mdslides-mcp-server",
+      "url": "https://github.com/bsmnyk/mdslides-mcp-server",
+      "primaryUrl": "https://github.com/bsmnyk/mdslides-mcp-server",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-04",
+      "note": "MCP server that wraps mkslides so agents can turn Markdown into hosted Reveal.js-style HTML slide decks with theme, highlight, and Reveal.js options plus Docker deployment.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs directory",
+          "url": "https://github.com/bsmnyk/mdslides-mcp-server/tree/HEAD/docs",
+          "source": "https://github.com/bsmnyk/mdslides-mcp-server"
+        },
+        {
+          "kind": "docs",
+          "title": "mkslides",
+          "url": "https://github.com/MartenBE/mkslides",
+          "source": "https://github.com/bsmnyk/mdslides-mcp-server"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "mcp-demo.webm",
+          "url": "https://github.com/bsmnyk/mdslides-mcp-server",
+          "source": "https://github.com/bsmnyk/mdslides-mcp-server"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Slidev MCP Server",
+      "url": "https://github.com/raykuonz/slidev-mcp-server",
+      "primaryUrl": "https://github.com/raykuonz/slidev-mcp-server",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "MCP server for AI chat-to-Slidev workflows with business, technical, and educational deck examples, atomic slide creation, themes, code blocks, tables, math, and Playwright-backed PDF export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Desktop Setup",
+          "url": "https://github.com/raykuonz/slidev-mcp-server#option-1-claude-desktop-recommended",
+          "source": "https://github.com/raykuonz/slidev-mcp-server"
+        },
+        {
+          "kind": "docs",
+          "title": "n8n Workflows",
+          "url": "https://github.com/raykuonz/slidev-mcp-server#ai-integration",
+          "source": "https://github.com/raykuonz/slidev-mcp-server"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "presentations directory",
+          "url": "https://github.com/raykuonz/slidev-mcp-server/tree/HEAD/presentations",
+          "source": "https://github.com/raykuonz/slidev-mcp-server"
+        },
+        {
+          "kind": "example",
+          "title": "Business, technical, and educational examples",
+          "url": "https://github.com/raykuonz/slidev-mcp-server#real-world-examples",
+          "source": "https://github.com/raykuonz/slidev-mcp-server"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Presentation Pro Designer",
+      "url": "https://github.com/DXBMark/presentation-pro-designer",
+      "primaryUrl": "https://github.com/DXBMark/presentation-pro-designer",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模板/素材",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "Multi-platform AI presentation design skill and CLI toolkit that routes deck type, source rules, design systems, charts, QA, accessibility, and export packaging for ChatGPT, Claude, Gemini, IDE agents, and generic agents.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs directory",
+          "url": "https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/docs",
+          "source": "https://github.com/DXBMark/presentation-pro-designer"
+        },
+        {
+          "kind": "docs",
+          "title": "CHANGELOG.md",
+          "url": "https://github.com/DXBMark/presentation-pro-designer/blob/HEAD/CHANGELOG.md",
+          "source": "https://github.com/DXBMark/presentation-pro-designer"
+        },
+        {
+          "kind": "docs",
+          "title": "skill.json",
+          "url": "https://github.com/DXBMark/presentation-pro-designer/blob/HEAD/skill.json",
+          "source": "https://github.com/DXBMark/presentation-pro-designer"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples directory",
+          "url": "https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/examples",
+          "source": "https://github.com/DXBMark/presentation-pro-designer"
+        },
+        {
+          "kind": "template",
+          "title": "presentation-pro-designer skill",
+          "url": "https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/skills/presentation-pro-designer",
+          "source": "https://github.com/DXBMark/presentation-pro-designer"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Gamma MCP Server",
+      "url": "https://github.com/cbruyndoncx/gamma-mcp-server",
+      "primaryUrl": "https://github.com/cbruyndoncx/gamma-mcp-server",
+      "homepage": "https://gamma.app/",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-04",
+      "note": "NPX-ready MCP server that brings Gamma API presentation generation into Claude Desktop and other clients, with public prompt templates for pitch decks, QBRs, training, sales, conference talks, briefings, and PPTX speaker-note exports.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Gamma API docs",
+          "url": "https://gamma.app/docs/api",
+          "source": "https://github.com/cbruyndoncx/gamma-mcp-server"
+        },
+        {
+          "kind": "docs",
+          "title": "CONFIGURATION.md",
+          "url": "https://github.com/cbruyndoncx/gamma-mcp-server/blob/HEAD/CONFIGURATION.md",
+          "source": "https://github.com/cbruyndoncx/gamma-mcp-server"
+        },
+        {
+          "kind": "docs",
+          "title": "NPX_USAGE.md",
+          "url": "https://github.com/cbruyndoncx/gamma-mcp-server/blob/HEAD/NPX_USAGE.md",
+          "source": "https://github.com/cbruyndoncx/gamma-mcp-server"
+        },
+        {
+          "kind": "docs",
+          "title": "PROMPTS_GUIDE.md",
+          "url": "https://github.com/cbruyndoncx/gamma-mcp-server/blob/HEAD/PROMPTS_GUIDE.md",
+          "source": "https://github.com/cbruyndoncx/gamma-mcp-server"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "11 public prompt templates",
+          "url": "https://github.com/cbruyndoncx/gamma-mcp-server#available-public-prompts",
+          "source": "https://github.com/cbruyndoncx/gamma-mcp-server"
+        },
+        {
+          "kind": "template",
+          "title": "prompts directory",
+          "url": "https://github.com/cbruyndoncx/gamma-mcp-server/tree/HEAD/prompts",
+          "source": "https://github.com/cbruyndoncx/gamma-mcp-server"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "delafuente-skills",
+      "url": "https://github.com/menpente/delafuente-skills",
+      "primaryUrl": "https://github.com/menpente/delafuente-skills",
+      "homepage": "https://www.delafuente.ai",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "Claude skill library for data science, strategy, and communications, including XmR charts, 6-12 year-over-year charts, metric trees, companion infographic posts, and consulting-grade PowerPoint decks.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "PPT/演示文稿",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs directory",
+          "url": "https://github.com/menpente/delafuente-skills/tree/HEAD/docs",
+          "source": "https://github.com/menpente/delafuente-skills"
+        },
+        {
+          "kind": "docs",
+          "title": "fetch_sources.py",
+          "url": "https://github.com/menpente/delafuente-skills/blob/HEAD/fetch_sources.py",
+          "source": "https://github.com/menpente/delafuente-skills"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "xmr-chart skill",
+          "url": "https://github.com/menpente/delafuente-skills/tree/HEAD/data/xmr-chart",
+          "source": "https://github.com/menpente/delafuente-skills"
+        },
+        {
+          "kind": "example",
+          "title": "6-12-chart skill",
+          "url": "https://github.com/menpente/delafuente-skills/tree/HEAD/data/6-12-chart",
+          "source": "https://github.com/menpente/delafuente-skills"
+        },
+        {
+          "kind": "example",
+          "title": "slidestart-pptx skill",
+          "url": "https://github.com/menpente/delafuente-skills/tree/HEAD/comms/slidestart-pptx",
+          "source": "https://github.com/menpente/delafuente-skills"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Slide Builder",
+      "url": "https://github.com/heisenberg-alt/gh-copilot-slides",
+      "primaryUrl": "https://github.com/heisenberg-alt/gh-copilot-slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-04",
+      "note": "VS Code Copilot MCP server, Python agent team, and Go CLI that researches topics, URLs, and local files, curates deck narratives, applies style presets, supports natural-language edits, and exports HTML, PPTX, and PDF slides.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "PDF/文档",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs directory",
+          "url": "https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/docs",
+          "source": "https://github.com/heisenberg-alt/gh-copilot-slides"
+        },
+        {
+          "kind": "docs",
+          "title": "slide_mcp directory",
+          "url": "https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/slide_mcp",
+          "source": "https://github.com/heisenberg-alt/gh-copilot-slides"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "research-driven Go CLI example",
+          "url": "https://github.com/heisenberg-alt/gh-copilot-slides#go-cli",
+          "source": "https://github.com/heisenberg-alt/gh-copilot-slides"
+        },
+        {
+          "kind": "template",
+          "title": "templates directory",
+          "url": "https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/templates",
+          "source": "https://github.com/heisenberg-alt/gh-copilot-slides"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Archy",
+      "url": "https://github.com/phxdev1/archy-mcp",
+      "primaryUrl": "https://github.com/phxdev1/archy-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-08-04",
+      "note": "MCP architectural diagram builder that generates Mermaid diagrams from natural-language descriptions, GitHub repository URLs, code snippets, diffs, or repository history, with optional OpenRouter enhancement and PNG/SVG/PDF export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "mcp-settings-example.json",
+          "url": "https://github.com/phxdev1/archy-mcp/blob/HEAD/mcp-settings-example.json",
+          "source": "https://github.com/phxdev1/archy-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Available Tools",
+          "url": "https://github.com/phxdev1/archy-mcp#available-tools",
+          "source": "https://github.com/phxdev1/archy-mcp"
+        },
+        {
+          "kind": "docs",
+          "title": "Image Export",
+          "url": "https://github.com/phxdev1/archy-mcp#image-export",
+          "source": "https://github.com/phxdev1/archy-mcp"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples directory",
+          "url": "https://github.com/phxdev1/archy-mcp/tree/HEAD/examples",
+          "source": "https://github.com/phxdev1/archy-mcp"
+        },
+        {
+          "kind": "example",
+          "title": "class diagram from text example",
+          "url": "https://github.com/phxdev1/archy-mcp#generating-a-class-diagram-from-text",
+          "source": "https://github.com/phxdev1/archy-mcp"
+        },
+        {
+          "kind": "example",
+          "title": "flowchart from GitHub example",
+          "url": "https://github.com/phxdev1/archy-mcp#generating-a-flowchart-from-github",
+          "source": "https://github.com/phxdev1/archy-mcp"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
       "examplesCount": 3,
       "effectAssetsCount": 0
     }

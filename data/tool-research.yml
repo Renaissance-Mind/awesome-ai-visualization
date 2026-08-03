@@ -1,4 +1,4 @@
-generated_at: '2026-08-02T23:08:03+00:00'
+generated_at: '2026-08-03T23:07:17+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 426
-  fetched_sources_ok: 583
-  fetched_sources_failed: 32
-  official_examples: 1096
+  entries: 434
+  fetched_sources_ok: 590
+  fetched_sources_failed: 33
+  official_examples: 1113
   official_effect_assets: 1363
-  official_docs: 1196
+  official_docs: 1218
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -37707,4 +37707,459 @@ entries:
   - Report Templates
   - Investment Report Template
   - Business Report Template
+  - Examples
+- name: Beamer-MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/context-machine-lab/Beamer-MCP
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server for programmatic LaTeX Beamer slide decks and beamerposter research posters with themes, columns,
+    images, custom frames, .tex saves, and PDF compilation.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/context-machine-lab/Beamer-MCP
+    final_url: https://github.com/context-machine-lab/Beamer-MCP
+    status: 200
+    content_type: text/html
+    title: Beamer MCP Server
+  official_examples:
+  - kind: example
+    title: simple-presentation.md
+    url: https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/examples/simple-presentation.md
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: example
+    title: poster-example.md
+    url: https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/examples/poster-example.md
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  official_docs:
+  - kind: docs
+    title: USAGE.md
+    url: https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/USAGE.md
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: docs
+    title: examples directory
+    url: https://github.com/context-machine-lab/Beamer-MCP/tree/HEAD/examples
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: docs
+    title: Beamer Documentation
+    url: https://ctan.org/pkg/beamer
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: docs
+    title: Beamerposter Documentation
+    url: https://ctan.org/pkg/beamerposter
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  official_links:
+  - kind: example
+    title: simple-presentation.md
+    url: https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/examples/simple-presentation.md
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: example
+    title: poster-example.md
+    url: https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/examples/poster-example.md
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: docs
+    title: USAGE.md
+    url: https://github.com/context-machine-lab/Beamer-MCP/blob/HEAD/USAGE.md
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  - kind: docs
+    title: examples directory
+    url: https://github.com/context-machine-lab/Beamer-MCP/tree/HEAD/examples
+    source: https://github.com/context-machine-lab/Beamer-MCP
+  source_headings:
+  - Features
+  - Available Tools
+  - Usage Examples
+  - Examples
+  - Resources
+- name: mdslides-mcp-server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/bsmnyk/mdslides-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server that wraps mkslides so agents can turn Markdown into hosted Reveal.js-style HTML slide decks with
+    theme, highlight, and Reveal.js options plus Docker deployment.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/bsmnyk/mdslides-mcp-server
+    final_url: https://github.com/bsmnyk/mdslides-mcp-server
+    status: 200
+    content_type: text/html
+    title: mdslides-mcp-server
+  official_examples:
+  - kind: demo
+    title: mcp-demo.webm
+    url: https://github.com/bsmnyk/mdslides-mcp-server
+    source: https://github.com/bsmnyk/mdslides-mcp-server
+  official_docs:
+  - kind: docs
+    title: docs directory
+    url: https://github.com/bsmnyk/mdslides-mcp-server/tree/HEAD/docs
+    source: https://github.com/bsmnyk/mdslides-mcp-server
+  - kind: docs
+    title: mkslides
+    url: https://github.com/MartenBE/mkslides
+    source: https://github.com/bsmnyk/mdslides-mcp-server
+  official_links:
+  - kind: demo
+    title: mcp-demo.webm
+    url: https://github.com/bsmnyk/mdslides-mcp-server
+    source: https://github.com/bsmnyk/mdslides-mcp-server
+  - kind: docs
+    title: docs directory
+    url: https://github.com/bsmnyk/mdslides-mcp-server/tree/HEAD/docs
+    source: https://github.com/bsmnyk/mdslides-mcp-server
+  source_headings:
+  - What it Does
+  - Demo
+  - Features
+  - Available Tool
+- name: Slidev MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/raykuonz/slidev-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server for AI chat-to-Slidev workflows with business, technical, and educational deck examples, atomic slide
+    creation, themes, code blocks, tables, math, and Playwright-backed PDF export.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/raykuonz/slidev-mcp-server
+    final_url: https://github.com/raykuonz/slidev-mcp-server
+    status: 200
+    content_type: text/html
+    title: Slidev MCP Server
+  official_examples:
+  - kind: example
+    title: presentations directory
+    url: https://github.com/raykuonz/slidev-mcp-server/tree/HEAD/presentations
+    source: https://github.com/raykuonz/slidev-mcp-server
+  - kind: example
+    title: Business, technical, and educational examples
+    url: https://github.com/raykuonz/slidev-mcp-server#real-world-examples
+    source: https://github.com/raykuonz/slidev-mcp-server
+  official_docs:
+  - kind: docs
+    title: Claude Desktop Setup
+    url: https://github.com/raykuonz/slidev-mcp-server#option-1-claude-desktop-recommended
+    source: https://github.com/raykuonz/slidev-mcp-server
+  - kind: docs
+    title: n8n Workflows
+    url: https://github.com/raykuonz/slidev-mcp-server#ai-integration
+    source: https://github.com/raykuonz/slidev-mcp-server
+  official_links:
+  - kind: example
+    title: presentations directory
+    url: https://github.com/raykuonz/slidev-mcp-server/tree/HEAD/presentations
+    source: https://github.com/raykuonz/slidev-mcp-server
+  - kind: docs
+    title: Claude Desktop Setup
+    url: https://github.com/raykuonz/slidev-mcp-server#option-1-claude-desktop-recommended
+    source: https://github.com/raykuonz/slidev-mcp-server
+  source_headings:
+  - Demo
+  - Real-world examples
+  - Features
+  - PDF Export
+  - AI Integration
+- name: Presentation Pro Designer
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/DXBMark/presentation-pro-designer
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模板/素材
+  - 渲染/导出
+  catalog_note: Multi-platform AI presentation design skill and CLI toolkit that routes deck type, source rules, design systems,
+    charts, QA, accessibility, and export packaging for ChatGPT, Claude, Gemini, IDE agents, and generic agents.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/DXBMark/presentation-pro-designer
+    final_url: https://github.com/DXBMark/presentation-pro-designer
+    status: 200
+    content_type: text/html
+    title: Presentation Pro Designer
+  official_examples:
+  - kind: example
+    title: examples directory
+    url: https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/examples
+    source: https://github.com/DXBMark/presentation-pro-designer
+  - kind: template
+    title: presentation-pro-designer skill
+    url: https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/skills/presentation-pro-designer
+    source: https://github.com/DXBMark/presentation-pro-designer
+  official_docs:
+  - kind: docs
+    title: docs directory
+    url: https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/docs
+    source: https://github.com/DXBMark/presentation-pro-designer
+  - kind: docs
+    title: CHANGELOG.md
+    url: https://github.com/DXBMark/presentation-pro-designer/blob/HEAD/CHANGELOG.md
+    source: https://github.com/DXBMark/presentation-pro-designer
+  - kind: docs
+    title: skill.json
+    url: https://github.com/DXBMark/presentation-pro-designer/blob/HEAD/skill.json
+    source: https://github.com/DXBMark/presentation-pro-designer
+  official_links:
+  - kind: example
+    title: examples directory
+    url: https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/examples
+    source: https://github.com/DXBMark/presentation-pro-designer
+  - kind: template
+    title: presentation-pro-designer skill
+    url: https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/skills/presentation-pro-designer
+    source: https://github.com/DXBMark/presentation-pro-designer
+  - kind: docs
+    title: docs directory
+    url: https://github.com/DXBMark/presentation-pro-designer/tree/HEAD/docs
+    source: https://github.com/DXBMark/presentation-pro-designer
+  source_headings:
+  - What This Repository Provides
+  - Supported Platforms
+  - Supported Presentation Types
+- name: Gamma MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/cbruyndoncx/gamma-mcp-server
+  homepage: https://gamma.app/
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: NPX-ready MCP server that brings Gamma API presentation generation into Claude Desktop and other clients, with
+    public prompt templates for pitch decks, QBRs, training, sales, conference talks, briefings, and PPTX speaker-note exports.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/cbruyndoncx/gamma-mcp-server
+    final_url: https://github.com/cbruyndoncx/gamma-mcp-server
+    status: 200
+    content_type: text/html
+    title: Gamma MCP Server
+  official_examples:
+  - kind: template
+    title: 11 public prompt templates
+    url: https://github.com/cbruyndoncx/gamma-mcp-server#available-public-prompts
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  - kind: template
+    title: prompts directory
+    url: https://github.com/cbruyndoncx/gamma-mcp-server/tree/HEAD/prompts
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  official_docs:
+  - kind: docs
+    title: Gamma API docs
+    url: https://gamma.app/docs/api
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  - kind: docs
+    title: CONFIGURATION.md
+    url: https://github.com/cbruyndoncx/gamma-mcp-server/blob/HEAD/CONFIGURATION.md
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  - kind: docs
+    title: NPX_USAGE.md
+    url: https://github.com/cbruyndoncx/gamma-mcp-server/blob/HEAD/NPX_USAGE.md
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  - kind: docs
+    title: PROMPTS_GUIDE.md
+    url: https://github.com/cbruyndoncx/gamma-mcp-server/blob/HEAD/PROMPTS_GUIDE.md
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  official_links:
+  - kind: template
+    title: 11 public prompt templates
+    url: https://github.com/cbruyndoncx/gamma-mcp-server#available-public-prompts
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  - kind: docs
+    title: Gamma API docs
+    url: https://gamma.app/docs/api
+    source: https://github.com/cbruyndoncx/gamma-mcp-server
+  source_headings:
+  - What is Gamma?
+  - Features
+  - Available Public Prompts
+  - Adding Private Prompts
+- name: delafuente-skills
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/menpente/delafuente-skills
+  homepage: https://www.delafuente.ai
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill library for data science, strategy, and communications, including XmR charts, 6-12 year-over-year
+    charts, metric trees, companion infographic posts, and consulting-grade PowerPoint decks.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/menpente/delafuente-skills
+    final_url: https://github.com/menpente/delafuente-skills
+    status: 200
+    content_type: text/html
+    title: delafuente-skills
+  official_examples:
+  - kind: example
+    title: xmr-chart skill
+    url: https://github.com/menpente/delafuente-skills/tree/HEAD/data/xmr-chart
+    source: https://github.com/menpente/delafuente-skills
+  - kind: example
+    title: 6-12-chart skill
+    url: https://github.com/menpente/delafuente-skills/tree/HEAD/data/6-12-chart
+    source: https://github.com/menpente/delafuente-skills
+  - kind: example
+    title: slidestart-pptx skill
+    url: https://github.com/menpente/delafuente-skills/tree/HEAD/comms/slidestart-pptx
+    source: https://github.com/menpente/delafuente-skills
+  official_docs:
+  - kind: docs
+    title: docs directory
+    url: https://github.com/menpente/delafuente-skills/tree/HEAD/docs
+    source: https://github.com/menpente/delafuente-skills
+  - kind: docs
+    title: fetch_sources.py
+    url: https://github.com/menpente/delafuente-skills/blob/HEAD/fetch_sources.py
+    source: https://github.com/menpente/delafuente-skills
+  official_links:
+  - kind: example
+    title: xmr-chart skill
+    url: https://github.com/menpente/delafuente-skills/tree/HEAD/data/xmr-chart
+    source: https://github.com/menpente/delafuente-skills
+  - kind: example
+    title: slidestart-pptx skill
+    url: https://github.com/menpente/delafuente-skills/tree/HEAD/comms/slidestart-pptx
+    source: https://github.com/menpente/delafuente-skills
+  source_headings:
+  - Structure
+  - Skills
+  - Data
+  - Comms
+- name: Slide Builder
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/heisenberg-alt/gh-copilot-slides
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: VS Code Copilot MCP server, Python agent team, and Go CLI that researches topics, URLs, and local files, curates
+    deck narratives, applies style presets, supports natural-language edits, and exports HTML, PPTX, and PDF slides.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/heisenberg-alt/gh-copilot-slides
+    final_url: https://github.com/heisenberg-alt/gh-copilot-slides
+    status: 200
+    content_type: text/html
+    title: Slide Builder
+  official_examples:
+  - kind: example
+    title: research-driven Go CLI example
+    url: https://github.com/heisenberg-alt/gh-copilot-slides#go-cli
+    source: https://github.com/heisenberg-alt/gh-copilot-slides
+  - kind: template
+    title: templates directory
+    url: https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/templates
+    source: https://github.com/heisenberg-alt/gh-copilot-slides
+  official_docs:
+  - kind: docs
+    title: docs directory
+    url: https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/docs
+    source: https://github.com/heisenberg-alt/gh-copilot-slides
+  - kind: docs
+    title: slide_mcp directory
+    url: https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/slide_mcp
+    source: https://github.com/heisenberg-alt/gh-copilot-slides
+  official_links:
+  - kind: example
+    title: research-driven Go CLI example
+    url: https://github.com/heisenberg-alt/gh-copilot-slides#go-cli
+    source: https://github.com/heisenberg-alt/gh-copilot-slides
+  - kind: template
+    title: templates directory
+    url: https://github.com/heisenberg-alt/gh-copilot-slides/tree/HEAD/templates
+    source: https://github.com/heisenberg-alt/gh-copilot-slides
+  source_headings:
+  - Quick Start
+  - VS Code Copilot
+  - Go CLI
+  - Architecture
+  - Output Formats
+  - Style Presets
+- name: Archy
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/phxdev1/archy-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: MCP architectural diagram builder that generates Mermaid diagrams from natural-language descriptions, GitHub
+    repository URLs, code snippets, diffs, or repository history, with optional OpenRouter enhancement and PNG/SVG/PDF export.
+  fetched_sources:
+  - kind: github_page
+    url: https://github.com/phxdev1/archy-mcp
+    final_url: https://github.com/phxdev1/archy-mcp
+    status: 200
+    content_type: text/html
+    title: Archy - Architectural Diagram Builder
+  official_examples:
+  - kind: example
+    title: examples directory
+    url: https://github.com/phxdev1/archy-mcp/tree/HEAD/examples
+    source: https://github.com/phxdev1/archy-mcp
+  - kind: example
+    title: class diagram from text example
+    url: https://github.com/phxdev1/archy-mcp#generating-a-class-diagram-from-text
+    source: https://github.com/phxdev1/archy-mcp
+  - kind: example
+    title: flowchart from GitHub example
+    url: https://github.com/phxdev1/archy-mcp#generating-a-flowchart-from-github
+    source: https://github.com/phxdev1/archy-mcp
+  official_docs:
+  - kind: docs
+    title: mcp-settings-example.json
+    url: https://github.com/phxdev1/archy-mcp/blob/HEAD/mcp-settings-example.json
+    source: https://github.com/phxdev1/archy-mcp
+  - kind: docs
+    title: Available Tools
+    url: https://github.com/phxdev1/archy-mcp#available-tools
+    source: https://github.com/phxdev1/archy-mcp
+  - kind: docs
+    title: Image Export
+    url: https://github.com/phxdev1/archy-mcp#image-export
+    source: https://github.com/phxdev1/archy-mcp
+  official_links:
+  - kind: example
+    title: examples directory
+    url: https://github.com/phxdev1/archy-mcp/tree/HEAD/examples
+    source: https://github.com/phxdev1/archy-mcp
+  - kind: docs
+    title: Available Tools
+    url: https://github.com/phxdev1/archy-mcp#available-tools
+    source: https://github.com/phxdev1/archy-mcp
+  source_headings:
+  - Features
+  - Automated MCP Installation
+  - OpenRouter Integration
+  - Image Export
+  - Available Tools
   - Examples
