@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-434_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--04-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-442_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--05-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,18 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-08-04)
+## Latest Refresh (2026-08-05)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Beamer-MCP](https://github.com/context-machine-lab/Beamer-MCP) | LaTeX Beamer MCP server for slide decks, research posters, .tex saves, and PDF compilation. |
-| [mdslides-mcp-server](https://github.com/bsmnyk/mdslides-mcp-server) | Markdown-to-HTML slide MCP server backed by mkslides themes, Reveal.js options, and Docker deployment. |
-| [Slidev MCP Server](https://github.com/raykuonz/slidev-mcp-server) | AI chat-to-Slidev presentation workflow with business, technical, educational, and PDF export support. |
-| [Presentation Pro Designer](https://github.com/DXBMark/presentation-pro-designer) | Multi-platform presentation design skill and CLI toolkit for source-first deck planning, design, and QA. |
-| [Gamma MCP Server](https://github.com/cbruyndoncx/gamma-mcp-server) | NPX-ready Gamma API MCP server with public prompt templates and PPTX speaker-note exports. |
-| [delafuente-skills](https://github.com/menpente/delafuente-skills) | Data, communications, and strategy skills for charts, metric trees, infographics, and consulting PPTX decks. |
-| [Slide Builder](https://github.com/heisenberg-alt/gh-copilot-slides) | VS Code Copilot MCP, Python agent team, and Go CLI for research-driven HTML/PPTX/PDF decks. |
-| [Archy](https://github.com/phxdev1/archy-mcp) | MCP architecture diagram builder for text, GitHub repos, code, diffs, Mermaid, and image/PDF export. |
+| [DeepBI](https://github.com/DeepInsight-AI/DeepBI) | AI-native BI workspace for conversational queries, persistent visualizations, and dashboards from databases, CSV, and Excel. |
+| [trRUSTt](https://github.com/oshjain/trrustt) | Power BI external tool and MCP-native studio for plain-English DAX, visuals, and PBIX dashboard reports. |
+| [SEO Client Report Skill](https://github.com/dashaworks/seo-client-report-skill) | Claude Code/Codex skill for GA4, Search Console, and rank-tracker exports to branded live SEO reports. |
+| [groundstation](https://github.com/dannybauman/groundstation) | MCP and Claude skill for satellite/weather/disaster data briefs, scheduled sweeps, and shareable map artifacts. |
+| [3brown1blue](https://github.com/AmitSubhash/3brown1blue) | Manim skill and CLI that turns topics or PowerPoint decks into audience-aware technical explainer videos. |
+| [Video Analysis MCP Service](https://github.com/tjh19971228/mcp_video_analysis) | MCP service that analyzes video URLs and produces JSON, PNG, and interactive HTML mind maps. |
+| [mcp-scapple](https://github.com/binaryloader/mcp-scapple) | Scapple MCP server for text-to-brainstorm diagrams, .scap JSON parsing, and themed PNG mind-map rendering. |
+| [Mermaid MCP Server by Narasimha](https://github.com/Narasimhaponnada/mermaid-mcp) | TypeScript MCP server for AI-generated Mermaid architecture, flowchart, and sequence diagrams with SVG output. |
 
 ## ✨ 推薦使用方式
 
@@ -96,6 +96,7 @@
 | [Market-Intelligence-Agent](https://github.com/vikas-kashyap97/Market-Intelligence-Agent) [![Star](https://img.shields.io/github/stars/vikas-kashyap97/Market-Intelligence-Agent?style=flat&logo=github&label=Star)](https://github.com/vikas-kashyap97/Market-Intelligence-Agent/stargazers) | 新聞/資訊 / 資料/表格 / 網頁/搜尋結果 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 外部檢索/資料來源 / 渲染/匯出 / 儲存/索引 |
 | [World Monitor](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor) [![Star](https://img.shields.io/github/stars/FutureSpeakAI/agent-fridays-global-intelligence-monitor?style=flat&logo=github&label=Star)](https://github.com/FutureSpeakAI/agent-fridays-global-intelligence-monitor/stargazers) | 新聞/資訊 / 網頁/搜尋結果 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 外部檢索/資料來源 / 渲染/匯出 / 儲存/索引 |
 | [World Intelligence MCP Server](https://github.com/marc-shade/world-intel-mcp) [![Star](https://img.shields.io/github/stars/marc-shade/world-intel-mcp?style=flat&logo=github&label=Star)](https://github.com/marc-shade/world-intel-mcp/stargazers) | 新聞/資訊 / 資料/表格 / 資料庫 / 網頁/搜尋結果 | MCP Server | 圖表/儀表板 / 報告/簡報 / 表格/時間線 / 證據表 | MCP Client / 本機語言環境 / 外部檢索/資料源 / 儲存/索引 / 渲染/匯出 |
+| [groundstation](https://github.com/dannybauman/groundstation) [![Star](https://img.shields.io/github/stars/dannybauman/groundstation?style=flat&logo=github&label=Star)](https://github.com/dannybauman/groundstation/stargazers) | Data/tables / 網頁/搜尋結果 / 新聞/資訊 | MCP Server / Agent Skill / 開源應用/框架 | 圖表/儀表板 / 報告/簡報 / 網頁/互動頁面 | Agent 宿主 / MCP Client / 本機語言環境 / External search/data / 渲染/匯出 / 儲存/索引 |
 | [OSSInsight](https://github.com/pingcap/ossinsight) [![Star](https://img.shields.io/github/stars/pingcap/ossinsight?style=flat&logo=github&label=Star)](https://github.com/pingcap/ossinsight/stargazers) | 程式碼庫 / 資料/表格 / 網頁/搜尋結果 | 開源應用/框架 / 產品/SaaS | 圖表/儀表板 / 報告/簡報 | 瀏覽器/帳號 / 外部檢索/資料來源 / 渲染/匯出 / 儲存/索引 |
 
 ### 文件、PDF 與知識庫
@@ -120,6 +121,8 @@
 | [notebooklm-claude-workflows](https://github.com/CreatmanCEO/notebooklm-claude-workflows) [![Star](https://img.shields.io/github/stars/CreatmanCEO/notebooklm-claude-workflows?style=flat&logo=github&label=Star)](https://github.com/CreatmanCEO/notebooklm-claude-workflows/stargazers) | PDF/documents / Web/search / Knowledge base / Data/tables / Any/multi-source | Agent skill | Long report / Briefing/report / Mind map/knowledge map / Infographic/visual report / PPT/deck / Video/audio / Table/timeline | Agent host / MCP client / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export / Storage/index |
 | [qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) [![Star](https://img.shields.io/github/stars/joeseesun/qiaomu-anything-to-notebooklm?style=flat&logo=github&label=Star)](https://github.com/joeseesun/qiaomu-anything-to-notebooklm/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Agent skill | PPT/deck / Mind map/knowledge map / Video/audio / Q&A/study material / Briefing/report | Agent host / Browser/account / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [Report Skills](https://github.com/dashaworks/report-skills) [![Star](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat&logo=github&label=Star)](https://github.com/dashaworks/report-skills/stargazers) | Any/multi-source / Text/ideas / Web/search | Skill collection / MCP server | Long report / Web/interactive page / PPT/deck | Agent host / MCP client / Model API / Browser/account / Rendering/export / Templates/assets |
+| [SEO Client Report Skill](https://github.com/dashaworks/seo-client-report-skill) [![Star](https://img.shields.io/github/stars/dashaworks/seo-client-report-skill?style=flat&logo=github&label=Star)](https://github.com/dashaworks/seo-client-report-skill/stargazers) | 網頁/搜尋結果 / Data/tables / Any/multi-source | Agent Skill / MCP Server | 報告/長文件 / 網頁/互動頁面 / 圖表/儀表板 | Agent 宿主 / MCP Client / 模型 API / External search/data / 渲染/匯出 / 範本/素材 |
+| [Video Analysis MCP Service](https://github.com/tjh19971228/mcp_video_analysis) [![Star](https://img.shields.io/github/stars/tjh19971228/mcp_video_analysis?style=flat&logo=github&label=Star)](https://github.com/tjh19971228/mcp_video_analysis/stargazers) | 影片/音訊 / 網頁/搜尋結果 | MCP Server | 心智圖/知識地圖 / 白板/心智圖 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 模型 API / External search/data / 渲染/匯出 |
 | [HTML Express](https://github.com/zjp1997720/html-express) [![Star](https://img.shields.io/github/stars/zjp1997720/html-express?style=flat&logo=github&label=Star)](https://github.com/zjp1997720/html-express/stargazers) | Text/ideas / Data/tables / Web/search / Any/multi-source | Agent skill | Long report / Web/interactive page / Chart/dashboard / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [AI Marketing Suite for Claude Code](https://github.com/zubair-trabzada/ai-marketing-claude) [![Star](https://img.shields.io/github/stars/zubair-trabzada/ai-marketing-claude?style=flat&logo=github&label=Star)](https://github.com/zubair-trabzada/ai-marketing-claude/stargazers) | 網頁/搜尋結果 / 新聞/資訊 / 文字/想法 | Skill collection | 報告/長文件 / 報告/簡報 / 證據表 | Agent host / 本機語言環境 / 外部檢索/資料來源 / 渲染/匯出 / Templates/assets |
 | [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/文件 / 網頁/搜尋結果 / 影片/音訊 / 任意/多來源 | Agent skill | 報告/長文件 / 網頁/互動頁面 / 圖表/Mermaid / 結構化資料/Markdown | Agent host / 本機語言環境 / 文件解析/OCR / 外部檢索/資料來源 / 渲染/匯出 |
@@ -209,6 +212,8 @@
 
 | [GA4 Dashboard MCP](https://github.com/TheTechBasket/GA4-Dashboard-MCP) [![Star](https://img.shields.io/github/stars/TheTechBasket/GA4-Dashboard-MCP?style=flat&logo=github&label=Star)](https://github.com/TheTechBasket/GA4-Dashboard-MCP/stargazers) | Data/tables / Database / Web/search | Open-source app/framework / MCP server | Chart/dashboard / Web/interactive page | Local runtime / External search/data / MCP client / Browser/account / Rendering/export |
 | [Workforce Data Explorer](https://github.com/thelancehaun/workforce-data-explorer) [![Star](https://img.shields.io/github/stars/thelancehaun/workforce-data-explorer?style=flat&logo=github&label=Star)](https://github.com/thelancehaun/workforce-data-explorer/stargazers) | Data/tables / Database / News/intelligence | Open-source app/framework / MCP server | Chart/dashboard / Briefing/report / Structured data/Markdown | Browser/account / Local runtime / External search/data / MCP client / Rendering/export |
+| [DeepBI](https://github.com/DeepInsight-AI/DeepBI) [![Star](https://img.shields.io/github/stars/DeepInsight-AI/DeepBI?style=flat&logo=github&label=Star)](https://github.com/DeepInsight-AI/DeepBI/stargazers) | Data/tables / 資料庫 | 開源應用/框架 | 圖表/儀表板 / Structured data/Markdown | 本機語言環境 / 模型 API / External search/data / 儲存/索引 / 渲染/匯出 |
+| [trRUSTt](https://github.com/oshjain/trrustt) [![Star](https://img.shields.io/github/stars/oshjain/trrustt?style=flat&logo=github&label=Star)](https://github.com/oshjain/trrustt/stargazers) | Data/tables / 資料庫 / Office 文件 | 開源應用/框架 / MCP Server | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 系統工具 / MCP Client / External search/data / 渲染/匯出 |
 | [delafuente-skills](https://github.com/menpente/delafuente-skills) [![Star](https://img.shields.io/github/stars/menpente/delafuente-skills?style=flat&logo=github&label=Star)](https://github.com/menpente/delafuente-skills/stargazers) | Data/tables / Text/ideas / Web/search | Skill collection | Chart/dashboard / PPT/deck / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 
 ### 通用文字、想法與白板圖示
@@ -286,6 +291,7 @@
 | [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | 文字/想法 / 網頁/搜尋結果 | 開源應用/框架 | 影片/音訊 | Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 系統工具 / 儲存/索引 |
 | [data-animation-skills](https://github.com/iart-ai/data-animation-skills) [![Star](https://img.shields.io/github/stars/iart-ai/data-animation-skills?style=flat&logo=github&label=Star)](https://github.com/iart-ai/data-animation-skills/stargazers) | 資料/表格 / 文字/想法 | Skill 集合 | 影片/音訊 / 圖表/儀表板 / 資訊圖/視覺報告 / PPT/簡報 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
 | [Mediator](https://github.com/nathanfhh/nbp-web-gen) [![Star](https://img.shields.io/github/stars/nathanfhh/nbp-web-gen?style=flat&logo=github&label=Star)](https://github.com/nathanfhh/nbp-web-gen/stargazers) | Text/ideas / PDF/documents / Web/search / Any/multi-source | Open-source app/framework | Graphical abstract/infographic / PPT/deck / Architecture/flow diagram / Whiteboard/mind map / Video/audio / SVG/PNG/PDF | Browser/account / Model API / GPU/accelerator / Document parsing/OCR / Rendering/export / Templates/assets |
+| [3brown1blue](https://github.com/AmitSubhash/3brown1blue) [![Star](https://img.shields.io/github/stars/AmitSubhash/3brown1blue?style=flat&logo=github&label=Star)](https://github.com/AmitSubhash/3brown1blue/stargazers) | Text/ideas / 論文/科研資料 / Office 文件 | Agent Skill / API/SDK/library | Video/audio / 網頁/互動頁面 | Agent 宿主 / 本機語言環境 / 模型 API / 系統工具 / 渲染/匯出 / 範本/素材 |
 
 ### 簡報與多來源內容呈現
 
@@ -471,6 +477,7 @@
 | [Mind Map Generator Skill](https://github.com/0x-man/mindmap-skill) [![Star](https://img.shields.io/github/stars/0x-man/mindmap-skill?style=flat&logo=github&label=Star)](https://github.com/0x-man/mindmap-skill/stargazers) | 文字/想法 / PDF/文件 / 網頁/搜尋結果 / 知識庫/個人資料 | Agent Skill | 心智圖/知識地圖 / 網頁/互動頁面 / SVG/PNG/PDF / 圖表/Mermaid | Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 儲存/索引 |
 | [LLMapper Skill](https://github.com/jorgearango/llmapper-skill) [![Star](https://img.shields.io/github/stars/jorgearango/llmapper-skill?style=flat&logo=github&label=Star)](https://github.com/jorgearango/llmapper-skill/stargazers) | PDF/文件 / 網頁/搜尋結果 / 文字/想法 / 知識庫/個人資料 | Agent Skill | 心智圖/知識地圖 / 圖表/Mermaid / 網頁/互動頁面 / 結構化資料/Markdown | Agent 宿主 / 模型 API / 本機語言環境 / 文档解析/OCR / 渲染/匯出 / 儲存/索引 |
 | [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | 文字/想法 / PDF/文件 / 知識庫/個人資料 / DSL/代碼 | MCP server | 心智圖/知識地圖 / 網頁/互動頁面 / SVG/PNG/PDF | MCP client / 本機語言環境 / 渲染/匯出 |
+| [mcp-scapple](https://github.com/binaryloader/mcp-scapple) [![Star](https://img.shields.io/github/stars/binaryloader/mcp-scapple?style=flat&logo=github&label=Star)](https://github.com/binaryloader/mcp-scapple/stargazers) | Text/ideas / 知識庫/個人資料 | MCP Server | 白板/心智圖 / 心智圖/知識地圖 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
 
 ### 圖表、Mermaid 與渲染元件
 
@@ -508,6 +515,7 @@
 | [Mermaid MCP App](https://github.com/finfin/mermaid-mcp-app) [![Star](https://img.shields.io/github/stars/finfin/mermaid-mcp-app?style=flat&logo=github&label=Star)](https://github.com/finfin/mermaid-mcp-app/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Open-source app/framework | Diagram/Mermaid / Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export |
 | [mermaid-diagram-claude-code](https://github.com/zabolotiny/mermaid-diagram-claude-code) [![Star](https://img.shields.io/github/stars/zabolotiny/mermaid-diagram-claude-code?style=flat&logo=github&label=Star)](https://github.com/zabolotiny/mermaid-diagram-claude-code/stargazers) | 文字/想法 / 程式碼庫 / 代碼/技術描述 / DSL/代碼 | Agent Skill / MCP Server | 圖表/Mermaid / 架構圖/流程圖 / 網頁/互動頁面 | Agent 宿主 / MCP Client / 本機語言環境 / 代碼分析工具 / 渲染/匯出 |
 | [mermaid-mcp-server](https://github.com/peng-shawn/mermaid-mcp-server) [![Star](https://img.shields.io/github/stars/peng-shawn/mermaid-mcp-server?style=flat&logo=github&label=Star)](https://github.com/peng-shawn/mermaid-mcp-server/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server | 圖表/Mermaid / SVG/PNG/PDF | MCP Client / 本地語言環境 / 渲染/匯出 |
+| [Mermaid MCP Server by Narasimha](https://github.com/Narasimhaponnada/mermaid-mcp) [![Star](https://img.shields.io/github/stars/Narasimhaponnada/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/Narasimhaponnada/mermaid-mcp/stargazers) | Text/ideas / Code/technical text / DSL/代碼 | MCP Server | 圖表/Mermaid / Architecture/flow diagram / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
 | [mcp-media-forge](https://github.com/PavelGuzenfeld/mcp-media-forge) [![Star](https://img.shields.io/github/stars/PavelGuzenfeld/mcp-media-forge?style=flat&logo=github&label=Star)](https://github.com/PavelGuzenfeld/mcp-media-forge/stargazers) | 文字/想法 / 資料/表格 / DSL/代碼 | MCP Server | 圖表/Mermaid / 架構圖/流程圖 / 圖表/儀表板 / 網頁/互動頁面 / PPT/簡報 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 / 系統工具 |
 | [BriefPress](https://github.com/liustack/briefpress) [![Star](https://img.shields.io/github/stars/liustack/briefpress?style=flat&logo=github&label=Star)](https://github.com/liustack/briefpress/stargazers) | 網頁/搜尋結果 / 文字/想法 / 資料/表格 | Agent Skill / API/SDK/庫 | 資訊圖/視覺報告 / 報告/簡報 / 圖表/儀表板 / SVG/PNG/PDF | Agent 宿主 / 本地語言環境 / 渲染/匯出 |
 | [MCP Chart Server](https://github.com/KamranBiglari/mcp-server-chart) [![Star](https://img.shields.io/github/stars/KamranBiglari/mcp-server-chart?style=flat&logo=github&label=Star)](https://github.com/KamranBiglari/mcp-server-chart/stargazers) | 資料/表格 / 文字/想法 / DSL/代碼 | MCP Server | 圖表/儀表板 / SVG/PNG/PDF | MCP Client / 本地語言環境 / 渲染/匯出 |

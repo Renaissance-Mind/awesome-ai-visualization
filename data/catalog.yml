@@ -1,4 +1,4 @@
-last_researched: '2026-08-04'
+last_researched: '2026-08-05'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -10930,3 +10930,211 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: diagrams
+- name: DeepBI
+  url: https://github.com/DeepInsight-AI/DeepBI
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 2366
+  license: MIT
+  updated: '2026-08-04'
+  note: AI-native data analysis platform that connects databases, CSV, and Excel sources, supports conversational query generation, creates persistent visualizations, and assembles them into dashboards.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: trRUSTt
+  url: https://github.com/oshjain/trrustt
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 系统工具
+  - MCP Client
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-07-13'
+  note: AI-native Power BI external tool and MCP-native dashboard studio that turns plain-English dashboard requests, schema profiles, and image-to-dashboard prompts into DAX, visuals, and production-ready PBIX reports.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: SEO Client Report Skill
+  url: https://github.com/dashaworks/seo-client-report-skill
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-07-30'
+  note: Claude Code and Codex skill that turns Search Console, GA4, and rank-tracker exports into branded monthly SEO client reports with KPI deltas, charts, narrative sections, publishing, and view analytics.
+  source_types:
+  - 网页/搜索结果
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: docs
+- name: groundstation
+  url: https://github.com/dannybauman/groundstation
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: unknown
+  updated: '2026-08-04'
+  note: Development Seed prototype that exposes public satellite imagery, active fires, disaster alerts, weather, TiTiler previews, scheduled sweeps, shareable map artifacts, and decision-ready Earth-data briefs through MCP, a Claude skill, and a web console.
+  source_types:
+  - 数据/表格
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: web_news
+- name: 3brown1blue
+  url: https://github.com/AmitSubhash/3brown1blue
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 27
+  license: MIT
+  updated: '2026-08-02'
+  note: Claude Code/Cursor/Windsurf/Copilot Manim skill and CLI that plans audience-aware technical explainer videos from topics or PowerPoint decks, generates scene plans, narration, Manim code, and optional rendered videos.
+  source_types:
+  - 文本/想法
+  - 论文/科研资料
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: Video Analysis MCP Service
+  url: https://github.com/tjh19971228/mcp_video_analysis
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2025-05-03'
+  note: MCP service that analyzes video URLs, extracts keywords, summaries, and key timestamps, then generates jsMind-compatible JSON plus static PNG and interactive HTML mind maps.
+  source_types:
+  - 视频/音频
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs
+- name: mcp-scapple
+  url: https://github.com/binaryloader/mcp-scapple
+  homepage: https://www.npmjs.com/package/@binaryloader/mcp-scapple
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 2
+  license: MIT
+  updated: '2026-05-29'
+  note: MCP server for Scapple files that parses .scap diagrams into structured JSON, creates diagrams from indented text or lists, and renders themed mind-map or brainstorming canvases to PNG.
+  source_types:
+  - 文本/想法
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 白板/思维导图
+  - 思维导图/知识地图
+  - SVG/PNG/PDF
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Mermaid MCP Server by Narasimha
+  url: https://github.com/Narasimhaponnada/mermaid-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 50
+  license: other
+  updated: '2026-07-23'
+  note: TypeScript MCP server that lets AI assistants generate Mermaid flowcharts, sequence diagrams, architecture diagrams, and other professional diagrams, then render them through Puppeteer to SVG outputs.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render

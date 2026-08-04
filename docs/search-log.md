@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-08-04.
+Last researched: 2026-08-05.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -75,6 +75,9 @@ Update on 2026-08-02: refreshed agent-native presentation skills, TV/signage pre
 Update on 2026-08-03: refreshed natural-language MCP dashboards, marketing-report MCP workflows, multi-format report renderers, Claude Code diagram skills, and AntV Infographic MCP Apps from official GitHub repositories, project pages, README evidence, demo links, and GitHub metadata. This pass added Luminon MCP Dashboard, MCP Reportes, Egile MCP Reporter, drawing-skills, and Infographic MCP App. The targeted scraper ran only against these five new records; a duplicate google-slides-mcp candidate was rejected before merging, and no presigned URLs, placeholder assets, or token-looking links were merged.
 
 Update on 2026-08-04: refreshed LaTeX Beamer, Markdown/Slidev deck MCP servers, multi-platform presentation skills, Gamma API presentation MCP workflows, data/chart communication skills, Copilot deck agents, and Mermaid architecture diagram MCP support from official GitHub repositories, README evidence, project docs, and GitHub metadata surfaced through live web search. This pass added Beamer-MCP, mdslides-mcp-server, Slidev MCP Server, Presentation Pro Designer, Gamma MCP Server, delafuente-skills, Slide Builder, and Archy. GitHub API and raw fetches were intermittently limited by TLS handshakes from the shell, so the merged research records use browser-verified official GitHub page evidence and only official repo/docs links.
+
+Update on 2026-08-05: refreshed AI-native BI, Power BI dashboard automation, SEO client reporting, geospatial briefing, Manim explainer-video, video-to-mind-map, Scapple mind-map, and Mermaid rendering surfaces from official GitHub repositories, README evidence, GitHub metadata, and live web/GitHub searches. This pass added DeepBI, trRUSTt, SEO Client Report Skill, groundstation, 3brown1blue, Video Analysis MCP Service, mcp-scapple, and Mermaid MCP Server by Narasimha. The targeted scraper ran only against these eight new records; the DeepBI commercial homepage was excluded after review because the repository README/user manual supplied cleaner BI-platform evidence, and the npm package page for mcp-scapple returned 403 while the GitHub README and official example assets fetched successfully.
+
 
 ## Search Surfaces
 

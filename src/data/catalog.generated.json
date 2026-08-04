@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-08-03T23:07:17+00:00",
-  "lastResearched": "2026-08-04",
+  "generatedAt": "2026-08-04T23:07:00+00:00",
+  "lastResearched": "2026-08-05",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 434,
-    "openSource": 119,
+    "total": 442,
+    "openSource": 122,
     "saas": 53,
-    "modelApi": 159,
-    "examples": 1113,
-    "effectAssets": 1363,
-    "docs": 1218
+    "modelApi": 164,
+    "examples": 1114,
+    "effectAssets": 1368,
+    "docs": 1230
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 51,
+      "论文/科研资料": 52,
       "PDF/文档": 147,
-      "文本/想法": 276,
-      "数据/表格": 158,
-      "代码/技术描述": 82,
-      "网页/搜索结果": 125,
+      "文本/想法": 279,
+      "数据/表格": 162,
+      "代码/技术描述": 83,
+      "网页/搜索结果": 128,
       "代码库": 45,
-      "DSL/代码": 85,
-      "新闻/资讯": 17,
-      "知识库/个人资料": 31,
-      "任意/多源": 59,
-      "Office 文档": 60,
+      "DSL/代码": 86,
+      "新闻/资讯": 18,
+      "知识库/个人资料": 32,
+      "任意/多源": 60,
+      "Office 文档": 62,
       "引用网络": 4,
-      "数据库": 31,
-      "视频/音频": 1
+      "数据库": 33,
+      "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 119,
-      "Agent Skill": 137,
+      "开源应用/框架": 122,
+      "Agent Skill": 140,
       "Skill 集合": 37,
       "数据集/评测": 2,
       "Bot/助手": 13,
       "产品/SaaS": 53,
-      "MCP Server": 126,
+      "MCP Server": 132,
       "研究原型": 4,
-      "API/SDK/库": 50,
+      "API/SDK/库": 51,
       "Awesome/索引": 22
     },
     "outputForms": {
       "图形摘要/信息图": 32,
       "PPT/演示文稿": 191,
-      "网页/交互页面": 131,
+      "网页/交互页面": 134,
       "问答/学习材料": 15,
-      "报告/长文档": 55,
+      "报告/长文档": 56,
       "证据表": 22,
       "信息图/视觉报告": 59,
-      "图表/仪表盘": 113,
-      "架构图/流程图": 98,
-      "SVG/PNG/PDF": 152,
-      "报告/简报": 48,
-      "白板/思维导图": 28,
-      "图表/Mermaid": 50,
-      "视频/音频": 33,
+      "图表/仪表盘": 117,
+      "架构图/流程图": 99,
+      "SVG/PNG/PDF": 155,
+      "报告/简报": 50,
+      "白板/思维导图": 30,
+      "图表/Mermaid": 51,
+      "视频/音频": 34,
       "表格/时间线": 11,
       "引用答案": 5,
-      "思维导图/知识地图": 27,
-      "结构化数据/Markdown": 44,
+      "思维导图/知识地图": 29,
+      "结构化数据/Markdown": 45,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 26,
       "图表/渲染输出": 13,
       "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 338,
-      "模型 API": 159,
+      "本地语言环境": 345,
+      "模型 API": 164,
       "文档解析/OCR": 68,
-      "渲染/导出": 350,
+      "渲染/导出": 358,
       "GPU/加速器": 11,
-      "模板/素材": 202,
-      "Agent 宿主": 180,
-      "系统工具": 74,
+      "模板/素材": 204,
+      "Agent 宿主": 183,
+      "系统工具": 76,
       "浏览器/账号": 118,
-      "存储/索引": 52,
-      "外部检索/数据源": 86,
-      "MCP Client": 130,
+      "存储/索引": 54,
+      "外部检索/数据源": 91,
+      "MCP Client": 136,
       "代码分析工具": 30
     },
     "categories": {
       "paper-visualization": 15,
-      "doc-to-knowledge": 40,
-      "research-report": 22,
+      "doc-to-knowledge": 42,
+      "research-report": 24,
       "infographic-report": 35,
-      "data-dashboard": 54,
-      "diagram-generation": 60,
+      "data-dashboard": 56,
+      "diagram-generation": 61,
       "literature-map": 4,
       "presentation-tools": 127,
       "codebase-map": 24,
       "rendering-primitive": 8,
-      "video-generation": 10,
+      "video-generation": 11,
       "commercial-site": 10,
       "meta-index": 25
     },
     "groups": {
       "paper": 27,
       "text_visual": 47,
-      "web_news": 8,
-      "support_mindmap": 13,
-      "docs": 23,
+      "web_news": 9,
+      "support_mindmap": 14,
+      "docs": 25,
       "support_doc_parse": 11,
       "presentation": 139,
       "code": 25,
-      "support_render": 46,
+      "support_render": 47,
       "diagrams": 10,
-      "video": 10,
-      "data": 49,
+      "video": 11,
+      "data": 51,
       "indexes": 24,
       "diagram": 1,
       "index": 1
@@ -38375,6 +38375,433 @@
       "effectAssets": [],
       "docsCount": 3,
       "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DeepBI",
+      "url": "https://github.com/DeepInsight-AI/DeepBI",
+      "primaryUrl": "https://github.com/DeepInsight-AI/DeepBI",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 2366,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "AI-native data analysis platform that connects databases, CSV, and Excel sources, supports conversational query generation, creates persistent visualizations, and assembles them into dashboards.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "DeepBI user manual",
+          "url": "https://github.com/DeepInsight-AI/DeepBI/blob/HEAD/client/app/assets/images/en/user_manual_en.md",
+          "source": "https://raw.githubusercontent.com/DeepInsight-AI/DeepBI/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "trRUSTt",
+      "url": "https://github.com/oshjain/trrustt",
+      "primaryUrl": "https://github.com/oshjain/trrustt",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "MCP Client",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-07-13",
+      "note": "AI-native Power BI external tool and MCP-native dashboard studio that turns plain-English dashboard requests, schema profiles, and image-to-dashboard prompts into DAX, visuals, and production-ready PBIX reports.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "📘 Master Product Plan",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/00-MASTER-PLAN.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "🏗️ Component Architecture",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/architecture/01-component-architecture.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "📊 Data Flow Architecture",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/architecture/02-data-flow.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "⚙️ Configuration Engine",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/technical/01-configuration-engine.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "📐 DAX Engine",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/technical/02-dax-engine.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "🧪 Testing & Deployment",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/technical/03-testing-packaging-deployment.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "🗄️ Internal Database",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/technical/04-internal-database.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "📋 Policies & Backups",
+          "url": "https://github.com/oshjain/trrustt/blob/HEAD/docs/technical/05-policy-backup-seeding.md",
+          "source": "https://raw.githubusercontent.com/oshjain/trrustt/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 10,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "SEO Client Report Skill",
+      "url": "https://github.com/dashaworks/seo-client-report-skill",
+      "primaryUrl": "https://github.com/dashaworks/seo-client-report-skill",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-30",
+      "note": "Claude Code and Codex skill that turns Search Console, GA4, and rank-tracker exports into branded monthly SEO client reports with KPI deltas, charts, narrative sections, publishing, and view analytics.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "groundstation",
+      "url": "https://github.com/dannybauman/groundstation",
+      "primaryUrl": "https://github.com/dannybauman/groundstation",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-04",
+      "note": "Development Seed prototype that exposes public satellite imagery, active fires, disaster alerts, weather, TiTiler previews, scheduled sweeps, shareable map artifacts, and decision-ready Earth-data briefs through MCP, a Claude skill, and a web console.",
+      "sourceTypes": [
+        "数据/表格",
+        "网页/搜索结果",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "web_news",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "NDVI swipe comparison over Portland",
+          "url": "https://raw.githubusercontent.com/dannybauman/groundstation/HEAD/docs/img/swipe-compare.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dannybauman/groundstation/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "the console scanning the Barotse Floodplain",
+          "url": "https://raw.githubusercontent.com/dannybauman/groundstation/HEAD/docs/img/console.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dannybauman/groundstation/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "3brown1blue",
+      "url": "https://github.com/AmitSubhash/3brown1blue",
+      "primaryUrl": "https://github.com/AmitSubhash/3brown1blue",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 27,
+      "license": "MIT",
+      "updated": "2026-08-02",
+      "note": "Claude Code/Cursor/Windsurf/Copilot Manim skill and CLI that plans audience-aware technical explainer videos from topics or PowerPoint decks, generates scene plans, narration, Manim code, and optional rendered videos.",
+      "sourceTypes": [
+        "文本/想法",
+        "论文/科研资料",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "3brown1blue-showcase",
+          "url": "https://github.com/AmitSubhash/3brown1blue-showcase",
+          "source": "https://raw.githubusercontent.com/AmitSubhash/3brown1blue/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "3brown1blue banner",
+          "url": "https://raw.githubusercontent.com/AmitSubhash/3brown1blue/main/assets/header.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/AmitSubhash/3brown1blue/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Video Analysis MCP Service",
+      "url": "https://github.com/tjh19971228/mcp_video_analysis",
+      "primaryUrl": "https://github.com/tjh19971228/mcp_video_analysis",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2025-05-03",
+      "note": "MCP service that analyzes video URLs, extracts keywords, summaries, and key timestamps, then generates jsMind-compatible JSON plus static PNG and interactive HTML mind maps.",
+      "sourceTypes": [
+        "视频/音频",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "mcp-scapple",
+      "url": "https://github.com/binaryloader/mcp-scapple",
+      "primaryUrl": "https://github.com/binaryloader/mcp-scapple",
+      "homepage": "https://www.npmjs.com/package/@binaryloader/mcp-scapple",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-05-29",
+      "note": "MCP server for Scapple files that parses .scap diagrams into structured JSON, creates diagrams from indented text or lists, and renders themed mind-map or brainstorming canvases to PNG.",
+      "sourceTypes": [
+        "文本/想法",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "白板/思维导图",
+        "思维导图/知识地图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Default theme",
+          "url": "https://raw.githubusercontent.com/binaryloader/mcp-scapple/HEAD/examples/example-default.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/binaryloader/mcp-scapple/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark theme",
+          "url": "https://raw.githubusercontent.com/binaryloader/mcp-scapple/HEAD/examples/example-dark.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/binaryloader/mcp-scapple/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Mermaid MCP Server by Narasimha",
+      "url": "https://github.com/Narasimhaponnada/mermaid-mcp",
+      "primaryUrl": "https://github.com/Narasimhaponnada/mermaid-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 50,
+      "license": "other",
+      "updated": "2026-07-23",
+      "note": "TypeScript MCP server that lets AI assistants generate Mermaid flowcharts, sequence diagrams, architecture diagrams, and other professional diagrams, then render them through Puppeteer to SVG outputs.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "UserGuide.md",
+          "url": "https://github.com/Narasimhaponnada/mermaid-mcp/blob/HEAD/UserGuide.md",
+          "source": "https://raw.githubusercontent.com/Narasimhaponnada/mermaid-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     }
   ]
