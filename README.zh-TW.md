@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-442_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--05-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-447_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,15 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-08-05)
+## Latest Refresh (2026-08-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [DeepBI](https://github.com/DeepInsight-AI/DeepBI) | AI-native BI workspace for conversational queries, persistent visualizations, and dashboards from databases, CSV, and Excel. |
-| [trRUSTt](https://github.com/oshjain/trrustt) | Power BI external tool and MCP-native studio for plain-English DAX, visuals, and PBIX dashboard reports. |
-| [SEO Client Report Skill](https://github.com/dashaworks/seo-client-report-skill) | Claude Code/Codex skill for GA4, Search Console, and rank-tracker exports to branded live SEO reports. |
-| [groundstation](https://github.com/dannybauman/groundstation) | MCP and Claude skill for satellite/weather/disaster data briefs, scheduled sweeps, and shareable map artifacts. |
-| [3brown1blue](https://github.com/AmitSubhash/3brown1blue) | Manim skill and CLI that turns topics or PowerPoint decks into audience-aware technical explainer videos. |
-| [Video Analysis MCP Service](https://github.com/tjh19971228/mcp_video_analysis) | MCP service that analyzes video URLs and produces JSON, PNG, and interactive HTML mind maps. |
-| [mcp-scapple](https://github.com/binaryloader/mcp-scapple) | Scapple MCP server for text-to-brainstorm diagrams, .scap JSON parsing, and themed PNG mind-map rendering. |
-| [Mermaid MCP Server by Narasimha](https://github.com/Narasimhaponnada/mermaid-mcp) | TypeScript MCP server for AI-generated Mermaid architecture, flowchart, and sequence diagrams with SVG output. |
+| [Metabase AI Assistant](https://github.com/enessari/metabase-ai-assistant) | MCP server for Metabase natural-language SQL, dashboard templates, question/card management, workspace export, and BI automation. |
+| [holoviz-viz-mcp](https://github.com/ghostiee-11/holoviz-viz-mcp) | HoloViz MCP server for auto-EDA, statistical tests, charts, dashboards, PNG previews, and standalone interactive HTML exports. |
+| [uc-bq-claude-skill](https://github.com/UltraCart/uc-bq-claude-skill) | Claude Code skill and CLI for BigQuery reports-as-code with ECharts, PDFs, executive analysis, decks, and HTML dashboards. |
+| [Visual Documentation Plugin](https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1) | Claude Code visual-documentation plugin for HTML architecture diagrams, flowcharts, KPI dashboards, timelines, and technical docs. |
+| [Claude Code Toolkit Data Visualization Agent](https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1) | Claude Code Toolkit agent for accessible, responsive dashboards and visualizations with D3.js, Chart.js, Plotly, and Matplotlib. |
 
 ## ✨ 推薦使用方式
 
@@ -214,6 +211,10 @@
 | [Workforce Data Explorer](https://github.com/thelancehaun/workforce-data-explorer) [![Star](https://img.shields.io/github/stars/thelancehaun/workforce-data-explorer?style=flat&logo=github&label=Star)](https://github.com/thelancehaun/workforce-data-explorer/stargazers) | Data/tables / Database / News/intelligence | Open-source app/framework / MCP server | Chart/dashboard / Briefing/report / Structured data/Markdown | Browser/account / Local runtime / External search/data / MCP client / Rendering/export |
 | [DeepBI](https://github.com/DeepInsight-AI/DeepBI) [![Star](https://img.shields.io/github/stars/DeepInsight-AI/DeepBI?style=flat&logo=github&label=Star)](https://github.com/DeepInsight-AI/DeepBI/stargazers) | Data/tables / 資料庫 | 開源應用/框架 | 圖表/儀表板 / Structured data/Markdown | 本機語言環境 / 模型 API / External search/data / 儲存/索引 / 渲染/匯出 |
 | [trRUSTt](https://github.com/oshjain/trrustt) [![Star](https://img.shields.io/github/stars/oshjain/trrustt?style=flat&logo=github&label=Star)](https://github.com/oshjain/trrustt/stargazers) | Data/tables / 資料庫 / Office 文件 | 開源應用/框架 / MCP Server | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 系統工具 / MCP Client / External search/data / 渲染/匯出 |
+| [Metabase AI Assistant](https://github.com/enessari/metabase-ai-assistant) [![Star](https://img.shields.io/github/stars/enessari/metabase-ai-assistant?style=flat&logo=github&label=Star)](https://github.com/enessari/metabase-ai-assistant/stargazers) | 資料庫 / 資料/表格 | MCP Server / API/SDK/庫 | 圖表/儀表板 / 證據表 / 結構化資料/Markdown | MCP Client / 瀏覽器/帳號 / 本機語言環境 / 外部檢索/資料源 / 儲存/索引 / 渲染/匯出 |
+| [holoviz-viz-mcp](https://github.com/ghostiee-11/holoviz-viz-mcp) [![Star](https://img.shields.io/github/stars/ghostiee-11/holoviz-viz-mcp?style=flat&logo=github&label=Star)](https://github.com/ghostiee-11/holoviz-viz-mcp/stargazers) | 資料/表格 / 資料庫 / DSL/代碼 | MCP Server / API/SDK/庫 | 圖表/儀表板 / 網頁/互動頁面 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 / 儲存/索引 |
+| [uc-bq-claude-skill](https://github.com/UltraCart/uc-bq-claude-skill) [![Star](https://img.shields.io/github/stars/UltraCart/uc-bq-claude-skill?style=flat&logo=github&label=Star)](https://github.com/UltraCart/uc-bq-claude-skill/stargazers) | 資料庫 / 資料/表格 | Agent Skill / API/SDK/庫 | 圖表/儀表板 / 報告/長文檔 / SVG/PNG/PDF / 網頁/互動頁面 | Agent 宿主 / 本機語言環境 / 外部檢索/資料源 / 渲染/匯出 / 模板/素材 |
+| [Claude Code Toolkit Data Visualization Agent](https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1) [![Star](https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat&logo=github&label=Star)](https://github.com/rohitg00/awesome-claude-code-toolkit/stargazers) | 資料/表格 / DSL/代碼 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [delafuente-skills](https://github.com/menpente/delafuente-skills) [![Star](https://img.shields.io/github/stars/menpente/delafuente-skills?style=flat&logo=github&label=Star)](https://github.com/menpente/delafuente-skills/stargazers) | Data/tables / Text/ideas / Web/search | Skill collection | Chart/dashboard / PPT/deck / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 
 ### 通用文字、想法與白板圖示
@@ -536,6 +537,7 @@
 | [AWS Architecture Diagram MCP](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) [![Star](https://img.shields.io/github/stars/aws-samples/sample-architecture-diagram-mcp-server?style=flat&logo=github&label=Star)](https://github.com/aws-samples/sample-architecture-diagram-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF / Structured data/Markdown | MCP client / Local runtime / Rendering/export / Templates/assets / System tools |
 | [Cloud Diagram MCP App](https://github.com/tubone24/preview-cloud-diagram-mcp-apps) [![Star](https://img.shields.io/github/stars/tubone24/preview-cloud-diagram-mcp-apps?style=flat&logo=github&label=Star)](https://github.com/tubone24/preview-cloud-diagram-mcp-apps/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [Archy](https://github.com/phxdev1/archy-mcp) [![Star](https://img.shields.io/github/stars/phxdev1/archy-mcp?style=flat&logo=github&label=Star)](https://github.com/phxdev1/archy-mcp/stargazers) | Text/ideas / Codebase / Code/technical text | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Local runtime / Model API / Code analysis / Rendering/export |
+| [Visual Documentation Plugin](https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1) [![Star](https://img.shields.io/github/stars/mhattingpete/claude-skills-marketplace?style=flat&logo=github&label=Star)](https://github.com/mhattingpete/claude-skills-marketplace/stargazers) | 文字/想法 / 程式碼庫 / 程式碼/技術描述 / 資料/表格 | Skill 集合 / Agent Skill | 架構圖/流程圖 / 圖表/儀表板 / 表格/時間線 / 網頁/互動頁面 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 
 ## 如何篩選工具
 

@@ -1,83 +1,83 @@
 {
-  "generatedAt": "2026-08-04T23:07:00+00:00",
-  "lastResearched": "2026-08-05",
+  "generatedAt": "2026-08-05T23:06:32+00:00",
+  "lastResearched": "2026-08-06",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 442,
+    "total": 447,
     "openSource": 122,
     "saas": 53,
     "modelApi": 164,
     "examples": 1114,
     "effectAssets": 1368,
-    "docs": 1230
+    "docs": 1237
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 52,
       "PDF/文档": 147,
-      "文本/想法": 279,
-      "数据/表格": 162,
-      "代码/技术描述": 83,
+      "文本/想法": 280,
+      "数据/表格": 167,
+      "代码/技术描述": 84,
       "网页/搜索结果": 128,
-      "代码库": 45,
-      "DSL/代码": 86,
+      "代码库": 46,
+      "DSL/代码": 88,
       "新闻/资讯": 18,
       "知识库/个人资料": 32,
       "任意/多源": 60,
       "Office 文档": 62,
       "引用网络": 4,
-      "数据库": 33,
+      "数据库": 36,
       "视频/音频": 2
     },
     "toolForms": {
       "开源应用/框架": 122,
-      "Agent Skill": 140,
-      "Skill 集合": 37,
+      "Agent Skill": 143,
+      "Skill 集合": 38,
       "数据集/评测": 2,
       "Bot/助手": 13,
       "产品/SaaS": 53,
-      "MCP Server": 132,
+      "MCP Server": 134,
       "研究原型": 4,
-      "API/SDK/库": 51,
+      "API/SDK/库": 54,
       "Awesome/索引": 22
     },
     "outputForms": {
       "图形摘要/信息图": 32,
       "PPT/演示文稿": 191,
-      "网页/交互页面": 134,
+      "网页/交互页面": 138,
       "问答/学习材料": 15,
-      "报告/长文档": 56,
-      "证据表": 22,
+      "报告/长文档": 57,
+      "证据表": 23,
       "信息图/视觉报告": 59,
-      "图表/仪表盘": 117,
-      "架构图/流程图": 99,
-      "SVG/PNG/PDF": 155,
+      "图表/仪表盘": 122,
+      "架构图/流程图": 100,
+      "SVG/PNG/PDF": 158,
       "报告/简报": 50,
       "白板/思维导图": 30,
       "图表/Mermaid": 51,
       "视频/音频": 34,
-      "表格/时间线": 11,
+      "表格/时间线": 12,
       "引用答案": 5,
       "思维导图/知识地图": 29,
-      "结构化数据/Markdown": 45,
+      "结构化数据/Markdown": 46,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 26,
       "图表/渲染输出": 13,
       "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 345,
+      "本地语言环境": 350,
       "模型 API": 164,
       "文档解析/OCR": 68,
-      "渲染/导出": 358,
+      "渲染/导出": 363,
       "GPU/加速器": 11,
-      "模板/素材": 204,
-      "Agent 宿主": 183,
+      "模板/素材": 207,
+      "Agent 宿主": 186,
       "系统工具": 76,
-      "浏览器/账号": 118,
-      "存储/索引": 54,
-      "外部检索/数据源": 91,
-      "MCP Client": 136,
+      "浏览器/账号": 119,
+      "存储/索引": 56,
+      "外部检索/数据源": 93,
+      "MCP Client": 138,
       "代码分析工具": 30
     },
     "categories": {
@@ -85,8 +85,8 @@
       "doc-to-knowledge": 42,
       "research-report": 24,
       "infographic-report": 35,
-      "data-dashboard": 56,
-      "diagram-generation": 61,
+      "data-dashboard": 60,
+      "diagram-generation": 62,
       "literature-map": 4,
       "presentation-tools": 127,
       "codebase-map": 24,
@@ -105,9 +105,9 @@
       "presentation": 139,
       "code": 25,
       "support_render": 47,
-      "diagrams": 10,
+      "diagrams": 11,
       "video": 11,
-      "data": 51,
+      "data": 55,
       "indexes": 24,
       "diagram": 1,
       "index": 1
@@ -38801,6 +38801,252 @@
       "examples": [],
       "effectAssets": [],
       "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Metabase AI Assistant",
+      "url": "https://github.com/enessari/metabase-ai-assistant",
+      "primaryUrl": "https://github.com/enessari/metabase-ai-assistant",
+      "homepage": "https://www.npmjs.com/package/metabase-ai-assistant",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 47,
+      "license": "Apache-2.0",
+      "updated": "2026-07-27",
+      "note": "MCP server for Metabase with natural-language SQL generation, query execution, dashboard templates, question/card management, workspace import/export, metadata analytics, and read-only security controls for BI automation.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "📖 Full Documentation",
+          "url": "https://github.com/enessari/metabase-ai-assistant/wiki",
+          "source": "https://raw.githubusercontent.com/enessari/metabase-ai-assistant/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "holoviz-viz-mcp",
+      "url": "https://github.com/ghostiee-11/holoviz-viz-mcp",
+      "primaryUrl": "https://github.com/ghostiee-11/holoviz-viz-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-03-08",
+      "note": "HoloViz MCP server that lets AI assistants load CSV/JSON/Parquet/Excel data, run auto-EDA and statistical tests, create 14 chart types, crossfilters, streaming views, dashboards, PNG previews, and standalone interactive Bokeh/Panel HTML exports.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "uc-bq-claude-skill",
+      "url": "https://github.com/UltraCart/uc-bq-claude-skill",
+      "primaryUrl": "https://github.com/UltraCart/uc-bq-claude-skill",
+      "homepage": "https://www.npmjs.com/package/@ultracart/bq-skill",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-07-16",
+      "note": "Claude Code skill and Node CLI for UltraCart BigQuery warehouses that turns schema-backed questions into version-controlled SQL, ECharts visualizations, replayable report manifests, PDFs, executive analysis, Slack/email delivery, decks, and interactive HTML dashboards.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/REPORT-DELIVERY.md",
+          "url": "https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/REPORT-DELIVERY.md",
+          "source": "https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ALARMS.md",
+          "url": "https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/ALARMS.md",
+          "source": "https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/DECKS.md",
+          "url": "https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/DECKS.md",
+          "source": "https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI Reference",
+          "url": "https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/CLI-REFERENCE.md",
+          "source": "https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Multi-Client",
+          "url": "https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/MULTI-CLIENT.md",
+          "source": "https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "GitHub Actions",
+          "url": "https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/GITHUB-ACTIONS.md",
+          "source": "https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 6,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Visual Documentation Plugin",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1",
+      "primaryUrl": "https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 656,
+      "license": "unknown",
+      "updated": "2026-08-01",
+      "note": "Claude Code visual-documentation plugin with skills for self-contained HTML architecture diagrams, flowcharts, KPI dashboards, technical docs, timelines, roadmaps, SVG diagrams, and mobile-friendly visualizations.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/仪表盘",
+        "表格/时间线",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Claude Code Toolkit Data Visualization Agent",
+      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1",
+      "primaryUrl": "https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2450,
+      "license": "Apache-2.0",
+      "updated": "2026-08-05",
+      "note": "Claude Code Toolkit agent definition for turning raw datasets into interactive dashboards and visualizations with D3.js, Chart.js, Plotly, Matplotlib, Seaborn, Altair, responsive layouts, accessibility checks, and performance guidance.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
     }

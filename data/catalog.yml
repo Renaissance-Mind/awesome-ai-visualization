@@ -1,4 +1,4 @@
-last_researched: '2026-08-05'
+last_researched: '2026-08-06'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -11138,3 +11138,137 @@ entries:
   - SVG/PNG/PDF
   catalog_section: support_render
   readme_group: support_render
+- name: Metabase AI Assistant
+  url: https://github.com/enessari/metabase-ai-assistant
+  homepage: https://www.npmjs.com/package/metabase-ai-assistant
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 47
+  license: Apache-2.0
+  updated: '2026-07-27'
+  note: MCP server for Metabase with natural-language SQL generation, query execution, dashboard templates, question/card management, workspace import/export, metadata analytics, and read-only security controls for BI automation.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: holoviz-viz-mcp
+  url: https://github.com/ghostiee-11/holoviz-viz-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-03-08'
+  note: HoloViz MCP server that lets AI assistants load CSV/JSON/Parquet/Excel data, run auto-EDA and statistical tests, create 14 chart types, crossfilters, streaming views, dashboards, PNG previews, and standalone interactive Bokeh/Panel HTML exports.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: uc-bq-claude-skill
+  url: https://github.com/UltraCart/uc-bq-claude-skill
+  homepage: https://www.npmjs.com/package/@ultracart/bq-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: unknown
+  updated: '2026-07-16'
+  note: Claude Code skill and Node CLI for UltraCart BigQuery warehouses that turns schema-backed questions into version-controlled SQL, ECharts visualizations, replayable report manifests, PDFs, executive analysis, Slack/email delivery, decks, and interactive HTML dashboards.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: Visual Documentation Plugin
+  url: https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 656
+  license: unknown
+  updated: '2026-08-01'
+  note: Claude Code visual-documentation plugin with skills for self-contained HTML architecture diagrams, flowcharts, KPI dashboards, technical docs, timelines, roadmaps, SVG diagrams, and mobile-friendly visualizations.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: diagrams
+- name: Claude Code Toolkit Data Visualization Agent
+  url: https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2450
+  license: Apache-2.0
+  updated: '2026-08-05'
+  note: Claude Code Toolkit agent definition for turning raw datasets into interactive dashboards and visualizations with D3.js, Chart.js, Plotly, Matplotlib, Seaborn, Altair, responsive layouts, accessibility checks, and performance guidance.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
