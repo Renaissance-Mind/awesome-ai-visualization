@@ -1,4 +1,4 @@
-generated_at: '2026-08-04T23:07:00+00:00'
+generated_at: '2026-08-05T23:06:32+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 442
-  fetched_sources_ok: 598
-  fetched_sources_failed: 34
+  entries: 447
+  fetched_sources_ok: 603
+  fetched_sources_failed: 36
   official_examples: 1114
   official_effect_assets: 1368
-  official_docs: 1230
+  official_docs: 1237
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -38497,3 +38497,200 @@ entries:
   - 📚 Documentation
   - 🎨 Diagram Types Supported
   - 🌟 Example Output
+- name: Metabase AI Assistant
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/enessari/metabase-ai-assistant
+  homepage: https://www.npmjs.com/package/metabase-ai-assistant
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP server for Metabase with natural-language SQL generation, query execution, dashboard templates, question/card
+    management, workspace import/export, metadata analytics, and read-only security controls for BI automation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/enessari/metabase-ai-assistant/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/enessari/metabase-ai-assistant/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🚀 Metabase AI Assistant
+    bytes: 11295
+  - kind: homepage
+    url: https://www.npmjs.com/package/metabase-ai-assistant
+    final_url: https://www.npmjs.com/package/metabase-ai-assistant
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: 📖 Full Documentation
+    url: https://github.com/enessari/metabase-ai-assistant/wiki
+    source: https://raw.githubusercontent.com/enessari/metabase-ai-assistant/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 📖 Full Documentation
+    url: https://github.com/enessari/metabase-ai-assistant/wiki
+    source: https://raw.githubusercontent.com/enessari/metabase-ai-assistant/HEAD/README.md
+  source_headings:
+  - 📊 Instant Dashboard Creation
+  - METABASE_USERNAME=admin@example.com
+- name: holoviz-viz-mcp
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/ghostiee-11/holoviz-viz-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: HoloViz MCP server that lets AI assistants load CSV/JSON/Parquet/Excel data, run auto-EDA and statistical
+    tests, create 14 chart types, crossfilters, streaming views, dashboards, PNG previews, and standalone interactive Bokeh/Panel
+    HTML exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ghostiee-11/holoviz-viz-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ghostiee-11/holoviz-viz-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: holoviz-viz-mcp
+    bytes: 16680
+  source_headings:
+  - Visualization (5)
+  - Advanced Visualization (6)
+  - Dashboard & Export (3)
+  - Examples
+  - Demos
+- name: uc-bq-claude-skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/UltraCart/uc-bq-claude-skill
+  homepage: https://www.npmjs.com/package/@ultracart/bq-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and Node CLI for UltraCart BigQuery warehouses that turns schema-backed questions into version-controlled
+    SQL, ECharts visualizations, replayable report manifests, PDFs, executive analysis, Slack/email delivery, decks, and interactive
+    HTML dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '@ultracart/bq-skill'
+    bytes: 35003
+  - kind: homepage
+    url: https://www.npmjs.com/package/@ultracart/bq-skill
+    final_url: https://www.npmjs.com/package/@ultracart/bq-skill
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: docs/REPORT-DELIVERY.md
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/REPORT-DELIVERY.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: docs/ALARMS.md
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/ALARMS.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: docs/DECKS.md
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/DECKS.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: CLI Reference
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/CLI-REFERENCE.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: Multi-Client
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/MULTI-CLIENT.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: GitHub Actions
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/GITHUB-ACTIONS.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/REPORT-DELIVERY.md
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/REPORT-DELIVERY.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: docs/ALARMS.md
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/ALARMS.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: docs/DECKS.md
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/DECKS.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: CLI Reference
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/CLI-REFERENCE.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: Multi-Client
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/MULTI-CLIENT.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  - kind: docs
+    title: GitHub Actions
+    url: https://github.com/UltraCart/uc-bq-claude-skill/blob/HEAD/docs/GITHUB-ACTIONS.md
+    source: https://raw.githubusercontent.com/UltraCart/uc-bq-claude-skill/HEAD/README.md
+  source_headings:
+  - Download from https://cloud.google.com/sdk/docs/install
+  - 'Show more sample rows (default: 20)'
+  - Render dashboard thumbnail (200x200)
+  - '`uc-bq deck dashboard `'
+  - Generate dashboard HTML
+  - Quick example
+  - reports/DEMO/decks/weekly-executive.yaml
+  - Available Datasets
+  - Documentation
+- name: Visual Documentation Plugin
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code visual-documentation plugin with skills for self-contained HTML architecture diagrams, flowcharts,
+    KPI dashboards, technical docs, timelines, roadmaps, SVG diagrams, and mobile-friendly visualizations.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/mhattingpete/claude-skills-marketplace/main/visual-documentation-plugin/README.md
+    final_url: https://raw.githubusercontent.com/mhattingpete/claude-skills-marketplace/main/visual-documentation-plugin/README.md
+    status: 200
+    content_type: text/plain
+    title: Visual Documentation Plugin
+    bytes: 2268
+  source_headings:
+  - Visual Documentation Plugin
+  - architecture-diagram-creator
+  - dashboard-creator
+- name: Claude Code Toolkit Data Visualization Agent
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code Toolkit agent definition for turning raw datasets into interactive dashboards and visualizations
+    with D3.js, Chart.js, Plotly, Matplotlib, Seaborn, Altair, responsive layouts, accessibility checks, and performance guidance.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/rohitg00/awesome-claude-code-toolkit/main/agents/data-ai/data-visualization.md
+    final_url: https://raw.githubusercontent.com/rohitg00/awesome-claude-code-toolkit/main/agents/data-ai/data-visualization.md
+    status: 200
+    content_type: text/plain
+    title: Process
+    bytes: 5042
