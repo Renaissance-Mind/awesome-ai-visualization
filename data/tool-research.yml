@@ -1,4 +1,4 @@
-generated_at: '2026-08-05T23:06:32+00:00'
+generated_at: '2026-08-06T23:05:38+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 447
-  fetched_sources_ok: 603
+  entries: 455
+  fetched_sources_ok: 618
   fetched_sources_failed: 36
-  official_examples: 1114
-  official_effect_assets: 1368
-  official_docs: 1237
+  official_examples: 1122
+  official_effect_assets: 1375
+  official_docs: 1298
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -38694,3 +38694,941 @@ entries:
     content_type: text/plain
     title: Process
     bytes: 5042
+- name: mcp-charts
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/bonnard-data/mcp-charts
+  homepage: https://docs.bonnard.dev/mcp-charts/getting-started
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: TypeScript MCP chart widget kit that lets agents query Postgres, BigQuery, Snowflake, Databricks, DuckDB,
+    or typed rows and render interactive charts, KPI tiles, tables, named views, and dashboards inside MCP Apps hosts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Install
+    bytes: 12073
+  - kind: homepage
+    url: https://docs.bonnard.dev/mcp-charts/getting-started
+    final_url: https://docs.bonnard.dev/mcp-charts/getting-started
+    status: 200
+    content_type: text/html
+    title: Getting Started | Bonnard Docs
+    description: Add interactive, agent-ready charts, dashboards, and views to your MCP server with @bonnard/mcp-charts.
+    bytes: 85067
+  official_docs:
+  - kind: docs
+    title: chart types reference
+    url: https://docs.bonnard.dev/mcp-charts/chart-types
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: views guide
+    url: https://docs.bonnard.dev/mcp-charts/views
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: dashboards reference
+    url: https://docs.bonnard.dev/mcp-charts/dashboards
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: docs/EMBED-MODE.md
+    url: https://github.com/bonnard-data/mcp-charts/blob/HEAD/docs/EMBED-MODE.md
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: connecting-a-database guide
+    url: https://docs.bonnard.dev/mcp-charts/connecting-a-database
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://docs.bonnard.dev/mcp-charts/getting-started
+    source: https://docs.bonnard.dev/mcp-charts/getting-started
+  - kind: docs
+    title: API Reference
+    url: https://docs.bonnard.dev/mcp-charts/api-reference
+    source: https://docs.bonnard.dev/mcp-charts/getting-started
+  official_effect_assets:
+  - kind: image
+    title: A chart rendered inside Claude from a visualize tool call
+    url: https://raw.githubusercontent.com/bonnard-data/mcp-charts/main/assets/hero-bubble.png
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: image
+    title: Interactive waterfall chart with a hover tooltip, rendered in Claude
+    url: https://raw.githubusercontent.com/bonnard-data/mcp-charts/main/assets/interactive-waterfall.png
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: chart types reference
+    url: https://docs.bonnard.dev/mcp-charts/chart-types
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: views guide
+    url: https://docs.bonnard.dev/mcp-charts/views
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: dashboards reference
+    url: https://docs.bonnard.dev/mcp-charts/dashboards
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: docs/EMBED-MODE.md
+    url: https://github.com/bonnard-data/mcp-charts/blob/HEAD/docs/EMBED-MODE.md
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: connecting-a-database guide
+    url: https://docs.bonnard.dev/mcp-charts/connecting-a-database
+    source: https://raw.githubusercontent.com/bonnard-data/mcp-charts/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://docs.bonnard.dev/mcp-charts/getting-started
+    source: https://docs.bonnard.dev/mcp-charts/getting-started
+  - kind: docs
+    title: API Reference
+    url: https://docs.bonnard.dev/mcp-charts/api-reference
+    source: https://docs.bonnard.dev/mcp-charts/getting-started
+  source_headings:
+  - Quickstart
+  - Named views (charts and dashboards)
+- name: mcp-superset
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/bintocher/mcp-superset
+  homepage: https://pypi.org/project/mcp-superset/
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP server for Apache Superset that gives AI assistants dashboard, chart, dataset, SQL Lab, reports, annotations,
+    asset import/export, native-filter, and access-control tools with safety confirmations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bintocher/mcp-superset/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bintocher/mcp-superset/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mcp-superset
+    bytes: 25576
+  - kind: homepage
+    url: https://pypi.org/project/mcp-superset/
+    final_url: https://pypi.org/project/mcp-superset/
+    status: 200
+    content_type: text/html
+    title: mcp-superset · PyPI
+    description: MCP server for managing Apache Superset — dashboards, charts, datasets, SQL Lab, access control, and more
+    bytes: 114130
+  official_examples: []
+  official_docs: []
+  official_links: []
+  source_headings:
+  - Dashboards (15 tools)
+  - Dashboard Filters (5 tools)
+  - Datasets (11 tools)
+- name: Lightdash
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/lightdash/lightdash
+  homepage: https://www.lightdash.com
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Open-source agentic BI platform where metrics, dashboards, and data apps live as code; agents can use Lightdash
+    skills, CLI previews, validation, and MCP to build governed charts, dashboards, reports, workbooks, slide decks, and embedded
+    analytics.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Why Lightdash
+    bytes: 6500
+  - kind: homepage
+    url: https://www.lightdash.com/
+    final_url: https://www.lightdash.com/
+    status: 200
+    content_type: text/html
+    title: Lightdash | Build Intelligence, not just dashboards.
+    description: Lightdash is the AI-first, open-source BI platform for modern data teams. Connect to dbt, define metrics
+      once, and get instant, trustworthy insights.
+    bytes: 178377
+  official_examples:
+  - kind: demo
+    title: live demo
+    url: https://demo.lightdash.com/login
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: showcase
+    title: embedding showcase
+    url: https://embed.lightdash.com/
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs
+    url: https://docs.lightdash.com
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: embedding docs
+    url: https://docs.lightdash.com/references/embedding
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: Self-hosting guide
+    url: https://docs.lightdash.com/self-host/self-host-lightdash
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: contributing guide
+    url: https://github.com/lightdash/lightdash/blob/main/.github/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: coding-agent Okteto guide
+    url: https://github.com/lightdash/lightdash/blob/HEAD/docs/agent-okteto.md
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Watch the Lightdash platform overview
+    url: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/static/screenshots/platform-overview-readme.jpg
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: image
+    title: Lightdash | Build Intelligence, not just dashboards.
+    url: https://framerusercontent.com/images/A3BTwvXbAjHYhlotVfVz41cm20w.png
+    source: https://www.lightdash.com/
+  official_links:
+  - kind: demo
+    title: live demo
+    url: https://demo.lightdash.com/login
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: docs
+    url: https://docs.lightdash.com
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: showcase
+    title: embedding showcase
+    url: https://embed.lightdash.com/
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: embedding docs
+    url: https://docs.lightdash.com/references/embedding
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: Self-hosting guide
+    url: https://docs.lightdash.com/self-host/self-host-lightdash
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: contributing guide
+    url: https://github.com/lightdash/lightdash/blob/main/.github/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+  - kind: docs
+    title: coding-agent Okteto guide
+    url: https://github.com/lightdash/lightdash/blob/HEAD/docs/agent-okteto.md
+    source: https://raw.githubusercontent.com/lightdash/lightdash/HEAD/README.md
+- name: AI-in-One Dashboard
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/microsoft/AI-in-One-Dashboard
+  homepage: https://microsoft.github.io/Analytics-Hub/
+  dependencies:
+  - 浏览器/账号
+  - 系统工具
+  - 外部检索/数据源
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Microsoft Power BI template that turns preprocessed Microsoft Copilot, Agent, Purview audit, Entra, licensing,
+    SharePoint, OneLake, and PAX exports into adoption, usage, billing, and value dashboards with scheduled-refresh variants.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/microsoft/AI-in-One-Dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/microsoft/AI-in-One-Dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧠 AI-in-One Dashboard
+    bytes: 48320
+  - kind: homepage
+    url: https://microsoft.github.io/Analytics-Hub/
+    final_url: https://microsoft.github.io/Analytics-Hub/
+    status: 200
+    content_type: text/html
+    title: Microsoft Copilot Adoption Dashboards | Analytics Hub
+    description: Eleven open-source Power BI templates, PowerShell exporters, and add-ons from Microsoft to measure Microsoft
+      365 Copilot adoption, agent usage, sentiment, ROI, license utilization,
+    bytes: 22613
+  official_examples:
+  - kind: example
+    title: Case Studies
+    url: https://microsoft.github.io/Analytics-Hub/case-studies/
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: tutorial
+    title: 🔒 Internal Demos Microsoft-only · live customer walkthroughs
+    url: https://microsoft.github.io/Analytics-Hub/demos/
+    source: https://microsoft.github.io/Analytics-Hub/
+  official_docs:
+  - kind: docs
+    title: 🧾 Cowork Billing Methodology deck + customer guide NEW
+    url: https://microsoft.github.io/Analytics-Hub/cowork-billing/
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Adoption ↗
+    url: https://github.com/microsoft/DecodingSuperUsage
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Chat usage ↗
+    url: https://github.com/microsoft/CopilotChatAnalytics
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: License readiness ↗
+    url: https://github.com/microsoft/M365UsageAnalytics
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Cowork Billing Report ↗
+    url: https://github.com/microsoft/CreditUsage
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Cowork Usage Tracker (Web App)
+    url: https://microsoft.github.io/Analytics-Hub/cowork-billing/cowork-usage-tracker/app/index.html
+    source: https://microsoft.github.io/Analytics-Hub/
+  official_effect_assets:
+  - kind: gif
+    title: AI-in-One Dashboard animated preview
+    url: https://github.com/microsoft/AI-in-One-Dashboard/raw/main/Images/AIO%20v10%20Gif.gif
+    source: https://raw.githubusercontent.com/microsoft/AI-in-One-Dashboard/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Case Studies
+    url: https://microsoft.github.io/Analytics-Hub/case-studies/
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: 🧾 Cowork Billing Methodology deck + customer guide NEW
+    url: https://microsoft.github.io/Analytics-Hub/cowork-billing/
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: tutorial
+    title: 🔒 Internal Demos Microsoft-only · live customer walkthroughs
+    url: https://microsoft.github.io/Analytics-Hub/demos/
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Adoption ↗
+    url: https://github.com/microsoft/DecodingSuperUsage
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Chat usage ↗
+    url: https://github.com/microsoft/CopilotChatAnalytics
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: License readiness ↗
+    url: https://github.com/microsoft/M365UsageAnalytics
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Cowork Billing Report ↗
+    url: https://github.com/microsoft/CreditUsage
+    source: https://microsoft.github.io/Analytics-Hub/
+  - kind: docs
+    title: Cowork Usage Tracker (Web App)
+    url: https://microsoft.github.io/Analytics-Hub/cowork-billing/cowork-usage-tracker/app/index.html
+    source: https://microsoft.github.io/Analytics-Hub/
+  source_headings:
+  - 🧠 AI-in-One Dashboard
+  - One Power BI dashboard for all Microsoft Copilot and Agent adoption signals.
+  - 🤖 AI-in-One Dashboard — Rollup Edition
+  - 📸 Dashboard Preview
+  - 📊 What This Dashboard Provides
+  - Three example commands
+  - Usage examples
+  - 'Example: weekly run, last 90 days'
+  - 🔐 Open and Configure the Power BI Template
+- name: pptx-viewer
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/ChristopherVR/pptx-viewer
+  homepage: https://christophervr.github.io/pptx-viewer/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: TypeScript monorepo for parsing, creating, rendering, editing, presenting, converting, and exporting PowerPoint
+    files in browser or Node, with React/Vue/Angular/Svelte/vanilla viewers plus a CLI/MCP package for AI agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ChristopherVR/pptx-viewer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ChristopherVR/pptx-viewer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptx-viewer
+    bytes: 34082
+  - kind: homepage
+    url: https://christophervr.github.io/pptx-viewer/
+    final_url: https://christophervr.github.io/pptx-viewer/
+    status: 200
+    content_type: text/html
+    title: pptx-viewer | The PowerPoint engine for the web
+    description: Parse, create, edit, render, and convert .pptx files in the browser and Node.js. A TypeScript SDK with viewer
+      components for React, Vue 3, Angular, Svelte, and vanilla JavaScript.
+    bytes: 50515
+  official_examples:
+  - kind: demo
+    title: Live demo
+    url: https://christophervr.github.io/pptx-viewer/demo/
+    source: https://christophervr.github.io/pptx-viewer/
+  official_docs:
+  - kind: docs
+    title: Developer Guide
+    url: https://christophervr.github.io/pptx-viewer/guide/
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: User Guide
+    url: https://christophervr.github.io/pptx-viewer/user/
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Rendering →
+    url: https://christophervr.github.io/pptx-viewer/guide/architecture
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Builder API →
+    url: https://christophervr.github.io/pptx-viewer/core/builder
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Localization →
+    url: https://christophervr.github.io/pptx-viewer/guide/localization
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: 'Full guide: React →'
+    url: https://christophervr.github.io/pptx-viewer/react/getting-started
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Limitations →
+    url: https://christophervr.github.io/pptx-viewer/guide/limitations
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Quick start
+    url: https://christophervr.github.io/pptx-viewer/guide/quick-start
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Introduction
+    url: https://christophervr.github.io/pptx-viewer/guide/introduction
+    source: https://christophervr.github.io/pptx-viewer/
+  official_effect_assets:
+  - kind: image
+    title: The pptx-viewer editor rendering a PowerPoint slide with ribbon toolbar and slide thumbnails
+    url: https://raw.githubusercontent.com/ChristopherVR/pptx-viewer/main/.github/assets/editor.png
+    source: https://raw.githubusercontent.com/ChristopherVR/pptx-viewer/HEAD/README.md
+  - kind: gif
+    title: 'The pptx viewer editing a real deck: flipping slides, dragging an element, and rendering a chart'
+    url: https://christophervr.github.io/pptx-viewer/hero-viewer.gif
+    source: https://christophervr.github.io/pptx-viewer/
+  official_links:
+  - kind: docs
+    title: Developer Guide
+    url: https://christophervr.github.io/pptx-viewer/guide/
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: User Guide
+    url: https://christophervr.github.io/pptx-viewer/user/
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Rendering →
+    url: https://christophervr.github.io/pptx-viewer/guide/architecture
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Builder API →
+    url: https://christophervr.github.io/pptx-viewer/core/builder
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Localization →
+    url: https://christophervr.github.io/pptx-viewer/guide/localization
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: 'Full guide: React →'
+    url: https://christophervr.github.io/pptx-viewer/react/getting-started
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Limitations →
+    url: https://christophervr.github.io/pptx-viewer/guide/limitations
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Quick start
+    url: https://christophervr.github.io/pptx-viewer/guide/quick-start
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: demo
+    title: Live demo
+    url: https://christophervr.github.io/pptx-viewer/demo/
+    source: https://christophervr.github.io/pptx-viewer/
+  - kind: docs
+    title: Introduction
+    url: https://christophervr.github.io/pptx-viewer/guide/introduction
+    source: https://christophervr.github.io/pptx-viewer/
+  source_headings:
+  - Create a Presentation from Scratch
+  - Parse and Edit an Existing Presentation
+- name: OfficeIMO
+  category: doc-to-knowledge
+  surface: library
+  primary_url: https://github.com/EvotecIT/OfficeIMO
+  homepage: https://officeimo.com/
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: COM-free .NET document library family for creating, reading, editing, converting, and exporting Word, Excel,
+    PowerPoint, Visio, PDF, Markdown, RTF, and other office/document formats in services, agents, containers, and automation
+    hosts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: OfficeIMO — Office and document libraries for .NET
+    bytes: 78983
+  - kind: homepage
+    url: https://officeimo.com/
+    final_url: https://officeimo.com/
+    status: 200
+    content_type: text/html
+    title: OfficeIMO — Office Documents for .NET and PowerShell
+    description: Explore documented OfficeIMO support for Office formats, PDF, conversion, extraction, and PowerShell automation,
+      with explicit compatibility limits.
+    bytes: 96021
+  official_docs:
+  - kind: docs
+    title: OfficeIMO migration guide
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/MIGRATION.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: OfficeIMO roadmap
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Image export capability matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.image-export-capability-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: PDF current state
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.pdf.current-state.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: PDF conversion support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.pdf-conversion-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: HTML renderer support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.html-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Word/HTML support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.word-html-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: RTF support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.rtf-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Email support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.email-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: AsciiDoc support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.asciidoc-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: LaTeX support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.latex-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Markdown compatibility matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.markdown.compatibility-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: OneNote current state
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.onenote.current-state.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: OfficeIMO migration guide
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/MIGRATION.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: OfficeIMO roadmap
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Image export capability matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.image-export-capability-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: PDF current state
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.pdf.current-state.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: PDF conversion support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.pdf-conversion-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: HTML renderer support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.html-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Word/HTML support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.word-html-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: RTF support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.rtf-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Email support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.email-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: AsciiDoc support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.asciidoc-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: LaTeX support matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.latex-support-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: Markdown compatibility matrix
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.markdown.compatibility-matrix.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  - kind: docs
+    title: OneNote current state
+    url: https://github.com/EvotecIT/OfficeIMO/blob/HEAD/Docs/officeimo.onenote.current-state.md
+    source: https://raw.githubusercontent.com/EvotecIT/OfficeIMO/HEAD/README.md
+  source_headings:
+  - '[OfficeIMO.Word.GoogleDocs](OfficeIMO.Word.GoogleDocs/README.md)'
+  - '[OfficeIMO.PowerPoint.GoogleSlides](OfficeIMO.PowerPoint.GoogleSlides/README.md)'
+  - '[OfficeIMO.MarkdownRenderer.SamplePlugin](OfficeIMO.MarkdownRenderer.SamplePlugin/README.md)'
+  - '[OfficeIMO.Examples](OfficeIMO.Examples/README.md)'
+  - More documentation
+- name: office_oxide
+  category: doc-to-knowledge
+  surface: library
+  primary_url: https://github.com/yfedoseev/office_oxide
+  homepage: https://office.oxide.fyi
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Multi-language Office document engine for DOCX, XLSX, PPTX, legacy DOC/XLS/PPT, plain text, Markdown, and
+    intermediate representations, with Rust, Python, Go, C#, Node, WASM, CLI, and MCP server bindings for agent pipelines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Office Oxide — The Fastest Native Office Document Library
+    bytes: 18465
+  - kind: homepage
+    url: https://office.oxide.fyi/
+    final_url: https://office.oxide.fyi/
+    status: 200
+    content_type: text/html
+    title: "Rust Office Library â\x80\x94 Quick Start â\x80\x94 Office Oxide Docs"
+    description: "Documentation for Office Oxide â\x80\x94 the fastest library for Office documents. Read DOCX, XLSX, PPTX,\
+      \ DOC, XLS, PPT in <1ms. 8-100Ã\x97 faster than python-docx, openpyxl, python-pptx. 9"
+    bytes: 93791
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: example
+    title: '`examples/c/extract.c`'
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/examples/c/extract.c
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: paper
+    title: BENCHMARKS.md
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/BENCHMARKS.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Rust
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-rust.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Python
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-python.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Go
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-go.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: C#
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-csharp.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: JavaScript (native)
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-javascript.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: WASM
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-wasm.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: C FFI
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-c.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Documentation Site
+    url: https://office.oxide.fyi
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: API Docs (Rust)
+    url: https://docs.rs/office_oxide
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: "Rust â\x80\x94 Quick Start"
+    url: https://office.oxide.fyi/rust/docs/getting-started
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: "CLI â\x80\x94 Quick Start"
+    url: https://office.oxide.fyi/rust/docs/getting-started/cli
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: "AI (MCP) â\x80\x94 Quick Start"
+    url: https://office.oxide.fyi/rust/docs/getting-started/mcp
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Plain Text
+    url: https://office.oxide.fyi/rust/docs/extraction/text
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Markdown
+    url: https://office.oxide.fyi/rust/docs/extraction/markdown
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: HTML
+    url: https://office.oxide.fyi/rust/docs/extraction/html
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Structured IR
+    url: https://office.oxide.fyi/rust/docs/extraction/ir
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Tables
+    url: https://office.oxide.fyi/rust/docs/extraction/tables
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Metadata
+    url: https://office.oxide.fyi/rust/docs/extraction/metadata
+    source: https://office.oxide.fyi/
+  official_links:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Rust
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-rust.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Python
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-python.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Go
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-go.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: C#
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-csharp.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: JavaScript (native)
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-javascript.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: WASM
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-wasm.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: C FFI
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/getting-started-c.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: example
+    title: '`examples/c/extract.c`'
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/examples/c/extract.c
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: paper
+    title: BENCHMARKS.md
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/BENCHMARKS.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Documentation Site
+    url: https://office.oxide.fyi
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: API Docs (Rust)
+    url: https://docs.rs/office_oxide
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/yfedoseev/office_oxide/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/yfedoseev/office_oxide/HEAD/README.md
+  - kind: docs
+    title: "Rust â\x80\x94 Quick Start"
+    url: https://office.oxide.fyi/rust/docs/getting-started
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: "CLI â\x80\x94 Quick Start"
+    url: https://office.oxide.fyi/rust/docs/getting-started/cli
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: "AI (MCP) â\x80\x94 Quick Start"
+    url: https://office.oxide.fyi/rust/docs/getting-started/mcp
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Plain Text
+    url: https://office.oxide.fyi/rust/docs/extraction/text
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Markdown
+    url: https://office.oxide.fyi/rust/docs/extraction/markdown
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: HTML
+    url: https://office.oxide.fyi/rust/docs/extraction/html
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Structured IR
+    url: https://office.oxide.fyi/rust/docs/extraction/ir
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Tables
+    url: https://office.oxide.fyi/rust/docs/extraction/tables
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Metadata
+    url: https://office.oxide.fyi/rust/docs/extraction/metadata
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Create from Markdown
+    url: https://office.oxide.fyi/rust/docs/creation/from-ir
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: XLSX Writer
+    url: https://office.oxide.fyi/rust/docs/creation/xlsx-writer
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: PPTX Writer
+    url: https://office.oxide.fyi/rust/docs/creation/pptx-writer
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Overview
+    url: https://office.oxide.fyi/rust/docs/editing/overview
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Replace Text
+    url: https://office.oxide.fyi/rust/docs/editing/text
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Set XLSX Cells
+    url: https://office.oxide.fyi/rust/docs/editing/cells
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: "Legacy â\x86\x92 OOXML"
+    url: https://office.oxide.fyi/rust/docs/conversion/legacy-to-ooxml
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: API Reference
+    url: https://office.oxide.fyi/rust/docs/reference/api
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Batch Processing
+    url: https://office.oxide.fyi/rust/docs/guides/batch-processing
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Office for RAG
+    url: https://office.oxide.fyi/rust/docs/guides/office-for-rag
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Bytes & Streams
+    url: https://office.oxide.fyi/rust/docs/guides/bytes-and-streams
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Performance
+    url: https://office.oxide.fyi/rust/docs/performance
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: Changelog
+    url: https://office.oxide.fyi/rust/docs/changelog
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: from python-docx
+    url: https://office.oxide.fyi/rust/docs/migration/from-python-docx
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: from openpyxl
+    url: https://office.oxide.fyi/rust/docs/migration/from-openpyxl
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: from python-pptx
+    url: https://office.oxide.fyi/rust/docs/migration/from-python-pptx
+    source: https://office.oxide.fyi/
+  - kind: docs
+    title: from xlrd
+    url: https://office.oxide.fyi/rust/docs/migration/from-xlrd
+    source: https://office.oxide.fyi/
+  source_headings:
+  - Documentation
+- name: Office Coding Agent
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/sbroenne/office-coding-agent
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Research Office add-in that brings GitHub Copilot CLI, skills, prompts, plugins, MCP servers, and host-routed
+    tools into Excel, PowerPoint, Word, and Outlook, including PowerPoint slide, shape, text, image, table, chart, notes,
+    layout, and visual-QA actions.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sbroenne/office-coding-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sbroenne/office-coding-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Office Coding Agent
+    bytes: 25602
+  official_docs:
+  - kind: docs
+    title: docs/SIDELOADING.md
+    url: https://github.com/sbroenne/office-coding-agent/blob/HEAD/docs/SIDELOADING.md
+    source: https://raw.githubusercontent.com/sbroenne/office-coding-agent/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/SIDELOADING.md
+    url: https://github.com/sbroenne/office-coding-agent/blob/HEAD/docs/SIDELOADING.md
+    source: https://raw.githubusercontent.com/sbroenne/office-coding-agent/HEAD/README.md

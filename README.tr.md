@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-447_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--06-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-455_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--07-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -15,15 +15,19 @@ Katalog **bilgi kaynağı**, **araç türü**, **çıktı biçimi** ve **bağım
 
 Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve kaynak izlenebilirliği için İngilizce bırakılmıştır.
 
-## Latest Refresh (2026-08-06)
+## Latest Refresh (2026-08-07)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Metabase AI Assistant](https://github.com/enessari/metabase-ai-assistant) | MCP server for Metabase natural-language SQL, dashboard templates, question/card management, workspace export, and BI automation. |
-| [holoviz-viz-mcp](https://github.com/ghostiee-11/holoviz-viz-mcp) | HoloViz MCP server for auto-EDA, statistical tests, charts, dashboards, PNG previews, and standalone interactive HTML exports. |
-| [uc-bq-claude-skill](https://github.com/UltraCart/uc-bq-claude-skill) | Claude Code skill and CLI for BigQuery reports-as-code with ECharts, PDFs, executive analysis, decks, and HTML dashboards. |
-| [Visual Documentation Plugin](https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1) | Claude Code visual-documentation plugin for HTML architecture diagrams, flowcharts, KPI dashboards, timelines, and technical docs. |
-| [Claude Code Toolkit Data Visualization Agent](https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1) | Claude Code Toolkit agent for accessible, responsive dashboards and visualizations with D3.js, Chart.js, Plotly, and Matplotlib. |
+| [mcp-charts](https://github.com/bonnard-data/mcp-charts) | TypeScript MCP chart widget kit for agent-rendered charts, KPI tiles, typed views, and dashboards inside MCP Apps hosts. |
+| [mcp-superset](https://github.com/bintocher/mcp-superset) | Apache Superset MCP server for dashboard, chart, dataset, SQL Lab, report, annotation, and access-control automation. |
+| [Lightdash](https://github.com/lightdash/lightdash) | Open-source agentic BI platform with skills, CLI preview/validation, MCP, governed dashboards, data apps, reports, and slide decks. |
+| [AI-in-One Dashboard](https://github.com/microsoft/AI-in-One-Dashboard) | Microsoft Power BI template for Copilot and Agent adoption, usage, billing, and value dashboards from preprocessed enterprise exports. |
+| [pptx-viewer](https://github.com/ChristopherVR/pptx-viewer) | TypeScript PPTX parser, editor, renderer, converter, and CLI/MCP package for browser, Node, and AI-agent workflows. |
+| [OfficeIMO](https://github.com/EvotecIT/OfficeIMO) | COM-free .NET Office/document library for reading, creating, editing, converting, and exporting Word, Excel, PowerPoint, PDF, Markdown, and more. |
+| [office_oxide](https://github.com/yfedoseev/office_oxide) | Multi-language Office document engine with CLI/MCP bindings for fast DOCX/XLSX/PPTX and legacy Office extraction to text, Markdown, and IR. |
+| [Office Coding Agent](https://github.com/sbroenne/office-coding-agent) | Research Office add-in that routes GitHub Copilot CLI, skills, plugins, MCP servers, and host tools into Excel, PowerPoint, Word, and Outlook. |
+
 
 ## ✨ Önerilen kullanım
 
@@ -217,6 +221,10 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [holoviz-viz-mcp](https://github.com/ghostiee-11/holoviz-viz-mcp) [![Star](https://img.shields.io/github/stars/ghostiee-11/holoviz-viz-mcp?style=flat&logo=github&label=Star)](https://github.com/ghostiee-11/holoviz-viz-mcp/stargazers) | Veri/tablolar / Veritabanı / DSL/kod | MCP server / API/SDK/kütüphane | Grafik/pano / Web/etkileşimli sayfa / SVG/PNG/PDF | MCP client / Yerel runtime / Render/dışa aktarma / Depolama/indeks |
 | [uc-bq-claude-skill](https://github.com/UltraCart/uc-bq-claude-skill) [![Star](https://img.shields.io/github/stars/UltraCart/uc-bq-claude-skill?style=flat&logo=github&label=Star)](https://github.com/UltraCart/uc-bq-claude-skill/stargazers) | Veritabanı / Veri/tablolar | Agent skill / API/SDK/kütüphane | Grafik/pano / Uzun rapor / SVG/PNG/PDF / Web/etkileşimli sayfa | Agent host / Yerel runtime / Harici arama/veri / Render/dışa aktarma / Şablonlar/assetler |
 | [Claude Code Toolkit Data Visualization Agent](https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/agents/data-ai/data-visualization.md?plain=1) [![Star](https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat&logo=github&label=Star)](https://github.com/rohitg00/awesome-claude-code-toolkit/stargazers) | Veri/tablolar / DSL/kod | Agent skill | Grafik/pano / Web/etkileşimli sayfa / SVG/PNG/PDF | Agent host / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
+| [mcp-charts](https://github.com/bonnard-data/mcp-charts) [![Star](https://img.shields.io/github/stars/bonnard-data/mcp-charts?style=flat&logo=github&label=Star)](https://github.com/bonnard-data/mcp-charts/stargazers) | Data/tables / Database / DSL/code | MCP server / API/SDK/library | Chart/dashboard / Web/interactive page / Structured data/Markdown | MCP client / Agent host / Local runtime / External search/data / Rendering/export |
+| [mcp-superset](https://github.com/bintocher/mcp-superset) [![Star](https://img.shields.io/github/stars/bintocher/mcp-superset?style=flat&logo=github&label=Star)](https://github.com/bintocher/mcp-superset/stargazers) | Database / Data/tables | MCP server / API/SDK/library | Chart/dashboard / Evidence table / Structured data/Markdown | MCP client / Browser/account / Local runtime / External search/data / Storage/index / Rendering/export |
+| [Lightdash](https://github.com/lightdash/lightdash) [![Star](https://img.shields.io/github/stars/lightdash/lightdash?style=flat&logo=github&label=Star)](https://github.com/lightdash/lightdash/stargazers) | Database / Data/tables / Knowledge base | Open-source app/framework / Product/SaaS / MCP server / Agent skill | Chart/dashboard / Briefing/report / Web/interactive page / PPT/deck | Browser/account / Agent host / MCP client / Local runtime / Model API / External search/data / Storage/index / Rendering/export |
+| [AI-in-One Dashboard](https://github.com/microsoft/AI-in-One-Dashboard) [![Star](https://img.shields.io/github/stars/microsoft/AI-in-One-Dashboard?style=flat&logo=github&label=Star)](https://github.com/microsoft/AI-in-One-Dashboard/stargazers) | Data/tables / Office docs / Database | Open-source app/framework / API/SDK/library | Chart/dashboard / Briefing/report / Table/timeline | Browser/account / System tools / External search/data / Document parsing/OCR / Rendering/export / Templates/assets |
 | [delafuente-skills](https://github.com/menpente/delafuente-skills) [![Star](https://img.shields.io/github/stars/menpente/delafuente-skills?style=flat&logo=github&label=Star)](https://github.com/menpente/delafuente-skills/stargazers) | Data/tables / Text/ideas / Web/search | Skill collection | Chart/dashboard / PPT/deck / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 
 ### Genel metin, fikirler ve beyaz tahta görselleri
@@ -439,6 +447,8 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Presentation Pro Designer](https://github.com/DXBMark/presentation-pro-designer) [![Star](https://img.shields.io/github/stars/DXBMark/presentation-pro-designer?style=flat&logo=github&label=Star)](https://github.com/DXBMark/presentation-pro-designer/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Agent skill / API/SDK/library | PPT/deck / Briefing/report / Chart/dashboard | Agent host / Local runtime / Templates/assets / Rendering/export |
 | [Gamma MCP Server](https://github.com/cbruyndoncx/gamma-mcp-server) [![Star](https://img.shields.io/github/stars/cbruyndoncx/gamma-mcp-server?style=flat&logo=github&label=Star)](https://github.com/cbruyndoncx/gamma-mcp-server/stargazers) | Text/ideas / PDF/documents / Web/search | MCP server / Product/SaaS | PPT/deck / Briefing/report | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |
 | [Slide Builder](https://github.com/heisenberg-alt/gh-copilot-slides) [![Star](https://img.shields.io/github/stars/heisenberg-alt/gh-copilot-slides?style=flat&logo=github&label=Star)](https://github.com/heisenberg-alt/gh-copilot-slides/stargazers) | Web/search / PDF/documents / Office docs / Text/ideas | Open-source app/framework / MCP server / Bot/assistant | PPT/deck / Web/interactive page / SVG/PNG/PDF | MCP client / Local runtime / Model API / External search/data / Document parsing/OCR / Rendering/export / Templates/assets |
+| [pptx-viewer](https://github.com/ChristopherVR/pptx-viewer) [![Star](https://img.shields.io/github/stars/ChristopherVR/pptx-viewer?style=flat&logo=github&label=Star)](https://github.com/ChristopherVR/pptx-viewer/stargazers) | Office docs / Text/ideas | API/SDK/library / MCP server | PPT/deck / Structured data/Markdown / SVG/PNG/PDF / Video/audio | MCP client / Local runtime / Rendering/export / System tools |
+| [Office Coding Agent](https://github.com/sbroenne/office-coding-agent) [![Star](https://img.shields.io/github/stars/sbroenne/office-coding-agent?style=flat&logo=github&label=Star)](https://github.com/sbroenne/office-coding-agent/stargazers) | Office docs / Text/ideas / Data/tables | Open-source app/framework / Bot/assistant | PPT/deck / Chart/dashboard / Long report | Browser/account / Agent host / MCP client / Local runtime / Model API / Rendering/export / System tools |
 
 ## Destekleyici, ön/son işleme araçları
 
@@ -460,6 +470,8 @@ PDFleri, makaleleri, Office dosyalarını veya taramaları Markdown, JSON, düze
 | [PaperMage](https://github.com/allenai/papermage) [![Star](https://img.shields.io/github/stars/allenai/papermage?style=flat&logo=github&label=Star)](https://github.com/allenai/papermage/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | API/SDK/kütüphane | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR |
 | [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) [![Star](https://img.shields.io/github/stars/allenai/s2orc-doc2json?style=flat&logo=github&label=Star)](https://github.com/allenai/s2orc-doc2json/stargazers) | PDF/belgeler / Office belgeleri / Makaleler/araştırma | Açık kaynak uygulama/framework | Yapılandırılmış veri/Markdown | Yerel runtime / Belge ayrıştırma/OCR |
  | [CloudPedagogy Word-to-Mermaid Renderer](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer) [![Star](https://img.shields.io/github/stars/cloudpedagogy/cloudpedagogy-word-mermaid-renderer?style=flat&logo=github&label=Star)](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer/stargazers) | Office docs / Text/ideas / DSL/code | Open-source app/framework | Diagram/Mermaid / Web/interactive page / Structured data/Markdown | Local runtime / Document parsing/OCR / Rendering/export |
+| [OfficeIMO](https://github.com/EvotecIT/OfficeIMO) [![Star](https://img.shields.io/github/stars/EvotecIT/OfficeIMO?style=flat&logo=github&label=Star)](https://github.com/EvotecIT/OfficeIMO/stargazers) | Office docs / PDF/documents | API/SDK/library | Structured data/Markdown / Long report / PPT/deck / SVG/PNG/PDF | Local runtime / Document parsing/OCR / Rendering/export / System tools |
+| [office_oxide](https://github.com/yfedoseev/office_oxide) [![Star](https://img.shields.io/github/stars/yfedoseev/office_oxide?style=flat&logo=github&label=Star)](https://github.com/yfedoseev/office_oxide/stargazers) | Office docs / PDF/documents | API/SDK/library / MCP server | Structured data/Markdown / PPT/deck / Evidence table | MCP client / Local runtime / Document parsing/OCR / Rendering/export / System tools |
 
 ### Odaklı zihin haritası araçları
 
