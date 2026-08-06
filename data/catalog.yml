@@ -1,4 +1,4 @@
-last_researched: '2026-08-06'
+last_researched: '2026-08-07'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -11272,3 +11272,231 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: mcp-charts
+  url: https://github.com/bonnard-data/mcp-charts
+  homepage: https://docs.bonnard.dev/mcp-charts/getting-started
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 8
+  license: MIT
+  updated: '2026-08-07'
+  note: TypeScript MCP chart widget kit that lets agents query Postgres, BigQuery, Snowflake, Databricks, DuckDB, or typed rows and render interactive charts, KPI tiles, tables, named views, and dashboards inside MCP Apps hosts.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: mcp-superset
+  url: https://github.com/bintocher/mcp-superset
+  homepage: https://pypi.org/project/mcp-superset/
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 50
+  license: MIT
+  updated: '2026-08-07'
+  note: MCP server for Apache Superset that gives AI assistants dashboard, chart, dataset, SQL Lab, reports, annotations, asset import/export, native-filter, and access-control tools with safety confirmations.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Lightdash
+  url: https://github.com/lightdash/lightdash
+  homepage: https://www.lightdash.com
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 6019
+  license: unknown
+  updated: '2026-08-07'
+  note: Open-source agentic BI platform where metrics, dashboards, and data apps live as code; agents can use Lightdash skills, CLI previews, validation, and MCP to build governed charts, dashboards, reports, workbooks, slide decks, and embedded analytics.
+  source_types:
+  - 数据库
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 网页/交互页面
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: data
+- name: AI-in-One Dashboard
+  url: https://github.com/microsoft/AI-in-One-Dashboard
+  homepage: https://microsoft.github.io/Analytics-Hub/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 系统工具
+  - 外部检索/数据源
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 68
+  license: MIT
+  updated: '2026-07-20'
+  note: Microsoft Power BI template that turns preprocessed Microsoft Copilot, Agent, Purview audit, Entra, licensing, SharePoint, OneLake, and PAX exports into adoption, usage, billing, and value dashboards with scheduled-refresh variants.
+  source_types:
+  - 数据/表格
+  - Office 文档
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 表格/时间线
+  catalog_section: main
+  readme_group: data
+- name: pptx-viewer
+  url: https://github.com/ChristopherVR/pptx-viewer
+  homepage: https://christophervr.github.io/pptx-viewer/
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 53
+  license: Apache-2.0
+  updated: '2026-08-07'
+  note: TypeScript monorepo for parsing, creating, rendering, editing, presenting, converting, and exporting PowerPoint files in browser or Node, with React/Vue/Angular/Svelte/vanilla viewers plus a CLI/MCP package for AI agents.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: OfficeIMO
+  url: https://github.com/EvotecIT/OfficeIMO
+  homepage: https://officeimo.com/
+  category: doc-to-knowledge
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 500
+  license: MIT
+  updated: '2026-08-07'
+  note: COM-free .NET document library family for creating, reading, editing, converting, and exporting Word, Excel, PowerPoint, Visio, PDF, Markdown, RTF, and other office/document formats in services, agents, containers, and automation hosts.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  - 报告/长文档
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: office_oxide
+  url: https://github.com/yfedoseev/office_oxide
+  homepage: https://office.oxide.fyi
+  category: doc-to-knowledge
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 93
+  license: Apache-2.0
+  updated: '2026-08-07'
+  note: Multi-language Office document engine for DOCX, XLSX, PPTX, legacy DOC/XLS/PPT, plain text, Markdown, and intermediate representations, with Rust, Python, Go, C#, Node, WASM, CLI, and MCP server bindings for agent pipelines.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 结构化数据/Markdown
+  - PPT/演示文稿
+  - 证据表
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Office Coding Agent
+  url: https://github.com/sbroenne/office-coding-agent
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  stars: 13
+  license: MIT
+  updated: '2026-08-07'
+  note: Research Office add-in that brings GitHub Copilot CLI, skills, prompts, plugins, MCP servers, and host-routed tools into Excel, PowerPoint, Word, and Outlook, including PowerPoint slide, shape, text, image, table, chart, notes, layout, and visual-QA actions.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 报告/长文档
+  catalog_section: main
+  readme_group: presentation

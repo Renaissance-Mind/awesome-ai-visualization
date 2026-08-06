@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-08-06.
+Last researched: 2026-08-07.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -79,6 +79,8 @@ Update on 2026-08-04: refreshed LaTeX Beamer, Markdown/Slidev deck MCP servers, 
 Update on 2026-08-05: refreshed AI-native BI, Power BI dashboard automation, SEO client reporting, geospatial briefing, Manim explainer-video, video-to-mind-map, Scapple mind-map, and Mermaid rendering surfaces from official GitHub repositories, README evidence, GitHub metadata, and live web/GitHub searches. This pass added DeepBI, trRUSTt, SEO Client Report Skill, groundstation, 3brown1blue, Video Analysis MCP Service, mcp-scapple, and Mermaid MCP Server by Narasimha. The targeted scraper ran only against these eight new records; the DeepBI commercial homepage was excluded after review because the repository README/user manual supplied cleaner BI-platform evidence, and the npm package page for mcp-scapple returned 403 while the GitHub README and official example assets fetched successfully.
 
 Update on 2026-08-06: refreshed Metabase/BigQuery reporting automation, HoloViz MCP dashboard generation, visual documentation skills, and Claude Code data-visualization agent surfaces from official GitHub repositories, README/skill-file evidence, npm package links, GitHub metadata, and live web/GitHub searches. This pass added Metabase AI Assistant, holoviz-viz-mcp, uc-bq-claude-skill, Visual Documentation Plugin, and Claude Code Toolkit Data Visualization Agent. The targeted scraper ran only against these five new records; npm package pages returned 403 for the two package homepages, while all GitHub README/skill-file sources fetched successfully and no presigned URLs, placeholder assets, or noisy badge links were merged.
+
+Update on 2026-08-07: refreshed MCP chart/dashboard embedding, Superset dashboard automation, agentic BI, Power BI AI-adoption dashboards, PPTX rendering/editing, Office document engines, and Copilot-in-Office add-in surfaces from official GitHub repositories, README evidence, product/docs pages, package metadata, and GitHub metadata. This pass added mcp-charts, mcp-superset, Lightdash, AI-in-One Dashboard, pptx-viewer, OfficeIMO, office_oxide, and Office Coding Agent. The targeted scraper ran only against these eight new records; generic PyPI packaging docs/tutorials from the mcp-superset package page plus non-artifact social-card images were scrubbed before merging, while all GitHub README and official docs/homepage sources fetched successfully.
 
 
 ## Search Surfaces
