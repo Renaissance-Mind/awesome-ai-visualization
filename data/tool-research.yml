@@ -1,4 +1,4 @@
-generated_at: '2026-08-06T23:05:38+00:00'
+generated_at: '2026-08-07T23:05:07+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 455
-  fetched_sources_ok: 618
+  entries: 464
+  fetched_sources_ok: 627
   fetched_sources_failed: 36
-  official_examples: 1122
-  official_effect_assets: 1375
-  official_docs: 1298
+  official_examples: 1123
+  official_effect_assets: 1405
+  official_docs: 1307
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -39632,3 +39632,430 @@ entries:
     title: docs/SIDELOADING.md
     url: https://github.com/sbroenne/office-coding-agent/blob/HEAD/docs/SIDELOADING.md
     source: https://raw.githubusercontent.com/sbroenne/office-coding-agent/HEAD/README.md
+- name: MCP Diagram Server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/angrysky56/mcp-diagram-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Enterprise-oriented MCP server for creating, storing, retrieving, and exporting Mermaid diagrams and mind
+    maps with a persistent diagram library, automatic saving, and multi-format rendering support.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Diagram Server 📊
+    bytes: 9002
+  official_effect_assets:
+  - kind: image
+    title: alt text
+    url: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/image-1.png
+    source: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md
+  - kind: image
+    title: alt text
+    url: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/image-2.png
+    source: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md
+  - kind: image
+    title: alt text
+    url: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/image-3.png
+    source: https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md
+  source_headings:
+  - MCP Diagram Server 📊
+  - 🎨 **Rich Diagram Types**
+  - Core Diagram Operations
+  - 💡 Usage Examples
+  - Python Code to Class Diagram
+  - Create with Template
+  - Manual Save (`save_diagram`)
+- name: Blueprint MCP
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/ArcadeAI/blueprint-mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 模型 API
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Arcade MCP tool that combines Nano Banana Pro image generation with Arcade connectors so agents can extract
+    codebase, SaaS, or system context and visualize it as architecture diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Blueprint MCP
+    bytes: 5457
+  official_effect_assets:
+  - kind: image
+    title: Blueprint MCP
+    url: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/images/blueprint-mcp.png
+    source: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md
+  - kind: image
+    title: Enterprise Banking Architecture
+    url: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/images/arcade_enterprise_banking.png
+    source: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md
+  - kind: image
+    title: LangGraph Architecture
+    url: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/images/langgraph_architecture_learning_card.png
+    source: https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md
+  source_headings:
+  - Usage
+  - Example Prompts
+  - Example Diagrams
+- name: PowerPoint Automation MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/buckylee2019/powerpoint-automation-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Python-pptx MCP server that lets AI assistants create, modify, and manage PowerPoint presentations programmatically,
+    with demo media and presentation-generation tools exposed through MCP.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/buckylee2019/powerpoint-automation-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/buckylee2019/powerpoint-automation-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPoint Automation MCP Server
+    bytes: 6856
+  source_headings:
+  - Demo
+  - Presentation Management
+  - '`create_presentation(template: str = None) -> Dict`'
+  - '`open_presentation(file_path: str) -> Dict`'
+  - '`get_presentation() -> Dict`'
+  - '`save_presentation(path: str = None) -> Dict`'
+  - '`close_presentation() -> Dict`'
+  - Slide Management
+  - '`get_slides() -> List[Dict]`'
+  - '`add_slide(layout_index: int = 1) -> Dict`'
+  - '`delete_slide(slide_index: int) -> Dict`'
+  - '`get_slide_layouts() -> Dict`'
+- name: Diagram Bridge MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/tohachan/diagram-bridge-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Prompt-and-tool MCP bridge that helps LLMs generate and render Mermaid, PlantUML, Graphviz, D2, and other
+    diagram formats through Kroki-backed conversion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Diagram Bridge MCP Server
+    bytes: 6714
+  official_examples:
+  - kind: example
+    title: Examples Gallery
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/examples.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Configuration Guide
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/configuration.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: 'Quick Start: Port Configuration'
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/quick-start-ports.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Installation Guide
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/installation.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Docker Deployment
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/docker-deployment.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/api-reference.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/development.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Performance & Security
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/performance.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Demo
+    url: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/docs/diagram-briedge-mcp.gif
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Examples Gallery
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/examples.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Configuration Guide
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/configuration.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: 'Quick Start: Port Configuration'
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/quick-start-ports.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Installation Guide
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/installation.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Docker Deployment
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/docker-deployment.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/api-reference.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/development.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Performance & Security
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/performance.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md
+  source_headings:
+  - Diagram Bridge MCP Server
+  - 💡 Usage Example
+  - 🎨 Examples Gallery
+  - '`help_choose_diagram`'
+  - '`get_diagram_instructions`'
+  - '`render_diagram`'
+  - 📚 Documentation
+- name: README Generator Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/geekjourneyx/readme-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for producing polished project README artifacts with 16:9 infographic sections, SEO metadata,
+    structured author blocks, Playwright rendering, and visual quality checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: GitHub README Generator
+    bytes: 3593
+  official_effect_assets:
+  - kind: image
+    title: GitHub README Generator — portfolio-grade README design for open source projects
+    url: https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/assets/banner.webp
+    source: https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/README.md
+  - kind: image
+    title: 'Three outcomes: story, visual identity, and clean delivery'
+    url: https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/assets/features.webp
+    source: https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/README.md
+- name: DiagrammerGPT
+  category: diagram-generation
+  surface: research
+  primary_url: https://github.com/aszala/DiagrammerGPT
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 渲染/导出
+  catalog_note: Official COLM 2024 research implementation for open-domain text-to-diagram generation with LLM planning and
+    layout-guided rendering across diagram domains.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '[DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning](https://diagrammerGPT.github.io/)'
+    bytes: 5056
+  official_effect_assets:
+  - kind: image
+    title: Teaser
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/teaser.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Diagram1 Plan
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram1_plan.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Diagram1
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram1.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Diagram2 Plan
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram2_plan.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Diagram2
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram2.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Diagram3 Plan
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram3_plan.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Diagram3
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram3.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Ppt Diagram 1
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/ppt_diagram_1.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Inkscape Diagram 1
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/inkscape_diagram_1.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Ppt Diagram 2
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/ppt_diagram_2.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  - kind: image
+    title: Inkscape Diagram 2
+    url: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/inkscape_diagram_2.png
+    source: https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md
+  source_headings:
+  - '[DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning](https://diagrammerGPT.github.io/)'
+  - Generated Examples
+  - Examples Rendered with Other Platforms
+- name: Whimsical MCP Server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/BrockReece/whimsical-mcp-server
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Third-party Whimsical MCP server that lets LLMs create collaborative Whimsical boards and diagrams from Mermaid
+    markup or agent context through the Whimsical API.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/BrockReece/whimsical-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/BrockReece/whimsical-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Whimsical MCP Server
+    bytes: 1661
+  official_effect_assets:
+  - kind: image
+    title: MCP Architecture
+    url: https://raw.githubusercontent.com/BrockReece/whimsical-mcp-server/HEAD/docs/mcp_demo.png
+    source: https://raw.githubusercontent.com/BrockReece/whimsical-mcp-server/HEAD/README.md
+  source_headings:
+  - Demo
+- name: Noodles
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/unslop-xyz/noodles
+  dependencies:
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Local codebase-understanding tool that creates interactive diagrams showing how AI-generated or unfamiliar
+    code works, so teams can inspect structure without reading every line.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/unslop-xyz/noodles/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/unslop-xyz/noodles/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Noodles
+    bytes: 4652
+  official_effect_assets:
+  - kind: gif
+    title: noodles demo
+    url: https://raw.githubusercontent.com/unslop-xyz/noodles/HEAD/assets/demo.gif
+    source: https://raw.githubusercontent.com/unslop-xyz/noodles/HEAD/README.md
+  source_headings:
+  - Usage
+- name: LLM Wiki
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/nashsu/llm_wiki
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Cross-platform desktop app that incrementally turns documents and sources into an organized, interlinked local
+    wiki instead of answering from scratch on every query.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: LLM Wiki
+    bytes: 31276
+  official_effect_assets:
+  - kind: image
+    title: Overview
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/overview.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: LLM Wiki Architecture
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/llm_wiki_arch.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: Obsidian Compatibility
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/5-obsidian_compatibility.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: Knowledge Graph
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/3-knowledge_graph.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: Louvain Community Detection
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/kg_community.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: Graph Insights
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/kg_insights.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: Deep Research
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/1-deepresearch.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  - kind: image
+    title: Chrome Extension Web Clipper
+    url: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/4-chrome_extension_webclipper.jpg
+    source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
+  source_headings:
+  - '11. Markdown Rendering: KaTeX Math & Mermaid Diagrams'

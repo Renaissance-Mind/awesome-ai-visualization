@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-455_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--07-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-464_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--08-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,18 +15,19 @@
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
 
-## Latest Refresh (2026-08-07)
+## Latest Refresh (2026-08-08)
 
 | Project | Catalog focus |
 | --- | --- |
-| [mcp-charts](https://github.com/bonnard-data/mcp-charts) | TypeScript MCP chart widget kit for agent-rendered charts, KPI tiles, typed views, and dashboards inside MCP Apps hosts. |
-| [mcp-superset](https://github.com/bintocher/mcp-superset) | Apache Superset MCP server for dashboard, chart, dataset, SQL Lab, report, annotation, and access-control automation. |
-| [Lightdash](https://github.com/lightdash/lightdash) | Open-source agentic BI platform with skills, CLI preview/validation, MCP, governed dashboards, data apps, reports, and slide decks. |
-| [AI-in-One Dashboard](https://github.com/microsoft/AI-in-One-Dashboard) | Microsoft Power BI template for Copilot and Agent adoption, usage, billing, and value dashboards from preprocessed enterprise exports. |
-| [pptx-viewer](https://github.com/ChristopherVR/pptx-viewer) | TypeScript PPTX parser, editor, renderer, converter, and CLI/MCP package for browser, Node, and AI-agent workflows. |
-| [OfficeIMO](https://github.com/EvotecIT/OfficeIMO) | COM-free .NET Office/document library for reading, creating, editing, converting, and exporting Word, Excel, PowerPoint, PDF, Markdown, and more. |
-| [office_oxide](https://github.com/yfedoseev/office_oxide) | Multi-language Office document engine with CLI/MCP bindings for fast DOCX/XLSX/PPTX and legacy Office extraction to text, Markdown, and IR. |
-| [Office Coding Agent](https://github.com/sbroenne/office-coding-agent) | Research Office add-in that routes GitHub Copilot CLI, skills, plugins, MCP servers, and host tools into Excel, PowerPoint, Word, and Outlook. |
+| [MCP Diagram Server](https://github.com/angrysky56/mcp-diagram-server) | Persistent Mermaid diagram/mind-map MCP server with a saved diagram library, auto-saving, and multi-format rendering. |
+| [Blueprint MCP](https://github.com/ArcadeAI/blueprint-mcp) | Arcade MCP tool that extracts codebase, SaaS, or system context and uses Nano Banana Pro to generate architecture diagrams. |
+| [PowerPoint Automation MCP](https://github.com/buckylee2019/powerpoint-automation-mcp) | Python-pptx MCP server for AI assistants to create, modify, and manage PowerPoint decks programmatically. |
+| [Diagram Bridge MCP](https://github.com/tohachan/diagram-bridge-mcp) | Kroki-backed prompt/tool MCP bridge for rendering Mermaid, PlantUML, Graphviz, D2, and related diagram formats. |
+| [README Generator Skill](https://github.com/geekjourneyx/readme-generator) | Agent skill for project README artifacts with 16:9 infographic sections, SEO metadata, and Playwright rendering. |
+| [DiagrammerGPT](https://github.com/aszala/DiagrammerGPT) | COLM 2024 research implementation for open-domain text-to-diagram generation through LLM planning. |
+| [Whimsical MCP Server](https://github.com/BrockReece/whimsical-mcp-server) | Whimsical API MCP server for generating collaborative boards and diagrams from Mermaid or agent context. |
+| [Noodles](https://github.com/unslop-xyz/noodles) | Local codebase-understanding app that creates interactive diagrams of how unfamiliar or AI-generated code works. |
+| [LLM Wiki](https://github.com/nashsu/llm_wiki) | Cross-platform desktop app that turns documents and sources into an organized, interlinked local wiki. |
 
 
 ## ✨ 추천 사용법
@@ -109,6 +110,7 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
 | [notex](https://github.com/smallnest/notex) [![Star](https://img.shields.io/github/stars/smallnest/notex?style=flat&logo=github&label=Star)](https://github.com/smallnest/notex/stargazers) | PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 | 브리핑/보고서 / 마인드맵/지식 지도 / Q&A/학습 자료 | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 렌더링/내보내기 / 스토리지/인덱스 |
+| [LLM Wiki](https://github.com/nashsu/llm_wiki) [![Star](https://img.shields.io/github/stars/nashsu/llm_wiki?style=flat&logo=github&label=Star)](https://github.com/nashsu/llm_wiki/stargazers) | PDF/documents / Web/search / Knowledge base | Open-source app/framework | Long report / Mind map/knowledge map / Web/interactive page | Browser/account / Local runtime / Model API / Document parsing/OCR / Storage/index / Rendering/export |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) [![Star](https://img.shields.io/github/stars/lfnovo/open-notebook?style=flat&logo=github&label=Star)](https://github.com/lfnovo/open-notebook/stargazers) | PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 | 브리핑/보고서 / 마인드맵/지식 지도 / Q&A/학습 자료 | 로컬 런타임 / 모델 API / 문서 파싱/OCR / 스토리지/인덱스 |
 | [SurfSense](https://github.com/MODSetter/SurfSense) [![Star](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat&logo=github&label=Star)](https://github.com/MODSetter/SurfSense/stargazers) | PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 | 브리핑/보고서 / 마인드맵/지식 지도 / Q&A/학습 자료 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 스토리지/인덱스 |
 | [DecipherIt](https://github.com/mtwn105/decipher-research-agent) [![Star](https://img.shields.io/github/stars/mtwn105/decipher-research-agent?style=flat&logo=github&label=Star)](https://github.com/mtwn105/decipher-research-agent/stargazers) | PDF/documents / Web/search / Knowledge base / Any/multi-source | Open-source app/framework | Briefing/report / Mind map/knowledge map / Q&A/study material / Video/audio | Browser/account / Local runtime / Model API / Document parsing/OCR / External search/data / Storage/index / Rendering/export |
@@ -162,6 +164,8 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [AI Mind Map](https://github.com/shdra06/ai-mind-map) [![Star](https://img.shields.io/github/stars/shdra06/ai-mind-map?style=flat&logo=github&label=Star)](https://github.com/shdra06/ai-mind-map/stargazers) | 코드베이스 / 지식 베이스 | MCP server / 오픈소스 앱/프레임워크 | 코드 맵/Repo Wiki / 마인드맵/지식 지도 / 웹/인터랙티브 페이지 | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 코드 분석 / 스토리지/인덱스 / 렌더링/내보내기 |
 | [Architecture Discovery MCP](https://github.com/rdtan/architecture-discovery-mcp) [![Star](https://img.shields.io/github/stars/rdtan/architecture-discovery-mcp?style=flat&logo=github&label=Star)](https://github.com/rdtan/architecture-discovery-mcp/stargazers) | 코드베이스 | MCP Server | 코드 맵/Repo Wiki / 아키텍처/흐름도 / PPT/발표자료 / 표/타임라인 | MCP 클라이언트 / 로컬 런타임 / 코드 분석 / 렌더링/내보내기 / 템플릿/자산 |
  | [Architecture Review Agent Sample](https://github.com/Azure-Samples/agent-architecture-review-sample) [![Star](https://img.shields.io/github/stars/Azure-Samples/agent-architecture-review-sample?style=flat&logo=github&label=Star)](https://github.com/Azure-Samples/agent-architecture-review-sample/stargazers) | Code/technical text / PDF/documents / Text/ideas | Open-source app/framework / Bot/assistant | Code map/repo wiki / Architecture/flow diagram / Briefing/report / Evidence table | Local runtime / Model API / MCP client / Rendering/export / External search/data |
+| [Blueprint MCP](https://github.com/ArcadeAI/blueprint-mcp) [![Star](https://img.shields.io/github/stars/ArcadeAI/blueprint-mcp?style=flat&logo=github&label=Star)](https://github.com/ArcadeAI/blueprint-mcp/stargazers) | Codebase / Knowledge base / Multi-source | MCP server / API/SDK/library | Code map/repo wiki / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Agent host / Model API / External data / Code analysis / Rendering/export |
+| [Noodles](https://github.com/unslop-xyz/noodles) [![Star](https://img.shields.io/github/stars/unslop-xyz/noodles?style=flat&logo=github&label=Star)](https://github.com/unslop-xyz/noodles/stargazers) | Codebase | Open-source app/framework | Code map/repo wiki / Architecture/flow diagram / Web/interactive page | Local runtime / Code analysis / Rendering/export |
 
 ### 데이터, 표 및 비즈니스 지표
 
@@ -237,6 +241,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 설명 | Agent Skill | 웹/인터랙티브 페이지 / PPT/프레젠테이션 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
 | [Journalism agent skills](https://github.com/jamditis/claude-skills-journalism) [![Star](https://img.shields.io/github/stars/jamditis/claude-skills-journalism?style=flat&logo=github&label=Star)](https://github.com/jamditis/claude-skills-journalism/stargazers) | News/intelligence / Web/search / PDF/documents / Data/tables / Text/ideas | Skill collection | Long report / Briefing/report / PPT/deck / Web/interactive page / Chart/dashboard / Infographic/visual report / Architecture/flow diagram | Agent host / Local runtime / Document parsing/OCR / External search/data / Rendering/export / Templates/assets |
 | [Infographic Agent](https://github.com/ryanbaumann/infographic-agent) [![Star](https://img.shields.io/github/stars/ryanbaumann/infographic-agent?style=flat&logo=github&label=Star)](https://github.com/ryanbaumann/infographic-agent/stargazers) | PDF/문서 / 웹/검색 / 데이터/표 / 텍스트/아이디어 | 오픈소스 앱/프레임워크 / Agent Skill | 인포그래픽/비주얼 리포트 / Graphical abstract/infographic / SVG/PNG/PDF | 브라우저/계정 / 로컬 런타임 / Model API / 문서 파싱/OCR / 렌더링/내보내기 / 스토리지/인덱스 |
+| [README Generator Skill](https://github.com/geekjourneyx/readme-generator) [![Star](https://img.shields.io/github/stars/geekjourneyx/readme-generator?style=flat&logo=github&label=Star)](https://github.com/geekjourneyx/readme-generator/stargazers) | Codebase / Text/ideas | Agent skill | Infographic/visual report / Long report / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Infographics Skill](https://github.com/amigoscode/infographics-skill) [![Star](https://img.shields.io/github/stars/amigoscode/infographics-skill?style=flat&logo=github&label=Star)](https://github.com/amigoscode/infographics-skill/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | Agent Skill | 인포그래픽/시각 보고서 / 그래픽 초록/인포그래픽 / SVG/PNG/PDF | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [print-onepager-skill](https://github.com/JavierDiaz90/print-onepager-skill) [![Star](https://img.shields.io/github/stars/JavierDiaz90/print-onepager-skill?style=flat&logo=github&label=Star)](https://github.com/JavierDiaz90/print-onepager-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / 데이터/표 | Agent skill | 인포그래픽/비주얼 리포트 / 브리핑/리포트 / SVG/PNG/PDF | 에이전트 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [visual-note-card-skills](https://github.com/beilunyang/visual-note-card-skills) [![Star](https://img.shields.io/github/stars/beilunyang/visual-note-card-skills?style=flat&logo=github&label=Star)](https://github.com/beilunyang/visual-note-card-skills/stargazers) | 텍스트/아이디어 / 웹/검색 / PDF/문서 | Agent skill | 인포그래픽/비주얼 리포트 / 그래픽 초록/인포그래픽 / 웹/인터랙티브 페이지 | 에이전트 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
@@ -449,6 +454,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Slide Builder](https://github.com/heisenberg-alt/gh-copilot-slides) [![Star](https://img.shields.io/github/stars/heisenberg-alt/gh-copilot-slides?style=flat&logo=github&label=Star)](https://github.com/heisenberg-alt/gh-copilot-slides/stargazers) | Web/search / PDF/documents / Office docs / Text/ideas | Open-source app/framework / MCP server / Bot/assistant | PPT/deck / Web/interactive page / SVG/PNG/PDF | MCP client / Local runtime / Model API / External search/data / Document parsing/OCR / Rendering/export / Templates/assets |
 | [pptx-viewer](https://github.com/ChristopherVR/pptx-viewer) [![Star](https://img.shields.io/github/stars/ChristopherVR/pptx-viewer?style=flat&logo=github&label=Star)](https://github.com/ChristopherVR/pptx-viewer/stargazers) | Office docs / Text/ideas | API/SDK/library / MCP server | PPT/deck / Structured data/Markdown / SVG/PNG/PDF / Video/audio | MCP client / Local runtime / Rendering/export / System tools |
 | [Office Coding Agent](https://github.com/sbroenne/office-coding-agent) [![Star](https://img.shields.io/github/stars/sbroenne/office-coding-agent?style=flat&logo=github&label=Star)](https://github.com/sbroenne/office-coding-agent/stargazers) | Office docs / Text/ideas / Data/tables | Open-source app/framework / Bot/assistant | PPT/deck / Chart/dashboard / Long report | Browser/account / Agent host / MCP client / Local runtime / Model API / Rendering/export / System tools |
+| [PowerPoint Automation MCP](https://github.com/buckylee2019/powerpoint-automation-mcp) [![Star](https://img.shields.io/github/stars/buckylee2019/powerpoint-automation-mcp?style=flat&logo=github&label=Star)](https://github.com/buckylee2019/powerpoint-automation-mcp/stargazers) | Text/ideas / Office docs | MCP server | PPT/deck / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 
 ## 보조, 전처리 및 후처리 도구
 
@@ -552,6 +558,10 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [Cloud Diagram MCP App](https://github.com/tubone24/preview-cloud-diagram-mcp-apps) [![Star](https://img.shields.io/github/stars/tubone24/preview-cloud-diagram-mcp-apps?style=flat&logo=github&label=Star)](https://github.com/tubone24/preview-cloud-diagram-mcp-apps/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [Archy](https://github.com/phxdev1/archy-mcp) [![Star](https://img.shields.io/github/stars/phxdev1/archy-mcp?style=flat&logo=github&label=Star)](https://github.com/phxdev1/archy-mcp/stargazers) | Text/ideas / Codebase / Code/technical text | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Local runtime / Model API / Code analysis / Rendering/export |
 | [Visual Documentation Plugin](https://github.com/mhattingpete/claude-skills-marketplace/blob/main/visual-documentation-plugin/README.md?plain=1) [![Star](https://img.shields.io/github/stars/mhattingpete/claude-skills-marketplace?style=flat&logo=github&label=Star)](https://github.com/mhattingpete/claude-skills-marketplace/stargazers) | 텍스트/아이디어 / 코드베이스 / 코드/기술 설명 / 데이터/표 | Skill 컬렉션 / Agent Skill | 아키텍처/흐름도 / 차트/대시보드 / 표/타임라인 / 웹/인터랙티브 페이지 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
+| [MCP Diagram Server](https://github.com/angrysky56/mcp-diagram-server) [![Star](https://img.shields.io/github/stars/angrysky56/mcp-diagram-server?style=flat&logo=github&label=Star)](https://github.com/angrysky56/mcp-diagram-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Diagram/Mermaid / Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Storage/index / Rendering/export |
+| [Diagram Bridge MCP](https://github.com/tohachan/diagram-bridge-mcp) [![Star](https://img.shields.io/github/stars/tohachan/diagram-bridge-mcp?style=flat&logo=github&label=Star)](https://github.com/tohachan/diagram-bridge-mcp/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Diagram/Mermaid / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export |
+| [DiagrammerGPT](https://github.com/aszala/DiagrammerGPT) [![Star](https://img.shields.io/github/stars/aszala/DiagrammerGPT?style=flat&logo=github&label=Star)](https://github.com/aszala/DiagrammerGPT/stargazers) | Text/ideas / Code/technical text | Research prototype | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Model API / GPU / Rendering/export |
+| [Whimsical MCP Server](https://github.com/BrockReece/whimsical-mcp-server) [![Star](https://img.shields.io/github/stars/BrockReece/whimsical-mcp-server?style=flat&logo=github&label=Star)](https://github.com/BrockReece/whimsical-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Whiteboard/mind map / Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export |
 
 ## 도구 선택 방법
 

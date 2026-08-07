@@ -1,6 +1,6 @@
 # Search Log
 
-Last researched: 2026-08-07.
+Last researched: 2026-08-08.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
@@ -82,6 +82,7 @@ Update on 2026-08-06: refreshed Metabase/BigQuery reporting automation, HoloViz 
 
 Update on 2026-08-07: refreshed MCP chart/dashboard embedding, Superset dashboard automation, agentic BI, Power BI AI-adoption dashboards, PPTX rendering/editing, Office document engines, and Copilot-in-Office add-in surfaces from official GitHub repositories, README evidence, product/docs pages, package metadata, and GitHub metadata. This pass added mcp-charts, mcp-superset, Lightdash, AI-in-One Dashboard, pptx-viewer, OfficeIMO, office_oxide, and Office Coding Agent. The targeted scraper ran only against these eight new records; generic PyPI packaging docs/tutorials from the mcp-superset package page plus non-artifact social-card images were scrubbed before merging, while all GitHub README and official docs/homepage sources fetched successfully.
 
+Update on 2026-08-08: refreshed codebase-diagram, Mermaid/Kroki diagram rendering, PowerPoint MCP automation, README infographic, research text-to-diagram, Whimsical whiteboard, and local document-wiki surfaces from official GitHub repositories, README evidence, live web/GitHub searches, and GitHub metadata. This pass added MCP Diagram Server, Blueprint MCP, PowerPoint Automation MCP, Diagram Bridge MCP, README Generator Skill, DiagrammerGPT, Whimsical MCP Server, Noodles, and LLM Wiki. The targeted scraper ran only against these nine new records; all nine official GitHub README sources fetched successfully, and no presigned URLs, placeholder links, or non-project evidence were merged.
 
 ## Search Surfaces
 
