@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-08-06T23:05:38+00:00",
-  "lastResearched": "2026-08-07",
+  "generatedAt": "2026-08-07T23:05:07+00:00",
+  "lastResearched": "2026-08-08",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 455,
-    "openSource": 125,
+    "total": 464,
+    "openSource": 127,
     "saas": 54,
-    "modelApi": 166,
-    "examples": 1122,
-    "effectAssets": 1375,
-    "docs": 1298
+    "modelApi": 169,
+    "examples": 1123,
+    "effectAssets": 1405,
+    "docs": 1307
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 52,
-      "PDF/文档": 149,
-      "文本/想法": 282,
+      "PDF/文档": 150,
+      "文本/想法": 288,
       "数据/表格": 172,
-      "代码/技术描述": 84,
-      "网页/搜索结果": 128,
-      "代码库": 46,
-      "DSL/代码": 89,
+      "代码/技术描述": 88,
+      "网页/搜索结果": 129,
+      "代码库": 49,
+      "DSL/代码": 92,
       "新闻/资讯": 18,
-      "知识库/个人资料": 33,
-      "任意/多源": 60,
-      "Office 文档": 67,
+      "知识库/个人资料": 35,
+      "任意/多源": 61,
+      "Office 文档": 68,
       "引用网络": 4,
       "数据库": 40,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 125,
-      "Agent Skill": 144,
+      "开源应用/框架": 127,
+      "Agent Skill": 145,
       "Skill 集合": 38,
       "数据集/评测": 2,
       "Bot/助手": 14,
       "产品/SaaS": 54,
-      "MCP Server": 139,
-      "研究原型": 4,
-      "API/SDK/库": 60,
+      "MCP Server": 144,
+      "研究原型": 5,
+      "API/SDK/库": 61,
       "Awesome/索引": 22
     },
     "outputForms": {
       "图形摘要/信息图": 32,
-      "PPT/演示文稿": 196,
-      "网页/交互页面": 140,
+      "PPT/演示文稿": 197,
+      "网页/交互页面": 144,
       "问答/学习材料": 15,
-      "报告/长文档": 59,
+      "报告/长文档": 61,
       "证据表": 25,
-      "信息图/视觉报告": 59,
+      "信息图/视觉报告": 60,
       "图表/仪表盘": 127,
-      "架构图/流程图": 100,
-      "SVG/PNG/PDF": 160,
+      "架构图/流程图": 106,
+      "SVG/PNG/PDF": 165,
       "报告/简报": 52,
-      "白板/思维导图": 30,
-      "图表/Mermaid": 51,
+      "白板/思维导图": 32,
+      "图表/Mermaid": 54,
       "视频/音频": 35,
       "表格/时间线": 13,
       "引用答案": 5,
-      "思维导图/知识地图": 29,
+      "思维导图/知识地图": 30,
       "结构化数据/Markdown": 51,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 26,
+      "代码地图/Repo Wiki": 28,
       "图表/渲染输出": 13,
       "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 357,
-      "模型 API": 166,
-      "文档解析/OCR": 71,
-      "渲染/导出": 371,
-      "GPU/加速器": 11,
-      "模板/素材": 208,
-      "Agent 宿主": 189,
+      "本地语言环境": 365,
+      "模型 API": 169,
+      "文档解析/OCR": 72,
+      "渲染/导出": 380,
+      "GPU/加速器": 12,
+      "模板/素材": 210,
+      "Agent 宿主": 191,
       "系统工具": 81,
-      "浏览器/账号": 123,
-      "存储/索引": 58,
-      "外部检索/数据源": 97,
-      "MCP Client": 144,
-      "代码分析工具": 30
+      "浏览器/账号": 125,
+      "存储/索引": 60,
+      "外部检索/数据源": 98,
+      "MCP Client": 149,
+      "代码分析工具": 32
     },
     "categories": {
       "paper-visualization": 15,
-      "doc-to-knowledge": 44,
+      "doc-to-knowledge": 45,
       "research-report": 24,
-      "infographic-report": 35,
+      "infographic-report": 36,
       "data-dashboard": 64,
-      "diagram-generation": 62,
+      "diagram-generation": 66,
       "literature-map": 4,
-      "presentation-tools": 129,
-      "codebase-map": 24,
+      "presentation-tools": 130,
+      "codebase-map": 26,
       "rendering-primitive": 8,
       "video-generation": 11,
       "commercial-site": 10,
@@ -97,15 +97,15 @@
     },
     "groups": {
       "paper": 27,
-      "text_visual": 47,
+      "text_visual": 48,
       "web_news": 9,
       "support_mindmap": 14,
-      "docs": 25,
+      "docs": 26,
       "support_doc_parse": 13,
-      "presentation": 141,
-      "code": 25,
+      "presentation": 142,
+      "code": 27,
       "support_render": 47,
-      "diagrams": 11,
+      "diagrams": 15,
       "video": 11,
       "data": 59,
       "indexes": 24,
@@ -39752,6 +39752,629 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "MCP Diagram Server",
+      "url": "https://github.com/angrysky56/mcp-diagram-server",
+      "primaryUrl": "https://github.com/angrysky56/mcp-diagram-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-01-22",
+      "note": "Enterprise-oriented MCP server for creating, storing, retrieving, and exporting Mermaid diagrams and mind maps with a persistent diagram library, automatic saving, and multi-format rendering support.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "alt text",
+          "url": "https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/image-1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "alt text",
+          "url": "https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/image-2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "alt text",
+          "url": "https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/image-3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/angrysky56/mcp-diagram-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Blueprint MCP",
+      "url": "https://github.com/ArcadeAI/blueprint-mcp",
+      "primaryUrl": "https://github.com/ArcadeAI/blueprint-mcp",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "模型 API",
+        "外部检索/数据源",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 718,
+      "license": "unknown",
+      "updated": "2026-08-07",
+      "note": "Arcade MCP tool that combines Nano Banana Pro image generation with Arcade connectors so agents can extract codebase, SaaS, or system context and visualize it as architecture diagrams.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Blueprint MCP",
+          "url": "https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/images/blueprint-mcp.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Enterprise Banking Architecture",
+          "url": "https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/images/arcade_enterprise_banking.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "LangGraph Architecture",
+          "url": "https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/images/langgraph_architecture_learning_card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ArcadeAI/blueprint-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "PowerPoint Automation MCP",
+      "url": "https://github.com/buckylee2019/powerpoint-automation-mcp",
+      "primaryUrl": "https://github.com/buckylee2019/powerpoint-automation-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 17,
+      "license": "unknown",
+      "updated": "2026-04-03",
+      "note": "Python-pptx MCP server that lets AI assistants create, modify, and manage PowerPoint presentations programmatically, with demo media and presentation-generation tools exposed through MCP.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Diagram Bridge MCP",
+      "url": "https://github.com/tohachan/diagram-bridge-mcp",
+      "primaryUrl": "https://github.com/tohachan/diagram-bridge-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 14,
+      "license": "MIT",
+      "updated": "2026-05-05",
+      "note": "Prompt-and-tool MCP bridge that helps LLMs generate and render Mermaid, PlantUML, Graphviz, D2, and other diagram formats through Kroki-backed conversion.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Configuration Guide",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/configuration.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quick Start: Port Configuration",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/quick-start-ports.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Installation Guide",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/installation.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docker Deployment",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/docker-deployment.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/api-reference.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Development Guide",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/development.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Performance & Security",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/performance.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Examples Gallery",
+          "url": "https://github.com/tohachan/diagram-bridge-mcp/blob/HEAD/docs/examples.md",
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/docs/diagram-briedge-mcp.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tohachan/diagram-bridge-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "README Generator Skill",
+      "url": "https://github.com/geekjourneyx/readme-generator",
+      "primaryUrl": "https://github.com/geekjourneyx/readme-generator",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 40,
+      "license": "MIT",
+      "updated": "2026-08-02",
+      "note": "Agent skill for producing polished project README artifacts with 16:9 infographic sections, SEO metadata, structured author blocks, Playwright rendering, and visual quality checks.",
+      "sourceTypes": [
+        "代码库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "报告/长文档",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "GitHub README Generator — portfolio-grade README design for open source projects",
+          "url": "https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/assets/banner.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Three outcomes: story, visual identity, and clean delivery",
+          "url": "https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/assets/features.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/geekjourneyx/readme-generator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "DiagrammerGPT",
+      "url": "https://github.com/aszala/DiagrammerGPT",
+      "primaryUrl": "https://github.com/aszala/DiagrammerGPT",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "research",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "GPU/加速器",
+        "渲染/导出"
+      ],
+      "stars": 159,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "Official COLM 2024 research implementation for open-domain text-to-diagram generation with LLM planning and layout-guided rendering across diagram domains.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "研究原型"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Teaser",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/teaser.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram1 Plan",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram1_plan.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram1",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram2 Plan",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram2_plan.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram2",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram3 Plan",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram3_plan.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram3",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/diagram3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Ppt Diagram 1",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/ppt_diagram_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Inkscape Diagram 1",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/inkscape_diagram_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Ppt Diagram 2",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/ppt_diagram_2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Inkscape Diagram 2",
+          "url": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/assets/inkscape_diagram_2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aszala/DiagrammerGPT/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 11
+    },
+    {
+      "name": "Whimsical MCP Server",
+      "url": "https://github.com/BrockReece/whimsical-mcp-server",
+      "primaryUrl": "https://github.com/BrockReece/whimsical-mcp-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 46,
+      "license": "unknown",
+      "updated": "2026-07-11",
+      "note": "Third-party Whimsical MCP server that lets LLMs create collaborative Whimsical boards and diagrams from Mermaid markup or agent context through the Whimsical API.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "白板/思维导图",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "MCP Architecture",
+          "url": "https://raw.githubusercontent.com/BrockReece/whimsical-mcp-server/HEAD/docs/mcp_demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BrockReece/whimsical-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Noodles",
+      "url": "https://github.com/unslop-xyz/noodles",
+      "primaryUrl": "https://github.com/unslop-xyz/noodles",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 1336,
+      "license": "MIT",
+      "updated": "2026-08-01",
+      "note": "Local codebase-understanding tool that creates interactive diagrams showing how AI-generated or unfamiliar code works, so teams can inspect structure without reading every line.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "noodles demo",
+          "url": "https://raw.githubusercontent.com/unslop-xyz/noodles/HEAD/assets/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/unslop-xyz/noodles/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "LLM Wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "primaryUrl": "https://github.com/nashsu/llm_wiki",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 16030,
+      "license": "unknown",
+      "updated": "2026-08-07",
+      "note": "Cross-platform desktop app that incrementally turns documents and sources into an organized, interlinked local wiki instead of answering from scratch on every query.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "思维导图/知识地图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Overview",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/overview.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "LLM Wiki Architecture",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/llm_wiki_arch.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Obsidian Compatibility",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/5-obsidian_compatibility.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Knowledge Graph",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/3-knowledge_graph.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Louvain Community Detection",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/kg_community.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Graph Insights",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/kg_insights.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Deep Research",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/1-deepresearch.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chrome Extension Web Clipper",
+          "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/assets/4-chrome_extension_webclipper.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
     }
   ]
 }
