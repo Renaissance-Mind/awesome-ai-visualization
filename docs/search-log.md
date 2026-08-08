@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-08.
+Last researched: 2026-08-09.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-09: refreshed AI slide-skill, data-visualization skill, analytics-dashboard MCP, SQL visualization, marketing infographic concept, PowerPoint parsing, and macOS Office automation surfaces from official GitHub repositories, README evidence, product/gallery pages, and GitHub metadata. This pass added make-slide, next-slide, karthik-data-visualization-skill, Countly MCP Server, MCP-SQL-Visualization, static-ad-concept-generator, PowerPoint Analyzer MCP Server, and macOS Office365 MCP Server. The targeted scraper ran only against these new records and found nine fetched official sources with no failed fetches.
 
 Update on 2026-06-14: the scope was broadened from presentation/codebase examples to the larger category of "complex content to human-readable visual, explanatory, and report artifacts." PPT is now treated as one output surface, not the whole domain.
 

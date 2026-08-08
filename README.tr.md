@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-464_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--08-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-472_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--09-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -15,20 +15,18 @@ Katalog **bilgi kaynağı**, **araç türü**, **çıktı biçimi** ve **bağım
 
 Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve kaynak izlenebilirliği için İngilizce bırakılmıştır.
 
-## Latest Refresh (2026-08-08)
+## Latest Refresh (2026-08-09)
 
 | Project | Catalog focus |
 | --- | --- |
-| [MCP Diagram Server](https://github.com/angrysky56/mcp-diagram-server) | Persistent Mermaid diagram/mind-map MCP server with a saved diagram library, auto-saving, and multi-format rendering. |
-| [Blueprint MCP](https://github.com/ArcadeAI/blueprint-mcp) | Arcade MCP tool that extracts codebase, SaaS, or system context and uses Nano Banana Pro to generate architecture diagrams. |
-| [PowerPoint Automation MCP](https://github.com/buckylee2019/powerpoint-automation-mcp) | Python-pptx MCP server for AI assistants to create, modify, and manage PowerPoint decks programmatically. |
-| [Diagram Bridge MCP](https://github.com/tohachan/diagram-bridge-mcp) | Kroki-backed prompt/tool MCP bridge for rendering Mermaid, PlantUML, Graphviz, D2, and related diagram formats. |
-| [README Generator Skill](https://github.com/geekjourneyx/readme-generator) | Agent skill for project README artifacts with 16:9 infographic sections, SEO metadata, and Playwright rendering. |
-| [DiagrammerGPT](https://github.com/aszala/DiagrammerGPT) | COLM 2024 research implementation for open-domain text-to-diagram generation through LLM planning. |
-| [Whimsical MCP Server](https://github.com/BrockReece/whimsical-mcp-server) | Whimsical API MCP server for generating collaborative boards and diagrams from Mermaid or agent context. |
-| [Noodles](https://github.com/unslop-xyz/noodles) | Local codebase-understanding app that creates interactive diagrams of how unfamiliar or AI-generated code works. |
-| [LLM Wiki](https://github.com/nashsu/llm_wiki) | Cross-platform desktop app that turns documents and sources into an organized, interlinked local wiki. |
-
+| [make-slide](https://github.com/Kuneosu/make-slide) | Universal AI skill for standalone HTML slide decks with bundled themes and preview examples. |
+| [next-slide](https://github.com/codesstar/next-slide) | Bilingual Claude Code/OpenClaw skill for zero-dependency HTML presentations with 26+ styles. |
+| [karthik-data-visualization-skill](https://github.com/skthewimp/karthik-data-visualization-skill) | Codex and Claude data-visualization skill suite for chart choice, style, critique, annotations, and visual-story orchestration. |
+| [Countly MCP Server](https://github.com/Countly/countly-mcp-server) | Digital-analytics MCP for dashboards, cohorts, funnels, feedback, reports, and dashboard email-report previews. |
+| [MCP-SQL-Visualization](https://github.com/sathwikabbaraju/MCP-SQL-Visualization) | Natural-language SQL MCP workflow for database dashboards, reports, and HTML/PDF export. |
+| [static-ad-concept-generator](https://github.com/Creatify-AI/static-ad-concept-generator) | Claude skill for template-backed static ad concepts with headlines, CTAs, audiences, and visual directions. |
+| [PowerPoint Analyzer MCP Server](https://github.com/shiosalt/powerpoint-analyzer-mcp) | MCP support server for extracting structured content and text formatting from existing PowerPoint decks. |
+| [macOS Office365 MCP Server](https://github.com/vAirpower/macos-office365-mcp-server) | macOS MCP server for automating PowerPoint and Word through agent workflows. |
 
 ## ✨ Önerilen kullanım
 
@@ -230,6 +228,10 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Lightdash](https://github.com/lightdash/lightdash) [![Star](https://img.shields.io/github/stars/lightdash/lightdash?style=flat&logo=github&label=Star)](https://github.com/lightdash/lightdash/stargazers) | Database / Data/tables / Knowledge base | Open-source app/framework / Product/SaaS / MCP server / Agent skill | Chart/dashboard / Briefing/report / Web/interactive page / PPT/deck | Browser/account / Agent host / MCP client / Local runtime / Model API / External search/data / Storage/index / Rendering/export |
 | [AI-in-One Dashboard](https://github.com/microsoft/AI-in-One-Dashboard) [![Star](https://img.shields.io/github/stars/microsoft/AI-in-One-Dashboard?style=flat&logo=github&label=Star)](https://github.com/microsoft/AI-in-One-Dashboard/stargazers) | Data/tables / Office docs / Database | Open-source app/framework / API/SDK/library | Chart/dashboard / Briefing/report / Table/timeline | Browser/account / System tools / External search/data / Document parsing/OCR / Rendering/export / Templates/assets |
 | [delafuente-skills](https://github.com/menpente/delafuente-skills) [![Star](https://img.shields.io/github/stars/menpente/delafuente-skills?style=flat&logo=github&label=Star)](https://github.com/menpente/delafuente-skills/stargazers) | Data/tables / Text/ideas / Web/search | Skill collection | Chart/dashboard / PPT/deck / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [karthik-data-visualization-skill](https://github.com/skthewimp/karthik-data-visualization-skill) [![Star](https://img.shields.io/github/stars/skthewimp/karthik-data-visualization-skill?style=flat&logo=github&label=Star)](https://github.com/skthewimp/karthik-data-visualization-skill/stargazers) | Data/tables / Text/ideas / Code/technical text | Skill collection | Chart/dashboard / Infographic/visual report / Briefing/report / Rendered chart | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Countly MCP Server](https://github.com/Countly/countly-mcp-server) [![Star](https://img.shields.io/github/stars/Countly/countly-mcp-server?style=flat&logo=github&label=Star)](https://github.com/Countly/countly-mcp-server/stargazers) | Data/tables / Database / Web/search | MCP server / API/SDK/library | Chart/dashboard / Briefing/report / Evidence table | MCP client / Browser/account / Local runtime / External search/data / Rendering/export |
+| [MCP-SQL-Visualization](https://github.com/sathwikabbaraju/MCP-SQL-Visualization) [![Star](https://img.shields.io/github/stars/sathwikabbaraju/MCP-SQL-Visualization?style=flat&logo=github&label=Star)](https://github.com/sathwikabbaraju/MCP-SQL-Visualization/stargazers) | Database / Data/tables / Text/ideas | MCP server | Chart/dashboard / Briefing/report / SVG/PNG/PDF | MCP client / Local runtime / Model API / External search/data / Rendering/export |
+
 
 ### Genel metin, fikirler ve beyaz tahta görselleri
 
@@ -290,6 +292,8 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
  | [statement-to-tikz](https://github.com/will702/statement-to-tikz) [![Star](https://img.shields.io/github/stars/will702/statement-to-tikz?style=flat&logo=github&label=Star)](https://github.com/will702/statement-to-tikz/stargazers) | Text/ideas / DSL/code | Open-source app/framework / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF / Structured data/Markdown | Local runtime / Model API / Rendering/export / System tools |
  | [GenAI Drawio Creator](https://github.com/tuoxie2046/GenAI-DrawIO-Creator) [![Star](https://img.shields.io/github/stars/tuoxie2046/GenAI-DrawIO-Creator?style=flat&logo=github&label=Star)](https://github.com/tuoxie2046/GenAI-DrawIO-Creator/stargazers) | Text/ideas / PDF/documents / Codebase / Code/technical text | Open-source app/framework / MCP server | Architecture/flow diagram / SVG/PNG/PDF / Web/interactive page | Browser/account / Model API / MCP client / Local runtime / Rendering/export / Templates/assets |
  | [FlowDoc](https://github.com/htlin222/flowdoc) [![Star](https://img.shields.io/github/stars/htlin222/flowdoc?style=flat&logo=github&label=Star)](https://github.com/htlin222/flowdoc/stargazers) | Data/tables / DSL/code / Papers/research | API/SDK/library | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Rendering/export |
+| [static-ad-concept-generator](https://github.com/Creatify-AI/static-ad-concept-generator) [![Star](https://img.shields.io/github/stars/Creatify-AI/static-ad-concept-generator?style=flat&logo=github&label=Star)](https://github.com/Creatify-AI/static-ad-concept-generator/stargazers) | Text/ideas / Web/search / Any/multi-source | Agent skill | Infographic/visual report / Structured data/Markdown | Agent host / Local runtime / Templates/assets |
+
 
 ### Programatik video ve hareketli anlatımlar
 
@@ -455,6 +459,10 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [pptx-viewer](https://github.com/ChristopherVR/pptx-viewer) [![Star](https://img.shields.io/github/stars/ChristopherVR/pptx-viewer?style=flat&logo=github&label=Star)](https://github.com/ChristopherVR/pptx-viewer/stargazers) | Office docs / Text/ideas | API/SDK/library / MCP server | PPT/deck / Structured data/Markdown / SVG/PNG/PDF / Video/audio | MCP client / Local runtime / Rendering/export / System tools |
 | [Office Coding Agent](https://github.com/sbroenne/office-coding-agent) [![Star](https://img.shields.io/github/stars/sbroenne/office-coding-agent?style=flat&logo=github&label=Star)](https://github.com/sbroenne/office-coding-agent/stargazers) | Office docs / Text/ideas / Data/tables | Open-source app/framework / Bot/assistant | PPT/deck / Chart/dashboard / Long report | Browser/account / Agent host / MCP client / Local runtime / Model API / Rendering/export / System tools |
 | [PowerPoint Automation MCP](https://github.com/buckylee2019/powerpoint-automation-mcp) [![Star](https://img.shields.io/github/stars/buckylee2019/powerpoint-automation-mcp?style=flat&logo=github&label=Star)](https://github.com/buckylee2019/powerpoint-automation-mcp/stargazers) | Text/ideas / Office docs | MCP server | PPT/deck / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
+| [make-slide](https://github.com/Kuneosu/make-slide) [![Star](https://img.shields.io/github/stars/Kuneosu/make-slide?style=flat&logo=github&label=Star)](https://github.com/Kuneosu/make-slide/stargazers) | Text/ideas / PDF/documents / Web/search | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [next-slide](https://github.com/codesstar/next-slide) [![Star](https://img.shields.io/github/stars/codesstar/next-slide?style=flat&logo=github&label=Star)](https://github.com/codesstar/next-slide/stargazers) | Text/ideas / PDF/documents / Web/search / DSL/code | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [macOS Office365 MCP Server](https://github.com/vAirpower/macos-office365-mcp-server) [![Star](https://img.shields.io/github/stars/vAirpower/macos-office365-mcp-server?style=flat&logo=github&label=Star)](https://github.com/vAirpower/macos-office365-mcp-server/stargazers) | Office docs / Text/ideas | MCP server | PPT/deck / Long report | MCP client / Local runtime / Rendering/export / System tools |
+
 
 ## Destekleyici, ön/son işleme araçları
 
@@ -478,6 +486,8 @@ PDFleri, makaleleri, Office dosyalarını veya taramaları Markdown, JSON, düze
  | [CloudPedagogy Word-to-Mermaid Renderer](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer) [![Star](https://img.shields.io/github/stars/cloudpedagogy/cloudpedagogy-word-mermaid-renderer?style=flat&logo=github&label=Star)](https://github.com/cloudpedagogy/cloudpedagogy-word-mermaid-renderer/stargazers) | Office docs / Text/ideas / DSL/code | Open-source app/framework | Diagram/Mermaid / Web/interactive page / Structured data/Markdown | Local runtime / Document parsing/OCR / Rendering/export |
 | [OfficeIMO](https://github.com/EvotecIT/OfficeIMO) [![Star](https://img.shields.io/github/stars/EvotecIT/OfficeIMO?style=flat&logo=github&label=Star)](https://github.com/EvotecIT/OfficeIMO/stargazers) | Office docs / PDF/documents | API/SDK/library | Structured data/Markdown / Long report / PPT/deck / SVG/PNG/PDF | Local runtime / Document parsing/OCR / Rendering/export / System tools |
 | [office_oxide](https://github.com/yfedoseev/office_oxide) [![Star](https://img.shields.io/github/stars/yfedoseev/office_oxide?style=flat&logo=github&label=Star)](https://github.com/yfedoseev/office_oxide/stargazers) | Office docs / PDF/documents | API/SDK/library / MCP server | Structured data/Markdown / PPT/deck / Evidence table | MCP client / Local runtime / Document parsing/OCR / Rendering/export / System tools |
+| [PowerPoint Analyzer MCP Server](https://github.com/shiosalt/powerpoint-analyzer-mcp) [![Star](https://img.shields.io/github/stars/shiosalt/powerpoint-analyzer-mcp?style=flat&logo=github&label=Star)](https://github.com/shiosalt/powerpoint-analyzer-mcp/stargazers) | Office docs | MCP server / API/SDK/library | Structured data/Markdown / PPT/deck | MCP client / Local runtime / Document parsing/OCR / Rendering/export |
+
 
 ### Odaklı zihin haritası araçları
 

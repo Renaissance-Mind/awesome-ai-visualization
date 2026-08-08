@@ -1,4 +1,4 @@
-generated_at: '2026-08-07T23:05:07+00:00'
+generated_at: '2026-08-08T23:05:16+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 464
-  fetched_sources_ok: 627
+  entries: 472
+  fetched_sources_ok: 636
   fetched_sources_failed: 36
-  official_examples: 1123
+  official_examples: 1144
   official_effect_assets: 1405
-  official_docs: 1307
+  official_docs: 1323
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -40059,3 +40059,541 @@ entries:
     source: https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/README.md
   source_headings:
   - '11. Markdown Rendering: KaTeX Math & Mermaid Diagrams'
+- name: make-slide
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Kuneosu/make-slide
+  homepage: https://make-slide.vercel.app
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Universal AI skill for coding agents that turns prompts and Markdown-style content into standalone HTML slide
+    decks with bundled themes and preview examples.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: make-slide 🎯
+    bytes: 14659
+  - kind: homepage
+    url: https://make-slide.vercel.app/
+    final_url: https://make-slide.vercel.app/
+    status: 200
+    content_type: text/html
+    title: make-slide Theme Gallery
+    bytes: 33993
+  official_examples:
+  - kind: showcase
+    title: browse the gallery
+    url: https://make-slide.vercel.app
+    source: https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md
+  - kind: template
+    title: browse layouts
+    url: https://make-slide.vercel.app
+    source: https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md
+  - kind: template
+    title: Minimal Dark Dark + Blue accent Minimal Dark Clean dark background with crisp white typography. Minimal decoration,
+      maximum clarity for content-focused presentations. Tech Conferen
+    url: https://make-slide.vercel.app/themes/minimal-dark/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Minimal Light White + Clean Minimal Light Bright white canvas with clean typography. Versatile and professional
+      for any setting, from classrooms to boardrooms. General Seminar Lect
+    url: https://make-slide.vercel.app/themes/minimal-light/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Keynote Apple Cinematic gradient Keynote Apple Cinematic dark gradients inspired by Apple keynote presentations.
+      Bold headlines with elegant transitions and depth. Product Launch D
+    url: https://make-slide.vercel.app/themes/keynote-apple/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: 'Corporate Navy + Gold Corporate Professional navy and gold palette with structured grid layouts. Clean lines and
+      report-style design for formal settings. Business Quarterly Report '
+    url: https://make-slide.vercel.app/themes/corporate/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Gradient Pop Purple to Orange Gradient Pop Vibrant gradient backgrounds with glass-morphism effects. Bold, energetic
+      design that commands attention. Startup Pitch Product Launch Ma
+    url: https://make-slide.vercel.app/themes/gradient-pop/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: $ neon_ > terminal Neon Terminal Terminal-inspired hacker aesthetic with neon green and cyan accents. Monospace
+      everything, scanlines, and glow effects. Developer Talk Hackathon CT
+    url: https://make-slide.vercel.app/themes/neon-terminal/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Paper Serif · Academic Paper Warm off-white background with serif typography. Kraft paper texture feel for an academic,
+      hand-crafted aesthetic. Education Lecture Workshop
+    url: https://make-slide.vercel.app/themes/paper/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Magazine Editorial Magazine Bold asymmetric layouts with strong typography contrast. Editorial magazine spread
+      feel for visually-driven content. Design Creative Portfolio
+    url: https://make-slide.vercel.app/themes/magazine/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: 'Data Focus Charts + Metrics Data Focus Clean white with subtle grid background. CSS-only charts, stat cards, and
+      donut graphs for data-driven presentations. Data Analysis Research '
+    url: https://make-slide.vercel.app/themes/data-focus/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Playful Pastel + Bouncy Playful Rounded corners, pastel colors, and bouncy spring animations. Friendly and approachable
+      for casual settings. Workshop Casual Talk Retrospective
+    url: https://make-slide.vercel.app/themes/playful/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Centered Classic & Balanced Centered Content centered vertically and horizontally. The classic, universal presentation
+      style for talks and pitches. Default General Keynote
+    url: https://make-slide.vercel.app/layouts/centered/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Wide Full-Width Content Wide Full-width left-aligned content. Maximum horizontal space for tables, charts, and
+      technical content. Data Analysis Technical
+    url: https://make-slide.vercel.app/layouts/wide/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Text Visual Two Columns Split Two-column layout with text on one side and visuals on the other. Perfect for comparisons
+      and image+text combos. Comparison Visual
+    url: https://make-slide.vercel.app/layouts/split/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Editorial Magazine Style Editorial Magazine-style asymmetric design with dramatic typography. Bold, creative, and
+      design-focused. Creative Design Portfolio
+    url: https://make-slide.vercel.app/layouts/editorial/reference.html
+    source: https://make-slide.vercel.app/
+  official_links:
+  - kind: showcase
+    title: browse the gallery
+    url: https://make-slide.vercel.app
+    source: https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md
+  - kind: template
+    title: browse layouts
+    url: https://make-slide.vercel.app
+    source: https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md
+  - kind: template
+    title: Minimal Dark Dark + Blue accent Minimal Dark Clean dark background with crisp white typography. Minimal decoration,
+      maximum clarity for content-focused presentations. Tech Conferen
+    url: https://make-slide.vercel.app/themes/minimal-dark/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Minimal Light White + Clean Minimal Light Bright white canvas with clean typography. Versatile and professional
+      for any setting, from classrooms to boardrooms. General Seminar Lect
+    url: https://make-slide.vercel.app/themes/minimal-light/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Keynote Apple Cinematic gradient Keynote Apple Cinematic dark gradients inspired by Apple keynote presentations.
+      Bold headlines with elegant transitions and depth. Product Launch D
+    url: https://make-slide.vercel.app/themes/keynote-apple/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: 'Corporate Navy + Gold Corporate Professional navy and gold palette with structured grid layouts. Clean lines and
+      report-style design for formal settings. Business Quarterly Report '
+    url: https://make-slide.vercel.app/themes/corporate/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Gradient Pop Purple to Orange Gradient Pop Vibrant gradient backgrounds with glass-morphism effects. Bold, energetic
+      design that commands attention. Startup Pitch Product Launch Ma
+    url: https://make-slide.vercel.app/themes/gradient-pop/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: $ neon_ > terminal Neon Terminal Terminal-inspired hacker aesthetic with neon green and cyan accents. Monospace
+      everything, scanlines, and glow effects. Developer Talk Hackathon CT
+    url: https://make-slide.vercel.app/themes/neon-terminal/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Paper Serif · Academic Paper Warm off-white background with serif typography. Kraft paper texture feel for an academic,
+      hand-crafted aesthetic. Education Lecture Workshop
+    url: https://make-slide.vercel.app/themes/paper/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Magazine Editorial Magazine Bold asymmetric layouts with strong typography contrast. Editorial magazine spread
+      feel for visually-driven content. Design Creative Portfolio
+    url: https://make-slide.vercel.app/themes/magazine/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: 'Data Focus Charts + Metrics Data Focus Clean white with subtle grid background. CSS-only charts, stat cards, and
+      donut graphs for data-driven presentations. Data Analysis Research '
+    url: https://make-slide.vercel.app/themes/data-focus/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Playful Pastel + Bouncy Playful Rounded corners, pastel colors, and bouncy spring animations. Friendly and approachable
+      for casual settings. Workshop Casual Talk Retrospective
+    url: https://make-slide.vercel.app/themes/playful/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Centered Classic & Balanced Centered Content centered vertically and horizontally. The classic, universal presentation
+      style for talks and pitches. Default General Keynote
+    url: https://make-slide.vercel.app/layouts/centered/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Wide Full-Width Content Wide Full-width left-aligned content. Maximum horizontal space for tables, charts, and
+      technical content. Data Analysis Technical
+    url: https://make-slide.vercel.app/layouts/wide/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Text Visual Two Columns Split Two-column layout with text on one side and visuals on the other. Perfect for comparisons
+      and image+text combos. Comparison Visual
+    url: https://make-slide.vercel.app/layouts/split/reference.html
+    source: https://make-slide.vercel.app/
+  - kind: template
+    title: Editorial Magazine Style Editorial Magazine-style asymmetric design with dramatic typography. Bold, creative, and
+      design-focused. Creative Design Portfolio
+    url: https://make-slide.vercel.app/layouts/editorial/reference.html
+    source: https://make-slide.vercel.app/
+  source_headings:
+  - make-slide 🎯
+  - What is make-slide?
+  - make-slide 🎯 (한국어)
+  - make-slide란?
+- name: next-slide
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/codesstar/next-slide
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Bilingual AI presentation skill for Claude Code and OpenClaw that creates standalone HTML slides with 26+
+    visual styles, no runtime dependencies, and browser/PDF-friendly output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/codesstar/next-slide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/codesstar/next-slide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Next Slide
+    bytes: 8360
+  official_examples:
+  - kind: showcase
+    title: Style Gallery
+    url: https://next-slide-jet.vercel.app/gallery
+    source: https://raw.githubusercontent.com/codesstar/next-slide/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: Style Gallery
+    url: https://next-slide-jet.vercel.app/gallery
+    source: https://raw.githubusercontent.com/codesstar/next-slide/HEAD/README.md
+  source_headings:
+  - Next Slide
+  - '"Make me a presentation about..."'
+  - '"帮我做个关于 XX 的 slide"'
+- name: karthik-data-visualization-skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/skthewimp/karthik-data-visualization-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Public Codex and Claude data-visualization skill suite for chart selection, chart style, critique, annotation,
+    explanation, and end-to-end visual-story orchestration.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Karthik Data Visualization Skills
+    bytes: 11919
+  official_docs:
+  - kind: docs
+    title: '`docs/skills/dataviz-orchestrator.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-orchestrator.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/dataviz-selector.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-selector.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-data-visualization.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-data-visualization.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/dataviz-critique.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-critique.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-analysis-planner.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-analysis-planner.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-powerpoint-style.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-powerpoint-style.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/dataset-question-generator.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataset-question-generator.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-data-cleaning.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-data-cleaning.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/chart-annotations.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/chart-annotations.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/chart-explainer.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/chart-explainer.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-r-analysis-style.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-r-analysis-style.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/blog/building-the-dataviz-selector-skill.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/blog/building-the-dataviz-selector-skill.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/skills/dataviz-orchestrator.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-orchestrator.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/dataviz-selector.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-selector.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-data-visualization.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-data-visualization.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/dataviz-critique.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-critique.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-analysis-planner.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-analysis-planner.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-powerpoint-style.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-powerpoint-style.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/dataset-question-generator.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataset-question-generator.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-data-cleaning.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-data-cleaning.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/chart-annotations.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/chart-annotations.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/chart-explainer.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/chart-explainer.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/skills/karthik-r-analysis-style.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-r-analysis-style.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/blog/building-the-dataviz-selector-skill.md`'
+    url: https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/blog/building-the-dataviz-selector-skill.md
+    source: https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md
+  source_headings:
+  - Karthik Data Visualization Skills
+  - '`karthik-data-visualization`'
+  - '`dataset-question-generator`'
+- name: Countly MCP Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/Countly/countly-mcp-server
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Countly digital-analytics MCP server for browsing apps, dashboards, cohorts, funnels, crash data, feedback,
+    and report configurations, including dashboard email report creation and preview workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Countly MCP Server
+    bytes: 38424
+  official_examples:
+  - kind: example
+    title: VS Code MCP Configuration
+    url: https://github.com/Countly/countly-mcp-server/blob/HEAD/examples/vscode-mcp.md
+    source: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/TESTING.md
+    url: https://github.com/Countly/countly-mcp-server/blob/HEAD/docs/TESTING.md
+    source: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/TESTING_SUMMARY.md
+    url: https://github.com/Countly/countly-mcp-server/blob/HEAD/docs/TESTING_SUMMARY.md
+    source: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+  official_links:
+  - kind: example
+    title: VS Code MCP Configuration
+    url: https://github.com/Countly/countly-mcp-server/blob/HEAD/examples/vscode-mcp.md
+    source: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/TESTING.md
+    url: https://github.com/Countly/countly-mcp-server/blob/HEAD/docs/TESTING.md
+    source: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/TESTING_SUMMARY.md
+    url: https://github.com/Countly/countly-mcp-server/blob/HEAD/docs/TESTING_SUMMARY.md
+    source: https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md
+  source_headings:
+  - 'Examples:'
+  - Analytics & Dashboards
+  - Dashboard User Management
+  - Dashboards (requires `dashboards` plugin)
+- name: MCP-SQL-Visualization
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/sathwikabbaraju/MCP-SQL-Visualization
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: MCP-backed natural-language SQL and visualization workflow for querying databases, generating dashboards or
+    reports, and exporting results as HTML or PDF.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sathwikabbaraju/MCP-SQL-Visualization/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sathwikabbaraju/MCP-SQL-Visualization/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP SQL Visualization
+    bytes: 3525
+  source_headings:
+  - MCP SQL Visualization
+  - 🖥️ Usage
+- name: static-ad-concept-generator
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/Creatify-AI/static-ad-concept-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模板/素材
+  catalog_note: Claude skill that turns product or brand context into static ad concepts with template-backed angles, headlines,
+    audience targeting, CTAs, and visual directions including infographic and comparison formats.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: static-ad-concept-generator
+    bytes: 4498
+  official_examples:
+  - kind: video
+    title: video-ad-generator
+    url: https://github.com/Creatify-AI/video-ad-generator
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: video
+    title: ai-avatar-video
+    url: https://github.com/Creatify-AI/ai-avatar-video
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: video
+    title: video-ad-reverse-engineer
+    url: https://github.com/Creatify-AI/video-ad-reverse-engineer
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Settings → API
+    url: https://app.creatify.ai/settings/organization/api
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: docs
+    title: ai-ad-prompt-guide
+    url: https://github.com/Creatify-AI/ai-ad-prompt-guide
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Settings → API
+    url: https://app.creatify.ai/settings/organization/api
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: video
+    title: video-ad-generator
+    url: https://github.com/Creatify-AI/video-ad-generator
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: video
+    title: ai-avatar-video
+    url: https://github.com/Creatify-AI/ai-avatar-video
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: docs
+    title: ai-ad-prompt-guide
+    url: https://github.com/Creatify-AI/ai-ad-prompt-guide
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  - kind: video
+    title: video-ad-reverse-engineer
+    url: https://github.com/Creatify-AI/video-ad-reverse-engineer
+    source: https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md
+  source_headings:
+  - Category-Specific Concept Templates
+  - Visual Direction Guide
+- name: PowerPoint Analyzer MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/shiosalt/powerpoint-analyzer-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: MCP server that extracts structured slide content and text formatting from PowerPoint files so agents can
+    inspect, summarize, transform, or rebuild existing decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shiosalt/powerpoint-analyzer-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shiosalt/powerpoint-analyzer-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPoint Analyzer MCP Server
+    bytes: 19766
+  source_headings:
+  - Usage
+  - 1. query_slides
+  - Find slides with "Sales" in title
+  - Find slides with tables, return full text
+  - Query specific slides with custom fields
+  - Extract from specific slides only
+  - Usage Recommendations
+  - Extract hyperlinks from specific slides
+  - Extract font colors from first 10 slides
+  - Slide Selection Syntax
+  - First 10 slides
+  - Slides 5-20
+- name: macOS Office365 MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/vAirpower/macos-office365-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: macOS MCP server for automating Microsoft Office 365 applications, especially PowerPoint and Word, through
+    AI agents such as Claude and Cline.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vAirpower/macos-office365-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vAirpower/macos-office365-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: macOS Office 365 MCP Server
+    bytes: 7967
+  source_headings:
+  - Usage
+  - Example Usage
+  - Creating a PowerPoint Presentation
