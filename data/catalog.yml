@@ -1,4 +1,4 @@
-last_researched: '2026-08-08'
+last_researched: '2026-08-09'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -11723,3 +11723,203 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: docs
+- name: make-slide
+  url: https://github.com/Kuneosu/make-slide
+  homepage: https://make-slide.vercel.app
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 112
+  license: MIT
+  updated: '2026-08-05'
+  note: Universal AI skill for coding agents that turns prompts and Markdown-style content into standalone HTML slide decks with bundled themes and preview examples.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: next-slide
+  url: https://github.com/codesstar/next-slide
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 44
+  license: MIT
+  updated: '2026-08-01'
+  note: Bilingual AI presentation skill for Claude Code and OpenClaw that creates standalone HTML slides with 26+ visual styles, no runtime dependencies, and browser/PDF-friendly output.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: karthik-data-visualization-skill
+  url: https://github.com/skthewimp/karthik-data-visualization-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: MIT
+  updated: '2026-08-07'
+  note: Public Codex and Claude data-visualization skill suite for chart selection, chart style, critique, annotation, explanation, and end-to-end visual-story orchestration.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 报告/简报
+  - 图表/渲染输出
+  catalog_section: main
+  readme_group: data
+- name: Countly MCP Server
+  url: https://github.com/Countly/countly-mcp-server
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 2
+  license: MIT
+  updated: '2026-07-29'
+  note: Countly digital-analytics MCP server for browsing apps, dashboards, cohorts, funnels, crash data, feedback, and report configurations, including dashboard email report creation and preview workflows.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: MCP-SQL-Visualization
+  url: https://github.com/sathwikabbaraju/MCP-SQL-Visualization
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2025-11-06'
+  note: MCP-backed natural-language SQL and visualization workflow for querying databases, generating dashboards or reports, and exporting results as HTML or PDF.
+  source_types:
+  - 数据库
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: static-ad-concept-generator
+  url: https://github.com/Creatify-AI/static-ad-concept-generator
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模板/素材
+  stars: 35
+  license: MIT
+  updated: '2026-07-24'
+  note: Claude skill that turns product or brand context into static ad concepts with template-backed angles, headlines, audience targeting, CTAs, and visual directions including infographic and comparison formats.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: text_visual
+- name: PowerPoint Analyzer MCP Server
+  url: https://github.com/shiosalt/powerpoint-analyzer-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 2
+  license: Apache-2.0
+  updated: '2026-03-12'
+  note: MCP server that extracts structured slide content and text formatting from PowerPoint files so agents can inspect, summarize, transform, or rebuild existing decks.
+  source_types:
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  - PPT/演示文稿
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: macOS Office365 MCP Server
+  url: https://github.com/vAirpower/macos-office365-mcp-server
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 14
+  license: MIT
+  updated: '2026-05-04'
+  note: macOS MCP server for automating Microsoft Office 365 applications, especially PowerPoint and Word, through AI agents such as Claude and Cline.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  catalog_section: main
+  readme_group: presentation

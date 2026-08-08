@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-08-07T23:05:07+00:00",
-  "lastResearched": "2026-08-08",
+  "generatedAt": "2026-08-08T23:05:16+00:00",
+  "lastResearched": "2026-08-09",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 464,
+    "total": 472,
     "openSource": 127,
     "saas": 54,
-    "modelApi": 169,
-    "examples": 1123,
+    "modelApi": 170,
+    "examples": 1144,
     "effectAssets": 1405,
-    "docs": 1307
+    "docs": 1323
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 52,
-      "PDF/文档": 150,
-      "文本/想法": 288,
-      "数据/表格": 172,
-      "代码/技术描述": 88,
-      "网页/搜索结果": 129,
+      "PDF/文档": 152,
+      "文本/想法": 294,
+      "数据/表格": 175,
+      "代码/技术描述": 89,
+      "网页/搜索结果": 133,
       "代码库": 49,
-      "DSL/代码": 92,
+      "DSL/代码": 93,
       "新闻/资讯": 18,
       "知识库/个人资料": 35,
-      "任意/多源": 61,
-      "Office 文档": 68,
+      "任意/多源": 62,
+      "Office 文档": 70,
       "引用网络": 4,
-      "数据库": 40,
+      "数据库": 42,
       "视频/音频": 2
     },
     "toolForms": {
       "开源应用/框架": 127,
-      "Agent Skill": 145,
-      "Skill 集合": 38,
+      "Agent Skill": 148,
+      "Skill 集合": 39,
       "数据集/评测": 2,
       "Bot/助手": 14,
       "产品/SaaS": 54,
-      "MCP Server": 144,
+      "MCP Server": 148,
       "研究原型": 5,
-      "API/SDK/库": 61,
+      "API/SDK/库": 63,
       "Awesome/索引": 22
     },
     "outputForms": {
       "图形摘要/信息图": 32,
-      "PPT/演示文稿": 197,
-      "网页/交互页面": 144,
+      "PPT/演示文稿": 201,
+      "网页/交互页面": 146,
       "问答/学习材料": 15,
-      "报告/长文档": 61,
-      "证据表": 25,
-      "信息图/视觉报告": 60,
-      "图表/仪表盘": 127,
+      "报告/长文档": 62,
+      "证据表": 26,
+      "信息图/视觉报告": 62,
+      "图表/仪表盘": 130,
       "架构图/流程图": 106,
-      "SVG/PNG/PDF": 165,
-      "报告/简报": 52,
+      "SVG/PNG/PDF": 168,
+      "报告/简报": 55,
       "白板/思维导图": 32,
       "图表/Mermaid": 54,
       "视频/音频": 35,
       "表格/时间线": 13,
       "引用答案": 5,
       "思维导图/知识地图": 30,
-      "结构化数据/Markdown": 51,
+      "结构化数据/Markdown": 53,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 28,
-      "图表/渲染输出": 13,
+      "图表/渲染输出": 14,
       "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 365,
-      "模型 API": 169,
-      "文档解析/OCR": 72,
-      "渲染/导出": 380,
+      "本地语言环境": 373,
+      "模型 API": 170,
+      "文档解析/OCR": 73,
+      "渲染/导出": 387,
       "GPU/加速器": 12,
-      "模板/素材": 210,
-      "Agent 宿主": 191,
-      "系统工具": 81,
-      "浏览器/账号": 125,
+      "模板/素材": 214,
+      "Agent 宿主": 195,
+      "系统工具": 82,
+      "浏览器/账号": 126,
       "存储/索引": 60,
-      "外部检索/数据源": 98,
-      "MCP Client": 149,
+      "外部检索/数据源": 100,
+      "MCP Client": 153,
       "代码分析工具": 32
     },
     "categories": {
       "paper-visualization": 15,
-      "doc-to-knowledge": 45,
+      "doc-to-knowledge": 46,
       "research-report": 24,
-      "infographic-report": 36,
-      "data-dashboard": 64,
+      "infographic-report": 37,
+      "data-dashboard": 67,
       "diagram-generation": 66,
       "literature-map": 4,
-      "presentation-tools": 130,
+      "presentation-tools": 133,
       "codebase-map": 26,
       "rendering-primitive": 8,
       "video-generation": 11,
@@ -97,17 +97,17 @@
     },
     "groups": {
       "paper": 27,
-      "text_visual": 48,
+      "text_visual": 49,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 26,
-      "support_doc_parse": 13,
-      "presentation": 142,
+      "support_doc_parse": 14,
+      "presentation": 145,
       "code": 27,
       "support_render": 47,
       "diagrams": 15,
       "video": 11,
-      "data": 59,
+      "data": 62,
       "indexes": 24,
       "diagram": 1,
       "index": 1
@@ -40375,6 +40375,498 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 8
+    },
+    {
+      "name": "make-slide",
+      "url": "https://github.com/Kuneosu/make-slide",
+      "primaryUrl": "https://github.com/Kuneosu/make-slide",
+      "homepage": "https://make-slide.vercel.app",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 112,
+      "license": "MIT",
+      "updated": "2026-08-05",
+      "note": "Universal AI skill for coding agents that turns prompts and Markdown-style content into standalone HTML slide decks with bundled themes and preview examples.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "browse the gallery",
+          "url": "https://make-slide.vercel.app",
+          "source": "https://raw.githubusercontent.com/Kuneosu/make-slide/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Minimal Dark Dark + Blue accent Minimal Dark Clean dark background with crisp white typography. Minimal decoration, maximum clarity for content-focused presentations. Tech Conferen",
+          "url": "https://make-slide.vercel.app/themes/minimal-dark/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Minimal Light White + Clean Minimal Light Bright white canvas with clean typography. Versatile and professional for any setting, from classrooms to boardrooms. General Seminar Lect",
+          "url": "https://make-slide.vercel.app/themes/minimal-light/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Keynote Apple Cinematic gradient Keynote Apple Cinematic dark gradients inspired by Apple keynote presentations. Bold headlines with elegant transitions and depth. Product Launch D",
+          "url": "https://make-slide.vercel.app/themes/keynote-apple/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Corporate Navy + Gold Corporate Professional navy and gold palette with structured grid layouts. Clean lines and report-style design for formal settings. Business Quarterly Report ",
+          "url": "https://make-slide.vercel.app/themes/corporate/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Gradient Pop Purple to Orange Gradient Pop Vibrant gradient backgrounds with glass-morphism effects. Bold, energetic design that commands attention. Startup Pitch Product Launch Ma",
+          "url": "https://make-slide.vercel.app/themes/gradient-pop/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "$ neon_ > terminal Neon Terminal Terminal-inspired hacker aesthetic with neon green and cyan accents. Monospace everything, scanlines, and glow effects. Developer Talk Hackathon CT",
+          "url": "https://make-slide.vercel.app/themes/neon-terminal/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Paper Serif · Academic Paper Warm off-white background with serif typography. Kraft paper texture feel for an academic, hand-crafted aesthetic. Education Lecture Workshop",
+          "url": "https://make-slide.vercel.app/themes/paper/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Magazine Editorial Magazine Bold asymmetric layouts with strong typography contrast. Editorial magazine spread feel for visually-driven content. Design Creative Portfolio",
+          "url": "https://make-slide.vercel.app/themes/magazine/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Data Focus Charts + Metrics Data Focus Clean white with subtle grid background. CSS-only charts, stat cards, and donut graphs for data-driven presentations. Data Analysis Research ",
+          "url": "https://make-slide.vercel.app/themes/data-focus/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Playful Pastel + Bouncy Playful Rounded corners, pastel colors, and bouncy spring animations. Friendly and approachable for casual settings. Workshop Casual Talk Retrospective",
+          "url": "https://make-slide.vercel.app/themes/playful/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        },
+        {
+          "kind": "template",
+          "title": "Centered Classic & Balanced Centered Content centered vertically and horizontally. The classic, universal presentation style for talks and pitches. Default General Keynote",
+          "url": "https://make-slide.vercel.app/layouts/centered/reference.html",
+          "source": "https://make-slide.vercel.app/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 16,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "next-slide",
+      "url": "https://github.com/codesstar/next-slide",
+      "primaryUrl": "https://github.com/codesstar/next-slide",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 44,
+      "license": "MIT",
+      "updated": "2026-08-01",
+      "note": "Bilingual AI presentation skill for Claude Code and OpenClaw that creates standalone HTML slides with 26+ visual styles, no runtime dependencies, and browser/PDF-friendly output.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Style Gallery",
+          "url": "https://next-slide-jet.vercel.app/gallery",
+          "source": "https://raw.githubusercontent.com/codesstar/next-slide/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "karthik-data-visualization-skill",
+      "url": "https://github.com/skthewimp/karthik-data-visualization-skill",
+      "primaryUrl": "https://github.com/skthewimp/karthik-data-visualization-skill",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-08-07",
+      "note": "Public Codex and Claude data-visualization skill suite for chart selection, chart style, critique, annotation, explanation, and end-to-end visual-story orchestration.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "报告/简报",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/skills/dataviz-orchestrator.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-orchestrator.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/dataviz-selector.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-selector.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/karthik-data-visualization.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-data-visualization.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/dataviz-critique.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataviz-critique.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/karthik-analysis-planner.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-analysis-planner.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/karthik-powerpoint-style.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-powerpoint-style.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/dataset-question-generator.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/dataset-question-generator.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/skills/karthik-data-cleaning.md`",
+          "url": "https://github.com/skthewimp/karthik-data-visualization-skill/blob/HEAD/docs/skills/karthik-data-cleaning.md",
+          "source": "https://raw.githubusercontent.com/skthewimp/karthik-data-visualization-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 12,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Countly MCP Server",
+      "url": "https://github.com/Countly/countly-mcp-server",
+      "primaryUrl": "https://github.com/Countly/countly-mcp-server",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-29",
+      "note": "Countly digital-analytics MCP server for browsing apps, dashboards, cohorts, funnels, crash data, feedback, and report configurations, including dashboard email report creation and preview workflows.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/TESTING.md",
+          "url": "https://github.com/Countly/countly-mcp-server/blob/HEAD/docs/TESTING.md",
+          "source": "https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/TESTING_SUMMARY.md",
+          "url": "https://github.com/Countly/countly-mcp-server/blob/HEAD/docs/TESTING_SUMMARY.md",
+          "source": "https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "VS Code MCP Configuration",
+          "url": "https://github.com/Countly/countly-mcp-server/blob/HEAD/examples/vscode-mcp.md",
+          "source": "https://raw.githubusercontent.com/Countly/countly-mcp-server/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "MCP-SQL-Visualization",
+      "url": "https://github.com/sathwikabbaraju/MCP-SQL-Visualization",
+      "primaryUrl": "https://github.com/sathwikabbaraju/MCP-SQL-Visualization",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2025-11-06",
+      "note": "MCP-backed natural-language SQL and visualization workflow for querying databases, generating dashboards or reports, and exporting results as HTML or PDF.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "static-ad-concept-generator",
+      "url": "https://github.com/Creatify-AI/static-ad-concept-generator",
+      "primaryUrl": "https://github.com/Creatify-AI/static-ad-concept-generator",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模板/素材"
+      ],
+      "stars": 35,
+      "license": "MIT",
+      "updated": "2026-07-24",
+      "note": "Claude skill that turns product or brand context into static ad concepts with template-backed angles, headlines, audience targeting, CTAs, and visual directions including infographic and comparison formats.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Settings → API",
+          "url": "https://app.creatify.ai/settings/organization/api",
+          "source": "https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "ai-ad-prompt-guide",
+          "url": "https://github.com/Creatify-AI/ai-ad-prompt-guide",
+          "source": "https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "video-ad-generator",
+          "url": "https://github.com/Creatify-AI/video-ad-generator",
+          "source": "https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "ai-avatar-video",
+          "url": "https://github.com/Creatify-AI/ai-avatar-video",
+          "source": "https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "video-ad-reverse-engineer",
+          "url": "https://github.com/Creatify-AI/video-ad-reverse-engineer",
+          "source": "https://raw.githubusercontent.com/Creatify-AI/static-ad-concept-generator/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "PowerPoint Analyzer MCP Server",
+      "url": "https://github.com/shiosalt/powerpoint-analyzer-mcp",
+      "primaryUrl": "https://github.com/shiosalt/powerpoint-analyzer-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "Apache-2.0",
+      "updated": "2026-03-12",
+      "note": "MCP server that extracts structured slide content and text formatting from PowerPoint files so agents can inspect, summarize, transform, or rebuild existing decks.",
+      "sourceTypes": [
+        "Office 文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "结构化数据/Markdown",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "macOS Office365 MCP Server",
+      "url": "https://github.com/vAirpower/macos-office365-mcp-server",
+      "primaryUrl": "https://github.com/vAirpower/macos-office365-mcp-server",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 14,
+      "license": "MIT",
+      "updated": "2026-05-04",
+      "note": "macOS MCP server for automating Microsoft Office 365 applications, especially PowerPoint and Word, through AI agents such as Claude and Cline.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }
