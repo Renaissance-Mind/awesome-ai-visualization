@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-09.
+Last researched: 2026-08-10.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-10: refreshed presentation visual-QA skills, infographic/image-generation skills, DuckDB/Databricks visualization MCP, scientific poster/deck skills, Google Slides redesign automation, branded PPTX deck generation, PDF-to-editable-slide conversion, and bitmap-slide reconstruction surfaces from official GitHub repositories, README evidence, live web/GitHub searches, and GitHub metadata. This pass added ktundwal presentation-skills, Infographic Skill by kseriri, Claude Visual Generator, MCP Data Visualization Server, BERIL Presentation Maker Skill, google-slides-skill, deck-builder skill, pdf2slides, and PPT Visual Reconstruction. The targeted scraper ran only against these nine new records, fetched all nine official GitHub README sources successfully, and found four official examples, five official effect assets, and nine official docs links; public credential setup documentation links were reviewed as docs references, not credentials.
 
 Update on 2026-08-09: refreshed AI slide-skill, data-visualization skill, analytics-dashboard MCP, SQL visualization, marketing infographic concept, PowerPoint parsing, and macOS Office automation surfaces from official GitHub repositories, README evidence, product/gallery pages, and GitHub metadata. This pass added make-slide, next-slide, karthik-data-visualization-skill, Countly MCP Server, MCP-SQL-Visualization, static-ad-concept-generator, PowerPoint Analyzer MCP Server, and macOS Office365 MCP Server. The targeted scraper ran only against these new records and found nine fetched official sources with no failed fetches.
 

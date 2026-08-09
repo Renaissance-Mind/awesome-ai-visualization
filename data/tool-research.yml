@@ -1,4 +1,4 @@
-generated_at: '2026-08-08T23:05:16+00:00'
+generated_at: '2026-08-09T23:05:49+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 472
-  fetched_sources_ok: 636
+  entries: 481
+  fetched_sources_ok: 645
   fetched_sources_failed: 36
-  official_examples: 1144
-  official_effect_assets: 1405
-  official_docs: 1323
+  official_examples: 1148
+  official_effect_assets: 1410
+  official_docs: 1332
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -40597,3 +40597,365 @@ entries:
   - Usage
   - Example Usage
   - Creating a PowerPoint Presentation
+- name: ktundwal presentation-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ktundwal/presentation-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code presentation skill collection centered on Marp decks, iterative visual QA, slide rendering to
+    images, and vision-based checks for layout, overflow, and contrast problems.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Presentation Skills for Claude Code
+    bytes: 2112
+  official_examples:
+  - kind: template
+    title: template
+    url: https://github.com/ktundwal/presentation-skills/blob/HEAD/template/SKILL.md
+    source: https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md
+  - kind: template
+    title: template
+    url: https://github.com/ktundwal/presentation-skills/blob/HEAD/template/SKILL.md
+    source: https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md
+  source_headings:
+  - Presentation Skills for Claude Code
+- name: Infographic Skill by kseriri
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/kseriri/infographic-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and plugin that turns text prompts into infographic, business-diagram, slide-image, document-illustration,
+    motif, and custom visual assets through Gemini and Imagen models with presets and aspect-ratio controls.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infographic Skill for Claude Code
+    bytes: 5653
+  official_docs:
+  - kind: docs
+    title: 取得はこちら
+    url: https://aistudio.google.com/apikey
+    source: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Consulting
+    url: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/docs/sample-consulting.png
+    source: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md
+  - kind: image
+    title: Graphic Recording
+    url: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/docs/hero.png
+    source: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 取得はこちら
+    url: https://aistudio.google.com/apikey
+    source: https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md
+  source_headings:
+  - Usage（Claude Code）
+- name: Claude Visual Generator
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/sckim-ai/claude-visual-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code visual-material skill plugin that extracts key messages from research plans, technical reports,
+    and seminar decks, then generates Gemini-backed infographic or diagram images with 24 layouts and 9 presentation-oriented
+    themes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sckim-ai/claude-visual-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sckim-ai/claude-visual-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Visual Generator
+    bytes: 5147
+  official_docs:
+  - kind: docs
+    title: Google AI Studio
+    url: https://aistudio.google.com/apikey
+    source: https://raw.githubusercontent.com/sckim-ai/claude-visual-generator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Google AI Studio
+    url: https://aistudio.google.com/apikey
+    source: https://raw.githubusercontent.com/sckim-ai/claude-visual-generator/HEAD/README.md
+  source_headings:
+  - Claude Visual Generator
+- name: MCP Data Visualization Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/xoniks/mcp-visualization-duckdb
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP server for Claude Desktop that turns natural-language questions over DuckDB or Databricks data into Plotly-powered
+    interactive HTML charts, smart chart suggestions, insights, and local or enterprise database visualizations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🎯 MCP Data Visualization Server
+    bytes: 12049
+  official_examples:
+  - kind: example
+    title: TimeStored Sample DuckDB Databases
+    url: https://www.timestored.com/data/sample/duckdb
+    source: https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/xoniks/mcp-visualization-duckdb/blob/HEAD/docs/DEVELOPMENT.md
+    source: https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md
+  official_links:
+  - kind: example
+    title: TimeStored Sample DuckDB Databases
+    url: https://www.timestored.com/data/sample/duckdb
+    source: https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md
+  - kind: docs
+    title: Development Guide
+    url: https://github.com/xoniks/mcp-visualization-duckdb/blob/HEAD/docs/DEVELOPMENT.md
+    source: https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md
+  source_headings:
+  - 🎯 MCP Data Visualization Server
+  - 🔄 **Ongoing Usage (After Setup)**
+  - '**📋 Daily Usage - No Reconfiguration Needed**'
+  - 🎮 Usage with Claude Desktop
+  - Creating Visualizations
+  - Create a fresh database with sample data
+  - 'Database path [/home/user/.mcp-visualization/data.duckdb]: /path/to/my/data.duckdb'
+  - 💾 Sample Data
+  - 🎯 **Built-in Sample Data**
+  - 🌟 **Additional Sample Databases**
+  - 'Download a sample database, then:'
+- name: BERIL Presentation Maker Skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/kbaseincubator/beril-presentation-maker-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for BERIL scientific projects that converts research plans, reports, notebooks, figures,
+    and peer-review artifacts into evidence-grounded KBase-branded talks or posters with citations, speaker notes, Q&A, and
+    optional AI-generated concept illustrations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: beril-presentation-maker-skill
+    bytes: 22498
+  official_examples:
+  - kind: tutorial
+    title: TUTORIAL.md
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/TUTORIAL.md
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  - kind: template
+    title: LAYOUT.md
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/LAYOUT.md
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/cross-skill/PARTICIPANT-RUNBOOK.md`'
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/docs/cross-skill/PARTICIPANT-RUNBOOK.md
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  - kind: docs
+    title: reference/
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/reference/
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/cross-skill/PARTICIPANT-RUNBOOK.md`'
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/docs/cross-skill/PARTICIPANT-RUNBOOK.md
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  - kind: tutorial
+    title: TUTORIAL.md
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/TUTORIAL.md
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  - kind: template
+    title: LAYOUT.md
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/LAYOUT.md
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  - kind: docs
+    title: reference/
+    url: https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/reference/
+    source: https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md
+  source_headings:
+  - beril-presentation-maker-skill
+  - Documentation map
+  - Usage
+  - '`--visual-qa` (v0.4 M4a Tier C, opt-in) — **read this section**'
+- name: google-slides-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/eranw2000/google-slides-skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that audits and redesigns Google Slides decks against source material and brand cues, edits
+    through the Slides API, renders each touched slide to PNG, and performs visual QA for overflow, ragged columns, and overlap.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Google Slides deck skill for Claude Code
+    bytes: 6743
+  official_docs:
+  - kind: docs
+    title: docs/enhance-slides-flow.drawio
+    url: https://github.com/eranw2000/google-slides-skill/blob/HEAD/docs/enhance-slides-flow.drawio
+    source: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+  - kind: docs
+    title: the Google Cloud credentials console
+    url: https://console.cloud.google.com/apis/credentials
+    source: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: enhance-slides flow
+    url: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/docs/enhance-slides-flow.png
+    source: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/enhance-slides-flow.drawio
+    url: https://github.com/eranw2000/google-slides-skill/blob/HEAD/docs/enhance-slides-flow.drawio
+    source: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+  - kind: docs
+    title: the Google Cloud credentials console
+    url: https://console.cloud.google.com/apis/credentials
+    source: https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md
+  source_headings:
+  - Google Slides deck skill for Claude Code
+- name: deck-builder skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/lowrentkicker/deck-builder
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for building branded native PPTX decks from source material, data, notes, or descriptions
+    through context gathering, narrative planning, brand profiles, PptxGenJS slide generation, optional image generation,
+    and visual QA.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lowrentkicker/deck-builder/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lowrentkicker/deck-builder/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: deck-builder
+    bytes: 9277
+- name: pdf2slides
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/ha0ranyu/pdf2slides
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Python library that converts selectable-text or scanned PDF files into editable PowerPoint slides with a three-line
+    API, optional OCR mode, default-font controls, image retention tuning, and multilingual OCR support.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ha0ranyu/pdf2slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ha0ranyu/pdf2slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Project Description
+    bytes: 2894
+  official_docs:
+  - kind: docs
+    title: PaddleOCR Multi-language Model
+    url: https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_en/multi_languages_en.md
+    source: https://raw.githubusercontent.com/ha0ranyu/pdf2slides/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: PaddleOCR Multi-language Model
+    url: https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_en/multi_languages_en.md
+    source: https://raw.githubusercontent.com/ha0ranyu/pdf2slides/HEAD/README.md
+  source_headings:
+  - Usage
+  - Convert a PDF file to slides
+  - Advanced Usage
+- name: PPT Visual Reconstruction
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/lirunjie0510/ppt-visual-reconstruction
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex skill workflow for reconstructing slide screenshots, bitmap decks, and AI-generated slide images into
+    high-fidelity editable PPTX files by preserving complex visuals as bitmap layers while rebuilding key text, labels, shapes,
+    and layout elements as editable PowerPoint objects.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PPT Visual Reconstruction
+    bytes: 5062
+  official_effect_assets:
+  - kind: image
+    title: Source slide image
+    url: https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/assets/demo/before-source.png
+    source: https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/README.md
+  - kind: image
+    title: Editable PPTX output preview
+    url: https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/assets/demo/after-editable-pptx.png
+    source: https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/README.md
+  source_headings:
+  - PPT Visual Reconstruction
+  - Demo
