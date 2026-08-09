@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-472_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--09-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-481_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--10-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,19 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-08-09)
+## Latest Refresh (2026-08-10)
 
 | Project | Catalog focus |
 | --- | --- |
-| [make-slide](https://github.com/Kuneosu/make-slide) | Universal AI skill for standalone HTML slide decks with bundled themes and preview examples. |
-| [next-slide](https://github.com/codesstar/next-slide) | Bilingual Claude Code/OpenClaw skill for zero-dependency HTML presentations with 26+ styles. |
-| [karthik-data-visualization-skill](https://github.com/skthewimp/karthik-data-visualization-skill) | Codex and Claude data-visualization skill suite for chart choice, style, critique, annotations, and visual-story orchestration. |
-| [Countly MCP Server](https://github.com/Countly/countly-mcp-server) | Digital-analytics MCP for dashboards, cohorts, funnels, feedback, reports, and dashboard email-report previews. |
-| [MCP-SQL-Visualization](https://github.com/sathwikabbaraju/MCP-SQL-Visualization) | Natural-language SQL MCP workflow for database dashboards, reports, and HTML/PDF export. |
-| [static-ad-concept-generator](https://github.com/Creatify-AI/static-ad-concept-generator) | Claude skill for template-backed static ad concepts with headlines, CTAs, audiences, and visual directions. |
-| [PowerPoint Analyzer MCP Server](https://github.com/shiosalt/powerpoint-analyzer-mcp) | MCP support server for extracting structured content and text formatting from existing PowerPoint decks. |
-| [macOS Office365 MCP Server](https://github.com/vAirpower/macos-office365-mcp-server) | macOS MCP server for automating PowerPoint and Word through agent workflows. |
+| [ktundwal presentation-skills](https://github.com/ktundwal/presentation-skills) | Presentation skill collection with Marp deck generation, rendered-slide visual QA, and overflow/contrast checks. |
+| [Infographic Skill by kseriri](https://github.com/kseriri/infographic-skill) | Claude Code infographic plugin for Gemini/Imagen business diagrams, slide images, document illustrations, and motif assets. |
+| [Claude Visual Generator](https://github.com/sckim-ai/claude-visual-generator) | Visual-material skill that extracts messages from research reports and seminar decks into Gemini-backed infographic images. |
+| [MCP Data Visualization Server](https://github.com/xoniks/mcp-visualization-duckdb) | DuckDB/Databricks MCP server for natural-language Plotly HTML charts, smart suggestions, and local or enterprise dashboards. |
+| [BERIL Presentation Maker Skill](https://github.com/kbaseincubator/beril-presentation-maker-skill) | Scientific presentation/poster skill for BERIL projects with citations, speaker notes, Q&A, and concept illustrations. |
+| [google-slides-skill](https://github.com/eranw2000/google-slides-skill) | Google Slides redesign skill that edits via Slides API, renders touched slides, and visually checks overflow and overlap. |
+| [deck-builder skill](https://github.com/lowrentkicker/deck-builder) | Branded native PPTX deck-builder skill with narrative planning, brand profiles, optional image generation, and visual QA. |
+| [pdf2slides](https://github.com/ha0ranyu/pdf2slides) | Python library that converts selectable or scanned PDFs into editable PowerPoint slides with optional OCR controls. |
+| [PPT Visual Reconstruction](https://github.com/lirunjie0510/ppt-visual-reconstruction) | Codex skill workflow for rebuilding slide screenshots and bitmap decks into high-fidelity editable PPTX files. |
 
 ## ✨ 推荐使用方式
 
@@ -81,6 +82,7 @@
  | [FigureWeave](https://github.com/Krisocer/FigureWeave) [![Star](https://img.shields.io/github/stars/Krisocer/FigureWeave?style=flat&logo=github&label=Star)](https://github.com/Krisocer/FigureWeave/stargazers) | Papers/research / Text/ideas | Open-source app/framework | Graphical abstract/infographic / SVG/PNG/PDF / Web/interactive page | Local runtime / Model API / GPU/accelerator / Rendering/export |
 
 | [Interactive Presentation Skill](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill) [![Star](https://img.shields.io/github/stars/MinnThikeTunn/Interactive-Presentation-Skill?style=flat&logo=github&label=Star)](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill/stargazers) | Papers/research / PDF/documents / Code/technical text | Agent skill | PPT/deck / Web/interactive page / Graphical abstract/infographic | Agent host / Local runtime / Rendering/export |
+| [BERIL Presentation Maker Skill](https://github.com/kbaseincubator/beril-presentation-maker-skill) [![Star](https://img.shields.io/github/stars/kbaseincubator/beril-presentation-maker-skill?style=flat&logo=github&label=Star)](https://github.com/kbaseincubator/beril-presentation-maker-skill/stargazers) | 论文/科研资料 / PDF/文档 / 数据/表格 / 知识库/个人资料 | Agent Skill | PPT/演示文稿 / 图形摘要/信息图 / 报告/简报 | Agent 宿主 / 本地语言环境 / 模型 API / 文档解析/OCR / 渲染/导出 / 模板/素材 |
 
 ### 网页、新闻、资讯与行业情报
 
@@ -229,7 +231,7 @@
 | [karthik-data-visualization-skill](https://github.com/skthewimp/karthik-data-visualization-skill) [![Star](https://img.shields.io/github/stars/skthewimp/karthik-data-visualization-skill?style=flat&logo=github&label=Star)](https://github.com/skthewimp/karthik-data-visualization-skill/stargazers) | Data/tables / Text/ideas / Code/technical text | Skill collection | Chart/dashboard / Infographic/visual report / Briefing/report / Rendered chart | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Countly MCP Server](https://github.com/Countly/countly-mcp-server) [![Star](https://img.shields.io/github/stars/Countly/countly-mcp-server?style=flat&logo=github&label=Star)](https://github.com/Countly/countly-mcp-server/stargazers) | Data/tables / Database / Web/search | MCP server / API/SDK/library | Chart/dashboard / Briefing/report / Evidence table | MCP client / Browser/account / Local runtime / External search/data / Rendering/export |
 | [MCP-SQL-Visualization](https://github.com/sathwikabbaraju/MCP-SQL-Visualization) [![Star](https://img.shields.io/github/stars/sathwikabbaraju/MCP-SQL-Visualization?style=flat&logo=github&label=Star)](https://github.com/sathwikabbaraju/MCP-SQL-Visualization/stargazers) | Database / Data/tables / Text/ideas | MCP server | Chart/dashboard / Briefing/report / SVG/PNG/PDF | MCP client / Local runtime / Model API / External search/data / Rendering/export |
-
+| [MCP Data Visualization Server](https://github.com/xoniks/mcp-visualization-duckdb) [![Star](https://img.shields.io/github/stars/xoniks/mcp-visualization-duckdb?style=flat&logo=github&label=Star)](https://github.com/xoniks/mcp-visualization-duckdb/stargazers) | 数据/表格 / 数据库 | MCP Server / API/SDK/库 | 图表/仪表盘 / 网页/交互页面 / 结构化数据/Markdown | MCP Client / 本地语言环境 / 外部检索/数据源 / 存储/索引 / 渲染/导出 |
 
 ### 通用文本、想法与白板图示
 
@@ -291,7 +293,8 @@
  | [GenAI Drawio Creator](https://github.com/tuoxie2046/GenAI-DrawIO-Creator) [![Star](https://img.shields.io/github/stars/tuoxie2046/GenAI-DrawIO-Creator?style=flat&logo=github&label=Star)](https://github.com/tuoxie2046/GenAI-DrawIO-Creator/stargazers) | Text/ideas / PDF/documents / Codebase / Code/technical text | Open-source app/framework / MCP server | Architecture/flow diagram / SVG/PNG/PDF / Web/interactive page | Browser/account / Model API / MCP client / Local runtime / Rendering/export / Templates/assets |
  | [FlowDoc](https://github.com/htlin222/flowdoc) [![Star](https://img.shields.io/github/stars/htlin222/flowdoc?style=flat&logo=github&label=Star)](https://github.com/htlin222/flowdoc/stargazers) | Data/tables / DSL/code / Papers/research | API/SDK/library | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Rendering/export |
 | [static-ad-concept-generator](https://github.com/Creatify-AI/static-ad-concept-generator) [![Star](https://img.shields.io/github/stars/Creatify-AI/static-ad-concept-generator?style=flat&logo=github&label=Star)](https://github.com/Creatify-AI/static-ad-concept-generator/stargazers) | Text/ideas / Web/search / Any/multi-source | Agent skill | Infographic/visual report / Structured data/Markdown | Agent host / Local runtime / Templates/assets |
-
+| [Infographic Skill by kseriri](https://github.com/kseriri/infographic-skill) [![Star](https://img.shields.io/github/stars/kseriri/infographic-skill?style=flat&logo=github&label=Star)](https://github.com/kseriri/infographic-skill/stargazers) | 文本/想法 / PDF/文档 / Office 文档 | Agent Skill | 信息图/视觉报告 / 图形摘要/信息图 / PPT/演示文稿 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
+| [Claude Visual Generator](https://github.com/sckim-ai/claude-visual-generator) [![Star](https://img.shields.io/github/stars/sckim-ai/claude-visual-generator?style=flat&logo=github&label=Star)](https://github.com/sckim-ai/claude-visual-generator/stargazers) | 论文/科研资料 / PDF/文档 / Office 文档 / 文本/想法 | Agent Skill | 信息图/视觉报告 / 图形摘要/信息图 / PPT/演示文稿 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
 
 ### 程序化视频与动态讲解
 
@@ -460,7 +463,11 @@
 | [make-slide](https://github.com/Kuneosu/make-slide) [![Star](https://img.shields.io/github/stars/Kuneosu/make-slide?style=flat&logo=github&label=Star)](https://github.com/Kuneosu/make-slide/stargazers) | Text/ideas / PDF/documents / Web/search | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [next-slide](https://github.com/codesstar/next-slide) [![Star](https://img.shields.io/github/stars/codesstar/next-slide?style=flat&logo=github&label=Star)](https://github.com/codesstar/next-slide/stargazers) | Text/ideas / PDF/documents / Web/search / DSL/code | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [macOS Office365 MCP Server](https://github.com/vAirpower/macos-office365-mcp-server) [![Star](https://img.shields.io/github/stars/vAirpower/macos-office365-mcp-server?style=flat&logo=github&label=Star)](https://github.com/vAirpower/macos-office365-mcp-server/stargazers) | Office docs / Text/ideas | MCP server | PPT/deck / Long report | MCP client / Local runtime / Rendering/export / System tools |
-
+| [ktundwal presentation-skills](https://github.com/ktundwal/presentation-skills) [![Star](https://img.shields.io/github/stars/ktundwal/presentation-skills?style=flat&logo=github&label=Star)](https://github.com/ktundwal/presentation-skills/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 / DSL/代码 | Skill 集合 / Agent Skill | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
+| [google-slides-skill](https://github.com/eranw2000/google-slides-skill) [![Star](https://img.shields.io/github/stars/eranw2000/google-slides-skill?style=flat&logo=github&label=Star)](https://github.com/eranw2000/google-slides-skill/stargazers) | Office 文档 / 文本/想法 / 网页/搜索结果 | Agent Skill | PPT/演示文稿 / SVG/PNG/PDF / 报告/简报 | Agent 宿主 / 浏览器/账号 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
+| [deck-builder skill](https://github.com/lowrentkicker/deck-builder) [![Star](https://img.shields.io/github/stars/lowrentkicker/deck-builder?style=flat&logo=github&label=Star)](https://github.com/lowrentkicker/deck-builder/stargazers) | 文本/想法 / PDF/文档 / Office 文档 / 数据/表格 | Agent Skill | PPT/演示文稿 / 图表/仪表盘 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 系统工具 / 渲染/导出 / 模板/素材 |
+| [pdf2slides](https://github.com/ha0ranyu/pdf2slides) [![Star](https://img.shields.io/github/stars/ha0ranyu/pdf2slides?style=flat&logo=github&label=Star)](https://github.com/ha0ranyu/pdf2slides/stargazers) | PDF/文档 | API/SDK/库 | PPT/演示文稿 / 结构化数据/Markdown | 本地语言环境 / 文档解析/OCR / 渲染/导出 / 系统工具 |
+| [PPT Visual Reconstruction](https://github.com/lirunjie0510/ppt-visual-reconstruction) [![Star](https://img.shields.io/github/stars/lirunjie0510/ppt-visual-reconstruction?style=flat&logo=github&label=Star)](https://github.com/lirunjie0510/ppt-visual-reconstruction/stargazers) | Office 文档 / PDF/文档 / 任意/多源 | Agent Skill | PPT/演示文稿 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 文档解析/OCR / 渲染/导出 / 模板/素材 |
 
 ## 辅助、前后处理与小工具
 

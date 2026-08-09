@@ -1,4 +1,4 @@
-last_researched: '2026-08-09'
+last_researched: '2026-08-10'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -11921,5 +11921,244 @@ entries:
   output_forms:
   - PPT/演示文稿
   - 报告/长文档
+  catalog_section: main
+  readme_group: presentation
+- name: ktundwal presentation-skills
+  url: https://github.com/ktundwal/presentation-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: Apache-2.0
+  updated: '2026-07-01'
+  note: Claude Code presentation skill collection centered on Marp decks, iterative visual QA, slide rendering to images, and vision-based checks for layout, overflow, and contrast problems.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - DSL/代码
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Infographic Skill by kseriri
+  url: https://github.com/kseriri/infographic-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-04-09'
+  note: Claude Code skill and plugin that turns text prompts into infographic, business-diagram, slide-image, document-illustration, motif, and custom visual assets through Gemini and Imagen models with presets and aspect-ratio controls.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Claude Visual Generator
+  url: https://github.com/sckim-ai/claude-visual-generator
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: unknown
+  updated: '2026-04-02'
+  note: Claude Code visual-material skill plugin that extracts key messages from research plans, technical reports, and seminar decks, then generates Gemini-backed infographic or diagram images with 24 layouts and 9 presentation-oriented themes.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: MCP Data Visualization Server
+  url: https://github.com/xoniks/mcp-visualization-duckdb
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 19
+  license: unknown
+  updated: '2026-03-16'
+  note: MCP server for Claude Desktop that turns natural-language questions over DuckDB or Databricks data into Plotly-powered interactive HTML charts, smart chart suggestions, insights, and local or enterprise database visualizations.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: BERIL Presentation Maker Skill
+  url: https://github.com/kbaseincubator/beril-presentation-maker-skill
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-06-11'
+  note: Claude Code skill for BERIL scientific projects that converts research plans, reports, notebooks, figures, and peer-review artifacts into evidence-grounded KBase-branded talks or posters with citations, speaker notes, Q&A, and optional AI-generated concept illustrations.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图形摘要/信息图
+  - 报告/简报
+  catalog_section: main
+  readme_group: paper
+- name: google-slides-skill
+  url: https://github.com/eranw2000/google-slides-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-02'
+  note: Claude Code skill that audits and redesigns Google Slides decks against source material and brand cues, edits through the Slides API, renders each touched slide to PNG, and performs visual QA for overflow, ragged columns, and overlap.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 报告/简报
+  catalog_section: main
+  readme_group: presentation
+- name: deck-builder skill
+  url: https://github.com/lowrentkicker/deck-builder
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: other
+  updated: '2026-05-28'
+  note: Claude Code skill for building branded native PPTX decks from source material, data, notes, or descriptions through context gathering, narrative planning, brand profiles, PptxGenJS slide generation, optional image generation, and visual QA.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: pdf2slides
+  url: https://github.com/ha0ranyu/pdf2slides
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 16
+  license: GPL-3.0
+  updated: '2026-07-08'
+  note: Python library that converts selectable-text or scanned PDF files into editable PowerPoint slides with a three-line API, optional OCR mode, default-font controls, image retention tuning, and multilingual OCR support.
+  source_types:
+  - PDF/文档
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: PPT Visual Reconstruction
+  url: https://github.com/lirunjie0510/ppt-visual-reconstruction
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: unknown
+  updated: '2026-06-05'
+  note: Codex skill workflow for reconstructing slide screenshots, bitmap decks, and AI-generated slide images into high-fidelity editable PPTX files by preserving complex visuals as bitmap layers while rebuilding key text, labels, shapes, and layout elements as editable PowerPoint objects.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation

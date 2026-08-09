@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-08-08T23:05:16+00:00",
-  "lastResearched": "2026-08-09",
+  "generatedAt": "2026-08-09T23:05:49+00:00",
+  "lastResearched": "2026-08-10",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 472,
+    "total": 481,
     "openSource": 127,
     "saas": 54,
-    "modelApi": 170,
-    "examples": 1144,
-    "effectAssets": 1405,
-    "docs": 1323
+    "modelApi": 174,
+    "examples": 1148,
+    "effectAssets": 1410,
+    "docs": 1332
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 52,
-      "PDF/文档": 152,
-      "文本/想法": 294,
-      "数据/表格": 175,
+      "论文/科研资料": 54,
+      "PDF/文档": 159,
+      "文本/想法": 299,
+      "数据/表格": 178,
       "代码/技术描述": 89,
-      "网页/搜索结果": 133,
+      "网页/搜索结果": 135,
       "代码库": 49,
-      "DSL/代码": 93,
+      "DSL/代码": 94,
       "新闻/资讯": 18,
-      "知识库/个人资料": 35,
-      "任意/多源": 62,
-      "Office 文档": 70,
+      "知识库/个人资料": 36,
+      "任意/多源": 63,
+      "Office 文档": 75,
       "引用网络": 4,
-      "数据库": 42,
+      "数据库": 43,
       "视频/音频": 2
     },
     "toolForms": {
       "开源应用/框架": 127,
-      "Agent Skill": 148,
-      "Skill 集合": 39,
+      "Agent Skill": 155,
+      "Skill 集合": 40,
       "数据集/评测": 2,
       "Bot/助手": 14,
       "产品/SaaS": 54,
-      "MCP Server": 148,
+      "MCP Server": 149,
       "研究原型": 5,
-      "API/SDK/库": 63,
+      "API/SDK/库": 65,
       "Awesome/索引": 22
     },
     "outputForms": {
-      "图形摘要/信息图": 32,
-      "PPT/演示文稿": 201,
-      "网页/交互页面": 146,
+      "图形摘要/信息图": 35,
+      "PPT/演示文稿": 209,
+      "网页/交互页面": 148,
       "问答/学习材料": 15,
       "报告/长文档": 62,
       "证据表": 26,
-      "信息图/视觉报告": 62,
-      "图表/仪表盘": 130,
+      "信息图/视觉报告": 64,
+      "图表/仪表盘": 132,
       "架构图/流程图": 106,
-      "SVG/PNG/PDF": 168,
-      "报告/简报": 55,
+      "SVG/PNG/PDF": 174,
+      "报告/简报": 57,
       "白板/思维导图": 32,
       "图表/Mermaid": 54,
       "视频/音频": 35,
       "表格/时间线": 13,
       "引用答案": 5,
       "思维导图/知识地图": 30,
-      "结构化数据/Markdown": 53,
+      "结构化数据/Markdown": 55,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 28,
       "图表/渲染输出": 14,
       "工具索引": 24
     },
     "dependencies": {
-      "本地语言环境": 373,
-      "模型 API": 170,
-      "文档解析/OCR": 73,
-      "渲染/导出": 387,
+      "本地语言环境": 382,
+      "模型 API": 174,
+      "文档解析/OCR": 76,
+      "渲染/导出": 396,
       "GPU/加速器": 12,
-      "模板/素材": 214,
-      "Agent 宿主": 195,
-      "系统工具": 82,
-      "浏览器/账号": 126,
-      "存储/索引": 60,
-      "外部检索/数据源": 100,
-      "MCP Client": 153,
+      "模板/素材": 221,
+      "Agent 宿主": 202,
+      "系统工具": 85,
+      "浏览器/账号": 127,
+      "存储/索引": 61,
+      "外部检索/数据源": 102,
+      "MCP Client": 154,
       "代码分析工具": 32
     },
     "categories": {
-      "paper-visualization": 15,
+      "paper-visualization": 16,
       "doc-to-knowledge": 46,
       "research-report": 24,
-      "infographic-report": 37,
-      "data-dashboard": 67,
+      "infographic-report": 39,
+      "data-dashboard": 68,
       "diagram-generation": 66,
       "literature-map": 4,
-      "presentation-tools": 133,
+      "presentation-tools": 138,
       "codebase-map": 26,
       "rendering-primitive": 8,
       "video-generation": 11,
@@ -96,18 +96,18 @@
       "meta-index": 25
     },
     "groups": {
-      "paper": 27,
-      "text_visual": 49,
+      "paper": 28,
+      "text_visual": 51,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 26,
       "support_doc_parse": 14,
-      "presentation": 145,
+      "presentation": 150,
       "code": 27,
       "support_render": 47,
       "diagrams": 15,
       "video": 11,
-      "data": 62,
+      "data": 63,
       "indexes": 24,
       "diagram": 1,
       "index": 1
@@ -40867,6 +40867,497 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "ktundwal presentation-skills",
+      "url": "https://github.com/ktundwal/presentation-skills",
+      "primaryUrl": "https://github.com/ktundwal/presentation-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "Apache-2.0",
+      "updated": "2026-07-01",
+      "note": "Claude Code presentation skill collection centered on Marp decks, iterative visual QA, slide rendering to images, and vision-based checks for layout, overflow, and contrast problems.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "template",
+          "url": "https://github.com/ktundwal/presentation-skills/blob/HEAD/template/SKILL.md",
+          "source": "https://raw.githubusercontent.com/ktundwal/presentation-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Infographic Skill by kseriri",
+      "url": "https://github.com/kseriri/infographic-skill",
+      "primaryUrl": "https://github.com/kseriri/infographic-skill",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-04-09",
+      "note": "Claude Code skill and plugin that turns text prompts into infographic, business-diagram, slide-image, document-illustration, motif, and custom visual assets through Gemini and Imagen models with presets and aspect-ratio controls.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "取得はこちら",
+          "url": "https://aistudio.google.com/apikey",
+          "source": "https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Consulting",
+          "url": "https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/docs/sample-consulting.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Graphic Recording",
+          "url": "https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/docs/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kseriri/infographic-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Claude Visual Generator",
+      "url": "https://github.com/sckim-ai/claude-visual-generator",
+      "primaryUrl": "https://github.com/sckim-ai/claude-visual-generator",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-04-02",
+      "note": "Claude Code visual-material skill plugin that extracts key messages from research plans, technical reports, and seminar decks, then generates Gemini-backed infographic or diagram images with 24 layouts and 9 presentation-oriented themes.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Google AI Studio",
+          "url": "https://aistudio.google.com/apikey",
+          "source": "https://raw.githubusercontent.com/sckim-ai/claude-visual-generator/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "MCP Data Visualization Server",
+      "url": "https://github.com/xoniks/mcp-visualization-duckdb",
+      "primaryUrl": "https://github.com/xoniks/mcp-visualization-duckdb",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 19,
+      "license": "unknown",
+      "updated": "2026-03-16",
+      "note": "MCP server for Claude Desktop that turns natural-language questions over DuckDB or Databricks data into Plotly-powered interactive HTML charts, smart chart suggestions, insights, and local or enterprise database visualizations.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Development Guide",
+          "url": "https://github.com/xoniks/mcp-visualization-duckdb/blob/HEAD/docs/DEVELOPMENT.md",
+          "source": "https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "TimeStored Sample DuckDB Databases",
+          "url": "https://www.timestored.com/data/sample/duckdb",
+          "source": "https://raw.githubusercontent.com/xoniks/mcp-visualization-duckdb/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "BERIL Presentation Maker Skill",
+      "url": "https://github.com/kbaseincubator/beril-presentation-maker-skill",
+      "primaryUrl": "https://github.com/kbaseincubator/beril-presentation-maker-skill",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-06-11",
+      "note": "Claude Code skill for BERIL scientific projects that converts research plans, reports, notebooks, figures, and peer-review artifacts into evidence-grounded KBase-branded talks or posters with citations, speaker notes, Q&A, and optional AI-generated concept illustrations.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/cross-skill/PARTICIPANT-RUNBOOK.md`",
+          "url": "https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/docs/cross-skill/PARTICIPANT-RUNBOOK.md",
+          "source": "https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/",
+          "url": "https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/reference/",
+          "source": "https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "TUTORIAL.md",
+          "url": "https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/TUTORIAL.md",
+          "source": "https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "LAYOUT.md",
+          "url": "https://github.com/kbaseincubator/beril-presentation-maker-skill/blob/HEAD/LAYOUT.md",
+          "source": "https://raw.githubusercontent.com/kbaseincubator/beril-presentation-maker-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "google-slides-skill",
+      "url": "https://github.com/eranw2000/google-slides-skill",
+      "primaryUrl": "https://github.com/eranw2000/google-slides-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-02",
+      "note": "Claude Code skill that audits and redesigns Google Slides decks against source material and brand cues, edits through the Slides API, renders each touched slide to PNG, and performs visual QA for overflow, ragged columns, and overlap.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/enhance-slides-flow.drawio",
+          "url": "https://github.com/eranw2000/google-slides-skill/blob/HEAD/docs/enhance-slides-flow.drawio",
+          "source": "https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "the Google Cloud credentials console",
+          "url": "https://console.cloud.google.com/apis/credentials",
+          "source": "https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "enhance-slides flow",
+          "url": "https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/docs/enhance-slides-flow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/eranw2000/google-slides-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "deck-builder skill",
+      "url": "https://github.com/lowrentkicker/deck-builder",
+      "primaryUrl": "https://github.com/lowrentkicker/deck-builder",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "other",
+      "updated": "2026-05-28",
+      "note": "Claude Code skill for building branded native PPTX decks from source material, data, notes, or descriptions through context gathering, narrative planning, brand profiles, PptxGenJS slide generation, optional image generation, and visual QA.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "pdf2slides",
+      "url": "https://github.com/ha0ranyu/pdf2slides",
+      "primaryUrl": "https://github.com/ha0ranyu/pdf2slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 16,
+      "license": "GPL-3.0",
+      "updated": "2026-07-08",
+      "note": "Python library that converts selectable-text or scanned PDF files into editable PowerPoint slides with a three-line API, optional OCR mode, default-font controls, image retention tuning, and multilingual OCR support.",
+      "sourceTypes": [
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "PaddleOCR Multi-language Model",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_en/multi_languages_en.md",
+          "source": "https://raw.githubusercontent.com/ha0ranyu/pdf2slides/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "PPT Visual Reconstruction",
+      "url": "https://github.com/lirunjie0510/ppt-visual-reconstruction",
+      "primaryUrl": "https://github.com/lirunjie0510/ppt-visual-reconstruction",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-06-05",
+      "note": "Codex skill workflow for reconstructing slide screenshots, bitmap decks, and AI-generated slide images into high-fidelity editable PPTX files by preserving complex visuals as bitmap layers while rebuilding key text, labels, shapes, and layout elements as editable PowerPoint objects.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Source slide image",
+          "url": "https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/assets/demo/before-source.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Editable PPTX output preview",
+          "url": "https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/assets/demo/after-editable-pptx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lirunjie0510/ppt-visual-reconstruction/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
     }
   ]
 }
