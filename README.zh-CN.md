@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-481_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--10-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-486_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--11-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,19 +13,15 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-08-10)
+## Latest Refresh (2026-08-11)
 
 | Project | Catalog focus |
 | --- | --- |
-| [ktundwal presentation-skills](https://github.com/ktundwal/presentation-skills) | Presentation skill collection with Marp deck generation, rendered-slide visual QA, and overflow/contrast checks. |
-| [Infographic Skill by kseriri](https://github.com/kseriri/infographic-skill) | Claude Code infographic plugin for Gemini/Imagen business diagrams, slide images, document illustrations, and motif assets. |
-| [Claude Visual Generator](https://github.com/sckim-ai/claude-visual-generator) | Visual-material skill that extracts messages from research reports and seminar decks into Gemini-backed infographic images. |
-| [MCP Data Visualization Server](https://github.com/xoniks/mcp-visualization-duckdb) | DuckDB/Databricks MCP server for natural-language Plotly HTML charts, smart suggestions, and local or enterprise dashboards. |
-| [BERIL Presentation Maker Skill](https://github.com/kbaseincubator/beril-presentation-maker-skill) | Scientific presentation/poster skill for BERIL projects with citations, speaker notes, Q&A, and concept illustrations. |
-| [google-slides-skill](https://github.com/eranw2000/google-slides-skill) | Google Slides redesign skill that edits via Slides API, renders touched slides, and visually checks overflow and overlap. |
-| [deck-builder skill](https://github.com/lowrentkicker/deck-builder) | Branded native PPTX deck-builder skill with narrative planning, brand profiles, optional image generation, and visual QA. |
-| [pdf2slides](https://github.com/ha0ranyu/pdf2slides) | Python library that converts selectable or scanned PDFs into editable PowerPoint slides with optional OCR controls. |
-| [PPT Visual Reconstruction](https://github.com/lirunjie0510/ppt-visual-reconstruction) | Codex skill workflow for rebuilding slide screenshots and bitmap decks into high-fidelity editable PPTX files. |
+| [visual-assets](https://github.com/shaunthebuilder/visual-assets) | Local Claude Code skill for text-accurate infographics, diagrams, charts, flowcharts, and document-embedded figures with deterministic rendering and optional local diffusion. |
+| [Gemini MCP](https://github.com/houtini-ai/gemini-mcp) | Gemini-powered MCP server for grounded images, editable SVG diagrams, landing pages, videos, chart prompts, and inline MCP App previews. |
+| [mermaid-diagram-to-image](https://github.com/emdashcodes/claude-code-plugins#mermaid-diagram-to-image) | Claude Code plugin skill that converts Mermaid syntax into PNG, SVG, or PDF diagrams for documentation, presentations, and architecture sharing. |
+| [open-agent-hub](https://github.com/guanyang/open-agent-hub) | Cross-agent CLI and metadata index for linking skills, agents, and commands, including diagram, infographic, slide, and Markdown-to-HTML skills. |
+| [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | Curated Claude Code subagent directory with technical-writing, data-analysis, documentation, design, and visual-communication agents. |
 
 ## ✨ 推荐使用方式
 
@@ -241,6 +237,8 @@
 | --- | --- | --- | --- | --- |
 | [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | 文本/想法 / PDF/文档 / 数据/表格 | Skill 集合 | 信息图/视觉报告 / 报告/长文档 | Agent 宿主 / 模型 API / 本地语言环境 / 渲染/导出 |
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 文本/想法 / 数据/表格 / 代码/技术描述 | Agent Skill | 网页/交互页面 / PPT/演示文稿 / 图表/仪表盘 / 信息图/视觉报告 / 架构图/流程图 | Agent 宿主 / 模型 API / 本地语言环境 / 渲染/导出 / 模板/素材 |
+| [visual-assets](https://github.com/shaunthebuilder/visual-assets) [![Star](https://img.shields.io/github/stars/shaunthebuilder/visual-assets?style=flat&logo=github&label=Star)](https://github.com/shaunthebuilder/visual-assets/stargazers) | Text/ideas / Data/tables / Code/technical text / Any/multi-source | Agent skill | Infographic/visual report / Architecture/flow diagram / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / GPU/accelerator / Templates/assets |
+| [Gemini MCP](https://github.com/houtini-ai/gemini-mcp) [![Star](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=flat&logo=github&label=Star)](https://github.com/houtini-ai/gemini-mcp/stargazers) | Text/ideas / Web/search / News/intelligence / Data/tables | MCP server / API/SDK/library | SVG/PNG/PDF / Architecture/flow diagram / Infographic/visual report / Web/interactive page / Video/audio | MCP client / Model API / External search/data / Rendering/export / System tools |
 | [Journalism agent skills](https://github.com/jamditis/claude-skills-journalism) [![Star](https://img.shields.io/github/stars/jamditis/claude-skills-journalism?style=flat&logo=github&label=Star)](https://github.com/jamditis/claude-skills-journalism/stargazers) | News/intelligence / Web/search / PDF/documents / Data/tables / Text/ideas | Skill collection | Long report / Briefing/report / PPT/deck / Web/interactive page / Chart/dashboard / Infographic/visual report / Architecture/flow diagram | Agent host / Local runtime / Document parsing/OCR / External search/data / Rendering/export / Templates/assets |
 | [Infographic Agent](https://github.com/ryanbaumann/infographic-agent) [![Star](https://img.shields.io/github/stars/ryanbaumann/infographic-agent?style=flat&logo=github&label=Star)](https://github.com/ryanbaumann/infographic-agent/stargazers) | PDF/文档 / 网页/搜索结果 / 数据/表格 / 文本/想法 | 开源应用/框架 / Agent Skill | 信息图/视觉报告 / 图形摘要/信息图 / SVG/PNG/PDF | 浏览器/账号 / 本地语言环境 / Model API / 文档解析/OCR / 渲染/导出 / 存储/索引 |
 | [README Generator Skill](https://github.com/geekjourneyx/readme-generator) [![Star](https://img.shields.io/github/stars/geekjourneyx/readme-generator?style=flat&logo=github&label=Star)](https://github.com/geekjourneyx/readme-generator/stargazers) | Codebase / Text/ideas | Agent skill | Infographic/visual report / Long report / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets |
@@ -526,6 +524,7 @@
 | [mermaid-skill](https://github.com/Agents365-ai/mermaid-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/mermaid-skill/stargazers) | 文本/想法 / 代码/技术描述 | Agent Skill | 图表/Mermaid / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 |
 | [Mermaid Skill for Claude Code](https://github.com/WH-2099/mermaid-skill) [![Star](https://img.shields.io/github/stars/WH-2099/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/WH-2099/mermaid-skill/stargazers) | 文本/想法 / 代码/技术描述 / DSL/代码 | Agent Skill | 图表/Mermaid / 架构图/流程图 / 白板/思维导图 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 |
 | [drawing-skills](https://github.com/aniryou/drawing-skills) [![Star](https://img.shields.io/github/stars/aniryou/drawing-skills?style=flat&logo=github&label=Star)](https://github.com/aniryou/drawing-skills/stargazers) | 文本/想法 / 代码/技术描述 / DSL/代码 | Skill 集合 | 图表/Mermaid / 架构图/流程图 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
+| [mermaid-diagram-to-image](https://github.com/emdashcodes/claude-code-plugins#mermaid-diagram-to-image) [![Star](https://img.shields.io/github/stars/emdashcodes/claude-code-plugins?style=flat&logo=github&label=Star)](https://github.com/emdashcodes/claude-code-plugins/stargazers) | DSL/code / Code/technical text / Text/ideas | Agent skill / Skill collection | Diagram/Mermaid / Architecture/flow diagram / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export |
 | [Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills) [![Star](https://img.shields.io/github/stars/imxv/Pretty-mermaid-skills?style=flat&logo=github&label=Star)](https://github.com/imxv/Pretty-mermaid-skills/stargazers) | 文本/想法 / 代码/技术描述 | Agent Skill | 图表/Mermaid / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 |
 | [agent-toolkit mermaid diagrams](https://github.com/softaworks/agent-toolkit) [![Star](https://img.shields.io/github/stars/softaworks/agent-toolkit?style=flat&logo=github&label=Star)](https://github.com/softaworks/agent-toolkit/stargazers) | 文本/想法 / 代码/技术描述 | Skill 集合 | 图表/Mermaid / SVG/PNG/PDF | Agent 宿主 / 模型 API / 渲染/导出 |
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) [![Star](https://img.shields.io/github/stars/lukilabs/beautiful-mermaid?style=flat&logo=github&label=Star)](https://github.com/lukilabs/beautiful-mermaid/stargazers) | DSL/代码 | API/SDK/库 | 图表/Mermaid / SVG/PNG/PDF | 本地语言环境 / 渲染/导出 |
@@ -668,6 +667,8 @@ GitHub 项目的 Star 徽章直接放在项目名后面，尽量使用实时 bad
 
 | 项目 | 覆盖范围 | 工具形态 | 适合用来找什么 |
 | --- | --- | --- | --- |
+| [open-agent-hub](https://github.com/guanyang/open-agent-hub) [![Star](https://img.shields.io/github/stars/guanyang/open-agent-hub?style=flat&logo=github&label=Star)](https://github.com/guanyang/open-agent-hub/stargazers) | Any/multi-source / Text/ideas / Code/technical text | Awesome/index / Skill collection | Cross-agent skill, agent, and command manager with indexed diagram, infographic, slide, Markdown-to-HTML, and image-card skills. |
+| [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) [![Star](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat&logo=github&label=Star)](https://github.com/VoltAgent/awesome-claude-code-subagents/stargazers) | Any/multi-source / Text/ideas / Data/tables / Code/technical text | Awesome/index / Bot/assistant | Claude Code subagent directory for technical writing, data analysis, documentation, design, and visual communication. |
 | [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) [![Star](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=flat&logo=github&label=Star)](https://github.com/VoltAgent/awesome-agent-skills/stargazers) | 任意/多源 | Awesome/索引 | 大型 Agent Skill 目录。 |
 | [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) [![Star](https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat&logo=github&label=Star)](https://github.com/ComposioHQ/awesome-claude-skills/stargazers) | 任意/多源 | Awesome/索引 | Claude Skills 目录，覆盖可视化、数据、文档、自动化和 MCP 发现。 |
 | [awesome-claude-design](https://github.com/rohitg00/awesome-claude-design) [![Star](https://img.shields.io/github/stars/rohitg00/awesome-claude-design?style=flat&logo=github&label=Star)](https://github.com/rohitg00/awesome-claude-design/stargazers) | Any/multi-source / Web/search | Awesome/index | Claude Design DESIGN.md prompts, aesthetic families, recipes, skills, and visual references for agent-made artifacts. |

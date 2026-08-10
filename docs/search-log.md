@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-10.
+Last researched: 2026-08-11.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-11: refreshed local visual-asset skills, Gemini-backed MCP visual generation, Mermaid diagram export plugins, cross-agent skill registries, and Claude Code subagent indexes from official GitHub repositories, project READMEs, product pages, live web/GitHub searches, and GitHub metadata. This pass added visual-assets, Gemini MCP, mermaid-diagram-to-image, open-agent-hub, and Awesome Claude Code Subagents. The targeted scraper ran only against these five new records, fetched six official sources successfully with no failed fetches, and found twelve official docs links plus five artifact preview assets after scrubbing non-project homepage media, sponsor images, and setup-key URLs.
 
 Update on 2026-08-10: refreshed presentation visual-QA skills, infographic/image-generation skills, DuckDB/Databricks visualization MCP, scientific poster/deck skills, Google Slides redesign automation, branded PPTX deck generation, PDF-to-editable-slide conversion, and bitmap-slide reconstruction surfaces from official GitHub repositories, README evidence, live web/GitHub searches, and GitHub metadata. This pass added ktundwal presentation-skills, Infographic Skill by kseriri, Claude Visual Generator, MCP Data Visualization Server, BERIL Presentation Maker Skill, google-slides-skill, deck-builder skill, pdf2slides, and PPT Visual Reconstruction. The targeted scraper ran only against these nine new records, fetched all nine official GitHub README sources successfully, and found four official examples, five official effect assets, and nine official docs links; public credential setup documentation links were reviewed as docs references, not credentials.
 

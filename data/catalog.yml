@@ -1,4 +1,4 @@
-last_researched: '2026-08-10'
+last_researched: '2026-08-11'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -12162,3 +12162,142 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: visual-assets
+  url: https://github.com/shaunthebuilder/visual-assets
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - GPU/加速器
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-07-24'
+  note: Local Claude Code skill for generating text-accurate diagrams, infographics, data visualizations, architecture maps, flowcharts, and document-embedded figures through deterministic HTML/SVG/D2/Graphviz rendering, optional local diffusion imagery, and portable self-contained exports.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Gemini MCP
+  url: https://github.com/houtini-ai/gemini-mcp
+  homepage: https://houtini.com/tools/gemini-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  stars: 29
+  license: Apache-2.0
+  updated: '2026-08-08'
+  note: Gemini MCP server for Claude and other MCP clients that creates grounded images, editable SVG diagrams, self-contained landing pages, videos, and chart prompts with inline MCP App previews and Google Search grounding.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - SVG/PNG/PDF
+  - 架构图/流程图
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: text_visual
+- name: mermaid-diagram-to-image
+  url: https://github.com/emdashcodes/claude-code-plugins#mermaid-diagram-to-image
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 13
+  license: MIT
+  updated: '2026-07-15'
+  note: Claude Code plugin skill and slash command that converts Mermaid syntax into high-quality PNG, SVG, or PDF diagrams for documentation images, presentation flowcharts, architecture diagrams, and shareable system visuals.
+  source_types:
+  - DSL/代码
+  - 代码/技术描述
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  - Skill 集合
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams
+- name: open-agent-hub
+  url: https://github.com/guanyang/open-agent-hub
+  category: meta-index
+  surface: index
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  stars: 947
+  license: MIT
+  updated: '2026-08-10'
+  note: Zero-dependency CLI and metadata index for linking skills, agents, and commands across Claude Code, Codex, Gemini, Cursor, Trae, OpenCode, Kiro, and related assistants, including indexed diagram, infographic, slide-deck, Markdown-to-HTML, and image-card skills.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Awesome/索引
+  - Skill 集合
+  output_forms:
+  - 工具索引
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - PPT/演示文稿
+  catalog_section: indexes
+  readme_group: indexes
+- name: Awesome Claude Code Subagents
+  url: https://github.com/VoltAgent/awesome-claude-code-subagents
+  category: meta-index
+  surface: index
+  dependencies:
+  - Agent 宿主
+  - 外部检索/数据源
+  - 模板/素材
+  stars: 24192
+  license: MIT
+  updated: '2026-08-10'
+  note: Curated Claude Code subagent collection and plugin marketplace with 154+ specialist agents, including technical-writing, data-analysis, design, documentation, and visual-communication agents that produce diagrams, screenshots, flowcharts, infographics, video content, and interactive documentation elements.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Awesome/索引
+  - Bot/助手
+  output_forms:
+  - 工具索引
+  - 报告/长文档
+  - 架构图/流程图
+  - 信息图/视觉报告
+  catalog_section: indexes
+  readme_group: indexes

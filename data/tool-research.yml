@@ -1,4 +1,4 @@
-generated_at: '2026-08-09T23:05:49+00:00'
+generated_at: '2026-08-10T23:06:36+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 481
-  fetched_sources_ok: 645
+  entries: 486
+  fetched_sources_ok: 651
   fetched_sources_failed: 36
   official_examples: 1148
-  official_effect_assets: 1410
-  official_docs: 1332
+  official_effect_assets: 1415
+  official_docs: 1344
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -40959,3 +40959,252 @@ entries:
   source_headings:
   - PPT Visual Reconstruction
   - Demo
+- name: visual-assets
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/shaunthebuilder/visual-assets
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - GPU/加速器
+  - 模板/素材
+  catalog_note: Local Claude Code skill for generating text-accurate diagrams, infographics, data visualizations, architecture
+    maps, flowcharts, and document-embedded figures through deterministic HTML/SVG/D2/Graphviz rendering, optional local diffusion
+    imagery, and portable self-contained exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shaunthebuilder/visual-assets/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shaunthebuilder/visual-assets/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: visual-assets
+    bytes: 6354
+  source_headings:
+  - visual-assets
+- name: Gemini MCP
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/houtini-ai/gemini-mcp
+  homepage: https://houtini.com/tools/gemini-mcp
+  dependencies:
+  - MCP Client
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Gemini MCP server for Claude and other MCP clients that creates grounded images, editable SVG diagrams, self-contained
+    landing pages, videos, and chart prompts with inline MCP App previews and Google Search grounding.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Gemini MCP - Google Gemini image generation, video and search grounding inside Claude
+    bytes: 15404
+  - kind: homepage
+    url: https://houtini.com/tools/gemini-mcp
+    final_url: https://houtini.com/tools/gemini-mcp
+    status: 200
+    content_type: text/html
+    title: Gemini MCP Â· MCP for Claude Â· Houtini
+    description: Get grounded results, analyse images, generate diagrams or even videos from inside Claude with our Gemini
+      MCP.
+    bytes: 45271
+  official_docs: []
+  official_effect_assets:
+  - kind: image
+    title: Image preview
+    url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/main/image-preview-mcp-app.jpg
+    source: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+  - kind: image
+    title: SVG preview
+    url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/main/diagram-preview-mcp-app.jpg
+    source: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+  - kind: image
+    title: Image embed
+    url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/main/image-embed.png
+    source: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+  - kind: image
+    title: SVG embed
+    url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/main/svg-embed.png
+    source: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+  - kind: image
+    title: Video embed
+    url: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/main/video-embed.png
+    source: https://raw.githubusercontent.com/houtini-ai/gemini-mcp/HEAD/README.md
+  official_links: []
+  source_headings:
+  - Gemini MCP - Google Gemini image generation, video and search grounding inside Claude
+  - Get started in two minutes
+  - Video generation with Veo 3.1
+- name: mermaid-diagram-to-image
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/emdashcodes/claude-code-plugins#mermaid-diagram-to-image
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Claude Code plugin skill and slash command that converts Mermaid syntax into high-quality PNG, SVG, or PDF
+    diagrams for documentation images, presentation flowcharts, architecture diagrams, and shareable system visuals.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: emdashcodes/claude-code-plugins
+    bytes: 6748
+  official_docs:
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/en/docs/claude-code/overview
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Plugins Guide
+    url: https://docs.claude.com/en/docs/claude-code/plugins
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Subagents Guide
+    url: https://docs.claude.com/en/docs/claude-code/sub-agents
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Agent Skills Guide
+    url: https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Slash Commands Reference
+    url: https://docs.claude.com/en/docs/claude-code/slash-commands
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code Documentation
+    url: https://docs.claude.com/en/docs/claude-code/overview
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Plugins Guide
+    url: https://docs.claude.com/en/docs/claude-code/plugins
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Subagents Guide
+    url: https://docs.claude.com/en/docs/claude-code/sub-agents
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Agent Skills Guide
+    url: https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  - kind: docs
+    title: Slash Commands Reference
+    url: https://docs.claude.com/en/docs/claude-code/slash-commands
+    source: https://raw.githubusercontent.com/emdashcodes/claude-code-plugins/HEAD/README.md
+  source_headings:
+  - mermaid-diagram-to-image
+  - Install Mermaid diagram converter
+  - google-docs-reader
+  - Install Google Docs reader
+  - Documentation
+- name: open-agent-hub
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/guanyang/open-agent-hub
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  catalog_note: Zero-dependency CLI and metadata index for linking skills, agents, and commands across Claude Code, Codex,
+    Gemini, Cursor, Trae, OpenCode, Kiro, and related assistants, including indexed diagram, infographic, slide-deck, Markdown-to-HTML,
+    and image-card skills.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: open-agent-hub
+    bytes: 8321
+  official_docs:
+  - kind: docs
+    title: Skill Guidelines
+    url: https://github.com/guanyang/open-agent-hub/blob/HEAD/docs/Skill_Guidelines.md
+    source: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+  - kind: docs
+    title: Agent Guidelines
+    url: https://github.com/guanyang/open-agent-hub/blob/HEAD/docs/Agent_Guidelines.md
+    source: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+  - kind: docs
+    title: Command Guidelines
+    url: https://github.com/guanyang/open-agent-hub/blob/HEAD/docs/Command_Guidelines.md
+    source: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Skill Guidelines
+    url: https://github.com/guanyang/open-agent-hub/blob/HEAD/docs/Skill_Guidelines.md
+    source: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+  - kind: docs
+    title: Agent Guidelines
+    url: https://github.com/guanyang/open-agent-hub/blob/HEAD/docs/Agent_Guidelines.md
+    source: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+  - kind: docs
+    title: Command Guidelines
+    url: https://github.com/guanyang/open-agent-hub/blob/HEAD/docs/Command_Guidelines.md
+    source: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md
+  source_headings:
+  - 📖 Technical Guidelines & Documentation
+- name: Awesome Claude Code Subagents
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/VoltAgent/awesome-claude-code-subagents
+  dependencies:
+  - Agent 宿主
+  - 外部检索/数据源
+  - 模板/素材
+  catalog_note: Curated Claude Code subagent collection and plugin marketplace with 154+ specialist agents, including technical-writing,
+    data-analysis, design, documentation, and visual-communication agents that produce diagrams, screenshots, flowcharts,
+    infographics, video content, and interactive documentation elements.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Awesome Claude Code Subagents
+    bytes: 32815
+  official_docs:
+  - kind: docs
+    title: '**api-designer**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/01-core-development/api-designer.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  - kind: docs
+    title: '**fastapi-developer**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/02-language-specialists/fastapi-developer.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  - kind: docs
+    title: '**documentation-engineer**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/06-developer-experience/documentation-engineer.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  - kind: docs
+    title: '**api-documenter**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/07-specialized-domains/api-documenter.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: '**api-designer**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/01-core-development/api-designer.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  - kind: docs
+    title: '**fastapi-developer**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/02-language-specialists/fastapi-developer.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  - kind: docs
+    title: '**documentation-engineer**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/06-developer-experience/documentation-engineer.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+  - kind: docs
+    title: '**api-documenter**'
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/07-specialized-domains/api-documenter.md
+    source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
