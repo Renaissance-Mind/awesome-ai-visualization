@@ -1,4 +1,4 @@
-generated_at: '2026-08-10T23:06:36+00:00'
+generated_at: '2026-08-11T23:07:42+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 486
-  fetched_sources_ok: 651
+  entries: 496
+  fetched_sources_ok: 667
   fetched_sources_failed: 36
-  official_examples: 1148
-  official_effect_assets: 1415
-  official_docs: 1344
+  official_examples: 1186
+  official_effect_assets: 1430
+  official_docs: 1374
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -41208,3 +41208,926 @@ entries:
     title: '**api-documenter**'
     url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/HEAD/categories/07-specialized-domains/api-documenter.md
     source: https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/HEAD/README.md
+- name: humanize-presentations
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/dmmdea/humanize-presentations
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Agent skill that audits and edits existing PPTX decks to remove AI-writing tells while preserving intended
+    deck structure, speaker-note boundaries, non-English text, and PowerPoint-openable file packaging.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dmmdea/humanize-presentations/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dmmdea/humanize-presentations/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: humanize-presentations
+    bytes: 10422
+  source_headings:
+  - humanize-presentations
+- name: Paper Share Skills
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/yhbcode000/paper-share-skills
+  homepage: https://blog.yhbcode000.tech/paper-share-skills/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 模板/素材
+  catalog_note: Cross-agent paper-sharing skill suite that turns arXiv/PDF papers into SUSTech Beamer slides, video cover
+    posters, narrated landscape/portrait MP4 explainers, and Bilibili publishing metadata.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📦 论文分享技能包 | Paper Share Skills
+    bytes: 15372
+  - kind: homepage
+    url: https://blog.yhbcode000.tech/paper-share-skills/
+    final_url: https://blog.yhbcode000.tech/paper-share-skills/
+    status: 200
+    content_type: text/html
+    title: 📦 论文分享技能包 Paper Share Skills | paper-share-skills
+    description: '📦 论文分享技能包：PDF 论文 → SUSTech Beamer 幻灯片 → 配音讲解视频 → B 站投稿（Claude Code / Codex / OMP 三端通用） Paper-to-Bilibili
+      skill suite: arXiv PDF → slides → narrated MP4 → Bilibili upload'
+    bytes: 23292
+  official_examples:
+  - kind: paper
+    title: github.com/yhbcode000/paper-share-skills
+    url: https://github.com/yhbcode000/paper-share-skills
+    source: https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md
+  - kind: template
+    title: sustech-slides-template
+    url: https://github.com/yhbcode000/sustech-slides-template
+    source: https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md
+  - kind: paper
+    title: paper-share-skills
+    url: https://blog.yhbcode000.tech/paper-share-skills/
+    source: https://blog.yhbcode000.tech/paper-share-skills/
+  official_links:
+  - kind: paper
+    title: github.com/yhbcode000/paper-share-skills
+    url: https://github.com/yhbcode000/paper-share-skills
+    source: https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md
+  - kind: template
+    title: sustech-slides-template
+    url: https://github.com/yhbcode000/sustech-slides-template
+    source: https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md
+  - kind: paper
+    title: paper-share-skills
+    url: https://blog.yhbcode000.tech/paper-share-skills/
+    source: https://blog.yhbcode000.tech/paper-share-skills/
+- name: SlideForge MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/smartdatabrokers/slideforge-mcp
+  homepage: https://slideforge.dev
+  dependencies:
+  - 浏览器/账号
+  - MCP Client
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Remote MCP server and REST API that compiles typed slide intents into native editable PowerPoint files with
+    previews, fidelity manifests, template upload, dry-run validation, translation, and deck inspection/repair tools.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SlideForge MCP — PowerPoint slides for AI agents
+    bytes: 13785
+  - kind: homepage
+    url: https://slideforge.dev/
+    final_url: https://slideforge.dev/
+    status: 200
+    content_type: text/html
+    title: SlideForge — Controllable Rendering Engine for PowerPoint (API + MCP)
+    description: 'Controllable rendering engine for PowerPoint presentations. Two deterministic render modes — brief (SSG
+      intent engine) and code (python-pptx sandbox) — via REST API or native MCP. '
+    bytes: 114815
+  official_examples:
+  - kind: example
+    title: '`examples/claude-code.md`'
+    url: https://github.com/smartdatabrokers/slideforge-mcp/blob/HEAD/examples/claude-code.md
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: template
+    title: Templates
+    url: https://slideforge.dev/templates
+    source: https://slideforge.dev/
+  - kind: template
+    title: Automated Reports Weekly reports, QBRs, status decks — same template, new data, zero manual work.
+    url: https://slideforge.dev/use-cases/reporting
+    source: https://slideforge.dev/
+  - kind: demo
+    title: Playground
+    url: https://slideforge.dev/console/playground
+    source: https://slideforge.dev/
+  official_docs:
+  - kind: docs
+    title: slideforge.dev/docs/api
+    url: https://slideforge.dev/docs/api
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://slideforge.dev/docs/api/inspect
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: MCP
+    url: https://slideforge.dev/docs/mcp
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://slideforge.dev/docs/quickstart
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://slideforge.dev/docs
+    source: https://slideforge.dev/
+  - kind: docs
+    title: SaaS Products Add 'Export to PowerPoint' to your product with one API call.
+    url: https://slideforge.dev/use-cases/saas-export
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Automate Reports from Excel python-pptx vs API. Cron, Airflow, email.
+    url: https://slideforge.dev/blog/automate-powerpoint-excel-python
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Translate PPTX (32 Languages) Formatting preserved. $0.02/slide.
+    url: https://slideforge.dev/blog/translate-powerpoint-api
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Claude PowerPoint MCP
+    url: https://slideforge.dev/guides/claude-powerpoint-mcp
+    source: https://slideforge.dev/
+  - kind: docs
+    title: ChatGPT PowerPoint
+    url: https://slideforge.dev/guides/chatgpt-powerpoint
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Claude Code Guide
+    url: https://slideforge.dev/guides/claude-code-mcp
+    source: https://slideforge.dev/
+  - kind: docs
+    title: PowerPoint API Guide
+    url: https://slideforge.dev/guides/powerpoint-api
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Component Reference
+    url: https://slideforge.dev/guides/slideforge-component-reference
+    source: https://slideforge.dev/
+  official_effect_assets:
+  - kind: image
+    title: SlideForge — Controllable Rendering Engine for PowerPoint (API + MCP)
+    url: https://slideforge.dev/og-image.png
+    source: https://slideforge.dev/
+  official_links:
+  - kind: docs
+    title: slideforge.dev/docs/api
+    url: https://slideforge.dev/docs/api
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://slideforge.dev/docs/api/inspect
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: example
+    title: '`examples/claude-code.md`'
+    url: https://github.com/smartdatabrokers/slideforge-mcp/blob/HEAD/examples/claude-code.md
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: MCP
+    url: https://slideforge.dev/docs/mcp
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: Quickstart
+    url: https://slideforge.dev/docs/quickstart
+    source: https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://slideforge.dev/docs
+    source: https://slideforge.dev/
+  - kind: template
+    title: Templates
+    url: https://slideforge.dev/templates
+    source: https://slideforge.dev/
+  - kind: docs
+    title: SaaS Products Add 'Export to PowerPoint' to your product with one API call.
+    url: https://slideforge.dev/use-cases/saas-export
+    source: https://slideforge.dev/
+  - kind: template
+    title: Automated Reports Weekly reports, QBRs, status decks — same template, new data, zero manual work.
+    url: https://slideforge.dev/use-cases/reporting
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Automate Reports from Excel python-pptx vs API. Cron, Airflow, email.
+    url: https://slideforge.dev/blog/automate-powerpoint-excel-python
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Translate PPTX (32 Languages) Formatting preserved. $0.02/slide.
+    url: https://slideforge.dev/blog/translate-powerpoint-api
+    source: https://slideforge.dev/
+  - kind: demo
+    title: Playground
+    url: https://slideforge.dev/console/playground
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Claude PowerPoint MCP
+    url: https://slideforge.dev/guides/claude-powerpoint-mcp
+    source: https://slideforge.dev/
+  - kind: docs
+    title: ChatGPT PowerPoint
+    url: https://slideforge.dev/guides/chatgpt-powerpoint
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Claude Code Guide
+    url: https://slideforge.dev/guides/claude-code-mcp
+    source: https://slideforge.dev/
+  - kind: docs
+    title: PowerPoint API Guide
+    url: https://slideforge.dev/guides/powerpoint-api
+    source: https://slideforge.dev/
+  - kind: docs
+    title: Component Reference
+    url: https://slideforge.dev/guides/slideforge-component-reference
+    source: https://slideforge.dev/
+  source_headings:
+  - SlideForge MCP — PowerPoint slides for AI agents
+  - Why SlideForge
+  - Headless usage (Claude Code / Codex CLI)
+- name: mermaid-mcp by tci-nebula
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/tci-nebula/mermaid-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP server that renders Mermaid syntax to PNG, SVG, PDF, or editable draw.io XML using Mermaid CLI/Chromium
+    or Docker, with base64 inline results and optional file output paths.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tci-nebula/mermaid-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tci-nebula/mermaid-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mermaid-mcp
+    bytes: 3330
+  source_headings:
+  - 'Tool: `render_diagram`'
+  - Example
+- name: YAML Infographic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/changyiwu/yaml-infographic
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill and validation toolkit that locks an infographic's information architecture, layout, exact data,
+    citations, alt text, and visual rules in YAML before compiling image-generation prompts and checking final outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: YAML Infographic
+    bytes: 5178
+  official_examples:
+  - kind: example
+    title: 1:1 流程圖／baked
+    url: https://github.com/changyiwu/yaml-infographic/blob/HEAD/examples/process-baked/spec.yaml
+    source: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+  - kind: example
+    title: 4:5 比較圖／plate
+    url: https://github.com/changyiwu/yaml-infographic/blob/HEAD/examples/comparison-plate/spec.yaml
+    source: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 紙感立體貼紙風格黃金樣板
+    url: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/skills/yaml-infographic/assets/paper-warm-sample.png
+    source: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+  - kind: image
+    title: 科技沉穩風格黃金樣板
+    url: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/skills/yaml-infographic/assets/channel-style-tech-calm.png
+    source: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+  official_links:
+  - kind: example
+    title: 1:1 流程圖／baked
+    url: https://github.com/changyiwu/yaml-infographic/blob/HEAD/examples/process-baked/spec.yaml
+    source: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+  - kind: example
+    title: 4:5 比較圖／plate
+    url: https://github.com/changyiwu/yaml-infographic/blob/HEAD/examples/comparison-plate/spec.yaml
+    source: https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md
+- name: Open Visualization Protocol
+  category: rendering-primitive
+  surface: skill
+  primary_url: https://github.com/babarda/open-visualization-protocol
+  homepage: https://babarda.github.io/open-visualization-protocol/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-first visualization protocol with 74 chart skills, 16 design languages, deterministic SVG/PPTX renderers,
+    golden data/spec fixtures, and validation gates for repeatable, honest charts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Open Visualization Protocol
+    bytes: 15237
+  - kind: homepage
+    url: https://babarda.github.io/open-visualization-protocol/
+    final_url: https://babarda.github.io/open-visualization-protocol/
+    status: 200
+    content_type: text/html
+    title: OVP . Open Visualization Protocol
+    bytes: 17029
+  official_examples:
+  - kind: showcase
+    title: the languages gallery
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/languages/index.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: template
+    title: report-themes
+    url: https://github.com/babarda/report-themes
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Implement a renderer
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/implement.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: docs
+    title: the voice page
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/voice.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: docs
+    title: recipes
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/recipes.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: docs
+    title: 'The protocol The normative reference: object grammar, layer model, determinism contract, conformance levels, lifecycle
+      and stability policy.'
+    url: https://babarda.github.io/open-visualization-protocol/protocol.html
+    source: https://babarda.github.io/open-visualization-protocol/
+  official_links:
+  - kind: docs
+    title: Implement a renderer
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/implement.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: showcase
+    title: the languages gallery
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/languages/index.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: docs
+    title: the voice page
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/voice.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: docs
+    title: recipes
+    url: https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/recipes.html
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: template
+    title: report-themes
+    url: https://github.com/babarda/report-themes
+    source: https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md
+  - kind: docs
+    title: 'The protocol The normative reference: object grammar, layer model, determinism contract, conformance levels, lifecycle
+      and stability policy.'
+    url: https://babarda.github.io/open-visualization-protocol/protocol.html
+    source: https://babarda.github.io/open-visualization-protocol/
+  source_headings:
+  - Open Visualization Protocol
+  - browse the full gallery locally
+- name: Vela Slides
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/AgentiaPT/vela-slides
+  homepage: https://agentiapt.github.io/vela-slides/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent-native presentation engine and skill that turns conversational deck briefs into interactive React slide
+    apps, local browser/desktop presentations, editable structured deck JSON, and vector PDF exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ⛵ Vela Slides **(Alpha/Experimental Dark Factory)**
+    bytes: 17377
+  - kind: homepage
+    url: https://agentiapt.github.io/vela-slides/
+    final_url: https://agentiapt.github.io/vela-slides/
+    status: 200
+    content_type: text/html
+    title: Vela Slides — Gallery
+    description: Vela Slides — AI-native presentations. Browse and view example decks.
+    bytes: 16339
+  official_examples:
+  - kind: showcase
+    title: ▶ Browse the gallery
+    url: https://agentiapt.github.io/vela-slides/
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: demo
+    title: ▶ Open the live demo
+    url: https://claude.ai/public/artifacts/327281d4-4331-4ff8-bdbf-a436b698fe73
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: example
+    title: '`skills/vela-slides/examples/vela-demo.vela`'
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/skills/vela-slides/examples/vela-demo.vela
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: example
+    title: Q1 2026 Review Product & Engineering — Quarterly Business Review Q1 2026 — Product & Engineering Review 5 slides
+      · 5m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/business-report.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Introduction to Prompt Engineering AI Foundations Course — Spring 2026 Introduction to Prompt Engineering 5 slides
+      · 6m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/course-training.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: NovaPlay Instant cross-border payments for the gig economy NovaPay — Series A Pitch 5 slides · 4m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/startup-pitch.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Agents Close the Loop Unlike a single-shot prompt, an agent plans, acts, observes, and revises — each Agents 101
+      — Offline Study Notes Demo 2 slides · 1m · 1 section
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/study-notes-demo.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Building Resilient APIs with Edge Computing Sarah Chen — Principal Engineer, Cloudfront Systems Building Resilient
+      APIs with Edge Computing 5 slides · 5m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/tech-talk.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Vela Slides Think in slides. Let AI build them. Every slide in this deck demonstrates the fe Vela Slides — Live
+      Demo 28 slides · 24m · 6 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/vela-demo.vela
+    source: https://agentiapt.github.io/vela-slides/
+  official_docs:
+  - kind: docs
+    title: Architecture
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: docs
+    title: Dependencies
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/DEPENDENCIES.md
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: docs
+    title: security bounty program
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/SECURITY.md
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Vela Slides Screenshot
+    url: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/docs/screenshot.png
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Architecture
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: docs
+    title: Dependencies
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/DEPENDENCIES.md
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: docs
+    title: security bounty program
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/SECURITY.md
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: showcase
+    title: ▶ Browse the gallery
+    url: https://agentiapt.github.io/vela-slides/
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: demo
+    title: ▶ Open the live demo
+    url: https://claude.ai/public/artifacts/327281d4-4331-4ff8-bdbf-a436b698fe73
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: example
+    title: '`skills/vela-slides/examples/vela-demo.vela`'
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/skills/vela-slides/examples/vela-demo.vela
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/AgentiaPT/vela-slides/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md
+  - kind: example
+    title: Q1 2026 Review Product & Engineering — Quarterly Business Review Q1 2026 — Product & Engineering Review 5 slides
+      · 5m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/business-report.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Introduction to Prompt Engineering AI Foundations Course — Spring 2026 Introduction to Prompt Engineering 5 slides
+      · 6m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/course-training.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: NovaPlay Instant cross-border payments for the gig economy NovaPay — Series A Pitch 5 slides · 4m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/startup-pitch.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Agents Close the Loop Unlike a single-shot prompt, an agent plans, acts, observes, and revises — each Agents 101
+      — Offline Study Notes Demo 2 slides · 1m · 1 section
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/study-notes-demo.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Building Resilient APIs with Edge Computing Sarah Chen — Principal Engineer, Cloudfront Systems Building Resilient
+      APIs with Edge Computing 5 slides · 5m · 2 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/tech-talk.vela
+    source: https://agentiapt.github.io/vela-slides/
+  - kind: example
+    title: Vela Slides Think in slides. Let AI build them. Every slide in this deck demonstrates the fe Vela Slides — Live
+      Demo 28 slides · 24m · 6 sections
+    url: https://agentiapt.github.io/vela-slides/vela.html?deck=examples/vela-demo.vela
+    source: https://agentiapt.github.io/vela-slides/
+  source_headings:
+  - ⛵ Vela Slides **(Alpha/Experimental Dark Factory)**
+  - Get Started
+  - Examples
+  - Live Demo
+- name: Lab Meeting Report Skill
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/LikC1606/lab-meeting-report-skill
+  homepage: https://skills.sh/LikC1606/lab-meeting-report-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Research workflow skill that turns weekly notes, papers, results, figures, and blockers into evidence-grounded
+    Markdown lab-meeting reports, optional Marp/Quarto/editable-PPTX deck content, and Feishu/Notion publishing outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Lab Meeting Report
+    bytes: 10291
+  - kind: homepage
+    url: https://www.skills.sh/likc1606/lab-meeting-report-skill
+    final_url: https://www.skills.sh/likc1606/lab-meeting-report-skill
+    status: 200
+    content_type: text/html
+    title: likc1606/lab-meeting-report-skill — Agent skills
+    description: 1 agent skill from likc1606/lab-meeting-report-skill — including lab-meeting-report. Install with npx skills
+      add likc1606/lab-meeting-report-skill.
+    bytes: 51265
+  official_examples:
+  - kind: example
+    title: Weekly notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/weekly-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: paper notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/paper-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: results
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/results.csv
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Concise report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Marp deck
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/slides.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/input-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: result files
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/results
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Input notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/input-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: paper notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/papers/synthetic-retrieval-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Combined notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/input-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: results
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/results/current_experiment.csv
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: paper notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/papers/synthetic-balanced-retrieval.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: paper
+    title: versioned benchmark
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/benchmarks/v1.1-v1.2/benchmark.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: paper
+    title: claim-level self-audit
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/benchmarks/v1.1-v1.2/semantic-review-final.json
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 中文文档
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/README.zh-CN.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: Notion MCP
+    url: https://developers.notion.com/guides/mcp/overview
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: Quarto
+    url: https://quarto.org/docs/presentations/
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: evaluation design
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/docs/superpowers/specs/2026-07-13-lab-meeting-report-v1.2-quality-evaluation-design.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://skills.sh/docs
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: CLI
+    url: https://skills.sh/docs/cli
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: Customize pages
+    url: https://skills.sh/docs/customize
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: API
+    url: https://skills.sh/docs/api
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: FAQ
+    url: https://skills.sh/docs/faq
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  official_effect_assets:
+  - kind: image
+    title: Scattered weekly research material transformed into a meeting-ready, source-grounded Markdown summary
+    url: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/assets/lab-meeting-report-preview.png
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 中文文档
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/README.zh-CN.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: Notion MCP
+    url: https://developers.notion.com/guides/mcp/overview
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: Quarto
+    url: https://quarto.org/docs/presentations/
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Weekly notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/weekly-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: paper notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/paper-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: results
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/results.csv
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Concise report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Marp deck
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/slides.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/input-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: result files
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/results
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Input notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/input-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: paper notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/papers/synthetic-retrieval-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Combined notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/input-notes.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: results
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/results/current_experiment.csv
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: paper notes
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/papers/synthetic-balanced-retrieval.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: example
+    title: Report
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/report.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: evaluation design
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/docs/superpowers/specs/2026-07-13-lab-meeting-report-v1.2-quality-evaluation-design.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: paper
+    title: versioned benchmark
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/benchmarks/v1.1-v1.2/benchmark.md
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: paper
+    title: claim-level self-audit
+    url: https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/benchmarks/v1.1-v1.2/semantic-review-final.json
+    source: https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://skills.sh/docs
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: CLI
+    url: https://skills.sh/docs/cli
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: Customize pages
+    url: https://skills.sh/docs/customize
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: API
+    url: https://skills.sh/docs/api
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  - kind: docs
+    title: FAQ
+    url: https://skills.sh/docs/faq
+    source: https://www.skills.sh/likc1606/lab-meeting-report-skill
+  source_headings:
+  - Presentation Adapters
+  - Complete Examples
+- name: Echo Slides Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/xiangzhouEcho/Echo-Slides-Skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 文档解析/OCR
+  catalog_note: Agent skill that recovers deduplicated slide images and timestamp manifests from talk recordings or local
+    videos using stable-interval detection, perceptual hashes, color signatures, ffmpeg, and yt-dlp.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xiangzhouEcho/Echo-Slides-Skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xiangzhouEcho/Echo-Slides-Skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Echo Slides Skill · 从演讲视频还原幻灯片
+    bytes: 4962
+  official_effect_assets:
+  - kind: image
+    title: 39 页提取结果
+    url: https://raw.githubusercontent.com/xiangzhouEcho/Echo-Slides-Skill/HEAD/assets/contact-sheet.png
+    source: https://raw.githubusercontent.com/xiangzhouEcho/Echo-Slides-Skill/HEAD/README.md
+  source_headings:
+  - Echo Slides Skill · 从演讲视频还原幻灯片
+- name: lecture-to-notes
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/drpwchen/lecture-to-notes
+  homepage: https://drpwchen.com/posts/lecture-to-notes/
+  dependencies:
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 模型 API
+  catalog_note: Local-first lecture/conference pipeline that turns mixed recordings, audio, slide images, and PDF decks into
+    grounded Markdown notes and a synced offline HTML viewer linking video, transcript, summary, and slide evidence.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: lecture-to-notes
+    bytes: 16200
+  - kind: homepage
+    url: https://drpwchen.com/posts/lecture-to-notes/
+    final_url: https://drpwchen.com/posts/lecture-to-notes/
+    status: 200
+    content_type: text/html
+    title: 把演講影片變成真的會回去看的筆記：lecture-to-notes 開源了 | 陳柏威醫師 Po-Wei Chen, MD
+    description: 復健科的課知識藏在動作裡，大家都在錄影，沒有人回去看完。lecture-to-notes 把錄影變成三種形態的筆記：影片、逐字稿、總整理同步在一頁的網頁，加上進 Obsidian 的 markdown 與 PDF。轉錄、OCR、投影片判讀全在本機
+      GPU 跑，開源 MIT。
+    bytes: 44560
+  official_effect_assets:
+  - kind: image
+    title: 把演講影片變成真的會回去看的筆記：lecture-to-notes 開源了 | 陳柏威醫師 Po-Wei Chen, MD
+    url: https://drpwchen.com/images/cover-lecture-to-notes.webp
+    source: https://drpwchen.com/posts/lecture-to-notes/
+  - kind: image
+    title: lecture-to-notes — turn any mix of video, audio, slides and photos into structured, grounded notes
+    url: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/hero.png
+    source: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md
+  - kind: image
+    title: Synced view — summary and transcript index with a draggable floating player; the highlighted bullet follows the
+      video
+    url: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/viewer-sync.png
+    source: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md
+  - kind: image
+    title: Course hub page
+    url: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/viewer-home.png
+    source: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md
+  - kind: image
+    title: Summary view
+    url: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/viewer-summary.png
+    source: https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md
+  - kind: image
+    title: 同步視圖：總整理與逐字稿索引並排，浮動影片視窗可拖曳，高亮條目跟著影片走
+    url: https://drpwchen.com/images/lecture-viewer-sync.png
+    source: https://drpwchen.com/posts/lecture-to-notes/
+  - kind: image
+    title: 課程首頁：每段的長度與一句話重點
+    url: https://drpwchen.com/images/lecture-viewer-home.png
+    source: https://drpwchen.com/posts/lecture-to-notes/
+  - kind: image
+    title: 總整理頁：影片代號表與重點整理
+    url: https://drpwchen.com/images/lecture-viewer-summary.png
+    source: https://drpwchen.com/posts/lecture-to-notes/
+  - kind: image
+    title: 同一張流程圖投影片：OCR 只抓到 14 個字看起來像空白頁，視覺模型判定 flowchart、非文字資訊密度 0.85，整張嵌進筆記
+    url: https://drpwchen.com/images/2026-08-03-vlm-slide-triage.png
+    source: https://drpwchen.com/posts/lecture-to-notes/
+  source_headings:
+  - 'The HTML viewer: video, transcript and summary on one page'
+  - Quickstart

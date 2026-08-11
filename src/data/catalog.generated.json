@@ -1,110 +1,110 @@
 {
-  "generatedAt": "2026-08-10T23:06:36+00:00",
-  "lastResearched": "2026-08-11",
+  "generatedAt": "2026-08-11T23:07:42+00:00",
+  "lastResearched": "2026-08-12",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 486,
-    "openSource": 127,
-    "saas": 54,
-    "modelApi": 175,
-    "examples": 1148,
-    "effectAssets": 1415,
-    "docs": 1344
+    "total": 496,
+    "openSource": 129,
+    "saas": 55,
+    "modelApi": 178,
+    "examples": 1186,
+    "effectAssets": 1430,
+    "docs": 1374
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 54,
-      "PDF/文档": 159,
-      "文本/想法": 304,
-      "数据/表格": 181,
-      "代码/技术描述": 93,
-      "网页/搜索结果": 136,
+      "论文/科研资料": 56,
+      "PDF/文档": 163,
+      "文本/想法": 311,
+      "数据/表格": 185,
+      "代码/技术描述": 94,
+      "网页/搜索结果": 138,
       "代码库": 49,
-      "DSL/代码": 95,
+      "DSL/代码": 97,
       "新闻/资讯": 19,
-      "知识库/个人资料": 36,
-      "任意/多源": 66,
-      "Office 文档": 75,
+      "知识库/个人资料": 37,
+      "任意/多源": 70,
+      "Office 文档": 79,
       "引用网络": 4,
       "数据库": 43,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 127,
-      "Agent Skill": 157,
-      "Skill 集合": 42,
+      "开源应用/框架": 129,
+      "Agent Skill": 165,
+      "Skill 集合": 44,
       "数据集/评测": 2,
       "Bot/助手": 15,
-      "产品/SaaS": 54,
-      "MCP Server": 150,
+      "产品/SaaS": 55,
+      "MCP Server": 152,
       "研究原型": 5,
-      "API/SDK/库": 66,
+      "API/SDK/库": 69,
       "Awesome/索引": 24
     },
     "outputForms": {
-      "图形摘要/信息图": 35,
-      "PPT/演示文稿": 210,
-      "网页/交互页面": 149,
+      "图形摘要/信息图": 36,
+      "PPT/演示文稿": 217,
+      "网页/交互页面": 151,
       "问答/学习材料": 15,
-      "报告/长文档": 63,
-      "证据表": 26,
-      "信息图/视觉报告": 68,
-      "图表/仪表盘": 133,
-      "架构图/流程图": 111,
-      "SVG/PNG/PDF": 177,
-      "报告/简报": 57,
+      "报告/长文档": 65,
+      "证据表": 28,
+      "信息图/视觉报告": 69,
+      "图表/仪表盘": 135,
+      "架构图/流程图": 112,
+      "SVG/PNG/PDF": 184,
+      "报告/简报": 58,
       "白板/思维导图": 32,
-      "图表/Mermaid": 55,
-      "视频/音频": 36,
+      "图表/Mermaid": 56,
+      "视频/音频": 37,
       "表格/时间线": 13,
       "引用答案": 5,
       "思维导图/知识地图": 30,
-      "结构化数据/Markdown": 55,
+      "结构化数据/Markdown": 59,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 28,
-      "图表/渲染输出": 14,
+      "图表/渲染输出": 15,
       "工具索引": 26
     },
     "dependencies": {
-      "本地语言环境": 385,
-      "模型 API": 175,
-      "文档解析/OCR": 76,
-      "渲染/导出": 399,
-      "GPU/加速器": 13,
-      "模板/素材": 223,
-      "Agent 宿主": 206,
-      "系统工具": 89,
-      "浏览器/账号": 127,
+      "本地语言环境": 394,
+      "模型 API": 178,
+      "文档解析/OCR": 80,
+      "渲染/导出": 409,
+      "GPU/加速器": 15,
+      "模板/素材": 229,
+      "Agent 宿主": 213,
+      "系统工具": 95,
+      "浏览器/账号": 128,
       "存储/索引": 61,
-      "外部检索/数据源": 104,
-      "MCP Client": 155,
+      "外部检索/数据源": 106,
+      "MCP Client": 157,
       "代码分析工具": 32
     },
     "categories": {
-      "paper-visualization": 16,
-      "doc-to-knowledge": 46,
-      "research-report": 24,
-      "infographic-report": 40,
+      "paper-visualization": 17,
+      "doc-to-knowledge": 47,
+      "research-report": 25,
+      "infographic-report": 41,
       "data-dashboard": 68,
       "diagram-generation": 67,
       "literature-map": 4,
-      "presentation-tools": 138,
+      "presentation-tools": 142,
       "codebase-map": 26,
-      "rendering-primitive": 9,
+      "rendering-primitive": 11,
       "video-generation": 11,
       "commercial-site": 10,
       "meta-index": 27
     },
     "groups": {
-      "paper": 28,
-      "text_visual": 53,
+      "paper": 30,
+      "text_visual": 54,
       "web_news": 9,
       "support_mindmap": 14,
-      "docs": 26,
-      "support_doc_parse": 14,
-      "presentation": 150,
+      "docs": 27,
+      "support_doc_parse": 15,
+      "presentation": 153,
       "code": 27,
-      "support_render": 47,
+      "support_render": 49,
       "diagrams": 16,
       "video": 11,
       "data": 63,
@@ -41677,6 +41677,883 @@
       "docsCount": 4,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "humanize-presentations",
+      "url": "https://github.com/dmmdea/humanize-presentations",
+      "primaryUrl": "https://github.com/dmmdea/humanize-presentations",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "Agent skill that audits and edits existing PPTX decks to remove AI-writing tells while preserving intended deck structure, speaker-note boundaries, non-English text, and PowerPoint-openable file packaging.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Paper Share Skills",
+      "url": "https://github.com/yhbcode000/paper-share-skills",
+      "primaryUrl": "https://github.com/yhbcode000/paper-share-skills",
+      "homepage": "https://blog.yhbcode000.tech/paper-share-skills/",
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "GPU/加速器",
+        "模板/素材"
+      ],
+      "stars": 12,
+      "license": "Apache-2.0",
+      "updated": "2026-08-11",
+      "note": "Cross-agent paper-sharing skill suite that turns arXiv/PDF papers into SUSTech Beamer slides, video cover posters, narrated landscape/portrait MP4 explainers, and Bilibili publishing metadata.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "视频/音频",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "github.com/yhbcode000/paper-share-skills",
+          "url": "https://github.com/yhbcode000/paper-share-skills",
+          "source": "https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "sustech-slides-template",
+          "url": "https://github.com/yhbcode000/sustech-slides-template",
+          "source": "https://raw.githubusercontent.com/yhbcode000/paper-share-skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "paper-share-skills",
+          "url": "https://blog.yhbcode000.tech/paper-share-skills/",
+          "source": "https://blog.yhbcode000.tech/paper-share-skills/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "SlideForge MCP",
+      "url": "https://github.com/smartdatabrokers/slideforge-mcp",
+      "primaryUrl": "https://github.com/smartdatabrokers/slideforge-mcp",
+      "homepage": "https://slideforge.dev",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "浏览器/账号",
+        "MCP Client",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "Remote MCP server and REST API that compiles typed slide intents into native editable PowerPoint files with previews, fidelity manifests, template upload, dry-run validation, translation, and deck inspection/repair tools.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "产品/SaaS",
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "slideforge.dev/docs/api",
+          "url": "https://slideforge.dev/docs/api",
+          "source": "https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://slideforge.dev/docs/api/inspect",
+          "source": "https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP",
+          "url": "https://slideforge.dev/docs/mcp",
+          "source": "https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quickstart",
+          "url": "https://slideforge.dev/docs/quickstart",
+          "source": "https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://slideforge.dev/docs",
+          "source": "https://slideforge.dev/"
+        },
+        {
+          "kind": "docs",
+          "title": "SaaS Products Add 'Export to PowerPoint' to your product with one API call.",
+          "url": "https://slideforge.dev/use-cases/saas-export",
+          "source": "https://slideforge.dev/"
+        },
+        {
+          "kind": "docs",
+          "title": "Automate Reports from Excel python-pptx vs API. Cron, Airflow, email.",
+          "url": "https://slideforge.dev/blog/automate-powerpoint-excel-python",
+          "source": "https://slideforge.dev/"
+        },
+        {
+          "kind": "docs",
+          "title": "Translate PPTX (32 Languages) Formatting preserved. $0.02/slide.",
+          "url": "https://slideforge.dev/blog/translate-powerpoint-api",
+          "source": "https://slideforge.dev/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/claude-code.md`",
+          "url": "https://github.com/smartdatabrokers/slideforge-mcp/blob/HEAD/examples/claude-code.md",
+          "source": "https://raw.githubusercontent.com/smartdatabrokers/slideforge-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://slideforge.dev/templates",
+          "source": "https://slideforge.dev/"
+        },
+        {
+          "kind": "template",
+          "title": "Automated Reports Weekly reports, QBRs, status decks — same template, new data, zero manual work.",
+          "url": "https://slideforge.dev/use-cases/reporting",
+          "source": "https://slideforge.dev/"
+        },
+        {
+          "kind": "demo",
+          "title": "Playground",
+          "url": "https://slideforge.dev/console/playground",
+          "source": "https://slideforge.dev/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "SlideForge — Controllable Rendering Engine for PowerPoint (API + MCP)",
+          "url": "https://slideforge.dev/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://slideforge.dev/"
+        }
+      ],
+      "docsCount": 13,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "mermaid-mcp by tci-nebula",
+      "url": "https://github.com/tci-nebula/mermaid-mcp",
+      "primaryUrl": "https://github.com/tci-nebula/mermaid-mcp",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "MCP server that renders Mermaid syntax to PNG, SVG, PDF, or editable draw.io XML using Mermaid CLI/Chromium or Docker, with base64 inline results and optional file output paths.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF",
+        "架构图/流程图"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "YAML Infographic",
+      "url": "https://github.com/changyiwu/yaml-infographic",
+      "primaryUrl": "https://github.com/changyiwu/yaml-infographic",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-09",
+      "note": "Agent skill and validation toolkit that locks an infographic's information architecture, layout, exact data, citations, alt text, and visual rules in YAML before compiling image-generation prompts and checking final outputs.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "1:1 流程圖／baked",
+          "url": "https://github.com/changyiwu/yaml-infographic/blob/HEAD/examples/process-baked/spec.yaml",
+          "source": "https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "4:5 比較圖／plate",
+          "url": "https://github.com/changyiwu/yaml-infographic/blob/HEAD/examples/comparison-plate/spec.yaml",
+          "source": "https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "紙感立體貼紙風格黃金樣板",
+          "url": "https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/skills/yaml-infographic/assets/paper-warm-sample.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "科技沉穩風格黃金樣板",
+          "url": "https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/skills/yaml-infographic/assets/channel-style-tech-calm.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/changyiwu/yaml-infographic/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Open Visualization Protocol",
+      "url": "https://github.com/babarda/open-visualization-protocol",
+      "primaryUrl": "https://github.com/babarda/open-visualization-protocol",
+      "homepage": "https://babarda.github.io/open-visualization-protocol/",
+      "category": "rendering-primitive",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-09",
+      "note": "Agent-first visualization protocol with 74 chart skills, 16 design languages, deterministic SVG/PPTX renderers, golden data/spec fixtures, and validation gates for repeatable, honest charts.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "Skill 集合",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Implement a renderer",
+          "url": "https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/implement.html",
+          "source": "https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "the voice page",
+          "url": "https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/voice.html",
+          "source": "https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "recipes",
+          "url": "https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/recipes.html",
+          "source": "https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "The protocol The normative reference: object grammar, layer model, determinism contract, conformance levels, lifecycle and stability policy.",
+          "url": "https://babarda.github.io/open-visualization-protocol/protocol.html",
+          "source": "https://babarda.github.io/open-visualization-protocol/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "the languages gallery",
+          "url": "https://github.com/babarda/open-visualization-protocol/blob/HEAD/docs/languages/index.html",
+          "source": "https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "report-themes",
+          "url": "https://github.com/babarda/report-themes",
+          "source": "https://raw.githubusercontent.com/babarda/open-visualization-protocol/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Vela Slides",
+      "url": "https://github.com/AgentiaPT/vela-slides",
+      "primaryUrl": "https://github.com/AgentiaPT/vela-slides",
+      "homepage": "https://agentiapt.github.io/vela-slides/",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "Elastic-2.0",
+      "updated": "2026-08-11",
+      "note": "Agent-native presentation engine and skill that turns conversational deck briefs into interactive React slide apps, local browser/desktop presentations, editable structured deck JSON, and vector PDF exports.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Dependencies",
+          "url": "https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/DEPENDENCIES.md",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "security bounty program",
+          "url": "https://github.com/AgentiaPT/vela-slides/blob/HEAD/docs/SECURITY.md",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.claude.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "▶ Browse the gallery",
+          "url": "https://agentiapt.github.io/vela-slides/",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "▶ Open the live demo",
+          "url": "https://claude.ai/public/artifacts/327281d4-4331-4ff8-bdbf-a436b698fe73",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`skills/vela-slides/examples/vela-demo.vela`",
+          "url": "https://github.com/AgentiaPT/vela-slides/blob/HEAD/skills/vela-slides/examples/vela-demo.vela",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/AgentiaPT/vela-slides/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Q1 2026 Review Product & Engineering — Quarterly Business Review Q1 2026 — Product & Engineering Review 5 slides · 5m · 2 sections",
+          "url": "https://agentiapt.github.io/vela-slides/vela.html?deck=examples/business-report.vela",
+          "source": "https://agentiapt.github.io/vela-slides/"
+        },
+        {
+          "kind": "example",
+          "title": "Introduction to Prompt Engineering AI Foundations Course — Spring 2026 Introduction to Prompt Engineering 5 slides · 6m · 2 sections",
+          "url": "https://agentiapt.github.io/vela-slides/vela.html?deck=examples/course-training.vela",
+          "source": "https://agentiapt.github.io/vela-slides/"
+        },
+        {
+          "kind": "example",
+          "title": "NovaPlay Instant cross-border payments for the gig economy NovaPay — Series A Pitch 5 slides · 4m · 2 sections",
+          "url": "https://agentiapt.github.io/vela-slides/vela.html?deck=examples/startup-pitch.vela",
+          "source": "https://agentiapt.github.io/vela-slides/"
+        },
+        {
+          "kind": "example",
+          "title": "Agents Close the Loop Unlike a single-shot prompt, an agent plans, acts, observes, and revises — each Agents 101 — Offline Study Notes Demo 2 slides · 1m · 1 section",
+          "url": "https://agentiapt.github.io/vela-slides/vela.html?deck=examples/study-notes-demo.vela",
+          "source": "https://agentiapt.github.io/vela-slides/"
+        },
+        {
+          "kind": "example",
+          "title": "Building Resilient APIs with Edge Computing Sarah Chen — Principal Engineer, Cloudfront Systems Building Resilient APIs with Edge Computing 5 slides · 5m · 2 sections",
+          "url": "https://agentiapt.github.io/vela-slides/vela.html?deck=examples/tech-talk.vela",
+          "source": "https://agentiapt.github.io/vela-slides/"
+        },
+        {
+          "kind": "example",
+          "title": "Vela Slides Think in slides. Let AI build them. Every slide in this deck demonstrates the fe Vela Slides — Live Demo 28 slides · 24m · 6 sections",
+          "url": "https://agentiapt.github.io/vela-slides/vela.html?deck=examples/vela-demo.vela",
+          "source": "https://agentiapt.github.io/vela-slides/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Vela Slides Screenshot",
+          "url": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/docs/screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 10,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Lab Meeting Report Skill",
+      "url": "https://github.com/LikC1606/lab-meeting-report-skill",
+      "primaryUrl": "https://github.com/LikC1606/lab-meeting-report-skill",
+      "homepage": "https://skills.sh/LikC1606/lab-meeting-report-skill",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "Research workflow skill that turns weekly notes, papers, results, figures, and blockers into evidence-grounded Markdown lab-meeting reports, optional Marp/Quarto/editable-PPTX deck content, and Feishu/Notion publishing outputs.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "报告/简报",
+        "PPT/演示文稿",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文文档",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/README.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Notion MCP",
+          "url": "https://developers.notion.com/guides/mcp/overview",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Quarto",
+          "url": "https://quarto.org/docs/presentations/",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "evaluation design",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/docs/superpowers/specs/2026-07-13-lab-meeting-report-v1.2-quality-evaluation-design.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://skills.sh/docs",
+          "source": "https://www.skills.sh/likc1606/lab-meeting-report-skill"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI",
+          "url": "https://skills.sh/docs/cli",
+          "source": "https://www.skills.sh/likc1606/lab-meeting-report-skill"
+        },
+        {
+          "kind": "docs",
+          "title": "Customize pages",
+          "url": "https://skills.sh/docs/customize",
+          "source": "https://www.skills.sh/likc1606/lab-meeting-report-skill"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://skills.sh/docs/api",
+          "source": "https://www.skills.sh/likc1606/lab-meeting-report-skill"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Weekly notes",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/weekly-notes.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "paper notes",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/paper-notes.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "results",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/results.csv",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Concise report",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/report.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Marp deck",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/weekly-summary/slides.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Notes",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/input-notes.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "result files",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/results",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Report",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/research-progress/report.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Input notes",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/input-notes.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "paper notes",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/papers/synthetic-retrieval-notes.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Report",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/journal-club/report.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Combined notes",
+          "url": "https://github.com/LikC1606/lab-meeting-report-skill/blob/HEAD/examples/mixed/input-notes.md",
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Scattered weekly research material transformed into a meeting-ready, source-grounded Markdown summary",
+          "url": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/assets/lab-meeting-report-preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LikC1606/lab-meeting-report-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 17,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Echo Slides Skill",
+      "url": "https://github.com/xiangzhouEcho/Echo-Slides-Skill",
+      "primaryUrl": "https://github.com/xiangzhouEcho/Echo-Slides-Skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "文档解析/OCR"
+      ],
+      "stars": 5,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "Agent skill that recovers deduplicated slide images and timestamp manifests from talk recordings or local videos using stable-interval detection, perceptual hashes, color signatures, ffmpeg, and yt-dlp.",
+      "sourceTypes": [
+        "任意/多源",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "39 页提取结果",
+          "url": "https://raw.githubusercontent.com/xiangzhouEcho/Echo-Slides-Skill/HEAD/assets/contact-sheet.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xiangzhouEcho/Echo-Slides-Skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "lecture-to-notes",
+      "url": "https://github.com/drpwchen/lecture-to-notes",
+      "primaryUrl": "https://github.com/drpwchen/lecture-to-notes",
+      "homepage": "https://drpwchen.com/posts/lecture-to-notes/",
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "GPU/加速器",
+        "模型 API"
+      ],
+      "stars": 95,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "Local-first lecture/conference pipeline that turns mixed recordings, audio, slide images, and PDF decks into grounded Markdown notes and a synced offline HTML viewer linking video, transcript, summary, and slide evidence.",
+      "sourceTypes": [
+        "任意/多源",
+        "PDF/文档",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "报告/长文档",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "把演講影片變成真的會回去看的筆記：lecture-to-notes 開源了 | 陳柏威醫師 Po-Wei Chen, MD",
+          "url": "https://drpwchen.com/images/cover-lecture-to-notes.webp",
+          "thumbnailUrl": null,
+          "source": "https://drpwchen.com/posts/lecture-to-notes/"
+        },
+        {
+          "kind": "image",
+          "title": "lecture-to-notes — turn any mix of video, audio, slides and photos into structured, grounded notes",
+          "url": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Synced view — summary and transcript index with a draggable floating player; the highlighted bullet follows the video",
+          "url": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/viewer-sync.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Course hub page",
+          "url": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/viewer-home.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Summary view",
+          "url": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/docs/assets/viewer-summary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/drpwchen/lecture-to-notes/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "同步視圖：總整理與逐字稿索引並排，浮動影片視窗可拖曳，高亮條目跟著影片走",
+          "url": "https://drpwchen.com/images/lecture-viewer-sync.png",
+          "thumbnailUrl": null,
+          "source": "https://drpwchen.com/posts/lecture-to-notes/"
+        },
+        {
+          "kind": "image",
+          "title": "課程首頁：每段的長度與一句話重點",
+          "url": "https://drpwchen.com/images/lecture-viewer-home.png",
+          "thumbnailUrl": null,
+          "source": "https://drpwchen.com/posts/lecture-to-notes/"
+        },
+        {
+          "kind": "image",
+          "title": "總整理頁：影片代號表與重點整理",
+          "url": "https://drpwchen.com/images/lecture-viewer-summary.png",
+          "thumbnailUrl": null,
+          "source": "https://drpwchen.com/posts/lecture-to-notes/"
+        },
+        {
+          "kind": "image",
+          "title": "同一張流程圖投影片：OCR 只抓到 14 個字看起來像空白頁，視覺模型判定 flowchart、非文字資訊密度 0.85，整張嵌進筆記",
+          "url": "https://drpwchen.com/images/2026-08-03-vlm-slide-triage.png",
+          "thumbnailUrl": null,
+          "source": "https://drpwchen.com/posts/lecture-to-notes/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 9
     }
   ]
 }

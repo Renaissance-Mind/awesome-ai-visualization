@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-11.
+Last researched: 2026-08-12.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-12: refreshed deck-cleanup skills, paper-to-video sharing pipelines, remote PowerPoint MCP/API generation, Mermaid-to-image/draw.io rendering, YAML-governed infographic generation, deterministic chart protocols, agent-native slide apps, lab-meeting reporting, video-to-slide recovery, and lecture-to-notes viewers from official GitHub repositories, product pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added humanize-presentations, Paper Share Skills, SlideForge MCP, mermaid-mcp by tci-nebula, YAML Infographic, Open Visualization Protocol, Vela Slides, Lab Meeting Report Skill, Echo Slides Skill, and lecture-to-notes. The targeted scraper ran only against these ten new records, fetched sixteen official sources successfully with no failed fetches, and found thirty-eight official examples, fifteen official preview assets, and thirty official docs links.
 
 Update on 2026-08-11: refreshed local visual-asset skills, Gemini-backed MCP visual generation, Mermaid diagram export plugins, cross-agent skill registries, and Claude Code subagent indexes from official GitHub repositories, project READMEs, product pages, live web/GitHub searches, and GitHub metadata. This pass added visual-assets, Gemini MCP, mermaid-diagram-to-image, open-agent-hub, and Awesome Claude Code Subagents. The targeted scraper ran only against these five new records, fetched six official sources successfully with no failed fetches, and found twelve official docs links plus five artifact preview assets after scrubbing non-project homepage media, sponsor images, and setup-key URLs.
 
