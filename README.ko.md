@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-486_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--11-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-496_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--12-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,15 +15,20 @@
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
 
-## Latest Refresh (2026-08-11)
+## Latest Refresh (2026-08-12)
 
 | Project | Catalog focus |
 | --- | --- |
-| [visual-assets](https://github.com/shaunthebuilder/visual-assets) | Local Claude Code skill for text-accurate infographics, diagrams, charts, flowcharts, and document-embedded figures with deterministic rendering and optional local diffusion. |
-| [Gemini MCP](https://github.com/houtini-ai/gemini-mcp) | Gemini-powered MCP server for grounded images, editable SVG diagrams, landing pages, videos, chart prompts, and inline MCP App previews. |
-| [mermaid-diagram-to-image](https://github.com/emdashcodes/claude-code-plugins#mermaid-diagram-to-image) | Claude Code plugin skill that converts Mermaid syntax into PNG, SVG, or PDF diagrams for documentation, presentations, and architecture sharing. |
-| [open-agent-hub](https://github.com/guanyang/open-agent-hub) | Cross-agent CLI and metadata index for linking skills, agents, and commands, including diagram, infographic, slide, and Markdown-to-HTML skills. |
-| [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | Curated Claude Code subagent directory with technical-writing, data-analysis, documentation, design, and visual-communication agents. |
+| [humanize-presentations](https://github.com/dmmdea/humanize-presentations) | Agent skill for auditing and editing existing PPTX decks to remove AI-writing tells while preserving intended structure, speaker-note boundaries, non-English text, and valid PowerPoint packaging. |
+| [Paper Share Skills](https://github.com/yhbcode000/paper-share-skills) | Cross-agent paper-sharing suite for arXiv/PDF papers to Beamer slides, cover posters, narrated MP4 explainers, and Bilibili publishing metadata. |
+| [SlideForge MCP](https://github.com/smartdatabrokers/slideforge-mcp) | Remote MCP server and REST API that compiles typed slide intents into native editable PowerPoint with previews, fidelity manifests, dry-run validation, and deck repair. |
+| [mermaid-mcp by tci-nebula](https://github.com/tci-nebula/mermaid-mcp) | MCP server that renders Mermaid syntax to PNG, SVG, PDF, or editable draw.io XML for LLM clients and document workflows. |
+| [YAML Infographic](https://github.com/changyiwu/yaml-infographic) | Agent skill that locks information architecture, layout, exact data, citations, alt text, and visual rules in YAML before image generation. |
+| [Open Visualization Protocol](https://github.com/babarda/open-visualization-protocol) | Agent-first protocol with chart skills, design languages, deterministic SVG/PPTX renderers, golden fixtures, and validation gates for repeatable charts. |
+| [Vela Slides](https://github.com/AgentiaPT/vela-slides) | Agent-native presentation engine and skill for conversational briefs to interactive React slide apps, local/desktop decks, structured JSON, and vector PDF exports. |
+| [Lab Meeting Report Skill](https://github.com/LikC1606/lab-meeting-report-skill) | Research workflow skill for weekly notes, papers, results, and figures to evidence-grounded reports plus optional Marp, Quarto, or editable-PPTX content. |
+| [Echo Slides Skill](https://github.com/xiangzhouEcho/Echo-Slides-Skill) | Agent skill that recovers deduplicated slide images and timestamp manifests from talk recordings or local videos. |
+| [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) | Local-first lecture pipeline that builds grounded Markdown notes and a synced offline HTML viewer linking video, transcript, summary, and slide evidence. |
 
 ## ✨ 추천 사용법
 
@@ -88,6 +93,8 @@
 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
+| [Paper Share Skills](https://github.com/yhbcode000/paper-share-skills) [![Star](https://img.shields.io/github/stars/yhbcode000/paper-share-skills?style=flat&logo=github&label=Star)](https://github.com/yhbcode000/paper-share-skills/stargazers) | Papers/research / PDF/documents | Skill collection / Agent skill | PPT/deck / Video/audio / Graphical abstract/infographic | Agent host / Local runtime / System tools / Document parsing/OCR / Rendering/export / GPU/accelerator / Templates/assets |
+| [Lab Meeting Report Skill](https://github.com/LikC1606/lab-meeting-report-skill) [![Star](https://img.shields.io/github/stars/LikC1606/lab-meeting-report-skill?style=flat&logo=github&label=Star)](https://github.com/LikC1606/lab-meeting-report-skill/stargazers) | Papers/research / PDF/documents / Data/tables / Knowledge base | Agent skill | Long report / Briefing/report / PPT/deck / Evidence table / Structured data/Markdown | Agent host / Local runtime / Document parsing/OCR / External search/data / Rendering/export / Templates/assets |
 | [GPT Researcher](https://github.com/assafelovic/gpt-researcher) [![Star](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&logo=github&label=Star)](https://github.com/assafelovic/gpt-researcher/stargazers) | 웹/검색 / 뉴스/인텔리전스 | 오픈소스 앱/프레임워크 | 긴 보고서 / 출처 있는 답변 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 스토리지/인덱스 |
 | [STORM](https://github.com/stanford-oval/storm) [![Star](https://img.shields.io/github/stars/stanford-oval/storm?style=flat&logo=github&label=Star)](https://github.com/stanford-oval/storm/stargazers) | 웹/검색 / 뉴스/인텔리전스 | 오픈소스 앱/프레임워크 | 긴 보고서 / 출처 있는 답변 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 스토리지/인덱스 |
 | [Scira](https://github.com/zaidmukaddam/scira) [![Star](https://img.shields.io/github/stars/zaidmukaddam/scira?style=flat&logo=github&label=Star)](https://github.com/zaidmukaddam/scira/stargazers) | 웹/검색 / 뉴스/인텔리전스 | 오픈소스 앱/프레임워크 / Bot/어시스턴트 | 긴 보고서 / 출처 있는 답변 | 로컬 런타임 / 모델 API / 외부 검색/데이터 / 스토리지/인덱스 |
@@ -169,6 +176,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
+| [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) [![Star](https://img.shields.io/github/stars/drpwchen/lecture-to-notes?style=flat&logo=github&label=Star)](https://github.com/drpwchen/lecture-to-notes/stargazers) | Any/multi-source / PDF/documents / Office docs / Text/ideas | Open-source app/framework / Agent skill | Web/interactive page / Long report / Structured data/Markdown / SVG/PNG/PDF | Local runtime / System tools / Document parsing/OCR / Rendering/export / GPU/accelerator / Model API |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | 데이터/표 / 텍스트/아이디어 | Agent Skill | 차트/대시보드 / 인포그래픽/비주얼 리포트 / 브리핑/리포트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
@@ -307,6 +315,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [animated-diagram](https://github.com/mkierin/animated-diagram) [![Star](https://img.shields.io/github/stars/mkierin/animated-diagram?style=flat&logo=github&label=Star)](https://github.com/mkierin/animated-diagram/stargazers) | Text/ideas / Code/technical text | Agent skill | Video/audio / Web/interactive page / Architecture/flow diagram / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [remotion-motion-graphics-skill](https://github.com/liamrjohnston30/remotion-motion-graphics-skill) [![Star](https://img.shields.io/github/stars/liamrjohnston30/remotion-motion-graphics-skill?style=flat&logo=github&label=Star)](https://github.com/liamrjohnston30/remotion-motion-graphics-skill/stargazers) | Text/ideas / Code/technical text | Agent skill | Video/audio / Architecture/flow diagram | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [NextFrame](https://github.com/ChaosRealmsAI/NextFrame) [![Star](https://img.shields.io/github/stars/ChaosRealmsAI/NextFrame?style=flat&logo=github&label=Star)](https://github.com/ChaosRealmsAI/NextFrame/stargazers) | DSL/코드 / 텍스트/아이디어 | 오픈소스 앱/프레임워크 | 비디오/오디오 / 웹/인터랙티브 페이지 | 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 |
+| [YAML Infographic](https://github.com/changyiwu/yaml-infographic) [![Star](https://img.shields.io/github/stars/changyiwu/yaml-infographic?style=flat&logo=github&label=Star)](https://github.com/changyiwu/yaml-infographic/stargazers) | Text/ideas / Data/tables / Web/search | Agent skill | Infographic/visual report / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [Helios](https://github.com/BintzGavin/helios) [![Star](https://img.shields.io/github/stars/BintzGavin/helios?style=flat&logo=github&label=Star)](https://github.com/BintzGavin/helios/stargazers) | DSL/코드 / 텍스트/아이디어 | API/SDK/라이브러리 / Agent Skill | 비디오/오디오 / 웹/인터랙티브 페이지 | 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 / Agent 호스트 |
 | [OpenMontage](https://github.com/calesthio/OpenMontage) [![Star](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat&logo=github&label=Star)](https://github.com/calesthio/OpenMontage/stargazers) | 텍스트/아이디어 / 웹/검색 / 뉴스 | 오픈소스 앱/프레임워크 | 비디오/오디오 | Agent 호스트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 / 시스템 도구 |
 | [ralphy](https://github.com/alecs5am/ralphy) [![Star](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat&logo=github&label=Star)](https://github.com/alecs5am/ralphy/stargazers) | 텍스트/아이디어 / 웹/검색 | 오픈소스 앱/프레임워크 | 비디오/오디오 | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 시스템 도구 / 저장소/인덱스 |
@@ -320,6 +329,9 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
+| [humanize-presentations](https://github.com/dmmdea/humanize-presentations) [![Star](https://img.shields.io/github/stars/dmmdea/humanize-presentations?style=flat&logo=github&label=Star)](https://github.com/dmmdea/humanize-presentations/stargazers) | Office docs / Text/ideas | Agent skill | PPT/deck / Evidence table | Agent host / Local runtime / System tools / Rendering/export |
+| [SlideForge MCP](https://github.com/smartdatabrokers/slideforge-mcp) [![Star](https://img.shields.io/github/stars/smartdatabrokers/slideforge-mcp?style=flat&logo=github&label=Star)](https://github.com/smartdatabrokers/slideforge-mcp/stargazers) | Text/ideas / Data/tables / Office docs / Any/multi-source | Product/SaaS / MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | Browser/account / MCP client / Model API / External search/data / Rendering/export / Templates/assets |
+| [Vela Slides](https://github.com/AgentiaPT/vela-slides) [![Star](https://img.shields.io/github/stars/AgentiaPT/vela-slides?style=flat&logo=github&label=Star)](https://github.com/AgentiaPT/vela-slides/stargazers) | Text/ideas / PDF/documents / Web/search / Any/multi-source | Open-source app/framework / Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 / API/SDK/라이브러리 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / MCP 클라이언트 / 템플릿/자산 |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | 텍스트/아이디어 / 데이터/표 / PDF/문서 | 오픈소스 앱/프레임워크 / 제품/SaaS | PPT/덱 / 웹/인터랙티브 페이지 / 차트/대시보드 | 브라우저/계정 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
@@ -512,6 +524,7 @@ PDF, 논문, Office 파일, 스캔을 Markdown, JSON, 레이아웃, 표, OCR 결
 | [Mind Map Wizard](https://github.com/linus-sch/Mind-Map-Wizard) [![Star](https://img.shields.io/github/stars/linus-sch/Mind-Map-Wizard?style=flat&logo=github&label=Star)](https://github.com/linus-sch/Mind-Map-Wizard/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 / 지식 베이스 | 오픈소스 앱/프레임워크 / Product/SaaS | 마인드맵/지식 지도 / Q&A/학습 자료 / SVG/PNG/PDF | 브라우저/계정 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
 | [Mind Map Generator Skill](https://github.com/0x-man/mindmap-skill) [![Star](https://img.shields.io/github/stars/0x-man/mindmap-skill?style=flat&logo=github&label=Star)](https://github.com/0x-man/mindmap-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 / 지식 베이스 | Agent skill | 마인드맵/지식 지도 / 웹/인터랙티브 페이지 / SVG/PNG/PDF / 다이어그램/Mermaid | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 저장소/인덱스 |
 | [LLMapper Skill](https://github.com/jorgearango/llmapper-skill) [![Star](https://img.shields.io/github/stars/jorgearango/llmapper-skill?style=flat&logo=github&label=Star)](https://github.com/jorgearango/llmapper-skill/stargazers) | PDF/문서 / 웹/검색 / 텍스트/아이디어 / 지식 베이스 | Agent skill | 마인드맵/지식 지도 / 다이어그램/Mermaid / 웹/인터랙티브 페이지 / 구조화 데이터/Markdown | Agent 호스트 / 모델 API / 로컬 런타임 / 문서 파싱/OCR / 렌더링/내보내기 / 저장소/인덱스 |
+| [Echo Slides Skill](https://github.com/xiangzhouEcho/Echo-Slides-Skill) [![Star](https://img.shields.io/github/stars/xiangzhouEcho/Echo-Slides-Skill?style=flat&logo=github&label=Star)](https://github.com/xiangzhouEcho/Echo-Slides-Skill/stargazers) | Any/multi-source / Office docs | Agent skill / API/SDK/library | SVG/PNG/PDF / Structured data/Markdown / PPT/deck | Agent host / Local runtime / System tools / Rendering/export / Document parsing/OCR |
 | [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | 텍스트/아이디어 / PDF/문서 / 지식 베이스 / DSL/코드 | MCP server | 마인드맵/지식 지도 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 | [mcp-scapple](https://github.com/binaryloader/mcp-scapple) [![Star](https://img.shields.io/github/stars/binaryloader/mcp-scapple?style=flat&logo=github&label=Star)](https://github.com/binaryloader/mcp-scapple/stargazers) | Text/ideas / 지식 베이스 | MCP Server | 화이트보드/마인드맵 / 마인드맵/지식 지도 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 
@@ -521,6 +534,8 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
+| [mermaid-mcp by tci-nebula](https://github.com/tci-nebula/mermaid-mcp) [![Star](https://img.shields.io/github/stars/tci-nebula/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/tci-nebula/mermaid-mcp/stargazers) | DSL/code / Text/ideas / Code/technical text | MCP server | Diagram/Mermaid / SVG/PNG/PDF / Architecture/flow diagram | MCP client / Local runtime / Rendering/export / System tools |
+| [Open Visualization Protocol](https://github.com/babarda/open-visualization-protocol) [![Star](https://img.shields.io/github/stars/babarda/open-visualization-protocol?style=flat&logo=github&label=Star)](https://github.com/babarda/open-visualization-protocol/stargazers) | Data/tables / DSL/code / Text/ideas | Agent skill / Skill collection / API/SDK/library | Chart/dashboard / Rendered chart / SVG/PNG/PDF / PPT/deck | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Mermaid](https://github.com/mermaid-js/mermaid) [![Star](https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&logo=github&label=Star)](https://github.com/mermaid-js/mermaid/stargazers) | DSL/코드 | API/SDK/라이브러리 | 다이어그램/Mermaid / SVG/PNG/PDF | 렌더링/내보내기 |
 | [mermaid-js-ai-agent](https://github.com/disler/mermaid-js-ai-agent) [![Star](https://img.shields.io/github/stars/disler/mermaid-js-ai-agent?style=flat&logo=github&label=Star)](https://github.com/disler/mermaid-js-ai-agent/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | 오픈소스 앱/프레임워크 | 다이어그램/Mermaid / SVG/PNG/PDF | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [mermaid-skill](https://github.com/Agents365-ai/mermaid-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/mermaid-skill/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | Agent Skill | 다이어그램/Mermaid / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 |

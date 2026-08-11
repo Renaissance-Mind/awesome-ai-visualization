@@ -1,4 +1,4 @@
-last_researched: '2026-08-11'
+last_researched: '2026-08-12'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -12301,3 +12301,293 @@ entries:
   - 信息图/视觉报告
   catalog_section: indexes
   readme_group: indexes
+- name: humanize-presentations
+  url: https://github.com/dmmdea/humanize-presentations
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-08-11'
+  note: Agent skill that audits and edits existing PPTX decks to remove AI-writing tells while preserving intended deck
+    structure, speaker-note boundaries, non-English text, and PowerPoint-openable file packaging.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: Paper Share Skills
+  url: https://github.com/yhbcode000/paper-share-skills
+  homepage: https://blog.yhbcode000.tech/paper-share-skills/
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 模板/素材
+  stars: 12
+  license: Apache-2.0
+  updated: '2026-08-11'
+  note: Cross-agent paper-sharing skill suite that turns arXiv/PDF papers into SUSTech Beamer slides, video cover
+    posters, narrated landscape/portrait MP4 explainers, and Bilibili publishing metadata.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 视频/音频
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: paper
+- name: SlideForge MCP
+  url: https://github.com/smartdatabrokers/slideforge-mcp
+  homepage: https://slideforge.dev
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - 浏览器/账号
+  - MCP Client
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-08-11'
+  note: Remote MCP server and REST API that compiles typed slide intents into native editable PowerPoint files with
+    previews, fidelity manifests, template upload, dry-run validation, translation, and deck inspection/repair tools.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - 产品/SaaS
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: mermaid-mcp by tci-nebula
+  url: https://github.com/tci-nebula/mermaid-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-08-11'
+  note: MCP server that renders Mermaid syntax to PNG, SVG, PDF, or editable draw.io XML using Mermaid CLI/Chromium
+    or Docker, with base64 inline results and optional file output paths.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  - 架构图/流程图
+  catalog_section: support_render
+  readme_group: support_render
+- name: YAML Infographic
+  url: https://github.com/changyiwu/yaml-infographic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-09'
+  note: Agent skill and validation toolkit that locks an infographic's information architecture, layout, exact data,
+    citations, alt text, and visual rules in YAML before compiling image-generation prompts and checking final outputs.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: text_visual
+- name: Open Visualization Protocol
+  url: https://github.com/babarda/open-visualization-protocol
+  homepage: https://babarda.github.io/open-visualization-protocol/
+  category: rendering-primitive
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-09'
+  note: Agent-first visualization protocol with 74 chart skills, 16 design languages, deterministic SVG/PPTX renderers,
+    golden data/spec fixtures, and validation gates for repeatable, honest charts.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  - Skill 集合
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  - PPT/演示文稿
+  catalog_section: support_render
+  readme_group: support_render
+- name: Vela Slides
+  url: https://github.com/AgentiaPT/vela-slides
+  homepage: https://agentiapt.github.io/vela-slides/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 7
+  license: Elastic-2.0
+  updated: '2026-08-11'
+  note: Agent-native presentation engine and skill that turns conversational deck briefs into interactive React slide
+    apps, local browser/desktop presentations, editable structured deck JSON, and vector PDF exports.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Lab Meeting Report Skill
+  url: https://github.com/LikC1606/lab-meeting-report-skill
+  homepage: https://skills.sh/LikC1606/lab-meeting-report-skill
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-11'
+  note: Research workflow skill that turns weekly notes, papers, results, figures, and blockers into evidence-grounded
+    Markdown lab-meeting reports, optional Marp/Quarto/editable-PPTX deck content, and Feishu/Notion publishing outputs.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 报告/简报
+  - PPT/演示文稿
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: paper
+- name: Echo Slides Skill
+  url: https://github.com/xiangzhouEcho/Echo-Slides-Skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 文档解析/OCR
+  stars: 5
+  license: MIT
+  updated: '2026-08-11'
+  note: Agent skill that recovers deduplicated slide images and timestamp manifests from talk recordings or local
+    videos using stable-interval detection, perceptual hashes, color signatures, ffmpeg, and yt-dlp.
+  source_types:
+  - 任意/多源
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  - PPT/演示文稿
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: lecture-to-notes
+  url: https://github.com/drpwchen/lecture-to-notes
+  homepage: https://drpwchen.com/posts/lecture-to-notes/
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 模型 API
+  stars: 95
+  license: MIT
+  updated: '2026-08-11'
+  note: Local-first lecture/conference pipeline that turns mixed recordings, audio, slide images, and PDF decks into
+    grounded Markdown notes and a synced offline HTML viewer linking video, transcript, summary, and slide evidence.
+  source_types:
+  - 任意/多源
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 报告/长文档
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs

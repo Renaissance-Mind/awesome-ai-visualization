@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-486_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--11-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-496_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--12-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,15 +13,20 @@ A curated list of AI and agent tools that turn papers, news, web pages, document
 
 The catalog is tagged by **information source**, **tool form**, **output artifact**, and **dependency type**. Slides are only one output surface; many tools also produce reports, web pages, diagrams, mind maps, dashboards, or code maps.
 
-## Latest Refresh (2026-08-11)
+## Latest Refresh (2026-08-12)
 
 | Project | Catalog focus |
 | --- | --- |
-| [visual-assets](https://github.com/shaunthebuilder/visual-assets) | Local Claude Code skill for text-accurate infographics, diagrams, charts, flowcharts, and document-embedded figures with deterministic rendering and optional local diffusion. |
-| [Gemini MCP](https://github.com/houtini-ai/gemini-mcp) | Gemini-powered MCP server for grounded images, editable SVG diagrams, landing pages, videos, chart prompts, and inline MCP App previews. |
-| [mermaid-diagram-to-image](https://github.com/emdashcodes/claude-code-plugins#mermaid-diagram-to-image) | Claude Code plugin skill that converts Mermaid syntax into PNG, SVG, or PDF diagrams for documentation, presentations, and architecture sharing. |
-| [open-agent-hub](https://github.com/guanyang/open-agent-hub) | Cross-agent CLI and metadata index for linking skills, agents, and commands, including diagram, infographic, slide, and Markdown-to-HTML skills. |
-| [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | Curated Claude Code subagent directory with technical-writing, data-analysis, documentation, design, and visual-communication agents. |
+| [humanize-presentations](https://github.com/dmmdea/humanize-presentations) | Agent skill for auditing and editing existing PPTX decks to remove AI-writing tells while preserving intended structure, speaker-note boundaries, non-English text, and valid PowerPoint packaging. |
+| [Paper Share Skills](https://github.com/yhbcode000/paper-share-skills) | Cross-agent paper-sharing suite for arXiv/PDF papers to Beamer slides, cover posters, narrated MP4 explainers, and Bilibili publishing metadata. |
+| [SlideForge MCP](https://github.com/smartdatabrokers/slideforge-mcp) | Remote MCP server and REST API that compiles typed slide intents into native editable PowerPoint with previews, fidelity manifests, dry-run validation, and deck repair. |
+| [mermaid-mcp by tci-nebula](https://github.com/tci-nebula/mermaid-mcp) | MCP server that renders Mermaid syntax to PNG, SVG, PDF, or editable draw.io XML for LLM clients and document workflows. |
+| [YAML Infographic](https://github.com/changyiwu/yaml-infographic) | Agent skill that locks information architecture, layout, exact data, citations, alt text, and visual rules in YAML before image generation. |
+| [Open Visualization Protocol](https://github.com/babarda/open-visualization-protocol) | Agent-first protocol with chart skills, design languages, deterministic SVG/PPTX renderers, golden fixtures, and validation gates for repeatable charts. |
+| [Vela Slides](https://github.com/AgentiaPT/vela-slides) | Agent-native presentation engine and skill for conversational briefs to interactive React slide apps, local/desktop decks, structured JSON, and vector PDF exports. |
+| [Lab Meeting Report Skill](https://github.com/LikC1606/lab-meeting-report-skill) | Research workflow skill for weekly notes, papers, results, and figures to evidence-grounded reports plus optional Marp, Quarto, or editable-PPTX content. |
+| [Echo Slides Skill](https://github.com/xiangzhouEcho/Echo-Slides-Skill) | Agent skill that recovers deduplicated slide images and timestamp manifests from talk recordings or local videos. |
+| [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) | Local-first lecture pipeline that builds grounded Markdown notes and a synced offline HTML viewer linking video, transcript, summary, and slide evidence. |
 
 ## ✨ Recommended Use
 
@@ -92,6 +97,9 @@ Tools that start from papers, research topics, or scholarly corpora and produce 
 | [Interactive Presentation Skill](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill) [![Star](https://img.shields.io/github/stars/MinnThikeTunn/Interactive-Presentation-Skill?style=flat&logo=github&label=Star)](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill/stargazers) | Papers/research / PDF/documents / Code/technical text | Agent skill | PPT/deck / Web/interactive page / Graphical abstract/infographic | Agent host / Local runtime / Rendering/export |
 | [BERIL Presentation Maker Skill](https://github.com/kbaseincubator/beril-presentation-maker-skill) [![Star](https://img.shields.io/github/stars/kbaseincubator/beril-presentation-maker-skill?style=flat&logo=github&label=Star)](https://github.com/kbaseincubator/beril-presentation-maker-skill/stargazers) | Papers/research / PDF/documents / Data/tables / Knowledge base | Agent skill | PPT/deck / Graphical abstract/infographic / Briefing/report | Agent host / Local runtime / Model API / Document parsing/OCR / Rendering/export / Templates/assets |
 
+| [Paper Share Skills](https://github.com/yhbcode000/paper-share-skills) [![Star](https://img.shields.io/github/stars/yhbcode000/paper-share-skills?style=flat&logo=github&label=Star)](https://github.com/yhbcode000/paper-share-skills/stargazers) | Papers/research / PDF/documents | Skill collection / Agent skill | PPT/deck / Video/audio / Graphical abstract/infographic | Agent host / Local runtime / System tools / Document parsing/OCR / Rendering/export / GPU/accelerator / Templates/assets |
+| [Lab Meeting Report Skill](https://github.com/LikC1606/lab-meeting-report-skill) [![Star](https://img.shields.io/github/stars/LikC1606/lab-meeting-report-skill?style=flat&logo=github&label=Star)](https://github.com/LikC1606/lab-meeting-report-skill/stargazers) | Papers/research / PDF/documents / Data/tables / Knowledge base | Agent skill | Long report / Briefing/report / PPT/deck / Evidence table / Structured data/Markdown | Agent host / Local runtime / Document parsing/OCR / External search/data / Rendering/export / Templates/assets |
+
 ### Web, News, and Intelligence
 
 Tools that start from web pages, search results, news streams, market data, or threat intelligence and produce grounded reports, dashboards, or maps.
@@ -139,6 +147,8 @@ Tools that start from PDFs, office files, web pages, personal documents, or team
 | [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/documents / Web/search / Video/audio / Any/multi-source | Agent skill | Long report / Web/interactive page / Diagram/Mermaid / Structured data/Markdown | Agent host / Local runtime / Document parsing/OCR / External search/data / Rendering/export |
 | [Carbone MCP Server](https://github.com/carboneio/carbone-mcp) [![Star](https://img.shields.io/github/stars/carboneio/carbone-mcp?style=flat&logo=github&label=Star)](https://github.com/carboneio/carbone-mcp/stargazers) | Data/tables / Office docs / Text/ideas | MCP server / Product/SaaS | Long report / PPT/deck / SVG/PNG/PDF / Structured data/Markdown | MCP client / Browser/account / Model API / Rendering/export / Templates/assets / External search/data |
 | [Sigrid Report Generator](https://github.com/Software-Improvement-Group/sigrid-report-generator) [![Star](https://img.shields.io/github/stars/Software-Improvement-Group/sigrid-report-generator?style=flat&logo=github&label=Star)](https://github.com/Software-Improvement-Group/sigrid-report-generator/stargazers) | Data/tables / Codebase / Office docs | Open-source app/framework / API/SDK/library | Long report / PPT/deck / Chart/dashboard | Local runtime / Browser/account / External search/data / Rendering/export / Templates/assets |
+
+| [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) [![Star](https://img.shields.io/github/stars/drpwchen/lecture-to-notes?style=flat&logo=github&label=Star)](https://github.com/drpwchen/lecture-to-notes/stargazers) | Any/multi-source / PDF/documents / Office docs / Text/ideas | Open-source app/framework / Agent skill | Web/interactive page / Long report / Structured data/Markdown / SVG/PNG/PDF | Local runtime / System tools / Document parsing/OCR / Rendering/export / GPU/accelerator / Model API |
 
 ### Codebases and Software Systems
 
@@ -305,6 +315,8 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [static-ad-concept-generator](https://github.com/Creatify-AI/static-ad-concept-generator) [![Star](https://img.shields.io/github/stars/Creatify-AI/static-ad-concept-generator?style=flat&logo=github&label=Star)](https://github.com/Creatify-AI/static-ad-concept-generator/stargazers) | Text/ideas / Web/search / Any/multi-source | Agent skill | Infographic/visual report / Structured data/Markdown | Agent host / Local runtime / Templates/assets |
 | [Infographic Skill by kseriri](https://github.com/kseriri/infographic-skill) [![Star](https://img.shields.io/github/stars/kseriri/infographic-skill?style=flat&logo=github&label=Star)](https://github.com/kseriri/infographic-skill/stargazers) | Text/ideas / PDF/documents / Office docs | Agent skill | Infographic/visual report / Graphical abstract/infographic / PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [Claude Visual Generator](https://github.com/sckim-ai/claude-visual-generator) [![Star](https://img.shields.io/github/stars/sckim-ai/claude-visual-generator?style=flat&logo=github&label=Star)](https://github.com/sckim-ai/claude-visual-generator/stargazers) | Papers/research / PDF/documents / Office docs / Text/ideas | Agent skill | Infographic/visual report / Graphical abstract/infographic / PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
+
+| [YAML Infographic](https://github.com/changyiwu/yaml-infographic) [![Star](https://img.shields.io/github/stars/changyiwu/yaml-infographic?style=flat&logo=github&label=Star)](https://github.com/changyiwu/yaml-infographic/stargazers) | Text/ideas / Data/tables / Web/search | Agent skill | Infographic/visual report / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 
 ### Programmatic Video and Motion Explainers
 
@@ -479,6 +491,10 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [pdf2slides](https://github.com/ha0ranyu/pdf2slides) [![Star](https://img.shields.io/github/stars/ha0ranyu/pdf2slides?style=flat&logo=github&label=Star)](https://github.com/ha0ranyu/pdf2slides/stargazers) | PDF/documents | API/SDK/library | PPT/deck / Structured data/Markdown | Local runtime / Document parsing/OCR / Rendering/export / System tools |
 | [PPT Visual Reconstruction](https://github.com/lirunjie0510/ppt-visual-reconstruction) [![Star](https://img.shields.io/github/stars/lirunjie0510/ppt-visual-reconstruction?style=flat&logo=github&label=Star)](https://github.com/lirunjie0510/ppt-visual-reconstruction/stargazers) | Office docs / PDF/documents / Any/multi-source | Agent skill | PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Document parsing/OCR / Rendering/export / Templates/assets |
 
+| [humanize-presentations](https://github.com/dmmdea/humanize-presentations) [![Star](https://img.shields.io/github/stars/dmmdea/humanize-presentations?style=flat&logo=github&label=Star)](https://github.com/dmmdea/humanize-presentations/stargazers) | Office docs / Text/ideas | Agent skill | PPT/deck / Evidence table | Agent host / Local runtime / System tools / Rendering/export |
+| [SlideForge MCP](https://github.com/smartdatabrokers/slideforge-mcp) [![Star](https://img.shields.io/github/stars/smartdatabrokers/slideforge-mcp?style=flat&logo=github&label=Star)](https://github.com/smartdatabrokers/slideforge-mcp/stargazers) | Text/ideas / Data/tables / Office docs / Any/multi-source | Product/SaaS / MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | Browser/account / MCP client / Model API / External search/data / Rendering/export / Templates/assets |
+| [Vela Slides](https://github.com/AgentiaPT/vela-slides) [![Star](https://img.shields.io/github/stars/AgentiaPT/vela-slides?style=flat&logo=github&label=Star)](https://github.com/AgentiaPT/vela-slides/stargazers) | Text/ideas / PDF/documents / Web/search / Any/multi-source | Open-source app/framework / Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
+
 ## Supporting and Pre/Post-Processing Tools
 
 This section contains smaller, lower-level, or more specialized tools. They may not cover a full content production workflow by themselves, but they are often key components inside agent workflows.
@@ -503,6 +519,8 @@ Pre-processing tools that turn PDFs, papers, Office files, or scans into Markdow
 | [office_oxide](https://github.com/yfedoseev/office_oxide) [![Star](https://img.shields.io/github/stars/yfedoseev/office_oxide?style=flat&logo=github&label=Star)](https://github.com/yfedoseev/office_oxide/stargazers) | Office docs / PDF/documents | API/SDK/library / MCP server | Structured data/Markdown / PPT/deck / Evidence table | MCP client / Local runtime / Document parsing/OCR / Rendering/export / System tools |
 | [PowerPoint Analyzer MCP Server](https://github.com/shiosalt/powerpoint-analyzer-mcp) [![Star](https://img.shields.io/github/stars/shiosalt/powerpoint-analyzer-mcp?style=flat&logo=github&label=Star)](https://github.com/shiosalt/powerpoint-analyzer-mcp/stargazers) | Office docs | MCP server / API/SDK/library | Structured data/Markdown / PPT/deck | MCP client / Local runtime / Document parsing/OCR / Rendering/export |
 
+
+| [Echo Slides Skill](https://github.com/xiangzhouEcho/Echo-Slides-Skill) [![Star](https://img.shields.io/github/stars/xiangzhouEcho/Echo-Slides-Skill?style=flat&logo=github&label=Star)](https://github.com/xiangzhouEcho/Echo-Slides-Skill/stargazers) | Any/multi-source / Office docs | Agent skill / API/SDK/library | SVG/PNG/PDF / Structured data/Markdown / PPT/deck | Agent host / Local runtime / System tools / Rendering/export / Document parsing/OCR |
 
 ### Focused Mind-Map Tools
 
@@ -588,6 +606,9 @@ Post-processing and rendering tools that help agents generate, validate, or expo
 | [Diagram Bridge MCP](https://github.com/tohachan/diagram-bridge-mcp) [![Star](https://img.shields.io/github/stars/tohachan/diagram-bridge-mcp?style=flat&logo=github&label=Star)](https://github.com/tohachan/diagram-bridge-mcp/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Diagram/Mermaid / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export |
 | [DiagrammerGPT](https://github.com/aszala/DiagrammerGPT) [![Star](https://img.shields.io/github/stars/aszala/DiagrammerGPT?style=flat&logo=github&label=Star)](https://github.com/aszala/DiagrammerGPT/stargazers) | Text/ideas / Code/technical text | Research prototype | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Model API / GPU / Rendering/export |
 | [Whimsical MCP Server](https://github.com/BrockReece/whimsical-mcp-server) [![Star](https://img.shields.io/github/stars/BrockReece/whimsical-mcp-server?style=flat&logo=github&label=Star)](https://github.com/BrockReece/whimsical-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Whiteboard/mind map / Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export |
+
+| [mermaid-mcp by tci-nebula](https://github.com/tci-nebula/mermaid-mcp) [![Star](https://img.shields.io/github/stars/tci-nebula/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/tci-nebula/mermaid-mcp/stargazers) | DSL/code / Text/ideas / Code/technical text | MCP server | Diagram/Mermaid / SVG/PNG/PDF / Architecture/flow diagram | MCP client / Local runtime / Rendering/export / System tools |
+| [Open Visualization Protocol](https://github.com/babarda/open-visualization-protocol) [![Star](https://img.shields.io/github/stars/babarda/open-visualization-protocol?style=flat&logo=github&label=Star)](https://github.com/babarda/open-visualization-protocol/stargazers) | Data/tables / DSL/code / Text/ideas | Agent skill / Skill collection / API/SDK/library | Chart/dashboard / Rendered chart / SVG/PNG/PDF / PPT/deck | Agent host / Local runtime / Rendering/export / Templates/assets |
 
 ## How To Choose A Tool
 
