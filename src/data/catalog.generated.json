@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-08-11T23:07:42+00:00",
-  "lastResearched": "2026-08-12",
+  "generatedAt": "2026-08-12T23:05:12+00:00",
+  "lastResearched": "2026-08-13",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 496,
+    "total": 501,
     "openSource": 129,
     "saas": 55,
-    "modelApi": 178,
-    "examples": 1186,
-    "effectAssets": 1430,
-    "docs": 1374
+    "modelApi": 179,
+    "examples": 1198,
+    "effectAssets": 1446,
+    "docs": 1396
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 56,
-      "PDF/文档": 163,
-      "文本/想法": 311,
-      "数据/表格": 185,
-      "代码/技术描述": 94,
-      "网页/搜索结果": 138,
-      "代码库": 49,
-      "DSL/代码": 97,
-      "新闻/资讯": 19,
-      "知识库/个人资料": 37,
-      "任意/多源": 70,
+      "PDF/文档": 165,
+      "文本/想法": 313,
+      "数据/表格": 187,
+      "代码/技术描述": 95,
+      "网页/搜索结果": 140,
+      "代码库": 51,
+      "DSL/代码": 98,
+      "新闻/资讯": 20,
+      "知识库/个人资料": 38,
+      "任意/多源": 72,
       "Office 文档": 79,
       "引用网络": 4,
       "数据库": 43,
@@ -31,69 +31,69 @@
     },
     "toolForms": {
       "开源应用/框架": 129,
-      "Agent Skill": 165,
-      "Skill 集合": 44,
+      "Agent Skill": 168,
+      "Skill 集合": 46,
       "数据集/评测": 2,
       "Bot/助手": 15,
       "产品/SaaS": 55,
-      "MCP Server": 152,
+      "MCP Server": 153,
       "研究原型": 5,
-      "API/SDK/库": 69,
-      "Awesome/索引": 24
+      "API/SDK/库": 71,
+      "Awesome/索引": 25
     },
     "outputForms": {
       "图形摘要/信息图": 36,
-      "PPT/演示文稿": 217,
-      "网页/交互页面": 151,
+      "PPT/演示文稿": 219,
+      "网页/交互页面": 154,
       "问答/学习材料": 15,
-      "报告/长文档": 65,
-      "证据表": 28,
+      "报告/长文档": 69,
+      "证据表": 29,
       "信息图/视觉报告": 69,
-      "图表/仪表盘": 135,
-      "架构图/流程图": 112,
-      "SVG/PNG/PDF": 184,
-      "报告/简报": 58,
+      "图表/仪表盘": 136,
+      "架构图/流程图": 113,
+      "SVG/PNG/PDF": 186,
+      "报告/简报": 59,
       "白板/思维导图": 32,
-      "图表/Mermaid": 56,
+      "图表/Mermaid": 57,
       "视频/音频": 37,
-      "表格/时间线": 13,
+      "表格/时间线": 14,
       "引用答案": 5,
-      "思维导图/知识地图": 30,
-      "结构化数据/Markdown": 59,
+      "思维导图/知识地图": 31,
+      "结构化数据/Markdown": 62,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 28,
+      "代码地图/Repo Wiki": 30,
       "图表/渲染输出": 15,
-      "工具索引": 26
+      "工具索引": 27
     },
     "dependencies": {
-      "本地语言环境": 394,
-      "模型 API": 178,
+      "本地语言环境": 399,
+      "模型 API": 179,
       "文档解析/OCR": 80,
-      "渲染/导出": 409,
+      "渲染/导出": 414,
       "GPU/加速器": 15,
-      "模板/素材": 229,
-      "Agent 宿主": 213,
+      "模板/素材": 231,
+      "Agent 宿主": 218,
       "系统工具": 95,
       "浏览器/账号": 128,
-      "存储/索引": 61,
-      "外部检索/数据源": 106,
-      "MCP Client": 157,
-      "代码分析工具": 32
+      "存储/索引": 63,
+      "外部检索/数据源": 108,
+      "MCP Client": 158,
+      "代码分析工具": 34
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 47,
       "research-report": 25,
       "infographic-report": 41,
-      "data-dashboard": 68,
+      "data-dashboard": 69,
       "diagram-generation": 67,
       "literature-map": 4,
       "presentation-tools": 142,
-      "codebase-map": 26,
-      "rendering-primitive": 11,
+      "codebase-map": 28,
+      "rendering-primitive": 12,
       "video-generation": 11,
       "commercial-site": 10,
-      "meta-index": 27
+      "meta-index": 28
     },
     "groups": {
       "paper": 30,
@@ -103,12 +103,12 @@
       "docs": 27,
       "support_doc_parse": 15,
       "presentation": 153,
-      "code": 27,
-      "support_render": 49,
+      "code": 29,
+      "support_render": 50,
       "diagrams": 16,
       "video": 11,
-      "data": 63,
-      "indexes": 26,
+      "data": 64,
+      "indexes": 27,
       "diagram": 1,
       "index": 1
     }
@@ -42554,6 +42554,497 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 9
+    },
+    {
+      "name": "Markdown Exporter",
+      "url": "https://github.com/bowenliang123/markdown-exporter",
+      "primaryUrl": "https://github.com/bowenliang123/markdown-exporter",
+      "homepage": "https://marketplace.dify.ai/plugins/bowenliang123/md_exporter",
+      "category": "rendering-primitive",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 260,
+      "license": "Apache-2.0",
+      "updated": "2026-08-12",
+      "note": "Agent Skill, Dify plugin, OpenClaw skill, and CLI that transforms Markdown text and Markdown tables into DOCX, PPTX, PDF, PNG, SVG, HTML, XLSX, CSV, JSON, XML, LaTeX, notebooks, and code files with local processing and optional document templates.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "表格/时间线",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Pandoc Slide Shows",
+          "url": "https://pandoc.org/MANUAL.html",
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "default docx template",
+          "url": "https://github.com/bowenliang123/markdown-exporter/blob/main/md_exporter/assets/template/docx_template.docx",
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "default pptx template",
+          "url": "https://github.com/bowenliang123/markdown-exporter/blob/main/md_exporter/assets/template/pptx_template.pptx",
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Usage Demo",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_docx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DOCX Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_docx_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "XLSX Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_xlsx_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PPTX Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_pptx_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "HTML Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_html_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PDF Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_pdf_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PNG Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_png_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "SVG Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_svg_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "IPYNB Example",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_ipynb_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Code Block Example 1",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_codeblock_2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Code Block Example 2",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_codeblock_3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Code Block Example 3",
+          "url": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_codeblock_4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "primaryUrl": "https://github.com/Graphify-Labs/graphify",
+      "homepage": "https://www.graphify.com",
+      "category": "codebase-map",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "存储/索引",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 105663,
+      "license": "Apache-2.0",
+      "updated": "2026-08-12",
+      "note": "Cross-agent /graphify skill and CLI that maps code, docs, PDFs, images, video, and audio into a local-first explained knowledge graph, producing an interactive graph.html, GRAPH_REPORT.md, and queryable graph.json.",
+      "sourceTypes": [
+        "代码库",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "报告/长文档",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "How it works",
+          "url": "https://github.com/Graphify-Labs/graphify/blob/HEAD/docs/how-it-works.md",
+          "source": "https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Optional integrations",
+          "url": "https://github.com/Graphify-Labs/graphify/blob/HEAD/docs/docker-mcp-sqlite.md",
+          "source": "https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://www.graphify.com/docs",
+          "source": "https://graphify.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Install",
+          "url": "https://www.graphify.com/docs/install",
+          "source": "https://graphify.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI reference",
+          "url": "https://www.graphify.com/docs/cli",
+          "source": "https://graphify.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "BENCHMARKS.md",
+          "url": "https://github.com/Graphify-Labs/graphify/blob/HEAD/BENCHMARKS.md",
+          "source": "https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Better Stack (YouTube) Video This Tool Fixes AI Coding at Scale with 70× Fewer Tokens (Graphify)",
+          "url": "https://www.youtube.com/watch?v=WNru_PFycT8",
+          "source": "https://graphify.com/"
+        },
+        {
+          "kind": "video",
+          "title": "AwesomeFOSS (YouTube) Video Graphify: 48 Hours After Karpathy's Post, Someone Built the Tool",
+          "url": "https://www.youtube.com/watch?v=EraQF0GxbOw",
+          "source": "https://graphify.com/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Tutorial",
+          "url": "https://www.graphify.com/docs/tutorial",
+          "source": "https://graphify.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "AwesomeFOSS (YouTube) Video Graphify: 48 Hours After Karpathy's Post, Someone Built the Tool",
+          "url": "https://www.youtube.com/watch?v=EraQF0GxbOw",
+          "thumbnailUrl": "https://img.youtube.com/vi/EraQF0GxbOw/hqdefault.jpg",
+          "source": "https://graphify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "graphify's interactive graph.html showing the FastAPI codebase as a force-directed knowledge graph with a legend of detected communities",
+          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graph-hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Better Stack (YouTube) Video This Tool Fixes AI Coding at Scale with 70× Fewer Tokens (Graphify)",
+          "url": "https://www.youtube.com/watch?v=WNru_PFycT8",
+          "thumbnailUrl": "https://img.youtube.com/vi/WNru_PFycT8/hqdefault.jpg",
+          "source": "https://graphify.com/"
+        },
+        {
+          "kind": "image",
+          "title": "graphify's interactive graph.html rendering the FastAPI repository: a dark force-directed knowledge graph of colored symbol nodes and relationship edges, with a Communities sidebar",
+          "url": "https://graphify.com/product/graph-fastapi.webp",
+          "thumbnailUrl": null,
+          "source": "https://graphify.com/"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 4,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "AgentDoc",
+      "url": "https://github.com/jonverrier/AgentDoc",
+      "primaryUrl": "https://github.com/jonverrier/AgentDoc",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 53,
+      "license": "unknown",
+      "updated": "2026-08-12",
+      "note": "MCP server and prompt/tool set for walking legacy codebases, generating per-directory README.C4Diagrammer.md summaries, C4Component diagrams, root C4Context/C4Container diagrams, Mermaid validation, and browser previews.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "图表/Mermaid",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ClaudeSkills by StarU",
+      "url": "https://github.com/staruhub/ClaudeSkills",
+      "primaryUrl": "https://github.com/staruhub/ClaudeSkills",
+      "homepage": "https://staruhub.github.io/ClaudeSkills/",
+      "category": "meta-index",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 673,
+      "license": "MIT",
+      "updated": "2026-08-12",
+      "note": "Curated 13-skill Agent Skills collection with deep-research, deck-studio, product-document, WeChat article, PDF parsing, sales, architecture, and quality-gated workflows, including deck examples, style previews, scripts, and acceptance checks.",
+      "sourceTypes": [
+        "任意/多源",
+        "网页/搜索结果",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引",
+        "PPT/演示文稿",
+        "报告/长文档",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Constructivist",
+          "url": "https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/constructivist-design-constitution/",
+          "source": "https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Moshiro consulting report",
+          "url": "https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/moshiro-consulting-report/",
+          "source": "https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Yinghuang bootcamp proposal",
+          "url": "https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/yinghuang-bootcamp-proposal/",
+          "source": "https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Polar Night AI Native",
+          "url": "https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/polar-night-ai-native/",
+          "source": "https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 4,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Claude Trading Skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "primaryUrl": "https://github.com/tradermonty/claude-trading-skills",
+      "homepage": "https://tradermonty.github.io/claude-trading-skills/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 2623,
+      "license": "MIT",
+      "updated": "2026-08-12",
+      "note": "Claude Skills trading workflow toolkit that turns market breadth CSVs, chart images, portfolio data, news, trade journals, and research inputs into daily market checks, portfolio reviews, screeners, trade plans, performance digests, dashboards, and evidence-backed strategy reports.",
+      "sourceTypes": [
+        "数据/表格",
+        "新闻/资讯",
+        "网页/搜索结果",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Find Your Workflow",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/find-your-workflow.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/ja/find-your-workflow.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Your First Week",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/your-first-week.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/ja/your-first-week.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude Code setup guide",
+          "url": "https://code.claude.com/docs/en/getting-started",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "FAQ",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/faq.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Skill Automation Quickstart",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/dev/skill-automation.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/dev/skill-automation.ja.md",
+          "source": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Theme Detector",
+          "url": "https://tradermonty.github.io/claude-trading-skills/en/skills/theme-detector/",
+          "source": "https://tradermonty.github.io/claude-trading-skills/"
+        },
+        {
+          "kind": "template",
+          "title": "Theme Detector",
+          "url": "https://tradermonty.github.io/claude-trading-skills/ja/skills/theme-detector/",
+          "source": "https://tradermonty.github.io/claude-trading-skills/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 16,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
     }
   ]
 }
