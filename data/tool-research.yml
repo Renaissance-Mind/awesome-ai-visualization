@@ -1,4 +1,4 @@
-generated_at: '2026-08-11T23:07:42+00:00'
+generated_at: '2026-08-12T23:05:12+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 496
-  fetched_sources_ok: 667
+  entries: 501
+  fetched_sources_ok: 676
   fetched_sources_failed: 36
-  official_examples: 1186
-  official_effect_assets: 1430
-  official_docs: 1374
+  official_examples: 1198
+  official_effect_assets: 1446
+  official_docs: 1396
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -42131,3 +42131,524 @@ entries:
   source_headings:
   - 'The HTML viewer: video, transcript and summary on one page'
   - Quickstart
+- name: Markdown Exporter
+  category: rendering-primitive
+  surface: skill
+  primary_url: https://github.com/bowenliang123/markdown-exporter
+  homepage: https://marketplace.dify.ai/plugins/bowenliang123/md_exporter
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skill, Dify plugin, OpenClaw skill, and CLI that transforms Markdown text and Markdown tables into DOCX,
+    PPTX, PDF, PNG, SVG, HTML, XLSX, CSV, JSON, XML, LaTeX, notebooks, and code files with local processing and optional document
+    templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Markdown Exporter
+    bytes: 31376
+  - kind: homepage
+    url: https://marketplace.dify.ai/plugin/bowenliang123/md_exporter
+    final_url: https://marketplace.dify.ai/plugin/bowenliang123/md_exporter
+    status: 200
+    content_type: text/html
+    title: Markdown Exporter - Dify Marketplace
+    description: Export Markdown to DOCX, PPTX, XLSX, PDF, PNG, HTML, IPYNB, CSV, JSON, JSONL, XML files, Jira wiki markup,
+      and extract code blocks to Python, Bash, JS and etc files.
+    bytes: 368329
+  official_examples:
+  - kind: template
+    title: default docx template
+    url: https://github.com/bowenliang123/markdown-exporter/blob/main/md_exporter/assets/template/docx_template.docx
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: template
+    title: default pptx template
+    url: https://github.com/bowenliang123/markdown-exporter/blob/main/md_exporter/assets/template/pptx_template.pptx
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Pandoc Slide Shows
+    url: https://pandoc.org/MANUAL.html
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Usage Demo
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_docx.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: DOCX Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_docx_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: XLSX Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_xlsx_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: PPTX Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_pptx_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: HTML Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_html_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: PDF Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_pdf_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: PNG Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_png_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: SVG Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_svg_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: IPYNB Example
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/md_to_ipynb_1.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: Code Block Example 1
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_codeblock_2.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: Code Block Example 2
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_codeblock_3.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: image
+    title: Code Block Example 3
+    url: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/main/_assets/screenshots/usage_md_to_codeblock_4.png
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  official_links:
+  - kind: template
+    title: default docx template
+    url: https://github.com/bowenliang123/markdown-exporter/blob/main/md_exporter/assets/template/docx_template.docx
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: docs
+    title: Pandoc Slide Shows
+    url: https://pandoc.org/MANUAL.html
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  - kind: template
+    title: default pptx template
+    url: https://github.com/bowenliang123/markdown-exporter/blob/main/md_exporter/assets/template/pptx_template.pptx
+    source: https://raw.githubusercontent.com/bowenliang123/markdown-exporter/HEAD/README.md
+  source_headings:
+  - 📖 Usage as Dify Plugin
+  - 🎨 Tool Usage Examples
+  - Welcome Slide
+  - Table Example
+  - Example Jupyter Notebook
+  - 💻 Command Line Interface (CLI) Usage
+  - Basic Usage
+  - Tool Usage Guide
+- name: Graphify
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/Graphify-Labs/graphify
+  homepage: https://www.graphify.com
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Cross-agent /graphify skill and CLI that maps code, docs, PDFs, images, video, and audio into a local-first
+    explained knowledge graph, producing an interactive graph.html, GRAPH_REPORT.md, and queryable graph.json.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: See it in action
+    bytes: 57688
+  - kind: homepage
+    url: https://graphify.com/
+    final_url: https://graphify.com/
+    status: 200
+    content_type: text/html
+    title: Graphify · the code knowledge graph for AI coding assistants
+    description: '105k+ GitHub stars. Graphify turns your codebase into a knowledge graph your AI assistant queries instead
+      of grepping: no embeddings, just a graph it can trace and cite. Open sourc'
+    bytes: 485495
+  official_examples:
+  - kind: paper
+    title: BENCHMARKS.md
+    url: https://github.com/Graphify-Labs/graphify/blob/HEAD/BENCHMARKS.md
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: video
+    title: Better Stack (YouTube) Video This Tool Fixes AI Coding at Scale with 70× Fewer Tokens (Graphify)
+    url: https://www.youtube.com/watch?v=WNru_PFycT8
+    source: https://graphify.com/
+  - kind: video
+    title: 'AwesomeFOSS (YouTube) Video Graphify: 48 Hours After Karpathy''s Post, Someone Built the Tool'
+    url: https://www.youtube.com/watch?v=EraQF0GxbOw
+    source: https://graphify.com/
+  - kind: tutorial
+    title: Tutorial
+    url: https://www.graphify.com/docs/tutorial
+    source: https://graphify.com/
+  official_docs:
+  - kind: docs
+    title: How it works
+    url: https://github.com/Graphify-Labs/graphify/blob/HEAD/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: docs
+    title: Optional integrations
+    url: https://github.com/Graphify-Labs/graphify/blob/HEAD/docs/docker-mcp-sqlite.md
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://www.graphify.com/docs
+    source: https://graphify.com/
+  - kind: docs
+    title: Install
+    url: https://www.graphify.com/docs/install
+    source: https://graphify.com/
+  - kind: docs
+    title: CLI reference
+    url: https://www.graphify.com/docs/cli
+    source: https://graphify.com/
+  official_effect_assets:
+  - kind: video
+    title: 'AwesomeFOSS (YouTube) Video Graphify: 48 Hours After Karpathy''s Post, Someone Built the Tool'
+    url: https://www.youtube.com/watch?v=EraQF0GxbOw
+    thumbnail_url: https://img.youtube.com/vi/EraQF0GxbOw/hqdefault.jpg
+    source: https://graphify.com/
+  - kind: image
+    title: graphify's interactive graph.html showing the FastAPI codebase as a force-directed knowledge graph with a legend
+      of detected communities
+    url: https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graph-hero.png
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: video
+    title: Better Stack (YouTube) Video This Tool Fixes AI Coding at Scale with 70× Fewer Tokens (Graphify)
+    url: https://www.youtube.com/watch?v=WNru_PFycT8
+    thumbnail_url: https://img.youtube.com/vi/WNru_PFycT8/hqdefault.jpg
+    source: https://graphify.com/
+  - kind: image
+    title: 'graphify''s interactive graph.html rendering the FastAPI repository: a dark force-directed knowledge graph of
+      colored symbol nodes and relationship edges, with a Communities sidebar'
+    url: https://graphify.com/product/graph-fastapi.webp
+    source: https://graphify.com/
+  official_links:
+  - kind: paper
+    title: BENCHMARKS.md
+    url: https://github.com/Graphify-Labs/graphify/blob/HEAD/BENCHMARKS.md
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: docs
+    title: How it works
+    url: https://github.com/Graphify-Labs/graphify/blob/HEAD/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: docs
+    title: Optional integrations
+    url: https://github.com/Graphify-Labs/graphify/blob/HEAD/docs/docker-mcp-sqlite.md
+    source: https://raw.githubusercontent.com/Graphify-Labs/graphify/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://www.graphify.com/docs
+    source: https://graphify.com/
+  - kind: video
+    title: Better Stack (YouTube) Video This Tool Fixes AI Coding at Scale with 70× Fewer Tokens (Graphify)
+    url: https://www.youtube.com/watch?v=WNru_PFycT8
+    source: https://graphify.com/
+  - kind: video
+    title: 'AwesomeFOSS (YouTube) Video Graphify: 48 Hours After Karpathy''s Post, Someone Built the Tool'
+    url: https://www.youtube.com/watch?v=EraQF0GxbOw
+    source: https://graphify.com/
+  - kind: docs
+    title: Install
+    url: https://www.graphify.com/docs/install
+    source: https://graphify.com/
+  - kind: tutorial
+    title: Tutorial
+    url: https://www.graphify.com/docs/tutorial
+    source: https://graphify.com/
+  - kind: docs
+    title: CLI reference
+    url: https://www.graphify.com/docs/cli
+    source: https://graphify.com/
+  source_headings:
+  - Benchmarks
+- name: AgentDoc
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/jonverrier/AgentDoc
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: MCP server and prompt/tool set for walking legacy codebases, generating per-directory README.C4Diagrammer.md
+    summaries, C4Component diagrams, root C4Context/C4Container diagrams, Mermaid validation, and browser previews.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jonverrier/AgentDoc/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jonverrier/AgentDoc/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AgentDoc
+    bytes: 22443
+  source_headings:
+  - C4 Diagram Architecture
+  - Example
+  - Diagram Processing Components
+  - Usage
+  - Documentation
+  official_examples: []
+  official_docs: []
+  official_effect_assets: []
+  official_links: []
+- name: ClaudeSkills by StarU
+  category: meta-index
+  surface: skill
+  primary_url: https://github.com/staruhub/ClaudeSkills
+  homepage: https://staruhub.github.io/ClaudeSkills/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Curated 13-skill Agent Skills collection with deep-research, deck-studio, product-document, WeChat article,
+    PDF parsing, sales, architecture, and quality-gated workflows, including deck examples, style previews, scripts, and acceptance
+    checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ClaudeSkills
+    bytes: 8570
+  - kind: homepage
+    url: https://staruhub.github.io/ClaudeSkills/
+    final_url: https://staruhub.github.io/ClaudeSkills/
+    status: 200
+    content_type: text/html
+    title: ClaudeSkills｜为你的 Agent 注入一套工作方法
+    description: 13 个开放、可移植、可检查的 Agent Skills，把成熟工作流装进兼容 Agent Skills 规范的客户端。
+    bytes: 1468
+  official_examples:
+  - kind: example
+    title: Constructivist
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/constructivist-design-constitution/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  - kind: example
+    title: Moshiro consulting report
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/moshiro-consulting-report/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  - kind: example
+    title: Yinghuang bootcamp proposal
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/yinghuang-bootcamp-proposal/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  - kind: example
+    title: Polar Night AI Native
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/polar-night-ai-native/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Constructivist
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/constructivist-design-constitution/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  - kind: example
+    title: Moshiro consulting report
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/moshiro-consulting-report/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  - kind: example
+    title: Yinghuang bootcamp proposal
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/yinghuang-bootcamp-proposal/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  - kind: example
+    title: Polar Night AI Native
+    url: https://github.com/staruhub/ClaudeSkills/blob/HEAD/skills/Geek-skills-deck-studio/examples/polar-night-ai-native/
+    source: https://raw.githubusercontent.com/staruhub/ClaudeSkills/HEAD/README.md
+  official_docs: []
+  official_effect_assets: []
+- name: Claude Trading Skills
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/tradermonty/claude-trading-skills
+  homepage: https://tradermonty.github.io/claude-trading-skills/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Claude Skills trading workflow toolkit that turns market breadth CSVs, chart images, portfolio data, news,
+    trade journals, and research inputs into daily market checks, portfolio reviews, screeners, trade plans, performance digests,
+    dashboards, and evidence-backed strategy reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Trading Skills
+    bytes: 42583
+  - kind: homepage
+    url: https://tradermonty.github.io/claude-trading-skills/
+    final_url: https://tradermonty.github.io/claude-trading-skills/
+    status: 200
+    content_type: text/html
+    title: Claude Trading Skills | Curated Claude skills for equity investors and traders. Empower Solo Traders and Growing
+      Together.
+    description: Curated Claude skills for equity investors and traders. Empower Solo Traders and Growing Together.
+    bytes: 36354
+  official_examples:
+  - kind: template
+    title: Theme Detector
+    url: https://tradermonty.github.io/claude-trading-skills/en/skills/theme-detector/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: template
+    title: Theme Detector
+    url: https://tradermonty.github.io/claude-trading-skills/ja/skills/theme-detector/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  official_docs:
+  - kind: docs
+    title: Find Your Workflow
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/find-your-workflow.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/ja/find-your-workflow.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Your First Week
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/your-first-week.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/ja/your-first-week.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code setup guide
+    url: https://code.claude.com/docs/en/getting-started
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/faq.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Skill Automation Quickstart
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/dev/skill-automation.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/dev/skill-automation.ja.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://tradermonty.github.io/claude-trading-skills/en/getting-started/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Skill Guides
+    url: https://tradermonty.github.io/claude-trading-skills/en/skills/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Shapiro COT Contrarian Playbook
+    url: https://tradermonty.github.io/claude-trading-skills/en/playbooks/shapiro-contrarian/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Shapiro COT 逆張りプレイブック
+    url: https://tradermonty.github.io/claude-trading-skills/ja/playbooks/shapiro-contrarian/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Metadata and Workflow Schema (Developer Reference)
+    url: https://tradermonty.github.io/claude-trading-skills/dev/metadata-and-workflow-schema.html
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Skill Automation Quickstart
+    url: https://tradermonty.github.io/claude-trading-skills/dev/skill-automation.html
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: English Documentation
+    url: https://tradermonty.github.io/claude-trading-skills/en/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Edit this page on GitHub
+    url: https://github.com/tradermonty/claude-trading-skills/tree/main/docs/index.md
+    source: https://tradermonty.github.io/claude-trading-skills/
+  official_links:
+  - kind: docs
+    title: Find Your Workflow
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/find-your-workflow.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/ja/find-your-workflow.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Your First Week
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/your-first-week.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/ja/your-first-week.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code setup guide
+    url: https://code.claude.com/docs/en/getting-started
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/en/faq.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Skill Automation Quickstart
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/dev/skill-automation.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/tradermonty/claude-trading-skills/blob/HEAD/docs/dev/skill-automation.ja.md
+    source: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://tradermonty.github.io/claude-trading-skills/en/getting-started/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Skill Guides
+    url: https://tradermonty.github.io/claude-trading-skills/en/skills/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: template
+    title: Theme Detector
+    url: https://tradermonty.github.io/claude-trading-skills/en/skills/theme-detector/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Shapiro COT Contrarian Playbook
+    url: https://tradermonty.github.io/claude-trading-skills/en/playbooks/shapiro-contrarian/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: template
+    title: Theme Detector
+    url: https://tradermonty.github.io/claude-trading-skills/ja/skills/theme-detector/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Shapiro COT 逆張りプレイブック
+    url: https://tradermonty.github.io/claude-trading-skills/ja/playbooks/shapiro-contrarian/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Metadata and Workflow Schema (Developer Reference)
+    url: https://tradermonty.github.io/claude-trading-skills/dev/metadata-and-workflow-schema.html
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Skill Automation Quickstart
+    url: https://tradermonty.github.io/claude-trading-skills/dev/skill-automation.html
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: English Documentation
+    url: https://tradermonty.github.io/claude-trading-skills/en/
+    source: https://tradermonty.github.io/claude-trading-skills/
+  - kind: docs
+    title: Edit this page on GitHub
+    url: https://github.com/tradermonty/claude-trading-skills/tree/main/docs/index.md
+    source: https://tradermonty.github.io/claude-trading-skills/
+  source_headings:
+  - Additional Workflow Examples
+  official_effect_assets: []

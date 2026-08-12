@@ -1,4 +1,4 @@
-last_researched: '2026-08-12'
+last_researched: '2026-08-13'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -12591,3 +12591,159 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: docs
+- name: Markdown Exporter
+  url: https://github.com/bowenliang123/markdown-exporter
+  homepage: https://marketplace.dify.ai/plugins/bowenliang123/md_exporter
+  category: rendering-primitive
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 260
+  license: Apache-2.0
+  updated: '2026-08-12'
+  note: Agent Skill, Dify plugin, OpenClaw skill, and CLI that transforms Markdown text and Markdown tables into DOCX,
+    PPTX, PDF, PNG, SVG, HTML, XLSX, CSV, JSON, XML, LaTeX, notebooks, and code files with local processing and optional
+    document templates.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 表格/时间线
+  - 结构化数据/Markdown
+  catalog_section: support_render
+  readme_group: support_render
+- name: Graphify
+  url: https://github.com/Graphify-Labs/graphify
+  homepage: https://www.graphify.com
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 存储/索引
+  - 模型 API
+  - 渲染/导出
+  stars: 105663
+  license: Apache-2.0
+  updated: '2026-08-12'
+  note: Cross-agent /graphify skill and CLI that maps code, docs, PDFs, images, video, and audio into a local-first
+    explained knowledge graph, producing an interactive graph.html, GRAPH_REPORT.md, and queryable graph.json.
+  source_types:
+  - 代码库
+  - PDF/文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - 报告/长文档
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: code
+- name: AgentDoc
+  url: https://github.com/jonverrier/AgentDoc
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 53
+  license: unknown
+  updated: '2026-08-12'
+  note: MCP server and prompt/tool set for walking legacy codebases, generating per-directory README.C4Diagrammer.md
+    summaries, C4Component diagrams, root C4Context/C4Container diagrams, Mermaid validation, and browser previews.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 报告/长文档
+  catalog_section: main
+  readme_group: code
+- name: ClaudeSkills by StarU
+  url: https://github.com/staruhub/ClaudeSkills
+  homepage: https://staruhub.github.io/ClaudeSkills/
+  category: meta-index
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 673
+  license: MIT
+  updated: '2026-08-12'
+  note: Curated 13-skill Agent Skills collection with deep-research, deck-studio, product-document, WeChat article, PDF
+    parsing, sales, architecture, and quality-gated workflows, including deck examples, style previews, scripts, and
+    acceptance checks.
+  source_types:
+  - 任意/多源
+  - 网页/搜索结果
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  - Awesome/索引
+  output_forms:
+  - 工具索引
+  - PPT/演示文稿
+  - 报告/长文档
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: indexes
+  readme_group: indexes
+- name: Claude Trading Skills
+  url: https://github.com/tradermonty/claude-trading-skills
+  homepage: https://tradermonty.github.io/claude-trading-skills/
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 2623
+  license: MIT
+  updated: '2026-08-12'
+  note: Claude Skills trading workflow toolkit that turns market breadth CSVs, chart images, portfolio data, news, trade
+    journals, and research inputs into daily market checks, portfolio reviews, screeners, trade plans, performance
+    digests, dashboards, and evidence-backed strategy reports.
+  source_types:
+  - 数据/表格
+  - 新闻/资讯
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data

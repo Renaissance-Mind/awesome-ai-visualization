@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-12.
+Last researched: 2026-08-13.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-13: refreshed Markdown export/rendering utilities, codebase knowledge-graph skills, legacy-code C4 documentation MCP tooling, curated Agent Skills collections, and finance/trading dashboard-report workflows from official GitHub repositories, product/documentation pages, README evidence, live GitHub searches, and GitHub metadata. This pass added Markdown Exporter, Graphify, AgentDoc, ClaudeSkills by StarU, and Claude Trading Skills. The targeted scraper ran only against these five new records, fetched nine official sources successfully with no failed fetches, and found twelve official examples, sixteen official preview assets, and twenty-two official docs links after scrubbing generic marketplace, platform-doc, scheduling, third-party tutorial, and generic Open Graph links.
 
 Update on 2026-08-12: refreshed deck-cleanup skills, paper-to-video sharing pipelines, remote PowerPoint MCP/API generation, Mermaid-to-image/draw.io rendering, YAML-governed infographic generation, deterministic chart protocols, agent-native slide apps, lab-meeting reporting, video-to-slide recovery, and lecture-to-notes viewers from official GitHub repositories, product pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added humanize-presentations, Paper Share Skills, SlideForge MCP, mermaid-mcp by tci-nebula, YAML Infographic, Open Visualization Protocol, Vela Slides, Lab Meeting Report Skill, Echo Slides Skill, and lecture-to-notes. The targeted scraper ran only against these ten new records, fetched sixteen official sources successfully with no failed fetches, and found thirty-eight official examples, fifteen official preview assets, and thirty official docs links.
 
