@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-08-12T23:05:12+00:00",
-  "lastResearched": "2026-08-13",
+  "generatedAt": "2026-08-13T23:07:35+00:00",
+  "lastResearched": "2026-08-14",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 501,
-    "openSource": 129,
-    "saas": 55,
-    "modelApi": 179,
-    "examples": 1198,
-    "effectAssets": 1446,
-    "docs": 1396
+    "total": 508,
+    "openSource": 130,
+    "saas": 57,
+    "modelApi": 180,
+    "examples": 1201,
+    "effectAssets": 1462,
+    "docs": 1397
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 56,
-      "PDF/文档": 165,
-      "文本/想法": 313,
-      "数据/表格": 187,
+      "PDF/文档": 166,
+      "文本/想法": 318,
+      "数据/表格": 191,
       "代码/技术描述": 95,
-      "网页/搜索结果": 140,
+      "网页/搜索结果": 143,
       "代码库": 51,
-      "DSL/代码": 98,
-      "新闻/资讯": 20,
-      "知识库/个人资料": 38,
+      "DSL/代码": 99,
+      "新闻/资讯": 22,
+      "知识库/个人资料": 39,
       "任意/多源": 72,
-      "Office 文档": 79,
+      "Office 文档": 81,
       "引用网络": 4,
-      "数据库": 43,
+      "数据库": 45,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 129,
-      "Agent Skill": 168,
+      "开源应用/框架": 130,
+      "Agent Skill": 171,
       "Skill 集合": 46,
+      "MCP Server": 155,
+      "产品/SaaS": 57,
       "数据集/评测": 2,
       "Bot/助手": 15,
-      "产品/SaaS": 55,
-      "MCP Server": 153,
       "研究原型": 5,
-      "API/SDK/库": 71,
+      "API/SDK/库": 73,
       "Awesome/索引": 25
     },
     "outputForms": {
-      "图形摘要/信息图": 36,
-      "PPT/演示文稿": 219,
-      "网页/交互页面": 154,
+      "图形摘要/信息图": 37,
+      "PPT/演示文稿": 221,
+      "网页/交互页面": 158,
       "问答/学习材料": 15,
       "报告/长文档": 69,
-      "证据表": 29,
-      "信息图/视觉报告": 69,
-      "图表/仪表盘": 136,
+      "证据表": 30,
+      "信息图/视觉报告": 72,
+      "图表/仪表盘": 139,
       "架构图/流程图": 113,
-      "SVG/PNG/PDF": 186,
-      "报告/简报": 59,
+      "SVG/PNG/PDF": 191,
+      "报告/简报": 61,
       "白板/思维导图": 32,
-      "图表/Mermaid": 57,
-      "视频/音频": 37,
+      "图表/Mermaid": 58,
+      "视频/音频": 38,
+      "结构化数据/Markdown": 63,
       "表格/时间线": 14,
       "引用答案": 5,
       "思维导图/知识地图": 31,
-      "结构化数据/Markdown": 62,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 30,
       "图表/渲染输出": 15,
       "工具索引": 27
     },
     "dependencies": {
-      "本地语言环境": 399,
-      "模型 API": 179,
-      "文档解析/OCR": 80,
-      "渲染/导出": 414,
+      "本地语言环境": 406,
+      "模型 API": 180,
+      "文档解析/OCR": 81,
+      "渲染/导出": 420,
       "GPU/加速器": 15,
-      "模板/素材": 231,
-      "Agent 宿主": 218,
-      "系统工具": 95,
-      "浏览器/账号": 128,
-      "存储/索引": 63,
-      "外部检索/数据源": 108,
-      "MCP Client": 158,
+      "模板/素材": 235,
+      "Agent 宿主": 221,
+      "系统工具": 99,
+      "浏览器/账号": 131,
+      "存储/索引": 64,
+      "MCP Client": 161,
+      "外部检索/数据源": 109,
       "代码分析工具": 34
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 47,
       "research-report": 25,
-      "infographic-report": 41,
-      "data-dashboard": 69,
+      "infographic-report": 44,
+      "data-dashboard": 71,
       "diagram-generation": 67,
       "literature-map": 4,
-      "presentation-tools": 142,
+      "presentation-tools": 144,
       "codebase-map": 28,
       "rendering-primitive": 12,
       "video-generation": 11,
@@ -97,17 +97,17 @@
     },
     "groups": {
       "paper": 30,
-      "text_visual": 54,
+      "text_visual": 57,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 27,
       "support_doc_parse": 15,
-      "presentation": 153,
+      "presentation": 155,
       "code": 29,
       "support_render": 50,
       "diagrams": 16,
       "video": 11,
-      "data": 64,
+      "data": 66,
       "indexes": 27,
       "diagram": 1,
       "index": 1
@@ -1191,6 +1191,48 @@
       "effectAssetsCount": 1
     },
     {
+      "name": "infographic by remybroun",
+      "url": "https://github.com/remybroun/infographic",
+      "primaryUrl": "https://github.com/remybroun/infographic",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-08-13",
+      "note": "Claude Code skill that turns a document, dataset, or topic into a designed visual explainer, print-ready PDF, or scrolling HTML page using guarded word budgets, 52 visual block forms, authored SVG figures, theme validation, and render/selftest gates.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Sideshow",
       "url": "https://github.com/modem-dev/sideshow",
       "primaryUrl": "https://github.com/modem-dev/sideshow",
@@ -2072,6 +2114,118 @@
       "docsCount": 3,
       "examplesCount": 1,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "publiar-lead-magnet",
+      "url": "https://github.com/TokDar2410621/publiar-lead-magnet",
+      "primaryUrl": "https://github.com/TokDar2410621/publiar-lead-magnet",
+      "homepage": "https://publiar.app",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-13",
+      "note": "Claude Code skill for source-grounded LinkedIn lead magnets that maps real evidence to 8 visual archetypes and enforces anti-hallucination rules before producing French post copy and visual specifications.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Demo Product",
+          "url": "https://publiar.app/demo-product.mp4",
+          "thumbnailUrl": null,
+          "source": "https://publiar.app/"
+        },
+        {
+          "kind": "video",
+          "title": "Promo",
+          "url": "https://publiar.app/promo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://publiar.app/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "publiar-mcp",
+      "url": "https://github.com/TokDar2410621/publiar-mcp",
+      "primaryUrl": "https://github.com/TokDar2410621/publiar-mcp",
+      "homepage": "https://publiar.app",
+      "category": "infographic-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-13",
+      "note": "Publiar MCP server with 22 tools for evidence-checked LinkedIn lead magnets, visual specs, PNG/GIF rendering, hosted resources, publishing previews, and performance tracking without fabricated claims.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "新闻/资讯",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "SVG/PNG/PDF",
+        "视频/音频",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Demo Product",
+          "url": "https://publiar.app/demo-product.mp4",
+          "thumbnailUrl": null,
+          "source": "https://publiar.app/"
+        },
+        {
+          "kind": "video",
+          "title": "Promo",
+          "url": "https://publiar.app/promo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://publiar.app/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
     },
     {
       "name": "ascii-canvas",
@@ -11720,6 +11874,46 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "gslides-2-html-presenter",
+      "url": "https://github.com/tdupur/elastic-gslides-2-html-presenter",
+      "primaryUrl": "https://github.com/tdupur/elastic-gslides-2-html-presenter",
+      "homepage": "https://tools.elastic.dev/p/skills/catalog",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-08-13",
+      "note": "Claude Code skill that converts a Google Slides share URL into two synced, fully self-contained offline HTML files: a screen-share-safe audience deck and a private presenter-notes view with thumbnails, keyboard navigation, and local sync.",
+      "sourceTypes": [
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "ppt-mcp",
       "url": "https://github.com/ykuwai/ppt-mcp",
       "primaryUrl": "https://github.com/ykuwai/ppt-mcp",
@@ -11910,6 +12104,158 @@
       "docsCount": 3,
       "examplesCount": 1,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Kova",
+      "url": "https://github.com/KovaMD/Kova",
+      "primaryUrl": "https://github.com/KovaMD/Kova",
+      "homepage": "https://kova.md",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 280,
+      "license": "GPL-3.0",
+      "updated": "2026-08-13",
+      "note": "Native desktop Markdown presentation editor with live preview, auto layouts, themes, KaTeX, syntax highlighting, Mermaid charts, rich media, speaker notes, build animations, computed tables, and PPTX/PDF/standalone HTML export.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://wiki.kova.md",
+          "source": "https://kova.md/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/sheet-basics.md`",
+          "url": "https://github.com/KovaMD/Kova/blob/HEAD/examples/sheet-basics.md",
+          "source": "https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "KovaMD/Themes",
+          "url": "https://github.com/KovaMD/Themes",
+          "source": "https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Themes",
+          "url": "https://wiki.kova.md/themes/",
+          "source": "https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Kova editor",
+          "url": "https://raw.githubusercontent.com/KovaMD/Kova/HEAD/docs/readme/screenshot-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Kova editor - slide preview on the left, markdown on the right",
+          "url": "https://kova.md/assets/welcome-dark.png?v=20260713",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Kova editor in light mode - slide preview on the left, markdown on the right",
+          "url": "https://kova.md/assets/welcome-light.png?v=20260713",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Kova editor showing two-column layout with progress bar charts",
+          "url": "https://kova.md/assets/screenshot-drinks-dark.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Kova editor in light mode showing two-column layout with progress bar charts",
+          "url": "https://kova.md/assets/screenshot-drinks-light.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "kova.md - Markdown-powered presentations",
+          "url": "https://kova.md/assets/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Rendered slide showing a feature list alongside a syntax-highlighted code block",
+          "url": "https://kova.md/assets/slide-features-code.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Kova editor with inspector open, showing the Dover theme applied",
+          "url": "https://kova.md/assets/welcome-dover.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Introduction slide in Institutional theme - dark navy with mermaid pie chart",
+          "url": "https://kova.md/assets/slide-theme-institutional.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Introduction slide in Grove theme - light green tones with mermaid pie chart",
+          "url": "https://kova.md/assets/slide-theme-grove.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Themes library showing available community and built-in themes",
+          "url": "https://kova.md/assets/inspector-themes-dark.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        },
+        {
+          "kind": "image",
+          "title": "Themes library in light mode showing available community and built-in themes",
+          "url": "https://kova.md/assets/inspector-themes-light.png?v=20260522",
+          "thumbnailUrl": null,
+          "source": "https://kova.md/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 3,
+      "effectAssetsCount": 12
     },
     {
       "name": "image-to-editable-ppt-skill",
@@ -25833,6 +26179,45 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "DataPulse Studio",
+      "url": "https://github.com/suryaaxc/DataPulse-Studio",
+      "primaryUrl": "https://github.com/suryaaxc/DataPulse-Studio",
+      "homepage": "https://datapulse-studio.vercel.app",
+      "category": "data-dashboard",
+      "surface": "product",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "proprietary",
+      "updated": "2026-08-10",
+      "note": "Privacy-first browser analytics app that turns CSV or Parquet uploads plus plain-English questions into DuckDB-Wasm SQL, Recharts dashboards, cross-filtered interactive visuals, SQL inspection, auto-fix loops, and full-screen presentation mode.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "OpenBI",
       "url": "https://github.com/narender-rk10/OpenBI",
       "primaryUrl": "https://github.com/narender-rk10/OpenBI",
@@ -25961,6 +26346,47 @@
       "docsCount": 1,
       "examplesCount": 0,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "powerbi-pbix-mcp",
+      "url": "https://github.com/cyphonica/powerbi-pbix-mcp",
+      "primaryUrl": "https://github.com/cyphonica/powerbi-pbix-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 1,
+      "license": "FSL-1.1-ALv2",
+      "updated": "2026-08-13",
+      "note": "Windows-local Power BI MCP server that lets AI agents author complete PBIX/PBIP artifacts across semantic models, DAX, Power Query M, report pages, visuals, screenshots, validation, RLS tests, and closed-file template edits with hundreds of deterministic tools.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     },
     {
       "name": "MCP Visuals Server",

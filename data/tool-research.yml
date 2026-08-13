@@ -1,4 +1,4 @@
-generated_at: '2026-08-12T23:05:12+00:00'
+generated_at: '2026-08-13T23:07:35+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 501
-  fetched_sources_ok: 676
+  entries: 508
+  fetched_sources_ok: 687
   fetched_sources_failed: 36
-  official_examples: 1198
-  official_effect_assets: 1446
-  official_docs: 1396
+  official_examples: 1201
+  official_effect_assets: 1462
+  official_docs: 1397
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -42652,3 +42652,295 @@ entries:
   source_headings:
   - Additional Workflow Examples
   official_effect_assets: []
+- name: infographic by remybroun
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/remybroun/infographic
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code skill that turns a document, dataset, or topic into a designed visual explainer, print-ready PDF,
+    or scrolling HTML page using guarded word budgets, 52 visual block forms, authored SVG figures, theme validation, and
+    render/selftest gates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/remybroun/infographic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/remybroun/infographic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: infographic
+    bytes: 8207
+- name: publiar-lead-magnet
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/TokDar2410621/publiar-lead-magnet
+  homepage: https://publiar.app
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模板/素材
+  catalog_note: Claude Code skill for source-grounded LinkedIn lead magnets that maps real evidence to 8 visual archetypes
+    and enforces anti-hallucination rules before producing French post copy and visual specifications.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TokDar2410621/publiar-lead-magnet/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TokDar2410621/publiar-lead-magnet/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: publiar-lead-magnet
+    bytes: 3636
+  - kind: homepage
+    url: https://publiar.app/
+    final_url: https://publiar.app/
+    status: 200
+    content_type: text/html
+    title: Publiar - Lead magnets LinkedIn avec hook, preuve et visuel
+    description: 'Transformez une idee, un lien ou un document en lead magnet LinkedIn : hook, preuve, visuel et CTA commentaire.'
+    bytes: 88672
+  official_effect_assets:
+  - kind: video
+    title: Demo Product
+    url: https://publiar.app/demo-product.mp4
+    source: https://publiar.app/
+  - kind: video
+    title: Promo
+    url: https://publiar.app/promo.mp4
+    source: https://publiar.app/
+- name: publiar-mcp
+  category: infographic-report
+  surface: mcp
+  primary_url: https://github.com/TokDar2410621/publiar-mcp
+  homepage: https://publiar.app
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Publiar MCP server with 22 tools for evidence-checked LinkedIn lead magnets, visual specs, PNG/GIF rendering,
+    hosted resources, publishing previews, and performance tracking without fabricated claims.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TokDar2410621/publiar-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TokDar2410621/publiar-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: publiar-mcp
+    bytes: 7090
+  - kind: homepage
+    url: https://publiar.app/
+    final_url: https://publiar.app/
+    status: 200
+    content_type: text/html
+    title: Publiar - Lead magnets LinkedIn avec hook, preuve et visuel
+    description: 'Transformez une idee, un lien ou un document en lead magnet LinkedIn : hook, preuve, visuel et CTA commentaire.'
+    bytes: 88672
+  official_effect_assets:
+  - kind: video
+    title: Demo Product
+    url: https://publiar.app/demo-product.mp4
+    source: https://publiar.app/
+  - kind: video
+    title: Promo
+    url: https://publiar.app/promo.mp4
+    source: https://publiar.app/
+- name: gslides-2-html-presenter
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/tdupur/elastic-gslides-2-html-presenter
+  homepage: https://tools.elastic.dev/p/skills/catalog
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: 'Claude Code skill that converts a Google Slides share URL into two synced, fully self-contained offline HTML
+    files: a screen-share-safe audience deck and a private presenter-notes view with thumbnails, keyboard navigation, and
+    local sync.'
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tdupur/elastic-gslides-2-html-presenter/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tdupur/elastic-gslides-2-html-presenter/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: gslides-2-html-presenter
+    bytes: 3838
+  source_headings:
+  - gslides-2-html-presenter
+  - Usage
+- name: Kova
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/KovaMD/Kova
+  homepage: https://kova.md
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Native desktop Markdown presentation editor with live preview, auto layouts, themes, KaTeX, syntax highlighting,
+    Mermaid charts, rich media, speaker notes, build animations, computed tables, and PPTX/PDF/standalone HTML export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Kova
+    bytes: 7931
+  - kind: homepage
+    url: https://kova.md/
+    final_url: https://kova.md/
+    status: 200
+    content_type: text/html
+    title: "kova.md - Markdown-powered presentations"
+    description: Kova turns Markdown into presentations. Free, open source, runs on Windows, macOS, and Linux. No account
+      required.
+    bytes: 23377
+  official_examples:
+  - kind: example
+    title: '`examples/sheet-basics.md`'
+    url: https://github.com/KovaMD/Kova/blob/HEAD/examples/sheet-basics.md
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  - kind: template
+    title: KovaMD/Themes
+    url: https://github.com/KovaMD/Themes
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  - kind: template
+    title: Themes
+    url: https://wiki.kova.md/themes/
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://wiki.kova.md
+    source: https://kova.md/
+  official_effect_assets:
+  - kind: image
+    title: Kova editor
+    url: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/docs/readme/screenshot-light.png
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  - kind: image
+    title: "Kova editor - slide preview on the left, markdown on the right"
+    url: https://kova.md/assets/welcome-dark.png?v=20260713
+    source: https://kova.md/
+  - kind: image
+    title: "Kova editor in light mode - slide preview on the left, markdown on the right"
+    url: https://kova.md/assets/welcome-light.png?v=20260713
+    source: https://kova.md/
+  - kind: image
+    title: Kova editor showing two-column layout with progress bar charts
+    url: https://kova.md/assets/screenshot-drinks-dark.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: Kova editor in light mode showing two-column layout with progress bar charts
+    url: https://kova.md/assets/screenshot-drinks-light.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: "kova.md - Markdown-powered presentations"
+    url: https://kova.md/assets/og-image.png
+    source: https://kova.md/
+  - kind: image
+    title: Rendered slide showing a feature list alongside a syntax-highlighted code block
+    url: https://kova.md/assets/slide-features-code.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: Kova editor with inspector open, showing the Dover theme applied
+    url: https://kova.md/assets/welcome-dover.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: "Introduction slide in Institutional theme - dark navy with mermaid pie chart"
+    url: https://kova.md/assets/slide-theme-institutional.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: "Introduction slide in Grove theme - light green tones with mermaid pie chart"
+    url: https://kova.md/assets/slide-theme-grove.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: Themes library showing available community and built-in themes
+    url: https://kova.md/assets/inspector-themes-dark.png?v=20260522
+    source: https://kova.md/
+  - kind: image
+    title: Themes library in light mode showing available community and built-in themes
+    url: https://kova.md/assets/inspector-themes-light.png?v=20260522
+    source: https://kova.md/
+  official_links:
+  - kind: example
+    title: '`examples/sheet-basics.md`'
+    url: https://github.com/KovaMD/Kova/blob/HEAD/examples/sheet-basics.md
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  - kind: template
+    title: KovaMD/Themes
+    url: https://github.com/KovaMD/Themes
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  - kind: template
+    title: Themes
+    url: https://wiki.kova.md/themes/
+    source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://wiki.kova.md
+    source: https://kova.md/
+- name: DataPulse Studio
+  category: data-dashboard
+  surface: product
+  primary_url: https://github.com/suryaaxc/DataPulse-Studio
+  homepage: https://datapulse-studio.vercel.app
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Privacy-first browser analytics app that turns CSV or Parquet uploads plus plain-English questions into DuckDB-Wasm
+    SQL, Recharts dashboards, cross-filtered interactive visuals, SQL inspection, auto-fix loops, and full-screen presentation
+    mode.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/suryaaxc/DataPulse-Studio/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/suryaaxc/DataPulse-Studio/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ⚡ AI • ANALYTICS • WEBASSEMBLY • DATA VISUALIZATION • PRIVACY-FIRST ⚡
+    bytes: 7702
+  - kind: homepage
+    url: https://datapulse-studio.vercel.app/dashboard
+    final_url: https://datapulse-studio.vercel.app/dashboard
+    status: 200
+    content_type: text/html
+    title: DataPulse Studio
+    description: Upload CSV/Parquet, query it instantly with in-browser SQL, and turn it into a dashboard by describing what
+      you want to see.
+    bytes: 14598
+  source_headings:
+  - ⚡ AI • ANALYTICS • WEBASSEMBLY • DATA VISUALIZATION • PRIVACY-FIRST ⚡
+  - 📸 PRODUCT SHOWCASE
+  - Visualization & Motion
+  - 🧪 SAMPLE DATASET
+- name: powerbi-pbix-mcp
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/cyphonica/powerbi-pbix-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Windows-local Power BI MCP server that lets AI agents author complete PBIX/PBIP artifacts across semantic
+    models, DAX, Power Query M, report pages, visuals, screenshots, validation, RLS tests, and closed-file template edits
+    with hundreds of deterministic tools.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cyphonica/powerbi-pbix-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cyphonica/powerbi-pbix-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Super BI MCP
+    bytes: 8193
