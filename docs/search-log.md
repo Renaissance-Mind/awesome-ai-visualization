@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-13.
+Last researched: 2026-08-14.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-14: refreshed guarded infographic skills, evidence-backed LinkedIn visual lead-magnet workflows, Google Slides-to-HTML presenter export, Markdown-native presentation editing, privacy-first browser dashboards, and Power BI PBIX/PBIP authoring MCP surfaces from official GitHub repositories, product pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added infographic by remybroun, publiar-lead-magnet, publiar-mcp, gslides-2-html-presenter, Kova, DataPulse Studio, and powerbi-pbix-mcp. The targeted scraper ran only against these seven new records, fetched eleven official sources successfully with no failed fetches, and found three official examples, sixteen official preview assets, and one official docs link after scrubbing a Google sign-in redirect and a missing placeholder demo GIF.
 
 Update on 2026-08-13: refreshed Markdown export/rendering utilities, codebase knowledge-graph skills, legacy-code C4 documentation MCP tooling, curated Agent Skills collections, and finance/trading dashboard-report workflows from official GitHub repositories, product/documentation pages, README evidence, live GitHub searches, and GitHub metadata. This pass added Markdown Exporter, Graphify, AgentDoc, ClaudeSkills by StarU, and Claude Trading Skills. The targeted scraper ran only against these five new records, fetched nine official sources successfully with no failed fetches, and found twelve official examples, sixteen official preview assets, and twenty-two official docs links after scrubbing generic marketplace, platform-doc, scheduling, third-party tutorial, and generic Open Graph links.
 

@@ -1,4 +1,4 @@
-last_researched: '2026-08-13'
+last_researched: '2026-08-14'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -354,6 +354,34 @@ entries:
   - 信息图/视觉报告
   catalog_section: main
   readme_group: text_visual
+- name: infographic by remybroun
+  url: https://github.com/remybroun/infographic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 2
+  license: unknown
+  updated: '2026-08-13'
+  note: Claude Code skill that turns a document, dataset, or topic into a designed visual explainer, print-ready PDF, or scrolling HTML page using guarded word budgets, 52 visual block forms, authored SVG figures, theme validation, and render/selftest gates.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: text_visual
 - name: Sideshow
   url: https://github.com/modem-dev/sideshow
   category: infographic-report
@@ -541,6 +569,62 @@ entries:
   output_forms:
   - 信息图/视觉报告
   - 图形摘要/信息图
+  catalog_section: main
+  readme_group: text_visual
+- name: publiar-lead-magnet
+  url: https://github.com/TokDar2410621/publiar-lead-magnet
+  homepage: https://publiar.app
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-13'
+  note: Claude Code skill for source-grounded LinkedIn lead magnets that maps real evidence to 8 visual archetypes and enforces anti-hallucination rules before producing French post copy and visual specifications.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: text_visual
+- name: publiar-mcp
+  url: https://github.com/TokDar2410621/publiar-mcp
+  homepage: https://publiar.app
+  category: infographic-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-13'
+  note: Publiar MCP server with 22 tools for evidence-checked LinkedIn lead magnets, visual specs, PNG/GIF rendering, hosted resources, publishing previews, and performance tracking without fabricated claims.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  - 视频/音频
+  - 证据表
   catalog_section: main
   readme_group: text_visual
 - name: ascii-canvas
@@ -3134,6 +3218,35 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: presentation
+- name: gslides-2-html-presenter
+  url: https://github.com/tdupur/elastic-gslides-2-html-presenter
+  homepage: https://tools.elastic.dev/p/skills/catalog
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 0
+  license: Apache-2.0
+  updated: '2026-08-13'
+  note: >-
+    Claude Code skill that converts a Google Slides share URL into two synced, fully self-contained offline HTML files:
+    a screen-share-safe audience deck and a private presenter-notes view with thumbnails, keyboard navigation, and local sync.
+  source_types:
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
 - name: ppt-mcp
   url: https://github.com/ykuwai/ppt-mcp
   category: presentation-tools
@@ -3185,6 +3298,34 @@ entries:
   - PPT/演示文稿
   - 报告/长文档
   - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Kova
+  url: https://github.com/KovaMD/Kova
+  homepage: https://kova.md
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 280
+  license: GPL-3.0
+  updated: '2026-08-13'
+  note: Native desktop Markdown presentation editor with live preview, auto layouts, themes, KaTeX, syntax highlighting, Mermaid charts, rich media, speaker notes, build animations, computed tables, and PPTX/PDF/standalone HTML export.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/Mermaid
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
@@ -7490,6 +7631,32 @@ entries:
   - 报告/简报
   catalog_section: main
   readme_group: data
+- name: DataPulse Studio
+  url: https://github.com/suryaaxc/DataPulse-Studio
+  homepage: https://datapulse-studio.vercel.app
+  category: data-dashboard
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 1
+  license: proprietary
+  updated: '2026-08-10'
+  note: Privacy-first browser analytics app that turns CSV or Parquet uploads plus plain-English questions into DuckDB-Wasm SQL, Recharts dashboards, cross-filtered interactive visuals, SQL inspection, auto-fix loops, and full-screen presentation mode.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
 - name: OpenBI
   url: https://github.com/narender-rk10/OpenBI
   category: data-dashboard
@@ -7512,6 +7679,33 @@ entries:
   output_forms:
   - 图表/仪表盘
   - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: powerbi-pbix-mcp
+  url: https://github.com/cyphonica/powerbi-pbix-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 1
+  license: FSL-1.1-ALv2
+  updated: '2026-08-13'
+  note: Windows-local Power BI MCP server that lets AI agents author complete PBIX/PBIP artifacts across semantic models, DAX, Power Query M, report pages, visuals, screenshots, validation, RLS tests, and closed-file template edits with hundreds of deterministic tools.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
 - name: MCP Visuals Server
