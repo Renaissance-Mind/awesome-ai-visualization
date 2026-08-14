@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-08-13T23:07:35+00:00",
-  "lastResearched": "2026-08-14",
+  "generatedAt": "2026-08-14T23:05:02+00:00",
+  "lastResearched": "2026-08-15",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 508,
+    "total": 515,
     "openSource": 130,
-    "saas": 57,
+    "saas": 58,
     "modelApi": 180,
-    "examples": 1201,
-    "effectAssets": 1462,
-    "docs": 1397
+    "examples": 1204,
+    "effectAssets": 1471,
+    "docs": 1410
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 56,
       "PDF/文档": 166,
-      "文本/想法": 318,
-      "数据/表格": 191,
+      "文本/想法": 321,
+      "数据/表格": 197,
       "代码/技术描述": 95,
       "网页/搜索结果": 143,
-      "代码库": 51,
-      "DSL/代码": 99,
+      "代码库": 52,
+      "DSL/代码": 101,
       "新闻/资讯": 22,
-      "知识库/个人资料": 39,
-      "任意/多源": 72,
-      "Office 文档": 81,
+      "知识库/个人资料": 41,
+      "任意/多源": 73,
+      "Office 文档": 84,
       "引用网络": 4,
-      "数据库": 45,
+      "数据库": 46,
       "视频/音频": 2
     },
     "toolForms": {
       "开源应用/框架": 130,
-      "Agent Skill": 171,
+      "Agent Skill": 172,
       "Skill 集合": 46,
-      "MCP Server": 155,
-      "产品/SaaS": 57,
+      "MCP Server": 162,
+      "产品/SaaS": 58,
       "数据集/评测": 2,
       "Bot/助手": 15,
       "研究原型": 5,
-      "API/SDK/库": 73,
+      "API/SDK/库": 75,
       "Awesome/索引": 25
     },
     "outputForms": {
       "图形摘要/信息图": 37,
-      "PPT/演示文稿": 221,
-      "网页/交互页面": 158,
+      "PPT/演示文稿": 222,
+      "网页/交互页面": 160,
       "问答/学习材料": 15,
-      "报告/长文档": 69,
-      "证据表": 30,
+      "报告/长文档": 73,
+      "证据表": 32,
       "信息图/视觉报告": 72,
-      "图表/仪表盘": 139,
-      "架构图/流程图": 113,
-      "SVG/PNG/PDF": 191,
-      "报告/简报": 61,
+      "图表/仪表盘": 142,
+      "架构图/流程图": 115,
+      "SVG/PNG/PDF": 195,
+      "报告/简报": 63,
       "白板/思维导图": 32,
-      "图表/Mermaid": 58,
+      "图表/Mermaid": 59,
       "视频/音频": 38,
-      "结构化数据/Markdown": 63,
+      "结构化数据/Markdown": 66,
       "表格/时间线": 14,
       "引用答案": 5,
-      "思维导图/知识地图": 31,
+      "思维导图/知识地图": 32,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 30,
-      "图表/渲染输出": 15,
+      "代码地图/Repo Wiki": 31,
+      "图表/渲染输出": 16,
       "工具索引": 27
     },
     "dependencies": {
-      "本地语言环境": 406,
+      "本地语言环境": 413,
       "模型 API": 180,
       "文档解析/OCR": 81,
-      "渲染/导出": 420,
+      "渲染/导出": 427,
       "GPU/加速器": 15,
-      "模板/素材": 235,
-      "Agent 宿主": 221,
-      "系统工具": 99,
-      "浏览器/账号": 131,
-      "存储/索引": 64,
-      "MCP Client": 161,
-      "外部检索/数据源": 109,
-      "代码分析工具": 34
+      "模板/素材": 238,
+      "Agent 宿主": 223,
+      "系统工具": 103,
+      "浏览器/账号": 133,
+      "存储/索引": 66,
+      "MCP Client": 168,
+      "外部检索/数据源": 110,
+      "代码分析工具": 35
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 47,
-      "research-report": 25,
+      "research-report": 27,
       "infographic-report": 44,
-      "data-dashboard": 71,
-      "diagram-generation": 67,
+      "data-dashboard": 73,
+      "diagram-generation": 68,
       "literature-map": 4,
-      "presentation-tools": 144,
-      "codebase-map": 28,
+      "presentation-tools": 145,
+      "codebase-map": 29,
       "rendering-primitive": 12,
       "video-generation": 11,
       "commercial-site": 10,
@@ -100,14 +100,14 @@
       "text_visual": 57,
       "web_news": 9,
       "support_mindmap": 14,
-      "docs": 27,
-      "support_doc_parse": 15,
+      "docs": 29,
+      "support_doc_parse": 16,
       "presentation": 155,
-      "code": 29,
-      "support_render": 50,
+      "code": 30,
+      "support_render": 51,
       "diagrams": 16,
       "video": 11,
-      "data": 66,
+      "data": 68,
       "indexes": 27,
       "diagram": 1,
       "index": 1
@@ -43471,6 +43471,457 @@
       "docsCount": 16,
       "examplesCount": 2,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "root-ext-viz",
+      "url": "https://github.com/graphgrow/root-ext-viz",
+      "primaryUrl": "https://github.com/graphgrow/root-ext-viz",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-07-30",
+      "note": "Data-visualization MCP tool server with a sessional Python kernel, pandas/numpy/scipy/matplotlib/plotly/altair, Vega-Lite chart specs, local PNG rendering through vl-convert, data profiling, and bounded artifact-directory outputs.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Re:port Flow MCP",
+      "url": "https://github.com/re-port-flow/reportflow-mcp",
+      "primaryUrl": "https://github.com/re-port-flow/reportflow-mcp",
+      "homepage": "https://www.npmjs.com/package/reportflow-mcp-server",
+      "category": "research-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-09",
+      "note": "MCP server that turns Re:port Flow templates into invoices, contracts, statements, and other PDF reports from Claude or compatible AI agents, with remote OAuth and local npx transport options.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/security.md",
+          "url": "https://github.com/re-port-flow/reportflow-mcp/blob/HEAD/docs/security.md",
+          "source": "https://raw.githubusercontent.com/re-port-flow/reportflow-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "regulated-reporting-mcp",
+      "url": "https://github.com/dbett4/regulated-reporting-mcp",
+      "primaryUrl": "https://github.com/dbett4/regulated-reporting-mcp",
+      "homepage": "https://davebettner.com",
+      "category": "research-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-11",
+      "note": "Workiva-focused MCP server for regulated financial reporting with OAuth, async polling, guarded write contracts, verified readback, redacted receipts, and a credential-free demo path for statement-workbook workflows.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "the test map",
+          "url": "https://github.com/dbett4/regulated-reporting-mcp/blob/HEAD/docs/PROOF.md",
+          "source": "https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Mock-mode demo: list, read, gated write, verified readback, receipt",
+          "url": "https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/docs/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Office Reporting MCP Kit",
+      "url": "https://github.com/hotalexnet/office-reporting-mcp-kit",
+      "primaryUrl": "https://github.com/hotalexnet/office-reporting-mcp-kit",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "Apache-2.0",
+      "updated": "2026-07-22",
+      "note": "Reusable MCP contracts, Agent Skill guidance, and Python adapter protocols for backend-authorized Office report creation, rendering, artifact lifecycle checks, and controlled delivery of Word, Excel, PowerPoint, or PDF outputs.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "证据表"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "PDF Reporter MCP",
+      "url": "https://github.com/alexmakeev/pdf-reporter-mcp",
+      "primaryUrl": "https://github.com/alexmakeev/pdf-reporter-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-02",
+      "note": "TypeScript MCP server for rendering Mermaid diagrams to SVG and composing Markdown with callout blocks into styled PDF reports through stdio or SSE transports, with Docker images and strict test coverage.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF",
+        "报告/长文档",
+        "架构图/流程图"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/dev.md",
+          "url": "https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/docs/dev.md",
+          "source": "https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/prod.md",
+          "url": "https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/docs/prod.md",
+          "source": "https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "demo report",
+          "url": "https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/examples/demo-report.pdf",
+          "source": "https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/generate-demo.ts",
+          "url": "https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/examples/generate-demo.ts",
+          "source": "https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Hypermnesia MCP Viz",
+      "url": "https://github.com/cdeust/cortex-viz",
+      "primaryUrl": "https://github.com/cdeust/cortex-viz",
+      "homepage": "https://ai-architect.tools",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "存储/索引",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-08-10",
+      "note": "Read-only Cortex visualization MCP for Codex, Gemini CLI, Claude Code, and other MCP hosts that renders memory stores, activity streams, session archives, and codebase graphs as trace galaxies, execution traces, knowledge browsers, consolidation boards, and wiki views.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/host-event-v1.schema.json`",
+          "url": "https://github.com/cdeust/cortex-viz/blob/HEAD/docs/host-event-v1.schema.json",
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ARCHITECTURE.md",
+          "url": "https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ASSURANCE_CASE.md",
+          "url": "https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ASSURANCE_CASE.md",
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ROADMAP.md",
+          "url": "https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ROADMAP.md",
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Read the PDF",
+          "url": "https://github.com/cdeust/Cortex/raw/main/docs/arxiv-context-assembly/main.pdf",
+          "source": "https://ai-architect.tools/"
+        },
+        {
+          "kind": "docs",
+          "title": "View LaTeX source",
+          "url": "https://github.com/cdeust/Cortex/blob/main/docs/arxiv-context-assembly/main.tex",
+          "source": "https://ai-architect.tools/"
+        },
+        {
+          "kind": "docs",
+          "title": "Read the PDF",
+          "url": "https://github.com/cdeust/Cortex/raw/main/docs/arxiv-thermodynamic/main.pdf",
+          "source": "https://ai-architect.tools/"
+        },
+        {
+          "kind": "docs",
+          "title": "View LaTeX source",
+          "url": "https://github.com/cdeust/Cortex/blob/main/docs/arxiv-thermodynamic/main.tex",
+          "source": "https://ai-architect.tools/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "// memory v4.14.3 Cortex Persistent memory for Claude Code. recall@10 cortex@cortex-plugins 98.20 % LongMemEval 50 MCP tools 9 hooks 97 papers cdeust/Cortex",
+          "url": "https://ai-architect.tools/cortex",
+          "source": "https://ai-architect.tools/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Hypermnesia MCP Viz Trace galaxy on the paper surface: every Claude Code session is a tight phyllotaxis disk of its own prompt → action → file → memory chain, clustered around its ",
+          "url": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-trace-galaxy.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "3D Brain view: 125,744 nodes streamed into a translucent anatomical cortical mesh; episodic memories in the medial temporal lobe fading outward to neocortex along a hot→consolidate",
+          "url": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-brain.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Board view: five columns for labile, early LTP, late LTP, consolidated, and reconsolidating memories on the paper surface; each column header states the exact live count (117 · 284",
+          "url": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-consolidation-board.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Trace view, session drill-down: clicking a session opens its full conversation replay: the transcript modal streams every assistant message and tool call (WRITE · READ) with timest",
+          "url": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-trace-session.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "3D Brain view — 125,744 nodes streamed into a translucent anatomical cortical mesh; episodic memories in the medial temporal lobe fading outward to neocortex along a hot to consoli",
+          "url": "https://ai-architect.tools/assets/cortex-brain-800w.jpg",
+          "thumbnailUrl": null,
+          "source": "https://ai-architect.tools/"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 1,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "quickai",
+      "url": "https://github.com/AlexGladkov/quickai",
+      "primaryUrl": "https://github.com/AlexGladkov/quickai",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 37,
+      "license": "MIT",
+      "updated": "2026-08-07",
+      "note": "Local Claude Code profiler, CLI, plugin, and MCP server that indexes transcript JSONL files and turns token, model, tool-use, cache, cost-equivalent, and timeline data into project statistics and self-contained HTML reports.",
+      "sourceTypes": [
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "overview",
+          "url": "https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/docs/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "profiling",
+          "url": "https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/docs/profiling.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "drilldown",
+          "url": "https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/docs/drilldown.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
     }
   ]
 }
