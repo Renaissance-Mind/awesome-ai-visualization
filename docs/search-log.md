@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-14.
+Last researched: 2026-08-15.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-15: refreshed local data-visualization MCP tooling, template-backed PDF report generation, regulated Workiva reporting MCP workflows, reusable Office-reporting contracts, Mermaid/Markdown-to-PDF rendering, Cortex memory/session/codebase visualization, and Claude Code profiling reports from official GitHub repositories, official README evidence, homepage metadata, live GitHub searches, and GitHub metadata. This pass added root-ext-viz, Re:port Flow MCP, regulated-reporting-mcp, Office Reporting MCP Kit, PDF Reporter MCP, Hypermnesia MCP Viz, and quickai. The targeted scraper ran only against these seven new records, fetched nine official sources successfully with one npm package-page 403, and found three official examples, thirteen docs links, and nine kept preview assets after scrubbing non-artifact personal/homepage images.
 
 Update on 2026-08-14: refreshed guarded infographic skills, evidence-backed LinkedIn visual lead-magnet workflows, Google Slides-to-HTML presenter export, Markdown-native presentation editing, privacy-first browser dashboards, and Power BI PBIX/PBIP authoring MCP surfaces from official GitHub repositories, product pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added infographic by remybroun, publiar-lead-magnet, publiar-mcp, gslides-2-html-presenter, Kova, DataPulse Studio, and powerbi-pbix-mcp. The targeted scraper ran only against these seven new records, fetched eleven official sources successfully with no failed fetches, and found three official examples, sixteen official preview assets, and one official docs link after scrubbing a Google sign-in redirect and a missing placeholder demo GIF.
 

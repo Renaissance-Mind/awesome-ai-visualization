@@ -1,4 +1,4 @@
-generated_at: '2026-08-13T23:07:35+00:00'
+generated_at: '2026-08-14T23:05:02+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 508
-  fetched_sources_ok: 687
-  fetched_sources_failed: 36
-  official_examples: 1201
-  official_effect_assets: 1462
-  official_docs: 1397
+  entries: 515
+  fetched_sources_ok: 696
+  fetched_sources_failed: 37
+  official_examples: 1204
+  official_effect_assets: 1471
+  official_docs: 1410
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -42944,3 +42944,373 @@ entries:
     content_type: text/plain
     title: Super BI MCP
     bytes: 8193
+- name: root-ext-viz
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/graphgrow/root-ext-viz
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Data-visualization MCP tool server with a sessional Python kernel, pandas/numpy/scipy/matplotlib/plotly/altair,
+    Vega-Lite chart specs, local PNG rendering through vl-convert, data profiling, and bounded artifact-directory outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/graphgrow/root-ext-viz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/graphgrow/root-ext-viz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: root-ext-viz
+    bytes: 1532
+- name: Re:port Flow MCP
+  category: research-report
+  surface: mcp
+  primary_url: https://github.com/re-port-flow/reportflow-mcp
+  homepage: https://www.npmjs.com/package/reportflow-mcp-server
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server that turns Re:port Flow templates into invoices, contracts, statements, and other PDF reports from
+    Claude or compatible AI agents, with remote OAuth and local npx transport options.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/re-port-flow/reportflow-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/re-port-flow/reportflow-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Re:port Flow MCP
+    bytes: 10635
+  - kind: homepage
+    url: https://www.npmjs.com/package/reportflow-mcp-server
+    final_url: https://www.npmjs.com/package/reportflow-mcp-server
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: docs/security.md
+    url: https://github.com/re-port-flow/reportflow-mcp/blob/HEAD/docs/security.md
+    source: https://raw.githubusercontent.com/re-port-flow/reportflow-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/security.md
+    url: https://github.com/re-port-flow/reportflow-mcp/blob/HEAD/docs/security.md
+    source: https://raw.githubusercontent.com/re-port-flow/reportflow-mcp/HEAD/README.md
+  source_headings:
+  - Usage examples
+  - 4. Start from zero templates (gallery → copy → generate)
+- name: regulated-reporting-mcp
+  category: research-report
+  surface: mcp
+  primary_url: https://github.com/dbett4/regulated-reporting-mcp
+  homepage: https://davebettner.com
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Workiva-focused MCP server for regulated financial reporting with OAuth, async polling, guarded write contracts,
+    verified readback, redacted receipts, and a credential-free demo path for statement-workbook workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: regulated-reporting-mcp
+    bytes: 8088
+  - kind: homepage
+    url: https://davebettner.com/
+    final_url: https://davebettner.com/
+    status: 200
+    content_type: text/html
+    title: Dave Bettner | Enterprise Agent Deployment Â· Solutions Engineering
+    description: Dave Bettner carries complex customer deployments from discovery through adoption, with public engineering
+      proof for agent workflows and enterprise solutions engineering.
+    bytes: 30662
+  official_docs:
+  - kind: docs
+    title: the test map
+    url: https://github.com/dbett4/regulated-reporting-mcp/blob/HEAD/docs/PROOF.md
+    source: https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: 'Mock-mode demo: list, read, gated write, verified readback, receipt'
+    url: https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/docs/demo.gif
+    source: https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: the test map
+    url: https://github.com/dbett4/regulated-reporting-mcp/blob/HEAD/docs/PROOF.md
+    source: https://raw.githubusercontent.com/dbett4/regulated-reporting-mcp/HEAD/README.md
+  source_headings:
+  - Quickstart (no credentials needed)
+- name: Office Reporting MCP Kit
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/hotalexnet/office-reporting-mcp-kit
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Reusable MCP contracts, Agent Skill guidance, and Python adapter protocols for backend-authorized Office report
+    creation, rendering, artifact lifecycle checks, and controlled delivery of Word, Excel, PowerPoint, or PDF outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/hotalexnet/office-reporting-mcp-kit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/hotalexnet/office-reporting-mcp-kit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Office Reporting MCP Kit
+    bytes: 18405
+  source_headings:
+  - '`office_list_templates`'
+  - Minimal Pseudocode Example
+  - Why can't the model provide `template_path` or `output_path`?
+- name: PDF Reporter MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/alexmakeev/pdf-reporter-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: TypeScript MCP server for rendering Mermaid diagrams to SVG and composing Markdown with callout blocks into
+    styled PDF reports through stdio or SSE transports, with Docker images and strict test coverage.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PDF Reporter MCP
+    bytes: 7868
+  official_examples:
+  - kind: example
+    title: demo report
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/examples/demo-report.pdf
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  - kind: example
+    title: examples/generate-demo.ts
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/examples/generate-demo.ts
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/dev.md
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/docs/dev.md
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/prod.md
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/docs/prod.md
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  official_links:
+  - kind: example
+    title: demo report
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/examples/demo-report.pdf
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  - kind: example
+    title: examples/generate-demo.ts
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/examples/generate-demo.ts
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/dev.md
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/docs/dev.md
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/prod.md
+    url: https://github.com/alexmakeev/pdf-reporter-mcp/blob/HEAD/docs/prod.md
+    source: https://raw.githubusercontent.com/alexmakeev/pdf-reporter-mcp/HEAD/README.md
+  source_headings:
+  - Usage
+  - 1. render_diagram
+  - 4. list_templates
+  - 5. get_template_schema
+  - Example
+- name: Hypermnesia MCP Viz
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/cdeust/cortex-viz
+  homepage: https://ai-architect.tools
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Read-only Cortex visualization MCP for Codex, Gemini CLI, Claude Code, and other MCP hosts that renders memory
+    stores, activity streams, session archives, and codebase graphs as trace galaxies, execution traces, knowledge browsers,
+    consolidation boards, and wiki views.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Hypermnesia MCP Viz
+    bytes: 23666
+  - kind: homepage
+    url: https://ai-architect.tools/
+    final_url: https://ai-architect.tools/
+    status: 200
+    content_type: text/html
+    title: AI Architect — verification-first Claude Code consulting
+    description: AI Architect — verification-first Claude Code consulting. Entry audit, activation, paid pilot, rollout. Every
+      claim proven, never asserted.
+    bytes: 91636
+  official_examples:
+  - kind: paper
+    title: // memory v4.14.3 Cortex Persistent memory for Claude Code. recall@10 cortex@cortex-plugins 98.20 % LongMemEval
+      50 MCP tools 9 hooks 97 papers cdeust/Cortex
+    url: https://ai-architect.tools/cortex
+    source: https://ai-architect.tools/
+  official_docs:
+  - kind: docs
+    title: '`docs/host-event-v1.schema.json`'
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/host-event-v1.schema.json
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: docs/ARCHITECTURE.md
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: docs/ASSURANCE_CASE.md
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ASSURANCE_CASE.md
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: docs/ROADMAP.md
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: Read the PDF
+    url: https://github.com/cdeust/Cortex/raw/main/docs/arxiv-context-assembly/main.pdf
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: View LaTeX source
+    url: https://github.com/cdeust/Cortex/blob/main/docs/arxiv-context-assembly/main.tex
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: Read the PDF
+    url: https://github.com/cdeust/Cortex/raw/main/docs/arxiv-thermodynamic/main.pdf
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: View LaTeX source
+    url: https://github.com/cdeust/Cortex/blob/main/docs/arxiv-thermodynamic/main.tex
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: Setup Guide
+    url: https://ai-architect.tools/setup
+    source: https://ai-architect.tools/
+  official_effect_assets:
+  - kind: image
+    title: 'Hypermnesia MCP Viz Trace galaxy on the paper surface: every Claude Code session is a tight phyllotaxis disk of
+      its own prompt → action → file → memory chain, clustered around its '
+    url: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-trace-galaxy.png
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: image
+    title: '3D Brain view: 125,744 nodes streamed into a translucent anatomical cortical mesh; episodic memories in the medial
+      temporal lobe fading outward to neocortex along a hot→consolidate'
+    url: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-brain.png
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: image
+    title: 'Board view: five columns for labile, early LTP, late LTP, consolidated, and reconsolidating memories on the paper
+      surface; each column header states the exact live count (117 · 284'
+    url: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-consolidation-board.png
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: image
+    title: 'Trace view, session drill-down: clicking a session opens its full conversation replay: the transcript modal streams
+      every assistant message and tool call (WRITE · READ) with timest'
+    url: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/docs/assets/cortex-trace-session.png
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: image
+    title: 3D Brain view — 125,744 nodes streamed into a translucent anatomical cortical mesh; episodic memories in the medial
+      temporal lobe fading outward to neocortex along a hot to consoli
+    url: https://ai-architect.tools/assets/cortex-brain-800w.jpg
+    source: https://ai-architect.tools/
+  official_links:
+  - kind: docs
+    title: '`docs/host-event-v1.schema.json`'
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/host-event-v1.schema.json
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: docs/ARCHITECTURE.md
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: docs/ASSURANCE_CASE.md
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ASSURANCE_CASE.md
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: docs
+    title: docs/ROADMAP.md
+    url: https://github.com/cdeust/cortex-viz/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/cdeust/cortex-viz/HEAD/README.md
+  - kind: paper
+    title: // memory v4.14.3 Cortex Persistent memory for Claude Code. recall@10 cortex@cortex-plugins 98.20 % LongMemEval
+      50 MCP tools 9 hooks 97 papers cdeust/Cortex
+    url: https://ai-architect.tools/cortex
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: Read the PDF
+    url: https://github.com/cdeust/Cortex/raw/main/docs/arxiv-context-assembly/main.pdf
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: View LaTeX source
+    url: https://github.com/cdeust/Cortex/blob/main/docs/arxiv-context-assembly/main.tex
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: Read the PDF
+    url: https://github.com/cdeust/Cortex/raw/main/docs/arxiv-thermodynamic/main.pdf
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: View LaTeX source
+    url: https://github.com/cdeust/Cortex/blob/main/docs/arxiv-thermodynamic/main.tex
+    source: https://ai-architect.tools/
+  - kind: docs
+    title: Setup Guide
+    url: https://ai-architect.tools/setup
+    source: https://ai-architect.tools/
+- name: quickai
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/AlexGladkov/quickai
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local Claude Code profiler, CLI, plugin, and MCP server that indexes transcript JSONL files and turns token,
+    model, tool-use, cache, cost-equivalent, and timeline data into project statistics and self-contained HTML reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: quickai
+    bytes: 6050
+  official_effect_assets:
+  - kind: image
+    title: overview
+    url: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/docs/overview.png
+    source: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md
+  - kind: image
+    title: profiling
+    url: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/docs/profiling.png
+    source: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md
+  - kind: image
+    title: drilldown
+    url: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/docs/drilldown.png
+    source: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md
+  source_headings:
+  - 2. Example

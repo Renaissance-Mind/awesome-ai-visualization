@@ -1,4 +1,4 @@
-last_researched: '2026-08-14'
+last_researched: '2026-08-15'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -12938,6 +12938,208 @@ entries:
   - 图表/仪表盘
   - 报告/简报
   - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: root-ext-viz
+  url: https://github.com/graphgrow/root-ext-viz
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: unknown
+  updated: '2026-07-30'
+  note: Data-visualization MCP tool server with a sessional Python kernel, pandas/numpy/scipy/matplotlib/plotly/altair,
+    Vega-Lite chart specs, local PNG rendering through vl-convert, data profiling, and bounded artifact-directory outputs.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Re:port Flow MCP
+  url: https://github.com/re-port-flow/reportflow-mcp
+  homepage: https://www.npmjs.com/package/reportflow-mcp-server
+  category: research-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-08-09'
+  note: MCP server that turns Re:port Flow templates into invoices, contracts, statements, and other PDF reports from
+    Claude or compatible AI agents, with remote OAuth and local npx transport options.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 报告/长文档
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs
+- name: regulated-reporting-mcp
+  url: https://github.com/dbett4/regulated-reporting-mcp
+  homepage: https://davebettner.com
+  category: research-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-08-11'
+  note: Workiva-focused MCP server for regulated financial reporting with OAuth, async polling, guarded write contracts,
+    verified readback, redacted receipts, and a credential-free demo path for statement-workbook workflows.
+  source_types:
+  - Office 文档
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: Office Reporting MCP Kit
+  url: https://github.com/hotalexnet/office-reporting-mcp-kit
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 1
+  license: Apache-2.0
+  updated: '2026-07-22'
+  note: Reusable MCP contracts, Agent Skill guidance, and Python adapter protocols for backend-authorized Office report
+    creation, rendering, artifact lifecycle checks, and controlled delivery of Word, Excel, PowerPoint, or PDF outputs.
+  source_types:
+  - Office 文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 报告/长文档
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: PDF Reporter MCP
+  url: https://github.com/alexmakeev/pdf-reporter-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-07-02'
+  note: TypeScript MCP server for rendering Mermaid diagrams to SVG and composing Markdown with callout blocks into
+    styled PDF reports through stdio or SSE transports, with Docker images and strict test coverage.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  - 报告/长文档
+  - 架构图/流程图
+  catalog_section: support_render
+  readme_group: support_render
+- name: Hypermnesia MCP Viz
+  url: https://github.com/cdeust/cortex-viz
+  homepage: https://ai-architect.tools
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 代码分析工具
+  - 渲染/导出
+  stars: 4
+  license: MIT
+  updated: '2026-08-10'
+  note: Read-only Cortex visualization MCP for Codex, Gemini CLI, Claude Code, and other MCP hosts that renders memory
+    stores, activity streams, session archives, and codebase graphs as trace galaxies, execution traces, knowledge browsers,
+    consolidation boards, and wiki views.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: code
+- name: quickai
+  url: https://github.com/AlexGladkov/quickai
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  stars: 37
+  license: MIT
+  updated: '2026-08-07'
+  note: Local Claude Code profiler, CLI, plugin, and MCP server that indexes transcript JSONL files and turns token, model,
+    tool-use, cache, cost-equivalent, and timeline data into project statistics and self-contained HTML reports.
+  source_types:
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 网页/交互页面
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: data
