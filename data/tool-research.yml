@@ -1,4 +1,4 @@
-generated_at: '2026-08-14T23:05:02+00:00'
+generated_at: '2026-08-15T23:07:03+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 515
-  fetched_sources_ok: 696
+  entries: 521
+  fetched_sources_ok: 703
   fetched_sources_failed: 37
   official_examples: 1204
-  official_effect_assets: 1471
-  official_docs: 1410
+  official_effect_assets: 1492
+  official_docs: 1416
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -43314,3 +43314,333 @@ entries:
     source: https://raw.githubusercontent.com/AlexGladkov/quickai/HEAD/README.md
   source_headings:
   - 2. Example
+- name: Oh My PPT
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/arcsin1/oh-my-ppt
+  homepage: https://www.ohmyppt.cc
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first desktop HTML presentation generator and editor that imports old PPTX templates, creates AI-planned
+    decks from topics or uploaded txt/md/csv/docx documents, adds AI images, and exports editable PPTX, PDF, PNG, long images,
+    MP4, HTML, or packaged presentations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 目录
+    bytes: 23903
+  - kind: homepage
+    url: https://www.ohmyppt.cc/
+    final_url: https://www.ohmyppt.cc/
+    status: 200
+    content_type: text/html
+    title: "Oh My PPT - å¼\x80æº\x90å \x8Dè´¹ç\x9A\x84 AI PPT æ¼\x94ç¤ºæ\x96\x87ç¨¿ç\x94\x9Fæ\x88\x90å·¥å ·"
+    description: "Oh My PPT æ\x98¯ä¸\x80æ¬¾å¼\x80æº\x90å \x8Dè´¹ç\x9A\x84 AI PPT æ¡\x8Cé\x9D¢å®¢æ\x88·ç«¯ã\x80\x82æ\x94¯æ\x8C\
+      \x81ä¸\x80å\x8F¥è¯\x9Dç\x94\x9Fæ\x88\x90æ¼\x94ç¤ºæ\x96\x87ç¨¿ã\x80\x81å¯¹è¯\x9Då¼\x8Fç¼\x96è¾\x91ã\x80\x8130+ é£\x8E\
+      æ ¼ã\x80\x81å¤\x9Aæ ¼å¼\x8Få¯¼å ¥å¯¼å\x87ºï¼\x88PDF/PNG/PPTX/MP4ï¼\x89ã\x80\x8116+ é¡µ"
+    bytes: 3400
+  official_effect_assets:
+  - kind: gif
+    title: Oh My PPT animation demo
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/docs/images/anime.gif
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: gif
+    title: Oh My PPT animation demo
+    url: https://arcsin1.github.io/anime.gif
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/thumb.png
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: gif
+    title: Oh My PPT
+    url: https://arcsin1.github.io/ppt2.gif
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/docs/images/4.webp
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/docs/images/font.webp
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/docs/images/3.png
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/docs/images/edit.webp
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT
+    url: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/docs/images/2.png
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT - 9
+    url: https://arcsin1.github.io/imgs/home.webp
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT - 10
+    url: https://arcsin1.github.io/imgs/exp.webp
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  - kind: image
+    title: Oh My PPT - 11
+    url: https://arcsin1.github.io/imgs/anime.webp
+    source: https://raw.githubusercontent.com/arcsin1/oh-my-ppt/HEAD/README.md
+  source_headings:
+  - 📥 旧 PPTX 模板导入编辑，接近 100% 还原
+- name: Smart Illustrator
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/axtonliu/smart-illustrator
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code article-illustration skill that analyzes Markdown article structure, selects Gemini, Excalidraw,
+    or Mermaid engines, places contextual illustrations and covers, and exports PNG assets for articles, technical explainers,
+    social posts, and thumbnails.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Smart Illustrator
+    bytes: 26597
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: 中文文档
+    url: https://github.com/axtonliu/smart-illustrator/blob/HEAD/README.zh-CN.md
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: docs
+    title: Gemini API
+    url: https://ai.google.dev/
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: docs
+    title: 'Claude Skills: A Systematic Guide'
+    url: https://www.axtonliu.ai/newsletters/ai-2/posts/claude-agent-skills-maps-framework
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Tri-Engine Architecture
+    url: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/assets/dual-engine-architecture.png
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 中文文档
+    url: https://github.com/axtonliu/smart-illustrator/blob/HEAD/README.zh-CN.md
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: docs
+    title: Gemini API
+    url: https://ai.google.dev/
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: tutorial
+    title: MAPS™ AI Agent Course
+    url: https://www.axtonliu.ai/aiagent
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: docs
+    title: 'Claude Skills: A Systematic Guide'
+    url: https://www.axtonliu.ai/newsletters/ai-2/posts/claude-agent-skills-maps-framework
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  - kind: tutorial
+    title: Free AI Course
+    url: https://www.axtonliu.ai/axton-free-course
+    source: https://raw.githubusercontent.com/axtonliu/smart-illustrator/HEAD/README.md
+  source_headings:
+  - Usage
+  - Basic Usage
+  - Manual Script Usage
+  - PPT/Slides Generation Mode
+  - Cover Slide Branding (PPT Mode)
+  - Slides mode + generate images (needs API)
+  - Slides mode + output JSON only (no API)
+  - Usage Examples
+  - Generate with visual direction
+  - Visual Metaphors for Tech Content
+  - 'Example: Custom Brand Palette'
+- name: Beamer Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Noi1r/beamer-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI coding-assistant skill for academic Beamer LaTeX presentations with create, compile, review, polish, and
+    verify lifecycle steps, quality scoring, pedagogical review, TikZ audit, and multi-agent-assistant setup files.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Noi1r/beamer-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Noi1r/beamer-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Beamer Skill
+    bytes: 18840
+  source_headings:
+  - Usage
+  - Stage 2 — Rebuild and verify with Codex Presentations
+  - Custom Templates
+  - Examples
+  - 'Benchmark: With Skill vs. Without Skill'
+  - 'Test 2 — `review` + `validate`: proofread an existing slide deck'
+- name: PowerPoint Slides Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Noi1r/powerpoint-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code PowerPoint skill for academic papers, research notes, or structured content that generates native
+    PPTX through PptxGenJS, OMML math, LaTeX fallback rendering, Graphviz/Mermaid/TikZ diagrams, figure extraction, visual
+    audits, and validation loops.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Noi1r/powerpoint-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Noi1r/powerpoint-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPoint Slides Skill
+    bytes: 9153
+  source_headings:
+  - PowerPoint Slides Skill
+  - TeX distribution (LaTeX image formulas + TikZ diagrams)
+  - Graphviz (diagram rendering)
+  - LibreOffice (PPT→PDF for visual QA)
+  - Mermaid CLI (sequence/Gantt/pie/state/ER diagrams)
+  - Without it, Mermaid diagrams fall back to Graphviz or PptxGenJS shapes
+  - Usage
+  - Diagram Pipeline
+  - Example
+- name: DataViz by SCKelemen
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/SCKelemen/dataviz
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Go charting library, CLI, and dataviz MCP server with 29 chart-generation tools, SVG and terminal output,
+    stat cards, galleries, and reusable line, area, bar, scatter, heatmap, pie, donut, hierarchical, financial, and specialized
+    chart renderers.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DataViz
+    bytes: 15952
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: Roadmap
+    url: https://github.com/SCKelemen/dataviz/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  official_links:
+  - kind: template
+    title: SCKelemen rendering stack
+    url: https://github.com/SCKelemen/layout
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  - kind: docs
+    title: Roadmap
+    url: https://github.com/SCKelemen/dataviz/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/SCKelemen/dataviz/HEAD/README.md
+  source_headings:
+  - Usage Examples
+  - 4. Interactive Dashboard
+- name: Microsoft MCP Interactive UI Samples
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/microsoft/mcp-interactiveUI-samples
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 模板/素材
+  catalog_note: Microsoft sample repository for MCP servers that render rich interactive widgets in Microsoft 365 Copilot
+    and OpenAI Apps SDK hosts, including expense reports, dispatch maps, approval queues, HR dashboards, claims dashboards,
+    media cards, and enterprise LOB UIs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP based interactive UI samples for Microsoft 365 Copilot
+    bytes: 13905
+  official_docs:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.github.io/ext-apps/api/documents/Overview.html
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Watch the demo
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/oai-apps-sdk/trey-research/node/demos/fake-play-thumbnail.png
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Watch the demo
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/oai-apps-sdk/zava-insurance/node/demos/fake-play-thumbnail.png
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Watch demo video
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/mcp-apps/expense-submission/node/demos/screenshots/image1.png
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Watch demo video
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/oai-apps-sdk/fieldops/node/demos/screenshots/dispatchPlan_sbs_play.png
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Approvals Box detail widget
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/oai-apps-sdk/approvals-box/node/demos/screenshots/approvals-box-detail.png
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Employee Training inline
+    url: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/mcp-apps/employee-training/node/demos/screenshots/learningmedia-inline.png
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Watch the Approvals Box demo
+    url: https://img.youtube.com/vi/Zre_6fFKBXg/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  - kind: image
+    title: Watch the demo
+    url: https://img.youtube.com/vi/eELXlXAn2ac/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: MCP Apps
+    url: https://modelcontextprotocol.github.io/ext-apps/api/documents/Overview.html
+    source: https://raw.githubusercontent.com/microsoft/mcp-interactiveUI-samples/HEAD/README.md
+  source_headings:
+  - MCP based interactive UI samples for Microsoft 365 Copilot
+  - Samples
