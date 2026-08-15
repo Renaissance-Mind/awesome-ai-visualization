@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-15.
+Last researched: 2026-08-16.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-16: refreshed local-first AI HTML/PPT authoring, article illustration skills, academic Beamer and native-PPTX skills, Go chart/MCP rendering, and Microsoft MCP interactive UI samples from official GitHub repositories, official README evidence, project homepages, live web/GitHub searches, and GitHub metadata. This pass added Oh My PPT, Smart Illustrator, Beamer Skill, PowerPoint Slides Skill, DataViz by SCKelemen, and Microsoft MCP Interactive UI Samples. The targeted scraper ran only against these six new records, fetched seven official sources successfully with no failed fetches, and found twenty-one official preview assets plus six official docs links after scrubbing course/dependency links that were not project examples.
 
 Update on 2026-08-15: refreshed local data-visualization MCP tooling, template-backed PDF report generation, regulated Workiva reporting MCP workflows, reusable Office-reporting contracts, Mermaid/Markdown-to-PDF rendering, Cortex memory/session/codebase visualization, and Claude Code profiling reports from official GitHub repositories, official README evidence, homepage metadata, live GitHub searches, and GitHub metadata. This pass added root-ext-viz, Re:port Flow MCP, regulated-reporting-mcp, Office Reporting MCP Kit, PDF Reporter MCP, Hypermnesia MCP Viz, and quickai. The targeted scraper ran only against these seven new records, fetched nine official sources successfully with one npm package-page 403, and found three official examples, thirteen docs links, and nine kept preview assets after scrubbing non-artifact personal/homepage images.
 
