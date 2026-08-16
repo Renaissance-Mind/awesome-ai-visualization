@@ -1,4 +1,4 @@
-generated_at: '2026-08-15T23:07:03+00:00'
+generated_at: '2026-08-16T23:07:52+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 521
-  fetched_sources_ok: 703
+  entries: 529
+  fetched_sources_ok: 711
   fetched_sources_failed: 37
-  official_examples: 1204
-  official_effect_assets: 1492
-  official_docs: 1416
+  official_examples: 1208
+  official_effect_assets: 1521
+  official_docs: 1418
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -43644,3 +43644,366 @@ entries:
   source_headings:
   - MCP based interactive UI samples for Microsoft 365 Copilot
   - Samples
+- name: Thesis Defense PPTX Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/zouchenzhen/thesis-defense-pptx-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex and Claude skill that turns thesis PDFs or LaTeX projects into editable defense PPTX decks while preserving
+    a supplied PowerPoint template, then exports rendered slide checks, overview images, overflow scans, and stale-template
+    text audits.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Thesis Defense PPTX Skill
+    bytes: 11715
+  official_examples:
+  - kind: example
+    title: '`examples/minimal_markdown/`'
+    url: https://github.com/zouchenzhen/thesis-defense-pptx-skill/blob/HEAD/examples/minimal_markdown/
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  - kind: example
+    title: zhengzhou-university-midterm-blank-template.pptx
+    url: https://github.com/zouchenzhen/thesis-defense-pptx-skill/blob/HEAD/examples/templates/zhengzhou-university-midterm-blank-template.pptx
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 生成示例 slides 1-4 总览
+    url: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/examples/minimal_markdown/expected/generated_overview_01.png
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  - kind: image
+    title: 生成示例 slides 5-8 总览
+    url: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/examples/minimal_markdown/expected/generated_overview_02.png
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  - kind: image
+    title: 封面细节
+    url: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/examples/minimal_markdown/expected/detail_slide_01.png
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  - kind: image
+    title: 方法页细节
+    url: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/examples/minimal_markdown/expected/detail_slide_06.png
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/minimal_markdown/`'
+    url: https://github.com/zouchenzhen/thesis-defense-pptx-skill/blob/HEAD/examples/minimal_markdown/
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  - kind: example
+    title: zhengzhou-university-midterm-blank-template.pptx
+    url: https://github.com/zouchenzhen/thesis-defense-pptx-skill/blob/HEAD/examples/templates/zhengzhou-university-midterm-blank-template.pptx
+    source: https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/HEAD/README.md
+  source_headings:
+  - 可下载模板
+- name: dashiai-ppt-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/mujingquan835/dashiai-ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for document-to-presentation workflows with twelve visual themes, a browser editing console, safe
+    snapshot-based rework, HTML/PDF export, and editable PPTX export for research, pitch, project, and training decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mujingquan835/dashiai-ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mujingquan835/dashiai-ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 大师 PPT Skill · 网页编辑 / 可编辑 PPTX
+    bytes: 13322
+  source_headings:
+  - 控制台改：布局、模块数量、图表、配色
+- name: Frontend Slides Editable
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/archlizheng/frontend-slides-editable
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex and Claude Code skill for single-file HTML presentations with an embedded browser editor for dragging,
+    resizing, editing text, reordering slides, local save/export, media placeholders, and PPTX-to-web conversion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Frontend Slides - Editable
+    bytes: 75534
+  official_effect_assets:
+  - kind: image
+    title: Cobalt Grid editable deck preview
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/cobalt-grid-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Studio editable deck preview
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/studio-volt-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Soft Editorial editable deck preview
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/soft-editorial-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Bold Signal — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/bold-signal-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Electric Studio — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/electric-studio-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Creative Voltage — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/creative-voltage-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Dark Botanical — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/dark-botanical-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Notebook Tabs — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/notebook-tabs-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Pastel Geometry — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/pastel-geometry-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Split Pastel — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/split-pastel-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Vintage Editorial — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/vintage-editorial-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  - kind: image
+    title: Neon Cyber — first slide
+    url: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/docs/preset-previews/neon-cyber-cover.png
+    source: https://raw.githubusercontent.com/archlizheng/frontend-slides-editable/HEAD/README.md
+  source_headings:
+  - Frontend Slides - Editable
+  - 操作演示（1.0 录屏） · Demo screencast (1.0 era)
+  - 用法 / Usage
+  - 新建可编辑演示 / Create a new editable presentation
+  - 扩展画廊 / Extended gallery（见 `STYLE_PRESETS.md` 第 13–46 节）
+  - 扩展画廊自检 · Extended gallery audit
+  - 样式预览图库 · Style preview gallery
+  - 扩展画廊（beautiful-html-templates 对齐）· Extended gallery
+  - 文档结构 / Documentation Map
+- name: XHS Images Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/manwithshit/xhs-images
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill for turning a topic or content brief into cohesive Xiaohongshu-style infographic image series
+    with unified visual style for social publishing and knowledge-card communication.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/manwithshit/xhs-images/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/manwithshit/xhs-images/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📱 XHS Images Generator
+    bytes: 3521
+  official_effect_assets:
+  - kind: image
+    title: XHS Images 效果展示
+    url: https://raw.githubusercontent.com/manwithshit/xhs-images/HEAD/examples/preview.png
+    source: https://raw.githubusercontent.com/manwithshit/xhs-images/HEAD/README.md
+  source_headings:
+  - 📖 示例输出
+- name: IG Card Generator
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/dean9703111/ig-card-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill that distills articles, notes, or transcripts into Instagram carousel knowledge cards using a
+    Markdown DSL, lint checks, Puppeteer rendering, and light or dark 1080 by 1350 PNG exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: IG Card Generator
+    bytes: 5965
+  official_examples:
+  - kind: example
+    title: reference/config-example.yaml
+    url: https://github.com/dean9703111/ig-card-generator/blob/HEAD/reference/config-example.yaml
+    source: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+  - kind: example
+    title: reference/content-example.md
+    url: https://github.com/dean9703111/ig-card-generator/blob/HEAD/reference/content-example.md
+    source: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 深色主題範例
+    url: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/example/skill-plugin-mcp/assets/cards/dark/contact-sheet.png
+    source: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+  - kind: image
+    title: 淺色主題範例
+    url: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/example/skill-plugin-mcp/assets/cards/light/contact-sheet.png
+    source: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+  official_links:
+  - kind: example
+    title: reference/config-example.yaml
+    url: https://github.com/dean9703111/ig-card-generator/blob/HEAD/reference/config-example.yaml
+    source: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+  - kind: example
+    title: reference/content-example.md
+    url: https://github.com/dean9703111/ig-card-generator/blob/HEAD/reference/content-example.md
+    source: https://raw.githubusercontent.com/dean9703111/ig-card-generator/HEAD/README.md
+- name: Google MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/quinnjr/google-mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: TypeScript Google Workspace MCP server with OAuth tools for Drive, Docs, Sheets, Slides, Gmail, Calendar,
+    Meet, Chat, Forms, YouTube, Tasks, and Contacts so agents can create, edit, and manage Google Slides and document artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/quinnjr/google-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/quinnjr/google-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Google MCP Server
+    bytes: 13505
+  source_headings:
+  - Google Docs
+  - Google Slides
+  - Usage with Cursor/Claude
+  - Examples
+- name: UseIt Agent
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/UseIt-AI/use-it-agent
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Open-source creative-work assistant that connects agents to professional desktop tools and MCP workflows,
+    including recreating reference pipeline figures as fully editable PowerPoint slides and drawing technical diagrams in
+    native apps.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: About
+    bytes: 9436
+  official_effect_assets:
+  - kind: gif
+    title: AutoCAD canal cross-section drawing demo
+    url: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/assets/autoCAD.gif
+    source: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/README.md
+  - kind: gif
+    title: PowerPoint pipeline recreation demo
+    url: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/assets/PPT_recreate_pipeline.gif
+    source: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/README.md
+  - kind: image
+    title: Use-It Agent Architecture
+    url: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/assets/architecture.png
+    source: https://raw.githubusercontent.com/UseIt-AI/use-it-agent/HEAD/README.md
+- name: image2editable
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/DSY-Xueai/image2editable
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Codex and Claude Code skill plus local CLI that converts images, PDFs, image-based PPTX files, and mixed PPTX
+    decks into editable PowerPoint presentations with OCR, visual understanding, local-agent mode, and quality-gated repair
+    loops.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: image2editable
+    bytes: 10705
+  official_docs:
+  - kind: docs
+    title: 官方安装说明
+    url: https://www.paddlepaddle.org.cn/install/quick
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: docs
+    title: 官方安装说明
+    url: https://tesseract-ocr.github.io/tessdoc/Installation.html
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 原图 1
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/demo-source-1.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: image
+    title: 转换结果 1
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/demo-result-1.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: image
+    title: 原图 2
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/demo-source-2.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: image
+    title: 转换结果 2
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/demo-result-2.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: image
+    title: 原图 3
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/demo-source-3.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: image
+    title: 转换结果 3
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/demo-result-3.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: image
+    title: image2editable 介绍
+    url: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/docs/images/readme-intro.png
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 官方安装说明
+    url: https://www.paddlepaddle.org.cn/install/quick
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  - kind: docs
+    title: 官方安装说明
+    url: https://tesseract-ocr.github.io/tessdoc/Installation.html
+    source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
+  source_headings:
+  - 转换效果演示：

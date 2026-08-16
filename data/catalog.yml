@@ -1,4 +1,4 @@
-last_researched: '2026-08-16'
+last_researched: '2026-08-17'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -13310,3 +13310,226 @@ entries:
   - 表格/时间线
   catalog_section: support_render
   readme_group: support_render
+- name: Thesis Defense PPTX Skill
+  url: https://github.com/zouchenzhen/thesis-defense-pptx-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 243
+  license: Apache-2.0
+  updated: '2026-08-16'
+  note: Codex and Claude skill that turns thesis PDFs or LaTeX projects into editable defense PPTX decks while preserving
+    a supplied PowerPoint template, then exports rendered slide checks, overview images, overflow scans, and stale-template
+    text audits.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: dashiai-ppt-skill
+  url: https://github.com/mujingquan835/dashiai-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 118
+  license: AGPL-3.0
+  updated: '2026-08-16'
+  note: Agent skill for document-to-presentation workflows with twelve visual themes, a browser editing console, safe
+    snapshot-based rework, HTML/PDF export, and editable PPTX export for research, pitch, project, and training decks.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Frontend Slides Editable
+  url: https://github.com/archlizheng/frontend-slides-editable
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 461
+  license: MIT
+  updated: '2026-08-14'
+  note: Codex and Claude Code skill for single-file HTML presentations with an embedded browser editor for dragging,
+    resizing, editing text, reordering slides, local save/export, media placeholders, and PPTX-to-web conversion.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: XHS Images Skill
+  url: https://github.com/manwithshit/xhs-images
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 43
+  license: MIT
+  updated: '2026-08-15'
+  note: Claude skill for turning a topic or content brief into cohesive Xiaohongshu-style infographic image series with
+    unified visual style for social publishing and knowledge-card communication.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: IG Card Generator
+  url: https://github.com/dean9703111/ig-card-generator
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: MIT
+  updated: '2026-08-11'
+  note: Agent skill that distills articles, notes, or transcripts into Instagram carousel knowledge cards using a Markdown
+    DSL, lint checks, Puppeteer rendering, and light or dark 1080 by 1350 PNG exports.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 表格/时间线
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Google MCP
+  url: https://github.com/quinnjr/google-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 11
+  license: MIT
+  updated: '2026-07-08'
+  note: TypeScript Google Workspace MCP server with OAuth tools for Drive, Docs, Sheets, Slides, Gmail, Calendar, Meet,
+    Chat, Forms, YouTube, Tasks, and Contacts so agents can create, edit, and manage Google Slides and document artifacts.
+  source_types:
+  - Office 文档
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: UseIt Agent
+  url: https://github.com/UseIt-AI/use-it-agent
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 34
+  license: Apache-2.0
+  updated: '2026-08-02'
+  note: Open-source creative-work assistant that connects agents to professional desktop tools and MCP workflows, including
+    recreating reference pipeline figures as fully editable PowerPoint slides and drawing technical diagrams in native apps.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: image2editable
+  url: https://github.com/DSY-Xueai/image2editable
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  - 渲染/导出
+  - 系统工具
+  stars: 10
+  license: MIT
+  updated: '2026-08-15'
+  note: Codex and Claude Code skill plus local CLI that converts images, PDFs, image-based PPTX files, and mixed PPTX decks
+    into editable PowerPoint presentations with OCR, visual understanding, local-agent mode, and quality-gated repair loops.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
