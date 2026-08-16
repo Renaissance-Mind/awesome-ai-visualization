@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-16.
+Last researched: 2026-08-17.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-17: refreshed thesis-defense PPTX generation, editable HTML/PPT authoring, social infographic/card skills, Google Workspace Slides MCP control, creative-work desktop agents, and image/PDF/PPTX-to-editable-PowerPoint reconstruction from official GitHub repositories, official README evidence, live web/GitHub searches, and GitHub metadata. This pass added Thesis Defense PPTX Skill, dashiai-ppt-skill, Frontend Slides Editable, XHS Images Skill, IG Card Generator, Google MCP, UseIt Agent, and image2editable. The targeted scraper ran only against these eight new records, fetched all eight official GitHub README sources successfully with no failed fetches, and found four official examples, twenty-nine official preview assets, and two official docs links after scrubbing a credited template dependency and non-artifact mascot images.
 
 Update on 2026-08-16: refreshed local-first AI HTML/PPT authoring, article illustration skills, academic Beamer and native-PPTX skills, Go chart/MCP rendering, and Microsoft MCP interactive UI samples from official GitHub repositories, official README evidence, project homepages, live web/GitHub searches, and GitHub metadata. This pass added Oh My PPT, Smart Illustrator, Beamer Skill, PowerPoint Slides Skill, DataViz by SCKelemen, and Microsoft MCP Interactive UI Samples. The targeted scraper ran only against these six new records, fetched seven official sources successfully with no failed fetches, and found twenty-one official preview assets plus six official docs links after scrubbing course/dependency links that were not project examples.
 
