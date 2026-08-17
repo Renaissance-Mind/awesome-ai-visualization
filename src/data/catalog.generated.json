@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-16T23:07:52+00:00",
-  "lastResearched": "2026-08-17",
+  "generatedAt": "2026-08-17T23:06:33+00:00",
+  "lastResearched": "2026-08-18",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 529,
-    "openSource": 133,
-    "saas": 58,
-    "modelApi": 184,
-    "examples": 1208,
-    "effectAssets": 1521,
+    "total": 536,
+    "openSource": 135,
+    "saas": 59,
+    "modelApi": 187,
+    "examples": 1210,
+    "effectAssets": 1523,
     "docs": 1418
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 59,
-      "PDF/文档": 173,
-      "文本/想法": 331,
-      "数据/表格": 202,
-      "代码/技术描述": 97,
-      "网页/搜索结果": 146,
+      "PDF/文档": 175,
+      "文本/想法": 336,
+      "数据/表格": 206,
+      "代码/技术描述": 99,
+      "网页/搜索结果": 147,
       "代码库": 52,
-      "DSL/代码": 103,
+      "DSL/代码": 104,
       "新闻/资讯": 24,
-      "知识库/个人资料": 43,
-      "任意/多源": 75,
-      "Office 文档": 92,
+      "知识库/个人资料": 45,
+      "任意/多源": 77,
+      "Office 文档": 95,
       "引用网络": 4,
-      "数据库": 47,
+      "数据库": 49,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 133,
-      "Agent Skill": 181,
-      "Skill 集合": 46,
-      "MCP Server": 165,
-      "产品/SaaS": 58,
+      "开源应用/框架": 135,
+      "Agent Skill": 183,
+      "Skill 集合": 48,
+      "MCP Server": 169,
+      "产品/SaaS": 59,
       "数据集/评测": 2,
       "Bot/助手": 16,
       "研究原型": 5,
@@ -42,22 +42,22 @@
       "Awesome/索引": 25
     },
     "outputForms": {
-      "图形摘要/信息图": 39,
-      "PPT/演示文稿": 231,
-      "网页/交互页面": 164,
+      "图形摘要/信息图": 41,
+      "PPT/演示文稿": 233,
+      "网页/交互页面": 166,
       "问答/学习材料": 15,
-      "报告/长文档": 74,
-      "证据表": 33,
-      "信息图/视觉报告": 75,
-      "图表/仪表盘": 146,
-      "架构图/流程图": 119,
-      "SVG/PNG/PDF": 207,
-      "报告/简报": 64,
-      "白板/思维导图": 32,
-      "图表/Mermaid": 59,
+      "报告/长文档": 75,
+      "证据表": 34,
+      "信息图/视觉报告": 77,
+      "图表/仪表盘": 148,
+      "架构图/流程图": 120,
+      "SVG/PNG/PDF": 211,
+      "报告/简报": 65,
+      "白板/思维导图": 33,
+      "图表/Mermaid": 60,
       "视频/音频": 39,
-      "结构化数据/Markdown": 67,
-      "表格/时间线": 16,
+      "结构化数据/Markdown": 69,
+      "表格/时间线": 17,
       "引用答案": 5,
       "思维导图/知识地图": 32,
       "文献地图/知识地图": 4,
@@ -66,29 +66,29 @@
       "工具索引": 27
     },
     "dependencies": {
-      "本地语言环境": 427,
-      "模型 API": 184,
+      "本地语言环境": 433,
+      "模型 API": 187,
       "文档解析/OCR": 85,
-      "渲染/导出": 440,
+      "渲染/导出": 447,
       "GPU/加速器": 16,
-      "模板/素材": 248,
-      "Agent 宿主": 234,
-      "系统工具": 110,
-      "浏览器/账号": 135,
-      "存储/索引": 67,
-      "MCP Client": 172,
-      "外部检索/数据源": 112,
+      "模板/素材": 252,
+      "Agent 宿主": 237,
+      "系统工具": 113,
+      "浏览器/账号": 137,
+      "存储/索引": 69,
+      "MCP Client": 176,
+      "外部检索/数据源": 114,
       "代码分析工具": 35
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 47,
       "research-report": 27,
-      "infographic-report": 47,
-      "data-dashboard": 74,
-      "diagram-generation": 69,
+      "infographic-report": 49,
+      "data-dashboard": 76,
+      "diagram-generation": 70,
       "literature-map": 4,
-      "presentation-tools": 153,
+      "presentation-tools": 155,
       "codebase-map": 29,
       "rendering-primitive": 13,
       "video-generation": 11,
@@ -97,17 +97,17 @@
     },
     "groups": {
       "paper": 30,
-      "text_visual": 60,
+      "text_visual": 63,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 29,
       "support_doc_parse": 16,
-      "presentation": 164,
+      "presentation": 166,
       "code": 30,
       "support_render": 52,
       "diagrams": 16,
       "video": 11,
-      "data": 69,
+      "data": 71,
       "indexes": 27,
       "diagram": 1,
       "index": 1
@@ -44935,6 +44935,325 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 7
+    },
+    {
+      "name": "DCC MCP PowerPoint",
+      "url": "https://github.com/dcc-mcp/dcc-mcp-powerpoint",
+      "primaryUrl": "https://github.com/dcc-mcp/dcc-mcp-powerpoint",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-17",
+      "note": "DCC-MCP PowerPoint application layer for structured deck IR generation, slide composition, deck modification, semantic layer operations, plugin execution, COM rendering, PDF/PNG previews, and structural validation.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Diagram Builder",
+      "url": "https://github.com/mcp-use/mcp-diagram-builder",
+      "primaryUrl": "https://github.com/mcp-use/mcp-diagram-builder",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "MCP App powered by Mermaid.js for creating and editing live-rendered diagrams inside chat, including flowcharts, sequence, class, state, ER, Gantt, pie, mind map, and timeline diagrams with hosted or local deployment.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "白板/思维导图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Diagram Builder Demo",
+          "url": "https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/repo-assets/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Widget Diagram View",
+          "url": "https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/repo-assets/widget-diagram-view.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Reference HTML PPTX Skills",
+      "url": "https://github.com/TimekeeperXY/reference-html-pptx-skill",
+      "primaryUrl": "https://github.com/TimekeeperXY/reference-html-pptx-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": null,
+      "updated": "2026-08-17",
+      "note": "Paired Codex skills for reference-driven 16:9 HTML slide design and structurally editable PowerPoint export, with semantic layout planning, visual-token extraction, PPTX reconstruction, screenshots, and overflow/QA checks.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Hand-drawn Infographic Restyler",
+      "url": "https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1",
+      "primaryUrl": "https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-17",
+      "note": "Cross-platform Codex and Claude Code skill for restyling infographics, slide-like images, framework diagrams, comparison charts, and article covers into a consistent hand-drawn editorial image style while preserving text, hierarchy, relationships, and meaning.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Jira OKR Dashboard MCP",
+      "url": "https://github.com/GuruR-prog/jira-okr-dashboard-mcp",
+      "primaryUrl": "https://github.com/GuruR-prog/jira-okr-dashboard-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-17",
+      "note": "Jira-over-MCP toolkit with a multi-workspace React dashboard, direct Jira REST aggregation, AI status summaries, MCP issue/progress tools, and a CLI that writes static OKR status reports through an agentic tool-use loop.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "表格/时间线",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "`demo/mock-jira-server.mjs`",
+          "url": "https://github.com/GuruR-prog/jira-okr-dashboard-mcp/blob/HEAD/demo/mock-jira-server.mjs",
+          "source": "https://raw.githubusercontent.com/GuruR-prog/jira-okr-dashboard-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Oracle FDI ADW AI Dashboard MCP",
+      "url": "https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp",
+      "primaryUrl": "https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-04",
+      "note": "MCP-powered Oracle FDI and Autonomous Data Warehouse reporting workflow with read-only governed SQL controls, approval/audit steps, reusable join maps, static dashboard generation, and CSV/JSON report exports.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "synthetic dashboard example",
+          "url": "https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/blob/HEAD/examples/fdi-refresh-dashboard/index.html",
+          "source": "https://raw.githubusercontent.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "High-Density Infographic Skill",
+      "url": "https://github.com/AAAAAAAJ/infographic-skill",
+      "primaryUrl": "https://github.com/AAAAAAAJ/infographic-skill",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 97,
+      "license": "MIT",
+      "updated": "2026-08-17",
+      "note": "OpenClaw, Claude Code, and Codex skill for generating high-density information graphics from topics or structured briefs, with ten visual styles, 2K/4K output options, multi-ratio support, Gemini/NanoBanana API configuration, and official example galleries.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

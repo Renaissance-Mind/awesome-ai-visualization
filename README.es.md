@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-529_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--17-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-536_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--18-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,18 +15,17 @@ El catálogo está etiquetado por **fuente de información**, **tipo de herramie
 
 Algunos nombres de proyectos, términos oficiales y descripciones breves se mantienen en inglés para preservar la búsqueda y la trazabilidad con las fuentes originales.
 
-## Latest Refresh (2026-08-17)
+## Latest Refresh (2026-08-18)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Thesis Defense PPTX Skill](https://github.com/zouchenzhen/thesis-defense-pptx-skill) | Codex/Claude thesis-defense skill that converts thesis PDF or LaTeX projects into editable PPTX while preserving a supplied school or lab PowerPoint template and running rendered-slide QA checks. |
-| [dashiai-ppt-skill](https://github.com/mujingquan835/dashiai-ppt-skill) | Agent skill for document-to-deck workflows with browser editing controls, twelve visual themes, safe rework snapshots, HTML/PDF export, and editable PPTX export. |
-| [Frontend Slides Editable](https://github.com/archlizheng/frontend-slides-editable) | Codex/Claude single-file HTML deck skill with an embedded editor for drag-resize layout edits, slide reordering, local save/export, and PPTX-to-web conversion. |
-| [XHS Images Skill](https://github.com/manwithshit/xhs-images) | Claude skill for turning a topic or brief into cohesive Xiaohongshu-style infographic image series for social publishing and knowledge-card communication. |
-| [IG Card Generator](https://github.com/dean9703111/ig-card-generator) | Agent skill that distills articles, notes, or transcripts into Instagram carousel knowledge cards through a Markdown DSL, lint checks, Puppeteer, and PNG exports. |
-| [Google MCP](https://github.com/quinnjr/google-mcp) | Google Workspace MCP server with OAuth tools for Drive, Docs, Sheets, Slides, Gmail, Calendar, Meet, Chat, Forms, YouTube, Tasks, and Contacts. |
-| [UseIt Agent](https://github.com/UseIt-AI/use-it-agent) | Open creative-work agent that connects AI workflows to desktop tools, including PowerPoint pipeline-figure recreation and native technical diagram drawing. |
-| [image2editable](https://github.com/DSY-Xueai/image2editable) | Codex/Claude skill and local CLI that converts images, PDFs, image-based PPTX, and mixed PPTX decks into editable PowerPoint with OCR and repair loops. |
+| [DCC MCP PowerPoint](https://github.com/dcc-mcp/dcc-mcp-powerpoint) | DCC-MCP PowerPoint layer for structured deck IR generation, semantic slide composition, patch-based editing, plugin execution, COM rendering, PDF/PNG previews, and validation. |
+| [Diagram Builder](https://github.com/mcp-use/mcp-diagram-builder) | Mermaid-powered MCP App that creates and edits live flowcharts, sequence diagrams, class diagrams, ER diagrams, mind maps, timelines, and other chat-rendered diagrams. |
+| [Reference HTML PPTX Skills](https://github.com/TimekeeperXY/reference-html-pptx-skill) | Paired Codex skills for reference-driven 16:9 HTML slide design and structurally editable PPTX export with visual tokens, screenshot checks, and overflow QA. |
+| [Hand-drawn Infographic Restyler](https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1) | Codex/Claude skill that restyles infographics, slide-like images, diagrams, comparison charts, and covers into a hand-drawn editorial image system while preserving meaning. |
+| [Jira OKR Dashboard MCP](https://github.com/GuruR-prog/jira-okr-dashboard-mcp) | Jira-over-MCP toolkit with a multi-workspace React dashboard, AI status summaries, MCP issue/progress tools, and a CLI for static OKR status reports. |
+| [Oracle FDI ADW AI Dashboard MCP](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp) | Oracle FDI and ADW reporting MCP with governed read-only SQL, approval/audit flow, reusable join maps, static dashboards, and CSV/JSON exports. |
+| [High-Density Infographic Skill](https://github.com/AAAAAAAJ/infographic-skill) | OpenClaw, Claude Code, and Codex skill for generating high-density information graphics from topics or structured briefs with ten styles and 2K/4K output options. |
 
 ## ✨ Uso recomendado
 
@@ -248,6 +247,9 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [MCP-SQL-Visualization](https://github.com/sathwikabbaraju/MCP-SQL-Visualization) [![Star](https://img.shields.io/github/stars/sathwikabbaraju/MCP-SQL-Visualization?style=flat&logo=github&label=Star)](https://github.com/sathwikabbaraju/MCP-SQL-Visualization/stargazers) | Database / Data/tables / Text/ideas | MCP server | Chart/dashboard / Briefing/report / SVG/PNG/PDF | MCP client / Local runtime / Model API / External search/data / Rendering/export |
 | [MCP Data Visualization Server](https://github.com/xoniks/mcp-visualization-duckdb) [![Star](https://img.shields.io/github/stars/xoniks/mcp-visualization-duckdb?style=flat&logo=github&label=Star)](https://github.com/xoniks/mcp-visualization-duckdb/stargazers) | Data/tables / Database | MCP server / API/SDK/library | Chart/dashboard / Web/interactive page / Structured data/Markdown | MCP client / Local runtime / External search/data / Storage/index / Rendering/export |
 
+| [Jira OKR Dashboard MCP](https://github.com/GuruR-prog/jira-okr-dashboard-mcp) [![Star](https://img.shields.io/github/stars/GuruR-prog/jira-okr-dashboard-mcp?style=flat&logo=github&label=Star)](https://github.com/GuruR-prog/jira-okr-dashboard-mcp/stargazers) | Data/tables / Database / Knowledge base | MCP server / Open-source app/framework | Chart/dashboard / Briefing/report / Tables/timeline / Structured data/Markdown | MCP client / Browser/account / Local runtime / Model API / External search/data / Storage/index / Rendering/export |
+| [Oracle FDI ADW AI Dashboard MCP](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp) [![Star](https://img.shields.io/github/stars/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp?style=flat&logo=github&label=Star)](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/stargazers) | Database / Data/tables / Knowledge base | MCP server / Open-source app/framework | Chart/dashboard / Long report / Structured data/Markdown | MCP client / Local runtime / External search/data / Storage/index / Rendering/export / System tools |
+
 ### Texto general, ideas y visuales de pizarra
 
 Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
@@ -318,6 +320,10 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [static-ad-concept-generator](https://github.com/Creatify-AI/static-ad-concept-generator) [![Star](https://img.shields.io/github/stars/Creatify-AI/static-ad-concept-generator?style=flat&logo=github&label=Star)](https://github.com/Creatify-AI/static-ad-concept-generator/stargazers) | Text/ideas / Web/search / Any/multi-source | Agent skill | Infographic/visual report / Structured data/Markdown | Agent host / Local runtime / Templates/assets |
 | [Infographic Skill by kseriri](https://github.com/kseriri/infographic-skill) [![Star](https://img.shields.io/github/stars/kseriri/infographic-skill?style=flat&logo=github&label=Star)](https://github.com/kseriri/infographic-skill/stargazers) | Text/ideas / PDF/documents / Office docs | Agent skill | Infographic/visual report / Graphical abstract/infographic / PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [Claude Visual Generator](https://github.com/sckim-ai/claude-visual-generator) [![Star](https://img.shields.io/github/stars/sckim-ai/claude-visual-generator?style=flat&logo=github&label=Star)](https://github.com/sckim-ai/claude-visual-generator/stargazers) | Papers/research / PDF/documents / Office docs / Text/ideas | Agent skill | Infographic/visual report / Graphical abstract/infographic / PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
+
+| [Diagram Builder](https://github.com/mcp-use/mcp-diagram-builder) [![Star](https://img.shields.io/github/stars/mcp-use/mcp-diagram-builder?style=flat&logo=github&label=Star)](https://github.com/mcp-use/mcp-diagram-builder/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Product/SaaS | Diagram/Mermaid / Architecture/flow diagram / Whiteboard/mind map / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export |
+| [Hand-drawn Infographic Restyler](https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1) [![Star](https://img.shields.io/github/stars/layyyback/handdrawn-infographic-skill?style=flat&logo=github&label=Star)](https://github.com/layyyback/handdrawn-infographic-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Any/multi-source | Agent skill | Infographic/visual report / Graphical abstract/infographic / SVG/PNG/PDF | Agent host / Model API / Local runtime / Rendering/export / Templates/assets |
+| [High-Density Infographic Skill](https://github.com/AAAAAAAJ/infographic-skill) [![Star](https://img.shields.io/github/stars/AAAAAAAJ/infographic-skill?style=flat&logo=github&label=Star)](https://github.com/AAAAAAAJ/infographic-skill/stargazers) | Text/ideas / Web/search / Data/tables | Agent skill | Infographic/visual report / Graphical abstract/infographic / SVG/PNG/PDF | Agent host / Model API / Rendering/export / Templates/assets |
 
 ### Video programático y explicadores animados
 
@@ -506,6 +512,9 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [deck-builder skill](https://github.com/lowrentkicker/deck-builder) [![Star](https://img.shields.io/github/stars/lowrentkicker/deck-builder?style=flat&logo=github&label=Star)](https://github.com/lowrentkicker/deck-builder/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Agent skill | PPT/deck / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Model API / System tools / Rendering/export / Templates/assets |
 | [pdf2slides](https://github.com/ha0ranyu/pdf2slides) [![Star](https://img.shields.io/github/stars/ha0ranyu/pdf2slides?style=flat&logo=github&label=Star)](https://github.com/ha0ranyu/pdf2slides/stargazers) | PDF/documents | API/SDK/library | PPT/deck / Structured data/Markdown | Local runtime / Document parsing/OCR / Rendering/export / System tools |
 | [PPT Visual Reconstruction](https://github.com/lirunjie0510/ppt-visual-reconstruction) [![Star](https://img.shields.io/github/stars/lirunjie0510/ppt-visual-reconstruction?style=flat&logo=github&label=Star)](https://github.com/lirunjie0510/ppt-visual-reconstruction/stargazers) | Office docs / PDF/documents / Any/multi-source | Agent skill | PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Document parsing/OCR / Rendering/export / Templates/assets |
+
+| [DCC MCP PowerPoint](https://github.com/dcc-mcp/dcc-mcp-powerpoint) [![Star](https://img.shields.io/github/stars/dcc-mcp/dcc-mcp-powerpoint?style=flat&logo=github&label=Star)](https://github.com/dcc-mcp/dcc-mcp-powerpoint/stargazers) | Text/ideas / Office docs / Data/tables / Code/technical text | MCP server / Skill collection | PPT/deck / SVG/PNG/PDF / Evidence table | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
+| [Reference HTML PPTX Skills](https://github.com/TimekeeperXY/reference-html-pptx-skill) [![Star](https://img.shields.io/github/stars/TimekeeperXY/reference-html-pptx-skill?style=flat&logo=github&label=Star)](https://github.com/TimekeeperXY/reference-html-pptx-skill/stargazers) | Text/ideas / Office docs / PDF/documents / Any/multi-source | Skill collection | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 
 ## Herramientas auxiliares y de pre/postprocesamiento
 

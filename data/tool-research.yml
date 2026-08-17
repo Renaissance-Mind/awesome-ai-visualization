@@ -1,4 +1,4 @@
-generated_at: '2026-08-16T23:07:52+00:00'
+generated_at: '2026-08-17T23:06:33+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,11 +10,11 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 529
-  fetched_sources_ok: 711
+  entries: 536
+  fetched_sources_ok: 718
   fetched_sources_failed: 37
-  official_examples: 1208
-  official_effect_assets: 1521
+  official_examples: 1210
+  official_effect_assets: 1523
   official_docs: 1418
 entries:
 - name: Paper2Any
@@ -28946,9 +28946,8 @@ entries:
   - 渲染/导出
   - 系统工具
   - 模板/素材
-  catalog_note: Source-available local-first agent workspace for code, office work,
-    editable design, presentations, websites, and video, with canvas editing, browser,
-    files, skills, plugins, and MCP.
+  catalog_note: Source-available local-first agent workspace for code, office work, editable design, presentations, websites,
+    and video, with canvas editing, browser, files, skills, plugins, and MCP.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/Devin-AXIS/iPolloWork/HEAD/README.md
@@ -28979,9 +28978,8 @@ entries:
   - 模型 API
   - 文档解析/OCR
   - 渲染/导出
-  catalog_note: Agent-native Python document engine, MCP server, and hosted service
-    that generates or chat-edits native DOCX, XLSX, and PPTX files with real paragraphs,
-    cells, charts, previews, and PDF/SVG/PNG rendering.
+  catalog_note: Agent-native Python document engine, MCP server, and hosted service that generates or chat-edits native DOCX,
+    XLSX, and PPTX files with real paragraphs, cells, charts, previews, and PDF/SVG/PNG rendering.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/CocoRoF/edit2docs/HEAD/README.md
@@ -28996,9 +28994,8 @@ entries:
     status: 200
     content_type: text/html
     title: edit2docs · PyPI
-    description: 'AI-agent-native document engine: generate and chat-edit DOCX, XLSX
-      and PPTX as a Python library, agent tool set, MCP server or hosted service.
-      English-first with first-class Korean'
+    description: 'AI-agent-native document engine: generate and chat-edit DOCX, XLSX and PPTX as a Python library, agent tool
+      set, MCP server or hosted service. English-first with first-class Korean'
     bytes: 110861
   official_examples: []
   official_docs: []
@@ -29015,9 +29012,8 @@ entries:
   - 渲染/导出
   - 系统工具
   - 模板/素材
-  catalog_note: Agent skill for workplace presentation decks with browser-editable
-    HTML output, 12 visual themes, 1020 layouts, adjustable controls, editable text/media,
-    and one-click export to offline HTML, PDF, or editable PPTX.
+  catalog_note: Agent skill for workplace presentation decks with browser-editable HTML output, 12 visual themes, 1020 layouts,
+    adjustable controls, editable text/media, and one-click export to offline HTML, PDF, or editable PPTX.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/chuspeeism/dashi-ppt-skill/HEAD/README.md
@@ -29038,9 +29034,8 @@ entries:
   - 渲染/导出
   - 系统工具
   - 模板/素材
-  catalog_note: Claude Code skill that turns one-line intent into presentation-grade
-    editorial HTML decks with dark and paper-light profiles, deterministic quality
-    gates, Chromium rendering, shareable PDFs, and showcase motion films.
+  catalog_note: Claude Code skill that turns one-line intent into presentation-grade editorial HTML decks with dark and paper-light
+    profiles, deterministic quality gates, Chromium rendering, shareable PDFs, and showcase motion films.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/kimsh-1/deck-factory/HEAD/README.md
@@ -29137,9 +29132,8 @@ entries:
   - 渲染/导出
   - 系统工具
   - 模板/素材
-  catalog_note: Claude Code and Codex skill that turns economics papers into verified
-    Beamer talks or discussant decks, tracing numbers to source pages, rebuilding
-    regression exhibits, compiling LaTeX, and checking rendered geometry.
+  catalog_note: Claude Code and Codex skill that turns economics papers into verified Beamer talks or discussant decks, tracing
+    numbers to source pages, rebuilding regression exhibits, compiling LaTeX, and checking rendered geometry.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
@@ -29159,13 +29153,12 @@ entries:
     source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
   official_effect_assets:
   - kind: image
-    title: 'Punchline slide: framing sentence, numbered contributions with the key
-      magnitude highlighted, implication line'
+    title: 'Punchline slide: framing sentence, numbered contributions with the key magnitude highlighted, implication line'
     url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/docs/images/sample-punchline.png
     source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
   - kind: image
-    title: 'Appendix table: highlighted baseline column, controls collapsed to indicator
-      rows, embedded interpretation row, magnitude takeaway'
+    title: 'Appendix table: highlighted baseline column, controls collapsed to indicator rows, embedded interpretation row,
+      magnitude takeaway'
     url: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/docs/images/sample-mainresult.png
     source: https://raw.githubusercontent.com/hanlulong/econ-slides-skill/HEAD/README.md
   official_links:
@@ -29188,9 +29181,8 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  catalog_note: Claude Code skill that builds narrated, self-playing single-page web
-    slide decks with browser text-to-speech by default, optional ElevenLabs voice
-    cloning, captions, controls, fullscreen playback, and static-host sharing.
+  catalog_note: Claude Code skill that builds narrated, self-playing single-page web slide decks with browser text-to-speech
+    by default, optional ElevenLabs voice cloning, captions, controls, fullscreen playback, and static-host sharing.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/Gostems87/voiceover-deck/HEAD/README.md
@@ -29210,9 +29202,8 @@ entries:
   - 系统工具
   - 模板/素材
   - 存储/索引
-  catalog_note: Dockerized MCP server that lets AI assistants create PowerPoint, Word,
-    Excel, email, and XML files from prompts or Markdown, with custom templates and
-    local, S3, GCS, Azure Blob, or MinIO output storage.
+  catalog_note: Dockerized MCP server that lets AI assistants create PowerPoint, Word, Excel, email, and XML files from prompts
+    or Markdown, with custom templates and local, S3, GCS, Azure Blob, or MinIO output storage.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/ForLegalAI/mcp-ms-office-documents/HEAD/Readme.md
@@ -29244,9 +29235,8 @@ entries:
   - 代码分析工具
   - 渲染/导出
   - 系统工具
-  catalog_note: VS Code extension, CLI, and MCP server that scans Django projects
-    without a database and exposes grouped model trees, live ER diagrams, editor sidebars,
-    terminal output, and AI-agent schema inspection.
+  catalog_note: VS Code extension, CLI, and MCP server that scans Django projects without a database and exposes grouped model
+    trees, live ER diagrams, editor sidebars, terminal output, and AI-agent schema inspection.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/FROWNINGdev/django-orm-lens/HEAD/README.md
@@ -29261,9 +29251,8 @@ entries:
     status: 200
     content_type: text/html
     title: Django ORM Lens - Visual Studio Marketplace
-    description: Extension for Visual Studio Code - Live sidebar + ER diagram for
-      your Django models. Navigate apps, models, fields and relationships without
-      leaving the editor.
+    description: Extension for Visual Studio Code - Live sidebar + ER diagram for your Django models. Navigate apps, models,
+      fields and relationships without leaving the editor.
     bytes: 107033
   official_effect_assets:
   - kind: image
@@ -29286,9 +29275,8 @@ entries:
   - 系统工具
   - 代码分析工具
   - 模板/素材
-  catalog_note: MCP wrapper and skill/plugin layer over the upstream draw.io MCP server,
-    adding 13 builder tools, validation, topology correction, domain validators, codebase-to-diagram
-    generation, and fully editable native draw.io XML output.
+  catalog_note: MCP wrapper and skill/plugin layer over the upstream draw.io MCP server, adding 13 builder tools, validation,
+    topology correction, domain validators, codebase-to-diagram generation, and fully editable native draw.io XML output.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/jmo808/drawio_plugin/HEAD/README.md
@@ -29350,10 +29338,9 @@ entries:
   - 渲染/导出
   - 系统工具
   - 代码分析工具
-  catalog_note: Cisco-open AI-native network design and diagramming tool with Local
-    MCP, online, and offline editions for generating L1/L2/L3 topology diagrams, PowerPoint
-    diagrams, HTML device tables, and AI context files from structured or inventory-derived
-    network data.
+  catalog_note: Cisco-open AI-native network design and diagramming tool with Local MCP, online, and offline editions for
+    generating L1/L2/L3 topology diagrams, PowerPoint diagrams, HTML device tables, and AI context files from structured or
+    inventory-derived network data.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
@@ -29372,8 +29359,7 @@ entries:
     url: https://www.youtube.com/watch?v=g5N3yg0jMSg
     source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
   - kind: example
-    title: Network Sketcher Ver 2.6.1 supported the creation of a network configuration
-      with LLM from scratch
+    title: Network Sketcher Ver 2.6.1 supported the creation of a network configuration with LLM from scratch
     url: https://github.com/cisco-open/network-sketcher/wiki/1%E2%80%905.-Examples-of-General%E2%80%90Purpose-AI-(LLM
     source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
   - kind: example
@@ -29429,8 +29415,7 @@ entries:
     url: https://www.youtube.com/watch?v=g5N3yg0jMSg
     source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
   - kind: example
-    title: Network Sketcher Ver 2.6.1 supported the creation of a network configuration
-      with LLM from scratch
+    title: Network Sketcher Ver 2.6.1 supported the creation of a network configuration with LLM from scratch
     url: https://github.com/cisco-open/network-sketcher/wiki/1%E2%80%905.-Examples-of-General%E2%80%90Purpose-AI-(LLM
     source: https://raw.githubusercontent.com/cisco-open/network-sketcher/HEAD/README.md
   - kind: docs
@@ -37833,8 +37818,8 @@ entries:
   - 系统工具
   - 渲染/导出
   - 模板/素材
-  catalog_note: MCP server for AI chat-to-Slidev workflows with business, technical, and educational deck examples, atomic slide
-    creation, themes, code blocks, tables, math, and Playwright-backed PDF export.
+  catalog_note: MCP server for AI chat-to-Slidev workflows with business, technical, and educational deck examples, atomic
+    slide creation, themes, code blocks, tables, math, and Playwright-backed PDF export.
   fetched_sources:
   - kind: github_page
     url: https://github.com/raykuonz/slidev-mcp-server
@@ -37943,8 +37928,9 @@ entries:
   - 模型 API
   - 渲染/导出
   - 模板/素材
-  catalog_note: NPX-ready MCP server that brings Gamma API presentation generation into Claude Desktop and other clients, with
-    public prompt templates for pitch decks, QBRs, training, sales, conference talks, briefings, and PPTX speaker-note exports.
+  catalog_note: NPX-ready MCP server that brings Gamma API presentation generation into Claude Desktop and other clients,
+    with public prompt templates for pitch decks, QBRs, training, sales, conference talks, briefings, and PPTX speaker-note
+    exports.
   fetched_sources:
   - kind: github_page
     url: https://github.com/cbruyndoncx/gamma-mcp-server
@@ -42800,7 +42786,7 @@ entries:
     final_url: https://kova.md/
     status: 200
     content_type: text/html
-    title: "kova.md - Markdown-powered presentations"
+    title: kova.md - Markdown-powered presentations
     description: Kova turns Markdown into presentations. Free, open source, runs on Windows, macOS, and Linux. No account
       required.
     bytes: 23377
@@ -42828,11 +42814,11 @@ entries:
     url: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/docs/readme/screenshot-light.png
     source: https://raw.githubusercontent.com/KovaMD/Kova/HEAD/README.md
   - kind: image
-    title: "Kova editor - slide preview on the left, markdown on the right"
+    title: Kova editor - slide preview on the left, markdown on the right
     url: https://kova.md/assets/welcome-dark.png?v=20260713
     source: https://kova.md/
   - kind: image
-    title: "Kova editor in light mode - slide preview on the left, markdown on the right"
+    title: Kova editor in light mode - slide preview on the left, markdown on the right
     url: https://kova.md/assets/welcome-light.png?v=20260713
     source: https://kova.md/
   - kind: image
@@ -42844,7 +42830,7 @@ entries:
     url: https://kova.md/assets/screenshot-drinks-light.png?v=20260522
     source: https://kova.md/
   - kind: image
-    title: "kova.md - Markdown-powered presentations"
+    title: kova.md - Markdown-powered presentations
     url: https://kova.md/assets/og-image.png
     source: https://kova.md/
   - kind: image
@@ -42856,11 +42842,11 @@ entries:
     url: https://kova.md/assets/welcome-dover.png?v=20260522
     source: https://kova.md/
   - kind: image
-    title: "Introduction slide in Institutional theme - dark navy with mermaid pie chart"
+    title: Introduction slide in Institutional theme - dark navy with mermaid pie chart
     url: https://kova.md/assets/slide-theme-institutional.png?v=20260522
     source: https://kova.md/
   - kind: image
-    title: "Introduction slide in Grove theme - light green tones with mermaid pie chart"
+    title: Introduction slide in Grove theme - light green tones with mermaid pie chart
     url: https://kova.md/assets/slide-theme-grove.png?v=20260522
     source: https://kova.md/
   - kind: image
@@ -44007,3 +43993,193 @@ entries:
     source: https://raw.githubusercontent.com/DSY-Xueai/image2editable/HEAD/README.md
   source_headings:
   - 转换效果演示：
+- name: DCC MCP PowerPoint
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/dcc-mcp/dcc-mcp-powerpoint
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: DCC-MCP PowerPoint application layer for structured deck IR generation, slide composition, deck modification,
+    semantic layer operations, plugin execution, COM rendering, PDF/PNG previews, and structural validation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dcc-mcp/dcc-mcp-powerpoint/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dcc-mcp/dcc-mcp-powerpoint/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: dcc-mcp-PowerPoint
+    bytes: 3910
+  source_headings:
+  - Capability-boundary showcase
+  - Agent usage (via dcc-mcp-cli / gateway)
+- name: Diagram Builder
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/mcp-use/mcp-diagram-builder
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP App powered by Mermaid.js for creating and editing live-rendered diagrams inside chat, including flowcharts,
+    sequence, class, state, ER, Gantt, pie, mind map, and timeline diagrams with hosted or local deployment.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Diagram Builder — Mermaid diagrams in your chat
+    bytes: 2607
+  official_effect_assets:
+  - kind: gif
+    title: Diagram Builder Demo
+    url: https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/repo-assets/demo.gif
+    source: https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/README.md
+  - kind: image
+    title: Widget Diagram View
+    url: https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/repo-assets/widget-diagram-view.png
+    source: https://raw.githubusercontent.com/mcp-use/mcp-diagram-builder/HEAD/README.md
+  source_headings:
+  - Diagram Builder — Mermaid diagrams in your chat
+- name: Reference HTML PPTX Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/TimekeeperXY/reference-html-pptx-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Paired Codex skills for reference-driven 16:9 HTML slide design and structurally editable PowerPoint export,
+    with semantic layout planning, visual-token extraction, PPTX reconstruction, screenshots, and overflow/QA checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TimekeeperXY/reference-html-pptx-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TimekeeperXY/reference-html-pptx-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Reference HTML PPTX Skills
+    bytes: 2754
+  source_headings:
+  - 使用示例
+- name: Hand-drawn Infographic Restyler
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Cross-platform Codex and Claude Code skill for restyling infographics, slide-like images, framework diagrams,
+    comparison charts, and article covers into a consistent hand-drawn editorial image style while preserving text, hierarchy,
+    relationships, and meaning.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/layyyback/handdrawn-infographic-skill/main/restyle-handdrawn-infographic/SKILL.md
+    final_url: https://raw.githubusercontent.com/layyyback/handdrawn-infographic-skill/main/restyle-handdrawn-infographic/SKILL.md
+    status: 200
+    content_type: text/plain
+    title: Hand-drawn Infographic Restyler
+    bytes: 8683
+  source_headings:
+  - 2. Lock the visual system
+- name: Jira OKR Dashboard MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/GuruR-prog/jira-okr-dashboard-mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Jira-over-MCP toolkit with a multi-workspace React dashboard, direct Jira REST aggregation, AI status summaries,
+    MCP issue/progress tools, and a CLI that writes static OKR status reports through an agentic tool-use loop.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/GuruR-prog/jira-okr-dashboard-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/GuruR-prog/jira-okr-dashboard-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: jira-okr-dashboard-mcp
+    bytes: 12564
+  official_examples:
+  - kind: demo
+    title: '`demo/mock-jira-server.mjs`'
+    url: https://github.com/GuruR-prog/jira-okr-dashboard-mcp/blob/HEAD/demo/mock-jira-server.mjs
+    source: https://raw.githubusercontent.com/GuruR-prog/jira-okr-dashboard-mcp/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: '`demo/mock-jira-server.mjs`'
+    url: https://github.com/GuruR-prog/jira-okr-dashboard-mcp/blob/HEAD/demo/mock-jira-server.mjs
+    source: https://raw.githubusercontent.com/GuruR-prog/jira-okr-dashboard-mcp/HEAD/README.md
+  source_headings:
+  - jira-okr-dashboard-mcp
+  - The web dashboard
+- name: Oracle FDI ADW AI Dashboard MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP-powered Oracle FDI and Autonomous Data Warehouse reporting workflow with read-only governed SQL controls,
+    approval/audit steps, reusable join maps, static dashboard generation, and CSV/JSON report exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Oracle FDI ADW AI Dashboard MCP
+    bytes: 3910
+  official_examples:
+  - kind: example
+    title: synthetic dashboard example
+    url: https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/blob/HEAD/examples/fdi-refresh-dashboard/index.html
+    source: https://raw.githubusercontent.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/HEAD/README.md
+  official_links:
+  - kind: example
+    title: synthetic dashboard example
+    url: https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/blob/HEAD/examples/fdi-refresh-dashboard/index.html
+    source: https://raw.githubusercontent.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/HEAD/README.md
+  source_headings:
+  - Oracle FDI ADW AI Dashboard MCP
+  - Dashboard generation
+- name: High-Density Infographic Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/AAAAAAAJ/infographic-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: OpenClaw, Claude Code, and Codex skill for generating high-density information graphics from topics or structured
+    briefs, with ten visual styles, 2K/4K output options, multi-ratio support, Gemini/NanoBanana API configuration, and official
+    example galleries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/AAAAAAAJ/infographic-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/AAAAAAAJ/infographic-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 高密度信息大图生成专家 Skill
+    bytes: 10395
+  source_headings:
+  - 💡 使用示例
+  - 🎨 10 Visual Styles
