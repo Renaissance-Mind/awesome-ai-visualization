@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-17.
+Last researched: 2026-08-18.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-18: refreshed source-backed deck, diagram, infographic, and dashboard/report tooling from official GitHub repositories, README/skill evidence, live GitHub searches, and GitHub metadata. This pass added DCC MCP PowerPoint, Diagram Builder, Reference HTML PPTX Skills, Hand-drawn Infographic Restyler, Jira OKR Dashboard MCP, Oracle FDI ADW AI Dashboard MCP, and High-Density Infographic Skill. The targeted scraper ran only against these seven new records, fetched all seven official sources successfully with no failed fetches, and found two official examples plus two official preview assets.
 
 Update on 2026-08-17: refreshed thesis-defense PPTX generation, editable HTML/PPT authoring, social infographic/card skills, Google Workspace Slides MCP control, creative-work desktop agents, and image/PDF/PPTX-to-editable-PowerPoint reconstruction from official GitHub repositories, official README evidence, live web/GitHub searches, and GitHub metadata. This pass added Thesis Defense PPTX Skill, dashiai-ppt-skill, Frontend Slides Editable, XHS Images Skill, IG Card Generator, Google MCP, UseIt Agent, and image2editable. The targeted scraper ran only against these eight new records, fetched all eight official GitHub README sources successfully with no failed fetches, and found four official examples, twenty-nine official preview assets, and two official docs links after scrubbing a credited template dependency and non-artifact mascot images.
 
@@ -503,6 +505,18 @@ Update on 2026-07-31: refreshed local Claude Design-style skills, prompt-to-arti
 - [Highcharts MCP Server](https://github.com/hasnaintypes/highchart-mcp-server): MCP server exposing Highcharts chart generation with schema validation, natural-language chart creation, deployment options, and PNG/SVG/PDF/interactive-HTML export.
 - [Predictive Maintenance MCP](https://github.com/LGDiMaggio/predictive-maintenance-mcp): predictive-maintenance MCP server and Claude Code plugin for vibration CSV analysis, bearing-fault classification, risk/RUL estimates, evidence, charts, and diagnostic reports.
 - [AnyGen Suite Skill](https://github.com/AnyGenIO/anygen-suite-skill): all-in-one OpenClaw/Claude Code/Cursor skill that brokers PPT, DOCX, diagram, storybook, data visualization, deep-research, website, finance-report, and design-image generation through AnyGen.
+
+## Added in the 2026-08-18 Daily Refresh
+
+Update on 2026-08-18: refreshed source-backed deck, diagram, infographic, and dashboard/report tooling from official GitHub repositories, README/skill evidence, and GitHub metadata. This pass added DCC MCP PowerPoint, Diagram Builder, Reference HTML PPTX Skills, Hand-drawn Infographic Restyler, Jira OKR Dashboard MCP, Oracle FDI ADW AI Dashboard MCP, and High-Density Infographic Skill.
+
+- [DCC MCP PowerPoint](https://github.com/dcc-mcp/dcc-mcp-powerpoint): DCC-MCP PowerPoint layer for deck IR generation, slide composition, patch edits, semantic layers, plugin execution, COM rendering, previews, and validation.
+- [Diagram Builder](https://github.com/mcp-use/mcp-diagram-builder): Mermaid-powered MCP App for live chat-rendered flowcharts, sequence diagrams, class diagrams, ER diagrams, mind maps, timelines, and iterative diagram edits.
+- [Reference HTML PPTX Skills](https://github.com/TimekeeperXY/reference-html-pptx-skill): paired Codex skills for reference-driven HTML slide design and structurally editable PPTX export with screenshot and overflow QA.
+- [Hand-drawn Infographic Restyler](https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1): Codex/Claude skill for restyling existing infographic, slide-like, diagram, comparison, or cover images into a hand-drawn editorial system while preserving text and relationships.
+- [Jira OKR Dashboard MCP](https://github.com/GuruR-prog/jira-okr-dashboard-mcp): Jira-over-MCP toolkit with multi-workspace React dashboard, AI summaries, issue/progress tools, and static OKR report generation.
+- [Oracle FDI ADW AI Dashboard MCP](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp): governed Oracle FDI/ADW reporting MCP with read-only SQL approvals, reusable join maps, static dashboard generation, and CSV/JSON exports.
+- [High-Density Infographic Skill](https://github.com/AAAAAAAJ/infographic-skill): OpenClaw, Claude Code, and Codex skill for topic or brief to high-density information graphics with ten styles and 2K/4K output options.
 
 ## Early Market Read
 
