@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-08-17T23:06:33+00:00",
-  "lastResearched": "2026-08-18",
+  "generatedAt": "2026-08-19T00:10:45+00:00",
+  "lastResearched": "2026-08-19",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 536,
+    "total": 543,
     "openSource": 135,
     "saas": 59,
-    "modelApi": 187,
-    "examples": 1210,
-    "effectAssets": 1523,
-    "docs": 1418
+    "modelApi": 188,
+    "examples": 1216,
+    "effectAssets": 1535,
+    "docs": 1427
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 59,
-      "PDF/文档": 175,
-      "文本/想法": 336,
-      "数据/表格": 206,
-      "代码/技术描述": 99,
+      "PDF/文档": 176,
+      "文本/想法": 340,
+      "数据/表格": 211,
+      "代码/技术描述": 100,
       "网页/搜索结果": 147,
-      "代码库": 52,
-      "DSL/代码": 104,
+      "代码库": 53,
+      "DSL/代码": 106,
       "新闻/资讯": 24,
-      "知识库/个人资料": 45,
-      "任意/多源": 77,
-      "Office 文档": 95,
+      "知识库/个人资料": 46,
+      "任意/多源": 78,
+      "Office 文档": 97,
       "引用网络": 4,
-      "数据库": 49,
+      "数据库": 50,
       "视频/音频": 2
     },
     "toolForms": {
       "开源应用/框架": 135,
-      "Agent Skill": 183,
+      "Agent Skill": 186,
       "Skill 集合": 48,
-      "MCP Server": 169,
+      "MCP Server": 171,
       "产品/SaaS": 59,
       "数据集/评测": 2,
-      "Bot/助手": 16,
-      "研究原型": 5,
-      "API/SDK/库": 77,
+      "Bot/助手": 17,
+      "研究原型": 6,
+      "API/SDK/库": 80,
       "Awesome/索引": 25
     },
     "outputForms": {
       "图形摘要/信息图": 41,
-      "PPT/演示文稿": 233,
-      "网页/交互页面": 166,
+      "PPT/演示文稿": 234,
+      "网页/交互页面": 169,
       "问答/学习材料": 15,
       "报告/长文档": 75,
-      "证据表": 34,
-      "信息图/视觉报告": 77,
-      "图表/仪表盘": 148,
+      "证据表": 36,
+      "信息图/视觉报告": 79,
+      "图表/仪表盘": 153,
       "架构图/流程图": 120,
-      "SVG/PNG/PDF": 211,
+      "SVG/PNG/PDF": 213,
       "报告/简报": 65,
       "白板/思维导图": 33,
       "图表/Mermaid": 60,
       "视频/音频": 39,
-      "结构化数据/Markdown": 69,
+      "结构化数据/Markdown": 71,
       "表格/时间线": 17,
       "引用答案": 5,
       "思维导图/知识地图": 32,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 31,
-      "图表/渲染输出": 17,
+      "代码地图/Repo Wiki": 32,
+      "图表/渲染输出": 19,
       "工具索引": 27
     },
     "dependencies": {
-      "本地语言环境": 433,
-      "模型 API": 187,
-      "文档解析/OCR": 85,
-      "渲染/导出": 447,
-      "GPU/加速器": 16,
-      "模板/素材": 252,
-      "Agent 宿主": 237,
+      "本地语言环境": 440,
+      "模型 API": 188,
+      "文档解析/OCR": 86,
+      "渲染/导出": 454,
+      "GPU/加速器": 17,
+      "模板/素材": 255,
+      "Agent 宿主": 241,
       "系统工具": 113,
       "浏览器/账号": 137,
       "存储/索引": 69,
-      "MCP Client": 176,
+      "MCP Client": 180,
       "外部检索/数据源": 114,
-      "代码分析工具": 35
+      "代码分析工具": 36
     },
     "categories": {
       "paper-visualization": 17,
-      "doc-to-knowledge": 47,
+      "doc-to-knowledge": 48,
       "research-report": 27,
-      "infographic-report": 49,
-      "data-dashboard": 76,
+      "infographic-report": 50,
+      "data-dashboard": 78,
       "diagram-generation": 70,
       "literature-map": 4,
-      "presentation-tools": 155,
-      "codebase-map": 29,
-      "rendering-primitive": 13,
+      "presentation-tools": 156,
+      "codebase-map": 30,
+      "rendering-primitive": 14,
       "video-generation": 11,
       "commercial-site": 10,
       "meta-index": 28
     },
     "groups": {
       "paper": 30,
-      "text_visual": 63,
+      "text_visual": 64,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 29,
-      "support_doc_parse": 16,
-      "presentation": 166,
-      "code": 30,
-      "support_render": 52,
+      "support_doc_parse": 17,
+      "presentation": 167,
+      "code": 31,
+      "support_render": 53,
       "diagrams": 16,
       "video": 11,
-      "data": 71,
+      "data": 73,
       "indexes": 27,
       "diagram": 1,
       "index": 1
@@ -45248,6 +45248,455 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Flint Chart",
+      "url": "https://github.com/microsoft/flint-chart",
+      "primaryUrl": "https://github.com/microsoft/flint-chart",
+      "homepage": "https://microsoft.github.io/flint-chart/",
+      "category": "data-dashboard",
+      "surface": "library",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3874,
+      "license": "MIT",
+      "updated": "2026-08-18",
+      "note": "Microsoft visualization language, charting library, and MCP server that lets AI agents produce expressive, human-editable chart specs with interactive previews, examples, and reliable rendered chart output.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "**MCP Server Guide**",
+          "url": "https://microsoft.github.io/flint-chart/",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API reference",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/api-reference.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Vega-Lite",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-vegalite.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "ECharts",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-echarts.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Chart.js",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-chartjs.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Plotly",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-plotly.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Excel",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-excel.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Development guide",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/DEVELOPMENT.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "**Visual Themes**",
+          "url": "https://microsoft.github.io/flint-chart/",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Using themes",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/theme-spec.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "chart templates",
+          "url": "https://github.com/microsoft/flint-chart/blob/HEAD/docs/adding-a-chart-template.md",
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Flint compiling a compact chart spec into a Vega-Lite spec and rendered heatmap visualization.",
+          "url": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/compile-demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Agent chat showing Flint Chart as an MCP App with a grouped bar chart preview and chart options.",
+          "url": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-mcp-experience.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A wall of charts produced by Flint across its supported visualization backends.",
+          "url": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/chartwall.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Twelve charts rendered with Flint's Economist theme.",
+          "url": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-theme-economist.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Twelve charts rendered with Flint's Swiss theme.",
+          "url": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-theme-swiss.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Twelve charts rendered with Flint's Pop theme.",
+          "url": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-theme-pop.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 3,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "Talk-to-Your-Slides",
+      "url": "https://github.com/KyuDan1/Talk-to-Your-Slides",
+      "primaryUrl": "https://github.com/KyuDan1/Talk-to-Your-Slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "research",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 33,
+      "license": "unknown",
+      "updated": "2026-07-13",
+      "note": "ACL Findings 2026 PowerPoint slide-editing agent that uses LLM planning, MCP-style tool access, and visual feedback to inspect, edit, and improve existing presentation decks.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "研究原型",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "Research Paper (arXiv preprint)",
+          "url": "https://arxiv.org/abs/2505.11604",
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Download Examples on Google Drive",
+          "url": "https://drive.google.com/drive/folders/1-TmujhQkMg17QsdFx_LOCVRr19QNFyOd?usp=sharing",
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "CamelCase Demo",
+          "url": "https://img.youtube.com/vi/9nJ0-yofr7Y/0.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Typo Checking Demo",
+          "url": "https://img.youtube.com/vi/rBIBsnWX3W0/0.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Only English → Blue",
+          "url": "https://img.youtube.com/vi/eVSs6xi-bEs/0.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Translate to English",
+          "url": "https://img.youtube.com/vi/GLS_9xh2C-4/0.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide‑Notes Script",
+          "url": "https://img.youtube.com/vi/5vzYd5ov_Cs/0.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "chart-ocr-mcp",
+      "url": "https://github.com/olliemorgan685-glitch/chart-ocr-mcp",
+      "primaryUrl": "https://github.com/olliemorgan685-glitch/chart-ocr-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "GPU/加速器",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-07-03",
+      "note": "PaddleOCR-based CLI, FastAPI app, and local MCP tools for extracting chart and table structure from images and PowerPoint slides so agents can analyze or rebuild visual source material.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "结构化数据/Markdown",
+        "图表/仪表盘",
+        "证据表"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "html-infographic",
+      "url": "https://github.com/mitchelfletcher11/html-infographic",
+      "primaryUrl": "https://github.com/mitchelfletcher11/html-infographic",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-05-29",
+      "note": "Claude Code skill for turning a technical concept or brief into a single-screen, animation-rich self-contained HTML infographic with inline visual structure for explainers and shareable teaching artifacts.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Claude Setup Dashboard",
+      "url": "https://github.com/ANDRS-Projects/claude-setup-dashboard",
+      "primaryUrl": "https://github.com/ANDRS-Projects/claude-setup-dashboard",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-01",
+      "note": "Claude Code skill that scans a local Claude setup and refreshes a capabilities dashboard so teams can inspect installed skills, commands, hooks, agents, MCP servers, and configuration state as a visual inventory.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "代码地图/Repo Wiki",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ECharts Bigscreen Skill",
+      "url": "https://github.com/xiaofuqing13/echarts-bigscreen-skill",
+      "primaryUrl": "https://github.com/xiaofuqing13/echarts-bigscreen-skill",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-16",
+      "note": "Claude Code and Cursor skill for generating offline-deployable ECharts big-screen dashboards, monitoring boards, and data command centers from a short natural-language brief as a single HTML artifact.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/traffic-monitor.html`",
+          "url": "https://github.com/xiaofuqing13/echarts-bigscreen-skill/blob/HEAD/examples/traffic-monitor.html",
+          "source": "https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "大屏效果预览",
+          "url": "https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/assets/preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "mcp-apps-render",
+      "url": "https://github.com/vikasudasi/mcp-apps-render",
+      "primaryUrl": "https://github.com/vikasudasi/mcp-apps-render",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "MCP Client"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-03",
+      "note": "Terminal CLI for rendering MCP Apps interactive UI payloads, including dashboards, forms, and visualizations, giving agent workflows a local inspection surface for MCP-generated visual artifacts.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
       "docs": [],
       "examples": [],
       "effectAssets": [],

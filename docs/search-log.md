@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-18.
+Last researched: 2026-08-19.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-19: refreshed chart-spec/MCP rendering, slide-editing research agents, chart/table OCR for slide material, HTML infographic skills, local setup dashboards, ECharts big-screen dashboard generation, and MCP Apps terminal rendering from official GitHub repositories, official README evidence, project pages, live web/GitHub searches, and GitHub metadata. This pass added Flint Chart, Talk-to-Your-Slides, chart-ocr-mcp, html-infographic, Claude Setup Dashboard, ECharts Bigscreen Skill, and mcp-apps-render. The targeted scraper ran only against these seven new records, fetched eight official sources successfully with no failed fetches, and found six official examples, twelve official preview assets, and nine official docs links after scrubbing two generic non-project docs links from the Flint record.
 
 Update on 2026-08-18: refreshed source-backed deck, diagram, infographic, and dashboard/report tooling from official GitHub repositories, README/skill evidence, live GitHub searches, and GitHub metadata. This pass added DCC MCP PowerPoint, Diagram Builder, Reference HTML PPTX Skills, Hand-drawn Infographic Restyler, Jira OKR Dashboard MCP, Oracle FDI ADW AI Dashboard MCP, and High-Density Infographic Skill. The targeted scraper ran only against these seven new records, fetched all seven official sources successfully with no failed fetches, and found two official examples plus two official preview assets.
 
