@@ -1,4 +1,4 @@
-last_researched: '2026-08-18'
+last_researched: '2026-08-19'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -13733,3 +13733,187 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: text_visual
+- name: Flint Chart
+  url: https://github.com/microsoft/flint-chart
+  homepage: https://microsoft.github.io/flint-chart/
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3874
+  license: MIT
+  updated: '2026-08-18'
+  note: Microsoft visualization language, charting library, and MCP server that lets AI agents produce expressive,
+    human-editable chart specs with interactive previews, examples, and reliable rendered chart output.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: Talk-to-Your-Slides
+  url: https://github.com/KyuDan1/Talk-to-Your-Slides
+  category: presentation-tools
+  surface: research
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 33
+  license: unknown
+  updated: '2026-07-13'
+  note: ACL Findings 2026 PowerPoint slide-editing agent that uses LLM planning, MCP-style tool access, and visual feedback
+    to inspect, edit, and improve existing presentation decks.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - 研究原型
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: chart-ocr-mcp
+  url: https://github.com/olliemorgan685-glitch/chart-ocr-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  - 渲染/导出
+  stars: 2
+  license: unknown
+  updated: '2026-07-03'
+  note: PaddleOCR-based CLI, FastAPI app, and local MCP tools for extracting chart and table structure from images and
+    PowerPoint slides so agents can analyze or rebuild visual source material.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  - 图表/仪表盘
+  - 证据表
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: html-infographic
+  url: https://github.com/mitchelfletcher11/html-infographic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-05-29'
+  note: Claude Code skill for turning a technical concept or brief into a single-screen, animation-rich self-contained
+    HTML infographic with inline visual structure for explainers and shareable teaching artifacts.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Claude Setup Dashboard
+  url: https://github.com/ANDRS-Projects/claude-setup-dashboard
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-08-01'
+  note: Claude Code skill that scans a local Claude setup and refreshes a capabilities dashboard so teams can inspect
+    installed skills, commands, hooks, agents, MCP servers, and configuration state as a visual inventory.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 代码地图/Repo Wiki
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: code
+- name: ECharts Bigscreen Skill
+  url: https://github.com/xiaofuqing13/echarts-bigscreen-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-07-16'
+  note: Claude Code and Cursor skill for generating offline-deployable ECharts big-screen dashboards, monitoring boards,
+    and data command centers from a short natural-language brief as a single HTML artifact.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: data
+- name: mcp-apps-render
+  url: https://github.com/vikasudasi/mcp-apps-render
+  category: rendering-primitive
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - MCP Client
+  stars: 0
+  license: MIT
+  updated: '2026-08-03'
+  note: Terminal CLI for rendering MCP Apps interactive UI payloads, including dashboards, forms, and visualizations,
+    giving agent workflows a local inspection surface for MCP-generated visual artifacts.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render

@@ -1,4 +1,4 @@
-generated_at: '2026-08-17T23:06:33+00:00'
+generated_at: '2026-08-19T00:10:45+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 536
-  fetched_sources_ok: 718
+  entries: 543
+  fetched_sources_ok: 726
   fetched_sources_failed: 37
-  official_examples: 1210
-  official_effect_assets: 1523
-  official_docs: 1418
+  official_examples: 1216
+  official_effect_assets: 1535
+  official_docs: 1427
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -44183,3 +44183,345 @@ entries:
   source_headings:
   - 💡 使用示例
   - 🎨 10 Visual Styles
+- name: Flint Chart
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/microsoft/flint-chart
+  homepage: https://microsoft.github.io/flint-chart/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Microsoft visualization language, charting library, and MCP server that lets AI agents produce expressive,
+    human-editable chart specs with interactive previews, examples, and reliable rendered chart output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Try it in your agent
+    bytes: 14092
+  - kind: homepage
+    url: https://microsoft.github.io/flint-chart/
+    final_url: https://microsoft.github.io/flint-chart/
+    status: 200
+    content_type: text/html
+    title: 'Flint: A Visualization Language for the AI Era'
+    bytes: 2188
+  official_examples:
+  - kind: template
+    title: '**Visual Themes**'
+    url: https://microsoft.github.io/flint-chart/
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: template
+    title: Using themes
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/theme-spec.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: template
+    title: chart templates
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/adding-a-chart-template.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '**MCP Server Guide**'
+    url: https://microsoft.github.io/flint-chart/
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: API reference
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/api-reference.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Vega-Lite
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-vegalite.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: ECharts
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-echarts.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Chart.js
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-chartjs.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Plotly
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-plotly.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Excel
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-excel.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Development guide
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/DEVELOPMENT.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: rendering backends
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/adding-a-backend.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Flint compiling a compact chart spec into a Vega-Lite spec and rendered heatmap visualization.
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/compile-demo.png
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: image
+    title: Agent chat showing Flint Chart as an MCP App with a grouped bar chart preview and chart options.
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-mcp-experience.png
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: image
+    title: A wall of charts produced by Flint across its supported visualization backends.
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/chartwall.png
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: image
+    title: Twelve charts rendered with Flint's Economist theme.
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-theme-economist.png
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: image
+    title: Twelve charts rendered with Flint's Swiss theme.
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-theme-swiss.png
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: image
+    title: Twelve charts rendered with Flint's Pop theme.
+    url: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/docs/figs/flint-theme-pop.png
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '**Visual Themes**'
+    url: https://microsoft.github.io/flint-chart/
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: '**MCP Server Guide**'
+    url: https://microsoft.github.io/flint-chart/
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: template
+    title: Using themes
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/theme-spec.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: API reference
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/api-reference.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Vega-Lite
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-vegalite.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: ECharts
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-echarts.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Chart.js
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-chartjs.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Plotly
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-plotly.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Excel
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/reference-excel.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: Development guide
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/DEVELOPMENT.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: template
+    title: chart templates
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/adding-a-chart-template.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  - kind: docs
+    title: rendering backends
+    url: https://github.com/microsoft/flint-chart/blob/HEAD/docs/adding-a-backend.md
+    source: https://raw.githubusercontent.com/microsoft/flint-chart/HEAD/README.md
+  source_headings:
+  - Apply Visual Themes
+  - Documentation
+- name: Talk-to-Your-Slides
+  category: presentation-tools
+  surface: research
+  primary_url: https://github.com/KyuDan1/Talk-to-Your-Slides
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: ACL Findings 2026 PowerPoint slide-editing agent that uses LLM planning, MCP-style tool access, and visual
+    feedback to inspect, edit, and improve existing presentation decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📜 *Talk to Your Slides:*
+    bytes: 9380
+  official_examples:
+  - kind: paper
+    title: Research Paper (arXiv preprint)
+    url: https://arxiv.org/abs/2505.11604
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  - kind: example
+    title: Download Examples on Google Drive
+    url: https://drive.google.com/drive/folders/1-TmujhQkMg17QsdFx_LOCVRr19QNFyOd?usp=sharing
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: CamelCase Demo
+    url: https://img.youtube.com/vi/9nJ0-yofr7Y/0.jpg
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  - kind: image
+    title: Typo Checking Demo
+    url: https://img.youtube.com/vi/rBIBsnWX3W0/0.jpg
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  - kind: image
+    title: Only English → Blue
+    url: https://img.youtube.com/vi/eVSs6xi-bEs/0.jpg
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  - kind: image
+    title: Translate to English
+    url: https://img.youtube.com/vi/GLS_9xh2C-4/0.jpg
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  - kind: image
+    title: Slide‑Notes Script
+    url: https://img.youtube.com/vi/5vzYd5ov_Cs/0.jpg
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  official_links:
+  - kind: paper
+    title: Research Paper (arXiv preprint)
+    url: https://arxiv.org/abs/2505.11604
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  - kind: example
+    title: Download Examples on Google Drive
+    url: https://drive.google.com/drive/folders/1-TmujhQkMg17QsdFx_LOCVRr19QNFyOd?usp=sharing
+    source: https://raw.githubusercontent.com/KyuDan1/Talk-to-Your-Slides/HEAD/README.md
+  source_headings:
+  - 📜 *Talk to Your Slides:*
+  - '**Language-Driven Agents for Efficient Slide Editing**'
+  - 📚 TSBench Benchmark Dataset
+  - Dataset Structure
+  - 🎬 Demo Videos
+  - 💡 Usage Examples
+  - 'Solution: Create credentials file from example'
+- name: chart-ocr-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/olliemorgan685-glitch/chart-ocr-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - GPU/加速器
+  - 渲染/导出
+  catalog_note: PaddleOCR-based CLI, FastAPI app, and local MCP tools for extracting chart and table structure from images
+    and PowerPoint slides so agents can analyze or rebuild visual source material.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/olliemorgan685-glitch/chart-ocr-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/olliemorgan685-glitch/chart-ocr-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Chart-OCR-mcp
+    bytes: 8175
+  source_headings:
+  - 识别单张图表图片
+  - 识别 PPT 中的图表
+- name: html-infographic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/mitchelfletcher11/html-infographic
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for turning a technical concept or brief into a single-screen, animation-rich self-contained
+    HTML infographic with inline visual structure for explainers and shareable teaching artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mitchelfletcher11/html-infographic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mitchelfletcher11/html-infographic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: /html-infographic
+    bytes: 1544
+  source_headings:
+  - Usage
+  - Output examples
+- name: Claude Setup Dashboard
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/ANDRS-Projects/claude-setup-dashboard
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Claude Code skill that scans a local Claude setup and refreshes a capabilities dashboard so teams can inspect
+    installed skills, commands, hooks, agents, MCP servers, and configuration state as a visual inventory.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ANDRS-Projects/claude-setup-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ANDRS-Projects/claude-setup-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Setup Dashboard
+    bytes: 3108
+  source_headings:
+  - Claude Setup Dashboard
+  - Usage
+- name: ECharts Bigscreen Skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/xiaofuqing13/echarts-bigscreen-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Cursor skill for generating offline-deployable ECharts big-screen dashboards, monitoring boards,
+    and data command centers from a short natural-language brief as a single HTML artifact.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: echarts-bigscreen-skill
+    bytes: 5379
+  official_examples:
+  - kind: example
+    title: '`examples/traffic-monitor.html`'
+    url: https://github.com/xiaofuqing13/echarts-bigscreen-skill/blob/HEAD/examples/traffic-monitor.html
+    source: https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 大屏效果预览
+    url: https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/assets/preview.png
+    source: https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/traffic-monitor.html`'
+    url: https://github.com/xiaofuqing13/echarts-bigscreen-skill/blob/HEAD/examples/traffic-monitor.html
+    source: https://raw.githubusercontent.com/xiaofuqing13/echarts-bigscreen-skill/HEAD/README.md
+- name: mcp-apps-render
+  category: rendering-primitive
+  surface: library
+  primary_url: https://github.com/vikasudasi/mcp-apps-render
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - MCP Client
+  catalog_note: Terminal CLI for rendering MCP Apps interactive UI payloads, including dashboards, forms, and visualizations,
+    giving agent workflows a local inspection surface for MCP-generated visual artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vikasudasi/mcp-apps-render/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vikasudasi/mcp-apps-render/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mcp-apps-render
+    bytes: 8516
+  source_headings:
+  - Usage Examples
