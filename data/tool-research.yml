@@ -1,4 +1,4 @@
-generated_at: '2026-08-19T00:10:45+00:00'
+generated_at: '2026-08-19T23:05:34+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 543
-  fetched_sources_ok: 726
+  entries: 550
+  fetched_sources_ok: 735
   fetched_sources_failed: 37
-  official_examples: 1216
-  official_effect_assets: 1535
-  official_docs: 1427
+  official_examples: 1220
+  official_effect_assets: 1549
+  official_docs: 1430
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -44525,3 +44525,296 @@ entries:
     bytes: 8516
   source_headings:
   - Usage Examples
+- name: html-mcp-web
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/MiiKiyoshi/html-mcp-web
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: MCP review surface for agent-generated HTML slides and reports, with rendered-page anchored comments, overlap/off-page
+    checks, live agent replies, and HTML/PDF/editable-PPTX export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: html-mcp-web
+    bytes: 5405
+  official_examples:
+  - kind: template
+    title: '`templates/neutral-slides/`'
+    url: https://github.com/MiiKiyoshi/html-mcp-web/blob/HEAD/templates/neutral-slides/
+    source: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+  - kind: template
+    title: '`templates/neutral-report/`'
+    url: https://github.com/MiiKiyoshi/html-mcp-web/blob/HEAD/templates/neutral-report/
+    source: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'The review page: a slide on the left with a highlighted sentence, and the comment thread on the right where a
+      reviewer''s question is answered by the agent.'
+    url: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/docs/hero.png
+    source: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`templates/neutral-slides/`'
+    url: https://github.com/MiiKiyoshi/html-mcp-web/blob/HEAD/templates/neutral-slides/
+    source: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+  - kind: template
+    title: '`templates/neutral-report/`'
+    url: https://github.com/MiiKiyoshi/html-mcp-web/blob/HEAD/templates/neutral-report/
+    source: https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md
+  source_headings:
+  - Quickstart
+  - Templates
+- name: Helx
+  category: rendering-primitive
+  surface: library
+  primary_url: https://github.com/Asno-dev/Helx
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: CLI, MCP server, and TypeScript SDK for AI agents to create, edit, validate, diff, render, and convert DOCX,
+    XLSX, PPTX, PDF, Markdown, HTML, CSV, charts, diagrams, and templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Helx
+    bytes: 12230
+  official_effect_assets:
+  - kind: image
+    title: DOCX report
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/report-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: XLSX sales
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/sales-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: PPTX deck
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/investor-deck-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: PDF quarterly
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/quarterly-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: Markdown playbook
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/playbook-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: HTML landing
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/landing-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: CSV customers
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/customers-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: DOCX letter (template merge)
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/letter-card.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: Diagram
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/diagram-workflow.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: Revenue by region
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/chart-revenue-bar.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: Trend
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/chart-trend-line.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  - kind: image
+    title: Mix
+    url: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/chart-mix-pie.png
+    source: https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md
+  source_headings:
+  - Visual gallery
+  - Insert / remove / move, then validate and render to HTML for a visual check
+  - Charts, diagrams, templates
+- name: document-adapter
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/PlateerLab/document-adapter
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Python adapter and MCP server that lets LLM agents inspect, fill, template, edit tables, duplicate slides,
+    and update chart data across DOCX, PPTX, HWPX, and XLSX files.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/PlateerLab/document-adapter/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/PlateerLab/document-adapter/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: document-adapter
+    bytes: 21067
+  official_examples:
+  - kind: example
+    title: '`examples/claude_api_example.py`'
+    url: https://github.com/PlateerLab/document-adapter/blob/HEAD/examples/claude_api_example.py
+    source: https://raw.githubusercontent.com/PlateerLab/document-adapter/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/claude_api_example.py`'
+    url: https://github.com/PlateerLab/document-adapter/blob/HEAD/examples/claude_api_example.py
+    source: https://raw.githubusercontent.com/PlateerLab/document-adapter/HEAD/README.md
+- name: dashboard-it
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/keithmackay/dashboard-it
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns conversation ideas, comparisons, plans, and data into a single-page HTML and
+    JavaScript dashboard artifact with visual hierarchy and offline saving.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/keithmackay/dashboard-it/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/keithmackay/dashboard-it/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: dashboard-it
+    bytes: 1932
+  source_headings:
+  - dashboard-it
+  - Usage
+- name: chart-dashboard
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/raghuramsirigiri/claude-chart-dashboard
+  homepage: https://raghuramsirigiri.github.io/claude-chart-dashboard/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Claude Agent Skill and plugin for turning tables, CSVs, pasted numbers, or meeting notes into one self-contained
+    offline HTML dashboard or illustrated report with interactive SVG charts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: chart-dashboard — Claude Skill for Generating HTML Dashboards and Data Reports
+    bytes: 15264
+  - kind: homepage
+    url: https://raghuramsirigiri.github.io/claude-chart-dashboard/
+    final_url: https://raghuramsirigiri.github.io/claude-chart-dashboard/
+    status: 200
+    content_type: text/html
+    title: chart-dashboard — Claude Skill for HTML Dashboards & Reports
+    description: Free Claude Agent Skill that turns a table, CSV, or plain-language data into a self-contained HTML dashboard
+      with interactive SVG charts. Zero dependencies.
+    bytes: 18563
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Full documentation and FAQ →
+    url: https://raghuramsirigiri.github.io/claude-chart-dashboard/
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  - kind: docs
+    title: '`references/chart-api.md`'
+    url: https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/skills/chart-dashboard/references/chart-api.md
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  - kind: docs
+    title: '`references/chart-selection.md`'
+    url: https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/skills/chart-dashboard/references/chart-selection.md
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: chart-dashboard — Claude Skill for HTML Dashboards & Reports
+    url: https://raghuramsirigiri.github.io/claude-chart-dashboard/screenshot.png
+    source: https://raghuramsirigiri.github.io/claude-chart-dashboard/
+  official_links:
+  - kind: docs
+    title: Full documentation and FAQ →
+    url: https://raghuramsirigiri.github.io/claude-chart-dashboard/
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  - kind: docs
+    title: '`references/chart-api.md`'
+    url: https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/skills/chart-dashboard/references/chart-api.md
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  - kind: docs
+    title: '`references/chart-selection.md`'
+    url: https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/skills/chart-dashboard/references/chart-selection.md
+    source: https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md
+  source_headings:
+  - chart-dashboard — Claude Skill for Generating HTML Dashboards and Data Reports
+  - What is chart-dashboard?
+  - Dashboards
+  - Can I edit the generated dashboard afterwards?
+  - How many panels should a dashboard have?
+- name: web-accessibility-audit
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/rongiladco/web-accessibility-audit
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Claude Skill for auditing rendered web pages with Playwright, axe-core, heuristics, WCAG citations, element
+    screenshots, and prioritized dashboard-style Markdown reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rongiladco/web-accessibility-audit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rongiladco/web-accessibility-audit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: web-accessibility-audit
+    bytes: 3867
+- name: TOP-SKILLS
+  category: meta-index
+  surface: index
+  primary_url: https://github.com/bg-szy/TOP-SKILLS
+  homepage: https://bg-szy.github.io/TOP-SKILLS/
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Auto-synced Claude Code skills directory with 3900-plus skills from multiple sources, bilingual search, filters,
+    charts, trend views, hot-repo rankings, and a public static dashboard.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bg-szy/TOP-SKILLS/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bg-szy/TOP-SKILLS/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🏆 TOP-SKILLS
+    bytes: 9618
+  - kind: homepage
+    url: https://bg-szy.github.io/TOP-SKILLS/
+    final_url: https://bg-szy.github.io/TOP-SKILLS/
+    status: 200
+    content_type: text/html
+    title: TOP-SKILLS · 全球最大 Claude Code 技能库 | AI Coding Skills Directory
+    description: Browse 3900+ Claude Code skills from 13 curated repositories. Search, filter, and discover AI coding skills
+      for code review, testing, architecture, DevOps and more. 全球最大的 Claude Co
+    bytes: 51596
+  source_headings:
+  - 🌐 Live Dashboard
