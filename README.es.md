@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-543_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--19-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-550_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--20-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,17 +15,17 @@ El catálogo está etiquetado por **fuente de información**, **tipo de herramie
 
 Algunos nombres de proyectos, términos oficiales y descripciones breves se mantienen en inglés para preservar la búsqueda y la trazabilidad con las fuentes originales.
 
-## Latest Refresh (2026-08-19)
+## Latest Refresh (2026-08-20)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Flint Chart](https://github.com/microsoft/flint-chart) | Microsoft chart language, library, and MCP server for AI-agent chart specs, interactive previews, rendering backends, visual themes, and editable chart output. |
-| [Talk-to-Your-Slides](https://github.com/KyuDan1/Talk-to-Your-Slides) | ACL Findings 2026 slide-editing agent that uses LLM planning, MCP-style tools, and visual feedback to inspect and revise existing PowerPoint decks. |
-| [chart-ocr-mcp](https://github.com/olliemorgan685-glitch/chart-ocr-mcp) | PaddleOCR-based CLI, FastAPI UI, and MCP toolkit for extracting chart and table structure from images and PowerPoint slides. |
-| [html-infographic](https://github.com/mitchelfletcher11/html-infographic) | Claude Code skill that turns technical concepts or briefs into single-screen animated HTML infographics for explainers and teaching artifacts. |
-| [Claude Setup Dashboard](https://github.com/ANDRS-Projects/claude-setup-dashboard) | Claude Code skill that scans local Claude configuration and refreshes a visual capabilities dashboard for skills, commands, hooks, agents, and MCP servers. |
-| [ECharts Bigscreen Skill](https://github.com/xiaofuqing13/echarts-bigscreen-skill) | Claude Code and Cursor skill for generating offline ECharts big-screen dashboards, monitoring boards, and data command centers as single HTML files. |
-| [mcp-apps-render](https://github.com/vikasudasi/mcp-apps-render) | Terminal renderer for MCP Apps interactive UI payloads, including dashboards, forms, and visualizations, for local inspection of generated artifacts. |
+| [html-mcp-web](https://github.com/MiiKiyoshi/html-mcp-web) | MCP review surface for agent-generated HTML slides and reports, with rendered-page comments, layout checks, and HTML/PDF/editable-PPTX export. |
+| [Helx](https://github.com/Asno-dev/Helx) | CLI, MCP server, and TypeScript SDK for AI agents to create, edit, render, diff, and convert Office, PDF, Markdown, HTML, CSV, chart, diagram, and template artifacts. |
+| [document-adapter](https://github.com/PlateerLab/document-adapter) | Python adapter and MCP server for LLM agents to inspect, template, edit tables, duplicate slides, and update chart data in DOCX, PPTX, HWPX, and XLSX files. |
+| [dashboard-it](https://github.com/keithmackay/dashboard-it) | Claude Code skill that turns conversation ideas, comparisons, plans, and data into single-page HTML dashboards with visual hierarchy and offline saving. |
+| [chart-dashboard](https://github.com/raghuramsirigiri/claude-chart-dashboard) | Claude Agent Skill and plugin for turning tables, CSVs, pasted numbers, or meeting notes into offline HTML dashboards and illustrated reports with interactive SVG charts. |
+| [web-accessibility-audit](https://github.com/rongiladco/web-accessibility-audit) | Claude Skill for rendered-page accessibility audits with Playwright, axe-core, WCAG citations, screenshots, and prioritized dashboard-style Markdown reports. |
+| [TOP-SKILLS](https://github.com/bg-szy/TOP-SKILLS) | Auto-synced Claude Code skills directory with 3900-plus skills, bilingual search and filters, charts, trend views, hot-repo rankings, and a public dashboard. |
 
 ## ✨ Uso recomendado
 

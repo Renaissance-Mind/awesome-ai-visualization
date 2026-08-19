@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-19.
+Last researched: 2026-08-20.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-20: refreshed agent artifact review, document/PPTX editing adapters, universal artifact runtimes, dashboard/report generation skills, web accessibility audit reports, and skill-index dashboards from official GitHub repositories, official README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added html-mcp-web, Helx, document-adapter, dashboard-it, chart-dashboard, web-accessibility-audit, and TOP-SKILLS. The targeted scraper ran only against these seven new records, fetched nine official sources successfully with no failed fetches, and found four official examples, fourteen official preview assets, and three official docs links after scrubbing one dependency link and one generic platform-doc link.
 
 Update on 2026-08-19: refreshed chart-spec/MCP rendering, slide-editing research agents, chart/table OCR for slide material, HTML infographic skills, local setup dashboards, ECharts big-screen dashboard generation, and MCP Apps terminal rendering from official GitHub repositories, official README evidence, project pages, live web/GitHub searches, and GitHub metadata. This pass added Flint Chart, Talk-to-Your-Slides, chart-ocr-mcp, html-infographic, Claude Setup Dashboard, ECharts Bigscreen Skill, and mcp-apps-render. The targeted scraper ran only against these seven new records, fetched eight official sources successfully with no failed fetches, and found six official examples, twelve official preview assets, and nine official docs links after scrubbing two generic non-project docs links from the Flint record.
 

@@ -1,114 +1,114 @@
 {
-  "generatedAt": "2026-08-19T00:10:45+00:00",
-  "lastResearched": "2026-08-19",
+  "generatedAt": "2026-08-19T23:05:34+00:00",
+  "lastResearched": "2026-08-20",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 543,
-    "openSource": 135,
+    "total": 550,
+    "openSource": 136,
     "saas": 59,
-    "modelApi": 188,
-    "examples": 1216,
-    "effectAssets": 1535,
-    "docs": 1427
+    "modelApi": 189,
+    "examples": 1220,
+    "effectAssets": 1549,
+    "docs": 1430
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 59,
       "PDF/文档": 176,
-      "文本/想法": 340,
-      "数据/表格": 211,
-      "代码/技术描述": 100,
-      "网页/搜索结果": 147,
+      "文本/想法": 344,
+      "数据/表格": 215,
+      "代码/技术描述": 101,
+      "网页/搜索结果": 150,
       "代码库": 53,
-      "DSL/代码": 106,
+      "DSL/代码": 107,
       "新闻/资讯": 24,
       "知识库/个人资料": 46,
-      "任意/多源": 78,
-      "Office 文档": 97,
+      "任意/多源": 81,
+      "Office 文档": 100,
       "引用网络": 4,
       "数据库": 50,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 135,
-      "Agent Skill": 186,
+      "开源应用/框架": 136,
+      "Agent Skill": 189,
       "Skill 集合": 48,
-      "MCP Server": 171,
+      "MCP Server": 174,
       "产品/SaaS": 59,
       "数据集/评测": 2,
       "Bot/助手": 17,
       "研究原型": 6,
-      "API/SDK/库": 80,
-      "Awesome/索引": 25
+      "API/SDK/库": 82,
+      "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 41,
-      "PPT/演示文稿": 234,
-      "网页/交互页面": 169,
+      "PPT/演示文稿": 237,
+      "网页/交互页面": 172,
       "问答/学习材料": 15,
-      "报告/长文档": 75,
-      "证据表": 36,
-      "信息图/视觉报告": 79,
-      "图表/仪表盘": 153,
-      "架构图/流程图": 120,
-      "SVG/PNG/PDF": 213,
-      "报告/简报": 65,
+      "报告/长文档": 79,
+      "证据表": 37,
+      "信息图/视觉报告": 80,
+      "图表/仪表盘": 159,
+      "架构图/流程图": 121,
+      "SVG/PNG/PDF": 215,
+      "报告/简报": 66,
       "白板/思维导图": 33,
       "图表/Mermaid": 60,
       "视频/音频": 39,
-      "结构化数据/Markdown": 71,
+      "结构化数据/Markdown": 72,
       "表格/时间线": 17,
       "引用答案": 5,
       "思维导图/知识地图": 32,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 32,
       "图表/渲染输出": 19,
-      "工具索引": 27
+      "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 440,
-      "模型 API": 188,
-      "文档解析/OCR": 86,
-      "渲染/导出": 454,
+      "本地语言环境": 446,
+      "模型 API": 189,
+      "文档解析/OCR": 87,
+      "渲染/导出": 461,
       "GPU/加速器": 17,
-      "模板/素材": 255,
-      "Agent 宿主": 241,
-      "系统工具": 113,
-      "浏览器/账号": 137,
+      "模板/素材": 257,
+      "Agent 宿主": 244,
+      "系统工具": 115,
+      "浏览器/账号": 138,
       "存储/索引": 69,
-      "MCP Client": 180,
-      "外部检索/数据源": 114,
+      "MCP Client": 183,
+      "外部检索/数据源": 115,
       "代码分析工具": 36
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 48,
-      "research-report": 27,
+      "research-report": 28,
       "infographic-report": 50,
-      "data-dashboard": 78,
+      "data-dashboard": 80,
       "diagram-generation": 70,
       "literature-map": 4,
-      "presentation-tools": 156,
+      "presentation-tools": 158,
       "codebase-map": 30,
-      "rendering-primitive": 14,
+      "rendering-primitive": 15,
       "video-generation": 11,
       "commercial-site": 10,
-      "meta-index": 28
+      "meta-index": 29
     },
     "groups": {
       "paper": 30,
       "text_visual": 64,
       "web_news": 9,
       "support_mindmap": 14,
-      "docs": 29,
-      "support_doc_parse": 17,
-      "presentation": 167,
+      "docs": 30,
+      "support_doc_parse": 18,
+      "presentation": 168,
       "code": 31,
-      "support_render": 53,
+      "support_render": 54,
       "diagrams": 16,
       "video": 11,
-      "data": 73,
-      "indexes": 27,
+      "data": 75,
+      "indexes": 28,
       "diagram": 1,
       "index": 1
     }
@@ -45697,6 +45697,429 @@
       ],
       "catalogSection": "support_render",
       "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "html-mcp-web",
+      "url": "https://github.com/MiiKiyoshi/html-mcp-web",
+      "primaryUrl": "https://github.com/MiiKiyoshi/html-mcp-web",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-19",
+      "note": "MCP review surface for agent-generated HTML slides and reports, with rendered-page anchored comments, overlap/off-page checks, live agent replies, and HTML/PDF/editable-PPTX export.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`templates/neutral-slides/`",
+          "url": "https://github.com/MiiKiyoshi/html-mcp-web/blob/HEAD/templates/neutral-slides/",
+          "source": "https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`templates/neutral-report/`",
+          "url": "https://github.com/MiiKiyoshi/html-mcp-web/blob/HEAD/templates/neutral-report/",
+          "source": "https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "The review page: a slide on the left with a highlighted sentence, and the comment thread on the right where a reviewer's question is answered by the agent.",
+          "url": "https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/docs/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MiiKiyoshi/html-mcp-web/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Helx",
+      "url": "https://github.com/Asno-dev/Helx",
+      "primaryUrl": "https://github.com/Asno-dev/Helx",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "library",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-08-19",
+      "note": "CLI, MCP server, and TypeScript SDK for AI agents to create, edit, validate, diff, render, and convert DOCX, XLSX, PPTX, PDF, Markdown, HTML, CSV, charts, diagrams, and templates.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "DOCX report",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/report-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "XLSX sales",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/sales-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PPTX deck",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/investor-deck-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "PDF quarterly",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/quarterly-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Markdown playbook",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/playbook-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "HTML landing",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/landing-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "CSV customers",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/customers-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DOCX letter (template merge)",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/letter-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Diagram",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/diagram-workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Revenue by region",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/chart-revenue-bar.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Trend",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/chart-trend-line.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mix",
+          "url": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/examples/demo/previews/chart-mix-pie.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Asno-dev/Helx/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "document-adapter",
+      "url": "https://github.com/PlateerLab/document-adapter",
+      "primaryUrl": "https://github.com/PlateerLab/document-adapter",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-08-19",
+      "note": "Python adapter and MCP server that lets LLM agents inspect, fill, template, edit tables, duplicate slides, and update chart data across DOCX, PPTX, HWPX, and XLSX files.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/claude_api_example.py`",
+          "url": "https://github.com/PlateerLab/document-adapter/blob/HEAD/examples/claude_api_example.py",
+          "source": "https://raw.githubusercontent.com/PlateerLab/document-adapter/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "dashboard-it",
+      "url": "https://github.com/keithmackay/dashboard-it",
+      "primaryUrl": "https://github.com/keithmackay/dashboard-it",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-19",
+      "note": "Claude Code skill that turns conversation ideas, comparisons, plans, and data into a single-page HTML and JavaScript dashboard artifact with visual hierarchy and offline saving.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "chart-dashboard",
+      "url": "https://github.com/raghuramsirigiri/claude-chart-dashboard",
+      "primaryUrl": "https://github.com/raghuramsirigiri/claude-chart-dashboard",
+      "homepage": "https://raghuramsirigiri.github.io/claude-chart-dashboard/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-19",
+      "note": "Claude Agent Skill and plugin for turning tables, CSVs, pasted numbers, or meeting notes into one self-contained offline HTML dashboard or illustrated report with interactive SVG charts.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Full documentation and FAQ →",
+          "url": "https://raghuramsirigiri.github.io/claude-chart-dashboard/",
+          "source": "https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/chart-api.md`",
+          "url": "https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/skills/chart-dashboard/references/chart-api.md",
+          "source": "https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/chart-selection.md`",
+          "url": "https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/skills/chart-dashboard/references/chart-selection.md",
+          "source": "https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/raghuramsirigiri/claude-chart-dashboard/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/raghuramsirigiri/claude-chart-dashboard/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "chart-dashboard — Claude Skill for HTML Dashboards & Reports",
+          "url": "https://raghuramsirigiri.github.io/claude-chart-dashboard/screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raghuramsirigiri.github.io/claude-chart-dashboard/"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "web-accessibility-audit",
+      "url": "https://github.com/rongiladco/web-accessibility-audit",
+      "primaryUrl": "https://github.com/rongiladco/web-accessibility-audit",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-19",
+      "note": "Claude Skill for auditing rendered web pages with Playwright, axe-core, heuristics, WCAG citations, element screenshots, and prioritized dashboard-style Markdown reports.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "证据表",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "TOP-SKILLS",
+      "url": "https://github.com/bg-szy/TOP-SKILLS",
+      "primaryUrl": "https://github.com/bg-szy/TOP-SKILLS",
+      "homepage": "https://bg-szy.github.io/TOP-SKILLS/",
+      "category": "meta-index",
+      "surface": "index",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 5,
+      "license": "unknown",
+      "updated": "2026-08-19",
+      "note": "Auto-synced Claude Code skills directory with 3900-plus skills from multiple sources, bilingual search, filters, charts, trend views, hot-repo rankings, and a public static dashboard.",
+      "sourceTypes": [
+        "任意/多源",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "工具索引",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "indexes",
+      "readmeGroup": "indexes",
       "docs": [],
       "examples": [],
       "effectAssets": [],
