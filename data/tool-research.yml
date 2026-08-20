@@ -1,4 +1,4 @@
-generated_at: '2026-08-19T23:05:34+00:00'
+generated_at: '2026-08-20T23:05:20+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 550
-  fetched_sources_ok: 735
-  fetched_sources_failed: 37
-  official_examples: 1220
-  official_effect_assets: 1549
-  official_docs: 1430
+  entries: 559
+  fetched_sources_ok: 748
+  fetched_sources_failed: 38
+  official_examples: 1226
+  official_effect_assets: 1571
+  official_docs: 1454
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -44818,3 +44818,596 @@ entries:
     bytes: 51596
   source_headings:
   - 🌐 Live Dashboard
+- name: slideshot
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/06ketan/slideshot
+  homepage: https://slideshot.vercel.app
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: CLI, web app, MCP server, and REST API that turn AI-generated HTML carousels and slide pages into high-resolution
+    PNG, WebP, PDF, and PPTX exports with reusable prompt presets.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/06ketan/slideshot/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/06ketan/slideshot/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slideshot
+    bytes: 6043
+  - kind: homepage
+    url: https://slideshot.chavan.in/
+    final_url: https://slideshot.chavan.in/
+    status: 200
+    content_type: text/html
+    title: slideshot — Convert HTML to High-Res PNG, WebP & PDF Slides
+    description: Slideshot is a free, open-source tool that converts HTML+CSS into high-resolution PNG, WebP, and PDF carousel
+      slides. Use the web editor, CLI (npx slideshot), or MCP server for AI-
+    bytes: 171635
+  official_examples:
+  - kind: showcase
+    title: Templates
+    url: https://slideshot.vercel.app/gallery
+    source: https://slideshot.chavan.in/
+  official_docs:
+  - kind: docs
+    title: API Spec
+    url: https://slideshot.vercel.app/api/openapi.json
+    source: https://raw.githubusercontent.com/06ketan/slideshot/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://github.com/06ketan/slideshot
+    source: https://slideshot.chavan.in/
+  official_links:
+  - kind: docs
+    title: API Spec
+    url: https://slideshot.vercel.app/api/openapi.json
+    source: https://raw.githubusercontent.com/06ketan/slideshot/HEAD/README.md
+  - kind: showcase
+    title: Templates
+    url: https://slideshot.vercel.app/gallery
+    source: https://slideshot.chavan.in/
+  - kind: docs
+    title: Docs
+    url: https://github.com/06ketan/slideshot
+    source: https://slideshot.chavan.in/
+  source_headings:
+  - slideshot
+  - AI Prompt Templates
+- name: slides-grab
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/NomaDamas/slides-grab
+  homepage: https://nomadamas.github.io/slides-grab/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent skill bundle, editor, linter, and CLI for AI-generated HTML slide workspaces, with region-based agent
+    edits, design gates, PDF/PNG export, and experimental PPTX/Figma conversion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Quick Start
+    bytes: 16669
+  - kind: homepage
+    url: https://nomadamas.github.io/slides-grab/
+    final_url: https://nomadamas.github.io/slides-grab/
+    status: 200
+    content_type: text/html
+    title: slides-grab Showcase
+    description: A gallery of presentations built with slides-grab — an agent-first HTML slide framework.
+    bytes: 4295
+  official_examples:
+  - kind: showcase
+    title: README
+    url: https://github.com/NomaDamas/slides-grab/tree/main/showcase
+    source: https://nomadamas.github.io/slides-grab/
+  official_docs:
+  - kind: docs
+    title: Claude detailed guide
+    url: https://github.com/NomaDamas/slides-grab/blob/HEAD/docs/installation/claude.md
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  - kind: docs
+    title: Codex detailed guide
+    url: https://github.com/NomaDamas/slides-grab/blob/HEAD/docs/installation/codex.md
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: slides-grab demo
+    url: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/docs/assets/demo.gif
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  - kind: video
+    title: Demo
+    url: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/assets/demo.mp4
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  - kind: image
+    title: Demo Poster
+    url: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/assets/demo-poster.png
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude detailed guide
+    url: https://github.com/NomaDamas/slides-grab/blob/HEAD/docs/installation/claude.md
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  - kind: docs
+    title: Codex detailed guide
+    url: https://github.com/NomaDamas/slides-grab/blob/HEAD/docs/installation/codex.md
+    source: https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md
+  - kind: showcase
+    title: README
+    url: https://github.com/NomaDamas/slides-grab/tree/main/showcase
+    source: https://nomadamas.github.io/slides-grab/
+  source_headings:
+  - Reference-template and Image-native Workflows
+  - Downloading Web Videos into Deck Assets
+  - Tldraw Diagram Assets
+- name: docu.md Markdown Viewer
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/markdown-viewer/markdown-viewer-extension
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Local-first Markdown viewer and Node/Chrome CLI that renders AI-generated Markdown, technical notes, diagrams,
+    charts, math, tables, and code into polished DOCX, PDF, self-contained HTML, and visual-block exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '![Markdown Viewer](icons/icon48.png) docu.md Markdown Viewer'
+    bytes: 7891
+  official_docs:
+  - kind: docs
+    title: English
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.en.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 简体中文
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-CN.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 繁體中文
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-TW.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Русский
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.ru.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.ja.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 한국어
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.ko.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Deutsch
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.de.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Français
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.fr.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Español
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.es.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: mobile app docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/mobile.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Chrome docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/chrome.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Edge docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/edge.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Firefox docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/firefox.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Obsidian docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/obsidian.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: VS Code docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/vscode.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/markdown-viewer/docs/blob/main/getting-started/installation.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Platform Comparison
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/platform-comparison.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/markdown-viewer/docs/blob/main/faq.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: English
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.en.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 简体中文
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-CN.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 繁體中文
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-TW.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Русский
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.ru.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.ja.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: 한국어
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.ko.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Deutsch
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.de.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Français
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.fr.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Español
+    url: https://github.com/markdown-viewer/docs/blob/main/readme/README.es.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: mobile app docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/mobile.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Chrome docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/chrome.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Edge docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/edge.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Firefox docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/firefox.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Obsidian docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/obsidian.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: VS Code docs
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/vscode.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/markdown-viewer/docs/blob/main/getting-started/installation.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: Platform Comparison
+    url: https://github.com/markdown-viewer/docs/blob/main/platforms/platform-comparison.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://github.com/markdown-viewer/docs/blob/main/faq.md
+    source: https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md
+  source_headings:
+  - Technical Notes to Documentation
+  - Documentation
+- name: Infrastructure Diagram MCP Server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/andrewmoshu/diagram-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server for generating multi-cloud infrastructure diagrams across AWS, Azure, GCP, Kubernetes, Helm charts,
+    and diagrams-as-code workflows using Python Diagrams, Graphviz, and optional Docker.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infrastructure Diagram MCP Server
+    bytes: 18969
+  official_effect_assets:
+  - kind: image
+    title: AWS Serverless Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/aws-serverless-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: GCP Serverless Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/gcp-serverless-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: Azure Serverless Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/azure-serverless-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: Kubernetes Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/kubernetes-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: Multi-Cloud Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/multi-cloud-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: Hybrid Cloud Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/hybrid-cloud-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: GCP Foundation Organization Layer
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/gcp_foundation_organization_layer.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  - kind: image
+    title: Milvus Helm Architecture
+    url: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/milvus-helm-architecture.png
+    source: https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md
+  source_headings:
+  - Infrastructure Diagram MCP Server
+  - 'Example Prompts:'
+  - Editable Diagrams with draw.io
+  - Code Examples
+  - Example Diagrams Gallery
+  - Diagrams not displaying inline
+- name: Azure Diagram MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/dminkovski/azure-diagram-mcp
+  homepage: https://www.davidminkovski.com/blog/stop-drawing-start-prompting-architecture-diagrams-the-easy-way
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: MCP server that turns natural-language prompts or generated Python Diagrams code into Microsoft Azure architecture,
+    sequence, flow, and class diagrams saved as PNG files through Graphviz.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Model Context Protocol (MCP) server for Microsoft Azure Diagrams
+    bytes: 5289
+  - kind: homepage
+    url: https://www.davidminkovski.com/blog/stop-drawing-start-prompting-architecture-diagrams-the-easy-way
+    final_url: https://www.davidminkovski.com/blog/stop-drawing-start-prompting-architecture-diagrams-the-easy-way
+    status: 200
+    content_type: text/html
+    title: David Minkovski - Product strategist & Full-stack Architect
+    description: Product strategist & Full-stack Architect.
+    bytes: 1428
+  official_effect_assets:
+  - kind: image
+    title: GitHub Copilot Prompt Sample
+    url: https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/media/prompt_sample.png
+    source: https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/README.md
+  - kind: image
+    title: AKS App Gateway Azure SQL Architecture Diagram
+    url: https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/media/aks_appgw_sql_architecture.png
+    source: https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/README.md
+  source_headings:
+  - Model Context Protocol (MCP) server for Microsoft Azure Diagrams
+  - Example prompt ideas
+  - Example Diagram
+- name: Claude Code Usage Analyzer
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/aarora79/claude-code-usage-analyzer
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Claude Code tokenomics dashboard skill and CLI that reads ccusage data, resolves LiteLLM pricing, and emits
+    JSON, Markdown reports, a self-contained HTML dashboard, and optional PNG charts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Code Usage Analyzer
+    bytes: 12372
+  official_examples:
+  - kind: example
+    title: examples/sample-tokenomics-dashboard.html
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-tokenomics-dashboard.html
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: example
+    title: examples/
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: example
+    title: sample-analysis.json
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-analysis.json
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: example
+    title: sample-report.md
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-report.md
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: tokenomics-dashboard skill
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/.claude/skills/tokenomics-dashboard/SKILL.md
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: docs
+    title: CLAUDE.md
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/CLAUDE.md
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Sample tokenomics dashboard
+    url: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/docs/images/sample-dashboard.png
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  official_links:
+  - kind: example
+    title: examples/sample-tokenomics-dashboard.html
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-tokenomics-dashboard.html
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: docs
+    title: tokenomics-dashboard skill
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/.claude/skills/tokenomics-dashboard/SKILL.md
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: example
+    title: examples/
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: example
+    title: sample-analysis.json
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-analysis.json
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: example
+    title: sample-report.md
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-report.md
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  - kind: docs
+    title: CLAUDE.md
+    url: https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/CLAUDE.md
+    source: https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md
+  source_headings:
+  - Claude Code Usage Analyzer
+  - 'Easiest way to get started: the tokenomics-dashboard skill'
+  - Usage
+  - Sample output
+  - The HTML dashboard
+- name: ai-netcafe
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/mario03690/ai-netcafe
+  homepage: https://ainetcafe.com/mcp.html
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Hosted MCP and CLI tool packs for table cleanup, developer transforms, China reachability facts, and doc-flow
+    conversions including Markdown to PDF, Word, PowerPoint, EPUB, and HTML.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mario03690/ai-netcafe/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mario03690/ai-netcafe/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ai-netcafe
+    bytes: 7329
+  - kind: homepage
+    url: https://ainetcafe.com/mcp.html
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''ainetcafe.com'', port=443): Max retries exceeded with url: /mcp.html (Caused
+      by SSLError(SSLError(1, ''[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)'')))'
+- name: ip-diagram-creator
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/haloshin/ip-diagram-creator
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skill for turning authorized photos, profile screenshots, articles, course outlines, scripts, or old
+    decks into reusable personal-IP character assets, knowledge cards, long-form illustrations, posters, and PPT page plans.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ip-diagram-creator
+    bytes: 11212
+  official_effect_assets:
+  - kind: image
+    title: workflow overview
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/workflow-overview-16x9.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: character assets sample
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/character-assets-sample.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: article illustration low density
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/article-illustration-low-density.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: knowledge card high density
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/knowledge-card-high-density.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: ppt mode gallery
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/ppt-mode/ppt-mode-gallery-8up.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: ip-diagram-creator banner
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/banner.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: ip-diagram-creator character assets
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/what-you-get-character-assets.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  - kind: image
+    title: ip-diagram-creator diagram modes
+    url: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/what-you-get-diagram-modes.webp
+    source: https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md
+  source_headings:
+  - ip-diagram-creator
+  - 示例图库
+- name: Content Pipeline
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/Affitor/content-pipeline
+  homepage: https://affitor-content-pipeline.vercel.app
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-powered research-to-social-content app that searches fresh web/news sources, lets users select source articles,
+    streams Claude-generated LinkedIn posts, and renders branded 1080x1350 infographics server-side with Satori.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Affitor/content-pipeline/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Affitor/content-pipeline/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 3230
+  - kind: homepage
+    url: https://affitor-content-pipeline.vercel.app/
+    final_url: https://affitor-content-pipeline.vercel.app/
+    status: 200
+    content_type: text/html
+    title: Content Pipeline | Affitor
+    description: 'AI-powered content pipeline: research trending topics, select sources, and generate LinkedIn posts with
+      branded infographics.'
+    bytes: 12075

@@ -1,115 +1,115 @@
 {
-  "generatedAt": "2026-08-19T23:05:34+00:00",
-  "lastResearched": "2026-08-20",
+  "generatedAt": "2026-08-20T23:05:20+00:00",
+  "lastResearched": "2026-08-21",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 550,
-    "openSource": 136,
-    "saas": 59,
-    "modelApi": 189,
-    "examples": 1220,
-    "effectAssets": 1549,
-    "docs": 1430
+    "total": 559,
+    "openSource": 140,
+    "saas": 61,
+    "modelApi": 191,
+    "examples": 1226,
+    "effectAssets": 1571,
+    "docs": 1454
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 59,
-      "PDF/文档": 176,
-      "文本/想法": 344,
-      "数据/表格": 215,
-      "代码/技术描述": 101,
-      "网页/搜索结果": 150,
+      "PDF/文档": 180,
+      "文本/想法": 352,
+      "数据/表格": 217,
+      "代码/技术描述": 103,
+      "网页/搜索结果": 156,
       "代码库": 53,
-      "DSL/代码": 107,
-      "新闻/资讯": 24,
-      "知识库/个人资料": 46,
+      "DSL/代码": 111,
+      "新闻/资讯": 25,
+      "知识库/个人资料": 47,
       "任意/多源": 81,
-      "Office 文档": 100,
+      "Office 文档": 102,
       "引用网络": 4,
       "数据库": 50,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 136,
-      "Agent Skill": 189,
+      "开源应用/框架": 140,
+      "Agent Skill": 192,
       "Skill 集合": 48,
-      "MCP Server": 174,
-      "产品/SaaS": 59,
+      "MCP Server": 178,
+      "产品/SaaS": 61,
       "数据集/评测": 2,
       "Bot/助手": 17,
       "研究原型": 6,
-      "API/SDK/库": 82,
+      "API/SDK/库": 87,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 41,
-      "PPT/演示文稿": 237,
-      "网页/交互页面": 172,
+      "图形摘要/信息图": 43,
+      "PPT/演示文稿": 241,
+      "网页/交互页面": 175,
       "问答/学习材料": 15,
-      "报告/长文档": 79,
+      "报告/长文档": 82,
       "证据表": 37,
-      "信息图/视觉报告": 80,
-      "图表/仪表盘": 159,
-      "架构图/流程图": 121,
-      "SVG/PNG/PDF": 215,
-      "报告/简报": 66,
+      "信息图/视觉报告": 82,
+      "图表/仪表盘": 160,
+      "架构图/流程图": 123,
+      "SVG/PNG/PDF": 222,
+      "报告/简报": 67,
       "白板/思维导图": 33,
-      "图表/Mermaid": 60,
+      "图表/Mermaid": 61,
       "视频/音频": 39,
-      "结构化数据/Markdown": 72,
+      "结构化数据/Markdown": 75,
       "表格/时间线": 17,
       "引用答案": 5,
       "思维导图/知识地图": 32,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 32,
-      "图表/渲染输出": 19,
+      "图表/渲染输出": 20,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 446,
-      "模型 API": 189,
-      "文档解析/OCR": 87,
-      "渲染/导出": 461,
+      "本地语言环境": 452,
+      "模型 API": 191,
+      "文档解析/OCR": 88,
+      "渲染/导出": 470,
       "GPU/加速器": 17,
-      "模板/素材": 257,
-      "Agent 宿主": 244,
-      "系统工具": 115,
-      "浏览器/账号": 138,
+      "模板/素材": 262,
+      "Agent 宿主": 247,
+      "系统工具": 118,
+      "浏览器/账号": 142,
       "存储/索引": 69,
-      "MCP Client": 183,
-      "外部检索/数据源": 115,
+      "MCP Client": 187,
+      "外部检索/数据源": 118,
       "代码分析工具": 36
     },
     "categories": {
       "paper-visualization": 17,
-      "doc-to-knowledge": 48,
+      "doc-to-knowledge": 50,
       "research-report": 28,
-      "infographic-report": 50,
-      "data-dashboard": 80,
-      "diagram-generation": 70,
+      "infographic-report": 52,
+      "data-dashboard": 81,
+      "diagram-generation": 72,
       "literature-map": 4,
-      "presentation-tools": 158,
+      "presentation-tools": 159,
       "codebase-map": 30,
-      "rendering-primitive": 15,
+      "rendering-primitive": 16,
       "video-generation": 11,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 30,
-      "text_visual": 64,
+      "text_visual": 66,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 30,
-      "support_doc_parse": 18,
-      "presentation": 168,
+      "support_doc_parse": 19,
+      "presentation": 169,
       "code": 31,
-      "support_render": 54,
+      "support_render": 56,
       "diagrams": 16,
       "video": 11,
-      "data": 75,
+      "data": 76,
       "indexes": 28,
-      "diagram": 1,
+      "diagram": 3,
       "index": 1
     }
   },
@@ -46120,6 +46120,662 @@
       ],
       "catalogSection": "indexes",
       "readmeGroup": "indexes",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "slideshot",
+      "url": "https://github.com/06ketan/slideshot",
+      "primaryUrl": "https://github.com/06ketan/slideshot",
+      "homepage": "https://slideshot.vercel.app",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "CLI, web app, MCP server, and REST API that turn AI-generated HTML carousels and slide pages into high-resolution PNG, WebP, PDF, and PPTX exports with reusable prompt presets.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "API Spec",
+          "url": "https://slideshot.vercel.app/api/openapi.json",
+          "source": "https://raw.githubusercontent.com/06ketan/slideshot/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://github.com/06ketan/slideshot",
+          "source": "https://slideshot.chavan.in/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Templates",
+          "url": "https://slideshot.vercel.app/gallery",
+          "source": "https://slideshot.chavan.in/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "slides-grab",
+      "url": "https://github.com/NomaDamas/slides-grab",
+      "primaryUrl": "https://github.com/NomaDamas/slides-grab",
+      "homepage": "https://nomadamas.github.io/slides-grab/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 1177,
+      "license": "MIT",
+      "updated": "2026-08-20",
+      "note": "Agent skill bundle, editor, linter, and CLI for AI-generated HTML slide workspaces, with region-based agent edits, design gates, PDF/PNG export, and experimental PPTX/Figma conversion.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude detailed guide",
+          "url": "https://github.com/NomaDamas/slides-grab/blob/HEAD/docs/installation/claude.md",
+          "source": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Codex detailed guide",
+          "url": "https://github.com/NomaDamas/slides-grab/blob/HEAD/docs/installation/codex.md",
+          "source": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "README",
+          "url": "https://github.com/NomaDamas/slides-grab/tree/main/showcase",
+          "source": "https://nomadamas.github.io/slides-grab/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "slides-grab demo",
+          "url": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/docs/assets/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/assets/demo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Demo Poster",
+          "url": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/assets/demo-poster.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/NomaDamas/slides-grab/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "docu.md Markdown Viewer",
+      "url": "https://github.com/markdown-viewer/markdown-viewer-extension",
+      "primaryUrl": "https://github.com/markdown-viewer/markdown-viewer-extension",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 1772,
+      "license": "GPL-3.0",
+      "updated": "2026-08-19",
+      "note": "Local-first Markdown viewer and Node/Chrome CLI that renders AI-generated Markdown, technical notes, diagrams, charts, math, tables, and code into polished DOCX, PDF, self-contained HTML, and visual-block exports.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "图表/Mermaid"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "English",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.en.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "简体中文",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "繁體中文",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-TW.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Русский",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.ru.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.ja.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "한국어",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.ko.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Deutsch",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.de.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Français",
+          "url": "https://github.com/markdown-viewer/docs/blob/main/readme/README.fr.md",
+          "source": "https://raw.githubusercontent.com/markdown-viewer/markdown-viewer-extension/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 18,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Infrastructure Diagram MCP Server",
+      "url": "https://github.com/andrewmoshu/diagram-mcp-server",
+      "primaryUrl": "https://github.com/andrewmoshu/diagram-mcp-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 141,
+      "license": "Apache-2.0",
+      "updated": "2026-08-17",
+      "note": "MCP server for generating multi-cloud infrastructure diagrams across AWS, Azure, GCP, Kubernetes, Helm charts, and diagrams-as-code workflows using Python Diagrams, Graphviz, and optional Docker.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AWS Serverless Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/aws-serverless-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GCP Serverless Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/gcp-serverless-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Azure Serverless Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/azure-serverless-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Kubernetes Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/kubernetes-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Multi-Cloud Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/multi-cloud-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Hybrid Cloud Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/hybrid-cloud-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GCP Foundation Organization Layer",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/gcp_foundation_organization_layer.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Milvus Helm Architecture",
+          "url": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/examples/milvus-helm-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andrewmoshu/diagram-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
+    },
+    {
+      "name": "Azure Diagram MCP",
+      "url": "https://github.com/dminkovski/azure-diagram-mcp",
+      "primaryUrl": "https://github.com/dminkovski/azure-diagram-mcp",
+      "homepage": "https://www.davidminkovski.com/blog/stop-drawing-start-prompting-architecture-diagrams-the-easy-way",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 26,
+      "license": "MIT",
+      "updated": "2026-08-17",
+      "note": "MCP server that turns natural-language prompts or generated Python Diagrams code into Microsoft Azure architecture, sequence, flow, and class diagrams saved as PNG files through Graphviz.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "GitHub Copilot Prompt Sample",
+          "url": "https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/media/prompt_sample.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AKS App Gateway Azure SQL Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/media/aks_appgw_sql_architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dminkovski/azure-diagram-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Claude Code Usage Analyzer",
+      "url": "https://github.com/aarora79/claude-code-usage-analyzer",
+      "primaryUrl": "https://github.com/aarora79/claude-code-usage-analyzer",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 5,
+      "license": "MIT",
+      "updated": "2026-08-02",
+      "note": "Claude Code tokenomics dashboard skill and CLI that reads ccusage data, resolves LiteLLM pricing, and emits JSON, Markdown reports, a self-contained HTML dashboard, and optional PNG charts.",
+      "sourceTypes": [
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "tokenomics-dashboard skill",
+          "url": "https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/.claude/skills/tokenomics-dashboard/SKILL.md",
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CLAUDE.md",
+          "url": "https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/CLAUDE.md",
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/sample-tokenomics-dashboard.html",
+          "url": "https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-tokenomics-dashboard.html",
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/",
+          "url": "https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "sample-analysis.json",
+          "url": "https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-analysis.json",
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "sample-report.md",
+          "url": "https://github.com/aarora79/claude-code-usage-analyzer/blob/HEAD/examples/sample-report.md",
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Sample tokenomics dashboard",
+          "url": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/docs/images/sample-dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aarora79/claude-code-usage-analyzer/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "ai-netcafe",
+      "url": "https://github.com/mario03690/ai-netcafe",
+      "primaryUrl": "https://github.com/mario03690/ai-netcafe",
+      "homepage": "https://ainetcafe.com/mcp.html",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-16",
+      "note": "Hosted MCP and CLI tool packs for table cleanup, developer transforms, China reachability facts, and doc-flow conversions including Markdown to PDF, Word, PowerPoint, EPUB, and HTML.",
+      "sourceTypes": [
+        "PDF/文档",
+        "数据/表格",
+        "网页/搜索结果",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ip-diagram-creator",
+      "url": "https://github.com/haloshin/ip-diagram-creator",
+      "primaryUrl": "https://github.com/haloshin/ip-diagram-creator",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 239,
+      "license": "MIT",
+      "updated": "2026-08-18",
+      "note": "Agent Skill for turning authorized photos, profile screenshots, articles, course outlines, scripts, or old decks into reusable personal-IP character assets, knowledge cards, long-form illustrations, posters, and PPT page plans.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "workflow overview",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/workflow-overview-16x9.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "character assets sample",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/character-assets-sample.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "article illustration low density",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/article-illustration-low-density.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "knowledge card high density",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/gallery/knowledge-card-high-density.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ppt mode gallery",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/examples/ppt-mode/ppt-mode-gallery-8up.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ip-diagram-creator banner",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/banner.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ip-diagram-creator character assets",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/what-you-get-character-assets.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ip-diagram-creator diagram modes",
+          "url": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/assets/what-you-get-diagram-modes.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haloshin/ip-diagram-creator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
+    },
+    {
+      "name": "Content Pipeline",
+      "url": "https://github.com/Affitor/content-pipeline",
+      "primaryUrl": "https://github.com/Affitor/content-pipeline",
+      "homepage": "https://affitor-content-pipeline.vercel.app",
+      "category": "infographic-report",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 39,
+      "license": "MIT",
+      "updated": "2026-08-16",
+      "note": "AI-powered research-to-social-content app that searches fresh web/news sources, lets users select source articles, streams Claude-generated LinkedIn posts, and renders branded 1080x1350 infographics server-side with Satori.",
+      "sourceTypes": [
+        "新闻/资讯",
+        "网页/搜索结果",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
       "docs": [],
       "examples": [],
       "effectAssets": [],
