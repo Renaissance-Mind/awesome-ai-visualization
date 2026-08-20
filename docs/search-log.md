@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-20.
+Last researched: 2026-08-21.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-21: refreshed HTML slide rendering/export, agent slide editing harnesses, local Markdown-to-document export, infrastructure diagram MCP servers, tokenomics dashboards, hosted doc-flow MCP utilities, personal-IP infographic skills, and branded social-infographic pipelines from official GitHub repositories, project pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added slideshot, slides-grab, docu.md Markdown Viewer, Infrastructure Diagram MCP Server, Azure Diagram MCP, Claude Code Usage Analyzer, ai-netcafe, ip-diagram-creator, and Content Pipeline. The targeted scraper ran only against these nine new records, fetched thirteen official sources successfully with one ai-netcafe homepage TLS failure while its official GitHub README fetched successfully, and found six official examples, twenty-two official preview assets, and twenty-four official docs links after scrubbing generic dependency docs and non-artifact sample links.
 
 Update on 2026-08-20: refreshed agent artifact review, document/PPTX editing adapters, universal artifact runtimes, dashboard/report generation skills, web accessibility audit reports, and skill-index dashboards from official GitHub repositories, official README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added html-mcp-web, Helx, document-adapter, dashboard-it, chart-dashboard, web-accessibility-audit, and TOP-SKILLS. The targeted scraper ran only against these seven new records, fetched nine official sources successfully with no failed fetches, and found four official examples, fourteen official preview assets, and three official docs links after scrubbing one dependency link and one generic platform-doc link.
 
