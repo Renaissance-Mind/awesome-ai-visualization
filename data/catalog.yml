@@ -1,4 +1,4 @@
-last_researched: '2026-08-21'
+last_researched: '2026-08-22'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -14362,3 +14362,193 @@ entries:
   - 报告/简报
   catalog_section: main
   readme_group: text_visual
+- name: lithium-kb
+  url: https://github.com/liulinnuha/lithium-kb
+  homepage: https://www.npmjs.com/package/@liulinnuha/lithium-kb
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 代码分析工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-08-19'
+  note: Zero-dependency project knowledge-base generator and MCP server that builds structured agent memory, compact
+    architecture indexes, symbol maps, and a browser neural-graph visualizer for live memory hits and token savings.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 思维导图/知识地图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code
+- name: dataviz-mcp
+  url: https://github.com/brandonburrus/dataviz-mcp
+  homepage: https://npmjs.com/package/dataviz-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-06-16'
+  note: D3-powered MCP App server that turns compact columnar tabular data into sandboxed, responsive in-chat
+    visualizations with validated encodings, legends, tooltips, zooming, and bar, line, area, scatter, pie, and heatmap
+    chart types.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 图表/渲染输出
+  catalog_section: main
+  readme_group: data
+- name: TableKit
+  url: https://github.com/tablekit-io/tablekit
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 6
+  license: MIT
+  updated: '2026-07-11'
+  note: Remote MCP server for asking ChatGPT or Claude database questions and receiving interactive in-chat charts,
+    SQL review widgets, JSON/CSV export, read-only query controls, OAuth, SSH tunneling, and Postgres, MySQL, MariaDB,
+    and BigQuery connectors.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Harnss
+  url: https://github.com/OpenSource03/harnss
+  homepage: https://harnss.app
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 353
+  license: MIT
+  updated: '2026-08-10'
+  note: Cross-platform desktop UI for Claude Code, Codex, and ACP agents that renders tool calls as interactive cards,
+    visualizes word-level diffs, tracks background task agents, manages MCP servers, and keeps terminal, browser, git,
+    and file panels in one workspace.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 证据表
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code
+- name: Claude Plugins
+  url: https://github.com/JeonJe/claude-plugins
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  stars: 3
+  license: MIT
+  updated: '2026-08-05'
+  note: Claude Code plugin collection with a Skillbook dashboard that auto-tracks skill usage, visualizes cards,
+    category progress, achievements, and seven-day trends, plus notification panels and publish-readiness skill audit
+    reports.
+  source_types:
+  - 知识库/个人资料
+  - 数据/表格
+  - 代码库
+  tool_forms:
+  - Skill 集合
+  - Bot/助手
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: project-tracker
+  url: https://github.com/szymontex/project-tracker
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-07-29'
+  note: Local Claude Code skill that scans project session metadata, memories, handovers, planning files, and recent git
+    commits to produce a sorted Markdown dashboard of projects, recency, session counts, current status, and next steps.
+  source_types:
+  - 知识库/个人资料
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 表格/时间线
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: code
+- name: Visualization MCP Server
+  url: https://github.com/xlisp/visualization-mcp-server
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 11
+  license: MIT
+  updated: '2025-08-02'
+  note: Python MCP server for creating matplotlib relationship graphs, scatter and classification plots, 3D charts,
+    histograms, lines, and heatmaps, with live display plus high-resolution timestamped PNG exports.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data

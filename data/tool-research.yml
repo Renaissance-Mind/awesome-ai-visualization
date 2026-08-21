@@ -1,4 +1,4 @@
-generated_at: '2026-08-20T23:05:20+00:00'
+generated_at: '2026-08-21T23:05:50+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 559
-  fetched_sources_ok: 748
-  fetched_sources_failed: 38
+  entries: 566
+  fetched_sources_ok: 755
+  fetched_sources_failed: 41
   official_examples: 1226
-  official_effect_assets: 1571
-  official_docs: 1454
+  official_effect_assets: 1578
+  official_docs: 1456
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -45411,3 +45411,230 @@ entries:
     description: 'AI-powered content pipeline: research trending topics, select sources, and generate LinkedIn posts with
       branded infographics.'
     bytes: 12075
+- name: lithium-kb
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/liulinnuha/lithium-kb
+  homepage: https://www.npmjs.com/package/@liulinnuha/lithium-kb
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Zero-dependency project knowledge-base generator and MCP server that builds structured agent memory, compact
+    architecture indexes, symbol maps, and a browser neural-graph visualizer for live memory hits and token savings.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/liulinnuha/lithium-kb/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/liulinnuha/lithium-kb/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '⚡ lithium-kb: Structured Agent Knowledge Base & Neural Graph'
+    bytes: 5007
+  - kind: homepage
+    url: https://www.npmjs.com/package/@liulinnuha/lithium-kb
+    final_url: https://www.npmjs.com/package/@liulinnuha/lithium-kb
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - 📦 Installation & Quickstart
+- name: dataviz-mcp
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/brandonburrus/dataviz-mcp
+  homepage: https://npmjs.com/package/dataviz-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: D3-powered MCP App server that turns compact columnar tabular data into sandboxed, responsive in-chat visualizations
+    with validated encodings, legends, tooltips, zooming, and bar, line, area, scatter, pie, and heatmap chart types.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/brandonburrus/dataviz-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/brandonburrus/dataviz-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Data Visualization MCP
+    bytes: 2853
+  - kind: homepage
+    url: https://www.npmjs.com/package/dataviz-mcp
+    final_url: https://www.npmjs.com/package/dataviz-mcp
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - Data Visualization MCP
+  - Supported visualizations
+- name: TableKit
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/tablekit-io/tablekit
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Remote MCP server for asking ChatGPT or Claude database questions and receiving interactive in-chat charts,
+    SQL review widgets, JSON/CSV export, read-only query controls, OAuth, SSH tunneling, and Postgres, MySQL, MariaDB, and
+    BigQuery connectors.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tablekit-io/tablekit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tablekit-io/tablekit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: TableKit
+    bytes: 4737
+  source_headings:
+  - Quickstart
+- name: Harnss
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/OpenSource03/harnss
+  homepage: https://harnss.app
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Cross-platform desktop UI for Claude Code, Codex, and ACP agents that renders tool calls as interactive cards,
+    visualizes word-level diffs, tracks background task agents, manages MCP servers, and keeps terminal, browser, git, and
+    file panels in one workspace.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/OpenSource03/harnss/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/OpenSource03/harnss/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Screenshots
+    bytes: 9695
+  - kind: homepage
+    url: https://harnss.app
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''harnss.app'', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8,
+      ''EOF occurred in violation of protocol (_ssl.c:1129)'')))'
+  source_headings:
+  - Rich tool visualization
+- name: Claude Plugins
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/JeonJe/claude-plugins
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  catalog_note: Claude Code plugin collection with a Skillbook dashboard that auto-tracks skill usage, visualizes cards, category
+    progress, achievements, and seven-day trends, plus notification panels and publish-readiness skill audit reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: claude-plugins
+    bytes: 8827
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  - kind: docs
+    title: skill best practices
+    url: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Dashboard
+    url: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/dashboard-full.png
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  - kind: image
+    title: Cards
+    url: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/skill-cards.png
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  - kind: image
+    title: Panel
+    url: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/notify-panel.png
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  - kind: image
+    title: Toast
+    url: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/notify-toast.png
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  - kind: docs
+    title: skill best practices
+    url: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+    source: https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md
+  source_headings:
+  - '[Skillbook](./plugins/skillbook) — Skill Usage Dashboard'
+- name: project-tracker
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/szymontex/project-tracker
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  catalog_note: Local Claude Code skill that scans project session metadata, memories, handovers, planning files, and recent
+    git commits to produce a sorted Markdown dashboard of projects, recency, session counts, current status, and next steps.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/szymontex/project-tracker/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/szymontex/project-tracker/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: project-tracker
+    bytes: 3136
+- name: Visualization MCP Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/xlisp/visualization-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Python MCP server for creating matplotlib relationship graphs, scatter and classification plots, 3D charts,
+    histograms, lines, and heatmaps, with live display plus high-resolution timestamped PNG exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Visualization MCP Server
+    bytes: 6939
+  official_effect_assets:
+  - kind: image
+    title: Demov3
+    url: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/demov3.png
+    source: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md
+  - kind: image
+    title: Demo2
+    url: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/demo2.png
+    source: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md
+  - kind: image
+    title: Demo1
+    url: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/demo1.png
+    source: https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md
+  source_headings:
+  - Visualization MCP Server
+  - Usage
+  - 'Example: Show relationships between A, B, C, D'
+  - 'Example: Basic scatter plot'
+  - 'Example: Classification visualization'
+  - 4. 3D Visualization
+  - 'Example: 3D scatter plot'
+  - Examples
+  - Visualize social connections
+  - Visualize machine learning results
+  - 3D scientific visualization
