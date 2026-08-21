@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-559_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--21-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-566_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--22-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,19 +13,17 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-08-21)
+## Latest Refresh (2026-08-22)
 
 | Project | Catalog focus |
 | --- | --- |
-| [slideshot](https://github.com/06ketan/slideshot) | CLI, web app, MCP server, and REST API for exporting AI-generated HTML slide pages to high-resolution PNG, WebP, PDF, and PPTX. |
-| [slides-grab](https://github.com/NomaDamas/slides-grab) | Agent skill bundle, editor, linter, and CLI for HTML slide workspaces with region-based edits, validation, PDF/PNG export, and experimental PPTX/Figma conversion. |
-| [docu.md Markdown Viewer](https://github.com/markdown-viewer/markdown-viewer-extension) | Local-first Markdown viewer and Node/Chrome CLI for rendering AI-generated Markdown, diagrams, math, tables, and code into DOCX, PDF, and self-contained HTML. |
-| [Infrastructure Diagram MCP Server](https://github.com/andrewmoshu/diagram-mcp-server) | MCP server for generating multi-cloud AWS, Azure, GCP, Kubernetes, Helm, and diagrams-as-code infrastructure diagrams with Python Diagrams and Graphviz. |
-| [Azure Diagram MCP](https://github.com/dminkovski/azure-diagram-mcp) | MCP server that turns natural-language prompts or Python Diagrams code into Azure architecture, sequence, flow, and class diagrams saved as PNG files. |
-| [Claude Code Usage Analyzer](https://github.com/aarora79/claude-code-usage-analyzer) | Tokenomics dashboard skill and CLI that converts ccusage data into JSON, Markdown reports, a self-contained HTML dashboard, and optional PNG charts. |
-| [ai-netcafe](https://github.com/mario03690/ai-netcafe) | Hosted MCP and CLI tool packs for table cleanup, developer transforms, China reachability facts, and Markdown-to-PDF/Word/PowerPoint/EPUB/HTML doc flows. |
-| [ip-diagram-creator](https://github.com/haloshin/ip-diagram-creator) | Agent Skill for turning profiles, articles, course outlines, scripts, and old decks into reusable character assets, knowledge cards, posters, and PPT page plans. |
-| [Content Pipeline](https://github.com/Affitor/content-pipeline) | AI-powered research-to-social-content app that finds fresh sources, streams Claude-written LinkedIn posts, and renders branded 1080x1350 infographics with Satori. |
+| [lithium-kb](https://github.com/liulinnuha/lithium-kb) | Zero-dependency project knowledge-base generator and MCP server with structured agent memory, compact architecture indexes, symbol maps, and a browser neural-graph visualizer. |
+| [dataviz-mcp](https://github.com/brandonburrus/dataviz-mcp) | D3-powered MCP App server that turns compact columnar tabular data into responsive in-chat visualizations with validated encodings and interactive chart types. |
+| [TableKit](https://github.com/tablekit-io/tablekit) | Remote MCP server for asking ChatGPT or Claude database questions and receiving interactive in-chat charts, SQL review widgets, and JSON/CSV exports. |
+| [Harnss](https://github.com/OpenSource03/harnss) | Cross-platform desktop UI for Claude Code, Codex, and ACP agents with interactive tool-call cards, word-level diffs, MCP management, terminal, browser, and git panels. |
+| [Claude Plugins](https://github.com/JeonJe/claude-plugins) | Claude Code plugin collection with Skillbook usage dashboards, visual skill cards, progress bars, seven-day trends, notification panels, and skill audit reports. |
+| [project-tracker](https://github.com/szymontex/project-tracker) | Local Claude Code skill that turns session metadata, memories, handovers, planning files, and git history into a sorted Markdown project-status dashboard. |
+| [Visualization MCP Server](https://github.com/xlisp/visualization-mcp-server) | Python MCP server for matplotlib relationship graphs, scatter/classification plots, 3D charts, histograms, lines, heatmaps, live display, and PNG exports. |
 
 ## ✨ 推薦使用方式
 
@@ -170,6 +168,10 @@
 | [AgentDoc](https://github.com/jonverrier/AgentDoc) [![Star](https://img.shields.io/github/stars/jonverrier/AgentDoc?style=flat&logo=github&label=Star)](https://github.com/jonverrier/AgentDoc/stargazers) | Codebase / Code/technical text | MCP server | Code map/repo wiki / Architecture/flow diagram / Diagram/Mermaid / Long report | MCP client / Agent host / Local runtime / Code analysis / Rendering/export |
 | [Hypermnesia MCP Viz](https://github.com/cdeust/cortex-viz) [![Star](https://img.shields.io/github/stars/cdeust/cortex-viz?style=flat&logo=github&label=Star)](https://github.com/cdeust/cortex-viz/stargazers) | Codebase / Knowledge base / Any/multi-source | MCP server | Code map/repo wiki / Mind map/knowledge map / Web/interactive page / Architecture/flow diagram | MCP client / Local runtime / Storage/index / Code analysis / Rendering/export |
 | [Claude Setup Dashboard](https://github.com/ANDRS-Projects/claude-setup-dashboard) [![Star](https://img.shields.io/github/stars/ANDRS-Projects/claude-setup-dashboard?style=flat&logo=github&label=Star)](https://github.com/ANDRS-Projects/claude-setup-dashboard/stargazers) | Codebase / Knowledge base / Data/tables | Agent skill | Chart/dashboard / Code map/repo wiki / Structured data/Markdown | Agent host / Local runtime / Code analysis / Rendering/export |
+| [lithium-kb](https://github.com/liulinnuha/lithium-kb) [![Star](https://img.shields.io/github/stars/liulinnuha/lithium-kb?style=flat&logo=github&label=Star)](https://github.com/liulinnuha/lithium-kb/stargazers) | Codebase / Knowledge base / Any/multi-source | MCP server / API/SDK/library | Code map/repo wiki / Mind map/knowledge map / Web/interactive page | MCP client / Local runtime / Storage/index / Code analysis / Rendering/export |
+| [Harnss](https://github.com/OpenSource03/harnss) [![Star](https://img.shields.io/github/stars/OpenSource03/harnss?style=flat&logo=github&label=Star)](https://github.com/OpenSource03/harnss/stargazers) | Codebase / Knowledge base / Any/multi-source | Open-source app/framework / Bot/assistant | Code map/repo wiki / Evidence table / Web/interactive page | Agent host / MCP client / Local runtime / System tools / Storage/index / Rendering/export |
+| [Claude Plugins](https://github.com/JeonJe/claude-plugins) [![Star](https://img.shields.io/github/stars/JeonJe/claude-plugins?style=flat&logo=github&label=Star)](https://github.com/JeonJe/claude-plugins/stargazers) | Knowledge base / Data/tables / Codebase | Skill collection / Bot/assistant | Chart/dashboard / Briefing/report / Evidence table | Agent host / Local runtime / Browser/account / Rendering/export |
+| [project-tracker](https://github.com/szymontex/project-tracker) [![Star](https://img.shields.io/github/stars/szymontex/project-tracker?style=flat&logo=github&label=Star)](https://github.com/szymontex/project-tracker/stargazers) | Knowledge base / Codebase | Agent skill | Chart/dashboard / Table/timeline / Structured data/Markdown | Agent host / Local runtime / Storage/index |
 
 ### 資料、表格與業務指標
 
@@ -206,6 +208,9 @@
 | [OpenBI](https://github.com/narender-rk10/OpenBI) [![Star](https://img.shields.io/github/stars/narender-rk10/OpenBI?style=flat&logo=github&label=Star)](https://github.com/narender-rk10/OpenBI/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 外部檢索/資料來源 / 儲存/索引 / 渲染/匯出 |
 | [powerbi-pbix-mcp](https://github.com/cyphonica/powerbi-pbix-mcp) [![Star](https://img.shields.io/github/stars/cyphonica/powerbi-pbix-mcp?style=flat&logo=github&label=Star)](https://github.com/cyphonica/powerbi-pbix-mcp/stargazers) | Data/tables / Database / Office docs | MCP server / API/SDK/library | Chart/dashboard / Briefing/report / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export / Storage/index |
 | [MCP Visuals Server](https://github.com/harrybin/visuals-mcp) [![Star](https://img.shields.io/github/stars/harrybin/visuals-mcp?style=flat&logo=github&label=Star)](https://github.com/harrybin/visuals-mcp/stargazers) | Data/tables / Knowledge base / Any/multi-source | MCP server | Chart/dashboard / Table/timeline / Web/interactive page | MCP client / Local runtime / Rendering/export |
+| [dataviz-mcp](https://github.com/brandonburrus/dataviz-mcp) [![Star](https://img.shields.io/github/stars/brandonburrus/dataviz-mcp?style=flat&logo=github&label=Star)](https://github.com/brandonburrus/dataviz-mcp/stargazers) | Data/tables / Text/ideas | MCP server | Chart/dashboard / Web/interactive page / Rendered chart | MCP client / Local runtime / Rendering/export |
+| [TableKit](https://github.com/tablekit-io/tablekit) [![Star](https://img.shields.io/github/stars/tablekit-io/tablekit?style=flat&logo=github&label=Star)](https://github.com/tablekit-io/tablekit/stargazers) | Database / Data/tables | MCP server / Product/SaaS | Chart/dashboard / Web/interactive page / Structured data/Markdown | MCP client / Browser/account / External search/data / Storage/index / Rendering/export |
+| [Visualization MCP Server](https://github.com/xlisp/visualization-mcp-server) [![Star](https://img.shields.io/github/stars/xlisp/visualization-mcp-server?style=flat&logo=github&label=Star)](https://github.com/xlisp/visualization-mcp-server/stargazers) | Data/tables / Text/ideas | MCP server | Chart/dashboard / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export |
 | [Flint Chart](https://github.com/microsoft/flint-chart) [![Star](https://img.shields.io/github/stars/microsoft/flint-chart?style=flat&logo=github&label=Star)](https://github.com/microsoft/flint-chart/stargazers) | Data/tables / DSL/code / Text/ideas | API/SDK/library / MCP server | Chart/dashboard / Rendered chart / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [ECharts Bigscreen Skill](https://github.com/xiaofuqing13/echarts-bigscreen-skill) [![Star](https://img.shields.io/github/stars/xiaofuqing13/echarts-bigscreen-skill?style=flat&logo=github&label=Star)](https://github.com/xiaofuqing13/echarts-bigscreen-skill/stargazers) | Data/tables / Database / Text/ideas | Agent skill | Chart/dashboard / Web/interactive page / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [viz-mcp](https://github.com/mindfullabai/viz-mcp) [![Star](https://img.shields.io/github/stars/mindfullabai/viz-mcp?style=flat&logo=github&label=Star)](https://github.com/mindfullabai/viz-mcp/stargazers) | 資料/表格 / 任意/多源 | MCP Server | 圖表/儀表板 / SVG/PNG/PDF / 網頁/互動頁面 | MCP Client / 本機語言環境 / 渲染/匯出 / 儲存/索引 |

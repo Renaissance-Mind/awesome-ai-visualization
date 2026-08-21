@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-08-20T23:05:20+00:00",
-  "lastResearched": "2026-08-21",
+  "generatedAt": "2026-08-21T23:05:50+00:00",
+  "lastResearched": "2026-08-22",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 559,
-    "openSource": 140,
-    "saas": 61,
+    "total": 566,
+    "openSource": 141,
+    "saas": 62,
     "modelApi": 191,
     "examples": 1226,
-    "effectAssets": 1571,
-    "docs": 1454
+    "effectAssets": 1578,
+    "docs": 1456
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 59,
       "PDF/文档": 180,
-      "文本/想法": 352,
-      "数据/表格": 217,
+      "文本/想法": 354,
+      "数据/表格": 221,
       "代码/技术描述": 103,
       "网页/搜索结果": 156,
-      "代码库": 53,
+      "代码库": 57,
       "DSL/代码": 111,
       "新闻/资讯": 25,
-      "知识库/个人资料": 47,
-      "任意/多源": 81,
+      "知识库/个人资料": 51,
+      "任意/多源": 83,
       "Office 文档": 102,
       "引用网络": 4,
-      "数据库": 50,
+      "数据库": 51,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 140,
-      "Agent Skill": 192,
-      "Skill 集合": 48,
-      "MCP Server": 178,
-      "产品/SaaS": 61,
+      "开源应用/框架": 141,
+      "Agent Skill": 193,
+      "Skill 集合": 49,
+      "MCP Server": 182,
+      "产品/SaaS": 62,
       "数据集/评测": 2,
-      "Bot/助手": 17,
+      "Bot/助手": 19,
       "研究原型": 6,
-      "API/SDK/库": 87,
+      "API/SDK/库": 88,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 43,
       "PPT/演示文稿": 241,
-      "网页/交互页面": 175,
+      "网页/交互页面": 179,
       "问答/学习材料": 15,
       "报告/长文档": 82,
-      "证据表": 37,
+      "证据表": 39,
       "信息图/视觉报告": 82,
-      "图表/仪表盘": 160,
-      "架构图/流程图": 123,
-      "SVG/PNG/PDF": 222,
-      "报告/简报": 67,
+      "图表/仪表盘": 165,
+      "架构图/流程图": 124,
+      "SVG/PNG/PDF": 223,
+      "报告/简报": 68,
       "白板/思维导图": 33,
       "图表/Mermaid": 61,
       "视频/音频": 39,
-      "结构化数据/Markdown": 75,
-      "表格/时间线": 17,
+      "结构化数据/Markdown": 77,
+      "表格/时间线": 18,
       "引用答案": 5,
-      "思维导图/知识地图": 32,
+      "思维导图/知识地图": 33,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 32,
-      "图表/渲染输出": 20,
+      "代码地图/Repo Wiki": 34,
+      "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 452,
+      "本地语言环境": 458,
       "模型 API": 191,
       "文档解析/OCR": 88,
-      "渲染/导出": 470,
+      "渲染/导出": 476,
       "GPU/加速器": 17,
       "模板/素材": 262,
-      "Agent 宿主": 247,
-      "系统工具": 118,
-      "浏览器/账号": 142,
-      "存储/索引": 69,
-      "MCP Client": 187,
-      "外部检索/数据源": 118,
-      "代码分析工具": 36
+      "Agent 宿主": 250,
+      "系统工具": 119,
+      "浏览器/账号": 144,
+      "存储/索引": 73,
+      "MCP Client": 192,
+      "外部检索/数据源": 119,
+      "代码分析工具": 37
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 50,
       "research-report": 28,
       "infographic-report": 52,
-      "data-dashboard": 81,
+      "data-dashboard": 86,
       "diagram-generation": 72,
       "literature-map": 4,
       "presentation-tools": 159,
-      "codebase-map": 30,
+      "codebase-map": 32,
       "rendering-primitive": 16,
       "video-generation": 11,
       "commercial-site": 10,
@@ -103,11 +103,11 @@
       "docs": 30,
       "support_doc_parse": 19,
       "presentation": 169,
-      "code": 31,
+      "code": 35,
       "support_render": 56,
       "diagrams": 16,
       "video": 11,
-      "data": 76,
+      "data": 79,
       "indexes": 28,
       "diagram": 3,
       "index": 1
@@ -46782,6 +46782,344 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "lithium-kb",
+      "url": "https://github.com/liulinnuha/lithium-kb",
+      "primaryUrl": "https://github.com/liulinnuha/lithium-kb",
+      "homepage": "https://www.npmjs.com/package/@liulinnuha/lithium-kb",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "存储/索引",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-19",
+      "note": "Zero-dependency project knowledge-base generator and MCP server that builds structured agent memory, compact architecture indexes, symbol maps, and a browser neural-graph visualizer for live memory hits and token savings.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "思维导图/知识地图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "dataviz-mcp",
+      "url": "https://github.com/brandonburrus/dataviz-mcp",
+      "primaryUrl": "https://github.com/brandonburrus/dataviz-mcp",
+      "homepage": "https://npmjs.com/package/dataviz-mcp",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-16",
+      "note": "D3-powered MCP App server that turns compact columnar tabular data into sandboxed, responsive in-chat visualizations with validated encodings, legends, tooltips, zooming, and bar, line, area, scatter, pie, and heatmap chart types.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "TableKit",
+      "url": "https://github.com/tablekit-io/tablekit",
+      "primaryUrl": "https://github.com/tablekit-io/tablekit",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-07-11",
+      "note": "Remote MCP server for asking ChatGPT or Claude database questions and receiving interactive in-chat charts, SQL review widgets, JSON/CSV export, read-only query controls, OAuth, SSH tunneling, and Postgres, MySQL, MariaDB, and BigQuery connectors.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Harnss",
+      "url": "https://github.com/OpenSource03/harnss",
+      "primaryUrl": "https://github.com/OpenSource03/harnss",
+      "homepage": "https://harnss.app",
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 353,
+      "license": "MIT",
+      "updated": "2026-08-10",
+      "note": "Cross-platform desktop UI for Claude Code, Codex, and ACP agents that renders tool calls as interactive cards, visualizes word-level diffs, tracks background task agents, manages MCP servers, and keeps terminal, browser, git, and file panels in one workspace.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "证据表",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Claude Plugins",
+      "url": "https://github.com/JeonJe/claude-plugins",
+      "primaryUrl": "https://github.com/JeonJe/claude-plugins",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "浏览器/账号",
+        "渲染/导出"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-08-05",
+      "note": "Claude Code plugin collection with a Skillbook dashboard that auto-tracks skill usage, visualizes cards, category progress, achievements, and seven-day trends, plus notification panels and publish-readiness skill audit reports.",
+      "sourceTypes": [
+        "知识库/个人资料",
+        "数据/表格",
+        "代码库"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+          "source": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "skill best practices",
+          "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
+          "source": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Dashboard",
+          "url": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/dashboard-full.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cards",
+          "url": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/skill-cards.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Panel",
+          "url": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/notify-panel.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Toast",
+          "url": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/assets/notify-toast.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JeonJe/claude-plugins/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "project-tracker",
+      "url": "https://github.com/szymontex/project-tracker",
+      "primaryUrl": "https://github.com/szymontex/project-tracker",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-29",
+      "note": "Local Claude Code skill that scans project session metadata, memories, handovers, planning files, and recent git commits to produce a sorted Markdown dashboard of projects, recency, session counts, current status, and next steps.",
+      "sourceTypes": [
+        "知识库/个人资料",
+        "代码库"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "表格/时间线",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Visualization MCP Server",
+      "url": "https://github.com/xlisp/visualization-mcp-server",
+      "primaryUrl": "https://github.com/xlisp/visualization-mcp-server",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 11,
+      "license": "MIT",
+      "updated": "2025-08-02",
+      "note": "Python MCP server for creating matplotlib relationship graphs, scatter and classification plots, 3D charts, histograms, lines, and heatmaps, with live display plus high-resolution timestamped PNG exports.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Demov3",
+          "url": "https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/demov3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Demo2",
+          "url": "https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/demo2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Demo1",
+          "url": "https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/demo1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xlisp/visualization-mcp-server/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
     }
   ]
 }

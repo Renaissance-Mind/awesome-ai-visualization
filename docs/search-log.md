@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-21.
+Last researched: 2026-08-22.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-22: refreshed agent knowledge-base visualizers, D3 and matplotlib MCP chart servers, database-to-chat chart MCP workflows, multi-agent desktop tool-call visualization, Claude Code skill dashboards, and project-status dashboard skills from official GitHub repositories, README evidence, project/homepage metadata, live GitHub searches, and GitHub metadata. This pass added lithium-kb, dataviz-mcp, TableKit, Harnss, Claude Plugins, project-tracker, and Visualization MCP Server. The targeted scraper ran only against these seven new records, fetched seven official GitHub README sources successfully with three homepage fetch failures (two npm package-page 403 responses and one harnss.app TLS failure), and found seven official preview assets plus two official docs links.
 
 Update on 2026-08-21: refreshed HTML slide rendering/export, agent slide editing harnesses, local Markdown-to-document export, infrastructure diagram MCP servers, tokenomics dashboards, hosted doc-flow MCP utilities, personal-IP infographic skills, and branded social-infographic pipelines from official GitHub repositories, project pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added slideshot, slides-grab, docu.md Markdown Viewer, Infrastructure Diagram MCP Server, Azure Diagram MCP, Claude Code Usage Analyzer, ai-netcafe, ip-diagram-creator, and Content Pipeline. The targeted scraper ran only against these nine new records, fetched thirteen official sources successfully with one ai-netcafe homepage TLS failure while its official GitHub README fetched successfully, and found six official examples, twenty-two official preview assets, and twenty-four official docs links after scrubbing generic dependency docs and non-artifact sample links.
 
