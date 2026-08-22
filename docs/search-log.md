@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-22.
+Last researched: 2026-08-23.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-23: refreshed AI-native slide generation apps, editable PPTX IR tooling, consulting-deck skill suites, visual-explainer skills, code architecture change maps, Tableau lineage visualization, Google Slides-style agents, and web-native 3D presentation skills from official GitHub repositories, README evidence, product/homepage pages, live web/GitHub searches, and GitHub metadata. This pass added banana-slides, pptpress, AppAutomaton Presentation, visualkan, Hexwright, Tableau Lineage, open-gamma, and exploded-view. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept seven official examples, three official preview assets, and eighteen official docs links after scrubbing generic API-key setup links.
 
 Update on 2026-08-22: refreshed agent knowledge-base visualizers, D3 and matplotlib MCP chart servers, database-to-chat chart MCP workflows, multi-agent desktop tool-call visualization, Claude Code skill dashboards, and project-status dashboard skills from official GitHub repositories, README evidence, project/homepage metadata, live GitHub searches, and GitHub metadata. This pass added lithium-kb, dataviz-mcp, TableKit, Harnss, Claude Plugins, project-tracker, and Visualization MCP Server. The targeted scraper ran only against these seven new records, fetched seven official GitHub README sources successfully with three homepage fetch failures (two npm package-page 403 responses and one harnss.app TLS failure), and found seven official preview assets plus two official docs links.
 

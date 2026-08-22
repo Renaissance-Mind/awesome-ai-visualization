@@ -1,4 +1,4 @@
-last_researched: '2026-08-22'
+last_researched: '2026-08-23'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -14552,3 +14552,229 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: banana-slides
+  url: https://github.com/Anionex/banana-slides
+  homepage: http://bananaslides.online
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 15489
+  license: AGPL-3.0
+  updated: '2026-08-22'
+  note: AI-native Nano Banana Pro slide generator that accepts prompts, outlines, template images, and uploaded assets,
+    supports region-level natural-language edits, and exports editable PowerPoint decks.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: pptpress
+  url: https://github.com/liustack/pptpress
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 7
+  license: MIT
+  updated: '2026-08-22'
+  note: DSH plugin, Claude Code plugin, and CLI for stable editable PPTX generation from semantic presentation IR into
+    native DrawingML PowerPoint output.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: AppAutomaton Presentation
+  url: https://github.com/appautomaton/presentation
+  homepage: https://appautomaton.renocrypt.com/presentation/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 55
+  license: unknown
+  updated: '2026-08-22'
+  note: Claude Code and Codex presentation skill suite for turning business questions into consulting-grade decks through
+    strategy storyboarding, brand identity, pixel-perfect PDF, and native editable PPTX workflows.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: visualkan
+  url: https://github.com/dapih/visualkan
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-08-18'
+  note: Installable AI-coding-assistant skill that converts arbitrary content into visual explanations, including
+    whiteboard sketches, infographics, presentations, diagrams, mind maps, and UI mockups.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 白板/思维导图
+  - PPT/演示文稿
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: text_visual
+- name: Hexwright
+  url: https://github.com/vonkernel/hexwright
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-08-21'
+  note: CLI, MCP server, and web UI that renders branch-level architecture changes for hexagonal and ports-and-adapters
+    codebases as reviewable dependency pictures with agent boundary verdicts.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: Tableau Lineage
+  url: https://github.com/andey0Saikiran/tableau-lineage
+  homepage: https://tableau-lineage.com
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 7
+  license: MIT
+  updated: '2026-08-22'
+  note: Privacy-first in-browser Tableau TWBX lineage visualizer that maps calculated-field dependencies, parameters,
+    stored SQL, metadata, and searchable data dictionaries without uploading workbooks.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 思维导图/知识地图
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: open-gamma
+  url: https://github.com/composio-community/open-gamma
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 144
+  license: unknown
+  updated: '2026-08-18'
+  note: Open-source AI slide agent that generates presentation slides in Google Slides-style workflows from prompts and
+    structured presentation context.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: exploded-view
+  url: https://github.com/luisxavierxd/exploded-view
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  - 系统工具
+  stars: 0
+  license: MIT
+  updated: '2026-08-17'
+  note: Claude presentation skill for web-native 3D explainers with model-viewer, Three.js, Draco compression, orbit
+    viewers, exploded assemblies, and animated camera walkthroughs without a build step.
+  source_types:
+  - 代码/技术描述
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation

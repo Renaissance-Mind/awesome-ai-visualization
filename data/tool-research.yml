@@ -1,4 +1,4 @@
-generated_at: '2026-08-21T23:05:50+00:00'
+generated_at: '2026-08-22T23:04:27+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 566
-  fetched_sources_ok: 755
+  entries: 574
+  fetched_sources_ok: 766
   fetched_sources_failed: 41
-  official_examples: 1226
-  official_effect_assets: 1578
-  official_docs: 1456
+  official_examples: 1233
+  official_effect_assets: 1581
+  official_docs: 1474
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -45638,3 +45638,443 @@ entries:
   - Visualize social connections
   - Visualize machine learning results
   - 3D scientific visualization
+- name: banana-slides
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Anionex/banana-slides
+  homepage: http://bananaslides.online
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-native Nano Banana Pro slide generator that accepts prompts, outlines, template images, and uploaded
+    assets, supports region-level natural-language edits, and exports editable PowerPoint decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🔥 最新动态
+    bytes: 29021
+  - kind: homepage
+    url: https://bananaslides.online/
+    final_url: https://bananaslides.online/
+    status: 200
+    content_type: text/html
+    title: "è\x95\x89å¹» | AI å\x8E\x9Fç\x94\x9F PPT ç\x94\x9Fæ\x88\x90å\x99¨"
+    bytes: 1203
+  official_examples:
+  - kind: template
+    title: 文档
+    url: https://docs.bananaslides.online/zh/features/templates
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: tutorial
+    title: 教程
+    url: https://ziy68cvfvu3.feishu.cn/wiki/LDSOwPzkhiNonkkNTF1ct2VBnNc
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: tutorial
+    title: 图文教程
+    url: https://ziy68cvfvu3.feishu.cn/wiki/B5RIwg3OUiCfo9kyadzcR9CInnc
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: tutorial
+    title: 新人部署教程
+    url: https://github.com/ShellMonster/banana-slides/blob/docs-deploy-tutorial/docs/NEWBIE_DEPLOYMENT.md
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 官网文档
+    url: https://docs.bananaslides.online/zh/faq
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 火山引擎
+    url: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/assets/huoshan.png
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  official_links:
+  - kind: template
+    title: 文档
+    url: https://docs.bananaslides.online/zh/features/templates
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: tutorial
+    title: 教程
+    url: https://ziy68cvfvu3.feishu.cn/wiki/LDSOwPzkhiNonkkNTF1ct2VBnNc
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: tutorial
+    title: 图文教程
+    url: https://ziy68cvfvu3.feishu.cn/wiki/B5RIwg3OUiCfo9kyadzcR9CInnc
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: tutorial
+    title: 新人部署教程
+    url: https://github.com/ShellMonster/banana-slides/blob/docs-deploy-tutorial/docs/NEWBIE_DEPLOYMENT.md
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  - kind: docs
+    title: 官网文档
+    url: https://docs.bananaslides.online/zh/faq
+    source: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
+  source_headings:
+  - 🎨 结果案例
+  - （新）使用应用模板一键部署
+  - '代理示例: https://api.inferera.com/gemini'
+  - '代理示例: https://api.inferera.com/v1'
+- name: pptpress
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/liustack/pptpress
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: DSH plugin, Claude Code plugin, and CLI for stable editable PPTX generation from semantic presentation
+    IR into native DrawingML PowerPoint output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Talk to us
+    bytes: 8273
+  official_examples:
+  - kind: template
+    title: Themes
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/themes.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: template
+    title: Layout selection and seed
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/selection-and-seed.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: template
+    title: Designing themes
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/designing-themes.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/cli.md`'
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/cli.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Install guide
+    url: https://github.com/liustack/pptpress/blob/HEAD/INSTALL.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: IR reference
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/ir.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Core concepts
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/concepts.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Deck projects
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/deck-projects.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Contrast system
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/contrast-system.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Testing
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/testing.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Internal API
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/internal-api.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Release guide
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: pptfast — make your deck in minutes, not hours
+    url: https://raw.githubusercontent.com/liustack/pptpress/HEAD/assets/banner.png
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/cli.md`'
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/cli.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Install guide
+    url: https://github.com/liustack/pptpress/blob/HEAD/INSTALL.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: IR reference
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/ir.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: template
+    title: Themes
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/themes.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Core concepts
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/concepts.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Deck projects
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/deck-projects.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: template
+    title: Layout selection and seed
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/selection-and-seed.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Contrast system
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/contrast-system.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: template
+    title: Designing themes
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/designing-themes.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Testing
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/testing.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Internal API
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/internal-api.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  - kind: docs
+    title: Release guide
+    url: https://github.com/liustack/pptpress/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
+  source_headings:
+  - Documentation
+- name: AppAutomaton Presentation
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/appautomaton/presentation
+  homepage: https://appautomaton.renocrypt.com/presentation/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex presentation skill suite for turning business questions into consulting-grade
+    decks through strategy storyboarding, brand identity, pixel-perfect PDF, and native editable PPTX workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/appautomaton/presentation/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/appautomaton/presentation/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Presentation Skills
+    bytes: 5847
+  - kind: homepage
+    url: https://appautomaton.renocrypt.com/presentation/
+    final_url: https://appautomaton.renocrypt.com/presentation/
+    status: 200
+    content_type: text/html
+    title: Presentation Skills · Agent skills for boardroom-ready decks
+    description: 'Four open-source skills that take Claude Code or Codex from raw analysis to a boardroom-ready
+      deck: consultant, brand-system, deck-design-pdf, deck-design-ppt.'
+    bytes: 36933
+  source_headings:
+  - Presentation Skills
+- name: visualkan
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/dapih/visualkan
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Installable AI-coding-assistant skill that converts arbitrary content into visual explanations,
+    including whiteboard sketches, infographics, presentations, diagrams, mind maps, and UI mockups.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Visualkan
+    bytes: 23135
+  official_docs:
+  - kind: docs
+    title: ADR 0001
+    url: https://github.com/dapih/visualkan/blob/HEAD/docs/adr/0001-fork-visual-explainer-as-visualkan.md
+    source: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
+  - kind: docs
+    title: CHANGELOG.md
+    url: https://github.com/dapih/visualkan/blob/HEAD/CHANGELOG.md
+    source: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: ADR 0001
+    url: https://github.com/dapih/visualkan/blob/HEAD/docs/adr/0001-fork-visual-explainer-as-visualkan.md
+    source: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
+  - kind: docs
+    title: CHANGELOG.md
+    url: https://github.com/dapih/visualkan/blob/HEAD/CHANGELOG.md
+    source: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
+  source_headings:
+  - Visualkan
+  - Usage
+  - Quick examples
+  - Detailed technical diagram
+  - Converting Mermaid diagrams
+  - Inline Mermaid — paste or type the diagram as the content
+- name: Hexwright
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/vonkernel/hexwright
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: CLI, MCP server, and web UI that renders branch-level architecture changes for hexagonal and ports-and-adapters
+    codebases as reviewable dependency pictures with agent boundary verdicts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: hexwright
+    bytes: 19922
+  official_docs:
+  - kind: docs
+    title: The agent's loop
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/1-agent-loop.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  - kind: docs
+    title: Reviewing a branch
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/2-review.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  - kind: docs
+    title: Exploring the architecture
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/3-explore.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  - kind: docs
+    title: Everything else
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/4-recipes.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: The agent's loop
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/1-agent-loop.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  - kind: docs
+    title: Reviewing a branch
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/2-review.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  - kind: docs
+    title: Exploring the architecture
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/3-explore.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  - kind: docs
+    title: Everything else
+    url: https://github.com/vonkernel/hexwright/blob/HEAD/docs/4-recipes.md
+    source: https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md
+  source_headings:
+  - Usage guides
+- name: Tableau Lineage
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/andey0Saikiran/tableau-lineage
+  homepage: https://tableau-lineage.com
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Privacy-first in-browser Tableau TWBX lineage visualizer that maps calculated-field dependencies,
+    parameters, stored SQL, metadata, and searchable data dictionaries without uploading workbooks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/andey0Saikiran/tableau-lineage/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/andey0Saikiran/tableau-lineage/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Tableau Workbook Auditor
+    bytes: 11814
+  - kind: homepage
+    url: https://tableau-lineage.com/
+    final_url: https://tableau-lineage.com/
+    status: 200
+    content_type: text/html
+    title: 'Tableau Workbook Auditor: find unused fields and lineage in any .twbx'
+    description: 'Free, open-source tool to audit any Tableau .twbx: find unused fields and duplicate calculations,
+      check performance, and map calculated-field lineage, parameters, filters, dashboar'
+    bytes: 32325
+  official_effect_assets:
+  - kind: image
+    title: 'Tableau Workbook Auditor: find unused fields and lineage in any .twbx'
+    url: https://tableau-lineage.com/og.jpg
+    source: https://tableau-lineage.com/
+  source_headings:
+  - Demo workbook
+- name: open-gamma
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/composio-community/open-gamma
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Open-source AI slide agent that generates presentation slides in Google Slides-style workflows from
+    prompts and structured presentation context.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/composio-community/open-gamma/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/composio-community/open-gamma/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Open Gamma
+    bytes: 3663
+  official_docs:
+  - kind: docs
+    title: Composio Documentation
+    url: https://docs.composio.dev
+    source: https://raw.githubusercontent.com/composio-community/open-gamma/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Composio Documentation
+    url: https://docs.composio.dev
+    source: https://raw.githubusercontent.com/composio-community/open-gamma/HEAD/README.md
+- name: exploded-view
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/luisxavierxd/exploded-view
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  - 系统工具
+  catalog_note: Claude presentation skill for web-native 3D explainers with model-viewer, Three.js, Draco compression,
+    orbit viewers, exploded assemblies, and animated camera walkthroughs without a build step.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/luisxavierxd/exploded-view/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/luisxavierxd/exploded-view/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: exploded-view
+    bytes: 3787
+  source_headings:
+  - Sirve los demos ejecutables en el navegador
+  - Lista las familias, sus docs y sus demos
+  - Demos

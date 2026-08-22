@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-08-21T23:05:50+00:00",
-  "lastResearched": "2026-08-22",
+  "generatedAt": "2026-08-22T23:04:27+00:00",
+  "lastResearched": "2026-08-23",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 566,
-    "openSource": 141,
-    "saas": 62,
-    "modelApi": 191,
-    "examples": 1226,
-    "effectAssets": 1578,
-    "docs": 1456
+    "total": 574,
+    "openSource": 145,
+    "saas": 63,
+    "modelApi": 195,
+    "examples": 1233,
+    "effectAssets": 1581,
+    "docs": 1474
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 59,
-      "PDF/文档": 180,
-      "文本/想法": 354,
-      "数据/表格": 221,
-      "代码/技术描述": 103,
-      "网页/搜索结果": 156,
-      "代码库": 57,
-      "DSL/代码": 111,
+      "PDF/文档": 182,
+      "文本/想法": 360,
+      "数据/表格": 223,
+      "代码/技术描述": 106,
+      "网页/搜索结果": 158,
+      "代码库": 58,
+      "DSL/代码": 113,
       "新闻/资讯": 25,
       "知识库/个人资料": 51,
-      "任意/多源": 83,
-      "Office 文档": 102,
+      "任意/多源": 87,
+      "Office 文档": 105,
       "引用网络": 4,
-      "数据库": 51,
+      "数据库": 52,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 141,
-      "Agent Skill": 193,
-      "Skill 集合": 49,
-      "MCP Server": 182,
-      "产品/SaaS": 62,
+      "开源应用/框架": 145,
+      "Agent Skill": 197,
+      "Skill 集合": 50,
+      "MCP Server": 183,
+      "产品/SaaS": 63,
       "数据集/评测": 2,
-      "Bot/助手": 19,
+      "Bot/助手": 20,
       "研究原型": 6,
-      "API/SDK/库": 88,
+      "API/SDK/库": 89,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 43,
-      "PPT/演示文稿": 241,
-      "网页/交互页面": 179,
+      "PPT/演示文稿": 247,
+      "网页/交互页面": 182,
       "问答/学习材料": 15,
       "报告/长文档": 82,
-      "证据表": 39,
-      "信息图/视觉报告": 82,
-      "图表/仪表盘": 165,
-      "架构图/流程图": 124,
-      "SVG/PNG/PDF": 223,
-      "报告/简报": 68,
-      "白板/思维导图": 33,
+      "证据表": 41,
+      "信息图/视觉报告": 83,
+      "图表/仪表盘": 166,
+      "架构图/流程图": 126,
+      "SVG/PNG/PDF": 225,
+      "报告/简报": 69,
+      "白板/思维导图": 34,
       "图表/Mermaid": 61,
-      "视频/音频": 39,
-      "结构化数据/Markdown": 77,
+      "视频/音频": 40,
+      "结构化数据/Markdown": 78,
       "表格/时间线": 18,
       "引用答案": 5,
-      "思维导图/知识地图": 33,
+      "思维导图/知识地图": 34,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 34,
+      "代码地图/Repo Wiki": 35,
       "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 458,
-      "模型 API": 191,
-      "文档解析/OCR": 88,
-      "渲染/导出": 476,
+      "本地语言环境": 466,
+      "模型 API": 195,
+      "文档解析/OCR": 90,
+      "渲染/导出": 484,
       "GPU/加速器": 17,
-      "模板/素材": 262,
-      "Agent 宿主": 250,
-      "系统工具": 119,
-      "浏览器/账号": 144,
+      "模板/素材": 268,
+      "Agent 宿主": 255,
+      "系统工具": 120,
+      "浏览器/账号": 147,
       "存储/索引": 73,
-      "MCP Client": 192,
-      "外部检索/数据源": 119,
-      "代码分析工具": 37
+      "MCP Client": 193,
+      "外部检索/数据源": 121,
+      "代码分析工具": 38
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 50,
       "research-report": 28,
-      "infographic-report": 52,
-      "data-dashboard": 86,
+      "infographic-report": 53,
+      "data-dashboard": 87,
       "diagram-generation": 72,
       "literature-map": 4,
-      "presentation-tools": 159,
-      "codebase-map": 32,
+      "presentation-tools": 164,
+      "codebase-map": 33,
       "rendering-primitive": 16,
       "video-generation": 11,
       "commercial-site": 10,
@@ -97,17 +97,17 @@
     },
     "groups": {
       "paper": 30,
-      "text_visual": 66,
+      "text_visual": 67,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 30,
       "support_doc_parse": 19,
-      "presentation": 169,
-      "code": 35,
+      "presentation": 174,
+      "code": 36,
       "support_render": 56,
       "diagrams": 16,
       "video": 11,
-      "data": 79,
+      "data": 80,
       "indexes": 28,
       "diagram": 3,
       "index": 1
@@ -47120,6 +47120,502 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "banana-slides",
+      "url": "https://github.com/Anionex/banana-slides",
+      "primaryUrl": "https://github.com/Anionex/banana-slides",
+      "homepage": "http://bananaslides.online",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 15489,
+      "license": "AGPL-3.0",
+      "updated": "2026-08-22",
+      "note": "AI-native Nano Banana Pro slide generator that accepts prompts, outlines, template images, and uploaded assets, supports region-level natural-language edits, and exports editable PowerPoint decks.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "官网文档",
+          "url": "https://docs.bananaslides.online/zh/faq",
+          "source": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "文档",
+          "url": "https://docs.bananaslides.online/zh/features/templates",
+          "source": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "教程",
+          "url": "https://ziy68cvfvu3.feishu.cn/wiki/LDSOwPzkhiNonkkNTF1ct2VBnNc",
+          "source": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "图文教程",
+          "url": "https://ziy68cvfvu3.feishu.cn/wiki/B5RIwg3OUiCfo9kyadzcR9CInnc",
+          "source": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "新人部署教程",
+          "url": "https://github.com/ShellMonster/banana-slides/blob/docs-deploy-tutorial/docs/NEWBIE_DEPLOYMENT.md",
+          "source": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "火山引擎",
+          "url": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/assets/huoshan.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "pptpress",
+      "url": "https://github.com/liustack/pptpress",
+      "primaryUrl": "https://github.com/liustack/pptpress",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-08-22",
+      "note": "DSH plugin, Claude Code plugin, and CLI for stable editable PPTX generation from semantic presentation IR into native DrawingML PowerPoint output.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/cli.md`",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/cli.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Install guide",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/INSTALL.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "IR reference",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/ir.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Core concepts",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/concepts.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Deck projects",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/deck-projects.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contrast system",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/contrast-system.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Testing",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/testing.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Themes",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/themes.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Layout selection and seed",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/selection-and-seed.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Designing themes",
+          "url": "https://github.com/liustack/pptpress/blob/HEAD/docs/designing-themes.md",
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "pptfast — make your deck in minutes, not hours",
+          "url": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/assets/banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md"
+        }
+      ],
+      "docsCount": 10,
+      "examplesCount": 3,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "AppAutomaton Presentation",
+      "url": "https://github.com/appautomaton/presentation",
+      "primaryUrl": "https://github.com/appautomaton/presentation",
+      "homepage": "https://appautomaton.renocrypt.com/presentation/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 55,
+      "license": "unknown",
+      "updated": "2026-08-22",
+      "note": "Claude Code and Codex presentation skill suite for turning business questions into consulting-grade decks through strategy storyboarding, brand identity, pixel-perfect PDF, and native editable PPTX workflows.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "visualkan",
+      "url": "https://github.com/dapih/visualkan",
+      "primaryUrl": "https://github.com/dapih/visualkan",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-18",
+      "note": "Installable AI-coding-assistant skill that converts arbitrary content into visual explanations, including whiteboard sketches, infographics, presentations, diagrams, mind maps, and UI mockups.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "白板/思维导图",
+        "PPT/演示文稿",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "ADR 0001",
+          "url": "https://github.com/dapih/visualkan/blob/HEAD/docs/adr/0001-fork-visual-explainer-as-visualkan.md",
+          "source": "https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CHANGELOG.md",
+          "url": "https://github.com/dapih/visualkan/blob/HEAD/CHANGELOG.md",
+          "source": "https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Hexwright",
+      "url": "https://github.com/vonkernel/hexwright",
+      "primaryUrl": "https://github.com/vonkernel/hexwright",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-21",
+      "note": "CLI, MCP server, and web UI that renders branch-level architecture changes for hexagonal and ports-and-adapters codebases as reviewable dependency pictures with agent boundary verdicts.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "The agent's loop",
+          "url": "https://github.com/vonkernel/hexwright/blob/HEAD/docs/1-agent-loop.md",
+          "source": "https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Reviewing a branch",
+          "url": "https://github.com/vonkernel/hexwright/blob/HEAD/docs/2-review.md",
+          "source": "https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Exploring the architecture",
+          "url": "https://github.com/vonkernel/hexwright/blob/HEAD/docs/3-explore.md",
+          "source": "https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Everything else",
+          "url": "https://github.com/vonkernel/hexwright/blob/HEAD/docs/4-recipes.md",
+          "source": "https://raw.githubusercontent.com/vonkernel/hexwright/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Tableau Lineage",
+      "url": "https://github.com/andey0Saikiran/tableau-lineage",
+      "primaryUrl": "https://github.com/andey0Saikiran/tableau-lineage",
+      "homepage": "https://tableau-lineage.com",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-08-22",
+      "note": "Privacy-first in-browser Tableau TWBX lineage visualizer that maps calculated-field dependencies, parameters, stored SQL, metadata, and searchable data dictionaries without uploading workbooks.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "思维导图/知识地图",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Tableau Workbook Auditor: find unused fields and lineage in any .twbx",
+          "url": "https://tableau-lineage.com/og.jpg",
+          "thumbnailUrl": null,
+          "source": "https://tableau-lineage.com/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "open-gamma",
+      "url": "https://github.com/composio-community/open-gamma",
+      "primaryUrl": "https://github.com/composio-community/open-gamma",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 144,
+      "license": "unknown",
+      "updated": "2026-08-18",
+      "note": "Open-source AI slide agent that generates presentation slides in Google Slides-style workflows from prompts and structured presentation context.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Composio Documentation",
+          "url": "https://docs.composio.dev",
+          "source": "https://raw.githubusercontent.com/composio-community/open-gamma/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "exploded-view",
+      "url": "https://github.com/luisxavierxd/exploded-view",
+      "primaryUrl": "https://github.com/luisxavierxd/exploded-view",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-17",
+      "note": "Claude presentation skill for web-native 3D explainers with model-viewer, Three.js, Draco compression, orbit viewers, exploded assemblies, and animated camera walkthroughs without a build step.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }
