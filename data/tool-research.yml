@@ -1,4 +1,4 @@
-generated_at: '2026-08-22T23:04:27+00:00'
+generated_at: '2026-08-23T23:06:11+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 574
-  fetched_sources_ok: 766
-  fetched_sources_failed: 41
-  official_examples: 1233
-  official_effect_assets: 1581
-  official_docs: 1474
+  entries: 582
+  fetched_sources_ok: 776
+  fetched_sources_failed: 42
+  official_examples: 1247
+  official_effect_assets: 1602
+  official_docs: 1487
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -46078,3 +46078,517 @@ entries:
   - Sirve los demos ejecutables en el navegador
   - Lista las familias, sus docs y sus demos
   - Demos
+- name: clayz-presentation-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/clayzwang/clayz-presentation-skills
+  homepage: https://clayzwang.github.io/clayz-presentation-skills/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Five-stage agent presentation system for evidence-based decks, separating logic, copy, art direction, editable
+    output, and supervisor QA, with source traceability, visual adaptation, layout contracts, and metadata tooling.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Clayz Presentation Skills
+    bytes: 18606
+  - kind: homepage
+    url: https://clayzwang.github.io/clayz-presentation-skills/
+    final_url: https://clayzwang.github.io/clayz-presentation-skills/
+    status: 200
+    content_type: text/html
+    title: Clayz Presentation Skills · Experience Center
+    description: 'Explore real output evidence from Clayz Presentation Skills: governed reasoning, commercial analysis, visual
+      adaptation, and editable PowerPoint delivery.'
+    bytes: 18442
+  official_examples:
+  - kind: template
+    title: '`docs/layout-contracts.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/layout-contracts.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/releasing.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/pattern-dataset-library.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/pattern-dataset-library.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/feedback-benchmark-release-readiness.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/feedback-benchmark-release-readiness.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/knowledge-runtime.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/knowledge-runtime.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/source-adoption.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/source-adoption.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Clayz Presentation Skills workflow
+    url: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/clayz-overview.png
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: image
+    title: McKinsey-style consulting presentation example
+    url: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/mckinsey-demo.png
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: image
+    title: BCG-style consulting presentation example
+    url: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/bcg-demo.png
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: image
+    title: Ping An 2026 H1 business results presentation example
+    url: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/pingan-demo.png
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/releasing.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: template
+    title: '`docs/layout-contracts.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/layout-contracts.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/pattern-dataset-library.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/pattern-dataset-library.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/feedback-benchmark-release-readiness.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/feedback-benchmark-release-readiness.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/knowledge-runtime.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/knowledge-runtime.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  - kind: docs
+    title: '`docs/source-adoption.md`'
+    url: https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/source-adoption.md
+    source: https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md
+  source_headings:
+  - Clayz Presentation Skills
+  - Built for real presentation work
+- name: Korean Presentation Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/kez-lab/korean-presentation-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Agent presentation skill for Korean typography-optimized consulting decks, domain-specific layouts, Marp-based
+    PPTX/PDF/PNG compilation, PPTX extraction, schema validation, and gallery QA.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Korean Presentation Skill
+    bytes: 13187
+  official_examples:
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/01_quantum_gpu/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/02_clean_energy_esg/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/03_luxury_horlogerie/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/04_genomics_healthcare/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/05_fintech_hft/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/06_gaming_metaverse/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/07_enterprise_cdp/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/08_academic_attention/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/09_robotics_series_a/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/10_smart_city_twin/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Slide.001
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/01_quantum_gpu/slides_preview/slide.001.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.002
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/01_quantum_gpu/slides_preview/slide.002.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.001
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/02_clean_energy_esg/slides_preview/slide.001.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.002
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/02_clean_energy_esg/slides_preview/slide.002.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.001
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/03_luxury_horlogerie/slides_preview/slide.001.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.002
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/03_luxury_horlogerie/slides_preview/slide.002.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.001
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/04_genomics_healthcare/slides_preview/slide.001.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.002
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/04_genomics_healthcare/slides_preview/slide.002.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.001
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/05_fintech_hft/slides_preview/slide.001.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.002
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/05_fintech_hft/slides_preview/slide.002.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.001
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/06_gaming_metaverse/slides_preview/slide.001.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: image
+    title: Slide.002
+    url: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/06_gaming_metaverse/slides_preview/slide.002.png
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/01_quantum_gpu/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/02_clean_energy_esg/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/03_luxury_horlogerie/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/04_genomics_healthcare/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/05_fintech_hft/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/06_gaming_metaverse/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/07_enterprise_cdp/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/08_academic_attention/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/09_robotics_series_a/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  - kind: example
+    title: '`소스 코드 보기`'
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/10_smart_city_twin/presentation.md
+    source: https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md
+  source_headings:
+  - Korean Presentation Skill
+  - 생성된 preview_gallery.html 을 브라우저에서 열어 즉시 감상
+- name: generate-ai-presentations-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/hsuliang/generate-ai-presentations-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex Agent Skill that turns Markdown, transcripts, course notes, Word/PDF files, web articles, or existing
+    slide text into 16:9 presentation images, PPTX decks, per-slide image prompts, or slide planning tables.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/hsuliang/generate-ai-presentations-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/hsuliang/generate-ai-presentations-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI 簡報生成助理 Skill
+    bytes: 2076
+- name: Dokki Slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Dokki-lab/dokki-slides
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-compatible presentation skill for publishing structured decks as interactive HTML while exporting editable
+    native PPTX objects, with layouts, semantic roles, speaker notes, and deterministic quality checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Dokki-lab/dokki-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Dokki-lab/dokki-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Dokki Slides
+    bytes: 1421
+- name: mzyx-presentation-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Nikitzu/mzyx-presentation-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code presentation skill for building browser-presented React deck apps with responsive slides, live
+    data, embedded prototypes, 3D scenes, presenter mode, thumbnail rails, and themed components.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Nikitzu/mzyx-presentation-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Nikitzu/mzyx-presentation-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mzyx-presentation-skills
+    bytes: 2502
+- name: LangChat Slides
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/LangChat/langchat-slides
+  homepage: https://slides.langchat.cn/
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Vue and AntV infographic slide generator that converts natural-language prompts into streaming WYSIWYG slide
+    syntax, multi-page infographic decks, conversational edits, manual code editing, and PDF/PNG/SVG/JPG/WebP/PPT export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: LangChat Slides - Next-Gen AI Slide Generator
+    bytes: 23020
+  - kind: homepage
+    url: https://slides.langchat.cn/
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''slides.langchat.cn'', port=443): Max retries exceeded with url: / (Caused
+      by SSLError(CertificateError("hostname ''slides.langchat.cn'' doesn''t match ''editor.langchat.cn''")))'
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://github.com/LangChat/langchat-slides/blob/HEAD/docs
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  - kind: docs
+    title: 🇨🇳 中文文档
+    url: https://github.com/LangChat/langchat-slides/blob/HEAD/README_CN.md
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: LangChat Slides Demo
+    url: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/docs/slides.gif
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  - kind: image
+    title: workflows
+    url: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/docs/workflows.jpg
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  - kind: image
+    title: slides
+    url: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/docs/slides.png
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Documentation
+    url: https://github.com/LangChat/langchat-slides/blob/HEAD/docs
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  - kind: docs
+    title: 🇨🇳 中文文档
+    url: https://github.com/LangChat/langchat-slides/blob/HEAD/README_CN.md
+    source: https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md
+  source_headings:
+  - LangChat Slides - Next-Gen AI Slide Generator
+  - 🎨 Visual Experience
+  - Visualization Engine
+  - 📖 Usage Guide
+  - Creating Slides
+- name: Editorial Infographics
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/aosoficial/agent-infographic-skill
+  homepage: https://diauno.io/infografias-editoriales-agentes-ia
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skill for evidence-led editorial infographics, news/data cards, social explainers, annotated charts,
+    product screenshots with callouts, diagrams, batch-diverse layouts, and anti-slop quality gates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Editorial Infographics — an agent skill against AI slop
+    bytes: 3344
+  - kind: homepage
+    url: https://diauno.io/infografias-editoriales-agentes-ia
+    final_url: https://diauno.io/infografias-editoriales-agentes-ia
+    status: 200
+    content_type: text/html
+    title: Skill de infografías editoriales para agentes de IA | DÍA UNO
+    description: Skill open source para crear infografías y piezas sociales con evidencia, estructura visual y una puerta
+      anti-AI-slop. Instálala desde GitHub.
+    bytes: 15046
+  official_examples:
+  - kind: template
+    title: '`references/layout-families.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/layout-families.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: template
+    title: '`templates/visual-brief.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/templates/visual-brief.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/cfo-capacity/brief.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/examples/cfo-capacity/brief.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`references/design-language.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/design-language.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/quality-gate.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/quality-gate.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/platforms.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/platforms.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/publishing-gate.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/publishing-gate.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: research notes
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/research.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: Abrir la rúbrica completa ↗
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/main/references/quality-gate.md
+    source: https://diauno.io/infografias-editoriales-agentes-ia
+  official_effect_assets:
+  - kind: image
+    title: Skill de infografías editoriales para agentes de IA | DÍA UNO
+    url: https://diauno.io/assets/editorial-infographics-skill-og.png
+    source: https://diauno.io/infografias-editoriales-agentes-ia
+  official_links:
+  - kind: docs
+    title: '`references/design-language.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/design-language.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: template
+    title: '`references/layout-families.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/layout-families.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/quality-gate.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/quality-gate.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/platforms.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/platforms.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/publishing-gate.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/publishing-gate.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: template
+    title: '`templates/visual-brief.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/templates/visual-brief.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/cfo-capacity/brief.md`'
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/examples/cfo-capacity/brief.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: research notes
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/research.md
+    source: https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md
+  - kind: docs
+    title: Abrir la rúbrica completa ↗
+    url: https://github.com/aosoficial/agent-infographic-skill/blob/main/references/quality-gate.md
+    source: https://diauno.io/infografias-editoriales-agentes-ia
+- name: Claude Memory Knowledge Graph Visualizer
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/srijanshukla18/claude-memory-viz
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Local browser visualizer that turns Claude Memory MCP NDJSON into an interactive Cytoscape knowledge graph
+    with type filters, search, tooltips, node sizing, physics controls, and demo-data fallback.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/srijanshukla18/claude-memory-viz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/srijanshukla18/claude-memory-viz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧠 Claude Memory Knowledge Graph Visualizer
+    bytes: 7405
+  official_effect_assets:
+  - kind: image
+    title: Claude Memory Visualization
+    url: https://raw.githubusercontent.com/srijanshukla18/claude-memory-viz/HEAD/sample.png
+    source: https://raw.githubusercontent.com/srijanshukla18/claude-memory-viz/HEAD/README.md
+  source_headings:
+  - 🧠 Claude Memory Knowledge Graph Visualizer
+  - Run the visualizer (automatically finds your memory file!)
+  - 🎨 Visualization Features
+  - 📝 Demo Mode
+  - 5. Start HTTP server with demo data fallback

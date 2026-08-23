@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-23.
+Last researched: 2026-08-24.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-24: refreshed agent-native presentation skill systems, Korean typography deck generation, Codex presentation-image/PPTX workflows, HTML-to-editable-PPTX slide skills, browser-native React deck apps, AntV infographic slide generation, editorial infographic skills, and Claude memory knowledge-graph visualization from official GitHub repositories, project/homepage pages, README evidence, live GitHub searches, and GitHub metadata. This pass added clayz-presentation-skills, Korean Presentation Skill, generate-ai-presentations-skill, Dokki Slides, mzyx-presentation-skills, LangChat Slides, Editorial Infographics, and Claude Memory Knowledge Graph Visualizer. The targeted scraper ran only against these eight new records; after replacing two transient raw README timeouts with verified GitHub API/curl evidence and scrubbing Clayz external influence links, the merged records kept ten successful official fetches, one LangChat homepage certificate failure, fourteen official examples, twenty-one preview assets, and thirteen docs links.
 
 Update on 2026-08-23: refreshed AI-native slide generation apps, editable PPTX IR tooling, consulting-deck skill suites, visual-explainer skills, code architecture change maps, Tableau lineage visualization, Google Slides-style agents, and web-native 3D presentation skills from official GitHub repositories, README evidence, product/homepage pages, live web/GitHub searches, and GitHub metadata. This pass added banana-slides, pptpress, AppAutomaton Presentation, visualkan, Hexwright, Tableau Lineage, open-gamma, and exploded-view. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept seven official examples, three official preview assets, and eighteen official docs links after scrubbing generic API-key setup links.
 

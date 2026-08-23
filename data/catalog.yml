@@ -1,4 +1,4 @@
-last_researched: '2026-08-23'
+last_researched: '2026-08-24'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -14778,3 +14778,220 @@ entries:
   - 视频/音频
   catalog_section: main
   readme_group: presentation
+- name: clayz-presentation-skills
+  url: https://github.com/clayzwang/clayz-presentation-skills
+  homepage: https://clayzwang.github.io/clayz-presentation-skills/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 8
+  license: Apache-2.0
+  updated: '2026-08-23'
+  note: Five-stage agent presentation system for evidence-based decks, separating logic, copy, art direction, editable
+    output, and supervisor QA, with source traceability, visual adaptation, layout contracts, and metadata tooling.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Korean Presentation Skill
+  url: https://github.com/kez-lab/korean-presentation-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-23'
+  note: Agent presentation skill for Korean typography-optimized consulting decks, domain-specific layouts, Marp-based
+    PPTX/PDF/PNG compilation, PPTX extraction, schema validation, and gallery QA.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: generate-ai-presentations-skill
+  url: https://github.com/hsuliang/generate-ai-presentations-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT/CC-BY-4.0
+  updated: '2026-08-23'
+  note: Codex Agent Skill that turns Markdown, transcripts, course notes, Word/PDF files, web articles, or existing slide
+    text into 16:9 presentation images, PPTX decks, per-slide image prompts, or slide planning tables.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Dokki Slides
+  url: https://github.com/Dokki-lab/dokki-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT-0
+  updated: '2026-08-21'
+  note: Agent-compatible presentation skill for publishing structured decks as interactive HTML while exporting editable
+    native PPTX objects, with layouts, semantic roles, speaker notes, and deterministic quality checks.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: mzyx-presentation-skills
+  url: https://github.com/Nikitzu/mzyx-presentation-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-22'
+  note: Claude Code presentation skill for building browser-presented React deck apps with responsive slides, live data,
+    embedded prototypes, 3D scenes, presenter mode, thumbnail rails, and themed components.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: LangChat Slides
+  url: https://github.com/LangChat/langchat-slides
+  homepage: https://slides.langchat.cn/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 217
+  license: Apache-2.0
+  updated: '2026-08-18'
+  note: Vue and AntV infographic slide generator that converts natural-language prompts into streaming WYSIWYG slide
+    syntax, multi-page infographic decks, conversational edits, manual code editing, and PDF/PNG/SVG/JPG/WebP/PPT export.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: Editorial Infographics
+  url: https://github.com/aosoficial/agent-infographic-skill
+  homepage: https://diauno.io/infografias-editoriales-agentes-ia
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-08-22'
+  note: Agent Skill for evidence-led editorial infographics, news/data cards, social explainers, annotated charts,
+    product screenshots with callouts, diagrams, batch-diverse layouts, and anti-slop quality gates.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: text_visual
+- name: Claude Memory Knowledge Graph Visualizer
+  url: https://github.com/srijanshukla18/claude-memory-viz
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 101
+  license: unknown
+  updated: '2026-08-18'
+  note: Local browser visualizer that turns Claude Memory MCP NDJSON into an interactive Cytoscape knowledge graph with
+    type filters, search, tooltips, node sizing, physics controls, and demo-data fallback.
+  source_types:
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs

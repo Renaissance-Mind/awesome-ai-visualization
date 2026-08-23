@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-22T23:04:27+00:00",
-  "lastResearched": "2026-08-23",
+  "generatedAt": "2026-08-23T23:06:11+00:00",
+  "lastResearched": "2026-08-24",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 574,
-    "openSource": 145,
+    "total": 582,
+    "openSource": 147,
     "saas": 63,
-    "modelApi": 195,
-    "examples": 1233,
-    "effectAssets": 1581,
-    "docs": 1474
+    "modelApi": 198,
+    "examples": 1247,
+    "effectAssets": 1602,
+    "docs": 1487
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 59,
-      "PDF/文档": 182,
-      "文本/想法": 360,
-      "数据/表格": 223,
-      "代码/技术描述": 106,
-      "网页/搜索结果": 158,
+      "论文/科研资料": 60,
+      "PDF/文档": 184,
+      "文本/想法": 367,
+      "数据/表格": 229,
+      "代码/技术描述": 107,
+      "网页/搜索结果": 160,
       "代码库": 58,
-      "DSL/代码": 113,
-      "新闻/资讯": 25,
-      "知识库/个人资料": 51,
-      "任意/多源": 87,
-      "Office 文档": 105,
+      "DSL/代码": 114,
+      "新闻/资讯": 26,
+      "知识库/个人资料": 52,
+      "任意/多源": 90,
+      "Office 文档": 106,
       "引用网络": 4,
       "数据库": 52,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 145,
-      "Agent Skill": 197,
-      "Skill 集合": 50,
+      "开源应用/框架": 147,
+      "Agent Skill": 202,
+      "Skill 集合": 51,
       "MCP Server": 183,
       "产品/SaaS": 63,
       "数据集/评测": 2,
@@ -42,53 +42,53 @@
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 43,
-      "PPT/演示文稿": 247,
-      "网页/交互页面": 182,
+      "图形摘要/信息图": 44,
+      "PPT/演示文稿": 253,
+      "网页/交互页面": 186,
       "问答/学习材料": 15,
       "报告/长文档": 82,
       "证据表": 41,
-      "信息图/视觉报告": 83,
-      "图表/仪表盘": 166,
-      "架构图/流程图": 126,
-      "SVG/PNG/PDF": 225,
-      "报告/简报": 69,
+      "信息图/视觉报告": 84,
+      "图表/仪表盘": 169,
+      "架构图/流程图": 127,
+      "SVG/PNG/PDF": 229,
+      "报告/简报": 70,
       "白板/思维导图": 34,
       "图表/Mermaid": 61,
       "视频/音频": 40,
-      "结构化数据/Markdown": 78,
+      "结构化数据/Markdown": 81,
       "表格/时间线": 18,
       "引用答案": 5,
-      "思维导图/知识地图": 34,
+      "思维导图/知识地图": 35,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 35,
       "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 466,
-      "模型 API": 195,
+      "本地语言环境": 474,
+      "模型 API": 198,
       "文档解析/OCR": 90,
-      "渲染/导出": 484,
+      "渲染/导出": 492,
       "GPU/加速器": 17,
-      "模板/素材": 268,
-      "Agent 宿主": 255,
-      "系统工具": 120,
-      "浏览器/账号": 147,
-      "存储/索引": 73,
+      "模板/素材": 275,
+      "Agent 宿主": 261,
+      "系统工具": 121,
+      "浏览器/账号": 148,
+      "存储/索引": 74,
       "MCP Client": 193,
       "外部检索/数据源": 121,
       "代码分析工具": 38
     },
     "categories": {
       "paper-visualization": 17,
-      "doc-to-knowledge": 50,
+      "doc-to-knowledge": 51,
       "research-report": 28,
-      "infographic-report": 53,
+      "infographic-report": 54,
       "data-dashboard": 87,
       "diagram-generation": 72,
       "literature-map": 4,
-      "presentation-tools": 164,
+      "presentation-tools": 170,
       "codebase-map": 33,
       "rendering-primitive": 16,
       "video-generation": 11,
@@ -97,12 +97,12 @@
     },
     "groups": {
       "paper": 30,
-      "text_visual": 67,
+      "text_visual": 68,
       "web_news": 9,
       "support_mindmap": 14,
-      "docs": 30,
+      "docs": 31,
       "support_doc_parse": 19,
-      "presentation": 174,
+      "presentation": 180,
       "code": 36,
       "support_render": 56,
       "diagrams": 16,
@@ -47616,6 +47616,644 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "clayz-presentation-skills",
+      "url": "https://github.com/clayzwang/clayz-presentation-skills",
+      "primaryUrl": "https://github.com/clayzwang/clayz-presentation-skills",
+      "homepage": "https://clayzwang.github.io/clayz-presentation-skills/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8,
+      "license": "Apache-2.0",
+      "updated": "2026-08-23",
+      "note": "Five-stage agent presentation system for evidence-based decks, separating logic, copy, art direction, editable output, and supervisor QA, with source traceability, visual adaptation, layout contracts, and metadata tooling.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/releasing.md`",
+          "url": "https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/releasing.md",
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/pattern-dataset-library.md`",
+          "url": "https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/pattern-dataset-library.md",
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/feedback-benchmark-release-readiness.md`",
+          "url": "https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/feedback-benchmark-release-readiness.md",
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/knowledge-runtime.md`",
+          "url": "https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/knowledge-runtime.md",
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/source-adoption.md`",
+          "url": "https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/source-adoption.md",
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`docs/layout-contracts.md`",
+          "url": "https://github.com/clayzwang/clayz-presentation-skills/blob/HEAD/docs/layout-contracts.md",
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Clayz Presentation Skills workflow",
+          "url": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/clayz-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "McKinsey-style consulting presentation example",
+          "url": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/mckinsey-demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "BCG-style consulting presentation example",
+          "url": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/bcg-demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Ping An 2026 H1 business results presentation example",
+          "url": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/assets/showcase/pingan-demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/clayzwang/clayz-presentation-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 1,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Korean Presentation Skill",
+      "url": "https://github.com/kez-lab/korean-presentation-skill",
+      "primaryUrl": "https://github.com/kez-lab/korean-presentation-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-23",
+      "note": "Agent presentation skill for Korean typography-optimized consulting decks, domain-specific layouts, Marp-based PPTX/PDF/PNG compilation, PPTX extraction, schema validation, and gallery QA.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/01_quantum_gpu/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/02_clean_energy_esg/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/03_luxury_horlogerie/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/04_genomics_healthcare/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/05_fintech_hft/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/06_gaming_metaverse/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/07_enterprise_cdp/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/08_academic_attention/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/09_robotics_series_a/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`소스 코드 보기`",
+          "url": "https://github.com/kez-lab/korean-presentation-skill/blob/HEAD/examples/10_smart_city_twin/presentation.md",
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Slide.001",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/01_quantum_gpu/slides_preview/slide.001.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.002",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/01_quantum_gpu/slides_preview/slide.002.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.001",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/02_clean_energy_esg/slides_preview/slide.001.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.002",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/02_clean_energy_esg/slides_preview/slide.002.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.001",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/03_luxury_horlogerie/slides_preview/slide.001.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.002",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/03_luxury_horlogerie/slides_preview/slide.002.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.001",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/04_genomics_healthcare/slides_preview/slide.001.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.002",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/04_genomics_healthcare/slides_preview/slide.002.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.001",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/05_fintech_hft/slides_preview/slide.001.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.002",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/05_fintech_hft/slides_preview/slide.002.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.001",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/06_gaming_metaverse/slides_preview/slide.001.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide.002",
+          "url": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/examples/06_gaming_metaverse/slides_preview/slide.002.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kez-lab/korean-presentation-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 10,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "generate-ai-presentations-skill",
+      "url": "https://github.com/hsuliang/generate-ai-presentations-skill",
+      "primaryUrl": "https://github.com/hsuliang/generate-ai-presentations-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT/CC-BY-4.0",
+      "updated": "2026-08-23",
+      "note": "Codex Agent Skill that turns Markdown, transcripts, course notes, Word/PDF files, web articles, or existing slide text into 16:9 presentation images, PPTX decks, per-slide image prompts, or slide planning tables.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Dokki Slides",
+      "url": "https://github.com/Dokki-lab/dokki-slides",
+      "primaryUrl": "https://github.com/Dokki-lab/dokki-slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT-0",
+      "updated": "2026-08-21",
+      "note": "Agent-compatible presentation skill for publishing structured decks as interactive HTML while exporting editable native PPTX objects, with layouts, semantic roles, speaker notes, and deterministic quality checks.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "mzyx-presentation-skills",
+      "url": "https://github.com/Nikitzu/mzyx-presentation-skills",
+      "primaryUrl": "https://github.com/Nikitzu/mzyx-presentation-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-22",
+      "note": "Claude Code presentation skill for building browser-presented React deck apps with responsive slides, live data, embedded prototypes, 3D scenes, presenter mode, thumbnail rails, and themed components.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "LangChat Slides",
+      "url": "https://github.com/LangChat/langchat-slides",
+      "primaryUrl": "https://github.com/LangChat/langchat-slides",
+      "homepage": "https://slides.langchat.cn/",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 217,
+      "license": "Apache-2.0",
+      "updated": "2026-08-18",
+      "note": "Vue and AntV infographic slide generator that converts natural-language prompts into streaming WYSIWYG slide syntax, multi-page infographic decks, conversational edits, manual code editing, and PDF/PNG/SVG/JPG/WebP/PPT export.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://github.com/LangChat/langchat-slides/blob/HEAD/docs",
+          "source": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "🇨🇳 中文文档",
+          "url": "https://github.com/LangChat/langchat-slides/blob/HEAD/README_CN.md",
+          "source": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "LangChat Slides Demo",
+          "url": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/docs/slides.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "workflows",
+          "url": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/docs/workflows.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "slides",
+          "url": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/docs/slides.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LangChat/langchat-slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Editorial Infographics",
+      "url": "https://github.com/aosoficial/agent-infographic-skill",
+      "primaryUrl": "https://github.com/aosoficial/agent-infographic-skill",
+      "homepage": "https://diauno.io/infografias-editoriales-agentes-ia",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-22",
+      "note": "Agent Skill for evidence-led editorial infographics, news/data cards, social explainers, annotated charts, product screenshots with callouts, diagrams, batch-diverse layouts, and anti-slop quality gates.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "新闻/资讯",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/design-language.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/design-language.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/quality-gate.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/quality-gate.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/platforms.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/platforms.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/publishing-gate.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/publishing-gate.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "research notes",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/research.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Abrir la rúbrica completa ↗",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/main/references/quality-gate.md",
+          "source": "https://diauno.io/infografias-editoriales-agentes-ia"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`references/layout-families.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/references/layout-families.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`templates/visual-brief.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/templates/visual-brief.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/cfo-capacity/brief.md`",
+          "url": "https://github.com/aosoficial/agent-infographic-skill/blob/HEAD/examples/cfo-capacity/brief.md",
+          "source": "https://raw.githubusercontent.com/aosoficial/agent-infographic-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Skill de infografías editoriales para agentes de IA | DÍA UNO",
+          "url": "https://diauno.io/assets/editorial-infographics-skill-og.png",
+          "thumbnailUrl": null,
+          "source": "https://diauno.io/infografias-editoriales-agentes-ia"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 3,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Claude Memory Knowledge Graph Visualizer",
+      "url": "https://github.com/srijanshukla18/claude-memory-viz",
+      "primaryUrl": "https://github.com/srijanshukla18/claude-memory-viz",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 101,
+      "license": "unknown",
+      "updated": "2026-08-18",
+      "note": "Local browser visualizer that turns Claude Memory MCP NDJSON into an interactive Cytoscape knowledge graph with type filters, search, tooltips, node sizing, physics controls, and demo-data fallback.",
+      "sourceTypes": [
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Claude Memory Visualization",
+          "url": "https://raw.githubusercontent.com/srijanshukla18/claude-memory-viz/HEAD/sample.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/srijanshukla18/claude-memory-viz/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     }
   ]
 }
