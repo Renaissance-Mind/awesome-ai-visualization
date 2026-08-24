@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-24.
+Last researched: 2026-08-25.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-25: refreshed source-backed infographic, Slidev deck, live whiteboard, Mermaid rendering, Lucid diagram, Convex schema/dashboard, and Power BI report-authoring MCP surfaces from official GitHub repositories, README evidence, npm package metadata where available, live GitHub searches, and GitHub metadata. This pass added Epic Infographics, slidev-mcp, tl-draw-mcp, Mermaid MCP by fay-i, Lucid MCP Server, Convex MCP Visual, Power BI PBIR MCP, and pbix-mcp. The targeted scraper ran only against these eight new records, fetched eight official GitHub README sources successfully, observed two npm package-page 403 responses, and found ten official examples, fourteen official preview assets, and twenty-five official docs links with no presigned URLs or dummy assets merged.
 
 Update on 2026-08-24: refreshed agent-native presentation skill systems, Korean typography deck generation, Codex presentation-image/PPTX workflows, HTML-to-editable-PPTX slide skills, browser-native React deck apps, AntV infographic slide generation, editorial infographic skills, and Claude memory knowledge-graph visualization from official GitHub repositories, project/homepage pages, README evidence, live GitHub searches, and GitHub metadata. This pass added clayz-presentation-skills, Korean Presentation Skill, generate-ai-presentations-skill, Dokki Slides, mzyx-presentation-skills, LangChat Slides, Editorial Infographics, and Claude Memory Knowledge Graph Visualizer. The targeted scraper ran only against these eight new records; after replacing two transient raw README timeouts with verified GitHub API/curl evidence and scrubbing Clayz external influence links, the merged records kept ten successful official fetches, one LangChat homepage certificate failure, fourteen official examples, twenty-one preview assets, and thirteen docs links.
 

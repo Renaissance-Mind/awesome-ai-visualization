@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-08-23T23:06:11+00:00",
-  "lastResearched": "2026-08-24",
+  "generatedAt": "2026-08-24T23:06:46+00:00",
+  "lastResearched": "2026-08-25",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 582,
-    "openSource": 147,
+    "total": 590,
+    "openSource": 148,
     "saas": 63,
     "modelApi": 198,
-    "examples": 1247,
-    "effectAssets": 1602,
-    "docs": 1487
+    "examples": 1257,
+    "effectAssets": 1616,
+    "docs": 1512
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 60,
       "PDF/文档": 184,
-      "文本/想法": 367,
-      "数据/表格": 229,
-      "代码/技术描述": 107,
+      "文本/想法": 372,
+      "数据/表格": 234,
+      "代码/技术描述": 111,
       "网页/搜索结果": 160,
-      "代码库": 58,
-      "DSL/代码": 114,
+      "代码库": 59,
+      "DSL/代码": 118,
       "新闻/资讯": 26,
       "知识库/个人资料": 52,
-      "任意/多源": 90,
-      "Office 文档": 106,
+      "任意/多源": 92,
+      "Office 文档": 108,
       "引用网络": 4,
-      "数据库": 52,
+      "数据库": 55,
       "视频/音频": 2
     },
     "toolForms": {
-      "开源应用/框架": 147,
-      "Agent Skill": 202,
+      "开源应用/框架": 148,
+      "Agent Skill": 203,
       "Skill 集合": 51,
-      "MCP Server": 183,
+      "MCP Server": 190,
       "产品/SaaS": 63,
       "数据集/评测": 2,
       "Bot/助手": 20,
       "研究原型": 6,
-      "API/SDK/库": 89,
+      "API/SDK/库": 91,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 44,
-      "PPT/演示文稿": 253,
-      "网页/交互页面": 186,
+      "图形摘要/信息图": 45,
+      "PPT/演示文稿": 255,
+      "网页/交互页面": 189,
       "问答/学习材料": 15,
       "报告/长文档": 82,
       "证据表": 41,
-      "信息图/视觉报告": 84,
-      "图表/仪表盘": 169,
-      "架构图/流程图": 127,
-      "SVG/PNG/PDF": 229,
-      "报告/简报": 70,
-      "白板/思维导图": 34,
-      "图表/Mermaid": 61,
+      "信息图/视觉报告": 85,
+      "图表/仪表盘": 172,
+      "架构图/流程图": 129,
+      "SVG/PNG/PDF": 234,
+      "报告/简报": 72,
+      "白板/思维导图": 36,
+      "图表/Mermaid": 64,
       "视频/音频": 40,
-      "结构化数据/Markdown": 81,
+      "结构化数据/Markdown": 83,
       "表格/时间线": 18,
       "引用答案": 5,
       "思维导图/知识地图": 35,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 35,
+      "代码地图/Repo Wiki": 36,
       "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 474,
+      "本地语言环境": 482,
       "模型 API": 198,
       "文档解析/OCR": 90,
-      "渲染/导出": 492,
+      "渲染/导出": 500,
       "GPU/加速器": 17,
-      "模板/素材": 275,
-      "Agent 宿主": 261,
-      "系统工具": 121,
-      "浏览器/账号": 148,
-      "存储/索引": 74,
-      "MCP Client": 193,
-      "外部检索/数据源": 121,
+      "模板/素材": 277,
+      "Agent 宿主": 262,
+      "系统工具": 125,
+      "浏览器/账号": 149,
+      "存储/索引": 77,
+      "MCP Client": 200,
+      "外部检索/数据源": 124,
       "代码分析工具": 38
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 51,
       "research-report": 28,
-      "infographic-report": 54,
-      "data-dashboard": 87,
-      "diagram-generation": 72,
+      "infographic-report": 55,
+      "data-dashboard": 90,
+      "diagram-generation": 74,
       "literature-map": 4,
-      "presentation-tools": 170,
+      "presentation-tools": 171,
       "codebase-map": 33,
-      "rendering-primitive": 16,
+      "rendering-primitive": 17,
       "video-generation": 11,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 30,
-      "text_visual": 68,
+      "text_visual": 69,
       "web_news": 9,
       "support_mindmap": 14,
       "docs": 31,
       "support_doc_parse": 19,
-      "presentation": 180,
+      "presentation": 181,
       "code": 36,
-      "support_render": 56,
-      "diagrams": 16,
+      "support_render": 57,
+      "diagrams": 18,
       "video": 11,
-      "data": 80,
+      "data": 83,
       "indexes": 28,
       "diagram": 3,
       "index": 1
@@ -48254,6 +48254,627 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "Epic Infographics",
+      "url": "https://github.com/OrRon/EpicInfographics",
+      "primaryUrl": "https://github.com/OrRon/EpicInfographics",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-24",
+      "note": "Agent skill for polished infographic PNGs with chart vocabularies, reusable design languages, self-contained HTML/CSS/SVG generation, Playwright rendering, and render-review-fix QA loops.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/briefs.md`",
+          "url": "https://github.com/OrRon/EpicInfographics/blob/HEAD/examples/briefs.md",
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Rocket — blueprint, story",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/rocket-launch/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Buildings — blueprint, a4",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/tallest-buildings/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Funnel — dark-glass, square",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/launch-funnel/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Streaming — dark-glass, wide",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/streaming-wars/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sleep — editorial, story",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/sleep/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Pizza — hand-drawn, square",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/pizza-anatomy/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Honeybee — retro-print, a4",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/honeybee-economy/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Coffee — naturalist-plate, a4",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/coffee-botanical/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Attention — dark-glass, story",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/attention-spotlight/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Work worlds — isometric-world, wide",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/remote-vs-office-worlds/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Web road — isometric-world, story",
+          "url": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/web-history-road/infographic.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 11
+    },
+    {
+      "name": "slidev-mcp",
+      "url": "https://github.com/oconsl/slidev-mcp",
+      "primaryUrl": "https://github.com/oconsl/slidev-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-06-04",
+      "note": "Local MCP server for creating, editing, validating, theming, diagramming, and exporting Slidev decks through agent tools and Codex/Claude/OpenCode installer support.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "tl-draw-mcp",
+      "url": "https://github.com/Siddharth11Roy/tldraw-claude-mcp",
+      "primaryUrl": "https://github.com/Siddharth11Roy/tldraw-claude-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 14,
+      "license": "MIT",
+      "updated": "2026-08-10",
+      "note": "MCP server and agent guide for drawing live tldraw canvases from prompts, with automatic graph layout, label sizing, bound connectors, shape editing, and browser canvas feedback.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "白板/思维导图",
+        "架构图/流程图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/AGENT_GUIDE.md`",
+          "url": "https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/docs/AGENT_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/codex-config.toml`",
+          "url": "https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/examples/codex-config.toml",
+          "source": "https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/claude-code-config.json`",
+          "url": "https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/examples/claude-code-config.json",
+          "source": "https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Mermaid MCP by fay-i",
+      "url": "https://github.com/fay-i/mermaid-mcp",
+      "primaryUrl": "https://github.com/fay-i/mermaid-mcp",
+      "homepage": "https://www.npmjs.com/package/@fay-i/mermaid-mcp",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-13",
+      "note": "TypeScript MCP server that renders Mermaid source into durable SVG, PDF, and multi-page deck artifacts with Puppeteer, Mermaid CLI, local or S3 storage, themes, fonts, and download URLs.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Mermaid Documentation",
+          "url": "https://mermaid.js.org/",
+          "source": "https://raw.githubusercontent.com/fay-i/mermaid-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Lucid MCP Server",
+      "url": "https://github.com/smartzan63/lucid-mcp-server",
+      "primaryUrl": "https://github.com/smartzan63/lucid-mcp-server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 19,
+      "license": "MIT",
+      "updated": "2026-08-19",
+      "note": "Lucid API MCP bridge for discovering LucidChart, LucidSpark, and LucidScale documents, exporting diagram pages as PNG image blocks, and creating new Lucid diagrams from Standard Import JSON.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Lucid Developer Portal",
+          "url": "https://developer.lucid.co/docs/api-keys",
+          "source": "https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Lucid Developer API",
+          "url": "https://developer.lucid.co/",
+          "source": "https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP Typescript SDK Documentation",
+          "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+          "source": "https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Convex MCP Visual",
+      "url": "https://github.com/waynesutton/convex-mcp-visual",
+      "primaryUrl": "https://github.com/waynesutton/convex-mcp-visual",
+      "homepage": "https://www.npmjs.com/package/convex-mcp-visual",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 20,
+      "license": "unknown",
+      "updated": "2026-05-17",
+      "note": "MCP server, CLI, and Claude plugin for Convex schema browsers, component views, real-time metric dashboards, Mermaid ER diagrams, codebase subway maps, heatmaps, drift views, and kanban boards.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "代码库"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "图表/Mermaid",
+        "代码地图/Repo Wiki"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Management API",
+          "url": "https://docs.convex.dev/management-api",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Platform APIs",
+          "url": "https://docs.convex.dev/platform-apis",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Claude plugin docs",
+          "url": "https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/files-claude-plugin.md",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Setup Guide",
+          "url": "https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/setup.md",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Tools Reference",
+          "url": "https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/tools.md",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Troubleshooting",
+          "url": "https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/troubleshooting.md",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Limitations",
+          "url": "https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/limitations.md",
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Schema Graph View",
+          "url": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/assets/schema-graph-demo.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md"
+        }
+      ],
+      "docsCount": 12,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Power BI PBIR MCP",
+      "url": "https://github.com/bobzhou-source/powerbi-pbir-mcp",
+      "primaryUrl": "https://github.com/bobzhou-source/powerbi-pbir-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "GPL-2.0",
+      "updated": "2026-07-25",
+      "note": "Local stdio MCP server for Power BI PBIP/PBIR report projects, reading semantic models, applying page/visual/theme/layout plans, scaffolding projects, and validating Desktop-compatible report edits.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/PUBLISHING.md",
+          "url": "https://github.com/bobzhou-source/powerbi-pbir-mcp/blob/HEAD/docs/PUBLISHING.md",
+          "source": "https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "PBIR MCP workflow",
+          "url": "https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/docs/assets/workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Benchmark summary",
+          "url": "https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/docs/assets/benchmark-summary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "pbix-mcp",
+      "url": "https://github.com/d0nk3yhm/pbix-mcp",
+      "primaryUrl": "https://github.com/d0nk3yhm/pbix-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 15,
+      "license": "MIT",
+      "updated": "2026-08-23",
+      "note": "Python MCP server for creating, reading, editing, documenting, and evaluating Power BI PBIX/PBIT/PBIP files, including pages, visuals, DAX measures, data sources, themes, custom HTML/SVG visuals, and report documentation.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/html-visuals.md",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/html-visuals.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/rich-content.md",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/rich-content.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "derivation",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/reverse-engineering/experiments/cryptkey.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/capability-parity.md",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/capability-parity.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/dax-coverage.md",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/dax-coverage.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/supported-dax.md",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/supported-dax.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/vertipaq-spec.md`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/vertipaq-spec.md",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`create_showcase.py`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_showcase.py",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`create_from_csv.py`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_from_csv.py",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`create_from_sqlite.py`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_from_sqlite.py",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`create_directquery.py`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_directquery.py",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`create_star_schema.py`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_star_schema.py",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`create_all_types.py`",
+          "url": "https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_all_types.py",
+          "source": "https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 7,
+      "examplesCount": 7,
+      "effectAssetsCount": 0
     }
   ]
 }

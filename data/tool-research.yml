@@ -1,4 +1,4 @@
-generated_at: '2026-08-23T23:06:11+00:00'
+generated_at: '2026-08-24T23:06:46+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 582
-  fetched_sources_ok: 776
-  fetched_sources_failed: 42
-  official_examples: 1247
-  official_effect_assets: 1602
-  official_docs: 1487
+  entries: 590
+  fetched_sources_ok: 784
+  fetched_sources_failed: 44
+  official_examples: 1257
+  official_effect_assets: 1616
+  official_docs: 1512
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -46592,3 +46592,555 @@ entries:
   - 🎨 Visualization Features
   - 📝 Demo Mode
   - 5. Start HTTP server with demo data fallback
+- name: Epic Infographics
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/OrRon/EpicInfographics
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for polished infographic PNGs with chart vocabularies, reusable design languages, self-contained
+    HTML/CSS/SVG generation, Playwright rendering, and render-review-fix QA loops.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Epic Infographics
+    bytes: 4598
+  official_examples:
+  - kind: example
+    title: '`examples/briefs.md`'
+    url: https://github.com/OrRon/EpicInfographics/blob/HEAD/examples/briefs.md
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Rocket — blueprint, story
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/rocket-launch/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Buildings — blueprint, a4
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/tallest-buildings/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Funnel — dark-glass, square
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/launch-funnel/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Streaming — dark-glass, wide
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/streaming-wars/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Sleep — editorial, story
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/sleep/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Pizza — hand-drawn, square
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/pizza-anatomy/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Honeybee — retro-print, a4
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/honeybee-economy/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Coffee — naturalist-plate, a4
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/coffee-botanical/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Attention — dark-glass, story
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/attention-spotlight/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Work worlds — isometric-world, wide
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/remote-vs-office-worlds/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  - kind: image
+    title: Web road — isometric-world, story
+    url: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/examples/web-history-road/infographic.png
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/briefs.md`'
+    url: https://github.com/OrRon/EpicInfographics/blob/HEAD/examples/briefs.md
+    source: https://raw.githubusercontent.com/OrRon/EpicInfographics/HEAD/README.md
+  source_headings:
+  - Gallery
+- name: slidev-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/oconsl/slidev-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local MCP server for creating, editing, validating, theming, diagramming, and exporting Slidev decks through
+    agent tools and Codex/Claude/OpenCode installer support.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/oconsl/slidev-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/oconsl/slidev-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slidev-mcp
+    bytes: 12287
+  source_headings:
+  - slidev-mcp
+  - '`init_presentation` presets'
+- name: tl-draw-mcp
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/Siddharth11Roy/tldraw-claude-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server and agent guide for drawing live tldraw canvases from prompts, with automatic graph layout, label
+    sizing, bound connectors, shape editing, and browser canvas feedback.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: tl-draw-mcp
+    bytes: 6792
+  official_examples:
+  - kind: example
+    title: '`examples/codex-config.toml`'
+    url: https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/examples/codex-config.toml
+    source: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+  - kind: example
+    title: '`examples/claude-code-config.json`'
+    url: https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/examples/claude-code-config.json
+    source: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/AGENT_GUIDE.md`'
+    url: https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/docs/AGENT_GUIDE.md
+    source: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/codex-config.toml`'
+    url: https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/examples/codex-config.toml
+    source: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+  - kind: docs
+    title: '`docs/AGENT_GUIDE.md`'
+    url: https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/docs/AGENT_GUIDE.md
+    source: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+  - kind: example
+    title: '`examples/claude-code-config.json`'
+    url: https://github.com/Siddharth11Roy/tldraw-claude-mcp/blob/HEAD/examples/claude-code-config.json
+    source: https://raw.githubusercontent.com/Siddharth11Roy/tldraw-claude-mcp/HEAD/README.md
+  source_headings:
+  - create_diagram
+- name: Mermaid MCP by fay-i
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/fay-i/mermaid-mcp
+  homepage: https://www.npmjs.com/package/@fay-i/mermaid-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: TypeScript MCP server that renders Mermaid source into durable SVG, PDF, and multi-page deck artifacts with
+    Puppeteer, Mermaid CLI, local or S3 storage, themes, fonts, and download URLs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/fay-i/mermaid-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/fay-i/mermaid-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mermaid MCP Server
+    bytes: 13821
+  - kind: homepage
+    url: https://www.npmjs.com/package/@fay-i/mermaid-mcp
+    final_url: https://www.npmjs.com/package/@fay-i/mermaid-mcp
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/fay-i/mermaid-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Mermaid Documentation
+    url: https://mermaid.js.org/
+    source: https://raw.githubusercontent.com/fay-i/mermaid-mcp/HEAD/README.md
+  source_headings:
+  - Check disk usage
+  - Documentation
+- name: Lucid MCP Server
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/smartzan63/lucid-mcp-server
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Lucid API MCP bridge for discovering LucidChart, LucidSpark, and LucidScale documents, exporting diagram pages
+    as PNG image blocks, and creating new Lucid diagrams from Standard Import JSON.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Lucid MCP Server
+    bytes: 10075
+  official_docs:
+  - kind: docs
+    title: Lucid Developer Portal
+    url: https://developer.lucid.co/docs/api-keys
+    source: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+  - kind: docs
+    title: Lucid Developer API
+    url: https://developer.lucid.co/
+    source: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+  - kind: docs
+    title: MCP Typescript SDK Documentation
+    url: https://github.com/modelcontextprotocol/typescript-sdk
+    source: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Lucid Developer Portal
+    url: https://developer.lucid.co/docs/api-keys
+    source: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+  - kind: docs
+    title: Lucid Developer API
+    url: https://developer.lucid.co/
+    source: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+  - kind: docs
+    title: MCP Typescript SDK Documentation
+    url: https://github.com/modelcontextprotocol/typescript-sdk
+    source: https://raw.githubusercontent.com/smartzan63/lucid-mcp-server/HEAD/README.md
+  source_headings:
+  - 'Example: Claude Code'
+  - Usage
+  - Example Prompts
+  - ✏️ `create-diagram`
+  - 🗑️ `delete-diagram`
+- name: Convex MCP Visual
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/waynesutton/convex-mcp-visual
+  homepage: https://www.npmjs.com/package/convex-mcp-visual
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP server, CLI, and Claude plugin for Convex schema browsers, component views, real-time metric dashboards,
+    Mermaid ER diagrams, codebase subway maps, heatmaps, drift views, and kanban boards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Convex MCP Visual
+    bytes: 14078
+  - kind: homepage
+    url: https://www.npmjs.com/package/convex-mcp-visual
+    final_url: https://www.npmjs.com/package/convex-mcp-visual
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: Management API
+    url: https://docs.convex.dev/management-api
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Platform APIs
+    url: https://docs.convex.dev/platform-apis
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Claude plugin docs
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/files-claude-plugin.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Setup Guide
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/setup.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Tools Reference
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/tools.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Limitations
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/limitations.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Plugin Distribution
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/deployplugin.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: 'User Guide: Schema Browser'
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/user-guide-schema-browser.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: 'User Guide: Dashboard'
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/user-guide-dashboard.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Codex MCP docs
+    url: https://developers.openai.com/codex/mcp/
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Schema Graph View
+    url: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/assets/schema-graph-demo.png
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Management API
+    url: https://docs.convex.dev/management-api
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Platform APIs
+    url: https://docs.convex.dev/platform-apis
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Claude plugin docs
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/files-claude-plugin.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Setup Guide
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/setup.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Tools Reference
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/tools.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Troubleshooting
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Limitations
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/limitations.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Plugin Distribution
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/deployplugin.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: 'User Guide: Schema Browser'
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/user-guide-schema-browser.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: 'User Guide: Dashboard'
+    url: https://github.com/waynesutton/convex-mcp-visual/blob/HEAD/docs/user-guide-dashboard.md
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  - kind: docs
+    title: Codex MCP docs
+    url: https://developers.openai.com/codex/mcp/
+    source: https://raw.githubusercontent.com/waynesutton/convex-mcp-visual/HEAD/README.md
+  source_headings:
+  - Convex MCP Visual
+  - Documentation
+- name: Power BI PBIR MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/bobzhou-source/powerbi-pbir-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Local stdio MCP server for Power BI PBIP/PBIR report projects, reading semantic models, applying page/visual/theme/layout
+    plans, scaffolding projects, and validating Desktop-compatible report edits.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Power BI PBIR MCP
+    bytes: 1452
+  official_docs:
+  - kind: docs
+    title: docs/PUBLISHING.md
+    url: https://github.com/bobzhou-source/powerbi-pbir-mcp/blob/HEAD/docs/PUBLISHING.md
+    source: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: PBIR MCP workflow
+    url: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/docs/assets/workflow.png
+    source: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md
+  - kind: image
+    title: Benchmark summary
+    url: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/docs/assets/benchmark-summary.png
+    source: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/PUBLISHING.md
+    url: https://github.com/bobzhou-source/powerbi-pbir-mcp/blob/HEAD/docs/PUBLISHING.md
+    source: https://raw.githubusercontent.com/bobzhou-source/powerbi-pbir-mcp/HEAD/README.md
+  source_headings:
+  - Example Prompt
+  - Benchmark
+- name: pbix-mcp
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/d0nk3yhm/pbix-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Python MCP server for creating, reading, editing, documenting, and evaluating Power BI PBIX/PBIT/PBIP files,
+    including pages, visuals, DAX measures, data sources, themes, custom HTML/SVG visuals, and report documentation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pbix-mcp
+    bytes: 52087
+  official_examples:
+  - kind: example
+    title: examples/
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_showcase.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_showcase.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_from_csv.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_from_csv.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_from_sqlite.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_from_sqlite.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_directquery.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_directquery.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_star_schema.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_star_schema.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_all_types.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_all_types.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/html-visuals.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/html-visuals.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/rich-content.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/rich-content.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: derivation
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/reverse-engineering/experiments/cryptkey.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/capability-parity.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/capability-parity.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/dax-coverage.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/dax-coverage.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/supported-dax.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/supported-dax.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: '`docs/vertipaq-spec.md`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/vertipaq-spec.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/html-visuals.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/html-visuals.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/rich-content.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/rich-content.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: derivation
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/reverse-engineering/experiments/cryptkey.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/capability-parity.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/capability-parity.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/dax-coverage.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/dax-coverage.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: docs/supported-dax.md
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/supported-dax.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: examples/
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_showcase.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_showcase.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_from_csv.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_from_csv.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_from_sqlite.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_from_sqlite.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_directquery.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_directquery.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_star_schema.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_star_schema.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: example
+    title: '`create_all_types.py`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/examples/create_all_types.py
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  - kind: docs
+    title: '`docs/vertipaq-spec.md`'
+    url: https://github.com/d0nk3yhm/pbix-mcp/blob/HEAD/docs/vertipaq-spec.md
+    source: https://raw.githubusercontent.com/d0nk3yhm/pbix-mcp/HEAD/README.md
+  source_headings:
+  - Report Layout & Visuals (31)
+  - Resources, Themes & Custom Visuals (18)
+  - Examples

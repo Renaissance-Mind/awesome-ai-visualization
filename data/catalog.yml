@@ -1,4 +1,4 @@
-last_researched: '2026-08-24'
+last_researched: '2026-08-25'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -14995,3 +14995,218 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: docs
+- name: Epic Infographics
+  url: https://github.com/OrRon/EpicInfographics
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-24'
+  note: Agent skill for polished infographic PNGs with chart vocabularies, reusable design languages, self-contained HTML/CSS/SVG generation, Playwright rendering, and render-review-fix QA loops.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: slidev-mcp
+  url: https://github.com/oconsl/slidev-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-06-04'
+  note: Local MCP server for creating, editing, validating, theming, diagramming, and exporting Slidev decks through agent tools and Codex/Claude/OpenCode installer support.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: tl-draw-mcp
+  url: https://github.com/Siddharth11Roy/tldraw-claude-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 14
+  license: MIT
+  updated: '2026-08-10'
+  note: MCP server and agent guide for drawing live tldraw canvases from prompts, with automatic graph layout, label sizing, bound connectors, shape editing, and browser canvas feedback.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 白板/思维导图
+  - 架构图/流程图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: diagrams
+- name: Mermaid MCP by fay-i
+  url: https://github.com/fay-i/mermaid-mcp
+  homepage: https://www.npmjs.com/package/@fay-i/mermaid-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-06-13'
+  note: TypeScript MCP server that renders Mermaid source into durable SVG, PDF, and multi-page deck artifacts with Puppeteer, Mermaid CLI, local or S3 storage, themes, fonts, and download URLs.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  - PPT/演示文稿
+  catalog_section: support_render
+  readme_group: support_render
+- name: Lucid MCP Server
+  url: https://github.com/smartzan63/lucid-mcp-server
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 19
+  license: MIT
+  updated: '2026-08-19'
+  note: Lucid API MCP bridge for discovering LucidChart, LucidSpark, and LucidScale documents, exporting diagram pages as PNG image blocks, and creating new Lucid diagrams from Standard Import JSON.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams
+- name: Convex MCP Visual
+  url: https://github.com/waynesutton/convex-mcp-visual
+  homepage: https://www.npmjs.com/package/convex-mcp-visual
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 20
+  license: unknown
+  updated: '2026-05-17'
+  note: MCP server, CLI, and Claude plugin for Convex schema browsers, component views, real-time metric dashboards, Mermaid ER diagrams, codebase subway maps, heatmaps, drift views, and kanban boards.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - 代码库
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 图表/Mermaid
+  - 代码地图/Repo Wiki
+  catalog_section: main
+  readme_group: data
+- name: Power BI PBIR MCP
+  url: https://github.com/bobzhou-source/powerbi-pbir-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 0
+  license: GPL-2.0
+  updated: '2026-07-25'
+  note: Local stdio MCP server for Power BI PBIP/PBIR report projects, reading semantic models, applying page/visual/theme/layout plans, scaffolding projects, and validating Desktop-compatible report edits.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: pbix-mcp
+  url: https://github.com/d0nk3yhm/pbix-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 15
+  license: MIT
+  updated: '2026-08-23'
+  note: Python MCP server for creating, reading, editing, documenting, and evaluating Power BI PBIX/PBIT/PBIP files, including pages, visuals, DAX measures, data sources, themes, custom HTML/SVG visuals, and report documentation.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
