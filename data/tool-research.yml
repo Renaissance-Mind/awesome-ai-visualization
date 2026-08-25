@@ -1,4 +1,4 @@
-generated_at: '2026-08-24T23:06:46+00:00'
+generated_at: '2026-08-25T23:08:09+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 590
-  fetched_sources_ok: 784
-  fetched_sources_failed: 44
-  official_examples: 1257
-  official_effect_assets: 1616
-  official_docs: 1512
+  entries: 598
+  fetched_sources_ok: 794
+  fetched_sources_failed: 46
+  official_examples: 1260
+  official_effect_assets: 1626
+  official_docs: 1515
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -47144,3 +47144,315 @@ entries:
   - Report Layout & Visuals (31)
   - Resources, Themes & Custom Visuals (18)
   - Examples
+- name: tldr-skill
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/UpayanGhosh/tldr-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude Code skill that turns a repository into a self-hosted interactive explainer website with architecture
+    diagrams, Cytoscape dependency graphs, D3 directory mind maps, search, workflows, and module walkthroughs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/UpayanGhosh/tldr-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/UpayanGhosh/tldr-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: tldr-skill — Instant Codebase Intelligence for Claude Code
+    bytes: 14207
+  source_headings:
+  - Usage
+- name: ChartPane
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/ahmadsl/chartpane
+  homepage: https://mcp.chartpane.com/mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 渲染/导出
+  catalog_note: Hosted MCP App for rendering Chart.js charts and multi-chart dashboard grids inline in MCP clients, with client-side
+    rendering and no server-side data storage.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ahmadsl/chartpane/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ahmadsl/chartpane/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ChartPane
+    bytes: 4319
+  - kind: homepage
+    url: https://mcp.chartpane.com/mcp
+    final_url: https://mcp.chartpane.com/mcp
+    status: 401
+    content_type: application/json
+    error: HTTP 401
+  source_headings:
+  - Usage Examples
+  - 3. Multi-chart dashboard
+- name: PowerPoint MCP by Ayushmaniar
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/Ayushmaniar/powerpoint-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Windows-only PowerPoint MCP server using pywin32 COM automation for live slide creation, reading, visual snapshots,
+    LaTeX equations, templates, animations, and real-time editing.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Ayushmaniar/powerpoint-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Ayushmaniar/powerpoint-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPoint MCP Server
+    bytes: 12103
+  official_effect_assets:
+  - kind: image
+    title: Watch the PowerPoint MCP Demo
+    url: https://raw.githubusercontent.com/Ayushmaniar/powerpoint-mcp/HEAD/video_thumbnail.jpg
+    source: https://raw.githubusercontent.com/Ayushmaniar/powerpoint-mcp/HEAD/README.md
+  source_headings:
+  - Demo Video
+- name: mindmap-markmap-viewer
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/Jaderson-bit/mindmap-markmap-viewer
+  homepage: https://jaderson-bit.github.io/mindmap-markmap-viewer/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Claude Code skill that turns hierarchical Markdown into a self-contained offline markmap HTML mind map with
+    search, expand controls, zoom, and SVG/PNG export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mindmap-markmap-viewer
+    bytes: 5189
+  - kind: homepage
+    url: https://jaderson-bit.github.io/mindmap-markmap-viewer/
+    final_url: https://jaderson-bit.github.io/mindmap-markmap-viewer/
+    status: 200
+    content_type: text/html
+    title: mindmap-markmap-viewer
+    bytes: 662099
+  official_examples:
+  - kind: demo
+    title: ▶ Live demo
+    url: https://jaderson-bit.github.io/mindmap-markmap-viewer/
+    source: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+  - kind: tutorial
+    title: '`references/lessons.md`'
+    url: https://github.com/Jaderson-bit/mindmap-markmap-viewer/blob/HEAD/references/lessons.md
+    source: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Install the skill, ask Claude to turn an outline into a mind map, and open the interactive result
+    url: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/assets/demo.gif
+    source: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+  - kind: image
+    title: One-line prompt in the Claude app producing an interactive Product Management mind map
+    url: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/assets/one-line-demo.png
+    source: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: ▶ Live demo
+    url: https://jaderson-bit.github.io/mindmap-markmap-viewer/
+    source: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+  - kind: tutorial
+    title: '`references/lessons.md`'
+    url: https://github.com/Jaderson-bit/mindmap-markmap-viewer/blob/HEAD/references/lessons.md
+    source: https://raw.githubusercontent.com/Jaderson-bit/mindmap-markmap-viewer/HEAD/README.md
+  source_headings:
+  - Usage
+- name: SimpleMindMap MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/wanglin2/mind-map-mcp
+  homepage: https://www.npmjs.com/package/simple-mind-map-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  catalog_note: SimpleMindMap MCP server that lets AI agents open an editor, set mind-map data, theme and layout, and export
+    maps as image, PDF, Markdown, SVG, TXT, or XMind.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wanglin2/mind-map-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wanglin2/mind-map-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SimpleMindMap MCP Server
+    bytes: 4066
+  - kind: homepage
+    url: https://www.npmjs.com/package/simple-mind-map-mcp
+    final_url: https://www.npmjs.com/package/simple-mind-map-mcp
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: 接管模式
+    url: https://wanglin2.github.io/mind-map-docs/start/deploy.html
+    source: https://raw.githubusercontent.com/wanglin2/mind-map-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 接管模式
+    url: https://wanglin2.github.io/mind-map-docs/start/deploy.html
+    source: https://raw.githubusercontent.com/wanglin2/mind-map-mcp/HEAD/README.md
+  source_headings:
+  - 使用示例
+- name: Diagram Designer
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/LeDat98/mcp-diagram-designer
+  homepage: https://mcpize.com/mcp/diagram-designer
+  dependencies:
+  - MCP Client
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server that transforms Mermaid architecture descriptions into polished cloud, dark-mode, and isometric
+    diagram images for presentations, documentation, blogs, and README files.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Diagram Designer
+    bytes: 9554
+  - kind: homepage
+    url: https://mcpize.com/mcp/diagram-designer
+    final_url: https://mcpize.com/mcp/diagram-designer
+    status: 200
+    content_type: text/html
+    title: 'diagram-designer MCP: Mermaid to Architecture Diagram PNG'
+    description: MCP server converting Mermaid code to high-res PNG diagrams with styles, aspect ratios, cloud palettes. For
+      software architects and DevOps engineers.
+    bytes: 57559
+  official_examples:
+  - kind: demo
+    title: Try in Playground
+    url: https://mcpize.com/mcp/diagram-designer/playground
+    source: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: API Docs
+    url: https://mcpize.com/mcp/diagram-designer/api
+    source: https://mcpize.com/mcp/diagram-designer
+  - kind: docs
+    title: Developer Guide
+    url: https://mcpize.com/developers
+    source: https://mcpize.com/mcp/diagram-designer
+  official_effect_assets:
+  - kind: image
+    title: DeepRAG Cloud Architecture
+    url: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/showcase/Deeprag_cloud.jpg
+    source: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+  - kind: image
+    title: ShopFlow Cloud Architecture
+    url: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/showcase/ecommerce_cloud.jpg
+    source: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+  - kind: image
+    title: DataPulse Streaming Architecture
+    url: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/showcase/streaming_darkmode.jpg
+    source: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+  - kind: image
+    title: NeuralForge MLOps Architecture
+    url: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/showcase/ai_platform_isometric.jpg
+    source: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+  - kind: image
+    title: Cloud Style
+    url: https://pub-c928d2680bf2451480f2f099221e8687.r2.dev/showcase/ecommerce_cloud.png
+    source: https://mcpize.com/mcp/diagram-designer
+  - kind: image
+    title: Darkmode Style
+    url: https://pub-c928d2680bf2451480f2f099221e8687.r2.dev/showcase/streaming_darkmode.png
+    source: https://mcpize.com/mcp/diagram-designer
+  - kind: image
+    title: Isometric Style
+    url: https://pub-c928d2680bf2451480f2f099221e8687.r2.dev/showcase/ai_platform_isometric.png
+    source: https://mcpize.com/mcp/diagram-designer
+  official_links:
+  - kind: demo
+    title: Try in Playground
+    url: https://mcpize.com/mcp/diagram-designer/playground
+    source: https://raw.githubusercontent.com/LeDat98/mcp-diagram-designer/HEAD/README.md
+  - kind: docs
+    title: API Docs
+    url: https://mcpize.com/mcp/diagram-designer/api
+    source: https://mcpize.com/mcp/diagram-designer
+  - kind: docs
+    title: Developer Guide
+    url: https://mcpize.com/developers
+    source: https://mcpize.com/mcp/diagram-designer
+  source_headings:
+  - Diagram Designer
+  - Transform messy Mermaid code into stunning architecture diagrams
+  - Showcase
+  - 'Step 4: Generate Your Diagram'
+- name: mcp-powerpoint
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/islem-zaraa/mcp-powerpoint
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: JavaScript MCP plugin and CLI for creating PowerPoint files, adding slides, reading slide metadata, and exporting
+    presentations to PDF.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/islem-zaraa/mcp-powerpoint/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/islem-zaraa/mcp-powerpoint/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP PowerPoint Plugin
+    bytes: 3198
+  source_headings:
+  - Usage as CLI
+  - Create a new presentation
+  - Add a slide to an existing presentation
+  - Get slides from a presentation
+  - Export presentation to PDF
+  - Read presentation metadata
+  - Usage as MCP Plugin
+  - mcp_powerpoint_create_presentation
+  - mcp_powerpoint_add_slide
+  - mcp_powerpoint_get_slides
+  - mcp_powerpoint_read_presentation
+- name: Skill Atlas
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/ddutche/skill-atlas
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local React canvas for browsing, editing, and understanding Claude Skills from a GitHub repository, with grouped
+    skill nodes, GitHub-backed saves, and Claude-generated Mermaid flowcharts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ddutche/skill-atlas/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ddutche/skill-atlas/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Skill Atlas
+    bytes: 2588

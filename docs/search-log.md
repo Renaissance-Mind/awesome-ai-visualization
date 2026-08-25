@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-25.
+Last researched: 2026-08-26.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-26: refreshed codebase explainer, in-chat Chart.js dashboard, Windows PowerPoint COM automation, offline markmap, browser mind-map editor, Mermaid-to-architecture-image, JavaScript PowerPoint, and Claude Skill canvas/diagramming surfaces from official GitHub repositories, README evidence, project/homepage pages, live web/GitHub searches, and GitHub metadata. This pass added tldr-skill, ChartPane, PowerPoint MCP by Ayushmaniar, mindmap-markmap-viewer, SimpleMindMap MCP Server, Diagram Designer, mcp-powerpoint, and Skill Atlas. The targeted scraper ran only against these eight new records, fetched ten official sources successfully with two expected MCP/App or npm endpoint authorization failures, and found three official examples, ten official preview assets, and three official docs links after scrubbing one signup/pricing link from the Diagram Designer research record.
 
 Update on 2026-08-25: refreshed source-backed infographic, Slidev deck, live whiteboard, Mermaid rendering, Lucid diagram, Convex schema/dashboard, and Power BI report-authoring MCP surfaces from official GitHub repositories, README evidence, npm package metadata where available, live GitHub searches, and GitHub metadata. This pass added Epic Infographics, slidev-mcp, tl-draw-mcp, Mermaid MCP by fay-i, Lucid MCP Server, Convex MCP Visual, Power BI PBIR MCP, and pbix-mcp. The targeted scraper ran only against these eight new records, fetched eight official GitHub README sources successfully, observed two npm package-page 403 responses, and found ten official examples, fourteen official preview assets, and twenty-five official docs links with no presigned URLs or dummy assets merged.
 

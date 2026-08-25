@@ -1,4 +1,4 @@
-last_researched: '2026-08-25'
+last_researched: '2026-08-26'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -15210,3 +15210,204 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: data
+- name: tldr-skill
+  url: https://github.com/UpayanGhosh/tldr-skill
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 12
+  license: unknown
+  updated: '2026-08-25'
+  note: Claude Code skill that turns a repository into a self-hosted interactive explainer website with architecture diagrams, Cytoscape dependency graphs, D3 directory mind maps, search, workflows, and module walkthroughs.
+  source_types:
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 白板/思维导图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code
+- name: ChartPane
+  url: https://github.com/ahmadsl/chartpane
+  homepage: https://mcp.chartpane.com/mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-03-04'
+  note: Hosted MCP App for rendering Chart.js charts and multi-chart dashboard grids inline in MCP clients, with client-side rendering and no server-side data storage.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: PowerPoint MCP by Ayushmaniar
+  url: https://github.com/Ayushmaniar/powerpoint-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 112
+  license: unknown
+  updated: '2026-08-18'
+  note: Windows-only PowerPoint MCP server using pywin32 COM automation for live slide creation, reading, visual snapshots, LaTeX equations, templates, animations, and real-time editing.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - PDF/文档
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: mindmap-markmap-viewer
+  url: https://github.com/Jaderson-bit/mindmap-markmap-viewer
+  homepage: https://jaderson-bit.github.io/mindmap-markmap-viewer/
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  stars: 72
+  license: unknown
+  updated: '2026-08-25'
+  note: Claude Code skill that turns hierarchical Markdown into a self-contained offline markmap HTML mind map with search, expand controls, zoom, and SVG/PNG export.
+  source_types:
+  - 文本/想法
+  - 知识库/个人资料
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 白板/思维导图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: knowledge
+- name: SimpleMindMap MCP Server
+  url: https://github.com/wanglin2/mind-map-mcp
+  homepage: https://www.npmjs.com/package/simple-mind-map-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  stars: 4
+  license: unknown
+  updated: '2026-08-25'
+  note: SimpleMindMap MCP server that lets AI agents open an editor, set mind-map data, theme and layout, and export maps as image, PDF, Markdown, SVG, TXT, or XMind.
+  source_types:
+  - 文本/想法
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: knowledge
+- name: Diagram Designer
+  url: https://github.com/LeDat98/mcp-diagram-designer
+  homepage: https://mcpize.com/mcp/diagram-designer
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-03-11'
+  note: MCP server that transforms Mermaid architecture descriptions into polished cloud, dark-mode, and isometric diagram images for presentations, documentation, blogs, and README files.
+  source_types:
+  - DSL/代码
+  - 代码/技术描述
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams
+- name: mcp-powerpoint
+  url: https://github.com/islem-zaraa/mcp-powerpoint
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 5
+  license: unknown
+  updated: '2025-10-28'
+  note: JavaScript MCP plugin and CLI for creating PowerPoint files, adding slides, reading slide metadata, and exporting presentations to PDF.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Skill Atlas
+  url: https://github.com/ddutche/skill-atlas
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 0
+  license: unknown
+  updated: '2026-08-04'
+  note: Local React canvas for browsing, editing, and understanding Claude Skills from a GitHub repository, with grouped skill nodes, GitHub-backed saves, and Claude-generated Mermaid flowcharts.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code
