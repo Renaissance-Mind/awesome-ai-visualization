@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-26.
+Last researched: 2026-08-27.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-27: refreshed document-conversion, Google Workspace artifact-control, AI-native video-production, local decision-dashboard, PowerPoint add-in/MCP, Xmind mind-map, and Claude Code usage-dashboard surfaces from official GitHub repositories, README evidence, project documentation/homepages, live web/GitHub searches, and GitHub metadata. This pass added all2md, Google Workspace MCP Server, claude-code-video-toolkit, local-dashboard-builder, PPT-KIT, Xmind Generator MCP Server, Token Dashboard, and Claude Usage Dashboard. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept thirty-five official examples, twenty-one official preview assets, and forty-eight docs links after stripping tracking parameters and removing one non-project newsletter asset.
 
 Update on 2026-08-26: refreshed codebase explainer, in-chat Chart.js dashboard, Windows PowerPoint COM automation, offline markmap, browser mind-map editor, Mermaid-to-architecture-image, JavaScript PowerPoint, and Claude Skill canvas/diagramming surfaces from official GitHub repositories, README evidence, project/homepage pages, live web/GitHub searches, and GitHub metadata. This pass added tldr-skill, ChartPane, PowerPoint MCP by Ayushmaniar, mindmap-markmap-viewer, SimpleMindMap MCP Server, Diagram Designer, mcp-powerpoint, and Skill Atlas. The targeted scraper ran only against these eight new records, fetched ten official sources successfully with two expected MCP/App or npm endpoint authorization failures, and found three official examples, ten official preview assets, and three official docs links after scrubbing one signup/pricing link from the Diagram Designer research record.
 

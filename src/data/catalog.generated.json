@@ -1,97 +1,97 @@
 {
-  "generatedAt": "2026-08-25T23:08:09+00:00",
-  "lastResearched": "2026-08-26",
+  "generatedAt": "2026-08-26T23:06:49+00:00",
+  "lastResearched": "2026-08-27",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 598,
-    "openSource": 149,
+    "total": 606,
+    "openSource": 153,
     "saas": 64,
-    "modelApi": 200,
-    "examples": 1260,
-    "effectAssets": 1626,
-    "docs": 1515
+    "modelApi": 201,
+    "examples": 1295,
+    "effectAssets": 1647,
+    "docs": 1563
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 60,
-      "PDF/文档": 186,
-      "文本/想法": 378,
-      "数据/表格": 235,
+      "PDF/文档": 187,
+      "文本/想法": 381,
+      "数据/表格": 240,
       "代码/技术描述": 112,
-      "网页/搜索结果": 160,
-      "代码库": 61,
-      "DSL/代码": 119,
+      "网页/搜索结果": 163,
+      "代码库": 64,
+      "DSL/代码": 121,
       "新闻/资讯": 26,
-      "知识库/个人资料": 55,
-      "任意/多源": 92,
-      "Office 文档": 110,
+      "知识库/个人资料": 59,
+      "任意/多源": 93,
+      "Office 文档": 113,
       "引用网络": 4,
-      "数据库": 55,
-      "视频/音频": 2
+      "数据库": 56,
+      "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 149,
-      "Agent Skill": 205,
-      "Skill 集合": 51,
-      "MCP Server": 195,
+      "开源应用/框架": 153,
+      "Agent Skill": 206,
+      "Skill 集合": 52,
+      "MCP Server": 199,
       "产品/SaaS": 64,
       "数据集/评测": 2,
       "Bot/助手": 20,
       "研究原型": 6,
-      "API/SDK/库": 92,
+      "API/SDK/库": 94,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 45,
-      "PPT/演示文稿": 257,
-      "网页/交互页面": 193,
+      "图形摘要/信息图": 46,
+      "PPT/演示文稿": 260,
+      "网页/交互页面": 198,
       "问答/学习材料": 15,
-      "报告/长文档": 82,
+      "报告/长文档": 84,
       "证据表": 41,
       "信息图/视觉报告": 85,
-      "图表/仪表盘": 173,
+      "图表/仪表盘": 177,
       "架构图/流程图": 132,
-      "SVG/PNG/PDF": 239,
+      "SVG/PNG/PDF": 240,
       "报告/简报": 72,
-      "白板/思维导图": 39,
-      "图表/Mermaid": 66,
-      "视频/音频": 40,
-      "结构化数据/Markdown": 84,
-      "表格/时间线": 18,
+      "白板/思维导图": 40,
+      "图表/Mermaid": 67,
+      "视频/音频": 41,
+      "结构化数据/Markdown": 87,
+      "表格/时间线": 21,
       "引用答案": 5,
-      "思维导图/知识地图": 35,
+      "思维导图/知识地图": 36,
       "文献地图/知识地图": 4,
       "代码地图/Repo Wiki": 38,
       "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 488,
-      "模型 API": 200,
-      "文档解析/OCR": 90,
-      "渲染/导出": 508,
-      "GPU/加速器": 17,
-      "模板/素材": 279,
-      "Agent 宿主": 265,
-      "系统工具": 126,
-      "浏览器/账号": 152,
-      "存储/索引": 79,
-      "MCP Client": 205,
-      "外部检索/数据源": 125,
+      "本地语言环境": 496,
+      "模型 API": 201,
+      "文档解析/OCR": 91,
+      "渲染/导出": 516,
+      "GPU/加速器": 18,
+      "模板/素材": 281,
+      "Agent 宿主": 267,
+      "系统工具": 129,
+      "浏览器/账号": 153,
+      "存储/索引": 83,
+      "MCP Client": 208,
+      "外部检索/数据源": 126,
       "代码分析工具": 39
     },
     "categories": {
       "paper-visualization": 17,
-      "doc-to-knowledge": 53,
+      "doc-to-knowledge": 55,
       "research-report": 28,
       "infographic-report": 55,
-      "data-dashboard": 91,
+      "data-dashboard": 94,
       "diagram-generation": 75,
       "literature-map": 4,
-      "presentation-tools": 173,
+      "presentation-tools": 175,
       "codebase-map": 35,
       "rendering-primitive": 17,
-      "video-generation": 11,
+      "video-generation": 12,
       "commercial-site": 10,
       "meta-index": 29
     },
@@ -99,15 +99,15 @@
       "paper": 30,
       "text_visual": 69,
       "web_news": 9,
-      "support_mindmap": 14,
+      "support_mindmap": 15,
       "docs": 31,
-      "support_doc_parse": 19,
-      "presentation": 183,
+      "support_doc_parse": 20,
+      "presentation": 185,
       "code": 38,
       "support_render": 57,
       "diagrams": 19,
-      "video": 11,
-      "data": 84,
+      "video": 12,
+      "data": 87,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -49298,6 +49298,809 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "all2md",
+      "url": "https://github.com/thomas-villani/all2md",
+      "primaryUrl": "https://github.com/thomas-villani/all2md",
+      "homepage": "https://all2md.readthedocs.io/",
+      "category": "doc-to-knowledge",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 27,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Python library, CLI, and MCP server that converts PDFs, Office files, HTML, email, spreadsheets, and 40+ formats into LLM-ready Markdown, then renders Markdown back to DOCX, PDF, PPTX, HTML, and browser previews.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "结构化数据/Markdown",
+        "报告/长文档",
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://all2md.readthedocs.io/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP documentation",
+          "url": "https://all2md.readthedocs.io/en/latest/mcp.html",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Agent Skills documentation",
+          "url": "https://all2md.readthedocs.io/en/latest/agent_skills.html",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "full documentation",
+          "url": "https://all2md.readthedocs.io/en/latest/github_action.html",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Performance Tuning docs",
+          "url": "https://all2md.readthedocs.io/en/latest/performance.html",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Installation Guide",
+          "url": "https://all2md.readthedocs.io/installation.html",
+          "source": "https://all2md.readthedocs.io/en/latest/"
+        },
+        {
+          "kind": "docs",
+          "title": "Quick Start Guide",
+          "url": "https://all2md.readthedocs.io/quickstart.html",
+          "source": "https://all2md.readthedocs.io/en/latest/"
+        },
+        {
+          "kind": "docs",
+          "title": "Python API Workflows",
+          "url": "https://all2md.readthedocs.io/python_api.html",
+          "source": "https://all2md.readthedocs.io/en/latest/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Template Guide",
+          "url": "https://all2md.readthedocs.io/en/latest/templates.html",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/templates/",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/examples/templates/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/python/",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/examples/python/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/plugins/",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/examples/plugins/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Conversion Fidelity",
+          "url": "https://all2md.readthedocs.io/en/latest/benchmarks.html",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`benchmarks/comparison/`",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/comparison/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`benchmarks/pmc/`",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/pmc/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`benchmarks/omnidocbench/`",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/omnidocbench/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`benchmarks/roundtrip/`",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/roundtrip/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`benchmarks/corpus/`",
+          "url": "https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/corpus/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Custom Templates with Jinja2",
+          "url": "https://all2md.readthedocs.io/templates.html",
+          "source": "https://all2md.readthedocs.io/en/latest/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 16,
+      "examplesCount": 20,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Google Workspace MCP Server",
+      "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+      "primaryUrl": "https://github.com/taylorwilsdon/google_workspace_mcp",
+      "homepage": "https://workspacemcp.com",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 3073,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Google Workspace MCP server and CLI with OAuth, local or remote deployment, and 120+ tools for agents to read, create, edit, and manage Google Docs, Sheets, Slides, Drive files, Forms, and related Workspace artifacts.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "知识库/个人资料",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Quick Start",
+          "url": "https://workspacemcp.com/quick-start",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Full Documentation",
+          "url": "https://workspacemcp.com/docs",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Advanced Deployment",
+          "url": "https://workspacemcp.com/docs/deployment",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "trusted-gateway identity",
+          "url": "https://workspacemcp.com/docs/deployment/gateway-identity",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Client Setup Guides",
+          "url": "https://workspacemcp.com/guides",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "complete reference",
+          "url": "https://workspacemcp.com/docs",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "workspacemcp.com/quick-start",
+          "url": "https://workspacemcp.com/quick-start",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "quick start guide",
+          "url": "https://workspacemcp.com/quick-start",
+          "source": "https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "📖 Full API Reference Every tool across all twelve services — parameters, examples, and usage patterns.",
+          "url": "https://workspacemcp.com/docs",
+          "source": "https://workspacemcp.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Google Workspace MCP Server - Gmail, Drive, Docs, Sheets, Calendar AI Integration",
+          "url": "https://workspacemcp.com/og-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://workspacemcp.com/"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "claude-code-video-toolkit",
+      "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+      "primaryUrl": "https://github.com/digitalsamba/claude-code-video-toolkit",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "GPU/加速器",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2009,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Claude Code video-production workspace with skills, commands, templates, Remotion, FFmpeg, Playwright recording, voice, image, music, and open-model video tools for turning prompts, demos, and explainers into rendered MP4s.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "视频/音频",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "图形摘要/信息图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/modal-setup.md",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/modal-setup.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/runpod-setup.md",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/runpod-setup.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Getting Started",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/getting-started.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Creating Brands",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/creating-brands.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Optional Components",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/optional-components.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/codex.md",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/codex.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/kiro.md",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/kiro.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "`_internal/toolkit-registry.json`",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/_internal/toolkit-registry.json",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "hallucinations-short",
+          "url": "https://demos.digitalsamba.com/video/hallucinations_short.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "sky-blue-short",
+          "url": "https://demos.digitalsamba.com/video/short-blue-sky.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "q2-townhall-stars",
+          "url": "https://demos.digitalsamba.com/video/q2-townhall-stars.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "q2-townhall-longarm-ad",
+          "url": "https://demos.digitalsamba.com/video/q2-townhall-longarm-ad.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "the-space-between",
+          "url": "https://demos.digitalsamba.com/video/the-space-between.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "cortina",
+          "url": "https://demos.digitalsamba.com/video/sprint-review.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "schlumbergera",
+          "url": "https://demos.digitalsamba.com/video/schlumbergera.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "ds-remote-mcp",
+          "url": "https://demos.digitalsamba.com/video/ds-remote-mcp.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "digital-samba-skill-demo",
+          "url": "https://demos.digitalsamba.com/video/digital-samba-skill-demo.mp4",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Creating Templates",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/creating-templates.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Toolkit Development",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/_internal/ROADMAP.md",
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "digital-samba-skill-demo",
+          "url": "https://demos.digitalsamba.com/video/digital-samba-skill-demo.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "claude-code-video-toolkit — NARRATE ▸ SCORE ▸ GENERATE ▸ COMPOSE ▸ RENDER",
+          "url": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/banner/toolkit-banner.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Super Bowl-style launch ad",
+          "url": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/readme-thumbs/q2-townhall-longarm-ad.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI hallucinations explainer short",
+          "url": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/readme-thumbs/hallucinations-short.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Why is the sky blue? short",
+          "url": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/readme-thumbs/sky-blue-short.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "hallucinations-short",
+          "url": "https://demos.digitalsamba.com/video/hallucinations_short.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "sky-blue-short",
+          "url": "https://demos.digitalsamba.com/video/short-blue-sky.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "q2-townhall-longarm-ad",
+          "url": "https://demos.digitalsamba.com/video/q2-townhall-longarm-ad.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "the-space-between",
+          "url": "https://demos.digitalsamba.com/video/the-space-between.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "cortina",
+          "url": "https://demos.digitalsamba.com/video/sprint-review.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "schlumbergera",
+          "url": "https://demos.digitalsamba.com/video/schlumbergera.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "ds-remote-mcp",
+          "url": "https://demos.digitalsamba.com/video/ds-remote-mcp.mp4",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md"
+        }
+      ],
+      "docsCount": 8,
+      "examplesCount": 14,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "local-dashboard-builder",
+      "url": "https://github.com/walm00/local-dashboard-builder",
+      "primaryUrl": "https://github.com/walm00/local-dashboard-builder",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-05-12",
+      "note": "Claude Code plugin and skill that walks a repo through a manifest-tracked workflow to scaffold zero-dependency local HTML decision dashboards from CSV, SQLite, git, subprocess, filesystem, or custom collectors.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "minimal dashboard — all seven panel kinds",
+          "url": "https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/.github/images/minimal.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "engagements dashboard — portfolio-tracking with severity cascades",
+          "url": "https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/.github/images/engagements.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "PPT-KIT",
+      "url": "https://github.com/loonghao/ppt-kit",
+      "primaryUrl": "https://github.com/loonghao/ppt-kit",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-05-08",
+      "note": "PowerPoint Office add-in with an MCP bridge server, WebSocket bridge, Markdown editor, code highlighting, Mermaid rendering, and Office.js operations for creating, syncing, and manipulating live PowerPoint slides.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "PPT-KIT Screenshot",
+          "url": "https://raw.githubusercontent.com/loonghao/ppt-kit/HEAD/ppt-kit.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/loonghao/ppt-kit/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Xmind Generator MCP Server",
+      "url": "https://github.com/BangyiZhang/xmind-generator-mcp",
+      "primaryUrl": "https://github.com/BangyiZhang/xmind-generator-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 44,
+      "license": "MIT",
+      "updated": "2026-07-22",
+      "note": "Node.js MCP server that lets LLM clients generate editable Xmind mind maps with hierarchical topics, notes, labels, markers, and relationships, and read existing .xmind files back out as Markdown outlines.",
+      "sourceTypes": [
+        "文本/想法",
+        "知识库/个人资料",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "白板/思维导图",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Token Dashboard",
+      "url": "https://github.com/nateherkai/token-dashboard",
+      "primaryUrl": "https://github.com/nateherkai/token-dashboard",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 669,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Local, no-telemetry dashboard that reads Claude Code JSONL transcripts and turns them into per-prompt cost analytics, tool and file heatmaps, subagent attribution, cache analytics, project comparisons, and rule-based tips.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "表格/时间线",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "limitations",
+          "url": "https://github.com/nateherkai/token-dashboard/blob/HEAD/docs/KNOWN_LIMITATIONS.md",
+          "source": "https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/inspiration.md`",
+          "url": "https://github.com/nateherkai/token-dashboard/blob/HEAD/docs/inspiration.md",
+          "source": "https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Overview tab — totals and daily charts",
+          "url": "https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/docs/images/dashboard-overview-top.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Overview tab — per-project, per-model, top tools, recent sessions",
+          "url": "https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/docs/images/dashboard-overview-bottom.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Claude Usage Dashboard",
+      "url": "https://github.com/phuryn/claude-usage",
+      "primaryUrl": "https://github.com/phuryn/claude-usage",
+      "homepage": "https://www.productcompass.pm/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 2179,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Dependency-free local web app and VS Code extension that scans Claude Code session logs and visualizes token usage, model mix, sessions, projects, costs, hourly activity, and collapsible Chart.js dashboard sections.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "表格/时间线",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "**VS Code extension**",
+          "url": "https://marketplace.visualstudio.com/items?itemName=PawelHuryn.claude-usage-phuryn",
+          "source": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "**See in Open VSX Registry →**",
+          "url": "https://open-vsx.org/extension/PawelHuryn/claude-usage-phuryn",
+          "source": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Claude Usage Dashboard",
+          "url": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/docs/screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "VS Code extension — daily usage",
+          "url": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/docs/usage1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "VS Code extension — hourly + projects",
+          "url": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/docs/usage2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
     }
   ]
 }

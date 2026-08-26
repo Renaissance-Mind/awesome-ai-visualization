@@ -1,4 +1,4 @@
-generated_at: '2026-08-25T23:08:09+00:00'
+generated_at: '2026-08-26T23:06:49+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 598
-  fetched_sources_ok: 794
+  entries: 606
+  fetched_sources_ok: 805
   fetched_sources_failed: 46
-  official_examples: 1260
-  official_effect_assets: 1626
-  official_docs: 1515
+  official_examples: 1295
+  official_effect_assets: 1647
+  official_docs: 1563
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -47456,3 +47456,1038 @@ entries:
     content_type: text/plain
     title: Skill Atlas
     bytes: 2588
+- name: all2md
+  category: doc-to-knowledge
+  surface: library
+  primary_url: https://github.com/thomas-villani/all2md
+  homepage: https://all2md.readthedocs.io/
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Python library, CLI, and MCP server that converts PDFs, Office files, HTML, email, spreadsheets, and 40+ formats
+    into LLM-ready Markdown, then renders Markdown back to DOCX, PDF, PPTX, HTML, and browser previews.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: all2md
+    bytes: 30321
+  - kind: homepage
+    url: https://all2md.readthedocs.io/en/latest/
+    final_url: https://all2md.readthedocs.io/en/latest/
+    status: 200
+    content_type: text/html
+    title: all2md Documentation — all2md 1.13.0 documentation
+    bytes: 62440
+  official_examples:
+  - kind: example
+    title: Examples
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: template
+    title: Template Guide
+    url: https://all2md.readthedocs.io/en/latest/templates.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: examples/templates/
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/templates/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: examples/python/
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/python/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: examples/plugins/
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/plugins/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: Conversion Fidelity
+    url: https://all2md.readthedocs.io/en/latest/benchmarks.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/comparison/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/comparison/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/pmc/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/pmc/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/omnidocbench/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/omnidocbench/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/roundtrip/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/roundtrip/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/corpus/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/corpus/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: template
+    title: Custom Templates with Jinja2
+    url: https://all2md.readthedocs.io/templates.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: paper
+    title: Conversion Fidelity
+    url: https://all2md.readthedocs.io/benchmarks.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Custom Formats with Jinja2 Templates
+    url: https://all2md.readthedocs.io/python_api.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Practical Examples
+    url: https://all2md.readthedocs.io/cli.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Themes
+    url: https://all2md.readthedocs.io/viewer.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: tutorial
+    title: 'Interactive Walkthrough: all2md batch'
+    url: https://all2md.readthedocs.io/batch.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Configuration Examples
+    url: https://all2md.readthedocs.io/attachments.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Practical Examples
+    url: https://all2md.readthedocs.io/ast_guide.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Layout analysis
+    url: https://all2md.readthedocs.io/pdf.html
+    source: https://all2md.readthedocs.io/en/latest/
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://all2md.readthedocs.io/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: MCP documentation
+    url: https://all2md.readthedocs.io/en/latest/mcp.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: Agent Skills documentation
+    url: https://all2md.readthedocs.io/en/latest/agent_skills.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: full documentation
+    url: https://all2md.readthedocs.io/en/latest/github_action.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: Performance Tuning docs
+    url: https://all2md.readthedocs.io/en/latest/performance.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: Installation Guide
+    url: https://all2md.readthedocs.io/installation.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Quick Start Guide
+    url: https://all2md.readthedocs.io/quickstart.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Python API Workflows
+    url: https://all2md.readthedocs.io/python_api.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Linting & Enforcing a Style Guide
+    url: https://all2md.readthedocs.io/lint_guide.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Working with the AST
+    url: https://all2md.readthedocs.io/ast_guide.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Plugin Development Guide
+    url: https://all2md.readthedocs.io/plugins.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: API Reference
+    url: https://all2md.readthedocs.io/api/index.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Basic Usage
+    url: https://all2md.readthedocs.io/cli.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Generated Reference
+    url: https://all2md.readthedocs.io/options.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: API Reference
+    url: https://all2md.readthedocs.io/static_sites.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Security Options Quick Reference
+    url: https://all2md.readthedocs.io/threat_model.html
+    source: https://all2md.readthedocs.io/en/latest/
+  official_links:
+  - kind: docs
+    title: Documentation
+    url: https://all2md.readthedocs.io/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: template
+    title: Template Guide
+    url: https://all2md.readthedocs.io/en/latest/templates.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: examples/templates/
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/templates/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: examples/python/
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/python/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: MCP documentation
+    url: https://all2md.readthedocs.io/en/latest/mcp.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: Agent Skills documentation
+    url: https://all2md.readthedocs.io/en/latest/agent_skills.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: full documentation
+    url: https://all2md.readthedocs.io/en/latest/github_action.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: example
+    title: examples/plugins/
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/examples/plugins/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: Conversion Fidelity
+    url: https://all2md.readthedocs.io/en/latest/benchmarks.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/comparison/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/comparison/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/pmc/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/pmc/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/omnidocbench/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/omnidocbench/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/roundtrip/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/roundtrip/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/corpus/`'
+    url: https://github.com/thomas-villani/all2md/blob/HEAD/benchmarks/corpus/
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: Performance Tuning docs
+    url: https://all2md.readthedocs.io/en/latest/performance.html
+    source: https://raw.githubusercontent.com/thomas-villani/all2md/HEAD/README.md
+  - kind: docs
+    title: Installation Guide
+    url: https://all2md.readthedocs.io/installation.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Quick Start Guide
+    url: https://all2md.readthedocs.io/quickstart.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Python API Workflows
+    url: https://all2md.readthedocs.io/python_api.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Linting & Enforcing a Style Guide
+    url: https://all2md.readthedocs.io/lint_guide.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Working with the AST
+    url: https://all2md.readthedocs.io/ast_guide.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Custom Templates with Jinja2
+    url: https://all2md.readthedocs.io/templates.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: paper
+    title: Conversion Fidelity
+    url: https://all2md.readthedocs.io/benchmarks.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Plugin Development Guide
+    url: https://all2md.readthedocs.io/plugins.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: API Reference
+    url: https://all2md.readthedocs.io/api/index.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Custom Formats with Jinja2 Templates
+    url: https://all2md.readthedocs.io/python_api.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Basic Usage
+    url: https://all2md.readthedocs.io/cli.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Practical Examples
+    url: https://all2md.readthedocs.io/cli.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Themes
+    url: https://all2md.readthedocs.io/viewer.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Generated Reference
+    url: https://all2md.readthedocs.io/options.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: tutorial
+    title: 'Interactive Walkthrough: all2md batch'
+    url: https://all2md.readthedocs.io/batch.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Configuration Examples
+    url: https://all2md.readthedocs.io/attachments.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Practical Examples
+    url: https://all2md.readthedocs.io/ast_guide.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: template
+    title: Layout analysis
+    url: https://all2md.readthedocs.io/pdf.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Example Templates Gallery
+    url: https://all2md.readthedocs.io/templates.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Complete Examples
+    url: https://all2md.readthedocs.io/static_sites.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: API Reference
+    url: https://all2md.readthedocs.io/static_sites.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: docs
+    title: Security Options Quick Reference
+    url: https://all2md.readthedocs.io/threat_model.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: example
+    title: Real-World Examples
+    url: https://all2md.readthedocs.io/performance.html
+    source: https://all2md.readthedocs.io/en/latest/
+  - kind: paper
+    title: Corpus Benchmark Harness
+    url: https://all2md.readthedocs.io/performance.html
+    source: https://all2md.readthedocs.io/en/latest/
+  source_headings:
+  - Example output
+  - Command-line usage
+  - Static site generation (Hugo, Jekyll, MkDocs, Zola, Eleventy)
+- name: Google Workspace MCP Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/taylorwilsdon/google_workspace_mcp
+  homepage: https://workspacemcp.com
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Google Workspace MCP server and CLI with OAuth, local or remote deployment, and 120+ tools for agents to read,
+    create, edit, and manage Google Docs, Sheets, Slides, Drive files, Forms, and related Workspace artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Google Workspace MCP Server
+    bytes: 19743
+  - kind: homepage
+    url: https://workspacemcp.com/
+    final_url: https://workspacemcp.com/
+    status: 200
+    content_type: text/html
+    title: Google Workspace MCP Server - Gmail, Drive, Docs, Sheets, Calendar AI Integration
+    description: The independent Google Workspace MCP server for Gmail, Drive, Docs, Sheets, Calendar and more, with one connection,
+      full CLI and Code Mode, OAuth 2.1, and self-hosting.
+    bytes: 55263
+  official_examples:
+  - kind: example
+    title: 📖 Full API Reference Every tool across all twelve services — parameters, examples, and usage patterns.
+    url: https://workspacemcp.com/docs
+    source: https://workspacemcp.com/
+  official_docs:
+  - kind: docs
+    title: Quick Start
+    url: https://workspacemcp.com/quick-start
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Full Documentation
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Advanced Deployment
+    url: https://workspacemcp.com/docs/deployment
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: trusted-gateway identity
+    url: https://workspacemcp.com/docs/deployment/gateway-identity
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Client Setup Guides
+    url: https://workspacemcp.com/guides
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: complete reference
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: workspacemcp.com/quick-start
+    url: https://workspacemcp.com/quick-start
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: quick start guide
+    url: https://workspacemcp.com/quick-start
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: server modes docs
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Connector guide
+    url: https://workspacemcp.com/guides/claude-connectors
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: ChatGPT guide
+    url: https://workspacemcp.com/guides/chatgpt-developer-mode
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: guides
+    url: https://workspacemcp.com/guides
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://workspacemcp.com/welcome/faq
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: documentation
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: OAuth 2.1 multi-user auth
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Stateless container mode
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: OAuth proxy storage backends
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: External OAuth provider mode
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Service accounts with domain-wide delegation
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Trusted-gateway identity
+    url: https://workspacemcp.com/docs/deployment/gateway-identity
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Google Workspace MCP Server - Gmail, Drive, Docs, Sheets, Calendar AI Integration
+    url: https://workspacemcp.com/og-cover.png
+    source: https://workspacemcp.com/
+  official_links:
+  - kind: docs
+    title: Quick Start
+    url: https://workspacemcp.com/quick-start
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Full Documentation
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Advanced Deployment
+    url: https://workspacemcp.com/docs/deployment
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: trusted-gateway identity
+    url: https://workspacemcp.com/docs/deployment/gateway-identity
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Client Setup Guides
+    url: https://workspacemcp.com/guides
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: complete reference
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: workspacemcp.com/quick-start
+    url: https://workspacemcp.com/quick-start
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: quick start guide
+    url: https://workspacemcp.com/quick-start
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: server modes docs
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Connector guide
+    url: https://workspacemcp.com/guides/claude-connectors
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: ChatGPT guide
+    url: https://workspacemcp.com/guides/chatgpt-developer-mode
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: guides
+    url: https://workspacemcp.com/guides
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: FAQ
+    url: https://workspacemcp.com/welcome/faq
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: documentation
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: OAuth 2.1 multi-user auth
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Stateless container mode
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: OAuth proxy storage backends
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: External OAuth provider mode
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Service accounts with domain-wide delegation
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Trusted-gateway identity
+    url: https://workspacemcp.com/docs/deployment/gateway-identity
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: OpenTelemetry tracing
+    url: https://workspacemcp.com/docs
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Advanced Deployment guide
+    url: https://workspacemcp.com/docs/deployment
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: complete environment variable reference
+    url: https://workspacemcp.com/docs/deployment
+    source: https://raw.githubusercontent.com/taylorwilsdon/google_workspace_mcp/HEAD/README.md
+  - kind: docs
+    title: Guides
+    url: https://workspacemcp.com/guides
+    source: https://workspacemcp.com/
+  - kind: docs
+    title: Docs
+    url: https://workspacemcp.com/docs
+    source: https://workspacemcp.com/
+  - kind: docs
+    title: Docs
+    url: https://workspacemcp.com/google-docs
+    source: https://workspacemcp.com/
+  - kind: docs
+    title: Setup guide
+    url: https://workspacemcp.com/guides/claude-connectors
+    source: https://workspacemcp.com/
+  - kind: docs
+    title: 🚀 Quick Start Guide Install, configure OAuth, and connect your first MCP client in five minutes.
+    url: https://workspacemcp.com/quick-start
+    source: https://workspacemcp.com/
+  - kind: example
+    title: 📖 Full API Reference Every tool across all twelve services — parameters, examples, and usage patterns.
+    url: https://workspacemcp.com/docs
+    source: https://workspacemcp.com/
+  - kind: docs
+    title: 👤 Google Contacts MCP Manage contacts and groups via the People API. Search, list, and create contacts Batch create,
+      update, and delete Manage contact groups and labels Add or remo
+    url: https://workspacemcp.com/google-contacts
+    source: https://workspacemcp.com/
+- name: claude-code-video-toolkit
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/digitalsamba/claude-code-video-toolkit
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code video-production workspace with skills, commands, templates, Remotion, FFmpeg, Playwright recording,
+    voice, image, music, and open-model video tools for turning prompts, demos, and explainers into rendered MP4s.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: claude-code-video-toolkit
+    bytes: 21674
+  official_examples:
+  - kind: video
+    title: '`_internal/toolkit-registry.json`'
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/_internal/toolkit-registry.json
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: hallucinations-short
+    url: https://demos.digitalsamba.com/video/hallucinations_short.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: sky-blue-short
+    url: https://demos.digitalsamba.com/video/short-blue-sky.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: q2-townhall-stars
+    url: https://demos.digitalsamba.com/video/q2-townhall-stars.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: q2-townhall-longarm-ad
+    url: https://demos.digitalsamba.com/video/q2-townhall-longarm-ad.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: the-space-between
+    url: https://demos.digitalsamba.com/video/the-space-between.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: cortina
+    url: https://demos.digitalsamba.com/video/sprint-review.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: schlumbergera
+    url: https://demos.digitalsamba.com/video/schlumbergera.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: ds-remote-mcp
+    url: https://demos.digitalsamba.com/video/ds-remote-mcp.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: demo
+    title: digital-samba-skill-demo
+    url: https://demos.digitalsamba.com/video/digital-samba-skill-demo.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: template
+    title: Creating Templates
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/creating-templates.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: Toolkit Development
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/_internal/ROADMAP.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: '#16'
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/pull/16
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: CONTRIBUTING.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/modal-setup.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/modal-setup.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/runpod-setup.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/runpod-setup.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: Creating Brands
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/creating-brands.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: Optional Components
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/optional-components.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/codex.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/codex.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/kiro.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/kiro.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: digital-samba-skill-demo
+    url: https://demos.digitalsamba.com/video/digital-samba-skill-demo.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: gif
+    title: claude-code-video-toolkit — NARRATE ▸ SCORE ▸ GENERATE ▸ COMPOSE ▸ RENDER
+    url: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/banner/toolkit-banner.gif
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: image
+    title: Super Bowl-style launch ad
+    url: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/readme-thumbs/q2-townhall-longarm-ad.jpg
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: image
+    title: AI hallucinations explainer short
+    url: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/readme-thumbs/hallucinations-short.jpg
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: image
+    title: Why is the sky blue? short
+    url: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/assets/readme-thumbs/sky-blue-short.jpg
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: hallucinations-short
+    url: https://demos.digitalsamba.com/video/hallucinations_short.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: sky-blue-short
+    url: https://demos.digitalsamba.com/video/short-blue-sky.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: q2-townhall-longarm-ad
+    url: https://demos.digitalsamba.com/video/q2-townhall-longarm-ad.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: the-space-between
+    url: https://demos.digitalsamba.com/video/the-space-between.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: cortina
+    url: https://demos.digitalsamba.com/video/sprint-review.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: schlumbergera
+    url: https://demos.digitalsamba.com/video/schlumbergera.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: ds-remote-mcp
+    url: https://demos.digitalsamba.com/video/ds-remote-mcp.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: '`_internal/toolkit-registry.json`'
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/_internal/toolkit-registry.json
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: hallucinations-short
+    url: https://demos.digitalsamba.com/video/hallucinations_short.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: sky-blue-short
+    url: https://demos.digitalsamba.com/video/short-blue-sky.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: q2-townhall-stars
+    url: https://demos.digitalsamba.com/video/q2-townhall-stars.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: q2-townhall-longarm-ad
+    url: https://demos.digitalsamba.com/video/q2-townhall-longarm-ad.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: the-space-between
+    url: https://demos.digitalsamba.com/video/the-space-between.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: cortina
+    url: https://demos.digitalsamba.com/video/sprint-review.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: schlumbergera
+    url: https://demos.digitalsamba.com/video/schlumbergera.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: ds-remote-mcp
+    url: https://demos.digitalsamba.com/video/ds-remote-mcp.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: demo
+    title: digital-samba-skill-demo
+    url: https://demos.digitalsamba.com/video/digital-samba-skill-demo.mp4
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/modal-setup.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/modal-setup.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/runpod-setup.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/runpod-setup.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: template
+    title: Creating Templates
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/creating-templates.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: Creating Brands
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/creating-brands.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: Optional Components
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/optional-components.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: Toolkit Development
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/_internal/ROADMAP.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/codex.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/codex.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: '#16'
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/pull/16
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: docs
+    title: docs/kiro.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/docs/kiro.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  - kind: video
+    title: CONTRIBUTING.md
+    url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/HEAD/README.md
+  source_headings:
+  - claude-code-video-toolkit
+  - Templates
+  - AI video generation (LTX-2.3 — text-to-video, image-to-video)
+  - Redub video with different voice
+  - Add background music to existing video
+  - Rebrand NotebookLM videos (trim outro, add your logo/URL)
+  - Generate talking head video from image + audio (SadTalker)
+  - AI video generation (LTX-2.3 22B — text-to-video + image-to-video)
+  - Documentation
+  - Video Workflow
+- name: local-dashboard-builder
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/walm00/local-dashboard-builder
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude Code plugin and skill that walks a repo through a manifest-tracked workflow to scaffold zero-dependency
+    local HTML decision dashboards from CSV, SQLite, git, subprocess, filesystem, or custom collectors.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: local-dashboard-builder
+    bytes: 10937
+  official_effect_assets:
+  - kind: image
+    title: minimal dashboard — all seven panel kinds
+    url: https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/.github/images/minimal.png
+    source: https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/README.md
+  - kind: image
+    title: engagements dashboard — portfolio-tracking with severity cascades
+    url: https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/.github/images/engagements.png
+    source: https://raw.githubusercontent.com/walm00/local-dashboard-builder/HEAD/README.md
+  source_headings:
+  - local-dashboard-builder
+  - Turn any repo into a decision dashboard — in an afternoon, with zero dependencies.
+  - Build your own dashboard
+  - Patterns baked into the template
+- name: PPT-KIT
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/loonghao/ppt-kit
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: PowerPoint Office add-in with an MCP bridge server, WebSocket bridge, Markdown editor, code highlighting,
+    Mermaid rendering, and Office.js operations for creating, syncing, and manipulating live PowerPoint slides.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/loonghao/ppt-kit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/loonghao/ppt-kit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PPT-KIT
+    bytes: 3517
+  official_effect_assets:
+  - kind: image
+    title: PPT-KIT Screenshot
+    url: https://raw.githubusercontent.com/loonghao/ppt-kit/HEAD/ppt-kit.png
+    source: https://raw.githubusercontent.com/loonghao/ppt-kit/HEAD/README.md
+- name: Xmind Generator MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/BangyiZhang/xmind-generator-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Node.js MCP server that lets LLM clients generate editable Xmind mind maps with hierarchical topics, notes,
+    labels, markers, and relationships, and read existing .xmind files back out as Markdown outlines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/BangyiZhang/xmind-generator-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/BangyiZhang/xmind-generator-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Xmind Generator MCP Server
+    bytes: 4607
+  source_headings:
+  - Example
+- name: Token Dashboard
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/nateherkai/token-dashboard
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local, no-telemetry dashboard that reads Claude Code JSONL transcripts and turns them into per-prompt cost
+    analytics, tool and file heatmaps, subagent attribution, cache analytics, project comparisons, and rule-based tips.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Token Dashboard
+    bytes: 7317
+  official_docs:
+  - kind: docs
+    title: limitations
+    url: https://github.com/nateherkai/token-dashboard/blob/HEAD/docs/KNOWN_LIMITATIONS.md
+    source: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+  - kind: docs
+    title: '`docs/inspiration.md`'
+    url: https://github.com/nateherkai/token-dashboard/blob/HEAD/docs/inspiration.md
+    source: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Overview tab — totals and daily charts
+    url: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/docs/images/dashboard-overview-top.jpg
+    source: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+  - kind: image
+    title: Overview tab — per-project, per-model, top tools, recent sessions
+    url: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/docs/images/dashboard-overview-bottom.jpg
+    source: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: limitations
+    url: https://github.com/nateherkai/token-dashboard/blob/HEAD/docs/KNOWN_LIMITATIONS.md
+    source: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+  - kind: docs
+    title: '`docs/inspiration.md`'
+    url: https://github.com/nateherkai/token-dashboard/blob/HEAD/docs/inspiration.md
+    source: https://raw.githubusercontent.com/nateherkai/token-dashboard/HEAD/README.md
+  source_headings:
+  - Token Dashboard
+  - Quickstart
+  - dashboard flags
+- name: Claude Usage Dashboard
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/phuryn/claude-usage
+  homepage: https://www.productcompass.pm/
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Dependency-free local web app and VS Code extension that scans Claude Code session logs and visualizes token
+    usage, model mix, sessions, projects, costs, hourly activity, and collapsible Chart.js dashboard sections.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Code Usage Dashboard
+    bytes: 8387
+  - kind: homepage
+    url: https://www.productcompass.pm/
+    final_url: https://www.productcompass.pm/
+    status: 200
+    content_type: text/html
+    title: The Product Compass | Paweł Huryn | Substack
+    description: 'The #1 AI & PM newsletter. Actionable tips, resources, and step-by-step playbooks to learn by doing. Improve
+      product sense and AI intuition. Click to read The Product Compass, by P'
+    bytes: 103259
+  official_docs:
+  - kind: docs
+    title: '**VS Code extension**'
+    url: https://marketplace.visualstudio.com/items?itemName=PawelHuryn.claude-usage-phuryn
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  - kind: docs
+    title: '**See in Open VSX Registry →**'
+    url: https://open-vsx.org/extension/PawelHuryn/claude-usage-phuryn
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Claude Usage Dashboard
+    url: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/docs/screenshot.png
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  - kind: image
+    title: VS Code extension — daily usage
+    url: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/docs/usage1.png
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  - kind: image
+    title: VS Code extension — hourly + projects
+    url: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/docs/usage2.png
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '**VS Code extension**'
+    url: https://marketplace.visualstudio.com/items?itemName=PawelHuryn.claude-usage-phuryn
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  - kind: docs
+    title: '**See in Open VSX Registry →**'
+    url: https://open-vsx.org/extension/PawelHuryn/claude-usage-phuryn
+    source: https://raw.githubusercontent.com/phuryn/claude-usage/HEAD/README.md
+  source_headings:
+  - Claude Code Usage Dashboard
+  - Usage
+  - Scan JSONL files and populate the database (~/.claude/usage.db)
+  - Show today's usage summary by model (in terminal)
+  - Scan + open browser dashboard at http://localhost:8080

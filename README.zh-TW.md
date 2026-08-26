@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-598_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--26-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-606_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--27-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,18 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-08-26)
+## Latest Refresh (2026-08-27)
 
 | Project | Catalog focus |
 | --- | --- |
-| [tldr-skill](https://github.com/UpayanGhosh/tldr-skill) | Claude Code skill for turning repositories into self-hosted explainer websites with architecture diagrams, dependency graphs, directory mind maps, workflow traces, search, and module walkthroughs. |
-| [ChartPane](https://github.com/ahmadsl/chartpane) | Hosted MCP App for rendering Chart.js charts and multi-chart dashboards inline in MCP clients, with client-side rendering and no server-side chart-data storage. |
-| [PowerPoint MCP by Ayushmaniar](https://github.com/Ayushmaniar/powerpoint-mcp) | Windows PowerPoint MCP server using pywin32 COM automation for live deck creation, reading, visual snapshots, LaTeX equations, templates, animations, and editing. |
-| [mindmap-markmap-viewer](https://github.com/Jaderson-bit/mindmap-markmap-viewer) | Claude Code skill for converting hierarchical Markdown into a self-contained offline markmap HTML mind map with search, expand controls, zoom, and SVG/PNG export. |
-| [SimpleMindMap MCP Server](https://github.com/wanglin2/mind-map-mcp) | MCP server that opens a mind-map editor, sets data, theme, and layout, then exports generated mind maps as image, PDF, Markdown, SVG, TXT, or XMind. |
-| [Diagram Designer](https://github.com/LeDat98/mcp-diagram-designer) | MCP server that transforms Mermaid architecture descriptions into polished cloud, dark-mode, and isometric diagram images for presentations, docs, blogs, and READMEs. |
-| [mcp-powerpoint](https://github.com/islem-zaraa/mcp-powerpoint) | JavaScript MCP plugin and CLI for creating PowerPoint files, adding slides, reading slide metadata, and exporting presentations to PDF. |
-| [Skill Atlas](https://github.com/ddutche/skill-atlas) | Local React canvas for browsing, editing, and diagramming Claude Skills from a GitHub repo, with GitHub-backed saves and Claude-generated Mermaid flowcharts. |
+| [all2md](https://github.com/thomas-villani/all2md) | Python library, CLI, and MCP server that converts PDFs, Office files, HTML, email, spreadsheets, and 40+ formats into LLM-ready Markdown, then renders Markdown back to DOCX, PDF, PPTX, HTML, and browser previews. |
+| [Google Workspace MCP Server](https://github.com/taylorwilsdon/google_workspace_mcp) | Google Workspace MCP server and CLI with OAuth, local or remote deployment, and 120+ tools for agents to read, create, edit, and manage Google Docs, Sheets, Slides, Drive files, Forms, and related Workspace artifacts. |
+| [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | Claude Code video-production workspace with skills, commands, templates, Remotion, FFmpeg, Playwright recording, voice, image, music, and open-model video tools for turning prompts, demos, and explainers into rendered MP4s. |
+| [local-dashboard-builder](https://github.com/walm00/local-dashboard-builder) | Claude Code plugin and skill that walks a repo through a manifest-tracked workflow to scaffold zero-dependency local HTML decision dashboards from CSV, SQLite, git, subprocess, filesystem, or custom collectors. |
+| [PPT-KIT](https://github.com/loonghao/ppt-kit) | PowerPoint Office add-in with an MCP bridge server, WebSocket bridge, Markdown editor, code highlighting, Mermaid rendering, and Office.js operations for creating, syncing, and manipulating live PowerPoint slides. |
+| [Xmind Generator MCP Server](https://github.com/BangyiZhang/xmind-generator-mcp) | Node.js MCP server that lets LLM clients generate editable Xmind mind maps with hierarchical topics, notes, labels, markers, and relationships, and read existing .xmind files back out as Markdown outlines. |
+| [Token Dashboard](https://github.com/nateherkai/token-dashboard) | Local, no-telemetry dashboard that reads Claude Code JSONL transcripts and turns them into per-prompt cost analytics, tool and file heatmaps, subagent attribution, cache analytics, project comparisons, and rule-based tips. |
+| [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) | Dependency-free local web app and VS Code extension that scans Claude Code session logs and visualizes token usage, model mix, sessions, projects, costs, hourly activity, and collapsible Chart.js dashboard sections. |
 
 ## ✨ 推薦使用方式
 
@@ -269,6 +269,9 @@
 
 | [Jira OKR Dashboard MCP](https://github.com/GuruR-prog/jira-okr-dashboard-mcp) [![Star](https://img.shields.io/github/stars/GuruR-prog/jira-okr-dashboard-mcp?style=flat&logo=github&label=Star)](https://github.com/GuruR-prog/jira-okr-dashboard-mcp/stargazers) | Data/tables / Database / Knowledge base | MCP server / Open-source app/framework | Chart/dashboard / Briefing/report / Tables/timeline / Structured data/Markdown | MCP client / Browser/account / Local runtime / Model API / External search/data / Storage/index / Rendering/export |
 | [Oracle FDI ADW AI Dashboard MCP](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp) [![Star](https://img.shields.io/github/stars/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp?style=flat&logo=github&label=Star)](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp/stargazers) | Database / Data/tables / Knowledge base | MCP server / Open-source app/framework | Chart/dashboard / Long report / Structured data/Markdown | MCP client / Local runtime / External search/data / Storage/index / Rendering/export / System tools |
+| [local-dashboard-builder](https://github.com/walm00/local-dashboard-builder) [![Star](https://img.shields.io/github/stars/walm00/local-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/walm00/local-dashboard-builder/stargazers) | Codebase / Data/tables / Database | Agent skill | Chart/dashboard / Web/interactive page / Table/timeline | Agent host / Local runtime / Rendering/export / Storage/index |
+| [Token Dashboard](https://github.com/nateherkai/token-dashboard) [![Star](https://img.shields.io/github/stars/nateherkai/token-dashboard?style=flat&logo=github&label=Star)](https://github.com/nateherkai/token-dashboard/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
+| [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) [![Star](https://img.shields.io/github/stars/phuryn/claude-usage?style=flat&logo=github&label=Star)](https://github.com/phuryn/claude-usage/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
 
 ### 通用文字、想法與白板圖示
 
@@ -370,6 +373,7 @@
 | [data-animation-skills](https://github.com/iart-ai/data-animation-skills) [![Star](https://img.shields.io/github/stars/iart-ai/data-animation-skills?style=flat&logo=github&label=Star)](https://github.com/iart-ai/data-animation-skills/stargazers) | 資料/表格 / 文字/想法 | Skill 集合 | 影片/音訊 / 圖表/儀表板 / 資訊圖/視覺報告 / PPT/簡報 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
 | [Mediator](https://github.com/nathanfhh/nbp-web-gen) [![Star](https://img.shields.io/github/stars/nathanfhh/nbp-web-gen?style=flat&logo=github&label=Star)](https://github.com/nathanfhh/nbp-web-gen/stargazers) | Text/ideas / PDF/documents / Web/search / Any/multi-source | Open-source app/framework | Graphical abstract/infographic / PPT/deck / Architecture/flow diagram / Whiteboard/mind map / Video/audio / SVG/PNG/PDF | Browser/account / Model API / GPU/accelerator / Document parsing/OCR / Rendering/export / Templates/assets |
 | [3brown1blue](https://github.com/AmitSubhash/3brown1blue) [![Star](https://img.shields.io/github/stars/AmitSubhash/3brown1blue?style=flat&logo=github&label=Star)](https://github.com/AmitSubhash/3brown1blue/stargazers) | Text/ideas / 論文/科研資料 / Office 文件 | Agent Skill / API/SDK/library | Video/audio / 網頁/互動頁面 | Agent 宿主 / 本機語言環境 / 模型 API / 系統工具 / 渲染/匯出 / 範本/素材 |
+| [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) [![Star](https://img.shields.io/github/stars/digitalsamba/claude-code-video-toolkit?style=flat&logo=github&label=Star)](https://github.com/digitalsamba/claude-code-video-toolkit/stargazers) | Text/ideas / Web/search / Video/audio / Any/multi-source | Skill collection / Open-source app/framework | Video/audio / Graphical abstract/infographic / Web/interactive page | Agent host / Local runtime / Model API / GPU/accelerator / System tools / Rendering/export / Templates/assets |
 
 ### 簡報與多來源內容呈現
 
@@ -558,6 +562,8 @@
 | [DCC MCP PowerPoint](https://github.com/dcc-mcp/dcc-mcp-powerpoint) [![Star](https://img.shields.io/github/stars/dcc-mcp/dcc-mcp-powerpoint?style=flat&logo=github&label=Star)](https://github.com/dcc-mcp/dcc-mcp-powerpoint/stargazers) | Text/ideas / Office docs / Data/tables / Code/technical text | MCP server / Skill collection | PPT/deck / SVG/PNG/PDF / Evidence table | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Reference HTML PPTX Skills](https://github.com/TimekeeperXY/reference-html-pptx-skill) [![Star](https://img.shields.io/github/stars/TimekeeperXY/reference-html-pptx-skill?style=flat&logo=github&label=Star)](https://github.com/TimekeeperXY/reference-html-pptx-skill/stargazers) | Text/ideas / Office docs / PDF/documents / Any/multi-source | Skill collection | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Talk-to-Your-Slides](https://github.com/KyuDan1/Talk-to-Your-Slides) [![Star](https://img.shields.io/github/stars/KyuDan1/Talk-to-Your-Slides?style=flat&logo=github&label=Star)](https://github.com/KyuDan1/Talk-to-Your-Slides/stargazers) | Office docs / Text/ideas | Research prototype / Bot/assistant | PPT/deck / Evidence table | Agent host / MCP client / Local runtime / Model API / Rendering/export |
+| [Google Workspace MCP Server](https://github.com/taylorwilsdon/google_workspace_mcp) [![Star](https://img.shields.io/github/stars/taylorwilsdon/google_workspace_mcp?style=flat&logo=github&label=Star)](https://github.com/taylorwilsdon/google_workspace_mcp/stargazers) | Office docs / Data/tables / Knowledge base / Web/search | MCP server / API/SDK/library | PPT/deck / Long report / Chart/dashboard / Structured data/Markdown | MCP client / Browser/account / Local runtime / External search/data / Storage/index / Rendering/export |
+| [PPT-KIT](https://github.com/loonghao/ppt-kit) [![Star](https://img.shields.io/github/stars/loonghao/ppt-kit?style=flat&logo=github&label=Star)](https://github.com/loonghao/ppt-kit/stargazers) | Text/ideas / Office docs / DSL/code | Open-source app/framework / MCP server | PPT/deck / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
 
 ## 輔助、前後處理與小工具
 
@@ -583,7 +589,7 @@
 | [office_oxide](https://github.com/yfedoseev/office_oxide) [![Star](https://img.shields.io/github/stars/yfedoseev/office_oxide?style=flat&logo=github&label=Star)](https://github.com/yfedoseev/office_oxide/stargazers) | Office docs / PDF/documents | API/SDK/library / MCP server | Structured data/Markdown / PPT/deck / Evidence table | MCP client / Local runtime / Document parsing/OCR / Rendering/export / System tools |
 | [PowerPoint Analyzer MCP Server](https://github.com/shiosalt/powerpoint-analyzer-mcp) [![Star](https://img.shields.io/github/stars/shiosalt/powerpoint-analyzer-mcp?style=flat&logo=github&label=Star)](https://github.com/shiosalt/powerpoint-analyzer-mcp/stargazers) | Office docs | MCP server / API/SDK/library | Structured data/Markdown / PPT/deck | MCP client / Local runtime / Document parsing/OCR / Rendering/export |
 | [chart-ocr-mcp](https://github.com/olliemorgan685-glitch/chart-ocr-mcp) [![Star](https://img.shields.io/github/stars/olliemorgan685-glitch/chart-ocr-mcp?style=flat&logo=github&label=Star)](https://github.com/olliemorgan685-glitch/chart-ocr-mcp/stargazers) | Office docs / PDF/documents / Data/tables | MCP server / API/SDK/library | Structured data/Markdown / Chart/dashboard / Evidence table | MCP client / Local runtime / Document parsing/OCR / GPU/accelerator / Rendering/export |
-
+| [all2md](https://github.com/thomas-villani/all2md) [![Star](https://img.shields.io/github/stars/thomas-villani/all2md?style=flat&logo=github&label=Star)](https://github.com/thomas-villani/all2md/stargazers) | PDF/documents / Office docs / Web/search / Data/tables | API/SDK/library / MCP server | Structured data/Markdown / Long report / PPT/deck / Web/interactive page | Local runtime / Document parsing/OCR / Rendering/export |
 
 ### 心智圖專項工具
 
@@ -608,6 +614,7 @@
 | [ai-netcafe](https://github.com/mario03690/ai-netcafe) [![Star](https://img.shields.io/github/stars/mario03690/ai-netcafe?style=flat&logo=github&label=Star)](https://github.com/mario03690/ai-netcafe/stargazers) | PDF/documents / Data/tables / Web/search / Text/ideas | MCP server / Product/SaaS / API/SDK/library | Long report / PPT/deck / Web/interactive page / Structured data/Markdown | MCP client / Browser/account / External search/data / Rendering/export |
 | [Markmap MCP Server](https://github.com/jinzcdev/markmap-mcp-server) [![Star](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server?style=flat&logo=github&label=Star)](https://github.com/jinzcdev/markmap-mcp-server/stargazers) | 文字/想法 / PDF/文件 / 知識庫/個人資料 / DSL/代碼 | MCP server | 心智圖/知識地圖 / 網頁/互動頁面 / SVG/PNG/PDF | MCP client / 本機語言環境 / 渲染/匯出 |
 | [mcp-scapple](https://github.com/binaryloader/mcp-scapple) [![Star](https://img.shields.io/github/stars/binaryloader/mcp-scapple?style=flat&logo=github&label=Star)](https://github.com/binaryloader/mcp-scapple/stargazers) | Text/ideas / 知識庫/個人資料 | MCP Server | 白板/心智圖 / 心智圖/知識地圖 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
+| [Xmind Generator MCP Server](https://github.com/BangyiZhang/xmind-generator-mcp) [![Star](https://img.shields.io/github/stars/BangyiZhang/xmind-generator-mcp?style=flat&logo=github&label=Star)](https://github.com/BangyiZhang/xmind-generator-mcp/stargazers) | Text/ideas / Knowledge base / DSL/code | MCP server | Mind map/knowledge map / Whiteboard/mind map / Structured data/Markdown | MCP client / Local runtime / System tools / Rendering/export |
 
 ### 圖表、Mermaid 與渲染元件
 

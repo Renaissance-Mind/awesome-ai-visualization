@@ -1,4 +1,4 @@
-last_researched: '2026-08-26'
+last_researched: '2026-08-27'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -15411,3 +15411,226 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: code
+- name: all2md
+  url: https://github.com/thomas-villani/all2md
+  homepage: https://all2md.readthedocs.io/
+  category: doc-to-knowledge
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 27
+  license: MIT
+  updated: '2026-08-26'
+  note: Python library, CLI, and MCP server that converts PDFs, Office files, HTML, email, spreadsheets, and 40+ formats
+    into LLM-ready Markdown, then renders Markdown back to DOCX, PDF, PPTX, HTML, and browser previews.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 结构化数据/Markdown
+  - 报告/长文档
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: Google Workspace MCP Server
+  url: https://github.com/taylorwilsdon/google_workspace_mcp
+  homepage: https://workspacemcp.com
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 3073
+  license: MIT
+  updated: '2026-08-26'
+  note: Google Workspace MCP server and CLI with OAuth, local or remote deployment, and 120+ tools for agents to read,
+    create, edit, and manage Google Docs, Sheets, Slides, Drive files, Forms, and related Workspace artifacts.
+  source_types:
+  - Office 文档
+  - 数据/表格
+  - 知识库/个人资料
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: claude-code-video-toolkit
+  url: https://github.com/digitalsamba/claude-code-video-toolkit
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 2009
+  license: MIT
+  updated: '2026-08-26'
+  note: Claude Code video-production workspace with skills, commands, templates, Remotion, FFmpeg, Playwright recording,
+    voice, image, music, and open-model video tools for turning prompts, demos, and explainers into rendered MP4s.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 视频/音频
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - 开源应用/框架
+  output_forms:
+  - 视频/音频
+  - 图形摘要/信息图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: local-dashboard-builder
+  url: https://github.com/walm00/local-dashboard-builder
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 3
+  license: MIT
+  updated: '2026-05-12'
+  note: Claude Code plugin and skill that walks a repo through a manifest-tracked workflow to scaffold zero-dependency
+    local HTML decision dashboards from CSV, SQLite, git, subprocess, filesystem, or custom collectors.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  catalog_section: main
+  readme_group: data
+- name: PPT-KIT
+  url: https://github.com/loonghao/ppt-kit
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-05-08'
+  note: PowerPoint Office add-in with an MCP bridge server, WebSocket bridge, Markdown editor, code highlighting, Mermaid
+    rendering, and Office.js operations for creating, syncing, and manipulating live PowerPoint slides.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Xmind Generator MCP Server
+  url: https://github.com/BangyiZhang/xmind-generator-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 44
+  license: MIT
+  updated: '2026-07-22'
+  note: Node.js MCP server that lets LLM clients generate editable Xmind mind maps with hierarchical topics, notes, labels,
+    markers, and relationships, and read existing .xmind files back out as Markdown outlines.
+  source_types:
+  - 文本/想法
+  - 知识库/个人资料
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - 白板/思维导图
+  - 结构化数据/Markdown
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Token Dashboard
+  url: https://github.com/nateherkai/token-dashboard
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  stars: 669
+  license: MIT
+  updated: '2026-08-26'
+  note: Local, no-telemetry dashboard that reads Claude Code JSONL transcripts and turns them into per-prompt cost
+    analytics, tool and file heatmaps, subagent attribution, cache analytics, project comparisons, and rule-based tips.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
+- name: Claude Usage Dashboard
+  url: https://github.com/phuryn/claude-usage
+  homepage: https://www.productcompass.pm/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  stars: 2179
+  license: MIT
+  updated: '2026-08-26'
+  note: Dependency-free local web app and VS Code extension that scans Claude Code session logs and visualizes token usage,
+    model mix, sessions, projects, costs, hourly activity, and collapsible Chart.js dashboard sections.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
