@@ -1,4 +1,4 @@
-last_researched: '2026-08-27'
+last_researched: '2026-08-28'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -15634,3 +15634,226 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: data
+- name: Napkin AI MCP Server
+  url: https://github.com/LouisChanCLY/napkin-ai-mcp
+  category: infographic-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 11
+  license: MIT
+  updated: '2026-08-14'
+  note: Community MCP server for Napkin AI that turns text prompts into SVG, PNG, or PPT visuals, including mind maps,
+    flowcharts, timelines, and comparison diagrams, with local, S3, Google Drive, Slack, Notion, Telegram, or Discord
+    storage targets.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 思维导图/知识地图
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Infographic MCP Server by byebyebruce
+  url: https://github.com/byebyebruce/inforgraphic-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-04-29'
+  note: MCP server that renders prompt-driven AntV Infographic outputs as local images or URL-served assets over stdio,
+    Streamable HTTP, or SSE transports.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: mcp-icon
+  url: https://github.com/hustcc/mcp-icon
+  homepage: https://infographic.antv.vision/icon
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-02-26'
+  note: MCP server for semantic SVG icon search over 100,000+ infographic icons, returning SVG URLs that agents can use
+    as visual assets in reports, diagrams, dashboards, or slide decks.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - SVG/PNG/PDF
+  - 信息图/视觉报告
+  catalog_section: support_render
+  readme_group: support_render
+- name: Timeline Generator MCP
+  url: https://github.com/kbichave/timeline-generator-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: MIT
+  updated: '2026-07-27'
+  note: CLI and MCP server that turns milestone data into horizontal, vertical, Gantt, roadmap, and infographic timelines
+    exported as PNG, SVG, GIF, or MP4 with themes, animation, and collision-aware layout.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 表格/时间线
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: data
+- name: figurify-mcp
+  url: https://github.com/genaimanoj/figurify-mcp
+  homepage: https://pypi.org/project/figurify-mcp/
+  category: infographic-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-07-18'
+  note: Python MCP server that gives Claude, ChatGPT, Cursor, and VS Code Copilot Gemini/Imagen-backed generation for
+    diagrams, infographics, and plots when the host lacks native image generation.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Vibe Deck MCP
+  url: https://github.com/EllenSong77/vibe-deck-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-03-17'
+  note: Template-free MCP plugin that lets local LLM agents write HTML/CSS and render visual cards, presentation pages,
+    infographics, social carousels, and reports through Puppeteer.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - 报告/长文档
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Arcanea InfoGenius
+  url: https://github.com/frankxai/arcanea-infogenius
+  homepage: https://github.com/frankxai/arcanea
+  category: infographic-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 1
+  license: unknown
+  updated: '2026-06-26'
+  note: MCP server that combines Gemini grounding with visual generation to research a topic, extract findings, and create
+    publication-ready infographics, diagrams, charts, or styled visuals from coding-agent workflows.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: VibeGraphics
+  url: https://github.com/automateyournetwork/VibeGraphics
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  stars: 15
+  license: Apache-2.0
+  updated: '2026-06-28'
+  note: MCP server and Gemini CLI extension that fetches GitHub repository structure, README, code, and metadata, then
+    produces themed project infographics and optional short animated videos with generated image and animation prompts.
+  source_types:
+  - 代码库
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 视频/音频
+  catalog_section: main
+  readme_group: code

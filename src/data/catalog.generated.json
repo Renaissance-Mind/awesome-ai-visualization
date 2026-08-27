@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-08-26T23:06:49+00:00",
-  "lastResearched": "2026-08-27",
+  "generatedAt": "2026-08-27T23:06:32+00:00",
+  "lastResearched": "2026-08-28",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 606,
+    "total": 614,
     "openSource": 153,
     "saas": 64,
-    "modelApi": 201,
-    "examples": 1295,
-    "effectAssets": 1647,
-    "docs": 1563
+    "modelApi": 205,
+    "examples": 1300,
+    "effectAssets": 1664,
+    "docs": 1576
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 60,
       "PDF/文档": 187,
-      "文本/想法": 381,
-      "数据/表格": 240,
-      "代码/技术描述": 112,
-      "网页/搜索结果": 163,
-      "代码库": 64,
-      "DSL/代码": 121,
-      "新闻/资讯": 26,
+      "文本/想法": 389,
+      "数据/表格": 245,
+      "代码/技术描述": 113,
+      "网页/搜索结果": 166,
+      "代码库": 65,
+      "DSL/代码": 124,
+      "新闻/资讯": 27,
       "知识库/个人资料": 59,
       "任意/多源": 93,
       "Office 文档": 113,
@@ -33,81 +33,81 @@
       "开源应用/框架": 153,
       "Agent Skill": 206,
       "Skill 集合": 52,
-      "MCP Server": 199,
+      "MCP Server": 207,
       "产品/SaaS": 64,
       "数据集/评测": 2,
       "Bot/助手": 20,
       "研究原型": 6,
-      "API/SDK/库": 94,
+      "API/SDK/库": 95,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 46,
-      "PPT/演示文稿": 260,
-      "网页/交互页面": 198,
+      "PPT/演示文稿": 262,
+      "网页/交互页面": 199,
       "问答/学习材料": 15,
-      "报告/长文档": 84,
+      "报告/长文档": 85,
       "证据表": 41,
-      "信息图/视觉报告": 85,
-      "图表/仪表盘": 177,
-      "架构图/流程图": 132,
-      "SVG/PNG/PDF": 240,
+      "信息图/视觉报告": 93,
+      "图表/仪表盘": 180,
+      "架构图/流程图": 136,
+      "SVG/PNG/PDF": 247,
       "报告/简报": 72,
       "白板/思维导图": 40,
       "图表/Mermaid": 67,
-      "视频/音频": 41,
+      "视频/音频": 43,
       "结构化数据/Markdown": 87,
-      "表格/时间线": 21,
+      "表格/时间线": 22,
       "引用答案": 5,
-      "思维导图/知识地图": 36,
+      "思维导图/知识地图": 37,
       "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 38,
+      "代码地图/Repo Wiki": 39,
       "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 496,
-      "模型 API": 201,
+      "本地语言环境": 504,
+      "模型 API": 205,
       "文档解析/OCR": 91,
-      "渲染/导出": 516,
+      "渲染/导出": 524,
       "GPU/加速器": 18,
-      "模板/素材": 281,
+      "模板/素材": 283,
       "Agent 宿主": 267,
-      "系统工具": 129,
+      "系统工具": 130,
       "浏览器/账号": 153,
-      "存储/索引": 83,
-      "MCP Client": 208,
-      "外部检索/数据源": 126,
-      "代码分析工具": 39
+      "存储/索引": 84,
+      "MCP Client": 216,
+      "外部检索/数据源": 130,
+      "代码分析工具": 40
     },
     "categories": {
       "paper-visualization": 17,
       "doc-to-knowledge": 55,
       "research-report": 28,
-      "infographic-report": 55,
-      "data-dashboard": 94,
+      "infographic-report": 58,
+      "data-dashboard": 95,
       "diagram-generation": 75,
       "literature-map": 4,
-      "presentation-tools": 175,
-      "codebase-map": 35,
-      "rendering-primitive": 17,
+      "presentation-tools": 176,
+      "codebase-map": 36,
+      "rendering-primitive": 19,
       "video-generation": 12,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 30,
-      "text_visual": 69,
+      "text_visual": 72,
       "web_news": 9,
       "support_mindmap": 15,
       "docs": 31,
       "support_doc_parse": 20,
-      "presentation": 185,
-      "code": 38,
-      "support_render": 57,
+      "presentation": 186,
+      "code": 39,
+      "support_render": 59,
       "diagrams": 19,
       "video": 12,
-      "data": 87,
+      "data": 88,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -50101,6 +50101,562 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "Napkin AI MCP Server",
+      "url": "https://github.com/LouisChanCLY/napkin-ai-mcp",
+      "primaryUrl": "https://github.com/LouisChanCLY/napkin-ai-mcp",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 11,
+      "license": "MIT",
+      "updated": "2026-08-14",
+      "note": "Community MCP server for Napkin AI that turns text prompts into SVG, PNG, or PPT visuals, including mind maps, flowcharts, timelines, and comparison diagrams, with local, S3, Google Drive, Slack, Notion, Telegram, or Discord storage targets.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "思维导图/知识地图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "styles",
+          "url": "https://api.napkin.ai/docs/styles",
+          "source": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Documentation",
+          "url": "https://api.napkin.ai/docs",
+          "source": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Available Styles",
+          "url": "https://api.napkin.ai/docs/styles/index.html",
+          "source": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contributing Guide",
+          "url": "https://github.com/LouisChanCLY/napkin-ai-mcp/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "see gallery",
+          "url": "https://www.napkin.ai/gallery",
+          "source": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Napkin AI MCP Server Banner",
+          "url": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/assets/banner.jpeg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Infographic MCP Server by byebyebruce",
+      "url": "https://github.com/byebyebruce/inforgraphic-mcp",
+      "primaryUrl": "https://github.com/byebyebruce/inforgraphic-mcp",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-04-29",
+      "note": "MCP server that renders prompt-driven AntV Infographic outputs as local images or URL-served assets over stdio, Streamable HTTP, or SSE transports.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "prompt example",
+          "url": "https://github.com/byebyebruce/inforgraphic-mcp/blob/HEAD/PROMPT.md",
+          "source": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "AntV Infographic Gallery",
+          "url": "https://infographic.antv.vision/gallery",
+          "source": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Mcp Config",
+          "url": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/doc/mcp_config.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Agent Prompt",
+          "url": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/doc/agent_prompt.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chat",
+          "url": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/doc/chat.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "mcp-icon",
+      "url": "https://github.com/hustcc/mcp-icon",
+      "primaryUrl": "https://github.com/hustcc/mcp-icon",
+      "homepage": "https://infographic.antv.vision/icon",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-02-26",
+      "note": "MCP server for semantic SVG icon search over 100,000+ infographic icons, returning SVG URLs that agents can use as visual assets in reports, diagrams, dashboards, or slide decks.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "SVG/PNG/PDF",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Reference",
+          "url": "https://infographic.antv.vision/reference",
+          "source": "https://infographic.antv.vision/icon"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://infographic.antv.vision/learn",
+          "source": "https://infographic.antv.vision/icon"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://infographic.antv.vision/reference/infographic-api",
+          "source": "https://infographic.antv.vision/icon"
+        },
+        {
+          "kind": "docs",
+          "title": "JSX",
+          "url": "https://infographic.antv.vision/reference/jsx",
+          "source": "https://infographic.antv.vision/icon"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://infographic.antv.vision/reference/api",
+          "source": "https://infographic.antv.vision/icon"
+        },
+        {
+          "kind": "docs",
+          "title": "Design Assets",
+          "url": "https://infographic.antv.vision/reference/design-assets",
+          "source": "https://infographic.antv.vision/icon"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Gallery",
+          "url": "https://infographic.antv.vision/gallery",
+          "source": "https://infographic.antv.vision/icon"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 6,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Timeline Generator MCP",
+      "url": "https://github.com/kbichave/timeline-generator-mcp",
+      "primaryUrl": "https://github.com/kbichave/timeline-generator-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-07-27",
+      "note": "CLI and MCP server that turns milestone data into horizontal, vertical, Gantt, roadmap, and infographic timelines exported as PNG, SVG, GIF, or MP4 with themes, animation, and collision-aware layout.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "表格/时间线",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Contributing Guide",
+          "url": "https://github.com/kbichave/timeline-generator-mcp/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Animated Timeline",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/project_timeline.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Horizontal Timeline",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/project_timeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Vertical Timeline",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/company_history.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gantt Chart",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/sprint_gantt.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Product Roadmap",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/product_roadmap.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Infographic",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/personal_goals.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "TOON Horizontal Timeline",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/project_timeline_toon.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "TOON Gantt Chart",
+          "url": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/sprint_gantt_toon.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
+    },
+    {
+      "name": "figurify-mcp",
+      "url": "https://github.com/genaimanoj/figurify-mcp",
+      "primaryUrl": "https://github.com/genaimanoj/figurify-mcp",
+      "homepage": "https://pypi.org/project/figurify-mcp/",
+      "category": "infographic-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-18",
+      "note": "Python MCP server that gives Claude, ChatGPT, Cursor, and VS Code Copilot Gemini/Imagen-backed generation for diagrams, infographics, and plots when the host lacks native image generation.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Vibe Deck MCP",
+      "url": "https://github.com/EllenSong77/vibe-deck-mcp",
+      "primaryUrl": "https://github.com/EllenSong77/vibe-deck-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-03-17",
+      "note": "Template-free MCP plugin that lets local LLM agents write HTML/CSS and render visual cards, presentation pages, infographics, social carousels, and reports through Puppeteer.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "信息图/视觉报告",
+        "报告/长文档",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文说明",
+          "url": "https://github.com/EllenSong77/vibe-deck-mcp/blob/HEAD/README_zh.md",
+          "source": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Cover Page",
+          "url": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Light Cover Page",
+          "url": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/cover-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Content Page",
+          "url": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/content.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "CTA Page",
+          "url": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/cta.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Light Content Page",
+          "url": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/content-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "Arcanea InfoGenius",
+      "url": "https://github.com/frankxai/arcanea-infogenius",
+      "primaryUrl": "https://github.com/frankxai/arcanea-infogenius",
+      "homepage": "https://github.com/frankxai/arcanea",
+      "category": "infographic-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-06-26",
+      "note": "MCP server that combines Gemini grounding with visual generation to research a topic, extract findings, and create publication-ready infographics, diagrams, charts, or styled visuals from coding-agent workflows.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "新闻/资讯",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs",
+          "url": "https://github.com/frankxai/arcanea/tree/main/docs",
+          "source": "https://github.com/frankxai/arcanea"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "VibeGraphics",
+      "url": "https://github.com/automateyournetwork/VibeGraphics",
+      "primaryUrl": "https://github.com/automateyournetwork/VibeGraphics",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 15,
+      "license": "Apache-2.0",
+      "updated": "2026-06-28",
+      "note": "MCP server and Gemini CLI extension that fetches GitHub repository structure, README, code, and metadata, then produces themed project infographics and optional short animated videos with generated image and animation prompts.",
+      "sourceTypes": [
+        "代码库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

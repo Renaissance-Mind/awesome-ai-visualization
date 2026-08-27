@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-606_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-614_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--28-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,18 +15,18 @@
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
 
-## Latest Refresh (2026-08-27)
+## Latest Refresh (2026-08-28)
 
 | Project | Catalog focus |
 | --- | --- |
-| [all2md](https://github.com/thomas-villani/all2md) | Python library, CLI, and MCP server that converts PDFs, Office files, HTML, email, spreadsheets, and 40+ formats into LLM-ready Markdown, then renders Markdown back to DOCX, PDF, PPTX, HTML, and browser previews. |
-| [Google Workspace MCP Server](https://github.com/taylorwilsdon/google_workspace_mcp) | Google Workspace MCP server and CLI with OAuth, local or remote deployment, and 120+ tools for agents to read, create, edit, and manage Google Docs, Sheets, Slides, Drive files, Forms, and related Workspace artifacts. |
-| [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | Claude Code video-production workspace with skills, commands, templates, Remotion, FFmpeg, Playwright recording, voice, image, music, and open-model video tools for turning prompts, demos, and explainers into rendered MP4s. |
-| [local-dashboard-builder](https://github.com/walm00/local-dashboard-builder) | Claude Code plugin and skill that walks a repo through a manifest-tracked workflow to scaffold zero-dependency local HTML decision dashboards from CSV, SQLite, git, subprocess, filesystem, or custom collectors. |
-| [PPT-KIT](https://github.com/loonghao/ppt-kit) | PowerPoint Office add-in with an MCP bridge server, WebSocket bridge, Markdown editor, code highlighting, Mermaid rendering, and Office.js operations for creating, syncing, and manipulating live PowerPoint slides. |
-| [Xmind Generator MCP Server](https://github.com/BangyiZhang/xmind-generator-mcp) | Node.js MCP server that lets LLM clients generate editable Xmind mind maps with hierarchical topics, notes, labels, markers, and relationships, and read existing .xmind files back out as Markdown outlines. |
-| [Token Dashboard](https://github.com/nateherkai/token-dashboard) | Local, no-telemetry dashboard that reads Claude Code JSONL transcripts and turns them into per-prompt cost analytics, tool and file heatmaps, subagent attribution, cache analytics, project comparisons, and rule-based tips. |
-| [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) | Dependency-free local web app and VS Code extension that scans Claude Code session logs and visualizes token usage, model mix, sessions, projects, costs, hourly activity, and collapsible Chart.js dashboard sections. |
+| [Napkin AI MCP Server](https://github.com/LouisChanCLY/napkin-ai-mcp) | Community MCP server for Napkin AI that turns text prompts into SVG, PNG, or PPT visuals, including mind maps, flowcharts, timelines, and comparison diagrams, with multi-storage export targets. |
+| [Infographic MCP Server by byebyebruce](https://github.com/byebyebruce/inforgraphic-mcp) | MCP server that renders prompt-driven AntV Infographic outputs as local images or URL-served assets over stdio, Streamable HTTP, or SSE transports. |
+| [mcp-icon](https://github.com/hustcc/mcp-icon) | MCP server for semantic SVG icon search over 100,000+ infographic icons, returning visual assets that agents can reuse in reports, diagrams, dashboards, and slide decks. |
+| [Timeline Generator MCP](https://github.com/kbichave/timeline-generator-mcp) | CLI and MCP server that turns milestone data into horizontal, vertical, Gantt, roadmap, and infographic timelines exported as PNG, SVG, GIF, or MP4. |
+| [figurify-mcp](https://github.com/genaimanoj/figurify-mcp) | Python MCP server that adds Gemini/Imagen-backed generation for diagrams, infographics, and plots to Claude, ChatGPT, Cursor, and VS Code Copilot. |
+| [Vibe Deck MCP](https://github.com/EllenSong77/vibe-deck-mcp) | Template-free MCP plugin that lets local LLM agents write HTML/CSS and render visual cards, presentation pages, infographics, social carousels, and reports through Puppeteer. |
+| [Arcanea InfoGenius](https://github.com/frankxai/arcanea-infogenius) | MCP server that combines Gemini grounding with visual generation to research a topic, extract findings, and create publication-ready infographics, diagrams, charts, or styled visuals. |
+| [VibeGraphics](https://github.com/automateyournetwork/VibeGraphics) | MCP server and Gemini CLI extension that fetches GitHub repository structure, README, code, and metadata, then produces themed project infographics and optional short animated videos. |
 
 ## ✨ 추천 사용법
 
@@ -181,6 +181,7 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [project-tracker](https://github.com/szymontex/project-tracker) [![Star](https://img.shields.io/github/stars/szymontex/project-tracker?style=flat&logo=github&label=Star)](https://github.com/szymontex/project-tracker/stargazers) | Knowledge base / Codebase | Agent skill | Chart/dashboard / Table/timeline / Structured data/Markdown | Agent host / Local runtime / Storage/index |
 | [tldr-skill](https://github.com/UpayanGhosh/tldr-skill) [![Star](https://img.shields.io/github/stars/UpayanGhosh/tldr-skill?style=flat&logo=github&label=Star)](https://github.com/UpayanGhosh/tldr-skill/stargazers) | Codebase | Agent skill | Code map/repo wiki / Architecture/flow diagram / Whiteboard/mind map / Web/interactive page | Agent host / Local runtime / Code analysis / Rendering/export / Storage/index |
 | [Skill Atlas](https://github.com/ddutche/skill-atlas) [![Star](https://img.shields.io/github/stars/ddutche/skill-atlas?style=flat&logo=github&label=Star)](https://github.com/ddutche/skill-atlas/stargazers) | Codebase / Knowledge base | Open-source app/framework | Code map/repo wiki / Diagram/Mermaid / Architecture/flow diagram / Web/interactive page | Browser/account / Local runtime / Model API / External search/data / Storage/index / Rendering/export |
+| [VibeGraphics](https://github.com/automateyournetwork/VibeGraphics) [![Star](https://img.shields.io/github/stars/automateyournetwork/VibeGraphics?style=flat&logo=github&label=Star)](https://github.com/automateyournetwork/VibeGraphics/stargazers) | 코드베이스 / 텍스트/아이디어 | MCP server | 코드 맵/Repo Wiki / 인포그래픽/시각 보고서 / 아키텍처/흐름도 / 비디오/오디오 | MCP 클라이언트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 코드 분석 / 렌더링/내보내기 |
 
 ### 데이터, 표 및 비즈니스 지표
 
@@ -274,6 +275,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [local-dashboard-builder](https://github.com/walm00/local-dashboard-builder) [![Star](https://img.shields.io/github/stars/walm00/local-dashboard-builder?style=flat&logo=github&label=Star)](https://github.com/walm00/local-dashboard-builder/stargazers) | Codebase / Data/tables / Database | Agent skill | Chart/dashboard / Web/interactive page / Table/timeline | Agent host / Local runtime / Rendering/export / Storage/index |
 | [Token Dashboard](https://github.com/nateherkai/token-dashboard) [![Star](https://img.shields.io/github/stars/nateherkai/token-dashboard?style=flat&logo=github&label=Star)](https://github.com/nateherkai/token-dashboard/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
 | [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) [![Star](https://img.shields.io/github/stars/phuryn/claude-usage?style=flat&logo=github&label=Star)](https://github.com/phuryn/claude-usage/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
+| [Timeline Generator MCP](https://github.com/kbichave/timeline-generator-mcp) [![Star](https://img.shields.io/github/stars/kbichave/timeline-generator-mcp?style=flat&logo=github&label=Star)](https://github.com/kbichave/timeline-generator-mcp/stargazers) | 데이터/표 / 텍스트/아이디어 / DSL/코드 | MCP server / API/SDK/라이브러리 | 표/타임라인 / 차트/대시보드 / 인포그래픽/시각 보고서 / SVG/PNG/PDF / 비디오/오디오 | MCP 클라이언트 / 로컬 런타임 / 시스템 도구 / 렌더링/내보내기 / 템플릿/자산 |
 
 ### 일반 텍스트, 아이디어 및 화이트보드 시각화
 
@@ -356,6 +358,9 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Hand-drawn Infographic Restyler](https://github.com/layyyback/handdrawn-infographic-skill/blob/main/restyle-handdrawn-infographic/SKILL.md?plain=1) [![Star](https://img.shields.io/github/stars/layyyback/handdrawn-infographic-skill?style=flat&logo=github&label=Star)](https://github.com/layyyback/handdrawn-infographic-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Any/multi-source | Agent skill | Infographic/visual report / Graphical abstract/infographic / SVG/PNG/PDF | Agent host / Model API / Local runtime / Rendering/export / Templates/assets |
 | [High-Density Infographic Skill](https://github.com/AAAAAAAJ/infographic-skill) [![Star](https://img.shields.io/github/stars/AAAAAAAJ/infographic-skill?style=flat&logo=github&label=Star)](https://github.com/AAAAAAAJ/infographic-skill/stargazers) | Text/ideas / Web/search / Data/tables | Agent skill | Infographic/visual report / Graphical abstract/infographic / SVG/PNG/PDF | Agent host / Model API / Rendering/export / Templates/assets |
 | [html-infographic](https://github.com/mitchelfletcher11/html-infographic) [![Star](https://img.shields.io/github/stars/mitchelfletcher11/html-infographic?style=flat&logo=github&label=Star)](https://github.com/mitchelfletcher11/html-infographic/stargazers) | Text/ideas / Code/technical text | Agent skill | Infographic/visual report / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Napkin AI MCP Server](https://github.com/LouisChanCLY/napkin-ai-mcp) [![Star](https://img.shields.io/github/stars/LouisChanCLY/napkin-ai-mcp?style=flat&logo=github&label=Star)](https://github.com/LouisChanCLY/napkin-ai-mcp/stargazers) | 텍스트/아이디어 / 데이터/표 / 웹/검색 | MCP server | 인포그래픽/시각 보고서 / 아키텍처/흐름도 / 마인드맵/지식 맵 / PPT/덱 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 / 저장/인덱스 |
+| [figurify-mcp](https://github.com/genaimanoj/figurify-mcp) [![Star](https://img.shields.io/github/stars/genaimanoj/figurify-mcp?style=flat&logo=github&label=Star)](https://github.com/genaimanoj/figurify-mcp/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 설명 | MCP server | 인포그래픽/시각 보고서 / 아키텍처/흐름도 / 차트/대시보드 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [Arcanea InfoGenius](https://github.com/frankxai/arcanea-infogenius) [![Star](https://img.shields.io/github/stars/frankxai/arcanea-infogenius?style=flat&logo=github&label=Star)](https://github.com/frankxai/arcanea-infogenius/stargazers) | 웹/검색 / 뉴스/인텔리전스 / 텍스트/아이디어 / 데이터/표 | MCP server | 인포그래픽/시각 보고서 / 아키텍처/흐름도 / 차트/대시보드 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
 
 ### 프로그래매틱 비디오와 모션 설명
 
@@ -566,6 +571,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Talk-to-Your-Slides](https://github.com/KyuDan1/Talk-to-Your-Slides) [![Star](https://img.shields.io/github/stars/KyuDan1/Talk-to-Your-Slides?style=flat&logo=github&label=Star)](https://github.com/KyuDan1/Talk-to-Your-Slides/stargazers) | Office docs / Text/ideas | Research prototype / Bot/assistant | PPT/deck / Evidence table | Agent host / MCP client / Local runtime / Model API / Rendering/export |
 | [Google Workspace MCP Server](https://github.com/taylorwilsdon/google_workspace_mcp) [![Star](https://img.shields.io/github/stars/taylorwilsdon/google_workspace_mcp?style=flat&logo=github&label=Star)](https://github.com/taylorwilsdon/google_workspace_mcp/stargazers) | Office docs / Data/tables / Knowledge base / Web/search | MCP server / API/SDK/library | PPT/deck / Long report / Chart/dashboard / Structured data/Markdown | MCP client / Browser/account / Local runtime / External search/data / Storage/index / Rendering/export |
 | [PPT-KIT](https://github.com/loonghao/ppt-kit) [![Star](https://img.shields.io/github/stars/loonghao/ppt-kit?style=flat&logo=github&label=Star)](https://github.com/loonghao/ppt-kit/stargazers) | Text/ideas / Office docs / DSL/code | Open-source app/framework / MCP server | PPT/deck / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
+| [Vibe Deck MCP](https://github.com/EllenSong77/vibe-deck-mcp) [![Star](https://img.shields.io/github/stars/EllenSong77/vibe-deck-mcp?style=flat&logo=github&label=Star)](https://github.com/EllenSong77/vibe-deck-mcp/stargazers) | 텍스트/아이디어 / 데이터/표 / 웹/검색 | MCP server | PPT/덱 / 인포그래픽/시각 보고서 / 긴 보고서 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 
 ## 보조, 전처리 및 후처리 도구
 
@@ -693,6 +699,8 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [DiagrammerGPT](https://github.com/aszala/DiagrammerGPT) [![Star](https://img.shields.io/github/stars/aszala/DiagrammerGPT?style=flat&logo=github&label=Star)](https://github.com/aszala/DiagrammerGPT/stargazers) | Text/ideas / Code/technical text | Research prototype | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / Model API / GPU / Rendering/export |
 | [Whimsical MCP Server](https://github.com/BrockReece/whimsical-mcp-server) [![Star](https://img.shields.io/github/stars/BrockReece/whimsical-mcp-server?style=flat&logo=github&label=Star)](https://github.com/BrockReece/whimsical-mcp-server/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Whiteboard/mind map / Architecture/flow diagram / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export |
 | [tl-draw-mcp](https://github.com/Siddharth11Roy/tldraw-claude-mcp) [![Star](https://img.shields.io/github/stars/Siddharth11Roy/tldraw-claude-mcp?style=flat&logo=github&label=Star)](https://github.com/Siddharth11Roy/tldraw-claude-mcp/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Whiteboard/mind map / Architecture/flow diagram / Web/interactive page | MCP client / Local runtime / Rendering/export |
+| [Infographic MCP Server by byebyebruce](https://github.com/byebyebruce/inforgraphic-mcp) [![Star](https://img.shields.io/github/stars/byebyebruce/inforgraphic-mcp?style=flat&logo=github&label=Star)](https://github.com/byebyebruce/inforgraphic-mcp/stargazers) | 텍스트/아이디어 / DSL/코드 | MCP server | 인포그래픽/시각 보고서 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
+| [mcp-icon](https://github.com/hustcc/mcp-icon) [![Star](https://img.shields.io/github/stars/hustcc/mcp-icon?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-icon/stargazers) | 텍스트/아이디어 / DSL/코드 | MCP server | SVG/PNG/PDF / 인포그래픽/시각 보고서 | MCP 클라이언트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
 
 ## 도구 선택 방법
 

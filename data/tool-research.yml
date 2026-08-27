@@ -1,4 +1,4 @@
-generated_at: '2026-08-26T23:06:49+00:00'
+generated_at: '2026-08-27T23:06:32+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 606
-  fetched_sources_ok: 805
+  entries: 614
+  fetched_sources_ok: 816
   fetched_sources_failed: 46
-  official_examples: 1295
-  official_effect_assets: 1647
-  official_docs: 1563
+  official_examples: 1300
+  official_effect_assets: 1664
+  official_docs: 1576
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -48491,3 +48491,452 @@ entries:
   - Scan JSONL files and populate the database (~/.claude/usage.db)
   - Show today's usage summary by model (in terminal)
   - Scan + open browser dashboard at http://localhost:8080
+- name: Napkin AI MCP Server
+  category: infographic-report
+  surface: mcp
+  primary_url: https://github.com/LouisChanCLY/napkin-ai-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Community MCP server for Napkin AI that turns text prompts into SVG, PNG, or PPT visuals, including
+    mind maps, flowcharts, timelines, and comparison diagrams, with local, S3, Google Drive, Slack, Notion, Telegram,
+    or Discord storage targets.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 19433
+  official_examples:
+  - kind: showcase
+    title: see gallery
+    url: https://www.napkin.ai/gallery
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: styles
+    url: https://api.napkin.ai/docs/styles
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: API Documentation
+    url: https://api.napkin.ai/docs
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: Available Styles
+    url: https://api.napkin.ai/docs/styles/index.html
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/LouisChanCLY/napkin-ai-mcp/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Napkin AI MCP Server Banner
+    url: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/assets/banner.jpeg
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: see gallery
+    url: https://www.napkin.ai/gallery
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: styles
+    url: https://api.napkin.ai/docs/styles
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: API Documentation
+    url: https://api.napkin.ai/docs
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: Available Styles
+    url: https://api.napkin.ai/docs/styles/index.html
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/LouisChanCLY/napkin-ai-mcp/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
+  source_headings:
+  - Example Prompts
+  - Default Visual Settings
+  - generate_visual / generate_and_wait / generate_and_save
+  - Example Output
+  - Benefits of Visual Communication
+  - Visual Query Types
+  - Programmatic Usage
+  - Visual generation times out
+- name: Infographic MCP Server by byebyebruce
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/byebyebruce/inforgraphic-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: MCP server that renders prompt-driven AntV Infographic outputs as local images or URL-served assets
+    over stdio, Streamable HTTP, or SSE transports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infographic MCP Server
+    bytes: 5039
+  official_examples:
+  - kind: example
+    title: prompt example
+    url: https://github.com/byebyebruce/inforgraphic-mcp/blob/HEAD/PROMPT.md
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  - kind: showcase
+    title: AntV Infographic Gallery
+    url: https://infographic.antv.vision/gallery
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Mcp Config
+    url: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/doc/mcp_config.png
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  - kind: image
+    title: Agent Prompt
+    url: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/doc/agent_prompt.png
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  - kind: image
+    title: Chat
+    url: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/doc/chat.png
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  official_links:
+  - kind: example
+    title: prompt example
+    url: https://github.com/byebyebruce/inforgraphic-mcp/blob/HEAD/PROMPT.md
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  - kind: showcase
+    title: AntV Infographic Gallery
+    url: https://infographic.antv.vision/gallery
+    source: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
+  source_headings:
+  - Usage Preview
+  - URL Mode Example
+  - Example
+  - Available Templates
+- name: mcp-icon
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/hustcc/mcp-icon
+  homepage: https://infographic.antv.vision/icon
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: MCP server for semantic SVG icon search over 100,000+ infographic icons, returning SVG URLs that
+    agents can use as visual assets in reports, diagrams, dashboards, or slide decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/hustcc/mcp-icon/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/hustcc/mcp-icon/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🎨 mcp-icon
+    bytes: 4031
+  - kind: homepage
+    url: https://infographic.antv.vision/icon
+    final_url: https://infographic.antv.vision/icon
+    status: 200
+    content_type: text/html
+    title: Icon Recommendation – AntV Infographic
+    description: AntV Infographic - A powerful visualization library for building interactive and customizable infographics.
+    bytes: 57216
+  official_examples:
+  - kind: showcase
+    title: Gallery
+    url: https://infographic.antv.vision/gallery
+    source: https://infographic.antv.vision/icon
+  - kind: example
+    title: More Examples
+    url: https://infographic.antv.vision/gallery
+    source: https://infographic.antv.vision/icon
+  official_docs:
+  - kind: docs
+    title: Reference
+    url: https://infographic.antv.vision/reference
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: Docs
+    url: https://infographic.antv.vision/learn
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: API Reference
+    url: https://infographic.antv.vision/reference/infographic-api
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: JSX
+    url: https://infographic.antv.vision/reference/jsx
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: API
+    url: https://infographic.antv.vision/reference/api
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: Design Assets
+    url: https://infographic.antv.vision/reference/design-assets
+    source: https://infographic.antv.vision/icon
+  official_links:
+  - kind: docs
+    title: Reference
+    url: https://infographic.antv.vision/reference
+    source: https://infographic.antv.vision/icon
+  - kind: showcase
+    title: Gallery
+    url: https://infographic.antv.vision/gallery
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: Docs
+    url: https://infographic.antv.vision/learn
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: API Reference
+    url: https://infographic.antv.vision/reference/infographic-api
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: JSX
+    url: https://infographic.antv.vision/reference/jsx
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: API
+    url: https://infographic.antv.vision/reference/api
+    source: https://infographic.antv.vision/icon
+  - kind: docs
+    title: Design Assets
+    url: https://infographic.antv.vision/reference/design-assets
+    source: https://infographic.antv.vision/icon
+  - kind: example
+    title: More Examples
+    url: https://infographic.antv.vision/gallery
+    source: https://infographic.antv.vision/icon
+  source_headings:
+  - 🤖 Usage
+- name: Timeline Generator MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/kbichave/timeline-generator-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: CLI and MCP server that turns milestone data into horizontal, vertical, Gantt, roadmap, and infographic
+    timelines exported as PNG, SVG, GIF, or MP4 with themes, animation, and collision-aware layout.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 13893
+  official_docs:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/kbichave/timeline-generator-mcp/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Animated Timeline
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/project_timeline.gif
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: Horizontal Timeline
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/project_timeline.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: Vertical Timeline
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/company_history.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: Gantt Chart
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/sprint_gantt.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: Product Roadmap
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/product_roadmap.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: Infographic
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/personal_goals.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: TOON Horizontal Timeline
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/project_timeline_toon.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  - kind: image
+    title: TOON Gantt Chart
+    url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/output/sprint_gantt_toon.png
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/kbichave/timeline-generator-mcp/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
+  source_headings:
+  - Examples
+  - Animated GIF Example
+  - Generate All Examples
+  - TOON example - compact and token-efficient
+  - Example AI Prompts
+  - Tool Documentation
+  - TOON Format Examples
+  - 'Example: TOON vs YAML'
+  - TOON Examples Output
+- name: figurify-mcp
+  category: infographic-report
+  surface: mcp
+  primary_url: https://github.com/genaimanoj/figurify-mcp
+  homepage: https://pypi.org/project/figurify-mcp/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Python MCP server that gives Claude, ChatGPT, Cursor, and VS Code Copilot Gemini/Imagen-backed generation
+    for diagrams, infographics, and plots when the host lacks native image generation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/genaimanoj/figurify-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/genaimanoj/figurify-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: figurify-mcp
+    bytes: 4780
+  - kind: homepage
+    url: https://pypi.org/project/figurify-mcp/
+    final_url: https://pypi.org/project/figurify-mcp/
+    status: 200
+    content_type: text/html
+    title: Client Challenge
+    bytes: 3038
+- name: Vibe Deck MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/EllenSong77/vibe-deck-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Template-free MCP plugin that lets local LLM agents write HTML/CSS and render visual cards, presentation
+    pages, infographics, social carousels, and reports through Puppeteer.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Vibe Deck MCP Server
+    bytes: 3258
+  official_docs:
+  - kind: docs
+    title: 中文说明
+    url: https://github.com/EllenSong77/vibe-deck-mcp/blob/HEAD/README_zh.md
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Cover Page
+    url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/cover.png
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  - kind: image
+    title: Light Cover Page
+    url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/cover-light.png
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  - kind: image
+    title: Content Page
+    url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/content.png
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  - kind: image
+    title: CTA Page
+    url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/cta.png
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  - kind: image
+    title: Light Content Page
+    url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/docs/assets/content-light.png
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 中文说明
+    url: https://github.com/EllenSong77/vibe-deck-mcp/blob/HEAD/README_zh.md
+    source: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
+  source_headings:
+  - 🌟 AI-Generated Examples
+- name: Arcanea InfoGenius
+  category: infographic-report
+  surface: mcp
+  primary_url: https://github.com/frankxai/arcanea-infogenius
+  homepage: https://github.com/frankxai/arcanea
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: MCP server that combines Gemini grounding with visual generation to research a topic, extract findings,
+    and create publication-ready infographics, diagrams, charts, or styled visuals from coding-agent workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/frankxai/arcanea-infogenius/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/frankxai/arcanea-infogenius/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Arcanea InfoGenius — Visual Intelligence MCP Server
+    bytes: 3411
+  - kind: homepage
+    url: https://github.com/frankxai/arcanea
+    final_url: https://github.com/frankxai/arcanea
+    status: 200
+    content_type: text/html
+    title: 'GitHub - frankxai/arcanea: Public mirror of Arcanea.ai — the creative intelligence platform for chat,
+      lore, academy, and worldbuilding. · GitHub'
+    description: Public mirror of Arcanea.ai — the creative intelligence platform for chat, lore, academy, and worldbuilding.
+      - frankxai/arcanea
+    bytes: 512136
+  official_docs:
+  - kind: docs
+    title: docs
+    url: https://github.com/frankxai/arcanea/tree/main/docs
+    source: https://github.com/frankxai/arcanea
+  official_links:
+  - kind: docs
+    title: docs
+    url: https://github.com/frankxai/arcanea/tree/main/docs
+    source: https://github.com/frankxai/arcanea
+  source_headings:
+  - Arcanea InfoGenius — Visual Intelligence MCP Server
+  - Usage Examples
+  - Generate a visual
+- name: VibeGraphics
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/automateyournetwork/VibeGraphics
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: MCP server and Gemini CLI extension that fetches GitHub repository structure, README, code, and
+    metadata, then produces themed project infographics and optional short animated videos with generated image
+    and animation prompts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/automateyournetwork/VibeGraphics/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/automateyournetwork/VibeGraphics/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: null
+    bytes: 4584
