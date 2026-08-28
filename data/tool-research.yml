@@ -1,4 +1,4 @@
-generated_at: '2026-08-27T23:06:32+00:00'
+generated_at: '2026-08-28T23:07:23+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 614
-  fetched_sources_ok: 816
+  entries: 622
+  fetched_sources_ok: 827
   fetched_sources_failed: 46
-  official_examples: 1300
-  official_effect_assets: 1664
-  official_docs: 1576
+  official_examples: 1325
+  official_effect_assets: 1690
+  official_docs: 1589
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -48940,3 +48940,635 @@ entries:
     content_type: text/plain
     title: null
     bytes: 4584
+- name: Scientific Illustrator
+  category: paper-visualization
+  surface: mcp
+  primary_url: https://github.com/icebird1998/scientific-illustrator
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Codex plugin and MCP toolkit that redraws uploaded scientific reference figures as editable PowerPoint, WPS
+    Presentation, or draw.io objects with iterative preview checks and export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/icebird1998/scientific-illustrator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/icebird1998/scientific-illustrator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Scientific Illustrator
+    bytes: 8927
+  official_docs:
+  - kind: docs
+    title: 隐私说明
+    url: https://github.com/icebird1998/scientific-illustrator/blob/HEAD/PRIVACY.md
+    source: https://raw.githubusercontent.com/icebird1998/scientific-illustrator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 隐私说明
+    url: https://github.com/icebird1998/scientific-illustrator/blob/HEAD/PRIVACY.md
+    source: https://raw.githubusercontent.com/icebird1998/scientific-illustrator/HEAD/README.md
+  source_headings:
+  - 使用 WPS 演示
+- name: HermesOffice
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/criptogus/HermesOffice
+  dependencies:
+  - 本地语言环境
+  - Agent 宿主
+  - MCP Client
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Local-first AI office suite for DOCX, XLSX, PPTX, and PDF where an embedded Hermes Agent proposes auditable
+    document, workbook, slide, and PDF edits through open-standard engines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/criptogus/HermesOffice/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/criptogus/HermesOffice/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: HermesOffice — the office where humans and agents work as one team
+    bytes: 8785
+  official_examples:
+  - kind: demo
+    title: Watch the demo
+    url: https://www.youtube.com/watch?v=B2pLdMX95v4
+    source: https://raw.githubusercontent.com/criptogus/HermesOffice/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: Watch the demo
+    url: https://www.youtube.com/watch?v=B2pLdMX95v4
+    source: https://raw.githubusercontent.com/criptogus/HermesOffice/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Watch the demo
+    url: https://www.youtube.com/watch?v=B2pLdMX95v4
+    source: https://raw.githubusercontent.com/criptogus/HermesOffice/HEAD/README.md
+- name: Pireel Studio
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/pireel/pireel
+  homepage: https://www.pireel.com
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Open-source AI video editor with canvas and timeline editing plus chat/agent control for turning clips, media
+    collections, captions, graphics, and reusable frames into exported videos.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pireel/pireel/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pireel/pireel/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Pireel Studio
+    bytes: 2311
+  - kind: homepage
+    url: https://pireel.com/en
+    final_url: https://pireel.com/en
+    status: 200
+    content_type: text/html
+    title: AI Video Editor for Talking Heads & Shorts | Pireel
+    description: Edit talking heads, long videos, vlogs, product demos and commerce clips with Pireel. Create and revise editable
+      cuts by chat, then export in your browser.
+    bytes: 132395
+  official_examples:
+  - kind: video
+    title: AI video editor
+    url: https://www.pireel.com/en
+    source: https://pireel.com/en
+  - kind: video
+    title: Conversational editing
+    url: https://www.pireel.com/en/conversational-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: Automatic editing
+    url: https://www.pireel.com/en/automatic-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: MCP video editor
+    url: https://www.pireel.com/en/mcp-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: Talking-head editor
+    url: https://www.pireel.com/en/ai-talking-head-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: Long video to shorts
+    url: https://www.pireel.com/en/long-video-to-shorts
+    source: https://pireel.com/en
+  - kind: demo
+    title: Product demo maker
+    url: https://www.pireel.com/en/product-demo-video-maker
+    source: https://pireel.com/en
+  - kind: video
+    title: Transcript editor
+    url: https://www.pireel.com/en/transcript-video-editor
+    source: https://pireel.com/en
+  official_docs:
+  - kind: docs
+    title: connection guide
+    url: https://pireel.com/connect-agent.md
+    source: https://raw.githubusercontent.com/pireel/pireel/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: People, product, interface and lifestyle footage assembled through the shared canvas, timeline and Agent workflow
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/chat-editing-hero-dark-v8.jpg
+    source: https://pireel.com/en
+  - kind: image
+    title: Cursor movement, abstract interface changes and a voice waveform align into three product-demo steps
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/product-demo-dark-v2.jpg
+    source: https://pireel.com/en
+  - kind: image
+    title: A talking-head recording with repeated sections becomes one coherent edit with natural pauses intact
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/talking-head-dark-v2.jpg
+    source: https://pireel.com/en
+  - kind: image
+    title: A long landscape interview is selected into three distinct vertical short videos
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/long-to-shorts-dark-v2.jpg
+    source: https://pireel.com/en
+  - kind: image
+    title: Train, street, coffee and landscape footage is arranged into a coherent travel sequence
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/montage-vlog-dark-v2.jpg
+    source: https://pireel.com/en
+  - kind: image
+    title: One camera source branches into landscape, square and portrait video variants
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/batch-remix-dark-v2.jpg
+    source: https://pireel.com/en
+  - kind: image
+    title: Coffee beans, grinding and product-use footage become a concise commerce video story
+    url: https://cdn.pireel.com/static/landing/editorial-scenes/commerce-short-dark-v2.jpg
+    source: https://pireel.com/en
+  official_links:
+  - kind: docs
+    title: connection guide
+    url: https://pireel.com/connect-agent.md
+    source: https://raw.githubusercontent.com/pireel/pireel/HEAD/README.md
+  - kind: video
+    title: AI video editor
+    url: https://www.pireel.com/en
+    source: https://pireel.com/en
+  - kind: video
+    title: Conversational editing
+    url: https://www.pireel.com/en/conversational-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: Automatic editing
+    url: https://www.pireel.com/en/automatic-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: MCP video editor
+    url: https://www.pireel.com/en/mcp-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: Talking-head editor
+    url: https://www.pireel.com/en/ai-talking-head-video-editor
+    source: https://pireel.com/en
+  - kind: video
+    title: Long video to shorts
+    url: https://www.pireel.com/en/long-video-to-shorts
+    source: https://pireel.com/en
+  - kind: demo
+    title: Product demo maker
+    url: https://www.pireel.com/en/product-demo-video-maker
+    source: https://pireel.com/en
+  - kind: video
+    title: Transcript editor
+    url: https://www.pireel.com/en/transcript-video-editor
+    source: https://pireel.com/en
+- name: video-shotcraft
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/Vincentwei1021/video-shotcraft
+  homepage: https://vincentwei1021.github.io/video-shotcraft/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill that turns a product brief or live page captures into cinematic Remotion promo
+    videos using shot recipe cards, storyboards, motion previews, captions, SFX, and export templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ✨ What's new
+    bytes: 13895
+  - kind: homepage
+    url: https://vincentwei1021.github.io/video-shotcraft/
+    final_url: https://vincentwei1021.github.io/video-shotcraft/
+    status: 200
+    content_type: text/html
+    title: video-shotcraft — AI Video Skill for Claude Code & Codex | Cinematic Product Videos with Remotion
+    description: 'video-shotcraft is an AI agent skill for Claude Code & Codex that makes cinematic product promo videos with
+      Remotion. 152 shot recipe cards organized by function, tuned demos, and '
+    bytes: 23950
+  official_examples:
+  - kind: video
+    title: 中文
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/README_CN.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: 日本語
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/README_JA.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: showcase
+    title: '**Browse all 209 motion previews in the live Gallery »**'
+    url: https://vincentwei1021.github.io/video-shotcraft/
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: '**video-talkcraft**'
+    url: https://github.com/Vincentwei1021/video-talkcraft
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: '**Browse all 78 narration motion previews »**'
+    url: https://vincentwei1021.github.io/video-talkcraft/
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: Watch in HD on YouTube
+    url: https://youtu.be/gcVvRM_P3SM
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: Watch in HD on YouTube
+    url: https://youtu.be/iShab28B_ak
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: SKILL.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: ATTRIBUTION.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/assets/audio/ATTRIBUTION.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: VIDEO SHOTCRAFT
+    url: https://vincentwei1021.github.io/video-shotcraft/
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  - kind: showcase
+    title: Showcase
+    url: https://vincentwei1021.github.io/video-shotcraft/showcase.html
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  - kind: video
+    title: Browse all motions
+    url: https://vincentwei1021.github.io/video-shotcraft/library.html
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  - kind: video
+    title: Star on GitHub ★
+    url: https://github.com/Vincentwei1021/video-shotcraft
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  official_docs:
+  - kind: docs
+    title: references/jianying-export.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/jianying-export.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: production pipeline
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/pipeline.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: visual QA criteria
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/aesthetic-rules.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: sound-design.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/sound-design.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: references/shots/ATTRIBUTION.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/shots/ATTRIBUTION.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  official_effect_assets:
+  - kind: video
+    title: Watch in HD on YouTube
+    url: https://youtu.be/gcVvRM_P3SM
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: Watch in HD on YouTube
+    url: https://youtu.be/iShab28B_ak
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: image
+    title: video-shotcraft — AI Video Skill for Claude Code & Codex | Cinematic Product Videos with Remotion
+    url: https://vincentwei1021.github.io/video-shotcraft/og-image.jpg?v=20260726b
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  official_links:
+  - kind: video
+    title: 中文
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/README_CN.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: 日本語
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/README_JA.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: showcase
+    title: '**Browse all 209 motion previews in the live Gallery »**'
+    url: https://vincentwei1021.github.io/video-shotcraft/
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: '**video-talkcraft**'
+    url: https://github.com/Vincentwei1021/video-talkcraft
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: '**Browse all 78 narration motion previews »**'
+    url: https://vincentwei1021.github.io/video-talkcraft/
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: references/jianying-export.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/jianying-export.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: Watch in HD on YouTube
+    url: https://youtu.be/gcVvRM_P3SM
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: Watch in HD on YouTube
+    url: https://youtu.be/iShab28B_ak
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: SKILL.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: production pipeline
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/pipeline.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: visual QA criteria
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/aesthetic-rules.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: ATTRIBUTION.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/assets/audio/ATTRIBUTION.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: sound-design.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/sound-design.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: docs
+    title: references/shots/ATTRIBUTION.md
+    url: https://github.com/Vincentwei1021/video-shotcraft/blob/HEAD/references/shots/ATTRIBUTION.md
+    source: https://raw.githubusercontent.com/Vincentwei1021/video-shotcraft/HEAD/README.md
+  - kind: video
+    title: VIDEO SHOTCRAFT
+    url: https://vincentwei1021.github.io/video-shotcraft/
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  - kind: showcase
+    title: Showcase
+    url: https://vincentwei1021.github.io/video-shotcraft/showcase.html
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  - kind: video
+    title: Browse all motions
+    url: https://vincentwei1021.github.io/video-shotcraft/library.html
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  - kind: video
+    title: Star on GitHub ★
+    url: https://github.com/Vincentwei1021/video-shotcraft
+    source: https://vincentwei1021.github.io/video-shotcraft/
+  source_headings:
+  - 🎬 Showcase
+  - '📼 Video template: Ink Press'
+- name: Cowrite
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/SpaceZephyr/cowrite
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  - 存储/索引
+  catalog_note: Local AI co-writing canvas where Codex or Claude Code use MCP and bundled skills to edit Markdown, generate
+    article illustrations, HTML logic diagrams, editable PPTX decks, PDF previews, and social image sets.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SpaceZephyr/cowrite/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SpaceZephyr/cowrite/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 安装
+    bytes: 12748
+- name: scroll-craft
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/nateherkai/scroll-craft
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for producing scroll-driven websites with page grammars, generated or user-provided media,
+    ffmpeg/Playwright verification, contact sheets, and reusable scroll engines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: scrollcraft
+    bytes: 9640
+  official_examples:
+  - kind: example
+    title: '`EXAMPLES.md`'
+    url: https://github.com/nateherkai/scroll-craft/blob/HEAD/EXAMPLES.md
+    source: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Orrery, a continuous-world scroll flight
+    url: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/media/orrery.webp
+    source: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+  - kind: image
+    title: PERKFORM, a filmic one-shot product page
+    url: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/media/perkform.webp
+    source: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+  - kind: image
+    title: Fallowbank, a restrained documentary page
+    url: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/media/fallowbank.webp
+    source: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`EXAMPLES.md`'
+    url: https://github.com/nateherkai/scroll-craft/blob/HEAD/EXAMPLES.md
+    source: https://raw.githubusercontent.com/nateherkai/scroll-craft/HEAD/README.md
+- name: drama-skills
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/zenstory-ai/drama-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill suite that converts ideas or long-form source material into short-drama scripts,
+    visual bibles, asset lists, storyboards, image prompts, video prompts, and production previews.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Drama Skills
+    bytes: 9689
+  official_examples:
+  - kind: example
+    title: examples/
+    url: https://github.com/zenstory-ai/drama-skills/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  - kind: example
+    title: 《让你管账号》EP001
+    url: https://github.com/zenstory-ai/drama-skills/blob/HEAD/examples/creator-first/EP001/
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 漫剧创作全流程指引
+    url: https://github.com/zenstory-ai/drama-skills/blob/HEAD/docs/comic-drama-workflow.md
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 短剧创作台：项目概览、分集进度、已有媒体与剧本正文
+    url: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/docs/assets/dashboard-zh.png
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  official_links:
+  - kind: example
+    title: examples/
+    url: https://github.com/zenstory-ai/drama-skills/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  - kind: example
+    title: 《让你管账号》EP001
+    url: https://github.com/zenstory-ai/drama-skills/blob/HEAD/examples/creator-first/EP001/
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  - kind: docs
+    title: 漫剧创作全流程指引
+    url: https://github.com/zenstory-ai/drama-skills/blob/HEAD/docs/comic-drama-workflow.md
+    source: https://raw.githubusercontent.com/zenstory-ai/drama-skills/HEAD/README.md
+  source_headings:
+  - 演示
+- name: Open Science Desktop
+  category: research-report
+  surface: open-source
+  primary_url: https://github.com/ai4s-research/open-science
+  homepage: https://openedscience.com/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Local-first AI research workbench that connects agents, notebooks, files, figures, reports, runs, and review
+    into auditable workflows for literature surveys, experiments, manuscripts, charts, and mind maps.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Open Science Desktop
+    bytes: 25542
+  - kind: homepage
+    url: https://openedscience.com/
+    final_url: https://openedscience.com/
+    status: 200
+    content_type: text/html
+    title: Open Science Desktop - AI Research Workbench for macOS, Windows & Linux
+    description: Open Science Desktop is a local-first, model-agnostic AI research workbench and open-source Claude Science
+      desktop alternative for macOS, Windows, and Linux.
+    bytes: 11756
+  official_docs:
+  - kind: docs
+    title: '`docs/CONNECT_YOUR_TOOLS.md`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/CONNECT_YOUR_TOOLS.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: '`Open Science Desktop vs OpenScience`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/open-science-desktop-vs-openscience.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: '`docs/PRD.md`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/PRD.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: '`docs/TECHNICAL_DESIGN.md`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/TECHNICAL_DESIGN.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://openedscience.com/docs/
+    source: https://openedscience.com/
+  official_effect_assets:
+  - kind: image
+    title: A completed dose-response analysis — script, results, figure, and report — on a phone
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-mobile-run.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: Reproducing an scVI benchmark, with its ARI-vs-epoch figure, viewed on a phone
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-mobile-reproduce.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: A rendered cross-species atlas figure beside its generating script and input files in the artifact inspector
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-provenance.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: A protein-language-model literature survey compiled into a PDF manuscript, with a citation reviewer confirming
+      every DOI resolves
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-literature.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: The agent driving the user's own Chrome via open-science-browser to harvest bioRxiv preprints into a chart and
+      CSV
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-browser.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: Reproducing an scVI integration benchmark on a remote A100 with a pinned environment, execution log, and provenance
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-remote.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: An 8-arm scVI hyperparameter sweep table beside a live analysis notebook sharing the agent's kernel
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/showcase-experiment.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: image
+    title: Open Science Desktop - AI Research Workbench for macOS, Windows & Linux
+    url: https://openedscience.com/assets/showcase-workflow.webp
+    source: https://openedscience.com/
+  - kind: image
+    title: Artifact inspector showing a figure's generating code, inputs, and provenance
+    url: https://openedscience.com/assets/showcase-provenance.webp
+    source: https://openedscience.com/
+  - kind: image
+    title: Manuscripts that can be audited
+    url: https://openedscience.com/assets/showcase-literature.webp
+    source: https://openedscience.com/
+  - kind: image
+    title: Open Science Desktop — Local-first AI research workbench
+    url: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/docs/assets/banner.webp
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/CONNECT_YOUR_TOOLS.md`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/CONNECT_YOUR_TOOLS.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: '`Open Science Desktop vs OpenScience`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/open-science-desktop-vs-openscience.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: '`docs/PRD.md`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/PRD.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: '`docs/TECHNICAL_DESIGN.md`'
+    url: https://github.com/ai4s-research/open-science/blob/HEAD/docs/TECHNICAL_DESIGN.md
+    source: https://raw.githubusercontent.com/ai4s-research/open-science/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://openedscience.com/docs/
+    source: https://openedscience.com/

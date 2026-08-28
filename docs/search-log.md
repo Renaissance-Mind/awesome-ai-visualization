@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-28.
+Last researched: 2026-08-29.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-29: refreshed editable scientific-figure reconstruction, local AI office-suite, open-source AI video editing, cinematic product-video skills, local co-writing visual canvas, scroll-driven website skills, drama storyboard/prompt pipelines, and local-first science-report/figure workbench surfaces from official GitHub repositories, README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added Scientific Illustrator, HermesOffice, Pireel Studio, video-shotcraft, Cowrite, scroll-craft, drama-skills, and Open Science Desktop; it also refreshed Codex Slides GitHub metadata after the existing row showed a newer official star/update state. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept twenty-five official examples, twenty-six official preview assets, and thirteen docs links; a duplicate Codex Slides candidate and a thin Meshery MCP Server candidate were rejected before merging.
 
 Update on 2026-08-28: refreshed agent-facing infographic, semantic-icon, timeline, visual-card, research-grounded visual-generation, and codebase-to-infographic/video surfaces from official GitHub repositories, README evidence, AntV/Napkin product documentation, PyPI metadata, live web/GitHub searches, and GitHub metadata. This pass added Napkin AI MCP Server, Infographic MCP Server by byebyebruce, mcp-icon, Timeline Generator MCP, figurify-mcp, Vibe Deck MCP, Arcanea InfoGenius, and VibeGraphics. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept five official examples, seventeen preview assets, and thirteen docs links after scrubbing generic API-key, docs.github.com, Slack app, environment-file, and non-project parent-page links.
 
