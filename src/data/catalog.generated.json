@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-08-28T23:07:23+00:00",
-  "lastResearched": "2026-08-29",
+  "generatedAt": "2026-08-29T23:07:57+00:00",
+  "lastResearched": "2026-08-30",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 622,
-    "openSource": 157,
+    "total": 630,
+    "openSource": 161,
     "saas": 64,
-    "modelApi": 207,
-    "examples": 1325,
-    "effectAssets": 1690,
-    "docs": 1589
+    "modelApi": 208,
+    "examples": 1347,
+    "effectAssets": 1694,
+    "docs": 1594
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 62,
-      "PDF/文档": 191,
-      "文本/想法": 395,
-      "数据/表格": 247,
-      "代码/技术描述": 113,
-      "网页/搜索结果": 169,
-      "代码库": 66,
+      "论文/科研资料": 63,
+      "PDF/文档": 194,
+      "文本/想法": 398,
+      "数据/表格": 250,
+      "代码/技术描述": 116,
+      "网页/搜索结果": 170,
+      "代码库": 68,
       "DSL/代码": 124,
       "新闻/资讯": 27,
-      "知识库/个人资料": 59,
-      "任意/多源": 100,
+      "知识库/个人资料": 60,
+      "任意/多源": 101,
       "Office 文档": 114,
-      "引用网络": 4,
-      "数据库": 56,
+      "引用网络": 5,
+      "数据库": 58,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 157,
-      "Agent Skill": 210,
-      "Skill 集合": 55,
-      "MCP Server": 209,
+      "开源应用/框架": 161,
+      "Agent Skill": 213,
+      "Skill 集合": 58,
+      "MCP Server": 211,
       "产品/SaaS": 64,
       "数据集/评测": 2,
       "Bot/助手": 21,
       "研究原型": 6,
-      "API/SDK/库": 95,
+      "API/SDK/库": 96,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 49,
       "PPT/演示文稿": 265,
-      "网页/交互页面": 202,
-      "问答/学习材料": 15,
-      "报告/长文档": 88,
-      "证据表": 41,
-      "信息图/视觉报告": 95,
-      "图表/仪表盘": 182,
-      "架构图/流程图": 137,
-      "SVG/PNG/PDF": 251,
-      "报告/简报": 72,
+      "网页/交互页面": 208,
+      "问答/学习材料": 16,
+      "报告/长文档": 89,
+      "证据表": 45,
+      "信息图/视觉报告": 96,
+      "图表/仪表盘": 186,
+      "架构图/流程图": 139,
+      "SVG/PNG/PDF": 252,
+      "报告/简报": 73,
       "白板/思维导图": 40,
       "图表/Mermaid": 67,
       "视频/音频": 47,
-      "结构化数据/Markdown": 88,
-      "表格/时间线": 22,
-      "引用答案": 5,
+      "结构化数据/Markdown": 92,
+      "表格/时间线": 24,
+      "引用答案": 6,
       "思维导图/知识地图": 38,
-      "文献地图/知识地图": 4,
-      "代码地图/Repo Wiki": 39,
+      "文献地图/知识地图": 5,
+      "代码地图/Repo Wiki": 41,
       "图表/渲染输出": 21,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 512,
-      "模型 API": 207,
-      "文档解析/OCR": 91,
-      "渲染/导出": 532,
+      "本地语言环境": 519,
+      "模型 API": 208,
+      "文档解析/OCR": 92,
+      "渲染/导出": 538,
       "GPU/加速器": 18,
-      "模板/素材": 288,
-      "Agent 宿主": 275,
-      "系统工具": 131,
+      "模板/素材": 291,
+      "Agent 宿主": 280,
+      "系统工具": 132,
       "浏览器/账号": 156,
-      "存储/索引": 87,
-      "MCP Client": 219,
-      "外部检索/数据源": 131,
-      "代码分析工具": 40
+      "存储/索引": 90,
+      "MCP Client": 221,
+      "外部检索/数据源": 133,
+      "代码分析工具": 43
     },
     "categories": {
       "paper-visualization": 18,
-      "doc-to-knowledge": 55,
+      "doc-to-knowledge": 57,
       "research-report": 29,
-      "infographic-report": 60,
-      "data-dashboard": 95,
+      "infographic-report": 61,
+      "data-dashboard": 96,
       "diagram-generation": 75,
-      "literature-map": 4,
+      "literature-map": 5,
       "presentation-tools": 177,
-      "codebase-map": 36,
+      "codebase-map": 39,
       "rendering-primitive": 19,
       "video-generation": 15,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 32,
-      "text_visual": 74,
+      "paper": 33,
+      "text_visual": 75,
       "web_news": 9,
       "support_mindmap": 15,
-      "docs": 31,
-      "support_doc_parse": 20,
+      "docs": 32,
+      "support_doc_parse": 21,
       "presentation": 187,
-      "code": 39,
+      "code": 42,
       "support_render": 59,
       "diagrams": 19,
       "video": 15,
-      "data": 88,
+      "data": 89,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -51410,6 +51410,492 @@
       "docsCount": 5,
       "examplesCount": 0,
       "effectAssetsCount": 11
+    },
+    {
+      "name": "viz-pack",
+      "url": "https://github.com/pamelinaamyloid829/viz-pack",
+      "primaryUrl": "https://github.com/pamelinaamyloid829/viz-pack",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Claude skill pack that turns notes, reports, plans, and pasted source content into diagrams, infographics, interactive explainers, and shareable dashboards.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Claude BI Skills",
+      "url": "https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence",
+      "primaryUrl": "https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence",
+      "homepage": "https://kymira.ai",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Certified business-intelligence skill set whose Honest Dataviz skill builds reconciled charts, dashboards, and single-file HTML reports from raw business exports.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Quick start The copy-paste prompts, three stages",
+          "url": "https://kymira.ai/quickstart.html",
+          "source": "https://kymira.ai/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "live demo report",
+          "url": "https://kymira.ai/demo/",
+          "source": "https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`sample-data/`",
+          "url": "https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/blob/HEAD/sample-data/",
+          "source": "https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "https://kymira.ai/demo/overview",
+          "url": "https://kymira.ai/demo/overview",
+          "source": "https://kymira.ai/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "The live demo: an intranet where every figure reconciles to source",
+          "url": "https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/docs/demo-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The live demo: the Overview report, where every figure reconciles to the source file's own totals and every check ties.",
+          "url": "https://kymira.ai/img/demo-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://kymira.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "The live demo intranet hub: six certified reports, the Task Hub and Notification Hub, and a data-status page, behind a default-deny wall.",
+          "url": "https://kymira.ai/img/demo-hub.png",
+          "thumbnailUrl": null,
+          "source": "https://kymira.ai/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 3,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Coursewright",
+      "url": "https://github.com/lars-derichter/coursewright",
+      "primaryUrl": "https://github.com/lars-derichter/coursewright",
+      "homepage": "https://coursewright.md",
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "Agent 宿主",
+        "渲染/导出",
+        "外部检索/数据源",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Plain-file course authoring toolkit that publishes Markdown lessons as a website, styled PDF or DOCX handouts, Canvas LMS modules, and AI-assisted course materials.",
+      "sourceTypes": [
+        "PDF/文档",
+        "文本/想法",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "报告/长文档",
+        "结构化数据/Markdown",
+        "问答/学习材料"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Getting Started",
+          "url": "https://coursewright.md/getting-started/how-this-works",
+          "source": "https://coursewright.md/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "didactic foundations",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/didactics.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "publishes it",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/hosting.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "coursewright.md",
+          "url": "https://coursewright.md/",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "exporting",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/exporting.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "lesson workflow",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/lesson-workflow.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "limitations",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/limitations.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "backups",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/backups.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "your first course",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/first-course.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "git and GitHub guide",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/git-and-github.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "customisation",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/customisation.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Canvas setup",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/docs/canvas-setup.md",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "`course/01-getting-started/`",
+          "url": "https://github.com/lars-derichter/coursewright/blob/HEAD/course/01-getting-started/",
+          "source": "https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 18,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Loopy",
+      "url": "https://github.com/hatim-s/loopy",
+      "primaryUrl": "https://github.com/hatim-s/loopy",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "Agent 宿主",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Local-first graph harness that captures agent traces, extracts editable execution graphs, and lets teams inspect, edit, replay, and run those graphs visually.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "graph engineering position and terminology",
+          "url": "https://github.com/hatim-s/loopy/blob/HEAD/docs/graph-engineering.md",
+          "source": "https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "the local scheduling and packaging guide",
+          "url": "https://github.com/hatim-s/loopy/blob/HEAD/docs/phase6-local-scheduling.md",
+          "source": "https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Noodle Biomedical Literature Discovery MCP",
+      "url": "https://github.com/helena-bioinformatics/noodle-mcp",
+      "primaryUrl": "https://github.com/helena-bioinformatics/noodle-mcp",
+      "homepage": "https://noodle.helena.bio/integrations",
+      "category": "literature-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "外部检索/数据源",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-08-29",
+      "note": "Remote MCP server and companion agent skill for biomedical literature discovery over PubMed, citation, co-citation, co-mention, and semantic graph neighborhoods.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "引用网络",
+        "数据库"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "文献地图/知识地图",
+        "证据表",
+        "引用答案",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Read the connector and agent-selection guide",
+          "url": "https://noodle.helena.bio/mcp",
+          "source": "https://noodle.helena.bio/integrations"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "lightbrowse",
+      "url": "https://github.com/maphim/lightbrowse",
+      "primaryUrl": "https://github.com/maphim/lightbrowse",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "存储/索引",
+        "系统工具"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Featherweight browser core with CLI, HTTP, and MCP interfaces that turns web pages into readability text, accessibility snapshots, screenshots, downloads, and structured session state for agents.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "结构化数据/Markdown",
+        "证据表",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Agent Tools Playground",
+      "url": "https://github.com/TeddyBobby/agent-tools-playground",
+      "primaryUrl": "https://github.com/TeddyBobby/agent-tools-playground",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "代码分析工具"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Visual debugger for AI-agent tool calls with timeline views, input/output diffs, and performance statistics rendered in a Next.js playground.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "表格/时间线",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Agent Tools Playground",
+          "url": "https://raw.githubusercontent.com/TeddyBobby/agent-tools-playground/HEAD/public/screenshot.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/TeddyBobby/agent-tools-playground/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Agent Trace Viewer",
+      "url": "https://github.com/pixeltoprompt/agent-trace-viewer",
+      "primaryUrl": "https://github.com/pixeltoprompt/agent-trace-viewer",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Local visual debugger for LangGraph runs that loads traces, shows the executed graph path, and breaks down node, model, tool-call, and graph-overhead timings.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "表格/时间线",
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Live demo →",
+          "url": "https://agent-trace-viewer.vercel.app/",
+          "source": "https://raw.githubusercontent.com/pixeltoprompt/agent-trace-viewer/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     }
   ]
 }

@@ -1,4 +1,4 @@
-generated_at: '2026-08-28T23:07:23+00:00'
+generated_at: '2026-08-29T23:07:57+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 622
-  fetched_sources_ok: 827
+  entries: 630
+  fetched_sources_ok: 838
   fetched_sources_failed: 46
-  official_examples: 1325
-  official_effect_assets: 1690
-  official_docs: 1589
+  official_examples: 1347
+  official_effect_assets: 1694
+  official_docs: 1594
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -49572,3 +49572,470 @@ entries:
     title: Docs
     url: https://openedscience.com/docs/
     source: https://openedscience.com/
+- name: viz-pack
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/pamelinaamyloid829/viz-pack
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill pack that turns notes, reports, plans, and pasted source content into diagrams, infographics,
+    interactive explainers, and shareable dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pamelinaamyloid829/viz-pack/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pamelinaamyloid829/viz-pack/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🧩 viz-pack - Turn content into clear visuals
+    bytes: 6451
+  source_headings:
+  - 🧩 viz-pack - Turn content into clear visuals
+  - Diagrams
+  - 📈 Shareable dashboards
+  - Can I make more than one type of visual?
+  - 🗂️ Example use cases
+  - 🧪 Basic workflow example
+- name: Claude BI Skills
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence
+  homepage: https://kymira.ai
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Certified business-intelligence skill set whose Honest Dataviz skill builds reconciled charts, dashboards,
+    and single-file HTML reports from raw business exports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude skills for business intelligence, certified
+    bytes: 4149
+  - kind: homepage
+    url: https://kymira.ai/
+    final_url: https://kymira.ai/
+    status: 200
+    content_type: text/html
+    title: 'Kymira: Claude skills for certified business intelligence'
+    description: 'Claude skills for business intelligence you can certify: every figure reconciles to the file''s own totals,
+      and anything unproven is named on the page. For Claude Code and Cursor.'
+    bytes: 83891
+  official_examples:
+  - kind: demo
+    title: live demo report
+    url: https://kymira.ai/demo/
+    source: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+  - kind: example
+    title: '`sample-data/`'
+    url: https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/blob/HEAD/sample-data/
+    source: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+  - kind: demo
+    title: https://kymira.ai/demo/overview
+    url: https://kymira.ai/demo/overview
+    source: https://kymira.ai/
+  official_docs:
+  - kind: docs
+    title: Quick start The copy-paste prompts, three stages
+    url: https://kymira.ai/quickstart.html
+    source: https://kymira.ai/
+  official_effect_assets:
+  - kind: image
+    title: 'The live demo: an intranet where every figure reconciles to source'
+    url: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/docs/demo-overview.png
+    source: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+  - kind: image
+    title: 'The live demo: the Overview report, where every figure reconciles to the source file''s own totals and every check
+      ties.'
+    url: https://kymira.ai/img/demo-overview.png
+    source: https://kymira.ai/
+  - kind: image
+    title: 'The live demo intranet hub: six certified reports, the Task Hub and Notification Hub, and a data-status page,
+      behind a default-deny wall.'
+    url: https://kymira.ai/img/demo-hub.png
+    source: https://kymira.ai/
+  official_links:
+  - kind: demo
+    title: live demo report
+    url: https://kymira.ai/demo/
+    source: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+  - kind: example
+    title: '`sample-data/`'
+    url: https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/blob/HEAD/sample-data/
+    source: https://raw.githubusercontent.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/HEAD/README.md
+  - kind: docs
+    title: Quick start The copy-paste prompts, three stages
+    url: https://kymira.ai/quickstart.html
+    source: https://kymira.ai/
+  - kind: demo
+    title: https://kymira.ai/demo/overview
+    url: https://kymira.ai/demo/overview
+    source: https://kymira.ai/
+- name: Coursewright
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/lars-derichter/coursewright
+  homepage: https://coursewright.md
+  dependencies:
+  - 本地语言环境
+  - Agent 宿主
+  - 渲染/导出
+  - 外部检索/数据源
+  - 模板/素材
+  catalog_note: Plain-file course authoring toolkit that publishes Markdown lessons as a website, styled PDF or DOCX handouts,
+    Canvas LMS modules, and AI-assisted course materials.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Coursewright
+    bytes: 8767
+  - kind: homepage
+    url: https://coursewright.md/
+    final_url: https://coursewright.md/
+    status: 200
+    content_type: text/html
+    title: Coursewright
+    description: 'Course material tends to live wherever it was last edited: an LMS editor, a Word'
+    bytes: 16787
+  official_examples:
+  - kind: tutorial
+    title: didactic foundations
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/didactics.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: publishes it
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/hosting.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: coursewright.md
+    url: https://coursewright.md/
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: exporting
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/exporting.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: lesson workflow
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/lesson-workflow.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: limitations
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/limitations.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: backups
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/backups.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: your first course
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/first-course.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: git and GitHub guide
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/git-and-github.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: customisation
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/customisation.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: Canvas setup
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/canvas-setup.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: '`course/01-getting-started/`'
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/course/01-getting-started/
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: VS Code extension
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/vscode.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: User guide
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/user-guide.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: CLI reference
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/cli-reference.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: Markdown guide
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/markdown.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: AI assistants
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/ai-assistants.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: Troubleshooting
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Getting Started
+    url: https://coursewright.md/getting-started/how-this-works
+    source: https://coursewright.md/
+  official_links:
+  - kind: tutorial
+    title: didactic foundations
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/didactics.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: publishes it
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/hosting.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: coursewright.md
+    url: https://coursewright.md/
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: exporting
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/exporting.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: lesson workflow
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/lesson-workflow.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: limitations
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/limitations.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: backups
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/backups.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: your first course
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/first-course.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: git and GitHub guide
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/git-and-github.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: customisation
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/customisation.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: Canvas setup
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/canvas-setup.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: '`course/01-getting-started/`'
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/course/01-getting-started/
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: VS Code extension
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/vscode.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: User guide
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/user-guide.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: CLI reference
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/cli-reference.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: Markdown guide
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/markdown.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: AI assistants
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/ai-assistants.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: Troubleshooting
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: tutorial
+    title: ideas list
+    url: https://github.com/lars-derichter/coursewright/blob/HEAD/docs/roadmap.md
+    source: https://raw.githubusercontent.com/lars-derichter/coursewright/HEAD/README.md
+  - kind: docs
+    title: Getting Started
+    url: https://coursewright.md/getting-started/how-this-works
+    source: https://coursewright.md/
+  - kind: tutorial
+    title: a markdown file you can read
+    url: https://github.com/lars-derichter/coursewright/tree/main/course/01-getting-started
+    source: https://coursewright.md/
+  - kind: tutorial
+    title: didactic foundations
+    url: https://github.com/lars-derichter/coursewright/blob/main/docs/didactics.md
+    source: https://coursewright.md/
+  - kind: tutorial
+    title: Your First Course, Step by Step
+    url: https://github.com/lars-derichter/coursewright/blob/main/docs/first-course.md
+    source: https://coursewright.md/
+  - kind: tutorial
+    title: What It Does Not Do
+    url: https://github.com/lars-derichter/coursewright/blob/main/docs/limitations.md
+    source: https://coursewright.md/
+  - kind: tutorial
+    title: The project on GitHub
+    url: https://github.com/lars-derichter/coursewright
+    source: https://coursewright.md/
+  source_headings:
+  - Documentation
+- name: Loopy
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/hatim-s/loopy
+  dependencies:
+  - 本地语言环境
+  - Agent 宿主
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local-first graph harness that captures agent traces, extracts editable execution graphs, and lets teams inspect,
+    edit, replay, and run those graphs visually.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Loopy
+    bytes: 3388
+  official_docs:
+  - kind: docs
+    title: graph engineering position and terminology
+    url: https://github.com/hatim-s/loopy/blob/HEAD/docs/graph-engineering.md
+    source: https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md
+  - kind: docs
+    title: the local scheduling and packaging guide
+    url: https://github.com/hatim-s/loopy/blob/HEAD/docs/phase6-local-scheduling.md
+    source: https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: graph engineering position and terminology
+    url: https://github.com/hatim-s/loopy/blob/HEAD/docs/graph-engineering.md
+    source: https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md
+  - kind: docs
+    title: the local scheduling and packaging guide
+    url: https://github.com/hatim-s/loopy/blob/HEAD/docs/phase6-local-scheduling.md
+    source: https://raw.githubusercontent.com/hatim-s/loopy/HEAD/README.md
+- name: Noodle Biomedical Literature Discovery MCP
+  category: literature-map
+  surface: mcp
+  primary_url: https://github.com/helena-bioinformatics/noodle-mcp
+  homepage: https://noodle.helena.bio/integrations
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 外部检索/数据源
+  - 存储/索引
+  catalog_note: Remote MCP server and companion agent skill for biomedical literature discovery over PubMed, citation, co-citation,
+    co-mention, and semantic graph neighborhoods.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/helena-bioinformatics/noodle-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/helena-bioinformatics/noodle-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Noodle Biomedical Literature Discovery MCP
+    bytes: 4122
+  - kind: homepage
+    url: https://noodle.helena.bio/integrations
+    final_url: https://noodle.helena.bio/integrations
+    status: 200
+    content_type: text/html
+    title: Noodle MCP Integrations | Noodle
+    description: Connect ChatGPT, Claude, Codex, VS Code, Cursor, Windsurf, Gemini CLI, Grok, Perplexity, Biomni, or Biorouter
+      to biomedical literature discovery.
+    bytes: 28711
+  official_docs:
+  - kind: docs
+    title: Read the connector and agent-selection guide
+    url: https://noodle.helena.bio/mcp
+    source: https://noodle.helena.bio/integrations
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: Read the connector and agent-selection guide
+    url: https://noodle.helena.bio/mcp
+    source: https://noodle.helena.bio/integrations
+- name: lightbrowse
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/maphim/lightbrowse
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 存储/索引
+  - 系统工具
+  catalog_note: Featherweight browser core with CLI, HTTP, and MCP interfaces that turns web pages into readability text,
+    accessibility snapshots, screenshots, downloads, and structured session state for agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/maphim/lightbrowse/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/maphim/lightbrowse/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: lightbrowse 🪶
+    bytes: 21292
+- name: Agent Tools Playground
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/TeddyBobby/agent-tools-playground
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 代码分析工具
+  catalog_note: Visual debugger for AI-agent tool calls with timeline views, input/output diffs, and performance statistics
+    rendered in a Next.js playground.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TeddyBobby/agent-tools-playground/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TeddyBobby/agent-tools-playground/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Agent Tools Playground 🔧 / Agent 工具调试器
+    bytes: 2310
+  official_effect_assets:
+  - kind: image
+    title: Agent Tools Playground
+    url: https://raw.githubusercontent.com/TeddyBobby/agent-tools-playground/HEAD/public/screenshot.png
+    source: https://raw.githubusercontent.com/TeddyBobby/agent-tools-playground/HEAD/README.md
+  source_headings:
+  - Agent Tools Playground 🔧 / Agent 工具调试器
+- name: Agent Trace Viewer
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/pixeltoprompt/agent-trace-viewer
+  dependencies:
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Local visual debugger for LangGraph runs that loads traces, shows the executed graph path, and breaks down
+    node, model, tool-call, and graph-overhead timings.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pixeltoprompt/agent-trace-viewer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pixeltoprompt/agent-trace-viewer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Agent Trace Viewer
+    bytes: 1460
+  official_examples:
+  - kind: demo
+    title: Live demo →
+    url: https://agent-trace-viewer.vercel.app/
+    source: https://raw.githubusercontent.com/pixeltoprompt/agent-trace-viewer/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Live demo →
+    url: https://agent-trace-viewer.vercel.app/
+    source: https://raw.githubusercontent.com/pixeltoprompt/agent-trace-viewer/HEAD/README.md

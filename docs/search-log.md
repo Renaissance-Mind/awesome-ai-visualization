@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-29.
+Last researched: 2026-08-30.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-30: refreshed content-to-visual skill packs, certified BI/dashboard skills, plain-file course publishing, local agent execution graphs, biomedical literature graph discovery, web-page extraction, and AI-agent trace debugging surfaces from official GitHub repositories, README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added viz-pack, Claude BI Skills, Coursewright, Loopy, Noodle Biomedical Literature Discovery MCP, lightbrowse, Agent Tools Playground, and Agent Trace Viewer. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept twenty-two official examples, four artifact preview assets, and five docs links after scrubbing non-artifact mascot/Open Graph media and governance-only links.
 
 Update on 2026-08-29: refreshed editable scientific-figure reconstruction, local AI office-suite, open-source AI video editing, cinematic product-video skills, local co-writing visual canvas, scroll-driven website skills, drama storyboard/prompt pipelines, and local-first science-report/figure workbench surfaces from official GitHub repositories, README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added Scientific Illustrator, HermesOffice, Pireel Studio, video-shotcraft, Cowrite, scroll-craft, drama-skills, and Open Science Desktop; it also refreshed Codex Slides GitHub metadata after the existing row showed a newer official star/update state. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept twenty-five official examples, twenty-six official preview assets, and thirteen docs links; a duplicate Codex Slides candidate and a thin Meshery MCP Server candidate were rejected before merging.
 

@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-622_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--29-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-630_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--30-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,18 +15,18 @@
 
 一部のプロジェクト名、公式用語、短い説明は、検索性と原典との対応を保つため英語のまま残しています。
 
-## Latest Refresh (2026-08-29)
+## Latest Refresh (2026-08-30)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Scientific Illustrator](https://github.com/icebird1998/scientific-illustrator) | Codex plugin and MCP toolkit that redraws uploaded scientific reference figures as editable PowerPoint, WPS Presentation, or draw.io objects with iterative preview checks and export. |
-| [HermesOffice](https://github.com/criptogus/HermesOffice) | Local-first AI office suite for DOCX, XLSX, PPTX, and PDF where an embedded Hermes Agent proposes auditable document, workbook, slide, and PDF edits through open-standard engines. |
-| [Pireel Studio](https://github.com/pireel/pireel) | Open-source AI video editor with canvas and timeline editing plus chat/agent control for turning clips, media collections, captions, graphics, and reusable frames into exported videos. |
-| [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | Claude Code and Codex skill that turns a product brief or live page captures into cinematic Remotion promo videos using shot recipe cards, storyboards, motion previews, captions, SFX, and export templates. |
-| [Cowrite](https://github.com/SpaceZephyr/cowrite) | Local AI co-writing canvas where Codex or Claude Code use MCP and bundled skills to edit Markdown, generate article illustrations, HTML logic diagrams, editable PPTX decks, PDF previews, and social image sets. |
-| [scroll-craft](https://github.com/nateherkai/scroll-craft) | Claude Code skill for producing scroll-driven websites with page grammars, generated or user-provided media, ffmpeg/Playwright verification, contact sheets, and reusable scroll engines. |
-| [drama-skills](https://github.com/zenstory-ai/drama-skills) | Claude Code and Codex skill suite that converts ideas or long-form source material into short-drama scripts, visual bibles, asset lists, storyboards, image prompts, video prompts, and production previews. |
-| [Open Science Desktop](https://github.com/ai4s-research/open-science) | Local-first AI research workbench that connects agents, notebooks, files, figures, reports, runs, and review into auditable workflows for literature surveys, experiments, manuscripts, charts, and mind maps. |
+| [viz-pack](https://github.com/pamelinaamyloid829/viz-pack) | Claude skill pack that turns notes, reports, plans, and pasted source content into diagrams, infographics, interactive explainers, and shareable dashboards. |
+| [Claude BI Skills](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence) | Certified business-intelligence skill set whose Honest Dataviz skill builds reconciled charts, dashboards, and single-file HTML reports from raw business exports. |
+| [Coursewright](https://github.com/lars-derichter/coursewright) | Plain-file course authoring toolkit that publishes Markdown lessons as a website, styled PDF or DOCX handouts, Canvas LMS modules, and AI-assisted course materials. |
+| [Loopy](https://github.com/hatim-s/loopy) | Local-first graph harness that captures agent traces, extracts editable execution graphs, and lets teams inspect, edit, replay, and run those graphs visually. |
+| [Noodle Biomedical Literature Discovery MCP](https://github.com/helena-bioinformatics/noodle-mcp) | Remote MCP server and companion agent skill for biomedical literature discovery over PubMed, citation, co-citation, co-mention, and semantic graph neighborhoods. |
+| [lightbrowse](https://github.com/maphim/lightbrowse) | Featherweight browser core with CLI, HTTP, and MCP interfaces that turns web pages into readability text, accessibility snapshots, screenshots, downloads, and structured session state for agents. |
+| [Agent Tools Playground](https://github.com/TeddyBobby/agent-tools-playground) | Visual debugger for AI-agent tool calls with timeline views, input/output diffs, and performance statistics rendered in a Next.js playground. |
+| [Agent Trace Viewer](https://github.com/pixeltoprompt/agent-trace-viewer) | Local visual debugger for LangGraph runs that loads traces, shows the executed graph path, and breaks down node, model, tool-call, and graph-overhead timings. |
 
 ## ✨ 推奨される使い方
 
@@ -84,6 +84,7 @@
 
 | [Interactive Presentation Skill](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill) [![Star](https://img.shields.io/github/stars/MinnThikeTunn/Interactive-Presentation-Skill?style=flat&logo=github&label=Star)](https://github.com/MinnThikeTunn/Interactive-Presentation-Skill/stargazers) | Papers/research / PDF/documents / Code/technical text | Agent skill | PPT/deck / Web/interactive page / Graphical abstract/infographic | Agent host / Local runtime / Rendering/export |
 | [BERIL Presentation Maker Skill](https://github.com/kbaseincubator/beril-presentation-maker-skill) [![Star](https://img.shields.io/github/stars/kbaseincubator/beril-presentation-maker-skill?style=flat&logo=github&label=Star)](https://github.com/kbaseincubator/beril-presentation-maker-skill/stargazers) | Papers/research / PDF/documents / Data/tables / Knowledge base | Agent skill | PPT/deck / Graphical abstract/infographic / Briefing/report | Agent host / Local runtime / Model API / Document parsing/OCR / Rendering/export / Templates/assets |
+| [Noodle Biomedical Literature Discovery MCP](https://github.com/helena-bioinformatics/noodle-mcp) [![Star](https://img.shields.io/github/stars/helena-bioinformatics/noodle-mcp?style=flat&logo=github&label=Star)](https://github.com/helena-bioinformatics/noodle-mcp/stargazers) | 論文/研究 / 引用ネットワーク / データベース | MCP server / Agent skill | 文献/ナレッジマップ / エビデンステーブル / 引用付き回答 / 構造化データ/Markdown | MCP クライアント / Agent ホスト / 外部検索/データ / ストレージ/インデックス |
 
 ### Web・ニュース・インテリジェンス
 
@@ -139,6 +140,7 @@ PDF、Office ファイル、Webページ、個人文書、チームのナレッ�
 | [AI Summary Skill for Claude Code](https://github.com/molly554/Multi_sources_summarizition_lynote.ai) [![Star](https://img.shields.io/github/stars/molly554/Multi_sources_summarizition_lynote.ai?style=flat&logo=github&label=Star)](https://github.com/molly554/Multi_sources_summarizition_lynote.ai/stargazers) | PDF/文書 / Web/検索 / 動画/音声 / 任意/複数ソース | Agent Skill | 長文レポート / Web/インタラクティブページ / 図/Mermaid / 構造化データ/Markdown | Agent ホスト / ローカル実行環境 / 文書解析/OCR / 外部検索/データ / レンダリング/エクスポート |
 | [Carbone MCP Server](https://github.com/carboneio/carbone-mcp) [![Star](https://img.shields.io/github/stars/carboneio/carbone-mcp?style=flat&logo=github&label=Star)](https://github.com/carboneio/carbone-mcp/stargazers) | データ/表 / Office 文書 / テキスト/アイデア | MCP Server / 製品/SaaS | 長文レポート / PPT/デッキ / SVG/PNG/PDF / 構造化データ/Markdown | MCP クライアント / ブラウザ/アカウント / モデル API / レンダリング/エクスポート / テンプレート/素材 / 外部検索/データ |
 | [Sigrid Report Generator](https://github.com/Software-Improvement-Group/sigrid-report-generator) [![Star](https://img.shields.io/github/stars/Software-Improvement-Group/sigrid-report-generator?style=flat&logo=github&label=Star)](https://github.com/Software-Improvement-Group/sigrid-report-generator/stargazers) | データ/表 / コードベース / Office 文書 | オープンソースアプリ/フレームワーク / API/SDK/ライブラリ | 長文レポート / PPT/デッキ / チャート/ダッシュボード | ローカル実行環境 / ブラウザ/アカウント / 外部検索/データ / レンダリング/エクスポート / テンプレート/素材 |
+| [Coursewright](https://github.com/lars-derichter/coursewright) [![Star](https://img.shields.io/github/stars/lars-derichter/coursewright?style=flat&logo=github&label=Star)](https://github.com/lars-derichter/coursewright/stargazers) | PDF/文書 / テキスト/アイデア / ナレッジベース | オープンソースアプリ/フレームワーク / Skill collection | Web/インタラクティブページ / 長文レポート / 構造化データ/Markdown / Q&A/学習資料 | ローカル実行環境 / Agent ホスト / レンダリング/エクスポート / 外部検索/データ / テンプレート/素材 |
 
 ### コードベースとソフトウェアシステム
 
@@ -184,6 +186,9 @@ PDF、Office ファイル、Webページ、個人文書、チームのナレッ�
 | [tldr-skill](https://github.com/UpayanGhosh/tldr-skill) [![Star](https://img.shields.io/github/stars/UpayanGhosh/tldr-skill?style=flat&logo=github&label=Star)](https://github.com/UpayanGhosh/tldr-skill/stargazers) | Codebase | Agent skill | Code map/repo wiki / Architecture/flow diagram / Whiteboard/mind map / Web/interactive page | Agent host / Local runtime / Code analysis / Rendering/export / Storage/index |
 | [Skill Atlas](https://github.com/ddutche/skill-atlas) [![Star](https://img.shields.io/github/stars/ddutche/skill-atlas?style=flat&logo=github&label=Star)](https://github.com/ddutche/skill-atlas/stargazers) | Codebase / Knowledge base | Open-source app/framework | Code map/repo wiki / Diagram/Mermaid / Architecture/flow diagram / Web/interactive page | Browser/account / Local runtime / Model API / External search/data / Storage/index / Rendering/export |
 | [VibeGraphics](https://github.com/automateyournetwork/VibeGraphics) [![Star](https://img.shields.io/github/stars/automateyournetwork/VibeGraphics?style=flat&logo=github&label=Star)](https://github.com/automateyournetwork/VibeGraphics/stargazers) | コードベース / テキスト/アイデア | MCP server | コードマップ/Repo Wiki / インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 / 動画/音声 | MCP クライアント / ローカル実行環境 / モデル API / 外部検索/データ / コード分析 / レンダリング/エクスポート |
+| [Loopy](https://github.com/hatim-s/loopy) [![Star](https://img.shields.io/github/stars/hatim-s/loopy?style=flat&logo=github&label=Star)](https://github.com/hatim-s/loopy/stargazers) | コードベース / コード/技術テキスト / 任意/複数ソース | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / アーキテクチャ/フロー図 / Web/インタラクティブページ / 構造化データ/Markdown | ローカル実行環境 / Agent ホスト / コード分析 / ストレージ/インデックス / レンダリング/エクスポート |
+| [Agent Tools Playground](https://github.com/TeddyBobby/agent-tools-playground) [![Star](https://img.shields.io/github/stars/TeddyBobby/agent-tools-playground?style=flat&logo=github&label=Star)](https://github.com/TeddyBobby/agent-tools-playground/stargazers) | コード/技術テキスト / データ/表 | オープンソースアプリ/フレームワーク | 表/タイムライン / チャート/ダッシュボード / Web/インタラクティブページ / エビデンステーブル | ローカル実行環境 / レンダリング/エクスポート / コード分析 |
+| [Agent Trace Viewer](https://github.com/pixeltoprompt/agent-trace-viewer) [![Star](https://img.shields.io/github/stars/pixeltoprompt/agent-trace-viewer?style=flat&logo=github&label=Star)](https://github.com/pixeltoprompt/agent-trace-viewer/stargazers) | コードベース / コード/技術テキスト | オープンソースアプリ/フレームワーク | コードマップ/Repo Wiki / 表/タイムライン / チャート/ダッシュボード / Web/インタラクティブページ | ローカル実行環境 / コード分析 / レンダリング/エクスポート |
 
 ### データ・表・ビジネスメトリクス
 
@@ -278,6 +283,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Token Dashboard](https://github.com/nateherkai/token-dashboard) [![Star](https://img.shields.io/github/stars/nateherkai/token-dashboard?style=flat&logo=github&label=Star)](https://github.com/nateherkai/token-dashboard/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
 | [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) [![Star](https://img.shields.io/github/stars/phuryn/claude-usage?style=flat&logo=github&label=Star)](https://github.com/phuryn/claude-usage/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
 | [Timeline Generator MCP](https://github.com/kbichave/timeline-generator-mcp) [![Star](https://img.shields.io/github/stars/kbichave/timeline-generator-mcp?style=flat&logo=github&label=Star)](https://github.com/kbichave/timeline-generator-mcp/stargazers) | データ/表 / テキスト/アイデア / DSL/コード | MCP server / API/SDK/ライブラリ | 表/タイムライン / チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / SVG/PNG/PDF / 動画/音声 | MCP クライアント / ローカル実行環境 / システムツール / レンダリング/エクスポート / テンプレート/素材 |
+| [Claude BI Skills](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence) [![Star](https://img.shields.io/github/stars/dylnbaker15/Claude-Skills-For-Business-Intelligence?style=flat&logo=github&label=Star)](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/stargazers) | データ/表 / データベース / テキスト/アイデア | Skill collection / Agent skill | チャート/ダッシュボード / ブリーフィング/レポート / エビデンステーブル / Web/インタラクティブページ | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 
 ### テキスト・アイデア・ホワイトボード図
 
@@ -365,6 +371,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Arcanea InfoGenius](https://github.com/frankxai/arcanea-infogenius) [![Star](https://img.shields.io/github/stars/frankxai/arcanea-infogenius?style=flat&logo=github&label=Star)](https://github.com/frankxai/arcanea-infogenius/stargazers) | Web/検索 / ニュース/インテリジェンス / テキスト/アイデア / データ/表 | MCP server | インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 / チャート/ダッシュボード / SVG/PNG/PDF | MCP クライアント / ローカル実行環境 / モデル API / 外部検索/データ / レンダリング/エクスポート |
 | [Cowrite](https://github.com/SpaceZephyr/cowrite) [![Star](https://img.shields.io/github/stars/SpaceZephyr/cowrite?style=flat&logo=github&label=Star)](https://github.com/SpaceZephyr/cowrite/stargazers) | テキスト/アイデア / PDF/文書 / 任意/マルチソース | オープンソースアプリ/フレームワーク / MCP server / Skill 集合 | 長文レポート / インフォグラフィック/ビジュアルレポート / PPT/deck / Web/インタラクティブページ / SVG/PNG/PDF | MCP client / Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 / ストレージ/索引 |
 | [scroll-craft](https://github.com/nateherkai/scroll-craft) [![Star](https://img.shields.io/github/stars/nateherkai/scroll-craft?style=flat&logo=github&label=Star)](https://github.com/nateherkai/scroll-craft/stargazers) | テキスト/アイデア / Web/検索 / 任意/マルチソース | Agent skill | Web/インタラクティブページ / インフォグラフィック/ビジュアルレポート / 動画/音声 | Agent ホスト / ローカル実行環境 / ブラウザ/アカウント / レンダリング/エクスポート / テンプレート/素材 |
+| [viz-pack](https://github.com/pamelinaamyloid829/viz-pack) [![Star](https://img.shields.io/github/stars/pamelinaamyloid829/viz-pack?style=flat&logo=github&label=Star)](https://github.com/pamelinaamyloid829/viz-pack/stargazers) | テキスト/アイデア / データ/表 / PDF/文書 | Skill collection / Agent skill | インフォグラフィック/ビジュアルレポート / アーキテクチャ/フロー図 / Web/インタラクティブページ / チャート/ダッシュボード | Agent ホスト / モデル API / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 
 ### プログラマティック動画とモーション解説
 
@@ -606,6 +613,7 @@ PDF、論文、Office ファイル、スキャン画像を Markdown、JSON、レ
 | [PowerPoint Analyzer MCP Server](https://github.com/shiosalt/powerpoint-analyzer-mcp) [![Star](https://img.shields.io/github/stars/shiosalt/powerpoint-analyzer-mcp?style=flat&logo=github&label=Star)](https://github.com/shiosalt/powerpoint-analyzer-mcp/stargazers) | Office docs | MCP server / API/SDK/library | Structured data/Markdown / PPT/deck | MCP client / Local runtime / Document parsing/OCR / Rendering/export |
 | [chart-ocr-mcp](https://github.com/olliemorgan685-glitch/chart-ocr-mcp) [![Star](https://img.shields.io/github/stars/olliemorgan685-glitch/chart-ocr-mcp?style=flat&logo=github&label=Star)](https://github.com/olliemorgan685-glitch/chart-ocr-mcp/stargazers) | Office docs / PDF/documents / Data/tables | MCP server / API/SDK/library | Structured data/Markdown / Chart/dashboard / Evidence table | MCP client / Local runtime / Document parsing/OCR / GPU/accelerator / Rendering/export |
 | [all2md](https://github.com/thomas-villani/all2md) [![Star](https://img.shields.io/github/stars/thomas-villani/all2md?style=flat&logo=github&label=Star)](https://github.com/thomas-villani/all2md/stargazers) | PDF/documents / Office docs / Web/search / Data/tables | API/SDK/library / MCP server | Structured data/Markdown / Long report / PPT/deck / Web/interactive page | Local runtime / Document parsing/OCR / Rendering/export |
+| [lightbrowse](https://github.com/maphim/lightbrowse) [![Star](https://img.shields.io/github/stars/maphim/lightbrowse?style=flat&logo=github&label=Star)](https://github.com/maphim/lightbrowse/stargazers) | Web/検索 / PDF/文書 | MCP server / API/SDK/ライブラリ | 構造化データ/Markdown / エビデンステーブル / SVG/PNG/PDF | MCP クライアント / ローカル実行環境 / 文書解析/OCR / ストレージ/インデックス / システムツール |
 
 ### マインドマップ特化ツール
 
