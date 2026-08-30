@@ -1,4 +1,4 @@
-last_researched: '2026-08-30'
+last_researched: '2026-08-31'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -16295,3 +16295,237 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: code
+- name: Anchor Deck
+  url: https://github.com/wengzige/html-deck-editor
+  homepage: https://wengzige.github.io/html-deck-editor/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 154
+  license: MIT
+  updated: '2026-08-29'
+  note: Local-first HTML deck editor and MCP workspace that converts AI-generated HTML or ZIP slide projects into editable decks with browser editing, AI adaptation, local agent collaboration, and HTML, PDF, PNG, or JPG export.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: StarryKit Plugin
+  url: https://github.com/StarryKit/starrykit-plugin
+  homepage: https://starrykit.com
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 90
+  license: MIT
+  updated: '2026-08-28'
+  note: Agent plugin and hosted MCP workflow that turns an idea, image, website, or source file into editable presentations, posters, social graphics, diagrams, dashboards, and web designs with PPTX, PDF, SVG, PNG, JPEG, HTML, or Google Slides export.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - 网页/搜索结果
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: SeaSlides
+  url: https://github.com/touying-typ/seaslides
+  homepage: https://tylina.github.io/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 28
+  license: MIT
+  updated: '2026-08-30'
+  note: Typst/Touying presentation skill that reads a topic, document, or URL, plans a coherent story, selects or creates a theme, authors slides with speaker notes, compiles deliverables, and supports PDF, PNG, and PPTX output.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Amaroad
+  url: https://github.com/co-r-e/amaroad
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 36
+  license: MIT
+  updated: '2026-08-28'
+  note: AI-first MDX slide authoring environment where Claude Code or Codex edits deck files and a Next.js browser UI previews, presents, and exports widescreen decks as PDF or PPTX with notes, components, charts, tables, and timeline layouts.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: SlideFlow
+  url: https://github.com/joe-broadhead/slideflow
+  homepage: https://joe-broadhead.github.io/slideflow/
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  - 浏览器/账号
+  stars: 10
+  license: MIT
+  updated: '2026-08-21'
+  note: Python reporting automation toolkit that connects CSV, JSON, Databricks, DuckDB, Redshift, and dbt sources to YAML-defined Google Slides, Google Docs, PowerPoint, and Google Sheets artifacts with Plotly charts, tables, AI text replacements, batch variants, and source citations.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Tableau Dashboard Creator Skill
+  url: https://github.com/laviDrori0702/tableau-dashboard-creator-skill
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 20
+  license: MIT
+  updated: '2026-08-27'
+  note: Claude Code plugin whose eight approval-gated skills turn a free-text dashboard request and real CSV or Tableau-published data into PRDs, data models, interactive HTML mocks, implementation specs, and experimental Replace-Data-Source-ready Tableau TWBX workbooks.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 报告/长文档
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: CLEAR
+  url: https://github.com/IBM/CLEAR
+  homepage: https://ibm.github.io/CLEAR/
+  category: research-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 58
+  license: Apache-2.0
+  updated: '2026-08-28'
+  note: IBM open-source toolkit for LLM and agentic error analysis that turns prompt/response CSVs or LangGraph, CrewAI, MLflow, and Langfuse traces into per-record critiques, recurring issue categories, scores, Streamlit dashboards, and NiceGUI workflow visualizations.
+  source_types:
+  - 数据/表格
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - 研究原型
+  output_forms:
+  - 图表/仪表盘
+  - 证据表
+  - 报告/长文档
+  - 表格/时间线
+  catalog_section: main
+  readme_group: data
+- name: Tokdash
+  url: https://github.com/JingbiaoMei/Tokdash
+  homepage: https://tokdash.github.io
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 65
+  license: MIT
+  updated: '2026-08-30'
+  note: Local token and cost dashboard for AI coding tools that reads Codex, Claude Code, OpenCode, Gemini CLI, Antigravity, Kimi, Cline, and other local logs into heatmaps, session explorers, quota bars, cost views, 3D contribution calendars, and multi-server dashboards.
+  source_types:
+  - 代码/技术描述
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data

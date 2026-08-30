@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-30.
+Last researched: 2026-08-31.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-08-31: refreshed editable HTML-deck, hosted visual-design plugin, Typst slide skill, MDX slide-authoring, data-driven reporting, Tableau dashboard skill, LLM/agent error-analysis dashboard, and local token/cost dashboard surfaces from official GitHub repositories, README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added Anchor Deck, StarryKit Plugin, SeaSlides, Amaroad, SlideFlow, Tableau Dashboard Creator Skill, CLEAR, and Tokdash. The targeted scraper ran only against these eight new records, fetched fourteen official sources successfully with no failed fetches, and kept eight official examples, forty official effect assets, and twenty-two docs links after scrubbing generic vendor docs, brand-pill icons, a generic photo, and off-scope Tylina/Typst showcase assets.
 
 Update on 2026-08-30: refreshed content-to-visual skill packs, certified BI/dashboard skills, plain-file course publishing, local agent execution graphs, biomedical literature graph discovery, web-page extraction, and AI-agent trace debugging surfaces from official GitHub repositories, README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added viz-pack, Claude BI Skills, Coursewright, Loopy, Noodle Biomedical Literature Discovery MCP, lightbrowse, Agent Tools Playground, and Agent Trace Viewer. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with no failed fetches, and kept twenty-two official examples, four artifact preview assets, and five docs links after scrubbing non-artifact mascot/Open Graph media and governance-only links.
 

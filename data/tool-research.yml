@@ -1,4 +1,4 @@
-generated_at: '2026-08-29T23:07:57+00:00'
+generated_at: '2026-08-30T23:06:03+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 630
-  fetched_sources_ok: 838
+  entries: 638
+  fetched_sources_ok: 852
   fetched_sources_failed: 46
-  official_examples: 1347
-  official_effect_assets: 1694
-  official_docs: 1594
+  official_examples: 1355
+  official_effect_assets: 1734
+  official_docs: 1616
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -50039,3 +50039,682 @@ entries:
     title: Live demo →
     url: https://agent-trace-viewer.vercel.app/
     source: https://raw.githubusercontent.com/pixeltoprompt/agent-trace-viewer/HEAD/README.md
+- name: Anchor Deck
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/wengzige/html-deck-editor
+  homepage: https://wengzige.github.io/html-deck-editor/
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first HTML deck editor and MCP workspace that converts AI-generated HTML or ZIP slide projects into
+    editable decks with browser editing, AI adaptation, local agent collaboration, and HTML, PDF, PNG, or JPG export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 在线工作台：最直接的入口
+    bytes: 17340
+  - kind: homepage
+    url: https://wengzige.github.io/html-deck-editor/
+    final_url: https://wengzige.github.io/html-deck-editor/
+    status: 200
+    content_type: text/html
+    title: Anchor Deck
+    description: Anchor Deck 把 HTML 演示稿转换成可编辑版本。文件不上传服务器，全部在浏览器本地处理。
+    bytes: 636
+  official_docs:
+  - kind: docs
+    title: 隐私说明
+    url: https://github.com/wengzige/html-deck-editor/blob/HEAD/docs/privacy.md
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: docs
+    title: 结构契约
+    url: https://github.com/wengzige/html-deck-editor/blob/HEAD/docs/html-deck-contract.md
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 网页转换器截图
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/web-converter.jpg
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: image
+    title: MCP 工作区截图
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/codex-workspace.jpg
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: image
+    title: MCP 导入截图
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/mcp-import.jpg
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: image
+    title: MCP 协作模式截图
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/mcp-work-mode.jpg
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: image
+    title: AI 智能适配预览
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/ai-adapt-confirm.jpg
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: image
+    title: 帆页 Anchor Deck 在线工作台
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/online-workspace.png
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: image
+    title: 网页转换器 AI 设置
+    url: https://cdn.jsdelivr.net/gh/wengzige/html-deck-editor@main/docs/images/readme/ai-settings.jpg
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 隐私说明
+    url: https://github.com/wengzige/html-deck-editor/blob/HEAD/docs/privacy.md
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+  - kind: docs
+    title: 结构契约
+    url: https://github.com/wengzige/html-deck-editor/blob/HEAD/docs/html-deck-contract.md
+    source: https://raw.githubusercontent.com/wengzige/html-deck-editor/HEAD/README.md
+- name: StarryKit Plugin
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/StarryKit/starrykit-plugin
+  homepage: https://starrykit.com
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent plugin and hosted MCP workflow that turns an idea, image, website, or source file into editable presentations,
+    posters, social graphics, diagrams, dashboards, and web designs with PPTX, PDF, SVG, PNG, JPEG, HTML, or Google Slides
+    export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/StarryKit/starrykit-plugin/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/StarryKit/starrykit-plugin/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Overview
+    bytes: 7445
+  - kind: homepage
+    url: https://starrykit.com/
+    final_url: https://starrykit.com/
+    status: 200
+    content_type: text/html
+    title: StarryKit - Your AI agent workspace for visual design
+    description: Create polished slides, posters, social posts, and more from a prompt. Start free, explore ideas quickly,
+      and refine every design in StarryKit.
+    bytes: 387502
+  official_examples:
+  - kind: showcase
+    title: Explore more work in the StarryKit Gallery.
+    url: https://starrykit.com/gallery
+    source: https://raw.githubusercontent.com/StarryKit/starrykit-plugin/HEAD/README.md
+  - kind: video
+    title: YouTubers
+    url: https://starrykit.com/use-cases/youtubers
+    source: https://starrykit.com/
+  - kind: video
+    title: Videographers
+    url: https://starrykit.com/use-cases/videographers
+    source: https://starrykit.com/
+  official_effect_assets:
+  - kind: image
+    title: Signal to Shift
+    url: https://starrykit.com/resource-assets/ac83755a47bb5408ce8cccabcf9dab0a65bdc98375b12328703d8b47927aad8c.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: Make One Metre Wild
+    url: https://starrykit.com/resource-assets/128c48458b91cdf9edacab999176109088976769005edc638aae76f983a0ee31.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: 'Loopwell - The Refill Effect'
+    url: https://starrykit.com/resource-assets/107962662cec73e720fb6663e9bc3fa6b86983317990ff5c267a6413f7e64037.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: Technical Horizon
+    url: https://starrykit.com/resource-assets/9456f97c4f64521f55b1bd742a24227e8ee2fcbc2e576368a3eaca08159c3d72.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: Tallyform Component Index Identity
+    url: https://starrykit.com/resource-assets/576a7b799d1a863da39c6b478dc79ae6ecf46f8db0a13df7cdcf64decd58903a.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: Typographic Ribbon
+    url: https://starrykit.com/resource-assets/ad0feaa194760ec73927292f74d8aecfbd15c98ecf2c93cb3e772e3bcd0ef09b.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: Warm Modular
+    url: https://starrykit.com/resource-assets/e41f7ac3cf06fe067c818c22a9f365cedbda76234ed6398914dd96893514a330.webp
+    source: https://starrykit.com/
+  - kind: image
+    title: 'Common Ground: How Main Streets Learn'
+    url: https://starrykit.com/resource-assets/2ec3afadbfe02dfdc479c6931b110caf457efc7a5ec4f89d8e07366e82f319ac.webp
+    source: https://starrykit.com/
+  official_links:
+  - kind: showcase
+    title: Explore more work in the StarryKit Gallery.
+    url: https://starrykit.com/gallery
+    source: https://raw.githubusercontent.com/StarryKit/starrykit-plugin/HEAD/README.md
+  - kind: video
+    title: YouTubers
+    url: https://starrykit.com/use-cases/youtubers
+    source: https://starrykit.com/
+  - kind: video
+    title: Videographers
+    url: https://starrykit.com/use-cases/videographers
+    source: https://starrykit.com/
+  source_headings:
+  - Presentation
+  - Poster
+  - More from the Gallery
+- name: SeaSlides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/touying-typ/seaslides
+  homepage: https://tylina.github.io/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Typst/Touying presentation skill that reads a topic, document, or URL, plans a coherent story, selects or
+    creates a theme, authors slides with speaker notes, compiles deliverables, and supports PDF, PNG, and PPTX output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/touying-typ/seaslides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/touying-typ/seaslides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SeaSlides × Tylina
+    bytes: 15849
+  - kind: homepage
+    url: https://tylina.github.io/
+    final_url: https://tylina.github.io/
+    status: 200
+    content_type: text/html
+    title: Tylina — WYSIWYG and AI-native Typst
+    description: Tylina is a document-first, AI-native Typst desktop editor for writing, slides, and beautifully typeset work.
+    bytes: 41668
+  official_examples:
+  - kind: demo
+    title: Demo
+    url: https://tylina.github.io/demo/
+    source: https://tylina.github.io/
+  - kind: template
+    title: SeaSlides scenario templates · MIT
+    url: https://github.com/touying-typ/seaslides
+    source: https://tylina.github.io/
+  official_docs:
+  - kind: docs
+    title: 连接自己的 ACP Agent Connect your own ACP agent
+    url: https://tylina.github.io/docs/acp/
+    source: https://tylina.github.io/
+  official_effect_assets:
+  - kind: image
+    title: Tylina template browser showing Tylina Slides and Typst Universe collections with a Botanical theme preview
+    url: https://raw.githubusercontent.com/touying-typ/seaslides/HEAD/assets/readme/tylina/templates.png
+    source: https://raw.githubusercontent.com/touying-typ/seaslides/HEAD/README.md
+  - kind: image
+    title: Slides Botanical 7
+    url: https://tylina.github.io/showcase/slides-botanical-7.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: Slides Botanical 1
+    url: https://tylina.github.io/showcase/slides-botanical-1.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: Slides Botanical 3
+    url: https://tylina.github.io/showcase/slides-botanical-3.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: Slides Botanical 4
+    url: https://tylina.github.io/showcase/slides-botanical-4.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: Slides Botanical 5
+    url: https://tylina.github.io/showcase/slides-botanical-5.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: Slides Botanical 17
+    url: https://tylina.github.io/showcase/slides-botanical-17.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: An accessible research poster compiled from the SeaSlides Pollux scenario template
+    url: https://tylina.github.io/showcase/poster-pollux.png
+    source: https://tylina.github.io/
+  - kind: image
+    title: A social cover compiled from a SeaSlides scenario template
+    url: https://tylina.github.io/showcase/social-editorial-grid.png
+    source: https://tylina.github.io/
+  official_links:
+  - kind: demo
+    title: Demo
+    url: https://tylina.github.io/demo/
+    source: https://tylina.github.io/
+  - kind: docs
+    title: 连接自己的 ACP Agent Connect your own ACP agent
+    url: https://tylina.github.io/docs/acp/
+    source: https://tylina.github.io/
+  - kind: template
+    title: SeaSlides scenario templates · MIT
+    url: https://github.com/touying-typ/seaslides
+    source: https://tylina.github.io/
+  source_headings:
+  - SeaSlides × Tylina
+  - Theme Gallery
+  - Guizang PPT Skill — HTML presentation reference
+- name: Amaroad
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/co-r-e/amaroad
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-first MDX slide authoring environment where Claude Code or Codex edits deck files and a Next.js browser
+    UI previews, presents, and exports widescreen decks as PDF or PPTX with notes, components, charts, tables, and timeline
+    layouts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/co-r-e/amaroad/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/co-r-e/amaroad/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 26212
+  official_docs:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/co-r-e/amaroad/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/co-r-e/amaroad/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Contributing Guide
+    url: https://github.com/co-r-e/amaroad/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/co-r-e/amaroad/HEAD/README.md
+  source_headings:
+  - 3. Add slides
+  - 4. Write slide content
+  - Slide types
+  - 'Step 1: Establish the deck''s visual identity'
+  - 'Step 4: Iterate slide-by-slide through conversation'
+  - Showcase Components
+  - Media & Visual
+- name: SlideFlow
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/joe-broadhead/slideflow
+  homepage: https://joe-broadhead.github.io/slideflow/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  - 浏览器/账号
+  catalog_note: Python reporting automation toolkit that connects CSV, JSON, Databricks, DuckDB, Redshift, and dbt sources
+    to YAML-defined Google Slides, Google Docs, PowerPoint, and Google Sheets artifacts with Plotly charts, tables, AI text
+    replacements, batch variants, and source citations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/joe-broadhead/slideflow/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/joe-broadhead/slideflow/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🚀 SlideFlow
+    bytes: 12739
+  - kind: homepage
+    url: https://joe-broadhead.github.io/slideflow/
+    final_url: https://joe-broadhead.github.io/slideflow/
+    status: 200
+    content_type: text/html
+    title: SlideFlow
+    description: Automated data-driven generation for Google Slides, Docs, Sheets, and PowerPoint.
+    bytes: 26891
+  official_docs:
+  - kind: docs
+    title: CLI Reference
+    url: https://joe-broadhead.github.io/slideflow/cli-reference/
+    source: https://raw.githubusercontent.com/joe-broadhead/slideflow/HEAD/README.md
+  - kind: docs
+    title: Google Docs Provider
+    url: https://joe-broadhead.github.io/slideflow/providers/google-docs/
+    source: https://raw.githubusercontent.com/joe-broadhead/slideflow/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: CLI Reference
+    url: https://joe-broadhead.github.io/slideflow/cli-reference/
+    source: https://raw.githubusercontent.com/joe-broadhead/slideflow/HEAD/README.md
+  - kind: docs
+    title: Google Docs Provider
+    url: https://joe-broadhead.github.io/slideflow/providers/google-docs/
+    source: https://raw.githubusercontent.com/joe-broadhead/slideflow/HEAD/README.md
+  source_headings:
+  - 🚀 SlideFlow
+  - ✨ Why SlideFlow?
+  - ⚙️ CLI Usage
+  - For Sheets workflows, use `workbook:` schema and `slideflow sheets ...` commands.
+- name: Tableau Dashboard Creator Skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/laviDrori0702/tableau-dashboard-creator-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Claude Code plugin whose eight approval-gated skills turn a free-text dashboard request and real CSV or Tableau-published
+    data into PRDs, data models, interactive HTML mocks, implementation specs, and experimental Replace-Data-Source-ready
+    Tableau TWBX workbooks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/laviDrori0702/tableau-dashboard-creator-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/laviDrori0702/tableau-dashboard-creator-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Tableau Dashboard Plugin
+    bytes: 13272
+  official_effect_assets:
+  - kind: image
+    title: Dashboard Mock Preview
+    url: https://raw.githubusercontent.com/laviDrori0702/tableau-dashboard-creator-skill/HEAD/assets/mock_screenshot.jpeg
+    source: https://raw.githubusercontent.com/laviDrori0702/tableau-dashboard-creator-skill/HEAD/README.md
+  source_headings:
+  - Tableau Dashboard Plugin
+  - Demo
+- name: CLEAR
+  category: research-report
+  surface: open-source
+  primary_url: https://github.com/IBM/CLEAR
+  homepage: https://ibm.github.io/CLEAR/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: IBM open-source toolkit for LLM and agentic error analysis that turns prompt/response CSVs or LangGraph, CrewAI,
+    MLflow, and Langfuse traces into per-record critiques, recurring issue categories, scores, Streamlit dashboards, and NiceGUI
+    workflow visualizations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/IBM/CLEAR/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/IBM/CLEAR/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'CLEAR: Comprehensive LLM Error Analysis and Reporting'
+    bytes: 7125
+  - kind: homepage
+    url: https://ibm.github.io/CLEAR/
+    final_url: https://ibm.github.io/CLEAR/
+    status: 200
+    content_type: text/html
+    title: 'Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents'
+    description: An open-source framework for automatic, dynamic, multi-level evaluation of LLM agent traces and LLM outputs.
+    bytes: 44988
+  official_examples:
+  - kind: paper
+    title: Agentic Paper
+    url: https://arxiv.org/abs/2605.22608
+    source: https://ibm.github.io/CLEAR/
+  - kind: paper
+    title: LLM Paper
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/42398
+    source: https://ibm.github.io/CLEAR/
+  official_docs:
+  - kind: docs
+    title: LLM Analysis Guide →
+    url: https://github.com/IBM/CLEAR/blob/HEAD/docs/llm-analysis.md
+    source: https://raw.githubusercontent.com/IBM/CLEAR/HEAD/README.md
+  - kind: docs
+    title: '**Agentic Dashboard Guide**'
+    url: https://github.com/IBM/CLEAR/blob/HEAD/docs/agentic/dashboard.md
+    source: https://raw.githubusercontent.com/IBM/CLEAR/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents'
+    url: https://ibm.github.io/CLEAR/static/images/agent_clear_flow.png
+    source: https://ibm.github.io/CLEAR/
+  - kind: image
+    title: Agentic CLEAR interactive dashboard (click for high-res PDF)
+    url: https://ibm.github.io/CLEAR/static/images/agentic_clear_ui_trimmed.png
+    source: https://ibm.github.io/CLEAR/
+  - kind: image
+    title: Error category prediction against TRAIL taxonomy
+    url: https://ibm.github.io/CLEAR/static/images/table2_figure.png
+    source: https://ibm.github.io/CLEAR/
+  - kind: image
+    title: AUC heatmap for predicting trajectory success
+    url: https://ibm.github.io/CLEAR/static/images/table3_figure%20%281%29.png
+    source: https://ibm.github.io/CLEAR/
+  - kind: image
+    title: CLEAR Framework pipeline
+    url: https://ibm.github.io/CLEAR/static/images/clear_pipeline.png
+    source: https://ibm.github.io/CLEAR/
+  - kind: image
+    title: CLEAR LLM Analysis interactive UI (click for high-res PDF)
+    url: https://ibm.github.io/CLEAR/static/images/clear_ui_trimmed.png
+    source: https://ibm.github.io/CLEAR/
+  official_links:
+  - kind: docs
+    title: LLM Analysis Guide →
+    url: https://github.com/IBM/CLEAR/blob/HEAD/docs/llm-analysis.md
+    source: https://raw.githubusercontent.com/IBM/CLEAR/HEAD/README.md
+  - kind: docs
+    title: '**Agentic Dashboard Guide**'
+    url: https://github.com/IBM/CLEAR/blob/HEAD/docs/agentic/dashboard.md
+    source: https://raw.githubusercontent.com/IBM/CLEAR/HEAD/README.md
+  - kind: paper
+    title: Agentic Paper
+    url: https://arxiv.org/abs/2605.22608
+    source: https://ibm.github.io/CLEAR/
+  - kind: paper
+    title: LLM Paper
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/42398
+    source: https://ibm.github.io/CLEAR/
+  source_headings:
+  - 'Upload: src/clear_eval/sample_data/agentic/research_agent_results/mlflow/my_experiment/unified_ui_results.zip'
+  - Documentation
+- name: Tokdash
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/JingbiaoMei/Tokdash
+  homepage: https://tokdash.github.io
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: Local token and cost dashboard for AI coding tools that reads Codex, Claude Code, OpenCode, Gemini CLI, Antigravity,
+    Kimi, Cline, and other local logs into heatmaps, session explorers, quota bars, cost views, 3D contribution calendars,
+    and multi-server dashboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Table of Contents
+    bytes: 44470
+  - kind: homepage
+    url: https://tokdash.github.io/
+    final_url: https://tokdash.github.io/
+    status: 200
+    content_type: text/html
+    title: Tokdash — Local token & cost dashboard for AI coding tools
+    description: Tokdash is an open-source, local-first dashboard that shows exactly how many tokens you burn — and what they
+      cost — across Codex, Claude Code, OpenCode, Gemini CLI and more. Runs o
+    bytes: 133935
+  official_examples:
+  - kind: demo
+    title: Demo
+    url: https://tokdash.github.io/demo/
+    source: https://tokdash.github.io/
+  official_docs:
+  - kind: docs
+    title: Supported clients →
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/SUPPORTED_CLIENTS.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: remote access
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/REMOTE_ACCESS.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: companion release guide
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/companion/docs/RELEASE.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`docs/guides/ONBOARDING.md`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/ONBOARDING.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`docs/guides/statusline/`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`statusline-minimal.sh`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/statusline-minimal.sh
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`statusline-full.sh`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/statusline-full.sh
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`statusline.ps1`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/statusline.ps1
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`docs/reference/API.md`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/API.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: docs/reference/HISTORY_RETENTION.md
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/HISTORY_RETENTION.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: guides/
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: reference/
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: development/
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/development/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: Read the docs
+    url: https://github.com/JingbiaoMei/Tokdash
+    source: https://tokdash.github.io/
+  official_effect_assets:
+  - kind: image
+    title: Tokdash overview dashboard - click for live demo
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-overview-en-light.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash sessions view - click for live demo
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-sessions-en-light.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash monthly usage heatmap - click for live demo
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-heatmap-en-light.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash yearly usage heatmap - click for live demo
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-heatmap-year-en-light.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash quota tracking - click for live demo
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-quota-en-light.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash Codex quota and reset credits - click for live demo
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-quota-codex-en-light.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash Companion Status Bar App on macOS
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/companion/demo-mac.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash Companion Status Bar App on Windows
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/companion/demo-win.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: image
+    title: Tokdash statusline integration example
+    url: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/demo-statusline.png
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Supported clients →
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/SUPPORTED_CLIENTS.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: remote access
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/REMOTE_ACCESS.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: companion release guide
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/companion/docs/RELEASE.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`docs/guides/ONBOARDING.md`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/ONBOARDING.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`docs/guides/statusline/`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`statusline-minimal.sh`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/statusline-minimal.sh
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`statusline-full.sh`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/statusline-full.sh
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`statusline.ps1`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/statusline/statusline.ps1
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: '`docs/reference/API.md`'
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/API.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: docs/reference/HISTORY_RETENTION.md
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/HISTORY_RETENTION.md
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: guides/
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/guides/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: reference/
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/reference/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: docs
+    title: development/
+    url: https://github.com/JingbiaoMei/Tokdash/blob/HEAD/docs/development/
+    source: https://raw.githubusercontent.com/JingbiaoMei/Tokdash/HEAD/README.md
+  - kind: demo
+    title: Demo
+    url: https://tokdash.github.io/demo/
+    source: https://tokdash.github.io/
+  - kind: docs
+    title: Read the docs
+    url: https://github.com/JingbiaoMei/Tokdash
+    source: https://tokdash.github.io/
+  source_headings:
+  - 'Upgrade the tokdash command you are about to run, for example:'
+  - Documentation

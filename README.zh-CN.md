@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-630_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--08--30-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-638_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--08--31-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,18 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-08-30)
+## Latest Refresh (2026-08-31)
 
 | Project | Catalog focus |
 | --- | --- |
-| [viz-pack](https://github.com/pamelinaamyloid829/viz-pack) | Claude skill pack that turns notes, reports, plans, and pasted source content into diagrams, infographics, interactive explainers, and shareable dashboards. |
-| [Claude BI Skills](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence) | Certified business-intelligence skill set whose Honest Dataviz skill builds reconciled charts, dashboards, and single-file HTML reports from raw business exports. |
-| [Coursewright](https://github.com/lars-derichter/coursewright) | Plain-file course authoring toolkit that publishes Markdown lessons as a website, styled PDF or DOCX handouts, Canvas LMS modules, and AI-assisted course materials. |
-| [Loopy](https://github.com/hatim-s/loopy) | Local-first graph harness that captures agent traces, extracts editable execution graphs, and lets teams inspect, edit, replay, and run those graphs visually. |
-| [Noodle Biomedical Literature Discovery MCP](https://github.com/helena-bioinformatics/noodle-mcp) | Remote MCP server and companion agent skill for biomedical literature discovery over PubMed, citation, co-citation, co-mention, and semantic graph neighborhoods. |
-| [lightbrowse](https://github.com/maphim/lightbrowse) | Featherweight browser core with CLI, HTTP, and MCP interfaces that turns web pages into readability text, accessibility snapshots, screenshots, downloads, and structured session state for agents. |
-| [Agent Tools Playground](https://github.com/TeddyBobby/agent-tools-playground) | Visual debugger for AI-agent tool calls with timeline views, input/output diffs, and performance statistics rendered in a Next.js playground. |
-| [Agent Trace Viewer](https://github.com/pixeltoprompt/agent-trace-viewer) | Local visual debugger for LangGraph runs that loads traces, shows the executed graph path, and breaks down node, model, tool-call, and graph-overhead timings. |
+| [Anchor Deck](https://github.com/wengzige/html-deck-editor) | Local-first HTML deck editor and MCP workspace that converts AI-generated HTML or ZIP slide projects into editable decks with browser editing, AI adaptation, local agent collaboration, and HTML, PDF, PNG, or JPG export. |
+| [StarryKit Plugin](https://github.com/StarryKit/starrykit-plugin) | Agent plugin and hosted MCP workflow that turns an idea, image, website, or source file into editable presentations, posters, social graphics, diagrams, dashboards, and web designs with PPTX, PDF, SVG, PNG, JPEG, HTML, or Google Slides export. |
+| [SeaSlides](https://github.com/touying-typ/seaslides) | Typst/Touying presentation skill that reads a topic, document, or URL, plans a coherent story, selects or creates a theme, authors slides with speaker notes, compiles deliverables, and supports PDF, PNG, and PPTX output. |
+| [Amaroad](https://github.com/co-r-e/amaroad) | AI-first MDX slide authoring environment where Claude Code or Codex edits deck files and a Next.js browser UI previews, presents, and exports widescreen decks as PDF or PPTX with notes, components, charts, tables, and timeline layouts. |
+| [SlideFlow](https://github.com/joe-broadhead/slideflow) | Python reporting automation toolkit that connects CSV, JSON, Databricks, DuckDB, Redshift, and dbt sources to YAML-defined Google Slides, Google Docs, PowerPoint, and Google Sheets artifacts with Plotly charts, tables, AI text replacements, batch variants, and source citations. |
+| [Tableau Dashboard Creator Skill](https://github.com/laviDrori0702/tableau-dashboard-creator-skill) | Claude Code plugin whose eight approval-gated skills turn a free-text dashboard request and real CSV or Tableau-published data into PRDs, data models, interactive HTML mocks, implementation specs, and experimental Replace-Data-Source-ready Tableau TWBX workbooks. |
+| [CLEAR](https://github.com/IBM/CLEAR) | IBM open-source toolkit for LLM and agentic error analysis that turns prompt/response CSVs or LangGraph, CrewAI, MLflow, and Langfuse traces into per-record critiques, recurring issue categories, scores, Streamlit dashboards, and NiceGUI workflow visualizations. |
+| [Tokdash](https://github.com/JingbiaoMei/Tokdash) | Local token and cost dashboard for AI coding tools that reads Codex, Claude Code, OpenCode, Gemini CLI, Antigravity, Kimi, Cline, and other local logs into heatmaps, session explorers, quota bars, cost views, 3D contribution calendars, and multi-server dashboards. |
 
 ## ✨ 推荐使用方式
 
@@ -282,6 +282,10 @@
 | [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) [![Star](https://img.shields.io/github/stars/phuryn/claude-usage?style=flat&logo=github&label=Star)](https://github.com/phuryn/claude-usage/stargazers) | Codebase / Data/tables / Knowledge base | Open-source app/framework | Chart/dashboard / Table/timeline / Web/interactive page | Local runtime / Storage/index / Rendering/export |
 | [Timeline Generator MCP](https://github.com/kbichave/timeline-generator-mcp) [![Star](https://img.shields.io/github/stars/kbichave/timeline-generator-mcp?style=flat&logo=github&label=Star)](https://github.com/kbichave/timeline-generator-mcp/stargazers) | 数据/表格 / 文本/想法 / DSL/代码 | MCP Server / API/SDK/库 | 表格/时间线 / 图表/仪表盘 / 信息图/视觉报告 / SVG/PNG/PDF / 视频/音频 | MCP Client / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
 | [Claude BI Skills](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence) [![Star](https://img.shields.io/github/stars/dylnbaker15/Claude-Skills-For-Business-Intelligence?style=flat&logo=github&label=Star)](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/stargazers) | 数据/表格 / 数据库 / 文本/想法 | Skill 集合 / Agent Skill | 图表/仪表盘 / 报告/简报 / 证据表 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
+| [SlideFlow](https://github.com/joe-broadhead/slideflow) [![Star](https://img.shields.io/github/stars/joe-broadhead/slideflow?style=flat&logo=github&label=Star)](https://github.com/joe-broadhead/slideflow/stargazers) | 数据/表格 / 数据库 / DSL/代码 | API/SDK/library / 开源应用/框架 | PPT/演示文稿 / 报告/长文档 / 图表/仪表盘 / Structured data/Markdown | 本地语言环境 / 模型 API / External search/data / 渲染/导出 / 模板/素材 / 浏览器/账号 |
+| [Tableau Dashboard Creator Skill](https://github.com/laviDrori0702/tableau-dashboard-creator-skill) [![Star](https://img.shields.io/github/stars/laviDrori0702/tableau-dashboard-creator-skill?style=flat&logo=github&label=Star)](https://github.com/laviDrori0702/tableau-dashboard-creator-skill/stargazers) | 文本/想法 / 数据/表格 / 数据库 | Skill 集合 / Agent Skill | 图表/仪表盘 / 网页/交互页面 / 报告/长文档 / Structured data/Markdown | Agent 宿主 / 本地语言环境 / External search/data / 渲染/导出 / 系统工具 / 模板/素材 |
+| [CLEAR](https://github.com/IBM/CLEAR) [![Star](https://img.shields.io/github/stars/IBM/CLEAR?style=flat&logo=github&label=Star)](https://github.com/IBM/CLEAR/stargazers) | 数据/表格 / 代码/技术描述 / Any/multi-source | 开源应用/框架 / 研究原型 | 图表/仪表盘 / 证据表 / 报告/长文档 / 表格/时间线 | 本地语言环境 / 模型 API / External search/data / 渲染/导出 / 存储/索引 |
+| [Tokdash](https://github.com/JingbiaoMei/Tokdash) [![Star](https://img.shields.io/github/stars/JingbiaoMei/Tokdash?style=flat&logo=github&label=Star)](https://github.com/JingbiaoMei/Tokdash/stargazers) | 代码/技术描述 / 数据/表格 / Knowledge base | 开源应用/框架 | 图表/仪表盘 / 表格/时间线 / 网页/交互页面 | 浏览器/账号 / 本地语言环境 / 存储/索引 / 渲染/导出 / External search/data |
 
 ### 通用文本、想法与白板图示
 
@@ -419,6 +423,10 @@
 | [slide-creator](https://github.com/kaisersong/slide-creator) [![Star](https://img.shields.io/github/stars/kaisersong/slide-creator?style=flat&logo=github&label=Star)](https://github.com/kaisersong/slide-creator/stargazers) | Text/ideas / Data/tables / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [Codex Slides](https://github.com/nexu-io/codex-slides) [![Star](https://img.shields.io/github/stars/nexu-io/codex-slides?style=flat&logo=github&label=Star)](https://github.com/nexu-io/codex-slides/stargazers) | 文本/想法 / 代码库 / PDF/文档 / 网页/搜索结果 / 任意/多源 | 开源应用/框架 / Agent Skill / MCP Server | PPT/演示文稿 / 报告/简报 / 网页/交互页面 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [HermesOffice](https://github.com/criptogus/HermesOffice) [![Star](https://img.shields.io/github/stars/criptogus/HermesOffice?style=flat&logo=github&label=Star)](https://github.com/criptogus/HermesOffice/stargazers) | Office 文档 / PDF/文档 / 数据/表格 / 任意/多源 | 开源应用/框架 / Bot/助手 | PPT/演示文稿 / 报告/长文档 / 图表/仪表盘 / SVG/PNG/PDF | 本地语言环境 / Agent 宿主 / MCP Client / 渲染/导出 / 存储/索引 |
+| [Anchor Deck](https://github.com/wengzige/html-deck-editor) [![Star](https://img.shields.io/github/stars/wengzige/html-deck-editor?style=flat&logo=github&label=Star)](https://github.com/wengzige/html-deck-editor/stargazers) | 文本/想法 / 网页/搜索结果 / DSL/代码 | 开源应用/框架 / Product/SaaS / MCP server | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF | 浏览器/账号 / Agent 宿主 / MCP client / 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
+| [StarryKit Plugin](https://github.com/StarryKit/starrykit-plugin) [![Star](https://img.shields.io/github/stars/StarryKit/starrykit-plugin?style=flat&logo=github&label=Star)](https://github.com/StarryKit/starrykit-plugin/stargazers) | Any/multi-source / 文本/想法 / 网页/搜索结果 / PDF/文档 / 数据/表格 | Agent Skill / MCP server / Product/SaaS | PPT/演示文稿 / 信息图/视觉报告 / 网页/交互页面 / 架构图/流程图 / 图表/仪表盘 / SVG/PNG/PDF | 浏览器/账号 / Agent 宿主 / MCP client / 模型 API / 渲染/导出 / 模板/素材 |
+| [SeaSlides](https://github.com/touying-typ/seaslides) [![Star](https://img.shields.io/github/stars/touying-typ/seaslides?style=flat&logo=github&label=Star)](https://github.com/touying-typ/seaslides/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 / DSL/代码 | Agent Skill | PPT/演示文稿 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
+| [Amaroad](https://github.com/co-r-e/amaroad) [![Star](https://img.shields.io/github/stars/co-r-e/amaroad?style=flat&logo=github&label=Star)](https://github.com/co-r-e/amaroad/stargazers) | 文本/想法 / DSL/代码 / 数据/表格 | 开源应用/框架 | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF / 图表/仪表盘 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [banana-slides](https://github.com/Anionex/banana-slides) [![Star](https://img.shields.io/github/stars/Anionex/banana-slides?style=flat&logo=github&label=Star)](https://github.com/Anionex/banana-slides/stargazers) | 文本/想法 / PDF/文档 / Office 文档 / 任意/多源 | 开源应用/框架 / 产品/SaaS | PPT/演示文稿 / SVG/PNG/PDF / 网页/交互页面 | 浏览器/账号 / 本地语言环境 / 模型 API / 文档解析/OCR / 渲染/导出 / 模板/素材 |
 | [pptpress](https://github.com/liustack/pptpress) [![Star](https://img.shields.io/github/stars/liustack/pptpress?style=flat&logo=github&label=Star)](https://github.com/liustack/pptpress/stargazers) | 文本/想法 / DSL/代码 / Office 文档 | Agent Skill / API/SDK/库 | PPT/演示文稿 / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [AppAutomaton Presentation](https://github.com/appautomaton/presentation) [![Star](https://img.shields.io/github/stars/appautomaton/presentation?style=flat&logo=github&label=Star)](https://github.com/appautomaton/presentation/stargazers) | 文本/想法 / 网页/搜索结果 / 数据/表格 / 任意/多源 | Skill 集合 / Agent Skill | PPT/演示文稿 / 报告/简报 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
