@@ -1,4 +1,4 @@
-last_researched: '2026-08-31'
+last_researched: '2026-09-01'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -16529,3 +16529,235 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: data
+- name: Auto-Slides
+  url: https://github.com/Westlake-AGI-Lab/Auto-Slides
+  homepage: https://auto-slides.github.io/
+  category: paper-visualization
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 系统工具
+  - 模板/素材
+  stars: 527
+  license: unknown
+  updated: '2026-08-17'
+  note: ICME 2026 multi-agent research system that converts academic PDFs into pedagogically optimized Beamer slide decks with OCR/layout extraction, content planning, verification/repair, interactive natural-language revision, themes, and optional speech scripts.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - 研究原型
+  - 开源应用/框架
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: paper
+- name: SlideAgent
+  url: https://github.com/XiaoZhou2024/SlideAgent
+  category: presentation-tools
+  surface: research
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  stars: 6
+  license: unknown
+  updated: '2026-08-31'
+  note: ACL Findings 2026 agent framework and DynaSlide benchmark for updating user-provided PowerPoint templates from natural-language instructions and database-backed chart, table, and summary changes while preserving slide layout and style.
+  source_types:
+  - Office 文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - 研究原型
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: PPTWork
+  url: https://github.com/JunfengRan/PPTWork
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-07-24'
+  note: Portable Anthropic-style skill pair for Codex, Claude Code, OpenCode, and Cursor that plans decks, authors slide HTML, screenshots each page, and exports PowerPoint decks through editable html2pptx-pro or pixel-faithful raster pipelines.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: OpenDeck
+  url: https://github.com/open-deck-org/opendeck
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-07-17'
+  note: Portable SKILL.md deck kit for building animated, narrated HTML presentations with step reveals, tooltips, thumbnail navigation, browser-generated voice clips, offline standalone HTML export, and optional .deck packaging.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: Generative UI MCP
+  url: https://github.com/op7418/Generative-UI-MCP
+  homepage: https://www.npmjs.com/package/generative-ui-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 58
+  license: unknown
+  updated: '2026-08-24'
+  note: MCP server that gives AI hosts on-demand design guidelines and compact prompts for generating interactive widgets, Chart.js dashboards, UI mockups, SVG art, and diagram types such as flowcharts, timelines, hierarchies, cycles, and matrices.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: straightedge
+  url: https://github.com/SciMigo/straightedge
+  homepage: https://scimigo.github.io/straightedge/
+  category: diagram-generation
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-08-31'
+  note: Pure-Python diagram library, CLI, and optional MCP server that turns structured hints or agent prompts into deterministic, machine-checkable SVG diagrams and optional Manim/animated-SVG lessons with legibility and geometric proof checks.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: text_visual
+- name: MockFlow IdeaBoard MCP
+  url: https://github.com/mockflow/ideaboard-mcp
+  homepage: https://mockflow.com
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-24'
+  note: Local MCP server for MockFlow IdeaBoard that lets agents create hosted flowcharts, mind maps, kanban boards, cloud architecture diagrams, charts, tables, spreadsheets, Gantt timelines, calendars, customer journeys, storyboards, ER diagrams, maps, and Markdown boards.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: text_visual
+- name: arch-viewer
+  url: https://github.com/axumquant/arch-viewer
+  homepage: https://github.com/axumquant/arch-viewer
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  - 系统工具
+  stars: 1
+  license: MIT
+  updated: '2026-08-26'
+  note: Local MCP-native architecture viewer that scans codebases, builds a Neo4j/Qdrant-backed architecture model, serves a live dashboard, and exports standalone interactive HTML/SVG architecture diagrams with component, dependency, route, score, and anti-pattern analysis.
+  source_types:
+  - 代码库
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 网页/交互页面
+  - 证据表
+  catalog_section: main
+  readme_group: code

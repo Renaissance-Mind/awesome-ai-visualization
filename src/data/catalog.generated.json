@@ -1,110 +1,110 @@
 {
-  "generatedAt": "2026-08-30T23:06:03+00:00",
-  "lastResearched": "2026-08-31",
+  "generatedAt": "2026-08-31T23:07:22+00:00",
+  "lastResearched": "2026-09-01",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 638,
-    "openSource": 166,
-    "saas": 66,
-    "modelApi": 213,
-    "examples": 1355,
-    "effectAssets": 1734,
-    "docs": 1616
+    "total": 646,
+    "openSource": 168,
+    "saas": 67,
+    "modelApi": 217,
+    "examples": 1383,
+    "effectAssets": 1773,
+    "docs": 1625
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 63,
-      "PDF/文档": 196,
-      "文本/想法": 403,
-      "数据/表格": 256,
-      "代码/技术描述": 118,
-      "网页/搜索结果": 173,
-      "代码库": 68,
-      "DSL/代码": 128,
+      "论文/科研资料": 64,
+      "PDF/文档": 198,
+      "文本/想法": 409,
+      "数据/表格": 260,
+      "代码/技术描述": 120,
+      "网页/搜索结果": 174,
+      "代码库": 69,
+      "DSL/代码": 130,
       "新闻/资讯": 27,
       "知识库/个人资料": 61,
-      "任意/多源": 103,
-      "Office 文档": 114,
+      "任意/多源": 106,
+      "Office 文档": 116,
       "引用网络": 5,
       "数据库": 60,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 166,
-      "Agent Skill": 216,
-      "Skill 集合": 59,
-      "MCP Server": 213,
-      "产品/SaaS": 66,
+      "开源应用/框架": 168,
+      "Agent Skill": 218,
+      "Skill 集合": 61,
+      "MCP Server": 217,
+      "产品/SaaS": 67,
       "数据集/评测": 2,
-      "Bot/助手": 21,
-      "研究原型": 7,
-      "API/SDK/库": 97,
+      "Bot/助手": 22,
+      "研究原型": 9,
+      "API/SDK/库": 98,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 49,
-      "PPT/演示文稿": 270,
-      "网页/交互页面": 213,
+      "PPT/演示文稿": 274,
+      "网页/交互页面": 218,
       "问答/学习材料": 16,
       "报告/长文档": 92,
-      "证据表": 46,
+      "证据表": 48,
       "信息图/视觉报告": 97,
-      "图表/仪表盘": 192,
-      "架构图/流程图": 140,
-      "SVG/PNG/PDF": 256,
+      "图表/仪表盘": 195,
+      "架构图/流程图": 144,
+      "SVG/PNG/PDF": 260,
       "报告/简报": 73,
-      "白板/思维导图": 40,
+      "白板/思维导图": 41,
       "图表/Mermaid": 67,
-      "视频/音频": 47,
+      "视频/音频": 50,
       "结构化数据/Markdown": 94,
-      "表格/时间线": 26,
+      "表格/时间线": 27,
       "引用答案": 6,
       "思维导图/知识地图": 38,
       "文献地图/知识地图": 5,
-      "代码地图/Repo Wiki": 41,
-      "图表/渲染输出": 21,
+      "代码地图/Repo Wiki": 42,
+      "图表/渲染输出": 22,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 526,
-      "模型 API": 213,
-      "文档解析/OCR": 92,
-      "渲染/导出": 546,
-      "GPU/加速器": 18,
-      "模板/素材": 297,
-      "Agent 宿主": 285,
-      "系统工具": 133,
-      "浏览器/账号": 160,
-      "存储/索引": 92,
-      "MCP Client": 223,
-      "外部检索/数据源": 137,
-      "代码分析工具": 43
+      "本地语言环境": 534,
+      "模型 API": 217,
+      "文档解析/OCR": 94,
+      "渲染/导出": 554,
+      "GPU/加速器": 19,
+      "模板/素材": 302,
+      "Agent 宿主": 289,
+      "系统工具": 138,
+      "浏览器/账号": 162,
+      "存储/索引": 93,
+      "MCP Client": 227,
+      "外部检索/数据源": 139,
+      "代码分析工具": 44
     },
     "categories": {
-      "paper-visualization": 18,
+      "paper-visualization": 19,
       "doc-to-knowledge": 57,
       "research-report": 30,
       "infographic-report": 61,
       "data-dashboard": 99,
-      "diagram-generation": 75,
+      "diagram-generation": 77,
       "literature-map": 5,
-      "presentation-tools": 181,
-      "codebase-map": 39,
-      "rendering-primitive": 19,
+      "presentation-tools": 184,
+      "codebase-map": 40,
+      "rendering-primitive": 20,
       "video-generation": 15,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 33,
-      "text_visual": 75,
+      "paper": 34,
+      "text_visual": 77,
       "web_news": 9,
       "support_mindmap": 15,
       "docs": 32,
       "support_doc_parse": 21,
-      "presentation": 191,
-      "code": 42,
-      "support_render": 59,
+      "presentation": 194,
+      "code": 43,
+      "support_render": 60,
       "diagrams": 19,
       "video": 15,
       "data": 93,
@@ -52676,6 +52676,845 @@
       "docsCount": 14,
       "examplesCount": 1,
       "effectAssetsCount": 9
+    },
+    {
+      "name": "Auto-Slides",
+      "url": "https://github.com/Westlake-AGI-Lab/Auto-Slides",
+      "primaryUrl": "https://github.com/Westlake-AGI-Lab/Auto-Slides",
+      "homepage": "https://auto-slides.github.io/",
+      "category": "paper-visualization",
+      "surface": "research",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "GPU/加速器",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 527,
+      "license": "unknown",
+      "updated": "2026-08-17",
+      "note": "ICME 2026 multi-agent research system that converts academic PDFs into pedagogically optimized Beamer slide decks with OCR/layout extraction, content planning, verification/repair, interactive natural-language revision, themes, and optional speech scripts.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "研究原型",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arXiv:2509.11062",
+          "url": "https://arxiv.org/abs/2509.11062",
+          "source": "https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Paper",
+          "url": "https://arxiv.org/pdf/2509.11062.pdf",
+          "source": "https://auto-slides.github.io/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Teaser",
+          "url": "https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/static/figures/teaser.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Auto-Slides Method",
+          "url": "https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/static/figures/method.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Auto-Slides: Automatic Academic Presentation Generation",
+          "url": "https://auto-slides.github.io/static/images/teaser.png",
+          "thumbnailUrl": null,
+          "source": "https://auto-slides.github.io/"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 1",
+          "url": "https://auto-slides.github.io/static/images/slides1/slides1_01.png",
+          "thumbnailUrl": null,
+          "source": "https://auto-slides.github.io/"
+        },
+        {
+          "kind": "image",
+          "title": "Slide 1",
+          "url": "https://auto-slides.github.io/static/images/slides2/slides2_01.png",
+          "thumbnailUrl": null,
+          "source": "https://auto-slides.github.io/"
+        },
+        {
+          "kind": "image",
+          "title": "Method",
+          "url": "https://auto-slides.github.io/static/images/method.png",
+          "thumbnailUrl": null,
+          "source": "https://auto-slides.github.io/"
+        },
+        {
+          "kind": "image",
+          "title": "Interactive",
+          "url": "https://auto-slides.github.io/static/images/interactive_pre.png",
+          "thumbnailUrl": null,
+          "source": "https://auto-slides.github.io/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "SlideAgent",
+      "url": "https://github.com/XiaoZhou2024/SlideAgent",
+      "primaryUrl": "https://github.com/XiaoZhou2024/SlideAgent",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "research",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 6,
+      "license": "unknown",
+      "updated": "2026-08-31",
+      "note": "ACL Findings 2026 agent framework and DynaSlide benchmark for updating user-provided PowerPoint templates from natural-language instructions and database-backed chart, table, and summary changes while preserving slide layout and style.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "研究原型",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Pic 1",
+          "url": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "SlideAgent Architecture",
+          "url": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Input Slide",
+          "url": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Input Slide",
+          "url": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "PPTWork",
+      "url": "https://github.com/JunfengRan/PPTWork",
+      "primaryUrl": "https://github.com/JunfengRan/PPTWork",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-24",
+      "note": "Portable Anthropic-style skill pair for Codex, Claude Code, OpenCode, and Cursor that plans decks, authors slide HTML, screenshots each page, and exports PowerPoint decks through editable html2pptx-pro or pixel-faithful raster pipelines.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/exports/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/exports/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/showcase/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/showcase/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/pptwork-capabilities/p01-cover/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p01-cover/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/pptwork-capabilities/p03-bento/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p03-bento/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/pptwork-capabilities/p05-pipeline/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p05-pipeline/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/ai-agent-landscape-2026/market-size/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/market-size/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/ai-agent-landscape-2026/landscape/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/landscape/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/pptwork-capabilities/p06-workflow/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p06-workflow/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/pptwork-capabilities/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/ai-agent-landscape-2026/`",
+          "url": "https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/",
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "PPTWork capabilities cover slide",
+          "url": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Two skills bento layout",
+          "url": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-bento.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "End-to-end pipeline timeline",
+          "url": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-pipeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI agent market KPI row",
+          "url": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-kpi.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Competitive landscape two-column slide",
+          "url": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-two-col.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Four-step CLI workflow",
+          "url": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-export.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 11,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "OpenDeck",
+      "url": "https://github.com/open-deck-org/opendeck",
+      "primaryUrl": "https://github.com/open-deck-org/opendeck",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-07-17",
+      "note": "Portable SKILL.md deck kit for building animated, narrated HTML presentations with step reveals, tooltips, thumbnail navigation, browser-generated voice clips, offline standalone HTML export, and optional .deck packaging.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "A deck built with OpenDeck — editorial title slide",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The deck control bar",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/controls.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A slide revealing two of three points, with step dots",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/step-reveal.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A hover tooltip pointing at a slide element",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/tooltip.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The thumbnail rail showing all five slides",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/thumbnail-rail.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Studio step 1 — Connect",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/studio-connect.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Studio step 2 — Generate",
+          "url": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/studio-generate.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "Generative UI MCP",
+      "url": "https://github.com/op7418/Generative-UI-MCP",
+      "primaryUrl": "https://github.com/op7418/Generative-UI-MCP",
+      "homepage": "https://www.npmjs.com/package/generative-ui-mcp",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 58,
+      "license": "unknown",
+      "updated": "2026-08-24",
+      "note": "MCP server that gives AI hosts on-demand design guidelines and compact prompts for generating interactive widgets, Chart.js dashboards, UI mockups, SVG art, and diagram types such as flowcharts, timelines, hierarchies, cycles, and matrices.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "图表/仪表盘",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "straightedge",
+      "url": "https://github.com/SciMigo/straightedge",
+      "primaryUrl": "https://github.com/SciMigo/straightedge",
+      "homepage": "https://scimigo.github.io/straightedge/",
+      "category": "diagram-generation",
+      "surface": "library",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-31",
+      "note": "Pure-Python diagram library, CLI, and optional MCP server that turns structured hints or agent prompts into deterministic, machine-checkable SVG diagrams and optional Manim/animated-SVG lessons with legibility and geometric proof checks.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/渲染输出",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`algorithm_trace`",
+          "url": "https://github.com/SciMigo/straightedge/blob/main/docs/algorithm-trace.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`graph`",
+          "url": "https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-theory.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`graph_traversal`",
+          "url": "https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-traversal.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`animated_trace`",
+          "url": "https://github.com/SciMigo/straightedge/blob/HEAD/docs/advanced-cs-figures.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`graph_algorithm`",
+          "url": "https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-animations.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/construction.md`",
+          "url": "https://github.com/SciMigo/straightedge/blob/main/docs/construction.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/narration-timing.md`",
+          "url": "https://github.com/SciMigo/straightedge/blob/main/docs/narration-timing.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/agent-design.md`",
+          "url": "https://github.com/SciMigo/straightedge/blob/main/docs/agent-design.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`docs/diagram-themes.md`",
+          "url": "https://github.com/SciMigo/straightedge/blob/HEAD/docs/diagram-themes.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "docs/graph-course-gaps.md",
+          "url": "https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-course-gaps.md",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/agent_loop.py`",
+          "url": "https://github.com/SciMigo/straightedge/blob/main/examples/agent_loop.py",
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Straightedge — Python SVG Diagram & Manim Animation Generator",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/unit-circle-sine.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Graph Max Flow",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/graph-max-flow.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Graph Dijkstra",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/graph-dijkstra.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Derivative Tangent",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/derivative-tangent.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Riemann Integral",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/riemann-integral.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Ellipse Foci",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/ellipse-foci.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Linear Map",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/linear-map.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Matmul Outer",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/matmul-outer.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Systolic Array",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/systolic-array.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Pipeline Schedules",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/pipeline-schedules.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "image",
+          "title": "Ring Allreduce",
+          "url": "https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/ring-allreduce.jpg",
+          "thumbnailUrl": null,
+          "source": "https://scimigo.github.io/straightedge/"
+        },
+        {
+          "kind": "gif",
+          "title": "A secant line converging to the tangent of a parabola",
+          "url": "https://raw.githubusercontent.com/SciMigo/straightedge/main/site/assets/gif/derivative-tangent.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 3,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "MockFlow IdeaBoard MCP",
+      "url": "https://github.com/mockflow/ideaboard-mcp",
+      "primaryUrl": "https://github.com/mockflow/ideaboard-mcp",
+      "homepage": "https://mockflow.com",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-24",
+      "note": "Local MCP server for MockFlow IdeaBoard that lets agents create hosted flowcharts, mind maps, kanban boards, cloud architecture diagrams, charts, tables, spreadsheets, Gantt timelines, calendars, customer journeys, storyboards, ER diagrams, maps, and Markdown boards.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "图表/仪表盘",
+        "表格/时间线",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/interior-design-brief",
+          "url": "https://mockflow.com/templates/ideaboard/interior-design-brief",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/product-ecosystem-map-1",
+          "url": "https://mockflow.com/templates/ideaboard/product-ecosystem-map-1",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/class-notes",
+          "url": "https://mockflow.com/templates/ideaboard/class-notes",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/fibonacci-scale-agile-1",
+          "url": "https://mockflow.com/templates/ideaboard/fibonacci-scale-agile-1",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/lean-coffee",
+          "url": "https://mockflow.com/templates/ideaboard/lean-coffee",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/meeting-mind-map",
+          "url": "https://mockflow.com/templates/ideaboard/meeting-mind-map",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/digital-value-network-business-ecosystem-map",
+          "url": "https://mockflow.com/templates/ideaboard/digital-value-network-business-ecosystem-map",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/mandala-chart",
+          "url": "https://mockflow.com/templates/ideaboard/mandala-chart",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/campaign-plan",
+          "url": "https://mockflow.com/templates/ideaboard/campaign-plan",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/video-creative-brief",
+          "url": "https://mockflow.com/templates/ideaboard/video-creative-brief",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/User-registration-flow-diagram",
+          "url": "https://mockflow.com/templates/ideaboard/User-registration-flow-diagram",
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "template",
+          "title": "https://mockflow.com/templates/ideaboard/food-product-pastel-colors-moodboard",
+          "url": "https://mockflow.com/templates/ideaboard/food-product-pastel-colors-moodboard",
+          "source": "https://mockflow.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Mockflow Ideaboard",
+          "url": "https://mockflow.com/videos/home/mockflow-ideaboard.webm",
+          "thumbnailUrl": null,
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "image",
+          "title": "WhiteBoard",
+          "url": "https://app.mockflow.com/images/ideaboard/components/whiteboard.png",
+          "thumbnailUrl": null,
+          "source": "https://mockflow.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Flowchart",
+          "url": "https://app.mockflow.com/images/ideaboard/components/flowchart.png",
+          "thumbnailUrl": null,
+          "source": "https://mockflow.com/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 12,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "arch-viewer",
+      "url": "https://github.com/axumquant/arch-viewer",
+      "primaryUrl": "https://github.com/axumquant/arch-viewer",
+      "homepage": "https://github.com/axumquant/arch-viewer",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Local MCP-native architecture viewer that scans codebases, builds a Neo4j/Qdrant-backed architecture model, serves a live dashboard, and exports standalone interactive HTML/SVG architecture diagrams with component, dependency, route, score, and anti-pattern analysis.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

@@ -1,4 +1,4 @@
-generated_at: '2026-08-30T23:06:03+00:00'
+generated_at: '2026-08-31T23:07:22+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 638
-  fetched_sources_ok: 852
-  fetched_sources_failed: 46
-  official_examples: 1355
-  official_effect_assets: 1734
-  official_docs: 1616
+  entries: 646
+  fetched_sources_ok: 863
+  fetched_sources_failed: 47
+  official_examples: 1383
+  official_effect_assets: 1773
+  official_docs: 1625
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -50718,3 +50718,717 @@ entries:
   source_headings:
   - 'Upgrade the tokdash command you are about to run, for example:'
   - Documentation
+- name: Auto-Slides
+  category: paper-visualization
+  surface: research
+  primary_url: https://github.com/Westlake-AGI-Lab/Auto-Slides
+  homepage: https://auto-slides.github.io/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - GPU/加速器
+  - 系统工具
+  - 模板/素材
+  catalog_note: ICME 2026 multi-agent research system that converts academic PDFs into pedagogically optimized Beamer slide
+    decks with OCR/layout extraction, content planning, verification/repair, interactive natural-language revision, themes,
+    and optional speech scripts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🏗️ System Architecture
+    bytes: 10631
+  - kind: homepage
+    url: https://auto-slides.github.io/
+    final_url: https://auto-slides.github.io/
+    status: 200
+    content_type: text/html
+    title: 'Auto-Slides: Automatic Academic Presentation Generation'
+    description: 'Auto-Slides: A multi-agent system for automatically generating academic presentation slides from research
+      papers, with interactive refinement.'
+    bytes: 20493
+  official_examples:
+  - kind: paper
+    title: arXiv:2509.11062
+    url: https://arxiv.org/abs/2509.11062
+    source: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md
+  - kind: paper
+    title: Paper
+    url: https://arxiv.org/pdf/2509.11062.pdf
+    source: https://auto-slides.github.io/
+  official_effect_assets:
+  - kind: image
+    title: Teaser
+    url: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/static/figures/teaser.png
+    source: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md
+  - kind: image
+    title: Auto-Slides Method
+    url: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/static/figures/method.png
+    source: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md
+  - kind: image
+    title: 'Auto-Slides: Automatic Academic Presentation Generation'
+    url: https://auto-slides.github.io/static/images/teaser.png
+    source: https://auto-slides.github.io/
+  - kind: image
+    title: Slide 1
+    url: https://auto-slides.github.io/static/images/slides1/slides1_01.png
+    source: https://auto-slides.github.io/
+  - kind: image
+    title: Slide 1
+    url: https://auto-slides.github.io/static/images/slides2/slides2_01.png
+    source: https://auto-slides.github.io/
+  - kind: image
+    title: Method
+    url: https://auto-slides.github.io/static/images/method.png
+    source: https://auto-slides.github.io/
+  - kind: image
+    title: Interactive
+    url: https://auto-slides.github.io/static/images/interactive_pre.png
+    source: https://auto-slides.github.io/
+  official_links:
+  - kind: paper
+    title: arXiv:2509.11062
+    url: https://arxiv.org/abs/2509.11062
+    source: https://raw.githubusercontent.com/Westlake-AGI-Lab/Auto-Slides/HEAD/README.md
+  - kind: paper
+    title: Paper
+    url: https://arxiv.org/pdf/2509.11062.pdf
+    source: https://auto-slides.github.io/
+  source_headings:
+  - Rename the template file
+  - LANGCHAIN_PROJECT="auto-slides"
+  - Basic Usage
+- name: SlideAgent
+  category: presentation-tools
+  surface: research
+  primary_url: https://github.com/XiaoZhou2024/SlideAgent
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 系统工具
+  catalog_note: ACL Findings 2026 agent framework and DynaSlide benchmark for updating user-provided PowerPoint templates
+    from natural-language instructions and database-backed chart, table, and summary changes while preserving slide layout
+    and style.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '📊 SlideAgent: Automatic Slide Updating with User-Defined Dynamic Templates'
+    bytes: 3333
+  official_effect_assets:
+  - kind: image
+    title: Pic 1
+    url: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_1.png
+    source: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md
+  - kind: image
+    title: SlideAgent Architecture
+    url: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_2.png
+    source: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md
+  - kind: image
+    title: Input Slide
+    url: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_3.png
+    source: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md
+  - kind: image
+    title: Input Slide
+    url: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/assets/pic_4.png
+    source: https://raw.githubusercontent.com/XiaoZhou2024/SlideAgent/HEAD/README.md
+  source_headings:
+  - '📊 SlideAgent: Automatic Slide Updating with User-Defined Dynamic Templates'
+  - '🔹 Stage I: Slide Understanding'
+  - 🎬 Demo
+  - 'Example: Real Estate Data Update'
+  - Usage Workflow
+- name: PPTWork
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/JunfengRan/PPTWork
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Portable Anthropic-style skill pair for Codex, Claude Code, OpenCode, and Cursor that plans decks, authors
+    slide HTML, screenshots each page, and exports PowerPoint decks through editable html2pptx-pro or pixel-faithful raster
+    pipelines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PPTWork
+    bytes: 10612
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/exports/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/exports/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/showcase/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/showcase/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p01-cover/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p01-cover/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p03-bento/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p03-bento/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p05-pipeline/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p05-pipeline/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/ai-agent-landscape-2026/market-size/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/market-size/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/ai-agent-landscape-2026/landscape/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/landscape/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p06-workflow/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p06-workflow/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/ai-agent-landscape-2026/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: PPTWork capabilities cover slide
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-cover.png
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: image
+    title: Two skills bento layout
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-bento.png
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: image
+    title: End-to-end pipeline timeline
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-pipeline.png
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: image
+    title: AI agent market KPI row
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-kpi.png
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: image
+    title: Competitive landscape two-column slide
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-two-col.png
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: image
+    title: Four-step CLI workflow
+    url: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/examples/showcase/showcase-export.png
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/exports/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/exports/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/showcase/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/showcase/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p01-cover/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p01-cover/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p03-bento/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p03-bento/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p05-pipeline/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p05-pipeline/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/ai-agent-landscape-2026/market-size/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/market-size/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/ai-agent-landscape-2026/landscape/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/landscape/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/p06-workflow/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/p06-workflow/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/pptwork-capabilities/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/pptwork-capabilities/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  - kind: example
+    title: '`examples/ai-agent-landscape-2026/`'
+    url: https://github.com/JunfengRan/PPTWork/blob/HEAD/examples/ai-agent-landscape-2026/
+    source: https://raw.githubusercontent.com/JunfengRan/PPTWork/HEAD/README.md
+  source_headings:
+  - '... write .pptwork/pitch/cover/slide.html (single-file, 1280x720) ...'
+  - Try the sample decks
+  - Re-screenshot a sample slide (from repo root)
+  - Built-in template buckets
+  - Example showcase
+  - Cover — claude-warm template + conclusion-form titles
+  - Bento asymmetric grid — high-density architecture slides
+  - Sample decks
+- name: OpenDeck
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/open-deck-org/opendeck
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Portable SKILL.md deck kit for building animated, narrated HTML presentations with step reveals, tooltips,
+    thumbnail navigation, browser-generated voice clips, offline standalone HTML export, and optional .deck packaging.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: OpenDeck
+    bytes: 7286
+  official_docs: []
+  official_effect_assets:
+  - kind: image
+    title: A deck built with OpenDeck — editorial title slide
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/hero.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  - kind: image
+    title: The deck control bar
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/controls.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  - kind: image
+    title: A slide revealing two of three points, with step dots
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/step-reveal.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  - kind: image
+    title: A hover tooltip pointing at a slide element
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/tooltip.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  - kind: image
+    title: The thumbnail rail showing all five slides
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/thumbnail-rail.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  - kind: image
+    title: Studio step 1 — Connect
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/studio-connect.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  - kind: image
+    title: Studio step 2 — Generate
+    url: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/docs/screenshots/studio-generate.png
+    source: https://raw.githubusercontent.com/open-deck-org/opendeck/HEAD/README.md
+  official_links: []
+  source_headings:
+  - Slide overview
+- name: Generative UI MCP
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/op7418/Generative-UI-MCP
+  homepage: https://www.npmjs.com/package/generative-ui-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server that gives AI hosts on-demand design guidelines and compact prompts for generating interactive
+    widgets, Chart.js dashboards, UI mockups, SVG art, and diagram types such as flowcharts, timelines, hierarchies, cycles,
+    and matrices.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/op7418/Generative-UI-MCP/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/op7418/Generative-UI-MCP/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Generative UI MCP
+    bytes: 4302
+  - kind: homepage
+    url: https://www.npmjs.com/package/generative-ui-mcp
+    final_url: https://www.npmjs.com/package/generative-ui-mcp
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+- name: straightedge
+  category: diagram-generation
+  surface: library
+  primary_url: https://github.com/SciMigo/straightedge
+  homepage: https://scimigo.github.io/straightedge/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Pure-Python diagram library, CLI, and optional MCP server that turns structured hints or agent prompts into
+    deterministic, machine-checkable SVG diagrams and optional Manim/animated-SVG lessons with legibility and geometric proof
+    checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Straightedge
+    bytes: 17193
+  - kind: homepage
+    url: https://scimigo.github.io/straightedge/
+    final_url: https://scimigo.github.io/straightedge/
+    status: 200
+    content_type: text/html
+    title: Straightedge — Python SVG Diagram & Manim Animation Generator
+    description: Straightedge is an open-source Python library that generates deterministic SVG diagrams and Manim animations
+      from structured data, formulas, templates, or prompts — and exposes the
+    bytes: 38272
+  official_examples:
+  - kind: template
+    title: '`docs/diagram-themes.md`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/diagram-themes.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: tutorial
+    title: docs/graph-course-gaps.md
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-course-gaps.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: example
+    title: '`examples/agent_loop.py`'
+    url: https://github.com/SciMigo/straightedge/blob/main/examples/agent_loop.py
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`algorithm_trace`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/algorithm-trace.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`graph`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-theory.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`graph_traversal`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-traversal.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`animated_trace`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/advanced-cs-figures.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`graph_algorithm`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-animations.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/construction.md`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/construction.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/narration-timing.md`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/narration-timing.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/agent-design.md`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/agent-design.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/SciMigo/straightedge/tree/main/docs
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Straightedge — Python SVG Diagram & Manim Animation Generator
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/unit-circle-sine.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Graph Max Flow
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/graph-max-flow.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Graph Dijkstra
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/graph-dijkstra.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Derivative Tangent
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/derivative-tangent.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Riemann Integral
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/riemann-integral.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Ellipse Foci
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/ellipse-foci.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Linear Map
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/linear-map.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Matmul Outer
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/matmul-outer.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Systolic Array
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/systolic-array.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Pipeline Schedules
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/pipeline-schedules.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: image
+    title: Ring Allreduce
+    url: https://pub-ae0e951cb13d4628913ced2bc423d839.r2.dev/straightedge/assets/posters/ring-allreduce.jpg
+    source: https://scimigo.github.io/straightedge/
+  - kind: gif
+    title: A secant line converging to the tangent of a parabola
+    url: https://raw.githubusercontent.com/SciMigo/straightedge/main/site/assets/gif/derivative-tangent.gif
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`docs/diagram-themes.md`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/diagram-themes.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`algorithm_trace`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/algorithm-trace.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`graph`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-theory.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`graph_traversal`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-traversal.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`animated_trace`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/advanced-cs-figures.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`graph_algorithm`'
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-animations.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: tutorial
+    title: docs/graph-course-gaps.md
+    url: https://github.com/SciMigo/straightedge/blob/HEAD/docs/graph-course-gaps.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/construction.md`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/construction.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/narration-timing.md`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/narration-timing.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/agent-design.md`'
+    url: https://github.com/SciMigo/straightedge/blob/main/docs/agent-design.md
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: example
+    title: '`examples/agent_loop.py`'
+    url: https://github.com/SciMigo/straightedge/blob/main/examples/agent_loop.py
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/SciMigo/straightedge/tree/main/docs
+    source: https://raw.githubusercontent.com/SciMigo/straightedge/HEAD/README.md
+  source_headings:
+  - Vertical composition for short-form video
+- name: MockFlow IdeaBoard MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/mockflow/ideaboard-mcp
+  homepage: https://mockflow.com
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local MCP server for MockFlow IdeaBoard that lets agents create hosted flowcharts, mind maps, kanban boards,
+    cloud architecture diagrams, charts, tables, spreadsheets, Gantt timelines, calendars, customer journeys, storyboards,
+    ER diagrams, maps, and Markdown boards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mockflow/ideaboard-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mockflow/ideaboard-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MockFlow IdeaBoard MCP Server
+    bytes: 9448
+  - kind: homepage
+    url: https://mockflow.com/
+    final_url: https://mockflow.com/
+    status: 200
+    content_type: text/html
+    title: 'MockFlow: Wireframing Tool & Online Whiteboard'
+    description: MockFlow is a super-easy wireframing tool & AI online whiteboard for teams to diagram & brainstorm. Create
+      wireframes, flowcharts, mind maps & more.
+    bytes: 150150
+  official_examples:
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/interior-design-brief
+    url: https://mockflow.com/templates/ideaboard/interior-design-brief
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/product-ecosystem-map-1
+    url: https://mockflow.com/templates/ideaboard/product-ecosystem-map-1
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/class-notes
+    url: https://mockflow.com/templates/ideaboard/class-notes
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/fibonacci-scale-agile-1
+    url: https://mockflow.com/templates/ideaboard/fibonacci-scale-agile-1
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/lean-coffee
+    url: https://mockflow.com/templates/ideaboard/lean-coffee
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/meeting-mind-map
+    url: https://mockflow.com/templates/ideaboard/meeting-mind-map
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/digital-value-network-business-ecosystem-map
+    url: https://mockflow.com/templates/ideaboard/digital-value-network-business-ecosystem-map
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/mandala-chart
+    url: https://mockflow.com/templates/ideaboard/mandala-chart
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/campaign-plan
+    url: https://mockflow.com/templates/ideaboard/campaign-plan
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/video-creative-brief
+    url: https://mockflow.com/templates/ideaboard/video-creative-brief
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/User-registration-flow-diagram
+    url: https://mockflow.com/templates/ideaboard/User-registration-flow-diagram
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/food-product-pastel-colors-moodboard
+    url: https://mockflow.com/templates/ideaboard/food-product-pastel-colors-moodboard
+    source: https://mockflow.com/
+  official_docs: []
+  official_effect_assets:
+  - kind: video
+    title: Mockflow Ideaboard
+    url: https://mockflow.com/videos/home/mockflow-ideaboard.webm
+    source: https://mockflow.com/
+  - kind: image
+    title: WhiteBoard
+    url: https://app.mockflow.com/images/ideaboard/components/whiteboard.png
+    source: https://mockflow.com/
+  - kind: image
+    title: Flowchart
+    url: https://app.mockflow.com/images/ideaboard/components/flowchart.png
+    source: https://mockflow.com/
+  official_links:
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/interior-design-brief
+    url: https://mockflow.com/templates/ideaboard/interior-design-brief
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/product-ecosystem-map-1
+    url: https://mockflow.com/templates/ideaboard/product-ecosystem-map-1
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/class-notes
+    url: https://mockflow.com/templates/ideaboard/class-notes
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/fibonacci-scale-agile-1
+    url: https://mockflow.com/templates/ideaboard/fibonacci-scale-agile-1
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/lean-coffee
+    url: https://mockflow.com/templates/ideaboard/lean-coffee
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/meeting-mind-map
+    url: https://mockflow.com/templates/ideaboard/meeting-mind-map
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/digital-value-network-business-ecosystem-map
+    url: https://mockflow.com/templates/ideaboard/digital-value-network-business-ecosystem-map
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/mandala-chart
+    url: https://mockflow.com/templates/ideaboard/mandala-chart
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/campaign-plan
+    url: https://mockflow.com/templates/ideaboard/campaign-plan
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/video-creative-brief
+    url: https://mockflow.com/templates/ideaboard/video-creative-brief
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/User-registration-flow-diagram
+    url: https://mockflow.com/templates/ideaboard/User-registration-flow-diagram
+    source: https://mockflow.com/
+  - kind: template
+    title: https://mockflow.com/templates/ideaboard/food-product-pastel-colors-moodboard
+    url: https://mockflow.com/templates/ideaboard/food-product-pastel-colors-moodboard
+    source: https://mockflow.com/
+  source_headings:
+  - Example Prompts
+  - Codebase Visualization
+- name: arch-viewer
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/axumquant/arch-viewer
+  homepage: https://github.com/axumquant/arch-viewer
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Local MCP-native architecture viewer that scans codebases, builds a Neo4j/Qdrant-backed architecture model,
+    serves a live dashboard, and exports standalone interactive HTML/SVG architecture diagrams with component, dependency,
+    route, score, and anti-pattern analysis.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/axumquant/arch-viewer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/axumquant/arch-viewer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: arch-viewer
+    bytes: 11999
+  source_headings:
+  - Usage examples
+  - Live dashboard + MCP server (default)
+  - Dashboard only, custom port, no AI
+  - Generate a standalone diagram
+  - '"Use generate_interactive_diagram with output_path=docs/architecture.html"'

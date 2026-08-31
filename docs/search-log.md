@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-08-31.
+Last researched: 2026-09-01.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-01: refreshed paper-to-slide research agents, dynamic slide-update benchmarks, portable deck-authoring skills, narrated HTML presentation kits, generative UI guidance MCP tooling, deterministic diagram rendering, hosted whiteboard/IdeaBoard MCP workflows, and local codebase architecture viewers from official GitHub repositories, project pages, live web/GitHub searches, and GitHub metadata. This pass added Auto-Slides, SlideAgent, PPTWork, OpenDeck, Generative UI MCP, straightedge, MockFlow IdeaBoard MCP, and arch-viewer. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with one npm package-page 403, and kept twenty-eight official examples, thirty-nine official preview assets, and nine docs links after scrubbing a generic project-page template, dependency/vendor docs, broad MockFlow wireframe links, and non-IdeaBoard marketing media.
 
 Update on 2026-08-31: refreshed editable HTML-deck, hosted visual-design plugin, Typst slide skill, MDX slide-authoring, data-driven reporting, Tableau dashboard skill, LLM/agent error-analysis dashboard, and local token/cost dashboard surfaces from official GitHub repositories, README evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added Anchor Deck, StarryKit Plugin, SeaSlides, Amaroad, SlideFlow, Tableau Dashboard Creator Skill, CLEAR, and Tokdash. The targeted scraper ran only against these eight new records, fetched fourteen official sources successfully with no failed fetches, and kept eight official examples, forty official effect assets, and twenty-two docs links after scrubbing generic vendor docs, brand-pill icons, a generic photo, and off-scope Tylina/Typst showcase assets.
 
