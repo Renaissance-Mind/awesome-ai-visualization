@@ -1,4 +1,4 @@
-generated_at: '2026-08-31T23:07:22+00:00'
+generated_at: '2026-09-01T23:06:56+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 646
-  fetched_sources_ok: 863
+  entries: 654
+  fetched_sources_ok: 873
   fetched_sources_failed: 47
-  official_examples: 1383
-  official_effect_assets: 1773
-  official_docs: 1625
+  official_examples: 1392
+  official_effect_assets: 1796
+  official_docs: 1632
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -51432,3 +51432,438 @@ entries:
   - Dashboard only, custom port, no AI
   - Generate a standalone diagram
   - '"Use generate_interactive_diagram with output_path=docs/architecture.html"'
+- name: whitedeck
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/franzenzenhofer/whitedeck
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Markdown-first deck compiler with a CLI, Claude skill, and MCP server that renders Keynote-style slides to
+    self-contained HTML, PDF, editable PPTX, and native Keynote files with validation and source-note support.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/franzenzenhofer/whitedeck/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/franzenzenhofer/whitedeck/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: whitedeck
+    bytes: 3862
+  official_effect_assets:
+  - kind: image
+    title: Ocean
+    url: https://raw.githubusercontent.com/franzenzenhofer/whitedeck/HEAD/ocean.png
+    source: https://raw.githubusercontent.com/franzenzenhofer/whitedeck/HEAD/README.md
+  source_headings:
+  - New template loads 3x faster than old
+- name: Presentation Delivery Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ConnorRX56/presentation-delivery-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Three-skill Codex package that audits user intent, builds high-fidelity HTML decks, editable PPTX files, PDFs,
+    prototypes, and visual demos, then reports owner-readable delivery evidence.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Presentation Delivery Skills
+    bytes: 3153
+  official_examples:
+  - kind: demo
+    title: Download the editable PPTX
+    url: https://github.com/ConnorRX56/presentation-delivery-skills/blob/HEAD/demos/agent-skill-harness-hermes/agent-skill-harness-hermes-demo.pptx
+    source: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+  - kind: demo
+    title: Read the native PowerPoint PDF
+    url: https://github.com/ConnorRX56/presentation-delivery-skills/blob/HEAD/demos/agent-skill-harness-hermes/agent-skill-harness-hermes-demo.pdf
+    source: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Cover of the Agent, Skill, Harness, and Hermes presentation
+    url: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/demos/agent-skill-harness-hermes/previews/01-cover.png
+    source: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Download the editable PPTX
+    url: https://github.com/ConnorRX56/presentation-delivery-skills/blob/HEAD/demos/agent-skill-harness-hermes/agent-skill-harness-hermes-demo.pptx
+    source: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+  - kind: demo
+    title: Read the native PowerPoint PDF
+    url: https://github.com/ConnorRX56/presentation-delivery-skills/blob/HEAD/demos/agent-skill-harness-hermes/agent-skill-harness-hermes-demo.pdf
+    source: https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md
+  source_headings:
+  - Presentation Delivery Skills
+  - 'Demo: From chat to delivery'
+- name: techdeck
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/lionellau/claude-skill-techdeck
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skill for technical-solution decks that turns a brief into a self-contained HTML presentation with PDF
+    export, WCAG-aware themes, chart recipes, architecture-diagram support, and browser layout verification.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lionellau/claude-skill-techdeck/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lionellau/claude-skill-techdeck/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: techdeck
+    bytes: 4060
+  source_headings:
+  - Diagrams
+- name: Academic Presentation Skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/5Donghwan/academic-presentation-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex/Claude skill that converts a source paper, thesis, or technical report into an academic conference or
+    seminar PPTX deck plus a DOCX speaker script with figure, equation, algorithm, and render-QA guidance.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/5Donghwan/academic-presentation-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/5Donghwan/academic-presentation-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Academic Presentation Skill
+    bytes: 2586
+  source_headings:
+  - Academic Presentation Skill
+- name: Dia-GramV
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/ShAInyXYZ/Dia-GramV
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 代码分析工具
+  catalog_note: Local MCP server and Svelte Flow viewer for agent-maintained, typed architecture diagrams stored as repo JSON
+    files, with linting, flags, history, layout, and SVG export for system planning and review.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Thirty seconds
+    bytes: 28704
+  official_examples:
+  - kind: example
+    title: '`notes-app`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/notes-app.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`notes-app-broken`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/notes-app-broken.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`shop-platform`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/shop-platform.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`local-ai-harness`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/local-ai-harness.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`skill/references/format.md`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/skill/references/format.md
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'The viewer: a shop platform — clients, edge, services, data and providers as frames; shaped nodes; wires routed
+      around cards carrying their protocol'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/viewer.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: The installer card carries a ⚑; its open note says what is wrong, why, and the fix, with a resolve button. The
+      history drop-up at the bottom lists nine changes grouped by element
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/flags-history.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'The inspector on a flagged storage node: the flag with its note and fix, and the form to raise a new one — title,
+      kind, fix. Behind it, the history with one element expanded'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/flag-raise.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'The problems panel: 1 error, 2 warnings, each with its code, message and fix; the failing wire drawn in red'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/lint.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'The shop platform folded: 5 groups, the links between them merged and counted'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/folded.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'The shop platform coloured by status: done in green, wip in amber, todo grey, the payments bridge blocked in violet'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/status.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'Quick-add popover: type to filter the kinds, each with its shape'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/quick-add.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'Inline editor on a selected wire: kind, protocol, label, from/to port'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/edge-editor.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: image
+    title: 'The key: kinds grouped by role with their shapes, link kinds, build status'
+    url: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/key.png
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`skill/references/format.md`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/skill/references/format.md
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`notes-app`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/notes-app.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`notes-app-broken`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/notes-app-broken.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`shop-platform`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/shop-platform.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  - kind: example
+    title: '`local-ai-harness`'
+    url: https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/local-ai-harness.dgv.json
+    source: https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md
+  source_headings:
+  - 3 · Track the build on the same diagram
+- name: EditItAll MCP
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/Subcue/edititall-mcp
+  homepage: https://edititall.com/ai
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Local MCP bridge for EditItAll that lets agents drive in-browser photo, vector, PDF, spreadsheet, Word, and
+    slide editors while keeping files on the user's machine.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Subcue/edititall-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Subcue/edititall-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: EditItAll MCP Server
+    bytes: 4708
+  - kind: homepage
+    url: https://edititall.com/ai
+    final_url: https://edititall.com/ai
+    status: 200
+    content_type: text/html
+    title: MCP Server for Images, PDFs & Spreadsheets — EditItAll
+    description: 'Free local MCP connector: Claude and other AI assistants edit photos, PDFs and spreadsheets on your device.
+      One-click install, nothing uploaded.'
+    bytes: 32406
+  official_docs:
+  - kind: docs
+    title: Can AI edit your files without uploading them?
+    url: https://edititall.com/guides/can-ai-edit-files-without-uploading
+    source: https://edititall.com/ai
+  - kind: docs
+    title: Guides
+    url: https://edititall.com/guides
+    source: https://edititall.com/ai
+  official_effect_assets:
+  - kind: image
+    title: MCP Server for Images, PDFs & Spreadsheets — EditItAll
+    url: https://edititall.com/og.png?v=2
+    source: https://edititall.com/ai
+  official_links:
+  - kind: docs
+    title: Can AI edit your files without uploading them?
+    url: https://edititall.com/guides/can-ai-edit-files-without-uploading
+    source: https://edititall.com/ai
+  - kind: docs
+    title: Guides
+    url: https://edititall.com/guides
+    source: https://edititall.com/ai
+- name: agenttrail
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/sodiumsun/agenttrail
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Local zero-dependency dashboard that turns Codex, Claude Code, Cursor, and repo activity into a zoomable live
+    map of repositories, components, file changes, run cards, todos, ownership, status, and dependencies.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sodiumsun/agenttrail/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sodiumsun/agenttrail/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: agenttrail
+    bytes: 7753
+  official_effect_assets:
+  - kind: gif
+    title: 'agenttrail watching itself being built: a Claude session appears with its plan, edits stream live, and the demo
+      task ticks green on camera'
+    url: https://raw.githubusercontent.com/sodiumsun/agenttrail/HEAD/docs/demo.gif
+    source: https://raw.githubusercontent.com/sodiumsun/agenttrail/HEAD/README.md
+- name: FlexViz
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/flex-analytics/flexviz
+  homepage: https://flexviz.tech
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: AI-native Python dashboard library that lets agents build interactive Polars-backed dashboards for 100M-row
+    datasets, serve the result locally, and read user zoom, brush, and selection state as structured context.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Install
+    bytes: 9948
+  - kind: homepage
+    url: https://flexviz.tech/
+    final_url: https://flexviz.tech/
+    status: 200
+    content_type: text/html
+    title: FlexViz - Scalable interactive visualization in Python
+    description: FlexViz is an open-source Python library for interactive cross-filter dashboards on 100M+ rows. Polars-native,
+      Rust-accelerated, Apache-2.0. Zoom, brush, and cross-filter stay inst
+    bytes: 53548
+  official_examples:
+  - kind: paper
+    title: flexviz.tech/benchmarks
+    url: https://flexviz.tech/benchmarks.html
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: paper
+    title: flexviz-benchmarks
+    url: https://github.com/flex-analytics/flexviz-benchmarks
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: demo
+    title: Live demo
+    url: https://flexviz.tech/demo.html
+    source: https://flexviz.tech/
+  official_docs:
+  - kind: docs
+    title: docs.flexviz.tech
+    url: https://docs.flexviz.tech
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: docs
+    title: agent guide
+    url: https://docs.flexviz.tech/guides/ai-agents/
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: docs
+    title: FastAPI
+    url: https://github.com/fastapi/fastapi
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://docs.flexviz.tech/
+    source: https://flexviz.tech/
+  official_effect_assets:
+  - kind: gif
+    title: 'Cross-filter demo: brushing a range on a 100M-point line chart re-aggregates the linked histogram'
+    url: https://raw.githubusercontent.com/flex-analytics/flexviz/main/docs/crossfilter.gif
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: gif
+    title: Zoom demo
+    url: https://flexviz.tech/assets/gifs/zoom.gif?v=20260824c
+    source: https://flexviz.tech/
+  - kind: gif
+    title: Linked hover demo
+    url: https://flexviz.tech/assets/gifs/hover.gif?v=20260824c
+    source: https://flexviz.tech/
+  - kind: image
+    title: FlexViz
+    url: https://raw.githubusercontent.com/flex-analytics/flexviz/main/docs/assets/flexviz-wordmark-light.png
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: image
+    title: 'Time to first render at 200M rows and 5 traces: FlexViz against Datashader, Vaex, and Mosaic, fastest in both
+      the line and histogram panels. Latest numbers at flexviz.tech/benchmar'
+    url: https://raw.githubusercontent.com/flex-analytics/flexviz/main/docs/benchmark-ttfr.png
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: gif
+    title: Cross-filter in update and overlay modes
+    url: https://flexviz.tech/assets/gifs/crossfilter.gif?v=20260824c
+    source: https://flexviz.tech/
+  - kind: gif
+    title: Copying a view link and opening it in a new tab
+    url: https://flexviz.tech/assets/gifs/share.gif?v=20260824c
+    source: https://flexviz.tech/
+  - kind: gif
+    title: Dragging a panel beside another
+    url: https://flexviz.tech/assets/gifs/rearrange.gif?v=20260824c
+    source: https://flexviz.tech/
+  - kind: gif
+    title: An agent serves readings.parquet, hands over a dashboard link, then reads the brushed range back out of the dashboard
+      state and answers from the rows behind it
+    url: https://flexviz.tech/assets/gifs/agent.gif?v=20260829a
+    source: https://flexviz.tech/
+  - kind: image
+    title: FlexViz - Scalable interactive visualization in Python
+    url: https://flexviz.tech/assets/og.png?v=20260828
+    source: https://flexviz.tech/
+  official_links:
+  - kind: docs
+    title: docs.flexviz.tech
+    url: https://docs.flexviz.tech
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: docs
+    title: agent guide
+    url: https://docs.flexviz.tech/guides/ai-agents/
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: docs
+    title: FastAPI
+    url: https://github.com/fastapi/fastapi
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: paper
+    title: flexviz.tech/benchmarks
+    url: https://flexviz.tech/benchmarks.html
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: paper
+    title: flexviz-benchmarks
+    url: https://github.com/flex-analytics/flexviz-benchmarks
+    source: https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://docs.flexviz.tech/
+    source: https://flexviz.tech/
+  - kind: demo
+    title: Live demo
+    url: https://flexviz.tech/demo.html
+    source: https://flexviz.tech/
+  source_headings:
+  - Quickstart
+  - Benchmarks

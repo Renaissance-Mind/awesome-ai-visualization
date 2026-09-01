@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-01.
+Last researched: 2026-09-02.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-02: refreshed Markdown-to-Keynote/PPTX deck compilers, intent-audited presentation skill packs, technical-solution deck skills, paper-to-academic-talk workflows, typed architecture diagram MCP tooling, local browser-based artifact editing, coding-agent activity maps, and Polars-backed AI dashboard libraries from official GitHub repositories, project pages, live web/GitHub searches, and GitHub metadata. This pass added whitedeck, Presentation Delivery Skills, techdeck, Academic Presentation Skill, Dia-GramV, EditItAll MCP, agenttrail, and FlexViz. The targeted scraper ran only against these eight new records, fetched ten official sources successfully with no failed fetches, and kept nine official examples, twenty-three official preview assets, and seven docs links with no presigned URLs, placeholders, or credential-like links introduced.
 
 Update on 2026-09-01: refreshed paper-to-slide research agents, dynamic slide-update benchmarks, portable deck-authoring skills, narrated HTML presentation kits, generative UI guidance MCP tooling, deterministic diagram rendering, hosted whiteboard/IdeaBoard MCP workflows, and local codebase architecture viewers from official GitHub repositories, project pages, live web/GitHub searches, and GitHub metadata. This pass added Auto-Slides, SlideAgent, PPTWork, OpenDeck, Generative UI MCP, straightedge, MockFlow IdeaBoard MCP, and arch-viewer. The targeted scraper ran only against these eight new records, fetched eleven official sources successfully with one npm package-page 403, and kept twenty-eight official examples, thirty-nine official preview assets, and nine docs links after scrubbing a generic project-page template, dependency/vendor docs, broad MockFlow wireframe links, and non-IdeaBoard marketing media.
 

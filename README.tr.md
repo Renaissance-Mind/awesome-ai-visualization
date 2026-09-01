@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-646_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--01-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-654_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--02-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -15,18 +15,18 @@ Katalog **bilgi kaynağı**, **araç türü**, **çıktı biçimi** ve **bağım
 
 Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve kaynak izlenebilirliği için İngilizce bırakılmıştır.
 
-## Latest Refresh (2026-09-01)
+## Latest Refresh (2026-09-02)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Auto-Slides](https://github.com/Westlake-AGI-Lab/Auto-Slides) | ICME 2026 multi-agent research system that converts academic PDFs into pedagogically optimized Beamer slide decks with OCR/layout extraction, content planning, verification/repair, interactive natural-language revision, themes, and optional speech scripts. |
-| [SlideAgent](https://github.com/XiaoZhou2024/SlideAgent) | ACL Findings 2026 agent framework and DynaSlide benchmark for updating user-provided PowerPoint templates from natural-language instructions and database-backed chart, table, and summary changes while preserving slide layout and style. |
-| [PPTWork](https://github.com/JunfengRan/PPTWork) | Portable Anthropic-style skill pair for Codex, Claude Code, OpenCode, and Cursor that plans decks, authors slide HTML, screenshots each page, and exports PowerPoint decks through editable html2pptx-pro or pixel-faithful raster pipelines. |
-| [OpenDeck](https://github.com/open-deck-org/opendeck) | Portable SKILL.md deck kit for building animated, narrated HTML presentations with step reveals, tooltips, thumbnail navigation, browser-generated voice clips, offline standalone HTML export, and optional .deck packaging. |
-| [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) | MCP server that gives AI hosts on-demand design guidelines and compact prompts for generating interactive widgets, Chart.js dashboards, UI mockups, SVG art, and diagram types such as flowcharts, timelines, hierarchies, cycles, and matrices. |
-| [straightedge](https://github.com/SciMigo/straightedge) | Pure-Python diagram library, CLI, and optional MCP server that turns structured hints or agent prompts into deterministic, machine-checkable SVG diagrams and optional Manim/animated-SVG lessons with legibility and geometric proof checks. |
-| [MockFlow IdeaBoard MCP](https://github.com/mockflow/ideaboard-mcp) | Local MCP server for MockFlow IdeaBoard that lets agents create hosted flowcharts, mind maps, kanban boards, cloud architecture diagrams, charts, tables, spreadsheets, Gantt timelines, calendars, customer journeys, storyboards, ER diagrams, maps, and Markdown boards. |
-| [arch-viewer](https://github.com/axumquant/arch-viewer) | Local MCP-native architecture viewer that scans codebases, builds a Neo4j/Qdrant-backed architecture model, serves a live dashboard, and exports standalone interactive HTML/SVG architecture diagrams with component, dependency, route, score, and anti-pattern analysis. |
+| [whitedeck](https://github.com/franzenzenhofer/whitedeck) | Markdown-first deck compiler with a CLI, Claude skill, and MCP server that renders Keynote-style slides to self-contained HTML, PDF, editable PPTX, and native Keynote files with validation and source-note support. |
+| [Presentation Delivery Skills](https://github.com/ConnorRX56/presentation-delivery-skills) | Three-skill Codex package that audits user intent, builds high-fidelity HTML decks, editable PPTX files, PDFs, prototypes, and visual demos, then reports owner-readable delivery evidence. |
+| [techdeck](https://github.com/lionellau/claude-skill-techdeck) | Agent Skill for technical-solution decks that turns a brief into a self-contained HTML presentation with PDF export, WCAG-aware themes, chart recipes, architecture-diagram support, and browser layout verification. |
+| [Academic Presentation Skill](https://github.com/5Donghwan/academic-presentation-skill) | Codex/Claude skill that converts a source paper, thesis, or technical report into an academic conference or seminar PPTX deck plus a DOCX speaker script with figure, equation, algorithm, and render-QA guidance. |
+| [Dia-GramV](https://github.com/ShAInyXYZ/Dia-GramV) | Local MCP server and Svelte Flow viewer for agent-maintained, typed architecture diagrams stored as repo JSON files, with linting, flags, history, layout, and SVG export for system planning and review. |
+| [EditItAll MCP](https://github.com/Subcue/edititall-mcp) | Local MCP bridge for EditItAll that lets agents drive in-browser photo, vector, PDF, spreadsheet, Word, and slide editors while keeping files on the user's machine. |
+| [agenttrail](https://github.com/sodiumsun/agenttrail) | Local zero-dependency dashboard that turns Codex, Claude Code, Cursor, and repo activity into a zoomable live map of repositories, components, file changes, run cards, todos, ownership, status, and dependencies. |
+| [FlexViz](https://github.com/flex-analytics/flexviz) | AI-native Python dashboard library that lets agents build interactive Polars-backed dashboards for 100M-row datasets, serve the result locally, and read user zoom, brush, and selection state as structured context. |
 
 ## ✨ Önerilen kullanım
 
@@ -87,6 +87,7 @@ Makalelerden, araştırma konularından veya akademik derlemlerden başlayıp a�
 | [Noodle Biomedical Literature Discovery MCP](https://github.com/helena-bioinformatics/noodle-mcp) [![Star](https://img.shields.io/github/stars/helena-bioinformatics/noodle-mcp?style=flat&logo=github&label=Star)](https://github.com/helena-bioinformatics/noodle-mcp/stargazers) | Makaleler/araştırma / Atıf ağı / Veritabanı | MCP server / Agent skill | Literatür/bilgi haritası / Kanıt tablosu / Alıntılı cevap / Yapılandırılmış veri/Markdown | MCP istemcisi / Agent host / Harici arama/veri / Depolama/indeks |
 
 | [Auto-Slides](https://github.com/Westlake-AGI-Lab/Auto-Slides) [![Star](https://img.shields.io/github/stars/Westlake-AGI-Lab/Auto-Slides?style=flat&logo=github&label=Star)](https://github.com/Westlake-AGI-Lab/Auto-Slides/stargazers) | Papers/research / PDF/documents | Research prototype / Open-source app/framework | PPT/deck / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Document parsing/OCR / Rendering/export / GPU/accelerator / System tools / Templates/assets |
+| [Academic Presentation Skill](https://github.com/5Donghwan/academic-presentation-skill) [![Star](https://img.shields.io/github/stars/5Donghwan/academic-presentation-skill?style=flat&logo=github&label=Star)](https://github.com/5Donghwan/academic-presentation-skill/stargazers) | Makaleler/araştırma / PDF/belgeler / Metin/fikirler | Agent skill | PPT/deck / Uzun rapor / SVG/PNG/PDF | Agent host / Yerel runtime / Belge ayrıştırma/OCR / Render/dışa aktarma / Şablonlar/assetler |
 ### Web, haberler ve istihbarat
 
 Web sayfaları, arama sonuçları, haber akışları, piyasa verileri veya tehdit istihbaratından başlayıp kaynaklı raporlar, panolar veya haritalar üreten araçlar.
@@ -192,6 +193,8 @@ Depoları, yerel kodu, bağımlılıkları veya diffları mimari diyagramlara, r
 | [Agent Trace Viewer](https://github.com/pixeltoprompt/agent-trace-viewer) [![Star](https://img.shields.io/github/stars/pixeltoprompt/agent-trace-viewer?style=flat&logo=github&label=Star)](https://github.com/pixeltoprompt/agent-trace-viewer/stargazers) | Kod tabanı / Kod/teknik metin | Açık kaynak uygulama/framework | Kod haritası/Repo Wiki / Tablo/zaman çizelgesi / Grafik/pano / Web/etkileşimli sayfa | Yerel runtime / Kod analizi / Render/dışa aktarma |
 
 | [arch-viewer](https://github.com/axumquant/arch-viewer) [![Star](https://img.shields.io/github/stars/axumquant/arch-viewer?style=flat&logo=github&label=Star)](https://github.com/axumquant/arch-viewer/stargazers) | Codebase | MCP server / Open-source app/framework | Code map/Repo Wiki / Architecture/flow diagram / Web/interactive page / Evidence table | MCP client / Agent host / Local runtime / Model API / Code analysis / Storage/index / Rendering/export / System tools |
+| [Dia-GramV](https://github.com/ShAInyXYZ/Dia-GramV) [![Star](https://img.shields.io/github/stars/ShAInyXYZ/Dia-GramV?style=flat&logo=github&label=Star)](https://github.com/ShAInyXYZ/Dia-GramV/stargazers) | Kod tabanı / Kod/teknik metin | MCP server / Açık kaynak uygulama/framework | Kod haritası/repo wiki / Mimari/akış diyagramı / Web/etkileşimli sayfa / SVG/PNG/PDF | MCP client / Agent host / Yerel runtime / Render/dışa aktarma / Kod analizi |
+| [agenttrail](https://github.com/sodiumsun/agenttrail) [![Star](https://img.shields.io/github/stars/sodiumsun/agenttrail?style=flat&logo=github&label=Star)](https://github.com/sodiumsun/agenttrail/stargazers) | Kod tabanı / Bilgi tabanı | Açık kaynak uygulama/framework | Kod haritası/repo wiki / Grafik/pano / Web/etkileşimli sayfa / Tablo/zaman çizelgesi | Agent host / Yerel runtime / Kod analizi / Render/dışa aktarma |
 ### Veri, tablolar ve iş metrikleri
 
 Tools that turn CSVs, databases, metrics, or business data into charts, dashboards, or analytical reports.
@@ -290,6 +293,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Tableau Dashboard Creator Skill](https://github.com/laviDrori0702/tableau-dashboard-creator-skill) [![Star](https://img.shields.io/github/stars/laviDrori0702/tableau-dashboard-creator-skill?style=flat&logo=github&label=Star)](https://github.com/laviDrori0702/tableau-dashboard-creator-skill/stargazers) | Metin/fikirler / Veri/tablolar / Veritabanı | Skill koleksiyonu / Agent skill | Grafik/dashboard / Web/interaktif sayfa / Uzun rapor / Structured data/Markdown | Agent host / Yerel runtime / External search/data / Render/dışa aktarma / Sistem araçları / Şablonlar/assetler |
 | [CLEAR](https://github.com/IBM/CLEAR) [![Star](https://img.shields.io/github/stars/IBM/CLEAR?style=flat&logo=github&label=Star)](https://github.com/IBM/CLEAR/stargazers) | Veri/tablolar / Kod/teknik açıklama / Any/multi-source | Açık kaynak uygulama/framework / Araştırma prototipi | Grafik/dashboard / Kanıt tablosu / Uzun rapor / Tablo/zaman çizelgesi | Yerel runtime / Model API / External search/data / Render/dışa aktarma / Depolama/indeks |
 | [Tokdash](https://github.com/JingbiaoMei/Tokdash) [![Star](https://img.shields.io/github/stars/JingbiaoMei/Tokdash?style=flat&logo=github&label=Star)](https://github.com/JingbiaoMei/Tokdash/stargazers) | Kod/teknik açıklama / Veri/tablolar / Knowledge base | Açık kaynak uygulama/framework | Grafik/dashboard / Tablo/zaman çizelgesi / Web/interaktif sayfa | Tarayıcı/hesap / Yerel runtime / Depolama/indeks / Render/dışa aktarma / External search/data |
+| [FlexViz](https://github.com/flex-analytics/flexviz) [![Star](https://img.shields.io/github/stars/flex-analytics/flexviz?style=flat&logo=github&label=Star)](https://github.com/flex-analytics/flexviz/stargazers) | Veri/tablolar / Veritabanı | API/SDK/kütüphane / Agent skill | Grafik/pano / Web/etkileşimli sayfa / Yapılandırılmış veri/Markdown | Agent host / Yerel runtime / Harici arama/veri / Render/dışa aktarma / Depolama/indeks |
 
 ### Genel metin, fikirler ve beyaz tahta görselleri
 
@@ -603,6 +607,9 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [SlideAgent](https://github.com/XiaoZhou2024/SlideAgent) [![Star](https://img.shields.io/github/stars/XiaoZhou2024/SlideAgent?style=flat&logo=github&label=Star)](https://github.com/XiaoZhou2024/SlideAgent/stargazers) | Office docs / Data/tables / Text/ideas | Research prototype / Bot/assistant | PPT/deck / Chart/dashboard / Evidence table | Agent host / Model API / Local runtime / Document parsing/OCR / External search/data / Rendering/export / System tools |
 | [PPTWork](https://github.com/JunfengRan/PPTWork) [![Star](https://img.shields.io/github/stars/JunfengRan/PPTWork?style=flat&logo=github&label=Star)](https://github.com/JunfengRan/PPTWork/stargazers) | Text/ideas / PDF/documents / Office docs / Any/multi-source | Skill collection / Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [OpenDeck](https://github.com/open-deck-org/opendeck) [![Star](https://img.shields.io/github/stars/open-deck-org/opendeck?style=flat&logo=github&label=Star)](https://github.com/open-deck-org/opendeck/stargazers) | Text/ideas / Web/search / Any/multi-source | Agent skill / Skill collection | PPT/deck / Web/interactive page / Video/audio | Agent host / Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
+| [whitedeck](https://github.com/franzenzenhofer/whitedeck) [![Star](https://img.shields.io/github/stars/franzenzenhofer/whitedeck?style=flat&logo=github&label=Star)](https://github.com/franzenzenhofer/whitedeck/stargazers) | Metin/fikirler / DSL/kod | MCP server / Agent skill / API/SDK/kütüphane | PPT/deck / Web/etkileşimli sayfa / SVG/PNG/PDF | Agent host / MCP client / Yerel runtime / Sistem araçları / Render/dışa aktarma / Şablonlar/assetler |
+| [Presentation Delivery Skills](https://github.com/ConnorRX56/presentation-delivery-skills) [![Star](https://img.shields.io/github/stars/ConnorRX56/presentation-delivery-skills?style=flat&logo=github&label=Star)](https://github.com/ConnorRX56/presentation-delivery-skills/stargazers) | Metin/fikirler / Herhangi/çok kaynaklı | Skill koleksiyonu / Agent skill | PPT/deck / Web/etkileşimli sayfa / SVG/PNG/PDF / Brifing/rapor | Agent host / Yerel runtime / Sistem araçları / Render/dışa aktarma / Şablonlar/assetler |
+| [techdeck](https://github.com/lionellau/claude-skill-techdeck) [![Star](https://img.shields.io/github/stars/lionellau/claude-skill-techdeck?style=flat&logo=github&label=Star)](https://github.com/lionellau/claude-skill-techdeck/stargazers) | Metin/fikirler / Kod/teknik metin / Veri/tablolar | Agent skill | PPT/deck / Web/etkileşimli sayfa / Grafik/pano / Mimari/akış diyagramı / SVG/PNG/PDF | Agent host / Tarayıcı/hesap / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
 ## Destekleyici, ön/son işleme araçları
 
 This section contains smaller, lower-level, or more specialized tools. They may not cover a full content production workflow by themselves, but they are often key components inside agent workflows.
@@ -734,6 +741,7 @@ Agentların Mermaid, SVG, PNG, PDF ve diyagram çıktıları üretmesine, doğru
 | [mcp-icon](https://github.com/hustcc/mcp-icon) [![Star](https://img.shields.io/github/stars/hustcc/mcp-icon?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-icon/stargazers) | Metin/fikirler / DSL/kod | MCP server | SVG/PNG/PDF / İnfografik/görsel rapor | MCP istemcisi / Yerel çalışma ortamı / Harici arama/veri / Render/dışa aktarma |
 
 | [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) [![Star](https://img.shields.io/github/stars/op7418/Generative-UI-MCP?style=flat&logo=github&label=Star)](https://github.com/op7418/Generative-UI-MCP/stargazers) | Text/ideas / Data/tables / DSL/code | MCP server | Web/interactive page / Chart/dashboard / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
+| [EditItAll MCP](https://github.com/Subcue/edititall-mcp) [![Star](https://img.shields.io/github/stars/Subcue/edititall-mcp?style=flat&logo=github&label=Star)](https://github.com/Subcue/edititall-mcp/stargazers) | PDF/belgeler / Office belgeleri / Veri/tablolar / Metin/fikirler | MCP server / Ürün/SaaS | PPT/deck / Uzun rapor / SVG/PNG/PDF / Grafik/pano | MCP client / Tarayıcı/hesap / Yerel runtime / Render/dışa aktarma |
 ## Araç nasıl seçilir
 
 ### Bilgi kaynağı

@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-646_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--01-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-654_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--02-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,18 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-09-01)
+## Latest Refresh (2026-09-02)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Auto-Slides](https://github.com/Westlake-AGI-Lab/Auto-Slides) | ICME 2026 multi-agent research system that converts academic PDFs into pedagogically optimized Beamer slide decks with OCR/layout extraction, content planning, verification/repair, interactive natural-language revision, themes, and optional speech scripts. |
-| [SlideAgent](https://github.com/XiaoZhou2024/SlideAgent) | ACL Findings 2026 agent framework and DynaSlide benchmark for updating user-provided PowerPoint templates from natural-language instructions and database-backed chart, table, and summary changes while preserving slide layout and style. |
-| [PPTWork](https://github.com/JunfengRan/PPTWork) | Portable Anthropic-style skill pair for Codex, Claude Code, OpenCode, and Cursor that plans decks, authors slide HTML, screenshots each page, and exports PowerPoint decks through editable html2pptx-pro or pixel-faithful raster pipelines. |
-| [OpenDeck](https://github.com/open-deck-org/opendeck) | Portable SKILL.md deck kit for building animated, narrated HTML presentations with step reveals, tooltips, thumbnail navigation, browser-generated voice clips, offline standalone HTML export, and optional .deck packaging. |
-| [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) | MCP server that gives AI hosts on-demand design guidelines and compact prompts for generating interactive widgets, Chart.js dashboards, UI mockups, SVG art, and diagram types such as flowcharts, timelines, hierarchies, cycles, and matrices. |
-| [straightedge](https://github.com/SciMigo/straightedge) | Pure-Python diagram library, CLI, and optional MCP server that turns structured hints or agent prompts into deterministic, machine-checkable SVG diagrams and optional Manim/animated-SVG lessons with legibility and geometric proof checks. |
-| [MockFlow IdeaBoard MCP](https://github.com/mockflow/ideaboard-mcp) | Local MCP server for MockFlow IdeaBoard that lets agents create hosted flowcharts, mind maps, kanban boards, cloud architecture diagrams, charts, tables, spreadsheets, Gantt timelines, calendars, customer journeys, storyboards, ER diagrams, maps, and Markdown boards. |
-| [arch-viewer](https://github.com/axumquant/arch-viewer) | Local MCP-native architecture viewer that scans codebases, builds a Neo4j/Qdrant-backed architecture model, serves a live dashboard, and exports standalone interactive HTML/SVG architecture diagrams with component, dependency, route, score, and anti-pattern analysis. |
+| [whitedeck](https://github.com/franzenzenhofer/whitedeck) | Markdown-first deck compiler with a CLI, Claude skill, and MCP server that renders Keynote-style slides to self-contained HTML, PDF, editable PPTX, and native Keynote files with validation and source-note support. |
+| [Presentation Delivery Skills](https://github.com/ConnorRX56/presentation-delivery-skills) | Three-skill Codex package that audits user intent, builds high-fidelity HTML decks, editable PPTX files, PDFs, prototypes, and visual demos, then reports owner-readable delivery evidence. |
+| [techdeck](https://github.com/lionellau/claude-skill-techdeck) | Agent Skill for technical-solution decks that turns a brief into a self-contained HTML presentation with PDF export, WCAG-aware themes, chart recipes, architecture-diagram support, and browser layout verification. |
+| [Academic Presentation Skill](https://github.com/5Donghwan/academic-presentation-skill) | Codex/Claude skill that converts a source paper, thesis, or technical report into an academic conference or seminar PPTX deck plus a DOCX speaker script with figure, equation, algorithm, and render-QA guidance. |
+| [Dia-GramV](https://github.com/ShAInyXYZ/Dia-GramV) | Local MCP server and Svelte Flow viewer for agent-maintained, typed architecture diagrams stored as repo JSON files, with linting, flags, history, layout, and SVG export for system planning and review. |
+| [EditItAll MCP](https://github.com/Subcue/edititall-mcp) | Local MCP bridge for EditItAll that lets agents drive in-browser photo, vector, PDF, spreadsheet, Word, and slide editors while keeping files on the user's machine. |
+| [agenttrail](https://github.com/sodiumsun/agenttrail) | Local zero-dependency dashboard that turns Codex, Claude Code, Cursor, and repo activity into a zoomable live map of repositories, components, file changes, run cards, todos, ownership, status, and dependencies. |
+| [FlexViz](https://github.com/flex-analytics/flexviz) | AI-native Python dashboard library that lets agents build interactive Polars-backed dashboards for 100M-row datasets, serve the result locally, and read user zoom, brush, and selection state as structured context. |
 
 ## ✨ 推荐使用方式
 
@@ -85,6 +85,7 @@
 | [Noodle Biomedical Literature Discovery MCP](https://github.com/helena-bioinformatics/noodle-mcp) [![Star](https://img.shields.io/github/stars/helena-bioinformatics/noodle-mcp?style=flat&logo=github&label=Star)](https://github.com/helena-bioinformatics/noodle-mcp/stargazers) | 论文/科研资料 / 引用网络 / 数据库 | MCP Server / Agent Skill | 文献地图/知识地图 / 证据表 / 引用答案 / 结构化数据/Markdown | MCP Client / Agent 宿主 / 外部检索/数据源 / 存储/索引 |
 
 | [Auto-Slides](https://github.com/Westlake-AGI-Lab/Auto-Slides) [![Star](https://img.shields.io/github/stars/Westlake-AGI-Lab/Auto-Slides?style=flat&logo=github&label=Star)](https://github.com/Westlake-AGI-Lab/Auto-Slides/stargazers) | Papers/research / PDF/documents | Research prototype / Open-source app/framework | PPT/deck / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Document parsing/OCR / Rendering/export / GPU/accelerator / System tools / Templates/assets |
+| [Academic Presentation Skill](https://github.com/5Donghwan/academic-presentation-skill) [![Star](https://img.shields.io/github/stars/5Donghwan/academic-presentation-skill?style=flat&logo=github&label=Star)](https://github.com/5Donghwan/academic-presentation-skill/stargazers) | 论文/科研资料 / PDF/文档 / 文本/想法 | Agent Skill | PPT/演示文稿 / 报告/长文档 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 文档解析/OCR / 渲染/导出 / 模板/素材 |
 ### 网页、新闻、资讯与行业情报
 
 从网页、搜索结果、新闻流、市场数据或威胁情报出发，生成带来源的报告、仪表盘和知识图。
@@ -190,6 +191,8 @@
 | [Agent Trace Viewer](https://github.com/pixeltoprompt/agent-trace-viewer) [![Star](https://img.shields.io/github/stars/pixeltoprompt/agent-trace-viewer?style=flat&logo=github&label=Star)](https://github.com/pixeltoprompt/agent-trace-viewer/stargazers) | 代码库 / 代码/技术描述 | 开源应用/框架 | 代码地图/Repo Wiki / 表格/时间线 / 图表/仪表盘 / 网页/交互页面 | 本地语言环境 / 代码分析工具 / 渲染/导出 |
 
 | [arch-viewer](https://github.com/axumquant/arch-viewer) [![Star](https://img.shields.io/github/stars/axumquant/arch-viewer?style=flat&logo=github&label=Star)](https://github.com/axumquant/arch-viewer/stargazers) | Codebase | MCP server / Open-source app/framework | Code map/Repo Wiki / Architecture/flow diagram / Web/interactive page / Evidence table | MCP client / Agent host / Local runtime / Model API / Code analysis / Storage/index / Rendering/export / System tools |
+| [Dia-GramV](https://github.com/ShAInyXYZ/Dia-GramV) [![Star](https://img.shields.io/github/stars/ShAInyXYZ/Dia-GramV?style=flat&logo=github&label=Star)](https://github.com/ShAInyXYZ/Dia-GramV/stargazers) | 代码库 / 代码/技术描述 | MCP Server / 开源应用/框架 | 代码地图/Repo Wiki / 架构图/流程图 / 网页/交互页面 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本地语言环境 / 渲染/导出 / 代码分析工具 |
+| [agenttrail](https://github.com/sodiumsun/agenttrail) [![Star](https://img.shields.io/github/stars/sodiumsun/agenttrail?style=flat&logo=github&label=Star)](https://github.com/sodiumsun/agenttrail/stargazers) | 代码库 / 知识库/个人资料 | 开源应用/框架 | 代码地图/Repo Wiki / 图表/仪表盘 / 网页/交互页面 / 表格/时间线 | Agent 宿主 / 本地语言环境 / 代码分析工具 / 渲染/导出 |
 ### 数据、表格与业务指标
 
 把 CSV、数据库、指标和业务数据转成图表、仪表盘或分析报告。
@@ -288,6 +291,7 @@
 | [Tableau Dashboard Creator Skill](https://github.com/laviDrori0702/tableau-dashboard-creator-skill) [![Star](https://img.shields.io/github/stars/laviDrori0702/tableau-dashboard-creator-skill?style=flat&logo=github&label=Star)](https://github.com/laviDrori0702/tableau-dashboard-creator-skill/stargazers) | 文本/想法 / 数据/表格 / 数据库 | Skill 集合 / Agent Skill | 图表/仪表盘 / 网页/交互页面 / 报告/长文档 / Structured data/Markdown | Agent 宿主 / 本地语言环境 / External search/data / 渲染/导出 / 系统工具 / 模板/素材 |
 | [CLEAR](https://github.com/IBM/CLEAR) [![Star](https://img.shields.io/github/stars/IBM/CLEAR?style=flat&logo=github&label=Star)](https://github.com/IBM/CLEAR/stargazers) | 数据/表格 / 代码/技术描述 / Any/multi-source | 开源应用/框架 / 研究原型 | 图表/仪表盘 / 证据表 / 报告/长文档 / 表格/时间线 | 本地语言环境 / 模型 API / External search/data / 渲染/导出 / 存储/索引 |
 | [Tokdash](https://github.com/JingbiaoMei/Tokdash) [![Star](https://img.shields.io/github/stars/JingbiaoMei/Tokdash?style=flat&logo=github&label=Star)](https://github.com/JingbiaoMei/Tokdash/stargazers) | 代码/技术描述 / 数据/表格 / Knowledge base | 开源应用/框架 | 图表/仪表盘 / 表格/时间线 / 网页/交互页面 | 浏览器/账号 / 本地语言环境 / 存储/索引 / 渲染/导出 / External search/data |
+| [FlexViz](https://github.com/flex-analytics/flexviz) [![Star](https://img.shields.io/github/stars/flex-analytics/flexviz?style=flat&logo=github&label=Star)](https://github.com/flex-analytics/flexviz/stargazers) | 数据/表格 / 数据库 | API/SDK/库 / Agent Skill | 图表/仪表盘 / 网页/交互页面 / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 存储/索引 |
 
 ### 通用文本、想法与白板图示
 
@@ -601,6 +605,9 @@
 | [SlideAgent](https://github.com/XiaoZhou2024/SlideAgent) [![Star](https://img.shields.io/github/stars/XiaoZhou2024/SlideAgent?style=flat&logo=github&label=Star)](https://github.com/XiaoZhou2024/SlideAgent/stargazers) | Office docs / Data/tables / Text/ideas | Research prototype / Bot/assistant | PPT/deck / Chart/dashboard / Evidence table | Agent host / Model API / Local runtime / Document parsing/OCR / External search/data / Rendering/export / System tools |
 | [PPTWork](https://github.com/JunfengRan/PPTWork) [![Star](https://img.shields.io/github/stars/JunfengRan/PPTWork?style=flat&logo=github&label=Star)](https://github.com/JunfengRan/PPTWork/stargazers) | Text/ideas / PDF/documents / Office docs / Any/multi-source | Skill collection / Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [OpenDeck](https://github.com/open-deck-org/opendeck) [![Star](https://img.shields.io/github/stars/open-deck-org/opendeck?style=flat&logo=github&label=Star)](https://github.com/open-deck-org/opendeck/stargazers) | Text/ideas / Web/search / Any/multi-source | Agent skill / Skill collection | PPT/deck / Web/interactive page / Video/audio | Agent host / Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
+| [whitedeck](https://github.com/franzenzenhofer/whitedeck) [![Star](https://img.shields.io/github/stars/franzenzenhofer/whitedeck?style=flat&logo=github&label=Star)](https://github.com/franzenzenhofer/whitedeck/stargazers) | 文本/想法 / DSL/代码 | MCP Server / Agent Skill / API/SDK/库 | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF | Agent 宿主 / MCP Client / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
+| [Presentation Delivery Skills](https://github.com/ConnorRX56/presentation-delivery-skills) [![Star](https://img.shields.io/github/stars/ConnorRX56/presentation-delivery-skills?style=flat&logo=github&label=Star)](https://github.com/ConnorRX56/presentation-delivery-skills/stargazers) | 文本/想法 / 任意/多源 | Skill 集合 / Agent Skill | PPT/演示文稿 / 网页/交互页面 / SVG/PNG/PDF / 报告/简报 | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
+| [techdeck](https://github.com/lionellau/claude-skill-techdeck) [![Star](https://img.shields.io/github/stars/lionellau/claude-skill-techdeck?style=flat&logo=github&label=Star)](https://github.com/lionellau/claude-skill-techdeck/stargazers) | 文本/想法 / 代码/技术描述 / 数据/表格 | Agent Skill | PPT/演示文稿 / 网页/交互页面 / 图表/仪表盘 / 架构图/流程图 / SVG/PNG/PDF | Agent 宿主 / 浏览器/账号 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 ## 辅助、前后处理与小工具
 
 这一部分放更小、更底层或更专门的工具。它们不一定独立完成整条内容生产链，但经常是 Agent 工作流里的关键组件。
@@ -732,6 +739,7 @@
 | [mcp-icon](https://github.com/hustcc/mcp-icon) [![Star](https://img.shields.io/github/stars/hustcc/mcp-icon?style=flat&logo=github&label=Star)](https://github.com/hustcc/mcp-icon/stargazers) | 文本/想法 / DSL/代码 | MCP Server | SVG/PNG/PDF / 信息图/视觉报告 | MCP Client / 本地语言环境 / 外部检索/数据源 / 渲染/导出 |
 
 | [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) [![Star](https://img.shields.io/github/stars/op7418/Generative-UI-MCP?style=flat&logo=github&label=Star)](https://github.com/op7418/Generative-UI-MCP/stargazers) | Text/ideas / Data/tables / DSL/code | MCP server | Web/interactive page / Chart/dashboard / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
+| [EditItAll MCP](https://github.com/Subcue/edititall-mcp) [![Star](https://img.shields.io/github/stars/Subcue/edititall-mcp?style=flat&logo=github&label=Star)](https://github.com/Subcue/edititall-mcp/stargazers) | PDF/文档 / Office 文档 / 数据/表格 / 文本/想法 | MCP Server / 产品/SaaS | PPT/演示文稿 / 报告/长文档 / SVG/PNG/PDF / 图表/仪表盘 | MCP Client / 浏览器/账号 / 本地语言环境 / 渲染/导出 |
 ## 怎么筛选工具
 
 ### 信息来源

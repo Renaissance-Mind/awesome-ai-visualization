@@ -1,4 +1,4 @@
-last_researched: '2026-09-01'
+last_researched: '2026-09-02'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -16761,3 +16761,220 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: code
+- name: whitedeck
+  url: https://github.com/franzenzenhofer/whitedeck
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-27'
+  note: Markdown-first deck compiler with a CLI, Claude skill, and MCP server that renders Keynote-style slides to self-contained HTML, PDF, editable PPTX, and native Keynote files with validation and source-note support.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Presentation Delivery Skills
+  url: https://github.com/ConnorRX56/presentation-delivery-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 10
+  license: MIT
+  updated: '2026-08-27'
+  note: Three-skill Codex package that audits user intent, builds high-fidelity HTML decks, editable PPTX files, PDFs, prototypes, and visual demos, then reports owner-readable delivery evidence.
+  source_types:
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 报告/简报
+  catalog_section: main
+  readme_group: presentation
+- name: techdeck
+  url: https://github.com/lionellau/claude-skill-techdeck
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-01'
+  note: Agent Skill for technical-solution decks that turns a brief into a self-contained HTML presentation with PDF export, WCAG-aware themes, chart recipes, architecture-diagram support, and browser layout verification.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Academic Presentation Skill
+  url: https://github.com/5Donghwan/academic-presentation-skill
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-30'
+  note: Codex/Claude skill that converts a source paper, thesis, or technical report into an academic conference or seminar PPTX deck plus a DOCX speaker script with figure, equation, algorithm, and render-QA guidance.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
+- name: Dia-GramV
+  url: https://github.com/ShAInyXYZ/Dia-GramV
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 代码分析工具
+  stars: 6
+  license: MIT
+  updated: '2026-08-31'
+  note: Local MCP server and Svelte Flow viewer for agent-maintained, typed architecture diagrams stored as repo JSON files, with linting, flags, history, layout, and SVG export for system planning and review.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: code
+- name: EditItAll MCP
+  url: https://github.com/Subcue/edititall-mcp
+  homepage: https://edititall.com/ai
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-08-31'
+  note: Local MCP bridge for EditItAll that lets agents drive in-browser photo, vector, PDF, spreadsheet, Word, and slide editors while keeping files on the user's machine.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  catalog_section: support_render
+  readme_group: support_render
+- name: agenttrail
+  url: https://github.com/sodiumsun/agenttrail
+  category: codebase-map
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 600
+  license: MIT
+  updated: '2026-09-01'
+  note: Local zero-dependency dashboard that turns Codex, Claude Code, Cursor, and repo activity into a zoomable live map of repositories, components, file changes, run cards, todos, ownership, status, and dependencies.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  catalog_section: main
+  readme_group: code
+- name: FlexViz
+  url: https://github.com/flex-analytics/flexviz
+  homepage: https://flexviz.tech
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 11
+  license: Apache-2.0
+  updated: '2026-09-01'
+  note: AI-native Python dashboard library that lets agents build interactive Polars-backed dashboards for 100M-row datasets, serve the result locally, and read user zoom, brush, and selection state as structured context.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - API/SDK/库
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data

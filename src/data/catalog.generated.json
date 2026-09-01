@@ -1,113 +1,113 @@
 {
-  "generatedAt": "2026-08-31T23:07:22+00:00",
-  "lastResearched": "2026-09-01",
+  "generatedAt": "2026-09-01T23:06:56+00:00",
+  "lastResearched": "2026-09-02",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 646,
-    "openSource": 168,
-    "saas": 67,
+    "total": 654,
+    "openSource": 170,
+    "saas": 68,
     "modelApi": 217,
-    "examples": 1383,
-    "effectAssets": 1773,
-    "docs": 1625
+    "examples": 1392,
+    "effectAssets": 1796,
+    "docs": 1632
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 64,
-      "PDF/文档": 198,
-      "文本/想法": 409,
-      "数据/表格": 260,
-      "代码/技术描述": 120,
+      "论文/科研资料": 65,
+      "PDF/文档": 200,
+      "文本/想法": 414,
+      "数据/表格": 263,
+      "代码/技术描述": 122,
       "网页/搜索结果": 174,
-      "代码库": 69,
-      "DSL/代码": 130,
+      "代码库": 71,
+      "DSL/代码": 131,
       "新闻/资讯": 27,
-      "知识库/个人资料": 61,
-      "任意/多源": 106,
-      "Office 文档": 116,
+      "知识库/个人资料": 62,
+      "任意/多源": 107,
+      "Office 文档": 117,
       "引用网络": 5,
-      "数据库": 60,
+      "数据库": 61,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 168,
-      "Agent Skill": 218,
-      "Skill 集合": 61,
-      "MCP Server": 217,
-      "产品/SaaS": 67,
+      "开源应用/框架": 170,
+      "Agent Skill": 223,
+      "Skill 集合": 62,
+      "MCP Server": 220,
+      "产品/SaaS": 68,
       "数据集/评测": 2,
       "Bot/助手": 22,
       "研究原型": 9,
-      "API/SDK/库": 98,
+      "API/SDK/库": 100,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 49,
-      "PPT/演示文稿": 274,
-      "网页/交互页面": 218,
+      "PPT/演示文稿": 279,
+      "网页/交互页面": 224,
       "问答/学习材料": 16,
-      "报告/长文档": 92,
+      "报告/长文档": 94,
       "证据表": 48,
       "信息图/视觉报告": 97,
-      "图表/仪表盘": 195,
-      "架构图/流程图": 144,
-      "SVG/PNG/PDF": 260,
-      "报告/简报": 73,
+      "图表/仪表盘": 199,
+      "架构图/流程图": 146,
+      "SVG/PNG/PDF": 266,
+      "报告/简报": 74,
       "白板/思维导图": 41,
       "图表/Mermaid": 67,
       "视频/音频": 50,
-      "结构化数据/Markdown": 94,
-      "表格/时间线": 27,
+      "结构化数据/Markdown": 95,
+      "表格/时间线": 28,
       "引用答案": 6,
       "思维导图/知识地图": 38,
       "文献地图/知识地图": 5,
-      "代码地图/Repo Wiki": 42,
+      "代码地图/Repo Wiki": 44,
       "图表/渲染输出": 22,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 534,
+      "本地语言环境": 542,
       "模型 API": 217,
-      "文档解析/OCR": 94,
-      "渲染/导出": 554,
+      "文档解析/OCR": 95,
+      "渲染/导出": 562,
       "GPU/加速器": 19,
-      "模板/素材": 302,
-      "Agent 宿主": 289,
-      "系统工具": 138,
-      "浏览器/账号": 162,
-      "存储/索引": 93,
-      "MCP Client": 227,
-      "外部检索/数据源": 139,
-      "代码分析工具": 44
+      "模板/素材": 306,
+      "Agent 宿主": 296,
+      "系统工具": 140,
+      "浏览器/账号": 164,
+      "存储/索引": 94,
+      "MCP Client": 230,
+      "外部检索/数据源": 140,
+      "代码分析工具": 46
     },
     "categories": {
-      "paper-visualization": 19,
+      "paper-visualization": 20,
       "doc-to-knowledge": 57,
       "research-report": 30,
       "infographic-report": 61,
-      "data-dashboard": 99,
+      "data-dashboard": 100,
       "diagram-generation": 77,
       "literature-map": 5,
-      "presentation-tools": 184,
-      "codebase-map": 40,
-      "rendering-primitive": 20,
+      "presentation-tools": 187,
+      "codebase-map": 42,
+      "rendering-primitive": 21,
       "video-generation": 15,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 34,
+      "paper": 35,
       "text_visual": 77,
       "web_news": 9,
       "support_mindmap": 15,
       "docs": 32,
       "support_doc_parse": 21,
-      "presentation": 194,
-      "code": 43,
-      "support_render": 60,
+      "presentation": 197,
+      "code": 45,
+      "support_render": 61,
       "diagrams": 19,
       "video": 15,
-      "data": 93,
+      "data": 94,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -53515,6 +53515,602 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "whitedeck",
+      "url": "https://github.com/franzenzenhofer/whitedeck",
+      "primaryUrl": "https://github.com/franzenzenhofer/whitedeck",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-27",
+      "note": "Markdown-first deck compiler with a CLI, Claude skill, and MCP server that renders Keynote-style slides to self-contained HTML, PDF, editable PPTX, and native Keynote files with validation and source-note support.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Ocean",
+          "url": "https://raw.githubusercontent.com/franzenzenhofer/whitedeck/HEAD/ocean.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/franzenzenhofer/whitedeck/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Presentation Delivery Skills",
+      "url": "https://github.com/ConnorRX56/presentation-delivery-skills",
+      "primaryUrl": "https://github.com/ConnorRX56/presentation-delivery-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 10,
+      "license": "MIT",
+      "updated": "2026-08-27",
+      "note": "Three-skill Codex package that audits user intent, builds high-fidelity HTML decks, editable PPTX files, PDFs, prototypes, and visual demos, then reports owner-readable delivery evidence.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Download the editable PPTX",
+          "url": "https://github.com/ConnorRX56/presentation-delivery-skills/blob/HEAD/demos/agent-skill-harness-hermes/agent-skill-harness-hermes-demo.pptx",
+          "source": "https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Read the native PowerPoint PDF",
+          "url": "https://github.com/ConnorRX56/presentation-delivery-skills/blob/HEAD/demos/agent-skill-harness-hermes/agent-skill-harness-hermes-demo.pdf",
+          "source": "https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Cover of the Agent, Skill, Harness, and Hermes presentation",
+          "url": "https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/demos/agent-skill-harness-hermes/previews/01-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ConnorRX56/presentation-delivery-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "techdeck",
+      "url": "https://github.com/lionellau/claude-skill-techdeck",
+      "primaryUrl": "https://github.com/lionellau/claude-skill-techdeck",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-01",
+      "note": "Agent Skill for technical-solution decks that turns a brief into a self-contained HTML presentation with PDF export, WCAG-aware themes, chart recipes, architecture-diagram support, and browser layout verification.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Academic Presentation Skill",
+      "url": "https://github.com/5Donghwan/academic-presentation-skill",
+      "primaryUrl": "https://github.com/5Donghwan/academic-presentation-skill",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-30",
+      "note": "Codex/Claude skill that converts a source paper, thesis, or technical report into an academic conference or seminar PPTX deck plus a DOCX speaker script with figure, equation, algorithm, and render-QA guidance.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Dia-GramV",
+      "url": "https://github.com/ShAInyXYZ/Dia-GramV",
+      "primaryUrl": "https://github.com/ShAInyXYZ/Dia-GramV",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "代码分析工具"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-08-31",
+      "note": "Local MCP server and Svelte Flow viewer for agent-maintained, typed architecture diagrams stored as repo JSON files, with linting, flags, history, layout, and SVG export for system planning and review.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`skill/references/format.md`",
+          "url": "https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/skill/references/format.md",
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`notes-app`",
+          "url": "https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/notes-app.dgv.json",
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`notes-app-broken`",
+          "url": "https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/notes-app-broken.dgv.json",
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`shop-platform`",
+          "url": "https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/shop-platform.dgv.json",
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`local-ai-harness`",
+          "url": "https://github.com/ShAInyXYZ/Dia-GramV/blob/HEAD/examples/local-ai-harness.dgv.json",
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "The viewer: a shop platform — clients, edge, services, data and providers as frames; shaped nodes; wires routed around cards carrying their protocol",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/viewer.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The installer card carries a ⚑; its open note says what is wrong, why, and the fix, with a resolve button. The history drop-up at the bottom lists nine changes grouped by element",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/flags-history.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The inspector on a flagged storage node: the flag with its note and fix, and the form to raise a new one — title, kind, fix. Behind it, the history with one element expanded",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/flag-raise.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The problems panel: 1 error, 2 warnings, each with its code, message and fix; the failing wire drawn in red",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/lint.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The shop platform folded: 5 groups, the links between them merged and counted",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/folded.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The shop platform coloured by status: done in green, wip in amber, todo grey, the payments bridge blocked in violet",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/status.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Quick-add popover: type to filter the kinds, each with its shape",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/quick-add.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Inline editor on a selected wire: kind, protocol, label, from/to port",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/edge-editor.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The key: kinds grouped by role with their shapes, link kinds, build status",
+          "url": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/assets/key.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ShAInyXYZ/Dia-GramV/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 4,
+      "effectAssetsCount": 9
+    },
+    {
+      "name": "EditItAll MCP",
+      "url": "https://github.com/Subcue/edititall-mcp",
+      "primaryUrl": "https://github.com/Subcue/edititall-mcp",
+      "homepage": "https://edititall.com/ai",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-31",
+      "note": "Local MCP bridge for EditItAll that lets agents drive in-browser photo, vector, PDF, spreadsheet, Word, and slide editors while keeping files on the user's machine.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "SVG/PNG/PDF",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Can AI edit your files without uploading them?",
+          "url": "https://edititall.com/guides/can-ai-edit-files-without-uploading",
+          "source": "https://edititall.com/ai"
+        },
+        {
+          "kind": "docs",
+          "title": "Guides",
+          "url": "https://edititall.com/guides",
+          "source": "https://edititall.com/ai"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "MCP Server for Images, PDFs & Spreadsheets — EditItAll",
+          "url": "https://edititall.com/og.png?v=2",
+          "thumbnailUrl": null,
+          "source": "https://edititall.com/ai"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "agenttrail",
+      "url": "https://github.com/sodiumsun/agenttrail",
+      "primaryUrl": "https://github.com/sodiumsun/agenttrail",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 600,
+      "license": "MIT",
+      "updated": "2026-09-01",
+      "note": "Local zero-dependency dashboard that turns Codex, Claude Code, Cursor, and repo activity into a zoomable live map of repositories, components, file changes, run cards, todos, ownership, status, and dependencies.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "agenttrail watching itself being built: a Claude session appears with its plan, edits stream live, and the demo task ticks green on camera",
+          "url": "https://raw.githubusercontent.com/sodiumsun/agenttrail/HEAD/docs/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sodiumsun/agenttrail/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "FlexViz",
+      "url": "https://github.com/flex-analytics/flexviz",
+      "primaryUrl": "https://github.com/flex-analytics/flexviz",
+      "homepage": "https://flexviz.tech",
+      "category": "data-dashboard",
+      "surface": "library",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 11,
+      "license": "Apache-2.0",
+      "updated": "2026-09-01",
+      "note": "AI-native Python dashboard library that lets agents build interactive Polars-backed dashboards for 100M-row datasets, serve the result locally, and read user zoom, brush, and selection state as structured context.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs.flexviz.tech",
+          "url": "https://docs.flexviz.tech",
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "agent guide",
+          "url": "https://docs.flexviz.tech/guides/ai-agents/",
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "FastAPI",
+          "url": "https://github.com/fastapi/fastapi",
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.flexviz.tech/",
+          "source": "https://flexviz.tech/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "flexviz.tech/benchmarks",
+          "url": "https://flexviz.tech/benchmarks.html",
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "flexviz-benchmarks",
+          "url": "https://github.com/flex-analytics/flexviz-benchmarks",
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Live demo",
+          "url": "https://flexviz.tech/demo.html",
+          "source": "https://flexviz.tech/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Cross-filter demo: brushing a range on a 100M-point line chart re-aggregates the linked histogram",
+          "url": "https://raw.githubusercontent.com/flex-analytics/flexviz/main/docs/crossfilter.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Zoom demo",
+          "url": "https://flexviz.tech/assets/gifs/zoom.gif?v=20260824c",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        },
+        {
+          "kind": "gif",
+          "title": "Linked hover demo",
+          "url": "https://flexviz.tech/assets/gifs/hover.gif?v=20260824c",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        },
+        {
+          "kind": "image",
+          "title": "FlexViz",
+          "url": "https://raw.githubusercontent.com/flex-analytics/flexviz/main/docs/assets/flexviz-wordmark-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Time to first render at 200M rows and 5 traces: FlexViz against Datashader, Vaex, and Mosaic, fastest in both the line and histogram panels. Latest numbers at flexviz.tech/benchmar",
+          "url": "https://raw.githubusercontent.com/flex-analytics/flexviz/main/docs/benchmark-ttfr.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Cross-filter in update and overlay modes",
+          "url": "https://flexviz.tech/assets/gifs/crossfilter.gif?v=20260824c",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        },
+        {
+          "kind": "gif",
+          "title": "Copying a view link and opening it in a new tab",
+          "url": "https://flexviz.tech/assets/gifs/share.gif?v=20260824c",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        },
+        {
+          "kind": "gif",
+          "title": "Dragging a panel beside another",
+          "url": "https://flexviz.tech/assets/gifs/rearrange.gif?v=20260824c",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        },
+        {
+          "kind": "gif",
+          "title": "An agent serves readings.parquet, hands over a dashboard link, then reads the brushed range back out of the dashboard state and answers from the rows behind it",
+          "url": "https://flexviz.tech/assets/gifs/agent.gif?v=20260829a",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        },
+        {
+          "kind": "image",
+          "title": "FlexViz - Scalable interactive visualization in Python",
+          "url": "https://flexviz.tech/assets/og.png?v=20260828",
+          "thumbnailUrl": null,
+          "source": "https://flexviz.tech/"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 3,
+      "effectAssetsCount": 10
     }
   ]
 }
