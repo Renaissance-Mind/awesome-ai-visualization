@@ -1,4 +1,4 @@
-generated_at: '2026-09-01T23:06:56+00:00'
+generated_at: '2026-09-02T23:06:47+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 654
-  fetched_sources_ok: 873
+  entries: 662
+  fetched_sources_ok: 887
   fetched_sources_failed: 47
-  official_examples: 1392
-  official_effect_assets: 1796
-  official_docs: 1632
+  official_examples: 1400
+  official_effect_assets: 1801
+  official_docs: 1660
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -51867,3 +51867,559 @@ entries:
   source_headings:
   - Quickstart
   - Benchmarks
+- name: Deckary PowerPoint MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/Ev-b03/Deckary-Public
+  homepage: https://deckary.com/claude-code-powerpoint
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Hosted MCP server and Office add-in that lets Claude Code, Cursor, Codex, and other agents inspect, render,
+    create, and make targeted edits to the live PowerPoint presentation already open on the user's computer.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Deckary PowerPoint MCP
+    bytes: 6576
+  - kind: homepage
+    url: https://deckary.com/claude-code-powerpoint
+    final_url: https://deckary.com/claude-code-powerpoint
+    status: 200
+    content_type: text/html
+    title: Claude Code PowerPoint MCP — Edit Live PowerPoint | Deckary
+    description: Connect Claude Code to the PowerPoint presentation already open on your computer. Deckary MCP lets Claude
+      inspect, render, create, and edit native PowerPoint slides.
+    bytes: 114950
+  official_examples:
+  - kind: example
+    title: '`examples/claude-code.mcp.json`'
+    url: https://github.com/Ev-b03/Deckary-Public/blob/HEAD/examples/claude-code.mcp.json
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: template
+    title: Templates
+    url: https://deckary.com/templates
+    source: https://deckary.com/claude-code-powerpoint
+  official_docs:
+  - kind: docs
+    title: security model
+    url: https://github.com/Ev-b03/Deckary-Public/blob/HEAD/docs/security.md
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: docs/troubleshooting.md
+    url: https://github.com/Ev-b03/Deckary-Public/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: Deckary Claude Code + PowerPoint guide
+    url: https://deckary.com/claude-code-powerpoint
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: Read the MCP documentation
+    url: https://deckary.com/integrations/mcp
+    source: https://deckary.com/claude-code-powerpoint
+  - kind: docs
+    title: PowerPoint Agent Guide
+    url: https://deckary.com/blog/powerpoint-agent
+    source: https://deckary.com/claude-code-powerpoint
+  official_effect_assets:
+  - kind: image
+    title: Claude Code PowerPoint MCP — Edit Live PowerPoint | Deckary
+    url: https://deckary.com/og-image.webp
+    source: https://deckary.com/claude-code-powerpoint
+  official_links:
+  - kind: example
+    title: '`examples/claude-code.mcp.json`'
+    url: https://github.com/Ev-b03/Deckary-Public/blob/HEAD/examples/claude-code.mcp.json
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: security model
+    url: https://github.com/Ev-b03/Deckary-Public/blob/HEAD/docs/security.md
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: docs/troubleshooting.md
+    url: https://github.com/Ev-b03/Deckary-Public/blob/HEAD/docs/troubleshooting.md
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: Deckary Claude Code + PowerPoint guide
+    url: https://deckary.com/claude-code-powerpoint
+    source: https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md
+  - kind: docs
+    title: Read the MCP documentation
+    url: https://deckary.com/integrations/mcp
+    source: https://deckary.com/claude-code-powerpoint
+  - kind: docs
+    title: PowerPoint Agent Guide
+    url: https://deckary.com/blog/powerpoint-agent
+    source: https://deckary.com/claude-code-powerpoint
+  - kind: template
+    title: Templates
+    url: https://deckary.com/templates
+    source: https://deckary.com/claude-code-powerpoint
+  source_headings:
+  - Saved Deckary Web Builder presentations
+  - Example prompts
+- name: KitchenSink4PPT
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/nometalalchemist/KitchenSink4PPT
+  homepage: https://nometalalchemist.github.io/KitchenSink4PPT/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: PowerPoint MCP server with 138 tools for native PPTX reading, editing, tables, charts, comments, animations,
+    exports, and SVG-to-editable-PowerPoint-shape compilation with glued connectors.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nometalalchemist/KitchenSink4PPT/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nometalalchemist/KitchenSink4PPT/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: KitchenSink4PPT
+    bytes: 8001
+  - kind: homepage
+    url: https://nometalalchemist.github.io/KitchenSink4PPT/
+    final_url: https://nometalalchemist.github.io/KitchenSink4PPT/
+    status: 200
+    content_type: text/html
+    title: 'KitchenSink4PPT: Everything plus the kitchen sink for Microsoft PowerPoint'
+    description: 138-tool MCP server for Microsoft PowerPoint. Native editable diagrams from SVG with glued connectors (move
+      the node, the arrows follow), file-based table surgery, slide duplicatio
+    bytes: 170617
+- name: Pacific Data Hub Agent MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp
+  homepage: https://dottieaistudio.com.au/
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: General-purpose MCP server and analyst workflow that searches the live Pacific Data Hub SDMX catalog, retrieves
+    real data, analyzes evidence, and writes sourced PowerPoint report decks with editable native charts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/J-King-Dottie/pacific-data-hub-agent-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/J-King-Dottie/pacific-data-hub-agent-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Pacific Data Hub Agent MCP
+    bytes: 5188
+  - kind: homepage
+    url: https://dottieaistudio.com.au/
+    final_url: https://dottieaistudio.com.au/
+    status: 200
+    content_type: text/html
+    title: Dottie AI Studio
+    description: An AI proposal partner built for architecture, design and engineering firms.
+    bytes: 53854
+- name: pptlive
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/thomas-villani/pptlive
+  homepage: https://thomas-villani.github.io/pptlive/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Windows Python library, CLI, and MCP server for driving a running Microsoft PowerPoint instance through COM
+    automation, including live reads, slide edits, charts, SmartArt, comments, snapshots, PDF export, and video export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/thomas-villani/pptlive/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/thomas-villani/pptlive/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptlive
+    bytes: 32763
+  - kind: homepage
+    url: https://thomas-villani.github.io/pptlive/
+    final_url: https://thomas-villani.github.io/pptlive/
+    status: 200
+    content_type: text/html
+    title: pptlive - pptlive
+    description: Drive a running Microsoft PowerPoint instance from Python — xlwings, but for PowerPoint, and LLM-friendly.
+    bytes: 107000
+  official_examples:
+  - kind: tutorial
+    title: Tutorial
+    url: https://thomas-villani.github.io/pptlive/tutorial/
+    source: https://thomas-villani.github.io/pptlive/
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://thomas-villani.github.io/pptlive/
+    source: https://raw.githubusercontent.com/thomas-villani/pptlive/HEAD/README.md
+  - kind: docs
+    title: Getting started
+    url: https://thomas-villani.github.io/pptlive/getting-started/
+    source: https://thomas-villani.github.io/pptlive/
+  - kind: docs
+    title: Python API
+    url: https://thomas-villani.github.io/pptlive/python-api/
+    source: https://thomas-villani.github.io/pptlive/
+  - kind: docs
+    title: CLI reference
+    url: https://thomas-villani.github.io/pptlive/cli/
+    source: https://thomas-villani.github.io/pptlive/
+  official_links:
+  - kind: docs
+    title: Documentation
+    url: https://thomas-villani.github.io/pptlive/
+    source: https://raw.githubusercontent.com/thomas-villani/pptlive/HEAD/README.md
+  - kind: docs
+    title: Getting started
+    url: https://thomas-villani.github.io/pptlive/getting-started/
+    source: https://thomas-villani.github.io/pptlive/
+  - kind: tutorial
+    title: Tutorial
+    url: https://thomas-villani.github.io/pptlive/tutorial/
+    source: https://thomas-villani.github.io/pptlive/
+  - kind: docs
+    title: Python API
+    url: https://thomas-villani.github.io/pptlive/python-api/
+    source: https://thomas-villani.github.io/pptlive/
+  - kind: docs
+    title: CLI reference
+    url: https://thomas-villani.github.io/pptlive/cli/
+    source: https://thomas-villani.github.io/pptlive/
+  source_headings:
+  - e.g. "Slide 7 title 'Calibri 36 pt' differs from the deck's dominant title 'Calibri 44 pt'"
+- name: Deckyard
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/jaapstronks/deckyard
+  homepage: https://deckyard.eu
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 存储/索引
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Self-hosted MCP-native presentation platform for creating, presenting, publishing, collaborating on, and iterating
+    typed slide decks with BYO LLM providers, themes, comments, audience interactions, and HTML previews.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Deckyard
+    bytes: 14944
+  - kind: homepage
+    url: https://deckyard.eu/
+    final_url: https://deckyard.eu/
+    status: 200
+    content_type: text/html
+    title: Deckyard - Open source, end-to-end presentation platform
+    description: The open source presentation platform you run yourself, in place of PowerPoint, Canva or Gamma. Create, present,
+      publish and collaborate in one tool - on brand by default, GDPR-nat
+    bytes: 68780
+  official_examples:
+  - kind: template
+    title: Theme reference
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/developer/themes.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: demo
+    title: Try it
+    url: https://sandbox.deckyard.eu/?lang=en
+    source: https://deckyard.eu/
+  official_docs:
+  - kind: docs
+    title: self-hosting guide
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/ops/self-hosting.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: '`docs/ops/agent-install.md`'
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/ops/agent-install.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: '`docs/reference/mcp-server.md`'
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/reference/mcp-server.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: '`docs/reference/versioning.md`'
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/reference/versioning.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://deckyard.eu/docs/creating/
+    source: https://deckyard.eu/
+  - kind: docs
+    title: How presenting works
+    url: https://deckyard.eu/docs/presenter/
+    source: https://deckyard.eu/
+  official_effect_assets:
+  - kind: image
+    title: 'The Deckyard editor: slide list, live slide preview, and an inspector for theming — with a Present button, speaker
+      notes, and comments.'
+    url: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/assets/images/deckyard-editor.png
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: image
+    title: Deck Poster En
+    url: https://deckyard.eu/images/hero/deck-poster-en.webp
+    source: https://deckyard.eu/
+  - kind: image
+    title: Deckyard - Open source, end-to-end presentation platform
+    url: https://deckyard.eu/images/og/deckyard-og.png
+    source: https://deckyard.eu/
+  - kind: image
+    title: 'A poll slide during a presentation. Four answers, the bars unequal: 31 of the 47 votes on the third option, with
+      the running total underneath.'
+    url: https://deckyard.eu/images/marketing/poll-live-en-1200.png
+    source: https://deckyard.eu/
+  official_links:
+  - kind: docs
+    title: self-hosting guide
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/ops/self-hosting.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: '`docs/ops/agent-install.md`'
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/ops/agent-install.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: '`docs/reference/mcp-server.md`'
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/reference/mcp-server.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: '`docs/reference/versioning.md`'
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/reference/versioning.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: template
+    title: Theme reference
+    url: https://github.com/jaapstronks/deckyard/blob/HEAD/docs/developer/themes.md
+    source: https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://deckyard.eu/docs/creating/
+    source: https://deckyard.eu/
+  - kind: demo
+    title: Try it
+    url: https://sandbox.deckyard.eu/?lang=en
+    source: https://deckyard.eu/
+  - kind: docs
+    title: How presenting works
+    url: https://deckyard.eu/docs/presenter/
+    source: https://deckyard.eu/
+  source_headings:
+  - Custom Slide Types
+  - 'Storage: PostgreSQL, configured via DATABASE_* (see the Database block in .env.example)'
+  - Documentation
+- name: Keynote Harvest MCP
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/hulin42/keynote-harvest-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Local stdio MCP server that turns Keynote exports and PDFs into portable slide previews, extracted text, embedded-image
+    assets, and versioned manifests with path-safe resource boundaries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/hulin42/keynote-harvest-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/hulin42/keynote-harvest-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Keynote Harvest MCP
+    bytes: 15075
+  source_headings:
+  - Quickstart
+- name: DotMD Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/DotMD-LLC/dotmd-skills
+  homepage: https://dotmd.co
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Official DotMD skill suite and MCP setup for live Markdown-native Docs, Slides, and Sheets collaboration,
+    letting AI assistants draft, revise, comment, prepare decks, update trackers, and preserve GitHub-synced portable content.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DotMD Skills — Live Collaboration for People and AI
+    bytes: 9457
+  - kind: homepage
+    url: https://dotmd.co/
+    final_url: https://dotmd.co/
+    status: 200
+    content_type: text/html
+    title: DotMD — Markdown docs, slides & sheets. Together, live.
+    description: A Markdown-native workspace for documents, slides and spreadsheets in plain .md files, with real-time collaboration,
+      live presenting and two-way GitHub sync.
+    bytes: 84090
+  official_examples:
+  - kind: example
+    title: AI workflow examples
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/examples/prompt-recipes.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: template
+    title: Files and templates
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/files-and-templates.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: template
+    title: Templates 60 ready-made starts
+    url: https://dotmd.co/product/templates
+    source: https://dotmd.co/
+  official_docs:
+  - kind: docs
+    title: five-platform setup guide
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/install-ai-platforms.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/docs.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: DotMD Docs
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/skills/dotmd-docs/SKILL.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Slides
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/slides.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Sheets
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/sheets.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Collaboration
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/collaboration.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Sharing and publishing
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/sharing-and-publishing.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Import and export
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/import-export.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: History and recovery
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/history-and-recovery.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: GitHub sync
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/github-sync.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: AI and MCP
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/ai-and-mcp.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Docs Markdown that renders rich
+    url: https://dotmd.co/product/docs
+    source: https://dotmd.co/
+  - kind: docs
+    title: Developers & AI Docs beside your code, agents that edit live
+    url: https://dotmd.co/for/developers
+    source: https://dotmd.co/
+  official_links:
+  - kind: example
+    title: AI workflow examples
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/examples/prompt-recipes.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: five-platform setup guide
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/install-ai-platforms.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/docs.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: DotMD Docs
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/skills/dotmd-docs/SKILL.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Slides
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/slides.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Sheets
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/sheets.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: template
+    title: Files and templates
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/files-and-templates.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Collaboration
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/collaboration.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Sharing and publishing
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/sharing-and-publishing.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Import and export
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/import-export.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: History and recovery
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/history-and-recovery.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: GitHub sync
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/github-sync.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: AI and MCP
+    url: https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/ai-and-mcp.md
+    source: https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md
+  - kind: docs
+    title: Docs Markdown that renders rich
+    url: https://dotmd.co/product/docs
+    source: https://dotmd.co/
+  - kind: template
+    title: Templates 60 ready-made starts
+    url: https://dotmd.co/product/templates
+    source: https://dotmd.co/
+  - kind: docs
+    title: Developers & AI Docs beside your code, agents that edit live
+    url: https://dotmd.co/for/developers
+    source: https://dotmd.co/
+  source_headings:
+  - Example workflows
+  - Create a presentation from a brief
+  - Documentation map
+- name: HTML Slide Studio
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/murasamelabo/htmlslide
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Markdown-first React, Marp, and CodeMirror presentation workspace with live slide previews, Mermaid editing,
+    style presets, offline self-contained HTML export, and a constrained local MCP server for agent deck authoring.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/murasamelabo/htmlslide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/murasamelabo/htmlslide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Features
+    bytes: 4244

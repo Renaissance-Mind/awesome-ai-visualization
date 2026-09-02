@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-01T23:06:56+00:00",
-  "lastResearched": "2026-09-02",
+  "generatedAt": "2026-09-02T23:06:47+00:00",
+  "lastResearched": "2026-09-03",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 654,
-    "openSource": 170,
-    "saas": 68,
-    "modelApi": 217,
-    "examples": 1392,
-    "effectAssets": 1796,
-    "docs": 1632
+    "total": 662,
+    "openSource": 172,
+    "saas": 70,
+    "modelApi": 218,
+    "examples": 1400,
+    "effectAssets": 1801,
+    "docs": 1660
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 65,
-      "PDF/文档": 200,
-      "文本/想法": 414,
-      "数据/表格": 263,
+      "PDF/文档": 201,
+      "文本/想法": 420,
+      "数据/表格": 268,
       "代码/技术描述": 122,
-      "网页/搜索结果": 174,
+      "网页/搜索结果": 175,
       "代码库": 71,
-      "DSL/代码": 131,
+      "DSL/代码": 133,
       "新闻/资讯": 27,
-      "知识库/个人资料": 62,
+      "知识库/个人资料": 64,
       "任意/多源": 107,
-      "Office 文档": 117,
+      "Office 文档": 122,
       "引用网络": 5,
-      "数据库": 61,
+      "数据库": 62,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 170,
-      "Agent Skill": 223,
-      "Skill 集合": 62,
-      "MCP Server": 220,
-      "产品/SaaS": 68,
+      "开源应用/框架": 172,
+      "Agent Skill": 224,
+      "Skill 集合": 63,
+      "MCP Server": 228,
+      "产品/SaaS": 70,
       "数据集/评测": 2,
       "Bot/助手": 22,
       "研究原型": 9,
-      "API/SDK/库": 100,
+      "API/SDK/库": 103,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 49,
-      "PPT/演示文稿": 279,
-      "网页/交互页面": 224,
+      "PPT/演示文稿": 286,
+      "网页/交互页面": 226,
       "问答/学习材料": 16,
-      "报告/长文档": 94,
-      "证据表": 48,
+      "报告/长文档": 95,
+      "证据表": 50,
       "信息图/视觉报告": 97,
-      "图表/仪表盘": 199,
-      "架构图/流程图": 146,
-      "SVG/PNG/PDF": 266,
-      "报告/简报": 74,
+      "图表/仪表盘": 204,
+      "架构图/流程图": 147,
+      "SVG/PNG/PDF": 271,
+      "报告/简报": 75,
       "白板/思维导图": 41,
-      "图表/Mermaid": 67,
-      "视频/音频": 50,
-      "结构化数据/Markdown": 95,
+      "图表/Mermaid": 68,
+      "视频/音频": 51,
+      "结构化数据/Markdown": 98,
       "表格/时间线": 28,
       "引用答案": 6,
       "思维导图/知识地图": 38,
@@ -66,29 +66,29 @@
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 542,
-      "模型 API": 217,
-      "文档解析/OCR": 95,
-      "渲染/导出": 562,
+      "本地语言环境": 548,
+      "模型 API": 218,
+      "文档解析/OCR": 96,
+      "渲染/导出": 570,
       "GPU/加速器": 19,
-      "模板/素材": 306,
-      "Agent 宿主": 296,
-      "系统工具": 140,
-      "浏览器/账号": 164,
-      "存储/索引": 94,
-      "MCP Client": 230,
-      "外部检索/数据源": 140,
+      "模板/素材": 310,
+      "Agent 宿主": 298,
+      "系统工具": 144,
+      "浏览器/账号": 166,
+      "存储/索引": 96,
+      "MCP Client": 238,
+      "外部检索/数据源": 141,
       "代码分析工具": 46
     },
     "categories": {
       "paper-visualization": 20,
-      "doc-to-knowledge": 57,
+      "doc-to-knowledge": 58,
       "research-report": 30,
       "infographic-report": 61,
-      "data-dashboard": 100,
+      "data-dashboard": 101,
       "diagram-generation": 77,
       "literature-map": 5,
-      "presentation-tools": 187,
+      "presentation-tools": 193,
       "codebase-map": 42,
       "rendering-primitive": 21,
       "video-generation": 15,
@@ -101,13 +101,13 @@
       "web_news": 9,
       "support_mindmap": 15,
       "docs": 32,
-      "support_doc_parse": 21,
-      "presentation": 197,
+      "support_doc_parse": 22,
+      "presentation": 203,
       "code": 45,
       "support_render": 61,
       "diagrams": 19,
       "video": 15,
-      "data": 94,
+      "data": 95,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -54111,6 +54111,569 @@
       "docsCount": 4,
       "examplesCount": 3,
       "effectAssetsCount": 10
+    },
+    {
+      "name": "Deckary PowerPoint MCP",
+      "url": "https://github.com/Ev-b03/Deckary-Public",
+      "primaryUrl": "https://github.com/Ev-b03/Deckary-Public",
+      "homepage": "https://deckary.com/claude-code-powerpoint",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-02",
+      "note": "Hosted MCP server and Office add-in that lets Claude Code, Cursor, Codex, and other agents inspect, render, create, and make targeted edits to the live PowerPoint presentation already open on the user's computer.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "security model",
+          "url": "https://github.com/Ev-b03/Deckary-Public/blob/HEAD/docs/security.md",
+          "source": "https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/troubleshooting.md",
+          "url": "https://github.com/Ev-b03/Deckary-Public/blob/HEAD/docs/troubleshooting.md",
+          "source": "https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Deckary Claude Code + PowerPoint guide",
+          "url": "https://deckary.com/claude-code-powerpoint",
+          "source": "https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Read the MCP documentation",
+          "url": "https://deckary.com/integrations/mcp",
+          "source": "https://deckary.com/claude-code-powerpoint"
+        },
+        {
+          "kind": "docs",
+          "title": "PowerPoint Agent Guide",
+          "url": "https://deckary.com/blog/powerpoint-agent",
+          "source": "https://deckary.com/claude-code-powerpoint"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/claude-code.mcp.json`",
+          "url": "https://github.com/Ev-b03/Deckary-Public/blob/HEAD/examples/claude-code.mcp.json",
+          "source": "https://raw.githubusercontent.com/Ev-b03/Deckary-Public/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://deckary.com/templates",
+          "source": "https://deckary.com/claude-code-powerpoint"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Claude Code PowerPoint MCP — Edit Live PowerPoint | Deckary",
+          "url": "https://deckary.com/og-image.webp",
+          "thumbnailUrl": null,
+          "source": "https://deckary.com/claude-code-powerpoint"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "KitchenSink4PPT",
+      "url": "https://github.com/nometalalchemist/KitchenSink4PPT",
+      "primaryUrl": "https://github.com/nometalalchemist/KitchenSink4PPT",
+      "homepage": "https://nometalalchemist.github.io/KitchenSink4PPT/",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "AGPL-3.0",
+      "updated": "2026-09-02",
+      "note": "PowerPoint MCP server with 138 tools for native PPTX reading, editing, tables, charts, comments, animations, exports, and SVG-to-editable-PowerPoint-shape compilation with glued connectors.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Pacific Data Hub Agent MCP",
+      "url": "https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp",
+      "primaryUrl": "https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp",
+      "homepage": "https://dottieaistudio.com.au/",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-09-02",
+      "note": "General-purpose MCP server and analyst workflow that searches the live Pacific Data Hub SDMX catalog, retrieves real data, analyzes evidence, and writes sourced PowerPoint report decks with editable native charts.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "PPT/演示文稿",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "pptlive",
+      "url": "https://github.com/thomas-villani/pptlive",
+      "primaryUrl": "https://github.com/thomas-villani/pptlive",
+      "homepage": "https://thomas-villani.github.io/pptlive/",
+      "category": "presentation-tools",
+      "surface": "library",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-01",
+      "note": "Windows Python library, CLI, and MCP server for driving a running Microsoft PowerPoint instance through COM automation, including live reads, slide edits, charts, SmartArt, comments, snapshots, PDF export, and video export.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://thomas-villani.github.io/pptlive/",
+          "source": "https://raw.githubusercontent.com/thomas-villani/pptlive/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Getting started",
+          "url": "https://thomas-villani.github.io/pptlive/getting-started/",
+          "source": "https://thomas-villani.github.io/pptlive/"
+        },
+        {
+          "kind": "docs",
+          "title": "Python API",
+          "url": "https://thomas-villani.github.io/pptlive/python-api/",
+          "source": "https://thomas-villani.github.io/pptlive/"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI reference",
+          "url": "https://thomas-villani.github.io/pptlive/cli/",
+          "source": "https://thomas-villani.github.io/pptlive/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Tutorial",
+          "url": "https://thomas-villani.github.io/pptlive/tutorial/",
+          "source": "https://thomas-villani.github.io/pptlive/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Deckyard",
+      "url": "https://github.com/jaapstronks/deckyard",
+      "primaryUrl": "https://github.com/jaapstronks/deckyard",
+      "homepage": "https://deckyard.eu",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "存储/索引",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-02",
+      "note": "Self-hosted MCP-native presentation platform for creating, presenting, publishing, collaborating on, and iterating typed slide decks with BYO LLM providers, themes, comments, audience interactions, and HTML previews.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "self-hosting guide",
+          "url": "https://github.com/jaapstronks/deckyard/blob/HEAD/docs/ops/self-hosting.md",
+          "source": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/ops/agent-install.md`",
+          "url": "https://github.com/jaapstronks/deckyard/blob/HEAD/docs/ops/agent-install.md",
+          "source": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/reference/mcp-server.md`",
+          "url": "https://github.com/jaapstronks/deckyard/blob/HEAD/docs/reference/mcp-server.md",
+          "source": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/reference/versioning.md`",
+          "url": "https://github.com/jaapstronks/deckyard/blob/HEAD/docs/reference/versioning.md",
+          "source": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://deckyard.eu/docs/creating/",
+          "source": "https://deckyard.eu/"
+        },
+        {
+          "kind": "docs",
+          "title": "How presenting works",
+          "url": "https://deckyard.eu/docs/presenter/",
+          "source": "https://deckyard.eu/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Theme reference",
+          "url": "https://github.com/jaapstronks/deckyard/blob/HEAD/docs/developer/themes.md",
+          "source": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Try it",
+          "url": "https://sandbox.deckyard.eu/?lang=en",
+          "source": "https://deckyard.eu/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "The Deckyard editor: slide list, live slide preview, and an inspector for theming — with a Present button, speaker notes, and comments.",
+          "url": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/assets/images/deckyard-editor.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jaapstronks/deckyard/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Deck Poster En",
+          "url": "https://deckyard.eu/images/hero/deck-poster-en.webp",
+          "thumbnailUrl": null,
+          "source": "https://deckyard.eu/"
+        },
+        {
+          "kind": "image",
+          "title": "Deckyard - Open source, end-to-end presentation platform",
+          "url": "https://deckyard.eu/images/og/deckyard-og.png",
+          "thumbnailUrl": null,
+          "source": "https://deckyard.eu/"
+        },
+        {
+          "kind": "image",
+          "title": "A poll slide during a presentation. Four answers, the bars unequal: 31 of the 47 votes on the third option, with the running total underneath.",
+          "url": "https://deckyard.eu/images/marketing/poll-live-en-1200.png",
+          "thumbnailUrl": null,
+          "source": "https://deckyard.eu/"
+        }
+      ],
+      "docsCount": 6,
+      "examplesCount": 2,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Keynote Harvest MCP",
+      "url": "https://github.com/hulin42/keynote-harvest-mcp",
+      "primaryUrl": "https://github.com/hulin42/keynote-harvest-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-02",
+      "note": "Local stdio MCP server that turns Keynote exports and PDFs into portable slide previews, extracted text, embedded-image assets, and versioned manifests with path-safe resource boundaries.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF",
+        "证据表"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DotMD Skills",
+      "url": "https://github.com/DotMD-LLC/dotmd-skills",
+      "primaryUrl": "https://github.com/DotMD-LLC/dotmd-skills",
+      "homepage": "https://dotmd.co",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "浏览器/账号",
+        "Agent 宿主",
+        "MCP Client",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-02",
+      "note": "Official DotMD skill suite and MCP setup for live Markdown-native Docs, Slides, and Sheets collaboration, letting AI assistants draft, revise, comment, prepare decks, update trackers, and preserve GitHub-synced portable content.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "five-platform setup guide",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/install-ai-platforms.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/docs.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "DotMD Docs",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/skills/dotmd-docs/SKILL.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Slides",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/slides.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Sheets",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/sheets.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Collaboration",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/collaboration.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Sharing and publishing",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/sharing-and-publishing.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Import and export",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/import-export.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "AI workflow examples",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/examples/prompt-recipes.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Files and templates",
+          "url": "https://github.com/DotMD-LLC/dotmd-skills/blob/HEAD/guides/files-and-templates.md",
+          "source": "https://raw.githubusercontent.com/DotMD-LLC/dotmd-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Templates 60 ready-made starts",
+          "url": "https://dotmd.co/product/templates",
+          "source": "https://dotmd.co/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 13,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "HTML Slide Studio",
+      "url": "https://github.com/murasamelabo/htmlslide",
+      "primaryUrl": "https://github.com/murasamelabo/htmlslide",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-01",
+      "note": "Markdown-first React, Marp, and CodeMirror presentation workspace with live slide previews, Mermaid editing, style presets, offline self-contained HTML export, and a constrained local MCP server for agent deck authoring.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

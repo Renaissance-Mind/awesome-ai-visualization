@@ -1,4 +1,4 @@
-last_researched: '2026-09-02'
+last_researched: '2026-09-03'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -16978,3 +16978,229 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: data
+- name: Deckary PowerPoint MCP
+  url: https://github.com/Ev-b03/Deckary-Public
+  homepage: https://deckary.com/claude-code-powerpoint
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-09-02'
+  note: Hosted MCP server and Office add-in that lets Claude Code, Cursor, Codex, and other agents inspect, render, create, and make targeted edits to the live PowerPoint presentation already open on the user's computer.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: KitchenSink4PPT
+  url: https://github.com/nometalalchemist/KitchenSink4PPT
+  homepage: https://nometalalchemist.github.io/KitchenSink4PPT/
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: AGPL-3.0
+  updated: '2026-09-02'
+  note: PowerPoint MCP server with 138 tools for native PPTX reading, editing, tables, charts, comments, animations, exports, and SVG-to-editable-PowerPoint-shape compilation with glued connectors.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Pacific Data Hub Agent MCP
+  url: https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp
+  homepage: https://dottieaistudio.com.au/
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 2
+  license: unknown
+  updated: '2026-09-02'
+  note: General-purpose MCP server and analyst workflow that searches the live Pacific Data Hub SDMX catalog, retrieves real data, analyzes evidence, and writes sourced PowerPoint report decks with editable native charts.
+  source_types:
+  - 数据库
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - PPT/演示文稿
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: pptlive
+  url: https://github.com/thomas-villani/pptlive
+  homepage: https://thomas-villani.github.io/pptlive/
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-09-01'
+  note: Windows Python library, CLI, and MCP server for driving a running Microsoft PowerPoint instance through COM automation, including live reads, slide edits, charts, SmartArt, comments, snapshots, PDF export, and video export.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
+- name: Deckyard
+  url: https://github.com/jaapstronks/deckyard
+  homepage: https://deckyard.eu
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 存储/索引
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-09-02'
+  note: Self-hosted MCP-native presentation platform for creating, presenting, publishing, collaborating on, and iterating typed slide decks with BYO LLM providers, themes, comments, audience interactions, and HTML previews.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Keynote Harvest MCP
+  url: https://github.com/hulin42/keynote-harvest-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-02'
+  note: Local stdio MCP server that turns Keynote exports and PDFs into portable slide previews, extracted text, embedded-image assets, and versioned manifests with path-safe resource boundaries.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: DotMD Skills
+  url: https://github.com/DotMD-LLC/dotmd-skills
+  homepage: https://dotmd.co
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - MCP Client
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-09-02'
+  note: Official DotMD skill suite and MCP setup for live Markdown-native Docs, Slides, and Sheets collaboration, letting AI assistants draft, revise, comment, prepare decks, update trackers, and preserve GitHub-synced portable content.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - Skill 集合
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: HTML Slide Studio
+  url: https://github.com/murasamelabo/htmlslide
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-01'
+  note: Markdown-first React, Marp, and CodeMirror presentation workspace with live slide previews, Mermaid editing, style presets, offline self-contained HTML export, and a constrained local MCP server for agent deck authoring.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation

@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-02.
+Last researched: 2026-09-03.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-03: refreshed live and native PowerPoint MCP tooling, self-hosted presentation platforms, Keynote/PDF slide harvesting, Markdown-native collaborative docs/slides/sheets skills, browser-based Marp authoring, and data-to-PowerPoint reporting workflows from official GitHub repositories, product pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added Deckary PowerPoint MCP, KitchenSink4PPT, Pacific Data Hub Agent MCP, pptlive, Deckyard, Keynote Harvest MCP, DotMD Skills, and HTML Slide Studio. The targeted scraper ran only against these eight new records, fetched fourteen official sources successfully with no failed fetches, and kept eight official examples, five official preview assets, and twenty-eight docs links after scrubbing generic platform documentation, a dependency-doc link, a Calendly marketing link, and button-like or non-project assets.
 
 Update on 2026-09-02: refreshed Markdown-to-Keynote/PPTX deck compilers, intent-audited presentation skill packs, technical-solution deck skills, paper-to-academic-talk workflows, typed architecture diagram MCP tooling, local browser-based artifact editing, coding-agent activity maps, and Polars-backed AI dashboard libraries from official GitHub repositories, project pages, live web/GitHub searches, and GitHub metadata. This pass added whitedeck, Presentation Delivery Skills, techdeck, Academic Presentation Skill, Dia-GramV, EditItAll MCP, agenttrail, and FlexViz. The targeted scraper ran only against these eight new records, fetched ten official sources successfully with no failed fetches, and kept nine official examples, twenty-three official preview assets, and seven docs links with no presigned URLs, placeholders, or credential-like links introduced.
 
