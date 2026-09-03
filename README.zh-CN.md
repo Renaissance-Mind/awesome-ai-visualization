@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-662_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--03-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-670_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--04-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,18 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-09-03)
+## Latest Refresh (2026-09-04)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Deckary PowerPoint MCP](https://github.com/Ev-b03/Deckary-Public) | Hosted MCP server and Office add-in that lets Claude Code, Cursor, Codex, and other agents inspect, render, create, and make targeted edits to the live PowerPoint presentation already open on the user's computer. |
-| [KitchenSink4PPT](https://github.com/nometalalchemist/KitchenSink4PPT) | PowerPoint MCP server with 138 tools for native PPTX reading, editing, tables, charts, comments, animations, exports, and SVG-to-editable-PowerPoint-shape compilation with glued connectors. |
-| [Pacific Data Hub Agent MCP](https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp) | General-purpose MCP server and analyst workflow that searches the live Pacific Data Hub SDMX catalog, retrieves real data, analyzes evidence, and writes sourced PowerPoint report decks with editable native charts. |
-| [pptlive](https://github.com/thomas-villani/pptlive) | Windows Python library, CLI, and MCP server for driving a running Microsoft PowerPoint instance through COM automation, including live reads, slide edits, charts, SmartArt, comments, snapshots, PDF export, and video export. |
-| [Deckyard](https://github.com/jaapstronks/deckyard) | Self-hosted MCP-native presentation platform for creating, presenting, publishing, collaborating on, and iterating typed slide decks with BYO LLM providers, themes, comments, audience interactions, and HTML previews. |
-| [Keynote Harvest MCP](https://github.com/hulin42/keynote-harvest-mcp) | Local stdio MCP server that turns Keynote exports and PDFs into portable slide previews, extracted text, embedded-image assets, and versioned manifests with path-safe resource boundaries. |
-| [DotMD Skills](https://github.com/DotMD-LLC/dotmd-skills) | Official DotMD skill suite and MCP setup for live Markdown-native Docs, Slides, and Sheets collaboration, letting AI assistants draft, revise, comment, prepare decks, update trackers, and preserve GitHub-synced portable content. |
-| [HTML Slide Studio](https://github.com/murasamelabo/htmlslide) | Markdown-first React, Marp, and CodeMirror presentation workspace with live slide previews, Mermaid editing, style presets, offline self-contained HTML export, and a constrained local MCP server for agent deck authoring. |
+| [PPT Agent Kit](https://github.com/troywjz/ppt-agent-kit) | Provider-neutral PowerPoint toolkit that separates deck planning, PPTX building, inspection, QA, MCP serving, reusable agent skills, and Codex/Claude adapters for agent-driven editable presentation workflows. |
+| [OutSlide MCP](https://github.com/miha1744/outslide-mcp) | Hosted Streamable HTTP MCP server for Codex, Claude, and other agents that turns topics or inline CSV/JSON into structured 3-8 slide presentation outlines plus continuation links into the OutSlide web workspace. |
+| [decklet](https://github.com/grunion-ai/decklet) | Claude Code and Codex skill plus plain-Node CLI that turns arbitrary content into a self-contained editable HTML slide deck with JSON model, in-file editor, PDF writer, and layout verification gate. |
+| [Mirofy](https://github.com/Hasan-Laraib/Mirofy) | Agent skill and CLI that scans repositories into evidence graphs, models system structure, and renders searchable self-contained HTML architecture, dataflow, sequence, state-machine, and dependency diagrams with cited source coverage. |
+| [ArchLex](https://github.com/baires/archlex) | Cloud-diagram DSL, hosted MCP server, and agent skill for asking Claude, Cursor, or Codex to validate AWS, GCP, or Kubernetes architecture descriptions and render official-icon SVG diagrams plus playground links. |
+| [Diagrammo MCP](https://github.com/diagrammo/dgmo-mcp) | Local MCP server for Claude and MCP-compatible tools that renders DGMO text markup into sequence, flowchart, ER, C4, Gantt, and other diagrams as SVG/PNG, previews them in HTML, and hands them to Diagrammo editors. |
+| [metro-map-tool](https://github.com/ERP-LAB-5/metro-map-tool) | Browser designer, CLI, MCP server, and agent skill for transforming JSON transit-map specs into standalone light/dark-aware SVG diagrams for landscapes, pipelines, migrations, docs, and slide-friendly process maps. |
+| [Data Science Agent](https://github.com/Jackxiaozhiren/data-science-agent) | Verifiable AI data scientist for CSVs and databases that executes SQL, statistics, machine learning, and visualizations, then returns claim-level evidence, reproducible reports, notebooks, plots, and inspectable artifacts through CLI and hosted demo flows. |
 
 ## ✨ 推荐使用方式
 
@@ -193,6 +193,7 @@
 | [arch-viewer](https://github.com/axumquant/arch-viewer) [![Star](https://img.shields.io/github/stars/axumquant/arch-viewer?style=flat&logo=github&label=Star)](https://github.com/axumquant/arch-viewer/stargazers) | Codebase | MCP server / Open-source app/framework | Code map/Repo Wiki / Architecture/flow diagram / Web/interactive page / Evidence table | MCP client / Agent host / Local runtime / Model API / Code analysis / Storage/index / Rendering/export / System tools |
 | [Dia-GramV](https://github.com/ShAInyXYZ/Dia-GramV) [![Star](https://img.shields.io/github/stars/ShAInyXYZ/Dia-GramV?style=flat&logo=github&label=Star)](https://github.com/ShAInyXYZ/Dia-GramV/stargazers) | 代码库 / 代码/技术描述 | MCP Server / 开源应用/框架 | 代码地图/Repo Wiki / 架构图/流程图 / 网页/交互页面 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本地语言环境 / 渲染/导出 / 代码分析工具 |
 | [agenttrail](https://github.com/sodiumsun/agenttrail) [![Star](https://img.shields.io/github/stars/sodiumsun/agenttrail?style=flat&logo=github&label=Star)](https://github.com/sodiumsun/agenttrail/stargazers) | 代码库 / 知识库/个人资料 | 开源应用/框架 | 代码地图/Repo Wiki / 图表/仪表盘 / 网页/交互页面 / 表格/时间线 | Agent 宿主 / 本地语言环境 / 代码分析工具 / 渲染/导出 |
+| [Mirofy](https://github.com/Hasan-Laraib/Mirofy) [![Star](https://img.shields.io/github/stars/Hasan-Laraib/Mirofy?style=flat&logo=github&label=Star)](https://github.com/Hasan-Laraib/Mirofy/stargazers) | Codebase / Code/technical text | Agent skill / API/SDK/library | Code map/Repo Wiki / Architecture/flow diagram / Web/interactive page / Evidence table | Agent host / MCP client / Local runtime / Code analysis / Rendering/export |
 ### 数据、表格与业务指标
 
 把 CSV、数据库、指标和业务数据转成图表、仪表盘或分析报告。
@@ -292,6 +293,7 @@
 | [CLEAR](https://github.com/IBM/CLEAR) [![Star](https://img.shields.io/github/stars/IBM/CLEAR?style=flat&logo=github&label=Star)](https://github.com/IBM/CLEAR/stargazers) | 数据/表格 / 代码/技术描述 / Any/multi-source | 开源应用/框架 / 研究原型 | 图表/仪表盘 / 证据表 / 报告/长文档 / 表格/时间线 | 本地语言环境 / 模型 API / External search/data / 渲染/导出 / 存储/索引 |
 | [Tokdash](https://github.com/JingbiaoMei/Tokdash) [![Star](https://img.shields.io/github/stars/JingbiaoMei/Tokdash?style=flat&logo=github&label=Star)](https://github.com/JingbiaoMei/Tokdash/stargazers) | 代码/技术描述 / 数据/表格 / Knowledge base | 开源应用/框架 | 图表/仪表盘 / 表格/时间线 / 网页/交互页面 | 浏览器/账号 / 本地语言环境 / 存储/索引 / 渲染/导出 / External search/data |
 | [FlexViz](https://github.com/flex-analytics/flexviz) [![Star](https://img.shields.io/github/stars/flex-analytics/flexviz?style=flat&logo=github&label=Star)](https://github.com/flex-analytics/flexviz/stargazers) | 数据/表格 / 数据库 | API/SDK/库 / Agent Skill | 图表/仪表盘 / 网页/交互页面 / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 外部检索/数据源 / 渲染/导出 / 存储/索引 |
+| [Data Science Agent](https://github.com/Jackxiaozhiren/data-science-agent) [![Star](https://img.shields.io/github/stars/Jackxiaozhiren/data-science-agent?style=flat&logo=github&label=Star)](https://github.com/Jackxiaozhiren/data-science-agent/stargazers) | Data/tables / Database | Open-source app/framework / Product/SaaS | Chart/dashboard / Long report / Evidence table | Browser/account / Local runtime / Model API / Document parsing/OCR / Rendering/export / Storage/index |
 | [Pacific Data Hub Agent MCP](https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp) [![Star](https://img.shields.io/github/stars/J-King-Dottie/pacific-data-hub-agent-mcp?style=flat&logo=github&label=Star)](https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp/stargazers) | Database / Data/tables / Web/search | MCP server / Agent skill | Chart/dashboard / PPT/deck / Briefing/report / Evidence table | MCP client / Agent host / Local runtime / External search/data / Rendering/export |
 
 ### 通用文本、想法与白板图示
@@ -384,6 +386,8 @@
 
 | [straightedge](https://github.com/SciMigo/straightedge) [![Star](https://img.shields.io/github/stars/SciMigo/straightedge?style=flat&logo=github&label=Star)](https://github.com/SciMigo/straightedge/stargazers) | Text/ideas / Data/tables / Code/technical text / DSL/code | API/SDK/library / MCP server | Architecture/flow diagram / Rendered chart / SVG/PNG/PDF / Video/audio | MCP client / Local runtime / System tools / Rendering/export |
 | [MockFlow IdeaBoard MCP](https://github.com/mockflow/ideaboard-mcp) [![Star](https://img.shields.io/github/stars/mockflow/ideaboard-mcp?style=flat&logo=github&label=Star)](https://github.com/mockflow/ideaboard-mcp/stargazers) | Text/ideas / Data/tables / Code/technical text / Any/multi-source | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Chart/dashboard / Table/timeline / Web/interactive page | MCP client / Browser/account / Local runtime / External search/data / Rendering/export / Templates/assets |
+| [ArchLex](https://github.com/baires/archlex) [![Star](https://img.shields.io/github/stars/baires/archlex?style=flat&logo=github&label=Star)](https://github.com/baires/archlex/stargazers) | Text/ideas / Code/technical text | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF / Structured data/Markdown | MCP client / Agent host / Local runtime / External search/data / Rendering/export |
+| [metro-map-tool](https://github.com/ERP-LAB-5/metro-map-tool) [![Star](https://img.shields.io/github/stars/ERP-LAB-5/metro-map-tool?style=flat&logo=github&label=Star)](https://github.com/ERP-LAB-5/metro-map-tool/stargazers) | Text/ideas / Data/tables / DSL/code | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Browser/account / Rendering/export |
 ### 程序化视频与动态讲解
 
 把提示词、网页、代码库、结构化时间线或 Agent 生成的 HTML 转成带解说或动画的 MP4/视频产物。
@@ -614,6 +618,9 @@
 | [Deckyard](https://github.com/jaapstronks/deckyard) [![Star](https://img.shields.io/github/stars/jaapstronks/deckyard?style=flat&logo=github&label=Star)](https://github.com/jaapstronks/deckyard/stargazers) | Text/ideas / Data/tables / Knowledge base | Open-source app/framework / MCP server | PPT/deck / Web/interactive page / Chart/dashboard / Structured data/Markdown | MCP client / Local runtime / Model API / Storage/index / Rendering/export / Templates/assets |
 | [DotMD Skills](https://github.com/DotMD-LLC/dotmd-skills) [![Star](https://img.shields.io/github/stars/DotMD-LLC/dotmd-skills?style=flat&logo=github&label=Star)](https://github.com/DotMD-LLC/dotmd-skills/stargazers) | Text/ideas / Office docs / Data/tables / Knowledge base | Skill collection / MCP server / Product/SaaS | PPT/deck / Long report / Chart/dashboard / Structured data/Markdown | Browser/account / Agent host / MCP client / Rendering/export / Storage/index |
 | [HTML Slide Studio](https://github.com/murasamelabo/htmlslide) [![Star](https://img.shields.io/github/stars/murasamelabo/htmlslide?style=flat&logo=github&label=Star)](https://github.com/murasamelabo/htmlslide/stargazers) | Text/ideas / DSL/code | Open-source app/framework / MCP server | PPT/deck / Web/interactive page / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
+| [PPT Agent Kit](https://github.com/troywjz/ppt-agent-kit) [![Star](https://img.shields.io/github/stars/troywjz/ppt-agent-kit?style=flat&logo=github&label=Star)](https://github.com/troywjz/ppt-agent-kit/stargazers) | Text/ideas / PDF/documents / Code/technical text | Open-source app/framework / MCP server / Agent skill | PPT/deck / SVG/PNG/PDF / Evidence table | Agent host / MCP client / Local runtime / Rendering/export / Templates/assets |
+| [OutSlide MCP](https://github.com/miha1744/outslide-mcp) [![Star](https://img.shields.io/github/stars/miha1744/outslide-mcp?style=flat&logo=github&label=Star)](https://github.com/miha1744/outslide-mcp/stargazers) | Text/ideas / Data/tables | MCP server / Product/SaaS | PPT/deck / Structured data/Markdown | MCP client / Agent host / Browser/account / External search/data / Rendering/export |
+| [decklet](https://github.com/grunion-ai/decklet) [![Star](https://img.shields.io/github/stars/grunion-ai/decklet?style=flat&logo=github&label=Star)](https://github.com/grunion-ai/decklet/stargazers) | Any/multi-source / Text/ideas / Data/tables | Agent skill / API/SDK/library | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [techdeck](https://github.com/lionellau/claude-skill-techdeck) [![Star](https://img.shields.io/github/stars/lionellau/claude-skill-techdeck?style=flat&logo=github&label=Star)](https://github.com/lionellau/claude-skill-techdeck/stargazers) | 文本/想法 / 代码/技术描述 / 数据/表格 | Agent Skill | PPT/演示文稿 / 网页/交互页面 / 图表/仪表盘 / 架构图/流程图 / SVG/PNG/PDF | Agent 宿主 / 浏览器/账号 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 ## 辅助、前后处理与小工具
 
@@ -748,6 +755,7 @@
 
 | [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) [![Star](https://img.shields.io/github/stars/op7418/Generative-UI-MCP?style=flat&logo=github&label=Star)](https://github.com/op7418/Generative-UI-MCP/stargazers) | Text/ideas / Data/tables / DSL/code | MCP server | Web/interactive page / Chart/dashboard / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [EditItAll MCP](https://github.com/Subcue/edititall-mcp) [![Star](https://img.shields.io/github/stars/Subcue/edititall-mcp?style=flat&logo=github&label=Star)](https://github.com/Subcue/edititall-mcp/stargazers) | PDF/文档 / Office 文档 / 数据/表格 / 文本/想法 | MCP Server / 产品/SaaS | PPT/演示文稿 / 报告/长文档 / SVG/PNG/PDF / 图表/仪表盘 | MCP Client / 浏览器/账号 / 本地语言环境 / 渲染/导出 |
+| [Diagrammo MCP](https://github.com/diagrammo/dgmo-mcp) [![Star](https://img.shields.io/github/stars/diagrammo/dgmo-mcp?style=flat&logo=github&label=Star)](https://github.com/diagrammo/dgmo-mcp/stargazers) | Text/ideas / DSL/code | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Browser/account / Rendering/export / System tools |
 ## 怎么筛选工具
 
 ### 信息来源

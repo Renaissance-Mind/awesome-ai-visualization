@@ -1,4 +1,4 @@
-generated_at: '2026-09-02T23:06:47+00:00'
+generated_at: '2026-09-03T23:08:24+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 662
-  fetched_sources_ok: 887
+  entries: 670
+  fetched_sources_ok: 901
   fetched_sources_failed: 47
-  official_examples: 1400
-  official_effect_assets: 1801
-  official_docs: 1660
+  official_examples: 1442
+  official_effect_assets: 1820
+  official_docs: 1685
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -52423,3 +52423,926 @@ entries:
     content_type: text/plain
     title: Features
     bytes: 4244
+- name: PPT Agent Kit
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/troywjz/ppt-agent-kit
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Provider-neutral PowerPoint toolkit that separates deck planning, PPTX building, inspection, QA,
+    MCP serving, reusable agent skills, and Codex/Claude adapters for agent-driven editable presentation workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PPT Agent Kit
+    bytes: 1657
+  official_examples:
+  - kind: example
+    title: Example brief
+    url: https://github.com/troywjz/ppt-agent-kit/blob/HEAD/examples/brief.md
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: example
+    title: Example plan
+    url: https://github.com/troywjz/ppt-agent-kit/blob/HEAD/examples/plan.json
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: PPT production skill
+    url: https://github.com/troywjz/ppt-agent-kit/tree/HEAD/skills/ppt-production
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: docs
+    title: MCP server configuration
+    url: https://github.com/troywjz/ppt-agent-kit/blob/HEAD/mcp-server/mcp-config.example.json
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: docs
+    title: Codex adapter
+    url: https://github.com/troywjz/ppt-agent-kit/tree/HEAD/adapters/codex
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Example brief
+    url: https://github.com/troywjz/ppt-agent-kit/blob/HEAD/examples/brief.md
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: example
+    title: Example plan
+    url: https://github.com/troywjz/ppt-agent-kit/blob/HEAD/examples/plan.json
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: docs
+    title: PPT production skill
+    url: https://github.com/troywjz/ppt-agent-kit/tree/HEAD/skills/ppt-production
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: docs
+    title: MCP server configuration
+    url: https://github.com/troywjz/ppt-agent-kit/blob/HEAD/mcp-server/mcp-config.example.json
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  - kind: docs
+    title: Codex adapter
+    url: https://github.com/troywjz/ppt-agent-kit/tree/HEAD/adapters/codex
+    source: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
+  official_effect_assets: []
+- name: OutSlide MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/miha1744/outslide-mcp
+  homepage: https://outslide.ai/mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Hosted Streamable HTTP MCP server for Codex, Claude, and other agents that turns topics or inline
+    CSV/JSON into structured 3-8 slide presentation outlines plus continuation links into the OutSlide web workspace.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/miha1744/outslide-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/miha1744/outslide-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: OutSlide MCP — AI Presentation Outline Generator for Codex and Claude
+    bytes: 2447
+  - kind: homepage
+    url: https://outslide.ai/mcp
+    final_url: https://outslide.ai/mcp
+    status: 200
+    content_type: text/html
+    title: AI presentation MCP server for Codex and Claude Code | OutSlide
+    description: "Use OutSlide's free MCP server in Codex or Claude Code to turn a topic or inline CSV/JSON into\
+      \ a 3â\x80\x938 slide outline, then continue in the workspace."
+    bytes: 6720
+  official_examples:
+  - kind: template
+    title: Preview a personalized thesis-defense outline
+    url: https://outslide.ai/templates/thesis-defense/
+    source: https://raw.githubusercontent.com/miha1744/outslide-mcp/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://outslide.ai/examples
+    source: https://outslide.ai/mcp
+  - kind: template
+    title: Templates
+    url: https://outslide.ai/templates/
+    source: https://outslide.ai/mcp
+  official_effect_assets:
+  - kind: image
+    title: AI presentation MCP server for Codex and Claude Code | OutSlide
+    url: https://outslide.ai/slides/slide-1.jpg
+    source: https://outslide.ai/mcp
+  official_links:
+  - kind: template
+    title: Preview a personalized thesis-defense outline
+    url: https://outslide.ai/templates/thesis-defense/
+    source: https://raw.githubusercontent.com/miha1744/outslide-mcp/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://outslide.ai/examples
+    source: https://outslide.ai/mcp
+  - kind: template
+    title: Templates
+    url: https://outslide.ai/templates/
+    source: https://outslide.ai/mcp
+  source_headings:
+  - OutSlide MCP — AI Presentation Outline Generator for Codex and Claude
+  official_docs: []
+- name: decklet
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/grunion-ai/decklet
+  homepage: https://grunion-ai.github.io/decklet/deck.html
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill plus plain-Node CLI that turns arbitrary content into a self-contained
+    editable HTML slide deck with JSON model, in-file editor, PDF writer, and layout verification gate.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: decklet
+    bytes: 11246
+  - kind: homepage
+    url: https://grunion-ai.github.io/decklet/deck.html
+    final_url: https://grunion-ai.github.io/decklet/deck.html
+    status: 200
+    content_type: text/html
+    title: decklet
+    bytes: 310294
+  official_examples:
+  - kind: example
+    title: '`examples/explainer/model.json`'
+    url: https://github.com/grunion-ai/decklet/blob/HEAD/examples/explainer/model.json
+    source: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: 'decklet demo: drag a row, page through slides that animate in, the inlined editor clips, the four anims,
+      contact-sheet reorder, write a PDF'
+    url: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/docs/demo.gif
+    source: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/explainer/model.json`'
+    url: https://github.com/grunion-ai/decklet/blob/HEAD/examples/explainer/model.json
+    source: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
+  source_headings:
+  - Quickstart
+  official_docs: []
+- name: Mirofy
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/Hasan-Laraib/Mirofy
+  homepage: https://hasan-laraib.github.io/Mirofy/
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Agent skill and CLI that scans repositories into evidence graphs, models system structure, and renders
+    searchable self-contained HTML architecture, dataflow, sequence, state-machine, and dependency diagrams with
+    cited source coverage.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What it is
+    bytes: 27420
+  - kind: homepage
+    url: https://hasan-laraib.github.io/Mirofy/
+    final_url: https://hasan-laraib.github.io/Mirofy/
+    status: 200
+    content_type: text/html
+    title: Mirofy — diagrams that cite their sources
+    description: Mirofy's own architecture, derived from its own source code, plus every diagram type in every preset.
+      All generated in CI, none mocked up.
+    bytes: 20220
+  official_examples:
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/architecture--meridian.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: signal-flow
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: blueprint
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/workflow--signal-flow.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: blueprint
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: meridian
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/sequence--blueprint.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: signal-flow
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: meridian
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--editorial.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  official_effect_assets:
+  - kind: image
+    title: 'A rendered Mirofy artifact open in a browser: ten services coloured by role, grouped inside an AWS region
+      and a security group, with a legend naming each role'
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-hero.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: An architecture diagram in the meridian preset
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/meridian.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: A sequence diagram with lifelines and messages
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/sequence.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: The interactive viewer with search, tracing and evidence panels
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/self-model.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: The Node Finder open, a query typed, the list narrowed to two of ten nodes
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-search.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: A Semantic Passport showing a verified source-backed citation with its repository and commit
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-passport.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: 'Authored reachability traced upstream from Worker: six nodes, six links, five hops, everything off the
+      path dimmed'
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-trace.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: The Semantic Lens comparing system roles across the whole diagram
+    url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-lens.png
+    source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
+  - kind: image
+    title: 'A rendered Mirofy artifact: ten services coloured by role inside an AWS region and a security group,
+      with a legend naming each role'
+    url: https://hasan-laraib.github.io/Mirofy/assets/viewer-hero.png
+    source: https://hasan-laraib.github.io/Mirofy/
+  official_links:
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/architecture--meridian.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: signal-flow
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: blueprint
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/architecture--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/workflow--signal-flow.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: blueprint
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: meridian
+    url: https://hasan-laraib.github.io/Mirofy/gallery/workflow--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/sequence--blueprint.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: signal-flow
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: meridian
+    url: https://hasan-laraib.github.io/Mirofy/gallery/sequence--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--editorial.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: signal-flow
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: blueprint
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: okabe-ito
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: meridian
+    url: https://hasan-laraib.github.io/Mirofy/gallery/dataflow--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--okabe-ito.html
+    url: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--okabe-ito.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: classic
+    url: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--classic.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: signal-flow
+    url: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--signal-flow.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: blueprint
+    url: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--blueprint.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: editorial
+    url: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--editorial.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  - kind: showcase
+    title: meridian
+    url: https://hasan-laraib.github.io/Mirofy/gallery/lifecycle--meridian.html
+    source: https://hasan-laraib.github.io/Mirofy/
+  source_headings:
+  - What it does that a diagram tool doesn't
+  official_docs: []
+- name: ArchLex
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/baires/archlex
+  homepage: https://archlex.dev
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Cloud-diagram DSL, hosted MCP server, and agent skill for asking Claude, Cursor, or Codex to validate
+    AWS, GCP, or Kubernetes architecture descriptions and render official-icon SVG diagrams plus playground links.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ArchLex
+    bytes: 4127
+  - kind: homepage
+    url: https://archlex.dev/
+    final_url: https://archlex.dev/
+    status: 200
+    content_type: text/html
+    title: 'ArchLex: Ask Claude to diagram your cloud'
+    description: Ask Claude, Cursor, or Codex to diagram AWS, GCP, or Kubernetes. ArchLex validates semantics and
+      renders official-icon SVG. No API key.
+    bytes: 47804
+  official_examples:
+  - kind: demo
+    title: playground
+    url: https://playground.archlex.dev
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Use with AI agents
+    url: https://docs.archlex.dev/guides/agents
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Language specification
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/language.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Getting started
+    url: https://docs.archlex.dev/getting-started
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Public API
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/public-api.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: MCP server
+    url: https://github.com/baires/archlex/blob/HEAD/docs/guides/mcp-server.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: AWS
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/aws-semantics.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: GCP
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/gcp-semantics.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Kubernetes
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/k8s-semantics.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://docs.archlex.dev
+    source: https://archlex.dev/
+  - kind: docs
+    title: Full MCP documentation →
+    url: https://docs.archlex.dev/guides/mcp-server
+    source: https://archlex.dev/
+  - kind: docs
+    title: API reference
+    url: https://docs.archlex.dev/specs/public-api/
+    source: https://archlex.dev/
+  - kind: docs
+    title: Contributing
+    url: https://docs.archlex.dev/architecture/contribution-guide
+    source: https://archlex.dev/
+  official_effect_assets:
+  - kind: image
+    title: Serverless API architecture diagram
+    url: https://raw.githubusercontent.com/baires/archlex/HEAD/docs/diagrams/serverless-api.png
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: image
+    title: Multi-region architecture diagram
+    url: https://raw.githubusercontent.com/baires/archlex/HEAD/docs/diagrams/multi-region.png
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: image
+    title: 'ArchLex: Ask Claude to diagram your cloud'
+    url: https://archlex.dev/archlex-event-pipeline-dark.png
+    source: https://archlex.dev/
+  official_links:
+  - kind: demo
+    title: playground
+    url: https://playground.archlex.dev
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Use with AI agents
+    url: https://docs.archlex.dev/guides/agents
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Language specification
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/language.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Getting started
+    url: https://docs.archlex.dev/getting-started
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Public API
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/public-api.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: MCP server
+    url: https://github.com/baires/archlex/blob/HEAD/docs/guides/mcp-server.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: AWS
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/aws-semantics.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: GCP
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/gcp-semantics.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Kubernetes
+    url: https://github.com/baires/archlex/blob/HEAD/docs/specs/k8s-semantics.md
+    source: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://docs.archlex.dev
+    source: https://archlex.dev/
+  - kind: docs
+    title: Full MCP documentation →
+    url: https://docs.archlex.dev/guides/mcp-server
+    source: https://archlex.dev/
+  - kind: docs
+    title: API reference
+    url: https://docs.archlex.dev/specs/public-api/
+    source: https://archlex.dev/
+  - kind: docs
+    title: Contributing
+    url: https://docs.archlex.dev/architecture/contribution-guide
+    source: https://archlex.dev/
+  source_headings:
+  - Visual output
+  - Documentation
+- name: Diagrammo MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/diagrammo/dgmo-mcp
+  homepage: https://diagrammo.app
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Local MCP server for Claude and MCP-compatible tools that renders DGMO text markup into sequence,
+    flowchart, ER, C4, Gantt, and other diagrams as SVG/PNG, previews them in HTML, and hands them to Diagrammo
+    editors.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '@diagrammo/dgmo-mcp'
+    bytes: 10060
+  - kind: homepage
+    url: https://diagrammo.app/
+    final_url: https://diagrammo.app/
+    status: 200
+    content_type: text/html
+    title: "Diagrammo â\x80\x94 Simple text in. Brilliant diagrams out."
+    description: Free diagram-as-code tool with 50 chart types. Write plain text, get beautiful sequence diagrams,
+      flowcharts, ER diagrams, Gantt charts, and more. No sign-up required.
+    bytes: 1717834
+  official_examples:
+  - kind: demo
+    title: → Try it free at diagrammo.app
+    url: https://diagrammo.app
+    source: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+  - kind: showcase
+    title: Gallery
+    url: https://diagrammo.app/gallery/
+    source: https://diagrammo.app/
+  official_docs:
+  - kind: docs
+    title: In docs & notes
+    url: https://diagrammo.app/embed/
+    source: https://diagrammo.app/
+  - kind: docs
+    title: Docs
+    url: https://diagrammo.app/docs/
+    source: https://diagrammo.app/
+  official_effect_assets:
+  - kind: image
+    title: Sequence diagram
+    url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/main/assets/sequence.png
+    source: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+  - kind: image
+    title: C4 architecture diagram
+    url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/main/assets/c4.png
+    source: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+  - kind: image
+    title: Gantt chart
+    url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/main/assets/gantt.png
+    source: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+  - kind: image
+    title: Flowchart
+    url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/main/assets/flowchart.png
+    source: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: → Try it free at diagrammo.app
+    url: https://diagrammo.app
+    source: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
+  - kind: docs
+    title: In docs & notes
+    url: https://diagrammo.app/embed/
+    source: https://diagrammo.app/
+  - kind: docs
+    title: Docs
+    url: https://diagrammo.app/docs/
+    source: https://diagrammo.app/
+  - kind: showcase
+    title: Gallery
+    url: https://diagrammo.app/gallery/
+    source: https://diagrammo.app/
+  source_headings:
+  - '@diagrammo/dgmo-mcp'
+- name: metro-map-tool
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/ERP-LAB-5/metro-map-tool
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  catalog_note: Browser designer, CLI, MCP server, and agent skill for transforming JSON transit-map specs into
+    standalone light/dark-aware SVG diagrams for landscapes, pipelines, migrations, docs, and slide-friendly process
+    maps.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: metro-map-tool
+    bytes: 12387
+  official_examples:
+  - kind: example
+    title: How this tool works map
+    url: https://github.com/ERP-LAB-5/metro-map-tool/blob/HEAD/metro_map_tool/shared-maps/how-this-tool-works.json
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+  - kind: example
+    title: Roadmap example map
+    url: https://github.com/ERP-LAB-5/metro-map-tool/blob/HEAD/metro_map_tool/shared-maps/roadmap-example.json
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Metro map agent skill
+    url: https://github.com/ERP-LAB-5/metro-map-tool/tree/HEAD/.claude/skills/metro-map
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+  official_links:
+  - kind: example
+    title: How this tool works map
+    url: https://github.com/ERP-LAB-5/metro-map-tool/blob/HEAD/metro_map_tool/shared-maps/how-this-tool-works.json
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+  - kind: example
+    title: Roadmap example map
+    url: https://github.com/ERP-LAB-5/metro-map-tool/blob/HEAD/metro_map_tool/shared-maps/roadmap-example.json
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+  - kind: docs
+    title: Metro map agent skill
+    url: https://github.com/ERP-LAB-5/metro-map-tool/tree/HEAD/.claude/skills/metro-map
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: How this tool works map
+    url: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/docs/how-this-tool-works.png
+    source: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
+- name: Data Science Agent
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/Jackxiaozhiren/data-science-agent
+  homepage: https://jackxiaozhiren.github.io/data-science-agent/
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Verifiable AI data scientist for CSVs and databases that executes SQL, statistics, machine learning,
+    and visualizations, then returns claim-level evidence, reproducible reports, notebooks, plots, and inspectable
+    artifacts through CLI and hosted demo flows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Data Science Agent
+    bytes: 13125
+  - kind: homepage
+    url: https://jackxiaozhiren.github.io/data-science-agent/
+    final_url: https://jackxiaozhiren.github.io/data-science-agent/
+    status: 200
+    content_type: text/html
+    title: Data Science Agent — Verified Product Tour
+    description: Data Science Agent — verified product tour for evidence-grounded data analysis.
+    bytes: 10213
+  official_examples:
+  - kind: demo
+    title: '**Try Live Demo**'
+    url: https://data-science-agent-web.vercel.app/datasets
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: '**Case studies**'
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: demo
+    title: Hosted Demo Deployment
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/hosted-demo.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: Sales analytics
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/01-sales/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: Time-series forecasting
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/03-time-series/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: ML classification
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/08-classification/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: paper
+    title: Reproducible result registry
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/benchmarks/leaderboard/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: Explore verified cases
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: example
+    title: Inspect CS01 →
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies/01-sales
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: example
+    title: Inspect CS03 →
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies/03-time-series
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: example
+    title: Inspect CS08 →
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies/08-classification
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  official_docs:
+  - kind: docs
+    title: '**Evaluation**'
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/evaluation.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: '**Docs**'
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: Benchmark documentation
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/benchmark.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: Research & limitations
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/research.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: SDK & API Reference
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/api.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: MCP
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/mcp.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: Read the full Product Tour
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/main/docs/product-tour.md
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  official_links:
+  - kind: demo
+    title: '**Try Live Demo**'
+    url: https://data-science-agent-web.vercel.app/datasets
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: '**Case studies**'
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: '**Evaluation**'
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/evaluation.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: '**Docs**'
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: demo
+    title: Hosted Demo Deployment
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/hosted-demo.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: Sales analytics
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/01-sales/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: Time-series forecasting
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/03-time-series/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: ML classification
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/case-studies/08-classification/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: Benchmark documentation
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/benchmark.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: paper
+    title: Reproducible result registry
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/benchmarks/leaderboard/
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: Research & limitations
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/research.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: SDK & API Reference
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/api.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: docs
+    title: MCP
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/HEAD/docs/mcp.md
+    source: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
+  - kind: example
+    title: Explore verified cases
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: example
+    title: Inspect CS01 →
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies/01-sales
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: example
+    title: Inspect CS03 →
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies/03-time-series
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: example
+    title: Inspect CS08 →
+    url: https://github.com/Jackxiaozhiren/data-science-agent/tree/main/case-studies/08-classification
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  - kind: docs
+    title: Read the full Product Tour
+    url: https://github.com/Jackxiaozhiren/data-science-agent/blob/main/docs/product-tour.md
+    source: https://jackxiaozhiren.github.io/data-science-agent/
+  source_headings:
+  - ⚡ 60-second quickstart
+  - Hosted browser demo
+  - Documentation
+  official_effect_assets: []

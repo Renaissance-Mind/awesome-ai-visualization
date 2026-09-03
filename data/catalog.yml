@@ -1,4 +1,4 @@
-last_researched: '2026-09-03'
+last_researched: '2026-09-04'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -17204,3 +17204,221 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: PPT Agent Kit
+  url: https://github.com/troywjz/ppt-agent-kit
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Provider-neutral PowerPoint toolkit that separates deck planning, PPTX building, inspection, QA, MCP serving, reusable agent skills, and Codex/Claude adapters for agent-driven editable presentation workflows.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: OutSlide MCP
+  url: https://github.com/miha1744/outslide-mcp
+  homepage: https://outslide.ai/mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  updated: '2026-09-03'
+  note: Hosted Streamable HTTP MCP server for Codex, Claude, and other agents that turns topics or inline CSV/JSON into structured 3-8 slide presentation outlines plus continuation links into the OutSlide web workspace.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: decklet
+  url: https://github.com/grunion-ai/decklet
+  homepage: https://grunion-ai.github.io/decklet/deck.html
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Claude Code and Codex skill plus plain-Node CLI that turns arbitrary content into a self-contained editable HTML slide deck with JSON model, in-file editor, PDF writer, and layout verification gate.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Mirofy
+  url: https://github.com/Hasan-Laraib/Mirofy
+  homepage: https://hasan-laraib.github.io/Mirofy/
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 2
+  license: MIT
+  updated: '2026-09-03'
+  note: Agent skill and CLI that scans repositories into evidence graphs, models system structure, and renders searchable self-contained HTML architecture, dataflow, sequence, state-machine, and dependency diagrams with cited source coverage.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 网页/交互页面
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: ArchLex
+  url: https://github.com/baires/archlex
+  homepage: https://archlex.dev
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Cloud-diagram DSL, hosted MCP server, and agent skill for asking Claude, Cursor, or Codex to validate AWS, GCP, or Kubernetes architecture descriptions and render official-icon SVG diagrams plus playground links.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: text_visual
+- name: Diagrammo MCP
+  url: https://github.com/diagrammo/dgmo-mcp
+  homepage: https://diagrammo.app
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  - 系统工具
+  stars: 3
+  license: MIT
+  updated: '2026-09-03'
+  note: Local MCP server for Claude and MCP-compatible tools that renders DGMO text markup into sequence, flowchart, ER, C4, Gantt, and other diagrams as SVG/PNG, previews them in HTML, and hands them to Diagrammo editors.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
+- name: metro-map-tool
+  url: https://github.com/ERP-LAB-5/metro-map-tool
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Browser designer, CLI, MCP server, and agent skill for transforming JSON transit-map specs into standalone light/dark-aware SVG diagrams for landscapes, pipelines, migrations, docs, and slide-friendly process maps.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Data Science Agent
+  url: https://github.com/Jackxiaozhiren/data-science-agent
+  homepage: https://jackxiaozhiren.github.io/data-science-agent/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 存储/索引
+  stars: 2
+  license: MIT
+  updated: '2026-09-01'
+  note: Verifiable AI data scientist for CSVs and databases that executes SQL, statistics, machine learning, and visualizations, then returns claim-level evidence, reproducible reports, notebooks, plots, and inspectable artifacts through CLI and hosted demo flows.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  - 产品/SaaS
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - 证据表
+  catalog_section: main
+  readme_group: data

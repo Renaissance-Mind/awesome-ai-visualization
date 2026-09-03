@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-03.
+Last researched: 2026-09-04.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-04: refreshed agent-native PowerPoint toolkits, hosted presentation-outline MCP workflows, self-contained HTML deck skills, source-cited repository diagramming, cloud architecture SVG generation, diagram-rendering MCP utilities, transit-map process diagrams, and verifiable data-science report/dashboard agents from official GitHub repositories, project homepages, README evidence, live GitHub searches, and GitHub metadata. This pass added PPT Agent Kit, OutSlide MCP, decklet, Mirofy, ArchLex, Diagrammo MCP, metro-map-tool, and Data Science Agent. The targeted scraper ran only against these eight new records, fetched fourteen official sources successfully with no failed fetches, and kept forty-two official examples, nineteen official preview assets, and twenty-five docs links after scrubbing tracking parameters, oversized encoded Diagrammo share URLs, loader/marketing images, and duplicate already-cataloged candidates.
 
 Update on 2026-09-03: refreshed live and native PowerPoint MCP tooling, self-hosted presentation platforms, Keynote/PDF slide harvesting, Markdown-native collaborative docs/slides/sheets skills, browser-based Marp authoring, and data-to-PowerPoint reporting workflows from official GitHub repositories, product pages, README evidence, live web/GitHub searches, and GitHub metadata. This pass added Deckary PowerPoint MCP, KitchenSink4PPT, Pacific Data Hub Agent MCP, pptlive, Deckyard, Keynote Harvest MCP, DotMD Skills, and HTML Slide Studio. The targeted scraper ran only against these eight new records, fetched fourteen official sources successfully with no failed fetches, and kept eight official examples, five official preview assets, and twenty-eight docs links after scrubbing generic platform documentation, a dependency-doc link, a Calendly marketing link, and button-like or non-project assets.
 
