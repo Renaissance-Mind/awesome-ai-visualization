@@ -1,4 +1,4 @@
-generated_at: '2026-09-03T23:08:24+00:00'
+generated_at: '2026-09-04T23:07:25+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 670
-  fetched_sources_ok: 901
-  fetched_sources_failed: 47
+  entries: 677
+  fetched_sources_ok: 910
+  fetched_sources_failed: 49
   official_examples: 1442
-  official_effect_assets: 1820
-  official_docs: 1685
+  official_effect_assets: 1836
+  official_docs: 1689
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -53346,3 +53346,290 @@ entries:
   - Hosted browser demo
   - Documentation
   official_effect_assets: []
+- name: Mind Map MCP Server by sawyer-shi
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/sawyer-shi/mind-map-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: MCP server that converts Markdown hierarchies into high-quality PNG mind maps with smart viewport sizing,
+    HTTP or stdio transports, Docker deployment, local storage, and optional object-storage backends.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sawyer-shi/mind-map-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🌟 Mind Map MCP Server
+    bytes: 34215
+  source_headings:
+  - 🎬 Usage Example
+  - 🎬 使用示例
+- name: YMind
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/broccoli-97/xmind
+  homepage: https://broccoli-97.github.io/xmind/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Qt6 desktop mind-map editor with a headless ymind-cli MCP server that renders Markdown or indented text into
+    auto-laid-out mind maps and exports PNG, SVG, PDF, plain text, or Markdown.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: YMind - Mind Map Editor
+    bytes: 7154
+  - kind: homepage
+    url: https://broccoli-97.github.io/xmind/
+    final_url: https://broccoli-97.github.io/xmind/
+    status: 200
+    content_type: text/html
+    title: YMind — Desktop Mind Map Editor
+    description: YMind — A beautiful desktop mind map editor with auto-layout algorithms and smooth animations.
+    bytes: 794
+  official_docs:
+  - kind: docs
+    title: setup guide
+    url: https://broccoli-97.github.io/xmind/
+    source: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Screenshot
+    url: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/img/AutoLayout.gif
+    source: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+  - kind: image
+    title: Screenshot
+    url: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/img/LightTheme.png
+    source: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+  - kind: image
+    title: Screenshot
+    url: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/img/DarkTheme.png
+    source: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: setup guide
+    url: https://broccoli-97.github.io/xmind/
+    source: https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md
+- name: XMind Ultimate MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/Genius-Cai/xmind-ultimate-mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code-oriented XMind MCP server with eight tools for creating, reading, analyzing, translating, converting,
+    exporting, and listing .xmind files from Markdown, text, JSON, CSV, or YAML with visual design guidance.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Demo 效果展示
+    bytes: 6961
+  official_effect_assets:
+  - kind: image
+    title: T1 2026 Academic Plan - Bilingual Mind Map
+    url: https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/docs/assets/demo-bilingual.png
+    source: https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/README.md
+  - kind: image
+    title: SDLC Mind Map - Clean Design with Boundaries and Relationships
+    url: https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/docs/assets/demo-sdlc.png
+    source: https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/README.md
+  source_headings:
+  - Demo 效果展示
+  - 4. 使用 Usage
+- name: NotebookLM MCP Server
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/moodRobotics/notebooklm-mcp-server
+  homepage: https://www.npmjs.com/package/notebooklm-mcp-server
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Universal MCP server for controlling Gemini Notebook/NotebookLM from agents, including notebook/source management,
+    grounded answers, Deep Research import, notes, reports, podcasts, videos, quizzes, flashcards, and mind-map artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 💡 What is this?
+    bytes: 13235
+  - kind: homepage
+    url: https://www.npmjs.com/package/notebooklm-mcp-server
+    final_url: https://www.npmjs.com/package/notebooklm-mcp-server
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: docs/TOOLS.md
+    url: https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/TOOLS.md
+    source: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/ARCHITECTURE.md
+    url: https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/ROADMAP.md
+    url: https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/TOOLS.md
+    url: https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/TOOLS.md
+    source: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/ARCHITECTURE.md
+    url: https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+  - kind: docs
+    title: docs/ROADMAP.md
+    url: https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/ROADMAP.md
+    source: https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md
+- name: canva-monthly-report
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/davidecac/canva-monthly-report
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for building recurring social-analytics monthly reports in Canva decks from Google Sheet
+    data, with scripts for parsing sheet tables, aggregating monthly metrics, mapping Canva element IDs, and generating safe
+    edit operations plus chart values.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/davidecac/canva-monthly-report/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/davidecac/canva-monthly-report/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: canva-monthly-report
+    bytes: 2416
+- name: Crewlyze
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/sowmiyan-s/crewlyze
+  homepage: https://www.npmjs.com/package/crewlyze
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: CrewAI and FastAPI data analyst platform that turns CSV, Excel, and SQLite datasets into multi-agent profiling,
+    custom Matplotlib/Seaborn visualizations, executive PDF reports, read-only SQL workbenches, and optional Ollama-local
+    analysis.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ⚡ Quick Start (One-Line Installer)
+    bytes: 29411
+  - kind: homepage
+    url: https://www.npmjs.com/package/crewlyze
+    final_url: https://www.npmjs.com/package/crewlyze
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_effect_assets:
+  - kind: image
+    title: AI Chat Interface with Custom Chart
+    url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/4.CHAT%20AI.png
+    source: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+  - kind: image
+    title: Project Workspace Hub
+    url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/3.INSIDE PROJECT.png
+    source: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+  - kind: image
+    title: Interactive Dashboards
+    url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/8.VISUALIZATION.png
+    source: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+  - kind: image
+    title: Executive Business Insights
+    url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/7.BUSINESS INSIGHTS.png
+    source: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+  - kind: image
+    title: Universal LLM Config
+    url: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/2.SETTINGS.png
+    source: https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md
+  source_headings:
+  - 📸 Live Application Interface Showcase
+  - 📊 Unlimited Custom Visualization Engine
+  - ⚙️ Robust Dataset Processing & Profiling Tools
+- name: AI Data Analyst
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/MeghanaUllas20/ai-data-analyst
+  homepage: https://ai-data-analyst-123.streamlit.app/
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Streamlit analytics suite that turns uploaded CSV datasets into data profiling, narrative insights, Plotly
+    visual labs, AutoML results, a data assistant, and downloadable executive PDF summaries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '🤖 AI Data Analyst: End-to-End Intelligence Suite'
+    bytes: 4311
+  - kind: homepage
+    url: https://ai-data-analyst-123.streamlit.app/
+    final_url: https://ai-data-analyst-123.streamlit.app/
+    status: 200
+    content_type: text/html
+    title: null
+    bytes: 9426
+  official_effect_assets:
+  - kind: image
+    title: Landing
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/front_page.png
+    source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+  - kind: image
+    title: Story
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/story_mode.png
+    source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+  - kind: image
+    title: Visual Lab
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/visual_lab.png
+    source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+  - kind: image
+    title: Dark mode
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/dark_mode.png
+    source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+  - kind: image
+    title: ML Studio
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/ML_studio.png
+    source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+  - kind: image
+    title: Data Assistant
+    url: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/data_assistant.png
+    source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
+  source_headings:
+  - 🚀 Live Demo

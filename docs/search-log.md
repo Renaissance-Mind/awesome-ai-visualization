@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-04.
+Last researched: 2026-09-05.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-05: refreshed local and MCP-based mind-map renderers, XMind-specific agent workflows, NotebookLM/Gemini Notebook artifact automation, data-to-dashboard/report agents, and Canva report-deck skills from official GitHub repositories, README evidence, project homepages, live web/GitHub searches, and GitHub metadata. This pass added Crewlyze, YMind, NotebookLM MCP Server, XMind Ultimate MCP Server, Mind Map MCP Server by sawyer-shi, AI Data Analyst, and canva-monthly-report. The targeted scraper ran only against these seven new records, fetched nine official sources successfully with two npm package-page 403 responses, and kept sixteen official preview assets plus four docs links after scrubbing one non-artifact Crewlyze branding image.
 
 Update on 2026-09-04: refreshed agent-native PowerPoint toolkits, hosted presentation-outline MCP workflows, self-contained HTML deck skills, source-cited repository diagramming, cloud architecture SVG generation, diagram-rendering MCP utilities, transit-map process diagrams, and verifiable data-science report/dashboard agents from official GitHub repositories, project homepages, README evidence, live GitHub searches, and GitHub metadata. This pass added PPT Agent Kit, OutSlide MCP, decklet, Mirofy, ArchLex, Diagrammo MCP, metro-map-tool, and Data Science Agent. The targeted scraper ran only against these eight new records, fetched fourteen official sources successfully with no failed fetches, and kept forty-two official examples, nineteen official preview assets, and twenty-five docs links after scrubbing tracking parameters, oversized encoded Diagrammo share URLs, loader/marketing images, and duplicate already-cataloged candidates.
 
@@ -423,6 +425,16 @@ Excluded if:
 - [gemini-diagram-mcp](https://github.com/arunsanna/gemini-diagram-mcp): MCP server that uses Gemini image generation on Vertex AI to generate diagrams, charts, and visualizations with prompt preparation and iterative refinement.
 - [MCP Visuals Server](https://github.com/harrybin/visuals-mcp): MCP server for displaying agent-produced tables, Recharts charts, image previews, master-detail views, hierarchical trees, custom lists, and exportable chart/table payloads.
 - [HeyClaude](https://github.com/JSONbored/awesome-claude): file-backed, human-reviewed Claude workflow registry with agents, MCP servers, skills, commands, hooks, tools, templates, feeds, JSON exports, Raycast integration, and a read-only MCP package.
+
+## Added in the 2026-09-05 Daily Refresh
+
+- [Crewlyze](https://github.com/sowmiyan-s/crewlyze): CrewAI and FastAPI data analyst platform that turns CSV, Excel, and SQLite datasets into multi-agent profiling, custom charts, executive PDF reports, SQL workbenches, and optional Ollama-local analysis.
+- [YMind](https://github.com/broccoli-97/xmind): Qt6 desktop mind-map editor and headless ymind-cli MCP server for turning Markdown or indented text into auto-laid-out mind maps with PNG, SVG, PDF, text, and Markdown export.
+- [NotebookLM MCP Server](https://github.com/moodRobotics/notebooklm-mcp-server): MCP server for Gemini Notebook/NotebookLM source management, grounded answers, Deep Research import, notes, reports, podcasts, videos, quizzes, flashcards, and mind-map artifacts.
+- [XMind Ultimate MCP Server](https://github.com/Genius-Cai/xmind-ultimate-mcp): Claude Code-oriented XMind MCP server for creating, reading, analyzing, translating, converting, exporting, and listing .xmind files from Markdown, text, JSON, CSV, or YAML.
+- [Mind Map MCP Server by sawyer-shi](https://github.com/sawyer-shi/mind-map-mcp-server): Markdown-to-PNG mind-map MCP server with smart viewport sizing, HTTP or stdio transports, Docker deployment, local storage, and optional object-storage backends.
+- [AI Data Analyst](https://github.com/MeghanaUllas20/ai-data-analyst): Streamlit analytics app that converts CSV uploads into profiling, narrative insights, Plotly visual labs, AutoML results, assistant interactions, and downloadable executive PDF summaries.
+- [canva-monthly-report](https://github.com/davidecac/canva-monthly-report): Claude Code skill for recurring social-analytics monthly reports in Canva decks from Google Sheets, with table parsing, aggregation, Canva element mapping, and chart-value handoff.
 
 ## Added in the 2026-07-06 Daily Refresh
 

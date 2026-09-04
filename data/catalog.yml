@@ -1,4 +1,4 @@
-last_researched: '2026-09-04'
+last_researched: '2026-09-05'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -1360,6 +1360,86 @@ entries:
   - 网页/交互页面
   catalog_section: support_mindmap
   readme_group: support_mindmap
+- name: Mind Map MCP Server by sawyer-shi
+  url: https://github.com/sawyer-shi/mind-map-mcp-server
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 16
+  license: unknown
+  updated: '2026-05-08'
+  note: MCP server that converts Markdown hierarchies into high-quality PNG mind maps with smart viewport sizing, HTTP or stdio transports, Docker deployment, local storage, and optional object-storage backends.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - SVG/PNG/PDF
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: YMind
+  url: https://github.com/broccoli-97/xmind
+  homepage: https://broccoli-97.github.io/xmind/
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 4
+  license: Apache-2.0
+  updated: '2026-09-04'
+  note: Qt6 desktop mind-map editor with a headless ymind-cli MCP server that renders Markdown or indented text into auto-laid-out mind maps and exports PNG, SVG, PDF, plain text, or Markdown.
+  source_types:
+  - 文本/想法
+  - 知识库/个人资料
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: XMind Ultimate MCP Server
+  url: https://github.com/Genius-Cai/xmind-ultimate-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: unknown
+  updated: '2026-08-29'
+  note: Claude Code-oriented XMind MCP server with eight tools for creating, reading, analyzing, translating, converting, exporting, and listing .xmind files from Markdown, text, JSON, CSV, or YAML with visual design guidance.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 知识库/个人资料
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 思维导图/知识地图
+  - 白板/思维导图
+  - 结构化数据/Markdown
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
 - name: Obsidian Visual Skills Pack
   url: https://github.com/axtonliu/axton-obsidian-visual-skills
   category: diagram-generation
@@ -1610,6 +1690,38 @@ entries:
   - 视频/音频
   - 报告/简报
   - 问答/学习材料
+  catalog_section: main
+  readme_group: docs
+- name: NotebookLM MCP Server
+  url: https://github.com/moodRobotics/notebooklm-mcp-server
+  homepage: https://www.npmjs.com/package/notebooklm-mcp-server
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 29
+  license: MIT
+  updated: '2026-09-04'
+  note: Universal MCP server for controlling Gemini Notebook/NotebookLM from agents, including notebook/source management, grounded answers, Deep Research import, notes, reports, podcasts, videos, quizzes, flashcards, and mind-map artifacts.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 报告/简报
+  - 思维导图/知识地图
+  - 问答/学习材料
+  - 视频/音频
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: docs
 - name: qiaomu-anything-to-notebooklm
@@ -2673,6 +2785,31 @@ entries:
   - 报告/简报
   - 网页/交互页面
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: canva-monthly-report
+  url: https://github.com/davidecac/canva-monthly-report
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-06-07'
+  note: Claude Code skill for building recurring social-analytics monthly reports in Canva decks from Google Sheet data, with scripts for parsing sheet tables, aggregating monthly metrics, mapping Canva element IDs, and generating safe edit operations plus chart values.
+  source_types:
+  - 数据/表格
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 报告/简报
   catalog_section: main
   readme_group: presentation
 - name: ppt-agents
@@ -10281,6 +10418,55 @@ entries:
   - 报告/长文档
   - PPT/演示文稿
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Crewlyze
+  url: https://github.com/sowmiyan-s/crewlyze
+  homepage: https://www.npmjs.com/package/crewlyze
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 存储/索引
+  stars: 6
+  license: MIT
+  updated: '2026-09-02'
+  note: CrewAI and FastAPI data analyst platform that turns CSV, Excel, and SQLite datasets into multi-agent profiling, custom Matplotlib/Seaborn visualizations, executive PDF reports, read-only SQL workbenches, and optional Ollama-local analysis.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: AI Data Analyst
+  url: https://github.com/MeghanaUllas20/ai-data-analyst
+  homepage: https://ai-data-analyst-123.streamlit.app/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: unknown
+  updated: '2026-02-23'
+  note: Streamlit analytics suite that turns uploaded CSV datasets into data profiling, narrative insights, Plotly visual labs, AutoML results, a data assistant, and downloadable executive PDF summaries.
+  source_types:
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
 - name: Felo AI CLI and Skills

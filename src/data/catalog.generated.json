@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-09-03T23:08:24+00:00",
-  "lastResearched": "2026-09-04",
+  "generatedAt": "2026-09-04T23:07:25+00:00",
+  "lastResearched": "2026-09-05",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 670,
-    "openSource": 175,
+    "total": 677,
+    "openSource": 178,
     "saas": 72,
-    "modelApi": 219,
+    "modelApi": 220,
     "examples": 1442,
-    "effectAssets": 1820,
-    "docs": 1685
+    "effectAssets": 1836,
+    "docs": 1689
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 65,
-      "PDF/文档": 202,
-      "文本/想法": 426,
-      "数据/表格": 272,
+      "PDF/文档": 204,
+      "文本/想法": 429,
+      "数据/表格": 276,
       "代码/技术描述": 125,
-      "网页/搜索结果": 175,
+      "网页/搜索结果": 176,
       "代码库": 72,
-      "DSL/代码": 135,
+      "DSL/代码": 137,
       "新闻/资讯": 27,
-      "知识库/个人资料": 64,
-      "任意/多源": 108,
-      "Office 文档": 122,
+      "知识库/个人资料": 68,
+      "任意/多源": 109,
+      "Office 文档": 123,
       "引用网络": 5,
-      "数据库": 63,
+      "数据库": 64,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 175,
-      "Agent Skill": 229,
+      "开源应用/框架": 178,
+      "Agent Skill": 231,
       "Skill 集合": 63,
-      "MCP Server": 233,
+      "MCP Server": 237,
       "产品/SaaS": 72,
       "数据集/评测": 2,
-      "Bot/助手": 22,
+      "Bot/助手": 23,
       "研究原型": 9,
       "API/SDK/库": 106,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 49,
-      "PPT/演示文稿": 289,
+      "PPT/演示文稿": 290,
       "网页/交互页面": 229,
-      "问答/学习材料": 16,
+      "问答/学习材料": 17,
       "报告/长文档": 96,
       "证据表": 53,
       "信息图/视觉报告": 97,
-      "图表/仪表盘": 205,
+      "图表/仪表盘": 208,
       "架构图/流程图": 151,
-      "SVG/PNG/PDF": 276,
-      "报告/简报": 75,
-      "白板/思维导图": 42,
+      "SVG/PNG/PDF": 280,
+      "报告/简报": 79,
+      "白板/思维导图": 43,
       "图表/Mermaid": 69,
-      "视频/音频": 51,
-      "结构化数据/Markdown": 100,
+      "视频/音频": 52,
+      "结构化数据/Markdown": 103,
       "表格/时间线": 28,
       "引用答案": 6,
-      "思维导图/知识地图": 38,
+      "思维导图/知识地图": 42,
       "文献地图/知识地图": 5,
       "代码地图/Repo Wiki": 45,
       "图表/渲染输出": 22,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 555,
-      "模型 API": 219,
-      "文档解析/OCR": 97,
-      "渲染/导出": 578,
+      "本地语言环境": 561,
+      "模型 API": 220,
+      "文档解析/OCR": 98,
+      "渲染/导出": 585,
       "GPU/加速器": 19,
-      "模板/素材": 312,
-      "Agent 宿主": 303,
-      "系统工具": 145,
-      "浏览器/账号": 170,
-      "存储/索引": 97,
-      "MCP Client": 244,
-      "外部检索/数据源": 143,
+      "模板/素材": 314,
+      "Agent 宿主": 305,
+      "系统工具": 147,
+      "浏览器/账号": 172,
+      "存储/索引": 101,
+      "MCP Client": 248,
+      "外部检索/数据源": 145,
       "代码分析工具": 47
     },
     "categories": {
       "paper-visualization": 20,
-      "doc-to-knowledge": 58,
+      "doc-to-knowledge": 62,
       "research-report": 30,
       "infographic-report": 61,
-      "data-dashboard": 102,
+      "data-dashboard": 104,
       "diagram-generation": 80,
       "literature-map": 5,
-      "presentation-tools": 196,
+      "presentation-tools": 197,
       "codebase-map": 43,
       "rendering-primitive": 21,
       "video-generation": 15,
@@ -99,15 +99,15 @@
       "paper": 35,
       "text_visual": 79,
       "web_news": 9,
-      "support_mindmap": 15,
-      "docs": 32,
+      "support_mindmap": 18,
+      "docs": 33,
       "support_doc_parse": 22,
-      "presentation": 206,
+      "presentation": 207,
       "code": 46,
       "support_render": 62,
       "diagrams": 19,
       "video": 15,
-      "data": 96,
+      "data": 98,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -4991,6 +4991,171 @@
       "effectAssetsCount": 8
     },
     {
+      "name": "Mind Map MCP Server by sawyer-shi",
+      "url": "https://github.com/sawyer-shi/mind-map-mcp-server",
+      "primaryUrl": "https://github.com/sawyer-shi/mind-map-mcp-server",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 16,
+      "license": "unknown",
+      "updated": "2026-05-08",
+      "note": "MCP server that converts Markdown hierarchies into high-quality PNG mind maps with smart viewport sizing, HTTP or stdio transports, Docker deployment, local storage, and optional object-storage backends.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "YMind",
+      "url": "https://github.com/broccoli-97/xmind",
+      "primaryUrl": "https://github.com/broccoli-97/xmind",
+      "homepage": "https://broccoli-97.github.io/xmind/",
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updated": "2026-09-04",
+      "note": "Qt6 desktop mind-map editor with a headless ymind-cli MCP server that renders Markdown or indented text into auto-laid-out mind maps and exports PNG, SVG, PDF, plain text, or Markdown.",
+      "sourceTypes": [
+        "文本/想法",
+        "知识库/个人资料",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "setup guide",
+          "url": "https://broccoli-97.github.io/xmind/",
+          "source": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Screenshot",
+          "url": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/img/AutoLayout.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Screenshot",
+          "url": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/img/LightTheme.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Screenshot",
+          "url": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/img/DarkTheme.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/broccoli-97/xmind/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "XMind Ultimate MCP Server",
+      "url": "https://github.com/Genius-Cai/xmind-ultimate-mcp",
+      "primaryUrl": "https://github.com/Genius-Cai/xmind-ultimate-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "unknown",
+      "updated": "2026-08-29",
+      "note": "Claude Code-oriented XMind MCP server with eight tools for creating, reading, analyzing, translating, converting, exporting, and listing .xmind files from Markdown, text, JSON, CSV, or YAML with visual design guidance.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "知识库/个人资料",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "白板/思维导图",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "T1 2026 Academic Plan - Bilingual Mind Map",
+          "url": "https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/docs/assets/demo-bilingual.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "SDLC Mind Map - Clean Design with Boundaries and Relationships",
+          "url": "https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/docs/assets/demo-sdlc.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Genius-Cai/xmind-ultimate-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
       "name": "Obsidian Visual Skills Pack",
       "url": "https://github.com/axtonliu/axton-obsidian-visual-skills",
       "primaryUrl": "https://github.com/axtonliu/axton-obsidian-visual-skills",
@@ -5771,6 +5936,70 @@
       "examples": [],
       "effectAssets": [],
       "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "NotebookLM MCP Server",
+      "url": "https://github.com/moodRobotics/notebooklm-mcp-server",
+      "primaryUrl": "https://github.com/moodRobotics/notebooklm-mcp-server",
+      "homepage": "https://www.npmjs.com/package/notebooklm-mcp-server",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 29,
+      "license": "MIT",
+      "updated": "2026-09-04",
+      "note": "Universal MCP server for controlling Gemini Notebook/NotebookLM from agents, including notebook/source management, grounded answers, Deep Research import, notes, reports, podcasts, videos, quizzes, flashcards, and mind-map artifacts.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "报告/简报",
+        "思维导图/知识地图",
+        "问答/学习材料",
+        "视频/音频",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/TOOLS.md",
+          "url": "https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/TOOLS.md",
+          "source": "https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ARCHITECTURE.md",
+          "url": "https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ROADMAP.md",
+          "url": "https://github.com/moodRobotics/notebooklm-mcp-server/blob/HEAD/docs/ROADMAP.md",
+          "source": "https://raw.githubusercontent.com/moodRobotics/notebooklm-mcp-server/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 3,
       "examplesCount": 0,
       "effectAssetsCount": 0
     },
@@ -10357,6 +10586,45 @@
         "报告/简报",
         "网页/交互页面",
         "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "canva-monthly-report",
+      "url": "https://github.com/davidecac/canva-monthly-report",
+      "primaryUrl": "https://github.com/davidecac/canva-monthly-report",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-06-07",
+      "note": "Claude Code skill for building recurring social-analytics monthly reports in Canva decks from Google Sheet data, with scripts for parsing sheet tables, aggregating monthly metrics, mapping Canva element IDs, and generating safe edit operations plus chart values.",
+      "sourceTypes": [
+        "数据/表格",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "报告/简报"
       ],
       "catalogSection": "main",
       "readmeGroup": "presentation",
@@ -36577,6 +36845,160 @@
       "docsCount": 0,
       "examplesCount": 2,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Crewlyze",
+      "url": "https://github.com/sowmiyan-s/crewlyze",
+      "primaryUrl": "https://github.com/sowmiyan-s/crewlyze",
+      "homepage": "https://www.npmjs.com/package/crewlyze",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-09-02",
+      "note": "CrewAI and FastAPI data analyst platform that turns CSV, Excel, and SQLite datasets into multi-agent profiling, custom Matplotlib/Seaborn visualizations, executive PDF reports, read-only SQL workbenches, and optional Ollama-local analysis.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AI Chat Interface with Custom Chart",
+          "url": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/4.CHAT%20AI.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Project Workspace Hub",
+          "url": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/3.INSIDE PROJECT.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Interactive Dashboards",
+          "url": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/8.VISUALIZATION.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Executive Business Insights",
+          "url": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/7.BUSINESS INSIGHTS.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Universal LLM Config",
+          "url": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/assets/Screenshots/2.SETTINGS.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sowmiyan-s/crewlyze/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "AI Data Analyst",
+      "url": "https://github.com/MeghanaUllas20/ai-data-analyst",
+      "primaryUrl": "https://github.com/MeghanaUllas20/ai-data-analyst",
+      "homepage": "https://ai-data-analyst-123.streamlit.app/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-02-23",
+      "note": "Streamlit analytics suite that turns uploaded CSV datasets into data profiling, narrative insights, Plotly visual labs, AutoML results, a data assistant, and downloadable executive PDF summaries.",
+      "sourceTypes": [
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Landing",
+          "url": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/front_page.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Story",
+          "url": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/story_mode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Visual Lab",
+          "url": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/visual_lab.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark mode",
+          "url": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/dark_mode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ML Studio",
+          "url": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/ML_studio.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Data Assistant",
+          "url": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/images/data_assistant.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 6
     },
     {
       "name": "Felo AI CLI and Skills",
