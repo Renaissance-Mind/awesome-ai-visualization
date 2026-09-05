@@ -1,4 +1,4 @@
-last_researched: '2026-09-05'
+last_researched: '2026-09-06'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -190,6 +190,33 @@ entries:
   - 图表/仪表盘
   - 信息图/视觉报告
   - 架构图/流程图
+  catalog_section: main
+  readme_group: text_visual
+- name: html-it
+  url: https://github.com/robonuggets/html-it
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 49
+  license: MIT
+  updated: '2026-09-03'
+  note: Claude Code skill that turns docs, plans, reports, reviews, dashboards, editors, and ticket boards into static or interactive HTML artifacts instead of plain Markdown.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 报告/长文档
+  - 信息图/视觉报告
+  - 图表/仪表盘
   catalog_section: main
   readme_group: text_visual
 - name: Infographic Agent
@@ -6560,6 +6587,58 @@ entries:
   - 图表/仪表盘
   catalog_section: main
   readme_group: text_visual
+- name: tufte-data-viz
+  url: https://github.com/caylent/tufte-data-viz
+  homepage: https://caylent.github.io/tufte-data-viz/
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 212
+  license: MIT
+  updated: '2026-09-04'
+  note: Opinionated Agent Skill that applies Edward Tufte data-visualization principles to Recharts, ECharts, Chart.js, matplotlib, Plotly, D3, SVG, and HTML charts, with before/after demos and reusable rule files.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: html-viz
+  url: https://github.com/shenxyt/html-viz
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-05-15'
+  note: Claude Code skill that turns table-heavy or Word-like static HTML into modern dashboard pages by adding Mermaid diagrams, Open Props design tokens, chart-pattern selection rules, and Chinese-friendly fonts.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 图表/Mermaid
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: text_visual
 - name: Diagram Creator Skill
   url: https://github.com/ferdinandobons/diagram-creator-skill
   category: diagram-generation
@@ -7408,6 +7487,32 @@ entries:
   - 信息图/视觉报告
   - 架构图/流程图
   - 图表/渲染输出
+  catalog_section: main
+  readme_group: data
+- name: Pyecharts Skills
+  url: https://github.com/pyecharts/skills
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: MIT
+  updated: '2026-08-26'
+  note: Agent Skill collection for generating pyecharts visualization examples across 49 chart types, including standard, composite, 3D, and ECharts 6 chart families for Claude Code, Cursor, Gemini CLI, and MCP-compatible workflows.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
 - name: Semiotic
@@ -10467,6 +10572,33 @@ entries:
   - 图表/仪表盘
   - 报告/简报
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: CrushData AI
+  url: https://github.com/SankaiAI/crushdataai-agent-skill
+  homepage: https://www.npmjs.com/package/crushdata
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 3
+  license: Apache-2.0
+  updated: '2026-07-08'
+  note: Cross-IDE data analyst skill and CLI with EDA, dashboard, cohort, funnel, KPI, and time-series workflows, local credential storage, searchable analysis patterns, and a React dashboard viewer for AI-generated chart JSON.
+  source_types:
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: data
 - name: Felo AI CLI and Skills
@@ -17498,6 +17630,92 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: code
+- name: codex-tldraw-mcp
+  url: https://github.com/jananadiw/codex-tldraw-mcp
+  homepage: https://www.npmjs.com/package/codex-tldraw-mcp
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 26
+  license: MIT
+  updated: '2026-09-04'
+  note: Local Codex stdio MCP server that scans repositories or prompt specs into editable repo-local tldraw boards, SVG previews, runtime architecture diagrams, workflow canvases, and trackable JavaScript/TypeScript code graphs with drift markers.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: code
+- name: Agent Review Panel
+  url: https://github.com/wan-huiyan/agent-review-panel
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 35
+  license: MIT
+  updated: '2026-08-28'
+  note: Claude Code plugin and skill that runs a multi-agent adversarial review panel over code, plans, or docs, then writes Markdown process records plus an interactive HTML dashboard with issue cards, charts, and review evidence.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  - Bot/助手
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 证据表
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: code
+- name: eval-layer
+  url: https://github.com/erezweinstein5/eval-layer
+  homepage: https://builder.aws.com/content/2zJ6hDLoF98mE23KbnPhT59TLOu/your-agent-feels-better-prove-it
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 13
+  license: unknown
+  updated: '2026-08-26'
+  note: Claude Code skill that adds rubric-based evaluation to agent projects, generating calibrated test cases, judge prompts, harness outputs, Markdown reports, and self-contained Chart.js dashboards for multi-subject benchmark comparisons.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 证据表
+  - 报告/长文档
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code
 - name: ArchLex
   url: https://github.com/baires/archlex
   homepage: https://archlex.dev
@@ -17524,6 +17742,36 @@ entries:
   - 架构图/流程图
   - SVG/PNG/PDF
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: text_visual
+- name: diag-agent
+  url: https://github.com/docToolchain/diag-agent
+  homepage: http://doctoolchain.org/diag-agent/
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  stars: 2
+  license: unknown
+  updated: '2026-05-09'
+  note: LLM-agnostic CLI, MCP server, and Python library that turns natural-language architecture descriptions into PlantUML, C4, BPMN, Mermaid, and other Kroki-rendered diagrams with autonomous syntax validation and optional vision-based design feedback.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
   catalog_section: main
   readme_group: text_visual
 - name: Diagrammo MCP

@@ -1,4 +1,4 @@
-generated_at: '2026-09-04T23:07:25+00:00'
+generated_at: '2026-09-05T23:11:07+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 677
-  fetched_sources_ok: 910
-  fetched_sources_failed: 49
-  official_examples: 1442
-  official_effect_assets: 1836
-  official_docs: 1689
+  entries: 686
+  fetched_sources_ok: 922
+  fetched_sources_failed: 51
+  official_examples: 1444
+  official_effect_assets: 1855
+  official_docs: 1699
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -53633,3 +53633,446 @@ entries:
     source: https://raw.githubusercontent.com/MeghanaUllas20/ai-data-analyst/HEAD/README.md
   source_headings:
   - 🚀 Live Demo
+- name: html-it
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/robonuggets/html-it
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns docs, plans, reports, reviews, dashboards, editors, and ticket boards into static
+    or interactive HTML artifacts instead of plain Markdown.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/robonuggets/html-it/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/robonuggets/html-it/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: html-it
+    bytes: 4008
+- name: tufte-data-viz
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/caylent/tufte-data-viz
+  homepage: https://caylent.github.io/tufte-data-viz/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Opinionated Agent Skill that applies Edward Tufte data-visualization principles to Recharts, ECharts, Chart.js,
+    matplotlib, Plotly, D3, SVG, and HTML charts, with before/after demos and reusable rule files.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: tufte-data-viz
+    bytes: 6033
+  - kind: homepage
+    url: https://caylent.github.io/tufte-data-viz/
+    final_url: https://caylent.github.io/tufte-data-viz/
+    status: 200
+    content_type: text/html
+    title: tufte-data-viz - Edward Tufte's Data Visualization Principles for Every Charting Library
+    description: Interactive demo of Tufte data visualization principles applied across ECharts, Chart.js, Plotly, and D3.js.
+      See before/after transformations live.
+    bytes: 49000
+  official_examples:
+  - kind: demo
+    title: Try the live demo
+    url: https://caylent.github.io/tufte-data-viz/
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Animated transition from default chart styling to Tufte principles
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/before-after-animated.gif
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Before and after comparison — default chart style vs. Tufte style
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/before-after.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Tufte-styled line chart showing revenue vs. target with direct labels and peak annotation
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-line-chart.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Tufte-styled horizontal bar chart with direct value labels and highlighted top product
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-bar-chart.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Slopegraph showing team size changes from 2024 to 2025, highlighting Engineering growth
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-slopegraph.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Small multiples showing revenue trend by region with shared y-axis
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/small-multiples.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Five sparklines showing key metrics over 24 months with min and max markers
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-sparklines.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Tufte-styled data table with thin rules, right-aligned numbers, and highlighted growth leader
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-data-table.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Dark mode line chart with desaturated highlight color on dark background
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-dark-mode.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Scatter plot using different shapes per segment so data is distinguishable without color
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-accessible-scatter.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  - kind: image
+    title: Side-by-side bar chart in light and dark mode showing intentional palette design
+    url: https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-light-dark.png
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Try the live demo
+    url: https://caylent.github.io/tufte-data-viz/
+    source: https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md
+  source_headings:
+  - Interactive Demo
+  - Examples
+- name: html-viz
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/shenxyt/html-viz
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that turns table-heavy or Word-like static HTML into modern dashboard pages by adding Mermaid
+    diagrams, Open Props design tokens, chart-pattern selection rules, and Chinese-friendly fonts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shenxyt/html-viz/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shenxyt/html-viz/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: html-viz · Claude Code Skill
+    bytes: 5314
+  source_headings:
+  - Demo
+- name: Pyecharts Skills
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/pyecharts/skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skill collection for generating pyecharts visualization examples across 49 chart types, including standard,
+    composite, 3D, and ECharts 6 chart families for Claude Code, Cursor, Gemini CLI, and MCP-compatible workflows.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pyecharts/skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pyecharts/skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Pyecharts Skills
+    bytes: 2774
+- name: CrushData AI
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/SankaiAI/crushdataai-agent-skill
+  homepage: https://www.npmjs.com/package/crushdata
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Cross-IDE data analyst skill and CLI with EDA, dashboard, cohort, funnel, KPI, and time-series workflows,
+    local credential storage, searchable analysis patterns, and a React dashboard viewer for AI-generated chart JSON.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: CrushData AI
+    bytes: 8436
+  - kind: homepage
+    url: https://www.npmjs.com/package/crushdata
+    final_url: https://www.npmjs.com/package/crushdata
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_effect_assets:
+  - kind: image
+    title: CrushData AI Landing Page
+    url: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-landing-page.png
+    source: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md
+  - kind: image
+    title: CrushData AI Connection Manager
+    url: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-data-connection-ui.png
+    source: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md
+  - kind: image
+    title: Advanced Dashboard
+    url: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-dashboard.png
+    source: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md
+  - kind: image
+    title: Simple Dashboard
+    url: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-dashboard-simple-charts.png
+    source: https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md
+  source_headings:
+  - 📈 Data Visualization (New in v1.3)
+  - 1. View Dashboard
+  - 3. AI Workflow Example
+  - 💻 Usage
+  - Example Prompts
+- name: codex-tldraw-mcp
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/jananadiw/codex-tldraw-mcp
+  homepage: https://www.npmjs.com/package/codex-tldraw-mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Local Codex stdio MCP server that scans repositories or prompt specs into editable repo-local tldraw boards,
+    SVG previews, runtime architecture diagrams, workflow canvases, and trackable JavaScript/TypeScript code graphs with drift
+    markers.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: codex-tldraw-mcp
+    bytes: 11424
+  - kind: homepage
+    url: https://www.npmjs.com/package/codex-tldraw-mcp
+    final_url: https://www.npmjs.com/package/codex-tldraw-mcp
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: v0.6.0 release notes
+    url: https://github.com/jananadiw/codex-tldraw-mcp/blob/HEAD/docs/release-v0.6.0.md
+    source: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+  - kind: docs
+    title: Architecture Diagrams
+    url: https://github.com/jananadiw/codex-tldraw-mcp/blob/HEAD/docs/architecture-diagrams.md
+    source: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: codex-tldraw-mcp demo
+    url: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/main/assets/tldrawmcp.gif
+    source: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: v0.6.0 release notes
+    url: https://github.com/jananadiw/codex-tldraw-mcp/blob/HEAD/docs/release-v0.6.0.md
+    source: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+  - kind: docs
+    title: Architecture Diagrams
+    url: https://github.com/jananadiw/codex-tldraw-mcp/blob/HEAD/docs/architecture-diagrams.md
+    source: https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md
+  source_headings:
+  - Prompt-Driven Diagrams
+- name: Agent Review Panel
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/wan-huiyan/agent-review-panel
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code plugin and skill that runs a multi-agent adversarial review panel over code, plans, or docs, then
+    writes Markdown process records plus an interactive HTML dashboard with issue cards, charts, and review evidence.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Agent Review Panel
+    bytes: 46861
+  official_docs:
+  - kind: docs
+    title: '`docs/reviews/2026-05-14-readme/review_panel_report.md`'
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_report.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: '`docs/reviews/2026-05-14-readme/review_panel_report.html`'
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_report.html
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: '`docs/reviews/2026-05-14-readme/review_panel_process.md`'
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_process.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: 2026-07-16 token audit of a real full-protocol run
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/analysis/2026-07-16-panel-token-split-audit.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: 9 research papers and projects
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/research-foundations.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Agent Review Panel — interactive HTML dashboard with expandable issue cards
+    url: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/v3.3.0/docs/html-demo.gif
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: gif
+    title: Agent Review Panel — watch your code journey through the multi-agent review pipeline
+    url: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/main/docs/quest-hero.gif
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/reviews/2026-05-14-readme/review_panel_report.md`'
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_report.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: '`docs/reviews/2026-05-14-readme/review_panel_report.html`'
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_report.html
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: '`docs/reviews/2026-05-14-readme/review_panel_process.md`'
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_process.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: 2026-07-16 token audit of a real full-protocol run
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/analysis/2026-07-16-panel-token-split-audit.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  - kind: docs
+    title: 9 research papers and projects
+    url: https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/research-foundations.md
+    source: https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md
+  source_headings:
+  - Sample output
+  - Usage Examples
+- name: eval-layer
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/erezweinstein5/eval-layer
+  homepage: https://builder.aws.com/content/2zJ6hDLoF98mE23KbnPhT59TLOu/your-agent-feels-better-prove-it
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that adds rubric-based evaluation to agent projects, generating calibrated test cases, judge
+    prompts, harness outputs, Markdown reports, and self-contained Chart.js dashboards for multi-subject benchmark comparisons.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: eval-layer
+    bytes: 6622
+  - kind: homepage
+    url: https://builder.aws.com/content/2zJ6hDLoF98mE23KbnPhT59TLOu/your-agent-feels-better-prove-it
+    final_url: https://builder.aws.com/content/2zJ6hDLoF98mE23KbnPhT59TLOu/your-agent-feels-better-prove-it
+    status: 200
+    content_type: text/html
+    title: AWS Builder Center
+    description: Connect with builders who understand your journey. Share solutions, influence AWS product development, and
+      access useful content that accelerates your growth. Your community starts
+    bytes: 3101
+  official_docs:
+  - kind: docs
+    title: '`references/structured-output-troubleshooting.md`'
+    url: https://github.com/erezweinstein5/eval-layer/blob/HEAD/references/structured-output-troubleshooting.md
+    source: https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Pixel-art balance scale tilting back and forth
+    url: https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/assets/scale.gif
+    source: https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`references/structured-output-troubleshooting.md`'
+    url: https://github.com/erezweinstein5/eval-layer/blob/HEAD/references/structured-output-troubleshooting.md
+    source: https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md
+  source_headings:
+  - Usage
+- name: diag-agent
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/docToolchain/diag-agent
+  homepage: http://doctoolchain.org/diag-agent/
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 系统工具
+  catalog_note: LLM-agnostic CLI, MCP server, and Python library that turns natural-language architecture descriptions into
+    PlantUML, C4, BPMN, Mermaid, and other Kroki-rendered diagrams with autonomous syntax validation and optional vision-based
+    design feedback.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: diag-agent
+    bytes: 12098
+  - kind: homepage
+    url: http://doctoolchain.org/diag-agent/
+    final_url: http://doctoolchain.org/diag-agent/
+    status: 200
+    content_type: text/html
+    title: docToolchain
+    description: build your dev docs the easy way...
+    bytes: 13681
+  official_examples:
+  - kind: tutorial
+    title: Tutorial
+    url: https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/tutorial.md
+    source: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: User Guide - Docker Deployment
+    url: https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/user-guide.md
+    source: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/arc42/arc42.adoc
+    source: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: User Guide - Docker Deployment
+    url: https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/user-guide.md
+    source: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+  - kind: tutorial
+    title: Tutorial
+    url: https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/tutorial.md
+    source: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/arc42/arc42.adoc
+    source: https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md
+  source_headings:
+  - 'Before: Manual Diagram Creation ❌'
+  - Visual Comparison
+  - Orchestrator Workflow Diagrams
+  - CLI Usage
+  - Generate a diagram (using uv run - no venv activation needed)
+  - Documentation
+  - Generate diagrams
+  - '--type TYPE Diagram type (default: plantuml)'
+  - '--output DIR Output directory (default: ./diagrams)'
+  - Browse examples
+  - Supported Diagram Types
+  - Examples

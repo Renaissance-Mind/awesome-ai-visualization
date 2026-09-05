@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-09-04T23:07:25+00:00",
-  "lastResearched": "2026-09-05",
+  "generatedAt": "2026-09-05T23:11:07+00:00",
+  "lastResearched": "2026-09-06",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 677,
-    "openSource": 178,
+    "total": 686,
+    "openSource": 179,
     "saas": 72,
-    "modelApi": 220,
-    "examples": 1442,
-    "effectAssets": 1836,
-    "docs": 1689
+    "modelApi": 223,
+    "examples": 1444,
+    "effectAssets": 1855,
+    "docs": 1699
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 65,
       "PDF/文档": 204,
-      "文本/想法": 429,
-      "数据/表格": 276,
-      "代码/技术描述": 125,
+      "文本/想法": 436,
+      "数据/表格": 282,
+      "代码/技术描述": 130,
+      "任意/多源": 110,
       "网页/搜索结果": 176,
-      "代码库": 72,
-      "DSL/代码": 137,
+      "代码库": 75,
+      "DSL/代码": 140,
       "新闻/资讯": 27,
       "知识库/个人资料": 68,
-      "任意/多源": 109,
-      "Office 文档": 123,
+      "Office 文档": 124,
       "引用网络": 5,
-      "数据库": 64,
+      "数据库": 65,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 178,
-      "Agent Skill": 231,
-      "Skill 集合": 63,
-      "MCP Server": 237,
+      "开源应用/框架": 179,
+      "Agent Skill": 237,
+      "Skill 集合": 64,
+      "MCP Server": 239,
       "产品/SaaS": 72,
       "数据集/评测": 2,
-      "Bot/助手": 23,
+      "Bot/助手": 24,
       "研究原型": 9,
-      "API/SDK/库": 106,
+      "API/SDK/库": 109,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 49,
       "PPT/演示文稿": 290,
-      "网页/交互页面": 229,
+      "网页/交互页面": 233,
       "问答/学习材料": 17,
-      "报告/长文档": 96,
-      "证据表": 53,
-      "信息图/视觉报告": 97,
-      "图表/仪表盘": 208,
-      "架构图/流程图": 151,
-      "SVG/PNG/PDF": 280,
+      "报告/长文档": 100,
+      "证据表": 55,
+      "信息图/视觉报告": 99,
+      "图表/仪表盘": 215,
+      "架构图/流程图": 153,
+      "SVG/PNG/PDF": 284,
       "报告/简报": 79,
-      "白板/思维导图": 43,
-      "图表/Mermaid": 69,
+      "白板/思维导图": 44,
+      "图表/Mermaid": 71,
       "视频/音频": 52,
-      "结构化数据/Markdown": 103,
+      "结构化数据/Markdown": 104,
       "表格/时间线": 28,
       "引用答案": 6,
       "思维导图/知识地图": 42,
       "文献地图/知识地图": 5,
-      "代码地图/Repo Wiki": 45,
-      "图表/渲染输出": 22,
+      "代码地图/Repo Wiki": 46,
+      "图表/渲染输出": 24,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 561,
-      "模型 API": 220,
+      "本地语言环境": 570,
+      "模型 API": 223,
       "文档解析/OCR": 98,
-      "渲染/导出": 585,
+      "渲染/导出": 594,
       "GPU/加速器": 19,
-      "模板/素材": 314,
-      "Agent 宿主": 305,
-      "系统工具": 147,
+      "模板/素材": 320,
+      "Agent 宿主": 314,
+      "系统工具": 148,
       "浏览器/账号": 172,
-      "存储/索引": 101,
-      "MCP Client": 248,
-      "外部检索/数据源": 145,
-      "代码分析工具": 47
+      "存储/索引": 103,
+      "MCP Client": 250,
+      "外部检索/数据源": 146,
+      "代码分析工具": 49
     },
     "categories": {
       "paper-visualization": 20,
-      "doc-to-knowledge": 62,
-      "research-report": 30,
-      "infographic-report": 61,
-      "data-dashboard": 104,
-      "diagram-generation": 80,
+      "doc-to-knowledge": 63,
+      "research-report": 32,
+      "infographic-report": 62,
+      "data-dashboard": 107,
+      "diagram-generation": 81,
       "literature-map": 5,
       "presentation-tools": 197,
-      "codebase-map": 43,
+      "codebase-map": 44,
       "rendering-primitive": 21,
       "video-generation": 15,
       "commercial-site": 10,
@@ -97,17 +97,17 @@
     },
     "groups": {
       "paper": 35,
-      "text_visual": 79,
+      "text_visual": 82,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 33,
       "support_doc_parse": 22,
       "presentation": 207,
-      "code": 46,
+      "code": 49,
       "support_render": 62,
       "diagrams": 19,
+      "data": 101,
       "video": 15,
-      "data": 98,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -758,6 +758,47 @@
       "effectAssets": [],
       "docsCount": 0,
       "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "html-it",
+      "url": "https://github.com/robonuggets/html-it",
+      "primaryUrl": "https://github.com/robonuggets/html-it",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 49,
+      "license": "MIT",
+      "updated": "2026-09-03",
+      "note": "Claude Code skill that turns docs, plans, reports, reviews, dashboards, editors, and ticket boards into static or interactive HTML artifacts instead of plain Markdown.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "报告/长文档",
+        "信息图/视觉报告",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     },
     {
@@ -22738,6 +22779,170 @@
       "effectAssetsCount": 0
     },
     {
+      "name": "tufte-data-viz",
+      "url": "https://github.com/caylent/tufte-data-viz",
+      "primaryUrl": "https://github.com/caylent/tufte-data-viz",
+      "homepage": "https://caylent.github.io/tufte-data-viz/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 212,
+      "license": "MIT",
+      "updated": "2026-09-04",
+      "note": "Opinionated Agent Skill that applies Edward Tufte data-visualization principles to Recharts, ECharts, Chart.js, matplotlib, Plotly, D3, SVG, and HTML charts, with before/after demos and reusable rule files.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Try the live demo",
+          "url": "https://caylent.github.io/tufte-data-viz/",
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Animated transition from default chart styling to Tufte principles",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/before-after-animated.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Before and after comparison — default chart style vs. Tufte style",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/before-after.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tufte-styled line chart showing revenue vs. target with direct labels and peak annotation",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-line-chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tufte-styled horizontal bar chart with direct value labels and highlighted top product",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-bar-chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slopegraph showing team size changes from 2024 to 2025, highlighting Engineering growth",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-slopegraph.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Small multiples showing revenue trend by region with shared y-axis",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/small-multiples.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Five sparklines showing key metrics over 24 months with min and max markers",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-sparklines.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tufte-styled data table with thin rules, right-aligned numbers, and highlighted growth leader",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-data-table.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Dark mode line chart with desaturated highlight color on dark background",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-dark-mode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Scatter plot using different shapes per segment so data is distinguishable without color",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-accessible-scatter.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Side-by-side bar chart in light and dark mode showing intentional palette design",
+          "url": "https://raw.githubusercontent.com/caylent/tufte-data-viz/main/_docs/tufte-light-dark.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caylent/tufte-data-viz/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 11
+    },
+    {
+      "name": "html-viz",
+      "url": "https://github.com/shenxyt/html-viz",
+      "primaryUrl": "https://github.com/shenxyt/html-viz",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-05-15",
+      "note": "Claude Code skill that turns table-heavy or Word-like static HTML into modern dashboard pages by adding Mermaid diagrams, Open Props design tokens, chart-pattern selection rules, and Chinese-friendly fonts.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "图表/仪表盘",
+        "图表/Mermaid",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
       "name": "Diagram Creator Skill",
       "url": "https://github.com/ferdinandobons/diagram-creator-skill",
       "primaryUrl": "https://github.com/ferdinandobons/diagram-creator-skill",
@@ -25459,6 +25664,46 @@
         "信息图/视觉报告",
         "架构图/流程图",
         "图表/渲染输出"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Pyecharts Skills",
+      "url": "https://github.com/pyecharts/skills",
+      "primaryUrl": "https://github.com/pyecharts/skills",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "MIT",
+      "updated": "2026-08-26",
+      "note": "Agent Skill collection for generating pyecharts visualization examples across 49 chart types, including standard, composite, 3D, and ECharts 6 chart families for Claude Code, Cursor, Gemini CLI, and MCP-compatible workflows.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
       ],
       "catalogSection": "main",
       "readmeGroup": "data",
@@ -36999,6 +37244,75 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 6
+    },
+    {
+      "name": "CrushData AI",
+      "url": "https://github.com/SankaiAI/crushdataai-agent-skill",
+      "primaryUrl": "https://github.com/SankaiAI/crushdataai-agent-skill",
+      "homepage": "https://www.npmjs.com/package/crushdata",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 3,
+      "license": "Apache-2.0",
+      "updated": "2026-07-08",
+      "note": "Cross-IDE data analyst skill and CLI with EDA, dashboard, cohort, funnel, KPI, and time-series workflows, local credential storage, searchable analysis patterns, and a React dashboard viewer for AI-generated chart JSON.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "CrushData AI Landing Page",
+          "url": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-landing-page.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "CrushData AI Connection Manager",
+          "url": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-data-connection-ui.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Advanced Dashboard",
+          "url": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Simple Dashboard",
+          "url": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/assets/crushdataai-dashboard-simple-charts.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SankaiAI/crushdataai-agent-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
     },
     {
       "name": "Felo AI CLI and Skills",
@@ -55471,6 +55785,214 @@
       "effectAssetsCount": 9
     },
     {
+      "name": "codex-tldraw-mcp",
+      "url": "https://github.com/jananadiw/codex-tldraw-mcp",
+      "primaryUrl": "https://github.com/jananadiw/codex-tldraw-mcp",
+      "homepage": "https://www.npmjs.com/package/codex-tldraw-mcp",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 26,
+      "license": "MIT",
+      "updated": "2026-09-04",
+      "note": "Local Codex stdio MCP server that scans repositories or prompt specs into editable repo-local tldraw boards, SVG previews, runtime architecture diagrams, workflow canvases, and trackable JavaScript/TypeScript code graphs with drift markers.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "v0.6.0 release notes",
+          "url": "https://github.com/jananadiw/codex-tldraw-mcp/blob/HEAD/docs/release-v0.6.0.md",
+          "source": "https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture Diagrams",
+          "url": "https://github.com/jananadiw/codex-tldraw-mcp/blob/HEAD/docs/architecture-diagrams.md",
+          "source": "https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "codex-tldraw-mcp demo",
+          "url": "https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/main/assets/tldrawmcp.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jananadiw/codex-tldraw-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Agent Review Panel",
+      "url": "https://github.com/wan-huiyan/agent-review-panel",
+      "primaryUrl": "https://github.com/wan-huiyan/agent-review-panel",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 35,
+      "license": "MIT",
+      "updated": "2026-08-28",
+      "note": "Claude Code plugin and skill that runs a multi-agent adversarial review panel over code, plans, or docs, then writes Markdown process records plus an interactive HTML dashboard with issue cards, charts, and review evidence.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "证据表",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/reviews/2026-05-14-readme/review_panel_report.md`",
+          "url": "https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_report.md",
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/reviews/2026-05-14-readme/review_panel_report.html`",
+          "url": "https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_report.html",
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/reviews/2026-05-14-readme/review_panel_process.md`",
+          "url": "https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/reviews/2026-05-14-readme/review_panel_process.md",
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "2026-07-16 token audit of a real full-protocol run",
+          "url": "https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/analysis/2026-07-16-panel-token-split-audit.md",
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "9 research papers and projects",
+          "url": "https://github.com/wan-huiyan/agent-review-panel/blob/HEAD/docs/research-foundations.md",
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Agent Review Panel — interactive HTML dashboard with expandable issue cards",
+          "url": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/v3.3.0/docs/html-demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Agent Review Panel — watch your code journey through the multi-agent review pipeline",
+          "url": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/main/docs/quest-hero.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wan-huiyan/agent-review-panel/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "eval-layer",
+      "url": "https://github.com/erezweinstein5/eval-layer",
+      "primaryUrl": "https://github.com/erezweinstein5/eval-layer",
+      "homepage": "https://builder.aws.com/content/2zJ6hDLoF98mE23KbnPhT59TLOu/your-agent-feels-better-prove-it",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "代码分析工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 13,
+      "license": "unknown",
+      "updated": "2026-08-26",
+      "note": "Claude Code skill that adds rubric-based evaluation to agent projects, generating calibrated test cases, judge prompts, harness outputs, Markdown reports, and self-contained Chart.js dashboards for multi-subject benchmark comparisons.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "证据表",
+        "报告/长文档",
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/structured-output-troubleshooting.md`",
+          "url": "https://github.com/erezweinstein5/eval-layer/blob/HEAD/references/structured-output-troubleshooting.md",
+          "source": "https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Pixel-art balance scale tilting back and forth",
+          "url": "https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/assets/scale.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/erezweinstein5/eval-layer/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
       "name": "ArchLex",
       "url": "https://github.com/baires/archlex",
       "primaryUrl": "https://github.com/baires/archlex",
@@ -55588,6 +56110,69 @@
       "docsCount": 12,
       "examplesCount": 1,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "diag-agent",
+      "url": "https://github.com/docToolchain/diag-agent",
+      "primaryUrl": "https://github.com/docToolchain/diag-agent",
+      "homepage": "http://doctoolchain.org/diag-agent/",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-05-09",
+      "note": "LLM-agnostic CLI, MCP server, and Python library that turns natural-language architecture descriptions into PlantUML, C4, BPMN, Mermaid, and other Kroki-rendered diagrams with autonomous syntax validation and optional vision-based design feedback.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "User Guide - Docker Deployment",
+          "url": "https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/user-guide.md",
+          "source": "https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/arc42/arc42.adoc",
+          "source": "https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Tutorial",
+          "url": "https://github.com/docToolchain/diag-agent/blob/HEAD/src/docs/tutorial.md",
+          "source": "https://raw.githubusercontent.com/docToolchain/diag-agent/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     },
     {
       "name": "Diagrammo MCP",

@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-05.
+Last researched: 2026-09-06.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-06: refreshed HTML artifact skills, Tufte-style chart-generation guidance, static-HTML dashboard restyling, pyecharts skill workflows, cross-IDE data-analysis dashboards, Codex tldraw/code-graph diagramming, adversarial review dashboards, eval benchmark dashboards, and architecture-diagram validation agents from official GitHub repositories, README evidence, project homepages, live web/GitHub searches, and GitHub metadata. This pass added html-it, tufte-data-viz, html-viz, Pyecharts Skills, CrushData AI, codex-tldraw-mcp, Agent Review Panel, eval-layer, and diag-agent. The targeted scraper ran only against these nine new records, fetched twelve official sources successfully with two npm package-page 403 responses, and kept two official examples, nineteen preview assets, and ten docs links after scrubbing generic Claude platform docs and one non-project AWS Open Graph image.
 
 Update on 2026-09-05: refreshed local and MCP-based mind-map renderers, XMind-specific agent workflows, NotebookLM/Gemini Notebook artifact automation, data-to-dashboard/report agents, and Canva report-deck skills from official GitHub repositories, README evidence, project homepages, live web/GitHub searches, and GitHub metadata. This pass added Crewlyze, YMind, NotebookLM MCP Server, XMind Ultimate MCP Server, Mind Map MCP Server by sawyer-shi, AI Data Analyst, and canva-monthly-report. The targeted scraper ran only against these seven new records, fetched nine official sources successfully with two npm package-page 403 responses, and kept sixteen official preview assets plus four docs links after scrubbing one non-artifact Crewlyze branding image.
 
