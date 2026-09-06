@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-06.
+Last researched: 2026-09-07.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-07: refreshed academic PPT and poster skills, PowerPoint speaker-note extraction, Office and Illustrator agent-control utilities, WorkBuddy slide/PPTX skills, data-to-dashboard research, interactive-dashboard QA evaluation, and Power BI visualization-guidance agents from official GitHub repositories, README evidence, arXiv paper pages, live web/GitHub searches, and GitHub metadata. This pass added Harness Anything, speaker, scholar-ppt-cn, paper-analyst, Paper Figure PPTX Skill, Academic Poster Generator Skill, WorkBuddy Skills, Data-to-Dashboard, DashboardQA, and Power BI Visualization Expert Mode. The targeted scraper ran only against these ten new records, fetched thirteen official sources successfully with no failed fetches, and kept twenty-one official examples, five preview assets, and five docs links after scrubbing generic arXiv platform docs, funder images, and a generic social image.
 
 Update on 2026-09-06: refreshed HTML artifact skills, Tufte-style chart-generation guidance, static-HTML dashboard restyling, pyecharts skill workflows, cross-IDE data-analysis dashboards, Codex tldraw/code-graph diagramming, adversarial review dashboards, eval benchmark dashboards, and architecture-diagram validation agents from official GitHub repositories, README evidence, project homepages, live web/GitHub searches, and GitHub metadata. This pass added html-it, tufte-data-viz, html-viz, Pyecharts Skills, CrushData AI, codex-tldraw-mcp, Agent Review Panel, eval-layer, and diag-agent. The targeted scraper ran only against these nine new records, fetched twelve official sources successfully with two npm package-page 403 responses, and kept two official examples, nineteen preview assets, and ten docs links after scrubbing generic Claude platform docs and one non-project AWS Open Graph image.
 

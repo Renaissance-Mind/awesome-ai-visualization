@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-09-05T23:11:07+00:00",
-  "lastResearched": "2026-09-06",
+  "generatedAt": "2026-09-06T23:06:34+00:00",
+  "lastResearched": "2026-09-07",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 686,
-    "openSource": 179,
+    "total": 696,
+    "openSource": 181,
     "saas": 72,
-    "modelApi": 223,
-    "examples": 1444,
-    "effectAssets": 1855,
-    "docs": 1699
+    "modelApi": 228,
+    "examples": 1465,
+    "effectAssets": 1860,
+    "docs": 1704
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 65,
-      "PDF/文档": 204,
-      "文本/想法": 436,
-      "数据/表格": 282,
-      "代码/技术描述": 130,
+      "论文/科研资料": 73,
+      "PDF/文档": 209,
+      "文本/想法": 440,
+      "数据/表格": 285,
+      "代码/技术描述": 132,
       "任意/多源": 110,
-      "网页/搜索结果": 176,
+      "网页/搜索结果": 177,
       "代码库": 75,
       "DSL/代码": 140,
       "新闻/资讯": 27,
       "知识库/个人资料": 68,
-      "Office 文档": 124,
+      "Office 文档": 128,
       "引用网络": 5,
-      "数据库": 65,
+      "数据库": 67,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 179,
-      "Agent Skill": 237,
-      "Skill 集合": 64,
+      "开源应用/框架": 181,
+      "Agent Skill": 243,
+      "Skill 集合": 66,
       "MCP Server": 239,
       "产品/SaaS": 72,
-      "数据集/评测": 2,
-      "Bot/助手": 24,
-      "研究原型": 9,
+      "数据集/评测": 3,
+      "Bot/助手": 25,
+      "研究原型": 10,
       "API/SDK/库": 109,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 49,
-      "PPT/演示文稿": 290,
-      "网页/交互页面": 233,
+      "图形摘要/信息图": 53,
+      "PPT/演示文稿": 297,
+      "网页/交互页面": 234,
       "问答/学习材料": 17,
-      "报告/长文档": 100,
-      "证据表": 55,
+      "报告/长文档": 103,
+      "证据表": 59,
       "信息图/视觉报告": 99,
-      "图表/仪表盘": 215,
+      "图表/仪表盘": 218,
       "架构图/流程图": 153,
-      "SVG/PNG/PDF": 284,
-      "报告/简报": 79,
+      "SVG/PNG/PDF": 287,
+      "报告/简报": 82,
       "白板/思维导图": 44,
       "图表/Mermaid": 71,
       "视频/音频": 52,
@@ -66,29 +66,29 @@
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 570,
-      "模型 API": 223,
-      "文档解析/OCR": 98,
-      "渲染/导出": 594,
-      "GPU/加速器": 19,
-      "模板/素材": 320,
-      "Agent 宿主": 314,
-      "系统工具": 148,
-      "浏览器/账号": 172,
+      "本地语言环境": 579,
+      "模型 API": 228,
+      "文档解析/OCR": 103,
+      "渲染/导出": 603,
+      "GPU/加速器": 20,
+      "模板/素材": 325,
+      "Agent 宿主": 321,
+      "系统工具": 150,
+      "浏览器/账号": 173,
       "存储/索引": 103,
       "MCP Client": 250,
-      "外部检索/数据源": 146,
+      "外部检索/数据源": 149,
       "代码分析工具": 49
     },
     "categories": {
-      "paper-visualization": 20,
+      "paper-visualization": 23,
       "doc-to-knowledge": 63,
       "research-report": 32,
       "infographic-report": 62,
-      "data-dashboard": 107,
+      "data-dashboard": 110,
       "diagram-generation": 81,
       "literature-map": 5,
-      "presentation-tools": 197,
+      "presentation-tools": 201,
       "codebase-map": 44,
       "rendering-primitive": 21,
       "video-generation": 15,
@@ -96,17 +96,17 @@
       "meta-index": 29
     },
     "groups": {
-      "paper": 35,
+      "paper": 38,
       "text_visual": 82,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 33,
       "support_doc_parse": 22,
-      "presentation": 207,
+      "presentation": 211,
       "code": 49,
       "support_render": 62,
       "diagrams": 19,
-      "data": 101,
+      "data": 104,
       "video": 15,
       "indexes": 28,
       "diagram": 3,
@@ -56487,6 +56487,604 @@
       "effectAssets": [],
       "docsCount": 7,
       "examplesCount": 11,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Harness Anything",
+      "url": "https://github.com/yb2460/harness-anything",
+      "primaryUrl": "https://github.com/yb2460/harness-anything",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1693,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "Windows-oriented AI agent control hub for WPS, Microsoft Office, Zotero, and Illustrator automation, including PowerPoint slide creation, SVG-to-PPTX, academic visualization skills, and export to PPTX, PDF, HTML, images, and vector files.",
+      "sourceTypes": [
+        "Office 文档",
+        "论文/科研资料",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "speaker",
+      "url": "https://github.com/AI272/speaker",
+      "primaryUrl": "https://github.com/AI272/speaker",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 448,
+      "license": "unknown",
+      "updated": "2026-09-06",
+      "note": "Codex skill project that reads real PowerPoint decks, renders slides, extracts text, charts, tables, and OCR evidence, then writes grounded rehearsal documents and clean speaker notes back into the PPTX notes pane.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文说明",
+          "url": "https://github.com/AI272/speaker/blob/HEAD/README.zh.md",
+          "source": "https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "speaker cover",
+          "url": "https://raw.githubusercontent.com/AI272/speaker/HEAD/assets/speaker-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "scholar-ppt-cn",
+      "url": "https://github.com/deathcats4/scholar-ppt-cn",
+      "primaryUrl": "https://github.com/deathcats4/scholar-ppt-cn",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 35,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "Chinese academic PPT skill for Codex and ChatGPT that turns papers, reports, outlines, figures, and existing decks into editable, template-aware PPTX files with preview rendering and quality checks.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "paper-analyst",
+      "url": "https://github.com/flyer-Li/paper-analyst",
+      "primaryUrl": "https://github.com/flyer-Li/paper-analyst",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 68,
+      "license": "MIT",
+      "updated": "2026-09-02",
+      "note": "Claude Code paper-analysis skill with quick, standard, extended, presentation, and presentation-with-figures modes, producing evidence-tagged summaries, slide outlines, extracted figures, and automated PPTX decks via a PPTX skill.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "PPT/演示文稿",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/quality-checklist.md`",
+          "url": "https://github.com/flyer-Li/paper-analyst/blob/HEAD/references/quality-checklist.md",
+          "source": "https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Paper Figure PPTX Skill",
+      "url": "https://github.com/fengting124/paper-figure-pptx-skill",
+      "primaryUrl": "https://github.com/fengting124/paper-figure-pptx-skill",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 11,
+      "license": "MIT",
+      "updated": "2026-08-20",
+      "note": "Codex skill for reconstructing academic paper figures, screenshots, and technical diagrams into visually faithful editable PowerPoint slides with LibreOffice-rendered validation, side-by-side comparisons, diff images, and source scripts.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Effect comparison showing source figure and LibreOffice-rendered PPTX reconstruction",
+          "url": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/docs/assets/effect-comparison.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "paper-figure-pptx-skill workflow overview",
+          "url": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/docs/assets/workflow-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "paper-figure-pptx-skill hero",
+          "url": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/docs/assets/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Academic Poster Generator Skill",
+      "url": "https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation",
+      "primaryUrl": "https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 5,
+      "license": "unknown",
+      "updated": "2026-07-06",
+      "note": "Claude Code skill and reference implementation for generating publication-quality academic conference posters as editable PPTX files from paper source, figures, and iterative design requests, with terminal preview rendering.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Example poster",
+          "url": "https://raw.githubusercontent.com/ZLHe0/Skill-ML-Conference-Poster-Creation/HEAD/SenTSR_Bench_Poster_preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/ZLHe0/Skill-ML-Conference-Poster-Creation/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "WorkBuddy Skills",
+      "url": "https://github.com/yinqd3/workbuddy-skills",
+      "primaryUrl": "https://github.com/yinqd3/workbuddy-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-08-25",
+      "note": "WorkBuddy agent-skill collection with frontend-slides for self-contained HTML presentations, pptx-generator for PptxGenJS decks and existing PPTX edits, and academic-research pipelines for long-form research artifacts.",
+      "sourceTypes": [
+        "文本/想法",
+        "论文/科研资料",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "WorkBuddy",
+          "url": "https://www.codebuddy.cn/docs/workbuddy/Overview",
+          "source": "https://raw.githubusercontent.com/yinqd3/workbuddy-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Data-to-Dashboard",
+      "url": "https://github.com/77luvC/D2D_Data2Dashboard",
+      "primaryUrl": "https://github.com/77luvC/D2D_Data2Dashboard",
+      "homepage": "https://arxiv.org/abs/2505.23695",
+      "category": "data-dashboard",
+      "surface": "research",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 31,
+      "license": "unknown",
+      "updated": "2026-05-22",
+      "note": "Research prototype for automating the data-to-dashboard pipeline with modular LLM agents for domain detection, concept extraction, multi-perspective analysis generation, self-reflection, and human-in-the-loop validation.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "研究原型",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arXiv:2505.23695",
+          "url": "https://arxiv.org/abs/2505.23695",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2505.23695v1",
+          "url": "https://arxiv.org/abs/2505.23695v1",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "https://doi.org/10.48550/arXiv.2505.23695",
+          "url": "https://doi.org/10.48550/arXiv.2505.23695",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "NASA ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2505.23695",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "Semantic Scholar",
+          "url": "https://api.semanticscholar.org/arXiv:2505.23695",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.23695&amp;description=Data-to-Dashboard: Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics",
+          "url": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.23695&amp;description=Data-to-Dashboard: Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "https://reddit.com/submit?url=https://arxiv.org/abs/2505.23695&amp;title=Data-to-Dashboard: Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics",
+          "url": "https://reddit.com/submit?url=https://arxiv.org/abs/2505.23695&amp;title=Data-to-Dashboard: Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "showcase",
+          "title": "What is the Explorer?",
+          "url": "https://info.arxiv.org/labs/showcase.html",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "What is Connected Papers?",
+          "url": "https://www.connectedpapers.com/about",
+          "source": "https://arxiv.org/abs/2505.23695"
+        },
+        {
+          "kind": "paper",
+          "title": "Which authors of this paper are endorsers?",
+          "url": "https://arxiv.org/auth/show-endorsers/2505.23695",
+          "source": "https://arxiv.org/abs/2505.23695"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 10,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DashboardQA",
+      "url": "https://github.com/vis-nlp/DashboardQA",
+      "primaryUrl": "https://github.com/vis-nlp/DashboardQA",
+      "homepage": "https://arxiv.org/abs/2508.17398",
+      "category": "data-dashboard",
+      "surface": "dataset",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "GPU/加速器"
+      ],
+      "stars": 6,
+      "license": "Apache-2.0",
+      "updated": "2026-08-01",
+      "note": "Benchmark and dataset for evaluating multimodal agents on interactive Tableau dashboard question answering, including OSWorld-based environment setup, 112 dashboards, 405 QA pairs, and open/closed-model inference scripts.",
+      "sourceTypes": [
+        "数据/表格",
+        "网页/搜索结果",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "数据集/评测"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arXiv:2508.17398",
+          "url": "https://arxiv.org/abs/2508.17398",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2508.17398v1",
+          "url": "https://arxiv.org/abs/2508.17398v1",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "https://doi.org/10.48550/arXiv.2508.17398",
+          "url": "https://doi.org/10.48550/arXiv.2508.17398",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "NASA ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2508.17398",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "Semantic Scholar",
+          "url": "https://api.semanticscholar.org/arXiv:2508.17398",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2508.17398&amp;description=DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards",
+          "url": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2508.17398&amp;description=DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "https://reddit.com/submit?url=https://arxiv.org/abs/2508.17398&amp;title=DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards",
+          "url": "https://reddit.com/submit?url=https://arxiv.org/abs/2508.17398&amp;title=DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "showcase",
+          "title": "What is the Explorer?",
+          "url": "https://info.arxiv.org/labs/showcase.html",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "What is Connected Papers?",
+          "url": "https://www.connectedpapers.com/about",
+          "source": "https://arxiv.org/abs/2508.17398"
+        },
+        {
+          "kind": "paper",
+          "title": "Which authors of this paper are endorsers?",
+          "url": "https://arxiv.org/auth/show-endorsers/2508.17398",
+          "source": "https://arxiv.org/abs/2508.17398"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 10,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Power BI Visualization Expert Mode",
+      "url": "https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md",
+      "primaryUrl": "https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md",
+      "homepage": "https://awesome-copilot.github.com/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 38689,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "GitHub Copilot custom agent for Power BI report design and visualization guidance, using Microsoft documentation to advise chart selection, page layout, interactivity, mobile design, and performance patterns for dashboards.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Bot/助手",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Learning Hub Articles and guides to master GitHub Copilot",
+          "url": "https://awesome-copilot.github.com/learning-hub/",
+          "source": "https://awesome-copilot.github.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Plugins Curated plugins organized by themes -",
+          "url": "https://awesome-copilot.github.com/plugins/",
+          "source": "https://awesome-copilot.github.com/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
       "effectAssetsCount": 0
     }
   ]

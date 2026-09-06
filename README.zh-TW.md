@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-686_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--06-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-696_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--07-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,19 +13,20 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-09-06)
+## Latest Refresh (2026-09-07)
 
 | Project | Catalog focus |
 | --- | --- |
-| [html-it](https://github.com/robonuggets/html-it) | Claude Code skill that turns docs, plans, reports, reviews, dashboards, editors, and ticket boards into static or interactive HTML artifacts instead of plain Markdown. |
-| [tufte-data-viz](https://github.com/caylent/tufte-data-viz) | Agent Skill for applying Edward Tufte data-visualization principles across Recharts, ECharts, Chart.js, matplotlib, Plotly, D3, SVG, and HTML charts. |
-| [html-viz](https://github.com/shenxyt/html-viz) | Claude Code skill that restyles table-heavy static HTML into modern dashboard pages with Mermaid diagrams, Open Props design tokens, and chart-pattern rules. |
-| [Pyecharts Skills](https://github.com/pyecharts/skills) | Agent Skill collection for pyecharts visualization examples across 49 standard, composite, 3D, and ECharts 6 chart types. |
-| [CrushData AI](https://github.com/SankaiAI/crushdataai-agent-skill) | Cross-IDE data analyst skill and CLI for EDA, dashboards, cohort, funnel, KPI, and time-series workflows with a React chart viewer. |
-| [codex-tldraw-mcp](https://github.com/jananadiw/codex-tldraw-mcp) | Codex stdio MCP server that turns repositories or prompts into editable tldraw boards, SVG previews, architecture diagrams, workflow canvases, and code-graph drift views. |
-| [Agent Review Panel](https://github.com/wan-huiyan/agent-review-panel) | Claude Code plugin and skill that produces multi-agent review Markdown plus an interactive HTML dashboard with issue cards, charts, and evidence. |
-| [eval-layer](https://github.com/erezweinstein5/eval-layer) | Claude Code skill that adds rubric-based agent evaluation, test cases, judge prompts, Markdown reports, and Chart.js dashboards for benchmark comparisons. |
-| [diag-agent](https://github.com/docToolchain/diag-agent) | CLI, MCP server, and Python library that converts natural-language architecture descriptions into validated PlantUML, C4, BPMN, Mermaid, and Kroki-rendered diagrams. |
+| [Harness Anything](https://github.com/yb2460/harness-anything) | Windows-oriented AI agent control hub for WPS, Microsoft Office, Zotero, and Illustrator automation, including PowerPoint slide creation, SVG-to-PPTX, academic visualization skills, and export to PPTX, PDF, HTML, images, and vector files. |
+| [speaker](https://github.com/AI272/speaker) | Codex skill project that reads real PowerPoint decks, renders slides, extracts text, charts, tables, and OCR evidence, then writes grounded rehearsal documents and clean speaker notes back into the PPTX notes pane. |
+| [scholar-ppt-cn](https://github.com/deathcats4/scholar-ppt-cn) | Chinese academic PPT skill for Codex and ChatGPT that turns papers, reports, outlines, figures, and existing decks into editable, template-aware PPTX files with preview rendering and quality checks. |
+| [paper-analyst](https://github.com/flyer-Li/paper-analyst) | Claude Code paper-analysis skill with quick, standard, extended, presentation, and presentation-with-figures modes, producing evidence-tagged summaries, slide outlines, extracted figures, and automated PPTX decks via a PPTX skill. |
+| [Paper Figure PPTX Skill](https://github.com/fengting124/paper-figure-pptx-skill) | Codex skill for reconstructing academic paper figures, screenshots, and technical diagrams into visually faithful editable PowerPoint slides with LibreOffice-rendered validation, side-by-side comparisons, diff images, and source scripts. |
+| [Academic Poster Generator Skill](https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation) | Claude Code skill and reference implementation for generating publication-quality academic conference posters as editable PPTX files from paper source, figures, and iterative design requests, with terminal preview rendering. |
+| [WorkBuddy Skills](https://github.com/yinqd3/workbuddy-skills) | WorkBuddy agent-skill collection with frontend-slides for self-contained HTML presentations, pptx-generator for PptxGenJS decks and existing PPTX edits, and academic-research pipelines for long-form research artifacts. |
+| [Data-to-Dashboard](https://github.com/77luvC/D2D_Data2Dashboard) | Research prototype for automating the data-to-dashboard pipeline with modular LLM agents for domain detection, concept extraction, multi-perspective analysis generation, self-reflection, and human-in-the-loop validation. |
+| [DashboardQA](https://github.com/vis-nlp/DashboardQA) | Benchmark and dataset for evaluating multimodal agents on interactive Tableau dashboard question answering, including OSWorld-based environment setup, 112 dashboards, 405 QA pairs, and open/closed-model inference scripts. |
+| [Power BI Visualization Expert Mode](https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md) | GitHub Copilot custom agent for Power BI report design and visualization guidance, using Microsoft documentation to advise chart selection, page layout, interactivity, mobile design, and performance patterns for dashboards. |
 
 ## ✨ 推薦使用方式
 
@@ -87,6 +88,9 @@
 
 | [Auto-Slides](https://github.com/Westlake-AGI-Lab/Auto-Slides) [![Star](https://img.shields.io/github/stars/Westlake-AGI-Lab/Auto-Slides?style=flat&logo=github&label=Star)](https://github.com/Westlake-AGI-Lab/Auto-Slides/stargazers) | Papers/research / PDF/documents | Research prototype / Open-source app/framework | PPT/deck / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Document parsing/OCR / Rendering/export / GPU/accelerator / System tools / Templates/assets |
 | [Academic Presentation Skill](https://github.com/5Donghwan/academic-presentation-skill) [![Star](https://img.shields.io/github/stars/5Donghwan/academic-presentation-skill?style=flat&logo=github&label=Star)](https://github.com/5Donghwan/academic-presentation-skill/stargazers) | 論文/科研資料 / PDF/文件 / 文字/想法 | Agent Skill | PPT/簡報 / 報告/長文件 / SVG/PNG/PDF | Agent host / 本機語言環境 / 文件解析/OCR / 渲染/匯出 / 範本/素材 |
+| [paper-analyst](https://github.com/flyer-Li/paper-analyst) [![Star](https://img.shields.io/github/stars/flyer-Li/paper-analyst?style=flat&logo=github&label=Star)](https://github.com/flyer-Li/paper-analyst/stargazers) | 論文/科研資料 / PDF/文件 | Agent Skill | 報告/長文件 / PPT/簡報 / 圖形摘要/資訊圖 | Agent 宿主 / 本機語言環境 / 模型 API / 文件解析/OCR / 渲染/匯出 |
+| [Paper Figure PPTX Skill](https://github.com/fengting124/paper-figure-pptx-skill) [![Star](https://img.shields.io/github/stars/fengting124/paper-figure-pptx-skill?style=flat&logo=github&label=Star)](https://github.com/fengting124/paper-figure-pptx-skill/stargazers) | 論文/科研資料 / PDF/文件 / 代碼/技術描述 | Agent Skill | PPT/簡報 / 圖形摘要/資訊圖 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 系統工具 / 文件解析/OCR / 渲染/匯出 |
+| [Academic Poster Generator Skill](https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation) [![Star](https://img.shields.io/github/stars/ZLHe0/Skill-ML-Conference-Poster-Creation?style=flat&logo=github&label=Star)](https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation/stargazers) | 論文/科研資料 / PDF/文件 / 文字/想法 | Agent Skill | PPT/簡報 / 圖形摘要/資訊圖 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 文件解析/OCR / 渲染/匯出 / 範本/素材 |
 ### 網頁、新聞、資訊與產業情報
 
 從網頁、搜尋結果、新聞流、市場資料或威脅情報出發，生成帶來源的報告、儀表板和知識圖。
@@ -305,6 +309,9 @@
 | [AI Data Analyst](https://github.com/MeghanaUllas20/ai-data-analyst) [![Star](https://img.shields.io/github/stars/MeghanaUllas20/ai-data-analyst?style=flat&logo=github&label=Star)](https://github.com/MeghanaUllas20/ai-data-analyst/stargazers) | 資料/表格 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 / SVG/PNG/PDF | 本地語言環境 / 渲染/匯出 / 儲存/索引 |
 | [CrushData AI](https://github.com/SankaiAI/crushdataai-agent-skill) [![Star](https://img.shields.io/github/stars/SankaiAI/crushdataai-agent-skill?style=flat&logo=github&label=Star)](https://github.com/SankaiAI/crushdataai-agent-skill/stargazers) | Data/tables / Database | Agent skill / API/SDK/library | Chart/dashboard / Long report / Structured data/Markdown | Agent host / Local runtime / External search/data / Rendering/export / Storage/index |
 | [Pacific Data Hub Agent MCP](https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp) [![Star](https://img.shields.io/github/stars/J-King-Dottie/pacific-data-hub-agent-mcp?style=flat&logo=github&label=Star)](https://github.com/J-King-Dottie/pacific-data-hub-agent-mcp/stargazers) | Database / Data/tables / Web/search | MCP server / Agent skill | Chart/dashboard / PPT/deck / Briefing/report / Evidence table | MCP client / Agent host / Local runtime / External search/data / Rendering/export |
+| [Data-to-Dashboard](https://github.com/77luvC/D2D_Data2Dashboard) [![Star](https://img.shields.io/github/stars/77luvC/D2D_Data2Dashboard?style=flat&logo=github&label=Star)](https://github.com/77luvC/D2D_Data2Dashboard/stargazers) | 資料/表格 / 資料庫 / 論文/科研資料 | 研究原型 / 開源應用/框架 | 圖表/儀表板 / 報告/簡報 / 證據表 | 本機語言環境 / 模型 API / 外部檢索/資料源 / 渲染/匯出 |
+| [DashboardQA](https://github.com/vis-nlp/DashboardQA) [![Star](https://img.shields.io/github/stars/vis-nlp/DashboardQA?style=flat&logo=github&label=Star)](https://github.com/vis-nlp/DashboardQA/stargazers) | 資料/表格 / 網頁/搜尋結果 / 論文/科研資料 | 資料集/評測 | 圖表/儀表板 / 證據表 | 瀏覽器/帳號 / 本機語言環境 / 模型 API / 外部檢索/資料源 / GPU/加速器 |
+| [Power BI Visualization Expert Mode](https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md) [![Star](https://img.shields.io/github/stars/github/awesome-copilot?style=flat&logo=github&label=Star)](https://github.com/github/awesome-copilot/stargazers) | 資料/表格 / 資料庫 / 代碼/技術描述 | Bot/助手 / Agent Skill | 圖表/儀表板 / 報告/簡報 / 證據表 | Agent 宿主 / 模型 API / 外部檢索/資料源 / 渲染/匯出 |
 
 ### 通用文字、想法與白板圖示
 
@@ -636,6 +643,10 @@
 | [OutSlide MCP](https://github.com/miha1744/outslide-mcp) [![Star](https://img.shields.io/github/stars/miha1744/outslide-mcp?style=flat&logo=github&label=Star)](https://github.com/miha1744/outslide-mcp/stargazers) | Text/ideas / Data/tables | MCP server / Product/SaaS | PPT/deck / Structured data/Markdown | MCP client / Agent host / Browser/account / External search/data / Rendering/export |
 | [decklet](https://github.com/grunion-ai/decklet) [![Star](https://img.shields.io/github/stars/grunion-ai/decklet?style=flat&logo=github&label=Star)](https://github.com/grunion-ai/decklet/stargazers) | Any/multi-source / Text/ideas / Data/tables | Agent skill / API/SDK/library | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [techdeck](https://github.com/lionellau/claude-skill-techdeck) [![Star](https://img.shields.io/github/stars/lionellau/claude-skill-techdeck?style=flat&logo=github&label=Star)](https://github.com/lionellau/claude-skill-techdeck/stargazers) | 文字/想法 / 程式碼/技術描述 / 資料/表格 | Agent Skill | PPT/簡報 / 網頁/互動頁面 / 圖表/儀表板 / 架構圖/流程圖 / SVG/PNG/PDF | Agent host / 瀏覽器/帳號 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
+| [Harness Anything](https://github.com/yb2460/harness-anything) [![Star](https://img.shields.io/github/stars/yb2460/harness-anything?style=flat&logo=github&label=Star)](https://github.com/yb2460/harness-anything/stargazers) | Office 文件 / 論文/科研資料 / 文字/想法 | 開源應用/框架 / Skill 集合 | PPT/簡報 / 圖形摘要/資訊圖 / SVG/PNG/PDF | 本機語言環境 / 系統工具 / 渲染/匯出 / 範本/素材 |
+| [speaker](https://github.com/AI272/speaker) [![Star](https://img.shields.io/github/stars/AI272/speaker?style=flat&logo=github&label=Star)](https://github.com/AI272/speaker/stargazers) | Office 文件 / PDF/文件 | Agent Skill | PPT/簡報 / 報告/長文件 / 證據表 | Agent 宿主 / 本機語言環境 / 文件解析/OCR / 渲染/匯出 / 範本/素材 |
+| [scholar-ppt-cn](https://github.com/deathcats4/scholar-ppt-cn) [![Star](https://img.shields.io/github/stars/deathcats4/scholar-ppt-cn?style=flat&logo=github&label=Star)](https://github.com/deathcats4/scholar-ppt-cn/stargazers) | 論文/科研資料 / PDF/文件 / Office 文件 / 文字/想法 | Agent Skill | PPT/簡報 / 報告/簡報 | Agent 宿主 / 模型 API / 本機語言環境 / 文件解析/OCR / 渲染/匯出 / 範本/素材 |
+| [WorkBuddy Skills](https://github.com/yinqd3/workbuddy-skills) [![Star](https://img.shields.io/github/stars/yinqd3/workbuddy-skills?style=flat&logo=github&label=Star)](https://github.com/yinqd3/workbuddy-skills/stargazers) | 文字/想法 / 論文/科研資料 / Office 文件 | Skill 集合 | PPT/簡報 / 網頁/互動頁面 / 報告/長文件 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
 ## 輔助、前後處理與小工具
 
 這一部分放更小、更底层或更專门的工具。它们不一定独立完成整條内容生產鏈，但經常是 Agent 工作流里的關键元件。

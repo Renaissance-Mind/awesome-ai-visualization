@@ -1,4 +1,4 @@
-generated_at: '2026-09-05T23:11:07+00:00'
+generated_at: '2026-09-06T23:06:34+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 686
-  fetched_sources_ok: 922
+  entries: 696
+  fetched_sources_ok: 935
   fetched_sources_failed: 51
-  official_examples: 1444
-  official_effect_assets: 1855
-  official_docs: 1699
+  official_examples: 1465
+  official_effect_assets: 1860
+  official_docs: 1704
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -54076,3 +54076,523 @@ entries:
   - Browse examples
   - Supported Diagram Types
   - Examples
+- name: Harness Anything
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/yb2460/harness-anything
+  dependencies:
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Windows-oriented AI agent control hub for WPS, Microsoft Office, Zotero, and Illustrator automation, including
+    PowerPoint slide creation, SVG-to-PPTX, academic visualization skills, and export to PPTX, PDF, HTML, images, and vector
+    files.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yb2460/harness-anything/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yb2460/harness-anything/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: cli-anything-wps
+    bytes: 6236
+  source_headings:
+  - 每个项目含三件套：模板底图 + JSON数据 + Python引擎
+- name: speaker
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/AI272/speaker
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex skill project that reads real PowerPoint decks, renders slides, extracts text, charts, tables, and OCR
+    evidence, then writes grounded rehearsal documents and clean speaker notes back into the PPTX notes pane.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: speaker [![Available on CodeGuilds](https://img.shields.io/badge/Available_on-CodeGuilds-6366f1?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmc
+    bytes: 12396
+  official_docs:
+  - kind: docs
+    title: 中文说明
+    url: https://github.com/AI272/speaker/blob/HEAD/README.zh.md
+    source: https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: speaker cover
+    url: https://raw.githubusercontent.com/AI272/speaker/HEAD/assets/speaker-cover.png
+    source: https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 中文说明
+    url: https://github.com/AI272/speaker/blob/HEAD/README.zh.md
+    source: https://raw.githubusercontent.com/AI272/speaker/HEAD/README.md
+  source_headings:
+  - Example Prompt
+  - 2. Slide rendering
+  - 3. Visual inventory
+- name: scholar-ppt-cn
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/deathcats4/scholar-ppt-cn
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Chinese academic PPT skill for Codex and ChatGPT that turns papers, reports, outlines, figures, and existing
+    decks into editable, template-aware PPTX files with preview rendering and quality checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/deathcats4/scholar-ppt-cn/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/deathcats4/scholar-ppt-cn/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: scholar-ppt-cn
+    bytes: 3658
+- name: paper-analyst
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/flyer-Li/paper-analyst
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Claude Code paper-analysis skill with quick, standard, extended, presentation, and presentation-with-figures
+    modes, producing evidence-tagged summaries, slide outlines, extracted figures, and automated PPTX decks via a PPTX skill.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: paper-analyst
+    bytes: 6336
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md
+  - kind: docs
+    title: '`references/quality-checklist.md`'
+    url: https://github.com/flyer-Li/paper-analyst/blob/HEAD/references/quality-checklist.md
+    source: https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md
+  - kind: docs
+    title: '`references/quality-checklist.md`'
+    url: https://github.com/flyer-Li/paper-analyst/blob/HEAD/references/quality-checklist.md
+    source: https://raw.githubusercontent.com/flyer-Li/paper-analyst/HEAD/README.md
+  source_headings:
+  - 方法分析模板（按论文类型）
+- name: Paper Figure PPTX Skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/fengting124/paper-figure-pptx-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Codex skill for reconstructing academic paper figures, screenshots, and technical diagrams into visually faithful
+    editable PowerPoint slides with LibreOffice-rendered validation, side-by-side comparisons, diff images, and source scripts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Paper Figure PPTX Skill
+    bytes: 10057
+  official_effect_assets:
+  - kind: image
+    title: Effect comparison showing source figure and LibreOffice-rendered PPTX reconstruction
+    url: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/docs/assets/effect-comparison.png
+    source: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md
+  - kind: image
+    title: paper-figure-pptx-skill workflow overview
+    url: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/docs/assets/workflow-overview.png
+    source: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md
+  - kind: image
+    title: paper-figure-pptx-skill hero
+    url: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/docs/assets/hero.png
+    source: https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/HEAD/README.md
+  source_headings:
+  - Usage Prompts
+- name: Academic Poster Generator Skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill and reference implementation for generating publication-quality academic conference posters
+    as editable PPTX files from paper source, figures, and iterative design requests, with terminal preview rendering.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ZLHe0/Skill-ML-Conference-Poster-Creation/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ZLHe0/Skill-ML-Conference-Poster-Creation/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Claude Code Academic Poster Generator
+    bytes: 6675
+  official_effect_assets:
+  - kind: image
+    title: Example poster
+    url: https://raw.githubusercontent.com/ZLHe0/Skill-ML-Conference-Poster-Creation/HEAD/SenTSR_Bench_Poster_preview.png
+    source: https://raw.githubusercontent.com/ZLHe0/Skill-ML-Conference-Poster-Creation/HEAD/README.md
+  source_headings:
+  - Claude Code Academic Poster Generator
+  - Example Output
+  - 2. Generate the example poster
+  - Creating Your Own Poster
+  - 2. Set up the poster
+- name: WorkBuddy Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/yinqd3/workbuddy-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: WorkBuddy agent-skill collection with frontend-slides for self-contained HTML presentations, pptx-generator
+    for PptxGenJS decks and existing PPTX edits, and academic-research pipelines for long-form research artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yinqd3/workbuddy-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yinqd3/workbuddy-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: WorkBuddy Skills Collection
+    bytes: 4844
+  official_docs:
+  - kind: docs
+    title: WorkBuddy
+    url: https://www.codebuddy.cn/docs/workbuddy/Overview
+    source: https://raw.githubusercontent.com/yinqd3/workbuddy-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: WorkBuddy
+    url: https://www.codebuddy.cn/docs/workbuddy/Overview
+    source: https://raw.githubusercontent.com/yinqd3/workbuddy-skills/HEAD/README.md
+  source_headings:
+  - frontend-slides
+- name: Data-to-Dashboard
+  category: data-dashboard
+  surface: research
+  primary_url: https://github.com/77luvC/D2D_Data2Dashboard
+  homepage: https://arxiv.org/abs/2505.23695
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Research prototype for automating the data-to-dashboard pipeline with modular LLM agents for domain detection,
+    concept extraction, multi-perspective analysis generation, self-reflection, and human-in-the-loop validation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/77luvC/D2D_Data2Dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/77luvC/D2D_Data2Dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: null
+    bytes: 258
+  - kind: homepage
+    url: https://arxiv.org/abs/2505.23695
+    final_url: https://arxiv.org/abs/2505.23695
+    status: 200
+    content_type: text/html
+    title: '[2505.23695] Data-to-Dashboard: Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics'
+    description: 'Abstract page for arXiv paper 2505.23695: Data-to-Dashboard: Multi-Agent LLM Framework for Insightful Visualization
+      in Enterprise Analytics'
+    bytes: 41320
+  official_examples:
+  - kind: paper
+    title: arXiv:2505.23695
+    url: https://arxiv.org/abs/2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: arXiv:2505.23695v1
+    url: https://arxiv.org/abs/2505.23695v1
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2505.23695
+    url: https://doi.org/10.48550/arXiv.2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.23695&amp;description=Data-to-Dashboard:
+      Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.23695&amp;description=Data-to-Dashboard:
+      Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics'
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2505.23695&amp;title=Data-to-Dashboard: Multi-Agent LLM Framework
+      for Insightful Visualization in Enterprise Analytics'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2505.23695&amp;title=Data-to-Dashboard: Multi-Agent LLM Framework
+      for Insightful Visualization in Enterprise Analytics'
+    source: https://arxiv.org/abs/2505.23695
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  official_docs: []
+  official_effect_assets: []
+  official_links:
+  - kind: paper
+    title: arXiv:2505.23695
+    url: https://arxiv.org/abs/2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: arXiv:2505.23695v1
+    url: https://arxiv.org/abs/2505.23695v1
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2505.23695
+    url: https://doi.org/10.48550/arXiv.2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2505.23695
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.23695&amp;description=Data-to-Dashboard:
+      Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.23695&amp;description=Data-to-Dashboard:
+      Multi-Agent LLM Framework for Insightful Visualization in Enterprise Analytics'
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2505.23695&amp;title=Data-to-Dashboard: Multi-Agent LLM Framework
+      for Insightful Visualization in Enterprise Analytics'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2505.23695&amp;title=Data-to-Dashboard: Multi-Agent LLM Framework
+      for Insightful Visualization in Enterprise Analytics'
+    source: https://arxiv.org/abs/2505.23695
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2505.23695
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2505.23695
+    source: https://arxiv.org/abs/2505.23695
+- name: DashboardQA
+  category: data-dashboard
+  surface: dataset
+  primary_url: https://github.com/vis-nlp/DashboardQA
+  homepage: https://arxiv.org/abs/2508.17398
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - GPU/加速器
+  catalog_note: Benchmark and dataset for evaluating multimodal agents on interactive Tableau dashboard question answering,
+    including OSWorld-based environment setup, 112 dashboards, 405 QA pairs, and open/closed-model inference scripts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vis-nlp/DashboardQA/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vis-nlp/DashboardQA/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+    bytes: 4582
+  - kind: homepage
+    url: https://arxiv.org/abs/2508.17398
+    final_url: https://arxiv.org/abs/2508.17398
+    status: 200
+    content_type: text/html
+    title: '[2508.17398] DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+    description: 'Abstract page for arXiv paper 2508.17398: DashboardQA: Benchmarking Multimodal Agents for Question Answering
+      on Interactive Dashboards'
+    bytes: 44033
+  official_examples:
+  - kind: paper
+    title: arXiv:2508.17398
+    url: https://arxiv.org/abs/2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: arXiv:2508.17398v1
+    url: https://arxiv.org/abs/2508.17398v1
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2508.17398
+    url: https://doi.org/10.48550/arXiv.2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2508.17398&amp;description=DashboardQA:
+      Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2508.17398&amp;description=DashboardQA:
+      Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2508.17398&amp;title=DashboardQA: Benchmarking Multimodal
+      Agents for Question Answering on Interactive Dashboards'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2508.17398&amp;title=DashboardQA: Benchmarking Multimodal Agents
+      for Question Answering on Interactive Dashboards'
+    source: https://arxiv.org/abs/2508.17398
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  official_docs: []
+  official_effect_assets: []
+  official_links:
+  - kind: paper
+    title: arXiv:2508.17398
+    url: https://arxiv.org/abs/2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: arXiv:2508.17398v1
+    url: https://arxiv.org/abs/2508.17398v1
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2508.17398
+    url: https://doi.org/10.48550/arXiv.2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2508.17398&amp;description=DashboardQA:
+      Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2508.17398&amp;description=DashboardQA:
+      Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2508.17398&amp;title=DashboardQA: Benchmarking Multimodal
+      Agents for Question Answering on Interactive Dashboards'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2508.17398&amp;title=DashboardQA: Benchmarking Multimodal Agents
+      for Question Answering on Interactive Dashboards'
+    source: https://arxiv.org/abs/2508.17398
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2508.17398
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2508.17398
+    source: https://arxiv.org/abs/2508.17398
+  source_headings:
+  - 'DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+- name: Power BI Visualization Expert Mode
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md
+  homepage: https://awesome-copilot.github.com/
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: GitHub Copilot custom agent for Power BI report design and visualization guidance, using Microsoft documentation
+    to advise chart selection, page layout, interactivity, mobile design, and performance patterns for dashboards.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/github/awesome-copilot/main/agents/power-bi-visualization-expert.agent.md
+    final_url: https://raw.githubusercontent.com/github/awesome-copilot/main/agents/power-bi-visualization-expert.agent.md
+    status: 200
+    content_type: text/plain
+    title: Power BI Visualization Expert Mode
+    bytes: 15017
+  - kind: homepage
+    url: https://awesome-copilot.github.com/
+    final_url: https://awesome-copilot.github.com/
+    status: 200
+    content_type: text/html
+    title: Awesome GitHub Copilot | Awesome GitHub Copilot
+    description: Community-contributed agents, instructions, and skills to enhance your GitHub Copilot experience
+    bytes: 29579
+  official_examples:
+  - kind: template
+    title: Plugins Curated plugins organized by themes -
+    url: https://awesome-copilot.github.com/plugins/
+    source: https://awesome-copilot.github.com/
+  official_docs:
+  - kind: docs
+    title: Learning Hub Articles and guides to master GitHub Copilot
+    url: https://awesome-copilot.github.com/learning-hub/
+    source: https://awesome-copilot.github.com/
+  official_effect_assets: []
+  official_links:
+  - kind: template
+    title: Plugins Curated plugins organized by themes -
+    url: https://awesome-copilot.github.com/plugins/
+    source: https://awesome-copilot.github.com/
+  - kind: docs
+    title: Learning Hub Articles and guides to master GitHub Copilot
+    url: https://awesome-copilot.github.com/learning-hub/
+    source: https://awesome-copilot.github.com/
+  source_headings:
+  - Power BI Visualization Expert Mode
+  - Visualization Design Principles
+  - 2. Visual Hierarchy and Layout
+  - 1. Dashboard Design
+  - Advanced Visualization Techniques
+  - 1. Custom Visuals Integration
+  - 3. Dynamic Visual Creation
