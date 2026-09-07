@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-07.
+Last researched: 2026-09-08.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-08: refreshed agent-native HTML deck generation, editable HTML-to-PPTX conversion, Slidev presentation skills, Treasure Data dashboard/report skills, live PowerPoint MCP editing, DeepSeek Harness and 2slides presentation generation, spec-driven presentation MCP workflows, architecture-diagram DSL rendering, codebase mind-map generation, editorial diagram skills, and story-first PPT production from official GitHub repositories, project homepages, live web/GitHub searches, and GitHub metadata. This pass added keynot, html-to-editable-pptx, CF DevTools, TD Skills, PowerPoint MCP by kzarzycki, dsh-ppt, Spec-Driven Presentation Maker, 2slides Skills, Squinch, codebase-mindmap, Diagram Design, and Knowledge Cat PPT Skill. The targeted scraper ran only against these twelve new records, fetched sixteen official sources successfully with no failed fetches, and kept twenty-nine official examples, thirty-three preview assets, and thirty-one docs links after scrubbing a generic Claude Code docs link, a CloudFormation launch-button asset, and generic Squinch OG/mascot images.
 
 Update on 2026-09-07: refreshed academic PPT and poster skills, PowerPoint speaker-note extraction, Office and Illustrator agent-control utilities, WorkBuddy slide/PPTX skills, data-to-dashboard research, interactive-dashboard QA evaluation, and Power BI visualization-guidance agents from official GitHub repositories, README evidence, arXiv paper pages, live web/GitHub searches, and GitHub metadata. This pass added Harness Anything, speaker, scholar-ppt-cn, paper-analyst, Paper Figure PPTX Skill, Academic Poster Generator Skill, WorkBuddy Skills, Data-to-Dashboard, DashboardQA, and Power BI Visualization Expert Mode. The targeted scraper ran only against these ten new records, fetched thirteen official sources successfully with no failed fetches, and kept twenty-one official examples, five preview assets, and five docs links after scrubbing generic arXiv platform docs, funder images, and a generic social image.
 

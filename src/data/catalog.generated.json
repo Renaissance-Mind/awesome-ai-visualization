@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-09-06T23:06:34+00:00",
-  "lastResearched": "2026-09-07",
+  "generatedAt": "2026-09-07T23:08:20+00:00",
+  "lastResearched": "2026-09-08",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 696,
-    "openSource": 181,
-    "saas": 72,
-    "modelApi": 228,
-    "examples": 1465,
-    "effectAssets": 1860,
-    "docs": 1704
+    "total": 708,
+    "openSource": 182,
+    "saas": 73,
+    "modelApi": 230,
+    "examples": 1494,
+    "effectAssets": 1893,
+    "docs": 1735
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 73,
-      "PDF/文档": 209,
-      "文本/想法": 440,
-      "数据/表格": 285,
-      "代码/技术描述": 132,
-      "任意/多源": 110,
-      "网页/搜索结果": 177,
-      "代码库": 75,
-      "DSL/代码": 140,
+      "PDF/文档": 214,
+      "文本/想法": 450,
+      "数据/表格": 288,
+      "代码/技术描述": 137,
+      "任意/多源": 111,
+      "网页/搜索结果": 181,
+      "代码库": 78,
+      "DSL/代码": 142,
       "新闻/资讯": 27,
-      "知识库/个人资料": 68,
-      "Office 文档": 128,
+      "知识库/个人资料": 69,
+      "Office 文档": 132,
       "引用网络": 5,
-      "数据库": 67,
+      "数据库": 68,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 181,
-      "Agent Skill": 243,
-      "Skill 集合": 66,
-      "MCP Server": 239,
-      "产品/SaaS": 72,
+      "开源应用/框架": 182,
+      "Agent Skill": 255,
+      "Skill 集合": 68,
+      "MCP Server": 241,
+      "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 25,
       "研究原型": 10,
-      "API/SDK/库": 109,
+      "API/SDK/库": 112,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 53,
-      "PPT/演示文稿": 297,
-      "网页/交互页面": 234,
+      "PPT/演示文稿": 305,
+      "网页/交互页面": 242,
       "问答/学习材料": 17,
       "报告/长文档": 103,
       "证据表": 59,
-      "信息图/视觉报告": 99,
-      "图表/仪表盘": 218,
-      "架构图/流程图": 153,
-      "SVG/PNG/PDF": 287,
-      "报告/简报": 82,
+      "信息图/视觉报告": 100,
+      "图表/仪表盘": 222,
+      "架构图/流程图": 155,
+      "SVG/PNG/PDF": 296,
+      "报告/简报": 83,
       "白板/思维导图": 44,
-      "图表/Mermaid": 71,
-      "视频/音频": 52,
+      "图表/Mermaid": 72,
+      "视频/音频": 53,
       "结构化数据/Markdown": 104,
       "表格/时间线": 28,
       "引用答案": 6,
-      "思维导图/知识地图": 42,
+      "思维导图/知识地图": 43,
       "文献地图/知识地图": 5,
-      "代码地图/Repo Wiki": 46,
+      "代码地图/Repo Wiki": 47,
       "图表/渲染输出": 24,
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 579,
-      "模型 API": 228,
+      "本地语言环境": 590,
+      "模型 API": 230,
       "文档解析/OCR": 103,
-      "渲染/导出": 603,
+      "渲染/导出": 615,
       "GPU/加速器": 20,
-      "模板/素材": 325,
-      "Agent 宿主": 321,
-      "系统工具": 150,
-      "浏览器/账号": 173,
+      "模板/素材": 335,
+      "Agent 宿主": 332,
+      "系统工具": 153,
+      "浏览器/账号": 174,
       "存储/索引": 103,
-      "MCP Client": 250,
-      "外部检索/数据源": 149,
-      "代码分析工具": 49
+      "MCP Client": 252,
+      "外部检索/数据源": 151,
+      "代码分析工具": 50
     },
     "categories": {
       "paper-visualization": 23,
       "doc-to-knowledge": 63,
       "research-report": 32,
       "infographic-report": 62,
-      "data-dashboard": 110,
-      "diagram-generation": 81,
+      "data-dashboard": 111,
+      "diagram-generation": 83,
       "literature-map": 5,
-      "presentation-tools": 201,
-      "codebase-map": 44,
+      "presentation-tools": 209,
+      "codebase-map": 45,
       "rendering-primitive": 21,
       "video-generation": 15,
       "commercial-site": 10,
@@ -97,16 +97,16 @@
     },
     "groups": {
       "paper": 38,
-      "text_visual": 82,
+      "text_visual": 84,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 33,
       "support_doc_parse": 22,
-      "presentation": 211,
-      "code": 49,
-      "support_render": 62,
+      "presentation": 218,
+      "code": 50,
+      "support_render": 63,
       "diagrams": 19,
-      "data": 104,
+      "data": 105,
       "video": 15,
       "indexes": 28,
       "diagram": 3,
@@ -57086,6 +57086,1064 @@
       "docsCount": 1,
       "examplesCount": 1,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "keynot",
+      "url": "https://github.com/shawnzam/keynot",
+      "primaryUrl": "https://github.com/shawnzam/keynot",
+      "homepage": "https://shawnzam.github.io/keynot/examples/keynot-for-zombies.html",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 15,
+      "license": "MIT",
+      "updated": "2026-05-02",
+      "note": "Claude Code skill that turns prompts, brand guides, and presentation briefs into single-file HTML decks with navigation, fullscreen mode, reveal animations, PDF export, and optional python-pptx export.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Source",
+          "url": "https://github.com/shawnzam/keynot/blob/HEAD/examples/keynot-for-zombies.html",
+          "source": "https://raw.githubusercontent.com/shawnzam/keynot/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "**keynot-for-zombies.pdf**",
+          "url": "https://github.com/shawnzam/keynot/blob/HEAD/examples/keynot-for-zombies.pdf",
+          "source": "https://raw.githubusercontent.com/shawnzam/keynot/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "**keynot-for-zombies-pptx.py**",
+          "url": "https://github.com/shawnzam/keynot/blob/HEAD/examples/keynot-for-zombies-pptx.py",
+          "source": "https://raw.githubusercontent.com/shawnzam/keynot/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "**keynot-for-zombies.pptx**",
+          "url": "https://github.com/shawnzam/keynot/blob/HEAD/examples/keynot-for-zombies.pptx",
+          "source": "https://raw.githubusercontent.com/shawnzam/keynot/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Live demo: Keynot for Zombies",
+          "url": "https://raw.githubusercontent.com/shawnzam/keynot/HEAD/assets/zombies-preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/shawnzam/keynot/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "html-to-editable-pptx",
+      "url": "https://github.com/Hasasasa/html-to-editable-pptx",
+      "primaryUrl": "https://github.com/Hasasasa/html-to-editable-pptx",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 63,
+      "license": "MIT",
+      "updated": "2026-07-07",
+      "note": "Agent skill and Python CLI that converts HTML slide decks into editable PowerPoint objects, preserving native text, shapes, tables, fonts, and side-by-side visual audit material instead of flattening every slide to screenshots.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "references/supported-css.md",
+          "url": "https://github.com/Hasasasa/html-to-editable-pptx/blob/HEAD/references/supported-css.md",
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/methodology.md",
+          "url": "https://github.com/Hasasasa/html-to-editable-pptx/blob/HEAD/references/methodology.md",
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "beautiful-html-templates",
+          "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "references/lessons-learned.md.example",
+          "url": "https://github.com/Hasasasa/html-to-editable-pptx/blob/HEAD/references/lessons-learned.md.example",
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "html-to-pptx output rendered in PowerPoint",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/yanshi2_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Signal PPT output",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/yanshi1_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Market Outlook PPT output",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/blue_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OpenClaw PPT output",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/openclaw_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "8-Bit Orbit PPT output",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/8bit_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bold Poster HTML rendering",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/bold_html_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bold Poster PPT output",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/bold_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Broadside PPT output",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/broadside_ours_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Original HTML rendering",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/yanshi2_html_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Signal HTML rendering",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/yanshi1_html_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Market Outlook HTML rendering",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/blue_html_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OpenClaw HTML rendering",
+          "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/assets/compare/openclaw_html_grid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "CF DevTools",
+      "url": "https://github.com/clearfunction/cf-devtools",
+      "primaryUrl": "https://github.com/clearfunction/cf-devtools",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updated": "2026-01-06",
+      "note": "Claude Code plugin with a Slidev presentation skill for developer-focused decks, including planning commands, codebase-to-presentation workflow, presenter notes, and PDF/PNG export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/contributing.md",
+          "url": "https://github.com/clearfunction/cf-devtools/blob/HEAD/docs/contributing.md",
+          "source": "https://raw.githubusercontent.com/clearfunction/cf-devtools/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "TD Skills",
+      "url": "https://github.com/treasure-data/td-skills",
+      "primaryUrl": "https://github.com/treasure-data/td-skills",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 21,
+      "license": "unknown",
+      "updated": "2026-09-03",
+      "note": "Treasure Data Claude Code skill collection with Plotly visualization guidance, grid-dashboard and action-report references, SEO/AEO dashboards, brand-compliance visual dashboards, and React dashboard rendering workflows.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "field-agent-skills/documentation",
+          "url": "https://github.com/treasure-data/td-skills/blob/HEAD/field-agent-skills/documentation",
+          "source": "https://raw.githubusercontent.com/treasure-data/td-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "template-skill",
+          "url": "https://github.com/treasure-data/td-skills/blob/HEAD/template-skill",
+          "source": "https://raw.githubusercontent.com/treasure-data/td-skills/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "template-skill",
+          "url": "https://github.com/treasure-data/td-skills/blob/HEAD/template-skill/SKILL.md",
+          "source": "https://raw.githubusercontent.com/treasure-data/td-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "PowerPoint MCP by kzarzycki",
+      "url": "https://github.com/kzarzycki/powerpoint-mcp",
+      "primaryUrl": "https://github.com/kzarzycki/powerpoint-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-08-03",
+      "note": "MCP server and Codex/Claude plugin that manipulates live open PowerPoint decks on macOS and PowerPoint Web through Office.js, with instant slide edits through an HTTP MCP bridge and Office add-in.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`skills/powerpoint-mcp/references/setup.md`",
+          "url": "https://github.com/kzarzycki/powerpoint-mcp/blob/HEAD/skills/powerpoint-mcp/references/setup.md",
+          "source": "https://raw.githubusercontent.com/kzarzycki/powerpoint-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "dsh-ppt",
+      "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+      "primaryUrl": "https://github.com/STARDUSTLC666/dsh-ppt",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-09-05",
+      "note": "DeepSeek Harness presentation skill and tool plugin that turns a sentence, paragraph, or Markdown document into bilingual HTML slideshows, editable PPTX decks, slide manifests, speaker notes, and themed motion.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Spec-Driven Presentation Maker",
+      "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker",
+      "primaryUrl": "https://github.com/aws-samples/sample-spec-driven-presentation-maker",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 128,
+      "license": "MIT-0",
+      "updated": "2026-09-07",
+      "note": "AWS sample toolkit for spec-driven presentation generation, routing agents through briefing, outline, art direction, composition, review, PPTX import/edit sync, style guides, translation, local MCP, and optional AWS deployment.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "日本語版 README はこちら",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/README_ja.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Getting Started",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/getting-started.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`sdpm/SKILL.md`",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/sdpm/SKILL.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Deploy Guide",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/deploy-cloudshell.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "v0.5 migration notes",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/migration-v0.5.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Architecture",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/architecture.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Connecting Agents",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/add-to-gateway.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Teams & Slack Integration",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/teams-slack-integration.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Custom Templates & Assets",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/custom-template.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Cost Estimates",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/cost.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Measuring Usage",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/usage-measurement.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Uninstall",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/HEAD/docs/en/uninstall.md",
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Demo",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/docs/images/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "workflow",
+          "url": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/docs/assets/workflow-en.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/aws-samples/sample-spec-driven-presentation-maker/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 13,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "2slides Skills",
+      "url": "https://github.com/2slides/slides-generation-2slides-skills",
+      "primaryUrl": "https://github.com/2slides/slides-generation-2slides-skills",
+      "homepage": "https://2slides.com/api",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "unknown",
+      "updated": "2026-02-12",
+      "note": "Claude Code skill for 2slides API presentation generation from text, reference images, custom PDFs, documents, and multilingual themes, with slide PNG export, voice narration, async generation, and optional MCP integration.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "2slides API",
+          "url": "https://2slides.com",
+          "source": "https://raw.githubusercontent.com/2slides/slides-generation-2slides-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Get API Access",
+          "url": "https://2slides.com/api",
+          "source": "https://raw.githubusercontent.com/2slides/slides-generation-2slides-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/mcp-integration.md",
+          "url": "https://github.com/2slides/slides-generation-2slides-skills/blob/HEAD/references/mcp-integration.md",
+          "source": "https://raw.githubusercontent.com/2slides/slides-generation-2slides-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "api-reference.md",
+          "url": "https://github.com/2slides/slides-generation-2slides-skills/blob/HEAD/references/api-reference.md",
+          "source": "https://raw.githubusercontent.com/2slides/slides-generation-2slides-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "pricing.md",
+          "url": "https://github.com/2slides/slides-generation-2slides-skills/blob/HEAD/references/pricing.md",
+          "source": "https://raw.githubusercontent.com/2slides/slides-generation-2slides-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "View as Markdown",
+          "url": "https://2slides.com/api.md",
+          "source": "https://2slides.com/api"
+        },
+        {
+          "kind": "docs",
+          "title": "API Complete Guide",
+          "url": "https://2slides.com/blog/api-complete-guide-to-ai-presentation-generation",
+          "source": "https://2slides.com/api"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "PPT Templates",
+          "url": "https://2slides.com/templates",
+          "source": "https://2slides.com/api"
+        },
+        {
+          "kind": "showcase",
+          "title": "Curated",
+          "url": "https://2slides.com/gallery",
+          "source": "https://2slides.com/api"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AI Presentation & Slides Generation API & MCP Server | 2Slides",
+          "url": "https://2slides.com/images/og_2slides.webp",
+          "thumbnailUrl": null,
+          "source": "https://2slides.com/api"
+        }
+      ],
+      "docsCount": 7,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Squinch",
+      "url": "https://github.com/jquatier/squinch",
+      "primaryUrl": "https://github.com/jquatier/squinch",
+      "homepage": "https://squinch.cc/",
+      "category": "diagram-generation",
+      "surface": "library",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "Apache-2.0",
+      "updated": "2026-09-07",
+      "note": "Agent-native architecture-diagram DSL and renderer that lets coding agents write checked .squinch models, then produces deterministic SVG and interactive zoomable HTML diagrams with vendor icons and C4-style drill-down.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "代码库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/SPEC.md",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/docs/SPEC.md",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/notes/html-export.md",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/docs/notes/html-export.md",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Design language",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/docs/DESIGN.md",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Engineering constraints",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/docs/ENGINEERING.md",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Engineering notes",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/docs/notes/",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/products-api",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/examples/products-api",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/microservices",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/examples/microservices",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "squinch.cc/playground",
+          "url": "https://squinch.cc/playground/",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://github.com/jquatier/squinch/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "On a landscape of five systems, clicking the Catalog Service card opens it into its own internals — API, products table, search index and stream sync, with the product stream anima",
+          "url": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/docs/assets/zoom-light.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jquatier/squinch/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "On a landscape of five systems, clicking a service card opens it into its own internals while the rest stay as muted context. The breadcrumb closes it again, and the view cuts to f",
+          "url": "https://squinch.cc/zoom-dark.gif",
+          "thumbnailUrl": null,
+          "source": "https://squinch.cc/"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 4,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "codebase-mindmap",
+      "url": "https://github.com/UnitedDiagram/code-mindmap-skill",
+      "primaryUrl": "https://github.com/UnitedDiagram/code-mindmap-skill",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-07",
+      "note": "Agent Skill that scans codebases and has the agent write a single-file interactive HTML mind map with file-tree facts, imports, LOC, expandable modules, search, hover previews, and a detail sidebar.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "思维导图/知识地图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Diagram Design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "primaryUrl": "https://github.com/cathrynlavery/diagram-design",
+      "homepage": "https://cathrynlavery.github.io/diagram-design/",
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 33271,
+      "license": "MIT",
+      "updated": "2026-09-07",
+      "note": "Agent Skill for Claude Code, Codex, and compatible hosts that turns architecture, flow, journey, data, Sankey, Wardley, Kanban, UML, database, and Mermaid/draw.io sources into self-contained editorial HTML and SVG diagrams.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`skills/diagram-design/references/style-guide.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/style-guide.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`skills/diagram-design/references/onboarding.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/onboarding.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`profiles.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/profiles.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/cookbook.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/docs/cookbook.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`semantic-patterns.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/semantic-patterns.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`animation.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/animation.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/import-drawio.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/import-drawio.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/import-mermaid.md`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/references/import-mermaid.md",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`example-policy-trace-animated.html`",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/assets/example-policy-trace-animated.html",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "gallery",
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/skills/diagram-design/assets/icons.html",
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Architecture",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/architecture.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "IT current-state",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/it-state.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flowchart",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/flowchart.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sequence",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/sequence.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "State machine",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/state.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ER",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/er.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Timeline",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/timeline.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Swimlane",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/swimlane.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Quadrant",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/quadrant.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Radar chart",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/radar.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Loop",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/loop.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Nested",
+          "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/docs/screenshots/thumbs/nested.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/HEAD/README.md"
+        }
+      ],
+      "docsCount": 14,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Knowledge Cat PPT Skill",
+      "url": "https://github.com/gnipbao/knowledge-cat-ppt-skill",
+      "primaryUrl": "https://github.com/gnipbao/knowledge-cat-ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 84,
+      "license": "MIT",
+      "updated": "2026-06-28",
+      "note": "Story-first Agent Skill for Codex and Claude Code that plans, creates, reviews, and repairs native PPTX, HTML deck, and image-first presentation workflows with evidence tracking, lane routing, and validation scripts.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Native PPTX mode preview",
+          "url": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/docs/images/mode-native-pptx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "HTML deck mode preview",
+          "url": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/docs/images/mode-html-deck.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Image-first PPTX mode preview",
+          "url": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/docs/images/mode-image-first.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
     }
   ]
 }

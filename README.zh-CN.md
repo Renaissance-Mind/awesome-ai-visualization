@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-696_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--07-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-708_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--08-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,20 +13,22 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-09-07)
+## Latest Refresh (2026-09-08)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Harness Anything](https://github.com/yb2460/harness-anything) | Windows-oriented AI agent control hub for WPS, Microsoft Office, Zotero, and Illustrator automation, including PowerPoint slide creation, SVG-to-PPTX, academic visualization skills, and export to PPTX, PDF, HTML, images, and vector files. |
-| [speaker](https://github.com/AI272/speaker) | Codex skill project that reads real PowerPoint decks, renders slides, extracts text, charts, tables, and OCR evidence, then writes grounded rehearsal documents and clean speaker notes back into the PPTX notes pane. |
-| [scholar-ppt-cn](https://github.com/deathcats4/scholar-ppt-cn) | Chinese academic PPT skill for Codex and ChatGPT that turns papers, reports, outlines, figures, and existing decks into editable, template-aware PPTX files with preview rendering and quality checks. |
-| [paper-analyst](https://github.com/flyer-Li/paper-analyst) | Claude Code paper-analysis skill with quick, standard, extended, presentation, and presentation-with-figures modes, producing evidence-tagged summaries, slide outlines, extracted figures, and automated PPTX decks via a PPTX skill. |
-| [Paper Figure PPTX Skill](https://github.com/fengting124/paper-figure-pptx-skill) | Codex skill for reconstructing academic paper figures, screenshots, and technical diagrams into visually faithful editable PowerPoint slides with LibreOffice-rendered validation, side-by-side comparisons, diff images, and source scripts. |
-| [Academic Poster Generator Skill](https://github.com/ZLHe0/Skill-ML-Conference-Poster-Creation) | Claude Code skill and reference implementation for generating publication-quality academic conference posters as editable PPTX files from paper source, figures, and iterative design requests, with terminal preview rendering. |
-| [WorkBuddy Skills](https://github.com/yinqd3/workbuddy-skills) | WorkBuddy agent-skill collection with frontend-slides for self-contained HTML presentations, pptx-generator for PptxGenJS decks and existing PPTX edits, and academic-research pipelines for long-form research artifacts. |
-| [Data-to-Dashboard](https://github.com/77luvC/D2D_Data2Dashboard) | Research prototype for automating the data-to-dashboard pipeline with modular LLM agents for domain detection, concept extraction, multi-perspective analysis generation, self-reflection, and human-in-the-loop validation. |
-| [DashboardQA](https://github.com/vis-nlp/DashboardQA) | Benchmark and dataset for evaluating multimodal agents on interactive Tableau dashboard question answering, including OSWorld-based environment setup, 112 dashboards, 405 QA pairs, and open/closed-model inference scripts. |
-| [Power BI Visualization Expert Mode](https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md) | GitHub Copilot custom agent for Power BI report design and visualization guidance, using Microsoft documentation to advise chart selection, page layout, interactivity, mobile design, and performance patterns for dashboards. |
+| [keynot](https://github.com/shawnzam/keynot) | Claude Code skill that turns prompts, brand guides, and presentation briefs into single-file HTML decks with navigation, fullscreen mode, reveal animations, PDF export, and optional python-pptx export. |
+| [html-to-editable-pptx](https://github.com/Hasasasa/html-to-editable-pptx) | Agent skill and Python CLI that converts HTML slide decks into editable PowerPoint objects, preserving native text, shapes, tables, fonts, and side-by-side visual audit material instead of flattening every slide to screenshots. |
+| [CF DevTools](https://github.com/clearfunction/cf-devtools) | Claude Code plugin with a Slidev presentation skill for developer-focused decks, including planning commands, codebase-to-presentation workflow, presenter notes, and PDF/PNG export. |
+| [TD Skills](https://github.com/treasure-data/td-skills) | Treasure Data Claude Code skill collection with Plotly visualization guidance, grid-dashboard and action-report references, SEO/AEO dashboards, brand-compliance visual dashboards, and React dashboard rendering workflows. |
+| [PowerPoint MCP by kzarzycki](https://github.com/kzarzycki/powerpoint-mcp) | MCP server and Codex/Claude plugin that manipulates live open PowerPoint decks on macOS and PowerPoint Web through Office.js, with instant slide edits through an HTTP MCP bridge and Office add-in. |
+| [dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) | DeepSeek Harness presentation skill and tool plugin that turns a sentence, paragraph, or Markdown document into bilingual HTML slideshows, editable PPTX decks, slide manifests, speaker notes, and themed motion. |
+| [Spec-Driven Presentation Maker](https://github.com/aws-samples/sample-spec-driven-presentation-maker) | AWS sample toolkit for spec-driven presentation generation, routing agents through briefing, outline, art direction, composition, review, PPTX import/edit sync, style guides, translation, local MCP, and optional AWS deployment. |
+| [2slides Skills](https://github.com/2slides/slides-generation-2slides-skills) | Claude Code skill for 2slides API presentation generation from text, reference images, custom PDFs, documents, and multilingual themes, with slide PNG export, voice narration, async generation, and optional MCP integration. |
+| [Squinch](https://github.com/jquatier/squinch) | Agent-native architecture-diagram DSL and renderer that lets coding agents write checked .squinch models, then produces deterministic SVG and interactive zoomable HTML diagrams with vendor icons and C4-style drill-down. |
+| [codebase-mindmap](https://github.com/UnitedDiagram/code-mindmap-skill) | Agent Skill that scans codebases and has the agent write a single-file interactive HTML mind map with file-tree facts, imports, LOC, expandable modules, search, hover previews, and a detail sidebar. |
+| [Diagram Design](https://github.com/cathrynlavery/diagram-design) | Agent Skill for Claude Code, Codex, and compatible hosts that turns architecture, flow, journey, data, Sankey, Wardley, Kanban, UML, database, and Mermaid/draw.io sources into self-contained editorial HTML and SVG diagrams. |
+| [Knowledge Cat PPT Skill](https://github.com/gnipbao/knowledge-cat-ppt-skill) | Story-first Agent Skill for Codex and Claude Code that plans, creates, reviews, and repairs native PPTX, HTML deck, and image-first presentation workflows with evidence tracking, lane routing, and validation scripts. |
 
 ## ✨ 推荐使用方式
 
@@ -203,6 +205,8 @@
 | [codex-tldraw-mcp](https://github.com/jananadiw/codex-tldraw-mcp) [![Star](https://img.shields.io/github/stars/jananadiw/codex-tldraw-mcp?style=flat&logo=github&label=Star)](https://github.com/jananadiw/codex-tldraw-mcp/stargazers) | Codebase / Code/technical text / Text/ideas | MCP server | Code map/Repo Wiki / Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Agent host / Local runtime / Code analysis / Rendering/export / Storage/index |
 | [Agent Review Panel](https://github.com/wan-huiyan/agent-review-panel) [![Star](https://img.shields.io/github/stars/wan-huiyan/agent-review-panel?style=flat&logo=github&label=Star)](https://github.com/wan-huiyan/agent-review-panel/stargazers) | Codebase / Code/technical text / Text/ideas | Agent skill / Bot/assistant | Long report / Web/interactive page / Evidence table / Chart/dashboard | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [eval-layer](https://github.com/erezweinstein5/eval-layer) [![Star](https://img.shields.io/github/stars/erezweinstein5/eval-layer?style=flat&logo=github&label=Star)](https://github.com/erezweinstein5/eval-layer/stargazers) | Codebase / Code/technical text / Data/tables | Agent skill | Evidence table / Long report / Chart/dashboard / Web/interactive page | Agent host / Local runtime / Model API / Code analysis / Rendering/export / Templates/assets |
+| [codebase-mindmap](https://github.com/UnitedDiagram/code-mindmap-skill) [![Star](https://img.shields.io/github/stars/UnitedDiagram/code-mindmap-skill?style=flat&logo=github&label=Star)](https://github.com/UnitedDiagram/code-mindmap-skill/stargazers) | Codebase / Code/technical text | Agent skill | Code map/Repo Wiki / Mind map/knowledge map / Web/interactive page | Agent host / Local runtime / Code analysis / Rendering/export |
+
 ### 数据、表格与业务指标
 
 把 CSV、数据库、指标和业务数据转成图表、仪表盘或分析报告。
@@ -312,6 +316,7 @@
 | [Data-to-Dashboard](https://github.com/77luvC/D2D_Data2Dashboard) [![Star](https://img.shields.io/github/stars/77luvC/D2D_Data2Dashboard?style=flat&logo=github&label=Star)](https://github.com/77luvC/D2D_Data2Dashboard/stargazers) | 数据/表格 / 数据库 / 论文/科研资料 | 研究原型 / 开源应用/框架 | 图表/仪表盘 / 报告/简报 / 证据表 | 本地语言环境 / 模型 API / 外部检索/数据源 / 渲染/导出 |
 | [DashboardQA](https://github.com/vis-nlp/DashboardQA) [![Star](https://img.shields.io/github/stars/vis-nlp/DashboardQA?style=flat&logo=github&label=Star)](https://github.com/vis-nlp/DashboardQA/stargazers) | 数据/表格 / 网页/搜索结果 / 论文/科研资料 | 数据集/评测 | 图表/仪表盘 / 证据表 | 浏览器/账号 / 本地语言环境 / 模型 API / 外部检索/数据源 / GPU/加速器 |
 | [Power BI Visualization Expert Mode](https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md) [![Star](https://img.shields.io/github/stars/github/awesome-copilot?style=flat&logo=github&label=Star)](https://github.com/github/awesome-copilot/stargazers) | 数据/表格 / 数据库 / 代码/技术描述 | Bot/助手 / Agent Skill | 图表/仪表盘 / 报告/简报 / 证据表 | Agent 宿主 / 模型 API / 外部检索/数据源 / 渲染/导出 |
+| [TD Skills](https://github.com/treasure-data/td-skills) [![Star](https://img.shields.io/github/stars/treasure-data/td-skills?style=flat&logo=github&label=Star)](https://github.com/treasure-data/td-skills/stargazers) | Data/tables / Database / Knowledge base | Skill collection / Agent skill | Chart/dashboard / Briefing/report / Infographic/visual report | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
 
 ### 通用文本、想法与白板图示
 
@@ -408,6 +413,9 @@
 | [ArchLex](https://github.com/baires/archlex) [![Star](https://img.shields.io/github/stars/baires/archlex?style=flat&logo=github&label=Star)](https://github.com/baires/archlex/stargazers) | Text/ideas / Code/technical text | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF / Structured data/Markdown | MCP client / Agent host / Local runtime / External search/data / Rendering/export |
 | [diag-agent](https://github.com/docToolchain/diag-agent) [![Star](https://img.shields.io/github/stars/docToolchain/diag-agent?style=flat&logo=github&label=Star)](https://github.com/docToolchain/diag-agent/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Open-source app/framework / API/SDK/library | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | MCP client / Agent host / Local runtime / Model API / Rendering/export / System tools |
 | [metro-map-tool](https://github.com/ERP-LAB-5/metro-map-tool) [![Star](https://img.shields.io/github/stars/ERP-LAB-5/metro-map-tool?style=flat&logo=github&label=Star)](https://github.com/ERP-LAB-5/metro-map-tool/stargazers) | Text/ideas / Data/tables / DSL/code | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Browser/account / Rendering/export |
+| [Squinch](https://github.com/jquatier/squinch) [![Star](https://img.shields.io/github/stars/jquatier/squinch?style=flat&logo=github&label=Star)](https://github.com/jquatier/squinch/stargazers) | Code/technical text / Codebase / Text/ideas | API/SDK/library / Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Diagram Design](https://github.com/cathrynlavery/diagram-design) [![Star](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat&logo=github&label=Star)](https://github.com/cathrynlavery/diagram-design/stargazers) | Text/ideas / Code/technical text / Data/tables / DSL/code | Agent skill | Architecture/flow diagram / Diagram/Mermaid / Chart/dashboard / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+
 ### 程序化视频与动态讲解
 
 把提示词、网页、代码库、结构化时间线或 Agent 生成的 HTML 转成带解说或动画的 MP4/视频产物。
@@ -650,6 +658,13 @@
 ## 辅助、前后处理与小工具
 
 这一部分放更小、更底层或更专门的工具。它们不一定独立完成整条内容生产链，但经常是 Agent 工作流里的关键组件。
+| [keynot](https://github.com/shawnzam/keynot) [![Star](https://img.shields.io/github/stars/shawnzam/keynot?style=flat&logo=github&label=Star)](https://github.com/shawnzam/keynot/stargazers) | Text/ideas / PDF/documents / Web/search | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [CF DevTools](https://github.com/clearfunction/cf-devtools) [![Star](https://img.shields.io/github/stars/clearfunction/cf-devtools?style=flat&logo=github&label=Star)](https://github.com/clearfunction/cf-devtools/stargazers) | Text/ideas / Codebase / Code/technical text | Skill collection / Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [PowerPoint MCP by kzarzycki](https://github.com/kzarzycki/powerpoint-mcp) [![Star](https://img.shields.io/github/stars/kzarzycki/powerpoint-mcp?style=flat&logo=github&label=Star)](https://github.com/kzarzycki/powerpoint-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Agent skill | PPT/deck / Chart/dashboard | MCP client / Local runtime / System tools / Rendering/export |
+| [dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) [![Star](https://img.shields.io/github/stars/STARDUSTLC666/dsh-ppt?style=flat&logo=github&label=Star)](https://github.com/STARDUSTLC666/dsh-ppt/stargazers) | Text/ideas / PDF/documents / Code/technical text | Agent skill / API/SDK/library | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Spec-Driven Presentation Maker](https://github.com/aws-samples/sample-spec-driven-presentation-maker) [![Star](https://img.shields.io/github/stars/aws-samples/sample-spec-driven-presentation-maker?style=flat&logo=github&label=Star)](https://github.com/aws-samples/sample-spec-driven-presentation-maker/stargazers) | Text/ideas / PDF/documents / Office docs / Any/multi-source | MCP server / Agent skill / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / MCP client / Local runtime / Model API / System tools / Rendering/export / Templates/assets |
+| [2slides Skills](https://github.com/2slides/slides-generation-2slides-skills) [![Star](https://img.shields.io/github/stars/2slides/slides-generation-2slides-skills?style=flat&logo=github&label=Star)](https://github.com/2slides/slides-generation-2slides-skills/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / Product/SaaS | PPT/deck / SVG/PNG/PDF / Video/audio | Agent host / Model API / Browser/account / External search/data / Rendering/export / Templates/assets |
+| [Knowledge Cat PPT Skill](https://github.com/gnipbao/knowledge-cat-ppt-skill) [![Star](https://img.shields.io/github/stars/gnipbao/knowledge-cat-ppt-skill?style=flat&logo=github&label=Star)](https://github.com/gnipbao/knowledge-cat-ppt-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill | PPT/deck / Web/interactive page / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 
 ### PDF、文档解析与结构化抽取
 
@@ -785,6 +800,7 @@
 | [EditItAll MCP](https://github.com/Subcue/edititall-mcp) [![Star](https://img.shields.io/github/stars/Subcue/edititall-mcp?style=flat&logo=github&label=Star)](https://github.com/Subcue/edititall-mcp/stargazers) | PDF/文档 / Office 文档 / 数据/表格 / 文本/想法 | MCP Server / 产品/SaaS | PPT/演示文稿 / 报告/长文档 / SVG/PNG/PDF / 图表/仪表盘 | MCP Client / 浏览器/账号 / 本地语言环境 / 渲染/导出 |
 | [Diagrammo MCP](https://github.com/diagrammo/dgmo-mcp) [![Star](https://img.shields.io/github/stars/diagrammo/dgmo-mcp?style=flat&logo=github&label=Star)](https://github.com/diagrammo/dgmo-mcp/stargazers) | Text/ideas / DSL/code | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Browser/account / Rendering/export / System tools |
 ## 怎么筛选工具
+| [html-to-editable-pptx](https://github.com/Hasasasa/html-to-editable-pptx) [![Star](https://img.shields.io/github/stars/Hasasasa/html-to-editable-pptx?style=flat&logo=github&label=Star)](https://github.com/Hasasasa/html-to-editable-pptx/stargazers) | Web/search / DSL/code / Text/ideas | Agent skill / API/SDK/library | PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 
 ### 信息来源
 
