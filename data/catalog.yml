@@ -1,4 +1,4 @@
-last_researched: '2026-09-08'
+last_researched: '2026-09-09'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -18437,6 +18437,301 @@ entries:
   - PPT/演示文稿
   - 网页/交互页面
   - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: open-kimi-ppt-skill
+  url: https://github.com/acnlie/open-kimi-ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 119
+  license: MIT
+  updated: '2026-09-08'
+  note: Unofficial Kimi Slides skill for compatible coding agents that creates, edits, reproduces, reads, and exports editable PPTD projects plus embedded-font PPTX decks, with element animations, preset themes, local browser editing, and visual QA before export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Infographic Creator for Codex
+  url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-06'
+  note: Situation-aware Codex skill that routes information-design requests to AntV or Graphviz, selects patterns by semantics, and delivers editable sources plus inspected SVG outputs using a reviewed Graphviz gallery index and original DOT starters.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Show Anywhere Slide
+  url: https://github.com/miazheng-max/show-anywhere-slide
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: other
+  updated: '2026-08-18'
+  note: Claude Code and Codex slide-generation skill that turns topics, articles, PDFs, or PPTX files into self-contained portrait-first HTML decks with a browsable 46-style gallery, click-to-edit text, embedded assets, PDF export, and optional PPTX conversion.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Codex PPT by qybaihe
+  url: https://github.com/qybaihe/codex-ppt
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 36
+  license: MIT
+  updated: '2026-08-31'
+  note: Codex skill that builds 16:9 presentation decks through image-first and editable-PPTX modes, planning a brief, storyline, design system, storyboard, per-slide prompts, QA loop, PDF packaging, and optional native PowerPoint reconstruction.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: PPT Design Skill
+  url: https://github.com/sunchaokun/PPT-Design-Skill
+  homepage: https://sunchaokun.github.io/PPT-Design-Skill/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1207
+  license: MIT
+  updated: '2026-09-08'
+  note: Design-process-centered PowerPoint skill that uses the pptx-designer engine to plan, generate, render, visually inspect, and revise native editable PPTX/PDF/PNG decks across Build, FreeStyle, and template-driven VI modes.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: SlideCraft by wellkilo
+  url: https://github.com/wellkilo/SlideCraft
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-08-07'
+  note: AI presentation skill that turns topics, outlines, notes, and Markdown into zero-dependency animated HTML decks or fully editable PowerPoint files, with twelve curated themes, eight slide types, viewport-fit navigation, multilingual typography, and reduced-motion support.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: huashu-slide-codex
+  url: https://github.com/alchaincyf/huashu-slide-codex
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 21
+  license: MIT
+  updated: '2026-09-07'
+  note: Codex-only visual-material skill that uses built-in image generation to produce image-first PPTX decks, full-screen HTML image decks, editable HTML-to-PPTX outputs, and cover images for WeChat, Bilibili, YouTube, and Xiaohongshu.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: deck.md
+  url: https://github.com/rodrigolourencofarinha/deck.md
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 文档解析/OCR
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-05-05'
+  note: Open deck brief format plus deck-architect agent skill that turns approved Markdown production contracts into designer-mode PDFs or editable PowerPoint outputs, with data-analysis artifacts, asset declarations, rendered review, and versioned repair loops.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Instructional Agents Skills
+  url: https://github.com/DaRL-GenAI/instructional_agents-skills
+  homepage: https://darl-genai.github.io/instructional_agents_homepage/
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-05-15'
+  note: Claude Code skill pack wrapping the Instructional Agents multi-agent pipeline, including LaTeX-to-editable-PPTX conversion, slide compilation, Program Chair and student slide evaluation, and full course generation with PDF and editable LaTeX outputs.
+  source_types:
+  - 论文/科研资料
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - PPT/演示文稿
+  - 问答/学习材料
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
+- name: pptx-cn
+  url: https://github.com/liu-ganghao/claude-skill-pptx-cn
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-07-19'
+  note: Chinese-first Claude Code PPTX skill for research presentations that uses Node and PptxGenJS, with verified academic palettes, result-table and chart templates, speaker notes, existing-deck style-copy recipes, and file-corruption pitfalls.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 论文/科研资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: cjl-slides
+  url: https://github.com/0xcjl/cjl-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-04-04'
+  note: Claude Code skill for single-file HTML presentations with twenty-four international design styles, strict fixed-stage layout rules, multilingual style previews, and optional python-pptx conversion for editable PowerPoint output.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation

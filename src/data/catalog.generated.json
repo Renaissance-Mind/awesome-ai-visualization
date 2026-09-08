@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-07T23:08:20+00:00",
-  "lastResearched": "2026-09-08",
+  "generatedAt": "2026-09-08T23:06:55+00:00",
+  "lastResearched": "2026-09-09",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 708,
+    "total": 719,
     "openSource": 182,
     "saas": 73,
-    "modelApi": 230,
-    "examples": 1494,
-    "effectAssets": 1893,
-    "docs": 1735
+    "modelApi": 234,
+    "examples": 1527,
+    "effectAssets": 1928,
+    "docs": 1753
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 73,
-      "PDF/文档": 214,
-      "文本/想法": 450,
-      "数据/表格": 288,
-      "代码/技术描述": 137,
-      "任意/多源": 111,
-      "网页/搜索结果": 181,
+      "论文/科研资料": 76,
+      "PDF/文档": 222,
+      "文本/想法": 461,
+      "数据/表格": 293,
+      "代码/技术描述": 138,
+      "任意/多源": 112,
+      "网页/搜索结果": 186,
       "代码库": 78,
-      "DSL/代码": 142,
+      "DSL/代码": 144,
       "新闻/资讯": 27,
       "知识库/个人资料": 69,
-      "Office 文档": 132,
+      "Office 文档": 136,
       "引用网络": 5,
       "数据库": 68,
       "视频/音频": 3
     },
     "toolForms": {
       "开源应用/框架": 182,
-      "Agent Skill": 255,
-      "Skill 集合": 68,
+      "Agent Skill": 265,
+      "Skill 集合": 69,
       "MCP Server": 241,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 25,
       "研究原型": 10,
-      "API/SDK/库": 112,
+      "API/SDK/库": 115,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 53,
-      "PPT/演示文稿": 305,
-      "网页/交互页面": 242,
-      "问答/学习材料": 17,
+      "图形摘要/信息图": 54,
+      "PPT/演示文稿": 315,
+      "网页/交互页面": 247,
+      "问答/学习材料": 18,
       "报告/长文档": 103,
       "证据表": 59,
-      "信息图/视觉报告": 100,
-      "图表/仪表盘": 222,
-      "架构图/流程图": 155,
-      "SVG/PNG/PDF": 296,
-      "报告/简报": 83,
+      "信息图/视觉报告": 101,
+      "图表/仪表盘": 224,
+      "架构图/流程图": 156,
+      "SVG/PNG/PDF": 306,
+      "报告/简报": 84,
       "白板/思维导图": 44,
       "图表/Mermaid": 72,
       "视频/音频": 53,
-      "结构化数据/Markdown": 104,
+      "结构化数据/Markdown": 106,
       "表格/时间线": 28,
       "引用答案": 6,
       "思维导图/知识地图": 43,
@@ -66,14 +66,14 @@
       "工具索引": 28
     },
     "dependencies": {
-      "本地语言环境": 590,
-      "模型 API": 230,
-      "文档解析/OCR": 103,
-      "渲染/导出": 615,
+      "本地语言环境": 601,
+      "模型 API": 234,
+      "文档解析/OCR": 105,
+      "渲染/导出": 626,
       "GPU/加速器": 20,
-      "模板/素材": 335,
-      "Agent 宿主": 332,
-      "系统工具": 153,
+      "模板/素材": 345,
+      "Agent 宿主": 343,
+      "系统工具": 155,
       "浏览器/账号": 174,
       "存储/索引": 103,
       "MCP Client": 252,
@@ -82,13 +82,13 @@
     },
     "categories": {
       "paper-visualization": 23,
-      "doc-to-knowledge": 63,
+      "doc-to-knowledge": 64,
       "research-report": 32,
-      "infographic-report": 62,
+      "infographic-report": 63,
       "data-dashboard": 111,
       "diagram-generation": 83,
       "literature-map": 5,
-      "presentation-tools": 209,
+      "presentation-tools": 218,
       "codebase-map": 45,
       "rendering-primitive": 21,
       "video-generation": 15,
@@ -96,13 +96,13 @@
       "meta-index": 29
     },
     "groups": {
-      "paper": 38,
-      "text_visual": 84,
+      "paper": 39,
+      "text_visual": 85,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 33,
       "support_doc_parse": 22,
-      "presentation": 218,
+      "presentation": 227,
       "code": 50,
       "support_render": 63,
       "diagrams": 19,
@@ -58144,6 +58144,1014 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "open-kimi-ppt-skill",
+      "url": "https://github.com/acnlie/open-kimi-ppt-skill",
+      "primaryUrl": "https://github.com/acnlie/open-kimi-ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 119,
+      "license": "MIT",
+      "updated": "2026-09-08",
+      "note": "Unofficial Kimi Slides skill for compatible coding agents that creates, edits, reproduces, reads, and exports editable PPTD projects plus embedded-font PPTX decks, with element animations, preset themes, local browser editing, and visual QA before export.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "reference/pptd.md",
+          "url": "https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/skills/open-kimi-ppt/reference/pptd.md",
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "预设主题",
+          "url": "https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/theme.md",
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "example/xiaomi-yu7-ppt-animation",
+          "url": "https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/example/xiaomi-yu7-ppt-animation",
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "example/dji-pocket4",
+          "url": "https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/example/dji-pocket4",
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "小米 YU7 在线编辑",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-yu7-editor.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "小米 YU7 导出 PPTX",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-yu7-pptx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "WorkBuddy 生成小米 YU7 PPT",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-workbuddy-yu7.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DJI Pocket 4 在线编辑",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-dji-pocket4-editor.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DJI Pocket 4 导出 PPTX",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-dji-pocket4-pptx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "iPhone 17 Pro",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-iphone-17pro.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DeepSeek 生成 Liquid Glass 风格 PPT",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-deepseek-liquid-glass.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Reasonix + DeepSeek 生成 DJI Pocket 4 Pro PPT",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-reasonix-deepseek.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ChatGPT / Codex 使用 5.6 Luna 生成 iPhone 17 Pro PPT",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-codex-iphone17pro.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "在线编辑 PPTD",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/editor-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "导出 PPTX",
+          "url": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/export-pptx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 3,
+      "effectAssetsCount": 11
+    },
+    {
+      "name": "Infographic Creator for Codex",
+      "url": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator",
+      "primaryUrl": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "Situation-aware Codex skill that routes information-design requests to AntV or Graphviz, selects patterns by semantics, and delivers editable sources plus inspected SVG outputs using a reviewed Graphviz gallery index and original DOT starters.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/index.html",
+          "url": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/docs/index.html",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/graphviz-rendering.md",
+          "url": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-rendering.md",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/upstream.md",
+          "url": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/upstream.md",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "공식 문서",
+          "url": "https://graphviz.org/documentation/",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "references/graphviz-gallery-catalog.md",
+          "url": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-gallery-catalog.md",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "references/graphviz-gallery-index.json",
+          "url": "https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-gallery-index.json",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "공식 Gallery",
+          "url": "https://graphviz.org/gallery/",
+          "source": "https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Show Anywhere Slide",
+      "url": "https://github.com/miazheng-max/show-anywhere-slide",
+      "primaryUrl": "https://github.com/miazheng-max/show-anywhere-slide",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "other",
+      "updated": "2026-08-18",
+      "note": "Claude Code and Codex slide-generation skill that turns topics, articles, PDFs, or PPTX files into self-contained portrait-first HTML decks with a browsable 46-style gallery, click-to-edit text, embedded assets, PDF export, and optional PPTX conversion.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "**beautiful-html-templates**",
+          "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+          "source": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Browsing the style gallery, filtering by mood, picking Cobalt Grid, and the resulting portrait deck",
+          "url": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The style gallery: 46 design systems as color-swatch cards, each in its own display font",
+          "url": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/gallery.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "English deck: 8 low-effort BFCM emails, 11 slides in Bold Signal style",
+          "url": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/bfcm-en.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "中文版：8 封低成本 BFCM 邮件，11 页，Bold Signal 风格",
+          "url": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/bfcm-zh.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "Codex PPT by qybaihe",
+      "url": "https://github.com/qybaihe/codex-ppt",
+      "primaryUrl": "https://github.com/qybaihe/codex-ppt",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 36,
+      "license": "MIT",
+      "updated": "2026-08-31",
+      "note": "Codex skill that builds 16:9 presentation decks through image-first and editable-PPTX modes, planning a brief, storyline, design system, storyboard, per-slide prompts, QA loop, PDF packaging, and optional native PowerPoint reconstruction.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Final PDF",
+          "url": "https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/final/shit-app-memphis-pitch.pdf",
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Final PPTX",
+          "url": "https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/final/shit-app-memphis-pitch.pptx",
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Planning source",
+          "url": "https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/source/",
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Codex PPT workflow diagram",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/assets/codex-ppt-workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "SHIT APP cover",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-01-cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Product idea slide",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-03-product-idea.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Core flow slide",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-05-core-flow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI playbook slide",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-07-ai-playbook.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Roadmap closing slide",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-10-roadmap-closing.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Codex PPT hero: AI-rendered slide decks, from brief to PDF",
+          "url": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/assets/codex-ppt-hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "PPT Design Skill",
+      "url": "https://github.com/sunchaokun/PPT-Design-Skill",
+      "primaryUrl": "https://github.com/sunchaokun/PPT-Design-Skill",
+      "homepage": "https://sunchaokun.github.io/PPT-Design-Skill/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1207,
+      "license": "MIT",
+      "updated": "2026-09-08",
+      "note": "Design-process-centered PowerPoint skill that uses the pptx-designer engine to plan, generate, render, visually inspect, and revise native editable PPTX/PDF/PNG decks across Build, FreeStyle, and template-driven VI modes.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "English README",
+          "url": "https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/docs/README_EN.md",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "中文使用手册",
+          "url": "https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/docs/usage-guide.md",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "设计原则",
+          "url": "https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/design-principles.md",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "公共 API",
+          "url": "https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/public-api.md",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "质量与交付",
+          "url": "https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/qa-and-delivery.md",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "在线案例画廊",
+          "url": "https://sunchaokun.github.io/PPT-Design-Skill/",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "template-brand.md",
+          "url": "https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/template-brand.md",
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "案例查看器",
+          "url": "https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=louvre-abudhabi",
+          "source": "https://sunchaokun.github.io/PPT-Design-Skill/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Slide01",
+          "url": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/ai-agent-operating-system/slide01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide01",
+          "url": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/ai-infrastructure-economics/slide01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide01",
+          "url": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/car-t-single-cell-atlas/slide01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide01",
+          "url": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/louvre-abudhabi/slide01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide01",
+          "url": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/vertical-city-retrofit/slide01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Slide01",
+          "url": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/couture-color-objects-of-desire/slide01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 3,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "SlideCraft by wellkilo",
+      "url": "https://github.com/wellkilo/SlideCraft",
+      "primaryUrl": "https://github.com/wellkilo/SlideCraft",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-08-07",
+      "note": "AI presentation skill that turns topics, outlines, notes, and Markdown into zero-dependency animated HTML decks or fully editable PowerPoint files, with twelve curated themes, eight slide types, viewport-fit navigation, multilingual typography, and reduced-motion support.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "STYLE_PRESETS.md",
+          "url": "https://github.com/wellkilo/SlideCraft/blob/HEAD/references/STYLE_PRESETS.md",
+          "source": "https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "html-template.md",
+          "url": "https://github.com/wellkilo/SlideCraft/blob/HEAD/references/html-template.md",
+          "source": "https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "animation-patterns.md",
+          "url": "https://github.com/wellkilo/SlideCraft/blob/HEAD/references/animation-patterns.md",
+          "source": "https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "huashu-slide-codex",
+      "url": "https://github.com/alchaincyf/huashu-slide-codex",
+      "primaryUrl": "https://github.com/alchaincyf/huashu-slide-codex",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 21,
+      "license": "MIT",
+      "updated": "2026-09-07",
+      "note": "Codex-only visual-material skill that uses built-in image generation to produce image-first PPTX decks, full-screen HTML image decks, editable HTML-to-PPTX outputs, and cover images for WeChat, Bilibili, YouTube, and Xiaohongshu.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "design-principles.md",
+          "url": "https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/design-principles.md",
+          "source": "https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "prompt-templates.md",
+          "url": "https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/prompt-templates.md",
+          "source": "https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "proven-styles-gallery.md",
+          "url": "https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/proven-styles-gallery.md",
+          "source": "https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "test-prompts.json",
+          "url": "https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/test-prompts.json",
+          "source": "https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "deck.md",
+      "url": "https://github.com/rodrigolourencofarinha/deck.md",
+      "primaryUrl": "https://github.com/rodrigolourencofarinha/deck.md",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "文档解析/OCR",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-05-05",
+      "note": "Open deck brief format plus deck-architect agent skill that turns approved Markdown production contracts into designer-mode PDFs or editable PowerPoint outputs, with data-analysis artifacts, asset declarations, rendered review, and versioned repair loops.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`scr.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/scr.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`pyramid.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/pyramid.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`problem-solution.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/problem-solution.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`update.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/update.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`data-driven.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/data-driven.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`showcase/`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`codex-feature-pitch.pdf`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/codex-feature-pitch/codex-feature-pitch.pdf",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`codex-feature-pitch.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/codex-feature-pitch/codex-feature-pitch.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`customer-value-chain.pdf`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/customer-value-chain/customer-value-chain.pdf",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`customer-value-chain.deck.md`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/customer-value-chain/customer-value-chain.deck.md",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`decomposer-customer-experience.pdf`",
+          "url": "https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/decomposer-customer-experience/decomposer-customer-experience.pdf",
+          "source": "https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 14,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Instructional Agents Skills",
+      "url": "https://github.com/DaRL-GenAI/instructional_agents-skills",
+      "primaryUrl": "https://github.com/DaRL-GenAI/instructional_agents-skills",
+      "homepage": "https://darl-genai.github.io/instructional_agents_homepage/",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-05-15",
+      "note": "Claude Code skill pack wrapping the Instructional Agents multi-agent pipeline, including LaTeX-to-editable-PPTX conversion, slide compilation, Program Chair and student slide evaluation, and full course generation with PDF and editable LaTeX outputs.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "问答/学习材料",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "`course-generate`",
+          "url": "https://github.com/DaRL-GenAI/instructional_agents-skills/blob/HEAD/skills/course-generate",
+          "source": "https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Paper (arXiv)",
+          "url": "https://arxiv.org/abs/2508.19611",
+          "source": "https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Try it online",
+          "url": "https://instructional-agents.lovable.app/",
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "ADDIE Pipeline",
+          "url": "https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents/main/docs/process-video.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Instructional Agents Pipeline: Multi-Agent Collaboration Process",
+          "url": "https://darl-genai.github.io/instructional_agents_homepage/static/images/process-video.gif",
+          "thumbnailUrl": null,
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        },
+        {
+          "kind": "image",
+          "title": "Overall Framework of Intructional Agents",
+          "url": "https://darl-genai.github.io/instructional_agents_homepage/static/images/framework.png",
+          "thumbnailUrl": null,
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        },
+        {
+          "kind": "image",
+          "title": "Radar chart",
+          "url": "https://darl-genai.github.io/instructional_agents_homepage/static/images/radar.png",
+          "thumbnailUrl": null,
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        },
+        {
+          "kind": "image",
+          "title": "Boxplot of materials",
+          "url": "https://darl-genai.github.io/instructional_agents_homepage/static/images/materials.png",
+          "thumbnailUrl": null,
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        },
+        {
+          "kind": "image",
+          "title": "GPT-4o-mini emerged as the best balance",
+          "url": "https://darl-genai.github.io/instructional_agents_homepage/static/images/RQ1.png",
+          "thumbnailUrl": null,
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        },
+        {
+          "kind": "image",
+          "title": "Instructional Agents show clear trade-offs between speed, human effort, and cost.",
+          "url": "https://darl-genai.github.io/instructional_agents_homepage/static/images/RQ3.png",
+          "thumbnailUrl": null,
+          "source": "https://darl-genai.github.io/instructional_agents_homepage/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "pptx-cn",
+      "url": "https://github.com/liu-ganghao/claude-skill-pptx-cn",
+      "primaryUrl": "https://github.com/liu-ganghao/claude-skill-pptx-cn",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-19",
+      "note": "Chinese-first Claude Code PPTX skill for research presentations that uses Node and PptxGenJS, with verified academic palettes, result-table and chart templates, speaker notes, existing-deck style-copy recipes, and file-corruption pitfalls.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "SKILL.md",
+          "url": "https://github.com/liu-ganghao/claude-skill-pptx-cn/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/deck.pptx`",
+          "url": "https://github.com/liu-ganghao/claude-skill-pptx-cn/blob/HEAD/examples/deck.pptx",
+          "source": "https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "cjl-slides",
+      "url": "https://github.com/0xcjl/cjl-slides",
+      "primaryUrl": "https://github.com/0xcjl/cjl-slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-04-04",
+      "note": "Claude Code skill for single-file HTML presentations with twenty-four international design styles, strict fixed-stage layout rules, multilingual style previews, and optional python-pptx conversion for editable PowerPoint output.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "SKILL.md",
+          "url": "https://github.com/0xcjl/cjl-slides/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "STYLE_PREVIEWS.md",
+          "url": "https://github.com/0xcjl/cjl-slides/blob/HEAD/STYLE_PREVIEWS.md",
+          "source": "https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     }
   ]
 }

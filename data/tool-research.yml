@@ -1,4 +1,4 @@
-generated_at: '2026-09-07T23:08:20+00:00'
+generated_at: '2026-09-08T23:06:55+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 708
-  fetched_sources_ok: 951
+  entries: 719
+  fetched_sources_ok: 964
   fetched_sources_failed: 51
-  official_examples: 1494
-  official_effect_assets: 1893
-  official_docs: 1735
+  official_examples: 1527
+  official_effect_assets: 1928
+  official_docs: 1753
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -55563,3 +55563,861 @@ entries:
     source: https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/HEAD/README.md
   source_headings:
   - Style Template Library
+- name: open-kimi-ppt-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/acnlie/open-kimi-ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Unofficial Kimi Slides skill for compatible coding agents that creates, edits, reproduces, reads, and exports
+    editable PPTD projects plus embedded-font PPTX decks, with element animations, preset themes, local browser editing, and
+    visual QA before export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: open-kimi-ppt-skill
+    bytes: 14067
+  official_examples:
+  - kind: template
+    title: 预设主题
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/theme.md
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: example
+    title: example/xiaomi-yu7-ppt-animation
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/example/xiaomi-yu7-ppt-animation
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: example
+    title: example/dji-pocket4
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/example/dji-pocket4
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: reference/pptd.md
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/skills/open-kimi-ppt/reference/pptd.md
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 小米 YU7 在线编辑
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-yu7-editor.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 小米 YU7 导出 PPTX
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-yu7-pptx.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: WorkBuddy 生成小米 YU7 PPT
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-workbuddy-yu7.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: DJI Pocket 4 在线编辑
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-dji-pocket4-editor.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: DJI Pocket 4 导出 PPTX
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-dji-pocket4-pptx.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: iPhone 17 Pro
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-iphone-17pro.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: DeepSeek 生成 Liquid Glass 风格 PPT
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-deepseek-liquid-glass.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: Reasonix + DeepSeek 生成 DJI Pocket 4 Pro PPT
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-reasonix-deepseek.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: ChatGPT / Codex 使用 5.6 Luna 生成 iPhone 17 Pro PPT
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/example-codex-iphone17pro.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 在线编辑 PPTD
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/editor-overview.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: image
+    title: 导出 PPTX
+    url: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/docs/images/export-pptx.png
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  official_links:
+  - kind: template
+    title: 预设主题
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/theme.md
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: example
+    title: example/xiaomi-yu7-ppt-animation
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/example/xiaomi-yu7-ppt-animation
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: example
+    title: example/dji-pocket4
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/example/dji-pocket4
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  - kind: docs
+    title: reference/pptd.md
+    url: https://github.com/acnlie/open-kimi-ppt-skill/blob/HEAD/skills/open-kimi-ppt/reference/pptd.md
+    source: https://raw.githubusercontent.com/acnlie/open-kimi-ppt-skill/HEAD/README.md
+  source_headings:
+  - Prompt 示例
+- name: Infographic Creator for Codex
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Situation-aware Codex skill that routes information-design requests to AntV or Graphviz, selects patterns
+    by semantics, and delivers editable sources plus inspected SVG outputs using a reviewed Graphviz gallery index and original
+    DOT starters.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infographic Creator for Codex
+    bytes: 7257
+  official_examples:
+  - kind: showcase
+    title: references/graphviz-gallery-catalog.md
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-gallery-catalog.md
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: showcase
+    title: references/graphviz-gallery-index.json
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-gallery-index.json
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: showcase
+    title: 공식 Gallery
+    url: https://graphviz.org/gallery/
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/index.html
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/docs/index.html
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: references/graphviz-rendering.md
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-rendering.md
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: references/upstream.md
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/upstream.md
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: 공식 문서
+    url: https://graphviz.org/documentation/
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: references/graphviz-gallery-catalog.md
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-gallery-catalog.md
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: showcase
+    title: references/graphviz-gallery-index.json
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-gallery-index.json
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: docs/index.html
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/docs/index.html
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: references/graphviz-rendering.md
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/graphviz-rendering.md
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: references/upstream.md
+    url: https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/blob/HEAD/references/upstream.md
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: showcase
+    title: 공식 Gallery
+    url: https://graphviz.org/gallery/
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+  - kind: docs
+    title: 공식 문서
+    url: https://graphviz.org/documentation/
+    source: https://raw.githubusercontent.com/Kimhyuntae9665/codex-skill-infographic-creator/HEAD/README.md
+- name: Show Anywhere Slide
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/miazheng-max/show-anywhere-slide
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex slide-generation skill that turns topics, articles, PDFs, or PPTX files into self-contained
+    portrait-first HTML decks with a browsable 46-style gallery, click-to-edit text, embedded assets, PDF export, and optional
+    PPTX conversion.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Show Anywhere Slide From Mia
+    bytes: 8915
+  official_examples:
+  - kind: template
+    title: '**beautiful-html-templates**'
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Browsing the style gallery, filtering by mood, picking Cobalt Grid, and the resulting portrait deck
+    url: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/demo.gif
+    source: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+  - kind: image
+    title: 'The style gallery: 46 design systems as color-swatch cards, each in its own display font'
+    url: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/gallery.png
+    source: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+  - kind: gif
+    title: 'English deck: 8 low-effort BFCM emails, 11 slides in Bold Signal style'
+    url: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/bfcm-en.gif
+    source: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+  - kind: gif
+    title: 中文版：8 封低成本 BFCM 邮件，11 页，Bold Signal 风格
+    url: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/docs/bfcm-zh.gif
+    source: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '**beautiful-html-templates**'
+    url: https://github.com/zarazhangrui/beautiful-html-templates
+    source: https://raw.githubusercontent.com/miazheng-max/show-anywhere-slide/HEAD/README.md
+  source_headings:
+  - Show Anywhere Slide From Mia
+  - Try the gallery on its own
+- name: Codex PPT by qybaihe
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/qybaihe/codex-ppt
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex skill that builds 16:9 presentation decks through image-first and editable-PPTX modes, planning a brief,
+    storyline, design system, storyboard, per-slide prompts, QA loop, PDF packaging, and optional native PowerPoint reconstruction.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Codex PPT
+    bytes: 5636
+  official_examples:
+  - kind: example
+    title: Final PDF
+    url: https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/final/shit-app-memphis-pitch.pdf
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: example
+    title: Final PPTX
+    url: https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/final/shit-app-memphis-pitch.pptx
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: example
+    title: Planning source
+    url: https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/source/
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Codex PPT workflow diagram
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/assets/codex-ppt-workflow.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: image
+    title: SHIT APP cover
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-01-cover.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: image
+    title: Product idea slide
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-03-product-idea.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: image
+    title: Core flow slide
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-05-core-flow.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: image
+    title: AI playbook slide
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-07-ai-playbook.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: image
+    title: Roadmap closing slide
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/examples/shit-app-memphis-pitch/slides/slide-10-roadmap-closing.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: image
+    title: 'Codex PPT hero: AI-rendered slide decks, from brief to PDF'
+    url: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/assets/codex-ppt-hero.png
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  official_links:
+  - kind: example
+    title: Final PDF
+    url: https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/final/shit-app-memphis-pitch.pdf
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: example
+    title: Final PPTX
+    url: https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/final/shit-app-memphis-pitch.pptx
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  - kind: example
+    title: Planning source
+    url: https://github.com/qybaihe/codex-ppt/blob/HEAD/examples/shit-app-memphis-pitch/source/
+    source: https://raw.githubusercontent.com/qybaihe/codex-ppt/HEAD/README.md
+  source_headings:
+  - Example Output
+  - Why Image-Based Slides?
+- name: PPT Design Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/sunchaokun/PPT-Design-Skill
+  homepage: https://sunchaokun.github.io/PPT-Design-Skill/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Design-process-centered PowerPoint skill that uses the pptx-designer engine to plan, generate, render, visually
+    inspect, and revise native editable PPTX/PDF/PNG decks across Build, FreeStyle, and template-driven VI modes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 先选对生成模式
+    bytes: 18961
+  - kind: homepage
+    url: https://sunchaokun.github.io/PPT-Design-Skill/
+    final_url: https://sunchaokun.github.io/PPT-Design-Skill/
+    status: 200
+    content_type: text/html
+    title: PPT Design Skill · 案例画廊
+    description: PPT Design Skill 精选案例画廊：原生可编辑 PowerPoint 演示设计。
+    bytes: 2329
+  official_examples:
+  - kind: example
+    title: 在线案例画廊
+    url: https://sunchaokun.github.io/PPT-Design-Skill/
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: template
+    title: template-brand.md
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/template-brand.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: example
+    title: 案例查看器
+    url: https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=louvre-abudhabi
+    source: https://sunchaokun.github.io/PPT-Design-Skill/
+  official_docs:
+  - kind: docs
+    title: English README
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/docs/README_EN.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 中文使用手册
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/docs/usage-guide.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 设计原则
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/design-principles.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 公共 API
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/public-api.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 质量与交付
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/qa-and-delivery.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Slide01
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/ai-agent-operating-system/slide01.png
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: image
+    title: Slide01
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/ai-infrastructure-economics/slide01.png
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: image
+    title: Slide01
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/car-t-single-cell-atlas/slide01.png
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: image
+    title: Slide01
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/louvre-abudhabi/slide01.png
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: image
+    title: Slide01
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/vertical-city-retrofit/slide01.png
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: image
+    title: Slide01
+    url: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/examples/site/assets/couture-color-objects-of-desire/slide01.png
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: English README
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/docs/README_EN.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 中文使用手册
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/docs/usage-guide.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: example
+    title: 在线案例画廊
+    url: https://sunchaokun.github.io/PPT-Design-Skill/
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 设计原则
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/design-principles.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 公共 API
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/public-api.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: docs
+    title: 质量与交付
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/qa-and-delivery.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: template
+    title: template-brand.md
+    url: https://github.com/sunchaokun/PPT-Design-Skill/blob/HEAD/skill/references/template-brand.md
+    source: https://raw.githubusercontent.com/sunchaokun/PPT-Design-Skill/HEAD/README.md
+  - kind: example
+    title: 案例查看器
+    url: https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=louvre-abudhabi
+    source: https://sunchaokun.github.io/PPT-Design-Skill/
+  source_headings:
+  - 精选设计案例
+  - 检查真实案例
+  - 文档入口
+- name: SlideCraft by wellkilo
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/wellkilo/SlideCraft
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI presentation skill that turns topics, outlines, notes, and Markdown into zero-dependency animated HTML
+    decks or fully editable PowerPoint files, with twelve curated themes, eight slide types, viewport-fit navigation, multilingual
+    typography, and reduced-motion support.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SlideCraft
+    bytes: 9881
+  source_headings:
+  - SlideCraft
+  - Usage
+  - Basic Examples
+  - Add slides
+  - Available Slide Types
+  - CLI Usage
+  - Generate a demo with all slide types
+  - Customizing Generated Presentations
+  official_examples: []
+  official_links:
+  - kind: docs
+    title: STYLE_PRESETS.md
+    url: https://github.com/wellkilo/SlideCraft/blob/HEAD/references/STYLE_PRESETS.md
+    source: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+  - kind: docs
+    title: html-template.md
+    url: https://github.com/wellkilo/SlideCraft/blob/HEAD/references/html-template.md
+    source: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+  - kind: docs
+    title: animation-patterns.md
+    url: https://github.com/wellkilo/SlideCraft/blob/HEAD/references/animation-patterns.md
+    source: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: STYLE_PRESETS.md
+    url: https://github.com/wellkilo/SlideCraft/blob/HEAD/references/STYLE_PRESETS.md
+    source: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+  - kind: docs
+    title: html-template.md
+    url: https://github.com/wellkilo/SlideCraft/blob/HEAD/references/html-template.md
+    source: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+  - kind: docs
+    title: animation-patterns.md
+    url: https://github.com/wellkilo/SlideCraft/blob/HEAD/references/animation-patterns.md
+    source: https://raw.githubusercontent.com/wellkilo/SlideCraft/HEAD/README.md
+- name: huashu-slide-codex
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/alchaincyf/huashu-slide-codex
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex-only visual-material skill that uses built-in image generation to produce image-first PPTX decks, full-screen
+    HTML image decks, editable HTML-to-PPTX outputs, and cover images for WeChat, Bilibili, YouTube, and Xiaohongshu.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: huashu-slide-codex
+    bytes: 9152
+  source_headings:
+  - huashu-slide-codex
+  official_examples:
+  - kind: example
+    title: test-prompts.json
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/test-prompts.json
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  official_links:
+  - kind: example
+    title: test-prompts.json
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/test-prompts.json
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  - kind: docs
+    title: design-principles.md
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/design-principles.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  - kind: docs
+    title: prompt-templates.md
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/prompt-templates.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  - kind: docs
+    title: proven-styles-gallery.md
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/proven-styles-gallery.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: design-principles.md
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/design-principles.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  - kind: docs
+    title: prompt-templates.md
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/prompt-templates.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+  - kind: docs
+    title: proven-styles-gallery.md
+    url: https://github.com/alchaincyf/huashu-slide-codex/blob/HEAD/references/proven-styles-gallery.md
+    source: https://raw.githubusercontent.com/alchaincyf/huashu-slide-codex/HEAD/README.md
+- name: deck.md
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/rodrigolourencofarinha/deck.md
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 文档解析/OCR
+  - 模板/素材
+  catalog_note: Open deck brief format plus deck-architect agent skill that turns approved Markdown production contracts into
+    designer-mode PDFs or editable PowerPoint outputs, with data-analysis artifacts, asset declarations, rendered review,
+    and versioned repair loops.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: deck.md
+    bytes: 13113
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`scr.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/scr.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`pyramid.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/pyramid.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`problem-solution.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/problem-solution.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`update.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/update.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`data-driven.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/data-driven.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`showcase/`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`codex-feature-pitch.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/codex-feature-pitch/codex-feature-pitch.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`codex-feature-pitch.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/codex-feature-pitch/codex-feature-pitch.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`customer-value-chain.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/customer-value-chain/customer-value-chain.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`customer-value-chain.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/customer-value-chain/customer-value-chain.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`decomposer-customer-experience.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/decomposer-customer-experience/decomposer-customer-experience.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`decomposer-customer-experience.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/decomposer-customer-experience/decomposer-customer-experience.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`thales-teixeira-decoupling.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/thales-teixeira-decoupling/thales-teixeira-decoupling.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`scr.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/scr.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`pyramid.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/pyramid.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`problem-solution.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/problem-solution.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`update.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/update.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: example
+    title: '`data-driven.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/examples/data-driven.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`showcase/`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`codex-feature-pitch.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/codex-feature-pitch/codex-feature-pitch.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`codex-feature-pitch.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/codex-feature-pitch/codex-feature-pitch.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`customer-value-chain.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/customer-value-chain/customer-value-chain.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`customer-value-chain.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/customer-value-chain/customer-value-chain.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`decomposer-customer-experience.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/decomposer-customer-experience/decomposer-customer-experience.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`decomposer-customer-experience.deck.md`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/decomposer-customer-experience/decomposer-customer-experience.deck.md
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  - kind: showcase
+    title: '`thales-teixeira-decoupling.pdf`'
+    url: https://github.com/rodrigolourencofarinha/deck.md/blob/HEAD/showcase/thales-teixeira-decoupling/thales-teixeira-decoupling.pdf
+    source: https://raw.githubusercontent.com/rodrigolourencofarinha/deck.md/HEAD/README.md
+  source_headings:
+  - Examples
+- name: Instructional Agents Skills
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/DaRL-GenAI/instructional_agents-skills
+  homepage: https://darl-genai.github.io/instructional_agents_homepage/
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  catalog_note: Claude Code skill pack wrapping the Instructional Agents multi-agent pipeline, including LaTeX-to-editable-PPTX
+    conversion, slide compilation, Program Chair and student slide evaluation, and full course generation with PDF and editable
+    LaTeX outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Instructional Agents — Claude Code Skills
+    bytes: 3370
+  - kind: homepage
+    url: https://darl-genai.github.io/instructional_agents_homepage/
+    final_url: https://darl-genai.github.io/instructional_agents_homepage/
+    status: 200
+    content_type: text/html
+    title: 'Instructional Agents: Reducing Teaching Faculty Workload through Multi-Agent Instructional Design'
+    description: 'Instructional Agents: Reducing Teaching Faculty Workload through Multi-Agent Instructional Design'
+    bytes: 18356
+  official_examples:
+  - kind: tutorial
+    title: '`course-generate`'
+    url: https://github.com/DaRL-GenAI/instructional_agents-skills/blob/HEAD/skills/course-generate
+    source: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+  - kind: paper
+    title: Paper (arXiv)
+    url: https://arxiv.org/abs/2508.19611
+    source: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+  - kind: demo
+    title: Try it online
+    url: https://instructional-agents.lovable.app/
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  official_effect_assets:
+  - kind: gif
+    title: ADDIE Pipeline
+    url: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents/main/docs/process-video.gif
+    source: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+  - kind: gif
+    title: 'Instructional Agents Pipeline: Multi-Agent Collaboration Process'
+    url: https://darl-genai.github.io/instructional_agents_homepage/static/images/process-video.gif
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  - kind: image
+    title: Overall Framework of Intructional Agents
+    url: https://darl-genai.github.io/instructional_agents_homepage/static/images/framework.png
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  - kind: image
+    title: Radar chart
+    url: https://darl-genai.github.io/instructional_agents_homepage/static/images/radar.png
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  - kind: image
+    title: Boxplot of materials
+    url: https://darl-genai.github.io/instructional_agents_homepage/static/images/materials.png
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  - kind: image
+    title: GPT-4o-mini emerged as the best balance
+    url: https://darl-genai.github.io/instructional_agents_homepage/static/images/RQ1.png
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  - kind: image
+    title: Instructional Agents show clear trade-offs between speed, human effort, and cost.
+    url: https://darl-genai.github.io/instructional_agents_homepage/static/images/RQ3.png
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  official_links:
+  - kind: tutorial
+    title: '`course-generate`'
+    url: https://github.com/DaRL-GenAI/instructional_agents-skills/blob/HEAD/skills/course-generate
+    source: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+  - kind: paper
+    title: Paper (arXiv)
+    url: https://arxiv.org/abs/2508.19611
+    source: https://raw.githubusercontent.com/DaRL-GenAI/instructional_agents-skills/HEAD/README.md
+  - kind: demo
+    title: Try it online
+    url: https://instructional-agents.lovable.app/
+    source: https://darl-genai.github.io/instructional_agents_homepage/
+  source_headings:
+  - 🎯 Example Usage
+  - Convert LaTeX slides to editable PowerPoint
+- name: pptx-cn
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/liu-ganghao/claude-skill-pptx-cn
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Chinese-first Claude Code PPTX skill for research presentations that uses Node and PptxGenJS, with verified
+    academic palettes, result-table and chart templates, speaker notes, existing-deck style-copy recipes, and file-corruption
+    pitfalls.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptx-cn
+    bytes: 3828
+  official_examples:
+  - kind: example
+    title: '`examples/deck.pptx`'
+    url: https://github.com/liu-ganghao/claude-skill-pptx-cn/blob/HEAD/examples/deck.pptx
+    source: https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/deck.pptx`'
+    url: https://github.com/liu-ganghao/claude-skill-pptx-cn/blob/HEAD/examples/deck.pptx
+    source: https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/liu-ganghao/claude-skill-pptx-cn/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md
+  source_headings:
+  - Run the template directly
+  - 直接跑模板
+  official_docs:
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/liu-ganghao/claude-skill-pptx-cn/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/liu-ganghao/claude-skill-pptx-cn/HEAD/README.md
+- name: cjl-slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/0xcjl/cjl-slides
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for single-file HTML presentations with twenty-four international design styles, strict
+    fixed-stage layout rules, multilingual style previews, and optional python-pptx conversion for editable PowerPoint output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: cjl-slides
+    bytes: 2954
+  source_headings:
+  - cjl-slides
+  - Or manually copy all files to ~/.claude/skills/cjl-slides/
+  - Usage
+  official_examples:
+  - kind: template
+    title: STYLE_PREVIEWS.md
+    url: https://github.com/0xcjl/cjl-slides/blob/HEAD/STYLE_PREVIEWS.md
+    source: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
+  official_links:
+  - kind: template
+    title: STYLE_PREVIEWS.md
+    url: https://github.com/0xcjl/cjl-slides/blob/HEAD/STYLE_PREVIEWS.md
+    source: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/0xcjl/cjl-slides/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/0xcjl/cjl-slides/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
