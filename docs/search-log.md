@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-09.
+Last researched: 2026-09-10.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-10: refreshed browser sketch-to-agent-prompt tooling, AI visibility reporting, local WeChat intelligence reports, holographic card and 3D scene skills, verified FFmpeg/video-agent tooling, hand-drawn style prompt galleries, consulting-grade HTML/PDF deck generation, editorial poster generation, image-story video workflows, and local Codex skill dashboards from official GitHub repositories, product pages, README/SKILL evidence, live web/GitHub searches, and GitHub metadata. This pass added M3E Canvas, NiubiGEO, WeChat Intelligence Hub, Holo Card Studio, ffmpeg-skill, handraw-style, dream-loop, consulting-pptx-skill, Yingzao, Image Story Video Wizard, and Codex Skill Stats & Dashboard. The targeted scraper ran only against these eleven new records, fetched fourteen official sources successfully with one npm package-page 403 response, and kept seven official examples, twenty-two preview assets, and twenty-three docs links after scrubbing one generic Anthropic Agent Skill documentation link.
 
 Update on 2026-09-09: refreshed editable and image-first PowerPoint skills, Codex-only visual deck generation, portrait-first HTML slide skills, AntV/Graphviz infographic routing, open deck-spec production contracts, Chinese-first PptxGenJS guidance, and Instructional Agents course/slide conversion from official GitHub repositories, project homepages, README/SKILL evidence, live web/GitHub searches, and GitHub metadata. This pass added open-kimi-ppt-skill, Infographic Creator for Codex, Show Anywhere Slide, Codex PPT by qybaihe, PPT Design Skill, SlideCraft by wellkilo, huashu-slide-codex, deck.md, Instructional Agents Skills, pptx-cn, and cjl-slides. The targeted scraper ran only against these eleven new records, fetched thirteen official sources successfully with no failed fetches, and kept thirty-three official examples, thirty-five preview assets, and eighteen docs links after removing one generic arXiv root link and adding sparse official docs links for SlideCraft, huashu-slide-codex, cjl-slides, and pptx-cn.
 

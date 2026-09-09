@@ -1,4 +1,4 @@
-generated_at: '2026-09-08T23:06:55+00:00'
+generated_at: '2026-09-09T23:06:35+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 719
-  fetched_sources_ok: 964
-  fetched_sources_failed: 51
-  official_examples: 1527
-  official_effect_assets: 1928
-  official_docs: 1753
+  entries: 730
+  fetched_sources_ok: 978
+  fetched_sources_failed: 52
+  official_examples: 1534
+  official_effect_assets: 1950
+  official_docs: 1776
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -56421,3 +56421,631 @@ entries:
     title: SKILL.md
     url: https://github.com/0xcjl/cjl-slides/blob/HEAD/SKILL.md
     source: https://raw.githubusercontent.com/0xcjl/cjl-slides/HEAD/README.md
+- name: M3E Canvas
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/lnkiai/m3e-canvas
+  homepage: https://lnkiai.github.io/m3e-canvas/
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Browser-based Material 3 Expressive canvas for sketching linked mobile and desktop app screens, previewing
+    flows, exporting PNGs, and copying multilingual prompts for Claude Code, Codex, Gemini CLI, Cursor, or other coding agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What it does
+    bytes: 29859
+  - kind: homepage
+    url: https://lnkiai.github.io/m3e-canvas/
+    final_url: https://lnkiai.github.io/m3e-canvas/
+    status: 200
+    content_type: text/html
+    title: M3E Canvas
+    description: Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. / Material 3
+      Expressive の画面をブラウザで組み立てて、そのままプロンプトに。
+    bytes: 76718
+  official_effect_assets:
+  - kind: image
+    title: Tap-through preview
+    url: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/docs/preview.png
+    source: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md
+  - kind: gif
+    title: Sketching a recipes app in M3E Canvas, changing its theme, copying the prompt, an AI coding tool building it, and
+      the app running on Android
+    url: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/docs/story.gif
+    source: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md
+  - kind: image
+    title: Prompt panel
+    url: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/docs/prompt.png
+    source: https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md
+  - kind: image
+    title: M3E Canvas
+    url: https://lnkiai.github.io/m3e-canvas/og.png
+    source: https://lnkiai.github.io/m3e-canvas/
+- name: NiubiGEO
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/Albert-Weasker/niubigeo
+  homepage: https://niubigeo.ai/
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  catalog_note: Open-source AI brand-visibility workbench that turns domains, competitor sets, model answers, citations, and
+    repeated keyword tests into evidence-backed visibility reports, comparison dashboards, and monitoring views.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Does AI recommend your product? Who shows up instead?
+    bytes: 14645
+  - kind: homepage
+    url: https://niubigeo.ai/
+    final_url: https://niubigeo.ai/
+    status: 200
+    content_type: text/html
+    title: niubigeo.ai｜开源 GEO、AI 品牌分析与 SEO 服务
+    description: 提问或输入域名，查看真实模型回答与来源。niubigeo 提供开源 GEO 分析、定制人工测试，以及内容优化、文章发布和外部传播服务。
+    bytes: 135473
+  official_examples:
+  - kind: tutorial
+    title: 阅读 SEO vs GEO 指南 →
+    url: https://niubigeo.ai/guides/seo-vs-geo
+    source: https://niubigeo.ai/
+  official_docs:
+  - kind: docs
+    title: Docker guide
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/deployment/docker.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Backups and upgrades
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/upgrade.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: How it works in detail
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Metrics and comparison conditions
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/measurement-methodology.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Known issues
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/known-issues.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Sources and evidence
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/evidence-model.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Limitations
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/limitations.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://niubigeo.ai/developers
+    source: https://niubigeo.ai/
+  - kind: docs
+    title: 《隐私说明》
+    url: https://niubigeo.ai/privacy
+    source: https://niubigeo.ai/
+  - kind: docs
+    title: 部署文档 ↗
+    url: https://github.com/Albert-Weasker/niubigeo
+    source: https://niubigeo.ai/
+  - kind: docs
+    title: SEO vs GEO
+    url: https://niubigeo.ai/guides/seo-vs-geo
+    source: https://niubigeo.ai/
+  official_effect_assets:
+  - kind: image
+    title: 'PostHog: individual domain recognition results, descriptions, competing products and evidence links'
+    url: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/assets/screenshots/v0.2.0-rc.1/R04-models.png
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: image
+    title: 'Notion: descriptions, competing products and keywords returned by three models'
+    url: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/assets/screenshots/v0.2.0-rc.1/R08-models.png
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Docker guide
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/deployment/docker.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Backups and upgrades
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/upgrade.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: How it works in detail
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Metrics and comparison conditions
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/measurement-methodology.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Known issues
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/known-issues.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Architecture
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Sources and evidence
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/evidence-model.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: Limitations
+    url: https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/limitations.md
+    source: https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://niubigeo.ai/developers
+    source: https://niubigeo.ai/
+  - kind: docs
+    title: 《隐私说明》
+    url: https://niubigeo.ai/privacy
+    source: https://niubigeo.ai/
+  - kind: docs
+    title: 部署文档 ↗
+    url: https://github.com/Albert-Weasker/niubigeo
+    source: https://niubigeo.ai/
+  - kind: tutorial
+    title: 阅读 SEO vs GEO 指南 →
+    url: https://niubigeo.ai/guides/seo-vs-geo
+    source: https://niubigeo.ai/
+  - kind: docs
+    title: SEO vs GEO
+    url: https://niubigeo.ai/guides/seo-vs-geo
+    source: https://niubigeo.ai/
+  source_headings:
+  - Get started
+  - Three real examples
+  - Documentation and project links
+- name: WeChat Intelligence Hub
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local-first Codex skill and reader pipeline that converts authorized WeChat history into searchable intelligence,
+    action items, relationship context, opportunities, Markdown reports, and interactive HTML daily briefings.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: WeChat Intelligence Hub
+    bytes: 14063
+  official_examples:
+  - kind: tutorial
+    title: 使用教程
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: 配置与排障提示词
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  - kind: docs
+    title: 五步首次接入工作流
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/skills/wechat-cli/references/access-onboarding.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  - kind: docs
+    title: 社群介绍
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/COMMUNITY.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 配置与排障提示词
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  - kind: docs
+    title: 五步首次接入工作流
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/skills/wechat-cli/references/access-onboarding.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  - kind: docs
+    title: 社群介绍
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/COMMUNITY.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+  - kind: tutorial
+    title: 使用教程
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/USAGE.md
+    source: https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md
+- name: Holo Card Studio
+  category: rendering-primitive
+  surface: skill
+  primary_url: https://github.com/EverettFish/holo-card-studio
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex skill that turns a text brief or reference image into layered holographic or lenticular cards, editable
+    Blender scenes, rendered images, GLB assets, and interactive Three.js card viewers with validation reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/EverettFish/holo-card-studio/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/EverettFish/holo-card-studio/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🃏 Holo Card Studio
+    bytes: 7672
+- name: ffmpeg-skill
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/kajisho5/ffmpeg-skill
+  homepage: https://www.npmjs.com/package/ffmpeg-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - MCP Client
+  catalog_note: Agent Skill and MCP toolset that gives coding agents a verified FFmpeg workflow for cutting, joining, captioning,
+    overlaying, color converting, waveform rendering, delivery checking, JSON reporting, and whole-project video export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Standalone, and in an ecosystem
+    bytes: 37426
+  - kind: homepage
+    url: https://www.npmjs.com/package/ffmpeg-skill
+    final_url: https://www.npmjs.com/package/ffmpeg-skill
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: video
+    title: '`video-production-agent`'
+    url: https://github.com/kajisho5/video-production-agent
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: video
+    title: '`AI-video-production-OS`'
+    url: https://github.com/kajisho5/AI-video-production-OS
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: video
+    title: '`video-editing-skill`'
+    url: https://github.com/kajisho5/video-editing-skill
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: references/scripts.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/scripts.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: docs/contract.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/docs/contract.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/ci-platform-pitfalls.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/ci-platform-pitfalls.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/devices.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/devices.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/process-pitfalls.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/process-pitfalls.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: before / after demo
+    url: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/assets/demo.gif
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  official_links:
+  - kind: video
+    title: '`video-production-agent`'
+    url: https://github.com/kajisho5/video-production-agent
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: video
+    title: '`AI-video-production-OS`'
+    url: https://github.com/kajisho5/AI-video-production-OS
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: video
+    title: '`video-editing-skill`'
+    url: https://github.com/kajisho5/video-editing-skill
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/scripts.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/scripts.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: docs/contract.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/docs/contract.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/ci-platform-pitfalls.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/ci-platform-pitfalls.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/devices.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/devices.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  - kind: docs
+    title: references/process-pitfalls.md
+    url: https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/process-pitfalls.md
+    source: https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md
+  source_headings:
+  - Docs
+- name: handraw-style
+  category: rendering-primitive
+  surface: skill
+  primary_url: https://github.com/yang0/handraw-style
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 模板/素材
+  catalog_note: Hand-drawn style prompt skill and numbered visual gallery with 261 curated reference styles, model-capability
+    notes, image references, and scripts for resolving style IDs into stable image-generation prompts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 手绘风格提示词库
+    bytes: 3430
+  official_examples:
+  - kind: showcase
+    title: 编号画廊
+    url: https://github.com/yang0/handraw-style/blob/HEAD/handdraw-style-prompter/gallery/index.html
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: A 001–016
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/A_001-016.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: A 017–032
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/A_017-032.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: A 033–035
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/A_033-035.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: B 036–048
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/B_036-048.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: B 049–054
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/B_049-054.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: C 055–070
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/C_055-070.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: C 071–082
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/C_071-082.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: D 083–098
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/D_083-098.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: D 099–114
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/D_099-114.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: D 115–123
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/D_115-123.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: E 124–139
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/E_124-139.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  - kind: image
+    title: E 140–154
+    url: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/E_140-154.png
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: 编号画廊
+    url: https://github.com/yang0/handraw-style/blob/HEAD/handdraw-style-prompter/gallery/index.html
+    source: https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md
+- name: dream-loop
+  category: rendering-primitive
+  surface: skill
+  primary_url: https://github.com/achimala/dream-loop
+  homepage: https://dream-loop-demo.anshu.dev
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - GPU/加速器
+  - 渲染/导出
+  catalog_note: Agent skill for building visually rich games, apps, or scenes through a closed loop of image-generation targets,
+    3D asset creation with Blender or APIs, and browser-based Three.js implementation reviewed against the target screenshot.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: dream-loop
+    bytes: 2182
+  - kind: homepage
+    url: https://dream-loop-demo.anshu.dev/
+    final_url: https://dream-loop-demo.anshu.dev/
+    status: 200
+    content_type: text/html
+    title: "Vesper â\x80\x94 The Drowned Cathedral"
+    bytes: 2169
+  official_examples:
+  - kind: demo
+    title: Try the live demo
+    url: https://dream-loop-demo.anshu.dev
+    source: https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: 'Vesper demo: an isometric fantasy scene'
+    url: https://raw.githubusercontent.com/achimala/dream-loop/HEAD/assets/vesper-preview.gif
+    source: https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Try the live demo
+    url: https://dream-loop-demo.anshu.dev
+    source: https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md
+  source_headings:
+  - Example
+- name: consulting-pptx-skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/carnot-tech/consulting-pptx-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for boardroom-quality decks using a 110-rule slide-design rulebook, 62-part HTML slide library,
+    visual catalog PDF, automated deck checks, rendered layout inspection, and Chrome PDF export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: consulting-pptx-skill
+    bytes: 10087
+  official_docs:
+  - kind: docs
+    title: slide-rules.md
+    url: https://github.com/carnot-tech/consulting-pptx-skill/blob/HEAD/references/slide-rules.md
+    source: https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md
+  - kind: docs
+    title: references/archetype-catalog.md
+    url: https://github.com/carnot-tech/consulting-pptx-skill/blob/HEAD/references/archetype-catalog.md
+    source: https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: slide-rules.md
+    url: https://github.com/carnot-tech/consulting-pptx-skill/blob/HEAD/references/slide-rules.md
+    source: https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md
+  - kind: docs
+    title: references/archetype-catalog.md
+    url: https://github.com/carnot-tech/consulting-pptx-skill/blob/HEAD/references/archetype-catalog.md
+    source: https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md
+  source_headings:
+  - 本質は `references/slide-rules.md`（約110項目のスライド規約）
+- name: Yingzao
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/op7418/guizang-yingzao-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill that transforms architecture, cultural-place, object, food, or travel photos into
+    art-directed editorial posters with fact boundaries, reference recipes, Chinese typography briefs, sparse layout guides,
+    and optional 3x3 video storyboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/op7418/guizang-yingzao-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/op7418/guizang-yingzao-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Yingzao · 营造
+    bytes: 7646
+  official_effect_assets:
+  - kind: image
+    title: Yingzao 作品展示
+    url: https://raw.githubusercontent.com/op7418/guizang-yingzao-skill/HEAD/yingzao/assets/readme-hero.webp
+    source: https://raw.githubusercontent.com/op7418/guizang-yingzao-skill/HEAD/README.md
+  source_headings:
+  - 使用示例
+- name: Image Story Video Wizard
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/aaronyi97/image-story-video-wizard
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex and WorkBuddy skill that guides audio-first image-story videos from topic, benchmarks, writing pack,
+    script, voice, storyboard, style, character anchors, image prompts, asset QC, preview, and final render.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aaronyi97/image-story-video-wizard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aaronyi97/image-story-video-wizard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Image Story Video Wizard
+    bytes: 4116
+  official_docs:
+  - kind: docs
+    title: 豆包语音官方快速入门
+    url: https://www.volcengine.com/docs/6561/163043?lang=zh
+    source: https://raw.githubusercontent.com/aaronyi97/image-story-video-wizard/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 豆包语音官方快速入门
+    url: https://www.volcengine.com/docs/6561/163043?lang=zh
+    source: https://raw.githubusercontent.com/aaronyi97/image-story-video-wizard/HEAD/README.md
+  source_headings:
+  - Image Story Video Wizard
+  - 教程中的默认路线
+- name: Codex Skill Stats & Dashboard
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/tonywei49/codex-skill-dashboard
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local-first Codex dashboard and soft-hook skill that tracks skill usage events, activation state, project
+    context, translation status, and skill details through a zero-dependency SQLite plus vanilla HTML interface.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tonywei49/codex-skill-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tonywei49/codex-skill-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Codex Skill Stats & Dashboard
+    bytes: 5735
+  official_effect_assets:
+  - kind: image
+    title: Codex Skill Dashboard
+    url: https://raw.githubusercontent.com/tonywei49/codex-skill-dashboard/HEAD/assets/dashboard.png
+    source: https://raw.githubusercontent.com/tonywei49/codex-skill-dashboard/HEAD/README.md
+  source_headings:
+  - Codex Skill Stats & Dashboard
+  - 1. Natural Language On-Demand Dashboard Trigger
+  - 2. Automatic Soft-Hook Usage Recording
+  - 3. Start the dashboard
+  - 🖥️ Dashboard Operations

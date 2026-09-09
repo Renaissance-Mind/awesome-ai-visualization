@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-719_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--09-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-730_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--10-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,21 +13,21 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-09-09)
+## Latest Refresh (2026-09-10)
 
 | Project | Catalog focus |
 | --- | --- |
-| [open-kimi-ppt-skill](https://github.com/acnlie/open-kimi-ppt-skill) | Unofficial Kimi Slides skill for compatible coding agents that creates, edits, reproduces, reads, and exports editable PPTD projects plus embedded-font PPTX decks, with element animations, preset themes, local browser editing, and visual QA before export. |
-| [Infographic Creator for Codex](https://github.com/Kimhyuntae9665/codex-skill-infographic-creator) | Situation-aware Codex skill that routes information-design requests to AntV or Graphviz, selects patterns by semantics, and delivers editable sources plus inspected SVG outputs using a reviewed Graphviz gallery index and original DOT starters. |
-| [Show Anywhere Slide](https://github.com/miazheng-max/show-anywhere-slide) | Claude Code and Codex slide-generation skill that turns topics, articles, PDFs, or PPTX files into self-contained portrait-first HTML decks with a browsable 46-style gallery, click-to-edit text, embedded assets, PDF export, and optional PPTX conversion. |
-| [Codex PPT by qybaihe](https://github.com/qybaihe/codex-ppt) | Codex skill that builds 16:9 presentation decks through image-first and editable-PPTX modes, planning a brief, storyline, design system, storyboard, per-slide prompts, QA loop, PDF packaging, and optional native PowerPoint reconstruction. |
-| [PPT Design Skill](https://github.com/sunchaokun/PPT-Design-Skill) | Design-process-centered PowerPoint skill that uses the pptx-designer engine to plan, generate, render, visually inspect, and revise native editable PPTX/PDF/PNG decks across Build, FreeStyle, and template-driven VI modes. |
-| [SlideCraft by wellkilo](https://github.com/wellkilo/SlideCraft) | AI presentation skill that turns topics, outlines, notes, and Markdown into zero-dependency animated HTML decks or fully editable PowerPoint files, with twelve curated themes, eight slide types, viewport-fit navigation, multilingual typography, and reduced-motion support. |
-| [huashu-slide-codex](https://github.com/alchaincyf/huashu-slide-codex) | Codex-only visual-material skill that uses built-in image generation to produce image-first PPTX decks, full-screen HTML image decks, editable HTML-to-PPTX outputs, and cover images for WeChat, Bilibili, YouTube, and Xiaohongshu. |
-| [deck.md](https://github.com/rodrigolourencofarinha/deck.md) | Open deck brief format plus deck-architect agent skill that turns approved Markdown production contracts into designer-mode PDFs or editable PowerPoint outputs, with data-analysis artifacts, asset declarations, rendered review, and versioned repair loops. |
-| [Instructional Agents Skills](https://github.com/DaRL-GenAI/instructional_agents-skills) | Claude Code skill pack wrapping the Instructional Agents multi-agent pipeline, including LaTeX-to-editable-PPTX conversion, slide compilation, Program Chair and student slide evaluation, and full course generation with PDF and editable LaTeX outputs. |
-| [pptx-cn](https://github.com/liu-ganghao/claude-skill-pptx-cn) | Chinese-first Claude Code PPTX skill for research presentations that uses Node and PptxGenJS, with verified academic palettes, result-table and chart templates, speaker notes, existing-deck style-copy recipes, and file-corruption pitfalls. |
-| [cjl-slides](https://github.com/0xcjl/cjl-slides) | Claude Code skill for single-file HTML presentations with twenty-four international design styles, strict fixed-stage layout rules, multilingual style previews, and optional python-pptx conversion for editable PowerPoint output. |
+| [M3E Canvas](https://github.com/lnkiai/m3e-canvas) | Browser-based Material 3 Expressive canvas for sketching linked mobile and desktop app screens, previewing flows, exporting PNGs, and copying multilingual prompts for Claude Code, Codex, Gemini CLI, Cursor, or other coding agents. |
+| [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) | Open-source AI brand-visibility workbench that turns domains, competitor sets, model answers, citations, and repeated keyword tests into evidence-backed visibility reports, comparison dashboards, and monitoring views. |
+| [WeChat Intelligence Hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) | Local-first Codex skill and reader pipeline that converts authorized WeChat history into searchable intelligence, action items, relationship context, opportunities, Markdown reports, and interactive HTML daily briefings. |
+| [Holo Card Studio](https://github.com/EverettFish/holo-card-studio) | Codex skill that turns a text brief or reference image into layered holographic or lenticular cards, editable Blender scenes, rendered images, GLB assets, and interactive Three.js card viewers with validation reports. |
+| [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | Agent Skill and MCP toolset that gives coding agents a verified FFmpeg workflow for cutting, joining, captioning, overlaying, color converting, waveform rendering, delivery checking, JSON reporting, and whole-project video export. |
+| [handraw-style](https://github.com/yang0/handraw-style) | Hand-drawn style prompt skill and numbered visual gallery with 261 curated reference styles, model-capability notes, image references, and scripts for resolving style IDs into stable image-generation prompts. |
+| [dream-loop](https://github.com/achimala/dream-loop) | Agent skill for building visually rich games, apps, or scenes through a closed loop of image-generation targets, 3D asset creation with Blender or APIs, and browser-based Three.js implementation reviewed against the target screenshot. |
+| [consulting-pptx-skill](https://github.com/carnot-tech/consulting-pptx-skill) | Claude Code skill for boardroom-quality decks using a 110-rule slide-design rulebook, 62-part HTML slide library, visual catalog PDF, automated deck checks, rendered layout inspection, and Chrome PDF export. |
+| [Yingzao](https://github.com/op7418/guizang-yingzao-skill) | Claude Code and Codex skill that transforms architecture, cultural-place, object, food, or travel photos into art-directed editorial posters with fact boundaries, reference recipes, Chinese typography briefs, sparse layout guides, and optional 3x3 video storyboards. |
+| [Image Story Video Wizard](https://github.com/aaronyi97/image-story-video-wizard) | Codex and WorkBuddy skill that guides audio-first image-story videos from topic, benchmarks, writing pack, script, voice, storyboard, style, character anchors, image prompts, asset QC, preview, and final render. |
+| [Codex Skill Stats & Dashboard](https://github.com/tonywei49/codex-skill-dashboard) | Local-first Codex dashboard and soft-hook skill that tracks skill usage events, activation state, project context, translation status, and skill details through a zero-dependency SQLite plus vanilla HTML interface. |
 
 ## ✨ 推薦使用方式
 
@@ -120,6 +120,7 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [WeChat Intelligence Hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) [![Star](https://img.shields.io/github/stars/Rion-Wu-tech/wechat-intelligence-hub?style=flat&logo=github&label=Star)](https://github.com/Rion-Wu-tech/wechat-intelligence-hub/stargazers) | 知識庫/個人資料 / 資料庫 / 文字/想法 | Skill 集合 | 報告/長文件 / 網頁/互動頁面 / 證據表 | Agent 宿主 / 本機語言環境 / 系統工具 / 儲存/索引 / 渲染/匯出 |
 | [notex](https://github.com/smallnest/notex) [![Star](https://img.shields.io/github/stars/smallnest/notex?style=flat&logo=github&label=Star)](https://github.com/smallnest/notex/stargazers) | PDF/文件 / 網頁/搜尋結果 / 知識庫/個人資料 | 開源應用/框架 | 報告/簡報 / 心智圖/知識地圖 / 問答/學習材料 | 本機語言環境 / 模型 API / 文件解析/OCR / 渲染/匯出 / 儲存/索引 |
 | [LLM Wiki](https://github.com/nashsu/llm_wiki) [![Star](https://img.shields.io/github/stars/nashsu/llm_wiki?style=flat&logo=github&label=Star)](https://github.com/nashsu/llm_wiki/stargazers) | PDF/documents / Web/search / Knowledge base | Open-source app/framework | Long report / Mind map/knowledge map / Web/interactive page | Browser/account / Local runtime / Model API / Document parsing/OCR / Storage/index / Rendering/export |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) [![Star](https://img.shields.io/github/stars/lfnovo/open-notebook?style=flat&logo=github&label=Star)](https://github.com/lfnovo/open-notebook/stargazers) | PDF/文件 / 網頁/搜尋結果 / 知識庫/個人資料 | 開源應用/框架 | 報告/簡報 / 心智圖/知識地圖 / 問答/學習材料 | 本機語言環境 / 模型 API / 文件解析/OCR / 儲存/索引 |
@@ -213,6 +214,8 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) [![Star](https://img.shields.io/github/stars/Albert-Weasker/niubigeo?style=flat&logo=github&label=Star)](https://github.com/Albert-Weasker/niubigeo/stargazers) | 網頁/搜尋結果 / 資料/表格 / 任意/多源 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 / 證據表 | 瀏覽器/帳號 / 模型 API / 本機語言環境 / 外部檢索/資料來源 / 儲存/索引 |
+| [Codex Skill Stats & Dashboard](https://github.com/tonywei49/codex-skill-dashboard) [![Star](https://img.shields.io/github/stars/tonywei49/codex-skill-dashboard?style=flat&logo=github&label=Star)](https://github.com/tonywei49/codex-skill-dashboard/stargazers) | 程式碼庫 / 資料庫 / 資料/表格 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 儲存/索引 / 渲染/匯出 |
 | [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) [![Star](https://img.shields.io/github/stars/drpwchen/lecture-to-notes?style=flat&logo=github&label=Star)](https://github.com/drpwchen/lecture-to-notes/stargazers) | Any/multi-source / PDF/documents / Office docs / Text/ideas | Open-source app/framework / Agent skill | Web/interactive page / Long report / Structured data/Markdown / SVG/PNG/PDF | Local runtime / System tools / Document parsing/OCR / Rendering/export / GPU/accelerator / Model API |
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
@@ -324,6 +327,11 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [M3E Canvas](https://github.com/lnkiai/m3e-canvas) [![Star](https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat&logo=github&label=Star)](https://github.com/lnkiai/m3e-canvas/stargazers) | 文字/想法 / 程式碼/技術描述 | 開源應用/框架 | 網頁/互動頁面 / 結構化資料/Markdown / SVG/PNG/PDF | 瀏覽器/帳號 / 模型 API / 渲染/匯出 / 模板/素材 |
+| [Holo Card Studio](https://github.com/EverettFish/holo-card-studio) [![Star](https://img.shields.io/github/stars/EverettFish/holo-card-studio?style=flat&logo=github&label=Star)](https://github.com/EverettFish/holo-card-studio/stargazers) | 文字/想法 / PDF/文件 / 任意/多源 | Agent Skill | 網頁/互動頁面 / SVG/PNG/PDF / 圖形摘要/資訊圖 | Agent 宿主 / 模型 API / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
+| [handraw-style](https://github.com/yang0/handraw-style) [![Star](https://img.shields.io/github/stars/yang0/handraw-style?style=flat&logo=github&label=Star)](https://github.com/yang0/handraw-style/stargazers) | 文字/想法 / 任意/多源 | Agent Skill | 圖形摘要/資訊圖 / 工具索引 / 結構化資料/Markdown | Agent 宿主 / 模型 API / 本機語言環境 / 模板/素材 |
+| [dream-loop](https://github.com/achimala/dream-loop) [![Star](https://img.shields.io/github/stars/achimala/dream-loop?style=flat&logo=github&label=Star)](https://github.com/achimala/dream-loop/stargazers) | 文字/想法 / 程式碼/技術描述 | Agent Skill | 網頁/互動頁面 / SVG/PNG/PDF / 影片/音訊 | Agent 宿主 / 模型 API / 本機語言環境 / 系統工具 / GPU/加速器 / 渲染/匯出 |
+| [Yingzao](https://github.com/op7418/guizang-yingzao-skill) [![Star](https://img.shields.io/github/stars/op7418/guizang-yingzao-skill?style=flat&logo=github&label=Star)](https://github.com/op7418/guizang-yingzao-skill/stargazers) | 文字/想法 / 網頁/搜尋結果 / 任意/多源 | Agent Skill | 資訊圖/視覺報告 / 圖形摘要/資訊圖 / 影片/音訊 | Agent 宿主 / 模型 API / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [q-skills](https://github.com/TyrealQ/q-skills) [![Star](https://img.shields.io/github/stars/TyrealQ/q-skills?style=flat&logo=github&label=Star)](https://github.com/TyrealQ/q-skills/stargazers) | 文字/想法 / PDF/文件 / 資料/表格 | Skill 集合 | 資訊圖/視覺報告 / 報告/長文件 | Agent 宿主 / 模型 API / 本機語言環境 / 渲染/匯出 |
 | [Infographic Creator for Codex](https://github.com/Kimhyuntae9665/codex-skill-infographic-creator) [![Star](https://img.shields.io/github/stars/Kimhyuntae9665/codex-skill-infographic-creator?style=flat&logo=github&label=Star)](https://github.com/Kimhyuntae9665/codex-skill-infographic-creator/stargazers) | 文字/想法 / 程式碼/技術描述 / 資料/表格 | Agent Skill | 資訊圖/視覺報告 / 架構圖/流程圖 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 文字/想法 / 資料/表格 / 程式碼/技術描述 | Agent Skill | 網頁/互動頁面 / PPT/簡報 / 圖表/儀表板 / 資訊圖/視覺報告 / 架構圖/流程圖 | Agent 宿主 / 模型 API / 本機語言環境 / 渲染/匯出 / 模板/素材 |
@@ -423,6 +431,8 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) [![Star](https://img.shields.io/github/stars/kajisho5/ffmpeg-skill?style=flat&logo=github&label=Star)](https://github.com/kajisho5/ffmpeg-skill/stargazers) | 文字/想法 / 任意/多源 | Agent Skill / MCP Server | 影片/音訊 / SVG/PNG/PDF / 報告/簡報 | Agent 宿主 / 本機語言環境 / 系統工具 / 渲染/匯出 / MCP Client |
+| [Image Story Video Wizard](https://github.com/aaronyi97/image-story-video-wizard) [![Star](https://img.shields.io/github/stars/aaronyi97/image-story-video-wizard?style=flat&logo=github&label=Star)](https://github.com/aaronyi97/image-story-video-wizard/stargazers) | 文字/想法 / 網頁/搜尋結果 / 任意/多源 | Agent Skill | 影片/音訊 / 結構化資料/Markdown / 圖形摘要/資訊圖 | Agent 宿主 / 模型 API / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [html-video](https://github.com/nexu-io/html-video) [![Star](https://img.shields.io/github/stars/nexu-io/html-video?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-video/stargazers) | 文字/想法 / 網頁/搜尋結果 / 程式碼庫 | 開源應用/框架 | 影片/音訊 / 網頁/互動頁面 | Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 系統工具 / 範本/素材 |
 | [HyperFrames](https://github.com/heygen-com/hyperframes) [![Star](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat&logo=github&label=Star)](https://github.com/heygen-com/hyperframes/stargazers) | 文字/想法 / 網頁/搜尋結果 / PDF/文件 / 資料/表格 / DSL/代碼 | 開源應用/框架 / Agent Skill | 影片/音訊 / 網頁/互動頁面 / 圖表/儀表板 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 系統工具 / 範本/素材 |
 | [animated-diagram](https://github.com/mkierin/animated-diagram) [![Star](https://img.shields.io/github/stars/mkierin/animated-diagram?style=flat&logo=github&label=Star)](https://github.com/mkierin/animated-diagram/stargazers) | Text/ideas / Code/technical text | Agent skill | Video/audio / Web/interactive page / Architecture/flow diagram / Infographic/visual report | Agent host / Local runtime / Rendering/export / Templates/assets |
@@ -446,6 +456,7 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [consulting-pptx-skill](https://github.com/carnot-tech/consulting-pptx-skill) [![Star](https://img.shields.io/github/stars/carnot-tech/consulting-pptx-skill?style=flat&logo=github&label=Star)](https://github.com/carnot-tech/consulting-pptx-skill/stargazers) | 文字/想法 / 資料/表格 / Office 文件 | Agent Skill | PPT/演示文稿 / SVG/PNG/PDF / 報告/簡報 | Agent 宿主 / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
 | [humanize-presentations](https://github.com/dmmdea/humanize-presentations) [![Star](https://img.shields.io/github/stars/dmmdea/humanize-presentations?style=flat&logo=github&label=Star)](https://github.com/dmmdea/humanize-presentations/stargazers) | Office docs / Text/ideas | Agent skill | PPT/deck / Evidence table | Agent host / Local runtime / System tools / Rendering/export |
 | [SlideForge MCP](https://github.com/smartdatabrokers/slideforge-mcp) [![Star](https://img.shields.io/github/stars/smartdatabrokers/slideforge-mcp?style=flat&logo=github&label=Star)](https://github.com/smartdatabrokers/slideforge-mcp/stargazers) | Text/ideas / Data/tables / Office docs / Any/multi-source | Product/SaaS / MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | Browser/account / MCP client / Model API / External search/data / Rendering/export / Templates/assets |
 | [Vela Slides](https://github.com/AgentiaPT/vela-slides) [![Star](https://img.shields.io/github/stars/AgentiaPT/vela-slides?style=flat&logo=github&label=Star)](https://github.com/AgentiaPT/vela-slides/stargazers) | Text/ideas / PDF/documents / Web/search / Any/multi-source | Open-source app/framework / Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |

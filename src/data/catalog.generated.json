@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-08T23:06:55+00:00",
-  "lastResearched": "2026-09-09",
+  "generatedAt": "2026-09-09T23:06:35+00:00",
+  "lastResearched": "2026-09-10",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 719,
-    "openSource": 182,
+    "total": 730,
+    "openSource": 184,
     "saas": 73,
-    "modelApi": 234,
-    "examples": 1527,
-    "effectAssets": 1928,
-    "docs": 1753
+    "modelApi": 241,
+    "examples": 1534,
+    "effectAssets": 1950,
+    "docs": 1776
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 76,
-      "PDF/文档": 222,
-      "文本/想法": 461,
-      "数据/表格": 293,
-      "代码/技术描述": 138,
-      "任意/多源": 112,
-      "网页/搜索结果": 186,
-      "代码库": 78,
+      "PDF/文档": 223,
+      "文本/想法": 470,
+      "数据/表格": 296,
+      "代码/技术描述": 140,
+      "任意/多源": 118,
+      "网页/搜索结果": 189,
+      "代码库": 79,
       "DSL/代码": 144,
       "新闻/资讯": 27,
-      "知识库/个人资料": 69,
-      "Office 文档": 136,
+      "知识库/个人资料": 70,
+      "Office 文档": 137,
       "引用网络": 5,
-      "数据库": 68,
+      "数据库": 70,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 182,
-      "Agent Skill": 265,
-      "Skill 集合": 69,
-      "MCP Server": 241,
+      "开源应用/框架": 184,
+      "Agent Skill": 273,
+      "Skill 集合": 70,
+      "MCP Server": 242,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 25,
@@ -42,72 +42,72 @@
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 54,
-      "PPT/演示文稿": 315,
-      "网页/交互页面": 247,
+      "图形摘要/信息图": 58,
+      "PPT/演示文稿": 316,
+      "网页/交互页面": 252,
       "问答/学习材料": 18,
-      "报告/长文档": 103,
-      "证据表": 59,
-      "信息图/视觉报告": 101,
-      "图表/仪表盘": 224,
+      "报告/长文档": 104,
+      "证据表": 61,
+      "信息图/视觉报告": 102,
+      "图表/仪表盘": 226,
       "架构图/流程图": 156,
-      "SVG/PNG/PDF": 306,
-      "报告/简报": 84,
+      "SVG/PNG/PDF": 311,
+      "报告/简报": 87,
       "白板/思维导图": 44,
       "图表/Mermaid": 72,
-      "视频/音频": 53,
-      "结构化数据/Markdown": 106,
+      "视频/音频": 57,
+      "结构化数据/Markdown": 110,
       "表格/时间线": 28,
       "引用答案": 6,
       "思维导图/知识地图": 43,
       "文献地图/知识地图": 5,
+      "工具索引": 29,
       "代码地图/Repo Wiki": 47,
-      "图表/渲染输出": 24,
-      "工具索引": 28
+      "图表/渲染输出": 24
     },
     "dependencies": {
-      "本地语言环境": 601,
-      "模型 API": 234,
+      "本地语言环境": 611,
+      "模型 API": 241,
       "文档解析/OCR": 105,
-      "渲染/导出": 626,
-      "GPU/加速器": 20,
-      "模板/素材": 345,
-      "Agent 宿主": 343,
-      "系统工具": 155,
-      "浏览器/账号": 174,
-      "存储/索引": 103,
-      "MCP Client": 252,
-      "外部检索/数据源": 151,
+      "渲染/导出": 635,
+      "GPU/加速器": 21,
+      "模板/素材": 351,
+      "Agent 宿主": 352,
+      "系统工具": 160,
+      "浏览器/账号": 176,
+      "存储/索引": 106,
+      "MCP Client": 253,
+      "外部检索/数据源": 152,
       "代码分析工具": 50
     },
     "categories": {
       "paper-visualization": 23,
-      "doc-to-knowledge": 64,
+      "doc-to-knowledge": 65,
       "research-report": 32,
-      "infographic-report": 63,
-      "data-dashboard": 111,
+      "infographic-report": 65,
+      "data-dashboard": 113,
       "diagram-generation": 83,
       "literature-map": 5,
-      "presentation-tools": 218,
+      "presentation-tools": 219,
+      "rendering-primitive": 24,
+      "video-generation": 17,
       "codebase-map": 45,
-      "rendering-primitive": 21,
-      "video-generation": 15,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 39,
-      "text_visual": 85,
+      "text_visual": 90,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 33,
+      "docs": 34,
       "support_doc_parse": 22,
-      "presentation": 227,
+      "presentation": 228,
+      "data": 107,
+      "video": 17,
       "code": 50,
       "support_render": 63,
       "diagrams": 19,
-      "data": 105,
-      "video": 15,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -10253,6 +10253,769 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 8
+    },
+    {
+      "name": "M3E Canvas",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "primaryUrl": "https://github.com/lnkiai/m3e-canvas",
+      "homepage": "https://lnkiai.github.io/m3e-canvas/",
+      "category": "infographic-report",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 5528,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Browser-based Material 3 Expressive canvas for sketching linked mobile and desktop app screens, previewing flows, exporting PNGs, and copying multilingual prompts for Claude Code, Codex, Gemini CLI, Cursor, or other coding agents.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "结构化数据/Markdown",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Tap-through preview",
+          "url": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/docs/preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Sketching a recipes app in M3E Canvas, changing its theme, copying the prompt, an AI coding tool building it, and the app running on Android",
+          "url": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/docs/story.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Prompt panel",
+          "url": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/docs/prompt.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "M3E Canvas",
+          "url": "https://lnkiai.github.io/m3e-canvas/og.png",
+          "thumbnailUrl": null,
+          "source": "https://lnkiai.github.io/m3e-canvas/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "NiubiGEO",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "primaryUrl": "https://github.com/Albert-Weasker/niubigeo",
+      "homepage": "https://niubigeo.ai/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "模型 API",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引"
+      ],
+      "stars": 2247,
+      "license": "Apache-2.0",
+      "updated": "2026-09-09",
+      "note": "Open-source AI brand-visibility workbench that turns domains, competitor sets, model answers, citations, and repeated keyword tests into evidence-backed visibility reports, comparison dashboards, and monitoring views.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docker guide",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/deployment/docker.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Backups and upgrades",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/upgrade.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "How it works in detail",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/how-it-works.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Metrics and comparison conditions",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/measurement-methodology.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Known issues",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/known-issues.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Sources and evidence",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/evidence-model.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Limitations",
+          "url": "https://github.com/Albert-Weasker/niubigeo/blob/HEAD/docs/limitations.md",
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "阅读 SEO vs GEO 指南 →",
+          "url": "https://niubigeo.ai/guides/seo-vs-geo",
+          "source": "https://niubigeo.ai/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "PostHog: individual domain recognition results, descriptions, competing products and evidence links",
+          "url": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/assets/screenshots/v0.2.0-rc.1/R04-models.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Notion: descriptions, competing products and keywords returned by three models",
+          "url": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/assets/screenshots/v0.2.0-rc.1/R08-models.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Albert-Weasker/niubigeo/HEAD/README.md"
+        }
+      ],
+      "docsCount": 12,
+      "examplesCount": 1,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "WeChat Intelligence Hub",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "primaryUrl": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 2018,
+      "license": "AGPL-3.0",
+      "updated": "2026-09-09",
+      "note": "Local-first Codex skill and reader pipeline that converts authorized WeChat history into searchable intelligence, action items, relationship context, opportunities, Markdown reports, and interactive HTML daily briefings.",
+      "sourceTypes": [
+        "知识库/个人资料",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "配置与排障提示词",
+          "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/USAGE.md",
+          "source": "https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "五步首次接入工作流",
+          "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/skills/wechat-cli/references/access-onboarding.md",
+          "source": "https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "社群介绍",
+          "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/COMMUNITY.md",
+          "source": "https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "使用教程",
+          "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/HEAD/docs/USAGE.md",
+          "source": "https://raw.githubusercontent.com/Rion-Wu-tech/wechat-intelligence-hub/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Holo Card Studio",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "primaryUrl": "https://github.com/EverettFish/holo-card-studio",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1233,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Codex skill that turns a text brief or reference image into layered holographic or lenticular cards, editable Blender scenes, rendered images, GLB assets, and interactive Three.js card viewers with validation reports.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "primaryUrl": "https://github.com/kajisho5/ffmpeg-skill",
+      "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "MCP Client"
+      ],
+      "stars": 877,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Agent Skill and MCP toolset that gives coding agents a verified FFmpeg workflow for cutting, joining, captioning, overlaying, color converting, waveform rendering, delivery checking, JSON reporting, and whole-project video export.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "SVG/PNG/PDF",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "references/scripts.md",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/scripts.md",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/contract.md",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/docs/contract.md",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/ci-platform-pitfalls.md",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/ci-platform-pitfalls.md",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/devices.md",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/devices.md",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/process-pitfalls.md",
+          "url": "https://github.com/kajisho5/ffmpeg-skill/blob/HEAD/references/process-pitfalls.md",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "`video-production-agent`",
+          "url": "https://github.com/kajisho5/video-production-agent",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "`AI-video-production-OS`",
+          "url": "https://github.com/kajisho5/AI-video-production-OS",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "`video-editing-skill`",
+          "url": "https://github.com/kajisho5/video-editing-skill",
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "before / after demo",
+          "url": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/assets/demo.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 3,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "handraw-style",
+      "url": "https://github.com/yang0/handraw-style",
+      "primaryUrl": "https://github.com/yang0/handraw-style",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "模板/素材"
+      ],
+      "stars": 616,
+      "license": "unknown",
+      "updated": "2026-09-09",
+      "note": "Hand-drawn style prompt skill and numbered visual gallery with 261 curated reference styles, model-capability notes, image references, and scripts for resolving style IDs into stable image-generation prompts.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "工具索引",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "编号画廊",
+          "url": "https://github.com/yang0/handraw-style/blob/HEAD/handdraw-style-prompter/gallery/index.html",
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "A 001–016",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/A_001-016.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A 017–032",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/A_017-032.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A 033–035",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/A_033-035.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "B 036–048",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/B_036-048.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "B 049–054",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/B_049-054.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "C 055–070",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/C_055-070.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "C 071–082",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/C_071-082.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "D 083–098",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/D_083-098.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "D 099–114",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/D_099-114.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "D 115–123",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/D_115-123.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "E 124–139",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/E_124-139.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "E 140–154",
+          "url": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/images/E_140-154.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yang0/handraw-style/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "dream-loop",
+      "url": "https://github.com/achimala/dream-loop",
+      "primaryUrl": "https://github.com/achimala/dream-loop",
+      "homepage": "https://dream-loop-demo.anshu.dev",
+      "category": "rendering-primitive",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "GPU/加速器",
+        "渲染/导出"
+      ],
+      "stars": 435,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Agent skill for building visually rich games, apps, or scenes through a closed loop of image-generation targets, 3D asset creation with Blender or APIs, and browser-based Three.js implementation reviewed against the target screenshot.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Try the live demo",
+          "url": "https://dream-loop-demo.anshu.dev",
+          "source": "https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Vesper demo: an isometric fantasy scene",
+          "url": "https://raw.githubusercontent.com/achimala/dream-loop/HEAD/assets/vesper-preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/achimala/dream-loop/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "consulting-pptx-skill",
+      "url": "https://github.com/carnot-tech/consulting-pptx-skill",
+      "primaryUrl": "https://github.com/carnot-tech/consulting-pptx-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 411,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Claude Code skill for boardroom-quality decks using a 110-rule slide-design rulebook, 62-part HTML slide library, visual catalog PDF, automated deck checks, rendered layout inspection, and Chrome PDF export.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "slide-rules.md",
+          "url": "https://github.com/carnot-tech/consulting-pptx-skill/blob/HEAD/references/slide-rules.md",
+          "source": "https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/archetype-catalog.md",
+          "url": "https://github.com/carnot-tech/consulting-pptx-skill/blob/HEAD/references/archetype-catalog.md",
+          "source": "https://raw.githubusercontent.com/carnot-tech/consulting-pptx-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Yingzao",
+      "url": "https://github.com/op7418/guizang-yingzao-skill",
+      "primaryUrl": "https://github.com/op7418/guizang-yingzao-skill",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 396,
+      "license": "unknown",
+      "updated": "2026-09-09",
+      "note": "Claude Code and Codex skill that transforms architecture, cultural-place, object, food, or travel photos into art-directed editorial posters with fact boundaries, reference recipes, Chinese typography briefs, sparse layout guides, and optional 3x3 video storyboards.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Yingzao 作品展示",
+          "url": "https://raw.githubusercontent.com/op7418/guizang-yingzao-skill/HEAD/yingzao/assets/readme-hero.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/op7418/guizang-yingzao-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Image Story Video Wizard",
+      "url": "https://github.com/aaronyi97/image-story-video-wizard",
+      "primaryUrl": "https://github.com/aaronyi97/image-story-video-wizard",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 328,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Codex and WorkBuddy skill that guides audio-first image-story videos from topic, benchmarks, writing pack, script, voice, storyboard, style, character anchors, image prompts, asset QC, preview, and final render.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "结构化数据/Markdown",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "豆包语音官方快速入门",
+          "url": "https://www.volcengine.com/docs/6561/163043?lang=zh",
+          "source": "https://raw.githubusercontent.com/aaronyi97/image-story-video-wizard/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Codex Skill Stats & Dashboard",
+      "url": "https://github.com/tonywei49/codex-skill-dashboard",
+      "primaryUrl": "https://github.com/tonywei49/codex-skill-dashboard",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-09-04",
+      "note": "Local-first Codex dashboard and soft-hook skill that tracks skill usage events, activation state, project context, translation status, and skill details through a zero-dependency SQLite plus vanilla HTML interface.",
+      "sourceTypes": [
+        "代码库",
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Codex Skill Dashboard",
+          "url": "https://raw.githubusercontent.com/tonywei49/codex-skill-dashboard/HEAD/assets/dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tonywei49/codex-skill-dashboard/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     },
     {
       "name": "edit2docs",
