@@ -1,4 +1,4 @@
-generated_at: '2026-09-09T23:06:35+00:00'
+generated_at: '2026-09-10T23:05:48+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 730
-  fetched_sources_ok: 978
+  entries: 739
+  fetched_sources_ok: 989
   fetched_sources_failed: 52
-  official_examples: 1534
-  official_effect_assets: 1950
-  official_docs: 1776
+  official_examples: 1548
+  official_effect_assets: 1966
+  official_docs: 1796
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -57049,3 +57049,577 @@ entries:
   - 2. Automatic Soft-Hook Usage Recording
   - 3. Start the dashboard
   - 🖥️ Dashboard Operations
+- name: Git Work Report
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/Andlzap/git-work-report
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: Agent Skill that turns git commits from a month or sprint into a presentation-ready single-file HTML report
+    with executive summaries, KPI cards, charts, module-grouped deliveries, migration timelines, and commit logs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Git Work Report
+    bytes: 4745
+  official_examples:
+  - kind: example
+    title: English
+    url: https://github.com/Andlzap/git-work-report/blob/HEAD/examples/example-report.en.html
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+  - kind: example
+    title: Português
+    url: https://github.com/Andlzap/git-work-report/blob/HEAD/examples/example-report.pt-BR.html
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`skills/git-work-report/references/spec-format.md`'
+    url: https://github.com/Andlzap/git-work-report/blob/HEAD/skills/git-work-report/references/spec-format.md
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Example report
+    url: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/examples/preview.png
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+  official_links:
+  - kind: example
+    title: English
+    url: https://github.com/Andlzap/git-work-report/blob/HEAD/examples/example-report.en.html
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+  - kind: example
+    title: Português
+    url: https://github.com/Andlzap/git-work-report/blob/HEAD/examples/example-report.pt-BR.html
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+  - kind: docs
+    title: '`skills/git-work-report/references/spec-format.md`'
+    url: https://github.com/Andlzap/git-work-report/blob/HEAD/skills/git-work-report/references/spec-format.md
+    source: https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md
+- name: HTML to PPT Deck Export
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/van822/html-to-ppt-deck-export
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Preview-first Codex skill and Node.js toolkit that maps planned HTML report blocks into 16:9 PNG previews,
+    contact sheets, image-based PowerPoint decks, and full-bleed QA reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: HTML to PPT Deck Export
+    bytes: 12595
+  official_examples:
+  - kind: example
+    title: Slide plan
+    url: https://github.com/van822/html-to-ppt-deck-export/blob/HEAD/examples/basic-report/slide_plan.json
+    source: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: official skill documentation
+    url: https://learn.chatgpt.com/docs/build-skills
+    source: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Four-slide basic report contact sheet
+    url: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/docs/assets/basic-report-contact-sheet.png
+    source: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: official skill documentation
+    url: https://learn.chatgpt.com/docs/build-skills
+    source: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+  - kind: example
+    title: Slide plan
+    url: https://github.com/van822/html-to-ppt-deck-export/blob/HEAD/examples/basic-report/slide_plan.json
+    source: https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md
+  source_headings:
+  - Demo
+  - Slide-plan overview
+  - Examples
+- name: slides-skill by Rich627
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Rich627/slides-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for Claude Code, Codex, and Cursor that separates deck content into a JSON spec and renders native
+    editable PPTX decks with slide-type templates, evidence rules, contact-sheet rendering, and visual QA.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slides — an agent skill that generates editable `.pptx` decks from a JSON spec
+    bytes: 8936
+  official_examples:
+  - kind: example
+    title: '`examples/pitch-deck.json`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/examples/pitch-deck.json
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/class-report.json`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/examples/class-report.json
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/team-update.json`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/examples/team-update.json
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`references/slide-types.md`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/references/slide-types.md
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/design-system.md`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/references/design-system.md
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/storylines.md`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/references/storylines.md
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/previews/`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/docs/previews
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Pitch deck example
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/previews/pitch-deck.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Cover
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/cover.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Section
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/section.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Cards
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/cards.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Bullets
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/bullets.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Table
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/table.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Stats
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/stats.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Flow
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/flow.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Flow Technical
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/flow-technical.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Timeline
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/timeline.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Chart
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/chart.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: image
+    title: Image
+    url: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/image.png
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`references/slide-types.md`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/references/slide-types.md
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/design-system.md`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/references/design-system.md
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: docs
+    title: '`references/storylines.md`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/references/storylines.md
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/pitch-deck.json`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/examples/pitch-deck.json
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/class-report.json`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/examples/class-report.json
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/team-update.json`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/examples/team-update.json
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/previews/`'
+    url: https://github.com/Rich627/slides-skill/blob/HEAD/docs/previews
+    source: https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md
+  source_headings:
+  - slides — an agent skill that generates editable `.pptx` decks from a JSON spec
+  - Slide types
+  - Examples
+- name: LunaCore HUD
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/Kotsur69/Luna-Core-HUD
+  dependencies:
+  - 本地语言环境
+  - 系统工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Electron dashboard wrapper for the Claude Code CLI with live terminal tabs, action buttons, context and usage
+    gauges, skill/tool run tracking, active-file heatmaps, MCP server health, git status, session timelines, and media decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: LunaCore
+    bytes: 82472
+  official_examples:
+  - kind: template
+    title: '`config/layouts.json`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/config/layouts.json
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: template
+    title: '`config/themes.json`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/config/themes.json
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`src/usage.js`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/src/usage.js
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: docs
+    title: '`SOUNDS_IMPLEMENTATION_PLAN.md`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/reference/SOUNDS_IMPLEMENTATION_PLAN.md
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: docs
+    title: '`ACTIVE_FILES_HEATMAP_PLAN.md`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/reference/ACTIVE_FILES_HEATMAP_PLAN.md
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`src/usage.js`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/src/usage.js
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: docs
+    title: '`SOUNDS_IMPLEMENTATION_PLAN.md`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/reference/SOUNDS_IMPLEMENTATION_PLAN.md
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: docs
+    title: '`ACTIVE_FILES_HEATMAP_PLAN.md`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/reference/ACTIVE_FILES_HEATMAP_PLAN.md
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: template
+    title: '`config/layouts.json`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/config/layouts.json
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  - kind: template
+    title: '`config/themes.json`'
+    url: https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/config/themes.json
+    source: https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md
+  source_headings:
+  - Usage-limits gauge
+- name: DataGrout Smart Panels
+  category: data-dashboard
+  surface: library
+  primary_url: https://github.com/DataGrout/smart-panels
+  homepage: https://datagrout.ai
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Rust smart-panel model for DataGrout that stores declarative UI as logic-cell facts and renders dashboards,
+    forms, plots, tables, and agent-authored MCP App panels through egui or MCP transports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/DataGrout/smart-panels/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/DataGrout/smart-panels/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Smart Panels
+    bytes: 13500
+  - kind: homepage
+    url: https://datagrout.ai/
+    final_url: https://datagrout.ai/
+    status: 200
+    content_type: text/html
+    title: DataGrout
+    description: DataGrout gives your AI agents memory, reliability, and cost control. Most agent frameworks fall apart at
+      scale, context windows explode, workflows fail silently, and token costs s
+    bytes: 28140
+  official_examples:
+  - kind: example
+    title: Case Study Context Hydration
+    url: https://datagrout.ai/case-studies/context-hydration
+    source: https://datagrout.ai/
+  - kind: example
+    title: Case Study Advisor Security
+    url: https://datagrout.ai/case-studies/advisor-security
+    source: https://datagrout.ai/
+  - kind: demo
+    title: Visual Proof Sandbox
+    url: https://datagrout.ai/sandbox/token-funnel
+    source: https://datagrout.ai/
+  - kind: demo
+    title: Workflow Demo
+    url: https://datagrout.ai/sandbox/workflow-demo
+    source: https://datagrout.ai/
+  official_docs:
+  - kind: docs
+    title: Docs Page
+    url: https://datagrout.ai/tools/docs
+    source: https://datagrout.ai/
+  - kind: docs
+    title: API Integration Platform
+    url: https://datagrout.ai/solutions/api-integration-platform
+    source: https://datagrout.ai/
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: Docs Page
+    url: https://datagrout.ai/tools/docs
+    source: https://datagrout.ai/
+  - kind: docs
+    title: API Integration Platform
+    url: https://datagrout.ai/solutions/api-integration-platform
+    source: https://datagrout.ai/
+  - kind: example
+    title: Case Study Context Hydration
+    url: https://datagrout.ai/case-studies/context-hydration
+    source: https://datagrout.ai/
+  - kind: example
+    title: Case Study Advisor Security
+    url: https://datagrout.ai/case-studies/advisor-security
+    source: https://datagrout.ai/
+  - kind: demo
+    title: Visual Proof Sandbox
+    url: https://datagrout.ai/sandbox/token-funnel
+    source: https://datagrout.ai/
+  - kind: demo
+    title: Workflow Demo
+    url: https://datagrout.ai/sandbox/workflow-demo
+    source: https://datagrout.ai/
+  source_headings:
+  - Usage
+- name: Arabic Editorial Infographic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/elmarakpy/arabic-editorial-infographic
+  dependencies:
+  - Agent 宿主
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that preserves supplied Arabic copy verbatim while mapping it into RTL editorial poster
+    or carousel layouts, scene-only prompts, combined image prompts, archetype palettes, and sample poster/timeline renders.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 🇸🇦 arabic-editorial-infographic
+    bytes: 6061
+  official_effect_assets:
+  - kind: image
+    title: Sample — Saudi AI ranking, teal/navy, green 3/7/8 عالميًا
+    url: https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/assets/sample-poster.png
+    source: https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/README.md
+  - kind: image
+    title: Sample — Grand Egyptian Museum timeline, navy + orange, giant 3
+    url: https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/assets/sample-timeline.png
+    source: https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/README.md
+  source_headings:
+  - Example (preserve mode)
+- name: affiliate-skills
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/Affitor/affiliate-skills
+  homepage: https://list.affitor.com
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Affiliate-marketing agent skill collection that researches programs and trends, writes data-backed content,
+    generates infographics and landing pages, builds distribution assets, and feeds analytics back into the content flywheel.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: affiliate-skills
+    bytes: 21963
+  - kind: homepage
+    url: https://affitor.com/marketplace
+    final_url: https://affitor.com/marketplace
+    status: 200
+    content_type: text/html
+    title: Program Marketplace — Browse Affiliate Programs | Affitor
+    description: Browse affiliate programs from real SaaS brands on Affitor. Compare commission rates, recurring payouts,
+      and cookie windows. Sign in to apply and start earning.
+    bytes: 58111
+  official_examples:
+  - kind: tutorial
+    title: how-to-tutorial-writer
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/skills/blog/how-to-tutorial-writer/
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: showcase
+    title: product-showcase-page
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/skills/landing/product-showcase-page/
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: QUICKSTART.md
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/QUICKSTART.md
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: docs
+    title: '`API.md`'
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/API.md
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: docs
+    title: '`social-data-providers.md`'
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/shared/references/social-data-providers.md
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.affitor.com
+    source: https://affitor.com/marketplace
+  official_links:
+  - kind: docs
+    title: QUICKSTART.md
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/QUICKSTART.md
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: docs
+    title: '`API.md`'
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/API.md
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: tutorial
+    title: how-to-tutorial-writer
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/skills/blog/how-to-tutorial-writer/
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: showcase
+    title: product-showcase-page
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/skills/landing/product-showcase-page/
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: docs
+    title: '`social-data-providers.md`'
+    url: https://github.com/Affitor/affiliate-skills/blob/HEAD/shared/references/social-data-providers.md
+    source: https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.affitor.com
+    source: https://affitor.com/marketplace
+  source_headings:
+  - 'Demo: zero to first commission'
+  - Get Started
+- name: DataInk
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/oh-da/dataink
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code plugin with modular data-communication skills for chart design, infographic creation, dashboard
+    layout, table design, visualization review, and data storytelling with accessibility and RTL checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DataInk
+    bytes: 19571
+  official_docs:
+  - &id001
+    kind: docs
+    title: Beginner guides
+    url: https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/README.md
+    source: https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md
+  - &id002
+    kind: docs
+    title: Infographic creator guide
+    url: https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/infographic-creator.md
+    source: https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md
+  - &id003
+    kind: docs
+    title: Dashboard design guide
+    url: https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/dashboard-design.md
+    source: https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md
+  - &id004
+    kind: docs
+    title: Data visualization guide
+    url: https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/data-visualization.md
+    source: https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md
+  official_links:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  source_headings:
+  - Visualizing Data
+  - Reviewing Visualizations
+  - Designing Dashboards
+  - Dashboard and chart design
+  - Data storytelling and presentations
+  - Infographics and visual reports
+  - Visualization audit and improvement
+  - Edward Tufte — *The Visual Display of Quantitative Information* (Graphics Press, 1983)
+  - Visual Perception Research
+- name: LightningChart JS MCP Server
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/Lightning-Chart/lightningchart-js-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  catalog_note: Official LightningChart JS MCP server that gives coding agents maintained LCJS guidance for building, reviewing,
+    or migrating high-performance charts, dashboards, and data visualizations without guessing outdated APIs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Lightning-Chart/lightningchart-js-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Lightning-Chart/lightningchart-js-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: LightningChart JS MCP Server
+    bytes: 3614
+  official_docs:
+  - kind: docs
+    title: Developer Documentation
+    url: https://lightningchart.com/js-charts/docs/lc-and-ai/
+    source: https://raw.githubusercontent.com/Lightning-Chart/lightningchart-js-mcp-server/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Developer Documentation
+    url: https://lightningchart.com/js-charts/docs/lc-and-ai/
+    source: https://raw.githubusercontent.com/Lightning-Chart/lightningchart-js-mcp-server/HEAD/README.md

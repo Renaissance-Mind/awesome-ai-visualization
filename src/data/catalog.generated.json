@@ -1,112 +1,112 @@
 {
-  "generatedAt": "2026-09-09T23:06:35+00:00",
-  "lastResearched": "2026-09-10",
+  "generatedAt": "2026-09-10T23:05:48+00:00",
+  "lastResearched": "2026-09-11",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 730,
-    "openSource": 184,
+    "total": 739,
+    "openSource": 185,
     "saas": 73,
-    "modelApi": 241,
-    "examples": 1534,
-    "effectAssets": 1950,
-    "docs": 1776
+    "modelApi": 243,
+    "examples": 1548,
+    "effectAssets": 1966,
+    "docs": 1796
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 76,
-      "PDF/文档": 223,
-      "文本/想法": 470,
-      "数据/表格": 296,
-      "代码/技术描述": 140,
+      "PDF/文档": 224,
+      "文本/想法": 474,
+      "数据/表格": 303,
+      "代码/技术描述": 142,
       "任意/多源": 118,
-      "网页/搜索结果": 189,
-      "代码库": 79,
+      "网页/搜索结果": 191,
+      "代码库": 81,
       "DSL/代码": 144,
-      "新闻/资讯": 27,
-      "知识库/个人资料": 70,
+      "新闻/资讯": 29,
+      "知识库/个人资料": 71,
       "Office 文档": 137,
       "引用网络": 5,
-      "数据库": 70,
+      "数据库": 71,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 184,
-      "Agent Skill": 273,
-      "Skill 集合": 70,
-      "MCP Server": 242,
+      "开源应用/框架": 185,
+      "Agent Skill": 277,
+      "Skill 集合": 72,
+      "MCP Server": 244,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 25,
       "研究原型": 10,
-      "API/SDK/库": 115,
+      "API/SDK/库": 118,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 58,
-      "PPT/演示文稿": 316,
-      "网页/交互页面": 252,
+      "图形摘要/信息图": 59,
+      "PPT/演示文稿": 318,
+      "网页/交互页面": 256,
       "问答/学习材料": 18,
       "报告/长文档": 104,
       "证据表": 61,
-      "信息图/视觉报告": 102,
-      "图表/仪表盘": 226,
+      "信息图/视觉报告": 105,
+      "图表/仪表盘": 232,
       "架构图/流程图": 156,
-      "SVG/PNG/PDF": 311,
-      "报告/简报": 87,
+      "SVG/PNG/PDF": 314,
+      "报告/简报": 91,
       "白板/思维导图": 44,
       "图表/Mermaid": 72,
       "视频/音频": 57,
-      "结构化数据/Markdown": 110,
-      "表格/时间线": 28,
+      "结构化数据/Markdown": 111,
+      "表格/时间线": 29,
       "引用答案": 6,
       "思维导图/知识地图": 43,
       "文献地图/知识地图": 5,
       "工具索引": 29,
       "代码地图/Repo Wiki": 47,
-      "图表/渲染输出": 24
+      "图表/渲染输出": 25
     },
     "dependencies": {
-      "本地语言环境": 611,
-      "模型 API": 241,
+      "本地语言环境": 618,
+      "模型 API": 243,
       "文档解析/OCR": 105,
-      "渲染/导出": 635,
+      "渲染/导出": 644,
       "GPU/加速器": 21,
-      "模板/素材": 351,
-      "Agent 宿主": 352,
-      "系统工具": 160,
+      "模板/素材": 356,
+      "Agent 宿主": 358,
+      "系统工具": 162,
       "浏览器/账号": 176,
-      "存储/索引": 106,
-      "MCP Client": 253,
-      "外部检索/数据源": 152,
-      "代码分析工具": 50
+      "存储/索引": 108,
+      "MCP Client": 255,
+      "外部检索/数据源": 153,
+      "代码分析工具": 51
     },
     "categories": {
       "paper-visualization": 23,
       "doc-to-knowledge": 65,
       "research-report": 32,
-      "infographic-report": 65,
-      "data-dashboard": 113,
+      "infographic-report": 68,
+      "data-dashboard": 116,
       "diagram-generation": 83,
       "literature-map": 5,
-      "presentation-tools": 219,
+      "presentation-tools": 221,
       "rendering-primitive": 24,
       "video-generation": 17,
-      "codebase-map": 45,
+      "codebase-map": 46,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 39,
-      "text_visual": 90,
+      "text_visual": 92,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 34,
       "support_doc_parse": 22,
-      "presentation": 228,
-      "data": 107,
+      "presentation": 230,
+      "data": 110,
       "video": 17,
-      "code": 50,
-      "support_render": 63,
+      "code": 51,
+      "support_render": 64,
       "diagrams": 19,
       "indexes": 28,
       "diagram": 3,
@@ -59914,6 +59914,689 @@
       "effectAssets": [],
       "docsCount": 1,
       "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Git Work Report",
+      "url": "https://github.com/Andlzap/git-work-report",
+      "primaryUrl": "https://github.com/Andlzap/git-work-report",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-10",
+      "note": "Agent Skill that turns git commits from a month or sprint into a presentation-ready single-file HTML report with executive summaries, KPI cards, charts, module-grouped deliveries, migration timelines, and commit logs.",
+      "sourceTypes": [
+        "代码库"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/简报",
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`skills/git-work-report/references/spec-format.md`",
+          "url": "https://github.com/Andlzap/git-work-report/blob/HEAD/skills/git-work-report/references/spec-format.md",
+          "source": "https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "English",
+          "url": "https://github.com/Andlzap/git-work-report/blob/HEAD/examples/example-report.en.html",
+          "source": "https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Português",
+          "url": "https://github.com/Andlzap/git-work-report/blob/HEAD/examples/example-report.pt-BR.html",
+          "source": "https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Example report",
+          "url": "https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/examples/preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Andlzap/git-work-report/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "HTML to PPT Deck Export",
+      "url": "https://github.com/van822/html-to-ppt-deck-export",
+      "primaryUrl": "https://github.com/van822/html-to-ppt-deck-export",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-10",
+      "note": "Preview-first Codex skill and Node.js toolkit that maps planned HTML report blocks into 16:9 PNG previews, contact sheets, image-based PowerPoint decks, and full-bleed QA reports.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "official skill documentation",
+          "url": "https://learn.chatgpt.com/docs/build-skills",
+          "source": "https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Slide plan",
+          "url": "https://github.com/van822/html-to-ppt-deck-export/blob/HEAD/examples/basic-report/slide_plan.json",
+          "source": "https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Four-slide basic report contact sheet",
+          "url": "https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/docs/assets/basic-report-contact-sheet.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/van822/html-to-ppt-deck-export/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "slides-skill by Rich627",
+      "url": "https://github.com/Rich627/slides-skill",
+      "primaryUrl": "https://github.com/Rich627/slides-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-10",
+      "note": "Agent skill for Claude Code, Codex, and Cursor that separates deck content into a JSON spec and renders native editable PPTX decks with slide-type templates, evidence rules, contact-sheet rendering, and visual QA.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/slide-types.md`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/references/slide-types.md",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/design-system.md`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/references/design-system.md",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`references/storylines.md`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/references/storylines.md",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/previews/`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/docs/previews",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/pitch-deck.json`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/examples/pitch-deck.json",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/class-report.json`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/examples/class-report.json",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/team-update.json`",
+          "url": "https://github.com/Rich627/slides-skill/blob/HEAD/examples/team-update.json",
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Pitch deck example",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/previews/pitch-deck.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cover",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Section",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/section.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cards",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/cards.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bullets",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/bullets.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Table",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/table.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Stats",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/stats.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flow",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/flow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flow Technical",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/flow-technical.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Timeline",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/timeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Chart",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/chart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Image",
+          "url": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/docs/gallery/image.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rich627/slides-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 3,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "LunaCore HUD",
+      "url": "https://github.com/Kotsur69/Luna-Core-HUD",
+      "primaryUrl": "https://github.com/Kotsur69/Luna-Core-HUD",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "系统工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-10",
+      "note": "Electron dashboard wrapper for the Claude Code CLI with live terminal tabs, action buttons, context and usage gauges, skill/tool run tracking, active-file heatmaps, MCP server health, git status, session timelines, and media decks.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`src/usage.js`",
+          "url": "https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/src/usage.js",
+          "source": "https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`SOUNDS_IMPLEMENTATION_PLAN.md`",
+          "url": "https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/reference/SOUNDS_IMPLEMENTATION_PLAN.md",
+          "source": "https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`ACTIVE_FILES_HEATMAP_PLAN.md`",
+          "url": "https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/reference/ACTIVE_FILES_HEATMAP_PLAN.md",
+          "source": "https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`config/layouts.json`",
+          "url": "https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/config/layouts.json",
+          "source": "https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`config/themes.json`",
+          "url": "https://github.com/Kotsur69/Luna-Core-HUD/blob/HEAD/config/themes.json",
+          "source": "https://raw.githubusercontent.com/Kotsur69/Luna-Core-HUD/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DataGrout Smart Panels",
+      "url": "https://github.com/DataGrout/smart-panels",
+      "primaryUrl": "https://github.com/DataGrout/smart-panels",
+      "homepage": "https://datagrout.ai",
+      "category": "data-dashboard",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "MCP Client",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-09-08",
+      "note": "Rust smart-panel model for DataGrout that stores declarative UI as logic-cell facts and renders dashboards, forms, plots, tables, and agent-authored MCP App panels through egui or MCP transports.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs Page",
+          "url": "https://datagrout.ai/tools/docs",
+          "source": "https://datagrout.ai/"
+        },
+        {
+          "kind": "docs",
+          "title": "API Integration Platform",
+          "url": "https://datagrout.ai/solutions/api-integration-platform",
+          "source": "https://datagrout.ai/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Case Study Context Hydration",
+          "url": "https://datagrout.ai/case-studies/context-hydration",
+          "source": "https://datagrout.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "Case Study Advisor Security",
+          "url": "https://datagrout.ai/case-studies/advisor-security",
+          "source": "https://datagrout.ai/"
+        },
+        {
+          "kind": "demo",
+          "title": "Visual Proof Sandbox",
+          "url": "https://datagrout.ai/sandbox/token-funnel",
+          "source": "https://datagrout.ai/"
+        },
+        {
+          "kind": "demo",
+          "title": "Workflow Demo",
+          "url": "https://datagrout.ai/sandbox/workflow-demo",
+          "source": "https://datagrout.ai/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 4,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Arabic Editorial Infographic",
+      "url": "https://github.com/elmarakpy/arabic-editorial-infographic",
+      "primaryUrl": "https://github.com/elmarakpy/arabic-editorial-infographic",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-09",
+      "note": "Claude Code skill that preserves supplied Arabic copy verbatim while mapping it into RTL editorial poster or carousel layouts, scene-only prompts, combined image prompts, archetype palettes, and sample poster/timeline renders.",
+      "sourceTypes": [
+        "文本/想法",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Sample — Saudi AI ranking, teal/navy, green 3/7/8 عالميًا",
+          "url": "https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/assets/sample-poster.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sample — Grand Egyptian Museum timeline, navy + orange, giant 3",
+          "url": "https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/assets/sample-timeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/elmarakpy/arabic-editorial-infographic/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "affiliate-skills",
+      "url": "https://github.com/Affitor/affiliate-skills",
+      "primaryUrl": "https://github.com/Affitor/affiliate-skills",
+      "homepage": "https://list.affitor.com",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 656,
+      "license": "MIT",
+      "updated": "2026-09-10",
+      "note": "Affiliate-marketing agent skill collection that researches programs and trends, writes data-backed content, generates infographics and landing pages, builds distribution assets, and feeds analytics back into the content flywheel.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "新闻/资讯",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "网页/交互页面",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "QUICKSTART.md",
+          "url": "https://github.com/Affitor/affiliate-skills/blob/HEAD/QUICKSTART.md",
+          "source": "https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`API.md`",
+          "url": "https://github.com/Affitor/affiliate-skills/blob/HEAD/API.md",
+          "source": "https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`social-data-providers.md`",
+          "url": "https://github.com/Affitor/affiliate-skills/blob/HEAD/shared/references/social-data-providers.md",
+          "source": "https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.affitor.com",
+          "source": "https://affitor.com/marketplace"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "how-to-tutorial-writer",
+          "url": "https://github.com/Affitor/affiliate-skills/blob/HEAD/skills/blog/how-to-tutorial-writer/",
+          "source": "https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "product-showcase-page",
+          "url": "https://github.com/Affitor/affiliate-skills/blob/HEAD/skills/landing/product-showcase-page/",
+          "source": "https://raw.githubusercontent.com/Affitor/affiliate-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DataInk",
+      "url": "https://github.com/oh-da/dataink",
+      "primaryUrl": "https://github.com/oh-da/dataink",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-23",
+      "note": "Claude Code plugin with modular data-communication skills for chart design, infographic creation, dashboard layout, table design, visualization review, and data storytelling with accessibility and RTL checks.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Beginner guides",
+          "url": "https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/README.md",
+          "source": "https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Infographic creator guide",
+          "url": "https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/infographic-creator.md",
+          "source": "https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Dashboard design guide",
+          "url": "https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/dashboard-design.md",
+          "source": "https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Data visualization guide",
+          "url": "https://github.com/oh-da/dataink/blob/HEAD/docs/guides/en/data-visualization.md",
+          "source": "https://raw.githubusercontent.com/oh-da/dataink/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "LightningChart JS MCP Server",
+      "url": "https://github.com/Lightning-Chart/lightningchart-js-mcp-server",
+      "primaryUrl": "https://github.com/Lightning-Chart/lightningchart-js-mcp-server",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-07-14",
+      "note": "Official LightningChart JS MCP server that gives coding agents maintained LCJS guidance for building, reviewing, or migrating high-performance charts, dashboards, and data visualizations without guessing outdated APIs.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Developer Documentation",
+          "url": "https://lightningchart.com/js-charts/docs/lc-and-ai/",
+          "source": "https://raw.githubusercontent.com/Lightning-Chart/lightningchart-js-mcp-server/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     }
   ]

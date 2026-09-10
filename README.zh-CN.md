@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-730_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--10-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-739_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--11-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,21 +13,19 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
-## Latest Refresh (2026-09-10)
+## Latest Refresh (2026-09-11)
 
 | Project | Catalog focus |
 | --- | --- |
-| [M3E Canvas](https://github.com/lnkiai/m3e-canvas) | Browser-based Material 3 Expressive canvas for sketching linked mobile and desktop app screens, previewing flows, exporting PNGs, and copying multilingual prompts for Claude Code, Codex, Gemini CLI, Cursor, or other coding agents. |
-| [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) | Open-source AI brand-visibility workbench that turns domains, competitor sets, model answers, citations, and repeated keyword tests into evidence-backed visibility reports, comparison dashboards, and monitoring views. |
-| [WeChat Intelligence Hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) | Local-first Codex skill and reader pipeline that converts authorized WeChat history into searchable intelligence, action items, relationship context, opportunities, Markdown reports, and interactive HTML daily briefings. |
-| [Holo Card Studio](https://github.com/EverettFish/holo-card-studio) | Codex skill that turns a text brief or reference image into layered holographic or lenticular cards, editable Blender scenes, rendered images, GLB assets, and interactive Three.js card viewers with validation reports. |
-| [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | Agent Skill and MCP toolset that gives coding agents a verified FFmpeg workflow for cutting, joining, captioning, overlaying, color converting, waveform rendering, delivery checking, JSON reporting, and whole-project video export. |
-| [handraw-style](https://github.com/yang0/handraw-style) | Hand-drawn style prompt skill and numbered visual gallery with 261 curated reference styles, model-capability notes, image references, and scripts for resolving style IDs into stable image-generation prompts. |
-| [dream-loop](https://github.com/achimala/dream-loop) | Agent skill for building visually rich games, apps, or scenes through a closed loop of image-generation targets, 3D asset creation with Blender or APIs, and browser-based Three.js implementation reviewed against the target screenshot. |
-| [consulting-pptx-skill](https://github.com/carnot-tech/consulting-pptx-skill) | Claude Code skill for boardroom-quality decks using a 110-rule slide-design rulebook, 62-part HTML slide library, visual catalog PDF, automated deck checks, rendered layout inspection, and Chrome PDF export. |
-| [Yingzao](https://github.com/op7418/guizang-yingzao-skill) | Claude Code and Codex skill that transforms architecture, cultural-place, object, food, or travel photos into art-directed editorial posters with fact boundaries, reference recipes, Chinese typography briefs, sparse layout guides, and optional 3x3 video storyboards. |
-| [Image Story Video Wizard](https://github.com/aaronyi97/image-story-video-wizard) | Codex and WorkBuddy skill that guides audio-first image-story videos from topic, benchmarks, writing pack, script, voice, storyboard, style, character anchors, image prompts, asset QC, preview, and final render. |
-| [Codex Skill Stats & Dashboard](https://github.com/tonywei49/codex-skill-dashboard) | Local-first Codex dashboard and soft-hook skill that tracks skill usage events, activation state, project context, translation status, and skill details through a zero-dependency SQLite plus vanilla HTML interface. |
+| [Git Work Report](https://github.com/Andlzap/git-work-report) | Agent skill that turns monthly or sprint git commits into a presentation-ready HTML report with executive summaries, KPI cards, charts, module delivery groups, migration timelines, and commit logs. |
+| [HTML to PPT Deck Export](https://github.com/van822/html-to-ppt-deck-export) | Preview-first Codex skill and Node toolkit that maps planned HTML report blocks into 16:9 previews, contact sheets, image-based PowerPoint decks, and full-bleed QA reports. |
+| [slides-skill by Rich627](https://github.com/Rich627/slides-skill) | Agent skill that converts deck content JSON into native editable PowerPoint files with slide-type templates, evidence rules, contact-sheet rendering, and visual QA. |
+| [LunaCore HUD](https://github.com/Kotsur69/Luna-Core-HUD) | Electron dashboard wrapper for Claude Code CLI sessions with terminal tabs, action buttons, usage gauges, skill/tool run tracking, file heatmaps, MCP health, git status, and timelines. |
+| [DataGrout Smart Panels](https://github.com/DataGrout/smart-panels) | Rust smart-panel model that stores declarative UI as logic-cell facts and renders dashboards, forms, plots, tables, and agent-authored MCP App panels. |
+| [Arabic Editorial Infographic](https://github.com/elmarakpy/arabic-editorial-infographic) | Claude Code skill for RTL Arabic editorial posters and carousels, preserving supplied copy verbatim while producing scene-only prompts, combined prompts, archetype palettes, and sample renders. |
+| [affiliate-skills](https://github.com/Affitor/affiliate-skills) | Agent skill collection for affiliate research, trend scouting, data-backed posts, infographics, landing pages, distribution assets, analytics, and closed-loop content optimization. |
+| [DataInk](https://github.com/oh-da/dataink) | Claude Code plugin with modular data-communication skills for chart design, infographic creation, dashboard layout, table design, visualization review, and data storytelling with accessibility and RTL checks. |
+| [LightningChart JS MCP Server](https://github.com/Lightning-Chart/lightningchart-js-mcp-server) | Official MCP server that gives coding agents maintained LightningChart JS guidance for building, reviewing, and migrating high-performance charts, dashboards, and data visualizations. |
 
 ## ✨ 推荐使用方式
 
@@ -157,6 +155,7 @@
 
 | 项目 | 信息来源 | 工具形态 | 产出物形式 | 依赖类型 |
 | --- | --- | --- | --- | --- |
+| [Git Work Report](https://github.com/Andlzap/git-work-report) [![Star](https://img.shields.io/github/stars/Andlzap/git-work-report?style=flat&logo=github&label=Star)](https://github.com/Andlzap/git-work-report/stargazers) | 代码库 | Agent Skill | 报告/简报 / 图表/仪表盘 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 代码分析工具 / 渲染/导出 |
 | [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram) [![Star](https://img.shields.io/github/stars/ahmedkhaleel2004/gitdiagram?style=flat&logo=github&label=Star)](https://github.com/ahmedkhaleel2004/gitdiagram/stargazers) | 代码库 | 开源应用/框架 | 代码地图/Repo Wiki / 架构图/流程图 | 浏览器/账号 / 模型 API / 代码分析工具 |
 | [CodeBoarding](https://github.com/Codeboarding/CodeBoarding) [![Star](https://img.shields.io/github/stars/Codeboarding/CodeBoarding?style=flat&logo=github&label=Star)](https://github.com/Codeboarding/CodeBoarding/stargazers) | 代码库 | 开源应用/框架 | 代码地图/Repo Wiki / 架构图/流程图 | 本地语言环境 / 模型 API / 代码分析工具 / 渲染/导出 / 存储/索引 |
 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) [![Star](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat&logo=github&label=Star)](https://github.com/Egonex-AI/Understand-Anything/stargazers) | 代码库 | Agent Skill | 代码地图/Repo Wiki / 架构图/流程图 | Agent 宿主 / 本地语言环境 / 模型 API / 代码分析工具 / 存储/索引 |
@@ -214,6 +213,9 @@
 
 | 项目 | 信息来源 | 工具形态 | 产出物形式 | 依赖类型 |
 | --- | --- | --- | --- | --- |
+| [LunaCore HUD](https://github.com/Kotsur69/Luna-Core-HUD) [![Star](https://img.shields.io/github/stars/Kotsur69/Luna-Core-HUD?style=flat&logo=github&label=Star)](https://github.com/Kotsur69/Luna-Core-HUD/stargazers) | 代码库 / 数据/表格 / 知识库/个人资料 | 开源应用/框架 | 图表/仪表盘 / 网页/交互页面 / 表格/时间线 | 本地语言环境 / 系统工具 / 存储/索引 / 渲染/导出 |
+| [DataGrout Smart Panels](https://github.com/DataGrout/smart-panels) [![Star](https://img.shields.io/github/stars/DataGrout/smart-panels?style=flat&logo=github&label=Star)](https://github.com/DataGrout/smart-panels/stargazers) | 数据库 / 数据/表格 / 代码/技术描述 | API/SDK/库 / MCP Server | 图表/仪表盘 / 网页/交互页面 / 结构化数据/Markdown | 本地语言环境 / MCP Client / 存储/索引 / 渲染/导出 |
+| [DataInk](https://github.com/oh-da/dataink) [![Star](https://img.shields.io/github/stars/oh-da/dataink?style=flat&logo=github&label=Star)](https://github.com/oh-da/dataink/stargazers) | 数据/表格 / 文本/想法 | Skill 集合 | 图表/仪表盘 / 信息图/视觉报告 / 报告/简报 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) [![Star](https://img.shields.io/github/stars/Albert-Weasker/niubigeo?style=flat&logo=github&label=Star)](https://github.com/Albert-Weasker/niubigeo/stargazers) | 网页/搜索结果 / 数据/表格 / 任意/多源 | 开源应用/框架 | 图表/仪表盘 / 报告/简报 / 证据表 | 浏览器/账号 / 模型 API / 本地语言环境 / 外部检索/数据源 / 存储/索引 |
 | [Codex Skill Stats & Dashboard](https://github.com/tonywei49/codex-skill-dashboard) [![Star](https://img.shields.io/github/stars/tonywei49/codex-skill-dashboard?style=flat&logo=github&label=Star)](https://github.com/tonywei49/codex-skill-dashboard/stargazers) | 代码库 / 数据库 / 数据/表格 | Agent Skill | 图表/仪表盘 / 网页/交互页面 / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 存储/索引 / 渲染/导出 |
 | [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) [![Star](https://img.shields.io/github/stars/drpwchen/lecture-to-notes?style=flat&logo=github&label=Star)](https://github.com/drpwchen/lecture-to-notes/stargazers) | Any/multi-source / PDF/documents / Office docs / Text/ideas | Open-source app/framework / Agent skill | Web/interactive page / Long report / Structured data/Markdown / SVG/PNG/PDF | Local runtime / System tools / Document parsing/OCR / Rendering/export / GPU/accelerator / Model API |
@@ -327,6 +329,8 @@
 
 | 项目 | 信息来源 | 工具形态 | 产出物形式 | 依赖类型 |
 | --- | --- | --- | --- | --- |
+| [Arabic Editorial Infographic](https://github.com/elmarakpy/arabic-editorial-infographic) [![Star](https://img.shields.io/github/stars/elmarakpy/arabic-editorial-infographic?style=flat&logo=github&label=Star)](https://github.com/elmarakpy/arabic-editorial-infographic/stargazers) | 文本/想法 / 新闻/资讯 | Agent Skill | 信息图/视觉报告 / 图形摘要/信息图 / SVG/PNG/PDF | Agent 宿主 / 渲染/导出 / 模板/素材 |
+| [affiliate-skills](https://github.com/Affitor/affiliate-skills) [![Star](https://img.shields.io/github/stars/Affitor/affiliate-skills?style=flat&logo=github&label=Star)](https://github.com/Affitor/affiliate-skills/stargazers) | 网页/搜索结果 / 新闻/资讯 / 数据/表格 | Skill 集合 | 信息图/视觉报告 / 网页/交互页面 / 报告/简报 | Agent 宿主 / 模型 API / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
 | [M3E Canvas](https://github.com/lnkiai/m3e-canvas) [![Star](https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat&logo=github&label=Star)](https://github.com/lnkiai/m3e-canvas/stargazers) | 文本/想法 / 代码/技术描述 | 开源应用/框架 | 网页/交互页面 / 结构化数据/Markdown / SVG/PNG/PDF | 浏览器/账号 / 模型 API / 渲染/导出 / 模板/素材 |
 | [Holo Card Studio](https://github.com/EverettFish/holo-card-studio) [![Star](https://img.shields.io/github/stars/EverettFish/holo-card-studio?style=flat&logo=github&label=Star)](https://github.com/EverettFish/holo-card-studio/stargazers) | 文本/想法 / PDF/文档 / 任意/多源 | Agent Skill | 网页/交互页面 / SVG/PNG/PDF / 图形摘要/信息图 | Agent 宿主 / 模型 API / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
 | [handraw-style](https://github.com/yang0/handraw-style) [![Star](https://img.shields.io/github/stars/yang0/handraw-style?style=flat&logo=github&label=Star)](https://github.com/yang0/handraw-style/stargazers) | 文本/想法 / 任意/多源 | Agent Skill | 图形摘要/信息图 / 工具索引 / 结构化数据/Markdown | Agent 宿主 / 模型 API / 本地语言环境 / 模板/素材 |
@@ -456,6 +460,8 @@
 
 | 项目 | 信息来源 | 工具形态 | 产出物形式 | 依赖类型 |
 | --- | --- | --- | --- | --- |
+| [HTML to PPT Deck Export](https://github.com/van822/html-to-ppt-deck-export) [![Star](https://img.shields.io/github/stars/van822/html-to-ppt-deck-export?style=flat&logo=github&label=Star)](https://github.com/van822/html-to-ppt-deck-export/stargazers) | 网页/搜索结果 / 文本/想法 / 数据/表格 | Agent Skill / API/SDK/库 | PPT/演示文稿 / SVG/PNG/PDF / 报告/简报 | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
+| [slides-skill by Rich627](https://github.com/Rich627/slides-skill) [![Star](https://img.shields.io/github/stars/Rich627/slides-skill?style=flat&logo=github&label=Star)](https://github.com/Rich627/slides-skill/stargazers) | 文本/想法 / PDF/文档 / 数据/表格 | Agent Skill / API/SDK/库 | PPT/演示文稿 / 图表/仪表盘 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [consulting-pptx-skill](https://github.com/carnot-tech/consulting-pptx-skill) [![Star](https://img.shields.io/github/stars/carnot-tech/consulting-pptx-skill?style=flat&logo=github&label=Star)](https://github.com/carnot-tech/consulting-pptx-skill/stargazers) | 文本/想法 / 数据/表格 / Office 文档 | Agent Skill | PPT/演示文稿 / SVG/PNG/PDF / 报告/简报 | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
 | [humanize-presentations](https://github.com/dmmdea/humanize-presentations) [![Star](https://img.shields.io/github/stars/dmmdea/humanize-presentations?style=flat&logo=github&label=Star)](https://github.com/dmmdea/humanize-presentations/stargazers) | Office docs / Text/ideas | Agent skill | PPT/deck / Evidence table | Agent host / Local runtime / System tools / Rendering/export |
 | [SlideForge MCP](https://github.com/smartdatabrokers/slideforge-mcp) [![Star](https://img.shields.io/github/stars/smartdatabrokers/slideforge-mcp?style=flat&logo=github&label=Star)](https://github.com/smartdatabrokers/slideforge-mcp/stargazers) | Text/ideas / Data/tables / Office docs / Any/multi-source | Product/SaaS / MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | Browser/account / MCP client / Model API / External search/data / Rendering/export / Templates/assets |
@@ -748,6 +754,7 @@
 | [mermaid-mcp by tci-nebula](https://github.com/tci-nebula/mermaid-mcp) [![Star](https://img.shields.io/github/stars/tci-nebula/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/tci-nebula/mermaid-mcp/stargazers) | DSL/code / Text/ideas / Code/technical text | MCP server | Diagram/Mermaid / SVG/PNG/PDF / Architecture/flow diagram | MCP client / Local runtime / Rendering/export / System tools |
 | [Mermaid MCP by fay-i](https://github.com/fay-i/mermaid-mcp) [![Star](https://img.shields.io/github/stars/fay-i/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/fay-i/mermaid-mcp/stargazers) | DSL/code / Text/ideas / Code/technical text | MCP server | Diagram/Mermaid / SVG/PNG/PDF / PPT/deck | MCP client / Local runtime / System tools / Rendering/export / Storage/index |
 | [Open Visualization Protocol](https://github.com/babarda/open-visualization-protocol) [![Star](https://img.shields.io/github/stars/babarda/open-visualization-protocol?style=flat&logo=github&label=Star)](https://github.com/babarda/open-visualization-protocol/stargazers) | Data/tables / DSL/code / Text/ideas | Agent skill / Skill collection / API/SDK/library | Chart/dashboard / Rendered chart / SVG/PNG/PDF / PPT/deck | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [LightningChart JS MCP Server](https://github.com/Lightning-Chart/lightningchart-js-mcp-server) [![Star](https://img.shields.io/github/stars/Lightning-Chart/lightningchart-js-mcp-server?style=flat&logo=github&label=Star)](https://github.com/Lightning-Chart/lightningchart-js-mcp-server/stargazers) | 代码/技术描述 / 数据/表格 | MCP Server | 图表/仪表盘 / 图表/渲染输出 | MCP Client / 本地语言环境 / 模型 API / 渲染/导出 |
 | [Mermaid](https://github.com/mermaid-js/mermaid) [![Star](https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&logo=github&label=Star)](https://github.com/mermaid-js/mermaid/stargazers) | DSL/代码 | API/SDK/库 | 图表/Mermaid / SVG/PNG/PDF | 渲染/导出 |
 | [mermaid-js-ai-agent](https://github.com/disler/mermaid-js-ai-agent) [![Star](https://img.shields.io/github/stars/disler/mermaid-js-ai-agent?style=flat&logo=github&label=Star)](https://github.com/disler/mermaid-js-ai-agent/stargazers) | 文本/想法 / 代码/技术描述 | 开源应用/框架 | 图表/Mermaid / SVG/PNG/PDF | 本地语言环境 / 模型 API / 渲染/导出 |
 | [mermaid-skill](https://github.com/Agents365-ai/mermaid-skill) [![Star](https://img.shields.io/github/stars/Agents365-ai/mermaid-skill?style=flat&logo=github&label=Star)](https://github.com/Agents365-ai/mermaid-skill/stargazers) | 文本/想法 / 代码/技术描述 | Agent Skill | 图表/Mermaid / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 |

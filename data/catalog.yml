@@ -1,4 +1,4 @@
-last_researched: '2026-09-10'
+last_researched: '2026-09-11'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -19021,3 +19021,228 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation
+- name: Git Work Report
+  url: https://github.com/Andlzap/git-work-report
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-10'
+  note: Agent Skill that turns git commits from a month or sprint into a presentation-ready single-file HTML report with executive summaries, KPI cards, charts, module-grouped deliveries, migration timelines, and commit logs.
+  source_types:
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/简报
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: code
+- name: HTML to PPT Deck Export
+  url: https://github.com/van822/html-to-ppt-deck-export
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-09-10'
+  note: Preview-first Codex skill and Node.js toolkit that maps planned HTML report blocks into 16:9 PNG previews, contact sheets, image-based PowerPoint decks, and full-bleed QA reports.
+  source_types:
+  - 网页/搜索结果
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 报告/简报
+  catalog_section: main
+  readme_group: presentation
+- name: slides-skill by Rich627
+  url: https://github.com/Rich627/slides-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-10'
+  note: Agent skill for Claude Code, Codex, and Cursor that separates deck content into a JSON spec and renders native editable PPTX decks with slide-type templates, evidence rules, contact-sheet rendering, and visual QA.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: LunaCore HUD
+  url: https://github.com/Kotsur69/Luna-Core-HUD
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 系统工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-09-10'
+  note: Electron dashboard wrapper for the Claude Code CLI with live terminal tabs, action buttons, context and usage gauges, skill/tool run tracking, active-file heatmaps, MCP server health, git status, session timelines, and media decks.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  catalog_section: main
+  readme_group: data
+- name: DataGrout Smart Panels
+  url: https://github.com/DataGrout/smart-panels
+  homepage: https://datagrout.ai
+  category: data-dashboard
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 存储/索引
+  - 渲染/导出
+  stars: 0
+  license: Apache-2.0
+  updated: '2026-09-08'
+  note: Rust smart-panel model for DataGrout that stores declarative UI as logic-cell facts and renders dashboards, forms, plots, tables, and agent-authored MCP App panels through egui or MCP transports.
+  source_types:
+  - 数据库
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - API/SDK/库
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Arabic Editorial Infographic
+  url: https://github.com/elmarakpy/arabic-editorial-infographic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-09'
+  note: Claude Code skill that preserves supplied Arabic copy verbatim while mapping it into RTL editorial poster or carousel layouts, scene-only prompts, combined image prompts, archetype palettes, and sample poster/timeline renders.
+  source_types:
+  - 文本/想法
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: affiliate-skills
+  url: https://github.com/Affitor/affiliate-skills
+  homepage: https://list.affitor.com
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 656
+  license: MIT
+  updated: '2026-09-10'
+  note: Affiliate-marketing agent skill collection that researches programs and trends, writes data-backed content, generates infographics and landing pages, builds distribution assets, and feeds analytics back into the content flywheel.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - 报告/简报
+  catalog_section: main
+  readme_group: text_visual
+- name: DataInk
+  url: https://github.com/oh-da/dataink
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-23'
+  note: Claude Code plugin with modular data-communication skills for chart design, infographic creation, dashboard layout, table design, visualization review, and data storytelling with accessibility and RTL checks.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: LightningChart JS MCP Server
+  url: https://github.com/Lightning-Chart/lightningchart-js-mcp-server
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-07-14'
+  note: Official LightningChart JS MCP server that gives coding agents maintained LCJS guidance for building, reviewing, or migrating high-performance charts, dashboards, and data visualizations without guessing outdated APIs.
+  source_types:
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render

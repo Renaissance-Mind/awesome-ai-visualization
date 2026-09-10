@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-10.
+Last researched: 2026-09-11.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-11: refreshed source-backed git-work reporting, HTML-to-PPT export, JSON-to-editable-PPTX rendering, Claude Code session dashboards, declarative agent-authored dashboard panels, RTL Arabic infographic generation, affiliate-content visual pipelines, data-communication skills, and official LightningChart JS MCP guidance from official GitHub repositories, project homepages, README/SKILL evidence, live web/GitHub searches, and GitHub metadata. This pass added Git Work Report, HTML to PPT Deck Export, slides-skill by Rich627, LunaCore HUD, DataGrout Smart Panels, Arabic Editorial Infographic, affiliate-skills, DataInk, and LightningChart JS MCP Server. The targeted scraper ran only against these nine new records, fetched eleven official sources successfully with no failures, and kept fourteen official examples, sixteen preview assets, and twenty docs links after scrubbing one non-artifact marketing image plus generic/dependency documentation links.
 
 Update on 2026-09-10: refreshed browser sketch-to-agent-prompt tooling, AI visibility reporting, local WeChat intelligence reports, holographic card and 3D scene skills, verified FFmpeg/video-agent tooling, hand-drawn style prompt galleries, consulting-grade HTML/PDF deck generation, editorial poster generation, image-story video workflows, and local Codex skill dashboards from official GitHub repositories, product pages, README/SKILL evidence, live web/GitHub searches, and GitHub metadata. This pass added M3E Canvas, NiubiGEO, WeChat Intelligence Hub, Holo Card Studio, ffmpeg-skill, handraw-style, dream-loop, consulting-pptx-skill, Yingzao, Image Story Video Wizard, and Codex Skill Stats & Dashboard. The targeted scraper ran only against these eleven new records, fetched fourteen official sources successfully with one npm package-page 403 response, and kept seven official examples, twenty-two preview assets, and twenty-three docs links after scrubbing one generic Anthropic Agent Skill documentation link.
 
