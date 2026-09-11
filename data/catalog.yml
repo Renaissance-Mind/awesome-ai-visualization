@@ -1,4 +1,4 @@
-last_researched: '2026-09-11'
+last_researched: '2026-09-12'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -19246,3 +19246,275 @@ entries:
   - 图表/渲染输出
   catalog_section: support_render
   readme_group: support_render
+- name: Presentation by eruto-skills
+  url: https://github.com/eruto-skills/presentation
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-06-16'
+  note: Claude Code skill that plans presentation requirements, story arcs, one-claim-per-slide outlines, structure QA, and
+    handoff routes to Marp or PPTX implementation skills.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Create Hand-drawn AI Infographic
+  url: https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-08-10'
+  note: Codex skill for Chinese hand-drawn AI explainers that extracts reference-image design DNA, compresses a topic into
+    3-6 visual nodes, supports deterministic 4:5 normalization, and archives prompt/source evidence.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: diagram-studio-mcp
+  url: https://github.com/0PValencia/diagram-studio-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 0
+  license: MIT
+  updated: '2026-08-05'
+  note: MCP server that renders Mermaid, Graphviz, PlantUML, and D2 sources through Kroki into PNG or SVG diagram artifacts
+    for Cursor, Claude, VS Code, and other MCP clients.
+  source_types:
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 图表/渲染输出
+  catalog_section: support_render
+  readme_group: support_render
+- name: DevOps Flow Viz MCP
+  url: https://github.com/AgentCraftworks/DevOpsFlowViz-MCP
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 0
+  license: MIT
+  updated: '2026-06-09'
+  note: TypeScript MCP server with pure generators that turn structured DevOps pipeline, state-machine, sequence, and
+    permission data into Mermaid diagrams, plus optional AgentCraftworks REST integration.
+  source_types:
+  - 代码/技术描述
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: code
+- name: AgenticMap
+  url: https://github.com/cos-QO/AgenticMap
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-06-05'
+  note: MCP-backed architecture map server where Claude agents push structured graph data into per-repository diagram
+    namespaces, version history, Mermaid fallback output, and an interactive React Flow UI.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 网页/交互页面
+  - 图表/Mermaid
+  catalog_section: main
+  readme_group: code
+- name: CN Exec Dashboard Skill
+  url: https://github.com/cassieliang6709/biz-analysis-dashboard
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Chinese executive-dashboard Claude Code skill that converts screenshots or business data into one-page, no-scroll,
+    offline HTML dashboards with hand-authored SVG charts and vector-PDF print output.
+  source_types:
+  - 数据/表格
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: PBI Claude Toolkit
+  url: https://github.com/ddan43036/powerbi-claude-toolkit
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: GPL-3.0
+  updated: '2026-09-04'
+  note: Claude Code toolkit for Power BI PBIP projects that reads TMDL models, designs native visual plans, inserts visuals
+    into report.json through Python scripts, and validates dashboard layouts after explicit approval.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - Skill 集合
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 报告/长文档
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: claude-prospector
+  url: https://github.com/glitchwerks/claude-prospector
+  homepage: https://pypi.org/project/claude-prospector/
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-09-11'
+  note: Claude Code plugin and Python CLI that reads local session JSONL logs to generate usage-analysis reports, interactive
+    token dashboards, skill/adoption breakdowns, and configuration-overlap audits.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: Vizboard
+  url: https://github.com/LunaLovegood76/vizboard
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 7
+  license: MIT
+  updated: '2026-04-06'
+  note: AgentSkills-compatible skill for turning Excel, CSV, TSV, JSON, JSONL, or pasted data into standalone interactive
+    HTML dashboards with VChart, KPI cards, themes, tables, and automatic chart selection.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  catalog_section: main
+  readme_group: data
+- name: Kubedian
+  url: https://github.com/sagoyanfisic/kubedian
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 1
+  license: Apache-2.0
+  updated: '2026-07-06'
+  note: Kubernetes manifest topology tool that indexes Kustomize, Helm, Istio, Ingress, NetworkPolicy, and docs evidence
+    into a SQLite service graph, then exposes CLI, MCP, Mermaid diagrams, and Markdown docs.
+  source_types:
+  - 代码库
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 图表/Mermaid
+  - 报告/长文档
+  catalog_section: main
+  readme_group: code

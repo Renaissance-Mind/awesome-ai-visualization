@@ -1,112 +1,112 @@
 {
-  "generatedAt": "2026-09-10T23:05:48+00:00",
-  "lastResearched": "2026-09-11",
+  "generatedAt": "2026-09-11T23:08:27+00:00",
+  "lastResearched": "2026-09-12",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 739,
-    "openSource": 185,
+    "total": 749,
+    "openSource": 187,
     "saas": 73,
-    "modelApi": 243,
-    "examples": 1548,
-    "effectAssets": 1966,
-    "docs": 1796
+    "modelApi": 244,
+    "examples": 1549,
+    "effectAssets": 1968,
+    "docs": 1801
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 76,
-      "PDF/文档": 224,
-      "文本/想法": 474,
-      "数据/表格": 303,
-      "代码/技术描述": 142,
-      "任意/多源": 118,
+      "PDF/文档": 225,
+      "文本/想法": 478,
+      "数据/表格": 308,
+      "代码/技术描述": 147,
+      "任意/多源": 119,
       "网页/搜索结果": 191,
-      "代码库": 81,
-      "DSL/代码": 144,
+      "代码库": 84,
+      "DSL/代码": 148,
       "新闻/资讯": 29,
-      "知识库/个人资料": 71,
-      "Office 文档": 137,
+      "知识库/个人资料": 72,
+      "Office 文档": 139,
       "引用网络": 5,
-      "数据库": 71,
+      "数据库": 72,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 185,
-      "Agent Skill": 277,
-      "Skill 集合": 72,
-      "MCP Server": 244,
+      "开源应用/框架": 187,
+      "Agent Skill": 282,
+      "Skill 集合": 74,
+      "MCP Server": 248,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 25,
       "研究原型": 10,
-      "API/SDK/库": 118,
+      "API/SDK/库": 120,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 59,
-      "PPT/演示文稿": 318,
-      "网页/交互页面": 256,
+      "图形摘要/信息图": 60,
+      "PPT/演示文稿": 319,
+      "网页/交互页面": 260,
       "问答/学习材料": 18,
-      "报告/长文档": 104,
+      "报告/长文档": 106,
       "证据表": 61,
-      "信息图/视觉报告": 105,
-      "图表/仪表盘": 232,
-      "架构图/流程图": 156,
-      "SVG/PNG/PDF": 314,
-      "报告/简报": 91,
+      "信息图/视觉报告": 106,
+      "图表/仪表盘": 236,
+      "架构图/流程图": 160,
+      "SVG/PNG/PDF": 317,
+      "报告/简报": 92,
       "白板/思维导图": 44,
-      "图表/Mermaid": 72,
+      "图表/Mermaid": 76,
       "视频/音频": 57,
-      "结构化数据/Markdown": 111,
-      "表格/时间线": 29,
+      "结构化数据/Markdown": 114,
+      "表格/时间线": 31,
       "引用答案": 6,
       "思维导图/知识地图": 43,
       "文献地图/知识地图": 5,
       "工具索引": 29,
-      "代码地图/Repo Wiki": 47,
-      "图表/渲染输出": 25
+      "代码地图/Repo Wiki": 49,
+      "图表/渲染输出": 26
     },
     "dependencies": {
-      "本地语言环境": 618,
-      "模型 API": 243,
-      "文档解析/OCR": 105,
-      "渲染/导出": 644,
+      "本地语言环境": 628,
+      "模型 API": 244,
+      "文档解析/OCR": 106,
+      "渲染/导出": 654,
       "GPU/加速器": 21,
-      "模板/素材": 356,
-      "Agent 宿主": 358,
-      "系统工具": 162,
+      "模板/素材": 361,
+      "Agent 宿主": 365,
+      "系统工具": 164,
       "浏览器/账号": 176,
-      "存储/索引": 108,
-      "MCP Client": 255,
-      "外部检索/数据源": 153,
-      "代码分析工具": 51
+      "存储/索引": 111,
+      "MCP Client": 259,
+      "外部检索/数据源": 155,
+      "代码分析工具": 52
     },
     "categories": {
       "paper-visualization": 23,
       "doc-to-knowledge": 65,
       "research-report": 32,
-      "infographic-report": 68,
-      "data-dashboard": 116,
-      "diagram-generation": 83,
+      "infographic-report": 69,
+      "data-dashboard": 120,
+      "diagram-generation": 85,
       "literature-map": 5,
-      "presentation-tools": 221,
+      "presentation-tools": 222,
       "rendering-primitive": 24,
       "video-generation": 17,
-      "codebase-map": 46,
+      "codebase-map": 48,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 39,
-      "text_visual": 92,
+      "text_visual": 93,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 34,
       "support_doc_parse": 22,
-      "presentation": 230,
-      "data": 110,
+      "presentation": 231,
+      "data": 114,
       "video": 17,
-      "code": 51,
-      "support_render": 64,
+      "code": 54,
+      "support_render": 65,
       "diagrams": 19,
       "indexes": 28,
       "diagram": 3,
@@ -60596,6 +60596,462 @@
       "examples": [],
       "effectAssets": [],
       "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Presentation by eruto-skills",
+      "url": "https://github.com/eruto-skills/presentation",
+      "primaryUrl": "https://github.com/eruto-skills/presentation",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-16",
+      "note": "Claude Code skill that plans presentation requirements, story arcs, one-claim-per-slide outlines, structure QA, and handoff routes to Marp or PPTX implementation skills.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Create Hand-drawn AI Infographic",
+      "url": "https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill",
+      "primaryUrl": "https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-10",
+      "note": "Codex skill for Chinese hand-drawn AI explainers that extracts reference-image design DNA, compresses a topic into 3-6 visual nodes, supports deterministic 4:5 normalization, and archives prompt/source evidence.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Prompt 工作坊示例",
+          "url": "https://raw.githubusercontent.com/vickywongziyu/create-handdrawn-ai-infographic-skill/HEAD/examples/prompt-workshop/final-4x5.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vickywongziyu/create-handdrawn-ai-infographic-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "diagram-studio-mcp",
+      "url": "https://github.com/0PValencia/diagram-studio-mcp",
+      "primaryUrl": "https://github.com/0PValencia/diagram-studio-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-05",
+      "note": "MCP server that renders Mermaid, Graphviz, PlantUML, and D2 sources through Kroki into PNG or SVG diagram artifacts for Cursor, Claude, VS Code, and other MCP clients.",
+      "sourceTypes": [
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "SVG/PNG/PDF",
+        "图表/渲染输出"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DevOps Flow Viz MCP",
+      "url": "https://github.com/AgentCraftworks/DevOpsFlowViz-MCP",
+      "primaryUrl": "https://github.com/AgentCraftworks/DevOpsFlowViz-MCP",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-09",
+      "note": "TypeScript MCP server with pure generators that turn structured DevOps pipeline, state-machine, sequence, and permission data into Mermaid diagrams, plus optional AgentCraftworks REST integration.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AgenticMap",
+      "url": "https://github.com/cos-QO/AgenticMap",
+      "primaryUrl": "https://github.com/cos-QO/AgenticMap",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-05",
+      "note": "MCP-backed architecture map server where Claude agents push structured graph data into per-repository diagram namespaces, version history, Mermaid fallback output, and an interactive React Flow UI.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "网页/交互页面",
+        "图表/Mermaid"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "ARCHITECTURE.md",
+          "url": "https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP_TOOLS.md",
+          "url": "https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/MCP_TOOLS.md",
+          "source": "https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "DATA_SCHEMA.md",
+          "url": "https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/DATA_SCHEMA.md",
+          "source": "https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "SETUP.md",
+          "url": "https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/SETUP.md",
+          "source": "https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "CN Exec Dashboard Skill",
+      "url": "https://github.com/cassieliang6709/biz-analysis-dashboard",
+      "primaryUrl": "https://github.com/cassieliang6709/biz-analysis-dashboard",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-03",
+      "note": "Chinese executive-dashboard Claude Code skill that converts screenshots or business data into one-page, no-scroll, offline HTML dashboards with hand-authored SVG charts and vector-PDF print output.",
+      "sourceTypes": [
+        "数据/表格",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/01-shanghai-rental-ops/NOTES.md`",
+          "url": "https://github.com/cassieliang6709/biz-analysis-dashboard/blob/HEAD/examples/01-shanghai-rental-ops/NOTES.md",
+          "source": "https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "preview",
+          "url": "https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/examples/01-shanghai-rental-ops/preview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "PBI Claude Toolkit",
+      "url": "https://github.com/ddan43036/powerbi-claude-toolkit",
+      "primaryUrl": "https://github.com/ddan43036/powerbi-claude-toolkit",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "GPL-3.0",
+      "updated": "2026-09-04",
+      "note": "Claude Code toolkit for Power BI PBIP projects that reads TMDL models, designs native visual plans, inserts visuals into report.json through Python scripts, and validates dashboard layouts after explicit approval.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/长文档",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "claude-prospector",
+      "url": "https://github.com/glitchwerks/claude-prospector",
+      "primaryUrl": "https://github.com/glitchwerks/claude-prospector",
+      "homepage": "https://pypi.org/project/claude-prospector/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-11",
+      "note": "Claude Code plugin and Python CLI that reads local session JSONL logs to generate usage-analysis reports, interactive token dashboards, skill/adoption breakdowns, and configuration-overlap audits.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/release-process.md",
+          "url": "https://github.com/glitchwerks/claude-prospector/blob/HEAD/docs/release-process.md",
+          "source": "https://raw.githubusercontent.com/glitchwerks/claude-prospector/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Vizboard",
+      "url": "https://github.com/LunaLovegood76/vizboard",
+      "primaryUrl": "https://github.com/LunaLovegood76/vizboard",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updated": "2026-04-06",
+      "note": "AgentSkills-compatible skill for turning Excel, CSV, TSV, JSON, JSONL, or pasted data into standalone interactive HTML dashboards with VChart, KPI cards, themes, tables, and automatic chart selection.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Kubedian",
+      "url": "https://github.com/sagoyanfisic/kubedian",
+      "primaryUrl": "https://github.com/sagoyanfisic/kubedian",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "Apache-2.0",
+      "updated": "2026-07-06",
+      "note": "Kubernetes manifest topology tool that indexes Kustomize, Helm, Istio, Ingress, NetworkPolicy, and docs evidence into a SQLite service graph, then exposes CLI, MCP, Mermaid diagrams, and Markdown docs.",
+      "sourceTypes": [
+        "代码库",
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "图表/Mermaid",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
     }

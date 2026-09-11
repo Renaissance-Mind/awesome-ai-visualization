@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-11.
+Last researched: 2026-09-12.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-12: refreshed presentation-planning skills, Chinese hand-drawn infographic generation, Kroki-backed diagram rendering, DevOps Mermaid generators, agent-pushed architecture maps, executive-dashboard HTML skills, Power BI PBIP visual-authoring toolkits, Claude Code usage dashboards, VChart data dashboards, and Kubernetes topology documentation from official GitHub repositories, README/SKILL evidence, live GitHub searches, PyPI metadata, and GitHub metadata. This pass added Presentation by eruto-skills, Create Hand-drawn AI Infographic, diagram-studio-mcp, DevOps Flow Viz MCP, AgenticMap, CN Exec Dashboard Skill, PBI Claude Toolkit, claude-prospector, Vizboard, and Kubedian. The targeted scraper ran only against these ten new records, fetched eleven official sources successfully with no failed fetches, and kept one official example, two preview assets, and five docs links after scrubbing two generic platform documentation links.
 
 Update on 2026-09-11: refreshed source-backed git-work reporting, HTML-to-PPT export, JSON-to-editable-PPTX rendering, Claude Code session dashboards, declarative agent-authored dashboard panels, RTL Arabic infographic generation, affiliate-content visual pipelines, data-communication skills, and official LightningChart JS MCP guidance from official GitHub repositories, project homepages, README/SKILL evidence, live web/GitHub searches, and GitHub metadata. This pass added Git Work Report, HTML to PPT Deck Export, slides-skill by Rich627, LunaCore HUD, DataGrout Smart Panels, Arabic Editorial Infographic, affiliate-skills, DataInk, and LightningChart JS MCP Server. The targeted scraper ran only against these nine new records, fetched eleven official sources successfully with no failures, and kept fourteen official examples, sixteen preview assets, and twenty docs links after scrubbing one non-artifact marketing image plus generic/dependency documentation links.
 

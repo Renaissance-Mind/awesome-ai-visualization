@@ -1,4 +1,4 @@
-generated_at: '2026-09-10T23:05:48+00:00'
+generated_at: '2026-09-11T23:08:27+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 739
-  fetched_sources_ok: 989
+  entries: 749
+  fetched_sources_ok: 1000
   fetched_sources_failed: 52
-  official_examples: 1548
-  official_effect_assets: 1966
-  official_docs: 1796
+  official_examples: 1549
+  official_effect_assets: 1968
+  official_docs: 1801
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -57623,3 +57623,307 @@ entries:
     title: Developer Documentation
     url: https://lightningchart.com/js-charts/docs/lc-and-ai/
     source: https://raw.githubusercontent.com/Lightning-Chart/lightningchart-js-mcp-server/HEAD/README.md
+- name: Presentation by eruto-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/eruto-skills/presentation
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that plans presentation requirements, story arcs, one-claim-per-slide outlines, structure
+    QA, and handoff routes to Marp or PPTX implementation skills.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/eruto-skills/presentation/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/eruto-skills/presentation/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: presentation
+    bytes: 2517
+  source_headings:
+  - presentation
+- name: Create Hand-drawn AI Infographic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex skill for Chinese hand-drawn AI explainers that extracts reference-image design DNA, compresses a topic
+    into 3-6 visual nodes, supports deterministic 4:5 normalization, and archives prompt/source evidence.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vickywongziyu/create-handdrawn-ai-infographic-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vickywongziyu/create-handdrawn-ai-infographic-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Create Hand-drawn AI Infographic
+    bytes: 3756
+  official_effect_assets:
+  - kind: image
+    title: Prompt 工作坊示例
+    url: https://raw.githubusercontent.com/vickywongziyu/create-handdrawn-ai-infographic-skill/HEAD/examples/prompt-workshop/final-4x5.png
+    source: https://raw.githubusercontent.com/vickywongziyu/create-handdrawn-ai-infographic-skill/HEAD/README.md
+  source_headings:
+  - 使用示例
+  - 示例链路
+- name: diagram-studio-mcp
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/0PValencia/diagram-studio-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: MCP server that renders Mermaid, Graphviz, PlantUML, and D2 sources through Kroki into PNG or SVG diagram
+    artifacts for Cursor, Claude, VS Code, and other MCP clients.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/0PValencia/diagram-studio-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/0PValencia/diagram-studio-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: '@0pvalencia/diagram-studio-mcp'
+    bytes: 1093
+  source_headings:
+  - '@0pvalencia/diagram-studio-mcp'
+- name: DevOps Flow Viz MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/AgentCraftworks/DevOpsFlowViz-MCP
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: TypeScript MCP server with pure generators that turn structured DevOps pipeline, state-machine, sequence,
+    and permission data into Mermaid diagrams, plus optional AgentCraftworks REST integration.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/AgentCraftworks/DevOpsFlowViz-MCP/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/AgentCraftworks/DevOpsFlowViz-MCP/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DevOps Flow Viz MCP Server
+    bytes: 2256
+  source_headings:
+  - Usage
+- name: AgenticMap
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/cos-QO/AgenticMap
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: MCP-backed architecture map server where Claude agents push structured graph data into per-repository diagram
+    namespaces, version history, Mermaid fallback output, and an interactive React Flow UI.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AgenticMap
+    bytes: 3647
+  official_docs:
+  - kind: docs
+    title: ARCHITECTURE.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  - kind: docs
+    title: MCP_TOOLS.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/MCP_TOOLS.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  - kind: docs
+    title: DATA_SCHEMA.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/DATA_SCHEMA.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  - kind: docs
+    title: SETUP.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: ARCHITECTURE.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  - kind: docs
+    title: MCP_TOOLS.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/MCP_TOOLS.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  - kind: docs
+    title: DATA_SCHEMA.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/DATA_SCHEMA.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  - kind: docs
+    title: SETUP.md
+    url: https://github.com/cos-QO/AgenticMap/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/cos-QO/AgenticMap/HEAD/README.md
+  source_headings:
+  - Documentation
+- name: CN Exec Dashboard Skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/cassieliang6709/biz-analysis-dashboard
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Chinese executive-dashboard Claude Code skill that converts screenshots or business data into one-page, no-scroll,
+    offline HTML dashboards with hand-authored SVG charts and vector-PDF print output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 经营分析 Dashboard · Claude Code Skill
+    bytes: 4801
+  official_examples:
+  - kind: example
+    title: '`examples/01-shanghai-rental-ops/NOTES.md`'
+    url: https://github.com/cassieliang6709/biz-analysis-dashboard/blob/HEAD/examples/01-shanghai-rental-ops/NOTES.md
+    source: https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: preview
+    url: https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/examples/01-shanghai-rental-ops/preview.png
+    source: https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/01-shanghai-rental-ops/NOTES.md`'
+    url: https://github.com/cassieliang6709/biz-analysis-dashboard/blob/HEAD/examples/01-shanghai-rental-ops/NOTES.md
+    source: https://raw.githubusercontent.com/cassieliang6709/biz-analysis-dashboard/HEAD/README.md
+  source_headings:
+  - 经营分析 Dashboard · Claude Code Skill
+  - 为什么不用图表库
+- name: PBI Claude Toolkit
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/ddan43036/powerbi-claude-toolkit
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code toolkit for Power BI PBIP projects that reads TMDL models, designs native visual plans, inserts
+    visuals into report.json through Python scripts, and validates dashboard layouts after explicit approval.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ddan43036/powerbi-claude-toolkit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ddan43036/powerbi-claude-toolkit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PBI Claude Toolkit — visuales nativos en PBIP con Claude Code
+    bytes: 9298
+  source_headings:
+  - PBI Claude Toolkit — visuales nativos en PBIP con Claude Code
+- name: claude-prospector
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/glitchwerks/claude-prospector
+  homepage: https://pypi.org/project/claude-prospector/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Claude Code plugin and Python CLI that reads local session JSONL logs to generate usage-analysis reports,
+    interactive token dashboards, skill/adoption breakdowns, and configuration-overlap audits.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/glitchwerks/claude-prospector/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/glitchwerks/claude-prospector/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: claude-prospector
+    bytes: 51014
+  - kind: homepage
+    url: https://pypi.org/project/claude-prospector/
+    final_url: https://pypi.org/project/claude-prospector/
+    status: 200
+    content_type: text/html
+    title: Client Challenge
+    bytes: 3038
+  official_docs:
+  - kind: docs
+    title: docs/release-process.md
+    url: https://github.com/glitchwerks/claude-prospector/blob/HEAD/docs/release-process.md
+    source: https://raw.githubusercontent.com/glitchwerks/claude-prospector/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/release-process.md
+    url: https://github.com/glitchwerks/claude-prospector/blob/HEAD/docs/release-process.md
+    source: https://raw.githubusercontent.com/glitchwerks/claude-prospector/HEAD/README.md
+  source_headings:
+  - '`usage-analysis` skill'
+  - '`usage-dashboard` skill'
+  - '`dashboard-regen` hook (Stop, opt-in)'
+  - Hiding noise projects from the dashboard
+  - Project labels in the dashboard
+  - '`dashboard` — interactive HTML dashboard'
+  - Include MCP tool-usage breakdown (extra transcript-read cost; see below)
+  - Example output
+  - Example output (`--format json`)
+  - Example output (`--format text`)
+  - '`tool-usage` — per-tool, per-server, per-agent call counts'
+  - REMOVED — will print help and exit 0, not run the dashboard
+- name: Vizboard
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/LunaLovegood76/vizboard
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AgentSkills-compatible skill for turning Excel, CSV, TSV, JSON, JSONL, or pasted data into standalone interactive
+    HTML dashboards with VChart, KPI cards, themes, tables, and automatic chart selection.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/LunaLovegood76/vizboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/LunaLovegood76/vizboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Vizboard
+    bytes: 5050
+  source_headings:
+  - 支持的图表类型
+- name: Kubedian
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/sagoyanfisic/kubedian
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Kubernetes manifest topology tool that indexes Kustomize, Helm, Istio, Ingress, NetworkPolicy, and docs evidence
+    into a SQLite service graph, then exposes CLI, MCP, Mermaid diagrams, and Markdown docs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/sagoyanfisic/kubedian/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/sagoyanfisic/kubedian/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Kubedian
+    bytes: 14065
+  source_headings:
+  - Usage
+  - 3. Visualize / document
+  - Examples — who talks to whom?
+  - Enrich the graph from your docs

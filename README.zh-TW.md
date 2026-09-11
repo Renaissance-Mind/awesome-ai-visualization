@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-739_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--11-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-749_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--12-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,19 +13,20 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-09-11)
+## Latest Refresh (2026-09-12)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Git Work Report](https://github.com/Andlzap/git-work-report) | Agent skill that turns monthly or sprint git commits into a presentation-ready HTML report with executive summaries, KPI cards, charts, module delivery groups, migration timelines, and commit logs. |
-| [HTML to PPT Deck Export](https://github.com/van822/html-to-ppt-deck-export) | Preview-first Codex skill and Node toolkit that maps planned HTML report blocks into 16:9 previews, contact sheets, image-based PowerPoint decks, and full-bleed QA reports. |
-| [slides-skill by Rich627](https://github.com/Rich627/slides-skill) | Agent skill that converts deck content JSON into native editable PowerPoint files with slide-type templates, evidence rules, contact-sheet rendering, and visual QA. |
-| [LunaCore HUD](https://github.com/Kotsur69/Luna-Core-HUD) | Electron dashboard wrapper for Claude Code CLI sessions with terminal tabs, action buttons, usage gauges, skill/tool run tracking, file heatmaps, MCP health, git status, and timelines. |
-| [DataGrout Smart Panels](https://github.com/DataGrout/smart-panels) | Rust smart-panel model that stores declarative UI as logic-cell facts and renders dashboards, forms, plots, tables, and agent-authored MCP App panels. |
-| [Arabic Editorial Infographic](https://github.com/elmarakpy/arabic-editorial-infographic) | Claude Code skill for RTL Arabic editorial posters and carousels, preserving supplied copy verbatim while producing scene-only prompts, combined prompts, archetype palettes, and sample renders. |
-| [affiliate-skills](https://github.com/Affitor/affiliate-skills) | Agent skill collection for affiliate research, trend scouting, data-backed posts, infographics, landing pages, distribution assets, analytics, and closed-loop content optimization. |
-| [DataInk](https://github.com/oh-da/dataink) | Claude Code plugin with modular data-communication skills for chart design, infographic creation, dashboard layout, table design, visualization review, and data storytelling with accessibility and RTL checks. |
-| [LightningChart JS MCP Server](https://github.com/Lightning-Chart/lightningchart-js-mcp-server) | Official MCP server that gives coding agents maintained LightningChart JS guidance for building, reviewing, and migrating high-performance charts, dashboards, and data visualizations. |
+| [Presentation by eruto-skills](https://github.com/eruto-skills/presentation) | Claude Code skill that plans presentation requirements, story arcs, one-claim-per-slide outlines, structure QA, and handoff routes to Marp or PPTX implementation skills. |
+| [Create Hand-drawn AI Infographic](https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill) | Codex skill for Chinese hand-drawn AI explainers that extracts reference-image design DNA, compresses topics into 3-6 visual nodes, normalizes 4:5 outputs, and archives prompt/source evidence. |
+| [diagram-studio-mcp](https://github.com/0PValencia/diagram-studio-mcp) | MCP server that renders Mermaid, Graphviz, PlantUML, and D2 sources through Kroki into PNG or SVG diagram artifacts for agent clients. |
+| [DevOps Flow Viz MCP](https://github.com/AgentCraftworks/DevOpsFlowViz-MCP) | TypeScript MCP server that turns structured DevOps pipeline, state-machine, sequence, and permission data into Mermaid diagrams, with optional AgentCraftworks REST integration. |
+| [AgenticMap](https://github.com/cos-QO/AgenticMap) | MCP-backed architecture map server where agents push structured graph data into per-repository diagram namespaces, version history, Mermaid fallback output, and an interactive React Flow UI. |
+| [CN Exec Dashboard Skill](https://github.com/cassieliang6709/biz-analysis-dashboard) | Chinese executive-dashboard Claude Code skill that converts screenshots or business data into one-page, no-scroll, offline HTML dashboards with hand-authored SVG charts and vector-PDF print output. |
+| [PBI Claude Toolkit](https://github.com/ddan43036/powerbi-claude-toolkit) | Claude Code toolkit for Power BI PBIP projects that reads TMDL models, designs native visual plans, inserts visuals into report.json through Python scripts, and validates dashboard layouts. |
+| [claude-prospector](https://github.com/glitchwerks/claude-prospector) | Claude Code plugin and Python CLI that reads local session JSONL logs to generate usage-analysis reports, interactive token dashboards, skill/adoption breakdowns, and configuration-overlap audits. |
+| [Vizboard](https://github.com/LunaLovegood76/vizboard) | AgentSkills-compatible skill that turns Excel, CSV, TSV, JSON, JSONL, or pasted data into standalone interactive HTML dashboards with VChart, KPI cards, themes, tables, and automatic chart selection. |
+| [Kubedian](https://github.com/sagoyanfisic/kubedian) | Kubernetes manifest topology tool that indexes Kustomize, Helm, Istio, Ingress, NetworkPolicy, and docs evidence into a SQLite graph, then exposes CLI, MCP, Mermaid diagrams, and Markdown docs. |
 
 ## ✨ 推薦使用方式
 
@@ -155,6 +156,9 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [DevOps Flow Viz MCP](https://github.com/AgentCraftworks/DevOpsFlowViz-MCP) [![Star](https://img.shields.io/github/stars/AgentCraftworks/DevOpsFlowViz-MCP?style=flat&logo=github&label=Star)](https://github.com/AgentCraftworks/DevOpsFlowViz-MCP/stargazers) | 程式碼/技術描述 / 資料/表格 / DSL/程式碼 | MCP Server | 圖表/Mermaid / 架構圖/流程圖 / 結構化資料/Markdown | MCP Client / 本機語言環境 / 渲染/匯出 / 外部檢索/資料來源 |
+| [AgenticMap](https://github.com/cos-QO/AgenticMap) [![Star](https://img.shields.io/github/stars/cos-QO/AgenticMap?style=flat&logo=github&label=Star)](https://github.com/cos-QO/AgenticMap/stargazers) | 程式碼庫 / 程式碼/技術描述 | MCP Server / 開源應用/框架 | 程式碼地圖/Repo Wiki / 架構圖/流程圖 / 網頁/互動頁面 / 圖表/Mermaid | MCP Client / Agent 宿主 / 本機語言環境 / 儲存/索引 / 渲染/匯出 |
+| [Kubedian](https://github.com/sagoyanfisic/kubedian) [![Star](https://img.shields.io/github/stars/sagoyanfisic/kubedian?style=flat&logo=github&label=Star)](https://github.com/sagoyanfisic/kubedian/stargazers) | 程式碼庫 / DSL/程式碼 / 程式碼/技術描述 | MCP Server / 開源應用/框架 | 程式碼地圖/Repo Wiki / 架構圖/流程圖 / 圖表/Mermaid / 報告/長文件 | MCP Client / 本機語言環境 / 系統工具 / 程式碼分析工具 / 儲存/索引 / 渲染/匯出 |
 | [Git Work Report](https://github.com/Andlzap/git-work-report) [![Star](https://img.shields.io/github/stars/Andlzap/git-work-report?style=flat&logo=github&label=Star)](https://github.com/Andlzap/git-work-report/stargazers) | 代码库 | Agent Skill | 报告/简报 / 图表/仪表盘 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 代码分析工具 / 渲染/导出 |
 | [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram) [![Star](https://img.shields.io/github/stars/ahmedkhaleel2004/gitdiagram?style=flat&logo=github&label=Star)](https://github.com/ahmedkhaleel2004/gitdiagram/stargazers) | 程式碼庫 | 開源應用/框架 | 程式碼地圖/Repo Wiki / 架構圖/流程圖 | 瀏覽器/帳號 / 模型 API / 程式碼分析工具 |
 | [CodeBoarding](https://github.com/Codeboarding/CodeBoarding) [![Star](https://img.shields.io/github/stars/Codeboarding/CodeBoarding?style=flat&logo=github&label=Star)](https://github.com/Codeboarding/CodeBoarding/stargazers) | 程式碼庫 | 開源應用/框架 | 程式碼地圖/Repo Wiki / 架構圖/流程圖 | 本機語言環境 / 模型 API / 程式碼分析工具 / 渲染/匯出 / 儲存/索引 |
@@ -213,6 +217,10 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [CN Exec Dashboard Skill](https://github.com/cassieliang6709/biz-analysis-dashboard) [![Star](https://img.shields.io/github/stars/cassieliang6709/biz-analysis-dashboard?style=flat&logo=github&label=Star)](https://github.com/cassieliang6709/biz-analysis-dashboard/stargazers) | 資料/表格 / Office 文件 / 文字/想法 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
+| [PBI Claude Toolkit](https://github.com/ddan43036/powerbi-claude-toolkit) [![Star](https://img.shields.io/github/stars/ddan43036/powerbi-claude-toolkit?style=flat&logo=github&label=Star)](https://github.com/ddan43036/powerbi-claude-toolkit/stargazers) | 資料/表格 / 資料庫 / Office 文件 | Skill 集合 / API/SDK/函式庫 | 圖表/儀表板 / 報告/長文件 / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
+| [claude-prospector](https://github.com/glitchwerks/claude-prospector) [![Star](https://img.shields.io/github/stars/glitchwerks/claude-prospector?style=flat&logo=github&label=Star)](https://github.com/glitchwerks/claude-prospector/stargazers) | 程式碼庫 / 資料/表格 / 知識庫/個人資料 | Skill 集合 / Agent Skill / API/SDK/函式庫 | 圖表/儀表板 / 網頁/互動頁面 / 表格/時間線 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 儲存/索引 / 渲染/匯出 |
+| [Vizboard](https://github.com/LunaLovegood76/vizboard) [![Star](https://img.shields.io/github/stars/LunaLovegood76/vizboard?style=flat&logo=github&label=Star)](https://github.com/LunaLovegood76/vizboard/stargazers) | 資料/表格 / 文字/想法 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / 表格/時間線 | Agent 宿主 / 本機語言環境 / 文件解析/OCR / 渲染/匯出 / 模板/素材 |
 | [LunaCore HUD](https://github.com/Kotsur69/Luna-Core-HUD) [![Star](https://img.shields.io/github/stars/Kotsur69/Luna-Core-HUD?style=flat&logo=github&label=Star)](https://github.com/Kotsur69/Luna-Core-HUD/stargazers) | 代码库 / 数据/表格 / 知识库/个人资料 | 开源应用/框架 | 图表/仪表盘 / 网页/交互页面 / 表格/时间线 | 本地语言环境 / 系统工具 / 存储/索引 / 渲染/导出 |
 | [DataGrout Smart Panels](https://github.com/DataGrout/smart-panels) [![Star](https://img.shields.io/github/stars/DataGrout/smart-panels?style=flat&logo=github&label=Star)](https://github.com/DataGrout/smart-panels/stargazers) | 数据库 / 数据/表格 / 代码/技术描述 | API/SDK/库 / MCP Server | 图表/仪表盘 / 网页/交互页面 / 结构化数据/Markdown | 本地语言环境 / MCP Client / 存储/索引 / 渲染/导出 |
 | [DataInk](https://github.com/oh-da/dataink) [![Star](https://img.shields.io/github/stars/oh-da/dataink?style=flat&logo=github&label=Star)](https://github.com/oh-da/dataink/stargazers) | 数据/表格 / 文本/想法 | Skill 集合 | 图表/仪表盘 / 信息图/视觉报告 / 报告/简报 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
@@ -329,6 +337,7 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [Create Hand-drawn AI Infographic](https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill) [![Star](https://img.shields.io/github/stars/vickywongziyu/create-handdrawn-ai-infographic-skill?style=flat&logo=github&label=Star)](https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill/stargazers) | 文字/想法 / 程式碼/技術描述 / 任意/多來源 | Agent Skill | 資訊圖/視覺報告 / 圖形摘要/資訊圖 / SVG/PNG/PDF | Agent 宿主 / 模型 API / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [Arabic Editorial Infographic](https://github.com/elmarakpy/arabic-editorial-infographic) [![Star](https://img.shields.io/github/stars/elmarakpy/arabic-editorial-infographic?style=flat&logo=github&label=Star)](https://github.com/elmarakpy/arabic-editorial-infographic/stargazers) | 文本/想法 / 新闻/资讯 | Agent Skill | 信息图/视觉报告 / 图形摘要/信息图 / SVG/PNG/PDF | Agent 宿主 / 渲染/导出 / 模板/素材 |
 | [affiliate-skills](https://github.com/Affitor/affiliate-skills) [![Star](https://img.shields.io/github/stars/Affitor/affiliate-skills?style=flat&logo=github&label=Star)](https://github.com/Affitor/affiliate-skills/stargazers) | 网页/搜索结果 / 新闻/资讯 / 数据/表格 | Skill 集合 | 信息图/视觉报告 / 网页/交互页面 / 报告/简报 | Agent 宿主 / 模型 API / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
 | [M3E Canvas](https://github.com/lnkiai/m3e-canvas) [![Star](https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat&logo=github&label=Star)](https://github.com/lnkiai/m3e-canvas/stargazers) | 文字/想法 / 程式碼/技術描述 | 開源應用/框架 | 網頁/互動頁面 / 結構化資料/Markdown / SVG/PNG/PDF | 瀏覽器/帳號 / 模型 API / 渲染/匯出 / 模板/素材 |
@@ -460,6 +469,7 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [Presentation by eruto-skills](https://github.com/eruto-skills/presentation) [![Star](https://img.shields.io/github/stars/eruto-skills/presentation?style=flat&logo=github&label=Star)](https://github.com/eruto-skills/presentation/stargazers) | 文字/想法 / PDF/文件 / DSL/程式碼 | Agent Skill | PPT/簡報 / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [HTML to PPT Deck Export](https://github.com/van822/html-to-ppt-deck-export) [![Star](https://img.shields.io/github/stars/van822/html-to-ppt-deck-export?style=flat&logo=github&label=Star)](https://github.com/van822/html-to-ppt-deck-export/stargazers) | 网页/搜索结果 / 文本/想法 / 数据/表格 | Agent Skill / API/SDK/库 | PPT/演示文稿 / SVG/PNG/PDF / 报告/简报 | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
 | [slides-skill by Rich627](https://github.com/Rich627/slides-skill) [![Star](https://img.shields.io/github/stars/Rich627/slides-skill?style=flat&logo=github&label=Star)](https://github.com/Rich627/slides-skill/stargazers) | 文本/想法 / PDF/文档 / 数据/表格 | Agent Skill / API/SDK/库 | PPT/演示文稿 / 图表/仪表盘 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [consulting-pptx-skill](https://github.com/carnot-tech/consulting-pptx-skill) [![Star](https://img.shields.io/github/stars/carnot-tech/consulting-pptx-skill?style=flat&logo=github&label=Star)](https://github.com/carnot-tech/consulting-pptx-skill/stargazers) | 文字/想法 / 資料/表格 / Office 文件 | Agent Skill | PPT/演示文稿 / SVG/PNG/PDF / 報告/簡報 | Agent 宿主 / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
@@ -754,6 +764,7 @@
 | [mermaid-mcp by tci-nebula](https://github.com/tci-nebula/mermaid-mcp) [![Star](https://img.shields.io/github/stars/tci-nebula/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/tci-nebula/mermaid-mcp/stargazers) | DSL/code / Text/ideas / Code/technical text | MCP server | Diagram/Mermaid / SVG/PNG/PDF / Architecture/flow diagram | MCP client / Local runtime / Rendering/export / System tools |
 | [Mermaid MCP by fay-i](https://github.com/fay-i/mermaid-mcp) [![Star](https://img.shields.io/github/stars/fay-i/mermaid-mcp?style=flat&logo=github&label=Star)](https://github.com/fay-i/mermaid-mcp/stargazers) | DSL/code / Text/ideas / Code/technical text | MCP server | Diagram/Mermaid / SVG/PNG/PDF / PPT/deck | MCP client / Local runtime / System tools / Rendering/export / Storage/index |
 | [Open Visualization Protocol](https://github.com/babarda/open-visualization-protocol) [![Star](https://img.shields.io/github/stars/babarda/open-visualization-protocol?style=flat&logo=github&label=Star)](https://github.com/babarda/open-visualization-protocol/stargazers) | Data/tables / DSL/code / Text/ideas | Agent skill / Skill collection / API/SDK/library | Chart/dashboard / Rendered chart / SVG/PNG/PDF / PPT/deck | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [diagram-studio-mcp](https://github.com/0PValencia/diagram-studio-mcp) [![Star](https://img.shields.io/github/stars/0PValencia/diagram-studio-mcp?style=flat&logo=github&label=Star)](https://github.com/0PValencia/diagram-studio-mcp/stargazers) | DSL/程式碼 / 程式碼/技術描述 | MCP Server | 圖表/Mermaid / 架構圖/流程圖 / SVG/PNG/PDF / 圖表/渲染輸出 | MCP Client / 本機語言環境 / 渲染/匯出 / 外部檢索/資料來源 |
 | [LightningChart JS MCP Server](https://github.com/Lightning-Chart/lightningchart-js-mcp-server) [![Star](https://img.shields.io/github/stars/Lightning-Chart/lightningchart-js-mcp-server?style=flat&logo=github&label=Star)](https://github.com/Lightning-Chart/lightningchart-js-mcp-server/stargazers) | 代码/技术描述 / 数据/表格 | MCP Server | 图表/仪表盘 / 图表/渲染输出 | MCP Client / 本地语言环境 / 模型 API / 渲染/导出 |
 | [Mermaid](https://github.com/mermaid-js/mermaid) [![Star](https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&logo=github&label=Star)](https://github.com/mermaid-js/mermaid/stargazers) | DSL/代碼 | API/SDK/庫 | 圖表/Mermaid / SVG/PNG/PDF | 渲染/匯出 |
 | [mermaid-js-ai-agent](https://github.com/disler/mermaid-js-ai-agent) [![Star](https://img.shields.io/github/stars/disler/mermaid-js-ai-agent?style=flat&logo=github&label=Star)](https://github.com/disler/mermaid-js-ai-agent/stargazers) | 文字/想法 / 代碼/技術描述 | 開源應用/框架 | 圖表/Mermaid / SVG/PNG/PDF | 本機語言環境 / 模型 API / 渲染/匯出 |
