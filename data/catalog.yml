@@ -1,4 +1,4 @@
-last_researched: '2026-09-12'
+last_researched: '2026-09-13'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -19518,3 +19518,277 @@ entries:
   - 报告/长文档
   catalog_section: main
   readme_group: code
+- name: Decksmith
+  url: https://github.com/Rotvie/decksmith
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-09-07'
+  note: MCP server for Claude Code that turns Markdown briefs into reviewed slide plans, gated visual briefs, consistent
+    on-brand slide images, reusable visual systems, prompt previews, and resumable per-slide generation artifacts.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Agent Dashboard
+  url: https://github.com/wildware-uk/agent-dashboard
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 浏览器/账号
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Self-hosted browser dashboard where AI agents report MCP status updates with markdown, images, video, tasks, project
+    feeds, approval forms, themed project pages, and shareable update cards.
+  source_types:
+  - 代码库
+  - 任意/多源
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  catalog_section: main
+  readme_group: data
+- name: Agent Reliability Lab
+  url: https://github.com/karthikrshet/agent-reliability
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-09-08'
+  note: Reliability-engineering platform for tool-using agents that runs deterministic fault injection, stateful invariant
+    checks, reproducible replay, CLI/CI gates, MCP access, and dashboard-style trace/report artifacts.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 证据表
+  - 报告/长文档
+  catalog_section: main
+  readme_group: data
+- name: PowerPoint Generator Skill
+  url: https://github.com/Xr810/PowerPoint_MCP
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-09-07'
+  note: Agent skill over a PowerPoint MCP server that blocks until requirements and outlines are approved, batch-builds
+    editable slides, enforces presentation design standards, and runs whole-deck QA for overlap, readability, and text fit.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Findings Visualizer
+  url: https://github.com/neang-mengseang/findings-visualizer
+  homepage: https://neang-mengseang.github.io/findings-visualizer/
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-03'
+  note: Devin and Claude Code skill that converts structured audit findings, feature trackers, release checklists, and
+    tool comparisons into self-contained offline HTML dashboards with filters, charts, themes, branding, print/PDF, and JSON export.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: PowerPoint Design Power
+  url: https://github.com/juanhcode/powerpoint-design-power
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-06'
+  note: Kiro Power that layers presentation-specific instructions, workflows, design guidelines, template handling, and
+    natural-language deck editing on top of a local PowerPoint MCP server for .pptx creation and export.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: AI Presentation Generator by Amit
+  url: https://github.com/amitk-codes/ai-presentation-generator
+  homepage: https://ai-presentation-generator-amit.vercel.app
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - MCP Client
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  updated: '2026-09-12'
+  note: Self-hosted web app and MCP server that route a topic through an n8n workflow, render service, Playwright, and
+    pptxgenjs to produce previewable PDF and editable PowerPoint decks with tone themes, photos, and varied layouts.
+  source_types:
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: canva-slide-layouts
+  url: https://github.com/alderman-ai/canva-slide-layouts
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  updated: '2026-09-01'
+  note: Markdown-first slide layout library and ontology with flat frontmatter, geometry tables, per-presentation projects,
+    an Obsidian vault, PowerShell tooling, and a batch Canva MCP upload pipeline.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Tenet Skills
+  url: https://github.com/inceptyon-labs/tenet-skills
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-06'
+  note: Claude Code plugin with coordinated application-health audit skills that aggregate deterministic tool output and
+    AI judgment into structured JSON reports, per-dimension scores, actionable findings, and optional Tenet dashboard uploads.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: docs
+- name: dashboard-canvas
+  url: https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-08'
+  note: Claude Code skill that profiles spreadsheets, cleans CSV/XLSX inputs with standard-library Python, chooses KPI
+    questions, renders dependency-free inline SVG charts, and lays them out as Claude Design dashboard artboards.
+  source_types:
+  - 数据/表格
+  - Office 文档
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data

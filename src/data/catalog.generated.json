@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-11T23:08:27+00:00",
-  "lastResearched": "2026-09-12",
+  "generatedAt": "2026-09-12T23:06:45+00:00",
+  "lastResearched": "2026-09-13",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 749,
-    "openSource": 187,
+    "total": 759,
+    "openSource": 191,
     "saas": 73,
-    "modelApi": 244,
-    "examples": 1549,
-    "effectAssets": 1968,
-    "docs": 1801
+    "modelApi": 246,
+    "examples": 1551,
+    "effectAssets": 1985,
+    "docs": 1806
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 76,
-      "PDF/文档": 225,
-      "文本/想法": 478,
-      "数据/表格": 308,
-      "代码/技术描述": 147,
-      "任意/多源": 119,
+      "PDF/文档": 226,
+      "文本/想法": 485,
+      "数据/表格": 312,
+      "代码/技术描述": 149,
+      "任意/多源": 125,
       "网页/搜索结果": 191,
-      "代码库": 84,
-      "DSL/代码": 148,
+      "代码库": 88,
+      "DSL/代码": 149,
       "新闻/资讯": 29,
-      "知识库/个人资料": 72,
-      "Office 文档": 139,
+      "知识库/个人资料": 73,
+      "Office 文档": 142,
       "引用网络": 5,
       "数据库": 72,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 187,
-      "Agent Skill": 282,
-      "Skill 集合": 74,
-      "MCP Server": 248,
+      "开源应用/框架": 191,
+      "Agent Skill": 286,
+      "Skill 集合": 75,
+      "MCP Server": 255,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 25,
@@ -42,22 +42,22 @@
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 60,
-      "PPT/演示文稿": 319,
-      "网页/交互页面": 260,
+      "图形摘要/信息图": 61,
+      "PPT/演示文稿": 324,
+      "网页/交互页面": 264,
       "问答/学习材料": 18,
-      "报告/长文档": 106,
-      "证据表": 61,
+      "报告/长文档": 108,
+      "证据表": 63,
       "信息图/视觉报告": 106,
-      "图表/仪表盘": 236,
+      "图表/仪表盘": 242,
       "架构图/流程图": 160,
-      "SVG/PNG/PDF": 317,
-      "报告/简报": 92,
+      "SVG/PNG/PDF": 320,
+      "报告/简报": 93,
       "白板/思维导图": 44,
       "图表/Mermaid": 76,
       "视频/音频": 57,
-      "结构化数据/Markdown": 114,
-      "表格/时间线": 31,
+      "结构化数据/Markdown": 116,
+      "表格/时间线": 32,
       "引用答案": 6,
       "思维导图/知识地图": 43,
       "文献地图/知识地图": 5,
@@ -66,29 +66,29 @@
       "图表/渲染输出": 26
     },
     "dependencies": {
-      "本地语言环境": 628,
-      "模型 API": 244,
-      "文档解析/OCR": 106,
-      "渲染/导出": 654,
+      "本地语言环境": 638,
+      "模型 API": 246,
+      "文档解析/OCR": 107,
+      "渲染/导出": 664,
       "GPU/加速器": 21,
-      "模板/素材": 361,
-      "Agent 宿主": 365,
-      "系统工具": 164,
-      "浏览器/账号": 176,
-      "存储/索引": 111,
-      "MCP Client": 259,
-      "外部检索/数据源": 155,
-      "代码分析工具": 52
+      "模板/素材": 368,
+      "Agent 宿主": 372,
+      "系统工具": 166,
+      "浏览器/账号": 178,
+      "存储/索引": 114,
+      "MCP Client": 266,
+      "外部检索/数据源": 156,
+      "代码分析工具": 54
     },
     "categories": {
       "paper-visualization": 23,
       "doc-to-knowledge": 65,
-      "research-report": 32,
+      "research-report": 33,
       "infographic-report": 69,
-      "data-dashboard": 120,
+      "data-dashboard": 124,
       "diagram-generation": 85,
       "literature-map": 5,
-      "presentation-tools": 222,
+      "presentation-tools": 227,
       "rendering-primitive": 24,
       "video-generation": 17,
       "codebase-map": 48,
@@ -100,10 +100,10 @@
       "text_visual": 93,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 34,
+      "docs": 35,
       "support_doc_parse": 22,
-      "presentation": 231,
-      "data": 114,
+      "presentation": 236,
+      "data": 118,
       "video": 17,
       "code": 54,
       "support_render": 65,
@@ -61053,6 +61053,582 @@
       "effectAssets": [],
       "docsCount": 0,
       "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Decksmith",
+      "url": "https://github.com/Rotvie/decksmith",
+      "primaryUrl": "https://github.com/Rotvie/decksmith",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-07",
+      "note": "MCP server for Claude Code that turns Markdown briefs into reviewed slide plans, gated visual briefs, consistent on-brand slide images, reusable visual systems, prompt previews, and resumable per-slide generation artifacts.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/demo-deck/briefs/quality-gate-before-after.json`",
+          "url": "https://github.com/Rotvie/decksmith/blob/HEAD/examples/demo-deck/briefs/quality-gate-before-after.json",
+          "source": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "corporate-blue",
+          "url": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/examples/demo-deck/images/corporate-blue/quality-gate-before-after.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "minimal-mono",
+          "url": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/examples/demo-deck/images/minimal-mono/quality-gate-before-after.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "warm-editorial",
+          "url": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/examples/demo-deck/images/warm-editorial/quality-gate-before-after.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Agent Dashboard",
+      "url": "https://github.com/wildware-uk/agent-dashboard",
+      "primaryUrl": "https://github.com/wildware-uk/agent-dashboard",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出",
+        "浏览器/账号"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-03",
+      "note": "Self-hosted browser dashboard where AI agents report MCP status updates with markdown, images, video, tasks, project feeds, approval forms, themed project pages, and shareable update cards.",
+      "sourceTypes": [
+        "代码库",
+        "任意/多源",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/superpowers/specs/2026-08-25-agent-dashboard-design.md`",
+          "url": "https://github.com/wildware-uk/agent-dashboard/blob/HEAD/docs/superpowers/specs/2026-08-25-agent-dashboard-design.md",
+          "source": "https://raw.githubusercontent.com/wildware-uk/agent-dashboard/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Agent Reliability Lab",
+      "url": "https://github.com/karthikrshet/agent-reliability",
+      "primaryUrl": "https://github.com/karthikrshet/agent-reliability",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "MCP Client",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-08",
+      "note": "Reliability-engineering platform for tool-using agents that runs deterministic fault injection, stateful invariant checks, reproducible replay, CLI/CI gates, MCP access, and dashboard-style trace/report artifacts.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "证据表",
+        "报告/长文档"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/adr/",
+          "url": "https://github.com/karthikrshet/agent-reliability/blob/HEAD/docs/adr/",
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/ARL_VNEXT_AUDIT.md",
+          "url": "https://github.com/karthikrshet/agent-reliability/blob/HEAD/docs/ARL_VNEXT_AUDIT.md",
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "ARL Waterfall Trace Inspector Mockup",
+          "url": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/trace-inspector.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Fault Engine Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/diagram-fault-engine.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Grading Engine Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/diagram-grading-engine.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Evidence Ledger Architecture Diagram",
+          "url": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/diagram-evidence-ledger.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Career-Agents Benchmark Telemetry and Wilson Confidence Intervals",
+          "url": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/case-study-mcp.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Enterprise Governance and Cryptographic Security Vault",
+          "url": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/enterprise-governance.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "PowerPoint Generator Skill",
+      "url": "https://github.com/Xr810/PowerPoint_MCP",
+      "primaryUrl": "https://github.com/Xr810/PowerPoint_MCP",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-07",
+      "note": "Agent skill over a PowerPoint MCP server that blocks until requirements and outlines are approved, batch-builds editable slides, enforces presentation design standards, and runs whole-deck QA for overlap, readability, and text fit.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Findings Visualizer",
+      "url": "https://github.com/neang-mengseang/findings-visualizer",
+      "primaryUrl": "https://github.com/neang-mengseang/findings-visualizer",
+      "homepage": "https://neang-mengseang.github.io/findings-visualizer/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-03",
+      "note": "Devin and Claude Code skill that converts structured audit findings, feature trackers, release checklists, and tool comparisons into self-contained offline HTML dashboards with filters, charts, themes, branding, print/PDF, and JSON export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "报告/简报"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://github.com/neang-mengseang/findings-visualizer/blob/main/SKILL.md",
+          "source": "https://neang-mengseang.github.io/findings-visualizer/"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Security Audit",
+          "url": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-audit.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Feature Status",
+          "url": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-status.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Release Checklist",
+          "url": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-checklist.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tool Comparison",
+          "url": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-comparison.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Security Audit Report",
+          "url": "https://neang-mengseang.github.io/findings-visualizer/examples/showcase-audit.png",
+          "thumbnailUrl": null,
+          "source": "https://neang-mengseang.github.io/findings-visualizer/"
+        },
+        {
+          "kind": "image",
+          "title": "Feature Status Tracker",
+          "url": "https://neang-mengseang.github.io/findings-visualizer/examples/showcase-status.png",
+          "thumbnailUrl": null,
+          "source": "https://neang-mengseang.github.io/findings-visualizer/"
+        },
+        {
+          "kind": "image",
+          "title": "Release Checklist",
+          "url": "https://neang-mengseang.github.io/findings-visualizer/examples/showcase-checklist.png",
+          "thumbnailUrl": null,
+          "source": "https://neang-mengseang.github.io/findings-visualizer/"
+        },
+        {
+          "kind": "image",
+          "title": "Tool Comparison",
+          "url": "https://neang-mengseang.github.io/findings-visualizer/examples/showcase-comparison.png",
+          "thumbnailUrl": null,
+          "source": "https://neang-mengseang.github.io/findings-visualizer/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 8
+    },
+    {
+      "name": "PowerPoint Design Power",
+      "url": "https://github.com/juanhcode/powerpoint-design-power",
+      "primaryUrl": "https://github.com/juanhcode/powerpoint-design-power",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "Kiro Power that layers presentation-specific instructions, workflows, design guidelines, template handling, and natural-language deck editing on top of a local PowerPoint MCP server for .pptx creation and export.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AI Presentation Generator by Amit",
+      "url": "https://github.com/amitk-codes/ai-presentation-generator",
+      "primaryUrl": "https://github.com/amitk-codes/ai-presentation-generator",
+      "homepage": "https://ai-presentation-generator-amit.vercel.app",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "MCP Client",
+        "浏览器/账号",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": null,
+      "license": null,
+      "updated": "2026-09-12",
+      "note": "Self-hosted web app and MCP server that route a topic through an n8n workflow, render service, Playwright, and pptxgenjs to produce previewable PDF and editable PowerPoint decks with tone themes, photos, and varied layouts.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "canva-slide-layouts",
+      "url": "https://github.com/alderman-ai/canva-slide-layouts",
+      "primaryUrl": "https://github.com/alderman-ai/canva-slide-layouts",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": null,
+      "license": null,
+      "updated": "2026-09-01",
+      "note": "Markdown-first slide layout library and ontology with flat frontmatter, geometry tables, per-presentation projects, an Obsidian vault, PowerShell tooling, and a batch Canva MCP upload pipeline.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Tenet Skills",
+      "url": "https://github.com/inceptyon-labs/tenet-skills",
+      "primaryUrl": "https://github.com/inceptyon-labs/tenet-skills",
+      "homepage": null,
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "外部检索/数据源",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "Claude Code plugin with coordinated application-health audit skills that aggregate deterministic tool output and AI judgment into structured JSON reports, per-dimension scores, actionable findings, and optional Tenet dashboard uploads.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "证据表",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "dashboard-canvas",
+      "url": "https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code",
+      "primaryUrl": "https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-08",
+      "note": "Claude Code skill that profiles spreadsheets, cleans CSV/XLSX inputs with standard-library Python, chooses KPI questions, renders dependency-free inline SVG charts, and lays them out as Claude Design dashboard artboards.",
+      "sourceTypes": [
+        "数据/表格",
+        "Office 文档",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`references/chart-selection.md`",
+          "url": "https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/blob/HEAD/references/chart-selection.md",
+          "source": "https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`references/layout.md`",
+          "url": "https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/blob/HEAD/references/layout.md",
+          "source": "https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
       "effectAssetsCount": 0
     }
   ]

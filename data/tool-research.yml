@@ -1,4 +1,4 @@
-generated_at: '2026-09-11T23:08:27+00:00'
+generated_at: '2026-09-12T23:06:45+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 749
-  fetched_sources_ok: 1000
+  entries: 759
+  fetched_sources_ok: 1012
   fetched_sources_failed: 52
-  official_examples: 1549
-  official_effect_assets: 1968
-  official_docs: 1801
+  official_examples: 1551
+  official_effect_assets: 1985
+  official_docs: 1806
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -57927,3 +57927,429 @@ entries:
   - 3. Visualize / document
   - Examples — who talks to whom?
   - Enrich the graph from your docs
+- name: Decksmith
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/Rotvie/decksmith
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: MCP server for Claude Code that turns Markdown briefs into reviewed slide plans, gated visual briefs, consistent
+    on-brand slide images, reusable visual systems, prompt previews, and resumable per-slide generation artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Decksmith
+    bytes: 13419
+  official_examples:
+  - kind: example
+    title: '`examples/demo-deck/briefs/quality-gate-before-after.json`'
+    url: https://github.com/Rotvie/decksmith/blob/HEAD/examples/demo-deck/briefs/quality-gate-before-after.json
+    source: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: corporate-blue
+    url: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/examples/demo-deck/images/corporate-blue/quality-gate-before-after.png
+    source: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+  - kind: image
+    title: minimal-mono
+    url: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/examples/demo-deck/images/minimal-mono/quality-gate-before-after.png
+    source: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+  - kind: image
+    title: warm-editorial
+    url: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/examples/demo-deck/images/warm-editorial/quality-gate-before-after.png
+    source: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/demo-deck/briefs/quality-gate-before-after.json`'
+    url: https://github.com/Rotvie/decksmith/blob/HEAD/examples/demo-deck/briefs/quality-gate-before-after.json
+    source: https://raw.githubusercontent.com/Rotvie/decksmith/HEAD/README.md
+  source_headings:
+  - One brief, three visual systems
+  - Quickstart
+  - Visual systems
+  - Regenerating one slide
+  official_docs: []
+- name: Agent Dashboard
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/wildware-uk/agent-dashboard
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 浏览器/账号
+  catalog_note: Self-hosted browser dashboard where AI agents report MCP status updates with markdown, images, video, tasks,
+    project feeds, approval forms, themed project pages, and shareable update cards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wildware-uk/agent-dashboard/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wildware-uk/agent-dashboard/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Agent Dashboard
+    bytes: 34426
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: '`docs/superpowers/specs/2026-08-25-agent-dashboard-design.md`'
+    url: https://github.com/wildware-uk/agent-dashboard/blob/HEAD/docs/superpowers/specs/2026-08-25-agent-dashboard-design.md
+    source: https://raw.githubusercontent.com/wildware-uk/agent-dashboard/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/superpowers/specs/2026-08-25-agent-dashboard-design.md`'
+    url: https://github.com/wildware-uk/agent-dashboard/blob/HEAD/docs/superpowers/specs/2026-08-25-agent-dashboard-design.md
+    source: https://raw.githubusercontent.com/wildware-uk/agent-dashboard/HEAD/README.md
+  source_headings:
+  - Agent Dashboard
+  - Quickstart
+  - /etc/hosts on the dashboard box
+  - Wide enough for slow video uploads and the 55s owner-request holds.
+  official_effect_assets: []
+- name: Agent Reliability Lab
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/karthikrshet/agent-reliability
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Reliability-engineering platform for tool-using agents that runs deterministic fault injection, stateful invariant
+    checks, reproducible replay, CLI/CI gates, MCP access, and dashboard-style trace/report artifacts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ⚡ What is Agent Reliability Engineering?
+    bytes: 25384
+  official_docs:
+  - kind: docs
+    title: docs/adr/
+    url: https://github.com/karthikrshet/agent-reliability/blob/HEAD/docs/adr/
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: docs
+    title: docs/ARL_VNEXT_AUDIT.md
+    url: https://github.com/karthikrshet/agent-reliability/blob/HEAD/docs/ARL_VNEXT_AUDIT.md
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: ARL Waterfall Trace Inspector Mockup
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/trace-inspector.jpg
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: image
+    title: Fault Engine Architecture Diagram
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/diagram-fault-engine.jpg
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: image
+    title: Grading Engine Architecture Diagram
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/diagram-grading-engine.jpg
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: image
+    title: Evidence Ledger Architecture Diagram
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/diagram-evidence-ledger.jpg
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: image
+    title: Career-Agents Benchmark Telemetry and Wilson Confidence Intervals
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/case-study-mcp.jpg
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: image
+    title: Enterprise Governance and Cryptographic Security Vault
+    url: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/docs/assets/enterprise-governance.jpg
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/adr/
+    url: https://github.com/karthikrshet/agent-reliability/blob/HEAD/docs/adr/
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  - kind: docs
+    title: docs/ARL_VNEXT_AUDIT.md
+    url: https://github.com/karthikrshet/agent-reliability/blob/HEAD/docs/ARL_VNEXT_AUDIT.md
+    source: https://raw.githubusercontent.com/karthikrshet/agent-reliability/HEAD/README.md
+  source_headings:
+  - ⚡ 5-Minute Quickstart
+  - 5. Launch the Web Dashboard
+  - 'In apps/dashboard:'
+  official_examples: []
+- name: PowerPoint Generator Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Xr810/PowerPoint_MCP
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill over a PowerPoint MCP server that blocks until requirements and outlines are approved, batch-builds
+    editable slides, enforces presentation design standards, and runs whole-deck QA for overlap, readability, and text fit.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Xr810/PowerPoint_MCP/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Xr810/PowerPoint_MCP/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: PowerPoint Generator — an agent skill over a PowerPoint MCP server
+    bytes: 4979
+  source_headings:
+  - Your own template (optional)
+  official_examples: []
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
+- name: Findings Visualizer
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/neang-mengseang/findings-visualizer
+  homepage: https://neang-mengseang.github.io/findings-visualizer/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Devin and Claude Code skill that converts structured audit findings, feature trackers, release checklists,
+    and tool comparisons into self-contained offline HTML dashboards with filters, charts, themes, branding, print/PDF, and
+    JSON export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Findings Visualizer
+    bytes: 12008
+  - kind: homepage
+    url: https://neang-mengseang.github.io/findings-visualizer/
+    final_url: https://neang-mengseang.github.io/findings-visualizer/
+    status: 200
+    content_type: text/html
+    title: Findings Visualizer - Turn any report into an interactive dashboard
+    description: A Claude Code / Devin skill that transforms structured data into polished, self-contained HTML dashboards.
+      Security audits, feature trackers, release checklists, tool comparisons.
+    bytes: 40102
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://github.com/neang-mengseang/findings-visualizer/blob/main/SKILL.md
+    source: https://neang-mengseang.github.io/findings-visualizer/
+  official_effect_assets:
+  - kind: image
+    title: Security Audit
+    url: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-audit.png
+    source: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md
+  - kind: image
+    title: Feature Status
+    url: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-status.png
+    source: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md
+  - kind: image
+    title: Release Checklist
+    url: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-checklist.png
+    source: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md
+  - kind: image
+    title: Tool Comparison
+    url: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/examples/showcase-comparison.png
+    source: https://raw.githubusercontent.com/neang-mengseang/findings-visualizer/HEAD/README.md
+  - kind: image
+    title: Security Audit Report
+    url: https://neang-mengseang.github.io/findings-visualizer/examples/showcase-audit.png
+    source: https://neang-mengseang.github.io/findings-visualizer/
+  - kind: image
+    title: Feature Status Tracker
+    url: https://neang-mengseang.github.io/findings-visualizer/examples/showcase-status.png
+    source: https://neang-mengseang.github.io/findings-visualizer/
+  - kind: image
+    title: Release Checklist
+    url: https://neang-mengseang.github.io/findings-visualizer/examples/showcase-checklist.png
+    source: https://neang-mengseang.github.io/findings-visualizer/
+  - kind: image
+    title: Tool Comparison
+    url: https://neang-mengseang.github.io/findings-visualizer/examples/showcase-comparison.png
+    source: https://neang-mengseang.github.io/findings-visualizer/
+  official_links:
+  - kind: docs
+    title: Docs
+    url: https://github.com/neang-mengseang/findings-visualizer/blob/main/SKILL.md
+    source: https://neang-mengseang.github.io/findings-visualizer/
+  source_headings:
+  - Findings Visualizer
+  - Usage
+  - Templates
+  - Examples
+  official_examples: []
+- name: PowerPoint Design Power
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/juanhcode/powerpoint-design-power
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Kiro Power that layers presentation-specific instructions, workflows, design guidelines, template handling,
+    and natural-language deck editing on top of a local PowerPoint MCP server for .pptx creation and export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/juanhcode/powerpoint-design-power/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/juanhcode/powerpoint-design-power/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📊 PowerPoint Design Power for Kiro
+    bytes: 11049
+  official_docs: []
+  official_links: []
+  source_headings:
+  - 💡 Usage
+  - 📊 Create a Presentation
+  - 🗂️ Use Templates
+  - ✏️ Edit Presentations
+  - 📤 Export Presentations
+  official_examples: []
+  official_effect_assets: []
+- name: AI Presentation Generator by Amit
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/amitk-codes/ai-presentation-generator
+  homepage: https://ai-presentation-generator-amit.vercel.app
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - MCP Client
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Self-hosted web app and MCP server that route a topic through an n8n workflow, render service, Playwright,
+    and pptxgenjs to produce previewable PDF and editable PowerPoint decks with tone themes, photos, and varied layouts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/amitk-codes/ai-presentation-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/amitk-codes/ai-presentation-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AI Presentation Generator
+    bytes: 6498
+  - kind: homepage
+    url: https://ai-presentation-generator-amit.vercel.app/
+    final_url: https://ai-presentation-generator-amit.vercel.app/
+    status: 200
+    content_type: text/html
+    title: AI Presentation Generator
+    bytes: 752
+  official_docs: []
+  official_links: []
+  source_headings:
+  - AI Presentation Generator
+  - Quickstart
+  official_examples: []
+  official_effect_assets: []
+- name: canva-slide-layouts
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/alderman-ai/canva-slide-layouts
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Markdown-first slide layout library and ontology with flat frontmatter, geometry tables, per-presentation
+    projects, an Obsidian vault, PowerShell tooling, and a batch Canva MCP upload pipeline.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alderman-ai/canva-slide-layouts/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alderman-ai/canva-slide-layouts/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: canva-slide-layouts
+    bytes: 867
+  source_headings:
+  - canva-slide-layouts
+  official_examples: []
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
+- name: Tenet Skills
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/inceptyon-labs/tenet-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 外部检索/数据源
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Claude Code plugin with coordinated application-health audit skills that aggregate deterministic tool output
+    and AI judgment into structured JSON reports, per-dimension scores, actionable findings, and optional Tenet dashboard
+    uploads.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/inceptyon-labs/tenet-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/inceptyon-labs/tenet-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What is Tenet?
+    bytes: 16546
+  official_docs: []
+  official_effect_assets: []
+  official_links: []
+  source_headings:
+  - Accept a known finding (demoted to info, recorded with a reason) so it stops
+  - Dashboard Contract
+  - Dashboard API
+  official_examples: []
+- name: dashboard-canvas
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that profiles spreadsheets, cleans CSV/XLSX inputs with standard-library Python, chooses
+    KPI questions, renders dependency-free inline SVG charts, and lays them out as Claude Design dashboard artboards.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: dashboard-canvas
+    bytes: 8445
+  official_examples:
+  - kind: template
+    title: '`references/layout.md`'
+    url: https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/blob/HEAD/references/layout.md
+    source: https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`references/chart-selection.md`'
+    url: https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/blob/HEAD/references/chart-selection.md
+    source: https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`references/chart-selection.md`'
+    url: https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/blob/HEAD/references/chart-selection.md
+    source: https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md
+  - kind: template
+    title: '`references/layout.md`'
+    url: https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/blob/HEAD/references/layout.md
+    source: https://raw.githubusercontent.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/HEAD/README.md
+  source_headings:
+  - dashboard-canvas
+  official_effect_assets: []

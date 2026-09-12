@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-12.
+Last researched: 2026-09-13.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-13: refreshed reviewed slide-image MCP workflows, agent status dashboards, reliability engineering trace/report dashboards, PowerPoint MCP skill layers, structured audit-report visualizers, Kiro PowerPoint workflows, self-hosted n8n/MCP presentation generation, Markdown-to-Canva slide layout pipelines, code-health report skills, and spreadsheet-to-Claude-Design dashboards from official GitHub repositories, README/SKILL evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added Decksmith, Agent Dashboard, Agent Reliability Lab, PowerPoint Generator Skill, Findings Visualizer, PowerPoint Design Power, AI Presentation Generator by Amit, canva-slide-layouts, Tenet Skills, and dashboard-canvas. The targeted scraper ran only against these ten new records, fetched twelve official sources successfully with no failed fetches, and kept two official examples, seventeen preview assets, and five docs links after scrubbing generic platform setup docs, API-key signup links, and non-artifact branding media.
 
 Update on 2026-09-12: refreshed presentation-planning skills, Chinese hand-drawn infographic generation, Kroki-backed diagram rendering, DevOps Mermaid generators, agent-pushed architecture maps, executive-dashboard HTML skills, Power BI PBIP visual-authoring toolkits, Claude Code usage dashboards, VChart data dashboards, and Kubernetes topology documentation from official GitHub repositories, README/SKILL evidence, live GitHub searches, PyPI metadata, and GitHub metadata. This pass added Presentation by eruto-skills, Create Hand-drawn AI Infographic, diagram-studio-mcp, DevOps Flow Viz MCP, AgenticMap, CN Exec Dashboard Skill, PBI Claude Toolkit, claude-prospector, Vizboard, and Kubedian. The targeted scraper ran only against these ten new records, fetched eleven official sources successfully with no failed fetches, and kept one official example, two preview assets, and five docs links after scrubbing two generic platform documentation links.
 

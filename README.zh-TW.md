@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-749_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--12-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-759_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--13-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,20 +13,20 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-09-12)
+## Latest Refresh (2026-09-13)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Presentation by eruto-skills](https://github.com/eruto-skills/presentation) | Claude Code skill that plans presentation requirements, story arcs, one-claim-per-slide outlines, structure QA, and handoff routes to Marp or PPTX implementation skills. |
-| [Create Hand-drawn AI Infographic](https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill) | Codex skill for Chinese hand-drawn AI explainers that extracts reference-image design DNA, compresses topics into 3-6 visual nodes, normalizes 4:5 outputs, and archives prompt/source evidence. |
-| [diagram-studio-mcp](https://github.com/0PValencia/diagram-studio-mcp) | MCP server that renders Mermaid, Graphviz, PlantUML, and D2 sources through Kroki into PNG or SVG diagram artifacts for agent clients. |
-| [DevOps Flow Viz MCP](https://github.com/AgentCraftworks/DevOpsFlowViz-MCP) | TypeScript MCP server that turns structured DevOps pipeline, state-machine, sequence, and permission data into Mermaid diagrams, with optional AgentCraftworks REST integration. |
-| [AgenticMap](https://github.com/cos-QO/AgenticMap) | MCP-backed architecture map server where agents push structured graph data into per-repository diagram namespaces, version history, Mermaid fallback output, and an interactive React Flow UI. |
-| [CN Exec Dashboard Skill](https://github.com/cassieliang6709/biz-analysis-dashboard) | Chinese executive-dashboard Claude Code skill that converts screenshots or business data into one-page, no-scroll, offline HTML dashboards with hand-authored SVG charts and vector-PDF print output. |
-| [PBI Claude Toolkit](https://github.com/ddan43036/powerbi-claude-toolkit) | Claude Code toolkit for Power BI PBIP projects that reads TMDL models, designs native visual plans, inserts visuals into report.json through Python scripts, and validates dashboard layouts. |
-| [claude-prospector](https://github.com/glitchwerks/claude-prospector) | Claude Code plugin and Python CLI that reads local session JSONL logs to generate usage-analysis reports, interactive token dashboards, skill/adoption breakdowns, and configuration-overlap audits. |
-| [Vizboard](https://github.com/LunaLovegood76/vizboard) | AgentSkills-compatible skill that turns Excel, CSV, TSV, JSON, JSONL, or pasted data into standalone interactive HTML dashboards with VChart, KPI cards, themes, tables, and automatic chart selection. |
-| [Kubedian](https://github.com/sagoyanfisic/kubedian) | Kubernetes manifest topology tool that indexes Kustomize, Helm, Istio, Ingress, NetworkPolicy, and docs evidence into a SQLite graph, then exposes CLI, MCP, Mermaid diagrams, and Markdown docs. |
+| [Decksmith](https://github.com/Rotvie/decksmith) | MCP server for Claude Code that turns Markdown briefs into reviewed slide plans, gated visual briefs, consistent on-brand slide images, reusable visual systems, prompt previews, and resumable per-slide generation artifacts. |
+| [Agent Dashboard](https://github.com/wildware-uk/agent-dashboard) | Self-hosted browser dashboard where AI agents report MCP status updates with markdown, images, video, tasks, project feeds, approval forms, themed project pages, and shareable update cards. |
+| [Agent Reliability Lab](https://github.com/karthikrshet/agent-reliability) | Reliability-engineering platform for tool-using agents with deterministic fault injection, invariant checks, reproducible replay, CLI/CI gates, MCP access, and dashboard-style trace/report artifacts. |
+| [PowerPoint Generator Skill](https://github.com/Xr810/PowerPoint_MCP) | Agent skill over a PowerPoint MCP server that blocks until requirements and outlines are approved, batch-builds editable slides, enforces design standards, and runs whole-deck QA. |
+| [Findings Visualizer](https://github.com/neang-mengseang/findings-visualizer) | Devin and Claude Code skill that converts audit findings, feature trackers, release checklists, and tool comparisons into self-contained offline HTML dashboards with filters and charts. |
+| [PowerPoint Design Power](https://github.com/juanhcode/powerpoint-design-power) | Kiro Power that layers presentation instructions, workflows, design guidelines, template handling, and natural-language deck editing on top of a local PowerPoint MCP server. |
+| [AI Presentation Generator by Amit](https://github.com/amitk-codes/ai-presentation-generator) | Self-hosted web app and MCP server that route a topic through n8n and a render service to produce previewable PDF and editable PowerPoint decks with themes and photos. |
+| [canva-slide-layouts](https://github.com/alderman-ai/canva-slide-layouts) | Markdown-first slide layout library and ontology with geometry tables, per-presentation projects, an Obsidian vault, PowerShell tooling, and a batch Canva MCP upload pipeline. |
+| [Tenet Skills](https://github.com/inceptyon-labs/tenet-skills) | Claude Code plugin with coordinated application-health audit skills that aggregate deterministic tool output and AI judgment into structured reports and optional dashboard uploads. |
+| [dashboard-canvas](https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code) | Claude Code skill that profiles spreadsheets, cleans CSV/XLSX inputs, chooses KPI questions, renders dependency-free inline SVG charts, and lays them out as Claude Design dashboard artboards. |
 
 ## ✨ 推薦使用方式
 
@@ -119,6 +119,7 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [Tenet Skills](https://github.com/inceptyon-labs/tenet-skills) [![Star](https://img.shields.io/github/stars/inceptyon-labs/tenet-skills?style=flat&logo=github&label=Star)](https://github.com/inceptyon-labs/tenet-skills/stargazers) | 程式碼庫 / 資料/表格 / 程式碼/技術描述 | Skill 集合 | 報告/長文件 / 證據表 / 圖表/儀表板 | Agent 宿主 / 本機語言環境 / 程式碼分析工具 / 外部檢索/資料源 / 儲存/索引 / 渲染/匯出 |
 | [WeChat Intelligence Hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) [![Star](https://img.shields.io/github/stars/Rion-Wu-tech/wechat-intelligence-hub?style=flat&logo=github&label=Star)](https://github.com/Rion-Wu-tech/wechat-intelligence-hub/stargazers) | 知識庫/個人資料 / 資料庫 / 文字/想法 | Skill 集合 | 報告/長文件 / 網頁/互動頁面 / 證據表 | Agent 宿主 / 本機語言環境 / 系統工具 / 儲存/索引 / 渲染/匯出 |
 | [notex](https://github.com/smallnest/notex) [![Star](https://img.shields.io/github/stars/smallnest/notex?style=flat&logo=github&label=Star)](https://github.com/smallnest/notex/stargazers) | PDF/文件 / 網頁/搜尋結果 / 知識庫/個人資料 | 開源應用/框架 | 報告/簡報 / 心智圖/知識地圖 / 問答/學習材料 | 本機語言環境 / 模型 API / 文件解析/OCR / 渲染/匯出 / 儲存/索引 |
 | [LLM Wiki](https://github.com/nashsu/llm_wiki) [![Star](https://img.shields.io/github/stars/nashsu/llm_wiki?style=flat&logo=github&label=Star)](https://github.com/nashsu/llm_wiki/stargazers) | PDF/documents / Web/search / Knowledge base | Open-source app/framework | Long report / Mind map/knowledge map / Web/interactive page | Browser/account / Local runtime / Model API / Document parsing/OCR / Storage/index / Rendering/export |
@@ -217,6 +218,10 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [Agent Dashboard](https://github.com/wildware-uk/agent-dashboard) [![Star](https://img.shields.io/github/stars/wildware-uk/agent-dashboard?style=flat&logo=github&label=Star)](https://github.com/wildware-uk/agent-dashboard/stargazers) | 程式碼庫 / 任意/多源 / 知識庫/個人資料 | MCP Server / 開源應用/框架 | 圖表/儀表板 / 網頁/互動頁面 / 表格/時間線 | MCP Client / 本機語言環境 / 儲存/索引 / 渲染/匯出 / 瀏覽器/帳號 |
+| [Agent Reliability Lab](https://github.com/karthikrshet/agent-reliability) [![Star](https://img.shields.io/github/stars/karthikrshet/agent-reliability?style=flat&logo=github&label=Star)](https://github.com/karthikrshet/agent-reliability/stargazers) | 程式碼庫 / 資料/表格 / 程式碼/技術描述 | 開源應用/框架 / MCP Server | 圖表/儀表板 / 證據表 / 報告/長文件 | 本機語言環境 / MCP Client / 程式碼分析工具 / 儲存/索引 / 渲染/匯出 |
+| [Findings Visualizer](https://github.com/neang-mengseang/findings-visualizer) [![Star](https://img.shields.io/github/stars/neang-mengseang/findings-visualizer?style=flat&logo=github&label=Star)](https://github.com/neang-mengseang/findings-visualizer/stargazers) | 文字/想法 / 程式碼庫 / 資料/表格 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
+| [dashboard-canvas](https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code) [![Star](https://img.shields.io/github/stars/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code?style=flat&logo=github&label=Star)](https://github.com/di012/Aceleracao-AI-Reports-com-Excel-GPT-Agents-e-Claude-Code/stargazers) | 資料/表格 / Office 文件 / 文字/想法 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 文件解析/OCR / 渲染/匯出 / 模板/素材 |
 | [CN Exec Dashboard Skill](https://github.com/cassieliang6709/biz-analysis-dashboard) [![Star](https://img.shields.io/github/stars/cassieliang6709/biz-analysis-dashboard?style=flat&logo=github&label=Star)](https://github.com/cassieliang6709/biz-analysis-dashboard/stargazers) | 資料/表格 / Office 文件 / 文字/想法 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [PBI Claude Toolkit](https://github.com/ddan43036/powerbi-claude-toolkit) [![Star](https://img.shields.io/github/stars/ddan43036/powerbi-claude-toolkit?style=flat&logo=github&label=Star)](https://github.com/ddan43036/powerbi-claude-toolkit/stargazers) | 資料/表格 / 資料庫 / Office 文件 | Skill 集合 / API/SDK/函式庫 | 圖表/儀表板 / 報告/長文件 / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
 | [claude-prospector](https://github.com/glitchwerks/claude-prospector) [![Star](https://img.shields.io/github/stars/glitchwerks/claude-prospector?style=flat&logo=github&label=Star)](https://github.com/glitchwerks/claude-prospector/stargazers) | 程式碼庫 / 資料/表格 / 知識庫/個人資料 | Skill 集合 / Agent Skill / API/SDK/函式庫 | 圖表/儀表板 / 網頁/互動頁面 / 表格/時間線 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 儲存/索引 / 渲染/匯出 |
@@ -469,6 +474,11 @@
 
 | 專案 | 資訊來源 | 工具形態 | 產出物形式 | 依賴類型 |
 | --- | --- | --- | --- | --- |
+| [Decksmith](https://github.com/Rotvie/decksmith) [![Star](https://img.shields.io/github/stars/Rotvie/decksmith?style=flat&logo=github&label=Star)](https://github.com/Rotvie/decksmith/stargazers) | 文字/想法 / PDF/文件 / 任意/多源 | MCP Server | PPT/簡報 / 圖形摘要/資訊圖 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 模板/素材 |
+| [PowerPoint Generator Skill](https://github.com/Xr810/PowerPoint_MCP) [![Star](https://img.shields.io/github/stars/Xr810/PowerPoint_MCP?style=flat&logo=github&label=Star)](https://github.com/Xr810/PowerPoint_MCP/stargazers) | 文字/想法 / Office 文件 / 任意/多源 | Agent Skill / MCP Server | PPT/簡報 / 結構化資料/Markdown | Agent 宿主 / MCP Client / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
+| [PowerPoint Design Power](https://github.com/juanhcode/powerpoint-design-power) [![Star](https://img.shields.io/github/stars/juanhcode/powerpoint-design-power?style=flat&logo=github&label=Star)](https://github.com/juanhcode/powerpoint-design-power/stargazers) | 文字/想法 / Office 文件 / 任意/多源 | Agent Skill / MCP Server | PPT/簡報 / 圖表/儀表板 | Agent 宿主 / MCP Client / 本機語言環境 / 系統工具 / 渲染/匯出 / 模板/素材 |
+| [AI Presentation Generator by Amit](https://github.com/amitk-codes/ai-presentation-generator) [![Star](https://img.shields.io/github/stars/amitk-codes/ai-presentation-generator?style=flat&logo=github&label=Star)](https://github.com/amitk-codes/ai-presentation-generator/stargazers) | 文字/想法 / 任意/多源 | 開源應用/框架 / MCP Server | PPT/簡報 / SVG/PNG/PDF / 網頁/互動頁面 | 本機語言環境 / 模型 API / MCP Client / 瀏覽器/帳號 / 渲染/匯出 / 模板/素材 |
+| [canva-slide-layouts](https://github.com/alderman-ai/canva-slide-layouts) [![Star](https://img.shields.io/github/stars/alderman-ai/canva-slide-layouts?style=flat&logo=github&label=Star)](https://github.com/alderman-ai/canva-slide-layouts/stargazers) | 文字/想法 / DSL/程式碼 / 任意/多源 | 開源應用/框架 / MCP Server | PPT/簡報 / 結構化資料/Markdown | Agent 宿主 / MCP Client / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [Presentation by eruto-skills](https://github.com/eruto-skills/presentation) [![Star](https://img.shields.io/github/stars/eruto-skills/presentation?style=flat&logo=github&label=Star)](https://github.com/eruto-skills/presentation/stargazers) | 文字/想法 / PDF/文件 / DSL/程式碼 | Agent Skill | PPT/簡報 / 結構化資料/Markdown | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [HTML to PPT Deck Export](https://github.com/van822/html-to-ppt-deck-export) [![Star](https://img.shields.io/github/stars/van822/html-to-ppt-deck-export?style=flat&logo=github&label=Star)](https://github.com/van822/html-to-ppt-deck-export/stargazers) | 网页/搜索结果 / 文本/想法 / 数据/表格 | Agent Skill / API/SDK/库 | PPT/演示文稿 / SVG/PNG/PDF / 报告/简报 | Agent 宿主 / 本地语言环境 / 系统工具 / 渲染/导出 / 模板/素材 |
 | [slides-skill by Rich627](https://github.com/Rich627/slides-skill) [![Star](https://img.shields.io/github/stars/Rich627/slides-skill?style=flat&logo=github&label=Star)](https://github.com/Rich627/slides-skill/stargazers) | 文本/想法 / PDF/文档 / 数据/表格 | Agent Skill / API/SDK/库 | PPT/演示文稿 / 图表/仪表盘 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
