@@ -580,6 +580,17 @@ Update on 2026-08-18: refreshed source-backed deck, diagram, infographic, and da
 - [Oracle FDI ADW AI Dashboard MCP](https://github.com/pareshbhangale/oracle-fdi-adw-ai-dashboard-mcp): governed Oracle FDI/ADW reporting MCP with read-only SQL approvals, reusable join maps, static dashboard generation, and CSV/JSON exports.
 - [High-Density Infographic Skill](https://github.com/AAAAAAAJ/infographic-skill): OpenClaw, Claude Code, and Codex skill for topic or brief to high-density information graphics with ten styles and 2K/4K output options.
 
+## Added in the 2026-09-14 Daily Refresh
+
+Update on 2026-09-14: refreshed source-backed agent dashboard, README visualization, dashboard-theme, and Mermaid/codebase diagram tooling from official GitHub repositories, project pages, README evidence, and current GitHub metadata. This pass added ADHDev, KinetAios, README Showcase, hermes-web-themes, Mermaid Project Diagram MCP, and Mermaid MCP Server by zhouhui. The targeted scraper ran only against these six records and QR/payment/community images from one Mermaid README were scrubbed before merging.
+
+- [ADHDev](https://github.com/vilmire/adhdev): self-hosted browser/phone control plane for launching, watching, approving, steering, and landing coding-agent sessions across isolated worktrees.
+- [KinetAios](https://github.com/phinn/KinetAios): local-first desktop dashboard for Claude Code, Codex, Direct ReAct, and DeepSeek Harness with session history, token/cost dashboards, memory graph visualization, screenshots, plugins, and video tools.
+- [README Showcase](https://github.com/Acfufu/readme-showcase): Codex, Claude Code, and OpenCode skill for evidence-backed README redesigns with validated local preview assets, diagrams, screenshots, and fingerprints.
+- [hermes-web-themes](https://github.com/bchop-studio/hermes-web-themes): 101-theme YAML pack and converter for Hermes Agent web dashboards, including preview assets and reusable palette/layout tokens.
+- [Mermaid Project Diagram MCP](https://github.com/GittyBurstein/mermaid-mcp-server): MCP server for reading local or GitHub repositories, generating Mermaid project diagrams, rendering via Kroki, and saving PNG outputs.
+- [Mermaid MCP Server by zhouhui](https://github.com/wwwzhouhui/mermaid_mcp_server): Python MCP server for Mermaid-to-PNG/JPG/SVG/PDF conversion with validation, themes, built-in examples, and stdio/SSE transports.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.

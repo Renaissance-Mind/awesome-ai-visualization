@@ -1,4 +1,4 @@
-last_researched: '2026-09-13'
+last_researched: '2026-09-14'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -19792,3 +19792,173 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: ADHDev
+  url: https://github.com/vilmire/adhdev
+  homepage: https://adhf.dev
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  stars: 95
+  license: AGPL-3.0
+  updated: '2026-09-13'
+  note: Self-hosted agent control plane with browser and phone dashboards for launching, watching, approving, steering,
+    and merging Claude Code, Codex, Cursor, Kimi, Antigravity, and other coding-agent sessions across isolated worktrees.
+  source_types:
+  - 代码库
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 表格/时间线
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: KinetAios
+  url: https://github.com/phinn/KinetAios
+  homepage: https://phinn.github.io/KinetAios/
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - MCP Client
+  - 存储/索引
+  - 渲染/导出
+  stars: 8
+  license: GPL-3.0
+  updated: '2026-09-12'
+  note: Local-first multi-engine desktop dashboard for running Claude Code, Codex, Direct ReAct, and DeepSeek Harness side
+    by side with session history, token/cost dashboards, memory graph visualization, screenshots, plugins, and text-to-video tools.
+  source_types:
+  - 代码库
+  - 数据/表格
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 思维导图/知识地图
+  - 视频/音频
+  catalog_section: main
+  readme_group: data
+- name: README Showcase
+  url: https://github.com/Acfufu/readme-showcase
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: GPL-3.0
+  updated: '2026-09-13'
+  note: Codex, Claude Code, and OpenCode skill that scans repository evidence, plans a claim-bound README redesign, generates
+    bilingual candidates, and validates local preview assets, diagrams, screenshots, and fingerprints before any remote publishing.
+  source_types:
+  - 代码库
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs
+- name: hermes-web-themes
+  url: https://github.com/bchop-studio/hermes-web-themes
+  category: rendering-primitive
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 模板/素材
+  - 渲染/导出
+  stars: 24
+  license: MIT
+  updated: '2026-09-12'
+  note: Theme pack and converter for Hermes Agent web dashboards, supplying 101 validated YAML dashboard themes, a preview
+    cover, theme index, and reusable palette/layout tokens generated from the Hermes skins pack.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
+- name: Mermaid Project Diagram MCP
+  url: https://github.com/GittyBurstein/mermaid-mcp-server
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 15
+  license: MIT
+  updated: '2026-07-05'
+  note: MCP server that lets agents list and read local or GitHub repository files, generate Mermaid diagrams from project
+    structure, render them through Kroki, and save the resulting PNG diagrams inside a bounded output directory.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: code
+- name: Mermaid MCP Server by zhouhui
+  url: https://github.com/wwwzhouhui/mermaid_mcp_server
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 系统工具
+  - 渲染/导出
+  stars: 9
+  license: MIT
+  updated: '2026-09-06'
+  note: Python MCP server for converting Mermaid chart code into PNG, JPG, SVG, and PDF artifacts with theme controls,
+    syntax validation, built-in examples, and stdio or SSE transports backed by mermaid.ink and mermaid-cli.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagrams

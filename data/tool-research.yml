@@ -1,4 +1,4 @@
-generated_at: '2026-09-12T23:06:45+00:00'
+generated_at: '2026-09-13T23:05:32+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 759
-  fetched_sources_ok: 1012
+  entries: 765
+  fetched_sources_ok: 1020
   fetched_sources_failed: 52
-  official_examples: 1551
-  official_effect_assets: 1985
-  official_docs: 1806
+  official_examples: 1560
+  official_effect_assets: 2002
+  official_docs: 1816
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -58353,3 +58353,402 @@ entries:
   source_headings:
   - dashboard-canvas
   official_effect_assets: []
+- name: ADHDev
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/vilmire/adhdev
+  homepage: https://adhf.dev
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Self-hosted agent control plane with browser and phone dashboards for launching, watching, approving, steering,
+    and merging Claude Code, Codex, Cursor, Kimi, Antigravity, and other coding-agent sessions across isolated worktrees.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ADHDev
+    bytes: 21946
+  - kind: homepage
+    url: https://adhf.dev/
+    final_url: https://adhf.dev/
+    status: 200
+    content_type: text/html
+    title: ADHDev — Manage your coding agents from anywhere
+    description: 'Drive any local CLI coding agent — Claude Code, Codex CLI, Cursor CLI, Antigravity CLI, Hermes, Kimi — from
+      your browser or phone, then scale: Repo Mesh dispatches agents across is'
+    bytes: 10029
+  official_docs:
+  - kind: docs
+    title: docs.adhf.dev
+    url: https://docs.adhf.dev
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Repo Mesh developer guide
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/repo-mesh/DEVELOPER.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: session-host
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/session-host.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Self-hosted setup
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/setup.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Self-hosted configuration
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/configuration.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Self-hosted local API
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/local-api.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Supported Providers
+    url: https://docs.adhf.dev/reference/supported-providers
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Supported IDEs
+    url: https://docs.adhf.dev/reference/supported-ides
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Compatibility & Caveats
+    url: https://docs.adhf.dev/guide/compatibility
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: ADHDev desktop dashboard switching between chat and terminal views, floating a panel, and splitting the workspace
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-command-center-demo-poster.jpg
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: image
+    title: ADHDev completion notification demo showing when to come back to a running session
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-mobile-notification-demo-poster.jpg
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: image
+    title: ADHDev mobile resume flow reopening a saved session from a phone
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-mobile-resume-demo-poster.jpg
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: image
+    title: ADHDev desktop session detail view showing chat, code, and terminal state together
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-desktop-detail.jpg
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: image
+    title: ADHDev mesh observability board showing the ledger, task queue, active sessions, nodes, and refine jobs for a repo
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-mesh-observability.jpg
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: image
+    title: ADHDev MAGI synthesis view — a coordinator reconciles three independent agent replicas, showing what they agreed
+      on, what was contested, and which claims still need verification
+    url: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-magi-synthesis.jpg
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: image
+    title: ADHDev — Manage your coding agents from anywhere
+    url: https://adhf.dev/og-hero.jpg
+    source: https://adhf.dev/
+  official_links:
+  - kind: docs
+    title: docs.adhf.dev
+    url: https://docs.adhf.dev
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Repo Mesh developer guide
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/repo-mesh/DEVELOPER.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: session-host
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/session-host.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Self-hosted setup
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/setup.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Self-hosted configuration
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/configuration.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Self-hosted local API
+    url: https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/local-api.md
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Supported Providers
+    url: https://docs.adhf.dev/reference/supported-providers
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Supported IDEs
+    url: https://docs.adhf.dev/reference/supported-ides
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+  - kind: docs
+    title: Compatibility & Caveats
+    url: https://docs.adhf.dev/guide/compatibility
+    source: https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md
+- name: KinetAios
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/phinn/KinetAios
+  homepage: https://phinn.github.io/KinetAios/
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - MCP Client
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local-first multi-engine desktop dashboard for running Claude Code, Codex, Direct ReAct, and DeepSeek Harness
+    side by side with session history, token/cost dashboards, memory graph visualization, screenshots, plugins, and text-to-video
+    tools.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: KinetAios
+    bytes: 18407
+  - kind: homepage
+    url: https://phinn.github.io/KinetAios/
+    final_url: https://phinn.github.io/KinetAios/
+    status: 200
+    content_type: text/html
+    title: KinetAios — Local-First AI Agent Dashboard | Direct V3 + Claude Code + Codex + DeepSeek Harness
+    description: KinetAios 是本地优先的 AI Agent 工作台。一个窗口同时运行 Direct V1/V2/V3、Claude Code、Codex、DeepSeek Harness 四个引擎家族，支持跨引擎长期记忆、27
+      个插件、MCP 双向集成、飞书/企微远程控制、多 Agent 团队调度。开源 GPL v3，Windows & macOS。
+    bytes: 75030
+  official_docs:
+  - kind: docs
+    title: integration guide
+    url: https://github.com/phinn/KinetAios/blob/HEAD/docs/orcarouter.md
+    source: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: Four engines running side-by-side
+    url: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/documents/demo-arena.gif
+    source: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md
+  - kind: image
+    title: KinetAios hero screenshot
+    url: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/documents/hero.png
+    source: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md
+  - kind: image
+    title: KinetAios — Local-First AI Agent Dashboard | Direct V3 + Claude Code + Codex + DeepSeek Harness
+    url: https://phinn.github.io/KinetAios/og-image.png
+    source: https://phinn.github.io/KinetAios/
+  official_links:
+  - kind: docs
+    title: integration guide
+    url: https://github.com/phinn/KinetAios/blob/HEAD/docs/orcarouter.md
+    source: https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md
+- name: README Showcase
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/Acfufu/readme-showcase
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Codex, Claude Code, and OpenCode skill that scans repository evidence, plans a claim-bound README redesign,
+    generates bilingual candidates, and validates local preview assets, diagrams, screenshots, and fingerprints before any
+    remote publishing.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What it changes
+    bytes: 13419
+  official_examples:
+  - kind: showcase
+    title: '`visual-compiler.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/visual-compiler.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: '`elk-structure.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/elk-structure.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: '`skill/references/lessons.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/lessons.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: Getting started
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: FAQ
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/faq.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: Roadmap
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/roadmap.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: Project positioning
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/project-positioning.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: '`motion-production.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/motion-production.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: README Showcase moves repository evidence through one README Agent into a verified local candidate while remote
+      publishing stays locked
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/hero.gif
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: image
+    title: Claims, assets, locale, and fingerprints must pass before local preview; remote publish remains locked behind separate
+      approval
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/trust-gates.png
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: image
+    title: The official installer places one verified Skill in project or user scope and rolls back on failure
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/install-scopes.png
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: image
+    title: Five commands route planning, audit, redesign, polish, and visualization into bounded README work
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/command-deck.png
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: image
+    title: Editorial patterns provide structure while repository facts provide truth; one README Agent evaluates a verified
+      local bundle before any separately approved remote publish
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/workflow.png
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: image
+    title: Static, ELK, compiled, and motion routes preserve editable sources and stop at local preview
+    url: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/visual-routes.png
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  official_links:
+  - kind: showcase
+    title: '`visual-compiler.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/visual-compiler.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: '`elk-structure.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/elk-structure.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: '`skill/references/lessons.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/lessons.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: Getting started
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/getting-started.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: FAQ
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/faq.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: Roadmap
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/roadmap.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: Project positioning
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/project-positioning.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  - kind: showcase
+    title: '`motion-production.md`'
+    url: https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/motion-production.md
+    source: https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md
+  source_headings:
+  - Visuals are outputs with contracts
+  - Documentation
+- name: hermes-web-themes
+  category: rendering-primitive
+  surface: library
+  primary_url: https://github.com/bchop-studio/hermes-web-themes
+  dependencies:
+  - 本地语言环境
+  - 模板/素材
+  - 渲染/导出
+  catalog_note: Theme pack and converter for Hermes Agent web dashboards, supplying 101 validated YAML dashboard themes, a
+    preview cover, theme index, and reusable palette/layout tokens generated from the Hermes skins pack.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: hermes-web-themes
+    bytes: 2155
+  official_examples:
+  - kind: template
+    title: CONTRIBUTING.md
+    url: https://github.com/bchop-studio/hermes-web-themes/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Hermes Web Themes — 101 dashboard themes
+    url: https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/cover.png
+    source: https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md
+  official_links:
+  - kind: template
+    title: CONTRIBUTING.md
+    url: https://github.com/bchop-studio/hermes-web-themes/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md
+- name: Mermaid Project Diagram MCP
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/GittyBurstein/mermaid-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: MCP server that lets agents list and read local or GitHub repository files, generate Mermaid diagrams from
+    project structure, render them through Kroki, and save the resulting PNG diagrams inside a bounded output directory.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/GittyBurstein/mermaid-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/GittyBurstein/mermaid-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: mermaid-mcp — one MCP server to diagram any project (Local/GitHub → Mermaid → PNG)
+    bytes: 13097
+  source_headings:
+  - mermaid-mcp — one MCP server to diagram any project (Local/GitHub → Mermaid → PNG)
+  - Example (local)
+  - Example (github)
+  - Example
+  - run container (example, mount project root and set env vars)
+  - 'Connect an MCP client (example: Claude Desktop)'
+  - 'End-to-end example:'
+- name: Mermaid MCP Server by zhouhui
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/wwwzhouhui/mermaid_mcp_server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Python MCP server for converting Mermaid chart code into PNG, JPG, SVG, and PDF artifacts with theme controls,
+    syntax validation, built-in examples, and stdio or SSE transports backed by mermaid.ink and mermaid-cli.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wwwzhouhui/mermaid_mcp_server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wwwzhouhui/mermaid_mcp_server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mermaid MCP Server
+    bytes: 13982
+  source_headings:
+  - 支持的图表类型
+  - 使用示例
+  - 流程图示例
+  - 时序图示例
+  - 语法验证示例
+  - 资源示例
+  - 获取图表示例

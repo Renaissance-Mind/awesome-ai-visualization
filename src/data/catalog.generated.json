@@ -1,97 +1,97 @@
 {
-  "generatedAt": "2026-09-12T23:06:45+00:00",
-  "lastResearched": "2026-09-13",
+  "generatedAt": "2026-09-13T23:05:32+00:00",
+  "lastResearched": "2026-09-14",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 759,
-    "openSource": 191,
+    "total": 765,
+    "openSource": 193,
     "saas": 73,
-    "modelApi": 246,
-    "examples": 1551,
-    "effectAssets": 1985,
-    "docs": 1806
+    "modelApi": 247,
+    "examples": 1560,
+    "effectAssets": 2002,
+    "docs": 1816
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 76,
       "PDF/文档": 226,
-      "文本/想法": 485,
-      "数据/表格": 312,
-      "代码/技术描述": 149,
-      "任意/多源": 125,
+      "文本/想法": 488,
+      "数据/表格": 313,
+      "代码/技术描述": 152,
+      "任意/多源": 127,
       "网页/搜索结果": 191,
-      "代码库": 88,
-      "DSL/代码": 149,
+      "代码库": 92,
+      "DSL/代码": 152,
       "新闻/资讯": 29,
-      "知识库/个人资料": 73,
+      "知识库/个人资料": 75,
       "Office 文档": 142,
       "引用网络": 5,
       "数据库": 72,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 191,
-      "Agent Skill": 286,
+      "开源应用/框架": 193,
+      "Agent Skill": 287,
       "Skill 集合": 75,
-      "MCP Server": 255,
+      "MCP Server": 257,
       "产品/SaaS": 73,
       "数据集/评测": 3,
-      "Bot/助手": 25,
+      "Bot/助手": 26,
       "研究原型": 10,
-      "API/SDK/库": 120,
+      "API/SDK/库": 121,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 61,
       "PPT/演示文稿": 324,
-      "网页/交互页面": 264,
+      "网页/交互页面": 267,
       "问答/学习材料": 18,
-      "报告/长文档": 108,
-      "证据表": 63,
-      "信息图/视觉报告": 106,
-      "图表/仪表盘": 242,
-      "架构图/流程图": 160,
-      "SVG/PNG/PDF": 320,
+      "报告/长文档": 109,
+      "证据表": 64,
+      "信息图/视觉报告": 107,
+      "图表/仪表盘": 245,
+      "架构图/流程图": 163,
+      "SVG/PNG/PDF": 323,
       "报告/简报": 93,
       "白板/思维导图": 44,
-      "图表/Mermaid": 76,
-      "视频/音频": 57,
+      "图表/Mermaid": 78,
+      "视频/音频": 58,
       "结构化数据/Markdown": 116,
-      "表格/时间线": 32,
+      "表格/时间线": 33,
       "引用答案": 6,
-      "思维导图/知识地图": 43,
+      "思维导图/知识地图": 44,
       "文献地图/知识地图": 5,
       "工具索引": 29,
-      "代码地图/Repo Wiki": 49,
+      "代码地图/Repo Wiki": 50,
       "图表/渲染输出": 26
     },
     "dependencies": {
-      "本地语言环境": 638,
-      "模型 API": 246,
+      "本地语言环境": 644,
+      "模型 API": 247,
       "文档解析/OCR": 107,
-      "渲染/导出": 664,
+      "渲染/导出": 670,
       "GPU/加速器": 21,
-      "模板/素材": 368,
-      "Agent 宿主": 372,
-      "系统工具": 166,
-      "浏览器/账号": 178,
-      "存储/索引": 114,
-      "MCP Client": 266,
-      "外部检索/数据源": 156,
-      "代码分析工具": 54
+      "模板/素材": 370,
+      "Agent 宿主": 374,
+      "系统工具": 168,
+      "浏览器/账号": 180,
+      "存储/索引": 117,
+      "MCP Client": 269,
+      "外部检索/数据源": 158,
+      "代码分析工具": 57
     },
     "categories": {
       "paper-visualization": 23,
       "doc-to-knowledge": 65,
       "research-report": 33,
-      "infographic-report": 69,
-      "data-dashboard": 124,
-      "diagram-generation": 85,
+      "infographic-report": 70,
+      "data-dashboard": 126,
+      "diagram-generation": 86,
       "literature-map": 5,
       "presentation-tools": 227,
-      "rendering-primitive": 24,
+      "rendering-primitive": 25,
       "video-generation": 17,
-      "codebase-map": 48,
+      "codebase-map": 49,
       "commercial-site": 10,
       "meta-index": 29
     },
@@ -100,14 +100,14 @@
       "text_visual": 93,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 35,
+      "docs": 36,
       "support_doc_parse": 22,
       "presentation": 236,
-      "data": 118,
+      "data": 120,
       "video": 17,
-      "code": 54,
-      "support_render": 65,
-      "diagrams": 19,
+      "code": 55,
+      "support_render": 66,
+      "diagrams": 20,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
@@ -61629,6 +61629,487 @@
       "effectAssets": [],
       "docsCount": 1,
       "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ADHDev",
+      "url": "https://github.com/vilmire/adhdev",
+      "primaryUrl": "https://github.com/vilmire/adhdev",
+      "homepage": "https://adhf.dev",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "系统工具",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 95,
+      "license": "AGPL-3.0",
+      "updated": "2026-09-13",
+      "note": "Self-hosted agent control plane with browser and phone dashboards for launching, watching, approving, steering, and merging Claude Code, Codex, Cursor, Kimi, Antigravity, and other coding-agent sessions across isolated worktrees.",
+      "sourceTypes": [
+        "代码库",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "表格/时间线",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs.adhf.dev",
+          "url": "https://docs.adhf.dev",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Repo Mesh developer guide",
+          "url": "https://github.com/vilmire/adhdev/blob/HEAD/docs/repo-mesh/DEVELOPER.md",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "session-host",
+          "url": "https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/session-host.md",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Self-hosted setup",
+          "url": "https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/setup.md",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Self-hosted configuration",
+          "url": "https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/configuration.md",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Self-hosted local API",
+          "url": "https://github.com/vilmire/adhdev/blob/HEAD/docs/self-hosted/local-api.md",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Supported Providers",
+          "url": "https://docs.adhf.dev/reference/supported-providers",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Supported IDEs",
+          "url": "https://docs.adhf.dev/reference/supported-ides",
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "ADHDev desktop dashboard switching between chat and terminal views, floating a panel, and splitting the workspace",
+          "url": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-command-center-demo-poster.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ADHDev completion notification demo showing when to come back to a running session",
+          "url": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-mobile-notification-demo-poster.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ADHDev mobile resume flow reopening a saved session from a phone",
+          "url": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-mobile-resume-demo-poster.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ADHDev desktop session detail view showing chat, code, and terminal state together",
+          "url": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-desktop-detail.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ADHDev mesh observability board showing the ledger, task queue, active sessions, nodes, and refine jobs for a repo",
+          "url": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-mesh-observability.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ADHDev MAGI synthesis view — a coordinator reconciles three independent agent replicas, showing what they agreed on, what was contested, and which claims still need verification",
+          "url": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/docs/assets/readme/landing-magi-synthesis.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/vilmire/adhdev/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ADHDev — Manage your coding agents from anywhere",
+          "url": "https://adhf.dev/og-hero.jpg",
+          "thumbnailUrl": null,
+          "source": "https://adhf.dev/"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 0,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "KinetAios",
+      "url": "https://github.com/phinn/KinetAios",
+      "primaryUrl": "https://github.com/phinn/KinetAios",
+      "homepage": "https://phinn.github.io/KinetAios/",
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "MCP Client",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 8,
+      "license": "GPL-3.0",
+      "updated": "2026-09-12",
+      "note": "Local-first multi-engine desktop dashboard for running Claude Code, Codex, Direct ReAct, and DeepSeek Harness side by side with session history, token/cost dashboards, memory graph visualization, screenshots, plugins, and text-to-video tools.",
+      "sourceTypes": [
+        "代码库",
+        "数据/表格",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "思维导图/知识地图",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "integration guide",
+          "url": "https://github.com/phinn/KinetAios/blob/HEAD/docs/orcarouter.md",
+          "source": "https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Four engines running side-by-side",
+          "url": "https://raw.githubusercontent.com/phinn/KinetAios/HEAD/documents/demo-arena.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "KinetAios hero screenshot",
+          "url": "https://raw.githubusercontent.com/phinn/KinetAios/HEAD/documents/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/phinn/KinetAios/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "KinetAios — Local-First AI Agent Dashboard | Direct V3 + Claude Code + Codex + DeepSeek Harness",
+          "url": "https://phinn.github.io/KinetAios/og-image.png",
+          "thumbnailUrl": null,
+          "source": "https://phinn.github.io/KinetAios/"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "README Showcase",
+      "url": "https://github.com/Acfufu/readme-showcase",
+      "primaryUrl": "https://github.com/Acfufu/readme-showcase",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "GPL-3.0",
+      "updated": "2026-09-13",
+      "note": "Codex, Claude Code, and OpenCode skill that scans repository evidence, plans a claim-bound README redesign, generates bilingual candidates, and validates local preview assets, diagrams, screenshots, and fingerprints before any remote publishing.",
+      "sourceTypes": [
+        "代码库",
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "`visual-compiler.md`",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/visual-compiler.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`elk-structure.md`",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/elk-structure.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`skill/references/lessons.md`",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/lessons.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Getting started",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/getting-started.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "FAQ",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/faq.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Roadmap",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/roadmap.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Project positioning",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/docs/project-positioning.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "`motion-production.md`",
+          "url": "https://github.com/Acfufu/readme-showcase/blob/HEAD/skill/references/motion-production.md",
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "README Showcase moves repository evidence through one README Agent into a verified local candidate while remote publishing stays locked",
+          "url": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/hero.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Claims, assets, locale, and fingerprints must pass before local preview; remote publish remains locked behind separate approval",
+          "url": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/trust-gates.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The official installer places one verified Skill in project or user scope and rolls back on failure",
+          "url": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/install-scopes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Five commands route planning, audit, redesign, polish, and visualization into bounded README work",
+          "url": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/command-deck.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Editorial patterns provide structure while repository facts provide truth; one README Agent evaluates a verified local bundle before any separately approved remote publish",
+          "url": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Static, ELK, compiled, and motion routes preserve editable sources and stop at local preview",
+          "url": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/assets/readme/visual-routes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Acfufu/readme-showcase/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 8,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "hermes-web-themes",
+      "url": "https://github.com/bchop-studio/hermes-web-themes",
+      "primaryUrl": "https://github.com/bchop-studio/hermes-web-themes",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "模板/素材",
+        "渲染/导出"
+      ],
+      "stars": 24,
+      "license": "MIT",
+      "updated": "2026-09-12",
+      "note": "Theme pack and converter for Hermes Agent web dashboards, supplying 101 validated YAML dashboard themes, a preview cover, theme index, and reusable palette/layout tokens generated from the Hermes skins pack.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "CONTRIBUTING.md",
+          "url": "https://github.com/bchop-studio/hermes-web-themes/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Hermes Web Themes — 101 dashboard themes",
+          "url": "https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bchop-studio/hermes-web-themes/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Mermaid Project Diagram MCP",
+      "url": "https://github.com/GittyBurstein/mermaid-mcp-server",
+      "primaryUrl": "https://github.com/GittyBurstein/mermaid-mcp-server",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "代码分析工具",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 15,
+      "license": "MIT",
+      "updated": "2026-07-05",
+      "note": "MCP server that lets agents list and read local or GitHub repository files, generate Mermaid diagrams from project structure, render them through Kroki, and save the resulting PNG diagrams inside a bounded output directory.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "图表/Mermaid",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Mermaid MCP Server by zhouhui",
+      "url": "https://github.com/wwwzhouhui/mermaid_mcp_server",
+      "primaryUrl": "https://github.com/wwwzhouhui/mermaid_mcp_server",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 9,
+      "license": "MIT",
+      "updated": "2026-09-06",
+      "note": "Python MCP server for converting Mermaid chart code into PNG, JPG, SVG, and PDF artifacts with theme controls, syntax validation, built-in examples, and stdio or SSE transports backed by mermaid.ink and mermaid-cli.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
       "effectAssetsCount": 0
     }
   ]
