@@ -1,4 +1,4 @@
-generated_at: '2026-09-13T23:05:32+00:00'
+generated_at: '2026-09-14T23:04:10+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 765
-  fetched_sources_ok: 1020
-  fetched_sources_failed: 52
-  official_examples: 1560
-  official_effect_assets: 2002
-  official_docs: 1816
+  entries: 771
+  fetched_sources_ok: 1028
+  fetched_sources_failed: 53
+  official_examples: 1563
+  official_effect_assets: 2008
+  official_docs: 1851
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -58752,3 +58752,497 @@ entries:
   - 语法验证示例
   - 资源示例
   - 获取图表示例
+- name: concept-skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ontology-of-everything/concept-skills
+  homepage: https://skills.sh/ontology-of-everything/concept-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent Skills collection for concept design, semantic knowledge modeling, and presentation authoring, including
+    an html-slides skill that turns outlines and page tables into single-file HTML decks with optional PPTX export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: concept-skills
+    bytes: 7130
+  - kind: homepage
+    url: https://www.skills.sh/ontology-of-everything/concept-skills
+    final_url: https://www.skills.sh/ontology-of-everything/concept-skills
+    status: 404
+    content_type: text/html
+    error: HTTP 404
+  official_examples:
+  - kind: paper
+    title: arXiv:2606.27258
+    url: https://arxiv.org/abs/2606.27258
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`concept-design`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-design.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-prd`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-prd.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-implementation`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-implementation.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-audit`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-audit.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-guardrails`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-guardrails.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`semantic-km-creator`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/semantic-km-creator.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`semantic-pkm-creator`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/semantic-pkm-creator.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`html-slides`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/html-slides.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/skills/
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/catalog.yml
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/catalog.yml
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: Cursor
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/agents/cursor.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/agents/claude-code.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: Codex
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/agents/codex.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/CONTRIBUTING.md
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/authoring.md
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/authoring.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  official_links:
+  - kind: paper
+    title: arXiv:2606.27258
+    url: https://arxiv.org/abs/2606.27258
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-design`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-design.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-prd`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-prd.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-implementation`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-implementation.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-audit`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-audit.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`concept-guardrails`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-guardrails.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`semantic-km-creator`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/semantic-km-creator.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`semantic-pkm-creator`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/semantic-pkm-creator.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: '`html-slides`'
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/html-slides.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/skills/
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/catalog.yml
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/catalog.yml
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: Cursor
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/agents/cursor.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/agents/claude-code.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: Codex
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/agents/codex.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/CONTRIBUTING.md
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  - kind: docs
+    title: docs/authoring.md
+    url: https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/authoring.md
+    source: https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md
+  source_headings:
+  - Presentation
+  - Usage
+- name: DocuGraph MCP
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/yoiberdev/docugraph-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 存储/索引
+  - 外部检索/数据源
+  catalog_note: Rust MCP server that converts technical PDFs into hierarchical document knowledge graphs with outlines, hybrid
+    search, adaptive context budgeting, and page/section evidence tools for AI agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/yoiberdev/docugraph-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/yoiberdev/docugraph-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DocuGraph MCP
+    bytes: 10240
+  source_headings:
+  - 🚀 Instalación y Quickstart
+- name: Paper2Seminar
+  category: paper-visualization
+  surface: open-source
+  primary_url: https://github.com/lukesald251/Paper2Seminar
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Windows-focused workflow for turning research-paper PDFs into editable PowerPoint seminar decks, with PDF
+    selection, automated slide generation, and PowerPoint handoff.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lukesald251/Paper2Seminar/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lukesald251/Paper2Seminar/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📚 Paper2Seminar - Turn research papers into seminar presentations
+    bytes: 3907
+  source_headings:
+  - 📚 Paper2Seminar - Turn research papers into seminar presentations
+- name: Ontology Atlas
+  category: codebase-map
+  surface: open-source
+  primary_url: https://github.com/wlsdks/ontology-atlas
+  homepage: https://ontologyatlas.com/en/download/
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 代码分析工具
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Local-first ontology workspace for codebases that keeps a shared Markdown ontology, visualizes architecture
+    and change impact for humans, and exposes the same project model to coding agents through MCP.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Ontology Atlas
+    bytes: 39772
+  - kind: homepage
+    url: https://ontologyatlas.com/en/download/
+    final_url: https://ontologyatlas.com/en/download/
+    status: 200
+    content_type: text/html
+    title: Download · Ontology Atlas
+    description: Download Ontology Atlas to share codebase context with agents and inspect recorded meaning, evidence, and
+      unknowns. Signed macOS app; unsigned Windows beta; no Atlas backend.
+    bytes: 408290
+  official_examples:
+  - kind: example
+    title: '`samples/storefront`'
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/samples/storefront
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: demo
+    title: Playground
+    url: https://ontologyatlas.com/en/topology/
+    source: https://ontologyatlas.com/en/download/
+  official_docs:
+  - kind: docs
+    title: vault specification
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ONTOLOGY-ATLAS-SPEC.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: quality authority map
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ONTOLOGY-QUALITY.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: development priorities
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/BACKLOG.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: feature inventory
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/FEATURES.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: decision history
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/DECISIONS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: Analysis records
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ANALYSIS-RECORDS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: retained answers
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/RETAINED-ANSWERS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: Supported scope and limits
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/TASK-MEANING-REVIEW.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: paired findings
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/benchmark/FINDINGS-2026-08-31.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: the correction
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/benchmark/FINDINGS-2026-08-31-metric-split.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: change-flow run
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/benchmark/FINDINGS-2026-08-31-change-flow.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: Foundations
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/FOUNDATIONS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: what becomes a node?
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/guide/what-becomes-a-node.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: relations guide
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/guide/relations.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: hosted guide
+    url: https://ontologyatlas.com/en/guide/
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: product direction
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/PRODUCT-DIRECTION.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: architecture
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: development checks
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/DEVELOPMENT-CHECKS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: map testability
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/MAP-TESTABILITY.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: ↗ Open this file
+    url: https://github.com/wlsdks/ontology-atlas/blob/main/docs/ontology/capabilities/mcp-server.md
+    source: https://ontologyatlas.com/en/download/
+  official_effect_assets:
+  - kind: video
+    title: Atlas Tour.En
+    url: https://ontologyatlas.com/demo/atlas-tour.en.webm
+    source: https://ontologyatlas.com/en/download/
+  - kind: video
+    title: Atlas Tour.En
+    url: https://ontologyatlas.com/demo/atlas-tour.en.mp4
+    source: https://ontologyatlas.com/en/download/
+  - kind: image
+    title: Atlas Tour.En Poster
+    url: https://ontologyatlas.com/demo/atlas-tour.en-poster.png
+    source: https://ontologyatlas.com/en/download/
+  - kind: image
+    title: The installed macOS map picker offering Flat, Galaxy, Cone, Strata, and Neural, with the relation-driven Neural
+      view behind it
+    url: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/docs/assets/readme/three-dimensional-views.png
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: image
+    title: Compare reviewed structure with observed imports
+    url: https://ontologyatlas.com/gateway/architecture.png
+    source: https://ontologyatlas.com/en/download/
+  - kind: image
+    title: Your documents, compiled into pages that say where each claim came from
+    url: https://ontologyatlas.com/gateway/library.png
+    source: https://ontologyatlas.com/en/download/
+  official_links:
+  - kind: docs
+    title: vault specification
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ONTOLOGY-ATLAS-SPEC.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: quality authority map
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ONTOLOGY-QUALITY.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: development priorities
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/BACKLOG.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: feature inventory
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/FEATURES.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: decision history
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/DECISIONS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: Analysis records
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ANALYSIS-RECORDS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: example
+    title: '`samples/storefront`'
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/samples/storefront
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: retained answers
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/RETAINED-ANSWERS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: Supported scope and limits
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/TASK-MEANING-REVIEW.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: paired findings
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/benchmark/FINDINGS-2026-08-31.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: the correction
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/benchmark/FINDINGS-2026-08-31-metric-split.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: change-flow run
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/benchmark/FINDINGS-2026-08-31-change-flow.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: Foundations
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/FOUNDATIONS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: what becomes a node?
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/guide/what-becomes-a-node.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: relations guide
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/guide/relations.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: hosted guide
+    url: https://ontologyatlas.com/en/guide/
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: product direction
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/PRODUCT-DIRECTION.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: architecture
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: development checks
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/DEVELOPMENT-CHECKS.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: docs
+    title: map testability
+    url: https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/MAP-TESTABILITY.md
+    source: https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md
+  - kind: demo
+    title: Playground
+    url: https://ontologyatlas.com/en/topology/
+    source: https://ontologyatlas.com/en/download/
+  - kind: docs
+    title: ↗ Open this file
+    url: https://github.com/wlsdks/ontology-atlas/blob/main/docs/ontology/capabilities/mcp-server.md
+    source: https://ontologyatlas.com/en/download/
+  source_headings:
+  - Documentation
+- name: chartbrew-mcp
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/Akwaalamanoftheearth21/chartbrew-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 存储/索引
+  catalog_note: MCP bridge that lets AI agents query Chartbrew teams, workspaces, datasets, dashboards, and chart configurations,
+    with restricted modes for safer dashboard access.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Akwaalamanoftheearth21/chartbrew-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Akwaalamanoftheearth21/chartbrew-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📊 chartbrew-mcp - Connect AI agents to your data
+    bytes: 4690
+- name: pdf-to-editable-word-skill
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/michellema8890/pdf-to-editable-word-skill
+  homepage: https://michellema8890.github.io
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Local-first agent skill and desktop workflow for converting PDFs into editable Word documents while preserving
+    layout, fonts, and images for downstream document editing.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/michellema8890/pdf-to-editable-word-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/michellema8890/pdf-to-editable-word-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 📄 pdf-to-editable-word-skill - Convert PDF files into editable documents
+    bytes: 3200
+  - kind: homepage
+    url: https://michellema8890.github.io/
+    final_url: https://michellema8890.github.io/
+    status: 200
+    content_type: text/html
+    title: 📄 pdf-to-editable-word-skill - Convert PDF files into editable Word documents | michellema8890
+    description: Convert PDF files to editable Word documents while preserving original layouts for use in AI agents and command-line
+      workflows.
+    bytes: 7526
+  source_headings:
+  - 📥 How to get started

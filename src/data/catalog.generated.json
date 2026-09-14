@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-13T23:05:32+00:00",
-  "lastResearched": "2026-09-14",
+  "generatedAt": "2026-09-14T23:04:10+00:00",
+  "lastResearched": "2026-09-15",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 765,
-    "openSource": 193,
+    "total": 771,
+    "openSource": 195,
     "saas": 73,
-    "modelApi": 247,
-    "examples": 1560,
-    "effectAssets": 2002,
-    "docs": 1816
+    "modelApi": 248,
+    "examples": 1563,
+    "effectAssets": 2008,
+    "docs": 1851
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 76,
-      "PDF/文档": 226,
-      "文本/想法": 488,
-      "数据/表格": 313,
-      "代码/技术描述": 152,
+      "论文/科研资料": 78,
+      "PDF/文档": 229,
+      "文本/想法": 489,
+      "数据/表格": 315,
+      "代码/技术描述": 154,
       "任意/多源": 127,
       "网页/搜索结果": 191,
-      "代码库": 92,
+      "代码库": 93,
       "DSL/代码": 152,
       "新闻/资讯": 29,
-      "知识库/个人资料": 75,
-      "Office 文档": 142,
+      "知识库/个人资料": 78,
+      "Office 文档": 143,
       "引用网络": 5,
-      "数据库": 72,
+      "数据库": 73,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 193,
-      "Agent Skill": 287,
-      "Skill 集合": 75,
-      "MCP Server": 257,
+      "开源应用/框架": 195,
+      "Agent Skill": 288,
+      "Skill 集合": 76,
+      "MCP Server": 260,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 26,
@@ -43,69 +43,69 @@
     },
     "outputForms": {
       "图形摘要/信息图": 61,
-      "PPT/演示文稿": 324,
-      "网页/交互页面": 267,
+      "PPT/演示文稿": 326,
+      "网页/交互页面": 268,
       "问答/学习材料": 18,
-      "报告/长文档": 109,
-      "证据表": 64,
+      "报告/长文档": 110,
+      "证据表": 65,
       "信息图/视觉报告": 107,
-      "图表/仪表盘": 245,
-      "架构图/流程图": 163,
+      "图表/仪表盘": 246,
+      "架构图/流程图": 164,
       "SVG/PNG/PDF": 323,
       "报告/简报": 93,
       "白板/思维导图": 44,
       "图表/Mermaid": 78,
       "视频/音频": 58,
-      "结构化数据/Markdown": 116,
+      "结构化数据/Markdown": 119,
       "表格/时间线": 33,
-      "引用答案": 6,
-      "思维导图/知识地图": 44,
+      "引用答案": 7,
+      "思维导图/知识地图": 47,
       "文献地图/知识地图": 5,
       "工具索引": 29,
-      "代码地图/Repo Wiki": 50,
+      "代码地图/Repo Wiki": 51,
       "图表/渲染输出": 26
     },
     "dependencies": {
-      "本地语言环境": 644,
-      "模型 API": 247,
-      "文档解析/OCR": 107,
-      "渲染/导出": 670,
+      "本地语言环境": 650,
+      "模型 API": 248,
+      "文档解析/OCR": 110,
+      "渲染/导出": 674,
       "GPU/加速器": 21,
-      "模板/素材": 370,
-      "Agent 宿主": 374,
-      "系统工具": 168,
-      "浏览器/账号": 180,
-      "存储/索引": 117,
-      "MCP Client": 269,
-      "外部检索/数据源": 158,
-      "代码分析工具": 57
+      "模板/素材": 371,
+      "Agent 宿主": 376,
+      "系统工具": 170,
+      "浏览器/账号": 181,
+      "存储/索引": 121,
+      "MCP Client": 272,
+      "外部检索/数据源": 160,
+      "代码分析工具": 58
     },
     "categories": {
-      "paper-visualization": 23,
-      "doc-to-knowledge": 65,
+      "paper-visualization": 24,
+      "doc-to-knowledge": 67,
       "research-report": 33,
       "infographic-report": 70,
-      "data-dashboard": 126,
+      "data-dashboard": 127,
       "diagram-generation": 86,
       "literature-map": 5,
-      "presentation-tools": 227,
+      "presentation-tools": 228,
       "rendering-primitive": 25,
       "video-generation": 17,
-      "codebase-map": 49,
+      "codebase-map": 50,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 39,
+      "paper": 40,
       "text_visual": 93,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 36,
-      "support_doc_parse": 22,
-      "presentation": 236,
-      "data": 120,
+      "docs": 37,
+      "support_doc_parse": 23,
+      "presentation": 237,
+      "data": 121,
       "video": 17,
-      "code": 55,
+      "code": 56,
       "support_render": 66,
       "diagrams": 20,
       "indexes": 28,
@@ -62105,6 +62105,403 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "diagrams",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "concept-skills",
+      "url": "https://github.com/ontology-of-everything/concept-skills",
+      "primaryUrl": "https://github.com/ontology-of-everything/concept-skills",
+      "homepage": "https://skills.sh/ontology-of-everything/concept-skills",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8,
+      "license": "Apache-2.0",
+      "updated": "2026-09-14",
+      "note": "Agent Skills collection for concept design, semantic knowledge modeling, and presentation authoring, including an html-slides skill that turns outlines and page tables into single-file HTML decks with optional PPTX export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "思维导图/知识地图",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`concept-design`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-design.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`concept-prd`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-prd.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`concept-implementation`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-implementation.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`concept-audit`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-audit.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`concept-guardrails`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/concept-guardrails.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`semantic-km-creator`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/semantic-km-creator.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`semantic-pkm-creator`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/semantic-pkm-creator.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`html-slides`",
+          "url": "https://github.com/ontology-of-everything/concept-skills/blob/HEAD/docs/skills/html-slides.md",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arXiv:2606.27258",
+          "url": "https://arxiv.org/abs/2606.27258",
+          "source": "https://raw.githubusercontent.com/ontology-of-everything/concept-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 15,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DocuGraph MCP",
+      "url": "https://github.com/yoiberdev/docugraph-mcp",
+      "primaryUrl": "https://github.com/yoiberdev/docugraph-mcp",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "存储/索引",
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-14",
+      "note": "Rust MCP server that converts technical PDFs into hierarchical document knowledge graphs with outlines, hybrid search, adaptive context budgeting, and page/section evidence tools for AI agents.",
+      "sourceTypes": [
+        "PDF/文档",
+        "论文/科研资料",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Paper2Seminar",
+      "url": "https://github.com/lukesald251/Paper2Seminar",
+      "primaryUrl": "https://github.com/lukesald251/Paper2Seminar",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": null,
+      "updated": "2026-09-14",
+      "note": "Windows-focused workflow for turning research-paper PDFs into editable PowerPoint seminar decks, with PDF selection, automated slide generation, and PowerPoint handoff.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Ontology Atlas",
+      "url": "https://github.com/wlsdks/ontology-atlas",
+      "primaryUrl": "https://github.com/wlsdks/ontology-atlas",
+      "homepage": "https://ontologyatlas.com/en/download/",
+      "category": "codebase-map",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "MCP Client",
+        "代码分析工具",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 121,
+      "license": "MIT",
+      "updated": "2026-09-14",
+      "note": "Local-first ontology workspace for codebases that keeps a shared Markdown ontology, visualizes architecture and change impact for humans, and exposes the same project model to coding agents through MCP.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "思维导图/知识地图",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "vault specification",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ONTOLOGY-ATLAS-SPEC.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "quality authority map",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ONTOLOGY-QUALITY.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "development priorities",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/BACKLOG.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "feature inventory",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/FEATURES.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "decision history",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/DECISIONS.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Analysis records",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/ANALYSIS-RECORDS.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "retained answers",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/RETAINED-ANSWERS.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Supported scope and limits",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/docs/TASK-MEANING-REVIEW.md",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`samples/storefront`",
+          "url": "https://github.com/wlsdks/ontology-atlas/blob/HEAD/samples/storefront",
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Playground",
+          "url": "https://ontologyatlas.com/en/topology/",
+          "source": "https://ontologyatlas.com/en/download/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "video",
+          "title": "Atlas Tour.En",
+          "url": "https://ontologyatlas.com/demo/atlas-tour.en.webm",
+          "thumbnailUrl": null,
+          "source": "https://ontologyatlas.com/en/download/"
+        },
+        {
+          "kind": "video",
+          "title": "Atlas Tour.En",
+          "url": "https://ontologyatlas.com/demo/atlas-tour.en.mp4",
+          "thumbnailUrl": null,
+          "source": "https://ontologyatlas.com/en/download/"
+        },
+        {
+          "kind": "image",
+          "title": "Atlas Tour.En Poster",
+          "url": "https://ontologyatlas.com/demo/atlas-tour.en-poster.png",
+          "thumbnailUrl": null,
+          "source": "https://ontologyatlas.com/en/download/"
+        },
+        {
+          "kind": "image",
+          "title": "The installed macOS map picker offering Flat, Galaxy, Cone, Strata, and Neural, with the relation-driven Neural view behind it",
+          "url": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/docs/assets/readme/three-dimensional-views.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/wlsdks/ontology-atlas/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Compare reviewed structure with observed imports",
+          "url": "https://ontologyatlas.com/gateway/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://ontologyatlas.com/en/download/"
+        },
+        {
+          "kind": "image",
+          "title": "Your documents, compiled into pages that say where each claim came from",
+          "url": "https://ontologyatlas.com/gateway/library.png",
+          "thumbnailUrl": null,
+          "source": "https://ontologyatlas.com/en/download/"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 2,
+      "effectAssetsCount": 6
+    },
+    {
+      "name": "chartbrew-mcp",
+      "url": "https://github.com/Akwaalamanoftheearth21/chartbrew-mcp",
+      "primaryUrl": "https://github.com/Akwaalamanoftheearth21/chartbrew-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": null,
+      "updated": "2026-09-14",
+      "note": "MCP bridge that lets AI agents query Chartbrew teams, workspaces, datasets, dashboards, and chart configurations, with restricted modes for safer dashboard access.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "引用答案"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "pdf-to-editable-word-skill",
+      "url": "https://github.com/michellema8890/pdf-to-editable-word-skill",
+      "primaryUrl": "https://github.com/michellema8890/pdf-to-editable-word-skill",
+      "homepage": "https://michellema8890.github.io",
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-14",
+      "note": "Local-first agent skill and desktop workflow for converting PDFs into editable Word documents while preserving layout, fonts, and images for downstream document editing.",
+      "sourceTypes": [
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
       "docs": [],
       "examples": [],
       "effectAssets": [],

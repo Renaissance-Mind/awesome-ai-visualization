@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-13.
+Last researched: 2026-09-15.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-15: refreshed concept-modeling skills, PDF-to-knowledge graph MCP tooling, paper-to-seminar deck conversion, local codebase ontology maps, Chartbrew dashboard MCP access, and PDF-to-editable-Word preprocessing from official GitHub repositories, project homepages, README evidence, live GitHub searches, and current GitHub metadata. This pass added concept-skills, DocuGraph MCP, Paper2Seminar, Ontology Atlas, chartbrew-mcp, and pdf-to-editable-word-skill. The targeted scraper ran only against these six records, fetched eight official sources successfully with one non-blocking skills.sh mirror 404, and kept three official examples, six artifact preview assets, and thirty-five docs links after removing brand-only Ontology Atlas media.
 
 Update on 2026-09-13: refreshed reviewed slide-image MCP workflows, agent status dashboards, reliability engineering trace/report dashboards, PowerPoint MCP skill layers, structured audit-report visualizers, Kiro PowerPoint workflows, self-hosted n8n/MCP presentation generation, Markdown-to-Canva slide layout pipelines, code-health report skills, and spreadsheet-to-Claude-Design dashboards from official GitHub repositories, README/SKILL evidence, project homepages, live GitHub searches, and GitHub metadata. This pass added Decksmith, Agent Dashboard, Agent Reliability Lab, PowerPoint Generator Skill, Findings Visualizer, PowerPoint Design Power, AI Presentation Generator by Amit, canva-slide-layouts, Tenet Skills, and dashboard-canvas. The targeted scraper ran only against these ten new records, fetched twelve official sources successfully with no failed fetches, and kept two official examples, seventeen preview assets, and five docs links after scrubbing generic platform setup docs, API-key signup links, and non-artifact branding media.
 
