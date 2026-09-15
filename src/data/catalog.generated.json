@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-14T23:04:10+00:00",
-  "lastResearched": "2026-09-15",
+  "generatedAt": "2026-09-15T23:07:12+00:00",
+  "lastResearched": "2026-09-16",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 771,
-    "openSource": 195,
+    "total": 779,
+    "openSource": 197,
     "saas": 73,
-    "modelApi": 248,
-    "examples": 1563,
-    "effectAssets": 2008,
-    "docs": 1851
+    "modelApi": 249,
+    "examples": 1593,
+    "effectAssets": 2068,
+    "docs": 1860
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 78,
-      "PDF/文档": 229,
-      "文本/想法": 489,
-      "数据/表格": 315,
-      "代码/技术描述": 154,
+      "论文/科研资料": 79,
+      "PDF/文档": 232,
+      "文本/想法": 494,
+      "数据/表格": 320,
+      "代码/技术描述": 156,
       "任意/多源": 127,
-      "网页/搜索结果": 191,
+      "网页/搜索结果": 192,
       "代码库": 93,
-      "DSL/代码": 152,
+      "DSL/代码": 155,
       "新闻/资讯": 29,
       "知识库/个人资料": 78,
-      "Office 文档": 143,
+      "Office 文档": 147,
       "引用网络": 5,
-      "数据库": 73,
+      "数据库": 74,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 195,
-      "Agent Skill": 288,
-      "Skill 集合": 76,
-      "MCP Server": 260,
+      "开源应用/框架": 197,
+      "Agent Skill": 294,
+      "Skill 集合": 77,
+      "MCP Server": 261,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 26,
       "研究原型": 10,
-      "API/SDK/库": 121,
+      "API/SDK/库": 124,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 61,
-      "PPT/演示文稿": 326,
-      "网页/交互页面": 268,
+      "图形摘要/信息图": 62,
+      "PPT/演示文稿": 331,
+      "网页/交互页面": 273,
       "问答/学习材料": 18,
-      "报告/长文档": 110,
-      "证据表": 65,
+      "报告/长文档": 112,
+      "证据表": 66,
       "信息图/视觉报告": 107,
-      "图表/仪表盘": 246,
-      "架构图/流程图": 164,
-      "SVG/PNG/PDF": 323,
-      "报告/简报": 93,
+      "图表/仪表盘": 249,
+      "架构图/流程图": 165,
+      "SVG/PNG/PDF": 327,
+      "报告/简报": 94,
       "白板/思维导图": 44,
       "图表/Mermaid": 78,
-      "视频/音频": 58,
-      "结构化数据/Markdown": 119,
+      "视频/音频": 59,
+      "结构化数据/Markdown": 121,
       "表格/时间线": 33,
       "引用答案": 7,
       "思维导图/知识地图": 47,
@@ -66,47 +66,47 @@
       "图表/渲染输出": 26
     },
     "dependencies": {
-      "本地语言环境": 650,
-      "模型 API": 248,
-      "文档解析/OCR": 110,
-      "渲染/导出": 674,
+      "本地语言环境": 658,
+      "模型 API": 249,
+      "文档解析/OCR": 113,
+      "渲染/导出": 681,
       "GPU/加速器": 21,
-      "模板/素材": 371,
-      "Agent 宿主": 376,
-      "系统工具": 170,
-      "浏览器/账号": 181,
+      "模板/素材": 374,
+      "Agent 宿主": 381,
+      "系统工具": 174,
+      "浏览器/账号": 182,
       "存储/索引": 121,
-      "MCP Client": 272,
-      "外部检索/数据源": 160,
+      "MCP Client": 273,
+      "外部检索/数据源": 162,
       "代码分析工具": 58
     },
     "categories": {
-      "paper-visualization": 24,
+      "paper-visualization": 25,
       "doc-to-knowledge": 67,
-      "research-report": 33,
+      "research-report": 34,
       "infographic-report": 70,
-      "data-dashboard": 127,
+      "data-dashboard": 129,
       "diagram-generation": 86,
       "literature-map": 5,
-      "presentation-tools": 228,
+      "presentation-tools": 231,
       "rendering-primitive": 25,
-      "video-generation": 17,
+      "video-generation": 18,
       "codebase-map": 50,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 40,
+      "paper": 41,
       "text_visual": 93,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 37,
-      "support_doc_parse": 23,
-      "presentation": 237,
-      "data": 121,
-      "video": 17,
+      "docs": 38,
+      "support_doc_parse": 24,
+      "presentation": 239,
+      "data": 122,
+      "video": 18,
       "code": 56,
-      "support_render": 66,
+      "support_render": 67,
       "diagrams": 20,
       "indexes": 28,
       "diagram": 3,
@@ -62508,6 +62508,953 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "GenOffice",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "primaryUrl": "https://github.com/genspark-ai/genoffice",
+      "homepage": "https://genoffice.ai/",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 6841,
+      "license": "Apache-2.0",
+      "updated": "2026-09-15",
+      "note": "Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "System requirements & installation guide",
+          "url": "https://github.com/genspark-ai/genoffice",
+          "source": "https://genoffice.ai/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Watch the demo",
+          "url": "https://www.youtube.com/watch?v=B2pLdMX95v4",
+          "source": "https://genoffice.ai/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "GenOffice Docs rendering a two-column annual-report page with a full-width cover image, shaded KPI table, header and footer, at 80% zoom with the AI panel collapsed",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-report.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Time-lapse of GenOffice Slides generating the Aurora Home investor deck: the AI plans the storyline in the panel, slides appear on the canvas one after another, and the finished de",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-generate.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice Slides: the cover slide of an AI-generated Aurora Home investor deck on the canvas, with the original one-line prompt and the AI's summary of what it built in the panel",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-cover.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice HTML: a generated landing page for a solar desk lamp in the dark Midnight Studio direction, shown in the live preview with the AI panel summarizing the page it just built",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/html-ai.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice Slides showing an eight-slide Solar System deck that a coding agent built through the genoffice command line: the cover slide on the canvas, eight thumbnails on the left ",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-deck-in-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The eight rendered slides of the Solar System deck side by side: cover, exploration timeline, four key numbers, planet-diameter bar chart, rocky worlds versus giants, the Sun's 99.",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-slides-grid.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Watch the demo",
+          "url": "https://www.youtube.com/watch?v=B2pLdMX95v4",
+          "thumbnailUrl": "https://img.youtube.com/vi/B2pLdMX95v4/hqdefault.jpg",
+          "source": "https://genoffice.ai/"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice — the open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML with a built-in AI panel",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/hero.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice Docs: a company overview with a banner image; the AI tightened the Overview and inserted a new bulleted section, and the panel offers a one-click roll back",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-ai.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice Sheets: the AI added a Summary sheet with revenue by region and category using SUMIF formulas, plus a column chart, and reports 43 applied changes with an Undo button",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-ai.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice Sheets: asked which region led Q2 revenue, the AI answers Europe with the category breakdown and cites the cells it used as links, next to the Orders sheet",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-qa.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "GenOffice Slides: the designed closing slide of the same 11-slide deck, with the thumbnail strip on the left and the AI panel summarizing the storyline",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-ai.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Power BI Agentic Development",
+      "url": "https://github.com/data-goblin/power-bi-agentic-development",
+      "primaryUrl": "https://github.com/data-goblin/power-bi-agentic-development",
+      "homepage": "https://data-goblins.com",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "浏览器/账号",
+        "外部检索/数据源",
+        "系统工具"
+      ],
+      "stars": 915,
+      "license": "GPL-3.0",
+      "updated": "2026-09-15",
+      "note": "Marketplace of Power BI and Microsoft Fabric skills, subagents, hooks, and plugins for AI-assisted semantic models, DAX/TMDL workflows, reports, dashboards, and deployment pipelines.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "报告/简报",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Anthropic-format plugin marketplace",
+          "url": "https://code.claude.com/docs/en/plugin-marketplaces",
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Copilot CLI plugin reference",
+          "url": "https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference",
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`te-docs`",
+          "url": "https://github.com/data-goblin/power-bi-agentic-development/blob/HEAD/plugins/tabular-editor/skills/te-docs/",
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Click here for a YouTube walkthrough",
+          "url": "https://www.youtube.com/watch?v=acHDorTi62U",
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`modifying-theme-json`",
+          "url": "https://github.com/data-goblin/power-bi-agentic-development/blob/HEAD/plugins/reports/skills/modifying-theme-json/",
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "pbir-cli demo",
+          "url": "https://img.youtube.com/vi/acHDorTi62U/maxresdefault.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/03400cbb-20ac-4974-85e0-08799553cef2/Data+Goblins+Coverpage.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/ab92649d-5dc0-4055-a4be-663815b2156f/Data+Goblins+Coverpage2.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/0c735b50-facd-4759-a159-aec229b05a81/Data+Goblins+Coverpage3.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/54880592-91b6-459d-ba24-28b6a563f42c/Data+Goblins+Coverpage4.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/367db90f-74a5-49b3-a11f-f8f27dafaf3e/Data+Goblins+Coverpage5.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/cdfc7984-f0c8-4ec7-a753-bcdad8ad2e08/Data+Goblins+Coverpage6.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/5215abb0-b1fc-4231-81cf-daa7dd42e84f/Data+Goblins+Coverpage7.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/63bc50ab-3818-411b-ba60-94fd2d2eb937/Data+Goblins+Coverpage8.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/cca10990-ec95-45a3-8f36-3af661954276/Data+Goblins+Coverpage9.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "data goblins power bi kurt buhler blog articles",
+          "url": "https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/fa3c5844-f7ff-490c-9319-a89082543f62/Data+Goblins+Coverpage10.png",
+          "thumbnailUrl": null,
+          "source": "https://data-goblins.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Bg42 11 4",
+          "url": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/media/bg42-11-4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "minidoc",
+      "url": "https://github.com/shalayiding/minidoc",
+      "primaryUrl": "https://github.com/shalayiding/minidoc",
+      "homepage": "https://shalayiding.github.io/minidoc/",
+      "category": "research-report",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-09-12",
+      "note": "Compact LLM-friendly DSL that compiles to polished self-contained HTML reports, dashboards, system-design docs, postmortems, experiment logs, and chart-rich documents.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": ".md",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/url_shortener_system_design.md",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".minidoc",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/url_shortener_system_design.minidoc",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".md",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/q3_business_report.md",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".minidoc",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/q3_business_report.minidoc",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".md",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/incident_postmortem.md",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".minidoc",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/incident_postmortem.minidoc",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".md",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/sales_pipeline.md",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".minidoc",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/sales_pipeline.minidoc",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".md",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ecommerce-realtime-reporting.md",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".minidoc",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ecommerce-realtime-reporting.minidoc",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".md",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ml_experiment.md",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": ".minidoc",
+          "url": "https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ml_experiment.minidoc",
+          "source": "https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 20,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "SlickFast",
+      "url": "https://github.com/SlickFast/slickfast",
+      "primaryUrl": "https://github.com/SlickFast/slickfast",
+      "homepage": "https://slickfast.com",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 0,
+      "license": "AGPL-3.0",
+      "updated": "2026-09-11",
+      "note": "Deterministic local MCP and SVG render engine for tiny chart/page specs, with 47 chart types, dashboard tiling, live chart URLs, and byte-identical image output.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`API.md`",
+          "url": "https://github.com/SlickFast/slickfast/blob/HEAD/apps/api/API.md",
+          "source": "https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`openapi.yaml`",
+          "url": "https://github.com/SlickFast/slickfast/blob/HEAD/apps/api/openapi.yaml",
+          "source": "https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API reference Endpoints, auth, limits",
+          "url": "https://slickfast.com/docs.html",
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "HTTP guide Direct API usage, curl-first",
+          "url": "https://github.com/SlickFast/slickfast/blob/main/apps/api/API.md",
+          "source": "https://slickfast.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "dashboard template",
+          "url": "https://github.com/SlickFast/github-dashboard-template",
+          "source": "https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "Same Data, Three Disguises One dataset, three chart types. Twin → add .json",
+          "url": "https://pages.slickfast.com/s/5502a72d8edbcb46cabd9f8e2d1df5c5",
+          "source": "https://slickfast.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "SlickFast — one JSON spec, one dashboard image",
+          "url": "https://raw.githubusercontent.com/SlickFast/github-dashboard-template/main/assets/showcase-teal.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Seller weekly dashboard",
+          "url": "https://raw.githubusercontent.com/SlickFast/slickfast/main/assets/demo-seller-weekly.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Donut chart in the Retro Editorial palette on a cream background",
+          "url": "https://slickfast.com/assets/gallery/palette-retro-editorial.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Stacked area chart in the Nordic Earth palette on warm paper",
+          "url": "https://slickfast.com/assets/gallery/palette-nordic-earth.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Smooth line chart in the Cyberpunk Glow theme on near-black",
+          "url": "https://slickfast.com/assets/gallery/palette-cyberpunk-glow.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Waffle chart in the Sorbet Pastel palette on white",
+          "url": "https://slickfast.com/assets/gallery/palette-sorbet-pastel.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "FitPulse portrait daily summary board: steps, calories, trend, goal gauge, sleep ring",
+          "url": "https://slickfast.com/assets/gallery/fitpulse-daily.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Nested composition board: pie, horizontal bars, and full-width pie-of-pie drill-down tiles",
+          "url": "https://slickfast.com/assets/gallery/pie-party.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Apollo Mission Control themed dashboard: KPIs, moonwalk hours bar, crew donut, NASA budget line, lunar-stay leaderboard",
+          "url": "https://slickfast.com/assets/gallery/apollo-mission-control.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Single-stat chart family board: KPI, gauge, ring, callout, progress, bullet",
+          "url": "https://slickfast.com/assets/gallery/board-single-stat.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Comparison chart family board: bar, grouped, stacked, diverging, lollipop",
+          "url": "https://slickfast.com/assets/gallery/board-comparison.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Trend chart family board: line, smooth, area, stacked area, slope, difference",
+          "url": "https://slickfast.com/assets/gallery/board-trend.png",
+          "thumbnailUrl": null,
+          "source": "https://slickfast.com/"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Bang Motion",
+      "url": "https://github.com/bangtutorial/bang-motion",
+      "primaryUrl": "https://github.com/bangtutorial/bang-motion",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 333,
+      "license": "MIT",
+      "updated": "2026-09-15",
+      "note": "Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single playable index.html with video-like motion and optional MP4 export.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面",
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Bang Tutorial",
+          "url": "https://youtube.com/bangtutorial",
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos, visual journalism explainer, continuous action explainer, cartoon col",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/hero.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Grainy gradient opener",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/01-grainy-gradient.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Kinetic typography in poster color-block",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/02-kinetic-colorblock.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "SaaS product tour",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/03-saas-ui-tour.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flat vector illustration promo",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/04-flat-vector.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flat pop with photos promo",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/07-flat-pop-photo.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Continuous action explainer",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/05-continuous-action.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Visual journalism explainer",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/09-visual-journalism.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "White catalog explainer",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/08-white-catalog.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Vintage sketch explainer",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/10-vintage-sketch.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cartoon collage explainer",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/11-cartoon-collage.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cartoon stage explainer",
+          "url": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/06-cartoon-stage.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 1,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "skills-slides",
+      "url": "https://github.com/nghiahsgs/skills-slides",
+      "primaryUrl": "https://github.com/nghiahsgs/skills-slides",
+      "homepage": "https://nghiahsgs.github.io/skills-slides/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 33,
+      "license": "unknown",
+      "updated": "2026-09-14",
+      "note": "Claude Code skill for offline single-file HTML presentations, using tokenized aesthetics, palettes, fonts, layouts, effects, and an anti-slop checklist for varied deck designs.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Live Demo →",
+          "url": "https://nghiahsgs.github.io/skills-slides/",
+          "source": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "demo presentation",
+          "url": "https://nghiahsgs.github.io/skills-slides/examples/skills-slides-promo.html",
+          "source": "https://nghiahsgs.github.io/skills-slides/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Title slide — gradient mesh background with particle effects",
+          "url": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/examples/screenshots/slide-01-title.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Feature grid — 6 cards with 3D tilt hover",
+          "url": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/examples/screenshots/slide-06-features.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Anti-slop checklist — 10-point quality gate",
+          "url": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/examples/screenshots/slide-07-checklist.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Beamer Academic",
+      "url": "https://github.com/Faust-Donf/beamer-academic",
+      "primaryUrl": "https://github.com/Faust-Donf/beamer-academic",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 295,
+      "license": "MIT",
+      "updated": "2026-09-15",
+      "note": "Claude Code and Codex skill that converts thesis PDFs, Word documents, or LaTeX sources into professional Beamer defense slides with layouts, color schemes, TikZ figures, and PDF output.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Example",
+          "url": "https://github.com/Faust-Donf/beamer-academic/blob/HEAD/examples/transformer/",
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`layouts/_registry.yaml`",
+          "url": "https://github.com/Faust-Donf/beamer-academic/blob/HEAD/layouts/_registry.yaml",
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Beamer Academic",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/cover.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Toc",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/toc.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tikz Architecture",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/tikz-architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Tikz Attention",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/tikz-attention.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Text Image",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/text-image.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Table",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/table.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Full Image",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/full-image.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Thanks",
+          "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/thanks.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 8
+    },
+    {
+      "name": "img2ppt-lite",
+      "url": "https://github.com/TianLin0509/img2ppt-lite",
+      "primaryUrl": "https://github.com/TianLin0509/img2ppt-lite",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 46,
+      "license": "MIT",
+      "updated": "2026-09-13",
+      "note": "Agent-as-VLM workflow and deterministic Python pipeline that reconstructs a slide mockup image into an editable PPTX with native text boxes, draggable sprites, inpainted backgrounds, and validation reports.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_doc_parse",
+      "readmeGroup": "support_doc_parse",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "selftest",
+          "url": "https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/docs/selftest-compare.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     }
   ]
 }

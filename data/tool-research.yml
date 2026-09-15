@@ -1,4 +1,4 @@
-generated_at: '2026-09-14T23:04:10+00:00'
+generated_at: '2026-09-15T23:07:12+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 771
-  fetched_sources_ok: 1028
+  entries: 779
+  fetched_sources_ok: 1041
   fetched_sources_failed: 53
-  official_examples: 1563
-  official_effect_assets: 2008
-  official_docs: 1851
+  official_examples: 1593
+  official_effect_assets: 2068
+  official_docs: 1860
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -59246,3 +59246,830 @@ entries:
     bytes: 7526
   source_headings:
   - 📥 How to get started
+- name: GenOffice
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/genspark-ai/genoffice
+  homepage: https://genoffice.ai/
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX,
+    XLSX, PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Demo
+    bytes: 32484
+  - kind: homepage
+    url: https://genoffice.ai/
+    final_url: https://genoffice.ai/
+    status: 200
+    content_type: text/html
+    title: "GenOffice â\x80\x94 Free, Open-Source AI Office Suite"
+    description: Edit Word, Excel, PowerPoint and PDF files with built-in AI. Free, open-source desktop office apps for macOS,
+      Windows and Linux. Download GenOffice.
+    bytes: 60212
+  official_examples:
+  - kind: demo
+    title: Watch the demo
+    url: https://www.youtube.com/watch?v=B2pLdMX95v4
+    source: https://genoffice.ai/
+  official_docs:
+  - kind: docs
+    title: System requirements & installation guide
+    url: https://github.com/genspark-ai/genoffice
+    source: https://genoffice.ai/
+  official_effect_assets:
+  - kind: image
+    title: GenOffice Docs rendering a two-column annual-report page with a full-width cover image, shaded KPI table, header
+      and footer, at 80% zoom with the AI panel collapsed
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-report.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'Time-lapse of GenOffice Slides generating the Aurora Home investor deck: the AI plans the storyline in the panel,
+      slides appear on the canvas one after another, and the finished de'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-generate.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice Slides: the cover slide of an AI-generated Aurora Home investor deck on the canvas, with the original
+      one-line prompt and the AI''s summary of what it built in the panel'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-cover.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice HTML: a generated landing page for a solar desk lamp in the dark Midnight Studio direction, shown in
+      the live preview with the AI panel summarizing the page it just built'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/html-ai.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice Slides showing an eight-slide Solar System deck that a coding agent built through the genoffice command
+      line: the cover slide on the canvas, eight thumbnails on the left '
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-deck-in-app.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'The eight rendered slides of the Solar System deck side by side: cover, exploration timeline, four key numbers,
+      planet-diameter bar chart, rocky worlds versus giants, the Sun''s 99.'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-slides-grid.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: video
+    title: Watch the demo
+    url: https://www.youtube.com/watch?v=B2pLdMX95v4
+    thumbnail_url: https://img.youtube.com/vi/B2pLdMX95v4/hqdefault.jpg
+    source: https://genoffice.ai/
+  - kind: image
+    title: 'GenOffice — the open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML with a built-in AI panel'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/hero.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice Docs: a company overview with a banner image; the AI tightened the Overview and inserted a new bulleted
+      section, and the panel offers a one-click roll back'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-ai.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice Sheets: the AI added a Summary sheet with revenue by region and category using SUMIF formulas, plus
+      a column chart, and reports 43 applied changes with an Undo button'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-ai.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice Sheets: asked which region led Q2 revenue, the AI answers Europe with the category breakdown and cites
+      the cells it used as links, next to the Orders sheet'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-qa.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  - kind: image
+    title: 'GenOffice Slides: the designed closing slide of the same 11-slide deck, with the thumbnail strip on the left and
+      the AI panel summarizing the storyline'
+    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-ai.webp
+    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Watch the demo
+    url: https://www.youtube.com/watch?v=B2pLdMX95v4
+    source: https://genoffice.ai/
+  - kind: docs
+    title: System requirements & installation guide
+    url: https://github.com/genspark-ai/genoffice
+    source: https://genoffice.ai/
+  source_headings:
+  - Demo
+  - 1 · Docs — open and edit `.docx` with an AI you can review
+  - 3 · Slides — from a prompt to a `.pptx` deck
+  - Quickstart from the terminal
+- name: Power BI Agentic Development
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/data-goblin/power-bi-agentic-development
+  homepage: https://data-goblins.com
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 系统工具
+  catalog_note: Marketplace of Power BI and Microsoft Fabric skills, subagents, hooks, and plugins for AI-assisted semantic
+    models, DAX/TMDL workflows, reports, dashboards, and deployment pipelines.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What is agentic development?
+    bytes: 21764
+  - kind: homepage
+    url: https://data-goblins.com/
+    final_url: https://data-goblins.com/
+    status: 200
+    content_type: text/html
+    title: DATA GOBLINS
+    description: A blog for inspirational Power BI how-to's with a fantasy twist. Tips and instructional blogposts about how
+      to design Power BI reports, models and visuals, as well as other technic
+    bytes: 368599
+  official_examples:
+  - kind: tutorial
+    title: Click here for a YouTube walkthrough
+    url: https://www.youtube.com/watch?v=acHDorTi62U
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: template
+    title: '`modifying-theme-json`'
+    url: https://github.com/data-goblin/power-bi-agentic-development/blob/HEAD/plugins/reports/skills/modifying-theme-json/
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Anthropic-format plugin marketplace
+    url: https://code.claude.com/docs/en/plugin-marketplaces
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: docs
+    title: Copilot CLI plugin reference
+    url: https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: docs
+    title: '`te-docs`'
+    url: https://github.com/data-goblin/power-bi-agentic-development/blob/HEAD/plugins/tabular-editor/skills/te-docs/
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: pbir-cli demo
+    url: https://img.youtube.com/vi/acHDorTi62U/maxresdefault.jpg
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/03400cbb-20ac-4974-85e0-08799553cef2/Data+Goblins+Coverpage.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/ab92649d-5dc0-4055-a4be-663815b2156f/Data+Goblins+Coverpage2.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/0c735b50-facd-4759-a159-aec229b05a81/Data+Goblins+Coverpage3.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/54880592-91b6-459d-ba24-28b6a563f42c/Data+Goblins+Coverpage4.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/367db90f-74a5-49b3-a11f-f8f27dafaf3e/Data+Goblins+Coverpage5.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/cdfc7984-f0c8-4ec7-a753-bcdad8ad2e08/Data+Goblins+Coverpage6.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/5215abb0-b1fc-4231-81cf-daa7dd42e84f/Data+Goblins+Coverpage7.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/63bc50ab-3818-411b-ba60-94fd2d2eb937/Data+Goblins+Coverpage8.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/cca10990-ec95-45a3-8f36-3af661954276/Data+Goblins+Coverpage9.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: data goblins power bi kurt buhler blog articles
+    url: https://images.squarespace-cdn.com/content/v1/5c3a30e0f7939271ddaa7e4f/fa3c5844-f7ff-490c-9319-a89082543f62/Data+Goblins+Coverpage10.png
+    source: https://data-goblins.com/
+  - kind: image
+    title: Bg42 11 4
+    url: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/media/bg42-11-4.png
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  official_links:
+  - kind: tutorial
+    title: Click here for a YouTube walkthrough
+    url: https://www.youtube.com/watch?v=acHDorTi62U
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: docs
+    title: Anthropic-format plugin marketplace
+    url: https://code.claude.com/docs/en/plugin-marketplaces
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: docs
+    title: Copilot CLI plugin reference
+    url: https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: docs
+    title: '`te-docs`'
+    url: https://github.com/data-goblin/power-bi-agentic-development/blob/HEAD/plugins/tabular-editor/skills/te-docs/
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  - kind: template
+    title: '`modifying-theme-json`'
+    url: https://github.com/data-goblin/power-bi-agentic-development/blob/HEAD/plugins/reports/skills/modifying-theme-json/
+    source: https://raw.githubusercontent.com/data-goblin/power-bi-agentic-development/HEAD/README.md
+  source_headings:
+  - 'Example: Using the pbir-cli with the skills'
+- name: minidoc
+  category: research-report
+  surface: library
+  primary_url: https://github.com/shalayiding/minidoc
+  homepage: https://shalayiding.github.io/minidoc/
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Compact LLM-friendly DSL that compiles to polished self-contained HTML reports, dashboards, system-design
+    docs, postmortems, experiment logs, and chart-rich documents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: minidoc
+    bytes: 9284
+  - kind: homepage
+    url: https://shalayiding.github.io/minidoc/
+    final_url: https://shalayiding.github.io/minidoc/
+    status: 200
+    content_type: text/html
+    title: minidoc
+    bytes: 10793
+  official_examples:
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/url_shortener_system_design.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/url_shortener_system_design.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/q3_business_report.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/q3_business_report.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/incident_postmortem.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/incident_postmortem.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/sales_pipeline.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/sales_pipeline.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ecommerce-realtime-reporting.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ecommerce-realtime-reporting.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ml_experiment.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ml_experiment.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: '`showcase/`'
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/url_shortener_system_design.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/url_shortener_system_design.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/q3_business_report.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/q3_business_report.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/incident_postmortem.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/incident_postmortem.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/sales_pipeline.md
+    source: https://shalayiding.github.io/minidoc/
+  official_links:
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/url_shortener_system_design.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/url_shortener_system_design.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/q3_business_report.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/q3_business_report.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/incident_postmortem.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/incident_postmortem.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/sales_pipeline.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/sales_pipeline.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ecommerce-realtime-reporting.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ecommerce-realtime-reporting.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ml_experiment.md
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/ml_experiment.minidoc
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: '`showcase/`'
+    url: https://github.com/shalayiding/minidoc/blob/HEAD/showcase/
+    source: https://raw.githubusercontent.com/shalayiding/minidoc/HEAD/README.md
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/url_shortener_system_design.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/url_shortener_system_design.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/q3_business_report.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/q3_business_report.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/incident_postmortem.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/incident_postmortem.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/sales_pipeline.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/sales_pipeline.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/ecommerce-realtime-reporting.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/ecommerce-realtime-reporting.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .md
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/ml_experiment.md
+    source: https://shalayiding.github.io/minidoc/
+  - kind: showcase
+    title: .minidoc
+    url: https://github.com/shalayiding/minidoc/blob/main/showcase/ml_experiment.minidoc
+    source: https://shalayiding.github.io/minidoc/
+  source_headings:
+  - Usage
+- name: SlickFast
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/SlickFast/slickfast
+  homepage: https://slickfast.com
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: Deterministic local MCP and SVG render engine for tiny chart/page specs, with 47 chart types, dashboard tiling,
+    live chart URLs, and byte-identical image output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SlickFast
+    bytes: 7317
+  - kind: homepage
+    url: https://slickfast.com/
+    final_url: https://slickfast.com/
+    status: 200
+    content_type: text/html
+    title: SlickFast — a deterministic render engine
+    description: A deterministic render engine. Spec in, same bytes out, forever. Charts, boards, and whole Pages. Add .json
+      to a Page URL to verify. Free local MCP; hosted API and Pages when you n
+    bytes: 46461
+  official_examples:
+  - kind: template
+    title: dashboard template
+    url: https://github.com/SlickFast/github-dashboard-template
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: paper
+    title: Same Data, Three Disguises One dataset, three chart types. Twin → add .json
+    url: https://pages.slickfast.com/s/5502a72d8edbcb46cabd9f8e2d1df5c5
+    source: https://slickfast.com/
+  official_docs:
+  - kind: docs
+    title: '`API.md`'
+    url: https://github.com/SlickFast/slickfast/blob/HEAD/apps/api/API.md
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: docs
+    title: '`openapi.yaml`'
+    url: https://github.com/SlickFast/slickfast/blob/HEAD/apps/api/openapi.yaml
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: docs
+    title: API reference Endpoints, auth, limits
+    url: https://slickfast.com/docs.html
+    source: https://slickfast.com/
+  - kind: docs
+    title: HTTP guide Direct API usage, curl-first
+    url: https://github.com/SlickFast/slickfast/blob/main/apps/api/API.md
+    source: https://slickfast.com/
+  official_effect_assets:
+  - kind: image
+    title: SlickFast — one JSON spec, one dashboard image
+    url: https://raw.githubusercontent.com/SlickFast/github-dashboard-template/main/assets/showcase-teal.png
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: image
+    title: Seller weekly dashboard
+    url: https://raw.githubusercontent.com/SlickFast/slickfast/main/assets/demo-seller-weekly.png
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: image
+    title: Donut chart in the Retro Editorial palette on a cream background
+    url: https://slickfast.com/assets/gallery/palette-retro-editorial.png
+    source: https://slickfast.com/
+  - kind: image
+    title: Stacked area chart in the Nordic Earth palette on warm paper
+    url: https://slickfast.com/assets/gallery/palette-nordic-earth.png
+    source: https://slickfast.com/
+  - kind: image
+    title: Smooth line chart in the Cyberpunk Glow theme on near-black
+    url: https://slickfast.com/assets/gallery/palette-cyberpunk-glow.png
+    source: https://slickfast.com/
+  - kind: image
+    title: Waffle chart in the Sorbet Pastel palette on white
+    url: https://slickfast.com/assets/gallery/palette-sorbet-pastel.png
+    source: https://slickfast.com/
+  - kind: image
+    title: 'FitPulse portrait daily summary board: steps, calories, trend, goal gauge, sleep ring'
+    url: https://slickfast.com/assets/gallery/fitpulse-daily.png
+    source: https://slickfast.com/
+  - kind: image
+    title: 'Nested composition board: pie, horizontal bars, and full-width pie-of-pie drill-down tiles'
+    url: https://slickfast.com/assets/gallery/pie-party.png
+    source: https://slickfast.com/
+  - kind: image
+    title: 'Apollo Mission Control themed dashboard: KPIs, moonwalk hours bar, crew donut, NASA budget line, lunar-stay leaderboard'
+    url: https://slickfast.com/assets/gallery/apollo-mission-control.png
+    source: https://slickfast.com/
+  - kind: image
+    title: 'Single-stat chart family board: KPI, gauge, ring, callout, progress, bullet'
+    url: https://slickfast.com/assets/gallery/board-single-stat.png
+    source: https://slickfast.com/
+  - kind: image
+    title: 'Comparison chart family board: bar, grouped, stacked, diverging, lollipop'
+    url: https://slickfast.com/assets/gallery/board-comparison.png
+    source: https://slickfast.com/
+  - kind: image
+    title: 'Trend chart family board: line, smooth, area, stacked area, slope, difference'
+    url: https://slickfast.com/assets/gallery/board-trend.png
+    source: https://slickfast.com/
+  official_links:
+  - kind: template
+    title: dashboard template
+    url: https://github.com/SlickFast/github-dashboard-template
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: docs
+    title: '`API.md`'
+    url: https://github.com/SlickFast/slickfast/blob/HEAD/apps/api/API.md
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: docs
+    title: '`openapi.yaml`'
+    url: https://github.com/SlickFast/slickfast/blob/HEAD/apps/api/openapi.yaml
+    source: https://raw.githubusercontent.com/SlickFast/slickfast/HEAD/README.md
+  - kind: paper
+    title: Same Data, Three Disguises One dataset, three chart types. Twin → add .json
+    url: https://pages.slickfast.com/s/5502a72d8edbcb46cabd9f8e2d1df5c5
+    source: https://slickfast.com/
+  - kind: docs
+    title: API reference Endpoints, auth, limits
+    url: https://slickfast.com/docs.html
+    source: https://slickfast.com/
+  - kind: docs
+    title: HTTP guide Direct API usage, curl-first
+    url: https://github.com/SlickFast/slickfast/blob/main/apps/api/API.md
+    source: https://slickfast.com/
+- name: Bang Motion
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/bangtutorial/bang-motion
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single
+    playable index.html with video-like motion and optional MP4 export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Bang Motion
+    bytes: 19806
+  official_examples:
+  - kind: tutorial
+    title: Bang Tutorial
+    url: https://youtube.com/bangtutorial
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos,
+      visual journalism explainer, continuous action explainer, cartoon col'
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/hero.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Grainy gradient opener
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/01-grainy-gradient.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Kinetic typography in poster color-block
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/02-kinetic-colorblock.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: SaaS product tour
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/03-saas-ui-tour.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Flat vector illustration promo
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/04-flat-vector.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Flat pop with photos promo
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/07-flat-pop-photo.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Continuous action explainer
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/05-continuous-action.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Visual journalism explainer
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/09-visual-journalism.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: White catalog explainer
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/08-white-catalog.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Vintage sketch explainer
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/10-vintage-sketch.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Cartoon collage explainer
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/11-cartoon-collage.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  - kind: image
+    title: Cartoon stage explainer
+    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/06-cartoon-stage.jpg
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  official_links:
+  - kind: tutorial
+    title: Bang Tutorial
+    url: https://youtube.com/bangtutorial
+    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+  source_headings:
+  - Style gallery
+  - Example prompts
+- name: skills-slides
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/nghiahsgs/skills-slides
+  homepage: https://nghiahsgs.github.io/skills-slides/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for offline single-file HTML presentations, using tokenized aesthetics, palettes, fonts,
+    layouts, effects, and an anti-slop checklist for varied deck designs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slides
+    bytes: 6258
+  - kind: homepage
+    url: https://nghiahsgs.github.io/skills-slides/
+    final_url: https://nghiahsgs.github.io/skills-slides/
+    status: 200
+    content_type: text/html
+    title: skills-slides demo
+    bytes: 313
+  official_examples:
+  - kind: demo
+    title: Live Demo →
+    url: https://nghiahsgs.github.io/skills-slides/
+    source: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+  - kind: example
+    title: demo presentation
+    url: https://nghiahsgs.github.io/skills-slides/examples/skills-slides-promo.html
+    source: https://nghiahsgs.github.io/skills-slides/
+  official_effect_assets:
+  - kind: image
+    title: Title slide — gradient mesh background with particle effects
+    url: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/examples/screenshots/slide-01-title.png
+    source: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+  - kind: image
+    title: Feature grid — 6 cards with 3D tilt hover
+    url: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/examples/screenshots/slide-06-features.png
+    source: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+  - kind: image
+    title: Anti-slop checklist — 10-point quality gate
+    url: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/examples/screenshots/slide-07-checklist.png
+    source: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Live Demo →
+    url: https://nghiahsgs.github.io/skills-slides/
+    source: https://raw.githubusercontent.com/nghiahsgs/skills-slides/HEAD/README.md
+  - kind: example
+    title: demo presentation
+    url: https://nghiahsgs.github.io/skills-slides/examples/skills-slides-promo.html
+    source: https://nghiahsgs.github.io/skills-slides/
+  source_headings:
+  - slides
+- name: Beamer Academic
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/Faust-Donf/beamer-academic
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code and Codex skill that converts thesis PDFs, Word documents, or LaTeX sources into professional
+    Beamer defense slides with layouts, color schemes, TikZ figures, and PDF output.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Beamer Academic
+    bytes: 13161
+  official_examples:
+  - kind: example
+    title: Example
+    url: https://github.com/Faust-Donf/beamer-academic/blob/HEAD/examples/transformer/
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: template
+    title: '`layouts/_registry.yaml`'
+    url: https://github.com/Faust-Donf/beamer-academic/blob/HEAD/layouts/_registry.yaml
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Beamer Academic
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/cover.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Toc
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/toc.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Tikz Architecture
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/tikz-architecture.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Tikz Attention
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/tikz-attention.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Text Image
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/text-image.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Table
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/table.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Full Image
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/full-image.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: image
+    title: Thanks
+    url: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/docs/thanks.png
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: example
+    title: Example
+    url: https://github.com/Faust-Donf/beamer-academic/blob/HEAD/examples/transformer/
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  - kind: template
+    title: '`layouts/_registry.yaml`'
+    url: https://github.com/Faust-Donf/beamer-academic/blob/HEAD/layouts/_registry.yaml
+    source: https://raw.githubusercontent.com/Faust-Donf/beamer-academic/HEAD/README.md
+  source_headings:
+  - 🖼️ Gallery / 效果展示
+  - Usage / 使用
+- name: img2ppt-lite
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/TianLin0509/img2ppt-lite
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Agent-as-VLM workflow and deterministic Python pipeline that reconstructs a slide mockup image into an editable
+    PPTX with native text boxes, draggable sprites, inpainted backgrounds, and validation reports.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: img2ppt-lite
+    bytes: 6424
+  official_effect_assets:
+  - kind: image
+    title: selftest
+    url: https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/docs/selftest-compare.png
+    source: https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/README.md

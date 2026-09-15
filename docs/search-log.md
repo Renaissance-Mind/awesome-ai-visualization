@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-15.
+Last researched: 2026-09-16.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-16: refreshed local AI Office editing, Power BI and Fabric agent skills, compact HTML report DSLs, deterministic chart/dashboard rendering, browser-motion video skills, offline HTML deck skills, Beamer thesis-defense slide generation, and image-to-editable-PPTX reconstruction from official GitHub repositories, project homepages, README evidence, live GitHub searches, and current GitHub metadata. This pass added GenOffice, Power BI Agentic Development, minidoc, SlickFast, Bang Motion, skills-slides, Beamer Academic, and img2ppt-lite. The targeted scraper ran only against these eight records, fetched thirteen official sources successfully with no failed fetches, and kept thirty official examples, sixty preview assets, and nine docs links.
 
 Update on 2026-09-15: refreshed concept-modeling skills, PDF-to-knowledge graph MCP tooling, paper-to-seminar deck conversion, local codebase ontology maps, Chartbrew dashboard MCP access, and PDF-to-editable-Word preprocessing from official GitHub repositories, project homepages, README evidence, live GitHub searches, and current GitHub metadata. This pass added concept-skills, DocuGraph MCP, Paper2Seminar, Ontology Atlas, chartbrew-mcp, and pdf-to-editable-word-skill. The targeted scraper ran only against these six records, fetched eight official sources successfully with one non-blocking skills.sh mirror 404, and kept three official examples, six artifact preview assets, and thirty-five docs links after removing brand-only Ontology Atlas media.
 

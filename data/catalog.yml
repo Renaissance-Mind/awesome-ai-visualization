@@ -1,4 +1,4 @@
-last_researched: '2026-09-15'
+last_researched: '2026-09-16'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -20118,6 +20118,230 @@ entries:
   - Agent Skill
   output_forms:
   - 报告/长文档
+  - 结构化数据/Markdown
+  catalog_section: support_doc_parse
+  readme_group: support_doc_parse
+- name: GenOffice
+  url: https://github.com/genspark-ai/genoffice
+  homepage: https://genoffice.ai/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 6841
+  license: Apache-2.0
+  updated: '2026-09-15'
+  note: Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX,
+    PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Power BI Agentic Development
+  url: https://github.com/data-goblin/power-bi-agentic-development
+  homepage: https://data-goblins.com
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 浏览器/账号
+  - 外部检索/数据源
+  - 系统工具
+  stars: 915
+  license: GPL-3.0
+  updated: '2026-09-15'
+  note: Marketplace of Power BI and Microsoft Fabric skills, subagents, hooks, and plugins for AI-assisted semantic models,
+    DAX/TMDL workflows, reports, dashboards, and deployment pipelines.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - Office 文档
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 报告/简报
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: minidoc
+  url: https://github.com/shalayiding/minidoc
+  homepage: https://shalayiding.github.io/minidoc/
+  category: research-report
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  stars: 2
+  license: unknown
+  updated: '2026-09-12'
+  note: Compact LLM-friendly DSL that compiles to polished self-contained HTML reports, dashboards, system-design docs,
+    postmortems, experiment logs, and chart-rich documents.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - API/SDK/库
+  - 开源应用/框架
+  output_forms:
+  - 报告/长文档
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: docs
+- name: SlickFast
+  url: https://github.com/SlickFast/slickfast
+  homepage: https://slickfast.com
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 0
+  license: AGPL-3.0
+  updated: '2026-09-11'
+  note: Deterministic local MCP and SVG render engine for tiny chart/page specs, with 47 chart types, dashboard tiling,
+    live chart URLs, and byte-identical image output.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: support_render
+  readme_group: support_render
+- name: Bang Motion
+  url: https://github.com/bangtutorial/bang-motion
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 333
+  license: MIT
+  updated: '2026-09-15'
+  note: Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single
+    playable index.html with video-like motion and optional MP4 export.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  - PPT/演示文稿
+  catalog_section: main
+  readme_group: video
+- name: skills-slides
+  url: https://github.com/nghiahsgs/skills-slides
+  homepage: https://nghiahsgs.github.io/skills-slides/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 33
+  license: unknown
+  updated: '2026-09-14'
+  note: Claude Code skill for offline single-file HTML presentations, using tokenized aesthetics, palettes, fonts, layouts,
+    effects, and an anti-slop checklist for varied deck designs.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Beamer Academic
+  url: https://github.com/Faust-Donf/beamer-academic
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 295
+  license: MIT
+  updated: '2026-09-15'
+  note: Claude Code and Codex skill that converts thesis PDFs, Word documents, or LaTeX sources into professional Beamer
+    defense slides with layouts, color schemes, TikZ figures, and PDF output.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: paper
+- name: img2ppt-lite
+  url: https://github.com/TianLin0509/img2ppt-lite
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 46
+  license: MIT
+  updated: '2026-09-13'
+  note: Agent-as-VLM workflow and deterministic Python pipeline that reconstructs a slide mockup image into an editable
+    PPTX with native text boxes, draggable sprites, inpainted backgrounds, and validation reports.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
   - 结构化数据/Markdown
   catalog_section: support_doc_parse
   readme_group: support_doc_parse
