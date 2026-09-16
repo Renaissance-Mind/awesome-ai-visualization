@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-779_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--16-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-787_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,18 +15,18 @@
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
 
-## Latest Refresh (2026-09-16)
+## Latest Refresh (2026-09-17)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GenOffice](https://github.com/genspark-ai/genoffice) | Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files locally. |
-| [Power BI Agentic Development](https://github.com/data-goblin/power-bi-agentic-development) | Power BI and Microsoft Fabric skill marketplace for agent-assisted semantic models, reports, dashboards, and deployment pipelines. |
-| [minidoc](https://github.com/shalayiding/minidoc) | LLM-friendly DSL that compiles compact report specifications into polished self-contained HTML dashboards and documents. |
-| [SlickFast](https://github.com/SlickFast/slickfast) | Deterministic local MCP and SVG render engine for chart/page specs, dashboard tiling, live chart URLs, and byte-identical output. |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | Agent skill for browser motion graphics that outputs a playable index.html with video-like openers, demos, explainers, and optional MP4 export. |
-| [skills-slides](https://github.com/nghiahsgs/skills-slides) | Offline Claude Code skill for varied single-file HTML decks using tokenized aesthetics, palettes, layouts, effects, and quality gates. |
-| [Beamer Academic](https://github.com/Faust-Donf/beamer-academic) | Claude Code and Codex skill that turns thesis PDFs, Word documents, or LaTeX sources into professional Beamer defense slides. |
-| [img2ppt-lite](https://github.com/TianLin0509/img2ppt-lite) | Agent-as-VLM workflow for reconstructing slide mockup images into editable PPTX with native text boxes and draggable visual elements. |
+| [Archify](https://github.com/tt-a1i/archify) | Agent skill and deterministic renderer for self-contained architecture, workflow, sequence, data-flow, and lifecycle diagrams with HTML/SVG/PNG/WebM export. |
+| [HTML Anything](https://github.com/nexu-io/html-anything) | Local-first agentic HTML editor with 75 skill templates for decks, posters, data reports, prototypes, cards, and Hyperframes video/storyboards. |
+| [Effective HTML](https://github.com/plannotator/effective-html) | Agent skill collection for self-contained HTML artifacts, including reports, presentations, wireframes, prototypes, roadmaps, timelines, and diagrams. |
+| [Scientific Figure Library](https://github.com/xuzhougeng/ScientificFigureLibrary) | Local-first MCP App for importing, reviewing, publishing, searching, previewing, and reusing exact scientific figure templates. |
+| [MCP Vega](https://github.com/andreipirone/mcp-vega) | Read-only PostgreSQL MCP server that inspects schemas, executes bounded SELECT queries, and returns Vega-Lite chart specifications. |
+| [OraViz MCP](https://github.com/jasperan/oraviz-mcp) | Visualization-first Oracle AI Database MCP server that profiles tables and renders read-only SQL result sets into PNG charts. |
+| [Mellos Mapping](https://github.com/GuangminJu/mellos-mapping) | MCP server and terminal pane for live layered dependency maps that coding agents keep current during bottom-up implementation. |
+| [plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Worker MCP chart renderer for PNG/SVG function plots, data charts, subplot grids, and STEM diagrams from JSON calls. |
 
 ## ✨ 추천 사용법
 
@@ -219,6 +219,8 @@ PDF, 오피스 파일, 웹 페이지, 개인 문서, 팀 지식 베이스에서 
 | [eval-layer](https://github.com/erezweinstein5/eval-layer) [![Star](https://img.shields.io/github/stars/erezweinstein5/eval-layer?style=flat&logo=github&label=Star)](https://github.com/erezweinstein5/eval-layer/stargazers) | Codebase / Code/technical text / Data/tables | Agent skill | Evidence table / Long report / Chart/dashboard / Web/interactive page | Agent host / Local runtime / Model API / Code analysis / Rendering/export / Templates/assets |
 | [codebase-mindmap](https://github.com/UnitedDiagram/code-mindmap-skill) [![Star](https://img.shields.io/github/stars/UnitedDiagram/code-mindmap-skill?style=flat&logo=github&label=Star)](https://github.com/UnitedDiagram/code-mindmap-skill/stargazers) | Codebase / Code/technical text | Agent skill | Code map/Repo Wiki / Mind map/knowledge map / Web/interactive page | Agent host / Local runtime / Code analysis / Rendering/export |
 
+| [Mellos Mapping](https://github.com/GuangminJu/mellos-mapping) [![Star](https://img.shields.io/github/stars/GuangminJu/mellos-mapping?style=flat&logo=github&label=Star)](https://github.com/GuangminJu/mellos-mapping/stargazers) | 코드베이스 / 코드/기술 설명 / 텍스트/아이디어 | MCP Server / Agent Skill | 코드 맵/Repo Wiki / 아키텍처/흐름도 / 표/타임라인 | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 코드 분석 / 렌더링/내보내기 |
+
 ### 데이터, 표 및 비즈니스 지표
 
 Tools that turn CSVs, databases, metrics, or business data into charts, dashboards, or analytical reports.
@@ -347,6 +349,9 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Power BI Visualization Expert Mode](https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md) [![Star](https://img.shields.io/github/stars/github/awesome-copilot?style=flat&logo=github&label=Star)](https://github.com/github/awesome-copilot/stargazers) | 데이터/표 / 데이터베이스 / 코드/기술 텍스트 | Bot/어시스턴트 / Agent skill | 차트/대시보드 / 브리핑/보고서 / 근거표 | Agent 호스트 / 모델 API / 외부 검색/데이터 / 렌더링/내보내기 |
 | [TD Skills](https://github.com/treasure-data/td-skills) [![Star](https://img.shields.io/github/stars/treasure-data/td-skills?style=flat&logo=github&label=Star)](https://github.com/treasure-data/td-skills/stargazers) | Data/tables / Database / Knowledge base | Skill collection / Agent skill | Chart/dashboard / Briefing/report / Infographic/visual report | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
 
+| [MCP Vega](https://github.com/andreipirone/mcp-vega) [![Star](https://img.shields.io/github/stars/andreipirone/mcp-vega?style=flat&logo=github&label=Star)](https://github.com/andreipirone/mcp-vega/stargazers) | 데이터베이스 / 데이터/표 | MCP Server | 차트/대시보드 / 렌더링된 차트 / 구조화 데이터/Markdown | MCP 클라이언트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
+| [OraViz MCP](https://github.com/jasperan/oraviz-mcp) [![Star](https://img.shields.io/github/stars/jasperan/oraviz-mcp?style=flat&logo=github&label=Star)](https://github.com/jasperan/oraviz-mcp/stargazers) | 데이터베이스 / 데이터/표 | MCP Server | 차트/대시보드 / 렌더링된 차트 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 외부 검색/데이터 / 렌더링/내보내기 |
+
 ### 일반 텍스트, 아이디어 및 화이트보드 시각화
 
 Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
@@ -453,6 +458,10 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [metro-map-tool](https://github.com/ERP-LAB-5/metro-map-tool) [![Star](https://img.shields.io/github/stars/ERP-LAB-5/metro-map-tool?style=flat&logo=github&label=Star)](https://github.com/ERP-LAB-5/metro-map-tool/stargazers) | Text/ideas / Data/tables / DSL/code | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Browser/account / Rendering/export |
 | [Squinch](https://github.com/jquatier/squinch) [![Star](https://img.shields.io/github/stars/jquatier/squinch?style=flat&logo=github&label=Star)](https://github.com/jquatier/squinch/stargazers) | Code/technical text / Codebase / Text/ideas | API/SDK/library / Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Diagram Design](https://github.com/cathrynlavery/diagram-design) [![Star](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat&logo=github&label=Star)](https://github.com/cathrynlavery/diagram-design/stargazers) | Text/ideas / Code/technical text / Data/tables / DSL/code | Agent skill | Architecture/flow diagram / Diagram/Mermaid / Chart/dashboard / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+
+| [Archify](https://github.com/tt-a1i/archify) [![Star](https://img.shields.io/github/stars/tt-a1i/archify?style=flat&logo=github&label=Star)](https://github.com/tt-a1i/archify/stargazers) | 텍스트/아이디어 / 코드/기술 설명 / DSL/코드 | Agent Skill | 아키텍처/흐름도 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
+| [HTML Anything](https://github.com/nexu-io/html-anything) [![Star](https://img.shields.io/github/stars/nexu-io/html-anything?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-anything/stargazers) | 텍스트/아이디어 / 데이터/표 / 웹/검색 / 임의/다중 소스 | 오픈소스 앱/프레임워크 / Skill 컬렉션 | 웹/인터랙티브 페이지 / PPT/덱 / 인포그래픽/시각 보고서 / 비디오/오디오 | 로컬 런타임 / Agent 호스트 / 렌더링/내보내기 / 템플릿/자산 |
+| [Effective HTML](https://github.com/plannotator/effective-html) [![Star](https://img.shields.io/github/stars/plannotator/effective-html?style=flat&logo=github&label=Star)](https://github.com/plannotator/effective-html/stargazers) | 텍스트/아이디어 / 코드/기술 설명 / 데이터/표 | Skill 컬렉션 / Agent Skill | 웹/인터랙티브 페이지 / 긴 보고서 / 아키텍처/흐름도 / 표/타임라인 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 
 ### 프로그래매틱 비디오와 모션 설명
 
@@ -868,6 +877,9 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) [![Star](https://img.shields.io/github/stars/op7418/Generative-UI-MCP?style=flat&logo=github&label=Star)](https://github.com/op7418/Generative-UI-MCP/stargazers) | Text/ideas / Data/tables / DSL/code | MCP server | Web/interactive page / Chart/dashboard / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [EditItAll MCP](https://github.com/Subcue/edititall-mcp) [![Star](https://img.shields.io/github/stars/Subcue/edititall-mcp?style=flat&logo=github&label=Star)](https://github.com/Subcue/edititall-mcp/stargazers) | PDF/문서 / Office 문서 / 데이터/표 / 텍스트/아이디어 | MCP Server / 제품/SaaS | PPT/발표자료 / 장문 보고서 / SVG/PNG/PDF / 차트/대시보드 | MCP 클라이언트 / 브라우저/계정 / 로컬 런타임 / 렌더링/내보내기 |
 | [Diagrammo MCP](https://github.com/diagrammo/dgmo-mcp) [![Star](https://img.shields.io/github/stars/diagrammo/dgmo-mcp?style=flat&logo=github&label=Star)](https://github.com/diagrammo/dgmo-mcp/stargazers) | Text/ideas / DSL/code | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Browser/account / Rendering/export / System tools |
+| [Scientific Figure Library](https://github.com/xuzhougeng/ScientificFigureLibrary) [![Star](https://img.shields.io/github/stars/xuzhougeng/ScientificFigureLibrary?style=flat&logo=github&label=Star)](https://github.com/xuzhougeng/ScientificFigureLibrary/stargazers) | 논문/연구 자료 / 데이터/표 / 지식 베이스 | MCP Server / Agent Skill | 그래픽 초록/인포그래픽 / 렌더링된 차트 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 저장/인덱스 / 렌더링/내보내기 / 템플릿/자산 |
+| [plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) [![Star](https://img.shields.io/github/stars/lingion/plot-mcp-worker?style=flat&logo=github&label=Star)](https://github.com/lingion/plot-mcp-worker/stargazers) | 데이터/표 / DSL/코드 / 텍스트/아이디어 | MCP Server | 렌더링된 차트 / SVG/PNG/PDF / 그래픽 초록/인포그래픽 | MCP 클라이언트 / 외부 검색/데이터 / 렌더링/내보내기 |
+
 ## 도구 선택 방법
 | [html-to-editable-pptx](https://github.com/Hasasasa/html-to-editable-pptx) [![Star](https://img.shields.io/github/stars/Hasasasa/html-to-editable-pptx?style=flat&logo=github&label=Star)](https://github.com/Hasasasa/html-to-editable-pptx/stargazers) | Web/search / DSL/code / Text/ideas | Agent skill / API/SDK/library | PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 

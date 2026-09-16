@@ -595,6 +595,19 @@ Update on 2026-09-14: refreshed source-backed agent dashboard, README visualizat
 - [Mermaid Project Diagram MCP](https://github.com/GittyBurstein/mermaid-mcp-server): MCP server for reading local or GitHub repositories, generating Mermaid project diagrams, rendering via Kroki, and saving PNG outputs.
 - [Mermaid MCP Server by zhouhui](https://github.com/wwwzhouhui/mermaid_mcp_server): Python MCP server for Mermaid-to-PNG/JPG/SVG/PDF conversion with validation, themes, built-in examples, and stdio/SSE transports.
 
+## Added in the 2026-09-17 Daily Refresh
+
+Update on 2026-09-17: refreshed source-backed agent diagram, HTML artifact, scientific figure, database-chart, dependency-map, and serverless rendering utilities from official GitHub repositories, project pages, README evidence, and current GitHub metadata. This pass added Archify, HTML Anything, Effective HTML, Scientific Figure Library, MCP Vega, OraViz MCP, Mellos Mapping, and plot-mcp-worker. The targeted scraper ran only against these eight records; the npm homepage for Mellos Mapping returned HTTP 403, so the research cache keeps official GitHub README/docs evidence for that record.
+
+- [Archify](https://github.com/tt-a1i/archify): agent skill and deterministic renderer for typed JSON IR to self-contained HTML/SVG architecture, workflow, sequence, data-flow, and lifecycle diagrams with PNG/SVG/WebM export.
+- [HTML Anything](https://github.com/nexu-io/html-anything): local-first agentic HTML editor with 75 skill templates for magazine articles, decks, posters, data reports, prototypes, cards, and Hyperframes video/storyboards.
+- [Effective HTML](https://github.com/plannotator/effective-html): focused agent skill collection for useful self-contained HTML artifacts, including reports, presentations, wireframes, prototypes, implementation plans, timelines, and diagrams.
+- [Scientific Figure Library](https://github.com/xuzhougeng/ScientificFigureLibrary): local-first MCP server and MCP App for importing, reviewing, publishing, searching, previewing, and materializing exact scientific figure templates.
+- [MCP Vega](https://github.com/andreipirone/mcp-vega): read-only PostgreSQL MCP server that inspects schemas, runs bounded SELECT queries, and returns Vega-Lite specs for common analytical charts.
+- [OraViz MCP](https://github.com/jasperan/oraviz-mcp): visualization-first Oracle AI Database MCP server that profiles tables and renders read-only SQL result sets into PNG bar, line, area, scatter, pie, histogram, and vector charts.
+- [Mellos Mapping](https://github.com/GuangminJu/mellos-mapping): MCP server and terminal pane for live layered dependency maps that agents declare, update, and light up while implementation layers are built and verified.
+- [plot-mcp-worker](https://github.com/lingion/plot-mcp-worker): Cloudflare Worker MCP chart renderer for PNG/SVG function plots, data charts, subplot grids, STEM diagrams, circuits, 3D geometry, and Venn diagrams from JSON calls.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.

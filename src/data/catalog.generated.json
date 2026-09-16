@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-15T23:07:12+00:00",
-  "lastResearched": "2026-09-16",
+  "generatedAt": "2026-09-16T23:03:59+00:00",
+  "lastResearched": "2026-09-17",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 779,
-    "openSource": 197,
+    "total": 787,
+    "openSource": 198,
     "saas": 73,
     "modelApi": 249,
-    "examples": 1593,
-    "effectAssets": 2068,
-    "docs": 1860
+    "examples": 1632,
+    "effectAssets": 2119,
+    "docs": 1886
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 79,
+      "论文/科研资料": 80,
       "PDF/文档": 232,
-      "文本/想法": 494,
-      "数据/表格": 320,
-      "代码/技术描述": 156,
-      "任意/多源": 127,
-      "网页/搜索结果": 192,
-      "代码库": 93,
-      "DSL/代码": 155,
+      "文本/想法": 499,
+      "数据/表格": 326,
+      "代码/技术描述": 159,
+      "任意/多源": 128,
+      "网页/搜索结果": 193,
+      "代码库": 94,
+      "DSL/代码": 157,
       "新闻/资讯": 29,
-      "知识库/个人资料": 78,
+      "知识库/个人资料": 79,
       "Office 文档": 147,
       "引用网络": 5,
-      "数据库": 74,
+      "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 197,
-      "Agent Skill": 294,
-      "Skill 集合": 77,
-      "MCP Server": 261,
+      "开源应用/框架": 198,
+      "Agent Skill": 298,
+      "Skill 集合": 79,
+      "MCP Server": 266,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 26,
@@ -42,56 +42,56 @@
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 62,
-      "PPT/演示文稿": 331,
-      "网页/交互页面": 273,
+      "图形摘要/信息图": 64,
+      "PPT/演示文稿": 332,
+      "网页/交互页面": 276,
       "问答/学习材料": 18,
-      "报告/长文档": 112,
+      "报告/长文档": 113,
       "证据表": 66,
-      "信息图/视觉报告": 107,
-      "图表/仪表盘": 249,
-      "架构图/流程图": 165,
-      "SVG/PNG/PDF": 327,
+      "信息图/视觉报告": 108,
+      "图表/仪表盘": 251,
+      "架构图/流程图": 168,
+      "SVG/PNG/PDF": 331,
       "报告/简报": 94,
       "白板/思维导图": 44,
       "图表/Mermaid": 78,
-      "视频/音频": 59,
-      "结构化数据/Markdown": 121,
-      "表格/时间线": 33,
+      "视频/音频": 60,
+      "结构化数据/Markdown": 122,
+      "表格/时间线": 35,
       "引用答案": 7,
       "思维导图/知识地图": 47,
       "文献地图/知识地图": 5,
       "工具索引": 29,
-      "代码地图/Repo Wiki": 51,
-      "图表/渲染输出": 26
+      "代码地图/Repo Wiki": 52,
+      "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 658,
+      "本地语言环境": 665,
       "模型 API": 249,
       "文档解析/OCR": 113,
-      "渲染/导出": 681,
+      "渲染/导出": 689,
       "GPU/加速器": 21,
-      "模板/素材": 374,
-      "Agent 宿主": 381,
+      "模板/素材": 378,
+      "Agent 宿主": 385,
       "系统工具": 174,
       "浏览器/账号": 182,
-      "存储/索引": 121,
-      "MCP Client": 273,
-      "外部检索/数据源": 162,
-      "代码分析工具": 58
+      "存储/索引": 122,
+      "MCP Client": 278,
+      "外部检索/数据源": 165,
+      "代码分析工具": 59
     },
     "categories": {
-      "paper-visualization": 25,
+      "paper-visualization": 26,
       "doc-to-knowledge": 67,
       "research-report": 34,
-      "infographic-report": 70,
-      "data-dashboard": 129,
-      "diagram-generation": 86,
+      "infographic-report": 72,
+      "data-dashboard": 131,
+      "diagram-generation": 87,
       "literature-map": 5,
       "presentation-tools": 231,
-      "rendering-primitive": 25,
+      "rendering-primitive": 26,
       "video-generation": 18,
-      "codebase-map": 50,
+      "codebase-map": 51,
       "commercial-site": 10,
       "meta-index": 29
     },
@@ -103,15 +103,16 @@
       "docs": 38,
       "support_doc_parse": 24,
       "presentation": 239,
-      "data": 122,
+      "data": 124,
       "video": 18,
-      "code": 56,
-      "support_render": 67,
+      "code": 57,
+      "support_render": 69,
       "diagrams": 20,
       "indexes": 28,
       "diagram": 3,
       "index": 1,
-      "knowledge": 2
+      "knowledge": 2,
+      "text": 3
     }
   },
   "entries": [
@@ -63455,6 +63456,1043 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "Archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "primaryUrl": "https://github.com/tt-a1i/archify",
+      "homepage": "https://tt-a1i.github.io/archify/",
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 64785,
+      "license": "MIT",
+      "updated": "2026-09-16",
+      "note": "Agent skill and deterministic renderer that turns typed JSON IR into self-contained HTML/SVG architecture, workflow, sequence, data-flow, and lifecycle diagrams with PNG/SVG/WebM export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Scenario guide",
+          "url": "https://tt-a1i.github.io/archify/guide.html",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "typed source",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/docs/cases/mco-runtime.architecture.json",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Agent cookbook",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/docs/authoring-cookbook.md",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "contribution guide",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Proof Lab",
+          "url": "https://tt-a1i.github.io/archify/gallery.html",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "Open it ↗",
+          "url": "https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark&present=1",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "trace reach ↗",
+          "url": "https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/web-app.html`",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/examples/web-app.html",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`Archify pipeline`",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/examples/archify-repo.html",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`grid placement`",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/examples/archify-repo-grid.html",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`desktop agent`",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/examples/maka-architecture.html",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://github.com/tt-a1i/archify/blob/HEAD/archify/examples/",
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Open artifact ↗",
+          "url": "https://tt-a1i.github.io/archify/gallery/artifacts/agent-tool-call.workflow.html?present=1&amp;play=1",
+          "source": "https://tt-a1i.github.io/archify/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Archify product preview",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-readme-hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Agent workflow playing one authored chapter",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-demo-story.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Cache-miss sequence showing the Web App to Postgres route",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-demo-route.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Production architecture comparing backend and database roles",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-demo-lens.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Workflow example",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sequence example",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-sequence.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Data Flow example",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-dataflow.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Lifecycle example",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-lifecycle.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Archify — Technical Diagrams from Plain English",
+          "url": "https://tt-a1i.github.io/archify/assets/archify-social-preview.png",
+          "thumbnailUrl": null,
+          "source": "https://tt-a1i.github.io/archify/"
+        },
+        {
+          "kind": "image",
+          "title": "Workflow diagram",
+          "url": "https://tt-a1i.github.io/archify/assets/archify-workflow.png",
+          "thumbnailUrl": null,
+          "source": "https://tt-a1i.github.io/archify/"
+        },
+        {
+          "kind": "gif",
+          "title": "Three verified Archify artifacts moving through Signal Flow, Blueprint, and Classic presets",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-live-proof.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "MCO runtime architecture generated from the public mco-org/mco repository",
+          "url": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/mco-runtime-share-card.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 9,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "HTML Anything",
+      "url": "https://github.com/nexu-io/html-anything",
+      "primaryUrl": "https://github.com/nexu-io/html-anything",
+      "homepage": "https://open-design.ai/html-anything/",
+      "category": "infographic-report",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "Agent 宿主",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 8867,
+      "license": "Apache-2.0",
+      "updated": "2026-09-16",
+      "note": "Local-first agentic HTML editor with 75 skill templates across magazine articles, decks, posters, data reports, prototypes, cards, and Hyperframes video/storyboard surfaces.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "PPT/演示文稿",
+        "信息图/视觉报告",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`SKILL.md`",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/skills",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`next/src/lib/templates/skills/`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`prototype-web`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/prototype-web/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`saas-landing`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/saas-landing/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`waitlist-page`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/waitlist-page/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`pricing-page`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/pricing-page/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`dashboard`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/dashboard/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`docs-page`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/docs-page/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`blog-post`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/blog-post/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`mobile-app`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/mobile-app/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`mobile-onboarding`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/mobile-onboarding/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`gamified-app`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/gamified-app/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`dating-web`",
+          "url": "https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/dating-web/",
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "deck-guizang-editorial",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/deck-guizang-editorial.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "deck-swiss-international",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/deck-swiss-international.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "doc-kami-parchment",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/doc-kami-parchment.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "magazine-poster",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/magazine-poster.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "video-hyperframes",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/video-hyperframes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "frame-glitch-title",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/frame-glitch-title.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "vfx-text-cursor",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/vfx-text-cursor.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "01 · Entry view",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/01-entry-view.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "02 · 75 skills, searchable and filterable",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/02-template-picker.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "03 · Live SSE streaming",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/03-streaming.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "04 · One-click export",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/04-export.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "05 · Deck mode",
+          "url": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/05-deck-mode.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 20,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Effective HTML",
+      "url": "https://github.com/plannotator/effective-html",
+      "primaryUrl": "https://github.com/plannotator/effective-html",
+      "homepage": "https://www.effectivehtml.com/",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3195,
+      "license": "MIT",
+      "updated": "2026-09-16",
+      "note": "Agent skill collection for self-contained HTML artifacts, including reports, explainers, presentations, low-fidelity wireframes, working prototypes, plans, roadmaps, timelines, and diagrams.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "报告/长文档",
+        "架构图/流程图",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Effective HTML guide",
+          "url": "https://www.effectivehtml.com/",
+          "source": "https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Guide",
+          "url": "https://www.effectivehtml.com/docs",
+          "source": "https://www.effectivehtml.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Wireframes Test hierarchy, content, navigation, and responsive structure.",
+          "url": "https://www.effectivehtml.com/docs/wireframes",
+          "source": "https://www.effectivehtml.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Prototypes Test a credible flow, its behavior, and its relevant states.",
+          "url": "https://www.effectivehtml.com/docs/prototypes",
+          "source": "https://www.effectivehtml.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Diagrams Make relationships and system behavior easier to inspect.",
+          "url": "https://www.effectivehtml.com/docs/diagrams",
+          "source": "https://www.effectivehtml.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Plans Keep implementation sequences legible and source-grounded.",
+          "url": "https://www.effectivehtml.com/docs/plans",
+          "source": "https://www.effectivehtml.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Why HTML?",
+          "url": "https://www.effectivehtml.com/docs/why-html",
+          "source": "https://www.effectivehtml.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://www.effectivehtml.com/examples",
+          "source": "https://www.effectivehtml.com/"
+        },
+        {
+          "kind": "showcase",
+          "title": "Original HTML gallery",
+          "url": "https://thariqs.github.io/html-effectiveness/",
+          "source": "https://www.effectivehtml.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Effective HTML by Plannotator — HTML wireframes, mockups, prototypes, charts, and diagrams",
+          "url": "https://raw.githubusercontent.com/plannotator/effective-html/HEAD/assets/effective-html-banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Effective HTML",
+          "url": "https://effectivehtml.com/brand/effective-html-banner.png",
+          "thumbnailUrl": null,
+          "source": "https://www.effectivehtml.com/"
+        }
+      ],
+      "docsCount": 7,
+      "examplesCount": 2,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Scientific Figure Library",
+      "url": "https://github.com/xuzhougeng/ScientificFigureLibrary",
+      "primaryUrl": "https://github.com/xuzhougeng/ScientificFigureLibrary",
+      "homepage": "https://xuzhougeng.github.io/ScientificFigureLibrary/",
+      "category": "paper-visualization",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 77,
+      "license": "MIT",
+      "updated": "2026-09-16",
+      "note": "Local-first MCP server and MCP App for importing, reviewing, publishing, searching, previewing, and materializing exact scientific figure templates across Claude Science, Wisp Science, Codex, and Cursor.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Quickstart",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/QUICKSTART.md",
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "User Guide (online)",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/USER_GUIDE.md",
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Protocol",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/PROTOCOL.md",
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "installation and preview limitations",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/INSTALL_LOCAL.md",
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "basic CI",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/CI.md",
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "AI comment bot",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/COMMENT_BOT.md",
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "查看协议文档",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/PROTOCOL.md",
+          "source": "http://sfl.bio/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "图库",
+          "url": "https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html",
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "showcase",
+          "title": "通路 NES 热图",
+          "url": "https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=cancercell-pathway-nes-heatmap",
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "showcase",
+          "title": "环形 UMAP",
+          "url": "https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=umap-style-plot1cell-circlize",
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "showcase",
+          "title": "系统发育环形树",
+          "url": "https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=ggtree-ch13-ctldcp-circular",
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "tutorial",
+          "title": "阅读完整安装指南",
+          "url": "https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/QUICKSTART.md",
+          "source": "http://sfl.bio/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Scientific Figure Library MCP App: browse locally published scientific figure templates, then confirm one exact Release before materializing it.",
+          "url": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/docs/assets/sfl-gallery.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "科学图库预览：热图、火山图、生存曲线、t-SNE、Oncoplot 和 Circos 模板",
+          "url": "http://sfl.bio/assets/sfl-gallery.png",
+          "thumbnailUrl": null,
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "image",
+          "title": "Cancercell Pathway Nes Heatmap",
+          "url": "http://sfl.bio/assets/figure-gallery/cancercell-pathway-nes-heatmap.jpg",
+          "thumbnailUrl": null,
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "image",
+          "title": "Umap Style Plot1Cell Circlize",
+          "url": "http://sfl.bio/assets/figure-gallery/umap-style-plot1cell-circlize.jpg",
+          "thumbnailUrl": null,
+          "source": "http://sfl.bio/"
+        },
+        {
+          "kind": "image",
+          "title": "Ggtree Ch13 Ctldcp Circular",
+          "url": "http://sfl.bio/assets/figure-gallery/ggtree-ch13-ctldcp-circular.jpg",
+          "thumbnailUrl": null,
+          "source": "http://sfl.bio/"
+        }
+      ],
+      "docsCount": 7,
+      "examplesCount": 5,
+      "effectAssetsCount": 5
+    },
+    {
+      "name": "MCP Vega",
+      "url": "https://github.com/andreipirone/mcp-vega",
+      "primaryUrl": "https://github.com/andreipirone/mcp-vega",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 3,
+      "license": "Apache-2.0",
+      "updated": "2026-09-16",
+      "note": "Read-only Spring AI MCP server that inspects PostgreSQL schemas, executes bounded SELECT queries, and returns Vega-Lite chart specifications for bar, line, pie, area, histogram, and scatterplot visualizations.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Vertical bar chart of total sales revenue by month",
+          "url": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img1.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Pie chart of order status distribution",
+          "url": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img2.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Line chart of daily orders over the last 3 months",
+          "url": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img3.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Scatter plot of property surface area vs. sale price",
+          "url": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img4.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 4
+    },
+    {
+      "name": "OraViz MCP",
+      "url": "https://github.com/jasperan/oraviz-mcp",
+      "primaryUrl": "https://github.com/jasperan/oraviz-mcp",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-16",
+      "note": "Visualization-first Oracle AI Database MCP server that profiles tables and turns SQL result sets into PNG bar, line, area, scatter, pie, histogram, and vector charts with bounded read-only queries.",
+      "sourceTypes": [
+        "数据库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "图表/渲染输出",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/testing.md`",
+          "url": "https://github.com/jasperan/oraviz-mcp/blob/HEAD/docs/testing.md",
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "`.env.template`",
+          "url": "https://github.com/jasperan/oraviz-mcp/blob/HEAD/.env.template",
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`benchmarks/`",
+          "url": "https://github.com/jasperan/oraviz-mcp/blob/HEAD/benchmarks/",
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "`paper/paper.pdf`",
+          "url": "https://github.com/jasperan/oraviz-mcp/blob/HEAD/paper/paper.pdf",
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Revenue by region bar chart",
+          "url": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/docs/images/example-bar.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Online revenue by month area chart",
+          "url": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/docs/images/example-line.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Product embeddings projected to two dimensions with PCA",
+          "url": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/docs/images/example-vector.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 3,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Mellos Mapping",
+      "url": "https://github.com/GuangminJu/mellos-mapping",
+      "primaryUrl": "https://github.com/GuangminJu/mellos-mapping",
+      "homepage": "https://www.npmjs.com/package/mellos-mapping",
+      "category": "codebase-map",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "代码分析工具",
+        "渲染/导出"
+      ],
+      "stars": 54,
+      "license": "MIT",
+      "updated": "2026-09-16",
+      "note": "MCP server and terminal pane for live layered dependency maps, letting coding agents declare ghost designs and light nodes up as bottom-up implementation layers are built and verified.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "表格/时间线"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "release and branch instructions",
+          "url": "https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/releasing.md",
+          "source": "https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "desktop installation and limitations",
+          "url": "https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/codex.md",
+          "source": "https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "persistent-map API guide",
+          "url": "https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/map-api.md",
+          "source": "https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "project structure, branch and recovery guide",
+          "url": "https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/project-maintenance.md",
+          "source": "https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "A Claude Code session with the Mellos map pane beside it: a six-layer game engine design, L0 and L1 nodes solid green, the upper layers still dashed ghost nodes",
+          "url": "https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/docs/session-claude-code.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "plot-mcp-worker",
+      "url": "https://github.com/lingion/plot-mcp-worker",
+      "primaryUrl": "https://github.com/lingion/plot-mcp-worker",
+      "homepage": "https://blog.qdp.qzz.io/plot-mcp-serverless-charts",
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 8,
+      "license": "unknown",
+      "updated": "2026-09-16",
+      "note": "Cloudflare Worker MCP chart renderer that lets agents create PNG/SVG function plots, data charts, subplot grids, STEM diagrams, physics force diagrams, circuits, 3D geometry, and Venn diagrams from JSON calls.",
+      "sourceTypes": [
+        "数据/表格",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/渲染输出",
+        "SVG/PNG/PDF",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Operation Guide",
+          "url": "https://blog.qdp.qzz.io/docs/plot-mcp/overview",
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "[DOCS]",
+          "url": "https://blog.qdp.qzz.io/docs/",
+          "source": "https://blog.qdp.qzz.io/plot-mcp-serverless-charts"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Trigonometric Composition",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/01_trig_composition.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Fourier Approximation",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/02_fourier_approx.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "tan(x) Discontinuity",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/03_tan_discontinuity.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "sinc Function",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/04_sinc_function.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Rational Asymptotes",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/05_rational_asymptotes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Damped Oscillation",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/06_damped_oscillation.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Rectified Product",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/07_absolute_value.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gaussian Mixture",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/08_gaussian_mixture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Annotated Peaks",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/09_annotated_peaks.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Business Error Bars",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/10_business_error_bars.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Grouped Bars",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/11_grouped_bars.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Stacked Bars",
+          "url": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/12_stacked_bars.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
     }
   ]
 }

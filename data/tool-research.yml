@@ -1,4 +1,4 @@
-generated_at: '2026-09-15T23:07:12+00:00'
+generated_at: '2026-09-16T23:03:59+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 779
-  fetched_sources_ok: 1041
-  fetched_sources_failed: 53
-  official_examples: 1593
-  official_effect_assets: 2068
-  official_docs: 1860
+  entries: 787
+  fetched_sources_ok: 1054
+  fetched_sources_failed: 54
+  official_examples: 1632
+  official_effect_assets: 2119
+  official_docs: 1886
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -60073,3 +60073,1058 @@ entries:
     title: selftest
     url: https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/docs/selftest-compare.png
     source: https://raw.githubusercontent.com/TianLin0509/img2ppt-lite/HEAD/README.md
+- name: Archify
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/tt-a1i/archify
+  homepage: https://tt-a1i.github.io/archify/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill and deterministic renderer that turns typed JSON IR into self-contained HTML/SVG architecture,
+    workflow, sequence, data-flow, and lifecycle diagrams with PNG/SVG/WebM export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Archify
+    bytes: 19044
+  - kind: homepage
+    url: https://tt-a1i.github.io/archify/
+    final_url: https://tt-a1i.github.io/archify/
+    status: 200
+    content_type: text/html
+    title: Archify — Technical Diagrams from Plain English
+    description: An agent skill for Cursor, Claude Code, Codex CLI, and OpenCode that turns plain-English descriptions into
+      polished, explorable, self-contained technical diagrams with semantic foc
+    bytes: 83713
+  official_examples:
+  - kind: showcase
+    title: Proof Lab
+    url: https://tt-a1i.github.io/archify/gallery.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: template
+    title: Open it ↗
+    url: https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark&present=1
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: template
+    title: trace reach ↗
+    url: https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`examples/web-app.html`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/web-app.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`Archify pipeline`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/archify-repo.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`grid placement`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/archify-repo-grid.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`desktop agent`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/maka-architecture.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://github.com/tt-a1i/archify/blob/HEAD/archify/examples/
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: showcase
+    title: Open artifact ↗
+    url: https://tt-a1i.github.io/archify/gallery/artifacts/agent-tool-call.workflow.html?present=1&amp;play=1
+    source: https://tt-a1i.github.io/archify/
+  official_docs:
+  - kind: docs
+    title: Scenario guide
+    url: https://tt-a1i.github.io/archify/guide.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: docs
+    title: typed source
+    url: https://github.com/tt-a1i/archify/blob/HEAD/docs/cases/mco-runtime.architecture.json
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: docs
+    title: Agent cookbook
+    url: https://github.com/tt-a1i/archify/blob/HEAD/docs/authoring-cookbook.md
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: docs
+    title: contribution guide
+    url: https://github.com/tt-a1i/archify/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Archify product preview
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-readme-hero.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Agent workflow playing one authored chapter
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-demo-story.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Cache-miss sequence showing the Web App to Postgres route
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-demo-route.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Production architecture comparing backend and database roles
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-demo-lens.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Workflow example
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-workflow.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Sequence example
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-sequence.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Data Flow example
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-dataflow.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Lifecycle example
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-lifecycle.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: Archify — Technical Diagrams from Plain English
+    url: https://tt-a1i.github.io/archify/assets/archify-social-preview.png
+    source: https://tt-a1i.github.io/archify/
+  - kind: image
+    title: Workflow diagram
+    url: https://tt-a1i.github.io/archify/assets/archify-workflow.png
+    source: https://tt-a1i.github.io/archify/
+  - kind: gif
+    title: Three verified Archify artifacts moving through Signal Flow, Blueprint, and Classic presets
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/archify-live-proof.gif
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: image
+    title: MCO runtime architecture generated from the public mco-org/mco repository
+    url: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/docs/assets/mco-runtime-share-card.png
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Scenario guide
+    url: https://tt-a1i.github.io/archify/guide.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: showcase
+    title: Proof Lab
+    url: https://tt-a1i.github.io/archify/gallery.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: template
+    title: Open it ↗
+    url: https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark&present=1
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: template
+    title: trace reach ↗
+    url: https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: docs
+    title: typed source
+    url: https://github.com/tt-a1i/archify/blob/HEAD/docs/cases/mco-runtime.architecture.json
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`examples/web-app.html`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/web-app.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`Archify pipeline`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/archify-repo.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`grid placement`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/archify-repo-grid.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: '`desktop agent`'
+    url: https://github.com/tt-a1i/archify/blob/HEAD/examples/maka-architecture.html
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: example
+    title: Examples
+    url: https://github.com/tt-a1i/archify/blob/HEAD/archify/examples/
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: docs
+    title: Agent cookbook
+    url: https://github.com/tt-a1i/archify/blob/HEAD/docs/authoring-cookbook.md
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: docs
+    title: contribution guide
+    url: https://github.com/tt-a1i/archify/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/tt-a1i/archify/HEAD/README.md
+  - kind: showcase
+    title: Open artifact ↗
+    url: https://tt-a1i.github.io/archify/gallery/artifacts/agent-tool-call.workflow.html?present=1&amp;play=1
+    source: https://tt-a1i.github.io/archify/
+  source_headings:
+  - Choose the right diagram
+- name: HTML Anything
+  category: infographic-report
+  surface: open-source
+  primary_url: https://github.com/nexu-io/html-anything
+  homepage: https://open-design.ai/html-anything/
+  dependencies:
+  - 本地语言环境
+  - Agent 宿主
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first agentic HTML editor with 75 skill templates across magazine articles, decks, posters, data reports,
+    prototypes, cards, and Hyperframes video/storyboard surfaces.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: HTML Anything
+    bytes: 48042
+  - kind: homepage
+    url: https://open-design.ai/html-anything/
+    final_url: https://open-design.ai/html-anything/
+    status: 200
+    content_type: text/html
+    title: Open Source HTML Anything Official
+    description: HTML Anything is the agentic HTML editor from the OpenDesign family. Reuse the coding-agent CLI you already
+      authenticated — Claude Code, Codex, Cursor…
+    bytes: 389959
+  official_examples:
+  - kind: template
+    title: '`next/src/lib/templates/skills/`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`prototype-web`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/prototype-web/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`saas-landing`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/saas-landing/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`waitlist-page`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/waitlist-page/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`pricing-page`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/pricing-page/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`dashboard`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/dashboard/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`docs-page`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/docs-page/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`blog-post`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/blog-post/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`mobile-app`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/mobile-app/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`mobile-onboarding`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/mobile-onboarding/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`gamified-app`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/gamified-app/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`dating-web`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/dating-web/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`magazine-poster`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/magazine-poster/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`poster-hero`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/poster-hero/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`web-proto-editorial`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/web-proto-editorial/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`web-proto-brutalist`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/web-proto-brutalist/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`web-proto-soft`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/web-proto-soft/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`article-magazine`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/article-magazine/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`digital-eguide`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/digital-eguide/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`resume-modern`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/resume-modern/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`SKILL.md`'
+    url: https://docs.anthropic.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: deck-guizang-editorial
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/deck-guizang-editorial.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: deck-swiss-international
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/deck-swiss-international.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: doc-kami-parchment
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/doc-kami-parchment.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: magazine-poster
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/magazine-poster.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: video-hyperframes
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/video-hyperframes.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: frame-glitch-title
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/frame-glitch-title.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: vfx-text-cursor
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/skills/vfx-text-cursor.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: 01 · Entry view
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/01-entry-view.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: 02 · 75 skills, searchable and filterable
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/02-template-picker.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: 03 · Live SSE streaming
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/03-streaming.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: 04 · One-click export
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/04-export.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: image
+    title: 05 · Deck mode
+    url: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/docs/screenshots/05-deck-mode.png
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`next/src/lib/templates/skills/`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: docs
+    title: '`SKILL.md`'
+    url: https://docs.anthropic.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`prototype-web`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/prototype-web/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`saas-landing`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/saas-landing/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`waitlist-page`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/waitlist-page/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`pricing-page`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/pricing-page/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`dashboard`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/dashboard/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`docs-page`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/docs-page/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`blog-post`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/blog-post/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`mobile-app`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/mobile-app/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`mobile-onboarding`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/mobile-onboarding/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`gamified-app`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/gamified-app/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`dating-web`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/dating-web/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`magazine-poster`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/magazine-poster/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`poster-hero`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/poster-hero/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`web-proto-editorial`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/web-proto-editorial/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`web-proto-brutalist`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/web-proto-brutalist/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`web-proto-soft`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/web-proto-soft/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`article-magazine`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/article-magazine/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`digital-eguide`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/digital-eguide/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`resume-modern`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/resume-modern/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`email-marketing`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/email-marketing/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`wireframe-sketch`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/wireframe-sketch/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-swiss-international`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-swiss-international/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-guizang-editorial`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-guizang-editorial/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-open-slide-canvas`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-open-slide-canvas/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-magazine-web`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-magazine-web/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-hermes-cyber`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-hermes-cyber/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-replit`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-replit/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-xhs-pastel`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-xhs-pastel/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-xhs-white`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-xhs-white/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-xhs-post`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-xhs-post/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-tech-sharing`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-tech-sharing/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-product-launch`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-product-launch/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-pitch`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-pitch/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-blueprint`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-blueprint/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-presenter-mode`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-presenter-mode/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-course-module`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-course-module/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-dir-key-nav`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-dir-key-nav/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  - kind: template
+    title: '`deck-graphify-dark`'
+    url: https://github.com/nexu-io/html-anything/blob/HEAD/next/src/lib/templates/skills/deck-graphify-dark/
+    source: https://raw.githubusercontent.com/nexu-io/html-anything/HEAD/README.md
+  source_headings:
+  - Showcase
+  - Demo
+  - Quickstart
+  - Hyperframes video frames & VFX & device mockups (frame / vfx / mockup, 12 skills)
+- name: Effective HTML
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/plannotator/effective-html
+  homepage: https://www.effectivehtml.com/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill collection for self-contained HTML artifacts, including reports, explainers, presentations, low-fidelity
+    wireframes, working prototypes, plans, roadmaps, timelines, and diagrams.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Effective HTML
+    bytes: 4489
+  - kind: homepage
+    url: https://www.effectivehtml.com/
+    final_url: https://www.effectivehtml.com/
+    status: 200
+    content_type: text/html
+    title: Effective HTML
+    description: A visual field guide for using HTML effectively with coding agents.
+    bytes: 42330
+  official_examples:
+  - kind: example
+    title: Examples
+    url: https://www.effectivehtml.com/examples
+    source: https://www.effectivehtml.com/
+  - kind: showcase
+    title: Original HTML gallery
+    url: https://thariqs.github.io/html-effectiveness/
+    source: https://www.effectivehtml.com/
+  official_docs:
+  - kind: docs
+    title: Effective HTML guide
+    url: https://www.effectivehtml.com/
+    source: https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md
+  - kind: docs
+    title: Guide
+    url: https://www.effectivehtml.com/docs
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Wireframes Test hierarchy, content, navigation, and responsive structure.
+    url: https://www.effectivehtml.com/docs/wireframes
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Prototypes Test a credible flow, its behavior, and its relevant states.
+    url: https://www.effectivehtml.com/docs/prototypes
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Diagrams Make relationships and system behavior easier to inspect.
+    url: https://www.effectivehtml.com/docs/diagrams
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Plans Keep implementation sequences legible and source-grounded.
+    url: https://www.effectivehtml.com/docs/plans
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Why HTML?
+    url: https://www.effectivehtml.com/docs/why-html
+    source: https://www.effectivehtml.com/
+  official_effect_assets:
+  - kind: image
+    title: Effective HTML by Plannotator — HTML wireframes, mockups, prototypes, charts, and diagrams
+    url: https://raw.githubusercontent.com/plannotator/effective-html/HEAD/assets/effective-html-banner.png
+    source: https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md
+  - kind: image
+    title: Effective HTML
+    url: https://effectivehtml.com/brand/effective-html-banner.png
+    source: https://www.effectivehtml.com/
+  official_links:
+  - kind: docs
+    title: Effective HTML guide
+    url: https://www.effectivehtml.com/
+    source: https://raw.githubusercontent.com/plannotator/effective-html/HEAD/README.md
+  - kind: docs
+    title: Guide
+    url: https://www.effectivehtml.com/docs
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Wireframes Test hierarchy, content, navigation, and responsive structure.
+    url: https://www.effectivehtml.com/docs/wireframes
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Prototypes Test a credible flow, its behavior, and its relevant states.
+    url: https://www.effectivehtml.com/docs/prototypes
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Diagrams Make relationships and system behavior easier to inspect.
+    url: https://www.effectivehtml.com/docs/diagrams
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Plans Keep implementation sequences legible and source-grounded.
+    url: https://www.effectivehtml.com/docs/plans
+    source: https://www.effectivehtml.com/
+  - kind: docs
+    title: Why HTML?
+    url: https://www.effectivehtml.com/docs/why-html
+    source: https://www.effectivehtml.com/
+  - kind: example
+    title: Examples
+    url: https://www.effectivehtml.com/examples
+    source: https://www.effectivehtml.com/
+  - kind: showcase
+    title: Original HTML gallery
+    url: https://thariqs.github.io/html-effectiveness/
+    source: https://www.effectivehtml.com/
+- name: Scientific Figure Library
+  category: paper-visualization
+  surface: mcp
+  primary_url: https://github.com/xuzhougeng/ScientificFigureLibrary
+  homepage: https://xuzhougeng.github.io/ScientificFigureLibrary/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first MCP server and MCP App for importing, reviewing, publishing, searching, previewing, and materializing
+    exact scientific figure templates across Claude Science, Wisp Science, Codex, and Cursor.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Scientific Figure Library
+    bytes: 10876
+  - kind: homepage
+    url: http://sfl.bio/
+    final_url: http://sfl.bio/
+    status: 200
+    content_type: text/html
+    title: Scientific Figure Library | 让好图成为下一次研究的起点
+    description: 把科学图、代码与方法保存在本机，在不同项目中复用。Scientific Figure Library 是开源、本机优先的 MCP 服务与交互式图库。
+    bytes: 17139
+  official_examples:
+  - kind: showcase
+    title: 图库
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html
+    source: http://sfl.bio/
+  - kind: showcase
+    title: 通路 NES 热图
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=cancercell-pathway-nes-heatmap
+    source: http://sfl.bio/
+  - kind: showcase
+    title: 环形 UMAP
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=umap-style-plot1cell-circlize
+    source: http://sfl.bio/
+  - kind: showcase
+    title: 系统发育环形树
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=ggtree-ch13-ctldcp-circular
+    source: http://sfl.bio/
+  - kind: tutorial
+    title: 阅读完整安装指南
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/QUICKSTART.md
+    source: http://sfl.bio/
+  official_docs:
+  - kind: docs
+    title: Quickstart
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/QUICKSTART.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: User Guide (online)
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/USER_GUIDE.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: Protocol
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/PROTOCOL.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: installation and preview limitations
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/INSTALL_LOCAL.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: basic CI
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/CI.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: AI comment bot
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/COMMENT_BOT.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: 查看协议文档
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/PROTOCOL.md
+    source: http://sfl.bio/
+  official_effect_assets:
+  - kind: image
+    title: 'Scientific Figure Library MCP App: browse locally published scientific figure templates, then confirm one exact
+      Release before materializing it.'
+    url: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/docs/assets/sfl-gallery.png
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: image
+    title: 科学图库预览：热图、火山图、生存曲线、t-SNE、Oncoplot 和 Circos 模板
+    url: http://sfl.bio/assets/sfl-gallery.png
+    source: http://sfl.bio/
+  - kind: image
+    title: Cancercell Pathway Nes Heatmap
+    url: http://sfl.bio/assets/figure-gallery/cancercell-pathway-nes-heatmap.jpg
+    source: http://sfl.bio/
+  - kind: image
+    title: Umap Style Plot1Cell Circlize
+    url: http://sfl.bio/assets/figure-gallery/umap-style-plot1cell-circlize.jpg
+    source: http://sfl.bio/
+  - kind: image
+    title: Ggtree Ch13 Ctldcp Circular
+    url: http://sfl.bio/assets/figure-gallery/ggtree-ch13-ctldcp-circular.jpg
+    source: http://sfl.bio/
+  official_links:
+  - kind: docs
+    title: Quickstart
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/QUICKSTART.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: User Guide (online)
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/USER_GUIDE.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: Protocol
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/PROTOCOL.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: installation and preview limitations
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/INSTALL_LOCAL.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: basic CI
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/CI.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: docs
+    title: AI comment bot
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/HEAD/docs/COMMENT_BOT.md
+    source: https://raw.githubusercontent.com/xuzhougeng/ScientificFigureLibrary/HEAD/README.md
+  - kind: showcase
+    title: 图库
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html
+    source: http://sfl.bio/
+  - kind: showcase
+    title: 通路 NES 热图
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=cancercell-pathway-nes-heatmap
+    source: http://sfl.bio/
+  - kind: showcase
+    title: 环形 UMAP
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=umap-style-plot1cell-circlize
+    source: http://sfl.bio/
+  - kind: showcase
+    title: 系统发育环形树
+    url: https://xuzhougeng.github.io/ScientificFigureLibrary/gallery.html?figure=ggtree-ch13-ctldcp-circular
+    source: http://sfl.bio/
+  - kind: tutorial
+    title: 阅读完整安装指南
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/QUICKSTART.md
+    source: http://sfl.bio/
+  - kind: docs
+    title: 查看协议文档
+    url: https://github.com/xuzhougeng/ScientificFigureLibrary/blob/main/docs/PROTOCOL.md
+    source: http://sfl.bio/
+- name: MCP Vega
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/andreipirone/mcp-vega
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Read-only Spring AI MCP server that inspects PostgreSQL schemas, executes bounded SELECT queries, and returns
+    Vega-Lite chart specifications for bar, line, pie, area, histogram, and scatterplot visualizations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MCP Vega
+    bytes: 13054
+  official_effect_assets:
+  - kind: image
+    title: Vertical bar chart of total sales revenue by month
+    url: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img1.png
+    source: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md
+  - kind: image
+    title: Pie chart of order status distribution
+    url: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img2.png
+    source: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md
+  - kind: image
+    title: Line chart of daily orders over the last 3 months
+    url: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img3.png
+    source: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md
+  - kind: image
+    title: Scatter plot of property surface area vs. sale price
+    url: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/docs/images/img4.png
+    source: https://raw.githubusercontent.com/andreipirone/mcp-vega/HEAD/README.md
+- name: OraViz MCP
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/jasperan/oraviz-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Visualization-first Oracle AI Database MCP server that profiles tables and turns SQL result sets into PNG
+    bar, line, area, scatter, pie, histogram, and vector charts with bounded read-only queries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Visualization at a Glance
+    bytes: 16048
+  official_examples:
+  - kind: template
+    title: '`.env.template`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/.env.template
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/benchmarks/
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: paper
+    title: '`paper/paper.pdf`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/paper/paper.pdf
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/testing.md`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/docs/testing.md
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Revenue by region bar chart
+    url: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/docs/images/example-bar.png
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: image
+    title: Online revenue by month area chart
+    url: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/docs/images/example-line.png
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: image
+    title: Product embeddings projected to two dimensions with PCA
+    url: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/docs/images/example-vector.png
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`.env.template`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/.env.template
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: docs
+    title: '`docs/testing.md`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/docs/testing.md
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: paper
+    title: '`benchmarks/`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/benchmarks/
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  - kind: paper
+    title: '`paper/paper.pdf`'
+    url: https://github.com/jasperan/oraviz-mcp/blob/HEAD/paper/paper.pdf
+    source: https://raw.githubusercontent.com/jasperan/oraviz-mcp/HEAD/README.md
+  source_headings:
+  - Visualization at a Glance
+  - 2. (Optional) Load the demo schema
+  - Benchmarks
+- name: Mellos Mapping
+  category: codebase-map
+  surface: mcp
+  primary_url: https://github.com/GuangminJu/mellos-mapping
+  homepage: https://www.npmjs.com/package/mellos-mapping
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  catalog_note: MCP server and terminal pane for live layered dependency maps, letting coding agents declare ghost designs
+    and light nodes up as bottom-up implementation layers are built and verified.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Mellos Mapping
+    bytes: 37806
+  - kind: homepage
+    url: https://www.npmjs.com/package/mellos-mapping
+    final_url: https://www.npmjs.com/package/mellos-mapping
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_docs:
+  - kind: docs
+    title: release and branch instructions
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  - kind: docs
+    title: desktop installation and limitations
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/codex.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  - kind: docs
+    title: persistent-map API guide
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/map-api.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  - kind: docs
+    title: project structure, branch and recovery guide
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/project-maintenance.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'A Claude Code session with the Mellos map pane beside it: a six-layer game engine design, L0 and L1 nodes solid
+      green, the upper layers still dashed ghost nodes'
+    url: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/docs/session-claude-code.png
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: release and branch instructions
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/releasing.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  - kind: docs
+    title: desktop installation and limitations
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/codex.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  - kind: docs
+    title: persistent-map API guide
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/map-api.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  - kind: docs
+    title: project structure, branch and recovery guide
+    url: https://github.com/GuangminJu/mellos-mapping/blob/HEAD/docs/project-maintenance.md
+    source: https://raw.githubusercontent.com/GuangminJu/mellos-mapping/HEAD/README.md
+  source_headings:
+  - Diagram kinds
+- name: plot-mcp-worker
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/lingion/plot-mcp-worker
+  homepage: https://blog.qdp.qzz.io/plot-mcp-serverless-charts
+  dependencies:
+  - MCP Client
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Cloudflare Worker MCP chart renderer that lets agents create PNG/SVG function plots, data charts, subplot
+    grids, STEM diagrams, physics force diagrams, circuits, 3D geometry, and Venn diagrams from JSON calls.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Quick Start
+    bytes: 25664
+  - kind: homepage
+    url: https://blog.qdp.qzz.io/plot-mcp-serverless-charts
+    final_url: https://blog.qdp.qzz.io/plot-mcp-serverless-charts
+    status: 200
+    content_type: text/html
+    title: 'plot-mcp-worker: A Serverless MCP Chart Engine on Cloudflare Workers — Lingion''s Blog'
+    description: 3,471-line TypeScript Worker, 40+ visualization tools, 1,520-line plotting engine with 5-transform data pipeline,
+      CJK text-to-path via opentype.js over ...
+    bytes: 32997
+  official_docs:
+  - kind: docs
+    title: Operation Guide
+    url: https://blog.qdp.qzz.io/docs/plot-mcp/overview
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: docs
+    title: '[DOCS]'
+    url: https://blog.qdp.qzz.io/docs/
+    source: https://blog.qdp.qzz.io/plot-mcp-serverless-charts
+  official_effect_assets:
+  - kind: image
+    title: Trigonometric Composition
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/01_trig_composition.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Fourier Approximation
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/02_fourier_approx.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: tan(x) Discontinuity
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/03_tan_discontinuity.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: sinc Function
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/04_sinc_function.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Rational Asymptotes
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/05_rational_asymptotes.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Damped Oscillation
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/06_damped_oscillation.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Rectified Product
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/07_absolute_value.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Gaussian Mixture
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/08_gaussian_mixture.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Annotated Peaks
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/09_annotated_peaks.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Business Error Bars
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/10_business_error_bars.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Grouped Bars
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/11_grouped_bars.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: image
+    title: Stacked Bars
+    url: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/docs/showcase/en/12_stacked_bars.png
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Operation Guide
+    url: https://blog.qdp.qzz.io/docs/plot-mcp/overview
+    source: https://raw.githubusercontent.com/lingion/plot-mcp-worker/HEAD/README.md
+  - kind: docs
+    title: '[DOCS]'
+    url: https://blog.qdp.qzz.io/docs/
+    source: https://blog.qdp.qzz.io/plot-mcp-serverless-charts
+  source_headings:
+  - Visual Design
+  - Showcase
+  - 20. Teaching Template — Definite Integral
+  - Documentation

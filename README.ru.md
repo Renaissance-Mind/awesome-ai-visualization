@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-779_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--16-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-787_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -15,18 +15,18 @@
 
 Некоторые названия проектов, официальные термины и краткие описания оставлены на английском для поиска и сопоставления с исходниками.
 
-## Latest Refresh (2026-09-16)
+## Latest Refresh (2026-09-17)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GenOffice](https://github.com/genspark-ai/genoffice) | Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files locally. |
-| [Power BI Agentic Development](https://github.com/data-goblin/power-bi-agentic-development) | Power BI and Microsoft Fabric skill marketplace for agent-assisted semantic models, reports, dashboards, and deployment pipelines. |
-| [minidoc](https://github.com/shalayiding/minidoc) | LLM-friendly DSL that compiles compact report specifications into polished self-contained HTML dashboards and documents. |
-| [SlickFast](https://github.com/SlickFast/slickfast) | Deterministic local MCP and SVG render engine for chart/page specs, dashboard tiling, live chart URLs, and byte-identical output. |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | Agent skill for browser motion graphics that outputs a playable index.html with video-like openers, demos, explainers, and optional MP4 export. |
-| [skills-slides](https://github.com/nghiahsgs/skills-slides) | Offline Claude Code skill for varied single-file HTML decks using tokenized aesthetics, palettes, layouts, effects, and quality gates. |
-| [Beamer Academic](https://github.com/Faust-Donf/beamer-academic) | Claude Code and Codex skill that turns thesis PDFs, Word documents, or LaTeX sources into professional Beamer defense slides. |
-| [img2ppt-lite](https://github.com/TianLin0509/img2ppt-lite) | Agent-as-VLM workflow for reconstructing slide mockup images into editable PPTX with native text boxes and draggable visual elements. |
+| [Archify](https://github.com/tt-a1i/archify) | Agent skill and deterministic renderer for self-contained architecture, workflow, sequence, data-flow, and lifecycle diagrams with HTML/SVG/PNG/WebM export. |
+| [HTML Anything](https://github.com/nexu-io/html-anything) | Local-first agentic HTML editor with 75 skill templates for decks, posters, data reports, prototypes, cards, and Hyperframes video/storyboards. |
+| [Effective HTML](https://github.com/plannotator/effective-html) | Agent skill collection for self-contained HTML artifacts, including reports, presentations, wireframes, prototypes, roadmaps, timelines, and diagrams. |
+| [Scientific Figure Library](https://github.com/xuzhougeng/ScientificFigureLibrary) | Local-first MCP App for importing, reviewing, publishing, searching, previewing, and reusing exact scientific figure templates. |
+| [MCP Vega](https://github.com/andreipirone/mcp-vega) | Read-only PostgreSQL MCP server that inspects schemas, executes bounded SELECT queries, and returns Vega-Lite chart specifications. |
+| [OraViz MCP](https://github.com/jasperan/oraviz-mcp) | Visualization-first Oracle AI Database MCP server that profiles tables and renders read-only SQL result sets into PNG charts. |
+| [Mellos Mapping](https://github.com/GuangminJu/mellos-mapping) | MCP server and terminal pane for live layered dependency maps that coding agents keep current during bottom-up implementation. |
+| [plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Worker MCP chart renderer for PNG/SVG function plots, data charts, subplot grids, and STEM diagrams from JSON calls. |
 
 ## ✨ Рекомендуемое использование
 
@@ -219,6 +219,8 @@
 | [eval-layer](https://github.com/erezweinstein5/eval-layer) [![Star](https://img.shields.io/github/stars/erezweinstein5/eval-layer?style=flat&logo=github&label=Star)](https://github.com/erezweinstein5/eval-layer/stargazers) | Codebase / Code/technical text / Data/tables | Agent skill | Evidence table / Long report / Chart/dashboard / Web/interactive page | Agent host / Local runtime / Model API / Code analysis / Rendering/export / Templates/assets |
 | [codebase-mindmap](https://github.com/UnitedDiagram/code-mindmap-skill) [![Star](https://img.shields.io/github/stars/UnitedDiagram/code-mindmap-skill?style=flat&logo=github&label=Star)](https://github.com/UnitedDiagram/code-mindmap-skill/stargazers) | Codebase / Code/technical text | Agent skill | Code map/Repo Wiki / Mind map/knowledge map / Web/interactive page | Agent host / Local runtime / Code analysis / Rendering/export |
 
+| [Mellos Mapping](https://github.com/GuangminJu/mellos-mapping) [![Star](https://img.shields.io/github/stars/GuangminJu/mellos-mapping?style=flat&logo=github&label=Star)](https://github.com/GuangminJu/mellos-mapping/stargazers) | Кодовая база / Код/технический текст / Текст/идеи | MCP server / Agent skill | Карта кода/Repo Wiki / Архитектура/flow diagram / Таблица/timeline | MCP client / Agent host / Локальный runtime / Анализ кода / Рендеринг/экспорт |
+
 ### Данные, таблицы и бизнес-метрики
 
 Tools that turn CSVs, databases, metrics, or business data into charts, dashboards, or analytical reports.
@@ -347,6 +349,9 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Power BI Visualization Expert Mode](https://github.com/github/awesome-copilot/blob/main/agents/power-bi-visualization-expert.agent.md) [![Star](https://img.shields.io/github/stars/github/awesome-copilot?style=flat&logo=github&label=Star)](https://github.com/github/awesome-copilot/stargazers) | Данные/таблицы / База данных / Код/технический текст | Bot/ассистент / Agent skill | График/дашборд / Брифинг/отчет / Таблица доказательств | Agent host / Model API / Внешний поиск/данные / Рендеринг/экспорт |
 | [TD Skills](https://github.com/treasure-data/td-skills) [![Star](https://img.shields.io/github/stars/treasure-data/td-skills?style=flat&logo=github&label=Star)](https://github.com/treasure-data/td-skills/stargazers) | Data/tables / Database / Knowledge base | Skill collection / Agent skill | Chart/dashboard / Briefing/report / Infographic/visual report | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
 
+| [MCP Vega](https://github.com/andreipirone/mcp-vega) [![Star](https://img.shields.io/github/stars/andreipirone/mcp-vega?style=flat&logo=github&label=Star)](https://github.com/andreipirone/mcp-vega/stargazers) | База данных / Данные/таблицы | MCP server | График/дашборд / Рендеренный график / Структурированные данные/Markdown | MCP client / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт |
+| [OraViz MCP](https://github.com/jasperan/oraviz-mcp) [![Star](https://img.shields.io/github/stars/jasperan/oraviz-mcp?style=flat&logo=github&label=Star)](https://github.com/jasperan/oraviz-mcp/stargazers) | База данных / Данные/таблицы | MCP server | График/дашборд / Рендеренный график / SVG/PNG/PDF | MCP client / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт |
+
 ### Текст, идеи и визуализации для доски
 
 Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
@@ -453,6 +458,10 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [metro-map-tool](https://github.com/ERP-LAB-5/metro-map-tool) [![Star](https://img.shields.io/github/stars/ERP-LAB-5/metro-map-tool?style=flat&logo=github&label=Star)](https://github.com/ERP-LAB-5/metro-map-tool/stargazers) | Text/ideas / Data/tables / DSL/code | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Browser/account / Rendering/export |
 | [Squinch](https://github.com/jquatier/squinch) [![Star](https://img.shields.io/github/stars/jquatier/squinch?style=flat&logo=github&label=Star)](https://github.com/jquatier/squinch/stargazers) | Code/technical text / Codebase / Text/ideas | API/SDK/library / Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Diagram Design](https://github.com/cathrynlavery/diagram-design) [![Star](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat&logo=github&label=Star)](https://github.com/cathrynlavery/diagram-design/stargazers) | Text/ideas / Code/technical text / Data/tables / DSL/code | Agent skill | Architecture/flow diagram / Diagram/Mermaid / Chart/dashboard / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+
+| [Archify](https://github.com/tt-a1i/archify) [![Star](https://img.shields.io/github/stars/tt-a1i/archify?style=flat&logo=github&label=Star)](https://github.com/tt-a1i/archify/stargazers) | Текст/идеи / Код/технический текст / DSL/код | Agent skill | Архитектура/flow diagram / Web/интерактивная страница / SVG/PNG/PDF | Agent host / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
+| [HTML Anything](https://github.com/nexu-io/html-anything) [![Star](https://img.shields.io/github/stars/nexu-io/html-anything?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-anything/stargazers) | Текст/идеи / Данные/таблицы / Web/поиск / Любые/многоисточниковые | Open-source приложение/фреймворк / Коллекция skill | Web/интерактивная страница / PPT/deck / Инфографика/визуальный отчет / Видео/аудио | Локальный runtime / Agent host / Рендеринг/экспорт / Шаблоны/assets |
+| [Effective HTML](https://github.com/plannotator/effective-html) [![Star](https://img.shields.io/github/stars/plannotator/effective-html?style=flat&logo=github&label=Star)](https://github.com/plannotator/effective-html/stargazers) | Текст/идеи / Код/технический текст / Данные/таблицы | Коллекция skill / Agent skill | Web/интерактивная страница / Длинный отчет / Архитектура/flow diagram / Таблица/timeline | Agent host / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
 
 ### Программируемое видео и motion-объяснения
 
@@ -868,6 +877,9 @@ This section contains smaller, lower-level, or more specialized tools. They may 
 | [Generative UI MCP](https://github.com/op7418/Generative-UI-MCP) [![Star](https://img.shields.io/github/stars/op7418/Generative-UI-MCP?style=flat&logo=github&label=Star)](https://github.com/op7418/Generative-UI-MCP/stargazers) | Text/ideas / Data/tables / DSL/code | MCP server | Web/interactive page / Chart/dashboard / Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [EditItAll MCP](https://github.com/Subcue/edititall-mcp) [![Star](https://img.shields.io/github/stars/Subcue/edititall-mcp?style=flat&logo=github&label=Star)](https://github.com/Subcue/edititall-mcp/stargazers) | PDF/документы / Office документы / Данные/таблицы / Текст/идеи | MCP server / Продукт/SaaS | PPT/deck / Длинный отчет / SVG/PNG/PDF / График/дашборд | MCP client / Браузер/аккаунт / Локальный runtime / Рендеринг/экспорт |
 | [Diagrammo MCP](https://github.com/diagrammo/dgmo-mcp) [![Star](https://img.shields.io/github/stars/diagrammo/dgmo-mcp?style=flat&logo=github&label=Star)](https://github.com/diagrammo/dgmo-mcp/stargazers) | Text/ideas / DSL/code | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Browser/account / Rendering/export / System tools |
+| [Scientific Figure Library](https://github.com/xuzhougeng/ScientificFigureLibrary) [![Star](https://img.shields.io/github/stars/xuzhougeng/ScientificFigureLibrary?style=flat&logo=github&label=Star)](https://github.com/xuzhougeng/ScientificFigureLibrary/stargazers) | Статьи/исследования / Данные/таблицы / База знаний | MCP server / Agent skill | Графический абстракт/инфографика / Рендеренный график / SVG/PNG/PDF | MCP client / Локальный runtime / Хранилище/индекс / Рендеринг/экспорт / Шаблоны/assets |
+| [plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) [![Star](https://img.shields.io/github/stars/lingion/plot-mcp-worker?style=flat&logo=github&label=Star)](https://github.com/lingion/plot-mcp-worker/stargazers) | Данные/таблицы / DSL/код / Текст/идеи | MCP server | Рендеренный график / SVG/PNG/PDF / Графический абстракт/инфографика | MCP client / Внешний поиск/данные / Рендеринг/экспорт |
+
 ## Как выбрать инструмент
 | [html-to-editable-pptx](https://github.com/Hasasasa/html-to-editable-pptx) [![Star](https://img.shields.io/github/stars/Hasasasa/html-to-editable-pptx?style=flat&logo=github&label=Star)](https://github.com/Hasasasa/html-to-editable-pptx/stargazers) | Web/search / DSL/code / Text/ideas | Agent skill / API/SDK/library | PPT/deck / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 

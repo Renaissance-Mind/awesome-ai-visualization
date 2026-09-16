@@ -1,4 +1,4 @@
-last_researched: '2026-09-16'
+last_researched: '2026-09-17'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -20345,3 +20345,223 @@ entries:
   - 结构化数据/Markdown
   catalog_section: support_doc_parse
   readme_group: support_doc_parse
+- name: Archify
+  url: https://github.com/tt-a1i/archify
+  homepage: https://tt-a1i.github.io/archify/
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 64785
+  license: MIT
+  updated: '2026-09-16'
+  note: Agent skill and deterministic renderer that turns typed JSON IR into self-contained HTML/SVG architecture, workflow,
+    sequence, data-flow, and lifecycle diagrams with PNG/SVG/WebM export.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text
+- name: HTML Anything
+  url: https://github.com/nexu-io/html-anything
+  homepage: https://open-design.ai/html-anything/
+  category: infographic-report
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - Agent 宿主
+  - 渲染/导出
+  - 模板/素材
+  stars: 8867
+  license: Apache-2.0
+  updated: '2026-09-16'
+  note: Local-first agentic HTML editor with 75 skill templates across magazine articles, decks, posters, data reports,
+    prototypes, cards, and Hyperframes video/storyboard surfaces.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - Skill 集合
+  output_forms:
+  - 网页/交互页面
+  - PPT/演示文稿
+  - 信息图/视觉报告
+  - 视频/音频
+  catalog_section: main
+  readme_group: text
+- name: Effective HTML
+  url: https://github.com/plannotator/effective-html
+  homepage: https://www.effectivehtml.com/
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3195
+  license: MIT
+  updated: '2026-09-16'
+  note: Agent skill collection for self-contained HTML artifacts, including reports, explainers, presentations, low-fidelity
+    wireframes, working prototypes, plans, roadmaps, timelines, and diagrams.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 报告/长文档
+  - 架构图/流程图
+  - 表格/时间线
+  catalog_section: main
+  readme_group: text
+- name: Scientific Figure Library
+  url: https://github.com/xuzhougeng/ScientificFigureLibrary
+  homepage: https://xuzhougeng.github.io/ScientificFigureLibrary/
+  category: paper-visualization
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 模板/素材
+  stars: 77
+  license: MIT
+  updated: '2026-09-16'
+  note: Local-first MCP server and MCP App for importing, reviewing, publishing, searching, previewing, and materializing
+    exact scientific figure templates across Claude Science, Wisp Science, Codex, and Cursor.
+  source_types:
+  - 论文/科研资料
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 图形摘要/信息图
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: MCP Vega
+  url: https://github.com/andreipirone/mcp-vega
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 3
+  license: Apache-2.0
+  updated: '2026-09-16'
+  note: Read-only Spring AI MCP server that inspects PostgreSQL schemas, executes bounded SELECT queries, and returns Vega-Lite
+    chart specifications for bar, line, pie, area, histogram, and scatterplot visualizations.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: OraViz MCP
+  url: https://github.com/jasperan/oraviz-mcp
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-16'
+  note: Visualization-first Oracle AI Database MCP server that profiles tables and turns SQL result sets into PNG bar,
+    line, area, scatter, pie, histogram, and vector charts with bounded read-only queries.
+  source_types:
+  - 数据库
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/仪表盘
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data
+- name: Mellos Mapping
+  url: https://github.com/GuangminJu/mellos-mapping
+  homepage: https://www.npmjs.com/package/mellos-mapping
+  category: codebase-map
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  stars: 54
+  license: MIT
+  updated: '2026-09-16'
+  note: MCP server and terminal pane for live layered dependency maps, letting coding agents declare ghost designs and light
+    nodes up as bottom-up implementation layers are built and verified.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 表格/时间线
+  catalog_section: main
+  readme_group: code
+- name: plot-mcp-worker
+  url: https://github.com/lingion/plot-mcp-worker
+  homepage: https://blog.qdp.qzz.io/plot-mcp-serverless-charts
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 8
+  license: unknown
+  updated: '2026-09-16'
+  note: Cloudflare Worker MCP chart renderer that lets agents create PNG/SVG function plots, data charts, subplot grids,
+    STEM diagrams, physics force diagrams, circuits, 3D geometry, and Venn diagrams from JSON calls.
+  source_types:
+  - 数据/表格
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/渲染输出
+  - SVG/PNG/PDF
+  - 图形摘要/信息图
+  catalog_section: support_render
+  readme_group: support_render
