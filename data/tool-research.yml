@@ -1,4 +1,4 @@
-generated_at: '2026-09-16T23:03:59+00:00'
+generated_at: '2026-09-17T23:04:23+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 787
-  fetched_sources_ok: 1054
+  entries: 791
+  fetched_sources_ok: 1058
   fetched_sources_failed: 54
   official_examples: 1632
   official_effect_assets: 2119
-  official_docs: 1886
+  official_docs: 1887
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -45650,8 +45650,8 @@ entries:
   - 文档解析/OCR
   - 渲染/导出
   - 模板/素材
-  catalog_note: AI-native Nano Banana Pro slide generator that accepts prompts, outlines, template images, and uploaded
-    assets, supports region-level natural-language edits, and exports editable PowerPoint decks.
+  catalog_note: AI-native Nano Banana Pro slide generator that accepts prompts, outlines, template images, and uploaded assets,
+    supports region-level natural-language edits, and exports editable PowerPoint decks.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/Anionex/banana-slides/HEAD/README.md
@@ -45729,8 +45729,8 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  catalog_note: DSH plugin, Claude Code plugin, and CLI for stable editable PPTX generation from semantic presentation
-    IR into native DrawingML PowerPoint output.
+  catalog_note: DSH plugin, Claude Code plugin, and CLI for stable editable PPTX generation from semantic presentation IR
+    into native DrawingML PowerPoint output.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/liustack/pptpress/HEAD/README.md
@@ -45865,8 +45865,8 @@ entries:
   - 外部检索/数据源
   - 渲染/导出
   - 模板/素材
-  catalog_note: Claude Code and Codex presentation skill suite for turning business questions into consulting-grade
-    decks through strategy storyboarding, brand identity, pixel-perfect PDF, and native editable PPTX workflows.
+  catalog_note: Claude Code and Codex presentation skill suite for turning business questions into consulting-grade decks
+    through strategy storyboarding, brand identity, pixel-perfect PDF, and native editable PPTX workflows.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/appautomaton/presentation/HEAD/README.md
@@ -45881,8 +45881,8 @@ entries:
     status: 200
     content_type: text/html
     title: Presentation Skills · Agent skills for boardroom-ready decks
-    description: 'Four open-source skills that take Claude Code or Codex from raw analysis to a boardroom-ready
-      deck: consultant, brand-system, deck-design-pdf, deck-design-ppt.'
+    description: 'Four open-source skills that take Claude Code or Codex from raw analysis to a boardroom-ready deck: consultant,
+      brand-system, deck-design-pdf, deck-design-ppt.'
     bytes: 36933
   source_headings:
   - Presentation Skills
@@ -45896,8 +45896,8 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  catalog_note: Installable AI-coding-assistant skill that converts arbitrary content into visual explanations,
-    including whiteboard sketches, infographics, presentations, diagrams, mind maps, and UI mockups.
+  catalog_note: Installable AI-coding-assistant skill that converts arbitrary content into visual explanations, including
+    whiteboard sketches, infographics, presentations, diagrams, mind maps, and UI mockups.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/dapih/visualkan/HEAD/README.md
@@ -45997,8 +45997,8 @@ entries:
   - 本地语言环境
   - 文档解析/OCR
   - 渲染/导出
-  catalog_note: Privacy-first in-browser Tableau TWBX lineage visualizer that maps calculated-field dependencies,
-    parameters, stored SQL, metadata, and searchable data dictionaries without uploading workbooks.
+  catalog_note: Privacy-first in-browser Tableau TWBX lineage visualizer that maps calculated-field dependencies, parameters,
+    stored SQL, metadata, and searchable data dictionaries without uploading workbooks.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/andey0Saikiran/tableau-lineage/HEAD/README.md
@@ -46013,8 +46013,8 @@ entries:
     status: 200
     content_type: text/html
     title: 'Tableau Workbook Auditor: find unused fields and lineage in any .twbx'
-    description: 'Free, open-source tool to audit any Tableau .twbx: find unused fields and duplicate calculations,
-      check performance, and map calculated-field lineage, parameters, filters, dashboar'
+    description: 'Free, open-source tool to audit any Tableau .twbx: find unused fields and duplicate calculations, check
+      performance, and map calculated-field lineage, parameters, filters, dashboar'
     bytes: 32325
   official_effect_assets:
   - kind: image
@@ -46034,8 +46034,8 @@ entries:
   - 外部检索/数据源
   - 渲染/导出
   - 模板/素材
-  catalog_note: Open-source AI slide agent that generates presentation slides in Google Slides-style workflows from
-    prompts and structured presentation context.
+  catalog_note: Open-source AI slide agent that generates presentation slides in Google Slides-style workflows from prompts
+    and structured presentation context.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/composio-community/open-gamma/HEAD/README.md
@@ -46064,8 +46064,8 @@ entries:
   - 渲染/导出
   - 模板/素材
   - 系统工具
-  catalog_note: Claude presentation skill for web-native 3D explainers with model-viewer, Three.js, Draco compression,
-    orbit viewers, exploded assemblies, and animated camera walkthroughs without a build step.
+  catalog_note: Claude presentation skill for web-native 3D explainers with model-viewer, Three.js, Draco compression, orbit
+    viewers, exploded assemblies, and animated camera walkthroughs without a build step.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/luisxavierxd/exploded-view/HEAD/README.md
@@ -48502,9 +48502,9 @@ entries:
   - 外部检索/数据源
   - 渲染/导出
   - 存储/索引
-  catalog_note: Community MCP server for Napkin AI that turns text prompts into SVG, PNG, or PPT visuals, including
-    mind maps, flowcharts, timelines, and comparison diagrams, with local, S3, Google Drive, Slack, Notion, Telegram,
-    or Discord storage targets.
+  catalog_note: Community MCP server for Napkin AI that turns text prompts into SVG, PNG, or PPT visuals, including mind maps,
+    flowcharts, timelines, and comparison diagrams, with local, S3, Google Drive, Slack, Notion, Telegram, or Discord storage
+    targets.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/LouisChanCLY/napkin-ai-mcp/HEAD/README.md
@@ -48578,8 +48578,8 @@ entries:
   - MCP Client
   - 本地语言环境
   - 渲染/导出
-  catalog_note: MCP server that renders prompt-driven AntV Infographic outputs as local images or URL-served assets
-    over stdio, Streamable HTTP, or SSE transports.
+  catalog_note: MCP server that renders prompt-driven AntV Infographic outputs as local images or URL-served assets over stdio,
+    Streamable HTTP, or SSE transports.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/byebyebruce/inforgraphic-mcp/HEAD/README.md
@@ -48634,8 +48634,8 @@ entries:
   - 本地语言环境
   - 外部检索/数据源
   - 渲染/导出
-  catalog_note: MCP server for semantic SVG icon search over 100,000+ infographic icons, returning SVG URLs that
-    agents can use as visual assets in reports, diagrams, dashboards, or slide decks.
+  catalog_note: MCP server for semantic SVG icon search over 100,000+ infographic icons, returning SVG URLs that agents can
+    use as visual assets in reports, diagrams, dashboards, or slide decks.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/hustcc/mcp-icon/HEAD/README.md
@@ -48731,8 +48731,8 @@ entries:
   - 系统工具
   - 渲染/导出
   - 模板/素材
-  catalog_note: CLI and MCP server that turns milestone data into horizontal, vertical, Gantt, roadmap, and infographic
-    timelines exported as PNG, SVG, GIF, or MP4 with themes, animation, and collision-aware layout.
+  catalog_note: CLI and MCP server that turns milestone data into horizontal, vertical, Gantt, roadmap, and infographic timelines
+    exported as PNG, SVG, GIF, or MP4 with themes, animation, and collision-aware layout.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/kbichave/timeline-generator-mcp/HEAD/README.md
@@ -48830,8 +48830,8 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  catalog_note: Template-free MCP plugin that lets local LLM agents write HTML/CSS and render visual cards, presentation
-    pages, infographics, social carousels, and reports through Puppeteer.
+  catalog_note: Template-free MCP plugin that lets local LLM agents write HTML/CSS and render visual cards, presentation pages,
+    infographics, social carousels, and reports through Puppeteer.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/EllenSong77/vibe-deck-mcp/HEAD/README.md
@@ -48884,8 +48884,8 @@ entries:
   - 模型 API
   - 外部检索/数据源
   - 渲染/导出
-  catalog_note: MCP server that combines Gemini grounding with visual generation to research a topic, extract findings,
-    and create publication-ready infographics, diagrams, charts, or styled visuals from coding-agent workflows.
+  catalog_note: MCP server that combines Gemini grounding with visual generation to research a topic, extract findings, and
+    create publication-ready infographics, diagrams, charts, or styled visuals from coding-agent workflows.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/frankxai/arcanea-infogenius/HEAD/README.md
@@ -48899,8 +48899,8 @@ entries:
     final_url: https://github.com/frankxai/arcanea
     status: 200
     content_type: text/html
-    title: 'GitHub - frankxai/arcanea: Public mirror of Arcanea.ai — the creative intelligence platform for chat,
-      lore, academy, and worldbuilding. · GitHub'
+    title: 'GitHub - frankxai/arcanea: Public mirror of Arcanea.ai — the creative intelligence platform for chat, lore, academy,
+      and worldbuilding. · GitHub'
     description: Public mirror of Arcanea.ai — the creative intelligence platform for chat, lore, academy, and worldbuilding.
       - frankxai/arcanea
     bytes: 512136
@@ -48929,9 +48929,8 @@ entries:
   - 外部检索/数据源
   - 代码分析工具
   - 渲染/导出
-  catalog_note: MCP server and Gemini CLI extension that fetches GitHub repository structure, README, code, and
-    metadata, then produces themed project infographics and optional short animated videos with generated image
-    and animation prompts.
+  catalog_note: MCP server and Gemini CLI extension that fetches GitHub repository structure, README, code, and metadata,
+    then produces themed project infographics and optional short animated videos with generated image and animation prompts.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/automateyournetwork/VibeGraphics/HEAD/README.md
@@ -50172,7 +50171,7 @@ entries:
     url: https://starrykit.com/resource-assets/128c48458b91cdf9edacab999176109088976769005edc638aae76f983a0ee31.webp
     source: https://starrykit.com/
   - kind: image
-    title: 'Loopwell - The Refill Effect'
+    title: Loopwell - The Refill Effect
     url: https://starrykit.com/resource-assets/107962662cec73e720fb6663e9bc3fa6b86983317990ff5c267a6413f7e64037.webp
     source: https://starrykit.com/
   - kind: image
@@ -52433,8 +52432,8 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  catalog_note: Provider-neutral PowerPoint toolkit that separates deck planning, PPTX building, inspection, QA,
-    MCP serving, reusable agent skills, and Codex/Claude adapters for agent-driven editable presentation workflows.
+  catalog_note: Provider-neutral PowerPoint toolkit that separates deck planning, PPTX building, inspection, QA, MCP serving,
+    reusable agent skills, and Codex/Claude adapters for agent-driven editable presentation workflows.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/troywjz/ppt-agent-kit/HEAD/README.md
@@ -52498,8 +52497,8 @@ entries:
   - 浏览器/账号
   - 外部检索/数据源
   - 渲染/导出
-  catalog_note: Hosted Streamable HTTP MCP server for Codex, Claude, and other agents that turns topics or inline
-    CSV/JSON into structured 3-8 slide presentation outlines plus continuation links into the OutSlide web workspace.
+  catalog_note: Hosted Streamable HTTP MCP server for Codex, Claude, and other agents that turns topics or inline CSV/JSON
+    into structured 3-8 slide presentation outlines plus continuation links into the OutSlide web workspace.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/miha1744/outslide-mcp/HEAD/README.md
@@ -52514,8 +52513,8 @@ entries:
     status: 200
     content_type: text/html
     title: AI presentation MCP server for Codex and Claude Code | OutSlide
-    description: "Use OutSlide's free MCP server in Codex or Claude Code to turn a topic or inline CSV/JSON into\
-      \ a 3â\x80\x938 slide outline, then continue in the workspace."
+    description: "Use OutSlide's free MCP server in Codex or Claude Code to turn a topic or inline CSV/JSON into a 3â\x80\x93\
+      8 slide outline, then continue in the workspace."
     bytes: 6720
   official_examples:
   - kind: template
@@ -52561,8 +52560,8 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  catalog_note: Claude Code and Codex skill plus plain-Node CLI that turns arbitrary content into a self-contained
-    editable HTML slide deck with JSON model, in-file editor, PDF writer, and layout verification gate.
+  catalog_note: Claude Code and Codex skill plus plain-Node CLI that turns arbitrary content into a self-contained editable
+    HTML slide deck with JSON model, in-file editor, PDF writer, and layout verification gate.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
@@ -52585,8 +52584,8 @@ entries:
     source: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
   official_effect_assets:
   - kind: gif
-    title: 'decklet demo: drag a row, page through slides that animate in, the inlined editor clips, the four anims,
-      contact-sheet reorder, write a PDF'
+    title: 'decklet demo: drag a row, page through slides that animate in, the inlined editor clips, the four anims, contact-sheet
+      reorder, write a PDF'
     url: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/docs/demo.gif
     source: https://raw.githubusercontent.com/grunion-ai/decklet/HEAD/README.md
   official_links:
@@ -52608,9 +52607,8 @@ entries:
   - 本地语言环境
   - 代码分析工具
   - 渲染/导出
-  catalog_note: Agent skill and CLI that scans repositories into evidence graphs, models system structure, and renders
-    searchable self-contained HTML architecture, dataflow, sequence, state-machine, and dependency diagrams with
-    cited source coverage.
+  catalog_note: Agent skill and CLI that scans repositories into evidence graphs, models system structure, and renders searchable
+    self-contained HTML architecture, dataflow, sequence, state-machine, and dependency diagrams with cited source coverage.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
@@ -52625,8 +52623,8 @@ entries:
     status: 200
     content_type: text/html
     title: Mirofy — diagrams that cite their sources
-    description: Mirofy's own architecture, derived from its own source code, plus every diagram type in every preset.
-      All generated in CI, none mocked up.
+    description: Mirofy's own architecture, derived from its own source code, plus every diagram type in every preset. All
+      generated in CI, none mocked up.
     bytes: 20220
   official_examples:
   - kind: showcase
@@ -52711,8 +52709,8 @@ entries:
     source: https://hasan-laraib.github.io/Mirofy/
   official_effect_assets:
   - kind: image
-    title: 'A rendered Mirofy artifact open in a browser: ten services coloured by role, grouped inside an AWS region
-      and a security group, with a legend naming each role'
+    title: 'A rendered Mirofy artifact open in a browser: ten services coloured by role, grouped inside an AWS region and
+      a security group, with a legend naming each role'
     url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-hero.png
     source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
   - kind: image
@@ -52736,8 +52734,7 @@ entries:
     url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-passport.png
     source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
   - kind: image
-    title: 'Authored reachability traced upstream from Worker: six nodes, six links, five hops, everything off the
-      path dimmed'
+    title: 'Authored reachability traced upstream from Worker: six nodes, six links, five hops, everything off the path dimmed'
     url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-trace.png
     source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
   - kind: image
@@ -52745,8 +52742,8 @@ entries:
     url: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/assets/viewer-lens.png
     source: https://raw.githubusercontent.com/Hasan-Laraib/Mirofy/HEAD/README.md
   - kind: image
-    title: 'A rendered Mirofy artifact: ten services coloured by role inside an AWS region and a security group,
-      with a legend naming each role'
+    title: 'A rendered Mirofy artifact: ten services coloured by role inside an AWS region and a security group, with a legend
+      naming each role'
     url: https://hasan-laraib.github.io/Mirofy/assets/viewer-hero.png
     source: https://hasan-laraib.github.io/Mirofy/
   official_links:
@@ -52884,8 +52881,8 @@ entries:
   - 本地语言环境
   - 外部检索/数据源
   - 渲染/导出
-  catalog_note: Cloud-diagram DSL, hosted MCP server, and agent skill for asking Claude, Cursor, or Codex to validate
-    AWS, GCP, or Kubernetes architecture descriptions and render official-icon SVG diagrams plus playground links.
+  catalog_note: Cloud-diagram DSL, hosted MCP server, and agent skill for asking Claude, Cursor, or Codex to validate AWS,
+    GCP, or Kubernetes architecture descriptions and render official-icon SVG diagrams plus playground links.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/baires/archlex/HEAD/README.md
@@ -52900,8 +52897,8 @@ entries:
     status: 200
     content_type: text/html
     title: 'ArchLex: Ask Claude to diagram your cloud'
-    description: Ask Claude, Cursor, or Codex to diagram AWS, GCP, or Kubernetes. ArchLex validates semantics and
-      renders official-icon SVG. No API key.
+    description: Ask Claude, Cursor, or Codex to diagram AWS, GCP, or Kubernetes. ArchLex validates semantics and renders
+      official-icon SVG. No API key.
     bytes: 47804
   official_examples:
   - kind: demo
@@ -53037,9 +53034,8 @@ entries:
   - 浏览器/账号
   - 渲染/导出
   - 系统工具
-  catalog_note: Local MCP server for Claude and MCP-compatible tools that renders DGMO text markup into sequence,
-    flowchart, ER, C4, Gantt, and other diagrams as SVG/PNG, previews them in HTML, and hands them to Diagrammo
-    editors.
+  catalog_note: Local MCP server for Claude and MCP-compatible tools that renders DGMO text markup into sequence, flowchart,
+    ER, C4, Gantt, and other diagrams as SVG/PNG, previews them in HTML, and hands them to Diagrammo editors.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/diagrammo/dgmo-mcp/HEAD/README.md
@@ -53054,8 +53050,8 @@ entries:
     status: 200
     content_type: text/html
     title: "Diagrammo â\x80\x94 Simple text in. Brilliant diagrams out."
-    description: Free diagram-as-code tool with 50 chart types. Write plain text, get beautiful sequence diagrams,
-      flowcharts, ER diagrams, Gantt charts, and more. No sign-up required.
+    description: Free diagram-as-code tool with 50 chart types. Write plain text, get beautiful sequence diagrams, flowcharts,
+      ER diagrams, Gantt charts, and more. No sign-up required.
     bytes: 1717834
   official_examples:
   - kind: demo
@@ -53120,9 +53116,8 @@ entries:
   - 本地语言环境
   - 浏览器/账号
   - 渲染/导出
-  catalog_note: Browser designer, CLI, MCP server, and agent skill for transforming JSON transit-map specs into
-    standalone light/dark-aware SVG diagrams for landscapes, pipelines, migrations, docs, and slide-friendly process
-    maps.
+  catalog_note: Browser designer, CLI, MCP server, and agent skill for transforming JSON transit-map specs into standalone
+    light/dark-aware SVG diagrams for landscapes, pipelines, migrations, docs, and slide-friendly process maps.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/ERP-LAB-5/metro-map-tool/HEAD/README.md
@@ -53175,9 +53170,9 @@ entries:
   - 文档解析/OCR
   - 渲染/导出
   - 存储/索引
-  catalog_note: Verifiable AI data scientist for CSVs and databases that executes SQL, statistics, machine learning,
-    and visualizations, then returns claim-level evidence, reproducible reports, notebooks, plots, and inspectable
-    artifacts through CLI and hosted demo flows.
+  catalog_note: Verifiable AI data scientist for CSVs and databases that executes SQL, statistics, machine learning, and visualizations,
+    then returns claim-level evidence, reproducible reports, notebooks, plots, and inspectable artifacts through CLI and hosted
+    demo flows.
   fetched_sources:
   - kind: github_readme
     url: https://raw.githubusercontent.com/Jackxiaozhiren/data-science-agent/HEAD/README.md
@@ -61128,3 +61123,96 @@ entries:
   - Showcase
   - 20. Teaching Template — Definite Integral
   - Documentation
+- name: html-deck
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/margelatufml/html-deck
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for conference-quality standalone HTML slide decks with per-slide files, speaker notes,
+    PDF export, and headless 1920x1080 overflow verification.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/margelatufml/html-deck/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/margelatufml/html-deck/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: html-deck
+    bytes: 4583
+- name: fp-infographic-agent-kit
+  category: infographic-report
+  surface: mcp
+  primary_url: https://github.com/steve-8000/fp-infographic-agent-kit
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Backend-agnostic compiler and MCP server that turns structured briefs and data into audited fp-plan/1 infographic
+    frames, SVG output, and native Figma Plugin API scripts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/steve-8000/fp-infographic-agent-kit/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/steve-8000/fp-infographic-agent-kit/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Infographic Agent Kit
+    bytes: 5682
+  official_docs:
+  - kind: docs
+    title: docs/DIRECTION.md
+    url: https://github.com/steve-8000/fp-infographic-agent-kit/blob/HEAD/docs/DIRECTION.md
+    source: https://raw.githubusercontent.com/steve-8000/fp-infographic-agent-kit/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/DIRECTION.md
+    url: https://github.com/steve-8000/fp-infographic-agent-kit/blob/HEAD/docs/DIRECTION.md
+    source: https://raw.githubusercontent.com/steve-8000/fp-infographic-agent-kit/HEAD/README.md
+- name: aws-architecture-diagram
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/akzedevops/aws-architecture-diagram-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for checked, print-ready AWS architecture diagrams from Python data files, with PNG, draw.io,
+    Eraser, Figma Plugin API, and Mermaid exports plus geometry audits.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/akzedevops/aws-architecture-diagram-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/akzedevops/aws-architecture-diagram-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: aws-architecture-diagram
+    bytes: 5889
+  source_headings:
+  - aws-architecture-diagram
+- name: human-review
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/victorrentea/human-review
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: Claude Code plugin skill that builds a local tabbed review page for a branch or PR, combining review decisions,
+    diagram deltas, traces, API diffs, Code City, complexity, tests, and feature video.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/victorrentea/human-review/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/victorrentea/human-review/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: human-review
+    bytes: 32709

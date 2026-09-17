@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-16.
+Last researched: 2026-09-18.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-18: refreshed source-backed HTML deck, structured infographic, audited AWS architecture diagram, and branch-review visualization tooling from official GitHub repositories, README evidence, live GitHub searches, and current GitHub metadata. This pass added html-deck, fp-infographic-agent-kit, aws-architecture-diagram, and human-review. Narrative-only presentation-planning and weak search-only infographic candidates were rejected because they did not produce a rendered visual artifact or had insufficient official artifact evidence.
 
 Update on 2026-09-16: refreshed local AI Office editing, Power BI and Fabric agent skills, compact HTML report DSLs, deterministic chart/dashboard rendering, browser-motion video skills, offline HTML deck skills, Beamer thesis-defense slide generation, and image-to-editable-PPTX reconstruction from official GitHub repositories, project homepages, README evidence, live GitHub searches, and current GitHub metadata. This pass added GenOffice, Power BI Agentic Development, minidoc, SlickFast, Bang Motion, skills-slides, Beamer Academic, and img2ppt-lite. The targeted scraper ran only against these eight records, fetched thirteen official sources successfully with no failed fetches, and kept thirty official examples, sixty preview assets, and nine docs links.
 

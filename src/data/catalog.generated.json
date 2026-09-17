@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-09-16T23:03:59+00:00",
-  "lastResearched": "2026-09-17",
+  "generatedAt": "2026-09-17T23:04:23+00:00",
+  "lastResearched": "2026-09-18",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 787,
+    "total": 791,
     "openSource": 198,
     "saas": 73,
     "modelApi": 249,
     "examples": 1632,
     "effectAssets": 2119,
-    "docs": 1886
+    "docs": 1887
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 80,
       "PDF/文档": 232,
-      "文本/想法": 499,
-      "数据/表格": 326,
-      "代码/技术描述": 159,
+      "文本/想法": 502,
+      "数据/表格": 329,
+      "代码/技术描述": 161,
       "任意/多源": 128,
       "网页/搜索结果": 193,
-      "代码库": 94,
-      "DSL/代码": 157,
+      "代码库": 95,
+      "DSL/代码": 160,
       "新闻/资讯": 29,
       "知识库/个人资料": 79,
       "Office 文档": 147,
@@ -31,82 +31,82 @@
     },
     "toolForms": {
       "开源应用/框架": 198,
-      "Agent Skill": 298,
-      "Skill 集合": 79,
-      "MCP Server": 266,
+      "Agent Skill": 301,
+      "Skill 集合": 80,
+      "MCP Server": 267,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 26,
       "研究原型": 10,
-      "API/SDK/库": 124,
+      "API/SDK/库": 125,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 64,
-      "PPT/演示文稿": 332,
-      "网页/交互页面": 276,
+      "PPT/演示文稿": 333,
+      "网页/交互页面": 278,
       "问答/学习材料": 18,
       "报告/长文档": 113,
-      "证据表": 66,
-      "信息图/视觉报告": 108,
-      "图表/仪表盘": 251,
-      "架构图/流程图": 168,
-      "SVG/PNG/PDF": 331,
+      "证据表": 67,
+      "信息图/视觉报告": 109,
+      "图表/仪表盘": 252,
+      "架构图/流程图": 171,
+      "SVG/PNG/PDF": 334,
       "报告/简报": 94,
       "白板/思维导图": 44,
-      "图表/Mermaid": 78,
-      "视频/音频": 60,
+      "图表/Mermaid": 79,
+      "视频/音频": 61,
       "结构化数据/Markdown": 122,
       "表格/时间线": 35,
       "引用答案": 7,
       "思维导图/知识地图": 47,
       "文献地图/知识地图": 5,
       "工具索引": 29,
-      "代码地图/Repo Wiki": 52,
+      "代码地图/Repo Wiki": 53,
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 665,
+      "本地语言环境": 669,
       "模型 API": 249,
       "文档解析/OCR": 113,
-      "渲染/导出": 689,
+      "渲染/导出": 693,
       "GPU/加速器": 21,
-      "模板/素材": 378,
-      "Agent 宿主": 385,
-      "系统工具": 174,
+      "模板/素材": 381,
+      "Agent 宿主": 389,
+      "系统工具": 177,
       "浏览器/账号": 182,
       "存储/索引": 122,
-      "MCP Client": 278,
-      "外部检索/数据源": 165,
-      "代码分析工具": 59
+      "MCP Client": 279,
+      "外部检索/数据源": 166,
+      "代码分析工具": 60
     },
     "categories": {
       "paper-visualization": 26,
       "doc-to-knowledge": 67,
       "research-report": 34,
-      "infographic-report": 72,
+      "infographic-report": 73,
       "data-dashboard": 131,
-      "diagram-generation": 87,
+      "diagram-generation": 88,
       "literature-map": 5,
-      "presentation-tools": 231,
+      "presentation-tools": 232,
       "rendering-primitive": 26,
       "video-generation": 18,
-      "codebase-map": 51,
+      "codebase-map": 52,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 41,
-      "text_visual": 93,
+      "text_visual": 94,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 38,
       "support_doc_parse": 24,
-      "presentation": 239,
+      "presentation": 240,
       "data": 124,
       "video": 18,
-      "code": 57,
-      "support_render": 69,
+      "code": 58,
+      "support_render": 70,
       "diagrams": 20,
       "indexes": 28,
       "diagram": 3,
@@ -64493,6 +64493,179 @@
       "docsCount": 2,
       "examplesCount": 0,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "html-deck",
+      "url": "https://github.com/margelatufml/html-deck",
+      "primaryUrl": "https://github.com/margelatufml/html-deck",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-17",
+      "note": "Claude Code skill for conference-quality standalone HTML slide decks with per-slide files, speaker notes, PDF export, and headless 1920x1080 overflow verification.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "fp-infographic-agent-kit",
+      "url": "https://github.com/steve-8000/fp-infographic-agent-kit",
+      "primaryUrl": "https://github.com/steve-8000/fp-infographic-agent-kit",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-17",
+      "note": "Backend-agnostic compiler and MCP server that turns structured briefs and data into audited fp-plan/1 infographic frames, SVG output, and native Figma Plugin API scripts.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/DIRECTION.md",
+          "url": "https://github.com/steve-8000/fp-infographic-agent-kit/blob/HEAD/docs/DIRECTION.md",
+          "source": "https://raw.githubusercontent.com/steve-8000/fp-infographic-agent-kit/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "aws-architecture-diagram",
+      "url": "https://github.com/akzedevops/aws-architecture-diagram-skill",
+      "primaryUrl": "https://github.com/akzedevops/aws-architecture-diagram-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-17",
+      "note": "Claude Code skill for checked, print-ready AWS architecture diagrams from Python data files, with PNG, draw.io, Eraser, Figma Plugin API, and Mermaid exports plus geometry audits.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "human-review",
+      "url": "https://github.com/victorrentea/human-review",
+      "primaryUrl": "https://github.com/victorrentea/human-review",
+      "homepage": null,
+      "category": "codebase-map",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "代码分析工具",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-09-17",
+      "note": "Claude Code plugin skill that builds a local tabbed review page for a branch or PR, combining review decisions, diagram deltas, traces, API diffs, Code City, complexity, tests, and feature video.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "Skill 集合"
+      ],
+      "outputForms": [
+        "网页/交互页面",
+        "代码地图/Repo Wiki",
+        "架构图/流程图",
+        "视频/音频",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "code",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

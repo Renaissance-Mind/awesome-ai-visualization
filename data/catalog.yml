@@ -1,4 +1,4 @@
-last_researched: '2026-09-17'
+last_researched: '2026-09-18'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -20565,3 +20565,117 @@ entries:
   - 图形摘要/信息图
   catalog_section: support_render
   readme_group: support_render
+- name: html-deck
+  url: https://github.com/margelatufml/html-deck
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-17'
+  note: Claude Code skill for conference-quality standalone HTML slide decks with per-slide files, speaker notes, PDF export,
+    and headless 1920x1080 overflow verification.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: fp-infographic-agent-kit
+  url: https://github.com/steve-8000/fp-infographic-agent-kit
+  category: infographic-report
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-17'
+  note: Backend-agnostic compiler and MCP server that turns structured briefs and data into audited fp-plan/1 infographic
+    frames, SVG output, and native Figma Plugin API scripts.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: aws-architecture-diagram
+  url: https://github.com/akzedevops/aws-architecture-diagram-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-09-17'
+  note: Claude Code skill for checked, print-ready AWS architecture diagrams from Python data files, with PNG, draw.io,
+    Eraser, Figma Plugin API, and Mermaid exports plus geometry audits.
+  source_types:
+  - 代码/技术描述
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: human-review
+  url: https://github.com/victorrentea/human-review
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 4
+  license: MIT
+  updated: '2026-09-17'
+  note: Claude Code plugin skill that builds a local tabbed review page for a branch or PR, combining review decisions,
+    diagram deltas, traces, API diffs, Code City, complexity, tests, and feature video.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - Skill 集合
+  output_forms:
+  - 网页/交互页面
+  - 代码地图/Repo Wiki
+  - 架构图/流程图
+  - 视频/音频
+  - 证据表
+  catalog_section: main
+  readme_group: code
