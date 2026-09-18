@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-18.
+Last researched: 2026-09-19.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-19: refreshed agent-native slide editors, visual-production skill packs, comic/carousel infographic skills, paper-to-talk workflows, narrated demo-video skills, and text-source architecture diagram systems from official GitHub repositories, project homepages, README/SKILL evidence, live GitHub searches, and current GitHub metadata. This pass added Turboslide, Design Buddy, text-to-comic, ig-carousel-skill, paper-to-podium, claude-video-generator, Markdy, and zumen. The targeted scraper ran only against these eight records, fetched twelve official sources successfully with no failed fetches, and kept seven official examples, two artifact preview assets, and thirty docs links after scrubbing generic Clawhub ecosystem banners, brand-only screenshots, mascot/homepage art, and dependency-only links.
 
 Update on 2026-09-18: refreshed source-backed HTML deck, structured infographic, audited AWS architecture diagram, and branch-review visualization tooling from official GitHub repositories, README evidence, live GitHub searches, and current GitHub metadata. This pass added html-deck, fp-infographic-agent-kit, aws-architecture-diagram, and human-review. Narrative-only presentation-planning and weak search-only infographic candidates were rejected because they did not produce a rendered visual artifact or had insufficient official artifact evidence.
 

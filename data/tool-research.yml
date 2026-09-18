@@ -1,4 +1,4 @@
-generated_at: '2026-09-17T23:04:23+00:00'
+generated_at: '2026-09-18T23:05:40+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 791
-  fetched_sources_ok: 1058
+  entries: 799
+  fetched_sources_ok: 1070
   fetched_sources_failed: 54
-  official_examples: 1632
-  official_effect_assets: 2119
-  official_docs: 1887
+  official_examples: 1639
+  official_effect_assets: 2121
+  official_docs: 1917
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -61216,3 +61216,538 @@ entries:
     content_type: text/plain
     title: human-review
     bytes: 32709
+- name: Turboslide
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Kevin-Liu-01/Turboslide
+  homepage: https://turboslide.vercel.app
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-native slide editor with a block-document deck model, generated CLI/MCP/HTTP agent actions, browser
+    studio, and PowerPoint export checked against the web render.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Turboslide
+    bytes: 49910
+  - kind: homepage
+    url: https://turboslide.vercel.app/new
+    final_url: https://turboslide.vercel.app/new
+    status: 200
+    content_type: text/html
+    title: Untitled presentation, Turboslide
+    description: An agent native slides editor with Google Slides' behaviours, a canvas on every slide and a pixel identical
+      PowerPoint export.
+    bytes: 75677
+  official_docs:
+  - kind: docs
+    title: docs/FOCUS.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/FOCUS.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/updates.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/updates.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/brand.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/brand.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/performance.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/performance.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/native.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/native.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: skills/turboslide-api/references/actions.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/skills/turboslide-api/references/actions.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/focus/
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/focus/
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/spec/SPEC.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/spec/SPEC.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC-2.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC-2.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/VERIFICATION-2.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/VERIFICATION-2.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC-3.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC-3.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: VERIFICATION-3
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/VERIFICATION-3.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC-4.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC-4.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: MILESTONES-4
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/MILESTONES-4.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: BUILD-STATUS-4
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/BUILD-STATUS-4.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/grammar.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/grammar.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/freeform.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/freeform.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/pptx.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/pptx.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/export-verification.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/export-verification.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: The fresh Untitled presentation on the Title slide with the GT mark, the menu bar, the toolbar, the filmstrip and
+      the speaker notes pane, in the dark appearance
+    url: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/docs/readme/01-new-presentation.jpg
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/FOCUS.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/FOCUS.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/updates.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/updates.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/brand.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/brand.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/performance.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/performance.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/native.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/native.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: skills/turboslide-api/references/actions.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/skills/turboslide-api/references/actions.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/focus/
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/focus/
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/spec/SPEC.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/spec/SPEC.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC-2.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC-2.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/VERIFICATION-2.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/VERIFICATION-2.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC-3.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC-3.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: VERIFICATION-3
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/VERIFICATION-3.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/gslides-parity/SPEC-4.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/SPEC-4.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: MILESTONES-4
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/MILESTONES-4.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: BUILD-STATUS-4
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/BUILD-STATUS-4.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/grammar.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/grammar.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/freeform.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/freeform.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/pptx.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/pptx.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  - kind: docs
+    title: docs/export-verification.md
+    url: https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/export-verification.md
+    source: https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md
+  source_headings:
+  - Turboslide
+  - Documentation
+- name: Design Buddy
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/SpaceZephyr/design-buddy
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Visual-production Agent Skills collection for brand systems, GPT-image-2 images, diagrams, infographics, logos,
+    slide decks, WeChat layouts, and social-image workflows across skills-compatible runtimes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SpaceZephyr/design-buddy/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SpaceZephyr/design-buddy/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 效果示例
+    bytes: 15311
+  source_headings:
+  - 效果示例
+- name: text-to-comic
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/bonniegeng-max/text-to-comic
+  homepage: https://clawhub.ai/bonniegeng-max/skills/text-to-comic
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill draft and install snapshot for turning text, dialogs, diary/photo notes, or briefs into comics,
+    picture books, infographics, and long-image visual narratives with structured style and storyboard schemas.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bonniegeng-max/text-to-comic/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bonniegeng-max/text-to-comic/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: text-to-comic v2.0.0
+    bytes: 8253
+  - kind: homepage
+    url: https://clawhub.ai/bonniegeng-max/skills/text-to-comic
+    final_url: https://clawhub.ai/bonniegeng-max/skills/text-to-comic
+    status: 200
+    content_type: text/html
+    title: Text-to-Comic · 文字转漫画 — ClawHub
+    description: Turn text, dialog, diary entries, photo notes, or knowledge notes into a comic, picture book, infographic,
+      or hybrid comic+diagram — storyboard and panel plan first, then panel-by-
+    bytes: 117229
+  source_headings:
+  - 示例
+  - Examples
+- name: ig-carousel-skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/relaxxabhi9528/ig-carousel-skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that converts articles, websites, repos, notes, reference images, or existing posts into
+    1080x1350 Instagram carousel artifacts with an AI-generated cover and HTML-coded value slides.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/relaxxabhi9528/ig-carousel-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/relaxxabhi9528/ig-carousel-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ig-carousel — Claude Code skill
+    bytes: 2471
+- name: paper-to-podium
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/mimaowang/paper-to-podium
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Script-first academic presentation skill that turns a paper and time budget into a timed talk script, distilled
+    slides, fact checks, visual QA renders, and a print-ready podium script with page-turn cues.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mimaowang/paper-to-podium/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mimaowang/paper-to-podium/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: paper-to-podium
+    bytes: 14080
+- name: claude-video-generator
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/Abhyuday98/claude-video-generator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for narrated demo, walkthrough, and capability films that combine terminal recordings, browser
+    tours, HTML slides, document captures, offline TTS narration, and audio-driven assembly.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Abhyuday98/claude-video-generator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Abhyuday98/claude-video-generator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: claude-video-generator
+    bytes: 1327
+  source_headings:
+  - claude-video-generator
+- name: Markdy
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/HoangYell/markdy-com
+  homepage: https://markdy.com
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Diagram-native DSL, browser studio, CLI, and MCP workflow for turning architecture scripts into animated step-by-step
+    system diagrams and standalone HTML explanations.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ⚡ Why Markdy?
+    bytes: 25101
+  - kind: homepage
+    url: https://markdy.com/
+    final_url: https://markdy.com/
+    status: 200
+    content_type: text/html
+    title: "Markdy - Animated Architecture Diagrams as Code"
+    description: 'Markdy is a diagram-as-code DSL for animated architecture and system diagrams: declare semantic nodes, flows,
+      and beats in plain text. Zero coordinate math, browser-native motion.'
+    bytes: 194689
+  official_examples:
+  - kind: example
+    title: cache-aside walkthrough
+    url: https://markdy.com/playground/?example=url-shortener-architecture
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: example
+    title: Explore all 17+ interactive scenes in the Live Gallery ↗
+    url: https://markdy.com/examples/
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: tutorial
+    title: Step-by-Step Tutorial (TUTORIAL.md)
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/docs/TUTORIAL.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: demo
+    title: "Studio"
+    url: https://markdy.com/playground/
+    source: https://markdy.com/
+  official_docs:
+  - kind: docs
+    title: AI Agent Guide (`AGENT.md`) ↗
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/AGENT.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Read the Full AI Agent Reference Guide (`AGENT.md`) ↗
+    url: https://markdy.com/agent/
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Syntax Reference (SYNTAX.md)
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/docs/SYNTAX.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Architecture Internals (ARCHITECTURE.md)
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://markdy.com/docs/
+    source: https://markdy.com/
+  - kind: docs
+    title: "Articles & Guides"
+    url: https://markdy.com/blog/
+    source: https://markdy.com/
+  - kind: docs
+    title: "Migration Guide"
+    url: https://markdy.com/blog/mermaid-alternative/
+    source: https://markdy.com/
+  - kind: docs
+    title: "K8s Guide"
+    url: https://markdy.com/blog/kubernetes-architecture-diagram/
+    source: https://markdy.com/
+  - kind: docs
+    title: AI Agent Guide
+    url: https://markdy.com/AGENT.md
+    source: https://markdy.com/
+  official_effect_assets:
+  - kind: gif
+    title: 'Animated cache-aside walkthrough: a Redis cache hit returns a redirect, then a cache miss queries PostgreSQL and
+      refills Redis.'
+    url: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/docs/images/markdy-cache-aside.gif
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  official_links:
+  - kind: example
+    title: cache-aside walkthrough
+    url: https://markdy.com/playground/?example=url-shortener-architecture
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: example
+    title: Explore all 17+ interactive scenes in the Live Gallery ↗
+    url: https://markdy.com/examples/
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: tutorial
+    title: Step-by-Step Tutorial (TUTORIAL.md)
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/docs/TUTORIAL.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: demo
+    title: "Studio"
+    url: https://markdy.com/playground/
+    source: https://markdy.com/
+  - kind: docs
+    title: AI Agent Guide (`AGENT.md`) ↗
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/AGENT.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Read the Full AI Agent Reference Guide (`AGENT.md`) ↗
+    url: https://markdy.com/agent/
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Syntax Reference (SYNTAX.md)
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/docs/SYNTAX.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Architecture Internals (ARCHITECTURE.md)
+    url: https://github.com/HoangYell/markdy-com/blob/HEAD/docs/ARCHITECTURE.md
+    source: https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md
+  - kind: docs
+    title: Docs
+    url: https://markdy.com/docs/
+    source: https://markdy.com/
+  - kind: docs
+    title: "Articles & Guides"
+    url: https://markdy.com/blog/
+    source: https://markdy.com/
+  - kind: docs
+    title: "Migration Guide"
+    url: https://markdy.com/blog/mermaid-alternative/
+    source: https://markdy.com/
+  - kind: docs
+    title: "K8s Guide"
+    url: https://markdy.com/blog/kubernetes-architecture-diagram/
+    source: https://markdy.com/
+  - kind: docs
+    title: AI Agent Guide
+    url: https://markdy.com/AGENT.md
+    source: https://markdy.com/
+  source_headings:
+  - 1. Try the Live Example
+  - Embed in Web Apps & Docs
+  - Visual Studio Code
+  - Render diagram to animated HTML or SVG
+  - 🔍 Detailed Features & Advanced Usage
+  - 📖 Documentation Links
+  - Batch validate all diagrams in CI/CD
+- name: zumen
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/meta-taro/zumen
+  homepage: https://meta-taro.github.io/zumen/
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Text-source desktop diagram editor with automatic layout, SVG output, Mermaid and draw.io export, Markdown
+    embeds, and an MCP server so agents can keep architecture, UML, ER, network, and UI-structure diagrams in sync.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: zumen
+    bytes: 8720
+  - kind: homepage
+    url: https://meta-taro.github.io/zumen/
+    final_url: https://meta-taro.github.io/zumen/
+    status: 200
+    content_type: text/html
+    title: zumen — AI が描き、人が直し、その直しが壊れない構成図
+    description: 構成が変わるたびに図形を動かし直すのをやめる。テキスト正本の構成図エディタ。1 枚目ではなく 2 枚目以降で勝負します。
+    bytes: 88175
+  official_examples:
+  - kind: example
+    title: '`examples/gallery/`'
+    url: https://github.com/meta-taro/zumen/blob/HEAD/examples/gallery/
+    source: https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md
+  - kind: showcase
+    title: → Browse the gallery
+    url: https://meta-taro.github.io/zumen/
+    source: https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md
+  - kind: example
+    title: examples/gallery/
+    url: https://github.com/meta-taro/zumen/tree/develop/examples/gallery
+    source: https://meta-taro.github.io/zumen/
+  official_docs:
+  - kind: docs
+    title: 入れ方
+    url: https://github.com/meta-taro/zumen/blob/develop/docs/install.md
+    source: https://meta-taro.github.io/zumen/
+  official_links:
+  - kind: example
+    title: '`examples/gallery/`'
+    url: https://github.com/meta-taro/zumen/blob/HEAD/examples/gallery/
+    source: https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md
+  - kind: showcase
+    title: → Browse the gallery
+    url: https://meta-taro.github.io/zumen/
+    source: https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md
+  - kind: example
+    title: examples/gallery/
+    url: https://github.com/meta-taro/zumen/tree/develop/examples/gallery
+    source: https://meta-taro.github.io/zumen/
+  - kind: docs
+    title: 入れ方
+    url: https://github.com/meta-taro/zumen/blob/develop/docs/install.md
+    source: https://meta-taro.github.io/zumen/

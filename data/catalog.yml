@@ -1,4 +1,4 @@
-last_researched: '2026-09-18'
+last_researched: '2026-09-19'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -20679,3 +20679,228 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: code
+- name: Turboslide
+  url: https://github.com/Kevin-Liu-01/Turboslide
+  homepage: https://turboslide.vercel.app
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - Agent 宿主
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: MIT
+  updated: '2026-09-18'
+  note: Agent-native slide editor with a block-document deck model, generated CLI/MCP/HTTP agent actions, browser studio,
+    and PowerPoint export checked against the web render.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - DSL/代码
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Design Buddy
+  url: https://github.com/SpaceZephyr/design-buddy
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 172
+  license: MIT
+  updated: '2026-09-18'
+  note: Visual-production Agent Skills collection for brand systems, GPT-image-2 images, diagrams, infographics, logos,
+    slide decks, WeChat layouts, and social-image workflows across skills-compatible runtimes.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: text-to-comic
+  url: https://github.com/bonniegeng-max/text-to-comic
+  homepage: https://clawhub.ai/bonniegeng-max/skills/text-to-comic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  updated: '2026-09-13'
+  note: Agent skill draft and install snapshot for turning text, dialogs, diary/photo notes, or briefs into comics, picture
+    books, infographics, and long-image visual narratives with structured style and storyboard schemas.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: ig-carousel-skill
+  url: https://github.com/relaxxabhi9528/ig-carousel-skill
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  updated: '2026-09-18'
+  note: Claude Code skill that converts articles, websites, repos, notes, reference images, or existing posts into 1080x1350
+    Instagram carousel artifacts with an AI-generated cover and HTML-coded value slides.
+  source_types:
+  - 网页/搜索结果
+  - 文本/想法
+  - 代码库
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: paper-to-podium
+  url: https://github.com/mimaowang/paper-to-podium
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-09-17'
+  note: Script-first academic presentation skill that turns a paper and time budget into a timed talk script, distilled
+    slides, fact checks, visual QA renders, and a print-ready podium script with page-turn cues.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: paper
+- name: claude-video-generator
+  url: https://github.com/Abhyuday98/claude-video-generator
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  updated: '2026-09-17'
+  note: Claude Code skill for narrated demo, walkthrough, and capability films that combine terminal recordings, browser
+    tours, HTML slides, document captures, offline TTS narration, and audio-driven assembly.
+  source_types:
+  - 文本/想法
+  - 代码库
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: Markdy
+  url: https://github.com/HoangYell/markdy-com
+  homepage: https://markdy.com
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 模板/素材
+  stars: 96
+  license: MIT
+  updated: '2026-09-17'
+  note: Diagram-native DSL, browser studio, CLI, and MCP workflow for turning architecture scripts into animated step-by-step
+    system diagrams and standalone HTML explanations.
+  source_types:
+  - 代码/技术描述
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: diagram
+- name: zumen
+  url: https://github.com/meta-taro/zumen
+  homepage: https://meta-taro.github.io/zumen/
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - MCP Client
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-09-18'
+  note: Text-source desktop diagram editor with automatic layout, SVG output, Mermaid and draw.io export, Markdown embeds,
+    and an MCP server so agents can keep architecture, UML, ER, network, and UI-structure diagrams in sync.
+  source_types:
+  - 代码/技术描述
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagram

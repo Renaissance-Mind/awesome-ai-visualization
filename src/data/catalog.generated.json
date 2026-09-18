@@ -1,61 +1,61 @@
 {
-  "generatedAt": "2026-09-17T23:04:23+00:00",
-  "lastResearched": "2026-09-18",
+  "generatedAt": "2026-09-18T23:05:40+00:00",
+  "lastResearched": "2026-09-19",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 791,
-    "openSource": 198,
+    "total": 799,
+    "openSource": 201,
     "saas": 73,
-    "modelApi": 249,
-    "examples": 1632,
-    "effectAssets": 2119,
-    "docs": 1887
+    "modelApi": 252,
+    "examples": 1639,
+    "effectAssets": 2121,
+    "docs": 1917
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 80,
-      "PDF/文档": 232,
-      "文本/想法": 502,
+      "论文/科研资料": 81,
+      "PDF/文档": 234,
+      "文本/想法": 509,
       "数据/表格": 329,
-      "代码/技术描述": 161,
-      "任意/多源": 128,
-      "网页/搜索结果": 193,
-      "代码库": 95,
-      "DSL/代码": 160,
+      "代码/技术描述": 163,
+      "任意/多源": 131,
+      "网页/搜索结果": 196,
+      "代码库": 97,
+      "DSL/代码": 163,
       "新闻/资讯": 29,
       "知识库/个人资料": 79,
-      "Office 文档": 147,
+      "Office 文档": 148,
       "引用网络": 5,
       "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 198,
-      "Agent Skill": 301,
-      "Skill 集合": 80,
-      "MCP Server": 267,
+      "开源应用/框架": 201,
+      "Agent Skill": 306,
+      "Skill 集合": 81,
+      "MCP Server": 270,
       "产品/SaaS": 73,
       "数据集/评测": 3,
       "Bot/助手": 26,
       "研究原型": 10,
-      "API/SDK/库": 125,
+      "API/SDK/库": 126,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 64,
-      "PPT/演示文稿": 333,
-      "网页/交互页面": 278,
+      "图形摘要/信息图": 66,
+      "PPT/演示文稿": 337,
+      "网页/交互页面": 282,
       "问答/学习材料": 18,
-      "报告/长文档": 113,
+      "报告/长文档": 114,
       "证据表": 67,
-      "信息图/视觉报告": 109,
+      "信息图/视觉报告": 112,
       "图表/仪表盘": 252,
-      "架构图/流程图": 171,
-      "SVG/PNG/PDF": 334,
+      "架构图/流程图": 173,
+      "SVG/PNG/PDF": 340,
       "报告/简报": 94,
       "白板/思维导图": 44,
-      "图表/Mermaid": 79,
-      "视频/音频": 61,
+      "图表/Mermaid": 80,
+      "视频/音频": 63,
       "结构化数据/Markdown": 122,
       "表格/时间线": 35,
       "引用答案": 7,
@@ -66,50 +66,50 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 669,
-      "模型 API": 249,
-      "文档解析/OCR": 113,
-      "渲染/导出": 693,
+      "本地语言环境": 677,
+      "模型 API": 252,
+      "文档解析/OCR": 114,
+      "渲染/导出": 701,
       "GPU/加速器": 21,
-      "模板/素材": 381,
-      "Agent 宿主": 389,
-      "系统工具": 177,
-      "浏览器/账号": 182,
-      "存储/索引": 122,
-      "MCP Client": 279,
+      "模板/素材": 388,
+      "Agent 宿主": 395,
+      "系统工具": 180,
+      "浏览器/账号": 184,
+      "存储/索引": 123,
+      "MCP Client": 282,
       "外部检索/数据源": 166,
       "代码分析工具": 60
     },
     "categories": {
-      "paper-visualization": 26,
+      "paper-visualization": 27,
       "doc-to-knowledge": 67,
       "research-report": 34,
-      "infographic-report": 73,
+      "infographic-report": 76,
       "data-dashboard": 131,
-      "diagram-generation": 88,
+      "diagram-generation": 90,
       "literature-map": 5,
-      "presentation-tools": 232,
+      "presentation-tools": 233,
       "rendering-primitive": 26,
-      "video-generation": 18,
+      "video-generation": 19,
       "codebase-map": 52,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 41,
-      "text_visual": 94,
+      "paper": 42,
+      "text_visual": 97,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 38,
       "support_doc_parse": 24,
-      "presentation": 240,
+      "presentation": 241,
       "data": 124,
-      "video": 18,
+      "video": 19,
       "code": 58,
       "support_render": 70,
       "diagrams": 20,
       "indexes": 28,
-      "diagram": 3,
+      "diagram": 5,
       "index": 1,
       "knowledge": 2,
       "text": 3
@@ -64665,6 +64665,499 @@
       "effectAssets": [],
       "docsCount": 0,
       "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Turboslide",
+      "url": "https://github.com/Kevin-Liu-01/Turboslide",
+      "primaryUrl": "https://github.com/Kevin-Liu-01/Turboslide",
+      "homepage": "https://turboslide.vercel.app",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "Agent 宿主",
+        "本地语言环境",
+        "MCP Client",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-09-18",
+      "note": "Agent-native slide editor with a block-document deck model, generated CLI/MCP/HTTP agent actions, browser studio, and PowerPoint export checked against the web render.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/FOCUS.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/FOCUS.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/updates.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/updates.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/brand.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/brand.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/performance.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/performance.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/native.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/native.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "skills/turboslide-api/references/actions.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/skills/turboslide-api/references/actions.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/gslides-parity/focus/",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/gslides-parity/focus/",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/spec/SPEC.md",
+          "url": "https://github.com/Kevin-Liu-01/Turboslide/blob/HEAD/docs/spec/SPEC.md",
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "The fresh Untitled presentation on the Title slide with the GT mark, the menu bar, the toolbar, the filmstrip and the speaker notes pane, in the dark appearance",
+          "url": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/docs/readme/01-new-presentation.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Kevin-Liu-01/Turboslide/HEAD/README.md"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Design Buddy",
+      "url": "https://github.com/SpaceZephyr/design-buddy",
+      "primaryUrl": "https://github.com/SpaceZephyr/design-buddy",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 172,
+      "license": "MIT",
+      "updated": "2026-09-18",
+      "note": "Visual-production Agent Skills collection for brand systems, GPT-image-2 images, diagrams, infographics, logos, slide decks, WeChat layouts, and social-image workflows across skills-compatible runtimes.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "text-to-comic",
+      "url": "https://github.com/bonniegeng-max/text-to-comic",
+      "primaryUrl": "https://github.com/bonniegeng-max/text-to-comic",
+      "homepage": "https://clawhub.ai/bonniegeng-max/skills/text-to-comic",
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": null,
+      "updated": "2026-09-13",
+      "note": "Agent skill draft and install snapshot for turning text, dialogs, diary/photo notes, or briefs into comics, picture books, infographics, and long-image visual narratives with structured style and storyboard schemas.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ig-carousel-skill",
+      "url": "https://github.com/relaxxabhi9528/ig-carousel-skill",
+      "primaryUrl": "https://github.com/relaxxabhi9528/ig-carousel-skill",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": null,
+      "updated": "2026-09-18",
+      "note": "Claude Code skill that converts articles, websites, repos, notes, reference images, or existing posts into 1080x1350 Instagram carousel artifacts with an AI-generated cover and HTML-coded value slides.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "文本/想法",
+        "代码库",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "paper-to-podium",
+      "url": "https://github.com/mimaowang/paper-to-podium",
+      "primaryUrl": "https://github.com/mimaowang/paper-to-podium",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-17",
+      "note": "Script-first academic presentation skill that turns a paper and time budget into a timed talk script, distilled slides, fact checks, visual QA renders, and a print-ready podium script with page-turn cues.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "claude-video-generator",
+      "url": "https://github.com/Abhyuday98/claude-video-generator",
+      "primaryUrl": "https://github.com/Abhyuday98/claude-video-generator",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": null,
+      "updated": "2026-09-17",
+      "note": "Claude Code skill for narrated demo, walkthrough, and capability films that combine terminal recordings, browser tours, HTML slides, document captures, offline TTS narration, and audio-driven assembly.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码库",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "PPT/演示文稿",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Markdy",
+      "url": "https://github.com/HoangYell/markdy-com",
+      "primaryUrl": "https://github.com/HoangYell/markdy-com",
+      "homepage": "https://markdy.com",
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "MCP Client",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 96,
+      "license": "MIT",
+      "updated": "2026-09-17",
+      "note": "Diagram-native DSL, browser studio, CLI, and MCP workflow for turning architecture scripts into animated step-by-step system diagrams and standalone HTML explanations.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "AI Agent Guide (`AGENT.md`) ↗",
+          "url": "https://github.com/HoangYell/markdy-com/blob/HEAD/AGENT.md",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Read the Full AI Agent Reference Guide (`AGENT.md`) ↗",
+          "url": "https://markdy.com/agent/",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Syntax Reference (SYNTAX.md)",
+          "url": "https://github.com/HoangYell/markdy-com/blob/HEAD/docs/SYNTAX.md",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Architecture Internals (ARCHITECTURE.md)",
+          "url": "https://github.com/HoangYell/markdy-com/blob/HEAD/docs/ARCHITECTURE.md",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://markdy.com/docs/",
+          "source": "https://markdy.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Articles & Guides",
+          "url": "https://markdy.com/blog/",
+          "source": "https://markdy.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Migration Guide",
+          "url": "https://markdy.com/blog/mermaid-alternative/",
+          "source": "https://markdy.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "K8s Guide",
+          "url": "https://markdy.com/blog/kubernetes-architecture-diagram/",
+          "source": "https://markdy.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "cache-aside walkthrough",
+          "url": "https://markdy.com/playground/?example=url-shortener-architecture",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Explore all 17+ interactive scenes in the Live Gallery ↗",
+          "url": "https://markdy.com/examples/",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Step-by-Step Tutorial (TUTORIAL.md)",
+          "url": "https://github.com/HoangYell/markdy-com/blob/HEAD/docs/TUTORIAL.md",
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Studio",
+          "url": "https://markdy.com/playground/",
+          "source": "https://markdy.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Animated cache-aside walkthrough: a Redis cache hit returns a redirect, then a cache miss queries PostgreSQL and refills Redis.",
+          "url": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/docs/images/markdy-cache-aside.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HoangYell/markdy-com/HEAD/README.md"
+        }
+      ],
+      "docsCount": 9,
+      "examplesCount": 4,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "zumen",
+      "url": "https://github.com/meta-taro/zumen",
+      "primaryUrl": "https://github.com/meta-taro/zumen",
+      "homepage": "https://meta-taro.github.io/zumen/",
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "MCP Client",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-18",
+      "note": "Text-source desktop diagram editor with automatic layout, SVG output, Mermaid and draw.io export, Markdown embeds, and an MCP server so agents can keep architecture, UML, ER, network, and UI-structure diagrams in sync.",
+      "sourceTypes": [
+        "代码/技术描述",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "入れ方",
+          "url": "https://github.com/meta-taro/zumen/blob/develop/docs/install.md",
+          "source": "https://meta-taro.github.io/zumen/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/gallery/`",
+          "url": "https://github.com/meta-taro/zumen/blob/HEAD/examples/gallery/",
+          "source": "https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "→ Browse the gallery",
+          "url": "https://meta-taro.github.io/zumen/",
+          "source": "https://raw.githubusercontent.com/meta-taro/zumen/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/gallery/",
+          "url": "https://github.com/meta-taro/zumen/tree/develop/examples/gallery",
+          "source": "https://meta-taro.github.io/zumen/"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 3,
       "effectAssetsCount": 0
     }
   ]
