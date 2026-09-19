@@ -1,4 +1,4 @@
-last_researched: '2026-09-19'
+last_researched: '2026-09-20'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -20904,3 +20904,213 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: diagram
+- name: Univer
+  url: https://github.com/dream-num/univer
+  homepage: https://docs.univer.ai
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  stars: 14414
+  license: Apache-2.0
+  updated: '2026-09-19'
+  note: Office SDK and shared runtime for AI-agent-facing spreadsheets, documents, presentations, bases, boards, and embeddable productivity surfaces with canvas rendering and facade APIs.
+  source_types:
+  - Office 文档
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 图表/仪表盘
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: DECKBench
+  url: https://github.com/morgan-heisler/DeckBench
+  homepage: https://arxiv.org/abs/2602.13318
+  category: paper-visualization
+  surface: dataset
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模型 API
+  stars: 9
+  license: unknown
+  updated: '2026-09-14'
+  note: KDD 2026 benchmark and evaluation code for academic paper-to-slide generation plus multi-turn slide editing, with paper/slide metadata, simulated edit trajectories, metrics, and baseline agent pipeline.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - 数据集/评测
+  - 研究原型
+  output_forms:
+  - PPT/演示文稿
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: paper
+- name: SlideForge RL
+  url: https://github.com/pushing-the-frontier/slide-forge-llm
+  homepage: https://arxiv.org/abs/2603.16839
+  category: presentation-tools
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 渲染/导出
+  stars: 3
+  license: unknown
+  updated: '2026-07-07'
+  note: Reinforcement-learning environment for agentic HTML slide generation with multi-step tool use, render/aesthetic/content rewards, GRPO training, and SlideRL rollout data.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - 研究原型
+  - 数据集/评测
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: SLIDEFORGE
+  url: https://github.com/UIUC-MONET/SLIDEFORGE
+  homepage: https://arxiv.org/abs/2609.03109
+  category: presentation-tools
+  surface: research
+  dependencies:
+  - 本地语言环境
+  - GPU/加速器
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  stars: 3
+  license: MIT
+  updated: '2026-09-10'
+  note: Official implementation for controllable slide editing with Deck State Graph construction, PPTX-native object grounding, theme-preserving reconstruction, rendered verification, and self-repair.
+  source_types:
+  - Office 文档
+  - 论文/科研资料
+  tool_forms:
+  - 研究原型
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: DeckVoice
+  url: https://github.com/Atif1299/overtone-meeting-assistant
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: unknown
+  updated: '2026-09-19'
+  note: AI meeting presentation agent that ingests PPTX/PDF decks, joins Meet/Zoom/Teams through Recall.ai, presents slides as bot camera output, and answers questions grounded in indexed slide content.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  tool_forms:
+  - 开源应用/框架
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 视频/音频
+  - 引用答案
+  catalog_section: main
+  readme_group: presentation
+- name: Aspose.Slides Agentic .NET Examples
+  url: https://github.com/aspose-slides/agentic-net-examples
+  homepage: https://products.aspose.com/slides/net/
+  category: rendering-primitive
+  surface: library
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  stars: 0
+  license: unknown
+  updated: '2026-09-18'
+  note: AI-friendly validated C# example corpus for generating, analyzing, converting, charting, securing, and automating PowerPoint presentations through Aspose.Slides for .NET.
+  source_types:
+  - Office 文档
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: Slidra
+  url: https://github.com/Noopher-AI/slidra
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  stars: 3
+  license: Apache-2.0
+  updated: '2026-09-17'
+  note: Shared presentation workspace where humans edit visually and agents operate through an inspectable .slidra document, CLI actions, skills, and executable validators.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: Preflight Decks
+  url: https://github.com/MJorgin/preflight-decks
+  homepage: https://mjorgin.github.io/preflight-decks/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: unknown
+  updated: '2026-09-18'
+  note: Agent skill for HTML presentations that asks for three concrete design directions, creates a single-file deck, and verifies projector and phone readiness before delivery.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation

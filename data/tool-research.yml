@@ -1,4 +1,4 @@
-generated_at: '2026-09-18T23:05:40+00:00'
+generated_at: '2026-09-19T23:05:00+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 799
-  fetched_sources_ok: 1070
+  entries: 807
+  fetched_sources_ok: 1084
   fetched_sources_failed: 54
-  official_examples: 1639
-  official_effect_assets: 2121
-  official_docs: 1917
+  official_examples: 1701
+  official_effect_assets: 2151
+  official_docs: 1952
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -61751,3 +61751,1219 @@ entries:
     title: 入れ方
     url: https://github.com/meta-taro/zumen/blob/develop/docs/install.md
     source: https://meta-taro.github.io/zumen/
+- name: Univer
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/dream-num/univer
+  homepage: https://docs.univer.ai
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  catalog_note: Office SDK and shared runtime for AI-agent-facing spreadsheets, documents, presentations, bases, boards, and
+    embeddable productivity surfaces with canvas rendering and facade APIs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ✨ What is Univer?
+    bytes: 25830
+  - kind: homepage
+    url: https://docs.univer.ai/
+    final_url: https://docs.univer.ai/
+    status: 200
+    content_type: text/html
+    title: Univer Office SDK
+    description: Univer Office SDK brings a unified Office runtime into your product, enabling humans and AI agents to work
+      together with freely composable and embeddable
+    bytes: 209121
+  official_examples:
+  - kind: showcase
+    title: ✨ Showcase
+    url: https://docs.univer.ai/showcase
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/dream-num/univer/blob/HEAD/examples
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@dreamNum
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: showcase
+    title: Showcase
+    url: https://office.univer.ai
+    source: https://docs.univer.ai/
+  - kind: template
+    title: Tools
+    url: https://docs.univer.ai/tools/theme-customizer
+    source: https://docs.univer.ai/
+  official_docs:
+  - kind: docs
+    title: 简体中文
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/zh-CN.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 繁體中文
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/zh-TW.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/ja-JP.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 한국어
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/ko-KR.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Español
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/es-ES.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 📖 Documentation
+    url: https://docs.univer.ai
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 📘 API Reference
+    url: https://docs.univer.ai/reference/classes/univer
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: AI SDK documentation
+    url: https://docs.univer.ai/ai
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Installation & Basic Usage guide
+    url: https://docs.univer.ai/guides/sheets/getting-started/installation
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: '`createUniver` reference'
+    url: https://docs.univer.ai/reference/methods/create-univer
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: architecture guide
+    url: https://docs.univer.ai/guides/recipes/architecture/univer
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Headless Univer
+    url: https://docs.univer.ai/guides/sheets/getting-started/node
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: API Stability Policy
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/API_STABILITY.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Univer Pro guide
+    url: https://docs.univer.ai/guides/pro
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: AI Skills guide
+    url: https://docs.univer.ai/guides/skills
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: embedded editors and headless processing
+    url: https://docs.univer.ai/guides/sheets
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Building Isomorphic Univer
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/ISOMORPHIC.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Contributing to Facade API
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/CONTRIBUTING-FACADE.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Naming Convention
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/NAMING_CONVENTION.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Fixing Memory Leaks
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/FIX_MEMORY_LEAK.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Univer SDK
+    url: https://raw.githubusercontent.com/dream-num/univer/HEAD/docs/img/banner.png
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 简体中文
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/zh-CN.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 繁體中文
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/zh-TW.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 日本語
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/ja-JP.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 한국어
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/ko-KR.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Español
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/readme/es-ES.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 📖 Documentation
+    url: https://docs.univer.ai
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: showcase
+    title: ✨ Showcase
+    url: https://docs.univer.ai/showcase
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: 📘 API Reference
+    url: https://docs.univer.ai/reference/classes/univer
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: AI SDK documentation
+    url: https://docs.univer.ai/ai
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Installation & Basic Usage guide
+    url: https://docs.univer.ai/guides/sheets/getting-started/installation
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: '`createUniver` reference'
+    url: https://docs.univer.ai/reference/methods/create-univer
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/dream-num/univer/blob/HEAD/examples
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: architecture guide
+    url: https://docs.univer.ai/guides/recipes/architecture/univer
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Headless Univer
+    url: https://docs.univer.ai/guides/sheets/getting-started/node
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: API Stability Policy
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/API_STABILITY.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Univer Pro guide
+    url: https://docs.univer.ai/guides/pro
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: AI Skills guide
+    url: https://docs.univer.ai/guides/skills
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: embedded editors and headless processing
+    url: https://docs.univer.ai/guides/sheets
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Building Isomorphic Univer
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/ISOMORPHIC.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Contributing to Facade API
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/CONTRIBUTING-FACADE.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Naming Convention
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/NAMING_CONVENTION.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Fixing Memory Leaks
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/FIX_MEMORY_LEAK.md
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: Architecture TLDRs
+    url: https://github.com/dream-num/univer/blob/HEAD/docs/tldr
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@dreamNum
+    source: https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://docs.univer.ai/reference
+    source: https://docs.univer.ai/
+  - kind: showcase
+    title: Showcase
+    url: https://office.univer.ai
+    source: https://docs.univer.ai/
+  - kind: template
+    title: Tools
+    url: https://docs.univer.ai/tools/theme-customizer
+    source: https://docs.univer.ai/
+  - kind: docs
+    title: Read the Server SDK docs
+    url: https://docs.univer.ai/server
+    source: https://docs.univer.ai/
+  - kind: docs
+    title: View plugins
+    url: https://docs.univer.ai/guides/sheets/getting-started/quickstart
+    source: https://docs.univer.ai/
+  - kind: docs
+    title: View integrations
+    url: https://docs.univer.ai/guides/sheets/getting-started/integrations/react
+    source: https://docs.univer.ai/
+- name: DECKBench
+  category: paper-visualization
+  surface: dataset
+  primary_url: https://github.com/morgan-heisler/DeckBench
+  homepage: https://arxiv.org/abs/2602.13318
+  dependencies:
+  - 本地语言环境
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模型 API
+  catalog_note: KDD 2026 benchmark and evaluation code for academic paper-to-slide generation plus multi-turn slide editing,
+    with paper/slide metadata, simulated edit trajectories, metrics, and baseline agent pipeline.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/morgan-heisler/DeckBench/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/morgan-heisler/DeckBench/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Overview
+    bytes: 12908
+  - kind: homepage
+    url: https://arxiv.org/abs/2602.13318
+    final_url: https://arxiv.org/abs/2602.13318
+    status: 200
+    content_type: text/html
+    title: '[2602.13318] DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing'
+    description: 'Abstract page for arXiv paper 2602.13318: DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide
+      Generation and Editing'
+    bytes: 44648
+  official_examples:
+  - kind: paper
+    title: arXiv:2602.13318
+    url: https://arxiv.org/abs/2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: arXiv:2602.13318v1
+    url: https://arxiv.org/abs/2602.13318v1
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2602.13318
+    url: https://doi.org/10.48550/arXiv.2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2602.13318&amp;description=DECKBench:
+      Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2602.13318&amp;description=DECKBench:
+      Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing'
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2602.13318&amp;title=DECKBench: Benchmarking Multi-Agent Frameworks
+      for Academic Slide Generation and Editing'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2602.13318&amp;title=DECKBench: Benchmarking Multi-Agent Frameworks
+      for Academic Slide Generation and Editing'
+    source: https://arxiv.org/abs/2602.13318
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  official_docs:
+  - kind: docs
+    title: What is Replicate?
+    url: https://replicate.com/docs/arxiv/about
+    source: https://arxiv.org/abs/2602.13318
+  - kind: docs
+    title: What is Spaces?
+    url: https://huggingface.co/docs/hub/spaces
+    source: https://arxiv.org/abs/2602.13318
+  official_effect_assets:
+  - kind: image
+    title: Simons Foundation
+    url: https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png
+    source: https://arxiv.org/abs/2602.13318
+  - kind: image
+    title: Simons Foundation International
+    url: https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png
+    source: https://arxiv.org/abs/2602.13318
+  - kind: image
+    title: Schmidt Sciences
+    url: https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png
+    source: https://arxiv.org/abs/2602.13318
+  official_links:
+  - kind: paper
+    title: arXiv:2602.13318
+    url: https://arxiv.org/abs/2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: arXiv:2602.13318v1
+    url: https://arxiv.org/abs/2602.13318v1
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2602.13318
+    url: https://doi.org/10.48550/arXiv.2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2602.13318&amp;description=DECKBench:
+      Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2602.13318&amp;description=DECKBench:
+      Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing'
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2602.13318&amp;title=DECKBench: Benchmarking Multi-Agent Frameworks
+      for Academic Slide Generation and Editing'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2602.13318&amp;title=DECKBench: Benchmarking Multi-Agent Frameworks
+      for Academic Slide Generation and Editing'
+    source: https://arxiv.org/abs/2602.13318
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2602.13318
+  - kind: docs
+    title: What is Replicate?
+    url: https://replicate.com/docs/arxiv/about
+    source: https://arxiv.org/abs/2602.13318
+  - kind: docs
+    title: What is Spaces?
+    url: https://huggingface.co/docs/hub/spaces
+    source: https://arxiv.org/abs/2602.13318
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2602.13318
+    source: https://arxiv.org/abs/2602.13318
+  source_headings:
+  - 'Evaluation for Task 1: Slide Generation'
+  - 'Evaluation for Task 2: Multi-Turn Slide Editing'
+- name: SlideForge RL
+  category: presentation-tools
+  surface: research
+  primary_url: https://github.com/pushing-the-frontier/slide-forge-llm
+  homepage: https://arxiv.org/abs/2603.16839
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - GPU/加速器
+  - 渲染/导出
+  catalog_note: Reinforcement-learning environment for agentic HTML slide generation with multi-step tool use, render/aesthetic/content
+    rewards, GRPO training, and SlideRL rollout data.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/pushing-the-frontier/slide-forge-llm/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/pushing-the-frontier/slide-forge-llm/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'SlideForge: Agentic Presentation Generation with Reinforcement Learning'
+    bytes: 14044
+  - kind: homepage
+    url: https://arxiv.org/abs/2603.16839
+    final_url: https://arxiv.org/abs/2603.16839
+    status: 200
+    content_type: text/html
+    title: '[2603.16839] Learning to Present: Inverse Specification Rewards for Agentic Slide Generation'
+    description: 'Abstract page for arXiv paper 2603.16839: Learning to Present: Inverse Specification Rewards for Agentic
+      Slide Generation'
+    bytes: 42892
+  official_examples:
+  - kind: paper
+    title: KarthikRagunathAnandaKumar/slides-expert-trajectories-grpo
+    url: https://huggingface.co/datasets/KarthikRagunathAnandaKumar/slides-expert-trajectories-grpo
+    source: https://raw.githubusercontent.com/pushing-the-frontier/slide-forge-llm/HEAD/README.md
+  - kind: paper
+    title: this https URL
+    url: https://huggingface.co/datasets/KarthikRagunathAnandaKumar/sliderl-multi-turn-rollouts
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: arXiv:2603.16839
+    url: https://arxiv.org/abs/2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: arXiv:2603.16839v1
+    url: https://arxiv.org/abs/2603.16839v1
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2603.16839
+    url: https://doi.org/10.48550/arXiv.2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2603.16839&amp;description=Learning
+      to Present: Inverse Specification Rewards for Agentic Slide Generation'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2603.16839&amp;description=Learning
+      to Present: Inverse Specification Rewards for Agentic Slide Generation'
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2603.16839&amp;title=Learning to Present: Inverse Specification
+      Rewards for Agentic Slide Generation'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2603.16839&amp;title=Learning to Present: Inverse Specification
+      Rewards for Agentic Slide Generation'
+    source: https://arxiv.org/abs/2603.16839
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  official_docs:
+  - kind: docs
+    title: What is Replicate?
+    url: https://replicate.com/docs/arxiv/about
+    source: https://arxiv.org/abs/2603.16839
+  - kind: docs
+    title: What is Spaces?
+    url: https://huggingface.co/docs/hub/spaces
+    source: https://arxiv.org/abs/2603.16839
+  official_effect_assets:
+  - kind: image
+    title: Simons Foundation
+    url: https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png
+    source: https://arxiv.org/abs/2603.16839
+  - kind: image
+    title: Simons Foundation International
+    url: https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png
+    source: https://arxiv.org/abs/2603.16839
+  - kind: image
+    title: Schmidt Sciences
+    url: https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png
+    source: https://arxiv.org/abs/2603.16839
+  official_links:
+  - kind: paper
+    title: KarthikRagunathAnandaKumar/slides-expert-trajectories-grpo
+    url: https://huggingface.co/datasets/KarthikRagunathAnandaKumar/slides-expert-trajectories-grpo
+    source: https://raw.githubusercontent.com/pushing-the-frontier/slide-forge-llm/HEAD/README.md
+  - kind: paper
+    title: this https URL
+    url: https://huggingface.co/datasets/KarthikRagunathAnandaKumar/sliderl-multi-turn-rollouts
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: arXiv:2603.16839
+    url: https://arxiv.org/abs/2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: arXiv:2603.16839v1
+    url: https://arxiv.org/abs/2603.16839v1
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2603.16839
+    url: https://doi.org/10.48550/arXiv.2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2603.16839&amp;description=Learning
+      to Present: Inverse Specification Rewards for Agentic Slide Generation'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2603.16839&amp;description=Learning
+      to Present: Inverse Specification Rewards for Agentic Slide Generation'
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2603.16839&amp;title=Learning to Present: Inverse Specification
+      Rewards for Agentic Slide Generation'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2603.16839&amp;title=Learning to Present: Inverse Specification
+      Rewards for Agentic Slide Generation'
+    source: https://arxiv.org/abs/2603.16839
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2603.16839
+  - kind: docs
+    title: What is Replicate?
+    url: https://replicate.com/docs/arxiv/about
+    source: https://arxiv.org/abs/2603.16839
+  - kind: docs
+    title: What is Spaces?
+    url: https://huggingface.co/docs/hub/spaces
+    source: https://arxiv.org/abs/2603.16839
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2603.16839
+    source: https://arxiv.org/abs/2603.16839
+  source_headings:
+  - 'SlideForge: Agentic Presentation Generation with Reinforcement Learning'
+  - 'Environment: SlideForge'
+  - Models and Demos
+- name: SLIDEFORGE
+  category: presentation-tools
+  surface: research
+  primary_url: https://github.com/UIUC-MONET/SLIDEFORGE
+  homepage: https://arxiv.org/abs/2609.03109
+  dependencies:
+  - 本地语言环境
+  - GPU/加速器
+  - 文档解析/OCR
+  - 渲染/导出
+  - 系统工具
+  catalog_note: Official implementation for controllable slide editing with Deck State Graph construction, PPTX-native object
+    grounding, theme-preserving reconstruction, rendered verification, and self-repair.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'SlideForge: An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+    bytes: 11071
+  - kind: homepage
+    url: https://arxiv.org/abs/2609.03109
+    final_url: https://arxiv.org/abs/2609.03109
+    status: 200
+    content_type: text/html
+    title: '[2609.03109] SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+    description: 'Abstract page for arXiv paper 2609.03109: SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as
+      Structured Artifacts'
+    bytes: 42640
+  official_examples:
+  - kind: example
+    title: full example runs
+    url: https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/decomposition/
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: example
+    title: industrial
+    url: https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: example
+    title: finance
+    url: https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: paper
+    title: arXiv:2609.03109
+    url: https://arxiv.org/abs/2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: arXiv:2609.03109v1
+    url: https://arxiv.org/abs/2609.03109v1
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2609.03109
+    url: https://doi.org/10.48550/arXiv.2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2609.03109&amp;description=SLIDEFORGE:
+      An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2609.03109&amp;description=SLIDEFORGE:
+      An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2609.03109&amp;title=SLIDEFORGE: An LLM Agent for Controllable
+      Editing of Slides as Structured Artifacts'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2609.03109&amp;title=SLIDEFORGE: An LLM Agent for Controllable
+      Editing of Slides as Structured Artifacts'
+    source: https://arxiv.org/abs/2609.03109
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  official_docs:
+  - kind: docs
+    title: What is Replicate?
+    url: https://replicate.com/docs/arxiv/about
+    source: https://arxiv.org/abs/2609.03109
+  - kind: docs
+    title: What is Spaces?
+    url: https://huggingface.co/docs/hub/spaces
+    source: https://arxiv.org/abs/2609.03109
+  official_effect_assets:
+  - kind: image
+    title: 'DSG overlay: dense slide'
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/decomposition/0000_SIGCOMM2019_paper_2_3_slide_027_slide_027/final/overlay.png
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: 'DSG overlay: diagram slide'
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/decomposition/0001_SIGCOMM2013_hotsdn_08_slide_016_slide_016/final/overlay.png
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Original
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0000/original.png
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Final Render
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0000/final_render.jpg
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Original
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0002/original.png
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Final Render
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0002/final_render.jpg
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Original
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/0001/original.png
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Final Render
+    url: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/0001/final_render.jpg
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: image
+    title: Simons Foundation
+    url: https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png
+    source: https://arxiv.org/abs/2609.03109
+  - kind: image
+    title: Simons Foundation International
+    url: https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png
+    source: https://arxiv.org/abs/2609.03109
+  - kind: image
+    title: Schmidt Sciences
+    url: https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png
+    source: https://arxiv.org/abs/2609.03109
+  official_links:
+  - kind: example
+    title: full example runs
+    url: https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/decomposition/
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: example
+    title: industrial
+    url: https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: example
+    title: finance
+    url: https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/
+    source: https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md
+  - kind: paper
+    title: arXiv:2609.03109
+    url: https://arxiv.org/abs/2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: arXiv:2609.03109v1
+    url: https://arxiv.org/abs/2609.03109v1
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: https://doi.org/10.48550/arXiv.2609.03109
+    url: https://doi.org/10.48550/arXiv.2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: NASA ADS
+    url: https://ui.adsabs.harvard.edu/abs/arXiv:2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: Semantic Scholar
+    url: https://api.semanticscholar.org/arXiv:2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2609.03109&amp;description=SLIDEFORGE:
+      An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+    url: 'http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2609.03109&amp;description=SLIDEFORGE:
+      An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: 'https://reddit.com/submit?url=https://arxiv.org/abs/2609.03109&amp;title=SLIDEFORGE: An LLM Agent for Controllable
+      Editing of Slides as Structured Artifacts'
+    url: 'https://reddit.com/submit?url=https://arxiv.org/abs/2609.03109&amp;title=SLIDEFORGE: An LLM Agent for Controllable
+      Editing of Slides as Structured Artifacts'
+    source: https://arxiv.org/abs/2609.03109
+  - kind: showcase
+    title: What is the Explorer?
+    url: https://info.arxiv.org/labs/showcase.html
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: What is Connected Papers?
+    url: https://www.connectedpapers.com/about
+    source: https://arxiv.org/abs/2609.03109
+  - kind: docs
+    title: What is Replicate?
+    url: https://replicate.com/docs/arxiv/about
+    source: https://arxiv.org/abs/2609.03109
+  - kind: docs
+    title: What is Spaces?
+    url: https://huggingface.co/docs/hub/spaces
+    source: https://arxiv.org/abs/2609.03109
+  - kind: paper
+    title: Which authors of this paper are endorsers?
+    url: https://arxiv.org/auth/show-endorsers/2609.03109
+    source: https://arxiv.org/abs/2609.03109
+  source_headings:
+  - 'SlideForge: An LLM Agent for Controllable Editing of Slides as Structured Artifacts'
+  - Examples
+  - -> sam3/checkpoints/sam3_slideforge.pt (SlideForge fine-tuned decoder)
+  - decompose rendered slides (PNG dir or JSON list of paths)
+  - 'DeckStateGraph: N slide(s), M component(s), K edge(s) ...'
+- name: DeckVoice
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Atif1299/overtone-meeting-assistant
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: AI meeting presentation agent that ingests PPTX/PDF decks, joins Meet/Zoom/Teams through Recall.ai, presents
+    slides as bot camera output, and answers questions grounded in indexed slide content.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Atif1299/overtone-meeting-assistant/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Atif1299/overtone-meeting-assistant/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: What is DeckVoice?
+    bytes: 4597
+  source_headings:
+  - Dashboard → http://127.0.0.1:5176
+- name: Aspose.Slides Agentic .NET Examples
+  category: rendering-primitive
+  surface: library
+  primary_url: https://github.com/aspose-slides/agentic-net-examples
+  homepage: https://products.aspose.com/slides/net/
+  dependencies:
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  catalog_note: AI-friendly validated C# example corpus for generating, analyzing, converting, charting, securing, and automating
+    PowerPoint presentations through Aspose.Slides for .NET.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Aspose.Slides for .NET Examples (V26.5.0)
+    bytes: 9834
+  - kind: homepage
+    url: https://products.aspose.com/slides/net/
+    final_url: https://products.aspose.com/slides/net/
+    status: 200
+    content_type: text/html
+    title: C# .NET PowerPoint Processing API | Aspose.Slides | products.aspose.com
+    description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing, converting, and processing presentations
+      programmatically.
+    bytes: 43285
+  official_examples:
+  - kind: example
+    title: AI Agent Guide
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/AGENTS.md
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: 3d-presentations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/3d-presentations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: animations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/animations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: comments-and-notes
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/comments-and-notes/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: conversion
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/conversion/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: design-presentations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/design-presentations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation-content
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-content/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation-media-files
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-media-files/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation-text
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-text/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-tags-and-custom-data
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-tags-and-custom-data/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: math-equations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/math-equations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: presentation-ink-objects
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/presentation-ink-objects/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: secure-presentations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/secure-presentations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: vba-macros
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/vba-macros/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-charts
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-charts/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-shapes
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-shapes/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-slides
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-slides/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-smartart
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-smartart/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-tables
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-tables/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Aspose.Slides for .NET Documentation
+    url: https://docs.aspose.com/slides/net/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://reference.aspose.com/slides/net/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Aspose.Slides for .NET Documentation
+    url: https://docs.aspose.com/slides/net/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: docs
+    title: API Reference
+    url: https://reference.aspose.com/slides/net/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: AI Agent Guide
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/AGENTS.md
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: 3d-presentations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/3d-presentations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: animations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/animations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: comments-and-notes
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/comments-and-notes/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: conversion
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/conversion/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: design-presentations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/design-presentations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation-content
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-content/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation-media-files
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-media-files/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-presentation-text
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-text/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: manage-tags-and-custom-data
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-tags-and-custom-data/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: math-equations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/math-equations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: presentation-ink-objects
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/presentation-ink-objects/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: secure-presentations
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/secure-presentations/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: vba-macros
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/vba-macros/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-charts
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-charts/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-shapes
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-shapes/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-slides
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-slides/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-smartart
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-smartart/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  - kind: example
+    title: working-with-tables
+    url: https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/working-with-tables/
+    source: https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md
+  source_headings:
+  - Aspose.Slides for .NET Examples (V26.5.0)
+  - Running Examples
+  - Copy the example .cs file as Program.cs
+  - Loading a Presentation
+  - Aspose.Slides for .NET Developer Capabilities
+  - How do I create or edit PowerPoint charts in C# with Aspose.Slides?
+  - How do I use Aspose.Slides for .NET for working with charts in C#?
+  - Which working with charts examples are best for coding agents?
+  - Are the working-with-charts examples standalone C# programs?
+  - How do I add, clone, reorder, or remove PowerPoint slides in .NET?
+  - How do I use Aspose.Slides for .NET for conversion in C#?
+  - Which conversion examples are best for coding agents?
+- name: Slidra
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Noopher-AI/slidra
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 系统工具
+  - 模板/素材
+  catalog_note: Shared presentation workspace where humans edit visually and agents operate through an inspectable .slidra
+    document, CLI actions, skills, and executable validators.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Why Slidra?
+    bytes: 11526
+  official_docs:
+  - kind: docs
+    title: Why Slidra When AI Can Already Generate Slides
+    url: https://github.com/Noopher-AI/slidra/blob/HEAD/docs/why-Slidra-when-AI-can-already-generate-slides.md
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  - kind: docs
+    title: 中文
+    url: https://github.com/Noopher-AI/slidra/blob/HEAD/docs/why-Slidra-when-AI-can-already-generate-slides_zh.md
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  - kind: docs
+    title: '`docs/spec/slidra-format.md`'
+    url: https://github.com/Noopher-AI/slidra/blob/HEAD/docs/spec/slidra-format.md
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: An agent detects and fixes a text-overflow issue while the slide updates live.
+    url: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/assets/hero.png
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Why Slidra When AI Can Already Generate Slides
+    url: https://github.com/Noopher-AI/slidra/blob/HEAD/docs/why-Slidra-when-AI-can-already-generate-slides.md
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  - kind: docs
+    title: 中文
+    url: https://github.com/Noopher-AI/slidra/blob/HEAD/docs/why-Slidra-when-AI-can-already-generate-slides_zh.md
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  - kind: docs
+    title: '`docs/spec/slidra-format.md`'
+    url: https://github.com/Noopher-AI/slidra/blob/HEAD/docs/spec/slidra-format.md
+    source: https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md
+  source_headings:
+  - Quickstart
+- name: Preflight Decks
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/MJorgin/preflight-decks
+  homepage: https://mjorgin.github.io/preflight-decks/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill for HTML presentations that asks for three concrete design directions, creates a single-file deck,
+    and verifies projector and phone readiness before delivery.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ✈️ Preflight Decks
+    bytes: 14827
+  - kind: homepage
+    url: https://mjorgin.github.io/preflight-decks/
+    final_url: https://mjorgin.github.io/preflight-decks/
+    status: 200
+    content_type: text/html
+    title: Preflight Decks — concept-first HTML presentations
+    description: 'Preflight Decks gives AI-built presentations a concept gate: three real rendered directions, a chosen direction,
+      then projector and phone verification.'
+    bytes: 24111
+  official_examples:
+  - kind: example
+    title: Open the source file
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/examples/preflight-decks-pitch.html
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: example
+    title: '`examples/previews/`'
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/examples/previews/
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: docs/dsh.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/docs/dsh.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: references/concept-gate.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/references/concept-gate.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: references/critique-rubric.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/references/critique-rubric.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: references/deck-verification.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/references/deck-verification.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: One brief becomes three structurally different real previews; the chosen direction is built into a six-slide deck
+      and verified at projector and phone sizes
+    url: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/hero-concept-gate.gif?v=20260918-premium-readme
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: gif
+    title: Six-slide example deck rendered from the single example HTML file
+    url: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/hero-deck.gif
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: image
+    title: 'Three concept-gate previews: safe preset, bold template, wildcard field manual, with the wildcard marked chosen'
+    url: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/demo-previews.png?v=20260918-staged
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: image
+    title: 'Verification contact sheet: all six slides at projector size and the first three on a phone, all clean'
+    url: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/verification-contact-sheet.png
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: image
+    title: Preflight Decks — concept-first HTML presentations
+    url: https://mjorgin.github.io/preflight-decks/assets/social-card.png
+    source: https://mjorgin.github.io/preflight-decks/
+  - kind: image
+    title: Hero First
+    url: https://mjorgin.github.io/preflight-decks/assets/hero_first.jpg
+    source: https://mjorgin.github.io/preflight-decks/
+  - kind: image
+    title: Hero Last
+    url: https://mjorgin.github.io/preflight-decks/assets/hero_last.jpg
+    source: https://mjorgin.github.io/preflight-decks/
+  - kind: image
+    title: Safe preset direction
+    url: https://mjorgin.github.io/preflight-decks/assets/dir-01.png
+    source: https://mjorgin.github.io/preflight-decks/
+  - kind: image
+    title: Bold template direction
+    url: https://mjorgin.github.io/preflight-decks/assets/dir-02.png
+    source: https://mjorgin.github.io/preflight-decks/
+  - kind: image
+    title: Wildcard field manual direction
+    url: https://mjorgin.github.io/preflight-decks/assets/dir-03.png
+    source: https://mjorgin.github.io/preflight-decks/
+  - kind: image
+    title: Verification slide from the built deck
+    url: https://mjorgin.github.io/preflight-decks/assets/deck-05.png
+    source: https://mjorgin.github.io/preflight-decks/
+  official_links:
+  - kind: example
+    title: Open the source file
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/examples/preflight-decks-pitch.html
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: example
+    title: '`examples/previews/`'
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/examples/previews/
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: docs/dsh.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/docs/dsh.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: references/concept-gate.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/references/concept-gate.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: references/critique-rubric.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/references/critique-rubric.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  - kind: docs
+    title: references/deck-verification.md
+    url: https://github.com/MJorgin/preflight-decks/blob/HEAD/references/deck-verification.md
+    source: https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md
+  source_headings:
+  - The concept gate for AI-built presentations.
+  - 1. open the deck in any browser, arrow keys to move through 6 slides
+  - 'DeepSeek Harness users: ~/.dsh/skills/frontend-slides'

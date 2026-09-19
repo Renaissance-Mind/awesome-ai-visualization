@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-19.
+Last researched: 2026-09-20.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-20: refreshed source-backed office runtimes, academic slide-generation benchmarks, reinforcement-learning slide environments, structured PPTX editing research, live meeting presentation agents, PowerPoint automation examples, shared slide workspaces, and preflight HTML deck skills from official GitHub repositories, project docs, arXiv papers, product pages, README evidence, live web/GitHub searches, and current GitHub metadata. This pass added Univer, DECKBench, SlideForge RL, SLIDEFORGE, DeckVoice, Aspose.Slides Agentic .NET Examples, Slidra, and Preflight Decks. The targeted scraper ran only against these eight records, fetched fourteen official sources successfully with no failed fetches, and kept sixty-two official examples, thirty preview assets, and thirty-five docs links after scrubbing one credential-example path from SLIDEFORGE.
 
 Update on 2026-09-19: refreshed agent-native slide editors, visual-production skill packs, comic/carousel infographic skills, paper-to-talk workflows, narrated demo-video skills, and text-source architecture diagram systems from official GitHub repositories, project homepages, README/SKILL evidence, live GitHub searches, and current GitHub metadata. This pass added Turboslide, Design Buddy, text-to-comic, ig-carousel-skill, paper-to-podium, claude-video-generator, Markdy, and zumen. The targeted scraper ran only against these eight records, fetched twelve official sources successfully with no failed fetches, and kept seven official examples, two artifact preview assets, and thirty docs links after scrubbing generic Clawhub ecosystem banners, brand-only screenshots, mascot/homepage art, and dependency-only links.
 

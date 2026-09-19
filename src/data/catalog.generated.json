@@ -1,64 +1,64 @@
 {
-  "generatedAt": "2026-09-18T23:05:40+00:00",
-  "lastResearched": "2026-09-19",
+  "generatedAt": "2026-09-19T23:05:00+00:00",
+  "lastResearched": "2026-09-20",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 799,
-    "openSource": 201,
+    "total": 807,
+    "openSource": 204,
     "saas": 73,
-    "modelApi": 252,
-    "examples": 1639,
-    "effectAssets": 2121,
-    "docs": 1917
+    "modelApi": 255,
+    "examples": 1701,
+    "effectAssets": 2151,
+    "docs": 1952
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 81,
-      "PDF/文档": 234,
-      "文本/想法": 509,
-      "数据/表格": 329,
+      "论文/科研资料": 83,
+      "PDF/文档": 237,
+      "文本/想法": 514,
+      "数据/表格": 331,
       "代码/技术描述": 163,
       "任意/多源": 131,
-      "网页/搜索结果": 196,
+      "网页/搜索结果": 197,
       "代码库": 97,
-      "DSL/代码": 163,
+      "DSL/代码": 164,
       "新闻/资讯": 29,
       "知识库/个人资料": 79,
-      "Office 文档": 148,
+      "Office 文档": 153,
       "引用网络": 5,
       "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 201,
-      "Agent Skill": 306,
+      "开源应用/框架": 204,
+      "Agent Skill": 308,
       "Skill 集合": 81,
       "MCP Server": 270,
       "产品/SaaS": 73,
-      "数据集/评测": 3,
-      "Bot/助手": 26,
-      "研究原型": 10,
-      "API/SDK/库": 126,
+      "数据集/评测": 5,
+      "Bot/助手": 27,
+      "研究原型": 13,
+      "API/SDK/库": 128,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 66,
-      "PPT/演示文稿": 337,
-      "网页/交互页面": 282,
+      "PPT/演示文稿": 345,
+      "网页/交互页面": 286,
       "问答/学习材料": 18,
-      "报告/长文档": 114,
-      "证据表": 67,
+      "报告/长文档": 115,
+      "证据表": 71,
       "信息图/视觉报告": 112,
-      "图表/仪表盘": 252,
+      "图表/仪表盘": 254,
       "架构图/流程图": 173,
-      "SVG/PNG/PDF": 340,
+      "SVG/PNG/PDF": 343,
       "报告/简报": 94,
       "白板/思维导图": 44,
       "图表/Mermaid": 80,
-      "视频/音频": 63,
-      "结构化数据/Markdown": 122,
+      "视频/音频": 64,
+      "结构化数据/Markdown": 123,
       "表格/时间线": 35,
-      "引用答案": 7,
+      "引用答案": 8,
       "思维导图/知识地图": 47,
       "文献地图/知识地图": 5,
       "工具索引": 29,
@@ -66,47 +66,47 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 677,
-      "模型 API": 252,
-      "文档解析/OCR": 114,
-      "渲染/导出": 701,
-      "GPU/加速器": 21,
-      "模板/素材": 388,
-      "Agent 宿主": 395,
-      "系统工具": 180,
-      "浏览器/账号": 184,
-      "存储/索引": 123,
+      "本地语言环境": 685,
+      "模型 API": 255,
+      "文档解析/OCR": 116,
+      "渲染/导出": 709,
+      "GPU/加速器": 23,
+      "模板/素材": 391,
+      "Agent 宿主": 397,
+      "系统工具": 183,
+      "浏览器/账号": 185,
+      "存储/索引": 125,
       "MCP Client": 282,
-      "外部检索/数据源": 166,
+      "外部检索/数据源": 167,
       "代码分析工具": 60
     },
     "categories": {
-      "paper-visualization": 27,
+      "paper-visualization": 28,
       "doc-to-knowledge": 67,
       "research-report": 34,
       "infographic-report": 76,
       "data-dashboard": 131,
       "diagram-generation": 90,
       "literature-map": 5,
-      "presentation-tools": 233,
-      "rendering-primitive": 26,
+      "presentation-tools": 239,
+      "rendering-primitive": 27,
       "video-generation": 19,
       "codebase-map": 52,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 42,
+      "paper": 43,
       "text_visual": 97,
       "web_news": 9,
       "support_mindmap": 18,
       "docs": 38,
       "support_doc_parse": 24,
-      "presentation": 241,
+      "presentation": 247,
       "data": 124,
       "video": 19,
       "code": 58,
-      "support_render": 70,
+      "support_render": 71,
       "diagrams": 20,
       "indexes": 28,
       "diagram": 5,
@@ -65159,6 +65159,1007 @@
       "docsCount": 1,
       "examplesCount": 3,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Univer",
+      "url": "https://github.com/dream-num/univer",
+      "primaryUrl": "https://github.com/dream-num/univer",
+      "homepage": "https://docs.univer.ai",
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引",
+        "模板/素材"
+      ],
+      "stars": 14414,
+      "license": "Apache-2.0",
+      "updated": "2026-09-19",
+      "note": "Office SDK and shared runtime for AI-agent-facing spreadsheets, documents, presentations, bases, boards, and embeddable productivity surfaces with canvas rendering and facade APIs.",
+      "sourceTypes": [
+        "Office 文档",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "图表/仪表盘",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "简体中文",
+          "url": "https://github.com/dream-num/univer/blob/HEAD/docs/readme/zh-CN.md",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "繁體中文",
+          "url": "https://github.com/dream-num/univer/blob/HEAD/docs/readme/zh-TW.md",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "日本語",
+          "url": "https://github.com/dream-num/univer/blob/HEAD/docs/readme/ja-JP.md",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "한국어",
+          "url": "https://github.com/dream-num/univer/blob/HEAD/docs/readme/ko-KR.md",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Español",
+          "url": "https://github.com/dream-num/univer/blob/HEAD/docs/readme/es-ES.md",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "📖 Documentation",
+          "url": "https://docs.univer.ai",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "📘 API Reference",
+          "url": "https://docs.univer.ai/reference/classes/univer",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "AI SDK documentation",
+          "url": "https://docs.univer.ai/ai",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "✨ Showcase",
+          "url": "https://docs.univer.ai/showcase",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/dream-num/univer/blob/HEAD/examples",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/@dreamNum",
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Showcase",
+          "url": "https://office.univer.ai",
+          "source": "https://docs.univer.ai/"
+        },
+        {
+          "kind": "template",
+          "title": "Tools",
+          "url": "https://docs.univer.ai/tools/theme-customizer",
+          "source": "https://docs.univer.ai/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Univer SDK",
+          "url": "https://raw.githubusercontent.com/dream-num/univer/HEAD/docs/img/banner.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/dream-num/univer/HEAD/README.md"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 5,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "DECKBench",
+      "url": "https://github.com/morgan-heisler/DeckBench",
+      "primaryUrl": "https://github.com/morgan-heisler/DeckBench",
+      "homepage": "https://arxiv.org/abs/2602.13318",
+      "category": "paper-visualization",
+      "surface": "dataset",
+      "dependencies": [
+        "本地语言环境",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模型 API"
+      ],
+      "stars": 9,
+      "license": "unknown",
+      "updated": "2026-09-14",
+      "note": "KDD 2026 benchmark and evaluation code for academic paper-to-slide generation plus multi-turn slide editing, with paper/slide metadata, simulated edit trajectories, metrics, and baseline agent pipeline.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "数据集/评测",
+        "研究原型"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "What is Replicate?",
+          "url": "https://replicate.com/docs/arxiv/about",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "docs",
+          "title": "What is Spaces?",
+          "url": "https://huggingface.co/docs/hub/spaces",
+          "source": "https://arxiv.org/abs/2602.13318"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "arXiv:2602.13318",
+          "url": "https://arxiv.org/abs/2602.13318",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2602.13318v1",
+          "url": "https://arxiv.org/abs/2602.13318v1",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "https://doi.org/10.48550/arXiv.2602.13318",
+          "url": "https://doi.org/10.48550/arXiv.2602.13318",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "NASA ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.13318",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "Semantic Scholar",
+          "url": "https://api.semanticscholar.org/arXiv:2602.13318",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2602.13318&amp;description=DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing",
+          "url": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2602.13318&amp;description=DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "https://reddit.com/submit?url=https://arxiv.org/abs/2602.13318&amp;title=DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing",
+          "url": "https://reddit.com/submit?url=https://arxiv.org/abs/2602.13318&amp;title=DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "showcase",
+          "title": "What is the Explorer?",
+          "url": "https://info.arxiv.org/labs/showcase.html",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "What is Connected Papers?",
+          "url": "https://www.connectedpapers.com/about",
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "paper",
+          "title": "Which authors of this paper are endorsers?",
+          "url": "https://arxiv.org/auth/show-endorsers/2602.13318",
+          "source": "https://arxiv.org/abs/2602.13318"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Simons Foundation",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "image",
+          "title": "Simons Foundation International",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2602.13318"
+        },
+        {
+          "kind": "image",
+          "title": "Schmidt Sciences",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2602.13318"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 10,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "SlideForge RL",
+      "url": "https://github.com/pushing-the-frontier/slide-forge-llm",
+      "primaryUrl": "https://github.com/pushing-the-frontier/slide-forge-llm",
+      "homepage": "https://arxiv.org/abs/2603.16839",
+      "category": "presentation-tools",
+      "surface": "research",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "GPU/加速器",
+        "渲染/导出"
+      ],
+      "stars": 3,
+      "license": "unknown",
+      "updated": "2026-07-07",
+      "note": "Reinforcement-learning environment for agentic HTML slide generation with multi-step tool use, render/aesthetic/content rewards, GRPO training, and SlideRL rollout data.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "研究原型",
+        "数据集/评测"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "What is Replicate?",
+          "url": "https://replicate.com/docs/arxiv/about",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "docs",
+          "title": "What is Spaces?",
+          "url": "https://huggingface.co/docs/hub/spaces",
+          "source": "https://arxiv.org/abs/2603.16839"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "KarthikRagunathAnandaKumar/slides-expert-trajectories-grpo",
+          "url": "https://huggingface.co/datasets/KarthikRagunathAnandaKumar/slides-expert-trajectories-grpo",
+          "source": "https://raw.githubusercontent.com/pushing-the-frontier/slide-forge-llm/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "this https URL",
+          "url": "https://huggingface.co/datasets/KarthikRagunathAnandaKumar/sliderl-multi-turn-rollouts",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2603.16839",
+          "url": "https://arxiv.org/abs/2603.16839",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2603.16839v1",
+          "url": "https://arxiv.org/abs/2603.16839v1",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "https://doi.org/10.48550/arXiv.2603.16839",
+          "url": "https://doi.org/10.48550/arXiv.2603.16839",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "NASA ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2603.16839",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "Semantic Scholar",
+          "url": "https://api.semanticscholar.org/arXiv:2603.16839",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2603.16839&amp;description=Learning to Present: Inverse Specification Rewards for Agentic Slide Generation",
+          "url": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2603.16839&amp;description=Learning to Present: Inverse Specification Rewards for Agentic Slide Generation",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "https://reddit.com/submit?url=https://arxiv.org/abs/2603.16839&amp;title=Learning to Present: Inverse Specification Rewards for Agentic Slide Generation",
+          "url": "https://reddit.com/submit?url=https://arxiv.org/abs/2603.16839&amp;title=Learning to Present: Inverse Specification Rewards for Agentic Slide Generation",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "showcase",
+          "title": "What is the Explorer?",
+          "url": "https://info.arxiv.org/labs/showcase.html",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "What is Connected Papers?",
+          "url": "https://www.connectedpapers.com/about",
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "paper",
+          "title": "Which authors of this paper are endorsers?",
+          "url": "https://arxiv.org/auth/show-endorsers/2603.16839",
+          "source": "https://arxiv.org/abs/2603.16839"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Simons Foundation",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "image",
+          "title": "Simons Foundation International",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2603.16839"
+        },
+        {
+          "kind": "image",
+          "title": "Schmidt Sciences",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2603.16839"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 12,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "SLIDEFORGE",
+      "url": "https://github.com/UIUC-MONET/SLIDEFORGE",
+      "primaryUrl": "https://github.com/UIUC-MONET/SLIDEFORGE",
+      "homepage": "https://arxiv.org/abs/2609.03109",
+      "category": "presentation-tools",
+      "surface": "research",
+      "dependencies": [
+        "本地语言环境",
+        "GPU/加速器",
+        "文档解析/OCR",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-09-10",
+      "note": "Official implementation for controllable slide editing with Deck State Graph construction, PPTX-native object grounding, theme-preserving reconstruction, rendered verification, and self-repair.",
+      "sourceTypes": [
+        "Office 文档",
+        "论文/科研资料"
+      ],
+      "toolForms": [
+        "研究原型"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "What is Replicate?",
+          "url": "https://replicate.com/docs/arxiv/about",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "docs",
+          "title": "What is Spaces?",
+          "url": "https://huggingface.co/docs/hub/spaces",
+          "source": "https://arxiv.org/abs/2609.03109"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "full example runs",
+          "url": "https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/decomposition/",
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "industrial",
+          "url": "https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/",
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "finance",
+          "url": "https://github.com/UIUC-MONET/SLIDEFORGE/blob/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/",
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2609.03109",
+          "url": "https://arxiv.org/abs/2609.03109",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "arXiv:2609.03109v1",
+          "url": "https://arxiv.org/abs/2609.03109v1",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "https://doi.org/10.48550/arXiv.2609.03109",
+          "url": "https://doi.org/10.48550/arXiv.2609.03109",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "NASA ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2609.03109",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "Semantic Scholar",
+          "url": "https://api.semanticscholar.org/arXiv:2609.03109",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2609.03109&amp;description=SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts",
+          "url": "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2609.03109&amp;description=SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "https://reddit.com/submit?url=https://arxiv.org/abs/2609.03109&amp;title=SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts",
+          "url": "https://reddit.com/submit?url=https://arxiv.org/abs/2609.03109&amp;title=SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "showcase",
+          "title": "What is the Explorer?",
+          "url": "https://info.arxiv.org/labs/showcase.html",
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "paper",
+          "title": "What is Connected Papers?",
+          "url": "https://www.connectedpapers.com/about",
+          "source": "https://arxiv.org/abs/2609.03109"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "DSG overlay: dense slide",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/decomposition/0000_SIGCOMM2019_paper_2_3_slide_027_slide_027/final/overlay.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DSG overlay: diagram slide",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/decomposition/0001_SIGCOMM2013_hotsdn_08_slide_016_slide_016/final/overlay.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Original",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0000/original.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Final Render",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0000/final_render.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Original",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0002/original.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Final Render",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2013_hotsdn__06__industrial/0002/final_render.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Original",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/0001/original.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Final Render",
+          "url": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/examples/restyle/SIGCOMM2019__paper_9_2__finance/0001/final_render.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/UIUC-MONET/SLIDEFORGE/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Simons Foundation",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "image",
+          "title": "Simons Foundation International",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2609.03109"
+        },
+        {
+          "kind": "image",
+          "title": "Schmidt Sciences",
+          "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+          "thumbnailUrl": null,
+          "source": "https://arxiv.org/abs/2609.03109"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 13,
+      "effectAssetsCount": 11
+    },
+    {
+      "name": "DeckVoice",
+      "url": "https://github.com/Atif1299/overtone-meeting-assistant",
+      "primaryUrl": "https://github.com/Atif1299/overtone-meeting-assistant",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "浏览器/账号",
+        "本地语言环境",
+        "模型 API",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-19",
+      "note": "AI meeting presentation agent that ingests PPTX/PDF decks, joins Meet/Zoom/Teams through Recall.ai, presents slides as bot camera output, and answers questions grounded in indexed slide content.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Bot/助手"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "视频/音频",
+        "引用答案"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Aspose.Slides Agentic .NET Examples",
+      "url": "https://github.com/aspose-slides/agentic-net-examples",
+      "primaryUrl": "https://github.com/aspose-slides/agentic-net-examples",
+      "homepage": "https://products.aspose.com/slides/net/",
+      "category": "rendering-primitive",
+      "surface": "library",
+      "dependencies": [
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-18",
+      "note": "AI-friendly validated C# example corpus for generating, analyzing, converting, charting, securing, and automating PowerPoint presentations through Aspose.Slides for .NET.",
+      "sourceTypes": [
+        "Office 文档",
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Aspose.Slides for .NET Documentation",
+          "url": "https://docs.aspose.com/slides/net/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API Reference",
+          "url": "https://reference.aspose.com/slides/net/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "AI Agent Guide",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/AGENTS.md",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "3d-presentations",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/3d-presentations/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "animations",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/animations/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "comments-and-notes",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/comments-and-notes/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "conversion",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/conversion/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "design-presentations",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/design-presentations/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "manage-presentation",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "manage-presentation-content",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-content/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "manage-presentation-media-files",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-media-files/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "manage-presentation-text",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-presentation-text/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "manage-tags-and-custom-data",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/manage-tags-and-custom-data/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "math-equations",
+          "url": "https://github.com/aspose-slides/agentic-net-examples/blob/HEAD/math-equations/",
+          "source": "https://raw.githubusercontent.com/aspose-slides/agentic-net-examples/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 20,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Slidra",
+      "url": "https://github.com/Noopher-AI/slidra",
+      "primaryUrl": "https://github.com/Noopher-AI/slidra",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "Apache-2.0",
+      "updated": "2026-09-17",
+      "note": "Shared presentation workspace where humans edit visually and agents operate through an inspectable .slidra document, CLI actions, skills, and executable validators.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Why Slidra When AI Can Already Generate Slides",
+          "url": "https://github.com/Noopher-AI/slidra/blob/HEAD/docs/why-Slidra-when-AI-can-already-generate-slides.md",
+          "source": "https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "中文",
+          "url": "https://github.com/Noopher-AI/slidra/blob/HEAD/docs/why-Slidra-when-AI-can-already-generate-slides_zh.md",
+          "source": "https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/spec/slidra-format.md`",
+          "url": "https://github.com/Noopher-AI/slidra/blob/HEAD/docs/spec/slidra-format.md",
+          "source": "https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "An agent detects and fixes a text-overflow issue while the slide updates live.",
+          "url": "https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/assets/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Noopher-AI/slidra/HEAD/README.md"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "Preflight Decks",
+      "url": "https://github.com/MJorgin/preflight-decks",
+      "primaryUrl": "https://github.com/MJorgin/preflight-decks",
+      "homepage": "https://mjorgin.github.io/preflight-decks/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "unknown",
+      "updated": "2026-09-18",
+      "note": "Agent skill for HTML presentations that asks for three concrete design directions, creates a single-file deck, and verifies projector and phone readiness before delivery.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/dsh.md",
+          "url": "https://github.com/MJorgin/preflight-decks/blob/HEAD/docs/dsh.md",
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/concept-gate.md",
+          "url": "https://github.com/MJorgin/preflight-decks/blob/HEAD/references/concept-gate.md",
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/critique-rubric.md",
+          "url": "https://github.com/MJorgin/preflight-decks/blob/HEAD/references/critique-rubric.md",
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/deck-verification.md",
+          "url": "https://github.com/MJorgin/preflight-decks/blob/HEAD/references/deck-verification.md",
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Open the source file",
+          "url": "https://github.com/MJorgin/preflight-decks/blob/HEAD/examples/preflight-decks-pitch.html",
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/previews/`",
+          "url": "https://github.com/MJorgin/preflight-decks/blob/HEAD/examples/previews/",
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "One brief becomes three structurally different real previews; the chosen direction is built into a six-slide deck and verified at projector and phone sizes",
+          "url": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/hero-concept-gate.gif?v=20260918-premium-readme",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Six-slide example deck rendered from the single example HTML file",
+          "url": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/hero-deck.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Three concept-gate previews: safe preset, bold template, wildcard field manual, with the wildcard marked chosen",
+          "url": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/demo-previews.png?v=20260918-staged",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Verification contact sheet: all six slides at projector size and the first three on a phone, all clean",
+          "url": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/assets/verification-contact-sheet.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MJorgin/preflight-decks/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Preflight Decks — concept-first HTML presentations",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/social-card.png",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        },
+        {
+          "kind": "image",
+          "title": "Hero First",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/hero_first.jpg",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        },
+        {
+          "kind": "image",
+          "title": "Hero Last",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/hero_last.jpg",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        },
+        {
+          "kind": "image",
+          "title": "Safe preset direction",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/dir-01.png",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        },
+        {
+          "kind": "image",
+          "title": "Bold template direction",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/dir-02.png",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        },
+        {
+          "kind": "image",
+          "title": "Wildcard field manual direction",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/dir-03.png",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        },
+        {
+          "kind": "image",
+          "title": "Verification slide from the built deck",
+          "url": "https://mjorgin.github.io/preflight-decks/assets/deck-05.png",
+          "thumbnailUrl": null,
+          "source": "https://mjorgin.github.io/preflight-decks/"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 11
     }
   ]
 }
