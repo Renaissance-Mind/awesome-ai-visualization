@@ -1,4 +1,4 @@
-last_researched: '2026-09-20'
+last_researched: '2026-09-21'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -21112,5 +21112,128 @@ entries:
   - PPT/演示文稿
   - 网页/交互页面
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Claude Slides and Docs
+  url: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  homepage: https://claude.ai/artifacts
+  category: presentation-tools
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  note: Claude artifact tools for creating editable decks, documents, dashboards, designs, and small interactive tools from conversation context, with direct slide editing, in-Claude presenting, share links, and PowerPoint/PDF export.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - 产品/SaaS
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Genspark AI Slides
+  url: https://www.genspark.ai/help/ai-slides
+  homepage: https://www.genspark.ai/
+  category: presentation-tools
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  note: Genspark workspace feature for researching, generating, and designing presentations from prompts, with export paths to PDF, PPTX, and Google Slides.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - PDF/文档
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: Pitch MCP and API
+  url: https://pitch.com/whats-new/introducing-pitch-mcp-and-api
+  homepage: https://pitch.com/
+  category: presentation-tools
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - MCP Client
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  note: Pitch agent surface, MCP server, and API that let Claude turn call notes or CRM records into polished Pitch decks, edit the current slide, and trigger deck delivery from external workflows.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 产品/SaaS
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: Plus AI
+  url: https://plusai.com/
+  homepage: https://plusai.com/
+  category: presentation-tools
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  note: AI assistant inside PowerPoint and Google Slides for creating presentations from prompts or uploaded PDF/DOCX/PPTX/text files, then rewriting, remixing, inserting layouts, and adding images, icons, charts, or tables.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: Prezi AI
+  url: https://prezi.com/
+  homepage: https://prezi.com/
+  category: presentation-tools
+  surface: product
+  dependencies:
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  note: AI-assisted presentation platform that drafts from prompts, imports PowerPoint, Google Slides, Canva, PDF, and Word files, restyles decks, adds polls/quizzes/Q&A, and turns presentations into reusable narrated video, podcast, quiz, and share-link experiences.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  tool_forms:
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - 视频/音频
+  - 问答/学习材料
+  - 网页/交互页面
   catalog_section: main
   readme_group: presentation

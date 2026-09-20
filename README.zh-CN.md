@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-807_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--20-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-812_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -678,6 +678,11 @@
 | [slide-deck-generator](https://github.com/code-on-sunday/slide-deck-generator) [![Star](https://img.shields.io/github/stars/code-on-sunday/slide-deck-generator?style=flat&logo=github&label=Star)](https://github.com/code-on-sunday/slide-deck-generator/stargazers) | 文本/想法 / DSL/代码 | Agent Skill | PPT/演示文稿 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) [![Star](https://img.shields.io/github/stars/zLanqing/codex-claude-academic-skills?style=flat&logo=github&label=Star)](https://github.com/zLanqing/codex-claude-academic-skills/stargazers) | 论文/科研资料 / PDF/文档 / Office 文档 / 数据/表格 | Skill 集合 | PPT/演示文稿 / 报告/长文档 / 图表/仪表盘 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 文档解析/OCR / 渲染/导出 / 模板/素材 |
 | [Gamma](https://gamma.app/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |
+| [Claude Slides and Docs](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) | 文本/想法 / PDF/文档 / Office 文档 / 网页/搜索结果 / 数据/表格 | 产品/SaaS / Bot/助手 | PPT/演示文稿 / 报告/长文档 / 网页/交互页面 / 图表/仪表盘 / SVG/PNG/PDF | 浏览器/账号 / 模型 API / 渲染/导出 / 模板/素材 |
+| [Genspark AI Slides](https://www.genspark.ai/help/ai-slides) | 文本/想法 / 网页/搜索结果 / PDF/文档 | 产品/SaaS | PPT/演示文稿 / SVG/PNG/PDF / 网页/交互页面 | 浏览器/账号 / 模型 API / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
+| [Pitch MCP and API](https://pitch.com/whats-new/introducing-pitch-mcp-and-api) | 文本/想法 / 网页/搜索结果 / 数据/表格 / 知识库/个人资料 | 产品/SaaS / MCP Server / API/SDK/库 | PPT/演示文稿 / 报告/简报 / 图表/仪表盘 | 浏览器/账号 / MCP Client / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
+| [Plus AI](https://plusai.com/) | 文本/想法 / PDF/文档 / Office 文档 | 产品/SaaS | PPT/演示文稿 / 图表/仪表盘 | 浏览器/账号 / 渲染/导出 / 模板/素材 |
+| [Prezi AI](https://prezi.com/) | 文本/想法 / PDF/文档 / Office 文档 | 产品/SaaS | PPT/演示文稿 / 视频/音频 / 问答/学习材料 / 网页/交互页面 | 浏览器/账号 / 渲染/导出 / 模板/素材 |
 | [SlideSpeak](https://slidespeak.co/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 文档解析/OCR / 模板/素材 |
 | [slidespeak-mcp](https://github.com/SlideSpeak/slidespeak-mcp) [![Star](https://img.shields.io/github/stars/SlideSpeak/slidespeak-mcp?style=flat&logo=github&label=Star)](https://github.com/SlideSpeak/slidespeak-mcp/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | MCP Server / 产品/SaaS | PPT/演示文稿 | MCP Client / 浏览器/账号 / 模型 API / 渲染/导出 / 模板/素材 |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 产品/SaaS | PPT/演示文稿 | 浏览器/账号 / 模板/素材 |

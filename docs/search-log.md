@@ -614,6 +614,16 @@ Update on 2026-09-17: refreshed source-backed agent diagram, HTML artifact, scie
 - [Mellos Mapping](https://github.com/GuangminJu/mellos-mapping): MCP server and terminal pane for live layered dependency maps that agents declare, update, and light up while implementation layers are built and verified.
 - [plot-mcp-worker](https://github.com/lingion/plot-mcp-worker): Cloudflare Worker MCP chart renderer for PNG/SVG function plots, data charts, subplot grids, STEM diagrams, circuits, 3D geometry, and Venn diagrams from JSON calls.
 
+## Added in the 2026-09-21 Daily Refresh
+
+Update on 2026-09-21: refreshed source-backed presentation-agent, deck API/MCP, and commercial AI slide surfaces from official product/help/update pages and captured official examples, docs, and media evidence where pages were fetchable. This pass added Claude Slides and Docs, Genspark AI Slides, Pitch MCP and API, Plus AI, and Prezi AI. The targeted scraper ran only against these five records; logged-in or app-gated homepages that returned HTTP 403 remain recorded as failed fetched sources while the public official help/product/update pages provide the usable evidence.
+
+- [Claude Slides and Docs](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them): Claude artifact tools for editable decks, documents, dashboards, designs, and small interactive tools from conversation context, with live edits, share links, presentation mode, and PowerPoint/PDF export.
+- [Genspark AI Slides](https://www.genspark.ai/help/ai-slides): Genspark workspace flow for researching, generating, and designing slide decks from prompts with PDF, PPTX, and Google Slides export paths.
+- [Pitch MCP and API](https://pitch.com/whats-new/introducing-pitch-mcp-and-api): Pitch agent/API/MCP surface for turning call notes or CRM records into polished decks, editing the current slide, and triggering deck delivery from external workflows.
+- [Plus AI](https://plusai.com/): PowerPoint and Google Slides assistant for prompt/file-to-deck generation, slide rewriting, formatting remix, layouts, images, icons, charts, and tables.
+- [Prezi AI](https://prezi.com/): AI-assisted presentation platform for prompt drafting, deck/document imports, restyling, audience interaction, share links, and narrated video or podcast reuse.
+
 ## Early Market Read
 
 - Presentation generation is moving from prompt-to-slides toward editable native PPTX with templates, speaker notes, and proof/repair loops.

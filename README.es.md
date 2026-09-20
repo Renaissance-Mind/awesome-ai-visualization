@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-807_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--20-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-812_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -680,6 +680,11 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [slide-deck-generator](https://github.com/code-on-sunday/slide-deck-generator) [![Star](https://img.shields.io/github/stars/code-on-sunday/slide-deck-generator?style=flat&logo=github&label=Star)](https://github.com/code-on-sunday/slide-deck-generator/stargazers) | Text/ideas / DSL/code | Agent skill | PPT/deck / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) [![Star](https://img.shields.io/github/stars/zLanqing/codex-claude-academic-skills?style=flat&logo=github&label=Star)](https://github.com/zLanqing/codex-claude-academic-skills/stargazers) | Papers/research / PDF/documents / Office docs / Data/tables | Skill collection | PPT/deck / Long report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Model API / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Gamma](https://gamma.app/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |
+| [Claude Slides and Docs](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) | Texto/ideas / PDF/documentos / Documentos Office / Web/búsqueda / Datos/tablas | Producto/SaaS / Bot/asistente | PPT/deck / Informe largo / Web/página interactiva / Gráfico/dashboard / SVG/PNG/PDF | Navegador/cuenta / API de modelo / Renderizado/exportación / Plantillas/assets |
+| [Genspark AI Slides](https://www.genspark.ai/help/ai-slides) | Texto/ideas / Web/búsqueda / PDF/documentos | Producto/SaaS | PPT/deck / SVG/PNG/PDF / Web/página interactiva | Navegador/cuenta / API de modelo / Búsqueda/datos externos / Renderizado/exportación / Plantillas/assets |
+| [Pitch MCP and API](https://pitch.com/whats-new/introducing-pitch-mcp-and-api) | Texto/ideas / Web/búsqueda / Datos/tablas / Base de conocimiento | Producto/SaaS / MCP server / API/SDK/library | PPT/deck / Briefing/informe / Gráfico/dashboard | Navegador/cuenta / MCP client / Búsqueda/datos externos / Renderizado/exportación / Plantillas/assets |
+| [Plus AI](https://plusai.com/) | Texto/ideas / PDF/documentos / Documentos Office | Producto/SaaS | PPT/deck / Gráfico/dashboard | Navegador/cuenta / Renderizado/exportación / Plantillas/assets |
+| [Prezi AI](https://prezi.com/) | Texto/ideas / PDF/documentos / Documentos Office | Producto/SaaS | PPT/deck / Vídeo/audio / Preguntas y respuestas/material de aprendizaje / Web/página interactiva | Navegador/cuenta / Renderizado/exportación / Plantillas/assets |
 | [SlideSpeak](https://slidespeak.co/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Parsing de documentos/OCR / Plantillas/assets |
 | [slidespeak-mcp](https://github.com/SlideSpeak/slidespeak-mcp) [![Star](https://img.shields.io/github/stars/SlideSpeak/slidespeak-mcp?style=flat&logo=github&label=Star)](https://github.com/SlideSpeak/slidespeak-mcp/stargazers) | Texto/ideas / PDF/documentos / Web/búsqueda | MCP server / Producto/SaaS | PPT/presentación | MCP client / Navegador/cuenta / API de modelo / Render/exportación / Plantillas/assets |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | Texto/ideas / PDF/documentos / Web/búsqueda | Producto/SaaS | PPT/deck | Navegador/cuenta / Plantillas/assets |

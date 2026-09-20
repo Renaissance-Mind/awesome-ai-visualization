@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-807_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--20-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-812_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -680,6 +680,11 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [slide-deck-generator](https://github.com/code-on-sunday/slide-deck-generator) [![Star](https://img.shields.io/github/stars/code-on-sunday/slide-deck-generator?style=flat&logo=github&label=Star)](https://github.com/code-on-sunday/slide-deck-generator/stargazers) | Text/ideas / DSL/code | Agent skill | PPT/deck / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) [![Star](https://img.shields.io/github/stars/zLanqing/codex-claude-academic-skills?style=flat&logo=github&label=Star)](https://github.com/zLanqing/codex-claude-academic-skills/stargazers) | Papers/research / PDF/documents / Office docs / Data/tables | Skill collection | PPT/deck / Long report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Model API / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Gamma](https://gamma.app/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |
+| [Claude Slides and Docs](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) | Metin/fikirler / PDF/belgeler / Office belgeleri / Web/arama / Veri/tablolar | Ürün/SaaS / Bot/asistan | PPT/deck / Uzun rapor / Web/etkileşimli sayfa / Grafik/pano / SVG/PNG/PDF | Tarayıcı/hesap / Model API / Render/dışa aktarma / Şablonlar/assetler |
+| [Genspark AI Slides](https://www.genspark.ai/help/ai-slides) | Metin/fikirler / Web/arama / PDF/belgeler | Ürün/SaaS | PPT/deck / SVG/PNG/PDF / Web/etkileşimli sayfa | Tarayıcı/hesap / Model API / Harici arama/veri / Render/dışa aktarma / Şablonlar/assetler |
+| [Pitch MCP and API](https://pitch.com/whats-new/introducing-pitch-mcp-and-api) | Metin/fikirler / Web/arama / Veri/tablolar / Bilgi tabanı | Ürün/SaaS / MCP server / API/SDK/library | PPT/deck / Bilgilendirme/rapor / Grafik/pano | Tarayıcı/hesap / MCP client / Harici arama/veri / Render/dışa aktarma / Şablonlar/assetler |
+| [Plus AI](https://plusai.com/) | Metin/fikirler / PDF/belgeler / Office belgeleri | Ürün/SaaS | PPT/deck / Grafik/pano | Tarayıcı/hesap / Render/dışa aktarma / Şablonlar/assetler |
+| [Prezi AI](https://prezi.com/) | Metin/fikirler / PDF/belgeler / Office belgeleri | Ürün/SaaS | PPT/deck / Video/ses / Soru-cevap/öğrenme materyali / Web/etkileşimli sayfa | Tarayıcı/hesap / Render/dışa aktarma / Şablonlar/assetler |
 | [SlideSpeak](https://slidespeak.co/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Belge ayrıştırma/OCR / Şablonlar/assetler |
 | [slidespeak-mcp](https://github.com/SlideSpeak/slidespeak-mcp) [![Star](https://img.shields.io/github/stars/SlideSpeak/slidespeak-mcp?style=flat&logo=github&label=Star)](https://github.com/SlideSpeak/slidespeak-mcp/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | MCP server / Ürün/SaaS | PPT/sunum | MCP client / Tarayıcı/hesap / Model API / Render/export / Şablonlar/assetler |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | Metin/fikirler / PDF/belgeler / Web/arama | Ürün/SaaS | PPT/deck | Tarayıcı/hesap / Şablonlar/assetler |

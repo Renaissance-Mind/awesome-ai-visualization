@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-807_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--20-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-812_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--21-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -688,6 +688,11 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [slide-deck-generator](https://github.com/code-on-sunday/slide-deck-generator) [![Star](https://img.shields.io/github/stars/code-on-sunday/slide-deck-generator?style=flat&logo=github&label=Star)](https://github.com/code-on-sunday/slide-deck-generator/stargazers) | Text/ideas / DSL/code | Agent skill | PPT/deck / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) [![Star](https://img.shields.io/github/stars/zLanqing/codex-claude-academic-skills?style=flat&logo=github&label=Star)](https://github.com/zLanqing/codex-claude-academic-skills/stargazers) | Papers/research / PDF/documents / Office docs / Data/tables | Skill collection | PPT/deck / Long report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Model API / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Gamma](https://gamma.app/) | Text/ideas / PDF/documents / Web/search | Product/SaaS | PPT/deck | Browser/account / Templates/assets |
+| [Claude Slides and Docs](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) | Text/ideas / PDF/documents / Office docs / Web/search / Data/tables | Product/SaaS / Bot/assistant | PPT/deck / Long report / Web/interactive page / Chart/dashboard / SVG/PNG/PDF | Browser/account / Model API / Rendering/export / Templates/assets |
+| [Genspark AI Slides](https://www.genspark.ai/help/ai-slides) | Text/ideas / Web/search / PDF/documents | Product/SaaS | PPT/deck / SVG/PNG/PDF / Web/interactive page | Browser/account / Model API / External search/data / Rendering/export / Templates/assets |
+| [Pitch MCP and API](https://pitch.com/whats-new/introducing-pitch-mcp-and-api) | Text/ideas / Web/search / Data/tables / Knowledge base | Product/SaaS / MCP server / API/SDK/library | PPT/deck / Briefing/report / Chart/dashboard | Browser/account / MCP client / External search/data / Rendering/export / Templates/assets |
+| [Plus AI](https://plusai.com/) | Text/ideas / PDF/documents / Office docs | Product/SaaS | PPT/deck / Chart/dashboard | Browser/account / Rendering/export / Templates/assets |
+| [Prezi AI](https://prezi.com/) | Text/ideas / PDF/documents / Office docs | Product/SaaS | PPT/deck / Video/audio / Q&A/learning material / Web/interactive page | Browser/account / Rendering/export / Templates/assets |
 | [SlideSpeak](https://slidespeak.co/) | Text/ideas / PDF/documents / Web/search | Product/SaaS | PPT/deck | Browser/account / Document parsing/OCR / Templates/assets |
 | [slidespeak-mcp](https://github.com/SlideSpeak/slidespeak-mcp) [![Star](https://img.shields.io/github/stars/SlideSpeak/slidespeak-mcp?style=flat&logo=github&label=Star)](https://github.com/SlideSpeak/slidespeak-mcp/stargazers) | Text/ideas / PDF/documents / Web/search | MCP server / Product/SaaS | PPT/deck | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |
 | [Canva AI Presentations](https://www.canva.com/create/ai-presentations/) | Text/ideas / PDF/documents / Web/search | Product/SaaS | PPT/deck | Browser/account / Templates/assets |

@@ -1,4 +1,4 @@
-generated_at: '2026-09-19T23:05:00+00:00'
+generated_at: '2026-09-20T23:04:46+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 807
-  fetched_sources_ok: 1084
-  fetched_sources_failed: 54
-  official_examples: 1701
-  official_effect_assets: 2151
-  official_docs: 1952
+  entries: 812
+  fetched_sources_ok: 1087
+  fetched_sources_failed: 59
+  official_examples: 1712
+  official_effect_assets: 2178
+  official_docs: 1977
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -62967,3 +62967,608 @@ entries:
   - The concept gate for AI-built presentations.
   - 1. open the deck in any browser, arrow keys to move through 6 slides
   - 'DeepSeek Harness users: ~/.dsh/skills/frontend-slides'
+- name: Claude Slides and Docs
+  category: presentation-tools
+  surface: product
+  primary_url: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  homepage: https://claude.ai/artifacts
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude artifact tools for creating editable decks, documents, dashboards, designs, and small interactive tools
+    from conversation context, with direct slide editing, in-Claude presenting, share links, and PowerPoint/PDF export.
+  fetched_sources:
+  - kind: primary_page
+    url: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+    final_url: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+    status: 200
+    content_type: text/html
+    title: What are artifacts and how do I use them? | Claude Help Center
+    bytes: 381280
+  - kind: homepage
+    url: https://claude.ai/artifacts
+    final_url: https://claude.ai/artifacts
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  official_examples:
+  - kind: demo
+    title: How do I use the playground?
+    url: https://support.claude.com/en/articles/8606378-how-do-i-use-the-playground
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  official_docs:
+  - kind: docs
+    title: API docs
+    url: https://docs.claude.com/en/docs/intro
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Get started with Claude Docs
+    url: https://support.claude.com/en/articles/16923645-get-started-with-claude-docs
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Usage and limits
+    url: https://support.claude.com/en/collections/18031876-usage-and-limits
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Usage limit best practices
+    url: https://support.claude.com/en/articles/9797557-usage-limit-best-practices
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: How do usage and length limits work?
+    url: https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Buy usage bundles
+    url: https://support.claude.com/en/articles/14246112-buy-usage-bundles
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Manage usage credits for paid Claude plans
+    url: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Enterprise consumption guide
+    url: https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Manage usage credits for Team and seat-based Enterprise plans
+    url: https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Design admin guide for Team and Enterprise plans
+    url: https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Enterprise Admin API reference guide
+    url: https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Analytics and usage
+    url: https://support.claude.com/en/collections/18901831-analytics-and-usage
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: View usage analytics for Team and Enterprise plans
+    url: https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Use analytics chat to ask Claude about usage
+    url: https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Access the Compliance API
+    url: https://support.claude.com/en/articles/13015708-access-the-compliance-api
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Get started with Claude Compliance API integrations
+    url: https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Code usage analytics
+    url: https://support.claude.com/en/articles/12157520-claude-code-usage-analytics
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Manage API key environment variables in Claude Code
+    url: https://support.claude.com/en/articles/12304248-manage-api-key-environment-variables-in-claude-code
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Launch guides
+    url: https://support.claude.com/en/collections/19407739-launch-guides
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Models, usage, and limits in Claude Code
+    url: https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  official_effect_assets:
+  - kind: image
+    title: What are artifacts and how do I use them? | Claude Help Center
+    url: https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: image
+    title: E857Ae2291773374591D56C72F73F35E
+    url: https://downloads.intercomcdn.com/i/o/lupk8zyo/943325/c8d14176c0425c5008e74ab6f0ec/e857ae2291773374591d56c72f73f35e.png
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: image
+    title: Claude Help Center
+    url: https://downloads.intercomcdn.com/i/o/487548/17213f6a445c8e6e874b1f4b/fad85208982e639d11b9108df895a293.png
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  official_links:
+  - kind: docs
+    title: API docs
+    url: https://docs.claude.com/en/docs/intro
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Get started with Claude Docs
+    url: https://support.claude.com/en/articles/16923645-get-started-with-claude-docs
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Usage and limits
+    url: https://support.claude.com/en/collections/18031876-usage-and-limits
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Usage limit best practices
+    url: https://support.claude.com/en/articles/9797557-usage-limit-best-practices
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: How do usage and length limits work?
+    url: https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Buy usage bundles
+    url: https://support.claude.com/en/articles/14246112-buy-usage-bundles
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Manage usage credits for paid Claude plans
+    url: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Enterprise consumption guide
+    url: https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Manage usage credits for Team and seat-based Enterprise plans
+    url: https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Design admin guide for Team and Enterprise plans
+    url: https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Enterprise Admin API reference guide
+    url: https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Analytics and usage
+    url: https://support.claude.com/en/collections/18901831-analytics-and-usage
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: View usage analytics for Team and Enterprise plans
+    url: https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Use analytics chat to ask Claude about usage
+    url: https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Access the Compliance API
+    url: https://support.claude.com/en/articles/13015708-access-the-compliance-api
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Get started with Claude Compliance API integrations
+    url: https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude Code usage analytics
+    url: https://support.claude.com/en/articles/12157520-claude-code-usage-analytics
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Manage API key environment variables in Claude Code
+    url: https://support.claude.com/en/articles/12304248-manage-api-key-environment-variables-in-claude-code
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Launch guides
+    url: https://support.claude.com/en/collections/19407739-launch-guides
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Models, usage, and limits in Claude Code
+    url: https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Getting Started with Local MCP Servers on Claude Desktop
+    url: https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude API and Console
+    url: https://support.claude.com/en/collections/5370014-claude-api-and-console
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Use the Claude API and Console
+    url: https://support.claude.com/en/collections/9811457-use-the-claude-api-and-console
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: How can I access the Claude API?
+    url: https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Where is the Claude API supported?
+    url: https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: I created a Claude Console organization - how do I start using the Claude API?
+    url: https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: demo
+    title: How do I use the playground?
+    url: https://support.claude.com/en/articles/8606378-how-do-i-use-the-playground
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Cost and Usage Reporting in the Claude Console
+    url: https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use
+      the Claude API and Console?
+    url: https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Claude API usage and best practices
+    url: https://support.claude.com/en/collections/9811458-claude-api-usage-and-best-practices
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Our approach to rate limits for the Claude API
+    url: https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s
+      Usage Policy?
+    url: https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: What should I do if I suspect my API key has been compromised?
+    url: https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: 'API Key Best Practices: Keeping Your Keys Safe and Secure'
+    url: https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: How can I get higher rate limits on the Claude API?
+    url: https://support.claude.com/en/articles/10366389-how-can-i-get-higher-rate-limits-on-the-claude-api
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: How do I pay for my Claude API usage?
+    url: https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: How can I learn more about Claude API pricing?
+    url: https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Understanding your Claude API invoices
+    url: https://support.claude.com/en/articles/16608069-understanding-your-claude-api-invoices
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: API troubleshooting
+    url: https://support.claude.com/en/collections/9811460-api-troubleshooting
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+  - kind: docs
+    title: Where can I find your API documentation?
+    url: https://support.claude.com/en/articles/8114490-where-can-i-find-your-api-documentation
+    source: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them
+- name: Genspark AI Slides
+  category: presentation-tools
+  surface: product
+  primary_url: https://www.genspark.ai/help/ai-slides
+  homepage: https://www.genspark.ai/
+  dependencies:
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Genspark workspace feature for researching, generating, and designing presentations from prompts, with export
+    paths to PDF, PPTX, and Google Slides.
+  fetched_sources:
+  - kind: primary_page
+    url: https://www.genspark.ai/help/ai-slides
+    final_url: https://www.genspark.ai/help/ai-slides
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  - kind: homepage
+    url: https://www.genspark.ai/
+    final_url: https://www.genspark.ai/
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+- name: Pitch MCP and API
+  category: presentation-tools
+  surface: product
+  primary_url: https://pitch.com/whats-new/introducing-pitch-mcp-and-api
+  homepage: https://pitch.com/
+  dependencies:
+  - 浏览器/账号
+  - MCP Client
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Pitch agent surface, MCP server, and API that let Claude turn call notes or CRM records into polished Pitch
+    decks, edit the current slide, and trigger deck delivery from external workflows.
+  fetched_sources:
+  - kind: primary_page
+    url: https://pitch.com/whats-new/introducing-pitch-mcp-and-api
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''pitch.com'', port=443): Max retries exceeded with url: /whats-new/introducing-pitch-mcp-and-api
+      (Caused by SSLError(SSLError(1, ''[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)'')))'
+  - kind: homepage
+    url: https://pitch.com/
+    status: null
+    error: 'SSLError: HTTPSConnectionPool(host=''pitch.com'', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1,
+      ''[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)'')))'
+- name: Plus AI
+  category: presentation-tools
+  surface: product
+  primary_url: https://plusai.com/
+  homepage: https://plusai.com/
+  dependencies:
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI assistant inside PowerPoint and Google Slides for creating presentations from prompts or uploaded PDF/DOCX/PPTX/text
+    files, then rewriting, remixing, inserting layouts, and adding images, icons, charts, or tables.
+  fetched_sources:
+  - kind: primary_page
+    url: https://plusai.com/
+    final_url: https://plusai.com/
+    status: 200
+    content_type: text/html
+    title: Plus AI presentation maker | Stop making slides the old way
+    description: Plus is an AI assistant for PowerPoint and Slides that helps you create usable, results-oriented presentations.
+    bytes: 110608
+  official_examples:
+  - kind: tutorial
+    title: For course creators
+    url: https://plusai.com/use-cases/ai-for-course-creators
+    source: https://plusai.com/
+  - kind: template
+    title: Templates
+    url: https://plusai.com/templates
+    source: https://plusai.com/
+  - kind: example
+    title: Example presentations
+    url: https://plusai.com/example-presentations
+    source: https://plusai.com/
+  - kind: demo
+    title: Get a demo
+    url: https://plusai.com/contact-enterprise
+    source: https://plusai.com/
+  - kind: example
+    title: Pitch Deck Sales Agency SuperSEO Client Pitch Attention on clients, not slides.
+    url: https://plusai.com/examples/superseo-agency-client-proposal
+    source: https://plusai.com/
+  - kind: example
+    title: Strategy Market analysis GLP-1 Explainer Focus on analysis, not formatting.
+    url: https://plusai.com/examples/glp-1-explainer
+    source: https://plusai.com/
+  - kind: example
+    title: Training Online course Accessibility in Design Painless content creation.
+    url: https://plusai.com/examples/accessibility-in-design
+    source: https://plusai.com/
+  - kind: template
+    title: Downloadable templates
+    url: https://plusai.com/templates-all
+    source: https://plusai.com/
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/channel/UC57IAcjRVhjC1FoWNf-E5vQ
+    source: https://plusai.com/
+  official_docs:
+  - kind: docs
+    title: Presentation Agent API
+    url: https://plusai.com/features/presentation-agent-api
+    source: https://plusai.com/
+  - kind: docs
+    title: Guides and reviews
+    url: https://plusai.com/comparisons
+    source: https://plusai.com/
+  - kind: docs
+    title: Word docs
+    url: https://plusai.com/features/document-to-presentation-ai
+    source: https://plusai.com/
+  - kind: docs
+    title: Presentations API
+    url: https://plusai.com/features/powerpoint-api
+    source: https://plusai.com/
+  - kind: docs
+    title: AI for Google Docs
+    url: https://plusai.com/plus-ai-for-google-docs
+    source: https://plusai.com/
+  official_effect_assets:
+  - kind: image
+    title: Upload a file example
+    url: https://plusai.com/_astro/upload-file.C4MkzK16_Z9RRBm.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Refine & remix example
+    url: https://plusai.com/_astro/refine-remix.DSkUyolH_23Qarn.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Homepage Demo Poster.Bokkcrzi 1Pvlai
+    url: https://plusai.com/_astro/homepage-demo-poster.BoKKCrzi_1pvLAi.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Images example
+    url: https://plusai.com/_astro/images.KVVIhePv_Z1KoORO.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Charts and tables example
+    url: https://plusai.com/_astro/charts.C9o8nkpt_2kl7QY.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Example SEO agency client pitch
+    url: https://plusai.com/_astro/superseo-example.CmXrltFf_2opewD.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Example accessibility presentation
+    url: https://plusai.com/_astro/accessibility-example.Da_7jPT3_2mCR1q.webp
+    source: https://plusai.com/
+  - kind: image
+    title: Plus AI presentation maker | Stop making slides the old way
+    url: https://plusai.com/images/og/plus-ai-default.png
+    source: https://plusai.com/
+  - kind: image
+    title: "Renew template â\x80\x94 slide 1"
+    url: https://plusai.com/_astro/renew1.BGPo5Py1_Z1NrW2h.webp
+    source: https://plusai.com/
+  - kind: image
+    title: "Renew template â\x80\x94 slide 2"
+    url: https://plusai.com/_astro/renew2.DuGfR2PF_11Dy1o.webp
+    source: https://plusai.com/
+  - kind: image
+    title: "Renew template â\x80\x94 slide 3"
+    url: https://plusai.com/_astro/renew3.BrBqe8hd_ZDX7Dn.webp
+    source: https://plusai.com/
+  - kind: image
+    title: "Tennis template â\x80\x94 slide 1"
+    url: https://plusai.com/_astro/slide-tennis-1.maJcA932_Z1BoNYv.webp
+    source: https://plusai.com/
+  official_links:
+  - kind: docs
+    title: Presentation Agent API
+    url: https://plusai.com/features/presentation-agent-api
+    source: https://plusai.com/
+  - kind: tutorial
+    title: For course creators
+    url: https://plusai.com/use-cases/ai-for-course-creators
+    source: https://plusai.com/
+  - kind: template
+    title: Templates
+    url: https://plusai.com/templates
+    source: https://plusai.com/
+  - kind: example
+    title: Example presentations
+    url: https://plusai.com/example-presentations
+    source: https://plusai.com/
+  - kind: docs
+    title: Guides and reviews
+    url: https://plusai.com/comparisons
+    source: https://plusai.com/
+  - kind: demo
+    title: Get a demo
+    url: https://plusai.com/contact-enterprise
+    source: https://plusai.com/
+  - kind: example
+    title: Pitch Deck Sales Agency SuperSEO Client Pitch Attention on clients, not slides.
+    url: https://plusai.com/examples/superseo-agency-client-proposal
+    source: https://plusai.com/
+  - kind: example
+    title: Strategy Market analysis GLP-1 Explainer Focus on analysis, not formatting.
+    url: https://plusai.com/examples/glp-1-explainer
+    source: https://plusai.com/
+  - kind: example
+    title: Training Online course Accessibility in Design Painless content creation.
+    url: https://plusai.com/examples/accessibility-in-design
+    source: https://plusai.com/
+  - kind: docs
+    title: Word docs
+    url: https://plusai.com/features/document-to-presentation-ai
+    source: https://plusai.com/
+  - kind: docs
+    title: Presentations API
+    url: https://plusai.com/features/powerpoint-api
+    source: https://plusai.com/
+  - kind: docs
+    title: AI for Google Docs
+    url: https://plusai.com/plus-ai-for-google-docs
+    source: https://plusai.com/
+  - kind: template
+    title: Downloadable templates
+    url: https://plusai.com/templates-all
+    source: https://plusai.com/
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/channel/UC57IAcjRVhjC1FoWNf-E5vQ
+    source: https://plusai.com/
+- name: Prezi AI
+  category: presentation-tools
+  surface: product
+  primary_url: https://prezi.com/
+  homepage: https://prezi.com/
+  dependencies:
+  - 浏览器/账号
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-assisted presentation platform that drafts from prompts, imports PowerPoint, Google Slides, Canva, PDF,
+    and Word files, restyles decks, adds polls/quizzes/Q&A, and turns presentations into reusable narrated video, podcast,
+    quiz, and share-link experiences.
+  fetched_sources:
+  - kind: primary_page
+    url: https://prezi.com/
+    final_url: https://prezi.com/
+    status: 200
+    content_type: text/html
+    title: 'Prezi: the presentation platform built for engagement'
+    description: 'Prezi is a presentation platform for educators, trainers, and teams. Build a presentation with AI, engage
+      your audience live with polls and quizzes, then share one link people can '
+    bytes: 359141
+  official_examples:
+  - kind: tutorial
+    title: Quick class poll A B C ✋ Teachers Lessons that hold the room Turn every seat into an active part of the lesson,
+      then give students a way to review. Explore Prezi for teachers
+    url: https://prezi.com/gts/signup/?click_source=logged_element&amp;page_location=bottom_cta&amp;element_text=try_prezi_for_free
+    source: https://prezi.com/
+  official_effect_assets:
+  - kind: image
+    title: A presenter reviewing session results
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/close_gap.2egmh04tru7sx.png
+    source: https://prezi.com/
+  - kind: image
+    title: Poster 1 Craft Present.44440 Tixqwz0
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/poster_1_craft_present.44440_tixqwz0.jpeg
+    source: https://prezi.com/
+  - kind: video
+    title: 1 Craft Present.E67F0Ce6
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/1_craft_present.e67f0ce6.mp4
+    source: https://prezi.com/
+  - kind: image
+    title: Hero Headphones Ui.09 6D306 M56W
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_headphones-ui.09-6d306-m56w.png
+    source: https://prezi.com/
+  - kind: image
+    title: A listener enjoying a Prezi video presentation
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_headphones.3q5ha5-28doyc.png
+    source: https://prezi.com/
+  - kind: image
+    title: Hero Hand Raised Bg.1Ecanl4T85Mdr
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_hand_raised_bg.1ecanl4t85mdr.png
+    source: https://prezi.com/
+  - kind: image
+    title: A friendly raised hand
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_hand_raised.06ti6g0kl9mml.png
+    source: https://prezi.com/
+  - kind: image
+    title: Hero Newscaster Ui.1372V3Qywvp3W
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_newscaster-ui.1372v3qywvp3w.png
+    source: https://prezi.com/
+  - kind: image
+    title: A presenter sharing their screen in a video call
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_newscaster.3f67xq0y4wepw.png
+    source: https://prezi.com/
+  - kind: image
+    title: A confident presenter captivating an audience
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_polls.3-8-mz0tncw5g.png
+    source: https://prezi.com/
+  - kind: image
+    title: Hero Iphone.2W0Uu3Xexu0E7
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hero_iphone.2w0uu3xexu0e7.png
+    source: https://prezi.com/
+  - kind: image
+    title: A hand holding a phone participating in the quiz
+    url: https://d1yd7w8qu2dp4i.cloudfront.net/craft/_next/static/media/hand_quiz.0et3g5lszhb-a.png
+    source: https://prezi.com/
+  official_links:
+  - kind: tutorial
+    title: Quick class poll A B C ✋ Teachers Lessons that hold the room Turn every seat into an active part of the lesson,
+      then give students a way to review. Explore Prezi for teachers
+    url: https://prezi.com/gts/signup/?click_source=logged_element&amp;page_location=bottom_cta&amp;element_text=try_prezi_for_free
+    source: https://prezi.com/
