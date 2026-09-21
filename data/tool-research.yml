@@ -1,4 +1,4 @@
-generated_at: '2026-09-20T23:04:46+00:00'
+generated_at: '2026-09-21T23:13:08+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 812
-  fetched_sources_ok: 1087
+  entries: 820
+  fetched_sources_ok: 1099
   fetched_sources_failed: 59
-  official_examples: 1712
-  official_effect_assets: 2178
-  official_docs: 1977
+  official_examples: 1736
+  official_effect_assets: 2201
+  official_docs: 2026
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -63572,3 +63572,983 @@ entries:
       then give students a way to review. Explore Prezi for teachers
     url: https://prezi.com/gts/signup/?click_source=logged_element&amp;page_location=bottom_cta&amp;element_text=try_prezi_for_free
     source: https://prezi.com/
+- name: postward-creative-mcp
+  category: video-generation
+  surface: mcp
+  primary_url: https://github.com/postward-cc/postward-creative-mcp
+  homepage: https://postward.cc
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Local-first MCP server that lets assistants edit video and images with ffmpeg and ImageMagick through natural
+    language, producing portable local files without accounts, API keys, uploads, telemetry, or watermarks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/postward-cc/postward-creative-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/postward-cc/postward-creative-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: postward-creative-mcp
+    bytes: 7803
+  - kind: homepage
+    url: https://postward.cc/
+    final_url: https://postward.cc/
+    status: 200
+    content_type: text/html
+    title: Postward | From build to social.
+    description: Agent-operated publishing and hosted AI creative. Generate images, videos, music and voiceovers — governed
+      by review and approval.
+    bytes: 309403
+  official_docs:
+  - kind: docs
+    title: Docs
+    url: https://postward.cc/docs
+    source: https://postward.cc/
+  - kind: docs
+    title: Follow the setup guides
+    url: https://postward.cc/docs/connectors/meta
+    source: https://postward.cc/
+  - kind: docs
+    title: Read the MCP docs
+    url: https://postward.cc/docs/postward-mcp
+    source: https://postward.cc/
+  - kind: docs
+    title: Do the quick start
+    url: https://postward.cc/docs/quick-start
+    source: https://postward.cc/
+  - kind: docs
+    title: REST API
+    url: https://postward.cc/api/v1/openapi
+    source: https://postward.cc/
+  official_links:
+  - kind: docs
+    title: Docs
+    url: https://postward.cc/docs
+    source: https://postward.cc/
+  - kind: docs
+    title: Follow the setup guides
+    url: https://postward.cc/docs/connectors/meta
+    source: https://postward.cc/
+  - kind: docs
+    title: Read the MCP docs
+    url: https://postward.cc/docs/postward-mcp
+    source: https://postward.cc/
+  - kind: docs
+    title: Do the quick start
+    url: https://postward.cc/docs/quick-start
+    source: https://postward.cc/
+  - kind: docs
+    title: REST API
+    url: https://postward.cc/api/v1/openapi
+    source: https://postward.cc/
+  source_headings:
+  - Video editing (ffmpeg — 16 tools, free, 100% local)
+- name: MaxVideoAI Plugin
+  category: video-generation
+  surface: mcp
+  primary_url: https://github.com/camgraphe/maxvideoai-plugin
+  homepage: https://maxvideoai.com/mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Remote MCP/plugin package for assistant-led AI video and image production that plans shots, compares current
+    models, budgets work, prepares exact quotes, submits one approved generation, recovers jobs, and stores outputs in the
+    connected MaxVideoAI Library.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: MaxVideoAI for assistants, agents, and automations
+    bytes: 12093
+  - kind: homepage
+    url: https://maxvideoai.com/mcp
+    final_url: https://maxvideoai.com/mcp
+    status: 200
+    content_type: text/html
+    title: 'AI Video MCP: Claude, ChatGPT, Codex & n8n | MaxVideoAI'
+    description: Connect MaxVideoAI to Claude, ChatGPT, Codex, OpenClaw or self-hosted n8n. Compare AI video models, review
+      an exact quote and generate with your approval.
+    bytes: 281352
+  official_examples:
+  - kind: video
+    title: Plan a production
+    url: https://maxvideoai.com/mcp?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=hero_connect
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Review pricing
+    url: https://maxvideoai.com/pricing?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=pricing
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Public releases
+    url: https://github.com/camgraphe/maxvideoai-plugin/releases
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Explore AI video examples
+    url: https://maxvideoai.com/examples
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: engine comparison hub
+    url: https://maxvideoai.com/ai-video-engines
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: MaxVideoAI toolbox
+    url: https://maxvideoai.com/tools
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Open the MaxVideoAI Library
+    url: https://maxvideoai.com/app/library?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=library
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Compare current AI video models
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/compare-ai-video-models.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Price an AI video project
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/price-a-video-project.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Plan a Claude production
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/claude-video-production.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Run a Codex production workflow
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/codex-video-production.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: CONTRIBUTING.md
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: SECURITY.md
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/SECURITY.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: SUPPORT.md
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/SUPPORT.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: MaxVideoAI
+    url: https://maxvideoai.com/
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Cinematic realism
+    url: https://maxvideoai.com/ai-video-engines/best-for/cinematic-realism
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Image-to-video
+    url: https://maxvideoai.com/ai-video-engines/best-for/image-to-video
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Fast drafts
+    url: https://maxvideoai.com/ai-video-engines/best-for/fast-drafts
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Product ads
+    url: https://maxvideoai.com/ai-video-engines/best-for/ads
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: LTX
+    url: https://maxvideoai.com/examples/ltx
+    source: https://maxvideoai.com/mcp
+  official_docs:
+  - kind: docs
+    title: Claude
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/claude.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: ChatGPT
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/chatgpt.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: Codex
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/codex.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: current compatibility and protocol details
+    url: https://maxvideoai.com/docs/mcp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: OpenClaw guide
+    url: https://maxvideoai.com/integrations/openclaw
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: n8n guide
+    url: https://maxvideoai.com/integrations/n8n
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: generic MCP guide
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/generic-mcp.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: privacy and permissions
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/privacy-and-permissions.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: reference input handling
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/skills/generate/references/reference-inputs.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: how it works
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: All use-case guides
+    url: https://maxvideoai.com/ai-video-engines/best-for
+    source: https://maxvideoai.com/mcp
+  official_effect_assets:
+  - kind: image
+    title: Public MaxVideoAI MCP integration grid for Claude, ChatGPT, Codex, OpenClaw, and n8n on a light background
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-assistant-workflow-live.webp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: image
+    title: Public MaxVideoAI home page with a colorful MiniMax H3 Max film preview and pay-as-you-go creation actions
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-workspace-live.webp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: image
+    title: MaxVideoAI examples gallery showing colorful Seedance cinematic and animated AI video stories
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-examples-gallery-live.webp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: image
+    title: MaxVideoAI comparison page showing MiniMax H3 and Seedance 2.5 scores, strengths, and colorful video examples
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-engine-scoreboard-live.webp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: image
+    title: MaxVideoAI tools page showing a colorful character sheet, camera-angle work, image refinement, and video finishing
+      options
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-tools-workflow-live.webp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: image
+    title: Public MaxVideoAI MCP page showing a finished colorful video in Claude with confirmation that it was saved to the
+      connected Library
+    url: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-library-continuity-production.jpg
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: image
+    title: 'AI Video MCP: Claude, ChatGPT, Codex & n8n | MaxVideoAI'
+    url: https://maxvideoai.com/og/price-before.png
+    source: https://maxvideoai.com/mcp
+  official_links:
+  - kind: docs
+    title: Claude
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/claude.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: ChatGPT
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/chatgpt.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: Codex
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/codex.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: current compatibility and protocol details
+    url: https://maxvideoai.com/docs/mcp
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Plan a production
+    url: https://maxvideoai.com/mcp?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=hero_connect
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Review pricing
+    url: https://maxvideoai.com/pricing?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=pricing
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Public releases
+    url: https://github.com/camgraphe/maxvideoai-plugin/releases
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: OpenClaw guide
+    url: https://maxvideoai.com/integrations/openclaw
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: n8n guide
+    url: https://maxvideoai.com/integrations/n8n
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: generic MCP guide
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/generic-mcp.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Explore AI video examples
+    url: https://maxvideoai.com/examples
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: engine comparison hub
+    url: https://maxvideoai.com/ai-video-engines
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: MaxVideoAI toolbox
+    url: https://maxvideoai.com/tools
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: privacy and permissions
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/privacy-and-permissions.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: reference input handling
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/skills/generate/references/reference-inputs.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: Open the MaxVideoAI Library
+    url: https://maxvideoai.com/app/library?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=library
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Compare current AI video models
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/compare-ai-video-models.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Price an AI video project
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/price-a-video-project.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Plan a Claude production
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/claude-video-production.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: example
+    title: Run a Codex production workflow
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/codex-video-production.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: docs
+    title: how it works
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/how-it-works.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: CONTRIBUTING.md
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/CONTRIBUTING.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: SECURITY.md
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/SECURITY.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: SUPPORT.md
+    url: https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/SUPPORT.md
+    source: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md
+  - kind: video
+    title: MaxVideoAI
+    url: https://maxvideoai.com/
+    source: https://maxvideoai.com/mcp
+  - kind: docs
+    title: All use-case guides
+    url: https://maxvideoai.com/ai-video-engines/best-for
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Cinematic realism
+    url: https://maxvideoai.com/ai-video-engines/best-for/cinematic-realism
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Image-to-video
+    url: https://maxvideoai.com/ai-video-engines/best-for/image-to-video
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Fast drafts
+    url: https://maxvideoai.com/ai-video-engines/best-for/fast-drafts
+    source: https://maxvideoai.com/mcp
+  - kind: video
+    title: Product ads
+    url: https://maxvideoai.com/ai-video-engines/best-for/ads
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: LTX
+    url: https://maxvideoai.com/examples/ltx
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Kling
+    url: https://maxvideoai.com/examples/kling
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Seedance
+    url: https://maxvideoai.com/examples/seedance
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Wan
+    url: https://maxvideoai.com/examples/wan
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Veo
+    url: https://maxvideoai.com/examples/veo
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: MiniMax
+    url: https://maxvideoai.com/examples/hailuo
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Happy Horse
+    url: https://maxvideoai.com/examples/happy-horse
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Luma Ray
+    url: https://maxvideoai.com/examples/luma
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: Grok Imagine Video
+    url: https://maxvideoai.com/examples/grok
+    source: https://maxvideoai.com/mcp
+  - kind: example
+    title: FLUX
+    url: https://maxvideoai.com/examples/flux
+    source: https://maxvideoai.com/mcp
+  source_headings:
+  - MaxVideoAI for assistants, agents, and automations
+  - What does MaxVideoAI add to an AI assistant?
+- name: pymol-visualize-skill
+  category: paper-visualization
+  surface: skill
+  primary_url: https://github.com/terravic/pymol-visualize-skill
+  homepage: https://github.com/terravic/pymol-visualize-skill#readme
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - GPU/加速器
+  catalog_note: Agent skill for headless macromolecular visualization that turns PDB, mmCIF, AlphaFold, or structure IDs into
+    publication PNG renders, PyMOL session files, and a standalone HTML/WebGL inspection dashboard.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'pymol-visualize: PyMOL Molecular Visualization Skill'
+    bytes: 13924
+  - kind: homepage
+    url: https://github.com/terravic/pymol-visualize-skill#readme
+    final_url: https://github.com/terravic/pymol-visualize-skill#readme
+    status: 200
+    content_type: text/html
+    title: 'GitHub - terravic/pymol-visualize-skill: Headless molecular visualization and structural biophysics skill for
+      AI agents. Generates publication renders, AlphaFold pLDDT maps, bindin'
+    description: Headless molecular visualization and structural biophysics skill for AI agents. Generates publication renders,
+      AlphaFold pLDDT maps, binding pockets, alignments, and web dashboards
+    bytes: 391737
+  official_docs:
+  - kind: docs
+    title: skills/pymol-visualize/references/citation.bib
+    url: https://github.com/terravic/pymol-visualize-skill/blob/HEAD/skills/pymol-visualize/references/citation.bib
+    source: https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  - kind: docs
+    title: references
+    url: https://github.com/terravic/pymol-visualize-skill/blob/main/references
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  - kind: docs
+    title: skills/pymol-visualize/references/citation.bib
+    url: https://github.com/terravic/pymol-visualize-skill/blob/main/skills/pymol-visualize/references/citation.bib
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  official_effect_assets:
+  - kind: image
+    title: Skill Workflow and Architecture
+    url: https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/assets/skill_workflow_diagram.png
+    source: https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md
+  - kind: image
+    title: Skill Workflow and Architecture
+    url: https://github.com/terravic/pymol-visualize-skill/raw/main/assets/skill_workflow_diagram.png
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  official_links:
+  - kind: docs
+    title: skills/pymol-visualize/references/citation.bib
+    url: https://github.com/terravic/pymol-visualize-skill/blob/HEAD/skills/pymol-visualize/references/citation.bib
+    source: https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  - kind: docs
+    title: references
+    url: https://github.com/terravic/pymol-visualize-skill/blob/main/references
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  - kind: docs
+    title: skills/pymol-visualize/references/citation.bib
+    url: https://github.com/terravic/pymol-visualize-skill/blob/main/skills/pymol-visualize/references/citation.bib
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/terravic/pymol-visualize-skill#readme
+  source_headings:
+  - 'pymol-visualize: PyMOL Molecular Visualization Skill'
+  - What is Molecular Visualization?
+  - How to Ask for Visualizations
+  - Real-World Usage Examples
+  - 'Example 1: Visualizing an AI-Predicted Protein Structure'
+  - 'Example 2: Inspecting an Active Site or Drug Binding Pocket'
+  - 'Example 3: Comparing Two Related Protein Shapes (Superposition)'
+  - 'Example 4: Differentiating Subunits in a Protein Complex'
+  - 4.3 Executing Visualization Recipes via CLI
+  - Execute AlphaFold pLDDT visualization
+  - 4.4 Generating the Interactive Evaluation Dashboard
+  - 5. Agent Skill Usage and Data Ingestion
+- name: AlphaGenome Variant Visualization Skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/terravic/alphagenome-variant-visualization-skill
+  homepage: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent skill and workbench for interpreting genetic variants across molecular modalities, then compiling Markdown
+    interpretation plus a standalone six-panel HTML5/WebGL dashboard with 3D DNA, genome tracks, splicing views, motif inspection,
+    and causal evidence links.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AlphaGenome Variant Visualization and Interpretation Skill
+    bytes: 22772
+  - kind: homepage
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+    final_url: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+    status: 200
+    content_type: text/html
+    title: 'GitHub - terravic/alphagenome-variant-visualization-skill: Multi-modal AI agent skill and interactive HTML5/WebGL
+      dashboard workbench for quantifying, visualizing, and interpreting'
+    description: Multi-modal AI agent skill and interactive HTML5/WebGL dashboard workbench for quantifying, visualizing,
+      and interpreting regulatory consequences of human genetic variants across 1
+    bytes: 456263
+  official_examples:
+  - kind: example
+    title: '`examples/sample_variant_upload.json`'
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/blob/HEAD/examples/sample_variant_upload.json
+    source: https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md
+  - kind: example
+    title: examples
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/tree/main/examples
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: example
+    title: examples/sample_variant_upload.json
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/blob/main/examples/sample_variant_upload.json
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  official_docs:
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: docs
+    title: docs
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/tree/main/docs
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: docs
+    title: acmg-guidelines
+    url: https://github.com/topics/acmg-guidelines
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  official_effect_assets:
+  - kind: image
+    title: AlphaGenome Variant Visualization Skill Architecture and Workflow
+    url: https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/assets/workflow_diagram.png
+    source: https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md
+  - kind: image
+    title: AlphaGenome Variant Visualization Skill Architecture and Workflow
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/raw/main/assets/workflow_diagram.png
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  official_links:
+  - kind: example
+    title: '`examples/sample_variant_upload.json`'
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/blob/HEAD/examples/sample_variant_upload.json
+    source: https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md
+  - kind: docs
+    title: Documentation
+    url: https://docs.github.com
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: docs
+    title: docs
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/tree/main/docs
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: example
+    title: examples
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/tree/main/examples
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: example
+    title: examples/sample_variant_upload.json
+    url: https://github.com/terravic/alphagenome-variant-visualization-skill/blob/main/examples/sample_variant_upload.json
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: docs
+    title: acmg-guidelines
+    url: https://github.com/topics/acmg-guidelines
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  - kind: docs
+    title: Docs
+    url: https://docs.github.com/
+    source: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  source_headings:
+  - AlphaGenome Variant Visualization and Interpretation Skill
+  - 'Step 2: Sample Prompts You Can Copy and Paste'
+  - 'Example 1: Splicing Disruption in a Muscle Gene'
+  - 'Example 2: Non-Coding Promoter Mutation in a Tumor Suppressor Gene'
+  - 'Example 3: Distal Enhancer Activation Near a Hemoglobin Gene'
+  - 'Example 4: Verifying a Neutral / Benign Genetic Change'
+  - 'Example 5: Analyzing an Uploaded Data File'
+  - 'Example 6: Multi-Case Benchmark Workbench'
+  - 'Step 3: Exploring the Interactive Visual Dashboard'
+  - 'Panel 1: 3D DNA & Chromatin Conformation Visualizer'
+  - 2. Biosample and Ontology Resolution (`resolve_ontology_terms.py`)
+  - Run on built-in synthetic benchmark case
+- name: show-me
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/flaviomkpies/show-me
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  catalog_note: Claude Code and Claude Cowork skill that audits every number, citation, or claim by finding primary sources,
+    capturing screenshots with highlighted passages, and embedding proof cards with source, publisher, date, excerpt, and
+    exact link into reports or decks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: show-me
+    bytes: 2105
+  official_effect_assets:
+  - kind: gif
+    title: Ficha de prova aberta sobre um número do deck
+    url: https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/docs/demo-deck.gif
+    source: https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/README.md
+  - kind: gif
+    title: Ficha de prova aberta sobre uma citação acadêmica
+    url: https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/docs/demo-academico.gif
+    source: https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/README.md
+- name: krrish-skills
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/nkrrish/krrish-skills
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill pack whose branding skill designs SVG logo and icon marks, exports PNG sizes, and validates
+    visual output with measurable checks for ink coverage, monochrome collapse, 16px counters, blank renders, and prior-art
+    similarity.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nkrrish/krrish-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nkrrish/krrish-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: krrish-skills
+    bytes: 5657
+- name: prax
+  category: doc-to-knowledge
+  surface: open-source
+  primary_url: https://github.com/lodsb/prax
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  - 外部检索/数据源
+  - MCP Client
+  catalog_note: Self-hosted personal knowledge base that ingests files, web pages, PDFs, figures, talks, and libraries, then
+    searches passages and visual readings, builds evidence-linked relation graphs, and answers questions with source-cited
+    pages and MCP access for agents.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: prax
+    bytes: 19385
+  official_examples:
+  - kind: example
+    title: '`prax.example.yaml`'
+    url: https://github.com/lodsb/prax/blob/HEAD/prax.example.yaml
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/howto.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/howto.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/ask.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ask.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/integrating.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/integrating.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/eval/`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/eval/
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/PLAN.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/PLAN.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/research.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/research.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/architecture.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/rationale.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/rationale.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/ui.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ui.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/design/BRIEF.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/design/BRIEF.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/sources.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/sources.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/extension.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/extension.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/claude-workflow.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/claude-workflow.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v2`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v2.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v4`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v4.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v5`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v5.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v6`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v6.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v7`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v7.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`studio`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-studio.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`craft`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-craft.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Search results: hybrid hits with the side that found each'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/search.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'Ask: the model surfed four steps, searching again and reading on; the answer cites the passages it kept, the sources
+      beside it, the trail under it'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/ask.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'Graph: a method''s neighbourhood, every edge with its evidence and its source'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/graph.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: An image described and transcribed by two vision models, in the document view with its context
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/image-recognition.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'A figure in the document view: the image, its caption, and the vision model''s reading of it naming each step
+      of the process'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/vision-with-context.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'A talk from YouTube as a document: the transcript in paragraphs headed by their moment, a frame of the talk as
+      a figure with the words spoken there, the summary and the entities th'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/youtube-extraction.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'A paper''s reference list in the document view: each entry a chunk of its own, and under it the library document
+      it cites, matched by title with its score'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/citations.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'The figure strip of a talk: every frame the extension took, captioned by its moment and the words spoken there,
+      each a link to its passage'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/figure-strip.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'A page of one''s own notes with an ask block: the person''s prose and links above, the door''s answer on a plate
+      below with the question on its rim, the documents the page links and c'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/ask-block.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: image
+    title: 'The six themes: Bindery, Dessau, Riso, Cyanotype, Night, Funk — the same page in each'
+    url: https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/themes.png
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/howto.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/howto.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/ask.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ask.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/integrating.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/integrating.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/eval/`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/eval/
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/PLAN.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/PLAN.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/research.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/research.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/architecture.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/rationale.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/rationale.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/ui.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ui.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/design/BRIEF.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/design/BRIEF.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/sources.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/sources.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/extension.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/extension.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`docs/claude-workflow.md`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/claude-workflow.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v2`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v2.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v4`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v4.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v5`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v5.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v6`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v6.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`v7`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-v7.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`studio`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-studio.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: docs
+    title: '`craft`'
+    url: https://github.com/lodsb/prax/blob/HEAD/docs/ontology-craft.md
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  - kind: example
+    title: '`prax.example.yaml`'
+    url: https://github.com/lodsb/prax/blob/HEAD/prax.example.yaml
+    source: https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md
+  source_headings:
+  - Documentation
+- name: TokenPulse
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/weeenc/tokenpulse
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 浏览器/账号
+  catalog_note: Self-hosted cross-platform platform for collecting, syncing, and visualizing Codex, Claude Code, and Cursor
+    token usage with a local agent, Go server, Vue web dashboard, device login, deduped usage events, and metadata-only upload
+    boundaries.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: TokenPulse
+    bytes: 6082
+  official_docs:
+  - kind: docs
+    title: 架构
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  - kind: docs
+    title: 设备授权
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/device-auth.md
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/api.md
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  - kind: docs
+    title: OpenAPI
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/openapi.yaml
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: 架构
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  - kind: docs
+    title: 设备授权
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/device-auth.md
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  - kind: docs
+    title: API
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/api.md
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+  - kind: docs
+    title: OpenAPI
+    url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/openapi.yaml
+    source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md

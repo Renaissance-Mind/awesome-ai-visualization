@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-20.
+Last researched: 2026-09-22.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-22: refreshed source-backed local media editing MCPs, hosted AI video-production connectors, molecular and genetic-variant visual dashboards, source-proof report skills, verified SVG branding skills, self-hosted knowledge graph workspaces, and token-usage dashboards from official GitHub repositories, product pages, README evidence, live GitHub searches, and current GitHub metadata. This pass added postward-creative-mcp, MaxVideoAI Plugin, pymol-visualize-skill, AlphaGenome Variant Visualization Skill, show-me, krrish-skills, prax, and TokenPulse. The targeted scraper ran only against these eight records, fetched twelve official sources successfully with no failed fetches, and kept twenty-four official examples, twenty-three preview assets, and forty-nine docs links; a dead Substack homepage for show-me was excluded so only live official repository evidence remained.
 
 Update on 2026-09-20: refreshed source-backed office runtimes, academic slide-generation benchmarks, reinforcement-learning slide environments, structured PPTX editing research, live meeting presentation agents, PowerPoint automation examples, shared slide workspaces, and preflight HTML deck skills from official GitHub repositories, project docs, arXiv papers, product pages, README evidence, live web/GitHub searches, and current GitHub metadata. This pass added Univer, DECKBench, SlideForge RL, SLIDEFORGE, DeckVoice, Aspose.Slides Agentic .NET Examples, Slidra, and Preflight Decks. The targeted scraper ran only against these eight records, fetched fourteen official sources successfully with no failed fetches, and kept sixty-two official examples, thirty preview assets, and thirty-five docs links after scrubbing one credential-example path from SLIDEFORGE.
 

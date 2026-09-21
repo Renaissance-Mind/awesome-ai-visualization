@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-20T23:04:46+00:00",
-  "lastResearched": "2026-09-21",
+  "generatedAt": "2026-09-21T23:13:08+00:00",
+  "lastResearched": "2026-09-22",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 812,
-    "openSource": 204,
-    "saas": 78,
-    "modelApi": 257,
-    "examples": 1712,
-    "effectAssets": 2178,
-    "docs": 1977
+    "total": 820,
+    "openSource": 206,
+    "saas": 79,
+    "modelApi": 260,
+    "examples": 1736,
+    "effectAssets": 2201,
+    "docs": 2026
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 83,
-      "PDF/文档": 241,
-      "文本/想法": 519,
-      "数据/表格": 333,
-      "代码/技术描述": 163,
-      "任意/多源": 131,
-      "网页/搜索结果": 200,
+      "论文/科研资料": 87,
+      "PDF/文档": 244,
+      "文本/想法": 522,
+      "数据/表格": 336,
+      "代码/技术描述": 166,
+      "任意/多源": 134,
+      "网页/搜索结果": 203,
       "代码库": 97,
       "DSL/代码": 164,
-      "新闻/资讯": 29,
-      "知识库/个人资料": 80,
+      "新闻/资讯": 30,
+      "知识库/个人资料": 82,
       "Office 文档": 156,
       "引用网络": 5,
       "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 204,
-      "Agent Skill": 308,
-      "Skill 集合": 81,
-      "MCP Server": 271,
-      "产品/SaaS": 78,
+      "开源应用/框架": 206,
+      "Agent Skill": 312,
+      "Skill 集合": 82,
+      "MCP Server": 274,
+      "产品/SaaS": 79,
       "数据集/评测": 5,
       "Bot/助手": 28,
       "研究原型": 13,
@@ -42,69 +42,69 @@
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 66,
-      "PPT/演示文稿": 350,
-      "网页/交互页面": 289,
+      "图形摘要/信息图": 68,
+      "PPT/演示文稿": 351,
+      "网页/交互页面": 293,
       "问答/学习材料": 19,
-      "报告/长文档": 116,
-      "证据表": 71,
-      "信息图/视觉报告": 112,
-      "图表/仪表盘": 257,
+      "报告/长文档": 118,
+      "证据表": 73,
+      "信息图/视觉报告": 113,
+      "图表/仪表盘": 260,
       "架构图/流程图": 173,
-      "SVG/PNG/PDF": 345,
+      "SVG/PNG/PDF": 350,
       "报告/简报": 95,
       "白板/思维导图": 44,
       "图表/Mermaid": 80,
-      "视频/音频": 65,
-      "结构化数据/Markdown": 123,
-      "表格/时间线": 35,
-      "引用答案": 8,
-      "思维导图/知识地图": 47,
+      "视频/音频": 67,
+      "结构化数据/Markdown": 124,
+      "表格/时间线": 36,
+      "引用答案": 9,
+      "思维导图/知识地图": 48,
       "文献地图/知识地图": 5,
       "工具索引": 29,
       "代码地图/Repo Wiki": 53,
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 685,
-      "模型 API": 257,
-      "文档解析/OCR": 116,
-      "渲染/导出": 714,
-      "GPU/加速器": 23,
-      "模板/素材": 396,
-      "Agent 宿主": 397,
-      "系统工具": 183,
-      "浏览器/账号": 190,
-      "存储/索引": 125,
-      "MCP Client": 283,
-      "外部检索/数据源": 169,
+      "本地语言环境": 692,
+      "模型 API": 260,
+      "文档解析/OCR": 118,
+      "渲染/导出": 721,
+      "GPU/加速器": 24,
+      "模板/素材": 399,
+      "Agent 宿主": 401,
+      "系统工具": 186,
+      "浏览器/账号": 192,
+      "存储/索引": 127,
+      "MCP Client": 286,
+      "外部检索/数据源": 171,
       "代码分析工具": 60
     },
     "categories": {
-      "paper-visualization": 28,
-      "doc-to-knowledge": 67,
+      "paper-visualization": 29,
+      "doc-to-knowledge": 69,
       "research-report": 34,
-      "infographic-report": 76,
-      "data-dashboard": 131,
+      "infographic-report": 77,
+      "data-dashboard": 133,
       "diagram-generation": 90,
       "literature-map": 5,
       "presentation-tools": 244,
       "rendering-primitive": 27,
-      "video-generation": 19,
+      "video-generation": 21,
       "codebase-map": 52,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
-      "paper": 43,
-      "text_visual": 97,
+      "paper": 44,
+      "text_visual": 98,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 38,
+      "docs": 40,
       "support_doc_parse": 24,
       "presentation": 252,
-      "data": 124,
-      "video": 19,
+      "data": 126,
+      "video": 21,
       "code": 58,
       "support_render": 71,
       "diagrams": 20,
@@ -66704,6 +66704,806 @@
       "docsCount": 0,
       "examplesCount": 1,
       "effectAssetsCount": 12
+    },
+    {
+      "name": "postward-creative-mcp",
+      "url": "https://github.com/postward-cc/postward-creative-mcp",
+      "primaryUrl": "https://github.com/postward-cc/postward-creative-mcp",
+      "homepage": "https://postward.cc",
+      "category": "video-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-21",
+      "note": "Local-first MCP server that lets assistants edit video and images with ffmpeg and ImageMagick through natural language, producing portable local files without accounts, API keys, uploads, telemetry, or watermarks.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://postward.cc/docs",
+          "source": "https://postward.cc/"
+        },
+        {
+          "kind": "docs",
+          "title": "Follow the setup guides",
+          "url": "https://postward.cc/docs/connectors/meta",
+          "source": "https://postward.cc/"
+        },
+        {
+          "kind": "docs",
+          "title": "Read the MCP docs",
+          "url": "https://postward.cc/docs/postward-mcp",
+          "source": "https://postward.cc/"
+        },
+        {
+          "kind": "docs",
+          "title": "Do the quick start",
+          "url": "https://postward.cc/docs/quick-start",
+          "source": "https://postward.cc/"
+        },
+        {
+          "kind": "docs",
+          "title": "REST API",
+          "url": "https://postward.cc/api/v1/openapi",
+          "source": "https://postward.cc/"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 5,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "MaxVideoAI Plugin",
+      "url": "https://github.com/camgraphe/maxvideoai-plugin",
+      "primaryUrl": "https://github.com/camgraphe/maxvideoai-plugin",
+      "homepage": "https://maxvideoai.com/mcp",
+      "category": "video-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "other",
+      "updated": "2026-09-21",
+      "note": "Remote MCP/plugin package for assistant-led AI video and image production that plans shots, compares current models, budgets work, prepares exact quotes, submits one approved generation, recovers jobs, and stores outputs in the connected MaxVideoAI Library.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Claude",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/claude.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "ChatGPT",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/chatgpt.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Codex",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/codex.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "current compatibility and protocol details",
+          "url": "https://maxvideoai.com/docs/mcp",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "OpenClaw guide",
+          "url": "https://maxvideoai.com/integrations/openclaw",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "n8n guide",
+          "url": "https://maxvideoai.com/integrations/n8n",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "generic MCP guide",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/generic-mcp.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "privacy and permissions",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/docs/privacy-and-permissions.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "video",
+          "title": "Plan a production",
+          "url": "https://maxvideoai.com/mcp?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=hero_connect",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Review pricing",
+          "url": "https://maxvideoai.com/pricing?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=pricing",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Public releases",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/releases",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Explore AI video examples",
+          "url": "https://maxvideoai.com/examples",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "engine comparison hub",
+          "url": "https://maxvideoai.com/ai-video-engines",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "MaxVideoAI toolbox",
+          "url": "https://maxvideoai.com/tools",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "Open the MaxVideoAI Library",
+          "url": "https://maxvideoai.com/app/library?utm_source=github&utm_medium=repository&utm_campaign=assistant_video_plugin&utm_content=library",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Compare current AI video models",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/compare-ai-video-models.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Price an AI video project",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/price-a-video-project.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Plan a Claude production",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/claude-video-production.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Run a Codex production workflow",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/examples/codex-video-production.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "video",
+          "title": "CONTRIBUTING.md",
+          "url": "https://github.com/camgraphe/maxvideoai-plugin/blob/HEAD/CONTRIBUTING.md",
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Public MaxVideoAI MCP integration grid for Claude, ChatGPT, Codex, OpenClaw, and n8n on a light background",
+          "url": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-assistant-workflow-live.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Public MaxVideoAI home page with a colorful MiniMax H3 Max film preview and pay-as-you-go creation actions",
+          "url": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-workspace-live.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "MaxVideoAI examples gallery showing colorful Seedance cinematic and animated AI video stories",
+          "url": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-examples-gallery-live.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "MaxVideoAI comparison page showing MiniMax H3 and Seedance 2.5 scores, strengths, and colorful video examples",
+          "url": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-engine-scoreboard-live.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "MaxVideoAI tools page showing a colorful character sheet, camera-angle work, image refinement, and video finishing options",
+          "url": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-tools-workflow-live.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Public MaxVideoAI MCP page showing a finished colorful video in Claude with confirmation that it was saved to the connected Library",
+          "url": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/assets/screenshots/maxvideoai-library-continuity-production.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI Video MCP: Claude, ChatGPT, Codex & n8n | MaxVideoAI",
+          "url": "https://maxvideoai.com/og/price-before.png",
+          "thumbnailUrl": null,
+          "source": "https://maxvideoai.com/mcp"
+        }
+      ],
+      "docsCount": 11,
+      "examplesCount": 20,
+      "effectAssetsCount": 7
+    },
+    {
+      "name": "pymol-visualize-skill",
+      "url": "https://github.com/terravic/pymol-visualize-skill",
+      "primaryUrl": "https://github.com/terravic/pymol-visualize-skill",
+      "homepage": "https://github.com/terravic/pymol-visualize-skill#readme",
+      "category": "paper-visualization",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "GPU/加速器"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-09-18",
+      "note": "Agent skill for headless macromolecular visualization that turns PDB, mmCIF, AlphaFold, or structure IDs into publication PNG renders, PyMOL session files, and a standalone HTML/WebGL inspection dashboard.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图形摘要/信息图",
+        "SVG/PNG/PDF",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "skills/pymol-visualize/references/citation.bib",
+          "url": "https://github.com/terravic/pymol-visualize-skill/blob/HEAD/skills/pymol-visualize/references/citation.bib",
+          "source": "https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.github.com",
+          "source": "https://github.com/terravic/pymol-visualize-skill#readme"
+        },
+        {
+          "kind": "docs",
+          "title": "references",
+          "url": "https://github.com/terravic/pymol-visualize-skill/blob/main/references",
+          "source": "https://github.com/terravic/pymol-visualize-skill#readme"
+        },
+        {
+          "kind": "docs",
+          "title": "skills/pymol-visualize/references/citation.bib",
+          "url": "https://github.com/terravic/pymol-visualize-skill/blob/main/skills/pymol-visualize/references/citation.bib",
+          "source": "https://github.com/terravic/pymol-visualize-skill#readme"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.github.com/",
+          "source": "https://github.com/terravic/pymol-visualize-skill#readme"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Skill Workflow and Architecture",
+          "url": "https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/assets/skill_workflow_diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/terravic/pymol-visualize-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Skill Workflow and Architecture",
+          "url": "https://github.com/terravic/pymol-visualize-skill/raw/main/assets/skill_workflow_diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://github.com/terravic/pymol-visualize-skill#readme"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "AlphaGenome Variant Visualization Skill",
+      "url": "https://github.com/terravic/alphagenome-variant-visualization-skill",
+      "primaryUrl": "https://github.com/terravic/alphagenome-variant-visualization-skill",
+      "homepage": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-08",
+      "note": "Agent skill and workbench for interpreting genetic variants across molecular modalities, then compiling Markdown interpretation plus a standalone six-panel HTML5/WebGL dashboard with 3D DNA, genome tracks, splicing views, motif inspection, and causal evidence links.",
+      "sourceTypes": [
+        "数据/表格",
+        "论文/科研资料",
+        "PDF/文档"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "报告/长文档",
+        "图形摘要/信息图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Documentation",
+          "url": "https://docs.github.com",
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        },
+        {
+          "kind": "docs",
+          "title": "docs",
+          "url": "https://github.com/terravic/alphagenome-variant-visualization-skill/tree/main/docs",
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        },
+        {
+          "kind": "docs",
+          "title": "acmg-guidelines",
+          "url": "https://github.com/topics/acmg-guidelines",
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.github.com/",
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/sample_variant_upload.json`",
+          "url": "https://github.com/terravic/alphagenome-variant-visualization-skill/blob/HEAD/examples/sample_variant_upload.json",
+          "source": "https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples",
+          "url": "https://github.com/terravic/alphagenome-variant-visualization-skill/tree/main/examples",
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        },
+        {
+          "kind": "example",
+          "title": "examples/sample_variant_upload.json",
+          "url": "https://github.com/terravic/alphagenome-variant-visualization-skill/blob/main/examples/sample_variant_upload.json",
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "AlphaGenome Variant Visualization Skill Architecture and Workflow",
+          "url": "https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/assets/workflow_diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/terravic/alphagenome-variant-visualization-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AlphaGenome Variant Visualization Skill Architecture and Workflow",
+          "url": "https://github.com/terravic/alphagenome-variant-visualization-skill/raw/main/assets/workflow_diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://github.com/terravic/alphagenome-variant-visualization-skill#readme"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 3,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "show-me",
+      "url": "https://github.com/flaviomkpies/show-me",
+      "primaryUrl": "https://github.com/flaviomkpies/show-me",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-21",
+      "note": "Claude Code and Claude Cowork skill that audits every number, citation, or claim by finding primary sources, capturing screenshots with highlighted passages, and embedding proof cards with source, publisher, date, excerpt, and exact link into reports or decks.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "PDF/文档",
+        "论文/科研资料",
+        "新闻/资讯"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "证据表",
+        "报告/长文档",
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Ficha de prova aberta sobre um número do deck",
+          "url": "https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/docs/demo-deck.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Ficha de prova aberta sobre uma citação acadêmica",
+          "url": "https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/docs/demo-academico.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/flaviomkpies/show-me/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "krrish-skills",
+      "url": "https://github.com/nkrrish/krrish-skills",
+      "primaryUrl": "https://github.com/nkrrish/krrish-skills",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "GPL-3.0",
+      "updated": "2026-09-21",
+      "note": "Claude Code skill pack whose branding skill designs SVG logo and icon marks, exports PNG sizes, and validates visual output with measurable checks for ink coverage, monochrome collapse, 16px counters, blank renders, and prior-art similarity.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "prax",
+      "url": "https://github.com/lodsb/prax",
+      "primaryUrl": "https://github.com/lodsb/prax",
+      "homepage": null,
+      "category": "doc-to-knowledge",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "存储/索引",
+        "外部检索/数据源",
+        "MCP Client"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-21",
+      "note": "Self-hosted personal knowledge base that ingests files, web pages, PDFs, figures, talks, and libraries, then searches passages and visual readings, builds evidence-linked relation graphs, and answers questions with source-cited pages and MCP access for agents.",
+      "sourceTypes": [
+        "PDF/文档",
+        "网页/搜索结果",
+        "论文/科研资料",
+        "知识库/个人资料",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "证据表",
+        "引用答案",
+        "结构化数据/Markdown",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/howto.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/howto.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/ask.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/ask.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/integrating.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/integrating.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/eval/`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/eval/",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/PLAN.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/PLAN.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/research.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/research.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/architecture.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/rationale.md`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/docs/rationale.md",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`prax.example.yaml`",
+          "url": "https://github.com/lodsb/prax/blob/HEAD/prax.example.yaml",
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Search results: hybrid hits with the side that found each",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/search.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Ask: the model surfed four steps, searching again and reading on; the answer cites the passages it kept, the sources beside it, the trail under it",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/ask.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Graph: a method's neighbourhood, every edge with its evidence and its source",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/graph.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "An image described and transcribed by two vision models, in the document view with its context",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/image-recognition.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A figure in the document view: the image, its caption, and the vision model's reading of it naming each step of the process",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/vision-with-context.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A talk from YouTube as a document: the transcript in paragraphs headed by their moment, a frame of the talk as a figure with the words spoken there, the summary and the entities th",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/youtube-extraction.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A paper's reference list in the document view: each entry a chunk of its own, and under it the library document it cites, matched by title with its score",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/citations.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The figure strip of a talk: every frame the extension took, captioned by its moment and the words spoken there, each a link to its passage",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/figure-strip.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A page of one's own notes with an ask block: the person's prose and links above, the door's answer on a plate below with the question on its rim, the documents the page links and c",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/ask-block.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The six themes: Bindery, Dessau, Riso, Cyanotype, Night, Funk — the same page in each",
+          "url": "https://raw.githubusercontent.com/lodsb/prax/HEAD/docs/images/themes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/lodsb/prax/HEAD/README.md"
+        }
+      ],
+      "docsCount": 20,
+      "examplesCount": 1,
+      "effectAssetsCount": 10
+    },
+    {
+      "name": "TokenPulse",
+      "url": "https://github.com/weeenc/tokenpulse",
+      "primaryUrl": "https://github.com/weeenc/tokenpulse",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出",
+        "浏览器/账号"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-21",
+      "note": "Self-hosted cross-platform platform for collecting, syncing, and visualizing Codex, Claude Code, and Cursor token usage with a local agent, Go server, Vue web dashboard, device login, deduped usage events, and metadata-only upload boundaries.",
+      "sourceTypes": [
+        "数据/表格",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "表格/时间线",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "架构",
+          "url": "https://github.com/weeenc/tokenpulse/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "设备授权",
+          "url": "https://github.com/weeenc/tokenpulse/blob/HEAD/docs/device-auth.md",
+          "source": "https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "API",
+          "url": "https://github.com/weeenc/tokenpulse/blob/HEAD/docs/api.md",
+          "source": "https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "OpenAPI",
+          "url": "https://github.com/weeenc/tokenpulse/blob/HEAD/docs/openapi.yaml",
+          "source": "https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

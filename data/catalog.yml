@@ -1,4 +1,4 @@
-last_researched: '2026-09-21'
+last_researched: '2026-09-22'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -21237,3 +21237,220 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: presentation
+- name: postward-creative-mcp
+  url: https://github.com/postward-cc/postward-creative-mcp
+  homepage: https://postward.cc
+  category: video-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-21'
+  note: Local-first MCP server that lets assistants edit video and images with ffmpeg and ImageMagick through natural language, producing portable local files without accounts, API keys, uploads, telemetry, or watermarks.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 视频/音频
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: video
+- name: MaxVideoAI Plugin
+  url: https://github.com/camgraphe/maxvideoai-plugin
+  homepage: https://maxvideoai.com/mcp
+  category: video-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: other
+  updated: '2026-09-21'
+  note: Remote MCP/plugin package for assistant-led AI video and image production that plans shots, compares current models, budgets work, prepares exact quotes, submits one approved generation, recovers jobs, and stores outputs in the connected MaxVideoAI Library.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 视频/音频
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: video
+- name: pymol-visualize-skill
+  url: https://github.com/terravic/pymol-visualize-skill
+  homepage: https://github.com/terravic/pymol-visualize-skill#readme
+  category: paper-visualization
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - GPU/加速器
+  stars: 0
+  license: Apache-2.0
+  updated: '2026-09-18'
+  note: Agent skill for headless macromolecular visualization that turns PDB, mmCIF, AlphaFold, or structure IDs into publication PNG renders, PyMOL session files, and a standalone HTML/WebGL inspection dashboard.
+  source_types:
+  - 论文/科研资料
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: paper
+- name: AlphaGenome Variant Visualization Skill
+  url: https://github.com/terravic/alphagenome-variant-visualization-skill
+  homepage: https://github.com/terravic/alphagenome-variant-visualization-skill#readme
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-09-08'
+  note: Agent skill and workbench for interpreting genetic variants across molecular modalities, then compiling Markdown interpretation plus a standalone six-panel HTML5/WebGL dashboard with 3D DNA, genome tracks, splicing views, motif inspection, and causal evidence links.
+  source_types:
+  - 数据/表格
+  - 论文/科研资料
+  - PDF/文档
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 报告/长文档
+  - 图形摘要/信息图
+  catalog_section: main
+  readme_group: data
+- name: show-me
+  url: https://github.com/flaviomkpies/show-me
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-21'
+  note: Claude Code and Claude Cowork skill that audits every number, citation, or claim by finding primary sources, capturing screenshots with highlighted passages, and embedding proof cards with source, publisher, date, excerpt, and exact link into reports or decks.
+  source_types:
+  - 网页/搜索结果
+  - PDF/文档
+  - 论文/科研资料
+  - 新闻/资讯
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 证据表
+  - 报告/长文档
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs
+- name: krrish-skills
+  url: https://github.com/nkrrish/krrish-skills
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: GPL-3.0
+  updated: '2026-09-21'
+  note: Claude Code skill pack whose branding skill designs SVG logo and icon marks, exports PNG sizes, and validates visual output with measurable checks for ink coverage, monochrome collapse, 16px counters, blank renders, and prior-art similarity.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: prax
+  url: https://github.com/lodsb/prax
+  category: doc-to-knowledge
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 存储/索引
+  - 外部检索/数据源
+  - MCP Client
+  stars: 1
+  license: MIT
+  updated: '2026-09-21'
+  note: Self-hosted personal knowledge base that ingests files, web pages, PDFs, figures, talks, and libraries, then searches passages and visual readings, builds evidence-linked relation graphs, and answers questions with source-cited pages and MCP access for agents.
+  source_types:
+  - PDF/文档
+  - 网页/搜索结果
+  - 论文/科研资料
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - 思维导图/知识地图
+  - 证据表
+  - 引用答案
+  - 结构化数据/Markdown
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: docs
+- name: TokenPulse
+  url: https://github.com/weeenc/tokenpulse
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  - 浏览器/账号
+  stars: 1
+  license: MIT
+  updated: '2026-09-21'
+  note: Self-hosted cross-platform platform for collecting, syncing, and visualizing Codex, Claude Code, and Cursor token usage with a local agent, Go server, Vue web dashboard, device login, deduped usage events, and metadata-only upload boundaries.
+  source_types:
+  - 数据/表格
+  - 知识库/个人资料
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 图表/仪表盘
+  - 表格/时间线
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: data
