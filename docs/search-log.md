@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-22.
+Last researched: 2026-09-23.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-23: refreshed source-backed image-generation skills, corroborated customer-research report skills, Mermaid validation/rendering support, native PPTX automation, HTML-to-PPTX conversion, local diagram/dashboard/infographic MCP tooling, and prompt-driven canvas diagramming from official GitHub repositories, README evidence, homepage evidence, live GitHub searches, and current GitHub metadata. This pass added nano-banana-pro, skill-generate, Voice of Customer Skills, MCP Mermaid Validator, pptx-mcp-server by knorq-ai, html2pptx-mcp, VizCharter, and SketchFlow. The targeted scraper ran only against these eight records, fetched nine official sources successfully with no failed fetches, and kept four official docs links after excluding one non-artifact Substack image from the VoC research record.
 
 Update on 2026-09-22: refreshed source-backed local media editing MCPs, hosted AI video-production connectors, molecular and genetic-variant visual dashboards, source-proof report skills, verified SVG branding skills, self-hosted knowledge graph workspaces, and token-usage dashboards from official GitHub repositories, product pages, README evidence, live GitHub searches, and current GitHub metadata. This pass added postward-creative-mcp, MaxVideoAI Plugin, pymol-visualize-skill, AlphaGenome Variant Visualization Skill, show-me, krrish-skills, prax, and TokenPulse. The targeted scraper ran only against these eight records, fetched twelve official sources successfully with no failed fetches, and kept twenty-four official examples, twenty-three preview assets, and forty-nine docs links; a dead Substack homepage for show-me was excluded so only live official repository evidence remained.
 

@@ -1,4 +1,4 @@
-last_researched: '2026-09-22'
+last_researched: '2026-09-23'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -21454,3 +21454,219 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: data
+- name: nano-banana-pro
+  url: https://github.com/Huntehhh/nano-banana-pro
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-08'
+  note: Claude Code skill for generating, editing, and compositing up to fourteen input images through Gemini image models, with
+    explicit output filenames, selectable quality tiers, 0.5K to 4K resolution, and local file handoff for diagrams, covers,
+    visual references, and presentation assets.
+  source_types:
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: skill-generate
+  url: https://github.com/konser80/skill-generate
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-08-18'
+  note: Claude Code image-generation skill for fal.ai that creates banners, covers, illustrations, and posters; it can fan
+    out a prompt across cheaper models, require explicit confirmation before expensive final renders, and write prompt,
+    parameter, and cost sidecars beside the generated files.
+  source_types:
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图形摘要/信息图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Voice of Customer Skills
+  url: https://github.com/Aatirs-Vault/voc-claude-skills
+  homepage: https://aatir.substack.com
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - MCP Client
+  stars: 0
+  license: MIT
+  updated: '2026-08-18'
+  note: Claude Code skill pipeline for voice-of-customer synthesis that normalizes call recordings, reviews, chat, notes,
+    surveys, tickets, and CRM context; clusters corroborated themes; then routes them into evidence-backed PM one-pagers,
+    executive memos, testimonial briefs, objection maps, and dispatch drafts with exact customer quotes attached.
+  source_types:
+  - 任意/多源
+  - 知识库/个人资料
+  - 新闻/资讯
+  - 文本/想法
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: docs
+- name: MCP Mermaid Validator
+  url: https://github.com/rtuin/mcp-mermaid-validator
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 57
+  license: MIT
+  updated: '2026-09-16'
+  note: MCP server that lets AI clients validate Mermaid syntax with Mermaid CLI and return a rendered PNG image or detailed
+    validation errors, giving agents a local feedback loop before diagrams are embedded in reports, docs, or slides.
+  source_types:
+  - DSL/代码
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 图表/Mermaid
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: support_render
+- name: pptx-mcp-server by knorq-ai
+  url: https://github.com/knorq-ai/pptx-mcp-server
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-07-01'
+  note: Python MCP server and optional library for creating, reading, editing, validating, and rendering PowerPoint decks with
+    37 tools, composite layouts, slide previews, and built-in McKinsey, Deloitte, neutral, and IR-style themes.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: html2pptx-mcp
+  url: https://github.com/konojunya/html2pptx-mcp
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 0
+  license: unknown
+  updated: '2026-06-19'
+  note: MCP server and CLI that converts fixed-size, slide-oriented HTML into editable or hybrid PPTX decks by measuring the
+    DOM in Chromium, preserving text boxes, shapes, images, SVG/canvas/video captures, and raster fallbacks for complex visual
+    blocks.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  - 网页/搜索结果
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: VizCharter
+  url: https://github.com/onemorepereira/vizcharter
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: other
+  updated: '2026-08-29'
+  note: Local-first Claude Code MCP studio for presentation-grade architecture diagrams, charts, KPI dashboards, and poster
+    infographics with bundled AWS, GCP, and Azure icons, ELK auto-layout, WCAG-checked themes, re-editable .vizc.json sources,
+    and SVG, PNG, JPG, or vector-PDF export.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 图表/仪表盘
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagram
+- name: SketchFlow
+  url: https://github.com/prhks/sketchflow
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  stars: 0
+  license: unknown
+  updated: '2026-08-31'
+  note: Canvas-based diagramming workspace with a React client and Express/Prisma server for creating documents, nodes,
+    connectors, notes, persisted canvas images, and prompt-generated C4 or MCP diagrams inside a focused editable whiteboard.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: diagram

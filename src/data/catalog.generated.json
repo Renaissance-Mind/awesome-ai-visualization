@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-21T23:13:08+00:00",
-  "lastResearched": "2026-09-22",
+  "generatedAt": "2026-09-22T23:06:11+00:00",
+  "lastResearched": "2026-09-23",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 820,
-    "openSource": 206,
+    "total": 828,
+    "openSource": 207,
     "saas": 79,
-    "modelApi": 260,
+    "modelApi": 262,
     "examples": 1736,
     "effectAssets": 2201,
-    "docs": 2026
+    "docs": 2030
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 87,
       "PDF/文档": 244,
-      "文本/想法": 522,
-      "数据/表格": 336,
-      "代码/技术描述": 166,
-      "任意/多源": 134,
-      "网页/搜索结果": 203,
+      "文本/想法": 529,
+      "数据/表格": 338,
+      "代码/技术描述": 169,
+      "任意/多源": 137,
+      "网页/搜索结果": 204,
       "代码库": 97,
-      "DSL/代码": 164,
-      "新闻/资讯": 30,
-      "知识库/个人资料": 82,
-      "Office 文档": 156,
+      "DSL/代码": 166,
+      "新闻/资讯": 31,
+      "知识库/个人资料": 83,
+      "Office 文档": 157,
       "引用网络": 5,
       "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 206,
-      "Agent Skill": 312,
-      "Skill 集合": 82,
-      "MCP Server": 274,
+      "开源应用/框架": 207,
+      "Agent Skill": 315,
+      "Skill 集合": 83,
+      "MCP Server": 278,
       "产品/SaaS": 79,
       "数据集/评测": 5,
       "Bot/助手": 28,
       "研究原型": 13,
-      "API/SDK/库": 129,
+      "API/SDK/库": 131,
       "Awesome/索引": 26
     },
     "outputForms": {
-      "图形摘要/信息图": 68,
-      "PPT/演示文稿": 351,
-      "网页/交互页面": 293,
+      "图形摘要/信息图": 70,
+      "PPT/演示文稿": 353,
+      "网页/交互页面": 295,
       "问答/学习材料": 19,
-      "报告/长文档": 118,
-      "证据表": 73,
-      "信息图/视觉报告": 113,
-      "图表/仪表盘": 260,
-      "架构图/流程图": 173,
-      "SVG/PNG/PDF": 350,
+      "报告/长文档": 119,
+      "证据表": 74,
+      "信息图/视觉报告": 116,
+      "图表/仪表盘": 261,
+      "架构图/流程图": 175,
+      "SVG/PNG/PDF": 356,
       "报告/简报": 95,
-      "白板/思维导图": 44,
-      "图表/Mermaid": 80,
+      "白板/思维导图": 45,
+      "图表/Mermaid": 81,
       "视频/音频": 67,
-      "结构化数据/Markdown": 124,
+      "结构化数据/Markdown": 125,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 48,
@@ -66,30 +66,30 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 692,
-      "模型 API": 260,
+      "本地语言环境": 700,
+      "模型 API": 262,
       "文档解析/OCR": 118,
-      "渲染/导出": 721,
+      "渲染/导出": 728,
       "GPU/加速器": 24,
-      "模板/素材": 399,
-      "Agent 宿主": 401,
-      "系统工具": 186,
+      "模板/素材": 403,
+      "Agent 宿主": 404,
+      "系统工具": 189,
       "浏览器/账号": 192,
-      "存储/索引": 127,
-      "MCP Client": 286,
-      "外部检索/数据源": 171,
+      "存储/索引": 129,
+      "MCP Client": 291,
+      "外部检索/数据源": 172,
       "代码分析工具": 60
     },
     "categories": {
       "paper-visualization": 29,
       "doc-to-knowledge": 69,
-      "research-report": 34,
-      "infographic-report": 77,
+      "research-report": 35,
+      "infographic-report": 79,
       "data-dashboard": 133,
-      "diagram-generation": 90,
+      "diagram-generation": 92,
       "literature-map": 5,
-      "presentation-tools": 244,
-      "rendering-primitive": 27,
+      "presentation-tools": 246,
+      "rendering-primitive": 28,
       "video-generation": 21,
       "codebase-map": 52,
       "commercial-site": 10,
@@ -97,19 +97,19 @@
     },
     "groups": {
       "paper": 44,
-      "text_visual": 98,
+      "text_visual": 100,
       "web_news": 9,
       "support_mindmap": 18,
-      "docs": 40,
+      "docs": 41,
       "support_doc_parse": 24,
-      "presentation": 252,
+      "presentation": 254,
       "data": 126,
       "video": 21,
       "code": 58,
-      "support_render": 71,
+      "support_render": 72,
       "diagrams": 20,
       "indexes": 28,
-      "diagram": 5,
+      "diagram": 7,
       "index": 1,
       "knowledge": 2,
       "text": 3
@@ -67502,6 +67502,346 @@
       "examples": [],
       "effectAssets": [],
       "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "nano-banana-pro",
+      "url": "https://github.com/Huntehhh/nano-banana-pro",
+      "primaryUrl": "https://github.com/Huntehhh/nano-banana-pro",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-08",
+      "note": "Claude Code skill for generating, editing, and compositing up to fourteen input images through Gemini image models, with explicit output filenames, selectable quality tiers, 0.5K to 4K resolution, and local file handoff for diagrams, covers, visual references, and presentation assets.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "skill-generate",
+      "url": "https://github.com/konser80/skill-generate",
+      "primaryUrl": "https://github.com/konser80/skill-generate",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-18",
+      "note": "Claude Code image-generation skill for fal.ai that creates banners, covers, illustrations, and posters; it can fan out a prompt across cheaper models, require explicit confirmation before expensive final renders, and write prompt, parameter, and cost sidecars beside the generated files.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图形摘要/信息图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Voice of Customer Skills",
+      "url": "https://github.com/Aatirs-Vault/voc-claude-skills",
+      "primaryUrl": "https://github.com/Aatirs-Vault/voc-claude-skills",
+      "homepage": "https://aatir.substack.com",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "存储/索引",
+        "MCP Client"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-08-18",
+      "note": "Claude Code skill pipeline for voice-of-customer synthesis that normalizes call recordings, reviews, chat, notes, surveys, tickets, and CRM context; clusters corroborated themes; then routes them into evidence-backed PM one-pagers, executive memos, testimonial briefs, objection maps, and dispatch drafts with exact customer quotes attached.",
+      "sourceTypes": [
+        "任意/多源",
+        "知识库/个人资料",
+        "新闻/资讯",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "docs",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/SETUP.md",
+          "url": "https://github.com/Aatirs-Vault/voc-claude-skills/blob/HEAD/docs/SETUP.md",
+          "source": "https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/COST.md",
+          "url": "https://github.com/Aatirs-Vault/voc-claude-skills/blob/HEAD/docs/COST.md",
+          "source": "https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "MCP Mermaid Validator",
+      "url": "https://github.com/rtuin/mcp-mermaid-validator",
+      "primaryUrl": "https://github.com/rtuin/mcp-mermaid-validator",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 57,
+      "license": "MIT",
+      "updated": "2026-09-16",
+      "note": "MCP server that lets AI clients validate Mermaid syntax with Mermaid CLI and return a rendered PNG image or detailed validation errors, giving agents a local feedback loop before diagrams are embedded in reports, docs, or slides.",
+      "sourceTypes": [
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "图表/Mermaid",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "support_render",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "pptx-mcp-server by knorq-ai",
+      "url": "https://github.com/knorq-ai/pptx-mcp-server",
+      "primaryUrl": "https://github.com/knorq-ai/pptx-mcp-server",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-07-01",
+      "note": "Python MCP server and optional library for creating, reading, editing, validating, and rendering PowerPoint decks with 37 tools, composite layouts, slide previews, and built-in McKinsey, Deloitte, neutral, and IR-style themes.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "html2pptx-mcp",
+      "url": "https://github.com/konojunya/html2pptx-mcp",
+      "primaryUrl": "https://github.com/konojunya/html2pptx-mcp",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-06-19",
+      "note": "MCP server and CLI that converts fixed-size, slide-oriented HTML into editable or hybrid PPTX decks by measuring the DOM in Chromium, preserving text boxes, shapes, images, SVG/canvas/video captures, and raster fallbacks for complex visual blocks.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "VizCharter",
+      "url": "https://github.com/onemorepereira/vizcharter",
+      "primaryUrl": "https://github.com/onemorepereira/vizcharter",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "other",
+      "updated": "2026-08-29",
+      "note": "Local-first Claude Code MCP studio for presentation-grade architecture diagrams, charts, KPI dashboards, and poster infographics with bundled AWS, GCP, and Azure icons, ELK auto-layout, WCAG-checked themes, re-editable .vizc.json sources, and SVG, PNG, JPG, or vector-PDF export.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/仪表盘",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "User Guide",
+          "url": "https://github.com/onemorepereira/vizcharter/blob/HEAD/docs/user-guide.md",
+          "source": "https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Contributor Guide",
+          "url": "https://github.com/onemorepereira/vizcharter/blob/HEAD/docs/contributing.md",
+          "source": "https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "SketchFlow",
+      "url": "https://github.com/prhks/sketchflow",
+      "primaryUrl": "https://github.com/prhks/sketchflow",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "存储/索引",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-08-31",
+      "note": "Canvas-based diagramming workspace with a React client and Express/Prisma server for creating documents, nodes, connectors, notes, persisted canvas images, and prompt-generated C4 or MCP diagrams inside a focused editable whiteboard.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
     }

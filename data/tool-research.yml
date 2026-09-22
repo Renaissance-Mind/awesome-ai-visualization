@@ -1,4 +1,4 @@
-generated_at: '2026-09-21T23:13:08+00:00'
+generated_at: '2026-09-22T23:06:11+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 820
-  fetched_sources_ok: 1099
+  entries: 828
+  fetched_sources_ok: 1108
   fetched_sources_failed: 59
   official_examples: 1736
   official_effect_assets: 2201
-  official_docs: 2026
+  official_docs: 2030
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -64552,3 +64552,222 @@ entries:
     title: OpenAPI
     url: https://github.com/weeenc/tokenpulse/blob/HEAD/docs/openapi.yaml
     source: https://raw.githubusercontent.com/weeenc/tokenpulse/HEAD/README.md
+- name: nano-banana-pro
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/Huntehhh/nano-banana-pro
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for generating, editing, and compositing up to fourteen input images through Gemini image
+    models, with explicit output filenames, selectable quality tiers, 0.5K to 4K resolution, and local file handoff for diagrams,
+    covers, visual references, and presentation assets.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Huntehhh/nano-banana-pro/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Huntehhh/nano-banana-pro/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: nano-banana-pro
+    bytes: 2226
+- name: skill-generate
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/konser80/skill-generate
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code image-generation skill for fal.ai that creates banners, covers, illustrations, and posters; it
+    can fan out a prompt across cheaper models, require explicit confirmation before expensive final renders, and write prompt,
+    parameter, and cost sidecars beside the generated files.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/konser80/skill-generate/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/konser80/skill-generate/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: generate
+    bytes: 2537
+- name: Voice of Customer Skills
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/Aatirs-Vault/voc-claude-skills
+  homepage: https://aatir.substack.com
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 存储/索引
+  - MCP Client
+  catalog_note: Claude Code skill pipeline for voice-of-customer synthesis that normalizes call recordings, reviews, chat,
+    notes, surveys, tickets, and CRM context; clusters corroborated themes; then routes them into evidence-backed PM one-pagers,
+    executive memos, testimonial briefs, objection maps, and dispatch drafts with exact customer quotes attached.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Voice of Customer skills for Claude Code
+    bytes: 8407
+  - kind: homepage
+    url: https://aatir.substack.com/
+    final_url: https://aatir.substack.com/
+    status: 200
+    content_type: text/html
+    title: Behind Product Lines | Aatir Abdul Rauf | Substack
+    description: An easy-to-read newsletter that helps PMs and PMMs understand how they can work together to build and market
+      products better. Click to read Behind Product Lines, by Aatir Abdul Rau
+    bytes: 77780
+  official_docs:
+  - kind: docs
+    title: docs/SETUP.md
+    url: https://github.com/Aatirs-Vault/voc-claude-skills/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md
+  - kind: docs
+    title: docs/COST.md
+    url: https://github.com/Aatirs-Vault/voc-claude-skills/blob/HEAD/docs/COST.md
+    source: https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: docs/SETUP.md
+    url: https://github.com/Aatirs-Vault/voc-claude-skills/blob/HEAD/docs/SETUP.md
+    source: https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md
+  - kind: docs
+    title: docs/COST.md
+    url: https://github.com/Aatirs-Vault/voc-claude-skills/blob/HEAD/docs/COST.md
+    source: https://raw.githubusercontent.com/Aatirs-Vault/voc-claude-skills/HEAD/README.md
+- name: MCP Mermaid Validator
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/rtuin/mcp-mermaid-validator
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: MCP server that lets AI clients validate Mermaid syntax with Mermaid CLI and return a rendered PNG image or
+    detailed validation errors, giving agents a local feedback loop before diagrams are embedded in reports, docs, or slides.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/rtuin/mcp-mermaid-validator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/rtuin/mcp-mermaid-validator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: 'MCP Server: Mermaid Validator'
+    bytes: 6035
+  source_headings:
+  - Usage
+- name: pptx-mcp-server by knorq-ai
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/knorq-ai/pptx-mcp-server
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Python MCP server and optional library for creating, reading, editing, validating, and rendering PowerPoint
+    decks with 37 tools, composite layouts, slide previews, and built-in McKinsey, Deloitte, neutral, and IR-style themes.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/knorq-ai/pptx-mcp-server/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/knorq-ai/pptx-mcp-server/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptx-mcp-server
+    bytes: 15554
+  source_headings:
+  - 'Library usage (no MCP runtime — only python-pptx + lxml):'
+  - Presentation
+  - Slides
+- name: html2pptx-mcp
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/konojunya/html2pptx-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: MCP server and CLI that converts fixed-size, slide-oriented HTML into editable or hybrid PPTX decks by measuring
+    the DOM in Chromium, preserving text boxes, shapes, images, SVG/canvas/video captures, and raster fallbacks for complex
+    visual blocks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/konojunya/html2pptx-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/konojunya/html2pptx-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: html2pptx-mcp
+    bytes: 11724
+  source_headings:
+  - '`html_slide_authoring_guidelines`'
+- name: VizCharter
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/onemorepereira/vizcharter
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Local-first Claude Code MCP studio for presentation-grade architecture diagrams, charts, KPI dashboards, and
+    poster infographics with bundled AWS, GCP, and Azure icons, ELK auto-layout, WCAG-checked themes, re-editable .vizc.json
+    sources, and SVG, PNG, JPG, or vector-PDF export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: VizCharter
+    bytes: 4674
+  official_docs:
+  - kind: docs
+    title: User Guide
+    url: https://github.com/onemorepereira/vizcharter/blob/HEAD/docs/user-guide.md
+    source: https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md
+  - kind: docs
+    title: Contributor Guide
+    url: https://github.com/onemorepereira/vizcharter/blob/HEAD/docs/contributing.md
+    source: https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: User Guide
+    url: https://github.com/onemorepereira/vizcharter/blob/HEAD/docs/user-guide.md
+    source: https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md
+  - kind: docs
+    title: Contributor Guide
+    url: https://github.com/onemorepereira/vizcharter/blob/HEAD/docs/contributing.md
+    source: https://raw.githubusercontent.com/onemorepereira/vizcharter/HEAD/README.md
+  source_headings:
+  - Spec example
+  - Documentation
+- name: SketchFlow
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/prhks/sketchflow
+  dependencies:
+  - 本地语言环境
+  - 存储/索引
+  - 渲染/导出
+  catalog_note: Canvas-based diagramming workspace with a React client and Express/Prisma server for creating documents, nodes,
+    connectors, notes, persisted canvas images, and prompt-generated C4 or MCP diagrams inside a focused editable whiteboard.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/prhks/sketchflow/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/prhks/sketchflow/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: SketchFlow
+    bytes: 980
+  source_headings:
+  - Docs
