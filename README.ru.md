@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-828_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-836_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--24-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -15,18 +15,18 @@
 
 Некоторые названия проектов, официальные термины и краткие описания оставлены на английском для поиска и сопоставления с исходниками.
 
-## Latest Refresh (2026-09-23)
+## Latest Refresh (2026-09-24)
 
 | Project | Catalog focus |
 | --- | --- |
-| [nano-banana-pro](https://github.com/Huntehhh/nano-banana-pro) | Gemini image-generation/editing Claude Code skill for diagrams, covers, reference stills, and presentation assets with explicit local-file outputs. |
-| [skill-generate](https://github.com/konser80/skill-generate) | fal.ai Claude Code image-generation skill for banners, covers, illustrations, and posters, with fan-out model comparison and cost sidecars. |
-| [Voice of Customer Skills](https://github.com/Aatirs-Vault/voc-claude-skills) | VoC skill pipeline that corroborates call, review, chat, notes, survey, ticket, and CRM signals into evidence-backed PM one-pagers and executive memos. |
-| [MCP Mermaid Validator](https://github.com/rtuin/mcp-mermaid-validator) | MCP server that validates Mermaid syntax and returns rendered PNG output or detailed errors for diagram feedback loops. |
-| [pptx-mcp-server by knorq-ai](https://github.com/knorq-ai/pptx-mcp-server) | Python MCP server and library for creating, editing, validating, and rendering PowerPoint decks with built-in consulting and IR themes. |
-| [html2pptx-mcp](https://github.com/konojunya/html2pptx-mcp) | MCP server and CLI that converts fixed-size slide HTML into editable or hybrid PPTX using Chromium DOM measurement. |
-| [VizCharter](https://github.com/onemorepereira/vizcharter) | Local Claude Code MCP studio for architecture diagrams, charts, KPI dashboards, and poster infographics with editable .vizc.json sources. |
-| [SketchFlow](https://github.com/prhks/sketchflow) | Canvas-based diagramming workspace for editable documents, nodes, connectors, notes, and prompt-generated C4 or MCP diagrams. |
+| [Presentation Forge](https://github.com/thmsgo18/presentation-forge) | Portable Claude skill for self-contained HTML slide decks with brand-theme import from PowerPoint, images, or descriptions. |
+| [video2ppt](https://github.com/Sadonim/video2ppt) | Claude Code skill that turns YouTube or local videos into editable PowerPoint decks across ten analysis modes. |
+| [ppt-skill by Brusdeylins](https://github.com/Brusdeylins/ppt-skill) | Deterministic pptc CLI and Claude Code skill for schema-validated, template-aware PowerPoint creation and editing. |
+| [web-content-designer](https://github.com/lowtidebuild/web-content-designer) | Claude skill for converting text, articles, or URLs into single-file HTML dashboards, infographics, and executive briefings. |
+| [strategy-skill](https://github.com/mothivenkatesh/strategy-skill) | Market-research strategy skill that scrapes live sources, clusters signals, cites evidence, scores strategy, and emits an HTML report. |
+| [Visual Research](https://github.com/danpeg/visual-research) | Brand visual-research skill that discovers references, captures social presence, runs optional vision analysis, and packages a visual HTML report. |
+| [GapHunter Skill](https://github.com/debba/gaphunter-skill) | Competitor review gap-analysis skill with self-contained HTML reports, filters, matrices, chart components, and PDF export. |
+| [creator-analytics](https://github.com/xntj-ai/creator-analytics) | Creator analytics skill that aligns multi-platform exports into JSON and renders a PPVI-style HTML review dashboard. |
 
 ## ✨ Рекомендуемое использование
 
@@ -124,6 +124,9 @@
 
 | Проект | Источник информации | Форма инструмента | Результат | Зависимости |
 | --- | --- | --- | --- | --- |
+
+| [strategy-skill](https://github.com/mothivenkatesh/strategy-skill) [![Star](https://img.shields.io/github/stars/mothivenkatesh/strategy-skill?style=flat&logo=github&label=Star)](https://github.com/mothivenkatesh/strategy-skill/stargazers) | Web/search / News/intelligence / Data/tables / Text/ideas | Agent skill | Long report / Web/interactive page / Evidence table | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
+| [GapHunter Skill](https://github.com/debba/gaphunter-skill) [![Star](https://img.shields.io/github/stars/debba/gaphunter-skill?style=flat&logo=github&label=Star)](https://github.com/debba/gaphunter-skill/stargazers) | Web/search / Data/tables / Text/ideas | Agent skill | Long report / Web/interactive page / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
 | [Tenet Skills](https://github.com/inceptyon-labs/tenet-skills) [![Star](https://img.shields.io/github/stars/inceptyon-labs/tenet-skills?style=flat&logo=github&label=Star)](https://github.com/inceptyon-labs/tenet-skills/stargazers) | Codebase / Data/tables / Code/technical text | Skill collection | Long report / Evidence table / Chart/dashboard | Agent host / Local runtime / Code analysis / External search/data / Storage/index / Rendering/export |
 | [README Showcase](https://github.com/Acfufu/readme-showcase) [![Star](https://img.shields.io/github/stars/Acfufu/readme-showcase?style=flat&logo=github&label=Star)](https://github.com/Acfufu/readme-showcase/stargazers) | Codebase / Text/ideas / Code/technical text | Agent skill | Long report / Infographic/visual report / Architecture/flow diagram / SVG/PNG/PDF | Agent host / Local runtime / Code analysis / Rendering/export / Templates/assets |
 | [human-review](https://github.com/victorrentea/human-review) [![Star](https://img.shields.io/github/stars/victorrentea/human-review?style=flat&logo=github&label=Star)](https://github.com/victorrentea/human-review/stargazers) | Кодовая база / Код/технический текст / Данные/таблицы | Agent skill / Коллекция skills | Веб/интерактивная страница / Карта кода/Repo Wiki / Архитектура/flow diagram / Видео/аудио / Таблица доказательств | Agent host / Локальный runtime / Системные инструменты / Анализ кода / Рендеринг/экспорт / Внешний поиск/данные |
@@ -162,7 +165,6 @@
 | [Carbone MCP Server](https://github.com/carboneio/carbone-mcp) [![Star](https://img.shields.io/github/stars/carboneio/carbone-mcp?style=flat&logo=github&label=Star)](https://github.com/carboneio/carbone-mcp/stargazers) | Данные/таблицы / Office-документы / Текст/идеи | MCP server / Продукт/SaaS | Длинный отчет / PPT/deck / SVG/PNG/PDF / Структурированные данные/Markdown | MCP client / Браузер/аккаунт / Model API / Рендеринг/экспорт / Шаблоны/assets / Внешний поиск/данные |
 | [Sigrid Report Generator](https://github.com/Software-Improvement-Group/sigrid-report-generator) [![Star](https://img.shields.io/github/stars/Software-Improvement-Group/sigrid-report-generator?style=flat&logo=github&label=Star)](https://github.com/Software-Improvement-Group/sigrid-report-generator/stargazers) | Данные/таблицы / Кодовая база / Office документы | Open-source приложение/фреймворк / API/SDK/библиотека | Длинный отчет / PPT/deck / График/дашборд | Локальный runtime / Браузер/аккаунт / Внешний поиск/данные / Рендеринг/экспорт / Шаблоны/assets |
 | [Coursewright](https://github.com/lars-derichter/coursewright) [![Star](https://img.shields.io/github/stars/lars-derichter/coursewright?style=flat&logo=github&label=Star)](https://github.com/lars-derichter/coursewright/stargazers) | PDF/документы / Текст/идеи / База знаний | Open-source приложение/фреймворк / Коллекция skill | Веб/интерактивная страница / Длинный отчет / Структурированные данные/Markdown / Q&A/учебные материалы | Локальная среда / Agent host / Рендеринг/экспорт / Внешний поиск/данные / Шаблоны/assets |
-
 ### Кодовые базы и программные системы
 
 Инструменты, которые превращают репозитории, локальный код, зависимости или diff в архитектурные диаграммы, repo wiki, карты кода или графы знаний.
@@ -234,6 +236,8 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 
 | Проект | Источник информации | Форма инструмента | Результат | Зависимости |
 | --- | --- | --- | --- | --- |
+
+| [creator-analytics](https://github.com/xntj-ai/creator-analytics) [![Star](https://img.shields.io/github/stars/xntj-ai/creator-analytics?style=flat&logo=github&label=Star)](https://github.com/xntj-ai/creator-analytics/stargazers) | Data/tables / Any/multi-source | Agent skill | Chart/dashboard / Web/interactive page / Briefing/report | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
 | [Agent Dashboard](https://github.com/wildware-uk/agent-dashboard) [![Star](https://img.shields.io/github/stars/wildware-uk/agent-dashboard?style=flat&logo=github&label=Star)](https://github.com/wildware-uk/agent-dashboard/stargazers) | Codebase / Any/multi-source / Knowledge base | MCP server / Open-source app/framework | Chart/dashboard / Web/interactive page / Table/timeline | MCP client / Local runtime / Storage/index / Rendering/export / Browser/account |
 | [Agent Reliability Lab](https://github.com/karthikrshet/agent-reliability) [![Star](https://img.shields.io/github/stars/karthikrshet/agent-reliability?style=flat&logo=github&label=Star)](https://github.com/karthikrshet/agent-reliability/stargazers) | Codebase / Data/tables / Code/technical text | Open-source app/framework / MCP server | Chart/dashboard / Evidence table / Long report | Local runtime / MCP client / Code analysis / Storage/index / Rendering/export |
 | [Findings Visualizer](https://github.com/neang-mengseang/findings-visualizer) [![Star](https://img.shields.io/github/stars/neang-mengseang/findings-visualizer?style=flat&logo=github&label=Star)](https://github.com/neang-mengseang/findings-visualizer/stargazers) | Text/ideas / Codebase / Data/tables | Agent skill | Chart/dashboard / Web/interactive page / Briefing/report | Agent host / Local runtime / Rendering/export / Templates/assets |
@@ -360,13 +364,15 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 
 | [MCP Vega](https://github.com/andreipirone/mcp-vega) [![Star](https://img.shields.io/github/stars/andreipirone/mcp-vega?style=flat&logo=github&label=Star)](https://github.com/andreipirone/mcp-vega/stargazers) | База данных / Данные/таблицы | MCP server | График/дашборд / Рендеренный график / Структурированные данные/Markdown | MCP client / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт |
 | [OraViz MCP](https://github.com/jasperan/oraviz-mcp) [![Star](https://img.shields.io/github/stars/jasperan/oraviz-mcp?style=flat&logo=github&label=Star)](https://github.com/jasperan/oraviz-mcp/stargazers) | База данных / Данные/таблицы | MCP server | График/дашборд / Рендеренный график / SVG/PNG/PDF | MCP client / Локальный runtime / Внешний поиск/данные / Рендеринг/экспорт |
-
 ### Текст, идеи и визуализации для доски
 
 Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into infographics, diagrams, whiteboards, or visual reports.
 
 | Проект | Источник информации | Форма инструмента | Результат | Зависимости |
 | --- | --- | --- | --- | --- |
+
+| [web-content-designer](https://github.com/lowtidebuild/web-content-designer) [![Star](https://img.shields.io/github/stars/lowtidebuild/web-content-designer?style=flat&logo=github&label=Star)](https://github.com/lowtidebuild/web-content-designer/stargazers) | Text/ideas / Web/search / Data/tables | Agent skill | Web/interactive page / Infographic/visual report / Chart/dashboard / Briefing/report | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Visual Research](https://github.com/danpeg/visual-research) [![Star](https://img.shields.io/github/stars/danpeg/visual-research?style=flat&logo=github&label=Star)](https://github.com/danpeg/visual-research/stargazers) | Web/search / News/intelligence / Any/multi-source | Agent skill | Infographic/visual report / Web/interactive page / Evidence table | Agent host / Browser/account / Model API / External search/data / Local runtime / Rendering/export / Templates/assets |
 | [Create Hand-drawn AI Infographic](https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill) [![Star](https://img.shields.io/github/stars/vickywongziyu/create-handdrawn-ai-infographic-skill?style=flat&logo=github&label=Star)](https://github.com/vickywongziyu/create-handdrawn-ai-infographic-skill/stargazers) | Text/ideas / Code/technical text / Any/multi-source | Agent skill | Infographic/visual report / Graphical abstract/infographic / SVG/PNG/PDF | Agent host / Model API / Local runtime / Rendering/export / Templates/assets |
 | [Arabic Editorial Infographic](https://github.com/elmarakpy/arabic-editorial-infographic) [![Star](https://img.shields.io/github/stars/elmarakpy/arabic-editorial-infographic?style=flat&logo=github&label=Star)](https://github.com/elmarakpy/arabic-editorial-infographic/stargazers) | Text/ideas / News/intelligence | Agent skill | Infographic/visual report / Graphical abstract/infographic / SVG/PNG/PDF | Agent host / Rendering/export / Templates/assets |
 | [affiliate-skills](https://github.com/Affitor/affiliate-skills) [![Star](https://img.shields.io/github/stars/Affitor/affiliate-skills?style=flat&logo=github&label=Star)](https://github.com/Affitor/affiliate-skills/stargazers) | Web/search / News/intelligence / Data/tables | Skill collection | Infographic/visual report / Web/interactive page / Briefing/report | Agent host / Model API / External search/data / Rendering/export / Templates/assets |
@@ -478,7 +484,6 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Archify](https://github.com/tt-a1i/archify) [![Star](https://img.shields.io/github/stars/tt-a1i/archify?style=flat&logo=github&label=Star)](https://github.com/tt-a1i/archify/stargazers) | Текст/идеи / Код/технический текст / DSL/код | Agent skill | Архитектура/flow diagram / Web/интерактивная страница / SVG/PNG/PDF | Agent host / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
 | [HTML Anything](https://github.com/nexu-io/html-anything) [![Star](https://img.shields.io/github/stars/nexu-io/html-anything?style=flat&logo=github&label=Star)](https://github.com/nexu-io/html-anything/stargazers) | Текст/идеи / Данные/таблицы / Web/поиск / Любые/многоисточниковые | Open-source приложение/фреймворк / Коллекция skill | Web/интерактивная страница / PPT/deck / Инфографика/визуальный отчет / Видео/аудио | Локальный runtime / Agent host / Рендеринг/экспорт / Шаблоны/assets |
 | [Effective HTML](https://github.com/plannotator/effective-html) [![Star](https://img.shields.io/github/stars/plannotator/effective-html?style=flat&logo=github&label=Star)](https://github.com/plannotator/effective-html/stargazers) | Текст/идеи / Код/технический текст / Данные/таблицы | Коллекция skill / Agent skill | Web/интерактивная страница / Длинный отчет / Архитектура/flow diagram / Таблица/timeline | Agent host / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
-
 ### Программируемое видео и motion-объяснения
 
 Инструменты, которые превращают промпты, веб-страницы, репозитории, структурированные таймлайны или HTML от агента в озвученные или анимированные MP4/video-артефакты.
@@ -514,6 +519,10 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 
 | Проект | Источник информации | Форма инструмента | Результат | Зависимости |
 | --- | --- | --- | --- | --- |
+
+| [Presentation Forge](https://github.com/thmsgo18/presentation-forge) [![Star](https://img.shields.io/github/stars/thmsgo18/presentation-forge?style=flat&logo=github&label=Star)](https://github.com/thmsgo18/presentation-forge/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [video2ppt](https://github.com/Sadonim/video2ppt) [![Star](https://img.shields.io/github/stars/Sadonim/video2ppt?style=flat&logo=github&label=Star)](https://github.com/Sadonim/video2ppt/stargazers) | Web/search / Any/multi-source / Text/ideas | Agent skill | PPT/deck / Briefing/report / Structured data/Markdown | Agent host / Model API / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |
+| [ppt-skill by Brusdeylins](https://github.com/Brusdeylins/ppt-skill) [![Star](https://img.shields.io/github/stars/Brusdeylins/ppt-skill?style=flat&logo=github&label=Star)](https://github.com/Brusdeylins/ppt-skill/stargazers) | Text/ideas / Office docs / Data/tables | Agent skill / API/SDK/library | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Decksmith](https://github.com/Rotvie/decksmith) [![Star](https://img.shields.io/github/stars/Rotvie/decksmith?style=flat&logo=github&label=Star)](https://github.com/Rotvie/decksmith/stargazers) | Text/ideas / PDF/documents / Any/multi-source | MCP server | PPT/deck / Graphical abstract/infographic / SVG/PNG/PDF | MCP client / Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [PowerPoint Generator Skill](https://github.com/Xr810/PowerPoint_MCP) [![Star](https://img.shields.io/github/stars/Xr810/PowerPoint_MCP?style=flat&logo=github&label=Star)](https://github.com/Xr810/PowerPoint_MCP/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill / MCP server | PPT/deck / Structured data/Markdown | Agent host / MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
 | [PowerPoint Design Power](https://github.com/juanhcode/powerpoint-design-power) [![Star](https://img.shields.io/github/stars/juanhcode/powerpoint-design-power?style=flat&logo=github&label=Star)](https://github.com/juanhcode/powerpoint-design-power/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill / MCP server | PPT/deck / Chart/dashboard | Agent host / MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
@@ -770,7 +779,6 @@ This section contains smaller, lower-level, or more specialized tools. They may 
 | [Spec-Driven Presentation Maker](https://github.com/aws-samples/sample-spec-driven-presentation-maker) [![Star](https://img.shields.io/github/stars/aws-samples/sample-spec-driven-presentation-maker?style=flat&logo=github&label=Star)](https://github.com/aws-samples/sample-spec-driven-presentation-maker/stargazers) | Text/ideas / PDF/documents / Office docs / Any/multi-source | MCP server / Agent skill / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / MCP client / Local runtime / Model API / System tools / Rendering/export / Templates/assets |
 | [2slides Skills](https://github.com/2slides/slides-generation-2slides-skills) [![Star](https://img.shields.io/github/stars/2slides/slides-generation-2slides-skills?style=flat&logo=github&label=Star)](https://github.com/2slides/slides-generation-2slides-skills/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / Product/SaaS | PPT/deck / SVG/PNG/PDF / Video/audio | Agent host / Model API / Browser/account / External search/data / Rendering/export / Templates/assets |
 | [Knowledge Cat PPT Skill](https://github.com/gnipbao/knowledge-cat-ppt-skill) [![Star](https://img.shields.io/github/stars/gnipbao/knowledge-cat-ppt-skill?style=flat&logo=github&label=Star)](https://github.com/gnipbao/knowledge-cat-ppt-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill | PPT/deck / Web/interactive page / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
-
 ### PDF, парсинг документов и структурированное извлечение
 
 Инструменты предобработки, которые превращают PDF, статьи, Office-файлы или сканы в Markdown, JSON, layout, таблицы или OCR-результаты.

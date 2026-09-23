@@ -1,4 +1,4 @@
-generated_at: '2026-09-22T23:06:11+00:00'
+generated_at: '2026-09-23T23:06:03+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 828
-  fetched_sources_ok: 1108
+  entries: 836
+  fetched_sources_ok: 1118
   fetched_sources_failed: 59
-  official_examples: 1736
-  official_effect_assets: 2201
-  official_docs: 2030
+  official_examples: 1748
+  official_effect_assets: 2213
+  official_docs: 2037
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -64771,3 +64771,442 @@ entries:
     bytes: 980
   source_headings:
   - Docs
+- name: Presentation Forge
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/thmsgo18/presentation-forge
+  homepage: https://thmsgo18.github.io/presentation-forge/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Portable Claude skill that turns plain-language topics, outlines, and brand references into self-contained
+    HTML slide decks, with theme import from PowerPoint, images, or descriptions plus offline-friendly bundled output for
+    email, local opening, or static hosting.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Install
+    bytes: 9655
+  - kind: homepage
+    url: https://thmsgo18.github.io/presentation-forge/
+    final_url: https://thmsgo18.github.io/presentation-forge/
+    status: 200
+    content_type: text/html
+    title: Presentation Forge
+    bytes: 770198
+  official_examples:
+  - kind: demo
+    title: live demo
+    url: https://thmsgo18.github.io/presentation-forge/
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  - kind: template
+    title: '`reference/import-theme.md`'
+    url: https://github.com/thmsgo18/presentation-forge/blob/HEAD/reference/import-theme.md
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`reference/`'
+    url: https://github.com/thmsgo18/presentation-forge/blob/HEAD/reference/
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'Presenter mode: speaker notes, timer and next-slide preview'
+    url: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/docs/screenshots/presenter-mode.png
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  - kind: image
+    title: A content slide built with the obsidian theme, comparing PowerPoint and Presentation Forge
+    url: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/docs/screenshots/comparison-table.png
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`reference/`'
+    url: https://github.com/thmsgo18/presentation-forge/blob/HEAD/reference/
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  - kind: demo
+    title: live demo
+    url: https://thmsgo18.github.io/presentation-forge/
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  - kind: template
+    title: '`reference/import-theme.md`'
+    url: https://github.com/thmsgo18/presentation-forge/blob/HEAD/reference/import-theme.md
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/thmsgo18/presentation-forge/HEAD/README.md
+  source_headings:
+  - Example
+- name: video2ppt
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Sadonim/video2ppt
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill that converts YouTube URLs or local videos into polished PowerPoint decks through guided
+    or instant modes, selecting among summary, compare, lecture, meeting, technical, trend, proposal, study, executive, and
+    creative analysis workflows before exporting editable slides.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Sadonim/video2ppt/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Sadonim/video2ppt/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Table of Contents
+    bytes: 19775
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/Sadonim/video2ppt/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/Sadonim/video2ppt/HEAD/README.md
+  source_headings:
+  - 🤔 Why video2ppt?
+  - 📖 Usage
+  - Single video, auto mode
+  - Multiple videos with comparison
+- name: ppt-skill by Brusdeylins
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/Brusdeylins/ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Deterministic PowerPoint skill and pptc CLI for LLM agents, using template-aware deck creation and editing,
+    schema-validated atomic operations, outline-first planning, capacity checks, speaker notes, footer rules, and bundled
+    fallback templates.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/Brusdeylins/ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/Brusdeylins/ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptc
+    bytes: 24435
+  source_headings:
+  - 1. understand the template (the LLM picks layouts from this)
+  - Read templates
+  - '`pptc state [--slide SEL] [--level summary|text|full]`'
+  - '`pptc new --template [--force] [--ops @file] [--strict]`'
+  - '`pptc apply (--ops @file|- | -e '' '') [--template ] [--dry-run] [--strict] [--rev R] [--out F]`'
+  - '`pptc text --slide SEL [--ph KEY] [--append] "text"`'
+  - '`pptc note --slide SEL "speaker notes"`'
+  - '`pptc footer [--slide SEL] "footer text"`'
+  - '`pptc rm --slide SEL`'
+  - '`pptc move --slide SEL --to N`'
+- name: web-content-designer
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/lowtidebuild/web-content-designer
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude skill that transforms pasted text, articles, or URLs into production-grade single-file HTML dashboards,
+    infographics, or one-page executive briefings with Chart.js visualizations, bilingual Korean/English prompts, scroll-spy
+    navigation, and reference layouts.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Web Content Designer
+    bytes: 7963
+  official_examples:
+  - kind: template
+    title: '`design-themes.md`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/design-themes.md
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  - kind: example
+    title: '`dashboard-example.html`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/dashboard-example.html
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  - kind: example
+    title: '`infographic-example.html`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/infographic-example.html
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  - kind: example
+    title: '`one-page-example.html`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/one-page-example.html
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`design-themes.md`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/design-themes.md
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  - kind: example
+    title: '`dashboard-example.html`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/dashboard-example.html
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  - kind: example
+    title: '`infographic-example.html`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/infographic-example.html
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  - kind: example
+    title: '`one-page-example.html`'
+    url: https://github.com/lowtidebuild/web-content-designer/blob/HEAD/one-page-example.html
+    source: https://raw.githubusercontent.com/lowtidebuild/web-content-designer/HEAD/README.md
+  source_headings:
+  - Usage
+  - Examples
+- name: strategy-skill
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/mothivenkatesh/strategy-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code strategy skill that scrapes nine live sources for a topic, extracts and clusters signals, synthesizes
+    a Playing-to-Win strategy with inline citations, scores the result on objective and expert-panel layers, and emits a professional
+    HTML report.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Strategy Skill
+    bytes: 7070
+  official_examples:
+  - kind: example
+    title: '`examples/pg_affiliate_program-strategy.html`'
+    url: https://github.com/mothivenkatesh/strategy-skill/blob/HEAD/examples/pg_affiliate_program-strategy.html
+    source: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/playing-to-win-framework.md`'
+    url: https://github.com/mothivenkatesh/strategy-skill/blob/HEAD/docs/playing-to-win-framework.md
+    source: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Claude Code
+    url: https://docs.claude.com/en/docs/claude-code
+    source: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+  - kind: docs
+    title: '`docs/playing-to-win-framework.md`'
+    url: https://github.com/mothivenkatesh/strategy-skill/blob/HEAD/docs/playing-to-win-framework.md
+    source: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+  - kind: example
+    title: '`examples/pg_affiliate_program-strategy.html`'
+    url: https://github.com/mothivenkatesh/strategy-skill/blob/HEAD/examples/pg_affiliate_program-strategy.html
+    source: https://raw.githubusercontent.com/mothivenkatesh/strategy-skill/HEAD/README.md
+  source_headings:
+  - 3. Copy the HTML template
+  - Usage
+  - Example output
+- name: Visual Research
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/danpeg/visual-research
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for brand visual research that discovers agency work, captures social presence, extracts
+    visual assets, optionally runs Gemini vision analysis, and packages findings into a branded thirteen-section HTML report.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/danpeg/visual-research/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/danpeg/visual-research/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Visual Research
+    bytes: 5242
+  official_examples:
+  - kind: example
+    title: examples/sample-report.html
+    url: https://github.com/danpeg/visual-research/blob/HEAD/examples/sample-report.html
+    source: https://raw.githubusercontent.com/danpeg/visual-research/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Curious Endeavor styleguide
+    url: https://www.curiousendeavor.com/styleguide.html
+    source: https://raw.githubusercontent.com/danpeg/visual-research/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Curious Endeavor styleguide
+    url: https://www.curiousendeavor.com/styleguide.html
+    source: https://raw.githubusercontent.com/danpeg/visual-research/HEAD/README.md
+  - kind: example
+    title: examples/sample-report.html
+    url: https://github.com/danpeg/visual-research/blob/HEAD/examples/sample-report.html
+    source: https://raw.githubusercontent.com/danpeg/visual-research/HEAD/README.md
+  source_headings:
+  - Visual Research
+  - '"visual research on Stripe"'
+- name: GapHunter Skill
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/debba/gaphunter-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Competitor review gap-analysis skill for Claude Code that turns review sources into rigid self-contained HTML
+    reports with tabs, filters, competitor matrices, semantic clustering, chart components, and PDF export.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: GapHunter
+    bytes: 13132
+  official_examples:
+  - kind: template
+    title: '`templates/gaphunter-report-template.html`'
+    url: https://github.com/debba/gaphunter-skill/blob/HEAD/templates/gaphunter-report-template.html
+    source: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Claude Code skills docs
+    url: https://docs.claude.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+  official_effect_assets:
+  - kind: gif
+    title: GapHunter demo — competitor reviews → feature roadmap
+    url: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/.github/media/demo.gif
+    source: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+  official_links:
+  - kind: template
+    title: '`templates/gaphunter-report-template.html`'
+    url: https://github.com/debba/gaphunter-skill/blob/HEAD/templates/gaphunter-report-template.html
+    source: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+  - kind: docs
+    title: Claude Code skills docs
+    url: https://docs.claude.com/en/docs/claude-code/skills
+    source: https://raw.githubusercontent.com/debba/gaphunter-skill/HEAD/README.md
+- name: creator-analytics
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/xntj-ai/creator-analytics
+  homepage: https://xntj.tv/ep/live-ep0034/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for turning multi-platform creator analytics exports into aligned JSON and then a PPVI-style
+    light HTML review report page with platform-grouped metrics, reusable component references, and a local scriptable render
+    path.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xntj-ai/creator-analytics/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xntj-ai/creator-analytics/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: creator-analytics
+    bytes: 16739
+  - kind: homepage
+    url: https://xntj.tv/ep/live-ep0034/
+    final_url: https://xntj.tv/ep/live-ep0034/
+    status: 200
+    content_type: text/html
+    title: 让 Claude Code 当我的运营总监 — 把一个月全网数据丢给它复盘 · 张拼拼AI实战教练
+    description: 日更近一个月、32 条视频、全网涨粉一万多。这一期我把五个平台的后台数据全丢给 Claude Code，让它当我的「运营总监」做一次彻底复盘：合并成一张总表、按平台深挖完播率和涨粉、找出每条好坏的真因，再给每个平台一份能直接执行的优化清单——而且它会记住这些，在下一期发布流程里自动迭代。
+    bytes: 36947
+  official_examples:
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@XNTJ-AI
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: template
+    title: creator-analytics · Claude Code skill GITHUB 这期数据复盘的方法论已蒸馏成开源 skill：PPVI 浅色报告页模板 + 热力总表/散点图/Checklist 组件代码 + 分析纪律。clone
+      到 .claude/skills/ 即用，MIT 协议。
+    url: https://github.com/xntj-ai/creator-analytics
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: paper
+    title: EP0037 AI 学术打假 — 1305 篇杰青论文连夜排查
+    url: https://xntj.tv/ep/live-ep0037/
+    source: https://xntj.tv/ep/live-ep0034/
+  official_effect_assets:
+  - kind: image
+    title: 让 Claude Code 当我的运营总监 — 把一个月全网数据丢给它复盘 · 张拼拼AI实战教练
+    url: https://xntj.tv/covers/live-ep0034.png
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0037
+    url: https://xntj.tv/covers/thumb/live-ep0037.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0036
+    url: https://xntj.tv/covers/thumb/live-ep0036.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0035
+    url: https://xntj.tv/covers/thumb/live-ep0035.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0033
+    url: https://xntj.tv/covers/thumb/live-ep0033.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0095
+    url: https://xntj.tv/covers/thumb/live-ep0095.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0093
+    url: https://xntj.tv/covers/thumb/live-ep0093.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0092
+    url: https://xntj.tv/covers/thumb/live-ep0092.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: image
+    title: Live Ep0082
+    url: https://xntj.tv/covers/thumb/live-ep0082.webp
+    source: https://xntj.tv/ep/live-ep0034/
+  official_links:
+  - kind: video
+    title: YouTube
+    url: https://www.youtube.com/@XNTJ-AI
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: template
+    title: creator-analytics · Claude Code skill GITHUB 这期数据复盘的方法论已蒸馏成开源 skill：PPVI 浅色报告页模板 + 热力总表/散点图/Checklist 组件代码 + 分析纪律。clone
+      到 .claude/skills/ 即用，MIT 协议。
+    url: https://github.com/xntj-ai/creator-analytics
+    source: https://xntj.tv/ep/live-ep0034/
+  - kind: paper
+    title: EP0037 AI 学术打假 — 1305 篇杰青论文连夜排查
+    url: https://xntj.tv/ep/live-ep0037/
+    source: https://xntj.tv/ep/live-ep0034/
+  source_headings:
+  - Usage · 用法
+  - Examples · 示例

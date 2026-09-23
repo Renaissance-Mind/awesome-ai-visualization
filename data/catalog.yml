@@ -1,4 +1,4 @@
-last_researched: '2026-09-23'
+last_researched: '2026-09-24'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -21670,3 +21670,230 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: diagram
+- name: Presentation Forge
+  url: https://github.com/thmsgo18/presentation-forge
+  homepage: https://thmsgo18.github.io/presentation-forge/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 8
+  license: MIT
+  updated: '2026-09-07'
+  note: Portable Claude skill that turns plain-language topics, outlines, and brand references into self-contained HTML slide
+    decks, with theme import from PowerPoint, images, or descriptions plus offline-friendly bundled output for email, local
+    opening, or static hosting.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: video2ppt
+  url: https://github.com/Sadonim/video2ppt
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-03-25'
+  note: Claude Code skill that converts YouTube URLs or local videos into polished PowerPoint decks through guided or instant
+    modes, selecting among summary, compare, lecture, meeting, technical, trend, proposal, study, executive, and creative
+    analysis workflows before exporting editable slides.
+  source_types:
+  - 网页/搜索结果
+  - 任意/多源
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-skill by Brusdeylins
+  url: https://github.com/Brusdeylins/ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 6
+  license: MIT
+  updated: '2026-08-07'
+  note: Deterministic PowerPoint skill and pptc CLI for LLM agents, using template-aware deck creation and editing, schema-validated
+    atomic operations, outline-first planning, capacity checks, speaker notes, footer rules, and bundled fallback templates.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: web-content-designer
+  url: https://github.com/lowtidebuild/web-content-designer
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: Apache-2.0
+  updated: '2026-07-06'
+  note: Claude skill that transforms pasted text, articles, or URLs into production-grade single-file HTML dashboards,
+    infographics, or one-page executive briefings with Chart.js visualizations, bilingual Korean/English prompts, scroll-spy
+    navigation, and reference layouts.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 网页/交互页面
+  - 信息图/视觉报告
+  - 图表/仪表盘
+  - 报告/简报
+  catalog_section: main
+  readme_group: text_visual
+- name: strategy-skill
+  url: https://github.com/mothivenkatesh/strategy-skill
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-04-17'
+  note: Claude Code strategy skill that scrapes nine live sources for a topic, extracts and clusters signals, synthesizes a
+    Playing-to-Win strategy with inline citations, scores the result on objective and expert-panel layers, and emits a professional
+    HTML report.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 证据表
+  catalog_section: main
+  readme_group: docs
+- name: Visual Research
+  url: https://github.com/danpeg/visual-research
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 外部检索/数据源
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-09-02'
+  note: Claude Code skill for brand visual research that discovers agency work, captures social presence, extracts visual assets,
+    optionally runs Gemini vision analysis, and packages findings into a branded thirteen-section HTML report.
+  source_types:
+  - 网页/搜索结果
+  - 新闻/资讯
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 网页/交互页面
+  - 证据表
+  catalog_section: main
+  readme_group: text_visual
+- name: GapHunter Skill
+  url: https://github.com/debba/gaphunter-skill
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 15
+  license: MIT
+  updated: '2026-06-15'
+  note: Competitor review gap-analysis skill for Claude Code that turns review sources into rigid self-contained HTML reports
+    with tabs, filters, competitor matrices, semantic clustering, chart components, and PDF export.
+  source_types:
+  - 网页/搜索结果
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs
+- name: creator-analytics
+  url: https://github.com/xntj-ai/creator-analytics
+  homepage: https://xntj.tv/ep/live-ep0034/
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 5
+  license: MIT
+  updated: '2026-09-01'
+  note: Claude Code skill for turning multi-platform creator analytics exports into aligned JSON and then a PPVI-style light
+    HTML review report page with platform-grouped metrics, reusable component references, and a local scriptable render path.
+  source_types:
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 报告/简报
+  catalog_section: main
+  readme_group: data

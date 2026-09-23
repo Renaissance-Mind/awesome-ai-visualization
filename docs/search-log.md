@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-23.
+Last researched: 2026-09-24.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-24: refreshed source-backed portable HTML deck skills, video-to-PowerPoint workflows, deterministic PowerPoint agent tooling, content-to-HTML report skills, strategy and competitor-research report skills, brand visual-research reports, and creator analytics dashboards from official GitHub repositories, README evidence, product/homepage evidence, live web/GitHub searches, and current GitHub metadata. This pass added Presentation Forge, video2ppt, ppt-skill by Brusdeylins, web-content-designer, strategy-skill, Visual Research, GapHunter Skill, and creator-analytics. The targeted scraper ran only against these eight records, fetched ten official sources successfully with no failed fetches, and kept twelve official examples, twelve preview assets, and seven docs links with no signed asset URLs or dummy media introduced.
 
 Update on 2026-09-23: refreshed source-backed image-generation skills, corroborated customer-research report skills, Mermaid validation/rendering support, native PPTX automation, HTML-to-PPTX conversion, local diagram/dashboard/infographic MCP tooling, and prompt-driven canvas diagramming from official GitHub repositories, README evidence, homepage evidence, live GitHub searches, and current GitHub metadata. This pass added nano-banana-pro, skill-generate, Voice of Customer Skills, MCP Mermaid Validator, pptx-mcp-server by knorq-ai, html2pptx-mcp, VizCharter, and SketchFlow. The targeted scraper ran only against these eight records, fetched nine official sources successfully with no failed fetches, and kept four official docs links after excluding one non-artifact Substack image from the VoC research record.
 
