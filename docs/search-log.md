@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-24.
+Last researched: 2026-09-25.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-25: refreshed source-backed Excalidraw diagram generation, semantic diagram editing, local diagram rendering, diagram animation, PowerPoint MCP design-system tooling, and skill-evaluation dashboard support from official GitHub repositories, README evidence, product/homepage evidence, live web/GitHub searches, and current GitHub metadata. This pass added excalidrawer, Excalidraw Architect MCP, Excalimate, drawmode, excalidraw-render, excalidraw-mcp by dtour, Chuk MCP PowerPoint Server, and skill-evaluator. The targeted scraper ran only against these eight records, fetched ten official sources successfully with no failed fetches, and kept six official examples, sixteen preview assets, and twenty-nine docs links after scrubbing one generic Excalimate Open Graph image.
 
 Update on 2026-09-24: refreshed source-backed portable HTML deck skills, video-to-PowerPoint workflows, deterministic PowerPoint agent tooling, content-to-HTML report skills, strategy and competitor-research report skills, brand visual-research reports, and creator analytics dashboards from official GitHub repositories, README evidence, product/homepage evidence, live web/GitHub searches, and current GitHub metadata. This pass added Presentation Forge, video2ppt, ppt-skill by Brusdeylins, web-content-designer, strategy-skill, Visual Research, GapHunter Skill, and creator-analytics. The targeted scraper ran only against these eight records, fetched ten official sources successfully with no failed fetches, and kept twelve official examples, twelve preview assets, and seven docs links with no signed asset URLs or dummy media introduced.
 

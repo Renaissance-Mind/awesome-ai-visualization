@@ -1,4 +1,4 @@
-generated_at: '2026-09-23T23:06:03+00:00'
+generated_at: '2026-09-24T23:05:54+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 836
-  fetched_sources_ok: 1118
+  entries: 844
+  fetched_sources_ok: 1128
   fetched_sources_failed: 59
-  official_examples: 1748
-  official_effect_assets: 2213
-  official_docs: 2037
+  official_examples: 1754
+  official_effect_assets: 2229
+  official_docs: 2066
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -65210,3 +65210,572 @@ entries:
   source_headings:
   - Usage · 用法
   - Examples · 示例
+- name: excalidrawer
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/guohaonan-shy/excalidrawer
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Code-first Excalidraw diagram generator with CLI, MCP server, and agent plugin skills for flowcharts, timelines,
+    architecture diagrams, sequences, and comparisons, rendering deterministic .excalidraw, SVG, and PNG artifacts from structured
+    intent.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: excalidrawer
+    bytes: 11068
+  official_docs:
+  - kind: docs
+    title: '`skills/shared/references/sugar.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/skills/shared/references/sugar.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/roadmap.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/roadmap.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/diagram-types.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/diagram-types.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/output-formats.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/output-formats.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/mermaid-import.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/mermaid-import.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/drawio-import.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/drawio-import.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/component-layer.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/component-layer.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/icon-library.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/icon-library.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/ecosystem-integration.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/ecosystem-integration.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`skills/shared/references/sugar.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/skills/shared/references/sugar.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/roadmap.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/roadmap.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/diagram-types.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/diagram-types.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/output-formats.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/output-formats.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/mermaid-import.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/mermaid-import.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/drawio-import.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/drawio-import.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/component-layer.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/component-layer.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/icon-library.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/icon-library.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+  - kind: docs
+    title: '`docs/ecosystem-integration.md`'
+    url: https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/ecosystem-integration.md
+    source: https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md
+- name: Excalidraw Architect MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/BV-Venky/excalidraw-architect-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Offline MCP server that turns architecture descriptions into queryable knowledge graphs and auto-laid-out
+    Excalidraw diagrams across architecture, sequence, state, ER, swimlane, timeline, Gantt, quadrant, funnel, and chart-like
+    views.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Excalidraw Architect MCP
+    bytes: 24665
+  official_effect_assets:
+  - kind: gif
+    title: E-Commerce Platform Demo
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/demo_ecommerce.gif
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: gif
+    title: Payment Processing Flow Demo
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/demo_payment.gif
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Architecture diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/architecture.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: DP integration diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/dp_integration.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Sequence diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/sequence.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Timeline diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/timeline.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Gantt diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/gantt.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Quadrant diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/quadrant.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Pyramid / funnel diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/pyramid.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Venn diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/venn.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Loop diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/loop.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  - kind: image
+    title: Bar chart diagram
+    url: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/bar.png
+    source: https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md
+  source_headings:
+  - 📐 25 Diagram Types
+  - Install the Diagram Design Skill (recommended)
+  - Diagram tools
+- name: Excalimate
+  category: video-generation
+  surface: mcp
+  primary_url: https://github.com/excalimate/excalimate
+  homepage: https://excalimate.com
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Excalidraw animation studio and MCP server for AI-driven diagram creation, live preview, timeline and camera
+    animation, action-sequence generation, and export to MP4, WebM, GIF, animated SVG, Lottie, or dotLottie.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Demo
+    bytes: 12183
+  - kind: homepage
+    url: https://excalimate.com/
+    final_url: https://excalimate.com/
+    status: 200
+    content_type: text/html
+    title: Excalimate — Animate Hand-Drawn Diagrams
+    description: Turn Excalidraw diagrams into keyframe animations. Export as MP4, WebM, GIF, animated SVG, and dotLottie.
+      Free, open source, AI-powered with 23 MCP tools.
+    bytes: 95003
+  official_examples:
+  - kind: template
+    title: Magic, Sequence, Studio, templates, and transitions
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/v2-user-guide.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: Migration, architecture, limits, rollout, and rollback
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/v2-release.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Hosted player and embedding
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/hosted-player.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: MCP V2 and deprecations
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/mcp-v2.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Security, sharing retention, and deployment
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/security-and-sharing.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Accessibility validation matrix
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/accessibility.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Export runtime and format fallbacks
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/export-runtime.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Excalidraw to Lottie workflow guide
+    url: https://excalimate.com/guides/excalidraw-to-lottie-workflow
+    source: https://excalimate.com/
+  - kind: docs
+    title: View setup guide →
+    url: https://excalimate.com/guides/mcp-setup
+    source: https://excalimate.com/
+  - kind: docs
+    title: '8 Export Formats Source: Export formats guide'
+    url: https://excalimate.com/guides/export-animations
+    source: https://excalimate.com/
+  - kind: docs
+    title: 'E2E Encrypted Sharing Source: Security documentation (opens in a new tab)'
+    url: https://github.com/excalimate/excalimate/blob/main/SECURITY.md
+    source: https://excalimate.com/
+  - kind: docs
+    title: View Documentation
+    url: https://github.com/excalimate/excalimate
+    source: https://excalimate.com/
+  - kind: docs
+    title: Guides
+    url: https://excalimate.com/guides
+    source: https://excalimate.com/
+  official_effect_assets: []
+  official_links:
+  - kind: docs
+    title: Migration, architecture, limits, rollout, and rollback
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/v2-release.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: template
+    title: Magic, Sequence, Studio, templates, and transitions
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/v2-user-guide.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Hosted player and embedding
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/hosted-player.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: MCP V2 and deprecations
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/mcp-v2.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Security, sharing retention, and deployment
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/security-and-sharing.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Accessibility validation matrix
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/accessibility.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Export runtime and format fallbacks
+    url: https://github.com/excalimate/excalimate/blob/HEAD/docs/export-runtime.md
+    source: https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md
+  - kind: docs
+    title: Excalidraw to Lottie workflow guide
+    url: https://excalimate.com/guides/excalidraw-to-lottie-workflow
+    source: https://excalimate.com/
+  - kind: docs
+    title: View setup guide →
+    url: https://excalimate.com/guides/mcp-setup
+    source: https://excalimate.com/
+  - kind: docs
+    title: '8 Export Formats Source: Export formats guide'
+    url: https://excalimate.com/guides/export-animations
+    source: https://excalimate.com/
+  - kind: docs
+    title: 'E2E Encrypted Sharing Source: Security documentation (opens in a new tab)'
+    url: https://github.com/excalimate/excalimate/blob/main/SECURITY.md
+    source: https://excalimate.com/
+  - kind: docs
+    title: View Documentation
+    url: https://github.com/excalimate/excalimate
+    source: https://excalimate.com/
+  - kind: docs
+    title: Guides
+    url: https://excalimate.com/guides
+    source: https://excalimate.com/
+  source_headings:
+  - Demo
+  - Usage
+  - Excalimate V2 documentation
+- name: drawmode
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/teamchong/drawmode
+  homepage: https://teamchong.github.io/drawmode/
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  catalog_note: Code Mode MCP server where the LLM writes compact TypeScript against a validated Diagram SDK, Graphviz computes
+    layout, and the tool returns Excalidraw files, URLs, PNGs, SVGs, plus editable .drawmode.ts sidecars.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/teamchong/drawmode/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/teamchong/drawmode/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: drawmode
+    bytes: 18708
+  - kind: homepage
+    url: https://teamchong.github.io/drawmode/
+    final_url: https://teamchong.github.io/drawmode/
+    status: 200
+    content_type: text/html
+    title: drawmode | drawmode
+    description: Code Mode MCP server for generating Excalidraw architecture diagrams.
+    bytes: 36630
+  official_docs:
+  - kind: docs
+    title: SDK Reference
+    url: https://teamchong.github.io/drawmode/sdk-reference/
+    source: https://teamchong.github.io/drawmode/
+  - kind: docs
+    title: Next Getting Started
+    url: https://teamchong.github.io/drawmode/getting-started/
+    source: https://teamchong.github.io/drawmode/
+  official_links:
+  - kind: docs
+    title: SDK Reference
+    url: https://teamchong.github.io/drawmode/sdk-reference/
+    source: https://teamchong.github.io/drawmode/
+  - kind: docs
+    title: Next Getting Started
+    url: https://teamchong.github.io/drawmode/getting-started/
+    source: https://teamchong.github.io/drawmode/
+  source_headings:
+  - Examples
+  - Architecture Diagram
+  - Edit an Existing Diagram
+  - Sequence Diagram
+- name: excalidraw-render
+  category: rendering-primitive
+  surface: mcp
+  primary_url: https://github.com/bassimeledath/excalidraw-render-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: Local headless Excalidraw renderer MCP for Claude Code and other clients, converting Excalidraw element JSON
+    into PNG or SVG files through a local Chromium rendering path without sending diagram content to Excalidraw servers.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/bassimeledath/excalidraw-render-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/bassimeledath/excalidraw-render-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: excalidraw-render
+    bytes: 4167
+  official_effect_assets:
+  - kind: image
+    title: Architecture
+    url: https://raw.githubusercontent.com/bassimeledath/excalidraw-render-mcp/HEAD/architecture.png
+    source: https://raw.githubusercontent.com/bassimeledath/excalidraw-render-mcp/HEAD/README.md
+  source_headings:
+  - Usage
+  - '`create_excalidraw_diagram` parameters'
+- name: excalidraw-mcp by dtour
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/dtour/excalidraw-mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  catalog_note: File-based MCP server that treats Excalidraw diagrams as semantic graph data, letting LLMs read, create, modify,
+    and render flowcharts, state machines, ER diagrams, architecture diagrams, and other graph-shaped drawings.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dtour/excalidraw-mcp/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dtour/excalidraw-mcp/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: excalidraw-mcp
+    bytes: 9707
+  source_headings:
+  - '`read_diagram`'
+  - '`create_diagram`'
+  - '`modify_diagram`'
+  - '`render_diagram`'
+- name: Chuk MCP PowerPoint Server
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/IBM/chuk-mcp-pptx
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: LLM-friendly PowerPoint MCP design system with template-first deck creation, universal component API, chart
+    and table components, theme tokens, component registry, semantic slide tools, and optional cloud-ready storage deployment.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/IBM/chuk-mcp-pptx/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/IBM/chuk-mcp-pptx/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Chuk MCP PowerPoint Server
+    bytes: 20154
+  source_headings:
+  - Presentation Management
+  - Template Workflow (Recommended)
+  - Template-Based Presentations (Recommended)
+  - 1. Create presentation from a template
+  - 2. Analyze template to see ALL available layouts (CRITICAL!)
+  - 3. Add slides using specific layouts
+  - 5. Add content slide with chart
+  - 7. Verify slide components
+  - 8. Save presentation
+  - Add chart into placeholder (template-aware)
+  - Free-form positioning (for blank slides)
+  - Create and save a presentation
+- name: skill-evaluator
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/takehiro177/skill-evaluator
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  catalog_note: Claude Code skill-evaluation harness that runs blind A/B tests for one or more skills, measures transcript-derived
+    token economics and judged output quality, then writes Markdown reports, summary JSON, and a zero-dependency HTML dashboard.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: skill-evaluator
+    bytes: 25408
+  official_examples:
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: template
+    title: '`report-template.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/skills/skill-evaluator/templates/report-template.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: template
+    title: '`records-template.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/skills/skill-evaluator/templates/records-template.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: example
+    title: '`examples/caveman/`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/caveman/
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: example
+    title: '`examples/karpathy-guidelines/`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/karpathy-guidelines/
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: '`docs/architecture.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/methodology.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/methodology.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/token-measurement.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/token-measurement.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/dashboard.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/dashboard.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/combination-eval.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/combination-eval.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: Per task, the verbatim WITH-skill and WITHOUT-skill outputs shown side by side, under the judge's winner and scores
+    url: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/docs/images/dashboard-outputs.png
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: image
+    title: The Skill Harness Dashboard — every evaluation as a clickable report card, with a portfolio KPI strip on top
+    url: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/docs/images/dashboard-overview.png
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: image
+    title: A run's detail page — verdict and recommendation, cost-per-arm bars, and the G-Eval quality cross-check
+    url: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/docs/images/dashboard-detail.png
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: '`docs/architecture.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/architecture.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/methodology.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/methodology.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/token-measurement.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/token-measurement.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/dashboard.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/dashboard.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: docs
+    title: '`docs/combination-eval.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/combination-eval.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: example
+    title: '`examples/`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: template
+    title: '`report-template.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/skills/skill-evaluator/templates/report-template.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: template
+    title: '`records-template.md`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/skills/skill-evaluator/templates/records-template.md
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: example
+    title: '`examples/caveman/`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/caveman/
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  - kind: example
+    title: '`examples/karpathy-guidelines/`'
+    url: https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/karpathy-guidelines/
+    source: https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md
+  source_headings:
+  - Usage
+  - Try it on the bundled example
+  - Skill Harness Dashboard (governance view)
+  - Reading the dashboard (visual guide)

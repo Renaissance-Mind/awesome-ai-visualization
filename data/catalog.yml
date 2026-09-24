@@ -1,4 +1,4 @@
-last_researched: '2026-09-24'
+last_researched: '2026-09-25'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -21895,5 +21895,219 @@ entries:
   - 图表/仪表盘
   - 网页/交互页面
   - 报告/简报
+  catalog_section: main
+  readme_group: data
+- name: excalidrawer
+  url: https://github.com/guohaonan-shy/excalidrawer
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 9
+  license: MIT
+  updated: '2026-08-29'
+  note: Code-first Excalidraw diagram generator with CLI, MCP server, and agent plugin skills for flowcharts, timelines, architecture
+    diagrams, sequences, and comparisons, rendering deterministic .excalidraw, SVG, and PNG artifacts from structured intent.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagram
+- name: Excalidraw Architect MCP
+  url: https://github.com/BV-Venky/excalidraw-architect-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 153
+  license: MIT
+  updated: '2026-09-23'
+  note: Offline MCP server that turns architecture descriptions into queryable knowledge graphs and auto-laid-out Excalidraw
+    diagrams across architecture, sequence, state, ER, swimlane, timeline, Gantt, quadrant, funnel, and chart-like views.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagram
+- name: Excalimate
+  url: https://github.com/excalimate/excalimate
+  homepage: https://excalimate.com
+  category: video-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 渲染/导出
+  stars: 74
+  license: MIT
+  updated: '2026-09-23'
+  note: Excalidraw animation studio and MCP server for AI-driven diagram creation, live preview, timeline and camera animation,
+    action-sequence generation, and export to MP4, WebM, GIF, animated SVG, Lottie, or dotLottie.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - MCP Server
+  - 开源应用/框架
+  output_forms:
+  - 架构图/流程图
+  - 视频/音频
+  - SVG/PNG/PDF
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: video
+- name: drawmode
+  url: https://github.com/teamchong/drawmode
+  homepage: https://teamchong.github.io/drawmode/
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  stars: 16
+  license: MIT
+  updated: '2026-05-12'
+  note: Code Mode MCP server where the LLM writes compact TypeScript against a validated Diagram SDK, Graphviz computes layout,
+    and the tool returns Excalidraw files, URLs, PNGs, SVGs, plus editable .drawmode.ts sidecars.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: diagram
+- name: excalidraw-render
+  url: https://github.com/bassimeledath/excalidraw-render-mcp
+  category: rendering-primitive
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 4
+  license: unknown
+  updated: '2026-06-21'
+  note: Local headless Excalidraw renderer MCP for Claude Code and other clients, converting Excalidraw element JSON into PNG
+    or SVG files through a local Chromium rendering path without sending diagram content to Excalidraw servers.
+  source_types:
+  - DSL/代码
+  - 文本/想法
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: support_render
+  readme_group: diagram
+- name: excalidraw-mcp by dtour
+  url: https://github.com/dtour/excalidraw-mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  stars: 1
+  license: MIT
+  updated: '2026-09-13'
+  note: File-based MCP server that treats Excalidraw diagrams as semantic graph data, letting LLMs read, create, modify, and
+    render flowcharts, state machines, ER diagrams, architecture diagrams, and other graph-shaped drawings.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagram
+- name: Chuk MCP PowerPoint Server
+  url: https://github.com/IBM/chuk-mcp-pptx
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 7
+  license: Apache-2.0
+  updated: '2026-06-25'
+  note: LLM-friendly PowerPoint MCP design system with template-first deck creation, universal component API, chart and table
+    components, theme tokens, component registry, semantic slide tools, and optional cloud-ready storage deployment.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: skill-evaluator
+  url: https://github.com/takehiro177/skill-evaluator
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-06-10'
+  note: Claude Code skill-evaluation harness that runs blind A/B tests for one or more skills, measures transcript-derived token
+    economics and judged output quality, then writes Markdown reports, summary JSON, and a zero-dependency HTML dashboard.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
   catalog_section: main
   readme_group: data

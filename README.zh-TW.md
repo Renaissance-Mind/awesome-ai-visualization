@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-836_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--24-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-844_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--25-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,18 +13,18 @@
 
 這個列表按**資訊來源**、**工具形態**、**產出物形式**和**依賴類型**標注。PPT 只是產出物之一；同一個工具也可能同時產出報告、網頁、圖表、心智圖或程式碼地圖。
 
-## Latest Refresh (2026-09-24)
+## Latest Refresh (2026-09-25)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Presentation Forge](https://github.com/thmsgo18/presentation-forge) | Portable Claude skill for self-contained HTML slide decks with brand-theme import from PowerPoint, images, or descriptions. |
-| [video2ppt](https://github.com/Sadonim/video2ppt) | Claude Code skill that turns YouTube or local videos into editable PowerPoint decks across ten analysis modes. |
-| [ppt-skill by Brusdeylins](https://github.com/Brusdeylins/ppt-skill) | Deterministic pptc CLI and Claude Code skill for schema-validated, template-aware PowerPoint creation and editing. |
-| [web-content-designer](https://github.com/lowtidebuild/web-content-designer) | Claude skill for converting text, articles, or URLs into single-file HTML dashboards, infographics, and executive briefings. |
-| [strategy-skill](https://github.com/mothivenkatesh/strategy-skill) | Market-research strategy skill that scrapes live sources, clusters signals, cites evidence, scores strategy, and emits an HTML report. |
-| [Visual Research](https://github.com/danpeg/visual-research) | Brand visual-research skill that discovers references, captures social presence, runs optional vision analysis, and packages a visual HTML report. |
-| [GapHunter Skill](https://github.com/debba/gaphunter-skill) | Competitor review gap-analysis skill with self-contained HTML reports, filters, matrices, chart components, and PDF export. |
-| [creator-analytics](https://github.com/xntj-ai/creator-analytics) | Creator analytics skill that aligns multi-platform exports into JSON and renders a PPVI-style HTML review dashboard. |
+| [excalidrawer](https://github.com/guohaonan-shy/excalidrawer) | Code-first Excalidraw generator with CLI, MCP server, and agent skills for deterministic SVG/PNG/.excalidraw diagrams. |
+| [Excalidraw Architect MCP](https://github.com/BV-Venky/excalidraw-architect-mcp) | Offline MCP that turns architecture descriptions into knowledge graphs and auto-laid-out Excalidraw diagrams across 25 diagram types. |
+| [Excalimate](https://github.com/excalimate/excalimate) | MCP-enabled Excalidraw animation studio for timeline and camera animations plus MP4, WebM, GIF, animated SVG, and Lottie exports. |
+| [drawmode](https://github.com/teamchong/drawmode) | Code Mode MCP where an LLM writes validated TypeScript while Graphviz lays out Excalidraw diagrams. |
+| [excalidraw-render](https://github.com/bassimeledath/excalidraw-render-mcp) | Local headless renderer MCP that converts Excalidraw element JSON into PNG or SVG without sending diagram content away. |
+| [excalidraw-mcp by dtour](https://github.com/dtour/excalidraw-mcp) | File-based Excalidraw MCP for reading, creating, modifying, and rendering semantic graph-shaped diagrams. |
+| [Chuk MCP PowerPoint Server](https://github.com/IBM/chuk-mcp-pptx) | LLM-friendly PowerPoint MCP design system with templates, components, charts, themes, and semantic slide tools. |
+| [skill-evaluator](https://github.com/takehiro177/skill-evaluator) | Claude Code skill harness that outputs Markdown reports, summary JSON, and a static dashboard for skill A/B tests. |
 
 ## ✨ 推薦使用方式
 
@@ -236,6 +236,7 @@
 | --- | --- | --- | --- | --- |
 
 | [creator-analytics](https://github.com/xntj-ai/creator-analytics) [![Star](https://img.shields.io/github/stars/xntj-ai/creator-analytics?style=flat&logo=github&label=Star)](https://github.com/xntj-ai/creator-analytics/stargazers) | Data/tables / Any/multi-source | Agent skill | Chart/dashboard / Web/interactive page / Briefing/report | Agent host / Local runtime / External search/data / Rendering/export / Templates/assets |
+| [skill-evaluator](https://github.com/takehiro177/skill-evaluator) [![Star](https://img.shields.io/github/stars/takehiro177/skill-evaluator?style=flat&logo=github&label=Star)](https://github.com/takehiro177/skill-evaluator/stargazers) | Data/tables / Text/ideas / Any/multi-source | Agent skill | Long report / Chart/dashboard / Web/interactive page / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Storage/index |
 | [Agent Dashboard](https://github.com/wildware-uk/agent-dashboard) [![Star](https://img.shields.io/github/stars/wildware-uk/agent-dashboard?style=flat&logo=github&label=Star)](https://github.com/wildware-uk/agent-dashboard/stargazers) | 程式碼庫 / 任意/多源 / 知識庫/個人資料 | MCP Server / 開源應用/框架 | 圖表/儀表板 / 網頁/互動頁面 / 表格/時間線 | MCP Client / 本機語言環境 / 儲存/索引 / 渲染/匯出 / 瀏覽器/帳號 |
 | [Agent Reliability Lab](https://github.com/karthikrshet/agent-reliability) [![Star](https://img.shields.io/github/stars/karthikrshet/agent-reliability?style=flat&logo=github&label=Star)](https://github.com/karthikrshet/agent-reliability/stargazers) | 程式碼庫 / 資料/表格 / 程式碼/技術描述 | 開源應用/框架 / MCP Server | 圖表/儀表板 / 證據表 / 報告/長文件 | 本機語言環境 / MCP Client / 程式碼分析工具 / 儲存/索引 / 渲染/匯出 |
 | [Findings Visualizer](https://github.com/neang-mengseang/findings-visualizer) [![Star](https://img.shields.io/github/stars/neang-mengseang/findings-visualizer?style=flat&logo=github&label=Star)](https://github.com/neang-mengseang/findings-visualizer/stargazers) | 文字/想法 / 程式碼庫 / 資料/表格 | Agent Skill | 圖表/儀表板 / 網頁/互動頁面 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
@@ -510,6 +511,7 @@
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
 | [MaxVideoAI Plugin](https://github.com/camgraphe/maxvideoai-plugin) [![Star](https://img.shields.io/github/stars/camgraphe/maxvideoai-plugin?style=flat&logo=github&label=Star)](https://github.com/camgraphe/maxvideoai-plugin/stargazers) | Text/ideas / Web/search / Any/multi-source | MCP server / Product/SaaS | Video/audio / SVG/PNG/PDF | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |
+| [Excalimate](https://github.com/excalimate/excalimate) [![Star](https://img.shields.io/github/stars/excalimate/excalimate?style=flat&logo=github&label=Star)](https://github.com/excalimate/excalimate/stargazers) | Text/ideas / Code/technical text | MCP server / Open-source app/framework | Architecture/flow diagram / Video/audio / SVG/PNG/PDF / Web/interactive page | MCP client / Browser/account / Local runtime / Rendering/export |
 
 ### 簡報與多來源內容呈現
 
@@ -519,6 +521,7 @@
 | --- | --- | --- | --- | --- |
 
 | [Presentation Forge](https://github.com/thmsgo18/presentation-forge) [![Star](https://img.shields.io/github/stars/thmsgo18/presentation-forge?style=flat&logo=github&label=Star)](https://github.com/thmsgo18/presentation-forge/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Chuk MCP PowerPoint Server](https://github.com/IBM/chuk-mcp-pptx) [![Star](https://img.shields.io/github/stars/IBM/chuk-mcp-pptx?style=flat&logo=github&label=Star)](https://github.com/IBM/chuk-mcp-pptx/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [video2ppt](https://github.com/Sadonim/video2ppt) [![Star](https://img.shields.io/github/stars/Sadonim/video2ppt?style=flat&logo=github&label=Star)](https://github.com/Sadonim/video2ppt/stargazers) | Web/search / Any/multi-source / Text/ideas | Agent skill | PPT/deck / Briefing/report / Structured data/Markdown | Agent host / Model API / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |
 | [ppt-skill by Brusdeylins](https://github.com/Brusdeylins/ppt-skill) [![Star](https://img.shields.io/github/stars/Brusdeylins/ppt-skill?style=flat&logo=github&label=Star)](https://github.com/Brusdeylins/ppt-skill/stargazers) | Text/ideas / Office docs / Data/tables | Agent skill / API/SDK/library | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Decksmith](https://github.com/Rotvie/decksmith) [![Star](https://img.shields.io/github/stars/Rotvie/decksmith?style=flat&logo=github&label=Star)](https://github.com/Rotvie/decksmith/stargazers) | 文字/想法 / PDF/文件 / 任意/多源 | MCP Server | PPT/簡報 / 圖形摘要/資訊圖 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本機語言環境 / 模型 API / 渲染/匯出 / 模板/素材 |
@@ -921,6 +924,11 @@
 | [Diagrammo MCP](https://github.com/diagrammo/dgmo-mcp) [![Star](https://img.shields.io/github/stars/diagrammo/dgmo-mcp?style=flat&logo=github&label=Star)](https://github.com/diagrammo/dgmo-mcp/stargazers) | Text/ideas / DSL/code | MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF / Web/interactive page | MCP client / Local runtime / Browser/account / Rendering/export / System tools |
 | [Markdy](https://github.com/HoangYell/markdy-com) [![Star](https://img.shields.io/github/stars/HoangYell/markdy-com?style=flat&logo=github&label=Star)](https://github.com/HoangYell/markdy-com/stargazers) | Code/technical text / DSL/code / Text/ideas | Open-source app/framework / MCP server / API/SDK/library | Architecture/flow diagram / Web/interactive page / Video/audio | Browser/account / Local runtime / MCP client / Rendering/export / Templates/assets |
 | [zumen](https://github.com/meta-taro/zumen) [![Star](https://img.shields.io/github/stars/meta-taro/zumen?style=flat&logo=github&label=Star)](https://github.com/meta-taro/zumen/stargazers) | Code/technical text / DSL/code / Text/ideas | Open-source app/framework / MCP server | Architecture/flow diagram / Diagram/Mermaid / SVG/PNG/PDF | Local runtime / MCP client / Rendering/export / Storage/index |
+| [excalidrawer](https://github.com/guohaonan-shy/excalidrawer) [![Star](https://img.shields.io/github/stars/guohaonan-shy/excalidrawer?style=flat&logo=github&label=Star)](https://github.com/guohaonan-shy/excalidrawer/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | Agent host / MCP client / Local runtime / Rendering/export / Templates/assets |
+| [Excalidraw Architect MCP](https://github.com/BV-Venky/excalidraw-architect-mcp) [![Star](https://img.shields.io/github/stars/BV-Venky/excalidraw-architect-mcp?style=flat&logo=github&label=Star)](https://github.com/BV-Venky/excalidraw-architect-mcp/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server | Architecture/flow diagram / Whiteboard/mind map / Chart/dashboard / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
+| [drawmode](https://github.com/teamchong/drawmode) [![Star](https://img.shields.io/github/stars/teamchong/drawmode?style=flat&logo=github&label=Star)](https://github.com/teamchong/drawmode/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / API/SDK/library | Architecture/flow diagram / SVG/PNG/PDF / Structured data/Markdown | MCP client / Local runtime / System tools / Rendering/export |
+| [excalidraw-render](https://github.com/bassimeledath/excalidraw-render-mcp) [![Star](https://img.shields.io/github/stars/bassimeledath/excalidraw-render-mcp?style=flat&logo=github&label=Star)](https://github.com/bassimeledath/excalidraw-render-mcp/stargazers) | DSL/code / Text/ideas | MCP server | Architecture/flow diagram / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export |
+| [excalidraw-mcp by dtour](https://github.com/dtour/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/dtour/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/dtour/excalidraw-mcp/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server | Architecture/flow diagram / Whiteboard/mind map / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export |
 | [VizCharter](https://github.com/onemorepereira/vizcharter) [![Star](https://img.shields.io/github/stars/onemorepereira/vizcharter?style=flat&logo=github&label=Star)](https://github.com/onemorepereira/vizcharter/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server | Architecture/flow diagram / Chart/dashboard / Infographic/visual report / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
 | [SketchFlow](https://github.com/prhks/sketchflow) [![Star](https://img.shields.io/github/stars/prhks/sketchflow?style=flat&logo=github&label=Star)](https://github.com/prhks/sketchflow/stargazers) | Text/ideas / Code/technical text | Open-source app/framework | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page | Local runtime / Storage/index / Rendering/export |
 | [Scientific Figure Library](https://github.com/xuzhougeng/ScientificFigureLibrary) [![Star](https://img.shields.io/github/stars/xuzhougeng/ScientificFigureLibrary?style=flat&logo=github&label=Star)](https://github.com/xuzhougeng/ScientificFigureLibrary/stargazers) | 論文/科研資料 / 資料/表格 / 知識庫/個人資料 | MCP Server / Agent Skill | 圖形摘要/資訊圖 / 圖表/渲染輸出 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 儲存/索引 / 渲染/匯出 / 範本/素材 |

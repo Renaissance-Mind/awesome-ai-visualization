@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-23T23:06:03+00:00",
-  "lastResearched": "2026-09-24",
+  "generatedAt": "2026-09-24T23:05:54+00:00",
+  "lastResearched": "2026-09-25",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 836,
-    "openSource": 207,
+    "total": 844,
+    "openSource": 208,
     "saas": 79,
     "modelApi": 264,
-    "examples": 1748,
-    "effectAssets": 2213,
-    "docs": 2037
+    "examples": 1754,
+    "effectAssets": 2229,
+    "docs": 2066
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 87,
       "PDF/文档": 244,
-      "文本/想法": 535,
-      "数据/表格": 343,
-      "代码/技术描述": 169,
-      "任意/多源": 141,
+      "文本/想法": 543,
+      "数据/表格": 346,
+      "代码/技术描述": 174,
+      "任意/多源": 142,
       "网页/搜索结果": 209,
       "代码库": 97,
-      "DSL/代码": 166,
+      "DSL/代码": 170,
       "新闻/资讯": 33,
       "知识库/个人资料": 83,
-      "Office 文档": 159,
+      "Office 文档": 160,
       "引用网络": 5,
       "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 207,
-      "Agent Skill": 323,
+      "开源应用/框架": 208,
+      "Agent Skill": 325,
       "Skill 集合": 83,
-      "MCP Server": 278,
+      "MCP Server": 285,
       "产品/SaaS": 79,
       "数据集/评测": 5,
       "Bot/助手": 28,
       "研究原型": 13,
-      "API/SDK/库": 132,
+      "API/SDK/库": 135,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 356,
-      "网页/交互页面": 301,
+      "PPT/演示文稿": 357,
+      "网页/交互页面": 303,
       "问答/学习材料": 19,
-      "报告/长文档": 121,
+      "报告/长文档": 122,
       "证据表": 76,
       "信息图/视觉报告": 118,
-      "图表/仪表盘": 264,
-      "架构图/流程图": 175,
-      "SVG/PNG/PDF": 359,
+      "图表/仪表盘": 267,
+      "架构图/流程图": 181,
+      "SVG/PNG/PDF": 366,
       "报告/简报": 98,
-      "白板/思维导图": 45,
+      "白板/思维导图": 48,
       "图表/Mermaid": 81,
-      "视频/音频": 67,
-      "结构化数据/Markdown": 127,
+      "视频/音频": 68,
+      "结构化数据/Markdown": 129,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 48,
@@ -66,17 +66,17 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 708,
+      "本地语言环境": 716,
       "模型 API": 264,
       "文档解析/OCR": 118,
-      "渲染/导出": 736,
+      "渲染/导出": 744,
       "GPU/加速器": 24,
-      "模板/素材": 411,
-      "Agent 宿主": 412,
-      "系统工具": 191,
-      "浏览器/账号": 193,
-      "存储/索引": 129,
-      "MCP Client": 291,
+      "模板/素材": 414,
+      "Agent 宿主": 414,
+      "系统工具": 192,
+      "浏览器/账号": 194,
+      "存储/索引": 130,
+      "MCP Client": 298,
       "外部检索/数据源": 177,
       "代码分析工具": 60
     },
@@ -85,12 +85,12 @@
       "doc-to-knowledge": 69,
       "research-report": 37,
       "infographic-report": 81,
-      "data-dashboard": 134,
-      "diagram-generation": 92,
+      "data-dashboard": 135,
+      "diagram-generation": 96,
       "literature-map": 5,
-      "presentation-tools": 249,
-      "rendering-primitive": 28,
-      "video-generation": 21,
+      "presentation-tools": 250,
+      "rendering-primitive": 29,
+      "video-generation": 22,
       "codebase-map": 52,
       "commercial-site": 10,
       "meta-index": 29
@@ -102,14 +102,14 @@
       "support_mindmap": 18,
       "docs": 43,
       "support_doc_parse": 24,
-      "presentation": 257,
-      "data": 127,
-      "video": 21,
+      "presentation": 258,
+      "data": 128,
+      "video": 22,
       "code": 58,
       "support_render": 72,
       "diagrams": 20,
       "indexes": 28,
-      "diagram": 7,
+      "diagram": 12,
       "index": 1,
       "knowledge": 2,
       "text": 3
@@ -68381,6 +68381,617 @@
       "docsCount": 0,
       "examplesCount": 3,
       "effectAssetsCount": 9
+    },
+    {
+      "name": "excalidrawer",
+      "url": "https://github.com/guohaonan-shy/excalidrawer",
+      "primaryUrl": "https://github.com/guohaonan-shy/excalidrawer",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "MIT",
+      "updated": "2026-08-29",
+      "note": "Code-first Excalidraw diagram generator with CLI, MCP server, and agent plugin skills for flowcharts, timelines, architecture diagrams, sequences, and comparisons, rendering deterministic .excalidraw, SVG, and PNG artifacts from structured intent.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`skills/shared/references/sugar.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/skills/shared/references/sugar.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/roadmap.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/roadmap.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/diagram-types.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/diagram-types.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/output-formats.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/output-formats.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/mermaid-import.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/mermaid-import.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/drawio-import.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/drawio-import.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/component-layer.md`",
+          "url": "https://github.com/guohaonan-shy/excalidrawer/blob/HEAD/docs/component-layer.md",
+          "source": "https://raw.githubusercontent.com/guohaonan-shy/excalidrawer/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 10,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Excalidraw Architect MCP",
+      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+      "primaryUrl": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 153,
+      "license": "MIT",
+      "updated": "2026-09-23",
+      "note": "Offline MCP server that turns architecture descriptions into queryable knowledge graphs and auto-laid-out Excalidraw diagrams across architecture, sequence, state, ER, swimlane, timeline, Gantt, quadrant, funnel, and chart-like views.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "E-Commerce Platform Demo",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/demo_ecommerce.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Payment Processing Flow Demo",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/demo_payment.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Architecture diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "DP integration diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/dp_integration.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sequence diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/sequence.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Timeline diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/timeline.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Gantt diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/gantt.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Quadrant diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/quadrant.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Pyramid / funnel diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/pyramid.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Venn diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/venn.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Loop diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/loop.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bar chart diagram",
+          "url": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/showcase/gallery/bar.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/BV-Venky/excalidraw-architect-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Excalimate",
+      "url": "https://github.com/excalimate/excalimate",
+      "primaryUrl": "https://github.com/excalimate/excalimate",
+      "homepage": "https://excalimate.com",
+      "category": "video-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 74,
+      "license": "MIT",
+      "updated": "2026-09-23",
+      "note": "Excalidraw animation studio and MCP server for AI-driven diagram creation, live preview, timeline and camera animation, action-sequence generation, and export to MP4, WebM, GIF, animated SVG, Lottie, or dotLottie.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "视频/音频",
+        "SVG/PNG/PDF",
+        "网页/交互页面"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Migration, architecture, limits, rollout, and rollback",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/v2-release.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Hosted player and embedding",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/hosted-player.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP V2 and deprecations",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/mcp-v2.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Security, sharing retention, and deployment",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/security-and-sharing.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Accessibility validation matrix",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/accessibility.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Export runtime and format fallbacks",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/export-runtime.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Excalidraw to Lottie workflow guide",
+          "url": "https://excalimate.com/guides/excalidraw-to-lottie-workflow",
+          "source": "https://excalimate.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "View setup guide →",
+          "url": "https://excalimate.com/guides/mcp-setup",
+          "source": "https://excalimate.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Magic, Sequence, Studio, templates, and transitions",
+          "url": "https://github.com/excalimate/excalimate/blob/HEAD/docs/v2-user-guide.md",
+          "source": "https://raw.githubusercontent.com/excalimate/excalimate/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 12,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "drawmode",
+      "url": "https://github.com/teamchong/drawmode",
+      "primaryUrl": "https://github.com/teamchong/drawmode",
+      "homepage": "https://teamchong.github.io/drawmode/",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 16,
+      "license": "MIT",
+      "updated": "2026-05-12",
+      "note": "Code Mode MCP server where the LLM writes compact TypeScript against a validated Diagram SDK, Graphviz computes layout, and the tool returns Excalidraw files, URLs, PNGs, SVGs, plus editable .drawmode.ts sidecars.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "SDK Reference",
+          "url": "https://teamchong.github.io/drawmode/sdk-reference/",
+          "source": "https://teamchong.github.io/drawmode/"
+        },
+        {
+          "kind": "docs",
+          "title": "Next Getting Started",
+          "url": "https://teamchong.github.io/drawmode/getting-started/",
+          "source": "https://teamchong.github.io/drawmode/"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "excalidraw-render",
+      "url": "https://github.com/bassimeledath/excalidraw-render-mcp",
+      "primaryUrl": "https://github.com/bassimeledath/excalidraw-render-mcp",
+      "homepage": null,
+      "category": "rendering-primitive",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 4,
+      "license": "unknown",
+      "updated": "2026-06-21",
+      "note": "Local headless Excalidraw renderer MCP for Claude Code and other clients, converting Excalidraw element JSON into PNG or SVG files through a local Chromium rendering path without sending diagram content to Excalidraw servers.",
+      "sourceTypes": [
+        "DSL/代码",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "support_render",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Architecture",
+          "url": "https://raw.githubusercontent.com/bassimeledath/excalidraw-render-mcp/HEAD/architecture.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/bassimeledath/excalidraw-render-mcp/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "excalidraw-mcp by dtour",
+      "url": "https://github.com/dtour/excalidraw-mcp",
+      "primaryUrl": "https://github.com/dtour/excalidraw-mcp",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updated": "2026-09-13",
+      "note": "File-based MCP server that treats Excalidraw diagrams as semantic graph data, letting LLMs read, create, modify, and render flowcharts, state machines, ER diagrams, architecture diagrams, and other graph-shaped drawings.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Chuk MCP PowerPoint Server",
+      "url": "https://github.com/IBM/chuk-mcp-pptx",
+      "primaryUrl": "https://github.com/IBM/chuk-mcp-pptx",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 7,
+      "license": "Apache-2.0",
+      "updated": "2026-06-25",
+      "note": "LLM-friendly PowerPoint MCP design system with template-first deck creation, universal component API, chart and table components, theme tokens, component registry, semantic slide tools, and optional cloud-ready storage deployment.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "skill-evaluator",
+      "url": "https://github.com/takehiro177/skill-evaluator",
+      "primaryUrl": "https://github.com/takehiro177/skill-evaluator",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-06-10",
+      "note": "Claude Code skill-evaluation harness that runs blind A/B tests for one or more skills, measures transcript-derived token economics and judged output quality, then writes Markdown reports, summary JSON, and a zero-dependency HTML dashboard.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/architecture.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/methodology.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/methodology.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/token-measurement.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/token-measurement.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/dashboard.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/dashboard.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "`docs/combination-eval.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/docs/combination-eval.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`report-template.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/skills/skill-evaluator/templates/report-template.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`records-template.md`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/skills/skill-evaluator/templates/records-template.md",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/caveman/`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/caveman/",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/karpathy-guidelines/`",
+          "url": "https://github.com/takehiro177/skill-evaluator/blob/HEAD/examples/karpathy-guidelines/",
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Per task, the verbatim WITH-skill and WITHOUT-skill outputs shown side by side, under the judge's winner and scores",
+          "url": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/docs/images/dashboard-outputs.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The Skill Harness Dashboard — every evaluation as a clickable report card, with a portfolio KPI strip on top",
+          "url": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/docs/images/dashboard-overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "A run's detail page — verdict and recommendation, cost-per-arm bars, and the G-Eval quality cross-check",
+          "url": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/docs/images/dashboard-detail.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/takehiro177/skill-evaluator/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 5,
+      "effectAssetsCount": 3
     }
   ]
 }
