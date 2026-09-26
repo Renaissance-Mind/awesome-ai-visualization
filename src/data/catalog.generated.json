@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-26T00:50:45+00:00",
-  "lastResearched": "2026-09-26",
+  "generatedAt": "2026-09-26T23:06:34+00:00",
+  "lastResearched": "2026-09-27",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 847,
+    "total": 855,
     "openSource": 208,
     "saas": 79,
-    "modelApi": 265,
-    "examples": 1756,
-    "effectAssets": 2229,
-    "docs": 2079
+    "modelApi": 266,
+    "examples": 1761,
+    "effectAssets": 2231,
+    "docs": 2080
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 87,
-      "PDF/文档": 247,
-      "文本/想法": 546,
-      "数据/表格": 347,
-      "代码/技术描述": 175,
-      "任意/多源": 143,
-      "网页/搜索结果": 210,
+      "PDF/文档": 249,
+      "文本/想法": 553,
+      "数据/表格": 355,
+      "代码/技术描述": 176,
+      "任意/多源": 148,
+      "网页/搜索结果": 211,
       "代码库": 97,
-      "DSL/代码": 170,
+      "DSL/代码": 172,
       "新闻/资讯": 33,
       "知识库/个人资料": 83,
-      "Office 文档": 162,
+      "Office 文档": 166,
       "引用网络": 5,
-      "数据库": 76,
+      "数据库": 77,
       "视频/音频": 3
     },
     "toolForms": {
       "开源应用/框架": 208,
-      "Agent Skill": 328,
-      "Skill 集合": 83,
-      "MCP Server": 285,
+      "Agent Skill": 335,
+      "Skill 集合": 84,
+      "MCP Server": 286,
       "产品/SaaS": 79,
       "数据集/评测": 5,
       "Bot/助手": 28,
       "研究原型": 13,
-      "API/SDK/库": 135,
+      "API/SDK/库": 137,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 360,
-      "网页/交互页面": 306,
+      "PPT/演示文稿": 366,
+      "网页/交互页面": 309,
       "问答/学习材料": 19,
       "报告/长文档": 122,
       "证据表": 76,
       "信息图/视觉报告": 119,
-      "图表/仪表盘": 267,
-      "架构图/流程图": 182,
-      "SVG/PNG/PDF": 369,
-      "报告/简报": 98,
+      "图表/仪表盘": 273,
+      "架构图/流程图": 185,
+      "SVG/PNG/PDF": 373,
+      "报告/简报": 99,
       "白板/思维导图": 48,
       "图表/Mermaid": 81,
-      "视频/音频": 68,
-      "结构化数据/Markdown": 129,
+      "视频/音频": 69,
+      "结构化数据/Markdown": 131,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 48,
@@ -66,18 +66,18 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 719,
-      "模型 API": 265,
-      "文档解析/OCR": 119,
-      "渲染/导出": 747,
+      "本地语言环境": 726,
+      "模型 API": 266,
+      "文档解析/OCR": 120,
+      "渲染/导出": 755,
       "GPU/加速器": 24,
-      "模板/素材": 417,
-      "Agent 宿主": 417,
-      "系统工具": 193,
+      "模板/素材": 424,
+      "Agent 宿主": 424,
+      "系统工具": 197,
       "浏览器/账号": 194,
       "存储/索引": 130,
-      "MCP Client": 298,
-      "外部检索/数据源": 177,
+      "MCP Client": 300,
+      "外部检索/数据源": 178,
       "代码分析工具": 60
     },
     "categories": {
@@ -85,10 +85,10 @@
       "doc-to-knowledge": 69,
       "research-report": 37,
       "infographic-report": 81,
-      "data-dashboard": 135,
-      "diagram-generation": 96,
+      "data-dashboard": 136,
+      "diagram-generation": 97,
       "literature-map": 5,
-      "presentation-tools": 253,
+      "presentation-tools": 259,
       "rendering-primitive": 29,
       "video-generation": 22,
       "codebase-map": 52,
@@ -102,14 +102,14 @@
       "support_mindmap": 18,
       "docs": 43,
       "support_doc_parse": 24,
-      "presentation": 261,
-      "data": 128,
+      "presentation": 267,
+      "data": 129,
       "video": 22,
       "code": 58,
       "support_render": 72,
       "diagrams": 20,
       "indexes": 28,
-      "diagram": 12,
+      "diagram": 13,
       "index": 1,
       "knowledge": 2,
       "text": 3
@@ -69211,6 +69211,391 @@
       "docsCount": 5,
       "examplesCount": 5,
       "effectAssetsCount": 3
+    },
+    {
+      "name": "slides by jameshemson",
+      "url": "https://github.com/jameshemson/slides",
+      "primaryUrl": "https://github.com/jameshemson/slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updated": "2026-09-02",
+      "note": "Cross-harness slide skill pack for Claude Code, Codex, and OpenCode that turns rough ideas into narrative outlines, on-brand editable PPTX decks, slop-check reports, and revision loops, with local Node/Python rendering and optional LibreOffice visual checks.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/简报",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ClaudePowerPointSkill",
+      "url": "https://github.com/PeterKalmstrom/ClaudePowerPointSkill",
+      "primaryUrl": "https://github.com/PeterKalmstrom/ClaudePowerPointSkill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "MCP Client",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材",
+        "模型 API"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-05-19",
+      "note": "Windows-focused Claude Code skill for production PowerPoint work through PowerPoint MCP and COM automation, emphasizing backups, open-deck targeting, screenshot QA, AI image/video insertion, Remotion motion graphics, and local desktop privacy boundaries except optional Gemini/Veo calls.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "视频/音频",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Veo 3.1",
+          "url": "https://ai.google.dev/gemini-api/docs/video-generation",
+          "source": "https://raw.githubusercontent.com/PeterKalmstrom/ClaudePowerPointSkill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "DERA Presentation Skill",
+      "url": "https://github.com/dev-rathor/dera-presentation-skill",
+      "primaryUrl": "https://github.com/dev-rathor/dera-presentation-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-06-18",
+      "note": "Claude Code skill for professional PPTX generation with Explain, Pitch, Board, Strategy, and Teach modes, ghost-deck approval, PptxGenJS authoring, required visual elements, and LibreOffice/Poppler/Pillow QA loops for local deck validation.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "UI UX Pro Max Slides Skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/slides/SKILL.md?plain=1",
+      "primaryUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/slides/SKILL.md?plain=1",
+      "homepage": "https://www.uupm.cc/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 130839,
+      "license": "MIT",
+      "updated": "2026-09-26",
+      "note": "Strategic HTML presentation skill inside the UI/UX Pro Max skill set, combining design tokens, Chart.js data slides, responsive layouts, copywriting formulas, and local project assets to create marketing, pitch, and data-driven web decks.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "View Live Demo",
+          "url": "https://www.uupm.cc/demo/pet-grooming",
+          "source": "https://www.uupm.cc/"
+        },
+        {
+          "kind": "showcase",
+          "title": "Style Gallery",
+          "url": "https://www.uupm.cc/",
+          "source": "https://www.uupm.cc/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Pet Grooming & Spa Demo",
+          "url": "https://www.uupm.cc/thumbnails/pet-grooming.png",
+          "thumbnailUrl": null,
+          "source": "https://www.uupm.cc/"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "xxc-pptx-gen",
+      "url": "https://github.com/xCentury-lab/xxc-pptx-gen",
+      "primaryUrl": "https://github.com/xCentury-lab/xxc-pptx-gen",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-02-09",
+      "note": "Claude Code PPTX-generation skill that converts Markdown or text files into editable PptxGenJS decks with auto-selected themes, reusable components, chart/table/flow slide types, and optional reflect mode using LibreOffice, Poppler, and agents for visual QA.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "图表/仪表盘",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "pptx-gen by alfonsograziano",
+      "url": "https://github.com/alfonsograziano/pptx-gen",
+      "primaryUrl": "https://github.com/alfonsograziano/pptx-gen",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 11,
+      "license": "Other",
+      "updated": "2026-09-26",
+      "note": "TypeScript deck engine and agent skill system for editable PowerPoint output, supporting clone-and-fill from existing PPTX templates, scratch-built native-shape slides, design-system workspaces, template ingestion, screenshots, and CLI/API usage without external services for deck creation.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/workspace/projects/how-it-works/`",
+          "url": "https://github.com/alfonsograziano/pptx-gen/blob/HEAD/examples/workspace/projects/how-it-works",
+          "source": "https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "design system",
+          "url": "https://github.com/alfonsograziano/pptx-gen/blob/HEAD/starter/design.md",
+          "source": "https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md"
+        },
+        {
+          "kind": "template",
+          "title": "`custom-template-instructions.md`",
+          "url": "https://github.com/alfonsograziano/pptx-gen/blob/HEAD/custom-template-instructions.md",
+          "source": "https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "How pptx-gen works: your brief is built into slides two ways — cloning a real slide or designing from scratch — then compiled by the engine into a real, editable .pptx.",
+          "url": "https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/assets/how_it_works.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "echart-mcp-view",
+      "url": "https://github.com/SpenserCai/echart-mcp-view",
+      "primaryUrl": "https://github.com/SpenserCai/echart-mcp-view",
+      "homepage": "https://www.npmjs.com/package/echart-mcp-view",
+      "category": "data-dashboard",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "渲染/导出",
+        "外部检索/数据源"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updated": "2026-07-14",
+      "note": "MCP Apps server that turns structured tool arguments into sandboxed ECharts views for AI agents, exposing table, line, bar, pie, scatter, radar, heatmap, funnel, gauge, hierarchy, graph, Sankey, finance, boxplot, and mixed-chart apps over stdio or localhost HTTP.",
+      "sourceTypes": [
+        "数据/表格",
+        "数据库",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Visualize Skill by melodic-software",
+      "url": "https://github.com/melodic-software/claude-code-plugins/blob/main/plugins/visualization/skills/visualize/SKILL.md?plain=1",
+      "primaryUrl": "https://github.com/melodic-software/claude-code-plugins/blob/main/plugins/visualization/skills/visualize/SKILL.md?plain=1",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 19,
+      "license": "MIT",
+      "updated": "2026-09-26",
+      "note": "Claude Code visualization-router skill that selects and renders Mermaid diagrams, markdown tables, zero-dependency SVG/CSS charts, ASCII sketches, code-shape views, local self-contained HTML pages, or published artifacts while preserving offline file delivery when requested.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "图表/仪表盘",
+        "网页/交互页面",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

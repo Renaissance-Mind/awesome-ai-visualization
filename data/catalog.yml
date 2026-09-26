@@ -1,4 +1,4 @@
-last_researched: '2026-09-26'
+last_researched: '2026-09-27'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -22199,3 +22199,237 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: data
+- name: slides by jameshemson
+  url: https://github.com/jameshemson/slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 6
+  license: MIT
+  updated: '2026-09-02'
+  note: Cross-harness slide skill pack for Claude Code, Codex, and OpenCode that turns rough ideas into narrative outlines,
+    on-brand editable PPTX decks, slop-check reports, and revision loops, with local Node/Python rendering and optional
+    LibreOffice visual checks.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/简报
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: ClaudePowerPointSkill
+  url: https://github.com/PeterKalmstrom/ClaudePowerPointSkill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  - 模型 API
+  stars: 3
+  license: MIT
+  updated: '2026-05-19'
+  note: Windows-focused Claude Code skill for production PowerPoint work through PowerPoint MCP and COM automation, emphasizing
+    backups, open-deck targeting, screenshot QA, AI image/video insertion, Remotion motion graphics, and local desktop privacy
+    boundaries except optional Gemini/Veo calls.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 视频/音频
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: DERA Presentation Skill
+  url: https://github.com/dev-rathor/dera-presentation-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: unknown
+  updated: '2026-06-18'
+  note: Claude Code skill for professional PPTX generation with Explain, Pitch, Board, Strategy, and Teach modes, ghost-deck
+    approval, PptxGenJS authoring, required visual elements, and LibreOffice/Poppler/Pillow QA loops for local deck validation.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: UI UX Pro Max Slides Skill
+  url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/slides/SKILL.md?plain=1
+  homepage: https://www.uupm.cc/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 130839
+  license: MIT
+  updated: '2026-09-26'
+  note: Strategic HTML presentation skill inside the UI/UX Pro Max skill set, combining design tokens, Chart.js data slides,
+    responsive layouts, copywriting formulas, and local project assets to create marketing, pitch, and data-driven web decks.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: xxc-pptx-gen
+  url: https://github.com/xCentury-lab/xxc-pptx-gen
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-02-09'
+  note: Claude Code PPTX-generation skill that converts Markdown or text files into editable PptxGenJS decks with auto-selected
+    themes, reusable components, chart/table/flow slide types, and optional reflect mode using LibreOffice, Poppler, and agents
+    for visual QA.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 图表/仪表盘
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: presentation
+- name: pptx-gen by alfonsograziano
+  url: https://github.com/alfonsograziano/pptx-gen
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 11
+  license: Other
+  updated: '2026-09-26'
+  note: TypeScript deck engine and agent skill system for editable PowerPoint output, supporting clone-and-fill from existing
+    PPTX templates, scratch-built native-shape slides, design-system workspaces, template ingestion, screenshots, and CLI/API
+    usage without external services for deck creation.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: echart-mcp-view
+  url: https://github.com/SpenserCai/echart-mcp-view
+  homepage: https://www.npmjs.com/package/echart-mcp-view
+  category: data-dashboard
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  stars: 2
+  license: MIT
+  updated: '2026-07-14'
+  note: MCP Apps server that turns structured tool arguments into sandboxed ECharts views for AI agents, exposing table,
+    line, bar, pie, scatter, radar, heatmap, funnel, gauge, hierarchy, graph, Sankey, finance, boxplot, and mixed-chart apps
+    over stdio or localhost HTTP.
+  source_types:
+  - 数据/表格
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: data
+- name: Visualize Skill by melodic-software
+  url: https://github.com/melodic-software/claude-code-plugins/blob/main/plugins/visualization/skills/visualize/SKILL.md?plain=1
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 19
+  license: MIT
+  updated: '2026-09-26'
+  note: Claude Code visualization-router skill that selects and renders Mermaid diagrams, markdown tables, zero-dependency
+    SVG/CSS charts, ASCII sketches, code-shape views, local self-contained HTML pages, or published artifacts while preserving
+    offline file delivery when requested.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 图表/仪表盘
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: diagram

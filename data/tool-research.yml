@@ -1,4 +1,4 @@
-generated_at: '2026-09-26T00:50:45+00:00'
+generated_at: '2026-09-26T23:06:34+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 847
-  fetched_sources_ok: 1131
-  fetched_sources_failed: 59
-  official_examples: 1756
-  official_effect_assets: 2229
-  official_docs: 2079
+  entries: 855
+  fetched_sources_ok: 1140
+  fetched_sources_failed: 60
+  official_examples: 1761
+  official_effect_assets: 2231
+  official_docs: 2080
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -65987,3 +65987,308 @@ entries:
   - Convert a PowerPoint
   - Sharing & Exporting
   - Requirements
+- name: slides by jameshemson
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/jameshemson/slides
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Cross-harness slide skill pack for Claude Code, Codex, and OpenCode
+    that turns rough ideas into narrative outlines, on-brand editable PPTX decks,
+    slop-check reports, and revision loops, with local Node/Python rendering and optional
+    LibreOffice visual checks.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/jameshemson/slides/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/jameshemson/slides/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: slides
+    bytes: 8114
+  source_headings:
+  - slides
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
+- name: ClaudePowerPointSkill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/PeterKalmstrom/ClaudePowerPointSkill
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  - 模型 API
+  catalog_note: Windows-focused Claude Code skill for production PowerPoint work through
+    PowerPoint MCP and COM automation, emphasizing backups, open-deck targeting, screenshot
+    QA, AI image/video insertion, Remotion motion graphics, and local desktop privacy
+    boundaries except optional Gemini/Veo calls.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/PeterKalmstrom/ClaudePowerPointSkill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/PeterKalmstrom/ClaudePowerPointSkill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: ClaudePowerPointSkill
+    bytes: 14318
+  official_docs:
+  - kind: docs
+    title: Veo 3.1
+    url: https://ai.google.dev/gemini-api/docs/video-generation
+    source: https://raw.githubusercontent.com/PeterKalmstrom/ClaudePowerPointSkill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: Veo 3.1
+    url: https://ai.google.dev/gemini-api/docs/video-generation
+    source: https://raw.githubusercontent.com/PeterKalmstrom/ClaudePowerPointSkill/HEAD/README.md
+  source_headings:
+  - 'Example: what working with the skill looks like'
+  official_effect_assets: []
+- name: DERA Presentation Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/dev-rathor/dera-presentation-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code skill for professional PPTX generation with Explain, Pitch,
+    Board, Strategy, and Teach modes, ghost-deck approval, PptxGenJS authoring, required
+    visual elements, and LibreOffice/Poppler/Pillow QA loops for local deck validation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/dev-rathor/dera-presentation-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/dev-rathor/dera-presentation-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: DERA Presentation Skill
+    bytes: 3360
+  source_headings:
+  - DERA Presentation Skill
+  - Slide generation
+  - 'QA: slide-to-image conversion (requires LibreOffice + Poppler)'
+  - Usage
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
+- name: UI UX Pro Max Slides Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/slides/SKILL.md?plain=1
+  homepage: https://www.uupm.cc/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Strategic HTML presentation skill inside the UI/UX Pro Max skill set,
+    combining design tokens, Chart.js data slides, responsive layouts, copywriting
+    formulas, and local project assets to create marketing, pitch, and data-driven
+    web decks.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/slides/SKILL.md
+    final_url: https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/slides/SKILL.md
+    status: 200
+    content_type: text/plain
+    title: Slides
+    bytes: 1720
+  - kind: homepage
+    url: https://www.uupm.cc/
+    final_url: https://www.uupm.cc/
+    status: 200
+    content_type: text/html
+    title: UI/UX Pro Max - AI-Powered Design Intelligence
+    description: 'AI-powered design intelligence toolkit. Searchable database of UI
+      styles, color palettes, font pairings, chart types, and UX guidelines. Build
+      beautiful interfaces with AI-powered '
+    bytes: 175752
+  official_examples:
+  - kind: demo
+    title: View Live Demo
+    url: https://www.uupm.cc/demo/pet-grooming
+    source: https://www.uupm.cc/
+  - kind: showcase
+    title: Style Gallery
+    url: https://www.uupm.cc/
+    source: https://www.uupm.cc/
+  official_effect_assets:
+  - kind: image
+    title: Pet Grooming & Spa Demo
+    url: https://www.uupm.cc/thumbnails/pet-grooming.png
+    source: https://www.uupm.cc/
+  official_links:
+  - kind: demo
+    title: View Live Demo
+    url: https://www.uupm.cc/demo/pet-grooming
+    source: https://www.uupm.cc/
+  - kind: showcase
+    title: Style Gallery
+    url: https://www.uupm.cc/
+    source: https://www.uupm.cc/
+  source_headings:
+  - Slides
+  official_docs: []
+- name: xxc-pptx-gen
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/xCentury-lab/xxc-pptx-gen
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code PPTX-generation skill that converts Markdown or text files
+    into editable PptxGenJS decks with auto-selected themes, reusable components,
+    chart/table/flow slide types, and optional reflect mode using LibreOffice, Poppler,
+    and agents for visual QA.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/xCentury-lab/xxc-pptx-gen/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/xCentury-lab/xxc-pptx-gen/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: xxc-pptx-gen
+    bytes: 2350
+  source_headings:
+  - Usage
+  - Slide Types
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
+- name: pptx-gen by alfonsograziano
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/alfonsograziano/pptx-gen
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: TypeScript deck engine and agent skill system for editable PowerPoint
+    output, supporting clone-and-fill from existing PPTX templates, scratch-built
+    native-shape slides, design-system workspaces, template ingestion, screenshots,
+    and CLI/API usage without external services for deck creation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: pptx-gen
+    bytes: 21590
+  official_examples:
+  - kind: example
+    title: '`examples/workspace/projects/how-it-works/`'
+    url: https://github.com/alfonsograziano/pptx-gen/blob/HEAD/examples/workspace/projects/how-it-works
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  - kind: template
+    title: design system
+    url: https://github.com/alfonsograziano/pptx-gen/blob/HEAD/starter/design.md
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  - kind: template
+    title: '`custom-template-instructions.md`'
+    url: https://github.com/alfonsograziano/pptx-gen/blob/HEAD/custom-template-instructions.md
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  official_effect_assets:
+  - kind: image
+    title: 'How pptx-gen works: your brief is built into slides two ways — cloning
+      a real slide or designing from scratch — then compiled by the engine into a
+      real, editable .pptx.'
+    url: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/assets/how_it_works.png
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  official_links:
+  - kind: example
+    title: '`examples/workspace/projects/how-it-works/`'
+    url: https://github.com/alfonsograziano/pptx-gen/blob/HEAD/examples/workspace/projects/how-it-works
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  - kind: template
+    title: design system
+    url: https://github.com/alfonsograziano/pptx-gen/blob/HEAD/starter/design.md
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  - kind: template
+    title: '`custom-template-instructions.md`'
+    url: https://github.com/alfonsograziano/pptx-gen/blob/HEAD/custom-template-instructions.md
+    source: https://raw.githubusercontent.com/alfonsograziano/pptx-gen/HEAD/README.md
+  source_headings:
+  - Reuse your own slides — `ingest-slide-templates`
+  - Describe a template — `draft-slide-template-description`
+  - Templates
+  - Slides from scratch (custom slides)
+  - 'Variants: several takes on the same slide'
+  - Slides
+  - 'The design system: visual guidance for scratch-built slides'
+  - Importing your own templates
+  - one slide from a deck
+  - every slide as its own template
+  official_docs: []
+- name: echart-mcp-view
+  category: data-dashboard
+  surface: mcp
+  primary_url: https://github.com/SpenserCai/echart-mcp-view
+  homepage: https://www.npmjs.com/package/echart-mcp-view
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  catalog_note: MCP Apps server that turns structured tool arguments into sandboxed
+    ECharts views for AI agents, exposing table, line, bar, pie, scatter, radar, heatmap,
+    funnel, gauge, hierarchy, graph, Sankey, finance, boxplot, and mixed-chart apps
+    over stdio or localhost HTTP.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/SpenserCai/echart-mcp-view/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/SpenserCai/echart-mcp-view/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: echart-mcp-view
+    bytes: 12348
+  - kind: homepage
+    url: https://www.npmjs.com/package/echart-mcp-view
+    final_url: https://www.npmjs.com/package/echart-mcp-view
+    status: 403
+    content_type: text/html
+    error: HTTP 403
+  source_headings:
+  - Line Chart Example
+  - Sankey Example
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
+- name: Visualize Skill by melodic-software
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/melodic-software/claude-code-plugins/blob/main/plugins/visualization/skills/visualize/SKILL.md?plain=1
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code visualization-router skill that selects and renders Mermaid
+    diagrams, markdown tables, zero-dependency SVG/CSS charts, ASCII sketches, code-shape
+    views, local self-contained HTML pages, or published artifacts while preserving
+    offline file delivery when requested.
+  fetched_sources:
+  - kind: github_blob_raw
+    url: https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/plugins/visualization/skills/visualize/SKILL.md
+    final_url: https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/plugins/visualization/skills/visualize/SKILL.md
+    status: 200
+    content_type: text/plain
+    title: Visualize
+    bytes: 19673
+  source_headings:
+  - Visualize
+  official_docs: []
+  official_links: []
+  official_effect_assets: []
