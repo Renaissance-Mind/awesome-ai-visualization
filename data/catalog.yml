@@ -1,4 +1,4 @@
-last_researched: '2026-09-25'
+last_researched: '2026-09-26'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -22081,6 +22081,94 @@ entries:
   output_forms:
   - PPT/演示文稿
   - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: slides-skill by korbinjoe
+  url: https://github.com/korbinjoe/slides-skill
+  homepage: https://korbinjoe.github.io/slides-skill/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-26'
+  note: Claude Code presentation skill that turns briefs, talks, and design-review needs into self-contained HTML slide decks
+    with 50 themes, playable theme demos, speaker notes, keyboard navigation, deck-lock contracts, and strict validation.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: ppt-skill by cookaihq
+  url: https://github.com/cookaihq/ppt-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: AGPL-3.0
+  updated: '2026-09-26'
+  note: AI-agent skill fork for generating single-file horizontal HTML presentations, PPT illustrations, and social covers
+    with editorial magazine and Swiss-grid visual systems, optional Codex image-generation slots, and low-power fallback mode.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 信息图/视觉报告
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: AgentBuff Presentation Skills
+  url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills
+  homepage: https://agentbuff.id/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 3
+  license: MIT
+  updated: '2026-09-26'
+  note: Agent-agnostic presentation skill for Claude Code, Codex, Hermes, Gemini CLI, and other filesystem agents, creating
+    HTML decks from scratch or converting PPTX files, then exporting pixel-identical PDF, PNG/JPG, or PPTX outputs.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - PDF/文档
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: presentation

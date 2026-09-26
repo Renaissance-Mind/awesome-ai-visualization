@@ -1,4 +1,4 @@
-generated_at: '2026-09-24T23:05:54+00:00'
+generated_at: '2026-09-26T00:50:45+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 844
-  fetched_sources_ok: 1128
+  entries: 847
+  fetched_sources_ok: 1131
   fetched_sources_failed: 59
-  official_examples: 1754
+  official_examples: 1756
   official_effect_assets: 2229
-  official_docs: 2066
+  official_docs: 2079
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -65779,3 +65779,211 @@ entries:
   - Try it on the bundled example
   - Skill Harness Dashboard (governance view)
   - Reading the dashboard (visual guide)
+- name: slides-skill by korbinjoe
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/korbinjoe/slides-skill
+  homepage: https://korbinjoe.github.io/slides-skill/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Claude Code presentation skill that turns briefs, talks, and design-review needs into self-contained HTML slide
+    decks with 50 themes, playable theme demos, speaker notes, keyboard navigation, deck-lock contracts, and strict validation.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Slides
+  official_examples:
+  - kind: demo
+    title: Theme Sampler
+    url: https://korbinjoe.github.io/slides-skill/
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: example
+    title: examples/multi-agent-orchestration.html
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/examples/multi-agent-orchestration.html
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  official_docs:
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: references/themes.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/references/themes.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: references/slide-types.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/references/slide-types.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: references/deck-contract.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/references/deck-contract.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  official_links:
+  - kind: demo
+    title: Theme Sampler
+    url: https://korbinjoe.github.io/slides-skill/
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: example
+    title: examples/multi-agent-orchestration.html
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/examples/multi-agent-orchestration.html
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: SKILL.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/SKILL.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: references/themes.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/references/themes.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: references/slide-types.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/references/slide-types.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  - kind: docs
+    title: references/deck-contract.md
+    url: https://github.com/korbinjoe/slides-skill/blob/HEAD/references/deck-contract.md
+    source: https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md
+  source_headings:
+  - Slides
+  - What You Get
+  - Themes (50)
+  - Quick Start
+  - Slide Types
+  - Validation
+- name: ppt-skill by cookaihq
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/cookaihq/ppt-skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: AI-agent skill fork for generating single-file horizontal HTML presentations, PPT illustrations, and social covers
+    with editorial magazine and Swiss-grid visual systems, optional Codex image-generation slots, and low-power fallback mode.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: Guizang PPT Skill · 网页 PPT / 配图 / 封面
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: README.en.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/README.en.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  - kind: docs
+    title: references/image-prompts.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/references/image-prompts.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  - kind: docs
+    title: references/screenshot-framing.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/references/screenshot-framing.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  - kind: docs
+    title: references/checklist.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/references/checklist.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: README.en.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/README.en.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  - kind: docs
+    title: references/image-prompts.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/references/image-prompts.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  - kind: docs
+    title: references/screenshot-framing.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/references/screenshot-framing.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  - kind: docs
+    title: references/checklist.md
+    url: https://github.com/cookaihq/ppt-skill/blob/HEAD/references/checklist.md
+    source: https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md
+  source_headings:
+  - Guizang PPT Skill · 网页 PPT / 配图 / 封面
+  - 效果
+  - 常见使用场景
+  - Codex 配图能力
+  - 封面生成
+- name: AgentBuff Presentation Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills
+  homepage: https://agentbuff.id/
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  catalog_note: Agent-agnostic presentation skill for Claude Code, Codex, Hermes, Gemini CLI, and other filesystem agents,
+    creating HTML decks from scratch or converting PPTX files, then exporting pixel-identical PDF, PNG/JPG, or PPTX outputs.
+  fetched_sources:
+  - kind: github_readme
+    url: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+    final_url: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+    status: 200
+    content_type: text/plain
+    title: AgentBuff Presentation
+  official_examples: []
+  official_docs:
+  - kind: docs
+    title: STYLE_PRESETS.md
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/STYLE_PRESETS.md
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: html-template.md
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/html-template.md
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: animation-patterns.md
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/animation-patterns.md
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: scripts/export-deck.mjs
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/scripts/export-deck.mjs
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: bold-template-pack
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/bold-template-pack/
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  official_links:
+  - kind: docs
+    title: STYLE_PRESETS.md
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/STYLE_PRESETS.md
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: html-template.md
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/html-template.md
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: animation-patterns.md
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/animation-patterns.md
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: scripts/export-deck.mjs
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/scripts/export-deck.mjs
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  - kind: docs
+    title: bold-template-pack
+    url: https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/bold-template-pack/
+    source: https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md
+  source_headings:
+  - AgentBuff Presentation
+  - What This Does
+  - Key Features
+  - Convert a PowerPoint
+  - Sharing & Exporting
+  - Requirements

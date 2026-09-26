@@ -1,10 +1,12 @@
 # Search Log
 
-Last researched: 2026-09-25.
+Last researched: 2026-09-26.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
 Update on 2026-09-25: refreshed source-backed Excalidraw diagram generation, semantic diagram editing, local diagram rendering, diagram animation, PowerPoint MCP design-system tooling, and skill-evaluation dashboard support from official GitHub repositories, README evidence, product/homepage evidence, live web/GitHub searches, and current GitHub metadata. This pass added excalidrawer, Excalidraw Architect MCP, Excalimate, drawmode, excalidraw-render, excalidraw-mcp by dtour, Chuk MCP PowerPoint Server, and skill-evaluator. The targeted scraper ran only against these eight records, fetched ten official sources successfully with no failed fetches, and kept six official examples, sixteen preview assets, and twenty-nine docs links after scrubbing one generic Excalimate Open Graph image.
+
+Update on 2026-09-26: refreshed source-backed presentation skills that help agents turn briefs, PDFs, Office files, data, and technical text into HTML decks and exportable presentation artifacts from official GitHub repositories, README evidence, project homepages, live web/GitHub searches, and current GitHub metadata. This pass added slides-skill by korbinjoe, ppt-skill by cookaihq, and AgentBuff Presentation Skills. The targeted scraper was run against only these three records, but local HTTPS requests to raw GitHub and the project homepages failed with LibreSSL EOF errors, so the merged research records keep browser-verified official page evidence and manually curated official docs/examples; a very sparse overlapping PPTX MCP candidate was rejected as low-signal duplication.
 
 Update on 2026-09-24: refreshed source-backed portable HTML deck skills, video-to-PowerPoint workflows, deterministic PowerPoint agent tooling, content-to-HTML report skills, strategy and competitor-research report skills, brand visual-research reports, and creator analytics dashboards from official GitHub repositories, README evidence, product/homepage evidence, live web/GitHub searches, and current GitHub metadata. This pass added Presentation Forge, video2ppt, ppt-skill by Brusdeylins, web-content-designer, strategy-skill, Visual Research, GapHunter Skill, and creator-analytics. The targeted scraper ran only against these eight records, fetched ten official sources successfully with no failed fetches, and kept twelve official examples, twelve preview assets, and seven docs links with no signed asset URLs or dummy media introduced.
 

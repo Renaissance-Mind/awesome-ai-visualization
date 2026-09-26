@@ -1,8 +1,8 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Catalog](https://img.shields.io/badge/catalog-844_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--09--25-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-847_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--09--26-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,7 +15,7 @@ El catálogo está etiquetado por **fuente de información**, **tipo de herramie
 
 Algunos nombres de proyectos, términos oficiales y descripciones breves se mantienen en inglés para preservar la búsqueda y la trazabilidad con las fuentes originales.
 
-## Latest Refresh (2026-09-25)
+## Latest Refresh (2026-09-26)
 
 | Project | Catalog focus |
 | --- | --- |
@@ -526,6 +526,9 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [Chuk MCP PowerPoint Server](https://github.com/IBM/chuk-mcp-pptx) [![Star](https://img.shields.io/github/stars/IBM/chuk-mcp-pptx?style=flat&logo=github&label=Star)](https://github.com/IBM/chuk-mcp-pptx/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [video2ppt](https://github.com/Sadonim/video2ppt) [![Star](https://img.shields.io/github/stars/Sadonim/video2ppt?style=flat&logo=github&label=Star)](https://github.com/Sadonim/video2ppt/stargazers) | Web/search / Any/multi-source / Text/ideas | Agent skill | PPT/deck / Briefing/report / Structured data/Markdown | Agent host / Model API / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |
 | [ppt-skill by Brusdeylins](https://github.com/Brusdeylins/ppt-skill) [![Star](https://img.shields.io/github/stars/Brusdeylins/ppt-skill?style=flat&logo=github&label=Star)](https://github.com/Brusdeylins/ppt-skill/stargazers) | Text/ideas / Office docs / Data/tables | Agent skill / API/SDK/library | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
+| [slides-skill by korbinjoe](https://github.com/korbinjoe/slides-skill) [![Star](https://img.shields.io/github/stars/korbinjoe/slides-skill?style=flat&logo=github&label=Star)](https://github.com/korbinjoe/slides-skill/stargazers) | Text/ideas / PDF/documents / Data/tables / Code/technical text | Agent skill | PPT/deck / Web/interactive page / Architecture/flow diagram / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [ppt-skill by cookaihq](https://github.com/cookaihq/ppt-skill) [![Star](https://img.shields.io/github/stars/cookaihq/ppt-skill?style=flat&logo=github&label=Star)](https://github.com/cookaihq/ppt-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill | PPT/deck / Web/interactive page / Infographic/visual report / SVG/PNG/PDF | Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
+| [AgentBuff Presentation Skills](https://github.com/nugrahalabib/AgentBuff-Presentation-Skills) [![Star](https://img.shields.io/github/stars/nugrahalabib/AgentBuff-Presentation-Skills?style=flat&logo=github&label=Star)](https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/stargazers) | Text/ideas / Office docs / PDF/documents / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / System tools / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Decksmith](https://github.com/Rotvie/decksmith) [![Star](https://img.shields.io/github/stars/Rotvie/decksmith?style=flat&logo=github&label=Star)](https://github.com/Rotvie/decksmith/stargazers) | Text/ideas / PDF/documents / Any/multi-source | MCP server | PPT/deck / Graphical abstract/infographic / SVG/PNG/PDF | MCP client / Agent host / Local runtime / Model API / Rendering/export / Templates/assets |
 | [PowerPoint Generator Skill](https://github.com/Xr810/PowerPoint_MCP) [![Star](https://img.shields.io/github/stars/Xr810/PowerPoint_MCP?style=flat&logo=github&label=Star)](https://github.com/Xr810/PowerPoint_MCP/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill / MCP server | PPT/deck / Structured data/Markdown | Agent host / MCP client / Local runtime / System tools / Rendering/export / Templates/assets |
 | [PowerPoint Design Power](https://github.com/juanhcode/powerpoint-design-power) [![Star](https://img.shields.io/github/stars/juanhcode/powerpoint-design-power?style=flat&logo=github&label=Star)](https://github.com/juanhcode/powerpoint-design-power/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill / MCP server | PPT/deck / Chart/dashboard | Agent host / MCP client / Local runtime / System tools / Rendering/export / Templates/assets |

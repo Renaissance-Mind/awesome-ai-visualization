@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-24T23:05:54+00:00",
-  "lastResearched": "2026-09-25",
+  "generatedAt": "2026-09-26T00:50:45+00:00",
+  "lastResearched": "2026-09-26",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 844,
+    "total": 847,
     "openSource": 208,
     "saas": 79,
-    "modelApi": 264,
-    "examples": 1754,
+    "modelApi": 265,
+    "examples": 1756,
     "effectAssets": 2229,
-    "docs": 2066
+    "docs": 2079
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 87,
-      "PDF/文档": 244,
-      "文本/想法": 543,
-      "数据/表格": 346,
-      "代码/技术描述": 174,
-      "任意/多源": 142,
-      "网页/搜索结果": 209,
+      "PDF/文档": 247,
+      "文本/想法": 546,
+      "数据/表格": 347,
+      "代码/技术描述": 175,
+      "任意/多源": 143,
+      "网页/搜索结果": 210,
       "代码库": 97,
       "DSL/代码": 170,
       "新闻/资讯": 33,
       "知识库/个人资料": 83,
-      "Office 文档": 160,
+      "Office 文档": 162,
       "引用网络": 5,
       "数据库": 76,
       "视频/音频": 3
     },
     "toolForms": {
       "开源应用/框架": 208,
-      "Agent Skill": 325,
+      "Agent Skill": 328,
       "Skill 集合": 83,
       "MCP Server": 285,
       "产品/SaaS": 79,
@@ -43,15 +43,15 @@
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 357,
-      "网页/交互页面": 303,
+      "PPT/演示文稿": 360,
+      "网页/交互页面": 306,
       "问答/学习材料": 19,
       "报告/长文档": 122,
       "证据表": 76,
-      "信息图/视觉报告": 118,
+      "信息图/视觉报告": 119,
       "图表/仪表盘": 267,
-      "架构图/流程图": 181,
-      "SVG/PNG/PDF": 366,
+      "架构图/流程图": 182,
+      "SVG/PNG/PDF": 369,
       "报告/简报": 98,
       "白板/思维导图": 48,
       "图表/Mermaid": 81,
@@ -66,14 +66,14 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 716,
-      "模型 API": 264,
-      "文档解析/OCR": 118,
-      "渲染/导出": 744,
+      "本地语言环境": 719,
+      "模型 API": 265,
+      "文档解析/OCR": 119,
+      "渲染/导出": 747,
       "GPU/加速器": 24,
-      "模板/素材": 414,
-      "Agent 宿主": 414,
-      "系统工具": 192,
+      "模板/素材": 417,
+      "Agent 宿主": 417,
+      "系统工具": 193,
       "浏览器/账号": 194,
       "存储/索引": 130,
       "MCP Client": 298,
@@ -88,7 +88,7 @@
       "data-dashboard": 135,
       "diagram-generation": 96,
       "literature-map": 5,
-      "presentation-tools": 250,
+      "presentation-tools": 253,
       "rendering-primitive": 29,
       "video-generation": 22,
       "codebase-map": 52,
@@ -102,7 +102,7 @@
       "support_mindmap": 18,
       "docs": 43,
       "support_doc_parse": 24,
-      "presentation": 258,
+      "presentation": 261,
       "data": 128,
       "video": 22,
       "code": 58,
@@ -68866,6 +68866,225 @@
       "examples": [],
       "effectAssets": [],
       "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "slides-skill by korbinjoe",
+      "url": "https://github.com/korbinjoe/slides-skill",
+      "primaryUrl": "https://github.com/korbinjoe/slides-skill",
+      "homepage": "https://korbinjoe.github.io/slides-skill/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-26",
+      "note": "Claude Code presentation skill that turns briefs, talks, and design-review needs into self-contained HTML slide decks with 50 themes, playable theme demos, speaker notes, keyboard navigation, deck-lock contracts, and strict validation.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "SKILL.md",
+          "url": "https://github.com/korbinjoe/slides-skill/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/themes.md",
+          "url": "https://github.com/korbinjoe/slides-skill/blob/HEAD/references/themes.md",
+          "source": "https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/slide-types.md",
+          "url": "https://github.com/korbinjoe/slides-skill/blob/HEAD/references/slide-types.md",
+          "source": "https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/deck-contract.md",
+          "url": "https://github.com/korbinjoe/slides-skill/blob/HEAD/references/deck-contract.md",
+          "source": "https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Theme Sampler",
+          "url": "https://korbinjoe.github.io/slides-skill/",
+          "source": "https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/multi-agent-orchestration.html",
+          "url": "https://github.com/korbinjoe/slides-skill/blob/HEAD/examples/multi-agent-orchestration.html",
+          "source": "https://raw.githubusercontent.com/korbinjoe/slides-skill/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "ppt-skill by cookaihq",
+      "url": "https://github.com/cookaihq/ppt-skill",
+      "primaryUrl": "https://github.com/cookaihq/ppt-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "AGPL-3.0",
+      "updated": "2026-09-26",
+      "note": "AI-agent skill fork for generating single-file horizontal HTML presentations, PPT illustrations, and social covers with editorial magazine and Swiss-grid visual systems, optional Codex image-generation slots, and low-power fallback mode.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "信息图/视觉报告",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "README.en.md",
+          "url": "https://github.com/cookaihq/ppt-skill/blob/HEAD/README.en.md",
+          "source": "https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/image-prompts.md",
+          "url": "https://github.com/cookaihq/ppt-skill/blob/HEAD/references/image-prompts.md",
+          "source": "https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/screenshot-framing.md",
+          "url": "https://github.com/cookaihq/ppt-skill/blob/HEAD/references/screenshot-framing.md",
+          "source": "https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "references/checklist.md",
+          "url": "https://github.com/cookaihq/ppt-skill/blob/HEAD/references/checklist.md",
+          "source": "https://raw.githubusercontent.com/cookaihq/ppt-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 4,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "AgentBuff Presentation Skills",
+      "url": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills",
+      "primaryUrl": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills",
+      "homepage": "https://agentbuff.id/",
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updated": "2026-09-26",
+      "note": "Agent-agnostic presentation skill for Claude Code, Codex, Hermes, Gemini CLI, and other filesystem agents, creating HTML decks from scratch or converting PPTX files, then exporting pixel-identical PDF, PNG/JPG, or PPTX outputs.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "PDF/文档",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "STYLE_PRESETS.md",
+          "url": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/STYLE_PRESETS.md",
+          "source": "https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "html-template.md",
+          "url": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/html-template.md",
+          "source": "https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "animation-patterns.md",
+          "url": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/animation-patterns.md",
+          "source": "https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "scripts/export-deck.mjs",
+          "url": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/scripts/export-deck.mjs",
+          "source": "https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "bold-template-pack",
+          "url": "https://github.com/nugrahalabib/AgentBuff-Presentation-Skills/blob/HEAD/bold-template-pack/",
+          "source": "https://raw.githubusercontent.com/nugrahalabib/AgentBuff-Presentation-Skills/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 5,
       "examplesCount": 0,
       "effectAssetsCount": 0
     },
