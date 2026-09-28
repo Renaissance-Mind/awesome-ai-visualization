@@ -1,33 +1,22 @@
-# Open Design Brief
+# Catalog frontend brief
 
-This brief is for generating or iterating the repository frontend in Open Design.
+Implement the selected [directory design](design/catalog-reference.png) in the existing React + Vite application.
 
-## Goal
+The reader should be able to scan several real tools, understand each one's core purpose, and open a full introduction with official evidence. Keep the directory useful as the data grows.
 
-Create a production-quality frontend for `Renaissance-Mind/awesome-ai-visualization`, an awesome catalog of AI and agent tools that turn papers, documents, web pages, codebases, data, and ideas into visual artifacts.
+## Requirements
 
-## Required Surface
+- Use data/catalog.yml and data/tool-research.yml through the existing generated-data pipeline.
+- Use borderless list rows with optional official thumbnails, concise descriptions and detail links.
+- Do not add cards, tag lists, statistic tiles or a “什么时候用” column.
+- Support searching, broad topics, all canonical filter values, sorting and pagination.
+- Preserve browsing context through detail navigation, browser history and refresh.
+- Include reader-oriented topic guides and tool detail pages.
+- Keep external resources linked to their real GitHub or official URLs in production.
+- Work at desktop, tablet and mobile widths.
 
-- A searchable, filterable catalog application.
-- Use `data/catalog.yml` as the canonical tool source.
-- Use `data/tool-research.yml` for captured docs, examples, demos, official effect assets, and evidence links.
-- Preserve the repository's axes: information source, tool form, output artifact, dependency type, category, and README group.
-- Include a selected-tool detail panel with official links and a source-to-artifact flow.
-- Include an official effect evidence panel sourced only from captured image, GIF, video, and video-thumbnail assets in `data/tool-research.yml`.
-- Include compact catalog stats and result distribution.
+The source-grounded reading copy lives in src/data/editorial.ts; it never replaces the canonical catalog facts. All uncurated entries retain their original descriptions.
 
-## Design System
+The npm script design:open remains available for the Open Design workflow. It is not required to run or build this site.
 
-Use `design-systems/awesome-ai-visualization/DESIGN.md`.
-
-## Open Design Entry
-
-The npm script `npm run design:open` starts the Open Design ADE launcher when the local Open Design runtime is available. The official Open Design product is local-first and agent-native; generated artifacts should land as editable project files, not remote-only mockups.
-
-## Implementation Notes
-
-- React + Vite is the target implementation.
-- Do not mock catalog entries.
-- Do not add broad `try/catch` wrappers around normal app logic.
-- Keep the UI dense enough for repeated research use.
-- Keep visual assets inspectable and source-backed.
+See ../design-systems/awesome-ai-visualization/DESIGN.md and ../design-qa.md for the design contract and verification.

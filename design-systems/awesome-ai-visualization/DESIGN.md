@@ -1,54 +1,49 @@
 # Awesome AI Visualization Design System
 
-Use this Open Design system for the Awesome AI Visualization catalog frontend.
+The selected reference is [catalog-reference.png](../../docs/design/catalog-reference.png).
+This design supersedes the earlier three-panel dashboard.
 
-## Product Surface
+## Reader experience
 
-- Build a real catalog application, not a marketing landing page.
-- The primary workflow is search, filter, compare, inspect, and open official links.
-- The catalog data source is `data/catalog.yml`; research evidence is `data/tool-research.yml`.
-- Do not invent tool entries, star counts, licenses, docs, examples, categories, or runtime requirements.
+- Start with the actual catalog, rather than a promotional landing page.
+- The primary sequence is browse or search → read a short introduction → open the tool detail → inspect official evidence and source links.
+- Use one continuous white page, graphite headings, muted body text and cobalt links.
+- Organize content with whitespace, alignment, typography and light horizontal rules.
+- Do not use cards, nested panels, statistical tiles or tag/badge lists.
+- Do not add a “什么时候用” column or an equivalent recommendation column.
 
-## Visual Direction
+## Directory
 
-- Local-first design workspace aesthetic: precise, calm, technical, and file-backed.
-- White interface with graphite text, thin slate borders, compact controls, and subtle canvas-grid texture.
-- Accents: electric blue for navigation/action, vivid green for flow/output, small amber only for warnings or freshness.
-- Avoid beige, cream, purple-heavy gradients, decorative blobs, and oversized hero treatment.
-- Border radius should stay at 8px or less.
+- Compact masthead with the project name, catalog, guides and GitHub.
+- Page heading and underlined search field; no oversized hero.
+- Plain text topic navigation. Auxiliary tools remain discoverable.
+- A tool row contains an optional official image, tool name, short description and detail link.
+- Rows without an image remain readable without placeholders.
+- Six entries per page by default; 12 and 24 are optional.
+- Sort and advanced filters are quiet controls. Detailed taxonomy is available on demand rather than permanently occupying a sidebar.
+- Search, filters, ordering, pagination and the current detail are encoded in the URL.
 
-## Layout
+## Content
 
-- Desktop default: top command bar, left filter rail, central result list, right insight/detail panel.
-- Mobile: collapse to one column while preserving search first, filters second, results third, details after results.
-- Repeated tools may use cards. Do not put cards inside cards.
-- Keep the first viewport operational: search, stats, filters, results, and selected detail should all be visible on a laptop viewport.
+- Canonical facts remain in data/catalog.yml and data/tool-research.yml.
+- src/data/editorial.ts provides source-grounded Chinese reading copy for selected entries. Other entries retain the canonical description.
+- Never invent tools, previews, statistics, testimonials or supported capabilities.
+- Detail pages display evidence, inputs, outputs, dependencies and official resources.
+- Star counts are explicitly identified as snapshots.
+- Use official image/GIF/video assets. Do not substitute generated marketing imagery for actual product evidence.
 
-## Components
+## Typography and responsive behavior
 
-- Search input: large enough for long tool/category queries.
-- Filters: checkbox-like controls grouped by source, tool form, output artifact, dependency, and catalog area.
-- Tool rows: dense list rows with name, note, tags, stars, license, update date, source link, and homepage link.
-- Details: selected tool note, source-to-artifact flow, metadata, official effect evidence, docs, examples, and result mix.
-- Effect evidence must come from official image, GIF, video, or video-thumbnail assets captured in `data/tool-research.yml`. Do not draw or invent promotional visuals, and do not substitute an interactive live demo for missing effect assets.
-- Use icon buttons for reset, source, homepage, search, and navigation actions.
+- Arial with PingFang SC / Microsoft YaHei fallback matches the chosen reference without a font download.
+- Desktop tool names are 25px, descriptions 17px with generous line height.
+- The existing Lucide library supplies the reference's thin search, arrow and layers icons.
+- Desktop uses open image/text/link rows. Mobile keeps a small thumbnail beside the text, places the detail link below and allows full-width text when no image exists.
+- Mobile navigation can scroll horizontally within its own region; the document must not overflow.
+- Keyboard focus must remain visible, search and selects labelled, and native links usable without a pointer.
 
-## Typography
+## Build and verification
 
-- Modern system sans-serif.
-- UI chrome uses 11px-13px sizes with deliberate weights.
-- Tool names use 15px-22px depending on context.
-- Avoid negative letter spacing and viewport-scaled font sizes.
-
-## Interaction
-
-- Filtering is conjunctive within every active facet group.
-- Search matches name, notes, categories, tags, license, and dependencies.
-- The selected tool updates when the current result set changes.
-- Sort modes: recommended, stars, freshness, evidence, and name.
-
-## Delivery
-
-- The frontend must be runnable with `npm run dev`.
-- The production build must regenerate catalog JSON from YAML before Vite builds.
-- Generated frontend data lives at `src/data/catalog.generated.json`.
+- npm run dev runs the local React + Vite application.
+- npm run build regenerates the catalog JSON and performs TypeScript and production-build checks.
+- npm run check:frontend verifies discovery behavior against every real catalog entry.
+- Browser and visual verification is recorded in design-qa.md.
