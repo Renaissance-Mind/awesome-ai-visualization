@@ -11,7 +11,8 @@
     "prebuild": "npm run generate:data",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "check:frontend": "node scripts/check-frontend.mjs"
+    "check:frontend": "node scripts/check-frontend.mjs",
+    "deploy:cf": "npm run check:frontend && npm run build && npx --yes wrangler@4.143.0 deploy"
   },
   "dependencies": {
     "lucide-react": "^0.561.0",
