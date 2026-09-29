@@ -2,8 +2,9 @@ import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Lay
 import { useEffect, useMemo, useRef, useState, type AnchorHTMLAttributes, type ReactNode } from "react";
 import rawCatalog from "./data/catalog.generated.json";
 import { localPreviews } from "./data/editorial";
+import { RepositoryBadge } from "./components/RepositoryBadge";
 import { formatCompactNumber, formatNumber, getHostname } from "./lib/catalog";
-import { buildHref, descriptionFor, filterCatalog, filterFields, galleryAssets, groupNames, paginate, previewAssets, sortOptions, topicFor, topics, validSort, videoEmbed } from "./lib/discovery";
+import { buildHref, catalogWindow, descriptionFor, filterCatalog, filterFields, galleryAssets, groupNames, previewAssets, sortOptions, topicFor, topics, validSort, videoEmbed } from "./lib/discovery";
 import type { CatalogAsset, CatalogData, CatalogEntry, CatalogLink } from "./types";
 
 const catalog = rawCatalog as CatalogData;
@@ -62,7 +63,7 @@ function ToolRow({ entry, params }: { entry: CatalogEntry; params: URLSearchPara
   return <li className="tool-row">
     <Link className="tool-visual" href={href} tabIndex={-1} aria-hidden="true"><Thumbnail entry={entry} /></Link>
     <div className="tool-copy">
-      <h2><Link href={href}>{entry.name}</Link></h2>
+      <div className="tool-title"><h2><Link href={href}>{entry.name}</Link></h2><RepositoryBadge entry={entry} /></div>
       <p>{copy.summary}{copy.detail && <><br />{copy.detail}</>}</p>
       {video && previewAssets(entry).length === 0 && <External href={video.url} className="video-link">观看官方演示</External>}
     </div>
@@ -109,10 +110,27 @@ function Directory({ params }: { params: URLSearchParams }) {
   const [draft, setDraft] = useState(params.get("q") ?? "");
   const inputRef = useRef<HTMLInputElement>(null);
   const matches = useMemo(() => filterCatalog(catalog.entries, params), [params]);
-  const pagination = paginate(matches, params.get("page"), params.get("size"));
+  const visible = catalogWindow(matches, params.get("page"));
+  const loadMoreRef = useRef<HTMLDivElement>(null);
   const activeTopic = params.get("topic") ?? "all";
   const hasSearch = !!params.get("q");
   useEffect(() => setDraft(params.get("q") ?? ""), [params]);
+  useEffect(() => {
+    const sentinel = loadMoreRef.current;
+    if (!visible.hasMore || !sentinel || !("IntersectionObserver" in window)) return;
+    let active = true;
+    const observer = new IntersectionObserver((entries) => {
+      if (!active || !entries.some((entry) => entry.isIntersecting)) return;
+      active = false;
+      observer.disconnect();
+      navigate(buildHref(params, { page: String(visible.batch + 1), size: null }), true, false);
+    }, { rootMargin: "0px 0px 360px 0px" });
+    observer.observe(sentinel);
+    return () => {
+      active = false;
+      observer.disconnect();
+    };
+  }, [params, visible.batch, visible.hasMore]);
   const search = (query: string) => {
     setDraft(query);
     navigate(buildHref(params, { q: query, page: null }), true, false);
@@ -142,19 +160,16 @@ function Directory({ params }: { params: URLSearchParams }) {
       </div>
     </div>
     <div className="list-heading"><span>{hasSearch ? "搜索结果" : "工具"}</span><Facets params={params} /></div>
-    {matches.length ? <ul className="tool-list" aria-label="工具列表">{pagination.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
+    {matches.length ? <ul className="tool-list" aria-label="工具列表">{visible.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
       : <section className="empty-state"><h2>没有找到符合条件的工具</h2><p>试试更短的名称或用途，也可以放宽筛选条件。</p>
         <Link className="text-link" href="/">查看全部工具<ArrowRight size={17} /></Link></section>}
-    <div className="pagination">
-      <label className="page-size">每页<select aria-label="每页条目数" value={pagination.pageSize} onChange={(e) => navigate(buildHref(params, { size: e.target.value, page: null }))}>
-        {[6, 12, 24].map((size) => <option key={size} value={size}>{size} 条</option>)}
-      </select></label>
-      <nav aria-label="分页">
-        {pagination.page > 1 && <Link className="text-link" href={buildHref(params, { page: String(pagination.page - 1) })}><ArrowLeft size={16} />上一页</Link>}
-        <span>{pagination.page} / {pagination.totalPages}</span>
-        {pagination.page < pagination.totalPages && <Link className="text-link" href={buildHref(params, { page: String(pagination.page + 1) })}>下一页<ArrowRight size={16} /></Link>}
-      </nav>
-    </div>
+    {matches.length > 0 && <div className="load-more" ref={loadMoreRef}>
+      <p role="status" aria-live="polite">已显示 {formatNumber(visible.items.length)} / {formatNumber(matches.length)} 个工具</p>
+      {visible.hasMore ? <div>
+        <span>向下滚动自动加载</span>
+        <button type="button" className="text-link" onClick={() => navigate(buildHref(params, { page: String(visible.batch + 1), size: null }), true, false)}>加载更多<ArrowDown size={16} aria-hidden="true" /></button>
+      </div> : <span>已显示全部工具</span>}
+    </div>}
   </>;
 }
 
@@ -207,7 +222,7 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
   if (entry.homepage && entry.homepage !== entry.url) resources.push({ title: "项目主页", url: entry.homepage });
   return <article className="detail-page">
     <nav className="breadcrumb" aria-label="当前位置"><Link href={returnHref}>工具目录</Link><span>/</span><Link href={"?topic=" + topic.key}>{topic.label}</Link><span>/</span><span>{entry.name}</span></nav>
-    <header className="detail-heading"><h1>{entry.name}</h1><p className="detail-lead">{copy.summary}</p>{copy.detail && <p>{copy.detail}</p>}
+    <header className="detail-heading"><div className="detail-title"><h1>{entry.name}</h1><RepositoryBadge entry={entry} /></div><p className="detail-lead">{copy.summary}</p>{copy.detail && <p>{copy.detail}</p>}
       <div className="official-actions">{resources.map((link) => <External key={link.url} href={link.url}>{link.title}</External>)}</div>
     </header>
     <div className="reading-layout"><div className="reading-body">

@@ -66,11 +66,29 @@ export function filterCatalog(entries: CatalogEntry[], params: URLSearchParams) 
   return sorted.sort((a, b) => (featured.get(a.name) ?? featured.size) - (featured.get(b.name) ?? featured.size));
 }
 
-export function paginate<T>(items: T[], pageValue: string | null, sizeValue: string | null) {
-  const pageSize = [6, 12, 24].includes(Number(sizeValue)) ? Number(sizeValue) : 6;
-  const totalPages = Math.max(1, Math.ceil(items.length / pageSize));
-  const page = Math.max(1, Math.min(totalPages, Math.floor(Number(pageValue) || 1)));
-  return { items: items.slice((page - 1) * pageSize, page * pageSize), page, pageSize, totalPages };
+export const CATALOG_BATCH_SIZE = 20;
+
+export function githubRepository(url: string): string | null {
+  if (!URL.canParse(url)) return null;
+  const parsed = new URL(url);
+  if (parsed.hostname !== "github.com" || !["https:", "http:"].includes(parsed.protocol)) return null;
+  const [owner, rawName] = parsed.pathname.split("/").filter(Boolean);
+  const name = rawName?.replace(/\.git$/, "");
+  if (!owner || !name || !/^[\w.-]+$/.test(owner) || !/^[\w.-]+$/.test(name)) return null;
+  if (["topics", "collections", "orgs", "users", "marketplace", "features", "settings", "search", "sponsors"].includes(owner.toLowerCase())) return null;
+  return owner + "/" + name;
+}
+
+// The URL's page value now records how many batches have been revealed. Keep
+// the preceding entries so refresh and detail-return links restore the list.
+export function catalogWindow<T>(items: T[], pageValue: string | null) {
+  const totalBatches = Math.max(1, Math.ceil(items.length / CATALOG_BATCH_SIZE));
+  const requested = Number(pageValue);
+  const batch = Number.isFinite(requested)
+    ? Math.max(1, Math.min(totalBatches, Math.floor(requested) || 1))
+    : 1;
+  const visible = items.slice(0, batch * CATALOG_BATCH_SIZE);
+  return { items: visible, batch, hasMore: visible.length < items.length };
 }
 
 export function galleryAssets(entry: CatalogEntry): CatalogAsset[] {

@@ -112,3 +112,47 @@ Video playback availability on third-party hosts is not guaranteed by this check
   warning (about 2.09 MB minified / 362 KB gzip). It does not block the build.
 - Optional future editorial work can translate more canonical descriptions.
   This implementation does not invent translations or usage claims.
+
+## Follow-up: automatic batches and repository badges — 2026-09-29
+
+This follow-up supersedes the initial six-entry pagination described above.
+The original screenshots remain the baseline for the directory's visual style.
+
+Current behavior:
+- Initially render 20 entries; append the next 20 when the list end approaches
+  the viewport. Prior rows remain mounted and in the same order.
+- Remove previous/next navigation and the page-size selector.
+- Keep a keyboard-accessible load-more action and a complete-results message.
+- Reset revealed batches on search, topic, sort and filter changes.
+- Preserve the revealed batch count in refresh and detail-return URLs.
+- Add one GitHub Stars badge immediately after GitHub tool titles, including
+  guide rows and the tool-detail heading. Links target the owning repository.
+- Use the same Shields.io service as the README. Loading/network-failure fallback
+  shows the catalog snapshot and identifies that distinction in its tooltip.
+- Do not add repository badges to non-GitHub products.
+
+Browser verification:
+- The real catalog initially rendered 20 rows and automatically expanded to 40.
+- A 46-result query/topic selection expanded 20 → 40 → 46, retained all first
+  40 names, had 46 unique names, and removed the load button at completion.
+- Agent Skill + codebase filtering expanded 20 → 34 and then stopped.
+- Search, topic and sorting changes reset the list to 20 rows.
+- Detail return and browser refresh both retained a previously loaded 40 rows.
+- Empty results did not render a loading sentinel; a one-result search displayed
+  its complete-results state.
+- The first four actual Shields images loaded successfully and pointed to the
+  matching GitHub repositories.
+- The Open Design detail heading displayed its repository badge.
+- Gamma had no badge; its GitHub-based neighboring results did.
+- At 390 CSS pixels, the document width stayed at 390 with 20 rows rendered.
+
+Evidence:
+- docs/design/infinite-scroll.jpg: filtered list completed at 34 / 34.
+- docs/design/github-badges.jpg: real title badges and counts in the directory.
+- npm run check:frontend: fixed batch size, stable prefixes, full 855-entry
+  coverage, final partial batch, invalid batch values, filter reset, detail URL
+  round-trip and GitHub repository URL parsing all passed.
+- npm run build and git diff --check passed. The existing catalog-size bundle
+  warning remains unchanged in kind.
+
+Follow-up final result: passed

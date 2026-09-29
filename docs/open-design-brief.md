@@ -9,7 +9,7 @@ The reader should be able to scan several real tools, understand each one's core
 - Use data/catalog.yml and data/tool-research.yml through the existing generated-data pipeline.
 - Use borderless list rows with optional official thumbnails, concise descriptions and detail links.
 - Do not add cards, tag lists, statistic tiles or a “什么时候用” column.
-- Support searching, broad topics, all canonical filter values, sorting and pagination.
+- Support searching, broad topics, all canonical filter values, sorting and automatic loading in batches of 20 while scrolling.
 - Preserve browsing context through detail navigation, browser history and refresh.
 - Include reader-oriented topic guides and tool detail pages.
 - Keep external resources linked to their real GitHub or official URLs in production.
