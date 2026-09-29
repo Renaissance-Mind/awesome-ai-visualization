@@ -1,4 +1,4 @@
-generated_at: '2026-09-26T23:06:34+00:00'
+generated_at: '2026-09-29T07:08:50+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 855
-  fetched_sources_ok: 1140
+  entries: 863
+  fetched_sources_ok: 1151
   fetched_sources_failed: 60
-  official_examples: 1761
-  official_effect_assets: 2231
-  official_docs: 2080
+  official_examples: 1817
+  official_effect_assets: 2258
+  official_docs: 2101
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -66291,4 +66291,1002 @@ entries:
   - Visualize
   official_docs: []
   official_links: []
+  official_effect_assets: []
+- name: Plus AI MCP
+  category: presentation-tools
+  surface: mcp
+  primary_url: https://github.com/PlusDocs/plus-ai-mcp
+  homepage: https://plusai.com/
+  dependencies:
+    - MCP Client
+    - 浏览器/账号
+    - 模型 API
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Official hosted Plus AI MCP and agent plugin for creating or revising professionally designed, fully
+    editable PowerPoint decks from prompts or existing files, returning PPTX plus PDF and thumbnail artifacts through
+    OAuth; requires a paid Plus plan and account API key, and runs presentation generation in the Plus AI workspace
+    rather than locally.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Plus AI MCP
+      bytes: 4904
+    - kind: homepage
+      url: https://plusai.com/
+      final_url: https://plusai.com/
+      status: 200
+      content_type: text/html
+      title: Plus AI presentation maker | Stop making slides the old way
+      description: Plus is an AI assistant for PowerPoint and Slides that helps you create usable, results-oriented presentations.
+      bytes: 110608
+  official_examples:
+    - kind: example
+      title: example presentations
+      url: https://plusai.com/example-presentations
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: tutorial
+      title: For course creators
+      url: https://plusai.com/use-cases/ai-for-course-creators
+      source: https://plusai.com/
+    - kind: template
+      title: Templates
+      url: https://plusai.com/templates
+      source: https://plusai.com/
+    - kind: example
+      title: Pitch Deck Sales Agency SuperSEO Client Pitch Attention on clients, not slides.
+      url: https://plusai.com/examples/superseo-agency-client-proposal
+      source: https://plusai.com/
+    - kind: example
+      title: Strategy Market analysis GLP-1 Explainer Focus on analysis, not formatting.
+      url: https://plusai.com/examples/glp-1-explainer
+      source: https://plusai.com/
+    - kind: example
+      title: Training Online course Accessibility in Design Painless content creation.
+      url: https://plusai.com/examples/accessibility-in-design
+      source: https://plusai.com/
+    - kind: template
+      title: Downloadable templates
+      url: https://plusai.com/templates-all
+      source: https://plusai.com/
+  official_docs:
+    - kind: docs
+      title: app.plusdocs.com/api-settings
+      url: https://app.plusdocs.com/api-settings
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: docs
+      title: Plus AI API
+      url: https://plusai.com/features/presentation-agent-api
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: docs
+      title: MCP server guide
+      url: https://guide.plusai.com/apis-for-presentations/mcp-server
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: docs
+      title: Guides and reviews
+      url: https://plusai.com/comparisons
+      source: https://plusai.com/
+    - kind: docs
+      title: Word docs
+      url: https://plusai.com/features/document-to-presentation-ai
+      source: https://plusai.com/
+    - kind: docs
+      title: Presentations API
+      url: https://plusai.com/features/powerpoint-api
+      source: https://plusai.com/
+    - kind: docs
+      title: AI for Google Docs
+      url: https://plusai.com/plus-ai-for-google-docs
+      source: https://plusai.com/
+  official_effect_assets:
+    - kind: image
+      title: Upload a file example
+      url: https://plusai.com/_astro/upload-file.C4MkzK16_Z9RRBm.webp
+      source: https://plusai.com/
+    - kind: image
+      title: Refine & remix example
+      url: https://plusai.com/_astro/refine-remix.DSkUyolH_23Qarn.webp
+      source: https://plusai.com/
+    - kind: image
+      title: Images example
+      url: https://plusai.com/_astro/images.KVVIhePv_Z1KoORO.webp
+      source: https://plusai.com/
+    - kind: image
+      title: Charts and tables example
+      url: https://plusai.com/_astro/charts.C9o8nkpt_2kl7QY.webp
+      source: https://plusai.com/
+    - kind: image
+      title: Example SEO agency client pitch
+      url: https://plusai.com/_astro/superseo-example.CmXrltFf_2opewD.webp
+      source: https://plusai.com/
+    - kind: image
+      title: Example accessibility presentation
+      url: https://plusai.com/_astro/accessibility-example.Da_7jPT3_2mCR1q.webp
+      source: https://plusai.com/
+    - kind: image
+      title: "Renew template - slide 1"
+      url: https://plusai.com/_astro/renew1.BGPo5Py1_Z1NrW2h.webp
+      source: https://plusai.com/
+    - kind: image
+      title: "Renew template - slide 2"
+      url: https://plusai.com/_astro/renew2.DuGfR2PF_11Dy1o.webp
+      source: https://plusai.com/
+    - kind: image
+      title: "Renew template - slide 3"
+      url: https://plusai.com/_astro/renew3.BrBqe8hd_ZDX7Dn.webp
+      source: https://plusai.com/
+    - kind: image
+      title: "Tennis template - slide 1"
+      url: https://plusai.com/_astro/slide-tennis-1.maJcA932_Z1BoNYv.webp
+      source: https://plusai.com/
+  official_links:
+    - kind: example
+      title: example presentations
+      url: https://plusai.com/example-presentations
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: docs
+      title: app.plusdocs.com/api-settings
+      url: https://app.plusdocs.com/api-settings
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: docs
+      title: Plus AI API
+      url: https://plusai.com/features/presentation-agent-api
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: docs
+      title: MCP server guide
+      url: https://guide.plusai.com/apis-for-presentations/mcp-server
+      source: https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md
+    - kind: tutorial
+      title: For course creators
+      url: https://plusai.com/use-cases/ai-for-course-creators
+      source: https://plusai.com/
+    - kind: template
+      title: Templates
+      url: https://plusai.com/templates
+      source: https://plusai.com/
+    - kind: docs
+      title: Guides and reviews
+      url: https://plusai.com/comparisons
+      source: https://plusai.com/
+    - kind: example
+      title: Pitch Deck Sales Agency SuperSEO Client Pitch Attention on clients, not slides.
+      url: https://plusai.com/examples/superseo-agency-client-proposal
+      source: https://plusai.com/
+    - kind: example
+      title: Strategy Market analysis GLP-1 Explainer Focus on analysis, not formatting.
+      url: https://plusai.com/examples/glp-1-explainer
+      source: https://plusai.com/
+    - kind: example
+      title: Training Online course Accessibility in Design Painless content creation.
+      url: https://plusai.com/examples/accessibility-in-design
+      source: https://plusai.com/
+    - kind: docs
+      title: Word docs
+      url: https://plusai.com/features/document-to-presentation-ai
+      source: https://plusai.com/
+    - kind: docs
+      title: Presentations API
+      url: https://plusai.com/features/powerpoint-api
+      source: https://plusai.com/
+    - kind: docs
+      title: AI for Google Docs
+      url: https://plusai.com/plus-ai-for-google-docs
+      source: https://plusai.com/
+    - kind: template
+      title: Downloadable templates
+      url: https://plusai.com/templates-all
+      source: https://plusai.com/
+  source_headings:
+    - Example prompts
+- name: ARC-DRAW
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/etosin/arc-draw
+  dependencies:
+    - MCP Client
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Local SAP-aware draw.io MCP server that turns natural-language architecture descriptions into editable
+    live-canvas SAP BTP solution diagrams using 111 bundled icons, SAP diagram grammar, canonical patterns, and the
+    upstream draw.io MCP rendering stack; it currently installs from source and only needs network access for the
+    initial draw.io asset download.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/etosin/arc-draw/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/etosin/arc-draw/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Why this exists
+      bytes: 10748
+  official_docs:
+    - kind: docs
+      title: "`docs/SAP-INTEGRATION.md`"
+      url: https://github.com/etosin/arc-draw/blob/HEAD/docs/SAP-INTEGRATION.md
+      source: https://raw.githubusercontent.com/etosin/arc-draw/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: "`docs/SAP-INTEGRATION.md`"
+      url: https://github.com/etosin/arc-draw/blob/HEAD/docs/SAP-INTEGRATION.md
+      source: https://raw.githubusercontent.com/etosin/arc-draw/HEAD/README.md
+- name: html-slides by 32Lwk
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/32Lwk/html-slides
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill for producing self-contained 1920x1080 HTML decks with data-backed charts, diagrams, maps,
+    tables, illustrations, speaker modes, six themes, PNG export, automated overflow and layout checks, and
+    adversarial review; bundled fonts and assets let finished decks run offline without a model API.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: html-slides
+      bytes: 30863
+  official_examples:
+    - kind: example
+      title: examples/usecases/
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/usecases/
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: examples/demo/review/slides-review.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/review/slides-review.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: slides-audit.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/review/slides-audit.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: examples/project-skill/SKILL.template.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/project-skill/SKILL.template.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: cover
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/01-cover.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: cards
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/03-value.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: growth
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/12-growth.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: unit
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/13-unit.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: mix
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/14-mix.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: roadmap
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/16-roadmap.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: lanes
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/08-lanes.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: loop
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/09-loop.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: world
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/04-markets.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: Japan
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/05-farms.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: kpi
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/11-kpi.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: pitch sheet
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png-pitch/sheet.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: assumptions
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/23-assump.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: sources
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/25-src-1.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: glossary
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/26-gl1.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: P&L
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/20-fin-pl.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: reference/writing.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/writing.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/components.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/components.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/charts.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/charts.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/diagrams.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/diagrams.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/maps.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/maps.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/data.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/data.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/illustrations.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/illustrations.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: ファネル（横棒で弱い段を強調）
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/01-funnel.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: ポジショニング（バブルと 4 象限）
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/02-position.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: チャネルの獲得単価（棒＋右の軸の線）
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/03-channels.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: 施策の計画（ガント）
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/04-plan.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: 要旨（KPI と 3 つの提言）
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/01-summary.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: イシューツリー
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/02-issues.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: 優先度の 2×2
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/03-priority.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: 利益のブリッジ（滝）
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/04-bridge.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: 中扉
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/02-ch01.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: カードのページ
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/03-value.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: 滝グラフ
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/13-unit.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: image
+      title: サンキーとドーナツ
+      url: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/14-mix.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+  official_links:
+    - kind: example
+      title: examples/usecases/
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/usecases/
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/writing.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/writing.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/components.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/components.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/charts.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/charts.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/diagrams.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/diagrams.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/maps.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/maps.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/data.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/data.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/illustrations.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/illustrations.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: examples/demo/review/slides-review.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/review/slides-review.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: slides-audit.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/review/slides-audit.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: docs
+      title: reference/
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/reference/
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: examples/project-skill/SKILL.template.md
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/project-skill/SKILL.template.md
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: cover
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/01-cover.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: cards
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/03-value.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: growth
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/12-growth.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: unit
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/13-unit.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: mix
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/14-mix.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: roadmap
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/16-roadmap.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: lanes
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/08-lanes.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: loop
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/09-loop.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: world
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/04-markets.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: Japan
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/05-farms.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: kpi
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/11-kpi.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: pitch sheet
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png-pitch/sheet.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: assumptions
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/23-assump.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: sources
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/25-src-1.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: glossary
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/26-gl1.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: P&L
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/20-fin-pl.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: cash
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/21-fin-cf.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+    - kind: example
+      title: break-even
+      url: https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/22-fin-bep.png
+      source: https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md
+  source_headings:
+    - html-slides
+- name: Consulting HTML PPT Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/sharptoolbox/consulting-html-ppt
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill that condenses text, reports, and articles into single-file 16:9 consulting-style HTML decks,
+    selecting among ECharts data views, SVG structural models, and categorized text layouts from bundled template
+    libraries; SVG and text decks work offline, while data decks can swap the default CDN script for the included
+    ECharts runtime.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: consulting-html-ppt
+      bytes: 6479
+  official_effect_assets:
+    - kind: image
+      title: 唯品会经营分析
+      url: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/examples/01-经营分析-ECharts_缩览图.png
+      source: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+    - kind: image
+      title: 我是如此思考的
+      url: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/examples/02-思维框架-SVG_缩览图.png
+      source: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+    - kind: image
+      title: 西方哲学史学习指南
+      url: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/examples/03-哲学史-SVG_缩览图.png
+      source: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+  official_examples:
+    - &a1
+      kind: example
+      title: VIPS operating analysis HTML deck
+      url: https://github.com/sharptoolbox/consulting-html-ppt/blob/HEAD/examples/01-经营分析-ECharts.html
+      source: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+    - &a2
+      kind: example
+      title: Thinking framework SVG HTML deck
+      url: https://github.com/sharptoolbox/consulting-html-ppt/blob/HEAD/examples/02-思维框架-SVG.html
+      source: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+    - &a3
+      kind: example
+      title: History of Western philosophy HTML deck
+      url: https://github.com/sharptoolbox/consulting-html-ppt/blob/HEAD/examples/03-哲学史-SVG.html
+      source: https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md
+  official_links:
+    - *a1
+    - *a2
+    - *a3
+- name: Research2Slides
+  category: paper-visualization
+  surface: open-source
+  primary_url: https://github.com/diodeshing/research2slides
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 模型 API
+    - 文档解析/OCR
+    - 系统工具
+    - 渲染/导出
+  catalog_note: Evidence-traceable research presentation agent that parses PDF and LaTeX sources into structured claims,
+    visual and evidence graphs, bilingual plans, editable PptxGenJS decks, speaker notes, PDF and PNG previews, and
+    factual, narrative, visual, and semantic QA reports; offline drafts and a Windows local bundle avoid API calls,
+    while live analysis supports configurable OpenAI-compatible Responses endpoints.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Research2Slides
+      bytes: 16546
+  official_docs:
+    - kind: docs
+      title: architecture.md
+      url: https://github.com/diodeshing/research2slides/blob/HEAD/docs/architecture.md
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - kind: docs
+      title: Phase 9
+      url: https://github.com/diodeshing/research2slides/blob/HEAD/docs/phase-9-implementation-report.md
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - kind: docs
+      title: Phase 10
+      url: https://github.com/diodeshing/research2slides/blob/HEAD/docs/phase-10-semantic-benchmark-report.md
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: architecture.md
+      url: https://github.com/diodeshing/research2slides/blob/HEAD/docs/architecture.md
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - kind: docs
+      title: Phase 9
+      url: https://github.com/diodeshing/research2slides/blob/HEAD/docs/phase-9-implementation-report.md
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - kind: docs
+      title: Phase 10
+      url: https://github.com/diodeshing/research2slides/blob/HEAD/docs/phase-10-semantic-benchmark-report.md
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - &a4
+      kind: example
+      title: Paper-reading presentation artifacts
+      url: https://github.com/diodeshing/research2slides/tree/HEAD/examples/phase5/paper-reading
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - &a5
+      kind: example
+      title: Own-research presentation artifacts
+      url: https://github.com/diodeshing/research2slides/tree/HEAD/examples/phase5/own-research
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+    - &a6
+      kind: example
+      title: Real-world paper validation fixtures
+      url: https://github.com/diodeshing/research2slides/tree/HEAD/examples/real-world
+      source: https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md
+  source_headings:
+    - Research2Slides
+  official_examples:
+    - *a4
+    - *a5
+    - *a6
+- name: mindlm-mcp
+  category: doc-to-knowledge
+  surface: mcp
+  primary_url: https://github.com/qingchejun/mindlm-io
+  homepage: https://qingchejun.github.io/mindlm-io/
+  dependencies:
+    - MCP Client
+    - 本地语言环境
+    - 文档解析/OCR
+    - 外部检索/数据源
+    - 渲染/导出
+  catalog_note: Local MCP server and CLI that turns text, Markdown, web pages, and local PDFs into editable Markdown
+    outlines and standalone interactive Markmap HTML mind maps; it needs no account or API key in client or heuristic
+    mode, inlines scripts for offline viewing, rejects private URL targets, and supports an optional server-side model
+    key.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: mindlm-mcp
+      bytes: 17026
+    - kind: homepage
+      url: https://qingchejun.github.io/mindlm-io/
+      final_url: https://qingchejun.github.io/mindlm-io/
+      status: 200
+      content_type: text/html
+      title: mindlm-mcp — text, web pages and PDFs into mind maps
+      description: An MCP server and CLI that turns text, web pages and PDFs into interactive mind maps. One standalone HTML
+        file per map, works offline, no API key required.
+      bytes: 8458
+  official_examples:
+    - kind: example
+      title: "`examples/configs/`"
+      url: https://github.com/qingchejun/mindlm-io/blob/HEAD/examples/configs/
+      source: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+    - &a7
+      kind: demo
+      title: Live docs and demo
+      url: https://qingchejun.github.io/mindlm-io/
+      source: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: "`docs/launch.md`"
+      url: https://github.com/qingchejun/mindlm-io/blob/HEAD/docs/launch.md
+      source: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+  official_effect_assets: []
+  official_links:
+    - kind: example
+      title: "`examples/configs/`"
+      url: https://github.com/qingchejun/mindlm-io/blob/HEAD/examples/configs/
+      source: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+    - kind: docs
+      title: "`docs/launch.md`"
+      url: https://github.com/qingchejun/mindlm-io/blob/HEAD/docs/launch.md
+      source: https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md
+    - *a7
+- name: Report Agent by Ivan2330
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/Ivan2330/report-agent
+  homepage: https://ivan2330.github.io/report-agent/examples/index.html
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 外部检索/数据源
+    - 渲染/导出
+    - 存储/索引
+  catalog_note: Agent Skill for evidence-aware topic-interest research across Wikipedia language editions, producing
+    reproducible PDF reports, self-contained HTML dashboards, charts, CSV and JSON evidence, checked narrative
+    answers, and integrity manifests; Wikimedia access is required for fresh studies, while bundled response caches
+    reproduce official examples offline without a model API.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Report Agent
+      bytes: 53321
+    - kind: homepage
+      url: https://ivan2330.github.io/report-agent/examples/index.html
+      final_url: https://ivan2330.github.io/report-agent/examples/index.html
+      status: 200
+      content_type: text/html
+      title: Приклади звітів Report Agent
+      bytes: 6529
+  official_examples:
+    - kind: example
+      title: examples/index.html
+      url: https://ivan2330.github.io/report-agent/examples/index.html
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: astronomy
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/astronomy
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: fasting
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/fasting
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: language_learning
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/language_learning
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: rolling
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/rolling
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: multiyear
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/multiyear
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: recent
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/recent
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/fasting/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/fasting/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/fasting/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/fasting/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/multiyear/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+  official_docs:
+    - kind: docs
+      title: references/methodology.md
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/references/methodology.md
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: PDF-звіт
+      url: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/examples/screenshots/pdf.png
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: image
+      title: HTML-дашборд
+      url: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/examples/screenshots/dashboard.png
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+  official_links:
+    - kind: example
+      title: examples/index.html
+      url: https://ivan2330.github.io/report-agent/examples/index.html
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: astronomy
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/astronomy
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: fasting
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/fasting
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: language_learning
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/language_learning
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: rolling
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/rolling
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: multiyear
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/multiyear
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: recent
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/examples/recent
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: docs
+      title: references/methodology.md
+      url: https://github.com/Ivan2330/report-agent/blob/HEAD/references/methodology.md
+      source: https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/astronomy/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/fasting/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/fasting/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/fasting/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/fasting/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/language_learning/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/multiyear/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/multiyear/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/multiyear/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/multiyear/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/recent/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/recent/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/recent/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/recent/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дашборд HTML
+      url: https://ivan2330.github.io/report-agent/examples/rolling/dashboard.html
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: PDF-звіт
+      url: https://ivan2330.github.io/report-agent/examples/rolling/report.pdf
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Підсумок
+      url: https://ivan2330.github.io/report-agent/examples/rolling/brief.md
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+    - kind: example
+      title: Дані JSON
+      url: https://ivan2330.github.io/report-agent/examples/rolling/research.json
+      source: https://ivan2330.github.io/report-agent/examples/index.html
+- name: Manim Slide Decks Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/FenwickTutoring/manim-slide-decks
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Claude skill for building 3Blue1Brown-style animated presentations whose slides morph into one another
+    through Manim and manim-slides, then exporting a single browser-playable HTML deck with looping animations,
+    speaker notes, and contact sheets for visual QA; rendering is local and requires Python, Manim, manim-slides, and
+    ffmpeg but no model API or LaTeX.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/FenwickTutoring/manim-slide-decks/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/FenwickTutoring/manim-slide-decks/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: manim-slide-decks — a Claude skill for morphing animated presentations
+      bytes: 3171
+  official_docs: []
+  official_links:
+    - &a8
+      kind: template
+      title: Morphing deck template
+      url: https://github.com/FenwickTutoring/manim-slide-decks/blob/HEAD/manim-slide-decks/assets/deck_template.py
+      source: https://raw.githubusercontent.com/FenwickTutoring/manim-slide-decks/HEAD/README.md
+  source_headings:
+    - manim-slide-decks — a Claude skill for morphing animated presentations
+  official_examples:
+    - *a8
   official_effect_assets: []

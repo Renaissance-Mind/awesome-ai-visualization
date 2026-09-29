@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-27.
+Last researched: 2026-09-29.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-09-29: refreshed source-backed hosted PowerPoint MCP generation, SAP-aware draw.io architecture diagrams, offline HTML presentation skills, evidence-traceable research decks, PDF/web-to-mind-map conversion, reproducible data-report dashboards, and animated Manim presentations from official GitHub repositories, project pages, README evidence, live web/GitHub searches, and current GitHub metadata. This pass added Plus AI MCP, ARC-DRAW, html-slides by 32Lwk, Consulting HTML PPT Skill, Research2Slides, mindlm-mcp, Report Agent by Ivan2330, and Manim Slide Decks Skill. The targeted scraper ran only against these eight records, fetched eleven official sources successfully with no failed fetches, and kept fifty-six official examples, twenty-seven artifact preview assets, and twenty-one project-relevant docs links after removing a placeholder mind-map GIF, a generic environment-example link, generic Claude documentation, a sales-contact link, a generic video channel, and brand-only Plus AI media.
 
 Update on 2026-09-27: refreshed source-backed cross-harness deck skills, Windows PowerPoint COM/MCP guidance, professional PPTX generation workflows, HTML presentation skills, editable PowerPoint deck engines, ECharts MCP Apps rendering, and visualization-router skills from official GitHub repositories, nested SKILL files, product/homepage evidence, live web/GitHub searches, and current GitHub metadata. This pass added slides by jameshemson, ClaudePowerPointSkill, DERA Presentation Skill, UI UX Pro Max Slides Skill, xxc-pptx-gen, pptx-gen by alfonsograziano, echart-mcp-view, and Visualize Skill by melodic-software. The targeted scraper ran only against these eight records, fetched nine official sources successfully with one non-blocking npm package-page 403, and kept five official examples, two artifact preview assets, and one project-relevant docs link after scrubbing generic Claude platform docs and a brand-only share image.
 

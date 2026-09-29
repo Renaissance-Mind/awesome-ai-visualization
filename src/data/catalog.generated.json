@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-09-26T23:06:34+00:00",
-  "lastResearched": "2026-09-27",
+  "generatedAt": "2026-09-29T07:08:50+00:00",
+  "lastResearched": "2026-09-29",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 855,
-    "openSource": 208,
-    "saas": 79,
-    "modelApi": 266,
-    "examples": 1761,
-    "effectAssets": 2231,
-    "docs": 2080
+    "total": 863,
+    "openSource": 209,
+    "saas": 80,
+    "modelApi": 268,
+    "examples": 1817,
+    "effectAssets": 2258,
+    "docs": 2101
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 87,
-      "PDF/文档": 249,
-      "文本/想法": 553,
-      "数据/表格": 355,
-      "代码/技术描述": 176,
-      "任意/多源": 148,
-      "网页/搜索结果": 211,
+      "论文/科研资料": 88,
+      "PDF/文档": 254,
+      "文本/想法": 560,
+      "数据/表格": 360,
+      "代码/技术描述": 177,
+      "任意/多源": 151,
+      "网页/搜索结果": 214,
       "代码库": 97,
-      "DSL/代码": 172,
+      "DSL/代码": 174,
       "新闻/资讯": 33,
-      "知识库/个人资料": 83,
-      "Office 文档": 166,
+      "知识库/个人资料": 84,
+      "Office 文档": 167,
       "引用网络": 5,
-      "数据库": 77,
+      "数据库": 78,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 208,
-      "Agent Skill": 335,
+      "开源应用/框架": 209,
+      "Agent Skill": 341,
       "Skill 集合": 84,
-      "MCP Server": 286,
-      "产品/SaaS": 79,
+      "MCP Server": 289,
+      "产品/SaaS": 80,
       "数据集/评测": 5,
       "Bot/助手": 28,
       "研究原型": 13,
-      "API/SDK/库": 137,
+      "API/SDK/库": 138,
       "Awesome/索引": 26
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 366,
-      "网页/交互页面": 309,
+      "PPT/演示文稿": 371,
+      "网页/交互页面": 314,
       "问答/学习材料": 19,
-      "报告/长文档": 122,
-      "证据表": 76,
+      "报告/长文档": 124,
+      "证据表": 78,
       "信息图/视觉报告": 119,
-      "图表/仪表盘": 273,
-      "架构图/流程图": 185,
-      "SVG/PNG/PDF": 373,
+      "图表/仪表盘": 276,
+      "架构图/流程图": 188,
+      "SVG/PNG/PDF": 378,
       "报告/简报": 99,
-      "白板/思维导图": 48,
+      "白板/思维导图": 49,
       "图表/Mermaid": 81,
-      "视频/音频": 69,
-      "结构化数据/Markdown": 131,
+      "视频/音频": 70,
+      "结构化数据/Markdown": 134,
       "表格/时间线": 36,
       "引用答案": 9,
-      "思维导图/知识地图": 48,
+      "思维导图/知识地图": 49,
       "文献地图/知识地图": 5,
       "工具索引": 29,
       "代码地图/Repo Wiki": 53,
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 726,
-      "模型 API": 266,
-      "文档解析/OCR": 120,
-      "渲染/导出": 755,
+      "本地语言环境": 733,
+      "模型 API": 268,
+      "文档解析/OCR": 122,
+      "渲染/导出": 763,
       "GPU/加速器": 24,
-      "模板/素材": 424,
-      "Agent 宿主": 424,
-      "系统工具": 197,
-      "浏览器/账号": 194,
-      "存储/索引": 130,
-      "MCP Client": 300,
-      "外部检索/数据源": 178,
+      "模板/素材": 429,
+      "Agent 宿主": 429,
+      "系统工具": 201,
+      "浏览器/账号": 195,
+      "存储/索引": 131,
+      "MCP Client": 303,
+      "外部检索/数据源": 180,
       "代码分析工具": 60
     },
     "categories": {
-      "paper-visualization": 29,
-      "doc-to-knowledge": 69,
-      "research-report": 37,
+      "paper-visualization": 30,
+      "doc-to-knowledge": 70,
+      "research-report": 38,
       "infographic-report": 81,
       "data-dashboard": 136,
-      "diagram-generation": 97,
+      "diagram-generation": 98,
       "literature-map": 5,
-      "presentation-tools": 259,
+      "presentation-tools": 263,
       "rendering-primitive": 29,
       "video-generation": 22,
       "codebase-map": 52,
@@ -96,20 +96,20 @@
       "meta-index": 29
     },
     "groups": {
-      "paper": 44,
+      "paper": 45,
       "text_visual": 102,
       "web_news": 9,
-      "support_mindmap": 18,
+      "support_mindmap": 19,
       "docs": 43,
       "support_doc_parse": 24,
-      "presentation": 267,
-      "data": 129,
+      "presentation": 271,
+      "data": 130,
       "video": 22,
       "code": 58,
       "support_render": 72,
       "diagrams": 20,
       "indexes": 28,
-      "diagram": 13,
+      "diagram": 14,
       "index": 1,
       "knowledge": 2,
       "text": 3
@@ -69595,6 +69595,915 @@
       "effectAssets": [],
       "docsCount": 0,
       "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Plus AI MCP",
+      "url": "https://github.com/PlusDocs/plus-ai-mcp",
+      "primaryUrl": "https://github.com/PlusDocs/plus-ai-mcp",
+      "homepage": "https://plusai.com/",
+      "category": "presentation-tools",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "模型 API",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-29",
+      "note": "Official hosted Plus AI MCP and agent plugin for creating or revising professionally designed, fully editable PowerPoint decks from prompts or existing files, returning PPTX plus PDF and thumbnail artifacts through OAuth; requires a paid Plus plan and account API key, and runs presentation generation in the Plus AI workspace rather than locally.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "PDF/文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "Agent Skill",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "app.plusdocs.com/api-settings",
+          "url": "https://app.plusdocs.com/api-settings",
+          "source": "https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Plus AI API",
+          "url": "https://plusai.com/features/presentation-agent-api",
+          "source": "https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP server guide",
+          "url": "https://guide.plusai.com/apis-for-presentations/mcp-server",
+          "source": "https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Guides and reviews",
+          "url": "https://plusai.com/comparisons",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Word docs",
+          "url": "https://plusai.com/features/document-to-presentation-ai",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "Presentations API",
+          "url": "https://plusai.com/features/powerpoint-api",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "AI for Google Docs",
+          "url": "https://plusai.com/plus-ai-for-google-docs",
+          "source": "https://plusai.com/"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "example presentations",
+          "url": "https://plusai.com/example-presentations",
+          "source": "https://raw.githubusercontent.com/PlusDocs/plus-ai-mcp/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "For course creators",
+          "url": "https://plusai.com/use-cases/ai-for-course-creators",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://plusai.com/templates",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "example",
+          "title": "Pitch Deck Sales Agency SuperSEO Client Pitch Attention on clients, not slides.",
+          "url": "https://plusai.com/examples/superseo-agency-client-proposal",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "example",
+          "title": "Strategy Market analysis GLP-1 Explainer Focus on analysis, not formatting.",
+          "url": "https://plusai.com/examples/glp-1-explainer",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "example",
+          "title": "Training Online course Accessibility in Design Painless content creation.",
+          "url": "https://plusai.com/examples/accessibility-in-design",
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "template",
+          "title": "Downloadable templates",
+          "url": "https://plusai.com/templates-all",
+          "source": "https://plusai.com/"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Upload a file example",
+          "url": "https://plusai.com/_astro/upload-file.C4MkzK16_Z9RRBm.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Refine & remix example",
+          "url": "https://plusai.com/_astro/refine-remix.DSkUyolH_23Qarn.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Images example",
+          "url": "https://plusai.com/_astro/images.KVVIhePv_Z1KoORO.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Charts and tables example",
+          "url": "https://plusai.com/_astro/charts.C9o8nkpt_2kl7QY.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Example SEO agency client pitch",
+          "url": "https://plusai.com/_astro/superseo-example.CmXrltFf_2opewD.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Example accessibility presentation",
+          "url": "https://plusai.com/_astro/accessibility-example.Da_7jPT3_2mCR1q.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Renew template - slide 1",
+          "url": "https://plusai.com/_astro/renew1.BGPo5Py1_Z1NrW2h.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Renew template - slide 2",
+          "url": "https://plusai.com/_astro/renew2.DuGfR2PF_11Dy1o.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Renew template - slide 3",
+          "url": "https://plusai.com/_astro/renew3.BrBqe8hd_ZDX7Dn.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        },
+        {
+          "kind": "image",
+          "title": "Tennis template - slide 1",
+          "url": "https://plusai.com/_astro/slide-tennis-1.maJcA932_Z1BoNYv.webp",
+          "thumbnailUrl": null,
+          "source": "https://plusai.com/"
+        }
+      ],
+      "docsCount": 7,
+      "examplesCount": 7,
+      "effectAssetsCount": 10
+    },
+    {
+      "name": "ARC-DRAW",
+      "url": "https://github.com/etosin/arc-draw",
+      "primaryUrl": "https://github.com/etosin/arc-draw",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 11,
+      "license": "MIT",
+      "updated": "2026-09-29",
+      "note": "Local SAP-aware draw.io MCP server that turns natural-language architecture descriptions into editable live-canvas SAP BTP solution diagrams using 111 bundled icons, SAP diagram grammar, canonical patterns, and the upstream draw.io MCP rendering stack; it currently installs from source and only needs network access for the initial draw.io asset download.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "MCP Server"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "diagram",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/SAP-INTEGRATION.md`",
+          "url": "https://github.com/etosin/arc-draw/blob/HEAD/docs/SAP-INTEGRATION.md",
+          "source": "https://raw.githubusercontent.com/etosin/arc-draw/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "html-slides by 32Lwk",
+      "url": "https://github.com/32Lwk/html-slides",
+      "primaryUrl": "https://github.com/32Lwk/html-slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 2,
+      "license": "unknown",
+      "updated": "2026-09-28",
+      "note": "Agent Skill for producing self-contained 1920x1080 HTML decks with data-backed charts, diagrams, maps, tables, illustrations, speaker modes, six themes, PNG export, automated overflow and layout checks, and adversarial review; bundled fonts and assets let finished decks run offline without a model API.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "reference/writing.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/writing.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/components.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/components.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/charts.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/charts.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/diagrams.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/diagrams.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/maps.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/maps.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/data.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/data.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/illustrations.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/illustrations.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "reference/",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/reference/",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/usecases/",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/usecases/",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/demo/review/slides-review.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/review/slides-review.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "slides-audit.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/review/slides-audit.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "examples/project-skill/SKILL.template.md",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/project-skill/SKILL.template.md",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "cover",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/01-cover.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "cards",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/03-value.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "growth",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/12-growth.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "unit",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/13-unit.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "mix",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/14-mix.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "roadmap",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/16-roadmap.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "lanes",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/08-lanes.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "loop",
+          "url": "https://github.com/32Lwk/html-slides/blob/HEAD/examples/demo/png/09-loop.png",
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "ファネル（横棒で弱い段を強調）",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/01-funnel.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "ポジショニング（バブルと 4 象限）",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/02-position.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "チャネルの獲得単価（棒＋右の軸の線）",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/03-channels.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "施策の計画（ガント）",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-marketing/04-plan.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "要旨（KPI と 3 つの提言）",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/01-summary.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "イシューツリー",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/02-issues.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "優先度の 2×2",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/03-priority.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "利益のブリッジ（滝）",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/usecases/png-consulting/04-bridge.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "中扉",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/02-ch01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "カードのページ",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/03-value.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "滝グラフ",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/13-unit.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "サンキーとドーナツ",
+          "url": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/examples/demo/png/14-mix.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/32Lwk/html-slides/HEAD/README.md"
+        }
+      ],
+      "docsCount": 8,
+      "examplesCount": 20,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Consulting HTML PPT Skill",
+      "url": "https://github.com/sharptoolbox/consulting-html-ppt",
+      "primaryUrl": "https://github.com/sharptoolbox/consulting-html-ppt",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 10,
+      "license": "unknown",
+      "updated": "2026-09-29",
+      "note": "Agent Skill that condenses text, reports, and articles into single-file 16:9 consulting-style HTML decks, selecting among ECharts data views, SVG structural models, and categorized text layouts from bundled template libraries; SVG and text decks work offline, while data decks can swap the default CDN script for the included ECharts runtime.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "架构图/流程图"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "VIPS operating analysis HTML deck",
+          "url": "https://github.com/sharptoolbox/consulting-html-ppt/blob/HEAD/examples/01-经营分析-ECharts.html",
+          "source": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Thinking framework SVG HTML deck",
+          "url": "https://github.com/sharptoolbox/consulting-html-ppt/blob/HEAD/examples/02-思维框架-SVG.html",
+          "source": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "History of Western philosophy HTML deck",
+          "url": "https://github.com/sharptoolbox/consulting-html-ppt/blob/HEAD/examples/03-哲学史-SVG.html",
+          "source": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "唯品会经营分析",
+          "url": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/examples/01-经营分析-ECharts_缩览图.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "我是如此思考的",
+          "url": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/examples/02-思维框架-SVG_缩览图.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "西方哲学史学习指南",
+          "url": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/examples/03-哲学史-SVG_缩览图.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/sharptoolbox/consulting-html-ppt/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 3,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "Research2Slides",
+      "url": "https://github.com/diodeshing/research2slides",
+      "primaryUrl": "https://github.com/diodeshing/research2slides",
+      "homepage": null,
+      "category": "paper-visualization",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-27",
+      "note": "Evidence-traceable research presentation agent that parses PDF and LaTeX sources into structured claims, visual and evidence graphs, bilingual plans, editable PptxGenJS decks, speaker notes, PDF and PNG previews, and factual, narrative, visual, and semantic QA reports; offline drafts and a Windows local bundle avoid API calls, while live analysis supports configurable OpenAI-compatible Responses endpoints.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "报告/长文档",
+        "证据表",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "paper",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "architecture.md",
+          "url": "https://github.com/diodeshing/research2slides/blob/HEAD/docs/architecture.md",
+          "source": "https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Phase 9",
+          "url": "https://github.com/diodeshing/research2slides/blob/HEAD/docs/phase-9-implementation-report.md",
+          "source": "https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Phase 10",
+          "url": "https://github.com/diodeshing/research2slides/blob/HEAD/docs/phase-10-semantic-benchmark-report.md",
+          "source": "https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Paper-reading presentation artifacts",
+          "url": "https://github.com/diodeshing/research2slides/tree/HEAD/examples/phase5/paper-reading",
+          "source": "https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Own-research presentation artifacts",
+          "url": "https://github.com/diodeshing/research2slides/tree/HEAD/examples/phase5/own-research",
+          "source": "https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Real-world paper validation fixtures",
+          "url": "https://github.com/diodeshing/research2slides/tree/HEAD/examples/real-world",
+          "source": "https://raw.githubusercontent.com/diodeshing/research2slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 3,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "mindlm-mcp",
+      "url": "https://github.com/qingchejun/mindlm-io",
+      "primaryUrl": "https://github.com/qingchejun/mindlm-io",
+      "homepage": "https://qingchejun.github.io/mindlm-io/",
+      "category": "doc-to-knowledge",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-27",
+      "note": "Local MCP server and CLI that turns text, Markdown, web pages, and local PDFs into editable Markdown outlines and standalone interactive Markmap HTML mind maps; it needs no account or API key in client or heuristic mode, inlines scripts for offline viewing, rejects private URL targets, and supports an optional server-side model key.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "网页/搜索结果",
+        "知识库/个人资料"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "思维导图/知识地图",
+        "网页/交互页面",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "support_mindmap",
+      "readmeGroup": "support_mindmap",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "`docs/launch.md`",
+          "url": "https://github.com/qingchejun/mindlm-io/blob/HEAD/docs/launch.md",
+          "source": "https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/configs/`",
+          "url": "https://github.com/qingchejun/mindlm-io/blob/HEAD/examples/configs/",
+          "source": "https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md"
+        },
+        {
+          "kind": "demo",
+          "title": "Live docs and demo",
+          "url": "https://qingchejun.github.io/mindlm-io/",
+          "source": "https://raw.githubusercontent.com/qingchejun/mindlm-io/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Report Agent by Ivan2330",
+      "url": "https://github.com/Ivan2330/report-agent",
+      "primaryUrl": "https://github.com/Ivan2330/report-agent",
+      "homepage": "https://ivan2330.github.io/report-agent/examples/index.html",
+      "category": "research-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "外部检索/数据源",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-27",
+      "note": "Agent Skill for evidence-aware topic-interest research across Wikipedia language editions, producing reproducible PDF reports, self-contained HTML dashboards, charts, CSV and JSON evidence, checked narrative answers, and integrity manifests; Wikimedia access is required for fresh studies, while bundled response caches reproduce official examples offline without a model API.",
+      "sourceTypes": [
+        "网页/搜索结果",
+        "数据/表格",
+        "数据库",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "报告/长文档",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "references/methodology.md",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/references/methodology.md",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "examples/index.html",
+          "url": "https://ivan2330.github.io/report-agent/examples/index.html",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "astronomy",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/examples/astronomy",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "fasting",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/examples/fasting",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "language_learning",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/examples/language_learning",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "rolling",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/examples/rolling",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "multiyear",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/examples/multiyear",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "recent",
+          "url": "https://github.com/Ivan2330/report-agent/blob/HEAD/examples/recent",
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Дашборд HTML",
+          "url": "https://ivan2330.github.io/report-agent/examples/astronomy/dashboard.html",
+          "source": "https://ivan2330.github.io/report-agent/examples/index.html"
+        },
+        {
+          "kind": "example",
+          "title": "PDF-звіт",
+          "url": "https://ivan2330.github.io/report-agent/examples/astronomy/report.pdf",
+          "source": "https://ivan2330.github.io/report-agent/examples/index.html"
+        },
+        {
+          "kind": "example",
+          "title": "Підсумок",
+          "url": "https://ivan2330.github.io/report-agent/examples/astronomy/brief.md",
+          "source": "https://ivan2330.github.io/report-agent/examples/index.html"
+        },
+        {
+          "kind": "example",
+          "title": "Дані JSON",
+          "url": "https://ivan2330.github.io/report-agent/examples/astronomy/research.json",
+          "source": "https://ivan2330.github.io/report-agent/examples/index.html"
+        },
+        {
+          "kind": "example",
+          "title": "Дашборд HTML",
+          "url": "https://ivan2330.github.io/report-agent/examples/fasting/dashboard.html",
+          "source": "https://ivan2330.github.io/report-agent/examples/index.html"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "PDF-звіт",
+          "url": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/examples/screenshots/pdf.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "HTML-дашборд",
+          "url": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/examples/screenshots/dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Ivan2330/report-agent/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 20,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Manim Slide Decks Skill",
+      "url": "https://github.com/FenwickTutoring/manim-slide-decks",
+      "primaryUrl": "https://github.com/FenwickTutoring/manim-slide-decks",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-27",
+      "note": "Claude skill for building 3Blue1Brown-style animated presentations whose slides morph into one another through Manim and manim-slides, then exporting a single browser-playable HTML deck with looping animations, speaker notes, and contact sheets for visual QA; rendering is local and requires Python, Manim, manim-slides, and ffmpeg but no model API or LaTeX.",
+      "sourceTypes": [
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Morphing deck template",
+          "url": "https://github.com/FenwickTutoring/manim-slide-decks/blob/HEAD/manim-slide-decks/assets/deck_template.py",
+          "source": "https://raw.githubusercontent.com/FenwickTutoring/manim-slide-decks/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 1,
       "effectAssetsCount": 0
     }
   ]

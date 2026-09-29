@@ -1,4 +1,4 @@
-last_researched: '2026-09-27'
+last_researched: '2026-09-29'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -22433,3 +22433,249 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: diagram
+- name: Plus AI MCP
+  url: https://github.com/PlusDocs/plus-ai-mcp
+  homepage: https://plusai.com/
+  category: presentation-tools
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-29'
+  note: Official hosted Plus AI MCP and agent plugin for creating or revising professionally designed, fully editable PowerPoint
+    decks from prompts or existing files, returning PPTX plus PDF and thumbnail artifacts through OAuth; requires a paid Plus
+    plan and account API key, and runs presentation generation in the Plus AI workspace rather than locally.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - PDF/文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - MCP Server
+  - Agent Skill
+  - 产品/SaaS
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: ARC-DRAW
+  url: https://github.com/etosin/arc-draw
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 11
+  license: MIT
+  updated: '2026-09-29'
+  note: Local SAP-aware draw.io MCP server that turns natural-language architecture descriptions into editable live-canvas
+    SAP BTP solution diagrams using 111 bundled icons, SAP diagram grammar, canonical patterns, and the upstream draw.io MCP
+    rendering stack; it currently installs from source and only needs network access for the initial draw.io asset download.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - MCP Server
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: diagram
+- name: html-slides by 32Lwk
+  url: https://github.com/32Lwk/html-slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 2
+  license: unknown
+  updated: '2026-09-28'
+  note: Agent Skill for producing self-contained 1920x1080 HTML decks with data-backed charts, diagrams, maps, tables,
+    illustrations, speaker modes, six themes, PNG export, automated overflow and layout checks, and adversarial review;
+    bundled fonts and assets let finished decks run offline without a model API.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Consulting HTML PPT Skill
+  url: https://github.com/sharptoolbox/consulting-html-ppt
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 10
+  license: unknown
+  updated: '2026-09-29'
+  note: Agent Skill that condenses text, reports, and articles into single-file 16:9 consulting-style HTML decks, selecting
+    among ECharts data views, SVG structural models, and categorized text layouts from bundled template libraries; SVG and
+    text decks work offline, while data decks can swap the default CDN script for the included ECharts runtime.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 架构图/流程图
+  catalog_section: main
+  readme_group: presentation
+- name: Research2Slides
+  url: https://github.com/diodeshing/research2slides
+  category: paper-visualization
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 系统工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-27'
+  note: Evidence-traceable research presentation agent that parses PDF and LaTeX sources into structured claims, visual and
+    evidence graphs, bilingual plans, editable PptxGenJS decks, speaker notes, PDF and PNG previews, and factual, narrative,
+    visual, and semantic QA reports; offline drafts and a Windows local bundle avoid API calls, while live analysis supports
+    configurable OpenAI-compatible Responses endpoints.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 报告/长文档
+  - 证据表
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: paper
+- name: mindlm-mcp
+  url: https://github.com/qingchejun/mindlm-io
+  homepage: https://qingchejun.github.io/mindlm-io/
+  category: doc-to-knowledge
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-09-27'
+  note: Local MCP server and CLI that turns text, Markdown, web pages, and local PDFs into editable Markdown outlines and
+    standalone interactive Markmap HTML mind maps; it needs no account or API key in client or heuristic mode, inlines scripts
+    for offline viewing, rejects private URL targets, and supports an optional server-side model key.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 网页/搜索结果
+  - 知识库/个人资料
+  tool_forms:
+  - MCP Server
+  - API/SDK/库
+  output_forms:
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Report Agent by Ivan2330
+  url: https://github.com/Ivan2330/report-agent
+  homepage: https://ivan2330.github.io/report-agent/examples/index.html
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 外部检索/数据源
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: unknown
+  updated: '2026-09-27'
+  note: Agent Skill for evidence-aware topic-interest research across Wikipedia language editions, producing reproducible PDF
+    reports, self-contained HTML dashboards, charts, CSV and JSON evidence, checked narrative answers, and integrity manifests;
+    Wikimedia access is required for fresh studies, while bundled response caches reproduce official examples offline without
+    a model API.
+  source_types:
+  - 网页/搜索结果
+  - 数据/表格
+  - 数据库
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  - 证据表
+  catalog_section: main
+  readme_group: data
+- name: Manim Slide Decks Skill
+  url: https://github.com/FenwickTutoring/manim-slide-decks
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-27'
+  note: Claude skill for building 3Blue1Brown-style animated presentations whose slides morph into one another through Manim
+    and manim-slides, then exporting a single browser-playable HTML deck with looping animations, speaker notes, and contact
+    sheets for visual QA; rendering is local and requires Python, Manim, manim-slides, and ffmpeg but no model API or LaTeX.
+  source_types:
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 视频/音频
+  catalog_section: main
+  readme_group: presentation
