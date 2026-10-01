@@ -1,4 +1,4 @@
-last_researched: '2026-09-29'
+last_researched: '2026-10-01'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -22679,3 +22679,262 @@ entries:
   - 视频/音频
   catalog_section: main
   readme_group: presentation
+- name: Cicero's Hoard
+  url: https://github.com/Luissalet/CiceroHoard
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - MCP Client
+  - 本地语言环境
+  - 模型 API
+  - 文档解析/OCR
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-01'
+  note: Local presentation workspace and MCP server that turns briefs plus TXT, Markdown, PDF, DOCX, or PPTX sources into
+    reviewed editable decks with citations, speaker notes, native charts, revision history, source-number checks, and PPTX,
+    PDF, self-contained HTML, or Markdown exports; documents remain local and only numbered excerpts reach the configured
+    model, with a rule-based fallback when no model is available.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: Doc and Deck Skills
+  url: https://github.com/hijigoo/doc-and-deck-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-09-30'
+  note: Ten standalone agent skills spanning topic or Markdown to self-contained HTML, Markdown to editable PPTX, HTML to
+    PPTX, and source-preserving PPTX to HTML, with forty Deep Navy and White Cobalt layouts, speaker scripts, offline single-file
+    delivery, and checked sample decks, PDFs, screenshots, and source records.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 报告/长文档
+  - 网页/交互页面
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: PPT Skills by xu-jin-cs
+  url: https://github.com/xu-jin-cs/ppt-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: CC-BY-NC-SA-4.0
+  updated: '2026-09-30'
+  note: Three Claude Code, Codex, and Kimi-compatible skills for mechanically reverse-engineering PPTX files or screenshots
+    into reusable design schemas and skeleton packs, then generating editable native-vector decks from text with optional
+    LibreOffice and PyMuPDF render QA; the screenshot-only extractor works without scripts or network access.
+  source_types:
+  - Office 文档
+  - PDF/文档
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: SVG Infographic Skill
+  url: https://github.com/MoeWang-ys/svg-infographic
+  category: infographic-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-09-30'
+  note: Local Agent Skill for writing compact editable SVG infographics, architecture diagrams, flowcharts, comparison graphics,
+    and README visuals with exact multilingual text, plus Chrome and Python checks for text overflow, invalid colors, blank
+    regions, pixel coverage, and PNG export; it requires no image model, API key, per-image fee, or GPU.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Awesome AI Motion
+  url: https://github.com/gongnyang/awesome-ai-motion
+  homepage: https://gongnyang.github.io/awesome-ai-motion/
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 41
+  license: MIT
+  updated: '2026-10-01'
+  note: Bilingual motion field guide and Agent Skill with 637 techniques, 128 rendered reference clips, eleven recipes, seven
+    design routes, canonical JSON metadata, and a comparison website for choosing and adapting motion in videos, infographics,
+    and scroll decks; browsing is dependency-free, while local rendering uses optional Node.js, Chromium, Playwright, and ffmpeg.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - Awesome/索引
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  - 信息图/视觉报告
+  catalog_section: main
+  readme_group: video
+- name: Voice Film Skill
+  url: https://github.com/artkruglov/voice-film
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 4
+  license: MIT
+  updated: '2026-09-30'
+  note: Claude Code skill that turns research, reports, or product stories into one-to-four-minute voice-led explainer films
+    with verified AI narration, music, measured captions, code-rendered charts and screenshots, 16:9 and 9:16 MP4s, contact
+    sheets, and self-contained web pages; OpenRouter is required for voice, music, transcription, and vision review, while
+    rendering runs locally through Remotion and ffmpeg.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: video
+- name: Explainer Video Skill by rohithgoud30
+  url: https://github.com/rohithgoud30/explainer-video
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: unknown
+  updated: '2026-09-29'
+  note: Agent Skill for researching a topic and rendering narrated, captioned explainer videos from a JSON slide script on the
+    user's machine, using offline open-weight Kokoro speech when available, Edge TTS as a network fallback, Chromium for slides,
+    and ffmpeg for assembly; no paid model API key is required and the first run downloads its runtime assets.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: video
+- name: skillbench by fielding
+  url: https://github.com/fielding/skillbench
+  category: data-dashboard
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-09-30'
+  note: Append-only skill ablation harness and dashboard around Claude plugin eval that compares with-skill and bare-model runs
+    across models, tracks lift, headroom, invocation rate, stale fingerprints, grader evidence, history, coverage, and costs,
+    and emits a self-contained offline HTML dashboard; optional OpenAI-compatible models run through a private ephemeral proxy
+    whose key material can resolve from environment, 1Password, or macOS Keychain and is deleted after each run.
+  source_types:
+  - 数据/表格
+  - 代码库
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - 图表/仪表盘
+  - 网页/交互页面
+  - 报告/长文档
+  - 结构化数据/Markdown
+  - 证据表
+  catalog_section: main
+  readme_group: data

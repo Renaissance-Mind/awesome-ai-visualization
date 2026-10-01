@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-29T07:08:50+00:00",
-  "lastResearched": "2026-09-29",
+  "generatedAt": "2026-10-01T07:05:49+00:00",
+  "lastResearched": "2026-10-01",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 863,
-    "openSource": 209,
+    "total": 871,
+    "openSource": 211,
     "saas": 80,
-    "modelApi": 268,
-    "examples": 1817,
-    "effectAssets": 2258,
-    "docs": 2101
+    "modelApi": 271,
+    "examples": 1846,
+    "effectAssets": 2286,
+    "docs": 2122
   },
   "facets": {
     "sourceTypes": {
-      "论文/科研资料": 88,
-      "PDF/文档": 254,
-      "文本/想法": 560,
-      "数据/表格": 360,
-      "代码/技术描述": 177,
-      "任意/多源": 151,
-      "网页/搜索结果": 214,
-      "代码库": 97,
+      "论文/科研资料": 89,
+      "PDF/文档": 258,
+      "文本/想法": 567,
+      "数据/表格": 365,
+      "代码/技术描述": 180,
+      "任意/多源": 159,
+      "网页/搜索结果": 216,
+      "代码库": 98,
       "DSL/代码": 174,
       "新闻/资讯": 33,
       "知识库/个人资料": 84,
-      "Office 文档": 167,
+      "Office 文档": 170,
       "引用网络": 5,
       "数据库": 78,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 209,
-      "Agent Skill": 341,
-      "Skill 集合": 84,
-      "MCP Server": 289,
+      "开源应用/框架": 211,
+      "Agent Skill": 347,
+      "Skill 集合": 86,
+      "MCP Server": 290,
       "产品/SaaS": 80,
       "数据集/评测": 5,
       "Bot/助手": 28,
       "研究原型": 13,
-      "API/SDK/库": 138,
-      "Awesome/索引": 26
+      "API/SDK/库": 139,
+      "Awesome/索引": 27
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 371,
-      "网页/交互页面": 314,
+      "PPT/演示文稿": 374,
+      "网页/交互页面": 319,
       "问答/学习材料": 19,
-      "报告/长文档": 124,
-      "证据表": 78,
-      "信息图/视觉报告": 119,
-      "图表/仪表盘": 276,
-      "架构图/流程图": 188,
-      "SVG/PNG/PDF": 378,
+      "报告/长文档": 126,
+      "证据表": 80,
+      "信息图/视觉报告": 121,
+      "图表/仪表盘": 279,
+      "架构图/流程图": 190,
+      "SVG/PNG/PDF": 382,
       "报告/简报": 99,
       "白板/思维导图": 49,
       "图表/Mermaid": 81,
-      "视频/音频": 70,
-      "结构化数据/Markdown": 134,
+      "视频/音频": 73,
+      "结构化数据/Markdown": 138,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 49,
@@ -66,45 +66,45 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 733,
-      "模型 API": 268,
-      "文档解析/OCR": 122,
-      "渲染/导出": 763,
+      "本地语言环境": 741,
+      "模型 API": 271,
+      "文档解析/OCR": 125,
+      "渲染/导出": 771,
       "GPU/加速器": 24,
-      "模板/素材": 429,
-      "Agent 宿主": 429,
-      "系统工具": 201,
-      "浏览器/账号": 195,
-      "存储/索引": 131,
-      "MCP Client": 303,
-      "外部检索/数据源": 180,
+      "模板/素材": 436,
+      "Agent 宿主": 436,
+      "系统工具": 209,
+      "浏览器/账号": 196,
+      "存储/索引": 133,
+      "MCP Client": 304,
+      "外部检索/数据源": 182,
       "代码分析工具": 60
     },
     "categories": {
       "paper-visualization": 30,
       "doc-to-knowledge": 70,
       "research-report": 38,
-      "infographic-report": 81,
-      "data-dashboard": 136,
+      "infographic-report": 82,
+      "data-dashboard": 137,
       "diagram-generation": 98,
       "literature-map": 5,
-      "presentation-tools": 263,
+      "presentation-tools": 266,
       "rendering-primitive": 29,
-      "video-generation": 22,
+      "video-generation": 25,
       "codebase-map": 52,
       "commercial-site": 10,
       "meta-index": 29
     },
     "groups": {
       "paper": 45,
-      "text_visual": 102,
+      "text_visual": 103,
       "web_news": 9,
       "support_mindmap": 19,
       "docs": 43,
       "support_doc_parse": 24,
-      "presentation": 271,
-      "data": 130,
-      "video": 22,
+      "presentation": 274,
+      "data": 131,
+      "video": 25,
       "code": 58,
       "support_render": 72,
       "diagrams": 20,
@@ -70505,6 +70505,800 @@
       "docsCount": 0,
       "examplesCount": 1,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Cicero's Hoard",
+      "url": "https://github.com/Luissalet/CiceroHoard",
+      "primaryUrl": "https://github.com/Luissalet/CiceroHoard",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "MCP Client",
+        "本地语言环境",
+        "模型 API",
+        "文档解析/OCR",
+        "系统工具",
+        "渲染/导出",
+        "存储/索引",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-10-01",
+      "note": "Local presentation workspace and MCP server that turns briefs plus TXT, Markdown, PDF, DOCX, or PPTX sources into reviewed editable decks with citations, speaker notes, native charts, revision history, source-number checks, and PPTX, PDF, self-contained HTML, or Markdown exports; documents remain local and only numbered excerpts reach the configured model, with a rule-based fallback when no model is available.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "REST API documentation",
+          "url": "https://github.com/Luissalet/CiceroHoard/blob/HEAD/docs/API.md",
+          "source": "https://raw.githubusercontent.com/Luissalet/CiceroHoard/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Doc and Deck Skills",
+      "url": "https://github.com/hijigoo/doc-and-deck-skills",
+      "primaryUrl": "https://github.com/hijigoo/doc-and-deck-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-30",
+      "note": "Ten standalone agent skills spanning topic or Markdown to self-contained HTML, Markdown to editable PPTX, HTML to PPTX, and source-preserving PPTX to HTML, with forty Deep Navy and White Cobalt layouts, speaker scripts, offline single-file delivery, and checked sample decks, PDFs, screenshots, and source records.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "报告/长文档",
+        "网页/交互页面",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Deep Navy 전체 20종 갤러리",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-html/deck.html",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "White Cobalt 전체 20종 갤러리",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-html/deck.html",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "deep-navy-md-to-html",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-html/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "deep-navy-topic-to-html",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-topic-to-html/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "deep-navy-md-to-pptx",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-pptx/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "deep-navy-html-to-pptx",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-html-to-pptx/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "deep-navy-pptx-to-html",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-pptx-to-html/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "white-cobalt-md-to-html",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-html/SKILL.md",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "HTML",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-md-to-html/foundry.html",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "20장",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-md-to-html/overview.png",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "HTML",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-topic-to-html/topic.html",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "20장",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-topic-to-html/overview.png",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "PPTX",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-md-to-pptx/foundry.pptx",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "20장",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-md-to-pptx/overview.png",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "PPTX",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-html-to-pptx/foundry.pptx",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "20장",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-html-to-pptx/overview.png",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "HTML",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-pptx-to-html/index.html",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "20장",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-pptx-to-html/overview.png",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "HTML",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-md-to-html/foundry.html",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "20장",
+          "url": "https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-md-to-html/overview.png",
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Deep Navy Foundry 20종: 표지부터 구성도, 데이터 흐름, 시퀀스, 차트, 코드 해설과 마무리까지",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-md-to-html/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "White Cobalt Foundry 20종: 각진 블록, 비교표, 경계도, 차트와 코드 해설",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-md-to-html/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Deep Navy 20종 디자인을 편집 가능한 기본 객체와 복합 다이어그램 이미지로 옮긴 정적 PowerPoint",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-md-to-pptx/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-topic-to-html/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-html-to-pptx/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-pptx-to-html/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-topic-to-html/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-md-to-pptx/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-html-to-pptx/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "20장",
+          "url": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-pptx-to-html/overview.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 12,
+      "examplesCount": 20,
+      "effectAssetsCount": 10
+    },
+    {
+      "name": "PPT Skills by xu-jin-cs",
+      "url": "https://github.com/xu-jin-cs/ppt-skills",
+      "primaryUrl": "https://github.com/xu-jin-cs/ppt-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "CC-BY-NC-SA-4.0",
+      "updated": "2026-09-30",
+      "note": "Three Claude Code, Codex, and Kimi-compatible skills for mechanically reverse-engineering PPTX files or screenshots into reusable design schemas and skeleton packs, then generating editable native-vector decks from text with optional LibreOffice and PyMuPDF render QA; the screenshot-only extractor works without scripts or network access.",
+      "sourceTypes": [
+        "Office 文档",
+        "PDF/文档",
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "中文文档",
+          "url": "https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/README_zh.md",
+          "source": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`examples/demo_deck.py`",
+          "url": "https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/examples/demo_deck.py",
+          "source": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/demo_deck.pptx`",
+          "url": "https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/examples/demo_deck.pptx",
+          "source": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "divider",
+          "url": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/examples/demo_deck_p01.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "data page",
+          "url": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/examples/demo_deck_p02.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "closing",
+          "url": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/examples/demo_deck_p03.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "SVG Infographic Skill",
+      "url": "https://github.com/MoeWang-ys/svg-infographic",
+      "primaryUrl": "https://github.com/MoeWang-ys/svg-infographic",
+      "homepage": null,
+      "category": "infographic-report",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-30",
+      "note": "Local Agent Skill for writing compact editable SVG infographics, architecture diagrams, flowcharts, comparison graphics, and README visuals with exact multilingual text, plus Chrome and Python checks for text overflow, invalid colors, blank regions, pixel coverage, and PNG export; it requires no image model, API key, per-image fee, or GPU.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Skill specification",
+          "url": "https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Rendering and validation rules",
+          "url": "https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/RULES.md",
+          "source": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Chinese SVG infographic example",
+          "url": "https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/assets/hero.svg",
+          "source": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "English SVG infographic example",
+          "url": "https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/assets/hero-en.svg",
+          "source": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Chinese SVG infographic preview",
+          "url": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/assets/hero.svg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "English SVG infographic preview",
+          "url": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/assets/hero-en.svg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 2,
+      "effectAssetsCount": 2
+    },
+    {
+      "name": "Awesome AI Motion",
+      "url": "https://github.com/gongnyang/awesome-ai-motion",
+      "primaryUrl": "https://github.com/gongnyang/awesome-ai-motion",
+      "homepage": "https://gongnyang.github.io/awesome-ai-motion/",
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 41,
+      "license": "MIT",
+      "updated": "2026-10-01",
+      "note": "Bilingual motion field guide and Agent Skill with 637 techniques, 128 rendered reference clips, eleven recipes, seven design routes, canonical JSON metadata, and a comparison website for choosing and adapting motion in videos, infographics, and scroll decks; browsing is dependency-free, while local rendering uses optional Node.js, Chromium, Playwright, and ffmpeg.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "Awesome/索引"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面",
+        "信息图/视觉报告"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "full catalog",
+          "url": "https://github.com/gongnyang/awesome-ai-motion/blob/HEAD/docs/catalog.md",
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Decision tables",
+          "url": "https://github.com/gongnyang/awesome-ai-motion/blob/HEAD/references/decision-tables.md",
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "Interactive motion catalog",
+          "url": "https://gongnyang.github.io/awesome-ai-motion/",
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "Rendered effect library",
+          "url": "https://github.com/gongnyang/awesome-ai-motion/tree/HEAD/effects",
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Motion recipes",
+          "url": "https://github.com/gongnyang/awesome-ai-motion/tree/HEAD/recipes",
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Infinite Canvas Pan",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/infinite-pan/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Camera Fly-through",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/camera-flythrough/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Infinite Zoom",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/infinite-zoom/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Deep Multi-layer Parallax",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/deep-parallax/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Kinetic Type Sweep",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/kinetic-type-sweep/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Giant Mask Reveal",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/giant-mask-reveal/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Particle Scatter & Assemble",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/particle-assemble/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Morph Match Cut",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/morph-match-cut/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "3D Card Flip Stack",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/card-flip-stack/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Perspective Tilt Reveal",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/perspective-tilt/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Shader Directional Warp Wipe",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/shader-wipe/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "Noise Dissolve Transition",
+          "url": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/noise-dissolve/preview.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 3,
+      "effectAssetsCount": 12
+    },
+    {
+      "name": "Voice Film Skill",
+      "url": "https://github.com/artkruglov/voice-film",
+      "primaryUrl": "https://github.com/artkruglov/voice-film",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updated": "2026-09-30",
+      "note": "Claude Code skill that turns research, reports, or product stories into one-to-four-minute voice-led explainer films with verified AI narration, music, measured captions, code-rendered charts and screenshots, 16:9 and 9:16 MP4s, contact sheets, and self-contained web pages; OpenRouter is required for voice, music, transcription, and vision review, while rendering runs locally through Remotion and ffmpeg.",
+      "sourceTypes": [
+        "论文/科研资料",
+        "PDF/文档",
+        "文本/想法",
+        "数据/表格",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Voice Film skill workflow",
+          "url": "https://github.com/artkruglov/voice-film/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Remotion explainer-film template",
+          "url": "https://github.com/artkruglov/voice-film/tree/HEAD/template",
+          "source": "https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Explainer Video Skill by rohithgoud30",
+      "url": "https://github.com/rohithgoud30/explainer-video",
+      "primaryUrl": "https://github.com/rohithgoud30/explainer-video",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "外部检索/数据源",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-09-29",
+      "note": "Agent Skill for researching a topic and rendering narrated, captioned explainer videos from a JSON slide script on the user's machine, using offline open-weight Kokoro speech when available, Edge TTS as a network fallback, Chromium for slides, and ffmpeg for assembly; no paid model API key is required and the first run downloads its runtime assets.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Explainer video skill workflow",
+          "url": "https://github.com/rohithgoud30/explainer-video/blob/HEAD/skills/explainer-video/SKILL.md",
+          "source": "https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "`example.json`",
+          "url": "https://github.com/rohithgoud30/explainer-video/blob/HEAD/skills/explainer-video/example.json",
+          "source": "https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "skillbench by fielding",
+      "url": "https://github.com/fielding/skillbench",
+      "primaryUrl": "https://github.com/fielding/skillbench",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "模型 API",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "存储/索引"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-09-30",
+      "note": "Append-only skill ablation harness and dashboard around Claude plugin eval that compares with-skill and bare-model runs across models, tracks lift, headroom, invocation rate, stale fingerprints, grader evidence, history, coverage, and costs, and emits a self-contained offline HTML dashboard; optional OpenAI-compatible models run through a private ephemeral proxy whose key material can resolve from environment, 1Password, or macOS Keychain and is deleted after each run.",
+      "sourceTypes": [
+        "数据/表格",
+        "代码库",
+        "代码/技术描述",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "网页/交互页面",
+        "报告/长文档",
+        "结构化数据/Markdown",
+        "证据表"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/eval-audit.md",
+          "url": "https://github.com/fielding/skillbench/blob/HEAD/docs/eval-audit.md",
+          "source": "https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "skillbench dashboard: a lift matrix of skills by model, with a detail panel for one cell",
+          "url": "https://raw.githubusercontent.com/fielding/skillbench/HEAD/docs/dashboard.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 0,
+      "effectAssetsCount": 1
     }
   ]
 }

@@ -1,4 +1,4 @@
-generated_at: '2026-09-29T07:08:50+00:00'
+generated_at: '2026-10-01T07:05:49+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 863
-  fetched_sources_ok: 1151
+  entries: 871
+  fetched_sources_ok: 1160
   fetched_sources_failed: 60
-  official_examples: 1817
-  official_effect_assets: 2258
-  official_docs: 2101
+  official_examples: 1846
+  official_effect_assets: 2286
+  official_docs: 2122
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -67290,3 +67290,765 @@ entries:
   official_examples:
     - *a8
   official_effect_assets: []
+- name: Cicero's Hoard
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Luissalet/CiceroHoard
+  dependencies:
+    - MCP Client
+    - 本地语言环境
+    - 模型 API
+    - 文档解析/OCR
+    - 系统工具
+    - 渲染/导出
+    - 存储/索引
+    - 模板/素材
+  catalog_note: Local presentation workspace and MCP server that turns briefs plus TXT, Markdown, PDF, DOCX, or PPTX
+    sources into reviewed editable decks with citations, speaker notes, native charts, revision history, source-number
+    checks, and PPTX, PDF, self-contained HTML, or Markdown exports; documents remain local and only numbered excerpts
+    reach the configured model, with a rule-based fallback when no model is available.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/Luissalet/CiceroHoard/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/Luissalet/CiceroHoard/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Cicero's Hoard
+      bytes: 11087
+  official_docs:
+    - kind: docs
+      title: REST API documentation
+      url: https://github.com/Luissalet/CiceroHoard/blob/HEAD/docs/API.md
+      source: https://raw.githubusercontent.com/Luissalet/CiceroHoard/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: REST API documentation
+      url: https://github.com/Luissalet/CiceroHoard/blob/HEAD/docs/API.md
+      source: https://raw.githubusercontent.com/Luissalet/CiceroHoard/HEAD/README.md
+- name: Doc and Deck Skills
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/hijigoo/doc-and-deck-skills
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 文档解析/OCR
+    - 外部检索/数据源
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Ten standalone agent skills spanning topic or Markdown to self-contained HTML, Markdown to editable PPTX,
+    HTML to PPTX, and source-preserving PPTX to HTML, with forty Deep Navy and White Cobalt layouts, speaker scripts,
+    offline single-file delivery, and checked sample decks, PDFs, screenshots, and source records.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: doc-and-deck-skills
+      bytes: 27196
+  official_examples:
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-md-to-html/foundry.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-md-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-topic-to-html/topic.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-topic-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-md-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-md-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-html-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-html-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-pptx-to-html/index.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-pptx-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-md-to-html/foundry.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-md-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-topic-to-html/topic.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-topic-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-md-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-md-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-html-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-html-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-pptx-to-html/index.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-pptx-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Deep Navy 전체 20종 갤러리
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-html/deck.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: White Cobalt 전체 20종 갤러리
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-html/deck.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-md-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-topic-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-topic-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-md-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-html-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-html-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-pptx-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-pptx-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-md-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-topic-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-topic-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-md-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-html-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-html-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-pptx-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-pptx-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: "Deep Navy Foundry 20종: 표지부터 구성도, 데이터 흐름, 시퀀스, 차트, 코드 해설과 마무리까지"
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-md-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: "White Cobalt Foundry 20종: 각진 블록, 비교표, 경계도, 차트와 코드 해설"
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-md-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: Deep Navy 20종 디자인을 편집 가능한 기본 객체와 복합 다이어그램 이미지로 옮긴 정적 PowerPoint
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-md-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-topic-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-html-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/deep-navy-pptx-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-topic-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-md-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-html-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: image
+      title: 20장
+      url: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/samples/previews/white-cobalt-pptx-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: Deep Navy 전체 20종 갤러리
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-html/deck.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: White Cobalt 전체 20종 갤러리
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-html/deck.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-md-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-md-to-html/foundry.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-md-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-topic-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-topic-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-topic-to-html/topic.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-topic-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-md-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-md-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-md-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-md-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-html-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-html-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-html-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-html-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: deep-navy-pptx-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/deep-navy-pptx-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/deep-navy-pptx-to-html/index.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/deep-navy-pptx-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-md-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-md-to-html/foundry.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-md-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-topic-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-topic-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-topic-to-html/topic.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-topic-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-md-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-md-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-md-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-md-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-html-to-pptx
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-html-to-pptx/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: PPTX
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-html-to-pptx/foundry.pptx
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-html-to-pptx/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: docs
+      title: white-cobalt-pptx-to-html
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/skills/white-cobalt-pptx-to-html/SKILL.md
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: HTML
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/white-cobalt-pptx-to-html/index.html
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 20장
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/previews/white-cobalt-pptx-to-html/overview.png
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: samples/scripts/build.cjs
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/scripts/build.cjs
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+    - kind: example
+      title: 동봉 폰트
+      url: https://github.com/hijigoo/doc-and-deck-skills/blob/HEAD/samples/assets/fonts/
+      source: https://raw.githubusercontent.com/hijigoo/doc-and-deck-skills/HEAD/README.md
+- name: PPT Skills by xu-jin-cs
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/xu-jin-cs/ppt-skills
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 文档解析/OCR
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Three Claude Code, Codex, and Kimi-compatible skills for mechanically reverse-engineering PPTX files or
+    screenshots into reusable design schemas and skeleton packs, then generating editable native-vector decks from text
+    with optional LibreOffice and PyMuPDF render QA; the screenshot-only extractor works without scripts or network
+    access.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: ppt-skills
+      bytes: 3800
+  official_examples:
+    - kind: example
+      title: "`examples/demo_deck.py`"
+      url: https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/examples/demo_deck.py
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+    - kind: example
+      title: "`examples/demo_deck.pptx`"
+      url: https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/examples/demo_deck.pptx
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: 中文文档
+      url: https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/README_zh.md
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: divider
+      url: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/examples/demo_deck_p01.png
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+    - kind: image
+      title: data page
+      url: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/examples/demo_deck_p02.png
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+    - kind: image
+      title: closing
+      url: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/examples/demo_deck_p03.png
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: 中文文档
+      url: https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/README_zh.md
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+    - kind: example
+      title: "`examples/demo_deck.py`"
+      url: https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/examples/demo_deck.py
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+    - kind: example
+      title: "`examples/demo_deck.pptx`"
+      url: https://github.com/xu-jin-cs/ppt-skills/blob/HEAD/examples/demo_deck.pptx
+      source: https://raw.githubusercontent.com/xu-jin-cs/ppt-skills/HEAD/README.md
+  source_headings:
+    - Quickstart
+    - Usage
+    - 1. Forge a reusable skeleton pack from a sample deck
+    - or replicate an existing template's style first, then generate
+    - Examples
+- name: SVG Infographic Skill
+  category: infographic-report
+  surface: skill
+  primary_url: https://github.com/MoeWang-ys/svg-infographic
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Local Agent Skill for writing compact editable SVG infographics, architecture diagrams, flowcharts,
+    comparison graphics, and README visuals with exact multilingual text, plus Chrome and Python checks for text
+    overflow, invalid colors, blank regions, pixel coverage, and PNG export; it requires no image model, API key,
+    per-image fee, or GPU.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: SVG Infographic
+      bytes: 3920
+  official_examples:
+    - kind: example
+      title: Chinese SVG infographic example
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/assets/hero.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: example
+      title: English SVG infographic example
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/assets/hero-en.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+  official_links:
+    - kind: example
+      title: Chinese SVG infographic example
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/assets/hero.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: example
+      title: English SVG infographic example
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/assets/hero-en.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: image
+      title: Chinese SVG infographic preview
+      url: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/assets/hero.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: image
+      title: English SVG infographic preview
+      url: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/assets/hero-en.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: docs
+      title: Skill specification
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: docs
+      title: Rendering and validation rules
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/RULES.md
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: Chinese SVG infographic preview
+      url: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/assets/hero.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: image
+      title: English SVG infographic preview
+      url: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/assets/hero-en.svg
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Skill specification
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+    - kind: docs
+      title: Rendering and validation rules
+      url: https://github.com/MoeWang-ys/svg-infographic/blob/HEAD/RULES.md
+      source: https://raw.githubusercontent.com/MoeWang-ys/svg-infographic/HEAD/README.md
+- name: Awesome AI Motion
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/gongnyang/awesome-ai-motion
+  homepage: https://gongnyang.github.io/awesome-ai-motion/
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Bilingual motion field guide and Agent Skill with 637 techniques, 128 rendered reference clips, eleven
+    recipes, seven design routes, canonical JSON metadata, and a comparison website for choosing and adapting motion in
+    videos, infographics, and scroll decks; browsing is dependency-free, while local rendering uses optional Node.js,
+    Chromium, Playwright, and ffmpeg.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Quick start
+      bytes: 10907
+    - kind: homepage
+      url: https://gongnyang.github.io/awesome-ai-motion/
+      final_url: https://gongnyang.github.io/awesome-ai-motion/
+      status: 200
+      content_type: text/html
+      title: Awesome AI Motion
+      bytes: 278
+  official_docs:
+    - kind: docs
+      title: full catalog
+      url: https://github.com/gongnyang/awesome-ai-motion/blob/HEAD/docs/catalog.md
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: docs
+      title: Decision tables
+      url: https://github.com/gongnyang/awesome-ai-motion/blob/HEAD/references/decision-tables.md
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+  official_effect_assets:
+    - kind: gif
+      title: Infinite Canvas Pan
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/infinite-pan/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Camera Fly-through
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/camera-flythrough/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Infinite Zoom
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/infinite-zoom/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Deep Multi-layer Parallax
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/deep-parallax/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Kinetic Type Sweep
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/kinetic-type-sweep/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Giant Mask Reveal
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/giant-mask-reveal/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Particle Scatter & Assemble
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/particle-assemble/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Morph Match Cut
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/morph-match-cut/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: 3D Card Flip Stack
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/card-flip-stack/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Perspective Tilt Reveal
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/perspective-tilt/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Shader Directional Warp Wipe
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/shader-wipe/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: gif
+      title: Noise Dissolve Transition
+      url: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/effects/noise-dissolve/preview.gif
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: full catalog
+      url: https://github.com/gongnyang/awesome-ai-motion/blob/HEAD/docs/catalog.md
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: docs
+      title: Decision tables
+      url: https://github.com/gongnyang/awesome-ai-motion/blob/HEAD/references/decision-tables.md
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: showcase
+      title: Interactive motion catalog
+      url: https://gongnyang.github.io/awesome-ai-motion/
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: showcase
+      title: Rendered effect library
+      url: https://github.com/gongnyang/awesome-ai-motion/tree/HEAD/effects
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: example
+      title: Motion recipes
+      url: https://github.com/gongnyang/awesome-ai-motion/tree/HEAD/recipes
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+  official_examples:
+    - kind: showcase
+      title: Interactive motion catalog
+      url: https://gongnyang.github.io/awesome-ai-motion/
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: showcase
+      title: Rendered effect library
+      url: https://github.com/gongnyang/awesome-ai-motion/tree/HEAD/effects
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+    - kind: example
+      title: Motion recipes
+      url: https://github.com/gongnyang/awesome-ai-motion/tree/HEAD/recipes
+      source: https://raw.githubusercontent.com/gongnyang/awesome-ai-motion/HEAD/README.md
+- name: Voice Film Skill
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/artkruglov/voice-film
+  dependencies:
+    - Agent 宿主
+    - 模型 API
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Claude Code skill that turns research, reports, or product stories into one-to-four-minute voice-led
+    explainer films with verified AI narration, music, measured captions, code-rendered charts and screenshots, 16:9 and
+    9:16 MP4s, contact sheets, and self-contained web pages; OpenRouter is required for voice, music, transcription, and
+    vision review, while rendering runs locally through Remotion and ffmpeg.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: voice-film
+      bytes: 3458
+  official_examples:
+    - kind: template
+      title: Remotion explainer-film template
+      url: https://github.com/artkruglov/voice-film/tree/HEAD/template
+      source: https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md
+  official_links:
+    - kind: template
+      title: Remotion explainer-film template
+      url: https://github.com/artkruglov/voice-film/tree/HEAD/template
+      source: https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md
+    - kind: docs
+      title: Voice Film skill workflow
+      url: https://github.com/artkruglov/voice-film/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md
+  official_effect_assets: []
+  official_docs:
+    - kind: docs
+      title: Voice Film skill workflow
+      url: https://github.com/artkruglov/voice-film/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/artkruglov/voice-film/HEAD/README.md
+- name: Explainer Video Skill by rohithgoud30
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/rohithgoud30/explainer-video
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 外部检索/数据源
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill for researching a topic and rendering narrated, captioned explainer videos from a JSON slide
+    script on the user's machine, using offline open-weight Kokoro speech when available, Edge TTS as a network
+    fallback, Chromium for slides, and ffmpeg for assembly; no paid model API key is required and the first run
+    downloads its runtime assets.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: explainer-video
+      bytes: 1721
+  official_examples:
+    - kind: example
+      title: "`example.json`"
+      url: https://github.com/rohithgoud30/explainer-video/blob/HEAD/skills/explainer-video/example.json
+      source: https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md
+  official_links:
+    - kind: example
+      title: "`example.json`"
+      url: https://github.com/rohithgoud30/explainer-video/blob/HEAD/skills/explainer-video/example.json
+      source: https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md
+    - kind: docs
+      title: Explainer video skill workflow
+      url: https://github.com/rohithgoud30/explainer-video/blob/HEAD/skills/explainer-video/SKILL.md
+      source: https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md
+  source_headings:
+    - explainer-video
+  official_effect_assets: []
+  official_docs:
+    - kind: docs
+      title: Explainer video skill workflow
+      url: https://github.com/rohithgoud30/explainer-video/blob/HEAD/skills/explainer-video/SKILL.md
+      source: https://raw.githubusercontent.com/rohithgoud30/explainer-video/HEAD/README.md
+- name: skillbench by fielding
+  category: data-dashboard
+  surface: open-source
+  primary_url: https://github.com/fielding/skillbench
+  dependencies:
+    - Agent 宿主
+    - 浏览器/账号
+    - 模型 API
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 存储/索引
+  catalog_note: Append-only skill ablation harness and dashboard around Claude plugin eval that compares with-skill and
+    bare-model runs across models, tracks lift, headroom, invocation rate, stale fingerprints, grader evidence, history,
+    coverage, and costs, and emits a self-contained offline HTML dashboard; optional OpenAI-compatible models run
+    through a private ephemeral proxy whose key material can resolve from environment, 1Password, or macOS Keychain and
+    is deleted after each run.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: skillbench
+      bytes: 12486
+  official_docs:
+    - kind: docs
+      title: docs/eval-audit.md
+      url: https://github.com/fielding/skillbench/blob/HEAD/docs/eval-audit.md
+      source: https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: "skillbench dashboard: a lift matrix of skills by model, with a detail panel for one cell"
+      url: https://raw.githubusercontent.com/fielding/skillbench/HEAD/docs/dashboard.png
+      source: https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: docs/eval-audit.md
+      url: https://github.com/fielding/skillbench/blob/HEAD/docs/eval-audit.md
+      source: https://raw.githubusercontent.com/fielding/skillbench/HEAD/README.md
+  source_headings:
+    - Dashboard
+  official_examples: []

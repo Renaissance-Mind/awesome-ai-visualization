@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-09-29.
+Last researched: 2026-10-01.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-01: refreshed source-backed local presentation workspaces, multi-format document and deck skills, PPTX design reverse engineering, exact-text SVG infographic generation, motion-reference catalogs, research-to-explainer-film workflows, offline narrated video generation, and agent-skill evaluation dashboards from official GitHub repositories, project pages, README evidence, live web/GitHub searches, and current GitHub metadata. This pass added Cicero's Hoard, Doc and Deck Skills, PPT Skills by xu-jin-cs, SVG Infographic Skill, Awesome AI Motion, Voice Film Skill, Explainer Video Skill by rohithgoud30, and skillbench by fielding. The targeted scraper ran only against these eight records, fetched nine official sources successfully with no failed fetches, and kept twenty-nine official examples, twenty-eight artifact preview assets, and twenty-one project-relevant docs links after removing cross-project credits, dependency documentation, and a third-party notice from example surfaces and reclassifying workflow specifications as docs.
 
 Update on 2026-09-29: refreshed source-backed hosted PowerPoint MCP generation, SAP-aware draw.io architecture diagrams, offline HTML presentation skills, evidence-traceable research decks, PDF/web-to-mind-map conversion, reproducible data-report dashboards, and animated Manim presentations from official GitHub repositories, project pages, README evidence, live web/GitHub searches, and current GitHub metadata. This pass added Plus AI MCP, ARC-DRAW, html-slides by 32Lwk, Consulting HTML PPT Skill, Research2Slides, mindlm-mcp, Report Agent by Ivan2330, and Manim Slide Decks Skill. The targeted scraper ran only against these eight records, fetched eleven official sources successfully with no failed fetches, and kept fifty-six official examples, twenty-seven artifact preview assets, and twenty-one project-relevant docs links after removing a placeholder mind-map GIF, a generic environment-example link, generic Claude documentation, a sales-contact link, a generic video channel, and brand-only Plus AI media.
 
