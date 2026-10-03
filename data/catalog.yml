@@ -1,4 +1,4 @@
-last_researched: '2026-10-01'
+last_researched: '2026-10-03'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -22938,3 +22938,262 @@ entries:
   - 证据表
   catalog_section: main
   readme_group: data
+- name: Interactive Workflow Skill
+  url: https://github.com/abualnassr/interactive-workflow
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-02'
+  note: Agent Skill that converts process descriptions or Mermaid flows into self-contained clickable HTML workflow diagrams
+    with accountable-owner context, search, deep links, four themes, keyboard access, whole-chain tracing, and PNG exports for
+    slides; finished pages work offline, while optional Playwright and Chromium run collision, clipping, routing, and console
+    audits before delivery.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: PPT Art Director
+  url: https://github.com/ChihyunAhn0309/ppt-art-director
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 外部检索/数据源
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-02'
+  note: Research-presentation Agent Skill that searches and inspects current editable templates, plans exact slide copy,
+    evidence, notes, timing, and motion, adapts the selected design into bilingual editable PowerPoint, and validates palettes,
+    package structure, checksums, render quality, and animation plans; it uses the host's authoring tools, and native animation
+    application requires Windows PowerPoint.
+  source_types:
+  - 论文/科研资料
+  - PDF/文档
+  - Office 文档
+  - 网页/搜索结果
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: main
+  readme_group: presentation
+- name: Cue Presentation Framework
+  url: https://github.com/asxi9832/cue
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  stars: 0
+  license: AGPL-3.0
+  updated: '2026-10-03'
+  note: Open-source presentation player and agent-oriented cartridge framework for self-contained HTML decks, with a typed
+    cartridge specification, presenter notes, rehearsal timing, clicker controls, offline installable playback, and optional
+    phone or tablet remotes through a Supabase relay; local presenter mode works without the relay or an internet connection.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  catalog_section: main
+  readme_group: presentation
+- name: deckforge by lrivallain
+  url: https://github.com/lrivallain/deckforge
+  homepage: https://deckforge.vuptime.io/
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-02'
+  note: Themeable typed-slide framework with a visual editor, embedded GitHub Copilot agent, MCP tools, per-turn undo and
+    audit logs, four themes, thirty-two templates, data charts, technical-deck starters, speaker notes, static HTML and editable
+    PPTX export; inline builds can run and share offline with network checks, note stripping, source tracking, and deck diffs.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Code Flow Report
+  url: https://github.com/JinhoKim46/code-flow-report
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-10-03'
+  note: Claude Code skill that statically maps Python applications and AWS CDK infrastructure into a single offline interactive
+    HTML report with call-graph exploration, user journeys, boundaries, model roles, UI triggers, data lifecycles, architecture
+    layers, findings, and staleness checks; extraction and rendering use standard-library Python without running the target code
+    or making network calls.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 数据库
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 报告/长文档
+  - 网页/交互页面
+  - 架构图/流程图
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: Transcript per Slide
+  url: https://github.com/RuiquanQiao/transcript-per-slide
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 文档解析/OCR
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 0
+  license: MIT
+  updated: '2026-10-02'
+  note: Agent Skill that pairs lecture slide PDFs with TXT, VTT, SRT, or Whisper transcripts, assigns spoken segments to each
+    slide, cleans them into lecturer-voice notes, flags assessed actions and deadlines, and builds persistent Markdown study
+    packs with slide images, saved tutoring answers, and checked explanatory figures; local scripts validate coverage, order,
+    missing notes, and cut-off recordings.
+  source_types:
+  - PDF/文档
+  - Office 文档
+  - 文本/想法
+  - 知识库/个人资料
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 问答/学习材料
+  - 结构化数据/Markdown
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: docs
+- name: Video Kit by WorthingtonCloud
+  url: https://github.com/WorthingtonCloud/video-kit
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-02'
+  note: Two Claude Code skills on one local engine for narrated explainers and beat-cut promo reels, with code-drawn scenes,
+    word-timed animation, frame and audio QA, optional voice, music, image, and video APIs behind cost gates, reusable assets,
+    and a local Review Studio that captures pinpoint feedback, side-by-side options, mix decisions, approved exports, and
+    learned preferences.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: video
+- name: Tutorial Video Skill
+  url: https://github.com/speechlab0210/tutorial-video-skill
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-03'
+  note: General Agent Skill for planning, producing, reviewing, and revising editable course videos across subjects, coordinating
+    evidence, learning progression, diagrams, slides, notes, narration, captions, timing, accessibility, and delivery; local
+    dependency-free helpers validate plans, captions, hashes, scene order, and audio-video sync, while optional ffmpeg assembly
+    creates H.264/AAC videos without network calls.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - Office 文档
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - PPT/演示文稿
+  - 报告/长文档
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: video

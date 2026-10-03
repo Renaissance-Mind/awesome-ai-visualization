@@ -1,4 +1,4 @@
-generated_at: '2026-10-01T07:05:49+00:00'
+generated_at: '2026-10-03T07:06:46+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 871
-  fetched_sources_ok: 1160
+  entries: 879
+  fetched_sources_ok: 1169
   fetched_sources_failed: 60
-  official_examples: 1846
-  official_effect_assets: 2286
-  official_docs: 2122
+  official_examples: 1880
+  official_effect_assets: 2299
+  official_docs: 2165
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -68052,3 +68052,929 @@ entries:
   source_headings:
     - Dashboard
   official_examples: []
+- name: Interactive Workflow Skill
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/abualnassr/interactive-workflow
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill that converts process descriptions or Mermaid flows into self-contained clickable HTML
+    workflow diagrams with accountable-owner context, search, deep links, four themes, keyboard access, whole-chain
+    tracing, and PNG exports for slides; finished pages work offline, while optional Playwright and Chromium run
+    collision, clipping, routing, and console audits before delivery.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: interactive-workflow
+      bytes: 7507
+  official_examples:
+    - kind: demo
+      title: download the full-resolution MP4
+      url: https://github.com/abualnassr/interactive-workflow/raw/main/docs/demo.mp4
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: example
+      title: Purchase request workflow
+      url: https://github.com/abualnassr/interactive-workflow/blob/HEAD/examples/purchase-request-to-payment.html
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: example
+      title: Incident improvement workflow
+      url: https://github.com/abualnassr/interactive-workflow/blob/HEAD/examples/incident-to-improvement.html
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+  official_effect_assets:
+    - kind: gif
+      title: Animated walk-through of an interactive workflow
+      url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/docs/demo.gif
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: image
+      title: Purchase request to payment, Ocean theme, card selected
+      url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/examples/purchase-request-to-payment%20-%20ocean.png
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: image
+      title: Purchase request to payment, Forest theme
+      url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/examples/purchase-request-to-payment%20-%20forest.png
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: image
+      title: Incident to improvement, Graphite theme
+      url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/examples/incident-to-improvement%20-%20graphite.png
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: image
+      title: Incident to improvement, Ember theme
+      url: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/examples/incident-to-improvement%20-%20ember.png
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+  official_links:
+    - kind: demo
+      title: download the full-resolution MP4
+      url: https://github.com/abualnassr/interactive-workflow/raw/main/docs/demo.mp4
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: example
+      title: Purchase request workflow
+      url: https://github.com/abualnassr/interactive-workflow/blob/HEAD/examples/purchase-request-to-payment.html
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: example
+      title: Incident improvement workflow
+      url: https://github.com/abualnassr/interactive-workflow/blob/HEAD/examples/incident-to-improvement.html
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+    - kind: docs
+      title: Interactive workflow skill specification
+      url: https://github.com/abualnassr/interactive-workflow/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Interactive workflow skill specification
+      url: https://github.com/abualnassr/interactive-workflow/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/abualnassr/interactive-workflow/HEAD/README.md
+- name: PPT Art Director
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/ChihyunAhn0309/ppt-art-director
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 文档解析/OCR
+    - 外部检索/数据源
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Research-presentation Agent Skill that searches and inspects current editable templates, plans exact slide
+    copy, evidence, notes, timing, and motion, adapts the selected design into bilingual editable PowerPoint, and
+    validates palettes, package structure, checksums, render quality, and animation plans; it uses the host's authoring
+    tools, and native animation application requires Windows PowerPoint.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: PPT Art Director
+      bytes: 14058
+  official_examples:
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/animated.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/static.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: View
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/preview.png
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/animated-ko.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/static-ko.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: View
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/preview-ko.png
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Slide-by-slide plan
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/slide-plan.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: template
+      title: Planning template
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/assets/slide-plan-template.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: paper-figure principles
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/research-visuals.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: free tools
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/free-tools.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: motion support
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/motion.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: source ledger
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/sources.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: design reference library
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/reference-library.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Design
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/design.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Typography
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/typography.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Research talks
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/research-talks.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Production
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/production.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Quality
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/quality.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Live template search and adaptation
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/template-search.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: Five slides rendered from the English PowerPoint example
+      url: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/examples/research-seminar/preview.png
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: image
+      title: View
+      url: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/examples/research-seminar/preview-ko.png
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+  official_links:
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/animated.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/static.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: View
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/preview.png
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/animated-ko.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Download
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/static-ko.pptx
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: View
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/preview-ko.png
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: example
+      title: Slide-by-slide plan
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/examples/research-seminar/slide-plan.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: paper-figure principles
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/research-visuals.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: free tools
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/free-tools.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: motion support
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/motion.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: source ledger
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/sources.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: design reference library
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/reference-library.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: template
+      title: Planning template
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/assets/slide-plan-template.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Design
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/design.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Typography
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/typography.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Research talks
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/research-talks.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Production
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/production.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Quality
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/quality.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+    - kind: docs
+      title: Live template search and adaptation
+      url: https://github.com/ChihyunAhn0309/ppt-art-director/blob/HEAD/references/template-search.md
+      source: https://raw.githubusercontent.com/ChihyunAhn0309/ppt-art-director/HEAD/README.md
+  source_headings:
+    - Search templates for the current brief
+    - Original research example
+    - Usage
+- name: Cue Presentation Framework
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/asxi9832/cue
+  dependencies:
+    - 浏览器/账号
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 存储/索引
+    - 模板/素材
+  catalog_note: Open-source presentation player and agent-oriented cartridge framework for self-contained HTML decks, with
+    a typed cartridge specification, presenter notes, rehearsal timing, clicker controls, offline installable playback,
+    and optional phone or tablet remotes through a Supabase relay; local presenter mode works without the relay or an
+    internet connection.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Cue
+      bytes: 3425
+  official_examples:
+    - kind: template
+      title: Minimal Cue cartridge
+      url: https://github.com/asxi9832/cue/tree/HEAD/cartridge-kit/template
+      source: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+  official_links:
+    - kind: template
+      title: Minimal Cue cartridge
+      url: https://github.com/asxi9832/cue/tree/HEAD/cartridge-kit/template
+      source: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+    - kind: docs
+      title: Cue cartridge specification
+      url: https://github.com/asxi9832/cue/blob/HEAD/cartridge-kit/CARTRIDGE.md
+      source: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+    - kind: docs
+      title: Deployment guide
+      url: https://github.com/asxi9832/cue/blob/HEAD/docs/DEPLOY.md
+      source: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Cue cartridge specification
+      url: https://github.com/asxi9832/cue/blob/HEAD/cartridge-kit/CARTRIDGE.md
+      source: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+    - kind: docs
+      title: Deployment guide
+      url: https://github.com/asxi9832/cue/blob/HEAD/docs/DEPLOY.md
+      source: https://raw.githubusercontent.com/asxi9832/cue/HEAD/README.md
+- name: deckforge by lrivallain
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/lrivallain/deckforge
+  homepage: https://deckforge.vuptime.io/
+  dependencies:
+    - Agent 宿主
+    - MCP Client
+    - 浏览器/账号
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Themeable typed-slide framework with a visual editor, embedded GitHub Copilot agent, MCP tools, per-turn
+    undo and audit logs, four themes, thirty-two templates, data charts, technical-deck starters, speaker notes, static
+    HTML and editable PPTX export; inline builds can run and share offline with network checks, note stripping, source
+    tracking, and deck diffs.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Why deckforge
+      bytes: 5983
+    - kind: homepage
+      url: https://deckforge.vuptime.io/
+      final_url: https://deckforge.vuptime.io/
+      status: 200
+      content_type: text/html
+      title: deckforge | Agent-native presentations
+      description: "Agent-native presentations: typed slides an AI can edit safely, on the Copilot you already have. deck.yaml
+        source, live editor, static HTML and PowerPoint output."
+      bytes: 16940
+  official_examples:
+    - kind: example
+      title: "`agent-native` example"
+      url: https://github.com/lrivallain/deckforge/blob/HEAD/examples/agent-native
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: template
+      title: Themes
+      url: https://deckforge.vuptime.io/guide/themes
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: template
+      title: Templates
+      url: https://deckforge.vuptime.io/guide/templates
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: demo
+      title: Live demo
+      url: https://deckforge.vuptime.io/demo/aurora.html
+      source: https://deckforge.vuptime.io/
+    - kind: template
+      title: 📄 deck.yaml is the source Slides are data in templates with typed slots. Diffs stay readable, text is checked
+        against slot limits, and layouts stay consistent.
+      url: https://deckforge.vuptime.io/guide/writing-decks
+      source: https://deckforge.vuptime.io/
+    - kind: template
+      title: ✏️ Live editor, themes and templates Edit text in place, use a typed inspector, add images and overlays with
+        snapping. 4 themes and 32 templates, from one-idea slides to data-drive
+      url: https://deckforge.vuptime.io/guide/editor
+      source: https://deckforge.vuptime.io/
+    - kind: template
+      title: "🚀 One static file, or PowerPoint Keyboard navigation, speaker notes, a presenter window and print to PDF, with
+        no network requests by default. Technical starters share offline. Or "
+      url: https://deckforge.vuptime.io/guide/presenting
+      source: https://deckforge.vuptime.io/
+    - kind: demo
+      title: Build specimen
+      url: https://deckforge.vuptime.io/demo/starter.html
+      source: https://deckforge.vuptime.io/
+    - kind: demo
+      title: Agent-native decks
+      url: https://deckforge.vuptime.io/demo/agent-native.html
+      source: https://deckforge.vuptime.io/
+  official_docs:
+    - kind: docs
+      title: How deckforge compares
+      url: https://deckforge.vuptime.io/guide/why-deckforge
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: agent model
+      url: https://deckforge.vuptime.io/guide/agent-model
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Getting started
+      url: https://deckforge.vuptime.io/guide/getting-started
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Write a deck
+      url: https://deckforge.vuptime.io/guide/writing-decks
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Editor
+      url: https://deckforge.vuptime.io/guide/editor
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Copilot
+      url: https://deckforge.vuptime.io/guide/copilot
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Present and share
+      url: https://deckforge.vuptime.io/guide/presenting
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Technical decks
+      url: https://deckforge.vuptime.io/guide/technical-decks
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Share offline
+      url: https://deckforge.vuptime.io/guide/offline
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Git and CI
+      url: https://deckforge.vuptime.io/guide/git-ci
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Copilot skill
+      url: https://deckforge.vuptime.io/guide/copilot-skill
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Reference
+      url: https://deckforge.vuptime.io/reference/cli
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+  official_effect_assets:
+    - kind: gif
+      title: "A whole-deck request to Copilot: three slides highlighted and listed in the turn summary, then one click on Undo
+        these changes restores them"
+      url: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/docs/public/screenshots/agent-turn.gif
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: image
+      title: The deckforge editor
+      url: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/docs/public/screenshots/editor.png
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: How deckforge compares
+      url: https://deckforge.vuptime.io/guide/why-deckforge
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: agent model
+      url: https://deckforge.vuptime.io/guide/agent-model
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: example
+      title: "`agent-native` example"
+      url: https://github.com/lrivallain/deckforge/blob/HEAD/examples/agent-native
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Getting started
+      url: https://deckforge.vuptime.io/guide/getting-started
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Write a deck
+      url: https://deckforge.vuptime.io/guide/writing-decks
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: template
+      title: Themes
+      url: https://deckforge.vuptime.io/guide/themes
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: template
+      title: Templates
+      url: https://deckforge.vuptime.io/guide/templates
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Editor
+      url: https://deckforge.vuptime.io/guide/editor
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Copilot
+      url: https://deckforge.vuptime.io/guide/copilot
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Present and share
+      url: https://deckforge.vuptime.io/guide/presenting
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Technical decks
+      url: https://deckforge.vuptime.io/guide/technical-decks
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Share offline
+      url: https://deckforge.vuptime.io/guide/offline
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Git and CI
+      url: https://deckforge.vuptime.io/guide/git-ci
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Copilot skill
+      url: https://deckforge.vuptime.io/guide/copilot-skill
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: docs
+      title: Reference
+      url: https://deckforge.vuptime.io/reference/cli
+      source: https://raw.githubusercontent.com/lrivallain/deckforge/HEAD/README.md
+    - kind: demo
+      title: Live demo
+      url: https://deckforge.vuptime.io/demo/aurora.html
+      source: https://deckforge.vuptime.io/
+    - kind: template
+      title: 📄 deck.yaml is the source Slides are data in templates with typed slots. Diffs stay readable, text is checked
+        against slot limits, and layouts stay consistent.
+      url: https://deckforge.vuptime.io/guide/writing-decks
+      source: https://deckforge.vuptime.io/
+    - kind: template
+      title: ✏️ Live editor, themes and templates Edit text in place, use a typed inspector, add images and overlays with
+        snapping. 4 themes and 32 templates, from one-idea slides to data-drive
+      url: https://deckforge.vuptime.io/guide/editor
+      source: https://deckforge.vuptime.io/
+    - kind: template
+      title: "🚀 One static file, or PowerPoint Keyboard navigation, speaker notes, a presenter window and print to PDF, with
+        no network requests by default. Technical starters share offline. Or "
+      url: https://deckforge.vuptime.io/guide/presenting
+      source: https://deckforge.vuptime.io/
+    - kind: demo
+      title: Build specimen
+      url: https://deckforge.vuptime.io/demo/starter.html
+      source: https://deckforge.vuptime.io/
+    - kind: demo
+      title: Agent-native decks
+      url: https://deckforge.vuptime.io/demo/agent-native.html
+      source: https://deckforge.vuptime.io/
+  source_headings:
+    - Documentation
+- name: Code Flow Report
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/JinhoKim46/code-flow-report
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 代码分析工具
+    - 渲染/导出
+    - 存储/索引
+  catalog_note: Claude Code skill that statically maps Python applications and AWS CDK infrastructure into a single
+    offline interactive HTML report with call-graph exploration, user journeys, boundaries, model roles, UI triggers,
+    data lifecycles, architecture layers, findings, and staleness checks; extraction and rendering use standard-library
+    Python without running the target code or making network calls.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: code-flow-report
+      bytes: 20416
+  official_examples:
+    - kind: example
+      title: examples/smolagents
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/smolagents
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/open-notebook
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/open-notebook
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/nanochat
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/nanochat
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/aws-genai-llm-chatbot
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/aws-genai-llm-chatbot
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: "`examples/demo-shop`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/demo-shop
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: report
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/demo-shop/docs/code-flow/code-flow-report.html
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: "`references/config.md`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/skills/code-flow-report/references/config.md
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: docs
+      title: "`references/profiles.md`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/skills/code-flow-report/references/profiles.md
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: docs
+      title: "`docs/validation-2026-10.md`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/docs/validation-2026-10.md
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: "The smolagents report: the agents module selected, everything not connected to it fades; the layer rules below
+        are re-checked on every build"
+      url: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/docs/screenshot-structure.png
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: image
+      title: "A journey from the smolagents report: CodeAgent.run, call by call, from the task to the executed code and the
+        final answer"
+      url: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/docs/screenshot-journey.png
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: "`references/config.md`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/skills/code-flow-report/references/config.md
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: docs
+      title: "`references/profiles.md`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/skills/code-flow-report/references/profiles.md
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/smolagents
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/smolagents
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/open-notebook
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/open-notebook
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/nanochat
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/nanochat
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: examples/aws-genai-llm-chatbot
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/aws-genai-llm-chatbot
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: "`examples/demo-shop`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/demo-shop
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: example
+      title: report
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/examples/demo-shop/docs/code-flow/code-flow-report.html
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+    - kind: docs
+      title: "`docs/validation-2026-10.md`"
+      url: https://github.com/JinhoKim46/code-flow-report/blob/HEAD/docs/validation-2026-10.md
+      source: https://raw.githubusercontent.com/JinhoKim46/code-flow-report/HEAD/README.md
+  source_headings:
+    - Examples
+- name: Transcript per Slide
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/RuiquanQiao/transcript-per-slide
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 文档解析/OCR
+    - 系统工具
+    - 渲染/导出
+    - 存储/索引
+  catalog_note: Agent Skill that pairs lecture slide PDFs with TXT, VTT, SRT, or Whisper transcripts, assigns spoken
+    segments to each slide, cleans them into lecturer-voice notes, flags assessed actions and deadlines, and builds
+    persistent Markdown study packs with slide images, saved tutoring answers, and checked explanatory figures; local
+    scripts validate coverage, order, missing notes, and cut-off recordings.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: transcript-per-slide
+      bytes: 5613
+  official_examples:
+    - kind: example
+      title: a complete example pack
+      url: https://github.com/RuiquanQiao/transcript-per-slide/blob/HEAD/examples/demo/study/w2-binary-search/pack.md
+      source: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+  official_links:
+    - kind: example
+      title: a complete example pack
+      url: https://github.com/RuiquanQiao/transcript-per-slide/blob/HEAD/examples/demo/study/w2-binary-search/pack.md
+      source: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+    - kind: docs
+      title: Transcript per Slide skill workflow
+      url: https://github.com/RuiquanQiao/transcript-per-slide/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+    - kind: docs
+      title: Configuration example
+      url: https://github.com/RuiquanQiao/transcript-per-slide/blob/HEAD/assets/transcript-per-slide.example.toml
+      source: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+  source_headings:
+    - transcript-per-slide
+  official_effect_assets: []
+  official_docs:
+    - kind: docs
+      title: Transcript per Slide skill workflow
+      url: https://github.com/RuiquanQiao/transcript-per-slide/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+    - kind: docs
+      title: Configuration example
+      url: https://github.com/RuiquanQiao/transcript-per-slide/blob/HEAD/assets/transcript-per-slide.example.toml
+      source: https://raw.githubusercontent.com/RuiquanQiao/transcript-per-slide/HEAD/README.md
+- name: Video Kit by WorthingtonCloud
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/WorthingtonCloud/video-kit
+  dependencies:
+    - Agent 宿主
+    - 浏览器/账号
+    - 模型 API
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 存储/索引
+    - 模板/素材
+  catalog_note: Two Claude Code skills on one local engine for narrated explainers and beat-cut promo reels, with
+    code-drawn scenes, word-timed animation, frame and audio QA, optional voice, music, image, and video APIs behind
+    cost gates, reusable assets, and a local Review Studio that captures pinpoint feedback, side-by-side options, mix
+    decisions, approved exports, and learned preferences.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: video-kit
+      bytes: 10119
+  source_headings:
+    - video-kit
+  official_examples:
+    - kind: example
+      title: Finished meeting explainer source
+      url: https://github.com/WorthingtonCloud/video-kit/tree/HEAD/examples/meeting-explainer
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: template
+      title: Explainer project template
+      url: https://github.com/WorthingtonCloud/video-kit/tree/HEAD/templates/explainer
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: template
+      title: Promo reel project template
+      url: https://github.com/WorthingtonCloud/video-kit/tree/HEAD/templates/reel
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+  official_links:
+    - kind: example
+      title: Finished meeting explainer source
+      url: https://github.com/WorthingtonCloud/video-kit/tree/HEAD/examples/meeting-explainer
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: template
+      title: Explainer project template
+      url: https://github.com/WorthingtonCloud/video-kit/tree/HEAD/templates/explainer
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: template
+      title: Promo reel project template
+      url: https://github.com/WorthingtonCloud/video-kit/tree/HEAD/templates/reel
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: video
+      title: Video Kit promo reel
+      url: https://github.com/user-attachments/assets/43214abb-b2b9-479e-af4c-6dab79d13c17
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: video
+      title: Video Kit narrated explainer
+      url: https://github.com/user-attachments/assets/b84c457f-77d5-42dc-b18d-0e28270cb8e3
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: docs
+      title: Explainer video skill
+      url: https://github.com/WorthingtonCloud/video-kit/blob/HEAD/skills/explainer-video/SKILL.md
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: docs
+      title: Sizzle reel skill
+      url: https://github.com/WorthingtonCloud/video-kit/blob/HEAD/skills/sizzle-reel/SKILL.md
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+  official_effect_assets:
+    - kind: video
+      title: Video Kit promo reel
+      url: https://github.com/user-attachments/assets/43214abb-b2b9-479e-af4c-6dab79d13c17
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: video
+      title: Video Kit narrated explainer
+      url: https://github.com/user-attachments/assets/b84c457f-77d5-42dc-b18d-0e28270cb8e3
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Explainer video skill
+      url: https://github.com/WorthingtonCloud/video-kit/blob/HEAD/skills/explainer-video/SKILL.md
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+    - kind: docs
+      title: Sizzle reel skill
+      url: https://github.com/WorthingtonCloud/video-kit/blob/HEAD/skills/sizzle-reel/SKILL.md
+      source: https://raw.githubusercontent.com/WorthingtonCloud/video-kit/HEAD/README.md
+- name: Tutorial Video Skill
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/speechlab0210/tutorial-video-skill
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 文档解析/OCR
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: General Agent Skill for planning, producing, reviewing, and revising editable course videos across
+    subjects, coordinating evidence, learning progression, diagrams, slides, notes, narration, captions, timing,
+    accessibility, and delivery; local dependency-free helpers validate plans, captions, hashes, scene order, and
+    audio-video sync, while optional ffmpeg assembly creates H.264/AAC videos without network calls.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Tutorial Video Skill
+      bytes: 9718
+  official_examples:
+    - kind: template
+      title: Templates
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/assets/templates
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: example
+      title: Worked example
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/assets/examples/weighted-averages.json
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: example
+      title: Cross-domain scenarios
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/examples/cross-domain.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+  official_links:
+    - kind: template
+      title: Templates
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/assets/templates
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: example
+      title: Worked example
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/assets/examples/weighted-averages.json
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: example
+      title: Cross-domain scenarios
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/examples/cross-domain.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Tutorial Video skill workflow
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/SKILL.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Teaching design
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/teaching-design.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Evidence and explanations
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/evidence-and-explanations.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Visual storytelling
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/visual-storytelling.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Narration and pacing
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/narration-and-pacing.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Media production
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/media-production.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Revision and delivery
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/revision-and-delivery.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Quality review
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/quality-review.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Course formats
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/formats.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Tool contracts
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/tool-contracts.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+  source_headings:
+    - Tutorial Video Skill
+  official_effect_assets: []
+  official_docs:
+    - kind: docs
+      title: Tutorial Video skill workflow
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/SKILL.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Teaching design
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/teaching-design.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Evidence and explanations
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/evidence-and-explanations.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Visual storytelling
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/visual-storytelling.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Narration and pacing
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/narration-and-pacing.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Media production
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/media-production.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Revision and delivery
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/revision-and-delivery.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Quality review
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/quality-review.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Course formats
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/formats.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+    - kind: docs
+      title: Tool contracts
+      url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/tool-contracts.md
+      source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
