@@ -1,4 +1,4 @@
-last_researched: '2026-10-03'
+last_researched: '2026-10-07'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23195,5 +23195,266 @@ entries:
   - PPT/演示文稿
   - 报告/长文档
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: video
+- name: DynamicDecks Skill
+  url: https://github.com/pjhprojects/dynamic-decks-skill
+  homepage: https://pjhprojects.github.io/dynamic-decks-skill/
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-07'
+  note: Agent Skill for building one-file offline HTML presentations with animated numbers and text, step reveals, SVG charts
+    and diagrams, simulations, interactive sliders, embedded media, clicker controls, speaker notes, presenter view, PDF export,
+    PowerPoint-theme extraction, element references for revisions, and browser checks for overflow, missing still frames, and
+    external network dependencies.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 代码/技术描述
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: OpenRoom
+  url: https://github.com/wisdomousai/openroom
+  homepage: https://openroom.app
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - MCP Client
+  - 浏览器/账号
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 存储/索引
+  - 模板/素材
+  stars: 0
+  license: AGPL-3.0/MIT
+  updated: '2026-10-07'
+  note: Open-source deck editor and live classroom with layouts, themes, reveal order, notes, version history, polls, quizzes,
+    word clouds, rankings, Q&A, homework, learner feedback, presenter displays, an agent sidebar, CLI, MCP server, and PowerPoint
+    add-in; local files work offline in the desktop app, while live sessions use a hosted or self-hosted Cloudflare relay.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - 数据/表格
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - Bot/助手
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - 问答/学习材料
+  catalog_section: main
+  readme_group: presentation
+- name: open-slide-py
+  url: https://github.com/pop310289/open-slide-py
+  category: presentation-tools
+  surface: library
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-05'
+  note: Dependency-free Python library, CLI, and Agent Skill that validates JSON slide scenes and exports byte-reproducible
+    editable PPTX, per-slide SVG, static HTML, or a CSP-pinned offline interactive player with speaker notes, reveals, charts,
+    palettes, contrast and overlap warnings, measured text wrapping, and native PowerPoint objects; PDF is obtained by printing
+    the HTML output.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  - 任意/多源
+  tool_forms:
+  - API/SDK/库
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: SVG Animator Skill
+  url: https://github.com/takimdigital/svg-animator
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 1
+  license: MIT
+  updated: '2026-10-06'
+  note: Agent Skill for generating, repairing, linting, and frame-reviewing self-contained animated SVGs, with twenty-two
+    generator types, fifty-two worked specs, offline static fallbacks, computed paths and timing, structural and geometry checks,
+    and optional Playwright frame rendering for diagrams, charts, loaders, logos, scenes, and README or slide visuals.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  - 数据/表格
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 信息图/视觉报告
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: Code Guide
+  url: https://github.com/seanoliver/code-guide
+  category: codebase-map
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 本地语言环境
+  - 系统工具
+  - 外部检索/数据源
+  - 代码分析工具
+  - 渲染/导出
+  stars: 0
+  license: MIT
+  updated: '2026-10-05'
+  note: Agent Skill and plugin that converts a pull request, branch, or code question into one zoomable HTML map with folder
+    and file topology, merged diffs, code snippets, line-anchored claims, semantic zoom, callouts, and a guided tour; Python and
+    git validate every quoted line locally in a detached worktree, while the generated page loads its layout and syntax libraries
+    from public CDNs and embeds the code it displays.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 代码地图/Repo Wiki
+  - 网页/交互页面
+  - 架构图/流程图
+  - 报告/长文档
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: mindmap-skills
+  url: https://github.com/fioenix/mindmap-skills
+  category: doc-to-knowledge
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-05'
+  note: Cross-agent Markmap skill that structures arbitrary material into concise MECE mind maps with controlled branch count,
+    depth, density, folding, decisions, status, and trade-offs, then emits portable Markdown plus a CSP-hardened standalone HTML
+    artifact; the core has no daemon, telemetry, backend, or idle tool schema, and its optional offline renderer guards CLI and
+    script injection.
+  source_types:
+  - 文本/想法
+  - PDF/文档
+  - 代码/技术描述
+  - 知识库/个人资料
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 思维导图/知识地图
+  - 网页/交互页面
+  - 结构化数据/Markdown
+  catalog_section: support_mindmap
+  readme_group: support_mindmap
+- name: Security Scan Skill
+  url: https://github.com/simota/security-scan
+  category: research-report
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 渲染/导出
+  - 存储/索引
+  stars: 1
+  license: unknown
+  updated: '2026-10-07'
+  note: Read-only application security review Agent Skill that maps attack surfaces, applies fifteen perspectives, audits
+    dependencies, records revision-pinned evidence and confidence, independently rechecks higher-severity findings, and renders
+    one findings JSON into a searchable offline dashboard, print assessment, PDF, and chat summary with explicit coverage,
+    exclusions, uncertainty, retest state, and redaction boundaries.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 数据/表格
+  - 数据库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 报告/长文档
+  - 网页/交互页面
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 证据表
+  catalog_section: main
+  readme_group: code
+- name: Demo Video Creator Skill
+  url: https://github.com/chacha95/demo-video-creator
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模型 API
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 6
+  license: MIT
+  updated: '2026-10-07'
+  note: English and Korean Agent Skill that turns a live product URL into a forty-to-sixty-second 16:9 launch film using real
+    high-resolution UI captures and output footage, one continuous ElevenLabs narration, generated music, beat-locked code
+    motion, impact effects, captions, transition strips, sync tables, and audio and visual QA; it requires an ElevenLabs API key
+    and keeps credentials in the local environment.
+  source_types:
+  - 网页/搜索结果
+  - 文本/想法
+  - 数据/表格
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - 网页/交互页面
   catalog_section: main
   readme_group: video

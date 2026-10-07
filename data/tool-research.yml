@@ -1,4 +1,4 @@
-generated_at: '2026-10-03T07:06:46+00:00'
+generated_at: '2026-10-07T07:09:17+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 879
-  fetched_sources_ok: 1169
+  entries: 887
+  fetched_sources_ok: 1179
   fetched_sources_failed: 60
-  official_examples: 1880
-  official_effect_assets: 2299
-  official_docs: 2165
+  official_examples: 1895
+  official_effect_assets: 2320
+  official_docs: 2191
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -68978,3 +68978,672 @@ entries:
       title: Tool contracts
       url: https://github.com/speechlab0210/tutorial-video-skill/blob/HEAD/tutorial-video/references/tool-contracts.md
       source: https://raw.githubusercontent.com/speechlab0210/tutorial-video-skill/HEAD/README.md
+- name: DynamicDecks Skill
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/pjhprojects/dynamic-decks-skill
+  homepage: https://pjhprojects.github.io/dynamic-decks-skill/
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill for building one-file offline HTML presentations with animated numbers and text, step reveals,
+    SVG charts and diagrams, simulations, interactive sliders, embedded media, clicker controls, speaker notes,
+    presenter view, PDF export, PowerPoint-theme extraction, element references for revisions, and browser checks for
+    overflow, missing still frames, and external network dependencies.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: DynamicDecks
+      bytes: 17487
+    - kind: homepage
+      url: https://pjhprojects.github.io/dynamic-decks-skill/
+      final_url: https://pjhprojects.github.io/dynamic-decks-skill/
+      status: 200
+      content_type: text/html
+      title: DynamicDecks
+      bytes: 561
+  official_examples:
+    - kind: showcase
+      title: Open the live showcase
+      url: https://pjhprojects.github.io/dynamic-decks-skill/
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: example
+      title: "`examples/dynamic-decks-showcase.html`"
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/examples/dynamic-decks-showcase.html
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: example
+      title: starter deck
+      url: https://pjhprojects.github.io/dynamic-decks-skill/examples/dynamic-decks-starter.html
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: example
+      title: examples/dynamic-decks-showcase.html
+      url: https://pjhprojects.github.io/dynamic-decks-skill/examples/dynamic-decks-showcase.html
+      source: https://pjhprojects.github.io/dynamic-decks-skill/
+  official_docs:
+    - kind: docs
+      title: DynamicDecks skill workflow
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/dynamic-decks/SKILL.md
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: docs
+      title: Authoring reference
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/dynamic-decks/reference/authoring.md
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: docs
+      title: Charts and diagrams reference
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/dynamic-decks/reference/charts-and-diagrams.md
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: All seventeen slides of the showcase deck
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/docs/images/slides.png
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: image
+      title: Presenter window with current slide, next slide, notes and timer
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/docs/images/presenter.png
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: image
+      title: Edit mode with one heading outlined and its reference copied
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/docs/images/edit-mode.png
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: image
+      title: The same animated chart slide in the light and the dark variant
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/docs/images/themes.png
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: gif
+      title: DynamicDecks live showcase
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/docs/images/demo.gif
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+  official_links:
+    - kind: showcase
+      title: Open the live showcase
+      url: https://pjhprojects.github.io/dynamic-decks-skill/
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: example
+      title: "`examples/dynamic-decks-showcase.html`"
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/examples/dynamic-decks-showcase.html
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: example
+      title: starter deck
+      url: https://pjhprojects.github.io/dynamic-decks-skill/examples/dynamic-decks-starter.html
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: example
+      title: examples/dynamic-decks-showcase.html
+      url: https://pjhprojects.github.io/dynamic-decks-skill/examples/dynamic-decks-showcase.html
+      source: https://pjhprojects.github.io/dynamic-decks-skill/
+    - kind: docs
+      title: DynamicDecks skill workflow
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/dynamic-decks/SKILL.md
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: docs
+      title: Authoring reference
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/dynamic-decks/reference/authoring.md
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: docs
+      title: Charts and diagrams reference
+      url: https://github.com/pjhprojects/dynamic-decks-skill/blob/HEAD/dynamic-decks/reference/charts-and-diagrams.md
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+    - kind: gif
+      title: DynamicDecks live showcase
+      url: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/docs/images/demo.gif
+      source: https://raw.githubusercontent.com/pjhprojects/dynamic-decks-skill/HEAD/README.md
+  source_headings:
+    - Dynamic slides
+    - Charts, diagrams and images
+- name: OpenRoom
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/wisdomousai/openroom
+  homepage: https://openroom.app
+  dependencies:
+    - Agent 宿主
+    - MCP Client
+    - 浏览器/账号
+    - 模型 API
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 存储/索引
+    - 模板/素材
+  catalog_note: Open-source deck editor and live classroom with layouts, themes, reveal order, notes, version history,
+    polls, quizzes, word clouds, rankings, Q&A, homework, learner feedback, presenter displays, an agent sidebar, CLI,
+    MCP server, and PowerPoint add-in; local files work offline in the desktop app, while live sessions use a hosted or
+    self-hosted Cloudflare relay.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: OpenRoom
+      bytes: 4091
+    - kind: homepage
+      url: https://openroom.app/
+      final_url: https://openroom.app/
+      status: 200
+      content_type: text/html
+      title: OpenRoom | Live questions for tutoring, classes, training and meetings
+      description: Present a deck, ask a question and put everyone's answers on the screen. People join from their phone with
+        a code, no account needed. For tutoring, classrooms, and training, work
+      bytes: 10693
+  official_docs:
+    - kind: docs
+      title: Manual
+      url: https://openroom.app/docs/
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: docs
+      title: Architecture
+      url: https://github.com/wisdomousai/openroom/blob/HEAD/docs/ARCHITECTURE.md
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: docs
+      title: Self-host
+      url: https://github.com/wisdomousai/openroom/blob/HEAD/docs/SELF-HOST.md
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: docs
+      title: "`docs/DEVELOPMENT.md`"
+      url: https://github.com/wisdomousai/openroom/blob/HEAD/docs/DEVELOPMENT.md
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: Live results in the presenter view
+      url: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/apps/site/public/docs/images/live-results.png
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: image
+      title: The deck editor
+      url: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/apps/site/public/docs/images/deck-editor.png
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: image
+      title: Feedback on a phone
+      url: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/apps/site/public/docs/images/phone-feedback.png
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: Manual
+      url: https://openroom.app/docs/
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: docs
+      title: Architecture
+      url: https://github.com/wisdomousai/openroom/blob/HEAD/docs/ARCHITECTURE.md
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: docs
+      title: Self-host
+      url: https://github.com/wisdomousai/openroom/blob/HEAD/docs/SELF-HOST.md
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: docs
+      title: "`docs/DEVELOPMENT.md`"
+      url: https://github.com/wisdomousai/openroom/blob/HEAD/docs/DEVELOPMENT.md
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+    - kind: showcase
+      title: OpenRoom live application
+      url: https://openroom.app/
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+  official_examples:
+    - kind: showcase
+      title: OpenRoom live application
+      url: https://openroom.app/
+      source: https://raw.githubusercontent.com/wisdomousai/openroom/HEAD/README.md
+- name: open-slide-py
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/pop310289/open-slide-py
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Dependency-free Python library, CLI, and Agent Skill that validates JSON slide scenes and exports
+    byte-reproducible editable PPTX, per-slide SVG, static HTML, or a CSP-pinned offline interactive player with speaker
+    notes, reveals, charts, palettes, contrast and overlap warnings, measured text wrapping, and native PowerPoint
+    objects; PDF is obtained by printing the HTML output.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: open-slide-py
+      bytes: 7647
+  official_docs:
+    - kind: docs
+      title: references/scene.md
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/references/scene.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: docs
+      title: references/authoring.md
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/references/authoring.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: docs
+      title: open-slide-py skill workflow
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: docs
+      title: Verification reference
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/references/verification.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: references/scene.md
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/references/scene.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: docs
+      title: references/authoring.md
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/references/authoring.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: example
+      title: Good slides example scene
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/examples/good-slides.json
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: example
+      title: Starter example scene
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/examples/demo.json
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: docs
+      title: open-slide-py skill workflow
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: docs
+      title: Verification reference
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/references/verification.md
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+  source_headings:
+    - open-slide-py
+  official_examples:
+    - kind: example
+      title: Good slides example scene
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/examples/good-slides.json
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+    - kind: example
+      title: Starter example scene
+      url: https://github.com/pop310289/open-slide-py/blob/HEAD/examples/demo.json
+      source: https://raw.githubusercontent.com/pop310289/open-slide-py/HEAD/README.md
+- name: SVG Animator Skill
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/takimdigital/svg-animator
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill for generating, repairing, linting, and frame-reviewing self-contained animated SVGs, with
+    twenty-two generator types, fifty-two worked specs, offline static fallbacks, computed paths and timing, structural
+    and geometry checks, and optional Playwright frame rendering for diagrams, charts, loaders, logos, scenes, and
+    README or slide visuals.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: svg-animator
+      bytes: 15513
+  official_effect_assets:
+    - kind: image
+      title: SVG Animator pipeline
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/docs/hero.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: image
+      title: SVG Animator modes
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/docs/modes.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: image
+      title: Animated flow preview
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/assets/examples/flow-with-feedback.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+  source_headings:
+    - The gallery
+  official_examples:
+    - kind: example
+      title: Animated flow with feedback
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/assets/examples/flow-with-feedback.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: example
+      title: Animated service network
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/assets/examples/network-services.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: example
+      title: Animated dashboard composition
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/assets/examples/compose-dashboard.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: SVG Animator skill workflow
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: docs
+      title: Full example gallery
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/docs/gallery/README.md
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: docs
+      title: Diagram types reference
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/references/diagram-types.md
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+  official_links:
+    - kind: example
+      title: Animated flow with feedback
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/assets/examples/flow-with-feedback.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: example
+      title: Animated service network
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/assets/examples/network-services.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: example
+      title: Animated dashboard composition
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/assets/examples/compose-dashboard.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: image
+      title: SVG Animator pipeline
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/docs/hero.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: image
+      title: SVG Animator modes
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/docs/modes.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: image
+      title: Animated flow preview
+      url: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/assets/examples/flow-with-feedback.svg
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: docs
+      title: SVG Animator skill workflow
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: docs
+      title: Full example gallery
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/docs/gallery/README.md
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+    - kind: docs
+      title: Diagram types reference
+      url: https://github.com/takimdigital/svg-animator/blob/HEAD/references/diagram-types.md
+      source: https://raw.githubusercontent.com/takimdigital/svg-animator/HEAD/README.md
+- name: Code Guide
+  category: codebase-map
+  surface: skill
+  primary_url: https://github.com/seanoliver/code-guide
+  dependencies:
+    - Agent 宿主
+    - 浏览器/账号
+    - 本地语言环境
+    - 系统工具
+    - 外部检索/数据源
+    - 代码分析工具
+    - 渲染/导出
+  catalog_note: Agent Skill and plugin that converts a pull request, branch, or code question into one zoomable HTML map
+    with folder and file topology, merged diffs, code snippets, line-anchored claims, semantic zoom, callouts, and a
+    guided tour; Python and git validate every quoted line locally in a detached worktree, while the generated page
+    loads its layout and syntax libraries from public CDNs and embeds the code it displays.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: System view
+      bytes: 8257
+  official_examples:
+    - kind: demo
+      title: "`code-guide-demo.html`"
+      url: https://github.com/seanoliver/code-guide/releases/download/v1.0.0/code-guide-demo.html
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: PRIVACY.md
+      url: https://github.com/seanoliver/code-guide/blob/HEAD/PRIVACY.md
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: code-guide System view of a real PR, with the summary panel and every file it touches
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-hero.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: "System view with labels: folders, file tiles, file map, arrows, external services"
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-system.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: Hovering a summary bullet highlights the files behind it
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-tldr.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: The same file at the System, Snippets, and Code levels
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-zoom.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: The spec anchor matches line 45; the same anchor with a typo fails the build
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-deterministic.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: "Merged diff: the deleted line in red above the line that replaced it"
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-diff.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: An open callout next to collapsed ones
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-callouts.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: image
+      title: The tour bar on step 7 of 8, focused on one line
+      url: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/docs/media/shot-tour.jpg
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+  official_links:
+    - kind: demo
+      title: "`code-guide-demo.html`"
+      url: https://github.com/seanoliver/code-guide/releases/download/v1.0.0/code-guide-demo.html
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+    - kind: docs
+      title: PRIVACY.md
+      url: https://github.com/seanoliver/code-guide/blob/HEAD/PRIVACY.md
+      source: https://raw.githubusercontent.com/seanoliver/code-guide/HEAD/README.md
+  source_headings:
+    - Usage
+- name: mindmap-skills
+  category: doc-to-knowledge
+  surface: skill
+  primary_url: https://github.com/fioenix/mindmap-skills
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Cross-agent Markmap skill that structures arbitrary material into concise MECE mind maps with controlled
+    branch count, depth, density, folding, decisions, status, and trade-offs, then emits portable Markdown plus a
+    CSP-hardened standalone HTML artifact; the core has no daemon, telemetry, backend, or idle tool schema, and its
+    optional offline renderer guards CLI and script injection.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: ⚡ The Solution
+      bytes: 12934
+  official_examples:
+    - kind: template
+      title: Standalone Markmap HTML template
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/skills/markmap/assets/template.html
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+  official_links:
+    - kind: template
+      title: Standalone Markmap HTML template
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/skills/markmap/assets/template.html
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+    - kind: docs
+      title: Markmap skill workflow
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/skills/markmap/SKILL.md
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+    - kind: docs
+      title: Privacy policy
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/PRIVACY.md
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+    - kind: docs
+      title: Release readiness checks
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/docs/release-readiness.md
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Markmap skill workflow
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/skills/markmap/SKILL.md
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+    - kind: docs
+      title: Privacy policy
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/PRIVACY.md
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+    - kind: docs
+      title: Release readiness checks
+      url: https://github.com/fioenix/mindmap-skills/blob/HEAD/docs/release-readiness.md
+      source: https://raw.githubusercontent.com/fioenix/mindmap-skills/HEAD/README.md
+- name: Security Scan Skill
+  category: research-report
+  surface: skill
+  primary_url: https://github.com/simota/security-scan
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 代码分析工具
+    - 渲染/导出
+    - 存储/索引
+  catalog_note: Read-only application security review Agent Skill that maps attack surfaces, applies fifteen perspectives,
+    audits dependencies, records revision-pinned evidence and confidence, independently rechecks higher-severity
+    findings, and renders one findings JSON into a searchable offline dashboard, print assessment, PDF, and chat summary
+    with explicit coverage, exclusions, uncertainty, retest state, and redaction boundaries.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: security-scan
+      bytes: 29817
+  official_docs:
+    - kind: docs
+      title: the profile and handoff guide
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/reference/three-pass-check.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: 安全上の制約と、新しい架空 Git リポジトリだけで試す例
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/reference/evidence-integrity.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: CI checks and local reproduction
+      url: https://github.com/simota/security-scan/blob/HEAD/docs/ci.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: Security Scan skill workflow
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/SKILL.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: Report design reference
+      url: https://github.com/simota/security-scan/blob/HEAD/docs/report-design.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: Findings schema
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/reference/findings-schema.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: the profile and handoff guide
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/reference/three-pass-check.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: 安全上の制約と、新しい架空 Git リポジトリだけで試す例
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/reference/evidence-integrity.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: CI checks and local reproduction
+      url: https://github.com/simota/security-scan/blob/HEAD/docs/ci.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: example
+      title: Sample findings record
+      url: https://github.com/simota/security-scan/blob/HEAD/examples/findings.sample.json
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: Security Scan skill workflow
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/SKILL.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: Report design reference
+      url: https://github.com/simota/security-scan/blob/HEAD/docs/report-design.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+    - kind: docs
+      title: Findings schema
+      url: https://github.com/simota/security-scan/blob/HEAD/skills/security-scan/reference/findings-schema.md
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+  official_examples:
+    - kind: example
+      title: Sample findings record
+      url: https://github.com/simota/security-scan/blob/HEAD/examples/findings.sample.json
+      source: https://raw.githubusercontent.com/simota/security-scan/HEAD/README.md
+- name: Demo Video Creator Skill
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/chacha95/demo-video-creator
+  dependencies:
+    - Agent 宿主
+    - 浏览器/账号
+    - 模型 API
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: English and Korean Agent Skill that turns a live product URL into a forty-to-sixty-second 16:9 launch film
+    using real high-resolution UI captures and output footage, one continuous ElevenLabs narration, generated music,
+    beat-locked code motion, impact effects, captions, transition strips, sync tables, and audio and visual QA; it
+    requires an ElevenLabs API key and keeps credentials in the local environment.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: demo-video-creator
+      bytes: 5847
+  official_examples:
+    - kind: demo
+      title: "`media/demo_en.mp4`"
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/media/demo_en.mp4
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+    - kind: demo
+      title: "`media/demo_ko.mp4`"
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/media/demo_ko.mp4
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+  official_effect_assets:
+    - kind: video
+      title: "`media/demo_en.mp4`"
+      url: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/media/demo_en.mp4
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+    - kind: video
+      title: "`media/demo_ko.mp4`"
+      url: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/media/demo_ko.mp4
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+  official_links:
+    - kind: demo
+      title: "`media/demo_en.mp4`"
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/media/demo_en.mp4
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+    - kind: demo
+      title: "`media/demo_ko.mp4`"
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/media/demo_ko.mp4
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+    - kind: docs
+      title: Motion rules
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/skills/demo-video-creator/references/MOTION_RULES.md
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+    - kind: docs
+      title: Demo video creator workflow
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/skills/demo-video-creator/SKILL.md
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+  source_headings:
+    - demo-video-creator
+  official_docs:
+    - kind: docs
+      title: Motion rules
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/skills/demo-video-creator/references/MOTION_RULES.md
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+    - kind: docs
+      title: Demo video creator workflow
+      url: https://github.com/chacha95/demo-video-creator/blob/HEAD/skills/demo-video-creator/SKILL.md
+      source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
