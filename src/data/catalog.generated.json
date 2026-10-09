@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-10-07T07:09:17+00:00",
-  "lastResearched": "2026-10-07",
+  "generatedAt": "2026-10-09T07:03:37.951Z",
+  "lastResearched": "2026-10-09",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 887,
+    "total": 890,
     "openSource": 214,
     "saas": 80,
     "modelApi": 274,
     "examples": 1895,
-    "effectAssets": 2320,
-    "docs": 2191
+    "effectAssets": 2323,
+    "docs": 2194
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 262,
-      "文本/想法": 580,
-      "数据/表格": 374,
-      "代码/技术描述": 188,
+      "文本/想法": 583,
+      "数据/表格": 375,
+      "代码/技术描述": 189,
       "任意/多源": 169,
       "网页/搜索结果": 219,
       "代码库": 101,
-      "DSL/代码": 180,
+      "DSL/代码": 183,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
-      "Office 文档": 175,
+      "Office 文档": 176,
       "引用网络": 5,
       "数据库": 80,
       "视频/音频": 3
     },
     "toolForms": {
       "开源应用/框架": 214,
-      "Agent Skill": 361,
-      "Skill 集合": 87,
+      "Agent Skill": 364,
+      "Skill 集合": 88,
       "MCP Server": 292,
       "产品/SaaS": 80,
       "数据集/评测": 5,
       "Bot/助手": 29,
       "研究原型": 13,
-      "API/SDK/库": 141,
+      "API/SDK/库": 142,
       "Awesome/索引": 27
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 381,
-      "网页/交互页面": 331,
-      "问答/学习材料": 21,
+      "PPT/演示文稿": 382,
+      "网页/交互页面": 332,
+      "问答/学习材料": 23,
       "报告/长文档": 131,
       "证据表": 84,
       "信息图/视觉报告": 122,
-      "图表/仪表盘": 286,
-      "架构图/流程图": 196,
-      "SVG/PNG/PDF": 390,
+      "图表/仪表盘": 287,
+      "架构图/流程图": 197,
+      "SVG/PNG/PDF": 393,
       "报告/简报": 99,
       "白板/思维导图": 49,
       "图表/Mermaid": 81,
@@ -66,18 +66,18 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 757,
+      "本地语言环境": 760,
       "模型 API": 274,
-      "文档解析/OCR": 128,
-      "渲染/导出": 787,
+      "文档解析/OCR": 129,
+      "渲染/导出": 790,
       "GPU/加速器": 24,
-      "模板/素材": 448,
-      "Agent 宿主": 451,
-      "系统工具": 222,
+      "模板/素材": 449,
+      "Agent 宿主": 454,
+      "系统工具": 224,
       "浏览器/账号": 202,
       "存储/索引": 139,
       "MCP Client": 306,
-      "外部检索/数据源": 184,
+      "外部检索/数据源": 185,
       "代码分析工具": 63
     },
     "categories": {
@@ -86,9 +86,9 @@
       "research-report": 39,
       "infographic-report": 82,
       "data-dashboard": 137,
-      "diagram-generation": 100,
+      "diagram-generation": 102,
       "literature-map": 5,
-      "presentation-tools": 272,
+      "presentation-tools": 273,
       "rendering-primitive": 29,
       "video-generation": 28,
       "codebase-map": 54,
@@ -97,12 +97,12 @@
     },
     "groups": {
       "paper": 45,
-      "text_visual": 105,
+      "text_visual": 107,
       "web_news": 9,
       "support_mindmap": 20,
       "docs": 44,
       "support_doc_parse": 24,
-      "presentation": 280,
+      "presentation": 281,
       "data": 131,
       "video": 28,
       "code": 61,
@@ -72930,6 +72930,168 @@
       "docsCount": 2,
       "examplesCount": 2,
       "effectAssetsCount": 2
+    },
+    {
+      "name": "Marp Presentation Skill by DavidElsdoerfer",
+      "url": "https://github.com/DavidElsdoerfer/marp-presentation-skill",
+      "primaryUrl": "https://github.com/DavidElsdoerfer/marp-presentation-skill",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "文档解析/OCR",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-10-08",
+      "note": "Local Marp skill and CLI for Markdown decks with interchangeable brand snapshots, localhost live preview, presenter-view HTML and PDF export, portable deck archives, and PowerPoint-master brand extraction and comparison. Requires Node, Python, and Chromium; LibreOffice, Poppler, and ImageMagick are optional import tools. No separate model API or GPU is required; imported logos, fonts, and templates retain their own terms.",
+      "sourceTypes": [
+        "文本/想法",
+        "Office 文档",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "API/SDK/库"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs/brand-format.md",
+          "url": "https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/brand-format.md",
+          "source": "https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/vscode.md",
+          "url": "https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/vscode.md",
+          "source": "https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "docs/import-workflow.md",
+          "url": "https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/import-workflow.md",
+          "source": "https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md"
+        }
+      ],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Circuit Diagram Skill",
+      "url": "https://github.com/myrlaphil/circuit-diagram-skill",
+      "primaryUrl": "https://github.com/myrlaphil/circuit-diagram-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-10-08",
+      "note": "Local skill and Python CLI translating English DC-circuit descriptions into checked circuit notation, Schemdraw and Matplotlib worksheet diagrams, PNG/SVG/PDF files, and optional worked series/parallel solutions. US and IEC symbols are configurable; first-run dependency installation needs network access. Rendering needs no separate model API or GPU, with the host agent handling descriptions outside the deterministic phrase rules.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF",
+        "问答/学习材料"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "series-parallel example",
+          "url": "https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/examples/series_parallel.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "capacitors",
+          "url": "https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/examples/capacitors.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "switch and meters",
+          "url": "https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/examples/switch_meters.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md"
+        }
+      ],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 3
+    },
+    {
+      "name": "GeoGebra Skills by luzwales",
+      "url": "https://github.com/luzwales/geogebra-skill",
+      "primaryUrl": "https://github.com/luzwales/geogebra-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "外部检索/数据源",
+        "渲染/导出"
+      ],
+      "stars": 0,
+      "license": "unknown",
+      "updated": "2026-10-07",
+      "note": "Two agent skills for cropped PNG geometry/function plots and native editable GeoGebra GGB projects with movable points, sliders, algebraic definitions, and optional PNG previews. Requires Node 18+, Playwright, and Chromium; rendering loads the official GeoGebra web runtime over the network. No separate model API or GPU requirement is documented. The README states MIT, but GitHub does not expose a detected repository license.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "SVG/PNG/PDF",
+        "图表/仪表盘",
+        "问答/学习材料"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }

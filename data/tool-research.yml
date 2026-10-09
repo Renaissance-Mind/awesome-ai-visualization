@@ -1,4 +1,4 @@
-generated_at: '2026-10-07T07:09:17+00:00'
+generated_at: '2026-10-09T07:03:37.951Z'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 887
-  fetched_sources_ok: 1179
+  entries: 890
+  fetched_sources_ok: 1182
   fetched_sources_failed: 60
   official_examples: 1895
-  official_effect_assets: 2320
-  official_docs: 2191
+  official_effect_assets: 2323
+  official_docs: 2194
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -69647,3 +69647,114 @@ entries:
       title: Demo video creator workflow
       url: https://github.com/chacha95/demo-video-creator/blob/HEAD/skills/demo-video-creator/SKILL.md
       source: https://raw.githubusercontent.com/chacha95/demo-video-creator/HEAD/README.md
+- name: Marp Presentation Skill by DavidElsdoerfer
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/DavidElsdoerfer/marp-presentation-skill
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 文档解析/OCR
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Local Marp skill and CLI for Markdown decks with interchangeable brand snapshots, localhost live preview,
+    presenter-view HTML and PDF export, portable deck archives, and PowerPoint-master brand extraction and comparison.
+    Requires Node, Python, and Chromium; LibreOffice, Poppler, and ImageMagick are optional import tools. No separate
+    model API or GPU is required; imported logos, fonts, and templates retain their own terms.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: marp-presentation-skill
+      bytes: 4250
+  official_docs:
+    - kind: docs
+      title: docs/brand-format.md
+      url: https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/brand-format.md
+      source: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+    - kind: docs
+      title: docs/vscode.md
+      url: https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/vscode.md
+      source: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+    - kind: docs
+      title: docs/import-workflow.md
+      url: https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/import-workflow.md
+      source: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: docs/brand-format.md
+      url: https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/brand-format.md
+      source: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+    - kind: docs
+      title: docs/vscode.md
+      url: https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/vscode.md
+      source: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+    - kind: docs
+      title: docs/import-workflow.md
+      url: https://github.com/DavidElsdoerfer/marp-presentation-skill/blob/HEAD/docs/import-workflow.md
+      source: https://raw.githubusercontent.com/DavidElsdoerfer/marp-presentation-skill/HEAD/README.md
+  source_headings:
+    - marp-presentation-skill
+- name: Circuit Diagram Skill
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/myrlaphil/circuit-diagram-skill
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+  catalog_note: Local skill and Python CLI translating English DC-circuit descriptions into checked circuit notation,
+    Schemdraw and Matplotlib worksheet diagrams, PNG/SVG/PDF files, and optional worked series/parallel solutions. US
+    and IEC symbols are configurable; first-run dependency installation needs network access. Rendering needs no
+    separate model API or GPU, with the host agent handling descriptions outside the deterministic phrase rules.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: circuit-diagram-skill
+      bytes: 5448
+  official_effect_assets:
+    - kind: image
+      title: series-parallel example
+      url: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/examples/series_parallel.png
+      source: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md
+    - kind: image
+      title: capacitors
+      url: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/examples/capacitors.png
+      source: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md
+    - kind: image
+      title: switch and meters
+      url: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/examples/switch_meters.png
+      source: https://raw.githubusercontent.com/myrlaphil/circuit-diagram-skill/HEAD/README.md
+  source_headings:
+    - circuit-diagram-skill
+    - More examples
+- name: GeoGebra Skills by luzwales
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/luzwales/geogebra-skill
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 外部检索/数据源
+    - 渲染/导出
+  catalog_note: Two agent skills for cropped PNG geometry/function plots and native editable GeoGebra GGB projects with
+    movable points, sliders, algebraic definitions, and optional PNG previews. Requires Node 18+, Playwright, and
+    Chromium; rendering loads the official GeoGebra web runtime over the network. No separate model API or GPU
+    requirement is documented. The README states MIT, but GitHub does not expose a detected repository license.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/luzwales/geogebra-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/luzwales/geogebra-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: GeoGebra Skills for AI Agents
+      bytes: 2292
+  source_headings:
+    - Example

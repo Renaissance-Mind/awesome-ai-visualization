@@ -1,4 +1,4 @@
-last_researched: '2026-10-07'
+last_researched: '2026-10-09'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23458,3 +23458,91 @@ entries:
   - 网页/交互页面
   catalog_section: main
   readme_group: video
+- name: Marp Presentation Skill by DavidElsdoerfer
+  url: https://github.com/DavidElsdoerfer/marp-presentation-skill
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 文档解析/OCR
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-08'
+  note: Local Marp skill and CLI for Markdown decks with interchangeable brand snapshots, localhost live preview, presenter-view
+    HTML and PDF export, portable deck archives, and PowerPoint-master brand extraction and comparison. Requires Node, Python,
+    and Chromium; LibreOffice, Poppler, and ImageMagick are optional import tools. No separate model API or GPU is required;
+    imported logos, fonts, and templates retain their own terms.
+  source_types:
+  - 文本/想法
+  - Office 文档
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  - API/SDK/库
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: presentation
+- name: Circuit Diagram Skill
+  url: https://github.com/myrlaphil/circuit-diagram-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  tool_forms:
+  - Agent Skill
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 代码/技术描述
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  - 问答/学习材料
+  stars: 0
+  license: MIT
+  updated: '2026-10-08'
+  note: Local skill and Python CLI translating English DC-circuit descriptions into checked circuit notation, Schemdraw and
+    Matplotlib worksheet diagrams, PNG/SVG/PDF files, and optional worked series/parallel solutions. US and IEC symbols are
+    configurable; first-run dependency installation needs network access. Rendering needs no separate model API or GPU, with
+    the host agent handling descriptions outside the deterministic phrase rules.
+  catalog_section: main
+  readme_group: text_visual
+- name: GeoGebra Skills by luzwales
+  url: https://github.com/luzwales/geogebra-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 外部检索/数据源
+  - 渲染/导出
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 数据/表格
+  output_forms:
+  - SVG/PNG/PDF
+  - 图表/仪表盘
+  - 问答/学习材料
+  stars: 0
+  license: unknown
+  updated: '2026-10-07'
+  note: Two agent skills for cropped PNG geometry/function plots and native editable GeoGebra GGB projects with movable points,
+    sliders, algebraic definitions, and optional PNG previews. Requires Node 18+, Playwright, and Chromium; rendering loads the
+    official GeoGebra web runtime over the network. No separate model API or GPU requirement is documented. The README states
+    MIT, but GitHub does not expose a detected repository license.
+  catalog_section: main
+  readme_group: text_visual

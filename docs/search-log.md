@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-07.
+Last researched: 2026-10-09.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-09: added Marp Presentation Skill by DavidElsdoerfer, Circuit Diagram Skill, and GeoGebra Skills by luzwales after official GitHub README, metadata, and rendering-code verification. These cover brand-aware Markdown presentations, deterministic DC-circuit diagrams and worked solutions, and editable geometry projects. GeoGebra rendering explicitly requires the official online runtime. Targeted scraping fetched three official sources successfully, retaining three circuit preview assets and three Marp documentation links. Repository licensing uncertainty for GeoGebra is recorded rather than inferred from its README statement.
 
 Update on 2026-10-07: refreshed source-backed dynamic web decks, AI-assisted live-classroom presentations, standard-library editable slide export, verified animated SVG production, pull-request code maps, zero-daemon mind maps, source security assessment reports, and bilingual product launch videos from official GitHub repositories, project pages, README evidence, live web/GitHub searches, and current GitHub metadata. This pass added DynamicDecks Skill, OpenRoom, open-slide-py, SVG Animator Skill, Code Guide, mindmap-skills, Security Scan Skill, and Demo Video Creator Skill. The targeted scraper ran only against these eight records, fetched ten official sources successfully with no failed fetches, and kept fifteen official examples, twenty-one artifact preview assets, and twenty-six project-relevant docs links after removing generic platform documentation, an authentication endpoint, a donation image, and a localization page from artifact surfaces. One malformed OpenRoom homepage apostrophe was normalized before merge so no C1 control character entered the research cache.
 
