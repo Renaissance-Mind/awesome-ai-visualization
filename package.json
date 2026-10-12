@@ -5,14 +5,19 @@
   "type": "module",
   "scripts": {
     "design:open": "npx -y open-design-ade --open",
-    "generate:data": "node scripts/build-frontend-data.mjs",
+    "generate:data": "node scripts/build-frontend-data.mjs && node scripts/build-search-data.mjs",
+    "generate:profiles": "node scripts/build-project-profiles.mjs",
+    "sync:search": "npm run generate:data && node scripts/sync-search-index.mjs",
+    "check:search": "node scripts/verify-search-index.mjs",
+    "check:search-api": "node scripts/check-search-api.mjs",
     "predev": "npm run generate:data",
     "dev": "vite --host 127.0.0.1",
+    "dev:api": "npx --yes wrangler@4.143.0 dev --remote --port 8787",
     "prebuild": "npm run generate:data",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && tsc -p tsconfig.worker.json && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "check:frontend": "node scripts/check-frontend.mjs",
-    "deploy:cf": "npm run check:frontend && npm run build && npx --yes wrangler@4.143.0 deploy"
+    "deploy:cf": "npm run check:frontend && npm run build && npm run check:search && npx --yes wrangler@4.143.0 deploy"
   },
   "dependencies": {
     "lucide-react": "^0.561.0",

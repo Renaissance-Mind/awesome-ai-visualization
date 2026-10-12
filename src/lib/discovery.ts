@@ -1,5 +1,6 @@
 import { editorial, featuredNames, localPreviews } from "../data/editorial";
 import { matchesQuery, sortEntries, type SortKey } from "./catalog";
+import projectSummaries from "../data/project-summaries.generated.json";
 import type { CatalogAsset, CatalogEntry } from "../types";
 
 export const topics = [
@@ -18,7 +19,7 @@ export const groupNames: Record<string, string> = {
   text: "文字表达", knowledge: "知识整理",
 };
 
-export function topicFor(entry: CatalogEntry): string {
+export function topicFor(entry: Pick<CatalogEntry, "catalogSection" | "name" | "category">): string {
   if (entry.catalogSection !== "main") return "support";
   if (editorial[entry.name]?.topic) return editorial[entry.name].topic!;
   if (["presentation-tools", "commercial-site", "video-generation"].includes(entry.category)) return "create";
@@ -28,7 +29,7 @@ export function topicFor(entry: CatalogEntry): string {
 }
 
 export function descriptionFor(entry: CatalogEntry) {
-  return editorial[entry.name] ?? { summary: entry.note, detail: "" };
+  return editorial[entry.name] ?? { summary: (projectSummaries as Record<string, string>)[entry.name] ?? entry.note, detail: "" };
 }
 
 export const sortOptions: { key: SortKey; label: string }[] = [

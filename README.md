@@ -59,6 +59,12 @@ npm run dev
 
 The frontend regenerates [`src/data/catalog.generated.json`](src/data/catalog.generated.json) from [`data/catalog.yml`](data/catalog.yml) and [`data/tool-research.yml`](data/tool-research.yml) before development and production builds. The Open Design brief lives in [`docs/open-design-brief.md`](docs/open-design-brief.md), and the portable design system lives in [`design-systems/awesome-ai-visualization/DESIGN.md`](design-systems/awesome-ai-visualization/DESIGN.md).
 
+Natural-language search uses Cloudflare Workers AI Qwen3 Embedding 0.6B and a
+precomputed project index. Project explanations retain their source descriptions
+and URLs; results appear in relevance order without similarity scores. See
+[`docs/semantic-search.md`](docs/semantic-search.md) for building and updating the
+index and [`docs/deployment.md`](docs/deployment.md) for deployment.
+
 ## Main Workflow Tools
 
 This section contains tools that directly turn information sources into artifacts people can read, inspect, present, or share. Each row is tagged on all three axes.
