@@ -16,6 +16,16 @@ Katalog **bilgi kaynağı**, **araç türü**, **çıktı biçimi** ve **bağım
 
 Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve kaynak izlenebilirliği için İngilizce bırakılmıştır.
 
+<!-- repository-activity:start -->
+## 2024 sonrası depo geliştirme etkinliği
+
+Ocak 2024'ten itibaren aylık veriler; anlık görüntü: 13 Ekim 2026, 01:35 (UTC+8). 850 deponun 833'ünü kapsar. Etkileşimli sürümü açmak için ilgili grafiğe tıklayın. İçinde bulunduğumuz ay henüz tamamlanmadı.
+
+[![Kategoriye göre aylık commit sayısı](public/activity/tr/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#commits)
+
+[![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |

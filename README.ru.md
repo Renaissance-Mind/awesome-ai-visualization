@@ -16,6 +16,16 @@
 
 Некоторые названия проектов, официальные термины и краткие описания оставлены на английском для поиска и сопоставления с исходниками.
 
+<!-- repository-activity:start -->
+## Активность репозиториев с 2024 года
+
+Данные по месяцам с января 2024 года; снимок на 13 октября 2026 года, 01:35 (UTC+8). Охвачено 833 из 850 репозиториев. Нажмите на график, чтобы открыть его интерактивную версию. Текущий месяц ещё не завершён.
+
+[![Коммиты по месяцам и категориям](public/activity/ru/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#commits)
+
+[![Новые репозитории по месяцам и категориям](public/activity/ru/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |

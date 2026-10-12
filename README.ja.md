@@ -16,6 +16,16 @@
 
 一部のプロジェクト名、公式用語、短い説明は、検索性と原典との対応を保つため英語のまま残しています。
 
+<!-- repository-activity:start -->
+## 2024 年以降のリポジトリ開発状況
+
+2024 年 1 月から月単位で集計。集計時点は 2026 年 10 月 13 日 01:35（UTC+8）、850 件中 833 件のリポジトリを対象としています。画像をクリックすると対応するインタラクティブ版が開きます。今月は集計途中です。
+
+[![カテゴリ別の月間コミット数](public/activity/ja/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#commits)
+
+[![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |

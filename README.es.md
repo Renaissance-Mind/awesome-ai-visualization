@@ -16,6 +16,16 @@ El catálogo está etiquetado por **fuente de información**, **tipo de herramie
 
 Algunos nombres de proyectos, términos oficiales y descripciones breves se mantienen en inglés para preservar la búsqueda y la trazabilidad con las fuentes originales.
 
+<!-- repository-activity:start -->
+## Actividad de repositorios desde 2024
+
+Datos mensuales desde enero de 2024, con una captura del 13 de octubre de 2026 a las 01:35 (UTC+8). Incluye 833 de 850 repositorios. Haz clic en cada gráfico para abrir su versión interactiva. El mes actual está incompleto.
+
+[![Commits mensuales por categoría](public/activity/es/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#commits)
+
+[![Repositorios creados al mes por categoría](public/activity/es/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |

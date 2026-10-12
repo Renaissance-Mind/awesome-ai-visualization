@@ -14,6 +14,16 @@ A curated list of AI and agent tools that turn papers, news, web pages, document
 
 The catalog is tagged by **information source**, **tool form**, **output artifact**, and **dependency type**. Slides are only one output surface; many tools also produce reports, web pages, diagrams, mind maps, dashboards, or code maps.
 
+<!-- repository-activity:start -->
+## Repository activity since 2024
+
+Monthly bins from January 2024; snapshot: 13 October 2026, 01:35 (UTC+8). Covers 833 of 850 repositories. Click either chart to open its interactive version. The current month is incomplete.
+
+[![Monthly commits by category](public/activity/en/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/en/#commits)
+
+[![Repositories created per month by category](public/activity/en/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/en/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |

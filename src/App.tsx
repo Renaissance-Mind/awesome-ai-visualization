@@ -80,6 +80,7 @@ function Header({ view }: { view: string }) {
     <nav aria-label="网站导航">
       <Link href="/" aria-current={view === "catalog" ? "page" : undefined}>工具目录</Link>
       <Link href="?view=guides" aria-current={view === "guides" ? "page" : undefined}>专题指南</Link>
+      <a href="/activity/zh-CN/">开发统计</a>
       <a href={repository} target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={15} aria-hidden="true" /><span className="sr-only">（新窗口）</span></a>
     </nav>
   </header>;

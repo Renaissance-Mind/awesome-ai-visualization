@@ -16,6 +16,16 @@
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
 
+<!-- repository-activity:start -->
+## 2024년 이후 저장소 개발 활동
+
+2024년 1월부터 월 단위로 집계했습니다. 집계 시점은 2026년 10월 13일 01:35 (UTC+8)이며, 850개 중 833개 저장소를 포함합니다. 이미지를 클릭하면 해당 대화형 차트가 열립니다. 이번 달은 아직 집계 중입니다.
+
+[![분류별 월간 커밋 수](public/activity/ko/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#commits)
+
+[![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |

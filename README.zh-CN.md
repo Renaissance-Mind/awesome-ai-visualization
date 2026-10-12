@@ -14,6 +14,16 @@
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
 
+<!-- repository-activity:start -->
+## 2024 年起的 repo 开发活动
+
+从 2024 年 1 月起按月统计，数据快照截至 2026 年 10 月 13 日 01:35（UTC+8），覆盖 833 / 850 个 repo。点击任一图表可打开对应交互版；当月尚未结束。
+
+[![各类别每月 commit 数](public/activity/zh-CN/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#commits)
+
+[![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
+<!-- repository-activity:end -->
+
 ## Latest Refresh (2026-10-11)
 
 | Project | Catalog focus |
