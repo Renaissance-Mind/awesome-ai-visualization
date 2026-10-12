@@ -1,5 +1,5 @@
 // Reading copy for selected entries. Facts come from the canonical catalog and
-// linked official sources; all other entries retain their original descriptions.
+// linked official sources; other entries use the English note or its Chinese translation.
 export const editorial: Record<string, { summary: string; detail: string; topic?: string }> = {
   "Open Design": {
     summary: "从文字到网页、演示与仪表盘。",
@@ -94,5 +94,68 @@ export const localPreviews: Record<string, { path: string; source: string; title
     path: "/catalog-previews/graphify.png",
     source: "https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graph-hero.png",
     title: "Graphify 官方示例：FastAPI 代码库知识图谱",
+  },
+};
+
+export const editorialEn: Record<string, { summary: string; detail: string }> = {
+  "Open Design": {
+    summary: "Turn text into websites, presentations and dashboards.",
+    detail: "Generate, preview and refine your work in a local design workspace.",
+  },
+  "baoyu-design": {
+    summary: "Bring interface design into your existing coding agent.",
+    detail: "Create interactive HTML pages, then refine them through browser previews.",
+  },
+  PaperBanana: {
+    summary: "Turn research methods and figure captions into scientific diagrams.",
+    detail: "Use reference examples to organize methodology diagrams and statistical plots.",
+  },
+  Graphify: {
+    summary: "Connect code and documents in an explorable knowledge graph.",
+    detail: "Understand a project's structure and relationships through interactive pages and reports.",
+  },
+  "Data Formulator": {
+    summary: "Explore data and visualizations with natural language.",
+    detail: "Iterate on charts around your data tables to make analysis more intuitive.",
+  },
+  Presenton: {
+    summary: "Generate presentations from text, documents and web sources.",
+    detail: "Use the open-source application or API in your presentation workflow.",
+  },
+  "Open CoDesign": {
+    summary: "Generate pages and presentations from prompts, then refine them locally.",
+    detail: "Choose your model service and export HTML, PDF, PPTX and other formats.",
+  },
+  "Huashu Design": {
+    summary: "Explore visual directions, interface prototypes and presentations with a design skill.",
+    detail: "Use HTML to connect design, review and animation export.",
+  },
+  "scroll-craft": {
+    summary: "Build websites around scroll rhythm, scene transitions and media.",
+    detail: "Includes a design workflow, scroll engines and browser verification tools.",
+  },
+  Paper2Any: {
+    summary: "Turn papers, text and research topics into visual artifacts.",
+    detail: "Create research diagrams, technical roadmaps, presentations, posters and multimodal content.",
+  },
+  Gamma: {
+    summary: "Generate presentations, documents and websites from text and source material.",
+    detail: "Organize content in the browser and export to PowerPoint or PDF.",
+  },
+  "Napkin AI": {
+    summary: "Turn text into visuals for communication and explanation.",
+    detail: "Export to PPT, PNG, SVG and PDF.",
+  },
+  Docling: {
+    summary: "Convert documents into structured content for further processing.",
+    detail: "Add document parsing to research, retrieval and generative AI workflows.",
+  },
+  Marker: {
+    summary: "Convert PDFs to Markdown and JSON.",
+    detail: "Prepare document content for reading, analysis and visualization.",
+  },
+  HyperFrames: {
+    summary: "Turn HTML, CSS and animation workflows into video.",
+    detail: "Generate MP4 files with agent skills, command-line previews and rendering tools.",
   },
 };

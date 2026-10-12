@@ -14,6 +14,7 @@ for (const [locale, copy] of Object.entries(locales)) {
   const page = read(folder + 'index.html');
   const readme = read(copy.readme);
   assert(page.includes('<html lang="' + locale + '">'));
+  if (locale === 'en' || locale === 'zh-CN') assert.equal((page.match(new RegExp('href="/\\?lang=' + (locale === 'en' ? 'en' : 'zh') + '"', 'g')) || []).length, 2);
   assert.equal((readme.match(/<!-- repository-activity:start -->/g) || []).length, 1);
   assert.equal((readme.match(/<!-- repository-activity:end -->/g) || []).length, 1);
   const payload = JSON.parse(page.match(/<script id="activity-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);

@@ -15,7 +15,7 @@ The reader should be able to scan several real tools, understand each one's core
 - Keep external resources linked to their real GitHub or official URLs in production.
 - Work at desktop, tablet and mobile widths.
 
-The source-grounded reading copy lives in src/data/editorial.ts; it never replaces the canonical catalog facts. All uncurated entries retain their original descriptions.
+The source-grounded reading copy lives in src/data/editorial.ts. Canonical English descriptions are paired with Chinese translations in data/catalog.zh-CN.json. The header language control switches the complete interface and descriptions while preserving browsing context.
 
 The npm script design:open remains available for the Open Design workflow. It is not required to run or build this site.
 

@@ -146,6 +146,7 @@ def main():
         payload = {"monthly": monthly, "categories": categories, "copy": copy, "locale": locale}
         replacements = {
             "LANG": locale, "TITLE": copy["title"], "INTRO": copy["intro"],
+            "CATALOG_URL": "/?lang=en" if locale == "en" else "/?lang=zh" if locale == "zh-CN" else "/",
             "LANGUAGE": copy["language"], "CATALOG": copy["catalog"], "FILTER_HINT": copy["filterHint"],
             "COMMITS_TITLE": copy["commitsTitle"], "CREATED_TITLE": copy["createdTitle"],
             "SVG": copy["svg"], "DATA": copy["data"], "METHODS": copy["methods"],

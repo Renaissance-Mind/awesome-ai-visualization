@@ -1,0 +1,156 @@
+export type Locale = "zh" | "en";
+
+export const englishMessages: Record<string, string> = {
+  "工具目录": "Tool catalog",
+  "专题指南": "Guides",
+  "开发统计": "Activity",
+  "网站导航": "Site navigation",
+  "语言": "Language",
+  "（新窗口）": " (opens in a new tab)",
+  "先了解能做什么，再选择适合你的工具。": "Explore what each tool does, then find the right one for you.",
+  "搜索名称或用途": "Search tools or use cases",
+  "清空搜索": "Clear search",
+  "内容分类": "Browse by topic",
+  "全部": "All",
+  "演示与网页": "Presentations & web",
+  "图解与研究": "Diagrams & research",
+  "数据与知识": "Data & knowledge",
+  "辅助工具": "Supporting tools",
+  "制作演示与交互页面": "Create presentations and interactive pages",
+  "让复杂内容更易理解": "Make complex ideas easier to understand",
+  "看清数据与知识中的关系": "Explore connections in data and knowledge",
+  "完善你的内容工作流": "Complete your content workflow",
+  "从想法和资料出发，找到适合自己的创作方式。": "Start with your ideas and materials, and find a way to bring them to life.",
+  "用图解、信息图与研究材料，清晰地解释一个想法。": "Explain an idea clearly with diagrams, infographics and research materials.",
+  "从数据、文档与代码中发现结构，组织成可阅读的内容。": "Discover structure in data, documents and code, and turn it into something readable.",
+  "解析、渲染与导出工具，让资料顺利走到最终产物。": "Use parsing, rendering and export tools to turn source material into finished work.",
+  "排列方式": "Sort by",
+  "编辑精选": "Editor's picks",
+  "名称 A–Z": "Name A–Z",
+  "项目更新": "Project updated",
+  "收录时 Star": "Stars at indexing",
+  "资料丰富度": "Evidence available",
+  "工具": "Tools",
+  "工具列表": "Tool list",
+  "搜索结果": "Search results",
+  "筛选": "Filters",
+  "资料来源": "Source material",
+  "工具形态": "Tool type",
+  "想要的产出": "Output",
+  "运行依赖": "Requirements",
+  "目录方向": "Catalog section",
+  "不限": "Any",
+  "清除筛选": "Clear filters",
+  "阅读介绍": "Read more",
+  "阅读 {name} 的介绍": "Read about {name}",
+  "观看官方演示": "Watch the official demo",
+  "播放官方演示": "Play the official demo",
+  "没有找到符合条件的工具": "No tools match your search",
+  "试试更短的名称或用途，也可以放宽筛选条件。": "Try a shorter name or use case, or broaden your filters.",
+  "查看全部工具": "Browse all tools",
+  "已显示 {shown} / {total} 个工具": "Showing {shown} of {total} tools",
+  "向下滚动自动加载": "Scroll down to load more",
+  "加载更多": "Load more",
+  "已显示全部工具": "All tools loaded",
+  "这份官方素材暂时无法在页面中显示。": "This official asset cannot be displayed here right now.",
+  "到来源页面查看": "View the source",
+  "{name} 官方演示：{title}": "{name} official demo: {title}",
+  "视频来自 {host}": "Video from {host}",
+  "实际效果": "See it in action",
+  "目前还没有收录可预览的官方素材。": "No official preview assets have been collected for this tool yet.",
+  "到官方页面查看": "Visit the official site",
+  "原始来源": "Original source",
+  "查看全部 {count} 份素材": "View all {count} assets",
+  "GitHub 仓库": "GitHub repository",
+  "官方页面": "Official site",
+  "项目主页": "Project website",
+  "当前位置": "Breadcrumb",
+  "从什么开始，会得到什么": "What you provide and what you get",
+  "准备的材料": "Source material",
+  "生成的结果": "Output",
+  "请参考项目官方说明": "See the project's official documentation",
+  "使用前需要知道": "Before you start",
+  "这是以{forms}形式提供的工具。": "Available as: {forms}.",
+  "目录记录的依赖包括{dependencies}，具体配置以官方文档为准。": "Listed requirements include {dependencies}. Check the official documentation for setup details.",
+  "许可证": "License",
+  "待核实，请查看官方仓库": "Unverified; check the official repository",
+  "非实时数据": "Snapshot, not a live count",
+  "记录的项目更新": "Recorded project update",
+  "从官方资料开始": "Start with the official resources",
+  "项目入口": "Project links",
+  "文档与使用说明": "Documentation",
+  "示例与模板": "Examples and templates",
+  "目录最近整理于 {date}。条目信息以项目最新官方说明为准。": "Catalog last reviewed on {date}. Refer to the project's latest documentation for current details.",
+  "本页内容": "On this page",
+  "输入与产出": "Inputs and outputs",
+  "使用条件": "Requirements",
+  "官方资料": "Official resources",
+  "返回工具目录": "Back to the catalog",
+  "继续探索{topic}": "Explore more: {topic}",
+  "从你要表达的内容出发，找到合适的方向。": "Start with what you want to communicate and find a useful direction.",
+  "阅读这个专题": "Read this guide",
+  "先按自己的工作环境缩小范围，再查看实际效果与使用条件。": "Narrow the choices to fit your workflow, then explore the results and requirements.",
+  "通过应用完成创作": "Create with an application",
+  "在独立应用或在线服务中组织内容、预览结果并继续修改。": "Organize your content, preview results and refine your work in a standalone app or online service.",
+  "延续已有的 Agent 工作流": "Extend your existing agent workflow",
+  "把专门的工具与设计能力带入你正在使用的工作环境。": "Bring specialized tools and design capabilities into the environment you already use.",
+  "接入自己的工具与流程": "Connect to your own tools and workflows",
+  "通过 MCP、API 与库连接资料处理、生成和导出环节。": "Connect processing, generation and export through MCP servers, APIs and libraries.",
+  "浏览这个方向的全部 {count} 个工具": "Browse all {count} tools in this topic",
+  "内容来自项目官方资料": "Based on official project resources",
+  "最近整理 · {date}": "Last reviewed · {date}",
+  "项目资料": "Project resources",
+  "目录数据": "Catalog data",
+  "阅读 README": "Read the README",
+  "跳到内容": "Skip to content",
+  "没有找到这个工具": "Tool not found",
+  "名称可能已调整，可以返回目录继续查找。": "The name may have changed. Return to the catalog to find it.",
+  "{repository} 的 GitHub 仓库与 Star 数量（新窗口）": "{repository} on GitHub and its star count (opens in a new tab)",
+  " · Star 为目录收录时的快照，非实时": " · Stars recorded in the catalog, not a live count",
+  "{repository} 的 GitHub Stars 徽章": "GitHub Stars badge for {repository}",
+  "Open Design 官方示例：Swiss International 演示": "Open Design official example: Swiss International presentation",
+  "baoyu-design 官方示例：Reader 页面": "baoyu-design official example: Reader interface",
+  "PaperBanana 官方示例：方法图与统计图": "PaperBanana official examples: methodology diagrams and statistical plots",
+  "Graphify 官方示例：FastAPI 代码库知识图谱": "Graphify official example: the FastAPI codebase knowledge graph",
+  "论文与研究": "Papers and research",
+  "网页与资讯": "Web and news",
+  "文档与知识": "Documents and knowledge",
+  "代码库": "Codebases",
+  "数据分析": "Data analysis",
+  "文字与视觉表达": "Text and visual communication",
+  "视频制作": "Video production",
+  "演示文稿": "Presentations",
+  "文档解析": "Document parsing",
+  "渲染与导出": "Rendering and export",
+  "思维导图": "Mind maps",
+  "发现更多工具": "Tool directories",
+  "图解": "Diagrams",
+  "文字表达": "Text communication",
+  "知识整理": "Knowledge organization",
+  "发现把论文、文档、数据与想法转成视觉产物的 AI 工具。浏览工具介绍、官方效果与使用资料。": "Discover AI tools that turn papers, documents, data and ideas into visual work. Explore descriptions, official examples and documentation."
+};
+
+export function localeFrom(params: URLSearchParams): Locale {
+  return params.get("lang") === "en" ? "en" : "zh";
+}
+
+export function translate(locale: Locale, key: string, values: Record<string, string | number> = {}) {
+  const text = locale === "en" ? englishMessages[key] ?? key : key;
+  return text.replace(/\{(\w+)\}/g, (_, name: string) => String(values[name] ?? "{" + name + "}"));
+}
+
+export function localizedHref(href: string, locale: Locale) {
+  const hashIndex = href.indexOf("#");
+  const hash = hashIndex >= 0 ? href.slice(hashIndex) : "";
+  const base = hashIndex >= 0 ? href.slice(0, hashIndex) : href;
+  const queryIndex = base.indexOf("?");
+  const pathname = (queryIndex >= 0 ? base.slice(0, queryIndex) : base) || "/";
+  const params = new URLSearchParams(queryIndex >= 0 ? base.slice(queryIndex + 1) : "");
+  if (!params.has("lang")) params.set("lang", locale);
+  return pathname + "?" + params.toString() + hash;
+}
+
+export function toolCount(locale: Locale, count: number) {
+  const formatted = new Intl.NumberFormat(locale === "zh" ? "zh-CN" : "en-US").format(count);
+  return locale === "zh" ? formatted + " 个工具" : formatted + (count === 1 ? " tool" : " tools");
+}

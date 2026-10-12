@@ -22,6 +22,7 @@ export type CatalogEntry = {
   license: string | null;
   updated: string | null;
   note: string;
+  noteZh: string;
   sourceTypes: string[];
   toolForms: string[];
   outputForms: string[];

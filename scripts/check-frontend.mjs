@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import ts from "typescript";
 import { readFileSync, mkdtempSync, rmSync, existsSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
@@ -14,9 +15,58 @@ try {
     "--lib", "ES2024,DOM", "--skipLibCheck", "--strict",
   ], { cwd: root, stdio: "pipe" });
   const require = createRequire(import.meta.url);
-  const { filterCatalog, catalogWindow, CATALOG_BATCH_SIZE, githubRepository, topicFor, topics, buildHref, videoEmbed, previewAssets } = require(join(scratch, "lib/discovery.js"));
+  const { filterCatalog, catalogWindow, CATALOG_BATCH_SIZE, githubRepository, topicFor, topics, groupNames, sortOptions, filterFields, descriptionFor, galleryAssets, buildHref, videoEmbed, previewAssets } = require(join(scratch, "lib/discovery.js"));
   const { featuredNames, localPreviews } = require(join(scratch, "data/editorial.js"));
   const { entries } = JSON.parse(readFileSync("src/data/catalog.generated.json", "utf8"));
+  const { englishMessages, localeFrom, localizedHref, translate, toolCount } = require(join(scratch, "lib/i18n.js"));
+  const { localizedLabel } = require(join(scratch, "lib/labels.js"));
+  const translations = JSON.parse(readFileSync("data/catalog.zh-CN.json", "utf8"));
+  for (const entry of entries) {
+    assert.equal(translations.entries[entry.name].source, entry.note, "Chinese copy must match the current source.");
+    assert.equal(translations.entries[entry.name].zh, entry.noteZh);
+    assert(/[\u4e00-\u9fff]/.test(entry.noteZh), entry.name + " needs a Chinese description.");
+    assert(!/ZXTERM|ZXQ\d/.test(entry.noteZh), "No translation boundary markers may reach the site.");
+    assert(/[\u4e00-\u9fff]/.test(descriptionFor(entry, "zh").summary));
+    assert(!/[\u4e00-\u9fff]/.test(descriptionFor(entry, "en").summary));
+    for (const value of [...entry.sourceTypes, ...entry.toolForms, ...entry.outputForms, ...entry.dependencies]) {
+      assert(!/[\u4e00-\u9fff]/.test(localizedLabel(value, "en")), "Missing English taxonomy label: " + value);
+    }
+  }
+  const labels = [...topics.flatMap(t => [t.label,t.title,t.intro]), ...Object.values(groupNames), ...sortOptions.map(x=>x.label), ...filterFields.map(x=>x.label)];
+  for (const label of labels) assert(englishMessages[label], "Missing English UI label: " + label);
+  for (const [key,value] of Object.entries(englishMessages)) {
+    assert(!/[\u4e00-\u9fff]/.test(value), "English message contains Chinese: " + key);
+    const parameters = s => [...s.matchAll(/\{(\w+)\}/g)].map(m=>m[1]).sort();
+    assert.deepEqual(parameters(value), parameters(key), "Translation must preserve interpolation parameters.");
+  }
+  for (const path of ["src/App.tsx","src/components/RepositoryBadge.tsx"]) {
+    const source=ts.createSourceFile(path,readFileSync(path,"utf8"),ts.ScriptTarget.Latest,true,ts.ScriptKind.TSX);
+    const visit=node=>{
+      if (ts.isJsxText(node)) assert(!/[\u4e00-\u9fff]/.test(node.text), "Untranslated UI text: " + node.text);
+      if (ts.isCallExpression(node)&&node.expression.getText(source)==="t"&&ts.isStringLiteral(node.arguments[0])) {
+        assert(englishMessages[node.arguments[0].text], "Missing translation: "+node.arguments[0].text);
+      }
+      ts.forEachChild(node,visit);
+    };
+    visit(source);
+  }
+  assert.equal(localeFrom(new URLSearchParams()),"zh");
+  assert.equal(localeFrom(new URLSearchParams({lang:"en"})),"en");
+  assert.equal(localeFrom(new URLSearchParams({lang:"other"})),"zh");
+  const switched=new URLSearchParams(localizedHref("?q=Graphify&page=2&tool=Graphify","en").split("?")[1]);
+  assert.equal(switched.get("lang"),"en");
+  assert.equal(switched.get("page"),"2");
+  assert.equal(switched.get("tool"),"Graphify");
+  assert.equal(switched.get("q"),"Graphify");
+  assert.equal(localizedHref("/","en"),"/?lang=en");
+  assert.equal(localizedHref("?view=guides&lang=zh","en"),"/?view=guides&lang=zh");
+  assert.equal(localizedHref("?tool=Graphify#examples","en"),"/?tool=Graphify&lang=en#examples");
+  assert.equal(translate("en","已显示 {shown} / {total} 个工具",{shown:20,total:894}),"Showing 20 of 894 tools");
+  assert.equal(toolCount("en",1),"1 tool");
+  assert.equal(toolCount("zh",1),"1 个工具");
+  const crossLanguageSearch = filterCatalog(entries, new URLSearchParams({ q: "亿行", lang: "en" }));
+  assert(crossLanguageSearch.some(entry => entry.name === "FlexViz"), "English pages must also find Chinese descriptions.");
+  assert.deepEqual(crossLanguageSearch.map(entry=>entry.name), filterCatalog(entries, new URLSearchParams({q:"亿行",lang:"zh"})).map(entry=>entry.name));
   const all = filterCatalog(entries, new URLSearchParams());
   assert.equal(all.length, entries.length, "The complete catalog must remain accessible.");
   assert.deepEqual(all.slice(0, 6).map(e => e.name), featuredNames);
@@ -84,7 +134,7 @@ try {
     assert(existsSync(join(root, "public", preview.path)), "Local preview must ship with the production build.");
   }
   assert.equal(previewAssets(entries.find(e => e.name === "Data Formulator")).length, 0);
-  console.log("Frontend checks passed: " + entries.length + " real entries, complete category coverage, search, combined filters, 20-entry incremental loading, detail round-trip, repository badges, previews and video origins.");
+  console.log("Frontend checks passed: " + entries.length + " real entries, complete category coverage, search, combined filters, 20-entry incremental loading, detail round-trip, repository badges, bilingual UI/content/URLs, previews and video origins.");
 } finally {
   rmSync(scratch, { recursive: true, force: true });
 }

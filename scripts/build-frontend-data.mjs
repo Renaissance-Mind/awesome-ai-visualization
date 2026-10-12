@@ -9,6 +9,7 @@ const outputPath = path.join(root, "src/data/catalog.generated.json");
 
 const catalog = YAML.parse(await readFile(catalogPath, "utf8"));
 const research = YAML.parse(await readFile(researchPath, "utf8"));
+const translations = JSON.parse(await readFile(path.join(root, "data/catalog.zh-CN.json"), "utf8"));
 const researchByName = new Map((research.entries ?? []).map((entry) => [entry.name, entry]));
 
 const uniqueLinks = (links) => {
@@ -46,6 +47,10 @@ const buildEffectAssets = (researchEntry) =>
 
 const entries = catalog.entries.map((entry) => {
   const researchEntry = researchByName.get(entry.name);
+  const translated = translations.entries[entry.name];
+  if (!translated?.zh || translated.source !== entry.note) {
+    throw new Error("Missing or outdated Chinese description for " + entry.name + ". Update data/catalog.zh-CN.json before building.");
+  }
 
   return {
     name: entry.name,
@@ -59,6 +64,7 @@ const entries = catalog.entries.map((entry) => {
     license: entry.license ?? null,
     updated: entry.updated ?? null,
     note: entry.note ?? "",
+    noteZh: translated.zh,
     sourceTypes: entry.source_types ?? [],
     toolForms: entry.tool_forms ?? [],
     outputForms: entry.output_forms ?? [],

@@ -92,3 +92,5 @@ export const categoryLabels: Record<string, string> = {
 };
 
 export const labelFor = (value: string) => tagLabels[value] ?? value;
+
+export const localizedLabel = (value: string, locale: "zh" | "en") => locale === "en" ? labelFor(value) : value;

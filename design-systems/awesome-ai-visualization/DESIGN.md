@@ -26,7 +26,8 @@ This design supersedes the earlier three-panel dashboard.
 ## Content
 
 - Canonical facts remain in data/catalog.yml and data/tool-research.yml.
-- src/data/editorial.ts provides source-grounded Chinese reading copy for selected entries. Other entries retain the canonical description.
+- Provide Chinese and English versions with a quiet 中文 / EN control in the masthead. Preserve the current query, filters, loaded batches and tool while switching.
+- src/data/editorial.ts provides paired reading copy for selected entries. Other entries use the canonical English note or its source-matched Chinese translation in data/catalog.zh-CN.json.
 - Never invent tools, previews, statistics, testimonials or supported capabilities.
 - Detail pages display evidence, inputs, outputs, dependencies and official resources.
 - GitHub tool titles link to their repository through a Shields.io Stars badge, following the existing README convention. While unavailable or loading, the fallback count is explicitly identified as a catalog snapshot in its tooltip. Non-GitHub entries have no repository badge. Detail metadata retains its labelled snapshot count.

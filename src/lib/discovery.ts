@@ -1,5 +1,7 @@
-import { editorial, featuredNames, localPreviews } from "../data/editorial";
+import { editorial, editorialEn, featuredNames, localPreviews } from "../data/editorial";
 import { matchesQuery, sortEntries, type SortKey } from "./catalog";
+import { labelFor } from "./labels";
+import { translate, type Locale } from "./i18n";
 import type { CatalogAsset, CatalogEntry } from "../types";
 
 export const topics = [
@@ -27,8 +29,9 @@ export function topicFor(entry: CatalogEntry): string {
   return "support";
 }
 
-export function descriptionFor(entry: CatalogEntry) {
-  return editorial[entry.name] ?? { summary: entry.note, detail: "" };
+export function descriptionFor(entry: CatalogEntry, locale: Locale = "zh") {
+  if (locale === "en") return editorialEn[entry.name] ?? { summary: entry.note, detail: "" };
+  return editorial[entry.name] ?? { summary: entry.noteZh, detail: "" };
 }
 
 export const sortOptions: { key: SortKey; label: string }[] = [
@@ -56,7 +59,12 @@ export function filterCatalog(entries: CatalogEntry[], params: URLSearchParams) 
     if (params.get("group") && entry.readmeGroup !== params.get("group")) return false;
     if (!filterFields.every(({ param, field }) => !params.get(param) || entry[field].includes(params.get(param)!))) return false;
     const copy = descriptionFor(entry);
-    const extraText = [copy.summary, copy.detail, groupNames[entry.readmeGroup], topics.find((t) => t.key === topicFor(entry))?.label].join(" ").toLocaleLowerCase();
+    const englishCopy = descriptionFor(entry, "en");
+    const extraText = [copy.summary, copy.detail, entry.noteZh, englishCopy.summary, englishCopy.detail,
+      groupNames[entry.readmeGroup], translate("en", groupNames[entry.readmeGroup] ?? ""),
+      topics.find((t) => t.key === topicFor(entry))?.label,
+      ...[...entry.sourceTypes, ...entry.toolForms, ...entry.outputForms, ...entry.dependencies].map(labelFor),
+    ].join(" ").toLocaleLowerCase();
     return terms.every((term) => matchesQuery(entry, term) || extraText.includes(term));
   });
   const sort = validSort(params.get("sort"));
@@ -91,19 +99,19 @@ export function catalogWindow<T>(items: T[], pageValue: string | null) {
   return { items: visible, batch, hasMore: visible.length < items.length };
 }
 
-export function galleryAssets(entry: CatalogEntry): CatalogAsset[] {
+export function galleryAssets(entry: CatalogEntry, locale: Locale = "zh"): CatalogAsset[] {
   const local = localPreviews[entry.name];
   const assets = entry.effectAssets.filter((asset) =>
     !/shields\.io|badge|spaces-on-hf|avatars\.github|github\.com\/[^/]+\.png|favicon|logo|\/icon[s]?\//i.test(asset.url + " " + asset.title),
   );
   if (!local) return assets;
-  return [{ kind: "image", title: local.title, url: local.path, source: local.source }, ...assets.filter((a) => a.url !== local.source)];
+  return [{ kind: "image", title: translate(locale, local.title), url: local.path, source: local.source }, ...assets.filter((a) => a.url !== local.source)];
 }
 
-export function previewAssets(entry: CatalogEntry): CatalogAsset[] {
+export function previewAssets(entry: CatalogEntry, locale: Locale = "zh"): CatalogAsset[] {
   // These curated rows deliberately use text-only introductions in the design.
   if (["Data Formulator", "Presenton"].includes(entry.name)) return [];
-  return galleryAssets(entry).filter((asset) => ["image", "gif"].includes(asset.kind)).slice(0, 3);
+  return galleryAssets(entry, locale).filter((asset) => ["image", "gif"].includes(asset.kind)).slice(0, 3);
 }
 
 export function buildHref(params: URLSearchParams, changes: Record<string, string | null>) {

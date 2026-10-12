@@ -156,3 +156,31 @@ Evidence:
   warning remains unchanged in kind.
 
 Follow-up final result: passed
+
+## Follow-up: Chinese and English versions — 2026-10-13
+
+- Added Chinese and English URL variants through `lang=zh` and `lang=en`.
+- Localized navigation, filters, sorting, guides, details, empty/loading states,
+  badge descriptions, accessibility labels, document metadata and README links.
+- Added source-matched Chinese descriptions for all 894 canonical entries.
+  Technical terminology and representative descriptions were reviewed; numeric
+  content was checked, including the equivalent 100M / 1 亿 expression.
+- Added paired English reading copy for the selected introductory entries.
+- Language changes preserve search/filter values, the current detail and the
+  number of revealed batches.
+- Both language versions share the original reading-oriented layout.
+
+Verification:
+- Frontend checks validate every source/translation pair, Chinese/English
+  description coverage, all English taxonomy and interface messages, placeholder
+  preservation, and language-aware URLs.
+- Browser checks confirmed an English catalog, English filters and topic guide,
+  Chinese descriptions after switching, and an English detail page after refresh.
+- Switching a 38-result combined filter retained the filter and count.
+- Switching an already expanded 40-row directory retained all rows in the same order.
+- English and Chinese pages had no horizontal document overflow at 390px.
+- Browser console reported no JavaScript errors.
+- Local evidence: docs/design/bilingual-en.jpg and docs/design/bilingual-zh.jpg.
+- `npm run check:frontend`, `npm run build` and `git diff --check` passed.
+
+Follow-up final result: passed
