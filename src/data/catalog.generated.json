@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-11T07:06:06.023Z",
-  "lastResearched": "2026-10-11",
+  "generatedAt": "2026-10-12T17:28:03.582Z",
+  "lastResearched": "2026-10-13",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 893,
-    "openSource": 215,
+    "total": 894,
+    "openSource": 216,
     "saas": 80,
-    "modelApi": 275,
-    "examples": 1898,
-    "effectAssets": 2324,
-    "docs": 2196
+    "modelApi": 276,
+    "examples": 1901,
+    "effectAssets": 2325,
+    "docs": 2202
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 586,
+      "文本/想法": 587,
       "数据/表格": 377,
       "代码/技术描述": 190,
       "任意/多源": 170,
       "网页/搜索结果": 220,
       "代码库": 102,
-      "DSL/代码": 183,
+      "DSL/代码": 184,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
       "Office 文档": 177,
@@ -30,10 +30,10 @@
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 215,
+      "开源应用/框架": 216,
       "Agent Skill": 366,
       "Skill 集合": 88,
-      "MCP Server": 292,
+      "MCP Server": 293,
       "产品/SaaS": 80,
       "数据集/评测": 5,
       "Bot/助手": 29,
@@ -55,7 +55,7 @@
       "报告/简报": 99,
       "白板/思维导图": 49,
       "图表/Mermaid": 81,
-      "视频/音频": 77,
+      "视频/音频": 78,
       "结构化数据/Markdown": 142,
       "表格/时间线": 36,
       "引用答案": 9,
@@ -66,14 +66,14 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 763,
-      "模型 API": 275,
+      "本地语言环境": 764,
+      "模型 API": 276,
       "文档解析/OCR": 129,
-      "渲染/导出": 793,
+      "渲染/导出": 794,
       "GPU/加速器": 24,
       "模板/素材": 451,
-      "Agent 宿主": 456,
-      "系统工具": 226,
+      "Agent 宿主": 457,
+      "系统工具": 227,
       "浏览器/账号": 202,
       "存储/索引": 139,
       "MCP Client": 306,
@@ -90,7 +90,7 @@
       "literature-map": 5,
       "presentation-tools": 275,
       "rendering-primitive": 29,
-      "video-generation": 29,
+      "video-generation": 30,
       "codebase-map": 54,
       "commercial-site": 10,
       "meta-index": 29
@@ -104,7 +104,7 @@
       "support_doc_parse": 24,
       "presentation": 283,
       "data": 131,
-      "video": 29,
+      "video": 30,
       "code": 61,
       "support_render": 72,
       "diagrams": 20,
@@ -73228,10 +73228,10 @@
         "模型 API",
         "渲染/导出"
       ],
-      "stars": null,
+      "stars": 2170,
       "license": "MIT",
-      "updated": "2026-09-23",
-      "note": "PptMaker turns briefs, documents and existing decks into editable presentations inside Orkas, an open-source, local-first desktop AI workforce coordinated by Commander.",
+      "updated": "2026-10-13",
+      "note": "Orkas desktop app includes PptMaker, which turns topics, outlines and documents into editable PPTX decks, coordinated with research and writing agents. Bring your own model keys; runs locally on macOS, Windows and supported Linux systems.",
       "sourceTypes": [
         "文本/想法",
         "PDF/文档",
@@ -73246,11 +73246,115 @@
       ],
       "catalogSection": "main",
       "readmeGroup": "presentation",
-      "docs": [],
-      "examples": [],
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "native dependency setup and troubleshooting",
+          "url": "https://github.com/Orkas-AI/Orkas/blob/HEAD/docs/native-dependencies.md",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Orkas source installation and runtime requirements",
+          "url": "https://github.com/Orkas-AI/Orkas#quick-start",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Built-in PptMaker workflow",
+          "url": "https://github.com/Orkas-AI/Orkas#agents-that-ship-with-the-app",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Research-to-deck workflow and app demonstration",
+          "url": "https://github.com/Orkas-AI/Orkas#orkas",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "Orkas demo: the Commander turns a goal into a step-by-step plan, dispatches it to specialist agents, and delivers the finished file",
+          "url": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/resources/app-ui/demo-en.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md"
+        }
+      ],
+      "docsCount": 3,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
+    },
+    {
+      "name": "OrkasVideoStudio",
+      "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+      "primaryUrl": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模型 API"
+      ],
+      "stars": 500,
+      "license": "MIT",
+      "updated": "2026-10-13",
+      "note": "Agent-driven CLI, MCP server and skills for HTML motion-graphic explainers, footage editing and optional AI generation through an editable plan.json. Source installation needs Node 22+ and FFmpeg/ffprobe; model-provider keys are optional for generation and narration.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Source installation and prerequisites",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio#install",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI, MCP and native skill integration",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio#drive-it-from-your-coding-agent",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Video plan and runtime design",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/HEAD/PLAN.md",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Explainer, editing and mixed-production prompt examples",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio#use-cases",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
+        },
+        {
+          "kind": "tutorial",
+          "title": "Agent workflow for a narrated vector-database explainer",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio#drive-it-from-your-coding-agent",
+          "source": "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
+        }
+      ],
       "effectAssets": [],
-      "docsCount": 0,
-      "examplesCount": 0,
+      "docsCount": 3,
+      "examplesCount": 2,
       "effectAssetsCount": 0
     }
   ]
