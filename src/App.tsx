@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Layers3, Play, Search, SlidersHorizontal, X } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Github, Languages, Layers3, Play, Search, SlidersHorizontal, X } from "lucide-react";
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type AnchorHTMLAttributes, type ReactNode } from "react";
 import rawCatalog from "./data/catalog.generated.json";
 import { localPreviews } from "./data/editorial";
@@ -8,6 +8,7 @@ import { buildHref, catalogWindow, descriptionFor, filterCatalog, filterFields, 
 import type { CatalogAsset, CatalogData, CatalogEntry, CatalogLink } from "./types";
 import { useSemanticSearch } from "./lib/useSemanticSearch";
 import { MAX_QUERY_LENGTH } from "./lib/search-config";
+import Homepage, { designFor, languageFor } from "./components/Homepage";
 
 const catalog = rawCatalog as CatalogData;
 const ProjectExplanation = lazy(() => import("./components/ProjectExplanation"));
@@ -36,11 +37,15 @@ function useLocation() {
 }
 
 function Link({ href = "/", children, ...props }: AnchorHTMLAttributes<HTMLAnchorElement>) {
-  return <a href={href} {...props} onClick={(event) => {
+  const next = new URL(href, window.location.origin);
+  const current = new URLSearchParams(window.location.search);
+  for (const key of ["lang", "design"]) if (!next.searchParams.has(key) && current.has(key)) next.searchParams.set(key, current.get(key)!);
+  const destination = next.pathname + next.search + next.hash;
+  return <a href={destination} {...props} onClick={(event) => {
     props.onClick?.(event);
-    if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
-    navigate(href);
+    navigate(destination);
   }}>{children}</a>;
 }
 
@@ -74,16 +79,22 @@ function ToolRow({ entry, params }: { entry: CatalogEntry; params: URLSearchPara
   </li>;
 }
 
-function Header({ view }: { view: string }) {
+function Header({ view, params }: { view: string; params: URLSearchParams }) {
+  const en = languageFor(params) === "en";
   return <header className="site-header wrap">
     <Link className="brand" href="/">
       <span className="brand-icon"><Layers3 size={21} strokeWidth={1.7} aria-hidden="true" /></span>
       <span>Awesome AI Visualization</span>
     </Link>
-    <nav aria-label="网站导航">
-      <Link href="/" aria-current={view === "catalog" ? "page" : undefined}>工具目录</Link>
-      <Link href="?view=guides" aria-current={view === "guides" ? "page" : undefined}>专题指南</Link>
-      <a href={repository} target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={15} aria-hidden="true" /><span className="sr-only">（新窗口）</span></a>
+    <nav aria-label={en ? "Main navigation" : "网站导航"}>
+      <Link href="/" aria-current={view === "home" ? "page" : undefined}>{en ? "Home" : "首页"}</Link>
+      <Link href="?view=catalog" aria-current={view === "catalog" ? "page" : undefined}>{en ? "Catalog" : "工具目录"}</Link>
+      <label className="language-select"><Languages size={15} aria-hidden="true" /><span className="sr-only">{en ? "Language" : "语言"}</span>
+        <select aria-label={en ? "Language" : "语言"} value={en ? "en" : "zh"} onChange={event => navigate(buildHref(params, { lang: event.target.value }), false, false)}>
+          <option value="zh">简体中文</option><option value="en">English</option>
+        </select><ChevronDown size={12} aria-hidden="true" />
+      </label>
+      <a className="github-link" href={repository} target="_blank" rel="noreferrer" aria-label={en ? "GitHub repository (opens in a new window)" : "GitHub 仓库（新窗口）"} title="GitHub"><Github size={21} strokeWidth={1.6} aria-hidden="true" /></a>
     </nav>
   </header>;
 }
@@ -177,7 +188,7 @@ function Directory({ params }: { params: URLSearchParams }) {
       : semantic.error ? <section className="empty-state" role="alert"><h2>搜索暂时未完成</h2><p>{semantic.error}</p><button type="button" className="text-link" onClick={semantic.retry}>重新搜索<ArrowRight size={17} /></button></section>
       : matches.length ? <ul className="tool-list" aria-label="工具列表">{visible.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
       : <section className="empty-state"><h2>没有找到符合条件的工具</h2><p>试试更短的名称或用途，也可以放宽筛选条件。</p>
-        <Link className="text-link" href="/">查看全部工具<ArrowRight size={17} /></Link></section>}
+        <Link className="text-link" href="?view=catalog">查看全部工具<ArrowRight size={17} /></Link></section>}
     {matches.length > 0 && <div className="load-more" ref={loadMoreRef}>
       <p role="status" aria-live="polite">已显示 {formatNumber(visible.items.length)} / {formatNumber(matches.length)} 个工具</p>
       {visible.hasMore ? <div>
@@ -231,7 +242,7 @@ function ResourceList({ title, links }: { title: string; links: CatalogLink[] })
 function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParams }) {
   const copy = descriptionFor(entry);
   const topic = topics.find((item) => item.key === topicFor(entry))!;
-  const returnHref = buildHref(params, { tool: null });
+  const returnHref = buildHref(params, { tool: null, view: "catalog" });
   const resources = [{ title: "GitHub 仓库", url: entry.url }];
   if (!entry.url.includes("github.com")) resources[0].title = "官方页面";
   if (entry.homepage && entry.homepage !== entry.url) resources.push({ title: "项目主页", url: entry.homepage });
@@ -271,36 +282,13 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
   </article>;
 }
 
-function Guides({ params }: { params: URLSearchParams }) {
-  const selected = topics.find((topic) => topic.key === params.get("guide") && topic.key !== "all");
-  if (!selected) return <section className="guides-index"><div className="directory-heading"><div><h1>专题指南</h1><p>从你要表达的内容出发，找到合适的方向。</p></div></div>
-    <div className="guide-list">{topics.slice(1).map((topic) => <article key={topic.key}>
-      <h2><Link href={"?view=guides&guide=" + topic.key}>{topic.title}</Link></h2><p>{topic.intro}</p><Link className="text-link" href={"?view=guides&guide=" + topic.key}>阅读这个专题<ArrowRight size={17} /></Link>
-    </article>)}</div>
-  </section>;
-  const entries = filterCatalog(catalog.entries, new URLSearchParams({ topic: selected.key }));
-  const groups = [
-    { id: "workspace", title: "通过应用完成创作", intro: "在独立应用或在线服务中组织内容、预览结果并继续修改。", test: (entry: CatalogEntry) => !entry.toolForms.some((form) => /Skill|MCP|API/.test(form)) },
-    { id: "agent", title: "延续已有的 Agent 工作流", intro: "把专门的工具与设计能力带入你正在使用的工作环境。", test: (entry: CatalogEntry) => entry.toolForms.some((form) => /Skill/.test(form)) },
-    { id: "integrate", title: "接入自己的工具与流程", intro: "通过 MCP、API 与库连接资料处理、生成和导出环节。", test: (entry: CatalogEntry) => !entry.toolForms.some((form) => /Skill/.test(form)) && entry.toolForms.some((form) => /MCP|API/.test(form)) },
-  ].map((group) => ({ ...group, entries: entries.filter(group.test).slice(0, 3) })).filter((group) => group.entries.length);
-  return <article className="guide-page"><nav className="breadcrumb" aria-label="当前位置"><Link href="?view=guides">专题指南</Link><span>/</span><span>{selected.label}</span></nav>
-    <header className="guide-heading"><h1>{selected.title}</h1><p>{selected.intro}</p><p>先按自己的工作环境缩小范围，再查看实际效果与使用条件。</p></header>
-    <div className="guide-layout"><aside className="reading-toc" aria-label="本页内容"><p>本页内容</p>{groups.map((group) => <a key={group.id} href={"#" + group.id}>{group.title}</a>)}</aside>
-      <div>{groups.map((group) => <section className="guide-section" key={group.id} id={group.id}><h2>{group.title}</h2><p>{group.intro}</p>
-        <ul>{group.entries.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
-      </section>)}
-      <Link className="text-link browse-topic" href={"?topic=" + selected.key}>浏览这个方向的全部 {formatNumber(entries.length)} 个工具<ArrowRight size={17} /></Link>
-    </div></div>
-  </article>;
-}
-
-function Footer() {
-  return <footer className="site-footer wrap"><div><p>内容来自项目官方资料</p><span>最近整理 · {catalog.lastResearched}</span></div>
+function Footer({ params }: { params: URLSearchParams }) {
+  const en = languageFor(params) === "en";
+  return <footer className="site-footer wrap"><div><p>{en ? "Drawn from official project sources" : "内容来自项目官方资料"}</p><span>{en ? "Last researched" : "最近整理"} · {catalog.lastResearched}</span></div>
     <nav aria-label="项目资料">
-      <External href={repository + "/blob/main/data/catalog.yml"}>目录数据</External>
+      <External href={repository + "/blob/main/data/catalog.yml"}>{en ? "Catalog data" : "目录数据"}</External>
       <External href={repository + "/blob/main/skills/ai-visualization-advisor/SKILL.md"}>Advisor Skill</External>
-      <External href={repository + "/blob/main/README.zh-CN.md"}>阅读 README</External>
+      <External href={repository + (en ? "/blob/main/README.md" : "/blob/main/README.zh-CN.md")}>{en ? "Read README" : "阅读 README"}</External>
     </nav>
   </footer>;
 }
@@ -309,15 +297,22 @@ export function App() {
   const params = useLocation();
   const toolName = params.get("tool");
   const entry = toolName ? catalog.entries.find((item) => item.name === toolName) : undefined;
-  const view = params.get("view") === "guides" ? "guides" : "catalog";
+  const browseParams = ["q", "topic", "source", "form", "output", "runtime", "group", "page", "sort"];
+  const view = toolName || params.get("view") === "catalog" || params.get("view") === "guides" || browseParams.some(key => params.has(key)) ? "catalog" : "home";
+  const directoryParams = new URLSearchParams(params);
+  directoryParams.set("view", "catalog");
+  directoryParams.delete("guide");
+  const en = languageFor(params) === "en";
+  const design = designFor(params);
   useEffect(() => {
     document.getElementById("main")?.focus({ preventScroll: true });
-  }, [toolName, view, params.get("guide")]);
+  }, [toolName, view]);
   useEffect(() => {
-    document.title = (entry?.name ?? (view === "guides" ? "专题指南" : "工具目录")) + " · Awesome AI Visualization";
-  }, [entry, view]);
-  return <><a className="skip-link" href="#main">跳到内容</a><Header view={view} /><main id="main" className="wrap" tabIndex={-1}>
-    {toolName ? (entry ? <Detail key={entry.name} entry={entry} params={params} /> : <section className="empty-state"><h1>没有找到这个工具</h1><p>名称可能已调整，可以返回目录继续查找。</p><Link className="text-link" href="/">返回工具目录<ArrowRight size={17} /></Link></section>)
-      : view === "guides" ? <Guides params={params} /> : <Directory params={params} />}
-  </main><Footer /></>;
+    document.title = (entry?.name ?? (view === "home" ? (en ? "Home" : "首页") : (en ? "Catalog" : "工具目录"))) + " · Awesome AI Visualization";
+    document.documentElement.lang = en ? "en" : "zh-CN";
+  }, [entry, view, en]);
+  return <div className={"site-frame" + (view === "home" ? " home-frame design-" + design : "")}><a className="skip-link" href="#main">{en ? "Skip to content" : "跳到内容"}</a><Header view={view} params={params} /><main id="main" className={view === "home" ? "" : "wrap"} tabIndex={-1}>
+    {toolName ? (entry ? <Detail key={entry.name} entry={entry} params={params} /> : <section className="empty-state"><h1>没有找到这个工具</h1><p>名称可能已调整，可以返回目录继续查找。</p><Link className="text-link" href="?view=catalog">返回工具目录<ArrowRight size={17} /></Link></section>)
+      : view === "home" ? <Homepage catalog={catalog} params={params} go={navigate} /> : <Directory params={directoryParams} />}
+  </main><Footer params={params} /></div>;
 }
