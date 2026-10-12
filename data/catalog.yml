@@ -1,4 +1,4 @@
-last_researched: '2026-10-11'
+last_researched: '2026-10-13'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23606,4 +23606,54 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: video
-- {"name": "Orkas", "url": "https://github.com/Orkas-AI/Orkas", "category": "presentation-tools", "surface": "open-source", "dependencies": ["本地语言环境", "模型 API", "渲染/导出"], "license": "MIT", "updated": "2026-09-23", "note": "PptMaker turns briefs, documents and existing decks into editable presentations inside Orkas, an open-source, local-first desktop AI workforce coordinated by Commander.", "source_types": ["文本/想法", "PDF/文档", "Office 文档", "数据/表格"], "tool_forms": ["开源应用/框架"], "output_forms": ["PPT/演示文稿"], "catalog_section": "main", "readme_group": "presentation"}
+- name: Orkas
+  url: https://github.com/Orkas-AI/Orkas
+  category: presentation-tools
+  surface: open-source
+  dependencies:
+    - 本地语言环境
+    - 模型 API
+    - 渲染/导出
+  license: MIT
+  updated: 2026-10-13
+  note: Orkas desktop app includes PptMaker, which turns topics, outlines and documents into editable PPTX decks,
+    coordinated with research and writing agents. Bring your own model keys; runs locally on macOS, Windows and
+    supported Linux systems.
+  source_types:
+    - 文本/想法
+    - PDF/文档
+    - Office 文档
+    - 数据/表格
+  tool_forms:
+    - 开源应用/框架
+  output_forms:
+    - PPT/演示文稿
+  catalog_section: main
+  readme_group: presentation
+  stars: 2170
+- name: OrkasVideoStudio
+  url: https://github.com/Orkas-AI/Orkas-VideoStudio
+  category: video-generation
+  surface: open-source
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 系统工具
+    - 模型 API
+  license: MIT
+  updated: 2026-10-13
+  note: Agent-driven CLI, MCP server and skills for HTML motion-graphic explainers, footage editing and optional AI
+    generation through an editable plan.json. Source installation needs Node 22+ and FFmpeg/ffprobe; model-provider keys
+    are optional for generation and narration.
+  source_types:
+    - 文本/想法
+    - DSL/代码
+  tool_forms:
+    - 开源应用/框架
+    - MCP Server
+  output_forms:
+    - 视频/音频
+  catalog_section: main
+  readme_group: video
+  stars: 500
