@@ -1,0 +1,27 @@
+{
+  "cutoff": "2026-10-12T17:35:29.180494+00:00",
+  "catalog_sha256": "c38d9c35091c27b3a94f1ad0d625328520723d585665daaa9bfaa9c9d8e9f317",
+  "catalog_entries": 893,
+  "github_catalog_entries": 852,
+  "catalog_repo_urls": 850,
+  "timezone": "Asia/Shanghai",
+  "monthly_start": "2012-09",
+  "monthly_end": "2026-10",
+  "repos_with_creation_date": 833,
+  "commit_history_coverage": {
+    "ok": 833,
+    "unavailable": 17
+  },
+  "total_commits": 337840,
+  "forks": 5,
+  "excluded_future_commits": 0,
+  "generated_at": "2026-10-12T17:38:07.658726+00:00",
+  "commit_definition": "Each commit reachable from the pinned default-branch HEAD; includes merges and bots; monthly bins use committer timestamp in Asia/Shanghai. A shared commit in different repos is counted in each repo, including inherited fork history.",
+  "creation_definition": "GitHub createdAt, deduplicated by repository ID; monthly bins in Asia/Shanghai. This is not the catalog inclusion date.",
+  "population": "GitHub repositories referenced by catalog entries' primary URL. All entry forms included. Product-only URLs without a primary GitHub URL excluded.",
+  "sources": [
+    "https://docs.github.com/en/graphql/reference/objects#repository",
+    "https://git-scm.com/docs/git-log",
+    "https://git-scm.com/docs/git-clone"
+  ]
+}
