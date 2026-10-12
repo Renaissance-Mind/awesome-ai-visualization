@@ -1,0 +1,244 @@
+<div id="repo-category-activity">
+  <style>
+    #repo-category-activity { position: relative; }
+    #repo-category-activity .category-heading { padding-right: 96px; }
+    #repo-category-activity .category-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 16px 0 20px; }
+    #repo-category-activity .category-key { display: inline-flex; align-items: center; gap: 6px; padding: 0; background: transparent; border: none; color: var(--foreground); font: inherit; }
+    #repo-category-activity .category-key[aria-pressed="false"] { opacity: .45; }
+    #repo-category-activity .category-swatch { width: 14px; height: 14px; display: inline-block; }
+    #repo-category-activity .category-panel { margin-top: 20px; }
+    #repo-category-activity .category-chart { display: block; width: 100%; overflow: visible; }
+    #repo-category-activity .category-chart text { fill: var(--foreground); font-size: 12px; font-weight: 400; }
+    #repo-category-activity .category-chart .domain { display: none; }
+    #repo-category-activity .category-chart .tick line { stroke: var(--border); }
+    #repo-category-activity .category-tooltip { position: absolute; pointer-events: none; z-index: 10; background: var(--popover); color: var(--popover-foreground); border: 1px solid var(--border); padding: 8px 12px; border-radius: 4px; }
+    #repo-category-activity .category-tooltip[hidden] { display: none; }
+    #repo-category-activity .tooltip-row { display: flex; justify-content: space-between; gap: 18px; }
+    #repo-category-activity .tooltip-total { border-top: 1px solid var(--border); padding-top: 4px; margin-top: 4px; }
+  </style>
+  <div class="category-heading">
+    <h2>2024 年起各类 repo 的月度活动</h2>
+    <div class="text-small text-muted">__SNAPSHOT__</div>
+  </div>
+  <div class="category-legend" role="group" aria-label="repo 类别"></div>
+  <section class="category-panel" aria-labelledby="category-commit-heading">
+    <h3 id="category-commit-heading">每月 commit 数</h3>
+    <svg class="category-chart" data-measure="commits" role="img" aria-label="2024 年起各类别 repo 的每月 commit 堆叠柱状图"></svg>
+    <div class="text-small text-muted" data-total-for="commits">__COMMIT_TOTAL__</div>
+  </section>
+  <section class="category-panel" aria-labelledby="category-created-heading">
+    <h3 id="category-created-heading">每月新建 repo 数</h3>
+    <svg class="category-chart" data-measure="repos_created" role="img" aria-label="2024 年起各类别每月新建 repo 的堆叠柱状图"></svg>
+    <div class="text-small text-muted" data-total-for="repos_created">__CREATION_TOTAL__</div>
+  </section>
+  <div class="text-small text-muted" style="margin-top:12px">__COVERAGE__</div>
+  <div class="tooltip category-tooltip text-small tabular-nums" role="tooltip" hidden></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>
+(() => {
+  const root = document.getElementById('repo-category-activity');
+  const data = /* CATEGORY_DATA */ {};
+  const categories = data.categories;
+  const months = data.monthly;
+  const legend = root.querySelector('.category-legend');
+  const tooltip = root.querySelector('.category-tooltip');
+  const svgs = [...root.querySelectorAll('.category-chart')];
+  const number = new Intl.NumberFormat('zh-CN');
+  const saved = window.openai?.widgetState?.privateContent;
+  let hidden = new Set((saved?.hiddenCategories || []).filter(key => categories.some(c => c.id === key)));
+  let focusedMonth = null;
+  let focusedMeasure = null;
+  let pinned = false;
+  let layouts = [];
+  const color = index => 'var(--viz-series-' + (index % 6 + 1) + ')';
+  const selectedCategories = () => categories.filter(c => !hidden.has(c.id));
+  const sum = (row, key) => selectedCategories().reduce((total, c) => total + row[key][c.id], 0);
+  const persist = () => {
+    if (!window.openai?.setWidgetState) return;
+    window.openai.setWidgetState({
+      modelContent: { start: '2024-01', visibleCategories: selectedCategories().map(c => c.label) },
+      privateContent: { hiddenCategories: [...hidden] },
+    }).catch(() => {});
+  };
+
+  categories.forEach((category, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'category-key cursor-interaction';
+    button.dataset.category = category.id;
+    button.setAttribute('aria-pressed', String(!hidden.has(category.id)));
+    const swatch = document.createElement('span');
+    swatch.className = 'category-swatch';
+    swatch.setAttribute('aria-hidden', 'true');
+    swatch.style.backgroundColor = color(index);
+    if (index >= 6) swatch.style.backgroundImage = 'repeating-linear-gradient(135deg,transparent 0 3px,var(--background) 3px 4px)';
+    const label = document.createElement('span');
+    label.textContent = category.label;
+    button.append(swatch, label);
+    button.addEventListener('click', () => {
+      hidden.has(category.id) ? hidden.delete(category.id) : hidden.add(category.id);
+      button.setAttribute('aria-pressed', String(!hidden.has(category.id)));
+      pinned = false;
+      tooltip.hidden = true;
+      focusedMonth = null;
+      draw(true);
+      persist();
+    });
+    legend.append(button);
+  });
+
+  function showMonth(index, key, event) {
+    focusedMonth = index;
+    focusedMeasure = key;
+    layouts.forEach(layout => layout.focus.attr('x', layout.x(months[index].month))
+      .attr('width', layout.x.bandwidth()).attr('visibility', 'visible'));
+    const row = months[index];
+    tooltip.replaceChildren();
+    const heading = document.createElement('div');
+    heading.textContent = row.month + (row.partial_month ? '（当月未结束）' : '') + ' · ' + (key === 'commits' ? 'commit' : '新建 repo');
+    heading.style.marginBottom = '6px';
+    tooltip.append(heading);
+    selectedCategories().forEach(category => {
+      const line = document.createElement('div');
+      line.className = 'tooltip-row';
+      const label = document.createElement('span');
+      label.textContent = category.label;
+      const value = document.createElement('span');
+      value.textContent = number.format(row[key][category.id]);
+      line.append(label, value);
+      tooltip.append(line);
+    });
+    const total = document.createElement('div');
+    total.className = 'tooltip-row tooltip-total';
+    const totalLabel = document.createElement('span');
+    totalLabel.textContent = '可见类别合计';
+    const totalValue = document.createElement('span');
+    totalValue.textContent = number.format(sum(row, key));
+    total.append(totalLabel, totalValue);
+    tooltip.append(total);
+    tooltip.hidden = false;
+    const bounds = root.getBoundingClientRect();
+    const tip = tooltip.getBoundingClientRect();
+    tooltip.style.left = Math.max(0, Math.min(bounds.width - tip.width, event.clientX - bounds.left + 12)) + 'px';
+    tooltip.style.top = Math.max(0, Math.min(bounds.height - tip.height, event.clientY - bounds.top - tip.height - 10)) + 'px';
+  }
+
+  function hideMonth() {
+    if (pinned) return;
+    tooltip.hidden = true;
+    focusedMonth = null;
+    layouts.forEach(layout => layout.focus.attr('visibility', 'hidden'));
+  }
+
+  function draw(animate = false) {
+    layouts = [];
+    const active = selectedCategories();
+    svgs.forEach((element, panelIndex) => {
+      const key = element.dataset.measure;
+      const width = Math.max(280, element.getBoundingClientRect().width);
+      const height = width < 440 ? 285 : 320;
+      const left = 72, top = 34, right = width - 12, bottom = height - 62;
+      const svg = d3.select(element).attr('viewBox', '0 0 ' + width + ' ' + height).attr('height', height);
+      svg.selectAll(':scope > :not(g.bars)').remove();
+      let bars = svg.select('g.bars');
+      if (bars.empty()) bars = svg.append('g').attr('class', 'bars');
+      const definitions = svg.append('defs');
+      categories.forEach((category, index) => {
+        if (index < 6) return;
+        const pattern = definitions.append('pattern').attr('id', 'category-fill-' + panelIndex + '-' + index)
+          .attr('patternUnits', 'userSpaceOnUse').attr('width', 6).attr('height', 6);
+        pattern.append('rect').attr('width', 6).attr('height', 6).attr('fill', color(index));
+        pattern.append('path').attr('d', 'M-1,1 L1,-1 M0,6 L6,0 M5,7 L7,5')
+          .attr('stroke', 'var(--background)').attr('stroke-width', 1.1);
+      });
+      svg.append('title').text(key === 'commits' ? '各类 repo 每月 commit 数' : '各类每月新建 repo 数');
+      svg.append('desc').text('2024-01 起，每月一个堆叠柱，按目录用途分类；每个 repo 只归入一个分类。末列为未结束月份。点击图例可切换类别。');
+      const totals = months.map(row => sum(row, key));
+      root.querySelector('[data-total-for="' + key + '"]').textContent =
+        (hidden.size ? '可见类别合计 ' : '2024 年起合计 ') + number.format(d3.sum(totals)) +
+        (key === 'commits' ? ' 次 commit · 默认分支完整历史' : ' 个新建 repo · GitHub 创建时间');
+      const extent = d3.extent(totals);
+      const y = d3.scaleLinear().domain([Math.min(0, extent[0]), Math.max(1, extent[1] * 1.12)]).nice().range([bottom, top]);
+      const x = d3.scaleBand().domain(months.map(row => row.month)).range([left + 2, right - 2]).paddingInner(.12).paddingOuter(.03);
+      const yTicks = y.ticks(4).filter(tick => Number.isInteger(tick));
+      const grid = svg.append('g').attr('transform', 'translate(' + left + ',0)')
+        .call(d3.axisLeft(y).tickValues(yTicks).tickSize(-(right - left)).tickFormat(number.format).tickPadding(8));
+      grid.selectAll('.tick line').attr('opacity', .5);
+      grid.lower();
+      const tickStep = width < 440 ? 12 : 6;
+      const tickIndices = d3.range(0, months.length, tickStep);
+      if (tickIndices.at(-1) !== months.length - 1) tickIndices.push(months.length - 1);
+      const axis = svg.append('g').attr('data-x-ticks', '').attr('transform', 'translate(0,' + bottom + ')')
+        .call(d3.axisBottom(x).tickValues(tickIndices.map(i => months[i].month)).tickSize(0).tickPadding(12));
+      axis.selectAll('.tick text').attr('text-anchor', (_, i) => i === 0 ? 'start' : i === tickIndices.length - 1 ? 'end' : 'middle');
+      svg.append('rect').attr('data-chart-frame', '').attr('x', left).attr('y', top)
+        .attr('width', right - left).attr('height', bottom - top).attr('fill', 'none')
+        .attr('stroke', 'var(--border)').attr('stroke-width', 1);
+      svg.append('text').attr('class', 'axis-title').attr('data-axis', 'y').attr('x', left).attr('y', 16)
+        .text(key === 'commits' ? 'commit（次 / 月）' : '新建 repo（个 / 月）');
+      svg.append('text').attr('class', 'axis-title').attr('data-axis', 'x').attr('x', (left + right) / 2)
+        .attr('y', height - 10).attr('text-anchor', 'middle').text('月份（Asia/Shanghai）');
+      const stack = d3.stack().keys(active.map(c => c.id)).value((row, category) => row[key][category])(months);
+      const marks = stack.flatMap(series => series.map((pair, index) => ({
+        category: series.key, month: months[index].month, partial: months[index].partial_month,
+        low: pair[0], high: pair[1],
+      })));
+      const rects = bars.selectAll('rect').data(marks, d => d.category + ':' + d.month);
+      rects.exit().remove();
+      const merged = rects.enter().append('rect').attr('y', bottom).attr('height', 0).merge(rects)
+        .attr('x', d => x(d.month)).attr('width', x.bandwidth()).attr('opacity', d => d.partial ? .45 : 1)
+        .attr('fill', d => {
+          const index = categories.findIndex(c => c.id === d.category);
+          return index < 6 ? color(index) : 'url(#category-fill-' + panelIndex + '-' + index + ')';
+        });
+      const target = animate && !matchMedia('(prefers-reduced-motion: reduce)').matches
+        ? merged.transition().duration(220) : merged;
+      target.attr('y', d => y(d.high)).attr('height', d => Math.max(0, y(d.low) - y(d.high)));
+      const peakIndex = d3.maxIndex(totals);
+      const peakX = x(months[peakIndex].month) + x.bandwidth() / 2;
+      const peakLabel = svg.append('text').attr('data-peak-label', '').attr('x', peakX)
+        .attr('y', y(totals[peakIndex]) - 9).attr('text-anchor', peakX > right - 140 ? 'end' : 'start')
+        .text(months[peakIndex].month + ' · ' + number.format(totals[peakIndex]));
+      const focus = svg.append('rect').attr('data-chart-hover-guide', '').attr('y', top).attr('height', bottom - top)
+        .attr('fill', 'var(--foreground)').attr('opacity', .07).attr('visibility', 'hidden');
+      layouts.push({x, focus});
+      svg.append('rect').attr('data-chart-hit', '').attr('data-chart-hover-overlay', 'cross-series')
+        .attr('x', left).attr('y', top).attr('width', right - left).attr('height', bottom - top).attr('fill', 'transparent')
+        .on('pointermove', event => {
+          if (pinned) return;
+          const [px] = d3.pointer(event, element);
+          const index = Math.max(0, Math.min(months.length - 1, Math.floor((px - x.range()[0]) / x.step())));
+          showMonth(index, key, event);
+        }).on('pointerleave', hideMonth)
+        .on('click', event => {
+          const [px] = d3.pointer(event, element);
+          const index = Math.max(0, Math.min(months.length - 1, Math.floor((px - x.range()[0]) / x.step())));
+          pinned = !(pinned && focusedMonth === index && focusedMeasure === key);
+          if (pinned) showMonth(index, key, event); else hideMonth();
+        });
+      const label = peakLabel.node().getBBox();
+      if (!active.length || label.x < left + 4 || label.x + label.width > right - 4) peakLabel.remove();
+      let previousEnd = -Infinity;
+      axis.selectAll('.tick').each(function() {
+        const bounds = this.getBoundingClientRect();
+        if (bounds.left < previousEnd + 4) d3.select(this).remove();
+        else previousEnd = bounds.right;
+      });
+    });
+  }
+  window.addEventListener('openai:set_globals', event => {
+    const state = event.detail?.globals?.widgetState;
+    if (state === undefined) return;
+    const next = new Set((state?.privateContent?.hiddenCategories || []).filter(key => categories.some(c => c.id === key)));
+    if (next.size === hidden.size && [...next].every(key => hidden.has(key))) return;
+    hidden = next;
+    root.querySelectorAll('.category-key').forEach(button => button.setAttribute('aria-pressed', String(!hidden.has(button.dataset.category))));
+    pinned = false;
+    tooltip.hidden = true;
+    draw(true);
+  });
+  new ResizeObserver(() => draw()).observe(root);
+  draw();
+})();
+</script>

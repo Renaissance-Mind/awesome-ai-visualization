@@ -30,3 +30,15 @@ python3 scripts/render_repository_activity.py /absolute/output/repo-monthly-acti
 ```
 
 数据字段与 Git 行为参见 [GitHub Repository 对象](https://docs.github.com/en/graphql/reference/objects#repository)、[Git log 文档](https://git-scm.com/docs/git-log)、[Git clone 过滤说明](https://git-scm.com/docs/git-clone)。GitHub 的统计图接口会排除部分提交，故此处采用固定 HEAD 的原始 Git 历史；参见 [GitHub 仓库统计接口说明](https://docs.github.com/en/rest/metrics/statistics)。
+
+## 2024 年起按类别统计
+
+分类柱状图沿用以上固定快照，展示 **2024-01 至 2026-10 的 34 个月**，按目录用途分成 12 个有可访问 GitHub repo 的类别。该时间段共有 **307,064 次 commit、805 个新建 repo**。每个月的分类合计分别与原来的两条月度序列完全一致。
+
+每个 repo 只计一次；若目录中多个条目把同一 repo 放在不同类别，归入目录顺序中首个条目的类别。本次只有 `softaworks/agent-toolkit` 跨类别，归入“演示文稿”。同类别的重复条目也去重。“商业站点”类的主链接均为非 GitHub 网址，未进入 repo 统计。分类代表目录用途，commit 仍统计整个宿主 repo 的默认分支历史。
+
+`category-monthly.csv` 和 `category-monthly.json` 保存逐月逐类计数，`category-summary.json` 保存类别总量与分配规则，`repo-categories.json` 保存全部 850 个 repo 的类别归属及覆盖状态。堆叠柱的每一段代表一个类别；图例可切换类别，两张图的柱高、合计和单月明细同步更新。未结束的当月以浅色标记。
+
+```bash
+python3 scripts/build_repository_activity_categories.py /absolute/output/repo-category-activity-2024.html
+```

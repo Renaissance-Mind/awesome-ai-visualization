@@ -1,0 +1,116 @@
+{
+  "cutoff": "2026-10-12T17:35:29.180494+00:00",
+  "timezone": "Asia/Shanghai",
+  "start": "2024-01",
+  "end": "2026-10",
+  "covered_repos": 833,
+  "unavailable_repos": 17,
+  "commits": 307064,
+  "repos_created": 805,
+  "categories": [
+    {
+      "id": "presentation-tools",
+      "label": "演示文稿",
+      "repos": 265,
+      "commits": 59831,
+      "repos_created": 262
+    },
+    {
+      "id": "data-dashboard",
+      "label": "数据仪表盘",
+      "repos": 132,
+      "commits": 52811,
+      "repos_created": 122
+    },
+    {
+      "id": "doc-to-knowledge",
+      "label": "文档与知识",
+      "repos": 70,
+      "commits": 48409,
+      "repos_created": 64
+    },
+    {
+      "id": "meta-index",
+      "label": "索引与目录",
+      "repos": 29,
+      "commits": 37746,
+      "repos_created": 28
+    },
+    {
+      "id": "codebase-map",
+      "label": "代码库可视化",
+      "repos": 50,
+      "commits": 24453,
+      "repos_created": 49
+    },
+    {
+      "id": "rendering-primitive",
+      "label": "底层渲染",
+      "repos": 29,
+      "commits": 21489,
+      "repos_created": 28
+    },
+    {
+      "id": "diagram-generation",
+      "label": "架构与流程图",
+      "repos": 93,
+      "commits": 19958,
+      "repos_created": 89
+    },
+    {
+      "id": "video-generation",
+      "label": "视频生成",
+      "repos": 27,
+      "commits": 16813,
+      "repos_created": 27
+    },
+    {
+      "id": "infographic-report",
+      "label": "信息图",
+      "repos": 76,
+      "commits": 10979,
+      "repos_created": 75
+    },
+    {
+      "id": "research-report",
+      "label": "研究报告",
+      "repos": 34,
+      "commits": 10406,
+      "repos_created": 33
+    },
+    {
+      "id": "paper-visualization",
+      "label": "论文可视化",
+      "repos": 27,
+      "commits": 4148,
+      "repos_created": 27
+    },
+    {
+      "id": "literature-map",
+      "label": "文献地图",
+      "repos": 1,
+      "commits": 21,
+      "repos_created": 1
+    }
+  ],
+  "multi_category_repos": [
+    {
+      "repo": "softaworks/agent-toolkit",
+      "category": "presentation-tools",
+      "catalog_categories": [
+        "presentation-tools",
+        "diagram-generation"
+      ],
+      "entries": [
+        "Marp Slide Creator",
+        "agent-toolkit"
+      ],
+      "metadata_status": "ok",
+      "commit_status": "ok"
+    }
+  ],
+  "assignment_rule": "Every repo counted once, assigned to its first entry's category in the catalog. This groups repos by use case, not by whether a commit is AI-related.",
+  "excluded_categories": [
+    "commercial-site"
+  ]
+}
