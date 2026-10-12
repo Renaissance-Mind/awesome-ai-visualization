@@ -12,13 +12,15 @@ try {
     resolve("node_modules/typescript/lib/tsc.js"), "src/lib/discovery.ts",
     "--outDir", scratch, "--module", "commonjs", "--target", "ES2022",
     "--lib", "ES2024,DOM", "--skipLibCheck", "--strict",
+    "--resolveJsonModule", "--esModuleInterop",
   ], { cwd: root, stdio: "pipe" });
   const require = createRequire(import.meta.url);
-  const { filterCatalog, catalogWindow, CATALOG_BATCH_SIZE, githubRepository, topicFor, topics, buildHref, videoEmbed, previewAssets } = require(join(scratch, "lib/discovery.js"));
+  const { filterCatalog, catalogWindow, CATALOG_BATCH_SIZE, githubRepository, topicFor, topics, buildHref, videoEmbed, previewAssets, descriptionFor } = require(join(scratch, "lib/discovery.js"));
   const { featuredNames, localPreviews } = require(join(scratch, "data/editorial.js"));
   const { entries } = JSON.parse(readFileSync("src/data/catalog.generated.json", "utf8"));
   const all = filterCatalog(entries, new URLSearchParams());
   assert.equal(all.length, entries.length, "The complete catalog must remain accessible.");
+  assert(all.every(entry => /[\u4e00-\u9fff]/.test(descriptionFor(entry).summary)), "Every project card needs a readable Chinese summary.");
   assert.deepEqual(all.slice(0, 6).map(e => e.name), featuredNames);
   assert.deepEqual(filterCatalog(entries, new URLSearchParams({ q: "GrApHiFy" })).map(e => e.name), ["Graphify"]);
   assert(filterCatalog(entries, new URLSearchParams({ q: "科学图解" })).some(e => e.name === "PaperBanana"));

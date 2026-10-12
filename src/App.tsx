@@ -1,13 +1,16 @@
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Layers3, Play, Search, SlidersHorizontal, X } from "lucide-react";
-import { useEffect, useMemo, useRef, useState, type AnchorHTMLAttributes, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, type AnchorHTMLAttributes, type ReactNode } from "react";
 import rawCatalog from "./data/catalog.generated.json";
 import { localPreviews } from "./data/editorial";
 import { RepositoryBadge } from "./components/RepositoryBadge";
 import { formatCompactNumber, formatNumber, getHostname } from "./lib/catalog";
 import { buildHref, catalogWindow, descriptionFor, filterCatalog, filterFields, galleryAssets, groupNames, previewAssets, sortOptions, topicFor, topics, validSort, videoEmbed } from "./lib/discovery";
 import type { CatalogAsset, CatalogData, CatalogEntry, CatalogLink } from "./types";
+import { useSemanticSearch } from "./lib/useSemanticSearch";
+import { MAX_QUERY_LENGTH } from "./lib/search-config";
 
 const catalog = rawCatalog as CatalogData;
+const ProjectExplanation = lazy(() => import("./components/ProjectExplanation"));
 const repository = "https://github.com/Renaissance-Mind/awesome-ai-visualization";
 const navigationEvent = "catalog:navigate";
 
@@ -109,11 +112,17 @@ function Facets({ params }: { params: URLSearchParams }) {
 function Directory({ params }: { params: URLSearchParams }) {
   const [draft, setDraft] = useState(params.get("q") ?? "");
   const inputRef = useRef<HTMLInputElement>(null);
-  const matches = useMemo(() => filterCatalog(catalog.entries, params), [params]);
+  const composing = useRef(false);
+  const semantic = useSemanticSearch(params);
+  const matches = useMemo(() => {
+    if (!params.get("q")?.trim()) return filterCatalog(catalog.entries, params);
+    const byName = new Map(catalog.entries.map(entry => [entry.name, entry]));
+    return (semantic.result?.names ?? []).map(name => byName.get(name)).filter((entry): entry is CatalogEntry => !!entry);
+  }, [params, semantic.result]);
   const visible = catalogWindow(matches, params.get("page"));
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const activeTopic = params.get("topic") ?? "all";
-  const hasSearch = !!params.get("q");
+  const hasSearch = !!params.get("q")?.trim();
   useEffect(() => setDraft(params.get("q") ?? ""), [params]);
   useEffect(() => {
     const sentinel = loadMoreRef.current;
@@ -138,10 +147,14 @@ function Directory({ params }: { params: URLSearchParams }) {
   return <>
     <section className="directory-heading">
       <div><h1>工具目录</h1><p>先了解能做什么，再选择适合你的工具。</p></div>
-      <form className="search" role="search" onSubmit={(event) => { event.preventDefault(); search(draft); }}>
+      <form className="search" role="search" onSubmit={(event) => { event.preventDefault(); if (!composing.current) search(draft); }}>
         <Search size={23} aria-hidden="true" />
-        <label className="sr-only" htmlFor="catalog-search">搜索名称或用途</label>
-        <input ref={inputRef} id="catalog-search" type="search" value={draft} onChange={(event) => search(event.target.value)} placeholder="搜索名称或用途" autoComplete="off" />
+        <label className="sr-only" htmlFor="catalog-search">搜索名称或描述你的需求</label>
+        <input ref={inputRef} id="catalog-search" type="search" value={draft} maxLength={MAX_QUERY_LENGTH}
+          onCompositionStart={() => { composing.current = true; }}
+          onCompositionEnd={(event) => { composing.current = false; search(event.currentTarget.value); }}
+          onChange={(event) => { setDraft(event.target.value); if (!composing.current) search(event.target.value); }}
+          placeholder="搜索名称或描述你的需求" autoComplete="off" />
         {draft && <button type="button" aria-label="清空搜索" onClick={() => { search(""); inputRef.current?.focus(); }}><X size={17} /></button>}
       </form>
     </section>
@@ -151,16 +164,18 @@ function Directory({ params }: { params: URLSearchParams }) {
           href={buildHref(params, { topic: topic.key === "all" ? null : topic.key, page: null })}>{topic.label}</Link>)}
       </nav>
       <div className="catalog-meta">
-        <span role="status" aria-live="polite">{formatNumber(matches.length)} 个工具</span><span aria-hidden="true">·</span>
-        <label className="sort-label"><span className="sr-only">排列方式</span>
+        <span role="status" aria-live="polite">{semantic.loading ? "正在查找…" : semantic.error ? "搜索未完成" : formatNumber(matches.length) + (hasSearch ? " 个匹配工具" : " 个工具")}</span><span aria-hidden="true">·</span>
+        {hasSearch ? <span>按相关性排列</span> : <label className="sort-label"><span className="sr-only">排列方式</span>
           <select aria-label="排列方式" value={validSort(params.get("sort"))} onChange={(e) => navigate(buildHref(params, { sort: e.target.value, page: null }), false, false)}>
             {sortOptions.map((option) => <option key={option.key} value={option.key}>{option.label}</option>)}
           </select><ChevronDown size={13} aria-hidden="true" />
-        </label>
+        </label>}
       </div>
     </div>
     <div className="list-heading"><span>{hasSearch ? "搜索结果" : "工具"}</span><Facets params={params} /></div>
-    {matches.length ? <ul className="tool-list" aria-label="工具列表">{visible.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
+    {semantic.loading ? <section className="empty-state" aria-busy="true" role="status"><h2>正在查找适合的工具</h2><p>正在根据你的需求整理搜索结果。</p></section>
+      : semantic.error ? <section className="empty-state" role="alert"><h2>搜索暂时未完成</h2><p>{semantic.error}</p><button type="button" className="text-link" onClick={semantic.retry}>重新搜索<ArrowRight size={17} /></button></section>
+      : matches.length ? <ul className="tool-list" aria-label="工具列表">{visible.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
       : <section className="empty-state"><h2>没有找到符合条件的工具</h2><p>试试更短的名称或用途，也可以放宽筛选条件。</p>
         <Link className="text-link" href="/">查看全部工具<ArrowRight size={17} /></Link></section>}
     {matches.length > 0 && <div className="load-more" ref={loadMoreRef}>
@@ -226,6 +241,9 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
       <div className="official-actions">{resources.map((link) => <External key={link.url} href={link.url}>{link.title}</External>)}</div>
     </header>
     <div className="reading-layout"><div className="reading-body">
+      <section id="project-profile" className="reading-section"><h2>项目说明</h2>
+        <Suspense fallback={<p role="status">正在读取项目说明…</p>}><ProjectExplanation name={entry.name} /></Suspense>
+      </section>
       <Gallery entry={entry} />
       <section id="input-output" className="reading-section"><h2>从什么开始，会得到什么</h2><div className="prose-columns">
         <div><h3>准备的材料</h3><p>{entry.sourceTypes.length ? entry.sourceTypes.join("、") : "请参考项目官方说明"}。</p></div>
@@ -247,7 +265,7 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
         <p className="source-note">目录最近整理于 {catalog.lastResearched}。条目信息以项目最新官方说明为准。</p>
       </section>
     </div><aside className="reading-toc" aria-label="本页内容"><p>本页内容</p>
-      <a href="#examples">实际效果</a><a href="#input-output">输入与产出</a><a href="#requirements">使用条件</a><a href="#sources">官方资料</a>
+      <a href="#project-profile">项目说明</a><a href="#examples">实际效果</a><a href="#input-output">输入与产出</a><a href="#requirements">使用条件</a><a href="#sources">官方资料</a>
     </aside></div>
     <div className="reading-footer"><Link className="text-link" href={returnHref}><ArrowLeft size={16} />返回工具目录</Link><Link className="text-link" href={"?topic=" + topic.key}>继续探索{topic.label}<ArrowRight size={16} /></Link></div>
   </article>;
