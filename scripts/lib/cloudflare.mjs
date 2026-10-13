@@ -1,6 +1,11 @@
 import { readFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import path from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+
+const execute = promisify(execFile);
+let refreshing;
 
 const config = JSON.parse(await readFile(new URL("../../wrangler.jsonc", import.meta.url), "utf8"));
 export const accountId = process.env.CLOUDFLARE_ACCOUNT_ID ?? config.account_id;
@@ -10,7 +15,18 @@ async function credentials() {
   const directory = process.platform === "darwin"
     ? path.join(homedir(), "Library/Preferences/.wrangler")
     : path.join(process.env.XDG_CONFIG_HOME ?? path.join(homedir(), ".config"), ".wrangler");
-  const profile = await readFile(path.join(directory, "config/default.toml"), "utf8");
+  const profilePath = path.join(directory, "config/default.toml");
+  let profile = await readFile(profilePath, "utf8");
+  const expiration = profile.match(/^expiration_time\s*=\s*"([^"]+)"/m)?.[1];
+  if (expiration && Date.parse(expiration) <= Date.now() + 60000) {
+    // Wrangler owns the refresh-token exchange and persists the new credentials.
+    refreshing ??= execute("npx", ["--yes", "wrangler@4.143.0", "whoami"], {
+      timeout: 60000,
+      maxBuffer: 1024 * 1024,
+    }).finally(() => { refreshing = undefined; });
+    await refreshing;
+    profile = await readFile(profilePath, "utf8");
+  }
   const token = profile.match(/^oauth_token\s*=\s*"([^"]+)"/m)?.[1];
   if (!token) throw new Error("Run Wrangler login, or provide CLOUDFLARE_API_TOKEN.");
   return token;
