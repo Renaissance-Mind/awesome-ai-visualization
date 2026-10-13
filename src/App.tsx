@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Github, Languages, Layers3, Play, Search, SlidersHorizontal, X } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Github, Languages, Layers3, PanelLeft, Play, Search, SlidersHorizontal, X } from "lucide-react";
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type AnchorHTMLAttributes, type ReactNode } from "react";
 import rawCatalog from "./data/catalog.generated.json";
 import { localPreviews } from "./data/editorial";
@@ -129,6 +129,8 @@ function Facets({ params }: { params: URLSearchParams }) {
 
 function Directory({ params, entries, signals }: { params: URLSearchParams; entries: CatalogEntry[]; signals: ReturnType<typeof useRepositorySignals> }) {
   const [draft, setDraft] = useState(params.get("q") ?? "");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const sidebarButton = useRef<HTMLButtonElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const composing = useRef(false);
   const semantic = useSemanticSearch(params);
@@ -167,40 +169,63 @@ function Directory({ params, entries, signals }: { params: URLSearchParams; entr
     setDraft(query);
     navigate(buildHref(params, { q: query, page: null }), true, false);
   };
-  return <>
-    <section className="directory-heading">
-      <div><h1>工具目录</h1><p>先了解能做什么，再选择适合你的工具。</p></div>
+  useEffect(() => {
+    if (!sidebarOpen) return;
+    const sidebar = document.getElementById("catalog-sidebar");
+    sidebar?.querySelector<HTMLAnchorElement>("nav a")?.focus();
+    const close = (event: KeyboardEvent) => {
+      if (event.key === "Escape") { setSidebarOpen(false); sidebarButton.current?.focus(); }
+      if (event.key === "Tab") {
+        const focusable = [...(sidebar?.querySelectorAll<HTMLElement>("a, button, select, summary") ?? [])].filter(element => element.getClientRects().length > 0);
+        const first = focusable[0], last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    };
+    window.addEventListener("keydown", close);
+    return () => window.removeEventListener("keydown", close);
+  }, [sidebarOpen]);
+  return <div className="directory-shell">
+    <h1 className="sr-only">工具目录</h1>
+    {sidebarOpen && <button className="sidebar-backdrop" tabIndex={-1} aria-label="关闭分类侧栏" onClick={() => { setSidebarOpen(false); sidebarButton.current?.focus(); }} />}
+    <aside id="catalog-sidebar" className={"catalog-sidebar" + (sidebarOpen ? " is-open" : "")} role={sidebarOpen ? "dialog" : undefined} aria-modal={sidebarOpen || undefined} aria-label="目录分类与筛选">
+      <div className="sidebar-heading"><span>分类</span><button className="sidebar-close" aria-label="收起分类侧栏" onClick={() => { setSidebarOpen(false); sidebarButton.current?.focus(); }}><X size={17} /></button></div>
+      <nav className="sidebar-topics" aria-label="内容分类">
+        {topics.map(topic => <Link key={topic.key} aria-current={activeTopic === topic.key ? "page" : undefined}
+          onClick={() => { setSidebarOpen(false); sidebarButton.current?.focus(); }} href={buildHref(params, { topic: topic.key === "all" ? null : topic.key, page: null })}>{topic.label}</Link>)}
+      </nav>
+      <Facets params={params} />
+      <div className="sidebar-meta">
+        <p role="status" aria-live="polite">{semantic.loading ? "正在更新结果" : semantic.error ? "搜索未完成" : formatNumber(matches.length) + (hasSearch ? " 个匹配工具" : " 个工具")}</p>
+        <p>{signals.loading ? "正在读取动态…" : signals.snapshot ? `采集于 ${signalDate(signals.snapshot.cutoff)}${signals.offline ? " · 备用快照" : ""}` : "动态数据暂不可用"}</p>
+      </div>
+    </aside>
+    <div className="catalog-controls">
+      <div className="catalog-tag-controls">
+        <button className="sidebar-toggle" ref={sidebarButton} aria-label="打开分类侧栏" aria-expanded={sidebarOpen} aria-controls="catalog-sidebar" onClick={() => setSidebarOpen(value => !value)}><PanelLeft size={19} aria-hidden="true" /></button>
+        <nav className="catalog-activity" aria-label="项目动态筛选">{activityOptions.slice(0, 5).map(option => <Link key={option.key} aria-current={validActivity(params.get("activity")) === option.key ? "page" : undefined}
+          href={buildHref(params, { activity: option.key || null, page: null })}>{option.key ? option.label : "全部"}</Link>)}</nav>
+        <label className="compact-activity"><span className="sr-only">动态标签</span><select aria-label="动态标签" value={validActivity(params.get("activity"))} onChange={event => navigate(buildHref(params, { activity: event.target.value || null, page: null }), false, false)}>{activityOptions.map(option => <option key={option.key} value={option.key}>{option.key ? option.label : "全部"}</option>)}</select><ChevronDown size={12} aria-hidden="true" /></label>
+      </div>
+      <label className="sort-label"><span className="sr-only">排列方式</span>
+        <select aria-label="排列方式" value={validSort(params.get("sort") ?? (!hasSearch && validActivity(params.get("activity")) === "hot" ? "growth" : null))} onChange={(e) => navigate(buildHref(params, { sort: e.target.value, page: null }), false, false)}>
+          {sortOptions.map(option => <option key={option.key} value={option.key}>{hasSearch && option.key === "recommended" ? "相关性" : option.label}</option>)}
+        </select><ChevronDown size={13} aria-hidden="true" />
+      </label>
       <form className="search" role="search" onSubmit={(event) => { event.preventDefault(); if (!composing.current) search(draft); }}>
-        <Search size={23} aria-hidden="true" />
+        <Search size={19} aria-hidden="true" />
         <label className="sr-only" htmlFor="catalog-search">搜索名称或描述你的需求</label>
         <input ref={inputRef} id="catalog-search" type="search" value={draft} maxLength={MAX_QUERY_LENGTH}
           onCompositionStart={() => { composing.current = true; }}
           onCompositionEnd={(event) => { composing.current = false; search(event.currentTarget.value); }}
           onChange={(event) => { setDraft(event.target.value); if (!composing.current) search(event.target.value); }}
           placeholder="搜索名称或描述你的需求" autoComplete="off" />
-        {draft && <button type="button" aria-label="清空搜索" onClick={() => { search(""); inputRef.current?.focus(); }}><X size={17} /></button>}
+        {draft && <button type="button" aria-label="清空搜索" onClick={() => { search(""); inputRef.current?.focus(); }}><X size={16} /></button>}
       </form>
+    </div>
+    {semantic.loading ? <section className="search-loading" aria-busy="true" role="status">
+      <div className="search-orbit" aria-hidden="true"><Search size={23} strokeWidth={1.6} /></div><span>搜索中</span>
     </section>
-    <div className="catalog-toolbar">
-      <nav className="topic-nav" aria-label="内容分类">
-        {topics.map((topic) => <Link key={topic.key} aria-current={activeTopic === topic.key ? "page" : undefined}
-          href={buildHref(params, { topic: topic.key === "all" ? null : topic.key, page: null })}>{topic.label}</Link>)}
-      </nav>
-      <div className="catalog-meta">
-        <span role="status" aria-live="polite">{semantic.loading ? "正在查找…" : semantic.error ? "搜索未完成" : formatNumber(matches.length) + (hasSearch ? " 个匹配工具" : " 个工具")}</span><span aria-hidden="true">·</span>
-        <label className="sort-label"><span className="sr-only">排列方式</span>
-          <select aria-label="排列方式" value={validSort(params.get("sort") ?? (!hasSearch && validActivity(params.get("activity")) === "hot" ? "growth" : null))} onChange={(e) => navigate(buildHref(params, { sort: e.target.value, page: null }), false, false)}>
-            {sortOptions.map((option) => <option key={option.key} value={option.key}>{hasSearch && option.key === "recommended" ? "相关性" : option.label}</option>)}
-          </select><ChevronDown size={13} aria-hidden="true" />
-        </label>
-      </div>
-    </div>
-    <div className="activity-toolbar">
-      <nav aria-label="项目动态筛选">{activityOptions.slice(0, 5).map(option => <Link key={option.key} aria-current={validActivity(params.get("activity")) === option.key ? "page" : undefined} href={buildHref(params, { activity: option.key || null, page: null })}>{option.label}</Link>)}</nav>
-      <span role="status">{signals.loading ? "正在读取动态…" : signals.snapshot ? `动态采集于 ${signalDate(signals.snapshot.cutoff)}${signals.offline ? " · 使用备用快照" : ""}` : "动态数据暂不可用"}</span>
-    </div>
-    <div className="list-heading"><span>{hasSearch ? "搜索结果" : "工具"}</span><Facets params={params} /></div>
-    {semantic.loading ? <section className="empty-state" aria-busy="true" role="status"><h2>正在查找适合的工具</h2><p>正在根据你的需求整理搜索结果。</p></section>
       : semantic.error ? <section className="empty-state" role="alert"><h2>搜索暂时未完成</h2><p>{semantic.error}</p><button type="button" className="text-link" onClick={semantic.retry}>重新搜索<ArrowRight size={17} /></button></section>
       : matches.length ? <ul className="tool-list" aria-label="工具列表">{visible.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
       : <section className="empty-state"><h2>{waitingForGrowth ? "正在积累升温数据" : "没有找到符合条件的工具"}</h2><p>{waitingForGrowth ? "每日采集已建立 Star 基线。积累约7天观测后，会自动展示符合 HOT 规则的项目。" : "试试更短的名称或用途，也可以放宽筛选条件。"}</p>
@@ -212,7 +237,7 @@ function Directory({ params, entries, signals }: { params: URLSearchParams; entr
         <button type="button" className="text-link" onClick={() => navigate(buildHref(params, { page: String(visible.batch + 1), size: null }), true, false)}>加载更多<ArrowDown size={16} aria-hidden="true" /></button>
       </div> : <span>已显示全部工具</span>}
     </div>}
-  </>;
+  </div>;
 }
 
 function Media({ asset, name }: { asset: CatalogAsset; name: string }) {
