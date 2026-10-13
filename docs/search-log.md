@@ -1,8 +1,12 @@
 # Search Log
 
-Last researched: 2026-10-11.
+Last researched: 2026-10-13.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-13: accepted community PR #4 for OrkasVideoStudio after reconciling its catalog addition with current main. Verified official README and MIT license, refreshed the entry description and star snapshot, added official workflow documentation and prompt examples, and synchronized all eight README catalogs and generated frontend data. The linked video demonstration returned HTTP 404 and was excluded. Research was limited to this newly accepted entry.
+
+Update on 2026-10-13: accepted community PR #3 for Orkas after reconciling its catalog addition with current main. Verified official README and MIT license, refreshed the entry description and star snapshot, added official workflow documentation and demo evidence, and synchronized all eight README catalogs and generated frontend data. Research was limited to this newly accepted entry.
 
 Update on 2026-10-11: added slides by kju4q and khan-explainer using official GitHub READMEs, repository trees, and current API metadata. The former reproduces repository results for offline HTML explainers; the latter uses measured narration for board-drawing videos, tutorials, and clips. Local execution, macOS requirements, optional APIs, and optional neural speech/transcription dependencies are described explicitly. Targeted scraping fetched both official sources successfully; curated research retains three template/tutorial/scene examples, one board preview, and two skill workflow documents.
 

@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-893_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--11-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-894_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--13-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -15,6 +15,16 @@
 Каталог размечен по **источнику информации**, **форме инструмента**, **типу результата** и **типу зависимости**. Слайды — лишь один формат вывода; многие инструменты также создают отчеты, веб-страницы, диаграммы, mind map, дашборды или карты кода.
 
 Некоторые названия проектов, официальные термины и краткие описания оставлены на английском для поиска и сопоставления с исходниками.
+
+<!-- repository-activity:start -->
+## Активность репозиториев с 2024 года
+
+Данные по месяцам с января 2024 года; снимок на 13 октября 2026 года, 01:35 (UTC+8). Охвачено 833 из 850 репозиториев. Нажмите на график, чтобы открыть его интерактивную версию. Текущий месяц ещё не завершён.
+
+[![Коммиты по месяцам и категориям](public/activity/ru/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#commits)
+
+[![Новые репозитории по месяцам и категориям](public/activity/ru/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#repos-created)
+<!-- repository-activity:end -->
 
 ## Latest Refresh (2026-10-11)
 
@@ -527,6 +537,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Video Kit by WorthingtonCloud](https://github.com/WorthingtonCloud/video-kit) [![Star](https://img.shields.io/github/stars/WorthingtonCloud/video-kit?style=flat&logo=github&label=Star)](https://github.com/WorthingtonCloud/video-kit/stargazers) | Text/ideas / Web/search results / Data/tables / Any/multi-source | Skill collection / Agent skill | Video/audio / Web/interactive page / Chart/dashboard | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Storage/index / Templates/assets |
 | [Tutorial Video Skill](https://github.com/speechlab0210/tutorial-video-skill) [![Star](https://img.shields.io/github/stars/speechlab0210/tutorial-video-skill?style=flat&logo=github&label=Star)](https://github.com/speechlab0210/tutorial-video-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables / Any/multi-source | Agent skill | Video/audio / PPT/deck / Long report / Structured data/Markdown | Agent host / Local runtime / System tools / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Demo Video Creator Skill](https://github.com/chacha95/demo-video-creator) [![Star](https://img.shields.io/github/stars/chacha95/demo-video-creator?style=flat&logo=github&label=Star)](https://github.com/chacha95/demo-video-creator/stargazers) | Web/search results / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas-VideoStudio/stargazers) | Текст/идеи / DSL/код | Приложение/фреймворк с открытым кодом / MCP-сервер | Видео/аудио | Agent host / Локальная среда / Рендеринг/экспорт / Системные инструменты / API модели |
 | [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) [![Star](https://img.shields.io/github/stars/haiderfarooq3/khan-explainer?style=flat&logo=github&label=Star)](https://github.com/haiderfarooq3/khan-explainer/stargazers) | Text/ideas / Web/search / Multi-source | Agent skill | Video/audio / Image previews | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
@@ -539,6 +550,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 
 | Проект | Источник информации | Форма инструмента | Результат | Зависимости |
 | --- | --- | --- | --- | --- |
+| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | Текст/идеи / PDF/документы / Документы Office / Данные/таблицы | Приложение/фреймворк с открытым кодом | PPT/презентация | Локальная среда / API модели / Рендеринг/экспорт |
 | [Presentation Forge](https://github.com/thmsgo18/presentation-forge) [![Star](https://img.shields.io/github/stars/thmsgo18/presentation-forge?style=flat&logo=github&label=Star)](https://github.com/thmsgo18/presentation-forge/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Chuk MCP PowerPoint Server](https://github.com/IBM/chuk-mcp-pptx) [![Star](https://img.shields.io/github/stars/IBM/chuk-mcp-pptx?style=flat&logo=github&label=Star)](https://github.com/IBM/chuk-mcp-pptx/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [video2ppt](https://github.com/Sadonim/video2ppt) [![Star](https://img.shields.io/github/stars/Sadonim/video2ppt?style=flat&logo=github&label=Star)](https://github.com/Sadonim/video2ppt/stargazers) | Web/search / Any/multi-source / Text/ideas | Agent skill | PPT/deck / Briefing/report / Structured data/Markdown | Agent host / Model API / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |
@@ -591,7 +603,6 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | Текст/идеи / PDF/документы / Веб/поиск | Open-source приложение/фреймворк | PPT/deck | Локальный runtime / Model API / Рендеринг/экспорт / Шаблоны/assets |
 | [Oh My PPT](https://github.com/arcsin1/oh-my-ppt) [![Star](https://img.shields.io/github/stars/arcsin1/oh-my-ppt?style=flat&logo=github&label=Star)](https://github.com/arcsin1/oh-my-ppt/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Rendering/export / Templates/assets |
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | Текст/идеи / PDF/документы / Веб/поиск | Open-source приложение/фреймворк / API/SDK/библиотека | PPT/deck | Локальный runtime / Model API / Рендеринг/экспорт / MCP client / Шаблоны/assets |
-| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | Текст/идеи / PDF/документы / Документы Office / Данные/таблицы | Open-source приложение/фреймворк | PPT/deck | Локальный runtime / Model API / Рендеринг/экспорт |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | Текст/идеи / Данные/таблицы / PDF/документы | Open-source приложение/фреймворк / Продукт/SaaS | PPT/deck / Web/интерактивная страница / График/dashboard | Браузер/аккаунт / Локальный runtime / Model API / Рендеринг/экспорт / Шаблоны/assets |
 | [Deckbuilder](https://github.com/teknologika/Deckbuilder) [![Star](https://img.shields.io/github/stars/teknologika/Deckbuilder?style=flat&logo=github&label=Star)](https://github.com/teknologika/Deckbuilder/stargazers) | Текст/идеи / DSL/код / Данные/таблицы | MCP server / API/SDK/библиотека | PPT/презентация | MCP client / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
 | [CREPE](https://github.com/mariolpantunes/crepe-mcp) [![Star](https://img.shields.io/github/stars/mariolpantunes/crepe-mcp?style=flat&logo=github&label=Star)](https://github.com/mariolpantunes/crepe-mcp/stargazers) | Papers/research / Web/search / Any/multi-source | MCP server | PPT/deck / SVG/PNG/PDF / Graphical abstract/infographic | MCP client / Agent host / Local runtime / External search/data / Rendering/export / System tools |

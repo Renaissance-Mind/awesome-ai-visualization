@@ -89,6 +89,7 @@ function Header({ view, params }: { view: string; params: URLSearchParams }) {
     <nav aria-label={en ? "Main navigation" : "网站导航"}>
       <Link href="/" aria-current={view === "home" ? "page" : undefined}>{en ? "Home" : "首页"}</Link>
       <Link href="?view=catalog" aria-current={view === "catalog" ? "page" : undefined}>{en ? "Catalog" : "工具目录"}</Link>
+      <a href={en ? "/activity/en/" : "/activity/zh-CN/"}>{en ? "Activity" : "开发统计"}</a>
       <label className="language-select"><Languages size={15} aria-hidden="true" /><span className="sr-only">{en ? "Language" : "语言"}</span>
         <select aria-label={en ? "Language" : "语言"} value={en ? "en" : "zh"} onChange={event => navigate(buildHref(params, { lang: event.target.value }), false, false)}>
           <option value="zh">简体中文</option><option value="en">English</option>

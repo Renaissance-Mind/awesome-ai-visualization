@@ -17,6 +17,7 @@ catch (error) { if (error.code !== "ENOENT") throw error; }
 const previousModel = saved.model;
 saved.schemaVersion = schemaVersion;
 saved.model = model;
+saved.sourceLastResearched = catalog.last_researched;
 
 const inputs = catalog.entries.map(entry => ({ entry, facts: projectFacts(entry, byName.get(entry.name)) }));
 for (const item of inputs) {

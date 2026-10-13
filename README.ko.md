@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-893_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--11-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-894_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--13-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -15,6 +15,16 @@
 이 카탈로그는 **정보 출처**, **도구 형태**, **출력 결과물**, **의존성 유형**으로 태그됩니다. 슬라이드는 출력 형태 중 하나일 뿐이며, 많은 도구가 보고서, 웹 페이지, 다이어그램, 마인드맵, 대시보드, 코드 맵도 생성합니다.
 
 일부 프로젝트 이름, 공식 용어, 짧은 설명은 검색성과 원문 추적성을 위해 영어로 유지했습니다.
+
+<!-- repository-activity:start -->
+## 2024년 이후 저장소 개발 활동
+
+2024년 1월부터 월 단위로 집계했습니다. 집계 시점은 2026년 10월 13일 01:35 (UTC+8)이며, 850개 중 833개 저장소를 포함합니다. 이미지를 클릭하면 해당 대화형 차트가 열립니다. 이번 달은 아직 집계 중입니다.
+
+[![분류별 월간 커밋 수](public/activity/ko/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#commits)
+
+[![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
+<!-- repository-activity:end -->
 
 ## Latest Refresh (2026-10-11)
 
@@ -527,6 +537,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Video Kit by WorthingtonCloud](https://github.com/WorthingtonCloud/video-kit) [![Star](https://img.shields.io/github/stars/WorthingtonCloud/video-kit?style=flat&logo=github&label=Star)](https://github.com/WorthingtonCloud/video-kit/stargazers) | Text/ideas / Web/search results / Data/tables / Any/multi-source | Skill collection / Agent skill | Video/audio / Web/interactive page / Chart/dashboard | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Storage/index / Templates/assets |
 | [Tutorial Video Skill](https://github.com/speechlab0210/tutorial-video-skill) [![Star](https://img.shields.io/github/stars/speechlab0210/tutorial-video-skill?style=flat&logo=github&label=Star)](https://github.com/speechlab0210/tutorial-video-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables / Any/multi-source | Agent skill | Video/audio / PPT/deck / Long report / Structured data/Markdown | Agent host / Local runtime / System tools / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Demo Video Creator Skill](https://github.com/chacha95/demo-video-creator) [![Star](https://img.shields.io/github/stars/chacha95/demo-video-creator?style=flat&logo=github&label=Star)](https://github.com/chacha95/demo-video-creator/stargazers) | Web/search results / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas-VideoStudio/stargazers) | 텍스트/아이디어 / DSL/코드 | 오픈소스 앱/프레임워크 / MCP 서버 | 동영상/오디오 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 / 모델 API |
 | [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) [![Star](https://img.shields.io/github/stars/haiderfarooq3/khan-explainer?style=flat&logo=github&label=Star)](https://github.com/haiderfarooq3/khan-explainer/stargazers) | Text/ideas / Web/search / Multi-source | Agent skill | Video/audio / Image previews | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
@@ -539,6 +550,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 
 | 프로젝트 | 정보 출처 | 도구 형태 | 출력 결과물 | 의존성 |
 | --- | --- | --- | --- | --- |
+| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | 텍스트/아이디어 / PDF/문서 / Office 문서 / 데이터/표 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [Presentation Forge](https://github.com/thmsgo18/presentation-forge) [![Star](https://img.shields.io/github/stars/thmsgo18/presentation-forge?style=flat&logo=github&label=Star)](https://github.com/thmsgo18/presentation-forge/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Chuk MCP PowerPoint Server](https://github.com/IBM/chuk-mcp-pptx) [![Star](https://img.shields.io/github/stars/IBM/chuk-mcp-pptx?style=flat&logo=github&label=Star)](https://github.com/IBM/chuk-mcp-pptx/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [video2ppt](https://github.com/Sadonim/video2ppt) [![Star](https://img.shields.io/github/stars/Sadonim/video2ppt?style=flat&logo=github&label=Star)](https://github.com/Sadonim/video2ppt/stargazers) | Web/search / Any/multi-source / Text/ideas | Agent skill | PPT/deck / Briefing/report / Structured data/Markdown | Agent host / Model API / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |
@@ -591,7 +603,6 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
 | [Oh My PPT](https://github.com/arcsin1/oh-my-ppt) [![Star](https://img.shields.io/github/stars/arcsin1/oh-my-ppt?style=flat&logo=github&label=Star)](https://github.com/arcsin1/oh-my-ppt/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Rendering/export / Templates/assets |
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 / API/SDK/라이브러리 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / MCP 클라이언트 / 템플릿/자산 |
-| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | 텍스트/아이디어 / PDF/문서 / Office 문서 / 데이터/표 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | 텍스트/아이디어 / 데이터/표 / PDF/문서 | 오픈소스 앱/프레임워크 / 제품/SaaS | PPT/덱 / 웹/인터랙티브 페이지 / 차트/대시보드 | 브라우저/계정 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
 | [Deckbuilder](https://github.com/teknologika/Deckbuilder) [![Star](https://img.shields.io/github/stars/teknologika/Deckbuilder?style=flat&logo=github&label=Star)](https://github.com/teknologika/Deckbuilder/stargazers) | 텍스트/아이디어 / DSL/코드 / 데이터/표 | MCP Server / API/SDK/라이브러리 | PPT/발표자료 | MCP Client / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [CREPE](https://github.com/mariolpantunes/crepe-mcp) [![Star](https://img.shields.io/github/stars/mariolpantunes/crepe-mcp?style=flat&logo=github&label=Star)](https://github.com/mariolpantunes/crepe-mcp/stargazers) | Papers/research / Web/search / Any/multi-source | MCP server | PPT/deck / SVG/PNG/PDF / Graphical abstract/infographic | MCP client / Agent host / Local runtime / External search/data / Rendering/export / System tools |

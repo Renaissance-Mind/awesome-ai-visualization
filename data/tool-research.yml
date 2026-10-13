@@ -1,4 +1,4 @@
-generated_at: '2026-10-11T07:06:06.023Z'
+generated_at: '2026-10-12T17:28:03.582Z'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 892
-  fetched_sources_ok: 1184
+  entries: 894
+  fetched_sources_ok: 1186
   fetched_sources_failed: 60
-  official_examples: 1898
-  official_effect_assets: 2324
-  official_docs: 2196
+  official_examples: 1901
+  official_effect_assets: 2325
+  official_docs: 2202
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -69859,3 +69859,131 @@ entries:
       title: Skill workflow
       url: https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/SKILL.md
       source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+- name: Orkas
+  category: presentation-tools
+  surface: open-source
+  primary_url: https://github.com/Orkas-AI/Orkas
+  dependencies:
+    - 本地语言环境
+    - 模型 API
+    - 渲染/导出
+  catalog_note: Orkas desktop app includes PptMaker, which turns topics, outlines and documents into editable PPTX decks,
+    coordinated with research and writing agents. Bring your own model keys; runs locally on macOS, Windows and
+    supported Linux systems.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Orkas
+      bytes: 19660
+  official_docs:
+    - kind: docs
+      title: native dependency setup and troubleshooting
+      url: https://github.com/Orkas-AI/Orkas/blob/HEAD/docs/native-dependencies.md
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+    - kind: docs
+      title: Orkas source installation and runtime requirements
+      url: https://github.com/Orkas-AI/Orkas#quick-start
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+    - kind: docs
+      title: Built-in PptMaker workflow
+      url: https://github.com/Orkas-AI/Orkas#agents-that-ship-with-the-app
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+  official_effect_assets:
+    - kind: gif
+      title: "Orkas demo: the Commander turns a goal into a step-by-step plan, dispatches it to specialist agents, and
+        delivers the finished file"
+      url: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/resources/app-ui/demo-en.gif
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: native dependency setup and troubleshooting
+      url: https://github.com/Orkas-AI/Orkas/blob/HEAD/docs/native-dependencies.md
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+    - kind: docs
+      title: Orkas source installation and runtime requirements
+      url: https://github.com/Orkas-AI/Orkas#quick-start
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+    - kind: docs
+      title: Built-in PptMaker workflow
+      url: https://github.com/Orkas-AI/Orkas#agents-that-ship-with-the-app
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+    - kind: demo
+      title: Research-to-deck workflow and app demonstration
+      url: https://github.com/Orkas-AI/Orkas#orkas
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+  official_examples:
+    - kind: demo
+      title: Research-to-deck workflow and app demonstration
+      url: https://github.com/Orkas-AI/Orkas#orkas
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md
+- name: OrkasVideoStudio
+  category: video-generation
+  surface: open-source
+  primary_url: https://github.com/Orkas-AI/Orkas-VideoStudio
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 系统工具
+    - 模型 API
+  catalog_note: Agent-driven CLI, MCP server and skills for HTML motion-graphic explainers, footage editing and optional
+    AI generation through an editable plan.json. Source installation needs Node 22+ and FFmpeg/ffprobe; model-provider
+    keys are optional for generation and narration.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: OrkasVideoStudio
+      bytes: 18369
+  official_examples:
+    - kind: example
+      title: Explainer, editing and mixed-production prompt examples
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#use-cases
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: tutorial
+      title: Agent workflow for a narrated vector-database explainer
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#drive-it-from-your-coding-agent
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Source installation and prerequisites
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#install
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: docs
+      title: CLI, MCP and native skill integration
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#drive-it-from-your-coding-agent
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: docs
+      title: Video plan and runtime design
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio/blob/HEAD/PLAN.md
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: Source installation and prerequisites
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#install
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: docs
+      title: CLI, MCP and native skill integration
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#drive-it-from-your-coding-agent
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: docs
+      title: Video plan and runtime design
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio/blob/HEAD/PLAN.md
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: example
+      title: Explainer, editing and mixed-production prompt examples
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#use-cases
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+    - kind: tutorial
+      title: Agent workflow for a narrated vector-database explainer
+      url: https://github.com/Orkas-AI/Orkas-VideoStudio#drive-it-from-your-coding-agent
+      source: https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md
+  source_headings:
+    - OrkasVideoStudio
+    - Versions and delivered-video checks
+  official_effect_assets: []

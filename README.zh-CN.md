@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-893_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--11-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-894_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--13-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -13,6 +13,16 @@
 一个关于 AI 可视化与内容呈现的精选目录：收集使用 LLM 或 Agent，把论文、新闻、网页、文档、代码库、数据集和知识集合转成“给人看的”视觉产物的工具、网站、开源项目、Agent Skill 和 MCP Server。
 
 这个列表按**信息来源**、**工具形态**、**产出物形式**和**依赖类型**标注。PPT 只是产出物之一；同一个工具也可能同时产出报告、网页、图表、思维导图或代码地图。
+
+<!-- repository-activity:start -->
+## 2024 年起的 repo 开发活动
+
+从 2024 年 1 月起按月统计，数据快照截至 2026 年 10 月 13 日 01:35（UTC+8），覆盖 833 / 850 个 repo。点击任一图表可打开对应交互版；当月尚未结束。
+
+[![各类别每月 commit 数](public/activity/zh-CN/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#commits)
+
+[![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
+<!-- repository-activity:end -->
 
 ## Latest Refresh (2026-10-11)
 
@@ -525,6 +535,7 @@
 | [Video Kit by WorthingtonCloud](https://github.com/WorthingtonCloud/video-kit) [![Star](https://img.shields.io/github/stars/WorthingtonCloud/video-kit?style=flat&logo=github&label=Star)](https://github.com/WorthingtonCloud/video-kit/stargazers) | Text/ideas / Web/search results / Data/tables / Any/multi-source | Skill collection / Agent skill | Video/audio / Web/interactive page / Chart/dashboard | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Storage/index / Templates/assets |
 | [Tutorial Video Skill](https://github.com/speechlab0210/tutorial-video-skill) [![Star](https://img.shields.io/github/stars/speechlab0210/tutorial-video-skill?style=flat&logo=github&label=Star)](https://github.com/speechlab0210/tutorial-video-skill/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables / Any/multi-source | Agent skill | Video/audio / PPT/deck / Long report / Structured data/Markdown | Agent host / Local runtime / System tools / Document parsing/OCR / Rendering/export / Templates/assets |
 | [Demo Video Creator Skill](https://github.com/chacha95/demo-video-creator) [![Star](https://img.shields.io/github/stars/chacha95/demo-video-creator?style=flat&logo=github&label=Star)](https://github.com/chacha95/demo-video-creator/stargazers) | Web/search results / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas-VideoStudio/stargazers) | 文本/想法 / DSL/代码 | 开源应用/框架 / MCP Server | 视频/音频 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 系统工具 / 模型 API |
 | [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) [![Star](https://img.shields.io/github/stars/haiderfarooq3/khan-explainer?style=flat&logo=github&label=Star)](https://github.com/haiderfarooq3/khan-explainer/stargazers) | Text/ideas / Web/search / Multi-source | Agent skill | Video/audio / Image previews | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
@@ -537,6 +548,7 @@
 
 | 项目 | 信息来源 | 工具形态 | 产出物形式 | 依赖类型 |
 | --- | --- | --- | --- | --- |
+| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | 文本/想法 / PDF/文档 / Office 文档 / 数据/表格 | 开源应用/框架 | PPT/演示文稿 | 本地语言环境 / 模型 API / 渲染/导出 |
 | [Presentation Forge](https://github.com/thmsgo18/presentation-forge) [![Star](https://img.shields.io/github/stars/thmsgo18/presentation-forge?style=flat&logo=github&label=Star)](https://github.com/thmsgo18/presentation-forge/stargazers) | Text/ideas / Office docs / Any/multi-source | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [Chuk MCP PowerPoint Server](https://github.com/IBM/chuk-mcp-pptx) [![Star](https://img.shields.io/github/stars/IBM/chuk-mcp-pptx?style=flat&logo=github&label=Star)](https://github.com/IBM/chuk-mcp-pptx/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / API/SDK/library | PPT/deck / Chart/dashboard / SVG/PNG/PDF | MCP client / Local runtime / Rendering/export / Templates/assets |
 | [video2ppt](https://github.com/Sadonim/video2ppt) [![Star](https://img.shields.io/github/stars/Sadonim/video2ppt?style=flat&logo=github&label=Star)](https://github.com/Sadonim/video2ppt/stargazers) | Web/search / Any/multi-source / Text/ideas | Agent skill | PPT/deck / Briefing/report / Structured data/Markdown | Agent host / Model API / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |
@@ -589,7 +601,6 @@
 | [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 开源应用/框架 | PPT/演示文稿 | 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
 | [Oh My PPT](https://github.com/arcsin1/oh-my-ppt) [![Star](https://img.shields.io/github/stars/arcsin1/oh-my-ppt?style=flat&logo=github&label=Star)](https://github.com/arcsin1/oh-my-ppt/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Rendering/export / Templates/assets |
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | 文本/想法 / PDF/文档 / 网页/搜索结果 | 开源应用/框架 / API/SDK/库 | PPT/演示文稿 | 本地语言环境 / 模型 API / 渲染/导出 / MCP Client / 模板/素材 |
-| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | 文本/想法 / PDF/文档 / Office 文档 / 数据/表格 | 开源应用/框架 | PPT/演示文稿 | 本地语言环境 / 模型 API / 渲染/导出 |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | 文本/想法 / 数据/表格 / PDF/文档 | 开源应用/框架 / 产品/SaaS | PPT/演示文稿 / 网页/交互页面 / 图表/仪表盘 | 浏览器/账号 / 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
 | [Deckbuilder](https://github.com/teknologika/Deckbuilder) [![Star](https://img.shields.io/github/stars/teknologika/Deckbuilder?style=flat&logo=github&label=Star)](https://github.com/teknologika/Deckbuilder/stargazers) | 文本/想法 / DSL/代码 / 数据/表格 | MCP Server / API/SDK/库 | PPT/演示文稿 | MCP Client / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [CREPE](https://github.com/mariolpantunes/crepe-mcp) [![Star](https://img.shields.io/github/stars/mariolpantunes/crepe-mcp?style=flat&logo=github&label=Star)](https://github.com/mariolpantunes/crepe-mcp/stargazers) | Papers/research / Web/search / Any/multi-source | MCP server | PPT/deck / SVG/PNG/PDF / Graphical abstract/infographic | MCP client / Agent host / Local runtime / External search/data / Rendering/export / System tools |

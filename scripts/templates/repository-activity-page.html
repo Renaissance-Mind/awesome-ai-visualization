@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="__LANG__">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="__INTRO__">
+  <title>__TITLE__ · Awesome AI Visualization</title>
+  <link rel="stylesheet" href="../activity.css">
+  <link rel="canonical" href="https://awesome-ai-visualization.renaissancemind.ai/activity/__LANG__/">
+  __ALTERNATES__
+  <script defer src="../vendor/d3.v7.min.js"></script>
+  <script defer src="../activity.js"></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="/">Awesome AI Visualization</a>
+    <nav aria-label="__LANGUAGE__"><a href="/">__CATALOG__</a><label>__LANGUAGE__ <select id="language-picker">__LANGUAGE_OPTIONS__</select></label></nav>
+  </header>
+  <main class="wrap" id="activity-report">
+    <div class="report-heading"><p class="eyebrow">2024-01 — 2026-10</p><h1>__TITLE__</h1><p class="snapshot">__SNAPSHOT__</p></div>
+    <p class="interaction-hint">__FILTER_HINT__</p>
+    <div id="category-legend" class="category-legend" role="group" aria-label="__TITLE__"></div>
+    <section class="chart-section" id="commits" data-measure="commits" aria-labelledby="commits-title">
+      <div class="chart-heading"><h2 id="commits-title">__COMMITS_TITLE__</h2><a href="commits.svg" download>__SVG__</a></div>
+      <div class="plot"><img src="commits.svg" alt="__COMMITS_TITLE__"></div>
+      <p class="chart-total" data-total-for="commits">__COMMITS_TOTAL__</p>
+    </section>
+    <section class="chart-section" id="repos-created" data-measure="repos_created" aria-labelledby="created-title">
+      <div class="chart-heading"><h2 id="created-title">__CREATED_TITLE__</h2><a href="repos-created.svg" download>__SVG__</a></div>
+      <div class="plot"><img src="repos-created.svg" alt="__CREATED_TITLE__"></div>
+      <p class="chart-total" data-total-for="repos_created">__CREATED_TOTAL__</p>
+    </section>
+    <footer class="report-footer"><p>__METHODS__</p><a href="../category-monthly.csv" download>__DATA__</a><a href="https://github.com/Renaissance-Mind/awesome-ai-visualization">GitHub</a></footer>
+    <div class="chart-tooltip" role="tooltip" hidden></div>
+  </main>
+  <script id="activity-data" type="application/json">__DATA_JSON__</script>
+</body>
+</html>

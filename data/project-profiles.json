@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-11",
+  "sourceLastResearched": "2026-10-13",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33143,13 +33143,13 @@
     "Orkas": {
       "name": "Orkas",
       "url": "https://github.com/Orkas-AI/Orkas",
-      "sourceHash": "f2212068cd141bbfeba56444d1cf2da40c335f93c744ecfdb5682f3930409e53",
+      "sourceHash": "5a74660c013be641f25e9a150b5ba41edb0aee7dd0a489d6081236e5130cdecc",
       "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
-      "summary": "PptMaker 将简报、文档和现有演示文稿转换为可编辑的演示文稿。",
-      "explanation": "PptMaker 是 Orkas 中的一个功能，可将简报、文档和现有演示文稿转换为可编辑的演示文稿。它作为 Orkas 的一部分运行，Orkas 是一个以本地优先的开源桌面 AI 工作队列。",
+      "summary": "将主题、大纲和文档转换为可编辑的PPTX演示文稿的桌面应用",
+      "explanation": "Orkas 是一个桌面应用，包含 PptMaker 工具，可将主题、大纲和文档转换为可编辑的 PPTX 演示文稿。它与研究和写作代理协调工作，支持本地运行，需提供自有的模型密钥。",
       "useCases": [
-        "将现有文档转换为可编辑的演示文稿",
-        "在 Orkas 中创建新的演示文稿"
+        "将写作内容转换为演示文稿",
+        "在本地环境中生成可编辑的PPTX文件"
       ],
       "input": [
         "文本/想法",
@@ -33168,13 +33168,49 @@
         "模型 API",
         "渲染/导出"
       ],
-      "originalDescription": "PptMaker turns briefs, documents and existing decks into editable presentations inside Orkas, an open-source, local-first desktop AI workforce coordinated by Commander.",
+      "originalDescription": "Orkas desktop app includes PptMaker, which turns topics, outlines and documents into editable PPTX decks, coordinated with research and writing agents. Bring your own model keys; runs locally on macOS, Windows and supported Linux systems.",
       "sources": [
-        "https://github.com/Orkas-AI/Orkas"
+        "https://github.com/Orkas-AI/Orkas",
+        "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/README.md"
+      ]
+    },
+    "OrkasVideoStudio": {
+      "name": "OrkasVideoStudio",
+      "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+      "sourceHash": "725fdede7598cca8651322d7e6e7e591dc43caa622bfa8eb7e7e5269f7f5e53a",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "用于生成可编辑计划的HTML动态图形解释器和视频编辑工具",
+      "explanation": "OrkasVideoStudio 是一个基于代理的命令行工具和 MCP 服务器，支持生成 HTML 动态图形解释器和视频编辑。它通过可编辑的 plan.json 进行操作，需要 Node 22+ 和 FFmpeg/ffprobe，模型提供者密钥为可选。",
+      "useCases": [
+        "生成可编辑的视频计划",
+        "通过命令行工具进行视频编辑"
+      ],
+      "input": [
+        "文本/想法",
+        "DSL/代码"
+      ],
+      "output": [
+        "视频/音频"
+      ],
+      "form": [
+        "开源应用/框架",
+        "MCP Server"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "系统工具",
+        "模型 API"
+      ],
+      "originalDescription": "Agent-driven CLI, MCP server and skills for HTML motion-graphic explainers, footage editing and optional AI generation through an editable plan.json. Source installation needs Node 22+ and FFmpeg/ffprobe; model-provider keys are optional for generation and narration.",
+      "sources": [
+        "https://github.com/Orkas-AI/Orkas-VideoStudio",
+        "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
       ]
     }
   },
-  "generatedAt": "2026-10-12T18:19:21.903Z",
+  "generatedAt": "2026-10-12T19:03:16.286Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

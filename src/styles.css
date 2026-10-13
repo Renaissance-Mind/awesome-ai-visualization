@@ -31,7 +31,7 @@ svg { flex-shrink: 0; }
 .site-header { min-height: 86px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .brand { display: inline-flex; align-items: center; gap: 15px; font-size: 21px; font-weight: 700; line-height: 1.3; }
 .brand-icon { display: grid; place-items: center; width: 31px; height: 33px; border-radius: 6px; background: var(--blue); color: #fff; flex-shrink: 0; }
-.site-header nav { display: flex; align-items: center; gap: 35px; font-size: 15px; white-space: nowrap; }
+.site-header nav { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 35px; font-size: 15px; white-space: nowrap; }
 .site-header nav a { display: flex; gap: 7px; align-items: center; padding: 12px 0; position: relative; }
 .site-header nav [aria-current] { color: var(--blue); font-weight: 600; }
 .site-header nav [aria-current]::after { position: absolute; content: ""; bottom: 0; height: 2px; background: currentColor; left: 0; right: 0; }
