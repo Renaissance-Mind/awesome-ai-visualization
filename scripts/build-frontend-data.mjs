@@ -107,3 +107,6 @@ const payload = {
 
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
+// A local fallback ships with each deploy; the Worker serves newer daily data.
+const signals = JSON.parse(await readFile("data/repository-signals/latest.json", "utf8"));
+await writeFile("public/repository-signals.json", JSON.stringify(signals) + "\n");

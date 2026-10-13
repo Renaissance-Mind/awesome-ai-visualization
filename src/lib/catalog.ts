@@ -1,6 +1,7 @@
 import type { CatalogEntry } from "../types";
+import { isFresh, observedStars } from "./repository-signals";
 
-export type SortKey = "recommended" | "stars" | "updated" | "evidence" | "name";
+export type SortKey = "recommended" | "stars" | "growth" | "commits" | "updated" | "evidence" | "name";
 
 export type Filters = {
   sourceTypes: Set<string>;
@@ -65,7 +66,17 @@ export const scoreEntry = (entry: CatalogEntry) => {
 export const sortEntries = (entries: CatalogEntry[], sortKey: SortKey) =>
   [...entries].sort((a, b) => {
     if (sortKey === "stars") {
-      return (b.stars ?? -1) - (a.stars ?? -1);
+      return (observedStars(b) ?? -1) - (observedStars(a) ?? -1) || a.name.localeCompare(b.name);
+    }
+    if (sortKey === "growth" || sortKey === "commits") {
+      const metric = (entry: CatalogEntry) => {
+        const signal = entry.activity;
+        if (!signal || signal.status !== "ok" || !isFresh(signal)) return null;
+        return sortKey === "growth" ? signal.growth["7d"]?.stars_delta ?? null : signal.commits["30"];
+      };
+      const left = metric(a), right = metric(b);
+      return left === null ? (right === null ? a.name.localeCompare(b.name) : 1)
+        : right === null ? -1 : right - left || a.name.localeCompare(b.name);
     }
 
     if (sortKey === "updated") {

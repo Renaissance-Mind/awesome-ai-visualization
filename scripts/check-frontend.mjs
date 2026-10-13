@@ -18,6 +18,39 @@ try {
   const { filterCatalog, catalogWindow, CATALOG_BATCH_SIZE, githubRepository, topicFor, topics, buildHref, videoEmbed, previewAssets, descriptionFor } = require(join(scratch, "lib/discovery.js"));
   const { featuredNames, localPreviews } = require(join(scratch, "data/editorial.js"));
   const { entries } = JSON.parse(readFileSync("src/data/catalog.generated.json", "utf8"));
+  const signals = require(join(scratch, "lib/repository-signals.js"));
+  const { sortEntries } = require(join(scratch, "lib/catalog.js"));
+  const snapshot = signals.decodeSnapshot(JSON.parse(readFileSync("data/repository-signals/latest.json", "utf8")));
+  const index = signals.signalIndex(snapshot);
+  const liveEntries = entries.map(entry => ({ ...entry, activity: index.get(githubRepository(entry.url)?.toLowerCase()) ?? null }));
+  const at = Date.parse(snapshot.cutoff) + 3600000;
+  for (const option of signals.activityOptions.filter(option => option.key)) {
+    const result = filterCatalog(liveEntries, new URLSearchParams({ activity: option.key }), at);
+    assert(result.every(entry => signals.activityKeys(entry.activity, at).includes(option.key)));
+  }
+  const combined = filterCatalog(liveEntries, new URLSearchParams({ activity: "sustained", form: "Agent Skill" }), at);
+  assert(combined.length > 0);
+  assert(combined.every(entry => entry.toolForms.includes("Agent Skill") && signals.activityKeys(entry.activity, at).includes("sustained")));
+  const observed = liveEntries.filter(entry => entry.activity?.status === "ok");
+  const byStars = sortEntries(liveEntries, "stars");
+  assert.equal(byStars[0].activity.stars, Math.max(...observed.map(entry => entry.activity.stars)));
+  assert(byStars.slice(observed.length).every(entry => entry.activity?.status !== "ok"));
+  const reference = observed.find(entry => entry.activity.default_branch)?.activity;
+  assert(reference);
+  const sample = { ...reference, archived: false, observed_at: new Date(at).toISOString(), stars: 5000,
+    commits: { "7": 1, "30": 2, "60": 4, "90": 6 },
+    growth: { "7d": { baseline_stars: 2000, interval_days: 7, stars_delta: 100 }, "30d": null } };
+  assert.deepEqual(signals.visibleActivity(sample, at), ["hot", "sustained"]);
+  assert(!signals.activityKeys({ ...sample, growth: { "7d": { ...sample.growth["7d"], stars_delta: 99 }, "30d": null } }, at).includes("hot"));
+  assert(!signals.activityKeys({ ...sample, growth: { "7d": { ...sample.growth["7d"], interval_days: 1 }, "30d": null } }, at).includes("hot"));
+  assert.deepEqual(signals.activityKeys({ ...sample, archived: true }, at), ["archived"]);
+  assert.deepEqual(signals.activityKeys(sample, at + signals.SIGNAL_MAX_AGE + 1), []);
+  assert.equal(filterCatalog(liveEntries, new URLSearchParams({ activity: "sustained" }), at + signals.SIGNAL_MAX_AGE + 3600000).length, 0);
+  assert.throws(() => signals.decodeSnapshot({ ...snapshot, scope: ["subset"] }));
+  assert.throws(() => signals.decodeSnapshot({ ...snapshot, records: [{ ...reference, stars: -1 }] }));
+  const roundTrip = new URLSearchParams(buildHref(new URLSearchParams({ activity: "sustained", sort: "commits", page: "2" }), { tool: "Graphify" }).slice(1));
+  assert.equal(roundTrip.get("activity"), "sustained");
+  assert.equal(roundTrip.get("sort"), "commits");
   const all = filterCatalog(entries, new URLSearchParams());
   assert.equal(all.length, entries.length, "The complete catalog must remain accessible.");
   assert(all.every(entry => /[\u4e00-\u9fff]/.test(descriptionFor(entry).summary)), "Every project card needs a readable Chinese summary.");

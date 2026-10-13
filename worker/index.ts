@@ -1,6 +1,7 @@
 import manifest from "../src/data/search-manifest.generated.json";
 import { topicFor } from "../src/lib/discovery";
 import { MAX_QUERY_LENGTH, SEARCH_LIMIT, SEARCH_MODEL, SEARCH_INSTRUCTION } from "../src/lib/search-config";
+import { decodeSnapshot } from "../src/lib/repository-signals";
 
 interface Env {
   ASSETS: { fetch(request: Request): Promise<Response> };
@@ -73,6 +74,19 @@ export default {
   async fetch(request: Request, env: Env, context: Context): Promise<Response> {
     const url = new URL(request.url);
     if (!url.pathname.startsWith("/api/")) return env.ASSETS.fetch(request);
+    if (url.pathname === "/api/repository-signals") {
+      if (request.method !== "GET") return json({ error: "请求方式不支持。" }, 405, { Allow: "GET" });
+      const cacheKey = new Request(url.origin + "/__repository-signals/v1");
+      const cached = await cache().match(cacheKey);
+      if (cached) return cached;
+      const response = await fetch("https://raw.githubusercontent.com/Renaissance-Mind/awesome-ai-visualization/main/data/repository-signals/latest.json", { signal: AbortSignal.timeout(12000) }).catch(() => null);
+      if (!response?.ok) return json({ error: "动态数据暂时无法更新。" }, 503);
+      // Validate the independently updated snapshot before caching it.
+      const data = decodeSnapshot(await response.json());
+      const result = json(data, 200, { "Cache-Control": "public, max-age=300, s-maxage=900" });
+      context.waitUntil(cache().put(cacheKey, result.clone()));
+      return result;
+    }
     if (url.pathname === "/api/search/status" && request.method === "GET") {
       return json({ model: SEARCH_MODEL, version: manifest.version, projects: manifest.total, dimensions: manifest.dimensions });
     }

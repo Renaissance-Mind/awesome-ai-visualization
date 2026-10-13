@@ -10,6 +10,18 @@ export type CatalogAsset = CatalogLink & {
   thumbnailUrl?: string | null;
 };
 
+export type SignalGrowth = { baseline_at: string; interval_days: number; baseline_stars: number; stars_delta: number; forks_delta: number };
+type SignalBase = { catalog_repo: string; catalog_aliases: string[]; observed_at: string };
+export type RepositorySignal = SignalBase & ({ status: "unavailable"; error?: string } | {
+  status: "ok"; id: string; repo: string; url: string; stars: number; forks: number;
+  archived: boolean; default_branch: string | null;
+  commits: Record<"7" | "30" | "60" | "90", number>;
+  growth: { "7d": SignalGrowth | null; "30d": SignalGrowth | null };
+  recent_commits: { oid: string; committedDate: string; messageHeadline: string; url: string }[];
+  star_history?: { observed_at: string; stars: number }[];
+});
+export type SignalSnapshot = { schema_version: number; cutoff: string; scope: string; records: RepositorySignal[] };
+
 export type CatalogEntry = {
   name: string;
   url: string;
@@ -19,6 +31,7 @@ export type CatalogEntry = {
   surface: string;
   dependencies: string[];
   stars: number | null;
+  activity?: RepositorySignal | null;
   license: string | null;
   updated: string | null;
   note: string;

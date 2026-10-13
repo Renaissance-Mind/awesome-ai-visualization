@@ -2,6 +2,7 @@ import { editorial, featuredNames, localPreviews } from "../data/editorial";
 import { matchesQuery, sortEntries, type SortKey } from "./catalog";
 import projectSummaries from "../data/project-summaries.generated.json";
 import type { CatalogAsset, CatalogEntry } from "../types";
+import { activityKeys, validActivity } from "./repository-signals";
 
 export const topics = [
   { key: "all", label: "全部", title: "工具目录", intro: "先了解能做什么，再选择适合你的工具。" },
@@ -34,7 +35,8 @@ export function descriptionFor(entry: CatalogEntry) {
 
 export const sortOptions: { key: SortKey; label: string }[] = [
   { key: "recommended", label: "编辑精选" }, { key: "name", label: "名称 A–Z" },
-  { key: "updated", label: "项目更新" }, { key: "stars", label: "收录时 Star" },
+  { key: "stars", label: "当前 Star" }, { key: "growth", label: "7天 Star 净增长" },
+  { key: "commits", label: "近30天提交数" }, { key: "updated", label: "记录的项目更新" },
   { key: "evidence", label: "资料丰富度" },
 ];
 
@@ -49,10 +51,12 @@ export const filterFields = [
   { param: "runtime", field: "dependencies", label: "运行依赖" },
 ] as const;
 
-export function filterCatalog(entries: CatalogEntry[], params: URLSearchParams) {
+export function filterCatalog(entries: CatalogEntry[], params: URLSearchParams, now = Date.now()) {
   const topic = params.get("topic") ?? "all";
   const terms = (params.get("q") ?? "").normalize("NFKC").trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   const matches = entries.filter((entry) => {
+    const activity = validActivity(params.get("activity"));
+    if (activity && !activityKeys(entry.activity, now).includes(activity)) return false;
     if (topic !== "all" && topicFor(entry) !== topic) return false;
     if (params.get("group") && entry.readmeGroup !== params.get("group")) return false;
     if (!filterFields.every(({ param, field }) => !params.get(param) || entry[field].includes(params.get(param)!))) return false;
@@ -60,7 +64,7 @@ export function filterCatalog(entries: CatalogEntry[], params: URLSearchParams) 
     const extraText = [copy.summary, copy.detail, groupNames[entry.readmeGroup], topics.find((t) => t.key === topicFor(entry))?.label].join(" ").toLocaleLowerCase();
     return terms.every((term) => matchesQuery(entry, term) || extraText.includes(term));
   });
-  const sort = validSort(params.get("sort"));
+  const sort = validSort(params.get("sort") ?? (validActivity(params.get("activity")) === "hot" ? "growth" : null));
   const sorted = sortEntries(matches, sort);
   if (sort !== "recommended") return sorted;
   const featured = new Map(featuredNames.map((name, index) => [name, index]));

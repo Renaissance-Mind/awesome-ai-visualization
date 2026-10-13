@@ -51,6 +51,16 @@ python3 scripts/collect_repository_signals.py \
 
 `.github/workflows/repository-signals.yml` 提供 GitHub Actions 每日采集，时间为北京时间08:23，也可手动触发。工作流需要进入远程默认分支且 Actions 启用后才会执行；GitHub 的定时任务可能延迟。
 
-工作流使用内置 `GITHUB_TOKEN` 读取公开项目、上传采集文件为 artifact，并提交数据变化。若默认分支禁止机器人直接推送，自动提交步骤会明确失败；artifact 仍可下载。它不会修改 catalog 的原始 Star 字段或用途标签。前端可按 `catalog_aliases` 匹配项目，再展示 `tags`，并同时标出观测时间。
+工作流使用内置 `GITHUB_TOKEN` 读取公开项目、上传采集文件为 artifact，并提交数据变化。若默认分支禁止机器人直接推送，自动提交步骤会明确失败；artifact 仍可下载。
+
+## 网站展示
+
+网站通过 `/api/repository-signals` 读取远程默认分支的 `latest.json`，在 Cloudflare 边缘缓存15分钟。采集机器人提交成功后，新数据会自动进入网站，无需重新部署前端。构建时另存 `public/repository-signals.json` 作为备用快照。前端每10分钟重新读取一次，优先采用截止时间较新的完整快照。
+
+按目录主链接的 GitHub 仓库名匹配 `catalog_aliases`，用途信息保持独立。列表展示采集时 Star、近30天提交数、有基线时的周增长；详情提供7/30天增长、最近提交、观测日期和最多30个观测日的 Star 趋势。周/月基线缺失时显示“正在积累数据”。
+
+网站标签规则：HOT 要求未归档、6–8天基线至少100 Star、净增至少100且增幅至少5%；Popular 要求未归档且当前至少5,000 Star。持续维护和近期更新沿用上面的提交规则。列表最多显示两个标签，HOT 优先于 Popular，持续维护优先于近期更新；已归档独立展示。原始采集 `tags` 保留原有指标标签，网站根据原始数值计算这些展示标签。
+
+观测超过72小时，停止动态标签匹配并标明历史快照。无法采集的仓库展示“暂未获取动态”，不当作零提交。当前 Star 排序使用已采集值；周增长和30天提交数排序要求观测仍在72小时内，未知指标排在已知指标后。负增长仍保留为负数。搜索默认保留语义相关性，用户可主动切换排序；动态筛选在检索结果上继续筛选。
 
 接口依据：[GitHub GraphQL reference](https://docs.github.com/en/graphql/reference)、[GitHub Actions schedule](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。

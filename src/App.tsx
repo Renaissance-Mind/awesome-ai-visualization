@@ -3,10 +3,14 @@ import { lazy, Suspense, useEffect, useMemo, useRef, useState, type AnchorHTMLAt
 import rawCatalog from "./data/catalog.generated.json";
 import { localPreviews } from "./data/editorial";
 import { RepositoryBadge } from "./components/RepositoryBadge";
-import { formatCompactNumber, formatNumber, getHostname } from "./lib/catalog";
+import { formatCompactNumber, formatNumber, getHostname, sortEntries } from "./lib/catalog";
 import { buildHref, catalogWindow, descriptionFor, filterCatalog, filterFields, galleryAssets, groupNames, previewAssets, sortOptions, topicFor, topics, validSort, videoEmbed } from "./lib/discovery";
 import type { CatalogAsset, CatalogData, CatalogEntry, CatalogLink } from "./types";
 import { useSemanticSearch } from "./lib/useSemanticSearch";
+import { ActivityTags, ActivityMetrics, RepositoryActivity } from "./components/RepositoryActivity";
+import { useRepositorySignals } from "./lib/useRepositorySignals";
+import { activityKeys, activityOptions, validActivity, signalIndex, signalDate } from "./lib/repository-signals";
+import { githubRepository } from "./lib/discovery";
 import { MAX_QUERY_LENGTH } from "./lib/search-config";
 import Homepage, { designFor, languageFor } from "./components/Homepage";
 
@@ -71,8 +75,9 @@ function ToolRow({ entry, params }: { entry: CatalogEntry; params: URLSearchPara
   return <li className="tool-row">
     <Link className="tool-visual" href={href} tabIndex={-1} aria-hidden="true"><Thumbnail entry={entry} /></Link>
     <div className="tool-copy">
-      <div className="tool-title"><h2><Link href={href}>{entry.name}</Link></h2><RepositoryBadge entry={entry} /></div>
+      <div className="tool-title"><h2><Link href={href}>{entry.name}</Link></h2><ActivityTags signal={entry.activity} /><RepositoryBadge entry={entry} /></div>
       <p>{copy.summary}{copy.detail && <><br />{copy.detail}</>}</p>
+      <ActivityMetrics entry={entry} />
       {video && previewAssets(entry).length === 0 && <External href={video.url} className="video-link">观看官方演示</External>}
     </div>
     <Link className="text-link read-link" href={href} aria-label={"阅读 " + entry.name + " 的介绍"}>阅读介绍<ArrowRight size={17} aria-hidden="true" /></Link>
@@ -101,9 +106,9 @@ function Header({ view, params }: { view: string; params: URLSearchParams }) {
 }
 
 function Facets({ params }: { params: URLSearchParams }) {
-  const active = [...filterFields.map((f) => f.param), "group"].filter((key) => params.has(key));
+  const active = [...filterFields.map((f) => f.param), "group", "activity"].filter((key) => params.has(key));
   const update = (key: string, value: string) => navigate(buildHref(params, { [key]: value, page: null }), false, false);
-  return <details className="refine" open={active.length > 0 || undefined}>
+  return <details className="refine" open={active.some(key => key !== "activity") || undefined}>
     <summary><SlidersHorizontal size={15} aria-hidden="true" />筛选{active.length > 0 && <span>（{active.length}）</span>}<ChevronDown size={14} aria-hidden="true" /></summary>
     <div className="refine-fields">
       {filterFields.map(({ param, field, label }) => <label key={param}>{label}
@@ -116,25 +121,31 @@ function Facets({ params }: { params: URLSearchParams }) {
         <option value="">不限</option>
         {Object.keys(catalog.facets.groups).sort().map((value) => <option key={value} value={value}>{groupNames[value] ?? value}</option>)}
       </select></label>
-      {active.length > 0 && <button className="text-link clear-filters" onClick={() => navigate(buildHref(params, { source: null, form: null, output: null, runtime: null, group: null, page: null }), false, false)}>清除筛选<X size={14} aria-hidden="true" /></button>}
+      <label>项目动态<select value={validActivity(params.get("activity"))} onChange={e => update("activity", e.target.value)}>{activityOptions.map(option => <option key={option.key} value={option.key}>{option.label}</option>)}</select></label>
+      {active.length > 0 && <button className="text-link clear-filters" onClick={() => navigate(buildHref(params, { source: null, form: null, output: null, runtime: null, group: null, activity: null, page: null }), false, false)}>清除筛选<X size={14} aria-hidden="true" /></button>}
     </div>
   </details>;
 }
 
-function Directory({ params }: { params: URLSearchParams }) {
+function Directory({ params, entries, signals }: { params: URLSearchParams; entries: CatalogEntry[]; signals: ReturnType<typeof useRepositorySignals> }) {
   const [draft, setDraft] = useState(params.get("q") ?? "");
   const inputRef = useRef<HTMLInputElement>(null);
   const composing = useRef(false);
   const semantic = useSemanticSearch(params);
   const matches = useMemo(() => {
-    if (!params.get("q")?.trim()) return filterCatalog(catalog.entries, params);
-    const byName = new Map(catalog.entries.map(entry => [entry.name, entry]));
-    return (semantic.result?.names ?? []).map(name => byName.get(name)).filter((entry): entry is CatalogEntry => !!entry);
-  }, [params, semantic.result]);
+    if (!params.get("q")?.trim()) return filterCatalog(entries, params, signals.now);
+    const byName = new Map(entries.map(entry => [entry.name, entry]));
+    const selected = validActivity(params.get("activity"));
+    const result = (semantic.result?.names ?? []).map(name => byName.get(name)).filter((entry): entry is CatalogEntry => !!entry && (!selected || activityKeys(entry.activity, signals.now).includes(selected)));
+    const sort = validSort(params.get("sort"));
+    return sort === "recommended" ? result : sortEntries(result, sort);
+  }, [params, semantic.result, entries, signals.now]);
   const visible = catalogWindow(matches, params.get("page"));
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const activeTopic = params.get("topic") ?? "all";
   const hasSearch = !!params.get("q")?.trim();
+  const waitingForGrowth = validActivity(params.get("activity")) === "hot" && !!signals.snapshot
+    && !signals.snapshot.records.some(row => row.status === "ok" && row.growth["7d"] !== null);
   useEffect(() => setDraft(params.get("q") ?? ""), [params]);
   useEffect(() => {
     const sentinel = loadMoreRef.current;
@@ -177,18 +188,22 @@ function Directory({ params }: { params: URLSearchParams }) {
       </nav>
       <div className="catalog-meta">
         <span role="status" aria-live="polite">{semantic.loading ? "正在查找…" : semantic.error ? "搜索未完成" : formatNumber(matches.length) + (hasSearch ? " 个匹配工具" : " 个工具")}</span><span aria-hidden="true">·</span>
-        {hasSearch ? <span>按相关性排列</span> : <label className="sort-label"><span className="sr-only">排列方式</span>
-          <select aria-label="排列方式" value={validSort(params.get("sort"))} onChange={(e) => navigate(buildHref(params, { sort: e.target.value, page: null }), false, false)}>
-            {sortOptions.map((option) => <option key={option.key} value={option.key}>{option.label}</option>)}
+        <label className="sort-label"><span className="sr-only">排列方式</span>
+          <select aria-label="排列方式" value={validSort(params.get("sort") ?? (!hasSearch && validActivity(params.get("activity")) === "hot" ? "growth" : null))} onChange={(e) => navigate(buildHref(params, { sort: e.target.value, page: null }), false, false)}>
+            {sortOptions.map((option) => <option key={option.key} value={option.key}>{hasSearch && option.key === "recommended" ? "相关性" : option.label}</option>)}
           </select><ChevronDown size={13} aria-hidden="true" />
-        </label>}
+        </label>
       </div>
+    </div>
+    <div className="activity-toolbar">
+      <nav aria-label="项目动态筛选">{activityOptions.slice(0, 5).map(option => <Link key={option.key} aria-current={validActivity(params.get("activity")) === option.key ? "page" : undefined} href={buildHref(params, { activity: option.key || null, page: null })}>{option.label}</Link>)}</nav>
+      <span role="status">{signals.loading ? "正在读取动态…" : signals.snapshot ? `动态采集于 ${signalDate(signals.snapshot.cutoff)}${signals.offline ? " · 使用备用快照" : ""}` : "动态数据暂不可用"}</span>
     </div>
     <div className="list-heading"><span>{hasSearch ? "搜索结果" : "工具"}</span><Facets params={params} /></div>
     {semantic.loading ? <section className="empty-state" aria-busy="true" role="status"><h2>正在查找适合的工具</h2><p>正在根据你的需求整理搜索结果。</p></section>
       : semantic.error ? <section className="empty-state" role="alert"><h2>搜索暂时未完成</h2><p>{semantic.error}</p><button type="button" className="text-link" onClick={semantic.retry}>重新搜索<ArrowRight size={17} /></button></section>
       : matches.length ? <ul className="tool-list" aria-label="工具列表">{visible.items.map((entry) => <ToolRow key={entry.name} entry={entry} params={params} />)}</ul>
-      : <section className="empty-state"><h2>没有找到符合条件的工具</h2><p>试试更短的名称或用途，也可以放宽筛选条件。</p>
+      : <section className="empty-state"><h2>{waitingForGrowth ? "正在积累升温数据" : "没有找到符合条件的工具"}</h2><p>{waitingForGrowth ? "每日采集已建立 Star 基线。积累约7天观测后，会自动展示符合 HOT 规则的项目。" : "试试更短的名称或用途，也可以放宽筛选条件。"}</p>
         <Link className="text-link" href="?view=catalog">查看全部工具<ArrowRight size={17} /></Link></section>}
     {matches.length > 0 && <div className="load-more" ref={loadMoreRef}>
       <p role="status" aria-live="polite">已显示 {formatNumber(visible.items.length)} / {formatNumber(matches.length)} 个工具</p>
@@ -249,13 +264,14 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
   if (entry.homepage && entry.homepage !== entry.url) resources.push({ title: "项目主页", url: entry.homepage });
   return <article className="detail-page">
     <nav className="breadcrumb" aria-label="当前位置"><Link href={returnHref}>工具目录</Link><span>/</span><Link href={"?topic=" + topic.key}>{topic.label}</Link><span>/</span><span>{entry.name}</span></nav>
-    <header className="detail-heading"><div className="detail-title"><h1>{entry.name}</h1><RepositoryBadge entry={entry} /></div><p className="detail-lead">{copy.summary}</p>{copy.detail && <p>{copy.detail}</p>}
+    <header className="detail-heading"><div className="detail-title"><h1>{entry.name}</h1><ActivityTags signal={entry.activity} /><RepositoryBadge entry={entry} /></div><p className="detail-lead">{copy.summary}</p>{copy.detail && <p>{copy.detail}</p>}
       <div className="official-actions">{resources.map((link) => <External key={link.url} href={link.url}>{link.title}</External>)}</div>
     </header>
     <div className="reading-layout"><div className="reading-body">
       <section id="project-profile" className="reading-section"><h2>项目说明</h2>
         <Suspense fallback={<p role="status">正在读取项目说明…</p>}><ProjectExplanation name={entry.name} /></Suspense>
       </section>
+      <RepositoryActivity entry={entry} />
       <Gallery entry={entry} />
       <section id="input-output" className="reading-section"><h2>从什么开始，会得到什么</h2><div className="prose-columns">
         <div><h3>准备的材料</h3><p>{entry.sourceTypes.length ? entry.sourceTypes.join("、") : "请参考项目官方说明"}。</p></div>
@@ -266,7 +282,7 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
           {entry.dependencies.length > 0 && <>目录记录的依赖包括{entry.dependencies.join("、")}，具体配置以官方文档为准。</>}</p>
         <dl className="facts">
           {entry.license && <div><dt>许可证</dt><dd>{entry.license === "unknown" || entry.license === "NOASSERTION" ? "待核实，请查看官方仓库" : entry.license}</dd></div>}
-          {entry.stars !== null && <div><dt>收录时 Star</dt><dd>{formatCompactNumber(entry.stars)}<small>非实时数据</small></dd></div>}
+          {!entry.activity && entry.stars !== null && <div><dt>收录时 Star</dt><dd>{formatCompactNumber(entry.stars)}<small>非实时数据</small></dd></div>}
           {entry.updated && <div><dt>记录的项目更新</dt><dd>{entry.updated}</dd></div>}
         </dl>
       </section>
@@ -277,7 +293,7 @@ function Detail({ entry, params }: { entry: CatalogEntry; params: URLSearchParam
         <p className="source-note">目录最近整理于 {catalog.lastResearched}。条目信息以项目最新官方说明为准。</p>
       </section>
     </div><aside className="reading-toc" aria-label="本页内容"><p>本页内容</p>
-      <a href="#project-profile">项目说明</a><a href="#examples">实际效果</a><a href="#input-output">输入与产出</a><a href="#requirements">使用条件</a><a href="#sources">官方资料</a>
+      <a href="#project-profile">项目说明</a>{entry.activity && <a href="#repository-activity">项目动态</a>}<a href="#examples">实际效果</a><a href="#input-output">输入与产出</a><a href="#requirements">使用条件</a><a href="#sources">官方资料</a>
     </aside></div>
     <div className="reading-footer"><Link className="text-link" href={returnHref}><ArrowLeft size={16} />返回工具目录</Link><Link className="text-link" href={"?topic=" + topic.key}>继续探索{topic.label}<ArrowRight size={16} /></Link></div>
   </article>;
@@ -296,9 +312,14 @@ function Footer({ params }: { params: URLSearchParams }) {
 
 export function App() {
   const params = useLocation();
+  const signals = useRepositorySignals();
+  const liveCatalog = useMemo(() => {
+    const index = signals.snapshot ? signalIndex(signals.snapshot) : new Map();
+    return { ...catalog, entries: catalog.entries.map(entry => ({ ...entry, activity: index.get(githubRepository(entry.url)?.toLowerCase() ?? "") ?? null })) };
+  }, [signals.snapshot]);
   const toolName = params.get("tool");
-  const entry = toolName ? catalog.entries.find((item) => item.name === toolName) : undefined;
-  const browseParams = ["q", "topic", "source", "form", "output", "runtime", "group", "page", "sort"];
+  const entry = toolName ? liveCatalog.entries.find((item) => item.name === toolName) : undefined;
+  const browseParams = ["q", "topic", "source", "form", "output", "runtime", "group", "page", "sort", "activity"];
   const view = toolName || params.get("view") === "catalog" || params.get("view") === "guides" || browseParams.some(key => params.has(key)) ? "catalog" : "home";
   const directoryParams = new URLSearchParams(params);
   directoryParams.set("view", "catalog");
@@ -314,6 +335,6 @@ export function App() {
   }, [entry, view, en]);
   return <div className={"site-frame" + (view === "home" ? " home-frame design-" + design : "")}><a className="skip-link" href="#main">{en ? "Skip to content" : "跳到内容"}</a><Header view={view} params={params} /><main id="main" className={view === "home" ? "" : "wrap"} tabIndex={-1}>
     {toolName ? (entry ? <Detail key={entry.name} entry={entry} params={params} /> : <section className="empty-state"><h1>没有找到这个工具</h1><p>名称可能已调整，可以返回目录继续查找。</p><Link className="text-link" href="?view=catalog">返回工具目录<ArrowRight size={17} /></Link></section>)
-      : view === "home" ? <Homepage catalog={catalog} params={params} go={navigate} /> : <Directory params={directoryParams} />}
+      : view === "home" ? <Homepage catalog={liveCatalog} params={params} go={navigate} /> : <Directory params={directoryParams} entries={liveCatalog.entries} signals={signals} />}
   </main><Footer params={params} /></div>;
 }

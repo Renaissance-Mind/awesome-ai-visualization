@@ -168,6 +168,12 @@ def label_record(row, history):
 def publish(output, records, cutoff, fingerprint, scope):
     history = load_history(output / "history")
     records = [label_record(row, history) for row in records]
+    for row in records:
+        if row["status"] == "ok":
+            points = {point["observed_at"][:10]: {key: point[key] for key in ("observed_at", "stars")}
+                      for point in history.get(row["id"], [])}
+            points[row["observed_at"][:10]] = {key: row[key] for key in ("observed_at", "stars")}
+            row["star_history"] = sorted(points.values(), key=lambda point: point["observed_at"])[-30:]
     records.sort(key=lambda row: row["catalog_repo"].lower())
     latest = {"schema_version": 1, "cutoff": iso(cutoff), "catalog_sha256": fingerprint,
               "scope": scope, "labels": LABELS, "records": records}

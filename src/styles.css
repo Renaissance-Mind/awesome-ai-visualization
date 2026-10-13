@@ -71,7 +71,7 @@ summary::-webkit-details-marker { display: none; }
 .tool-copy { grid-column: 2; min-width: 0; padding: 0; }
 .tool-title, .detail-title { display: flex; align-items: center; flex-wrap: wrap; gap: 9px 13px; }
 .tool-title h2, .detail-title h1 { min-width: 0; }
-.repository-badge { position: relative; display: inline-flex; align-items: center; flex-shrink: 0; width: 148px; min-height: 28px; line-height: 1; }
+.repository-badge { position: relative; display: inline-flex; align-items: center; flex-shrink: 0; min-height: 28px; line-height: 1; }
 .repository-badge img { width: 148px; height: 20px; object-fit: contain; object-position: left center; }
 .repository-badge img.is-loading { position: absolute; opacity: 0; }
 .repository-badge-fallback { display: inline-flex; align-items: center; gap: 5px; padding: 4px 6px; font-size: 11px; font-weight: 500; background: #f1f4f8; color: #475569; }
@@ -237,3 +237,43 @@ summary::-webkit-details-marker { display: none; }
   .guide-list h2 { font-size: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+
+/* Repository activity keeps the editorial list light and exposes its evidence. */
+.activity-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; padding: 17px 0 3px; }
+.activity-toolbar nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 13px; }
+.activity-toolbar nav a { padding: 6px 0; color: var(--body); border-bottom: 2px solid transparent; }
+.activity-toolbar nav a[aria-current] { color: var(--blue); border-bottom-color: var(--blue); }
+.activity-toolbar > span { font-size: 12px; color: var(--muted); }
+.activity-tags { display: inline-flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.activity-tags:empty { display: none; }
+.activity-tag { position: relative; font-size: 11px; line-height: 1.5; color: #36536e; }
+.activity-tag summary { list-style: none; padding: 3px 7px; background: #edf4fa; border-radius: 3px; font-weight: 600; }
+.tag-hot summary { background: #ffeddc; color: #9a3e00; }
+.tag-popular summary { background: #fff4e9; color: #965715; }
+.tag-sustained summary { background: #e9f5ee; color: #247346; }
+.tag-archived summary { background: #eff0f2; color: #626b76; }
+.tag-explanation { position: absolute; z-index: 20; left: 0; top: calc(100% + 7px); width: 270px; padding: 13px 16px; background: #fff; border: 1px solid var(--line); box-shadow: 0 5px 20px #14294018; color: var(--body); font-size: 13px; font-weight: 400; line-height: 1.8; }
+.activity-metrics { display: flex; flex-wrap: wrap; gap: 7px 16px; margin-top: 11px; font-size: 12px; color: var(--body); line-height: 1.8; }
+.activity-metrics > span { display: inline-flex; align-items: center; gap: 5px; }
+.activity-metrics .growth-metric { color: #247346; }
+.muted { color: var(--muted); }
+.activity-section-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 20px; }
+.activity-section-title h2 { margin-bottom: 8px; }
+.reading-section .activity-observed { font-size: 12px; color: var(--muted); }
+.signal-facts dt { display: flex; align-items: center; gap: 5px; }
+.signal-facts dd { font-size: 17px; color: var(--ink); }
+.star-trend { margin: 28px 0; max-width: 620px; }
+.star-trend figcaption { font-size: 14px; margin-bottom: 12px; }
+.star-trend svg { width: 100%; display: block; }
+.trend-axis { stroke: var(--line); stroke-width: 1; }
+.trend-line { stroke: var(--blue); stroke-width: 2; stroke-linejoin: round; }
+.star-trend > div { display: flex; justify-content: space-between; gap: 15px; }
+.star-trend > div, .star-trend small { font-size: 12px; color: var(--muted); line-height: 1.8; }
+.recent-commits { margin-top: 25px; }
+.recent-commits li { padding: 9px 0; border-bottom: 1px solid var(--line); }
+.recent-commits a { color: var(--blue); font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.recent-commits li > span { display: block; font-size: 12px; color: var(--muted); margin-top: 3px; }
+.activity-rules { margin-top: 22px; }
+.activity-rules summary { font-size: 13px; color: var(--blue); }
+.activity-rules p { font-size: 13px; margin-top: 10px; }
+@media (max-width: 800px) { .tag-explanation { position: fixed; top: auto; bottom: 18px; left: 18px; right: 18px; width: auto; max-width: 600px; margin-inline: auto; } }

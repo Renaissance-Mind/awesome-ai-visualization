@@ -6,6 +6,8 @@ dist/
 .wrangler/
 npm-debug.log*
 .cache/repository-activity/
+.cache/activity-integration/
+public/repository-signals.json
 
 # Local browser review captures
 output/playwright/

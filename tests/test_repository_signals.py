@@ -79,6 +79,7 @@ class RepositorySignalsTests(unittest.TestCase):
             self.assertEqual(baseline["stars"], 100)
             latest = json.loads((output / "latest.json").read_text())
             self.assertEqual(latest["records"][0]["stars"], 120)
+            self.assertEqual(latest["records"][0]["star_history"], [{"observed_at": "2026-10-13T00:00:00Z", "stars": 120}])
 
 
 if __name__ == "__main__":
