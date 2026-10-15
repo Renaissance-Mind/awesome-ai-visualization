@@ -19,7 +19,7 @@ Algunos nombres de proyectos, términos oficiales y descripciones breves se mant
 <!-- repository-activity:start -->
 ## Actividad de repositorios desde 2024
 
-Datos mensuales desde 2024-01; captura: 2026-10-15 19:26 (UTC+8). Incluye 834 de 852 repositorios. Haz clic en cada gráfico para abrir su versión interactiva. El mes actual está incompleto.
+Datos mensuales desde 2024-01; captura: 2026-10-15 19:39 (UTC+8). Incluye 834 de 852 repositorios. Haz clic en cada gráfico para abrir su versión interactiva. El mes actual está incompleto.
 
 [![Commits mensuales por categoría](public/activity/es/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#commits)
 
