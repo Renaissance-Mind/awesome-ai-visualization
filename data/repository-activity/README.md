@@ -1,44 +1,27 @@
 # Repo 月度开发活动
 
-数据快照截至 **2026-10-13 01:35:29（Asia/Shanghai）**。目录包含 893 个条目，其中 852 个条目的主链接指向 GitHub；规范化并去重后，共 850 个 repo。成功取得 833 个 repo 的完整默认分支历史和创建时间，其余 17 个 repo 的 GraphQL 查询无法解析，REST 接口复核均返回 HTTP 404。41 个主链接不指向 GitHub 的条目不计入 repo 统计。
+数据快照截至 **2026-10-15 19:26:00（Asia/Shanghai）**。目录包含 895 个条目，
+其中 854 个条目的主链接指向 GitHub，共 852 个规范化仓库 URL。
+成功取得 834 个仓库的元数据，
+其中 834 个仓库取得完整默认分支历史，0 个仓库为空。
+另有 18 个仓库不可访问，REST 已复核为 HTTP 404，不计为零提交仓库。
 
-两条月度序列采用同一时间范围：**2012-09 至 2026-10，共 170 个月**。空月补零；2026-10 尚未结束，折线末尾使用虚线。
+原始月度序列覆盖 2012-09 至 2026-10，空月补零，当月标记为未结束。
+共计 342,551 次提交；网站分类图表从 2024-01 开始，合计见 `category-summary.json`。
+提交按 committer 时间归入上海时区，包含合并、机器人及 fork 继承历史。
+同一个提交出现在不同仓库时分别计数。仓库创建时间来自 GitHub `createdAt`，不代表目录收录时间。
+同一 GitHub 仓库 ID 只统计一次，分类按其在目录中的首个条目确定。
 
-| 度量 | 口径 | 总数 |
-| --- | --- | ---: |
-| 每月 commit 数 | 对每个 repo，遍历元数据快照固定的默认分支 HEAD 所有可达提交，按 committer 时间归入上海时区的月份 | 337,840 |
-| 每月新建 repo 数 | 按 GitHub `createdAt` 归入上海时区的月份，每个 repo ID 计一次 | 833 |
+`snapshot.json` 固定 GitHub 元数据和默认分支 HEAD；`repositories.json` 保存逐仓库计数；
+`monthly.json` / `monthly.csv` 为全时段汇总；`category-monthly.json` / `.csv` 为分类汇总；
+`unavailable.json` 保存不可访问仓库的复核结果。每个成功仓库的提交条数均与固定 HEAD 的
+GitHub GraphQL `history.totalCount` 校验。网络、权限及历史不完整错误会使更新失败，保留断点后重试。
 
-commit 包含合并提交、机器人提交和 5 个 fork 的继承历史；相同 commit 出现在不同 repo 时，分别计入各自仓库。其他分支上尚未合并、默认分支已无法追溯的提交不在统计范围内。repo 创建时间代表 GitHub 仓库创建时间，不代表项目最早开发时间或本目录收录时间。主链接指向技能文件或仓库子目录时，commit 统计仍覆盖整个宿主 repo。
+每月首次发布巡检自动重新采集、分类并生成八种语言图表，再校验和上线。入口为
+`npm run maintain:publication`；使用 `-- --refresh-activity` 可强制刷新。
+失败重试沿用同一快照和缓存，避免重复下载已完成历史。
+独立采集：`python3 scripts/collect_repository_activity.py --refresh`；断点续跑时省略 `--refresh`。
 
-833 个 repo 的本地提交条数分别与固定 HEAD 的 GitHub GraphQL `history.totalCount` 完全一致。另对 Paper2Any、Lightdash、Mermaid 使用 ISO 时间字段独立复算月度计数，与结果一致。各仓库计数、月份汇总和 CSV 总数均已核对。17 个无法访问的 repo 保留在覆盖清单中，未当作零提交仓库。
-
-| 文件 | 内容 |
-| --- | --- |
-| `monthly.csv` / `monthly.json` | 两条折线的逐月数据，含当月未结束标记 |
-| `summary.json` | 快照时间、目录指纹、总量、覆盖范围、计数定义 |
-| `snapshot.json` | GitHub 元数据、固定 HEAD、目录条目与 repo 的对应关系 |
-| `repositories.json` | 每个 repo 的实际提交数和月度计数，含无法访问状态 |
-| `unavailable.json` | 17 个无法访问的 repo 及 REST 复核状态 |
-
-重新采集需要已登录的 GitHub CLI、Git，以及安装 PyYAML 的 Python。commit 对象缓存位于忽略提交的 `.cache/repository-activity/`；过滤下载不包含源码树和文件内容。中断后执行相同命令会沿用固定快照、复用已完成仓库；使用 `--refresh` 开始新快照。
-
-```bash
-python3 scripts/collect_repository_activity.py --workers 8
-python3 scripts/collect_repository_activity.py --workers 8 --refresh
-python3 scripts/render_repository_activity.py /absolute/output/repo-monthly-activity.html
-```
-
-数据字段与 Git 行为参见 [GitHub Repository 对象](https://docs.github.com/en/graphql/reference/objects#repository)、[Git log 文档](https://git-scm.com/docs/git-log)、[Git clone 过滤说明](https://git-scm.com/docs/git-clone)。GitHub 的统计图接口会排除部分提交，故此处采用固定 HEAD 的原始 Git 历史；参见 [GitHub 仓库统计接口说明](https://docs.github.com/en/rest/metrics/statistics)。
-
-## 2024 年起按类别统计
-
-分类柱状图沿用以上固定快照，展示 **2024-01 至 2026-10 的 34 个月**，按目录用途分成 12 个有可访问 GitHub repo 的类别。该时间段共有 **307,064 次 commit、805 个新建 repo**。每个月的分类合计分别与原来的两条月度序列完全一致。
-
-每个 repo 只计一次；若目录中多个条目把同一 repo 放在不同类别，归入目录顺序中首个条目的类别。本次只有 `softaworks/agent-toolkit` 跨类别，归入“演示文稿”。同类别的重复条目也去重。“商业站点”类的主链接均为非 GitHub 网址，未进入 repo 统计。分类代表目录用途，commit 仍统计整个宿主 repo 的默认分支历史。
-
-`category-monthly.csv` 和 `category-monthly.json` 保存逐月逐类计数，`category-summary.json` 保存类别总量与分配规则，`repo-categories.json` 保存全部 850 个 repo 的类别归属及覆盖状态。堆叠柱的每一段代表一个类别；图例可切换类别，两张图的柱高、合计和单月明细同步更新。未结束的当月以浅色标记。
-
-```bash
-python3 scripts/build_repository_activity_categories.py /absolute/output/repo-category-activity-2024.html
-```
+统计范围为本目录收录的相关仓库，不代表整个 AI 行业的开发趋势。
+来源：[GitHub Repository](https://docs.github.com/en/graphql/reference/objects#repository)、
+[git log](https://git-scm.com/docs/git-log)。

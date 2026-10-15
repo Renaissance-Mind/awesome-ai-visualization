@@ -13,11 +13,13 @@ on the same-language website page. The surrounding README content is preserved.
 The generated sections are bounded by `repository-activity:start` and
 `repository-activity:end` comments so publication can be repeated safely.
 
-All outputs use the fixed category snapshot in `data/repository-activity/`:
-2024-01 through 2026-10, 307,064 commits, 805 newly created repositories, and
-coverage of 833 out of 850 repositories. The final month is incomplete. These
-are use-case categories, and commit counts include entire default-branch
-histories; see the dataset README for the full counting rules.
+All outputs use the auditable category snapshot in `data/repository-activity/`.
+The snapshot is recollected on the first hourly publication run of each Shanghai
+calendar month. Dates, totals, coverage and category ordering are derived from
+`category-summary.json`; the final month is incomplete. These are use-case
+categories and commits cover entire default-branch histories. See the dataset
+README for counting rules and [Automated publication](publication-automation.md)
+for scheduling, retries, deployment and live verification.
 
 ## Regenerate
 

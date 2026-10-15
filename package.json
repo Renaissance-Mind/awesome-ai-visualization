@@ -17,7 +17,10 @@
     "build": "tsc -b && tsc -p tsconfig.worker.json && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "check:frontend": "node scripts/check-frontend.mjs",
-    "deploy:cf": "npm run check:frontend && npm run build && npm run check:search && npx --yes wrangler@4.143.0 deploy"
+    "deploy:cf": "npm run check:frontend && npm run build && npm run check:search && node scripts/prepare-release.mjs && npx --yes wrangler@4.143.0 deploy && npm run check:publication && npm run check:search-api",
+    "maintain:publication": "node scripts/maintain-publication.mjs",
+    "check:publication": "node scripts/check-publication.mjs",
+    "test:publication": "node --test tests/publication.test.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.561.0",

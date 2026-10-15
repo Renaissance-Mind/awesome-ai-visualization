@@ -10,6 +10,7 @@ import argparse
 import html
 import json
 import math
+import os
 import re
 import shutil
 import warnings
@@ -31,9 +32,6 @@ BASE_URL = "https://awesome-ai-visualization.renaissancemind.ai/activity"
 PALETTE = ["#0099ff", "#ff944d", "#52bf80", "#e369af", "#9b75de", "#24b6b4"]
 START_MARKER = "<!-- repository-activity:start -->"
 END_MARKER = "<!-- repository-activity:end -->"
-EXPECTED_CATEGORIES = ["presentation-tools", "data-dashboard", "doc-to-knowledge", "meta-index",
-                       "codebase-map", "rendering-primitive", "diagram-generation", "video-generation",
-                       "infographic-report", "research-report", "paper-visualization", "literature-map"]
 
 
 def format_number(value, locale):
@@ -42,7 +40,7 @@ def format_number(value, locale):
 
 
 def figure(path, locale, copy, summary, monthly, metric):
-    matplotlib.rcParams.update({"font.family": copy["font"], "svg.fonttype": "path",
+    matplotlib.rcParams.update({"font.family": os.environ.get("ACTIVITY_FONT", copy["font"]), "svg.fonttype": "path",
                                "svg.hashsalt": f"activity-{locale}-{metric}", "hatch.linewidth": .7,
                                "axes.unicode_minus": False})
     warnings.filterwarnings("error", message="Glyph .* missing from .*font")
@@ -51,7 +49,7 @@ def figure(path, locale, copy, summary, monthly, metric):
     title = copy["commitsTitle"] if metric == "commits" else copy["createdTitle"]
     unit = copy["commitsUnit"] if metric == "commits" else copy["createdUnit"]
     snapshot = datetime.fromisoformat(summary["cutoff"]).astimezone(ZoneInfo(summary["timezone"]))
-    subtitle = f"{copy['asOf']}: {snapshot:%Y-%m-%d %H:%M} UTC+8 · {copy['coverage']}: {summary['covered_repos']} / 850"
+    subtitle = f"{copy['asOf']}: {snapshot:%Y-%m-%d %H:%M} UTC+8 · {copy['coverage']}: {summary['covered_repos']} / {summary['repositories']}"
     fig.text(.075, .963, title, fontsize=22, color="#111723", va="top")
     fig.text(.075, .907, subtitle, fontsize=11.5, color="#606b7e", va="top")
     handles = [Patch(facecolor=PALETTE[i % 6], edgecolor="white", linewidth=0,
@@ -91,7 +89,7 @@ def figure(path, locale, copy, summary, monthly, metric):
                   xy=(peak, bottoms[peak]), xytext=(-3 if peak > len(monthly) - 8 else 3, 7),
                   textcoords="offset points", ha="right" if peak > len(monthly) - 8 else "left",
                   fontsize=11.5, color="#111723")
-    footer = f"{copy['total']}: {format_number(sum(bottoms), locale)} · 2024-01 — 2026-10 · {copy['partial']}"
+    footer = f"{copy['total']}: {format_number(sum(bottoms), locale)} · {summary['start']} — {summary['end']} · {copy['partial']}"
     fig.text(.075, .038, footer, fontsize=11.5, color="#606b7e")
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
@@ -130,14 +128,19 @@ def main():
     monthly = json.loads((DATA / "category-monthly.json").read_text())
     summary = json.loads((DATA / "category-summary.json").read_text())
     locales = json.loads((DATA / "locales.json").read_text())
-    assert [category["id"] for category in summary["categories"]] == EXPECTED_CATEGORIES
-    assert len(monthly) == 34 and sum(sum(row["commits"].values()) for row in monthly) == summary["commits"]
+    assert monthly and sum(sum(row["commits"].values()) for row in monthly) == summary["commits"]
     assert sum(sum(row["repos_created"].values()) for row in monthly) == summary["repos_created"]
     PUBLIC.mkdir(parents=True, exist_ok=True)
     template = (ROOT / "scripts" / "templates" / "repository-activity-page.html").read_text()
     snapshot = datetime.fromisoformat(summary["cutoff"]).astimezone(ZoneInfo(summary["timezone"]))
-    for locale, copy in locales.items():
-        assert len(copy["categories"]) == len(EXPECTED_CATEGORIES)
+    for locale, translation in locales.items():
+        copy = dict(translation)
+        copy["categories"] = [translation["categories"][category["id"]] for category in summary["categories"]]
+        values = dict(start=summary["start"], snapshot=f"{snapshot:%Y-%m-%d %H:%M}",
+                      covered=summary["covered_repos"], repositories=summary["repositories"],
+                      unavailable=summary["unavailable_repos"])
+        for key in ("intro", "methods"):
+            copy[key] = copy[key].format(**values)
         folder = PUBLIC / locale
         folder.mkdir(exist_ok=True)
         for filename, metric in [("commits.svg", "commits"), ("repos-created.svg", "repos_created")]:
@@ -145,13 +148,14 @@ def main():
         categories = [{**category, "label": copy["categories"][i]} for i, category in enumerate(summary["categories"])]
         payload = {"monthly": monthly, "categories": categories, "copy": copy, "locale": locale}
         replacements = {
+            "RANGE": f"{summary['start']} — {summary['end']}",
             "LANG": locale, "TITLE": copy["title"], "INTRO": copy["intro"],
             "LANGUAGE": copy["language"], "CATALOG": copy["catalog"], "FILTER_HINT": copy["filterHint"],
             "COMMITS_TITLE": copy["commitsTitle"], "CREATED_TITLE": copy["createdTitle"],
             "SVG": copy["svg"], "DATA": copy["data"], "METHODS": copy["methods"],
             "COMMITS_TOTAL": f"{copy['total']}: {format_number(summary['commits'], locale)}",
             "CREATED_TOTAL": f"{copy['total']}: {format_number(summary['repos_created'], locale)}",
-            "SNAPSHOT": f"{copy['asOf']}: {snapshot:%Y-%m-%d %H:%M} UTC+8 · {copy['coverage']}: {summary['covered_repos']} / 850 · {copy['partial']}",
+            "SNAPSHOT": f"{copy['asOf']}: {snapshot:%Y-%m-%d %H:%M} UTC+8 · {copy['coverage']}: {summary['covered_repos']} / {summary['repositories']} · {copy['partial']}",
         }
         page = template
         for key, value in replacements.items():

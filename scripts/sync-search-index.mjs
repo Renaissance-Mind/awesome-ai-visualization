@@ -27,6 +27,24 @@ try { checkpoint = JSON.parse(await readFile(checkpointPath, "utf8")); }
 catch (error) { if (error.code !== "ENOENT") throw error; }
 if (checkpoint.model !== data.model || checkpoint.dimensions !== data.dimensions) checkpoint = { model: data.model, dimensions: data.dimensions, entries: {} };
 
+// The exact versioned asset is reusable in a fresh maintenance worktree.
+// Its version already binds all document hashes, filters, model and instruction.
+if (!embeddingsOnly) {
+  let bytes;
+  try { bytes = await readFile("public" + data.vectorPath); }
+  catch (error) { if (error.code !== "ENOENT") throw error; }
+  if (bytes) {
+    const values = new Float32Array(bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength));
+    if (values.length !== data.documents.length * data.dimensions) throw new Error("Invalid stored vector asset size.");
+    data.documents.forEach((doc, index) => {
+      const vector = Array.from(values.subarray(index * data.dimensions, (index + 1) * data.dimensions));
+      if (!vector.every(Number.isFinite) || Math.abs(Math.hypot(...vector) - 1) > 0.001) throw new Error("Invalid stored vector asset values.");
+      checkpoint.entries[doc.id] = { contentHash: doc.contentHash, values: vector };
+    });
+    await writeFile(checkpointPath, JSON.stringify(checkpoint) + "\n");
+  }
+}
+
 const pending = data.documents.filter(doc => checkpoint.entries[doc.id]?.contentHash !== doc.contentHash);
 for (let start = 0; start < pending.length; start += 16) {
   const batch = pending.slice(start, start + 16);

@@ -51,6 +51,8 @@ python3 scripts/collect_repository_signals.py \
 
 `.github/workflows/repository-signals.yml` 提供 GitHub Actions 每日采集，时间为北京时间08:23，也可手动触发。工作流需要进入远程默认分支且 Actions 启用后才会执行；GitHub 的定时任务可能延迟。
 
+采集和推送各最多尝试三次。每小时发布巡检也会检查最近运行，失败时最多补充两次失败任务重跑，并在巡检聊天报告失败与恢复。
+
 工作流使用内置 `GITHUB_TOKEN` 读取公开项目、上传采集文件为 artifact，并提交数据变化。若默认分支禁止机器人直接推送，自动提交步骤会明确失败；artifact 仍可下载。
 
 ## 网站展示

@@ -67,6 +67,8 @@ def metadata_batch(rows):
     payload = json.loads(result.stdout) if result.stdout.strip() else {}
     if "data" not in payload:
         raise RuntimeError(result.stderr or json.dumps(payload))
+    if any(error.get("type") != "NOT_FOUND" for error in payload.get("errors", [])):
+        raise RuntimeError(json.dumps(payload["errors"]))
     failures = {e.get("path", [None])[0]: e["message"] for e in payload.get("errors", [])}
     records = []
     for i, row in enumerate(rows):
@@ -166,6 +168,39 @@ def verify_unavailable(row):
             "checked_at": datetime.now(timezone.utc).isoformat()}
 
 
+def write_readme(output, summary):
+    cutoff = datetime.fromisoformat(summary["cutoff"]).astimezone(TZ)
+    coverage = summary["commit_history_coverage"]
+    (output / "README.md").write_text(f'''# Repo 月度开发活动
+
+数据快照截至 **{cutoff:%Y-%m-%d %H:%M:%S}（Asia/Shanghai）**。目录包含 {summary["catalog_entries"]} 个条目，
+其中 {summary["github_catalog_entries"]} 个条目的主链接指向 GitHub，共 {summary["catalog_repo_urls"]} 个规范化仓库 URL。
+成功取得 {summary["repos_with_creation_date"]} 个仓库的元数据，
+其中 {coverage.get("ok", 0)} 个仓库取得完整默认分支历史，{coverage.get("empty", 0)} 个仓库为空。
+另有 {coverage.get("unavailable", 0)} 个仓库不可访问，REST 已复核为 HTTP 404，不计为零提交仓库。
+
+原始月度序列覆盖 {summary["monthly_start"]} 至 {summary["monthly_end"]}，空月补零，当月标记为未结束。
+共计 {summary["total_commits"]:,} 次提交；网站分类图表从 2024-01 开始，合计见 `category-summary.json`。
+提交按 committer 时间归入上海时区，包含合并、机器人及 fork 继承历史。
+同一个提交出现在不同仓库时分别计数。仓库创建时间来自 GitHub `createdAt`，不代表目录收录时间。
+同一 GitHub 仓库 ID 只统计一次，分类按其在目录中的首个条目确定。
+
+`snapshot.json` 固定 GitHub 元数据和默认分支 HEAD；`repositories.json` 保存逐仓库计数；
+`monthly.json` / `monthly.csv` 为全时段汇总；`category-monthly.json` / `.csv` 为分类汇总；
+`unavailable.json` 保存不可访问仓库的复核结果。每个成功仓库的提交条数均与固定 HEAD 的
+GitHub GraphQL `history.totalCount` 校验。网络、权限及历史不完整错误会使更新失败，保留断点后重试。
+
+每月首次发布巡检自动重新采集、分类并生成八种语言图表，再校验和上线。入口为
+`npm run maintain:publication`；使用 `-- --refresh-activity` 可强制刷新。
+失败重试沿用同一快照和缓存，避免重复下载已完成历史。
+独立采集：`python3 scripts/collect_repository_activity.py --refresh`；断点续跑时省略 `--refresh`。
+
+统计范围为本目录收录的相关仓库，不代表整个 AI 行业的开发趋势。
+来源：[GitHub Repository](https://docs.github.com/en/graphql/reference/objects#repository)、
+[git log](https://git-scm.com/docs/git-log)。
+''')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workers", type=int, default=8)
@@ -242,6 +277,12 @@ def main():
         unavailable = list(pool.map(verify_unavailable,
                                     [r for r in records if r["metadata_status"] != "ok"]))
     write_json(args.output / "unavailable.json", unavailable)
+    incomplete = [r["catalog_repo"] for r in records
+                  if r["metadata_status"] == "ok" and r["commit_status"] == "unavailable"]
+    unconfirmed = [r["catalog_repo"] for r in unavailable if r["rest_http_status"] != 404]
+    if incomplete or unconfirmed:
+        raise RuntimeError(f"Incomplete snapshot; rerun without --refresh to resume. "
+                           f"Histories: {incomplete}; unresolved metadata: {unconfirmed}")
     monthly = aggregate(records, cutoff)
     write_json(args.output / "monthly.json", monthly)
     with (args.output / "monthly.csv").open("w", newline="") as output:
@@ -268,6 +309,7 @@ def main():
                     "sources": ["https://docs.github.com/en/graphql/reference/objects#repository",
                                 "https://git-scm.com/docs/git-log", "https://git-scm.com/docs/git-clone"]})
     write_json(args.output / "summary.json", summary)
+    write_readme(args.output, summary)
     print(json.dumps(summary, ensure_ascii=False, indent=2), flush=True)
 
 

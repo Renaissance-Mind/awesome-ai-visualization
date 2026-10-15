@@ -10,6 +10,13 @@ index. Bindings connect these services without a runtime API secret.
 - Build output: `dist/`
 - Deployment command: `npm run deploy:cf`
 
+## Automatic publication
+
+The catalog research heartbeat publishes after updates. An hourly publication
+heartbeat checks main, updates charts once per Shanghai calendar month, retries
+failures and verifies the deployed site. See [Automated publication](publication-automation.md)
+for its local runtime, schedule, recovery and notification behavior.
+
 ## Publish
 
 Use an existing authorized Wrangler login for the configured Cloudflare account.
@@ -46,8 +53,8 @@ npx --yes wrangler@4.143.0 deploy --dry-run
    “把代码库和文档转换成可以探索的知识图谱”. Confirm that searches retain
    relevance order, filters work, and detail pages show the project explanation.
 
-Source commits and Cloudflare deployments are separate actions. A Git push does
-not deploy this Worker. Use `npx --yes wrangler@4.143.0 deployments list --name
+Source commits and Cloudflare deployments are separate actions. A Git push alone does
+not deploy this Worker; the publication heartbeat detects and deploys pending commits. Use `npx --yes wrangler@4.143.0 deployments list --name
 awesome-ai-visualization` to inspect deployment history.
 
 References: [Static Assets](https://developers.cloudflare.com/workers/static-assets/)

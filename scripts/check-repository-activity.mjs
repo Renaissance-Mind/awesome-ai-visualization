@@ -20,8 +20,11 @@ for (const [locale, copy] of Object.entries(locales)) {
   assert.equal(payload.locale, locale);
   assert.deepEqual(payload.monthly, monthly);
   assert.deepEqual(payload.categories.map(c => c.id), summary.categories.map(c => c.id));
-  assert.deepEqual(payload.categories.map(c => c.label), copy.categories);
-  assert.equal(payload.categories.length, 12);
+  assert.deepEqual(payload.categories.map(c => c.label), summary.categories.map(c => copy.categories[c.id]));
+  assert.equal(payload.categories.length, summary.categories.length);
+  assert(page.includes(summary.start + " — " + summary.end));
+  assert(page.includes(summary.covered_repos + " / " + summary.repositories));
+  assert(!/\{(?:snapshot|covered|repositories|unavailable)\}/.test(page));
   assert(!page.includes('window.openai'));
   assert(!/__([A-Z_]+)__/.test(page));
   for (const [file, anchor] of [['commits.svg', 'commits'], ['repos-created.svg', 'repos-created']]) {
@@ -42,6 +45,6 @@ for (const file of ['activity.css', 'activity.js', 'vendor/d3.v7.min.js', 'vendo
 assert.equal(read('public/activity/activity.js'), read('scripts/templates/repository-activity-page.js'));
 assert.equal(read('public/activity/activity.css'), read('scripts/templates/repository-activity-page.css'));
 assert.equal(read('public/activity/category-monthly.csv'), read('data/repository-activity/category-monthly.csv'));
-assert.equal(monthly.reduce((sum, row) => sum + Object.values(row.commits).reduce((a, b) => a + b, 0), 0), 307064);
-assert.equal(monthly.reduce((sum, row) => sum + Object.values(row.repos_created).reduce((a, b) => a + b, 0), 0), 805);
+assert.equal(monthly.reduce((sum, row) => sum + Object.values(row.commits).reduce((a, b) => a + b, 0), 0), summary.commits);
+assert.equal(monthly.reduce((sum, row) => sum + Object.values(row.repos_created).reduce((a, b) => a + b, 0), 0), summary.repos_created);
 console.log('Activity publication checks passed: 8 locales, 16 vector SVGs, linked README anchors, identical counts, standalone local assets and complete language navigation.');

@@ -95,6 +95,7 @@ def main():
     category_summary = {"cutoff": summary["cutoff"], "timezone": summary["timezone"],
                         "start": args.start, "end": monthly[-1]["month"],
                         "covered_repos": sum(populations.values()),
+                        "repositories": len(repositories),
                         "unavailable_repos": summary["commit_history_coverage"].get("unavailable", 0),
                         "commits": sum(totals.values()), "repos_created": sum(newly_created.values()),
                         "categories": categories, "multi_category_repos": multi_category,

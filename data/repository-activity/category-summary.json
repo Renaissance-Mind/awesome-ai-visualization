@@ -1,88 +1,89 @@
 {
-  "cutoff": "2026-10-12T17:35:29.180494+00:00",
+  "cutoff": "2026-10-15T11:26:00.109556+00:00",
   "timezone": "Asia/Shanghai",
   "start": "2024-01",
   "end": "2026-10",
-  "covered_repos": 833,
-  "unavailable_repos": 17,
-  "commits": 307064,
-  "repos_created": 805,
+  "covered_repos": 834,
+  "repositories": 852,
+  "unavailable_repos": 18,
+  "commits": 311775,
+  "repos_created": 806,
   "categories": [
     {
       "id": "presentation-tools",
       "label": "演示文稿",
-      "repos": 265,
-      "commits": 59831,
-      "repos_created": 262
+      "repos": 264,
+      "commits": 60010,
+      "repos_created": 261
     },
     {
       "id": "data-dashboard",
       "label": "数据仪表盘",
       "repos": 132,
-      "commits": 52811,
+      "commits": 53267,
       "repos_created": 122
     },
     {
       "id": "doc-to-knowledge",
       "label": "文档与知识",
       "repos": 70,
-      "commits": 48409,
+      "commits": 49112,
       "repos_created": 64
     },
     {
       "id": "meta-index",
       "label": "索引与目录",
       "repos": 29,
-      "commits": 37746,
+      "commits": 38140,
       "repos_created": 28
     },
     {
       "id": "codebase-map",
       "label": "代码库可视化",
       "repos": 50,
-      "commits": 24453,
+      "commits": 24937,
       "repos_created": 49
     },
     {
       "id": "rendering-primitive",
       "label": "底层渲染",
       "repos": 29,
-      "commits": 21489,
+      "commits": 22767,
       "repos_created": 28
     },
     {
       "id": "diagram-generation",
       "label": "架构与流程图",
-      "repos": 93,
-      "commits": 19958,
-      "repos_created": 89
+      "repos": 94,
+      "commits": 20832,
+      "repos_created": 90
     },
     {
       "id": "video-generation",
       "label": "视频生成",
-      "repos": 27,
-      "commits": 16813,
-      "repos_created": 27
+      "repos": 28,
+      "commits": 17041,
+      "repos_created": 28
     },
     {
       "id": "infographic-report",
       "label": "信息图",
       "repos": 76,
-      "commits": 10979,
+      "commits": 11062,
       "repos_created": 75
     },
     {
       "id": "research-report",
       "label": "研究报告",
       "repos": 34,
-      "commits": 10406,
+      "commits": 10425,
       "repos_created": 33
     },
     {
       "id": "paper-visualization",
       "label": "论文可视化",
       "repos": 27,
-      "commits": 4148,
+      "commits": 4161,
       "repos_created": 27
     },
     {
