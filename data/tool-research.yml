@@ -1,4 +1,4 @@
-generated_at: '2026-10-12T17:28:03.582Z'
+generated_at: '2026-10-15T07:06:02+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 894
-  fetched_sources_ok: 1186
+  entries: 895
+  fetched_sources_ok: 1187
   fetched_sources_failed: 60
-  official_examples: 1901
+  official_examples: 1905
   official_effect_assets: 2325
-  official_docs: 2202
+  official_docs: 2204
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -69987,3 +69987,54 @@ entries:
     - OrkasVideoStudio
     - Versions and delivered-video checks
   official_effect_assets: []
+- name: Arch Diagram Skill by Guangke
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/Guangke/arch-diagram-skill
+  dependencies:
+    - Agent 宿主
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent Skill for turning natural-language architecture requirements into self-contained editable SVG
+    diagrams across system architecture, data pipelines, networks, behavior, and organization structures. Includes
+    semantic light/dark palettes, accessible SVG metadata, connector conventions, thirteen architecture patterns,
+    microservice/sequence/dataflow templates, and an event-driven example. SVG files can be viewed locally; authoring
+    uses the host agent. No separate API, GPU, or hosted backend requirement is documented; PNG and Mermaid conversion
+    guidance is included.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/Guangke/arch-diagram-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/Guangke/arch-diagram-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: arch-diagram-skill
+      bytes: 4501
+  source_headings:
+    - arch-diagram-skill
+    - 使用 / Usage
+  official_examples:
+    - kind: example
+      title: Event-driven architecture SVG
+      url: https://github.com/Guangke/arch-diagram-skill/blob/main/examples/event-driven.svg
+      source: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md
+    - kind: template
+      title: Microservices architecture SVG
+      url: https://github.com/Guangke/arch-diagram-skill/blob/main/templates/microservices.svg
+      source: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md
+    - kind: template
+      title: Sequence diagram SVG
+      url: https://github.com/Guangke/arch-diagram-skill/blob/main/templates/sequence.svg
+      source: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md
+    - kind: template
+      title: Data pipeline SVG
+      url: https://github.com/Guangke/arch-diagram-skill/blob/main/templates/dataflow.svg
+      source: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md
+  official_docs:
+    - kind: docs
+      title: Agent workflow and SVG acceptance checklist
+      url: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md
+      source: https://github.com/Guangke/arch-diagram-skill/blob/main/README.md
+    - kind: docs
+      title: SVG authoring and export guide
+      url: https://github.com/Guangke/arch-diagram-skill/blob/main/references/svg-guide.md
+      source: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md

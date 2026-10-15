@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-13.
+Last researched: 2026-10-15.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-15: added Arch Diagram Skill by Guangke after checking its official README, SKILL workflow, template/example references, MIT license, and current GitHub metadata. It converts architecture requirements into editable standalone SVG with semantic palettes and accessible metadata. Local SVG viewing is distinguished from host-agent authoring; no separate API, GPU, or hosted backend requirement is documented. Targeted scraping fetched the README successfully; curated research adds four official SVG examples/templates and two workflow/export documents. This pass completes the candidate deferred by the earlier Cloudflare authorization failure.
 
 Update on 2026-10-13: accepted community PR #4 for OrkasVideoStudio after reconciling its catalog addition with current main. Verified official README and MIT license, refreshed the entry description and star snapshot, added official workflow documentation and prompt examples, and synchronized all eight README catalogs and generated frontend data. The linked video demonstration returned HTTP 404 and was excluded. Research was limited to this newly accepted entry.
 

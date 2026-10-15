@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-12T17:28:03.582Z",
-  "lastResearched": "2026-10-13",
+  "generatedAt": "2026-10-15T07:06:02+00:00",
+  "lastResearched": "2026-10-15",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 894,
+    "total": 895,
     "openSource": 216,
     "saas": 80,
     "modelApi": 276,
-    "examples": 1901,
+    "examples": 1905,
     "effectAssets": 2325,
-    "docs": 2202
+    "docs": 2204
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 587,
+      "文本/想法": 588,
       "数据/表格": 377,
-      "代码/技术描述": 190,
+      "代码/技术描述": 191,
       "任意/多源": 170,
       "网页/搜索结果": 220,
       "代码库": 102,
-      "DSL/代码": 184,
+      "DSL/代码": 185,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
       "Office 文档": 177,
@@ -31,7 +31,7 @@
     },
     "toolForms": {
       "开源应用/框架": 216,
-      "Agent Skill": 366,
+      "Agent Skill": 367,
       "Skill 集合": 88,
       "MCP Server": 293,
       "产品/SaaS": 80,
@@ -50,8 +50,8 @@
       "证据表": 84,
       "信息图/视觉报告": 122,
       "图表/仪表盘": 288,
-      "架构图/流程图": 197,
-      "SVG/PNG/PDF": 394,
+      "架构图/流程图": 198,
+      "SVG/PNG/PDF": 395,
       "报告/简报": 99,
       "白板/思维导图": 49,
       "图表/Mermaid": 81,
@@ -69,10 +69,10 @@
       "本地语言环境": 764,
       "模型 API": 276,
       "文档解析/OCR": 129,
-      "渲染/导出": 794,
+      "渲染/导出": 795,
       "GPU/加速器": 24,
-      "模板/素材": 451,
-      "Agent 宿主": 457,
+      "模板/素材": 452,
+      "Agent 宿主": 458,
       "系统工具": 227,
       "浏览器/账号": 202,
       "存储/索引": 139,
@@ -86,7 +86,7 @@
       "research-report": 39,
       "infographic-report": 82,
       "data-dashboard": 137,
-      "diagram-generation": 102,
+      "diagram-generation": 103,
       "literature-map": 5,
       "presentation-tools": 275,
       "rendering-primitive": 29,
@@ -97,7 +97,7 @@
     },
     "groups": {
       "paper": 45,
-      "text_visual": 107,
+      "text_visual": 108,
       "web_news": 9,
       "support_mindmap": 20,
       "docs": 44,
@@ -73355,6 +73355,81 @@
       "effectAssets": [],
       "docsCount": 3,
       "examplesCount": 2,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Arch Diagram Skill by Guangke",
+      "url": "https://github.com/Guangke/arch-diagram-skill",
+      "primaryUrl": "https://github.com/Guangke/arch-diagram-skill",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-10-13",
+      "note": "Agent Skill for turning natural-language architecture requirements into self-contained editable SVG diagrams across system architecture, data pipelines, networks, behavior, and organization structures. Includes semantic light/dark palettes, accessible SVG metadata, connector conventions, thirteen architecture patterns, microservice/sequence/dataflow templates, and an event-driven example. SVG files can be viewed locally; authoring uses the host agent. No separate API, GPU, or hosted backend requirement is documented; PNG and Mermaid conversion guidance is included.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Agent workflow and SVG acceptance checklist",
+          "url": "https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md",
+          "source": "https://github.com/Guangke/arch-diagram-skill/blob/main/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "SVG authoring and export guide",
+          "url": "https://github.com/Guangke/arch-diagram-skill/blob/main/references/svg-guide.md",
+          "source": "https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Event-driven architecture SVG",
+          "url": "https://github.com/Guangke/arch-diagram-skill/blob/main/examples/event-driven.svg",
+          "source": "https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md"
+        },
+        {
+          "kind": "template",
+          "title": "Microservices architecture SVG",
+          "url": "https://github.com/Guangke/arch-diagram-skill/blob/main/templates/microservices.svg",
+          "source": "https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md"
+        },
+        {
+          "kind": "template",
+          "title": "Sequence diagram SVG",
+          "url": "https://github.com/Guangke/arch-diagram-skill/blob/main/templates/sequence.svg",
+          "source": "https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md"
+        },
+        {
+          "kind": "template",
+          "title": "Data pipeline SVG",
+          "url": "https://github.com/Guangke/arch-diagram-skill/blob/main/templates/dataflow.svg",
+          "source": "https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 2,
+      "examplesCount": 4,
       "effectAssetsCount": 0
     }
   ]

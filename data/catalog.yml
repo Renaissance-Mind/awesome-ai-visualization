@@ -1,4 +1,4 @@
-last_researched: '2026-10-13'
+last_researched: '2026-10-15'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23657,3 +23657,30 @@ entries:
   catalog_section: main
   readme_group: video
   stars: 500
+- name: Arch Diagram Skill by Guangke
+  url: https://github.com/Guangke/arch-diagram-skill
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-13'
+  note: Agent Skill for turning natural-language architecture requirements into self-contained editable SVG diagrams across
+    system architecture, data pipelines, networks, behavior, and organization structures. Includes semantic light/dark palettes,
+    accessible SVG metadata, connector conventions, thirteen architecture patterns, microservice/sequence/dataflow templates,
+    and an event-driven example. SVG files can be viewed locally; authoring uses the host agent. No separate API, GPU, or hosted
+    backend requirement is documented; PNG and Mermaid conversion guidance is included.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - DSL/代码
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual

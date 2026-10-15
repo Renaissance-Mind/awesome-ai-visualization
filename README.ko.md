@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-894_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--13-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--15-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,12 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-11)
+## Latest Refresh (2026-10-15)
 
 | Project | Catalog focus |
 | --- | --- |
-| [slides by kju4q](https://github.com/kju4q/slides) | Repository-to-HTML explainers with reproduced project numbers, source code, charts, and live simulations. |
-| [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) | Local narrated board-drawing videos, screenshot tutorials, and audio clips with measured speech timing. |
+| [Arch Diagram Skill by Guangke](https://github.com/Guangke/arch-diagram-skill) | 자연어 아키텍처 요구사항을 편집 가능한 독립 SVG로 변환하며 의미별 색상, 접근성 메타데이터, 아키텍처 템플릿을 제공합니다. |
 
 ## ✨ 추천 사용법
 
@@ -403,6 +402,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Interactive Workflow Skill](https://github.com/abualnassr/interactive-workflow) [![Star](https://img.shields.io/github/stars/abualnassr/interactive-workflow?style=flat&logo=github&label=Star)](https://github.com/abualnassr/interactive-workflow/stargazers) | Text/ideas / Code/technical text / DSL/code / Any/multi-source | Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [SVG Animator Skill](https://github.com/takimdigital/svg-animator) [![Star](https://img.shields.io/github/stars/takimdigital/svg-animator?style=flat&logo=github&label=Star)](https://github.com/takimdigital/svg-animator/stargazers) | Text/ideas / Code/technical text / DSL/code / Data/tables | Agent skill | Architecture/flow diagram / Infographic/visual report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Circuit Diagram Skill](https://github.com/myrlaphil/circuit-diagram-skill) [![Star](https://img.shields.io/github/stars/myrlaphil/circuit-diagram-skill?style=flat&logo=github&label=Star)](https://github.com/myrlaphil/circuit-diagram-skill/stargazers) | Text/ideas / DSL/code / Technical descriptions | Agent skill | Diagram / SVG/PNG/PDF / Study materials | Agent host / Local runtime / Rendering/export |
+| [Arch Diagram Skill by Guangke](https://github.com/Guangke/arch-diagram-skill) [![Star](https://img.shields.io/github/stars/Guangke/arch-diagram-skill?style=flat&logo=github&label=Star)](https://github.com/Guangke/arch-diagram-skill/stargazers) | Text/ideas / Technical descriptions / DSL/code | Agent skill | Diagram / SVG/PNG/PDF | Agent host / Rendering/export / Templates/assets |
 | [GeoGebra Skills by luzwales](https://github.com/luzwales/geogebra-skill) [![Star](https://img.shields.io/github/stars/luzwales/geogebra-skill?style=flat&logo=github&label=Star)](https://github.com/luzwales/geogebra-skill/stargazers) | Text/ideas / DSL/code / Data/tables | Skill collection / Agent skill | SVG/PNG/PDF / Charts / Study materials | Agent host / Local runtime / System tools / External data/runtime / Rendering/export |
 | [Visualize](https://github.com/careerhackeralex/visualize) [![Star](https://img.shields.io/github/stars/careerhackeralex/visualize?style=flat&logo=github&label=Star)](https://github.com/careerhackeralex/visualize/stargazers) | 텍스트/아이디어 / 데이터/표 / 코드/기술 설명 | Agent Skill | 웹/인터랙티브 페이지 / PPT/프레젠테이션 / 차트/대시보드 / 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 | Agent 호스트 / 모델 API / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
 | [fp-infographic-agent-kit](https://github.com/steve-8000/fp-infographic-agent-kit) [![Star](https://img.shields.io/github/stars/steve-8000/fp-infographic-agent-kit?style=flat&logo=github&label=Star)](https://github.com/steve-8000/fp-infographic-agent-kit/stargazers) | 데이터/표 / 텍스트/아이디어 / DSL/코드 | MCP Server / API/SDK/라이브러리 | 인포그래픽/비주얼 리포트 / 아키텍처/흐름도 / 차트/대시보드 / SVG/PNG/PDF | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |

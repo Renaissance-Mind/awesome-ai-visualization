@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-13",
+  "sourceLastResearched": "2026-10-15",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33208,9 +33208,43 @@
         "https://github.com/Orkas-AI/Orkas-VideoStudio",
         "https://raw.githubusercontent.com/Orkas-AI/Orkas-VideoStudio/HEAD/README.md"
       ]
+    },
+    "Arch Diagram Skill by Guangke": {
+      "name": "Arch Diagram Skill by Guangke",
+      "url": "https://github.com/Guangke/arch-diagram-skill",
+      "sourceHash": "cde66ad2e1095eb87bd8698be18bd38ad91b003263a6bb3aa42f1f3f41f4b577",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "将自然语言架构需求转换为可编辑的SVG架构图",
+      "explanation": "该工具通过自然语言生成包含系统架构、数据流、网络等的SVG图表。提供多种架构模式和模板，支持可访问的SVG元数据和连接器规范。SVG文件可在本地查看，创作依赖于宿主代理。提供PNG和Mermaid转换指导。",
+      "useCases": [
+        "根据自然语言描述生成系统架构图",
+        "将架构需求转换为可编辑的SVG文件"
+      ],
+      "input": [
+        "文本/想法",
+        "代码/技术描述",
+        "DSL/代码"
+      ],
+      "output": [
+        "架构图/流程图",
+        "SVG/PNG/PDF"
+      ],
+      "form": [
+        "Agent Skill"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "originalDescription": "Agent Skill for turning natural-language architecture requirements into self-contained editable SVG diagrams across system architecture, data pipelines, networks, behavior, and organization structures. Includes semantic light/dark palettes, accessible SVG metadata, connector conventions, thirteen architecture patterns, microservice/sequence/dataflow templates, and an event-driven example. SVG files can be viewed locally; authoring uses the host agent. No separate API, GPU, or hosted backend requirement is documented; PNG and Mermaid conversion guidance is included.",
+      "sources": [
+        "https://github.com/Guangke/arch-diagram-skill",
+        "https://raw.githubusercontent.com/Guangke/arch-diagram-skill/HEAD/README.md"
+      ]
     }
   },
-  "generatedAt": "2026-10-12T19:03:16.286Z",
+  "generatedAt": "2026-10-15T07:06:46.555Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"
