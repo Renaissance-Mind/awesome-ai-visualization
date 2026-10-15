@@ -52,9 +52,12 @@ rebuilds and redeploys that source and verifies again.
 
 The daily signals workflow retries collection and push up to three times, keeps
 its artifact even on failure, and uses GitHub's normal failed-workflow notifications.
-The hourly heartbeat additionally inspects its latest run, reports failures and
-requests up to two failed-job reruns per run ID. A collector failure remains an
-attention state until the workflow recovers.
+The hourly heartbeat additionally inspects its latest run. If it failed and no newer
+snapshot exists, or the snapshot is over 48 hours old, the publication worktree
+runs the real collector with three attempts and commits the repaired data. This
+also works when GitHub permits scheduled runs but rejects manual dispatch/rerun.
+A failed backup collection is reported as a failed publication; successful repair
+is included in the next publication report.
 
 `<git-common-dir>/publication/status.json` records the failed stage, source commit,
 retained worktree, collector state and completion time. Failed worktrees remain

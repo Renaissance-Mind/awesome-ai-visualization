@@ -61,20 +61,16 @@ try {
     await symlink(destination, join(cwd, relative));
   }
 
-  // Re-run a failed daily collector at most twice per run ID. The collector also retries transient failures internally.
+  // The scheduled GitHub collector is independent. Repair its data locally when
+  // needed; some GitHub accounts allow scheduled runs but reject manual reruns.
   const runs = JSON.parse(execFileSync("gh", ["run", "list", "--workflow", "repository-signals.yml", "--limit", "1",
-    "--json", "databaseId,status,conclusion,url"], { cwd, encoding: "utf8" }));
+    "--json", "databaseId,status,conclusion,url,updatedAt"], { cwd, encoding: "utf8" }));
   const collector = runs[0];
   status.collector = collector;
-  status.collectorRetries = previous.collector?.databaseId === collector?.databaseId ? (previous.collectorRetries ?? 0) : 0;
-  if (collector?.status === "completed" && ["failure", "timed_out", "cancelled"].includes(collector.conclusion)) {
-    if (status.collectorRetries < 2) {
-      await run("gh", ["run", "rerun", String(collector.databaseId), "--failed"]);
-      status.collectorRetries++;
-    }
-    status.collectorWarning = `Daily collector ${collector.conclusion}: ${collector.url}; retries ${status.collectorRetries}/2`;
-    console.warn(status.collectorWarning);
-  }
+  const signals = JSON.parse(await readFile(join(cwd, "data/repository-signals/summary.json"), "utf8"));
+  const failedCollector = collector?.status === "completed" && ["failure", "timed_out", "cancelled"].includes(collector.conclusion);
+  const repairSignals = process.argv.includes("--refresh-signals") || Date.now() - Date.parse(signals.cutoff) > 48 * 3600000
+    || (failedCollector && Date.parse(signals.cutoff) < Date.parse(collector.updatedAt));
   await step("dependencies", () => run("npm", ["ci"]));
   let live;
   await step("read live release", async () => {
@@ -83,7 +79,7 @@ try {
     if (!response.ok) throw new Error(`Release metadata returned HTTP ${response.status}`);
     live = await response.json();
   });
-  let needsPublish = monthly || live?.commit !== head;
+  let needsPublish = monthly || repairSignals || live?.commit !== head;
   if (!needsPublish) {
     try {
       await step("live assets and freshness", () => run("node", ["scripts/check-publication.mjs", "--live"]));
@@ -95,6 +91,10 @@ try {
     }
   }
   if (needsPublish) {
+    if (repairSignals) {
+      await step("daily collector repair", () => run("python3", ["scripts/collect_repository_signals.py"]));
+      status.collectorRepaired = true;
+    }
     if (monthly) {
       await step("monthly collection", attempt => run("python3", ["scripts/collect_repository_activity.py", "--workers", "8", ...(attempt === 0 ? ["--refresh"] : [])]));
       await step("monthly grouping", () => run("python3", ["scripts/build_repository_activity_categories.py", ".cache/activity-integration/categories.html"]), []);
@@ -107,7 +107,7 @@ try {
     await step("frontend checks", () => npm("check:frontend"), []);
     await step("build", () => npm("build"), []);
     await run("git", ["diff", "--check"]);
-    await run("git", ["add", "data/project-profiles.json", "src/data", "public/search-index", "data/repository-activity", "public/activity",
+    await run("git", ["add", "data/project-profiles.json", "data/repository-signals", "src/data", "public/search-index", "data/repository-activity", "public/activity",
       "README.md", "README.zh-CN.md", "README.zh-TW.md", "README.ja.md", "README.ko.md", "README.es.md", "README.tr.md", "README.ru.md"]);
     if (localGit("diff", "--cached", "--name-only")) {
       await run("git", ["commit", "-m", monthly ? "chore(data): refresh monthly repository activity" : "chore(data): refresh publication artifacts"]);
@@ -128,8 +128,7 @@ try {
   status.commit = localGit("rev-parse", "HEAD");
   status.completedAt = new Date().toISOString(); status.phase = "complete";
   status.lastSuccessfulCommit = status.commit;
-  if (status.collectorWarning) status.status = "attention";
-  notification(status.collectorWarning ? `collector:${collector.databaseId}:${collector.conclusion}` : `healthy:${status.commit}`);
+  notification(`healthy:${status.commit}`);
   if (status.status === "unchanged" && !["failed", "attention"].includes(previous.status)) status.notify = false;
   await save();
   await command("git", ["worktree", "remove", cwd]);
