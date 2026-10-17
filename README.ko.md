@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--15-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-15)
+## Latest Refresh (2026-10-17)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Arch Diagram Skill by Guangke](https://github.com/Guangke/arch-diagram-skill) | 자연어 아키텍처 요구사항을 편집 가능한 독립 SVG로 변환하며 의미별 색상, 접근성 메타데이터, 아키텍처 템플릿을 제공합니다. |
+| [presentation-skill](https://github.com/siril9/presentation-skill) | v0.14 업데이트: 편집 가능한 PowerPoint, 네이티브 절차 및 과학 도표, 원본 내용 보존 검사, 재현 가능한 합성 데이터 예제. |
 
 ## ✨ 추천 사용법
 

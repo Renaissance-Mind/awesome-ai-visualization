@@ -1,4 +1,4 @@
-generated_at: '2026-10-15T07:06:02+00:00'
+generated_at: '2026-10-17T06:58:31+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -13,7 +13,7 @@ summary:
   entries: 895
   fetched_sources_ok: 1187
   fetched_sources_failed: 60
-  official_examples: 1905
+  official_examples: 1907
   official_effect_assets: 2325
   official_docs: 2204
 entries:
@@ -33295,93 +33295,114 @@ entries:
   category: presentation-tools
   surface: skill
   primary_url: https://github.com/siril9/presentation-skill
-  homepage: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+  homepage: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
   dependencies:
-  - Agent 宿主
-  - 本地语言环境
-  - 渲染/导出
-  - 模板/素材
-  catalog_note: Codex skill/plugin for source-first editable PowerPoint decks with outline JSON, style routing, native chart/table/flow
-    variants, deck QA, and reusable presentation workspaces.
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent skill and self-published Codex plugin for editable PowerPoint decks rebuilt from outline JSON.
+    Version 0.14 adds native ordered methods, scientific figures with interpretation sidebars, and three reproducible
+    eight-slide studies explicitly labeled synthetic nonclinical data. Supports native charts/tables, source-retention
+    QA, and hash-bound visual review receipts. Requires local Python and Node; core generation does not require
+    LibreOffice. Render verification uses LibreOffice and Poppler when available. Optional data/extraction workflows add
+    Python packages; optional generated imagery uses the host's image tools. No mandatory GPU or separate hosted service
+    is documented; host-agent privacy depends on its provider.
   fetched_sources:
-  - kind: github_readme
-    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-    final_url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-    status: 200
-    content_type: text/plain
-    title: presentation-skill
-    bytes: 15678
-  - kind: homepage
-    url: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
-    final_url: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
-    status: 200
-    content_type: text/html
-    title: Release presentation-skill v0.9.0 · siril9/presentation-skill · GitHub
-    description: 'MIT license, Codex skill/plugin for source-first PowerPoint/PPTX generation: editable decks, style routing,
-      data artifacts, and QA. - Release presentation-skill v0.9.0 · siril9/pre'
-    bytes: 208273
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: presentation-skill
+      bytes: 19866
+    - kind: homepage
+      url: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+      final_url: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+      status: 200
+      content_type: text/html
+      title: "Release v0.14.0: Evidence-led methods, figures, and readable layouts · siril9/presentation-skill · GitHub"
+      description: "MIT-licensed agent skill and Codex plugin for content-led, editable PowerPoint decks. Rebuild from JSON;
+        native charts, tables, and rendered visual QA. - Release v0.14.0: Evidence-"
+      bytes: 195481
   official_examples:
-  - kind: example
-    title: 64-slide gallery
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/examples/v0.9_full_deck_taste_grammar_gallery.pptx
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: template
-    title: deck quality feedback template
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/.github/ISSUE_TEMPLATE/deck_quality_feedback.yml
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: showcase
-    title: Editable 64-slide gallery
-    url: https://github.com/siril9/presentation-skill/releases/download/v0.9.0/v0.9_full_deck_taste_grammar_gallery.pptx
-    source: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+    - kind: example
+      title: dark contrast
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/dark_contrast_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: light sampling report
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/light_river_report_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: release manifest
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/release_manifest.json
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: white calibration
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/white_calibration_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: showcase
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_showcase.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
   official_docs:
-  - kind: docs
-    title: '`references/deck_workspace_mode.md`'
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/references/deck_workspace_mode.md
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: docs
-    title: '`docs/PROMOTION.md`'
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/docs/PROMOTION.md
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    - kind: docs
+      title: "`references/deck_workspace_mode.md`"
+      url: https://github.com/siril9/presentation-skill/blob/main/references/deck_workspace_mode.md
+      source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    - kind: docs
+      title: "`v0.14.0`"
+      url: https://github.com/siril9/presentation-skill/blob/main/docs/releases/v0.14.0.md
+      source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
   official_effect_assets:
-  - kind: image
-    title: v0.9 narrative role-layout systems
-    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/examples/v0.9_narrative_structures.jpg
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: image
-    title: v0.9 evidence, chart, and table role-layout systems
-    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/examples/v0.9_evidence_data_structures.jpg
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: image
-    title: v0.9 decision and references role-layout systems
-    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/examples/v0.9_decisions_sources.jpg
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: image
-    title: Codex native vs updated presentation-skill comparison
-    url: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/decks/native-vs-latest-random-topics-20260623/readme_images/codex_native_vs_updated_clean_three_topics.png
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    - kind: image
+      title: showcase
+      url: https://raw.githubusercontent.com/siril9/presentation-skill/main/examples/v0.14_lab_showcase.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: image
+      title: white calibration
+      url: https://raw.githubusercontent.com/siril9/presentation-skill/main/examples/v0.14_lab_studies/white_calibration_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: image
+      title: dark contrast
+      url: https://raw.githubusercontent.com/siril9/presentation-skill/main/examples/v0.14_lab_studies/dark_contrast_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: image
+      title: light sampling report
+      url: https://raw.githubusercontent.com/siril9/presentation-skill/main/examples/v0.14_lab_studies/light_river_report_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
   official_links:
-  - kind: example
-    title: 64-slide gallery
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/examples/v0.9_full_deck_taste_grammar_gallery.pptx
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: template
-    title: deck quality feedback template
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/.github/ISSUE_TEMPLATE/deck_quality_feedback.yml
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: docs
-    title: '`references/deck_workspace_mode.md`'
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/references/deck_workspace_mode.md
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: docs
-    title: '`docs/PROMOTION.md`'
-    url: https://github.com/siril9/presentation-skill/blob/HEAD/docs/PROMOTION.md
-    source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
-  - kind: showcase
-    title: Editable 64-slide gallery
-    url: https://github.com/siril9/presentation-skill/releases/download/v0.9.0/v0.9_full_deck_taste_grammar_gallery.pptx
-    source: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+    - kind: example
+      title: dark contrast
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/dark_contrast_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: light sampling report
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/light_river_report_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: release manifest
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/release_manifest.json
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: docs
+      title: "`references/deck_workspace_mode.md`"
+      url: https://github.com/siril9/presentation-skill/blob/main/references/deck_workspace_mode.md
+      source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    - kind: docs
+      title: "`v0.14.0`"
+      url: https://github.com/siril9/presentation-skill/blob/main/docs/releases/v0.14.0.md
+      source: https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md
+    - kind: example
+      title: white calibration
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_studies/white_calibration_contact_sheet.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
+    - kind: example
+      title: showcase
+      url: https://github.com/siril9/presentation-skill/blob/main/examples/v0.14_lab_showcase.jpg
+      source: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
   source_headings:
-  - presentation-skill
+    - presentation-skill
 - name: diagram-pptx
   category: diagram-generation
   surface: library

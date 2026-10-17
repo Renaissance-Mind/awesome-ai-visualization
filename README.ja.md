@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--15-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-15)
+## Latest Refresh (2026-10-17)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Arch Diagram Skill by Guangke](https://github.com/Guangke/arch-diagram-skill) | 自然言語の構成要件から編集可能な単一 SVG を生成。意味に基づく配色、アクセシビリティ情報、構成テンプレートを提供。 |
+| [presentation-skill](https://github.com/siril9/presentation-skill) | v0.14 に更新：編集可能な PowerPoint、手順と科学図のネイティブ表現、原文保持チェック、再現可能な合成データ例。 |
 
 ## ✨ 推奨される使い方
 

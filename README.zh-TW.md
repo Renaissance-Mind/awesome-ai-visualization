@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--15-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-15)
+## Latest Refresh (2026-10-17)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Arch Diagram Skill by Guangke](https://github.com/Guangke/arch-diagram-skill) | 將自然語言架構需求轉為可編輯的獨立 SVG，提供語義配色、無障礙中繼資料和架構範本。 |
+| [presentation-skill](https://github.com/siril9/presentation-skill) | 更新至 v0.14：可編輯 PowerPoint、原生方法步驟與科學圖解、來源內容保留檢查及可重現的合成資料範例。 |
 
 ## ✨ 推薦使用方式
 

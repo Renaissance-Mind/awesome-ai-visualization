@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-15",
+  "sourceLastResearched": "2026-10-17",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -14166,13 +14166,13 @@
     "presentation-skill": {
       "name": "presentation-skill",
       "url": "https://github.com/siril9/presentation-skill",
-      "sourceHash": "1b8d227dcef24a4896a453614a2ac3dd077773348b0644e6a550e4d464fb3495",
+      "sourceHash": "5179d6e32b922a8c35864dc21988a06585c580bb27f7f3872b447d4d6a1ae831",
       "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
-      "summary": "基于源代码的可编辑PowerPoint演示文稿生成工具，支持大纲JSON、样式路由、图表/表格/流程图变体和演示文稿问答",
-      "explanation": "presentation-skill 是一个Codex插件，用于生成基于源代码的可编辑PowerPoint演示文稿。它支持大纲JSON、样式路由、数据制品和演示文稿问答，适用于需要结构化和可重复使用演示文稿的工作空间。",
+      "summary": "用于从JSON大纲重建可编辑PPT的代理技能和插件",
+      "explanation": "该工具通过JSON大纲生成可编辑的PowerPoint演示文稿，支持原生图表、表格和可视化问答。版本0.14新增了有序方法、科学图表及解释侧边栏，可生成带有哈希绑定验证的视觉审查凭证。需要本地Python和Node环境，核心生成不依赖LibreOffice。",
       "useCases": [
-        "生成可编辑的PowerPoint演示文稿",
-        "创建支持数据制品和样式路由的演示文稿"
+        "从JSON大纲生成可编辑的PPT演示文稿",
+        "生成带有解释侧边栏的科学图表"
       ],
       "input": [
         "文本/想法",
@@ -14195,10 +14195,10 @@
         "渲染/导出",
         "模板/素材"
       ],
-      "originalDescription": "Codex skill/plugin for source-first editable PowerPoint decks with outline JSON, style routing, native chart/table/flow variants, deck QA, and reusable presentation workspaces.",
+      "originalDescription": "Agent skill and self-published Codex plugin for editable PowerPoint decks rebuilt from outline JSON. Version 0.14 adds native ordered methods, scientific figures with interpretation sidebars, and three reproducible eight-slide studies explicitly labeled synthetic nonclinical data. Supports native charts/tables, source-retention QA, and hash-bound visual review receipts. Requires local Python and Node; core generation does not require LibreOffice. Render verification uses LibreOffice and Poppler when available. Optional data/extraction workflows add Python packages; optional generated imagery uses the host's image tools. No mandatory GPU or separate hosted service is documented; host-agent privacy depends on its provider.",
       "sources": [
         "https://github.com/siril9/presentation-skill",
-        "https://github.com/siril9/presentation-skill/releases/tag/v0.9.0",
+        "https://github.com/siril9/presentation-skill/releases/tag/v0.14.0",
         "https://raw.githubusercontent.com/siril9/presentation-skill/HEAD/README.md"
       ]
     },
@@ -33244,7 +33244,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-15T07:06:46.555Z",
+  "generatedAt": "2026-10-17T06:58:57.215Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

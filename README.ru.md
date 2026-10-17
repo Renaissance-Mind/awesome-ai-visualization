@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--15-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -26,11 +26,11 @@
 [![Новые репозитории по месяцам и категориям](public/activity/ru/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-15)
+## Latest Refresh (2026-10-17)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Arch Diagram Skill by Guangke](https://github.com/Guangke/arch-diagram-skill) | Преобразует требования к архитектуре на естественном языке в редактируемый SVG с семантическими цветами, доступными метаданными и шаблонами. |
+| [presentation-skill](https://github.com/siril9/presentation-skill) | Обновление до v0.14: редактируемый PowerPoint, нативные этапы методов и научные схемы, проверка сохранения содержания и воспроизводимые синтетические примеры. |
 
 ## ✨ Рекомендуемое использование
 

@@ -1,4 +1,4 @@
-last_researched: '2026-10-15'
+last_researched: '2026-10-17'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -9822,7 +9822,7 @@ entries:
   readme_group: presentation
 - name: presentation-skill
   url: https://github.com/siril9/presentation-skill
-  homepage: https://github.com/siril9/presentation-skill/releases/tag/v0.9.0
+  homepage: https://github.com/siril9/presentation-skill/releases/tag/v0.14.0
   category: presentation-tools
   surface: skill
   dependencies:
@@ -9830,10 +9830,15 @@ entries:
   - 本地语言环境
   - 渲染/导出
   - 模板/素材
-  stars: 32
+  stars: 78
   license: MIT
-  updated: '2026-07-26'
-  note: Codex skill/plugin for source-first editable PowerPoint decks with outline JSON, style routing, native chart/table/flow variants, deck QA, and reusable presentation workspaces.
+  updated: '2026-10-15'
+  note: Agent skill and self-published Codex plugin for editable PowerPoint decks rebuilt from outline JSON. Version 0.14
+    adds native ordered methods, scientific figures with interpretation sidebars, and three reproducible eight-slide studies
+    explicitly labeled synthetic nonclinical data. Supports native charts/tables, source-retention QA, and hash-bound visual
+    review receipts. Requires local Python and Node; core generation does not require LibreOffice. Render verification uses
+    LibreOffice and Poppler when available. Optional data/extraction workflows add Python packages; optional generated imagery
+    uses the host's image tools. No mandatory GPU or separate hosted service is documented; host-agent privacy depends on its provider.
   source_types:
   - 文本/想法
   - PDF/文档
