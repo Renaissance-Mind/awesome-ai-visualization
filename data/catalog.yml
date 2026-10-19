@@ -1,4 +1,4 @@
-last_researched: '2026-10-17'
+last_researched: '2026-10-19'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23689,3 +23689,34 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: text_visual
+- name: Axiom Visualization Skills
+  url: https://github.com/axiomhq/skills
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 浏览器/账号
+  - 模板/素材
+  stars: 16
+  license: MIT
+  updated: '2026-10-14'
+  note: Official Axiom skill collection including building-dashboards and metrics-chart. Turns intent, event/log datasets,
+    APL or metrics/MPL queries, and Splunk/Grafana dashboard definitions into Axiom dashboards with filters and drilldowns.
+    Dashboard deployment needs network access, an Axiom deployment and credentials; script API tokens are configured separately
+    from hosted MCP OAuth. Helpers use curl and jq. Saved metrics v2/v3 JSON can be plotted locally with Python into ASCII
+    charts without extra packages; optional gnuplot exports PNG/SVG/sixel. No mandatory GPU is documented. Agent and hosted
+    service data handling follows their providers; dashboard and alert helpers can write remote resources.
+  source_types:
+  - 文本/想法
+  - 数据/表格
+  - DSL/代码
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data

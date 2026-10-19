@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Datos mensuales desde 2024-01; captura: 2026-10-15 19:39 (UTC+8). Incluye 834 de
 [![Repositorios creados al mes por categoría](public/activity/es/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-17)
+## Latest Refresh (2026-10-19)
 
 | Project | Catalog focus |
 | --- | --- |
-| [presentation-skill](https://github.com/siril9/presentation-skill) | Actualizado a v0.14: PowerPoint editable, métodos y figuras científicas nativos, control de conservación del contenido y estudios sintéticos reproducibles. |
+| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | Skills oficiales para crear paneles Axiom desde registros, métricas y requisitos, y gráficos locales desde JSON guardado. |
 
 ## ✨ Uso recomendado
 
@@ -272,6 +272,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación |
+| [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | Datos/tablas / Base de datos | App/framework open source | Gráfico/dashboard / Briefing/reporte | Runtime local / API de modelo / Renderizado/exportación |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | Datos/tablas / Texto/ideas | Agent skill | Gráfico/dashboard / Infografía/reporte visual / Briefing/reporte | Host de Agent / Runtime local / Renderizado/exportación / Plantillas/assets |
 | [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | Datos/tablas / Base de datos / Base de conocimiento | App/framework open source / Agent skill | Gráfico/dashboard / Briefing/reporte | Host de Agent / Runtime local / API de modelo / Búsqueda/datos externos / Almacenamiento/índice |

@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-17.
+Last researched: 2026-10-19.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-19: added Axiom Visualization Skills from the official README, building-dashboards and metrics-chart instructions, repository tree and current GitHub metadata. Recorded intent/log/metrics and dashboard-migration inputs, remote Axiom dashboard deployment with separately configured API credentials or MCP OAuth, local Python plotting of saved JSON, optional gnuplot exports, and remote-write/privacy implications. Targeted scraping fetched the official README; curated two dashboard templates and the official MCP setup guide, excluding generic agent-platform submission documentation. Catalog coverage is 896 entries.
 
 Update on 2026-10-17: refreshed the existing presentation-skill entry from its v0.9 release link to official v0.14.0. Verified the current README, release API, MIT license and GitHub metadata. Recorded local Python/Node requirements, optional LibreOffice/Poppler render verification, native method and scientific-figure layouts, source-retention checks, and hash-bound review receipts. Official studies are explicitly synthetic nonclinical examples rather than research evidence. Targeted scraping fetched both official sources; removed generic GitHub docs, promotion material, feedback templates, and duplicate preview links. Entry count remains 895.
 

@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-17T06:58:31+00:00",
-  "lastResearched": "2026-10-17",
+  "generatedAt": "2026-10-19T07:04:42+00:00",
+  "lastResearched": "2026-10-19",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 895,
+    "total": 896,
     "openSource": 216,
     "saas": 80,
     "modelApi": 276,
-    "examples": 1907,
+    "examples": 1909,
     "effectAssets": 2325,
-    "docs": 2204
+    "docs": 2205
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 588,
-      "数据/表格": 377,
+      "文本/想法": 589,
+      "数据/表格": 378,
       "代码/技术描述": 191,
       "任意/多源": 170,
       "网页/搜索结果": 220,
       "代码库": 102,
-      "DSL/代码": 185,
+      "DSL/代码": 186,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
       "Office 文档": 177,
@@ -31,8 +31,8 @@
     },
     "toolForms": {
       "开源应用/框架": 216,
-      "Agent Skill": 367,
-      "Skill 集合": 88,
+      "Agent Skill": 368,
+      "Skill 集合": 89,
       "MCP Server": 293,
       "产品/SaaS": 80,
       "数据集/评测": 5,
@@ -49,9 +49,9 @@
       "报告/长文档": 131,
       "证据表": 84,
       "信息图/视觉报告": 122,
-      "图表/仪表盘": 288,
+      "图表/仪表盘": 289,
       "架构图/流程图": 198,
-      "SVG/PNG/PDF": 395,
+      "SVG/PNG/PDF": 396,
       "报告/简报": 99,
       "白板/思维导图": 49,
       "图表/Mermaid": 81,
@@ -66,15 +66,15 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 764,
+      "本地语言环境": 765,
       "模型 API": 276,
       "文档解析/OCR": 129,
       "渲染/导出": 795,
       "GPU/加速器": 24,
-      "模板/素材": 452,
-      "Agent 宿主": 458,
-      "系统工具": 227,
-      "浏览器/账号": 202,
+      "模板/素材": 453,
+      "Agent 宿主": 459,
+      "系统工具": 228,
+      "浏览器/账号": 203,
       "存储/索引": 139,
       "MCP Client": 306,
       "外部检索/数据源": 185,
@@ -85,7 +85,7 @@
       "doc-to-knowledge": 72,
       "research-report": 39,
       "infographic-report": 82,
-      "data-dashboard": 137,
+      "data-dashboard": 138,
       "diagram-generation": 103,
       "literature-map": 5,
       "presentation-tools": 275,
@@ -103,7 +103,7 @@
       "docs": 44,
       "support_doc_parse": 24,
       "presentation": 283,
-      "data": 131,
+      "data": 132,
       "video": 30,
       "code": 61,
       "support_render": 72,
@@ -73442,6 +73442,66 @@
       "effectAssets": [],
       "docsCount": 2,
       "examplesCount": 4,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "Axiom Visualization Skills",
+      "url": "https://github.com/axiomhq/skills",
+      "primaryUrl": "https://github.com/axiomhq/skills",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "浏览器/账号",
+        "模板/素材"
+      ],
+      "stars": 16,
+      "license": "MIT",
+      "updated": "2026-10-14",
+      "note": "Official Axiom skill collection including building-dashboards and metrics-chart. Turns intent, event/log datasets, APL or metrics/MPL queries, and Splunk/Grafana dashboard definitions into Axiom dashboards with filters and drilldowns. Dashboard deployment needs network access, an Axiom deployment and credentials; script API tokens are configured separately from hosted MCP OAuth. Helpers use curl and jq. Saved metrics v2/v3 JSON can be plotted locally with Python into ASCII charts without extra packages; optional gnuplot exports PNG/SVG/sixel. No mandatory GPU is documented. Agent and hosted service data handling follows their providers; dashboard and alert helpers can write remote resources.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "MCP setup docs",
+          "url": "https://axiom.co/docs/console/intelligence/mcp-server",
+          "source": "https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "API health dashboard template",
+          "url": "https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/api-health.json",
+          "source": "https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md"
+        },
+        {
+          "kind": "template",
+          "title": "Service overview with filters",
+          "url": "https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/service-overview-with-filters.json",
+          "source": "https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 2,
       "effectAssetsCount": 0
     }
   ]

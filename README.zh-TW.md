@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-17)
+## Latest Refresh (2026-10-19)
 
 | Project | Catalog focus |
 | --- | --- |
-| [presentation-skill](https://github.com/siril9/presentation-skill) | 更新至 v0.14：可編輯 PowerPoint、原生方法步驟與科學圖解、來源內容保留檢查及可重現的合成資料範例。 |
+| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | 從日誌、指標和需求建立 Axiom 儀表板，並將已儲存的指標 JSON 轉為本機圖表的官方技能。 |
 
 ## ✨ 推薦使用方式
 
@@ -270,6 +270,7 @@
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 |
+| [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 資料/表格 / 資料庫 | 開源應用/框架 | 圖表/儀表板 / 報告/簡報 | 本機語言環境 / 模型 API / 渲染/匯出 |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | 資料/表格 / 文字/想法 | Agent Skill | 圖表/儀表板 / 資訊圖/視覺報告 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | 資料/表格 / 資料庫 / 知識庫/個人資料 | 開源應用/框架 / Agent Skill | 圖表/儀表板 / 報告/簡報 | Agent 宿主 / 本機語言環境 / 模型 API / 外部檢索/資料來源 / 儲存/索引 |

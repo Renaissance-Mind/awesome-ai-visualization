@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-895_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--17-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-17)
+## Latest Refresh (2026-10-19)
 
 | Project | Catalog focus |
 | --- | --- |
-| [presentation-skill](https://github.com/siril9/presentation-skill) | v0.14 업데이트: 편집 가능한 PowerPoint, 네이티브 절차 및 과학 도표, 원본 내용 보존 검사, 재현 가능한 합성 데이터 예제. |
+| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | 로그, 지표, 요구사항으로 Axiom 대시보드를 만들고 저장된 지표 JSON을 로컬 차트로 변환하는 공식 스킬. |
 
 ## ✨ 추천 사용법
 
@@ -272,6 +272,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | 데이터/표 / 텍스트/아이디어 | Agent Skill | 차트/대시보드 / 인포그래픽/비주얼 리포트 / 브리핑/리포트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [WrenAI](https://github.com/Canner/WrenAI) [![Star](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&logo=github&label=Star)](https://github.com/Canner/WrenAI/stargazers) | 데이터/표 / 데이터베이스 / 지식 베이스 | 오픈소스 앱/프레임워크 / Agent Skill | 차트/대시보드 / 브리핑/보고서 | Agent 호스트 / 로컬 런타임 / 모델 API / 외부 검색/데이터 / 저장소/인덱스 |

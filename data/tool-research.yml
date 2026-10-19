@@ -1,4 +1,4 @@
-generated_at: '2026-10-17T06:58:31+00:00'
+generated_at: '2026-10-19T07:04:42+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 895
-  fetched_sources_ok: 1187
+  entries: 896
+  fetched_sources_ok: 1188
   fetched_sources_failed: 60
-  official_examples: 1907
+  official_examples: 1909
   official_effect_assets: 2325
-  official_docs: 2204
+  official_docs: 2205
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70059,3 +70059,57 @@ entries:
       title: SVG authoring and export guide
       url: https://github.com/Guangke/arch-diagram-skill/blob/main/references/svg-guide.md
       source: https://github.com/Guangke/arch-diagram-skill/blob/main/SKILL.md
+- name: Axiom Visualization Skills
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/axiomhq/skills
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 浏览器/账号
+    - 模板/素材
+  catalog_note: Official Axiom skill collection including building-dashboards and metrics-chart. Turns intent, event/log
+    datasets, APL or metrics/MPL queries, and Splunk/Grafana dashboard definitions into Axiom dashboards with filters
+    and drilldowns. Dashboard deployment needs network access, an Axiom deployment and credentials; script API tokens
+    are configured separately from hosted MCP OAuth. Helpers use curl and jq. Saved metrics v2/v3 JSON can be plotted
+    locally with Python into ASCII charts without extra packages; optional gnuplot exports PNG/SVG/sixel. No mandatory
+    GPU is documented. Agent and hosted service data handling follows their providers; dashboard and alert helpers can
+    write remote resources.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Axiom Skills
+      bytes: 6667
+  official_docs:
+    - kind: docs
+      title: MCP setup docs
+      url: https://axiom.co/docs/console/intelligence/mcp-server
+      source: https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: MCP setup docs
+      url: https://axiom.co/docs/console/intelligence/mcp-server
+      source: https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md
+    - kind: template
+      title: API health dashboard template
+      url: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/api-health.json
+      source: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md
+    - kind: template
+      title: Service overview with filters
+      url: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/service-overview-with-filters.json
+      source: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md
+  source_headings:
+    - Marketplace docs
+  official_examples:
+    - kind: template
+      title: API health dashboard template
+      url: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/api-health.json
+      source: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md
+    - kind: template
+      title: Service overview with filters
+      url: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/service-overview-with-filters.json
+      source: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-17",
+  "sourceLastResearched": "2026-10-19",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33242,9 +33242,46 @@
         "https://github.com/Guangke/arch-diagram-skill",
         "https://raw.githubusercontent.com/Guangke/arch-diagram-skill/HEAD/README.md"
       ]
+    },
+    "Axiom Visualization Skills": {
+      "name": "Axiom Visualization Skills",
+      "url": "https://github.com/axiomhq/skills",
+      "sourceHash": "3d38675c86615dd7a8cd53b7f98adc6336f58d8d7b46712d6c7395406f036522",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "将数据集和仪表板定义转换为Axiom仪表板，支持过滤和下钻功能",
+      "explanation": "该工具将意图、事件/日志数据集、APL或指标查询、Splunk/Grafana仪表板定义转换为Axiom仪表板。需要网络访问和Axiom部署，使用curl和jq进行操作。可本地用Python绘制JSON指标为ASCII图表，支持导出PNG/SVG/sixel格式。",
+      "useCases": [
+        "将Splunk仪表板转换为Axiom仪表板",
+        "本地绘制指标数据为ASCII图表"
+      ],
+      "input": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码"
+      ],
+      "output": [
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "form": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "浏览器/账号",
+        "模板/素材"
+      ],
+      "originalDescription": "Official Axiom skill collection including building-dashboards and metrics-chart. Turns intent, event/log datasets, APL or metrics/MPL queries, and Splunk/Grafana dashboard definitions into Axiom dashboards with filters and drilldowns. Dashboard deployment needs network access, an Axiom deployment and credentials; script API tokens are configured separately from hosted MCP OAuth. Helpers use curl and jq. Saved metrics v2/v3 JSON can be plotted locally with Python into ASCII charts without extra packages; optional gnuplot exports PNG/SVG/sixel. No mandatory GPU is documented. Agent and hosted service data handling follows their providers; dashboard and alert helpers can write remote resources.",
+      "sources": [
+        "https://github.com/axiomhq/skills",
+        "https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md"
+      ]
     }
   },
-  "generatedAt": "2026-10-17T06:58:57.215Z",
+  "generatedAt": "2026-10-19T07:05:30.655Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"
