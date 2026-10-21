@@ -1,4 +1,4 @@
-last_researched: '2026-10-19'
+last_researched: '2026-10-21'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -691,10 +691,16 @@ entries:
   - 模型 API
   - 外部检索/数据源
   - 渲染/导出
-  stars: 28146
+  stars: 53372
   license: MIT
-  updated: '2026-06-14'
-  note: Science skill library with scientific visualization, schematics, paper/report, and database workflows.
+  updated: '2026-10-21'
+  note: Scientific Agent Skills library with scientific figures, schematics, slides, posters, reports and database workflows.
+    Its scientific-visualization skill documents Python 3.11+ and uv for pinned examples; bundled CLIs run without network
+    and load Matplotlib, Pillow or pypdf only when needed. Plotly static export with Kaleido v1 needs compatible Chrome/Chromium.
+    Figure workflows preserve source data and transformations, distinguish missing observations and uncertainty, and inspect
+    exported files. Automated checks do not certify scientific validity, accessibility or journal compliance. Other skills
+    can use external databases, model APIs and optional image generation; privacy and GPU requirements depend on the selected
+    skill and provider, so the collection is not uniformly offline.
   source_types:
   - 论文/科研资料
   tool_forms:

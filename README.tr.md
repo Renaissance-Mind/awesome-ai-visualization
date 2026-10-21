@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve
 [![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-19)
+## Latest Refresh (2026-10-21)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | Günlükler, metrikler ve gereksinimlerden Axiom panoları; kayıtlı metrik JSON dosyalarından yerel grafikler oluşturan resmi beceriler. |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Bilimsel grafik iş akışları güncellendi: yerel Python/uv, dışa aktarma bağımlılıkları, kaynak veri bütünlüğü ve otomatik denetimlerin sınırları. |
 
 ## ✨ Önerilen kullanım
 

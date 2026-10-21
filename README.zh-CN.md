@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-19)
+## Latest Refresh (2026-10-21)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | 从日志、指标和需求构建 Axiom 仪表盘，并将已保存的指标 JSON 转为本地图表的官方技能。 |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 更新科研绘图流程：本地 Python/uv 环境、导出依赖、源数据完整性，以及自动检查的适用边界。 |
 
 ## ✨ 推荐使用方式
 

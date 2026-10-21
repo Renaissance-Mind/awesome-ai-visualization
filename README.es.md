@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Datos mensuales desde 2024-01; captura: 2026-10-15 19:39 (UTC+8). Incluye 834 de
 [![Repositorios creados al mes por categoría](public/activity/es/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-19)
+## Latest Refresh (2026-10-21)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | Skills oficiales para crear paneles Axiom desde registros, métricas y requisitos, y gráficos locales desde JSON guardado. |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Flujos científicos actualizados: Python/uv local, dependencias de exportación, integridad de los datos y límites de las comprobaciones automáticas. |
 
 ## ✨ Uso recomendado
 

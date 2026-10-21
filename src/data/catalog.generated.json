@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T07:04:42+00:00",
-  "lastResearched": "2026-10-19",
+  "generatedAt": "2026-10-21T07:00:53+00:00",
+  "lastResearched": "2026-10-21",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
     "total": 896,
@@ -9,7 +9,7 @@
     "modelApi": 276,
     "examples": 1909,
     "effectAssets": 2325,
-    "docs": 2205
+    "docs": 2207
   },
   "facets": {
     "sourceTypes": {
@@ -2324,10 +2324,10 @@
         "外部检索/数据源",
         "渲染/导出"
       ],
-      "stars": 28146,
+      "stars": 53372,
       "license": "MIT",
-      "updated": "2026-06-14",
-      "note": "Science skill library with scientific visualization, schematics, paper/report, and database workflows.",
+      "updated": "2026-10-21",
+      "note": "Scientific Agent Skills library with scientific figures, schematics, slides, posters, reports and database workflows. Its scientific-visualization skill documents Python 3.11+ and uv for pinned examples; bundled CLIs run without network and load Matplotlib, Pillow or pypdf only when needed. Plotly static export with Kaleido v1 needs compatible Chrome/Chromium. Figure workflows preserve source data and transformations, distinguish missing observations and uncertainty, and inspect exported files. Automated checks do not certify scientific validity, accessibility or journal compliance. Other skills can use external databases, model APIs and optional image generation; privacy and GPU requirements depend on the selected skill and provider, so the collection is not uniformly offline.",
       "sourceTypes": [
         "论文/科研资料"
       ],
@@ -2365,15 +2365,21 @@
           "title": "docs/skills.md",
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md",
           "source": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Scientific visualization workflow and compatibility",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md",
+          "source": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "kind": "docs",
+          "title": "Figure integrity and export guidelines",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/references/publication_guidelines.md",
+          "source": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md"
         }
       ],
       "examples": [
-        {
-          "kind": "video",
-          "title": "YouTube",
-          "url": "https://www.youtube.com/@K-Dense-Inc",
-          "source": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md"
-        },
         {
           "kind": "example",
           "title": "docs/examples.md",
@@ -2427,10 +2433,16 @@
           "title": "AI Research Benchmarking NVIDIA BioNeMo Agent Toolkit Skills for NIM microservices A controlled benchmark of 10 NVIDIA BioNeMo Agent Toolkit skills for NIM microservices shows wher",
           "url": "https://k-dense.ai/blog/benchmarking-nvidia-bionemo-nim-skill",
           "source": "https://www.k-dense.ai/"
+        },
+        {
+          "kind": "example",
+          "title": "Scoped Matplotlib figure examples",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/references/matplotlib_examples.md",
+          "source": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md"
         }
       ],
       "effectAssets": [],
-      "docsCount": 4,
+      "docsCount": 6,
       "examplesCount": 10,
       "effectAssetsCount": 0
     },

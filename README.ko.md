@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--19-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--21-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-19)
+## Latest Refresh (2026-10-21)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Axiom Visualization Skills](https://github.com/axiomhq/skills) | 로그, 지표, 요구사항으로 Axiom 대시보드를 만들고 저장된 지표 JSON을 로컬 차트로 변환하는 공식 스킬. |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 과학 도표 작업 흐름 업데이트: 로컬 Python/uv 환경, 내보내기 의존성, 원본 데이터 보존 및 자동 검사의 한계. |
 
 ## ✨ 추천 사용법
 

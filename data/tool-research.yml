@@ -1,4 +1,4 @@
-generated_at: '2026-10-19T07:04:42+00:00'
+generated_at: "2026-10-21T07:00:53+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -15,7 +15,7 @@ summary:
   fetched_sources_failed: 60
   official_examples: 1909
   official_effect_assets: 2325
-  official_docs: 2205
+  official_docs: 2207
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -976,149 +976,172 @@ entries:
   primary_url: https://github.com/K-Dense-AI/scientific-agent-skills
   homepage: https://k-dense.ai
   dependencies:
-  - Agent 宿主
-  - 模型 API
-  - 外部检索/数据源
-  - 渲染/导出
-  catalog_note: Science skill library with scientific visualization, schematics, paper/report, and database workflows.
+    - Agent 宿主
+    - 模型 API
+    - 外部检索/数据源
+    - 渲染/导出
+  catalog_note: Scientific Agent Skills library with scientific figures, schematics, slides, posters, reports and database
+    workflows. Its scientific-visualization skill documents Python 3.11+ and uv for pinned examples; bundled CLIs run
+    without network and load Matplotlib, Pillow or pypdf only when needed. Plotly static export with Kaleido v1 needs
+    compatible Chrome/Chromium. Figure workflows preserve source data and transformations, distinguish missing
+    observations and uncertainty, and inspect exported files. Automated checks do not certify scientific validity,
+    accessibility or journal compliance. Other skills can use external databases, model APIs and optional image
+    generation; privacy and GPU requirements depend on the selected skill and provider, so the collection is not
+    uniformly offline.
   fetched_sources:
-  - kind: github_readme
-    url: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-    final_url: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-    status: 200
-    content_type: text/plain
-    title: Scientific Agent Skills
-    bytes: 47336
-  - kind: homepage
-    url: https://www.k-dense.ai/
-    final_url: https://www.k-dense.ai/
-    status: 200
-    content_type: text/html
-    title: K-Dense Web | Research. Analyze. Synthesize.
-    description: K-Dense Web is an AI agent that autonomously executes complex tasks across science, engineering, healthcare,
-      finance, and beyond. From question to insight, problem to solution.
-    bytes: 442891
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Scientific Agent Skills
+      bytes: 84156
+    - kind: homepage
+      url: https://www.k-dense.ai/
+      final_url: https://www.k-dense.ai/
+      status: 200
+      content_type: text/html
+      title: K-Dense Web | Research. Analyze. Synthesize.
+      description: K-Dense Web is an AI agent that autonomously executes complex tasks across science, engineering,
+        healthcare, finance, and beyond. From question to insight, problem to solution.
+      bytes: 442891
   official_examples:
-  - kind: video
-    title: YouTube
-    url: https://www.youtube.com/@K-Dense-Inc
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: example
-    title: docs/examples.md
-    url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/examples.md
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: tutorial
-    title: Tutorials
-    url: https://k-dense.ai/tutorials
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
-    url: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
-    url: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
-    url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
-    url: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    source: https://www.k-dense.ai/
-  - kind: paper
-    title: AI Research Benchmarking NVIDIA BioNeMo Agent Toolkit Skills for NIM microservices A controlled benchmark of 10
-      NVIDIA BioNeMo Agent Toolkit skills for NIM microservices shows wher
-    url: https://k-dense.ai/blog/benchmarking-nvidia-bionemo-nim-skill
-    source: https://www.k-dense.ai/
+    - kind: example
+      title: docs/examples.md
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/examples.md
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: tutorial
+      title: Tutorials
+      url: https://k-dense.ai/tutorials
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
+      url: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
+      url: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
+      url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
+      url: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
+      url: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+      url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+      source: https://www.k-dense.ai/
+    - kind: paper
+      title: AI Research Benchmarking NVIDIA BioNeMo Agent Toolkit Skills for NIM microservices A controlled benchmark of 10
+        NVIDIA BioNeMo Agent Toolkit skills for NIM microservices shows wher
+      url: https://k-dense.ai/blog/benchmarking-nvidia-bionemo-nim-skill
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: Scoped Matplotlib figure examples
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/references/matplotlib_examples.md
+      source: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md
   official_docs:
-  - kind: docs
-    title: Getting Started with Scientific Agent Skills
-    url: https://youtu.be/ZxbnDaD_FVg
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: View the full list of projects to support
-    url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/open-source-sponsors.md
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: official uv documentation
-    url: https://docs.astral.sh/uv/
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: docs/skills.md
-    url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: Getting Started with Scientific Agent Skills
+      url: https://youtu.be/ZxbnDaD_FVg
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: View the full list of projects to support
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/open-source-sponsors.md
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: official uv documentation
+      url: https://docs.astral.sh/uv/
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: docs/skills.md
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: Scientific visualization workflow and compatibility
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md
+      source: https://github.com/K-Dense-AI/scientific-agent-skills
+    - kind: docs
+      title: Figure integrity and export guidelines
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/references/publication_guidelines.md
+      source: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md
   official_links:
-  - kind: video
-    title: YouTube
-    url: https://www.youtube.com/@K-Dense-Inc
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: Getting Started with Scientific Agent Skills
-    url: https://youtu.be/ZxbnDaD_FVg
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: View the full list of projects to support
-    url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/open-source-sponsors.md
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: official uv documentation
-    url: https://docs.astral.sh/uv/
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: example
-    title: docs/examples.md
-    url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/examples.md
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: docs
-    title: docs/skills.md
-    url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md
-    source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
-  - kind: tutorial
-    title: Tutorials
-    url: https://k-dense.ai/tutorials
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
-    url: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
-    url: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
-    url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
-    url: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
-    source: https://www.k-dense.ai/
-  - kind: example
-    title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
-    source: https://www.k-dense.ai/
-  - kind: paper
-    title: AI Research Benchmarking NVIDIA BioNeMo Agent Toolkit Skills for NIM microservices A controlled benchmark of 10
-      NVIDIA BioNeMo Agent Toolkit skills for NIM microservices shows wher
-    url: https://k-dense.ai/blog/benchmarking-nvidia-bionemo-nim-skill
-    source: https://www.k-dense.ai/
+    - kind: docs
+      title: Getting Started with Scientific Agent Skills
+      url: https://youtu.be/ZxbnDaD_FVg
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: View the full list of projects to support
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/open-source-sponsors.md
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: official uv documentation
+      url: https://docs.astral.sh/uv/
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: example
+      title: docs/examples.md
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/examples.md
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: docs
+      title: docs/skills.md
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/docs/skills.md
+      source: https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md
+    - kind: tutorial
+      title: Tutorials
+      url: https://k-dense.ai/tutorials
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
+      url: https://k-dense.ai/examples/session_20251215_170752_24b906eb7e01/writing_outputs/final/manuscript.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
+      url: https://k-dense.ai/examples/session_20251217_122902_9ad327069ee6/writing_outputs/final/predictive_toxicology_paper.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
+      url: https://k-dense.ai/examples/session_20260403_101458_7f548077d599/writing_outputs/final/biomarker_whitepaper_cd20xcd3.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
+      url: https://k-dense.ai/examples/session_20260507_113914_345f691549e1/writing_outputs/final/sperm_whale_explainer.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
+      url: https://k-dense.ai/examples/session_20251215_165434_bcb1a47df161/writing_outputs/final/fragmentation_rules_paper.pdf
+      source: https://www.k-dense.ai/
+    - kind: example
+      title: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+      url: https://k-dense.ai/examples/session_20251215_164703_dc8bf4ef0471/writing_outputs/final/ion_suppression_paper.pdf
+      source: https://www.k-dense.ai/
+    - kind: paper
+      title: AI Research Benchmarking NVIDIA BioNeMo Agent Toolkit Skills for NIM microservices A controlled benchmark of 10
+        NVIDIA BioNeMo Agent Toolkit skills for NIM microservices shows wher
+      url: https://k-dense.ai/blog/benchmarking-nvidia-bionemo-nim-skill
+      source: https://www.k-dense.ai/
+    - kind: docs
+      title: Scientific visualization workflow and compatibility
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md
+      source: https://github.com/K-Dense-AI/scientific-agent-skills
+    - kind: docs
+      title: Figure integrity and export guidelines
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/references/publication_guidelines.md
+      source: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md
+    - kind: example
+      title: Scoped Matplotlib figure examples
+      url: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/references/matplotlib_examples.md
+      source: https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md
   source_headings:
-  - 💡 Quick Examples
-  - 📊 Data Analysis & Visualization
-  - 📊 **Data Analysis & Visualization** (21 skills)
+    - 💡 Quick Examples
+    - 📊 Data Analysis & Visualization
+    - 📊 **Data Analysis & Visualization** (21 skills)
 - name: claude-scientific-writer
   category: research-report
   surface: skill

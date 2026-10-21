@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-19.
+Last researched: 2026-10-21.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-21: refreshed the existing K-Dense scientific-agent-skills entry using the current official README, scientific-visualization instructions, repository tree and GitHub API metadata. Recorded Python 3.11+/uv requirements for pinned examples, network-free bundled CLIs, optional plotting/document libraries, Chrome/Chromium for Kaleido static export, source-data integrity checks and the limits of automated validation. Collection-wide API, privacy and GPU needs remain workflow-specific. Targeted scraping fetched the official README; added two visualization documents and one Matplotlib example reference, and removed a generic channel from examples. Entry count remains 896.
 
 Update on 2026-10-19: added Axiom Visualization Skills from the official README, building-dashboards and metrics-chart instructions, repository tree and current GitHub metadata. Recorded intent/log/metrics and dashboard-migration inputs, remote Axiom dashboard deployment with separately configured API credentials or MCP OAuth, local Python plotting of saved JSON, optional gnuplot exports, and remote-write/privacy implications. Targeted scraping fetched the official README; curated two dashboard templates and the official MCP setup guide, excluding generic agent-platform submission documentation. Catalog coverage is 896 entries.
 

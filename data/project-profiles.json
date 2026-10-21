@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-19",
+  "sourceLastResearched": "2026-10-21",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -935,12 +935,13 @@
     "scientific-agent-skills": {
       "name": "scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "sourceHash": "75db320d794bdd324ae3513bd8a747a8124772630c2484e9519e7440cf1143e2",
-      "summary": "科学技能库，包含科学可视化等功能",
-      "explanation": "scientific-agent-skills 是一个科学技能库，包含科学可视化、图表、论文/报告和数据库工作流等功能。",
+      "sourceHash": "644228c768588a0ae4ff955fbf7273c0e97cddf1a67b9dcb9fb3381fed5fd2c8",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "科学图表、幻灯片、报告和数据库工作流的技能库。",
+      "explanation": "该库包含科学图表、示意图、幻灯片、海报、报告和数据库工作流。其科学可视化技能支持 Python 3.11+ 和 uv，捆绑的 CLI 在无网络环境下运行，仅在需要时加载 Matplotlib、Pillow 或 pypdf。Plotly 静态导出需要兼容的 Chrome/Chromium。工作流保留源数据和转换，区分缺失观测值和不确定性，并检查导出文件。",
       "useCases": [
-        "执行科学可视化任务",
-        "创建科学论文和报告"
+        "生成科学报告和图表",
+        "创建数据库工作流"
       ],
       "input": [
         "论文/科研资料"
@@ -959,14 +960,13 @@
         "外部检索/数据源",
         "渲染/导出"
       ],
-      "originalDescription": "Science skill library with scientific visualization, schematics, paper/report, and database workflows.",
+      "originalDescription": "Scientific Agent Skills library with scientific figures, schematics, slides, posters, reports and database workflows. Its scientific-visualization skill documents Python 3.11+ and uv for pinned examples; bundled CLIs run without network and load Matplotlib, Pillow or pypdf only when needed. Plotly static export with Kaleido v1 needs compatible Chrome/Chromium. Figure workflows preserve source data and transformations, distinguish missing observations and uncertainty, and inspect exported files. Automated checks do not certify scientific validity, accessibility or journal compliance. Other skills can use external databases, model APIs and optional image generation; privacy and GPU requirements depend on the selected skill and provider, so the collection is not uniformly offline.",
       "sources": [
         "https://github.com/K-Dense-AI/scientific-agent-skills",
         "https://k-dense.ai",
         "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/HEAD/README.md",
         "https://www.k-dense.ai/"
-      ],
-      "generatedBy": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      ]
     },
     "claude-scientific-writer": {
       "name": "claude-scientific-writer",
@@ -33281,7 +33281,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-19T07:05:30.655Z",
+  "generatedAt": "2026-10-21T07:02:31.242Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"
