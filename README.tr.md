@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--21-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-897_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--23-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve
 [![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-21)
+## Latest Refresh (2026-10-23)
 
 | Project | Catalog focus |
 | --- | --- |
-| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Bilimsel grafik iş akışları güncellendi: yerel Python/uv, dışa aktarma bağımlılıkları, kaynak veri bütünlüğü ve otomatik denetimlerin sınırları. |
+| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) | OAuth ile bağlanan resmi barındırılan MCP: düzenlenebilir diyagramlar, zihin haritaları, taslak arayüzler ve belgeler; arama, düzenleme ve yorumlar. |
 
 ## ✨ Önerilen kullanım
 
@@ -460,6 +460,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Eraser AI](https://www.eraser.io/ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Render/dışa aktarma |
 | [Whimsical AI](https://whimsical.com/ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |

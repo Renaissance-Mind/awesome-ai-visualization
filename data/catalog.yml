@@ -1,4 +1,4 @@
-last_researched: '2026-10-21'
+last_researched: '2026-10-23'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23726,3 +23726,35 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: Whimsical Official Remote MCP
+  url: https://github.com/WhimsicalCode/mcp-server-guide
+  homepage: https://whimsical.com/mcp
+  category: diagram-generation
+  surface: mcp
+  dependencies:
+  - MCP Client
+  - 浏览器/账号
+  - 渲染/导出
+  stars: 11
+  license: MIT
+  updated: '2026-10-15'
+  note: Official hosted Whimsical MCP over Streamable HTTP, using OAuth 2.1 with PKCE and no separate API key.
+    Turns prompts and technical context into editable flowcharts, mind maps, sequence/architecture diagrams, wireframes,
+    sticky notes, tables and docs in a Whimsical workspace. Can search/read/edit existing files, auto-layout boards and
+    manage comments; fetch can return a PNG snapshot. Requires network access, a Whimsical account and a compatible MCP
+    client; workspace content is processed by Whimsical and the connected agent provider. No local server or GPU is
+    required for the remote service. This MIT repository is the integration guide, not the hosted server source.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  - 数据/表格
+  tool_forms:
+  - MCP Server
+  - 产品/SaaS
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 报告/长文档
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual

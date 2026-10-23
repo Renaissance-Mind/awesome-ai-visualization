@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-21T07:00:53+00:00",
-  "lastResearched": "2026-10-21",
+  "generatedAt": "2026-10-23T07:01:38+00:00",
+  "lastResearched": "2026-10-23",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 896,
+    "total": 897,
     "openSource": 216,
-    "saas": 80,
+    "saas": 81,
     "modelApi": 276,
-    "examples": 1909,
-    "effectAssets": 2325,
-    "docs": 2207
+    "examples": 1910,
+    "effectAssets": 2332,
+    "docs": 2211
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 589,
-      "数据/表格": 378,
-      "代码/技术描述": 191,
+      "文本/想法": 590,
+      "数据/表格": 379,
+      "代码/技术描述": 192,
       "任意/多源": 170,
       "网页/搜索结果": 220,
       "代码库": 102,
@@ -33,8 +33,8 @@
       "开源应用/框架": 216,
       "Agent Skill": 368,
       "Skill 集合": 89,
-      "MCP Server": 293,
-      "产品/SaaS": 80,
+      "MCP Server": 294,
+      "产品/SaaS": 81,
       "数据集/评测": 5,
       "Bot/助手": 29,
       "研究原型": 13,
@@ -46,14 +46,14 @@
       "PPT/演示文稿": 384,
       "网页/交互页面": 333,
       "问答/学习材料": 23,
-      "报告/长文档": 131,
+      "报告/长文档": 132,
       "证据表": 84,
       "信息图/视觉报告": 122,
       "图表/仪表盘": 289,
-      "架构图/流程图": 198,
-      "SVG/PNG/PDF": 396,
+      "架构图/流程图": 199,
+      "SVG/PNG/PDF": 397,
       "报告/简报": 99,
-      "白板/思维导图": 49,
+      "白板/思维导图": 50,
       "图表/Mermaid": 81,
       "视频/音频": 78,
       "结构化数据/Markdown": 142,
@@ -69,14 +69,14 @@
       "本地语言环境": 765,
       "模型 API": 276,
       "文档解析/OCR": 129,
-      "渲染/导出": 795,
+      "渲染/导出": 796,
       "GPU/加速器": 24,
       "模板/素材": 453,
       "Agent 宿主": 459,
       "系统工具": 228,
-      "浏览器/账号": 203,
+      "浏览器/账号": 204,
       "存储/索引": 139,
-      "MCP Client": 306,
+      "MCP Client": 307,
       "外部检索/数据源": 185,
       "代码分析工具": 64
     },
@@ -86,7 +86,7 @@
       "research-report": 39,
       "infographic-report": 82,
       "data-dashboard": 138,
-      "diagram-generation": 103,
+      "diagram-generation": 104,
       "literature-map": 5,
       "presentation-tools": 275,
       "rendering-primitive": 29,
@@ -97,7 +97,7 @@
     },
     "groups": {
       "paper": 45,
-      "text_visual": 108,
+      "text_visual": 109,
       "web_news": 9,
       "support_mindmap": 20,
       "docs": 44,
@@ -73515,6 +73515,128 @@
       "docsCount": 1,
       "examplesCount": 2,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "Whimsical Official Remote MCP",
+      "url": "https://github.com/WhimsicalCode/mcp-server-guide",
+      "primaryUrl": "https://github.com/WhimsicalCode/mcp-server-guide",
+      "homepage": "https://whimsical.com/mcp",
+      "category": "diagram-generation",
+      "surface": "mcp",
+      "dependencies": [
+        "MCP Client",
+        "浏览器/账号",
+        "渲染/导出"
+      ],
+      "stars": 11,
+      "license": "MIT",
+      "updated": "2026-10-15",
+      "note": "Official hosted Whimsical MCP over Streamable HTTP, using OAuth 2.1 with PKCE and no separate API key. Turns prompts and technical context into editable flowcharts, mind maps, sequence/architecture diagrams, wireframes, sticky notes, tables and docs in a Whimsical workspace. Can search/read/edit existing files, auto-layout boards and manage comments; fetch can return a PNG snapshot. Requires network access, a Whimsical account and a compatible MCP client; workspace content is processed by Whimsical and the connected agent provider. No local server or GPU is required for the remote service. This MIT repository is the integration guide, not the hosted server source.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "tool reference",
+          "url": "https://whimsical.com/learn/ai/mcp-tools",
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "ChatGPT guide",
+          "url": "https://whimsical.com/learn/integrations/chatgpt",
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Grok guide",
+          "url": "https://whimsical.com/learn/integrations/grok",
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Setup guide",
+          "url": "https://whimsical.com/learn/integrations/mcp",
+          "source": "https://whimsical.com/integrations/mcp"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Templates",
+          "url": "https://whimsical.com/templates",
+          "source": "https://whimsical.com/integrations/mcp"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Login flowchart created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/flowchart.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "OAuth sequence diagram created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/sequence-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "System architecture diagram created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/architecture-diagram.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mind map created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/mind-map.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Settings page wireframe created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/wireframe.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sprint retro sticky notes created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/sticky-notes.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Technical spec doc created from a prompt",
+          "url": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/doc.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md"
+        }
+      ],
+      "docsCount": 4,
+      "examplesCount": 1,
+      "effectAssetsCount": 7
     }
   ]
 }

@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-21.
+Last researched: 2026-10-23.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-23: added Whimsical Official Remote MCP after official README, product page, repository tree and GitHub metadata verification. Kept it distinct from the existing community server. Recorded hosted Streamable HTTP, OAuth/PKCE, account/network requirements, workspace data handling, editable board/doc outputs, PNG snapshots and remote write/comment capabilities. The MIT repository is an integration guide, not hosted server source. Targeted scraping fetched two official sources; retained seven actual artifact screenshots, four project guides and one template index, excluding the commented-out demo GIF, creator promotion, generic client docs and brand images. Catalog coverage is 897 entries.
 
 Update on 2026-10-21: refreshed the existing K-Dense scientific-agent-skills entry using the current official README, scientific-visualization instructions, repository tree and GitHub API metadata. Recorded Python 3.11+/uv requirements for pinned examples, network-free bundled CLIs, optional plotting/document libraries, Chrome/Chromium for Kaleido static export, source-data integrity checks and the limits of automated validation. Collection-wide API, privacy and GPU needs remain workflow-specific. Targeted scraping fetched the official README; added two visualization documents and one Matplotlib example reference, and removed a generic channel from examples. Entry count remains 896.
 

@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-896_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--21-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-897_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--23-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-21)
+## Latest Refresh (2026-10-23)
 
 | Project | Catalog focus |
 | --- | --- |
-| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 과학 도표 작업 흐름 업데이트: 로컬 Python/uv 환경, 내보내기 의존성, 원본 데이터 보존 및 자동 검사의 한계. |
+| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) | OAuth로 연결하는 공식 호스팅 MCP. 편집 가능한 다이어그램, 마인드맵, 와이어프레임, 문서와 검색·수정·댓글을 지원합니다. |
 
 ## ✨ 추천 사용법
 
@@ -460,6 +460,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Eraser AI](https://www.eraser.io/ai) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 렌더링/내보내기 |
 | [Whimsical AI](https://whimsical.com/ai) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
+| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |
 | [FigJam AI](https://help.figma.com/hc/en-us/articles/18706554628119-Make-boards-and-diagrams-with-FigJam-AI) | 텍스트/아이디어 / 코드/기술 텍스트 | 제품/SaaS | 아키텍처/흐름도 / 화이트보드/마인드맵 | 브라우저/계정 / 템플릿/자산 |

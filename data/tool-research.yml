@@ -1,4 +1,4 @@
-generated_at: "2026-10-21T07:00:53+00:00"
+generated_at: "2026-10-23T07:01:38+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 896
-  fetched_sources_ok: 1188
+  entries: 897
+  fetched_sources_ok: 1190
   fetched_sources_failed: 60
-  official_examples: 1909
-  official_effect_assets: 2325
-  official_docs: 2207
+  official_examples: 1910
+  official_effect_assets: 2332
+  official_docs: 2211
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70136,3 +70136,111 @@ entries:
       title: Service overview with filters
       url: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/reference/templates/service-overview-with-filters.json
       source: https://github.com/axiomhq/skills/blob/main/skills/building-dashboards/SKILL.md
+- name: Whimsical Official Remote MCP
+  category: diagram-generation
+  surface: mcp
+  primary_url: https://github.com/WhimsicalCode/mcp-server-guide
+  homepage: https://whimsical.com/mcp
+  dependencies:
+    - MCP Client
+    - 浏览器/账号
+    - 渲染/导出
+  catalog_note: Official hosted Whimsical MCP over Streamable HTTP, using OAuth 2.1 with PKCE and no separate API key.
+    Turns prompts and technical context into editable flowcharts, mind maps, sequence/architecture diagrams, wireframes,
+    sticky notes, tables and docs in a Whimsical workspace. Can search/read/edit existing files, auto-layout boards and
+    manage comments; fetch can return a PNG snapshot. Requires network access, a Whimsical account and a compatible MCP
+    client; workspace content is processed by Whimsical and the connected agent provider. No local server or GPU is
+    required for the remote service. This MIT repository is the integration guide, not the hosted server source.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Whimsical MCP Server
+      bytes: 10916
+    - kind: homepage
+      url: https://whimsical.com/integrations/mcp
+      final_url: https://whimsical.com/integrations/mcp
+      status: 200
+      content_type: text/html
+      title: Whimsical MCP - Whimsical Integrations
+      description: Connect Claude, ChatGPT, Cursor, or any MCP client to Whimsical to create flowcharts, sequence diagrams,
+        mind maps, and wireframes from a prompt.
+      bytes: 255250
+  official_examples:
+    - kind: template
+      title: Templates
+      url: https://whimsical.com/templates
+      source: https://whimsical.com/integrations/mcp
+  official_docs:
+    - kind: docs
+      title: tool reference
+      url: https://whimsical.com/learn/ai/mcp-tools
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: docs
+      title: ChatGPT guide
+      url: https://whimsical.com/learn/integrations/chatgpt
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: docs
+      title: Grok guide
+      url: https://whimsical.com/learn/integrations/grok
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: docs
+      title: Setup guide
+      url: https://whimsical.com/learn/integrations/mcp
+      source: https://whimsical.com/integrations/mcp
+  official_effect_assets:
+    - kind: image
+      title: Login flowchart created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/flowchart.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: image
+      title: OAuth sequence diagram created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/sequence-diagram.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: image
+      title: System architecture diagram created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/architecture-diagram.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: image
+      title: Mind map created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/mind-map.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: image
+      title: Settings page wireframe created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/wireframe.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: image
+      title: Sprint retro sticky notes created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/sticky-notes.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: image
+      title: Technical spec doc created from a prompt
+      url: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/docs/images/doc.png
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+  official_links:
+    - kind: docs
+      title: tool reference
+      url: https://whimsical.com/learn/ai/mcp-tools
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: docs
+      title: ChatGPT guide
+      url: https://whimsical.com/learn/integrations/chatgpt
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: docs
+      title: Grok guide
+      url: https://whimsical.com/learn/integrations/grok
+      source: https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md
+    - kind: docs
+      title: Setup guide
+      url: https://whimsical.com/learn/integrations/mcp
+      source: https://whimsical.com/integrations/mcp
+    - kind: template
+      title: Templates
+      url: https://whimsical.com/templates
+      source: https://whimsical.com/integrations/mcp
+  source_headings:
+    - Sequence diagrams
+    - Architecture diagrams
+    - Docs and tables

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-21",
+  "sourceLastResearched": "2026-10-23",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33279,9 +33279,48 @@
         "https://github.com/axiomhq/skills",
         "https://raw.githubusercontent.com/axiomhq/skills/HEAD/README.md"
       ]
+    },
+    "Whimsical Official Remote MCP": {
+      "name": "Whimsical Official Remote MCP",
+      "url": "https://github.com/WhimsicalCode/mcp-server-guide",
+      "sourceHash": "3bce830baa6332525c7b1c23f7b2d38275fb57a0fa8ed9b883d30b61c1767ea5",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "通过OAuth 2.1连接MCP客户端生成可编辑的流程图和文档",
+      "explanation": "该工具通过Streamable HTTP提供Whimsical的托管MCP服务，支持使用OAuth 2.1和PKCE认证。用户可生成流程图、思维导图、架构图等，并能搜索、编辑现有文件，自动布局画板和管理评论。可返回PNG快照，无需本地服务器或GPU。",
+      "useCases": [
+        "连接Claude或ChatGPT生成流程图",
+        "在Whimsical中创建和编辑思维导图"
+      ],
+      "input": [
+        "文本/想法",
+        "代码/技术描述",
+        "数据/表格"
+      ],
+      "output": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "报告/长文档",
+        "SVG/PNG/PDF"
+      ],
+      "form": [
+        "MCP Server",
+        "产品/SaaS"
+      ],
+      "requirements": [
+        "MCP Client",
+        "浏览器/账号",
+        "渲染/导出"
+      ],
+      "originalDescription": "Official hosted Whimsical MCP over Streamable HTTP, using OAuth 2.1 with PKCE and no separate API key. Turns prompts and technical context into editable flowcharts, mind maps, sequence/architecture diagrams, wireframes, sticky notes, tables and docs in a Whimsical workspace. Can search/read/edit existing files, auto-layout boards and manage comments; fetch can return a PNG snapshot. Requires network access, a Whimsical account and a compatible MCP client; workspace content is processed by Whimsical and the connected agent provider. No local server or GPU is required for the remote service. This MIT repository is the integration guide, not the hosted server source.",
+      "sources": [
+        "https://github.com/WhimsicalCode/mcp-server-guide",
+        "https://whimsical.com/mcp",
+        "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/HEAD/README.md",
+        "https://whimsical.com/integrations/mcp"
+      ]
     }
   },
-  "generatedAt": "2026-10-21T07:02:31.242Z",
+  "generatedAt": "2026-10-23T07:02:35.573Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"
