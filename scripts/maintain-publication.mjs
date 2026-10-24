@@ -63,8 +63,8 @@ try {
 
   // The scheduled GitHub collector is independent. Repair its data locally when
   // needed; some GitHub accounts allow scheduled runs but reject manual reruns.
-  const runs = JSON.parse(execFileSync("gh", ["run", "list", "--workflow", "repository-signals.yml", "--limit", "1",
-    "--json", "databaseId,status,conclusion,url,updatedAt"], { cwd, encoding: "utf8" }));
+  const runs = await step("daily collector status", () => JSON.parse(execFileSync("gh", ["run", "list", "--workflow", "repository-signals.yml", "--limit", "1",
+    "--json", "databaseId,status,conclusion,url,updatedAt"], { cwd, encoding: "utf8", timeout: 30000 })));
   const collector = runs[0];
   status.collector = collector;
   const signals = JSON.parse(await readFile(join(cwd, "data/repository-signals/summary.json"), "utf8"));

@@ -59,6 +59,10 @@ also works when GitHub permits scheduled runs but rejects manual dispatch/rerun.
 A failed backup collection is reported as a failed publication; successful repair
 is included in the next publication report.
 
+The workflow-status query is recorded as `daily collector status` and has three
+attempts, each limited to 30 seconds, with the same 10/30-second retry delays.
+If GitHub cannot be queried, publication stops with that stage recorded for retry.
+
 `<git-common-dir>/publication/status.json` records the failed stage, source commit,
 retained worktree, collector state and completion time. Failed worktrees remain
 available for diagnosis; successful worktrees are removed. The hourly heartbeat
