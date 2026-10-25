@@ -1,4 +1,4 @@
-generated_at: "2026-10-23T07:01:38+00:00"
+generated_at: "2026-10-25T07:01:20+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 897
-  fetched_sources_ok: 1190
+  entries: 898
+  fetched_sources_ok: 1192
   fetched_sources_failed: 60
-  official_examples: 1910
-  official_effect_assets: 2332
-  official_docs: 2211
+  official_examples: 1911
+  official_effect_assets: 2343
+  official_docs: 2216
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70244,3 +70244,140 @@ entries:
     - Sequence diagrams
     - Architecture diagrams
     - Docs and tables
+- name: OpenFlowKit
+  category: diagram-generation
+  surface: open-source
+  primary_url: https://github.com/openflowkit/openflowkit
+  homepage: https://openflowkit.com
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 代码分析工具
+  catalog_note: Local-first diagram canvas, CLI, agent skill and MCP tools for editable diagrams from prompts, OpenFlow
+    DSL, Mermaid/D2/Structurizr and codebases. Repository maps cite file:line evidence; agents can edit the live canvas
+    and inspect screenshots. Exports PNG/SVG/PDF/JSON/Mermaid and browser-rendered animated SVG/GIF/MP4/WebM. Browser
+    drawing, code editing and exports work after loading; fully disconnected use needs self-hosting. CLI/MCP require
+    Node 20.11+; source development requires Node 22.22+, while the browser needs WebGL. Optional AI uses a provider key
+    or local endpoint; GitHub maps and sharing require network access. Diagrams stay in browser storage; provider calls
+    send content to that provider, share links can upload ciphertext, and basic usage stats can be disabled. Local-model
+    GPU needs depend on the model.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Why OpenFlowKit
+      bytes: 22944
+    - kind: homepage
+      url: https://openflowkit.com/
+      final_url: https://openflowkit.com/
+      status: 200
+      content_type: text/html
+      title: OpenFlowKit | Architecture diagrams you draw, write as code, or hand to your agent
+      description: Architecture diagrams you draw, write as code, or hand to your agent. Paste a GitHub repo, get its map.
+        Free, open source and local-first.
+      bytes: 220204
+  official_examples:
+    - kind: example
+      title: Interactive sample repository map
+      url: https://app.openflowkit.com/#/map/github/dockersamples/example-voting-app
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: docs
+      url: https://docs.openflowkit.com/openflow-dsl/
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: docs
+      title: MCP server docs
+      url: https://docs.openflowkit.com/mcp-server/
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: docs
+      title: Docs
+      url: https://docs.openflowkit.com
+      source: https://openflowkit.com/
+    - kind: docs
+      title: CLI rendering, mapping and static-site build
+      url: https://docs.openflowkit.com/cli/
+      source: https://github.com/openflowkit/openflowkit
+    - kind: docs
+      title: Self-hosting and local providers
+      url: https://docs.openflowkit.com/self-hosting/
+      source: https://github.com/openflowkit/openflowkit
+  official_effect_assets:
+    - kind: gif
+      title: "The map of GoogleCloudPlatform/microservices-demo: a click on checkoutservice opens it in place, showing the
+        files inside, while the side panel lists what it talks to"
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/map-light.gif
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: gif
+      title: An agent draws an architecture diagram on the OpenFlowKit canvas, live; the user drags a box, edits one line of
+        text and regenerates
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/hero-light.gif
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: "The code panel beside the canvas: the same diagram as text and as shapes"
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/code-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Sequence diagram of a login
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/sequence-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Flowchart
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/flowchart-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Entity-relationship diagram
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/erd-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: State machine
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/state-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Class diagram
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/class-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Mind map
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/mindmap-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Git graph
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/gitgraph-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: image
+      title: Bar chart
+      url: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/chart-light.png
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+  official_links:
+    - kind: example
+      title: Interactive sample repository map
+      url: https://app.openflowkit.com/#/map/github/dockersamples/example-voting-app
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: docs
+      title: docs
+      url: https://docs.openflowkit.com/openflow-dsl/
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: docs
+      title: MCP server docs
+      url: https://docs.openflowkit.com/mcp-server/
+      source: https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md
+    - kind: docs
+      title: Docs
+      url: https://docs.openflowkit.com
+      source: https://openflowkit.com/
+    - kind: docs
+      title: CLI rendering, mapping and static-site build
+      url: https://docs.openflowkit.com/cli/
+      source: https://github.com/openflowkit/openflowkit
+    - kind: docs
+      title: Self-hosting and local providers
+      url: https://docs.openflowkit.com/self-hosting/
+      source: https://github.com/openflowkit/openflowkit
+  source_headings:
+    - 2. Text and canvas are the same diagram
+    - Ten diagram types, one language
+    - Bring the diagrams you already have

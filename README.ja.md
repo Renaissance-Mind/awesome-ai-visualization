@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-897_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-23)
+## Latest Refresh (2026-10-25)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) | OAuth で接続する公式ホスト型 MCP。編集可能な図、マインドマップ、ワイヤーフレーム、文書と検索・編集・コメントに対応。 |
+| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | ローカル優先の図作成キャンバス、CLI、MCP。ファイル行番号付きリポジトリマップ、DSL の編集、静止画・動画出力に対応。 |
 
 ## ✨ 推奨される使い方
 
@@ -460,6 +460,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Eraser AI](https://www.eraser.io/ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / レンダリング/エクスポート |
 | [Whimsical AI](https://whimsical.com/ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [OpenFlowKit](https://github.com/openflowkit/openflowkit) [![Star](https://img.shields.io/github/stars/openflowkit/openflowkit?style=flat&logo=github&label=Star)](https://github.com/openflowkit/openflowkit/stargazers) | Text/ideas / DSL/code / Codebase / Data/tables | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Code map / Chart/dashboard / SVG/PNG/PDF / Video/audio | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |

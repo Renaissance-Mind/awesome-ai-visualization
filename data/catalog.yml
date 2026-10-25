@@ -1,4 +1,4 @@
-last_researched: '2026-10-23'
+last_researched: '2026-10-25'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23756,5 +23756,43 @@ entries:
   - 白板/思维导图
   - 报告/长文档
   - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
+- name: OpenFlowKit
+  url: https://github.com/openflowkit/openflowkit
+  homepage: https://openflowkit.com
+  category: diagram-generation
+  surface: open-source
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 代码分析工具
+  stars: 909
+  license: MIT
+  updated: '2026-10-24'
+  note: Local-first diagram canvas, CLI, agent skill and MCP tools for editable diagrams from prompts, OpenFlow DSL,
+    Mermaid/D2/Structurizr and codebases. Repository maps cite file:line evidence; agents can edit the live canvas and
+    inspect screenshots. Exports PNG/SVG/PDF/JSON/Mermaid and browser-rendered animated SVG/GIF/MP4/WebM. Browser drawing,
+    code editing and exports work after loading; fully disconnected use needs self-hosting. CLI/MCP require Node 20.11+;
+    source development requires Node 22.22+, while the browser needs WebGL. Optional AI uses a provider key or local endpoint;
+    GitHub maps and sharing require network access. Diagrams stay in browser storage; provider calls send content to that
+    provider, share links can upload ciphertext, and basic usage stats can be disabled. Local-model GPU needs depend on the model.
+  source_types:
+  - 文本/想法
+  - DSL/代码
+  - 代码库
+  - 数据/表格
+  tool_forms:
+  - 开源应用/框架
+  - MCP Server
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 白板/思维导图
+  - 代码地图/Repo Wiki
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  - 视频/音频
   catalog_section: main
   readme_group: text_visual

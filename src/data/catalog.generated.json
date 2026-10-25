@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-23T07:01:38+00:00",
-  "lastResearched": "2026-10-23",
+  "generatedAt": "2026-10-25T07:01:20+00:00",
+  "lastResearched": "2026-10-25",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 897,
-    "openSource": 216,
+    "total": 898,
+    "openSource": 217,
     "saas": 81,
     "modelApi": 276,
-    "examples": 1910,
-    "effectAssets": 2332,
-    "docs": 2211
+    "examples": 1911,
+    "effectAssets": 2343,
+    "docs": 2216
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 590,
-      "数据/表格": 379,
+      "文本/想法": 591,
+      "数据/表格": 380,
       "代码/技术描述": 192,
       "任意/多源": 170,
       "网页/搜索结果": 220,
-      "代码库": 102,
-      "DSL/代码": 186,
+      "代码库": 103,
+      "DSL/代码": 187,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
       "Office 文档": 177,
@@ -30,10 +30,10 @@
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 216,
-      "Agent Skill": 368,
+      "开源应用/框架": 217,
+      "Agent Skill": 369,
       "Skill 集合": 89,
-      "MCP Server": 294,
+      "MCP Server": 295,
       "产品/SaaS": 81,
       "数据集/评测": 5,
       "Bot/助手": 29,
@@ -49,36 +49,36 @@
       "报告/长文档": 132,
       "证据表": 84,
       "信息图/视觉报告": 122,
-      "图表/仪表盘": 289,
-      "架构图/流程图": 199,
-      "SVG/PNG/PDF": 397,
+      "图表/仪表盘": 290,
+      "架构图/流程图": 200,
+      "SVG/PNG/PDF": 398,
       "报告/简报": 99,
-      "白板/思维导图": 50,
+      "白板/思维导图": 51,
       "图表/Mermaid": 81,
-      "视频/音频": 78,
+      "视频/音频": 79,
       "结构化数据/Markdown": 142,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 50,
       "文献地图/知识地图": 5,
       "工具索引": 29,
-      "代码地图/Repo Wiki": 55,
+      "代码地图/Repo Wiki": 56,
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 765,
+      "本地语言环境": 766,
       "模型 API": 276,
       "文档解析/OCR": 129,
-      "渲染/导出": 796,
+      "渲染/导出": 797,
       "GPU/加速器": 24,
       "模板/素材": 453,
-      "Agent 宿主": 459,
+      "Agent 宿主": 460,
       "系统工具": 228,
       "浏览器/账号": 204,
       "存储/索引": 139,
       "MCP Client": 307,
       "外部检索/数据源": 185,
-      "代码分析工具": 64
+      "代码分析工具": 65
     },
     "categories": {
       "paper-visualization": 30,
@@ -86,7 +86,7 @@
       "research-report": 39,
       "infographic-report": 82,
       "data-dashboard": 138,
-      "diagram-generation": 104,
+      "diagram-generation": 105,
       "literature-map": 5,
       "presentation-tools": 275,
       "rendering-primitive": 29,
@@ -97,7 +97,7 @@
     },
     "groups": {
       "paper": 45,
-      "text_visual": 109,
+      "text_visual": 110,
       "web_news": 9,
       "support_mindmap": 20,
       "docs": 44,
@@ -73637,6 +73637,167 @@
       "docsCount": 4,
       "examplesCount": 1,
       "effectAssetsCount": 7
+    },
+    {
+      "name": "OpenFlowKit",
+      "url": "https://github.com/openflowkit/openflowkit",
+      "primaryUrl": "https://github.com/openflowkit/openflowkit",
+      "homepage": "https://openflowkit.com",
+      "category": "diagram-generation",
+      "surface": "open-source",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "代码分析工具"
+      ],
+      "stars": 909,
+      "license": "MIT",
+      "updated": "2026-10-24",
+      "note": "Local-first diagram canvas, CLI, agent skill and MCP tools for editable diagrams from prompts, OpenFlow DSL, Mermaid/D2/Structurizr and codebases. Repository maps cite file:line evidence; agents can edit the live canvas and inspect screenshots. Exports PNG/SVG/PDF/JSON/Mermaid and browser-rendered animated SVG/GIF/MP4/WebM. Browser drawing, code editing and exports work after loading; fully disconnected use needs self-hosting. CLI/MCP require Node 20.11+; source development requires Node 22.22+, while the browser needs WebGL. Optional AI uses a provider key or local endpoint; GitHub maps and sharing require network access. Diagrams stay in browser storage; provider calls send content to that provider, share links can upload ciphertext, and basic usage stats can be disabled. Local-model GPU needs depend on the model.",
+      "sourceTypes": [
+        "文本/想法",
+        "DSL/代码",
+        "代码库",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架",
+        "MCP Server",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "白板/思维导图",
+        "代码地图/Repo Wiki",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "视频/音频"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "docs",
+          "url": "https://docs.openflowkit.com/openflow-dsl/",
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP server docs",
+          "url": "https://docs.openflowkit.com/mcp-server/",
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Docs",
+          "url": "https://docs.openflowkit.com",
+          "source": "https://openflowkit.com/"
+        },
+        {
+          "kind": "docs",
+          "title": "CLI rendering, mapping and static-site build",
+          "url": "https://docs.openflowkit.com/cli/",
+          "source": "https://github.com/openflowkit/openflowkit"
+        },
+        {
+          "kind": "docs",
+          "title": "Self-hosting and local providers",
+          "url": "https://docs.openflowkit.com/self-hosting/",
+          "source": "https://github.com/openflowkit/openflowkit"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Interactive sample repository map",
+          "url": "https://app.openflowkit.com/#/map/github/dockersamples/example-voting-app",
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "The map of GoogleCloudPlatform/microservices-demo: a click on checkoutservice opens it in place, showing the files inside, while the side panel lists what it talks to",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/map-light.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "An agent draws an architecture diagram on the OpenFlowKit canvas, live; the user drags a box, edits one line of text and regenerates",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/hero-light.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The code panel beside the canvas: the same diagram as text and as shapes",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/code-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Sequence diagram of a login",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/sequence-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Flowchart",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/flowchart-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Entity-relationship diagram",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/erd-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "State machine",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/state-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Class diagram",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/class-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Mind map",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/mindmap-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Git graph",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/gitgraph-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Bar chart",
+          "url": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/assets/readme/types/chart-light.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md"
+        }
+      ],
+      "docsCount": 5,
+      "examplesCount": 1,
+      "effectAssetsCount": 11
     }
   ]
 }

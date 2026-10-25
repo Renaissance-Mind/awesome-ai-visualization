@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-23.
+Last researched: 2026-10-25.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-25: added OpenFlowKit from its official README, product/changelog pages, CLI/FAQ documentation and current GitHub metadata. Recorded agent canvas editing, diagram-code imports, repository maps with file:line evidence, static/animated exports, Node and WebGL requirements, self-hosting and offline boundaries, optional provider/local-model configuration, browser storage and external data flows. Targeted scraping fetched two official sources. Curated one real repository-map route, eleven artifact previews and five docs links; excluded duplicate root-app links, homepage poster and feature marketing pages from example surfaces. Catalog coverage is 898 entries.
 
 Update on 2026-10-23: added Whimsical Official Remote MCP after official README, product page, repository tree and GitHub metadata verification. Kept it distinct from the existing community server. Recorded hosted Streamable HTTP, OAuth/PKCE, account/network requirements, workspace data handling, editable board/doc outputs, PNG snapshots and remote write/comment capabilities. The MIT repository is an integration guide, not hosted server source. Targeted scraping fetched two official sources; retained seven actual artifact screenshots, four project guides and one template index, excluding the commented-out demo GIF, creator promotion, generic client docs and brand images. Catalog coverage is 897 entries.
 

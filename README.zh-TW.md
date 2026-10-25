@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-897_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-23)
+## Latest Refresh (2026-10-25)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) | 官方託管 MCP，透過 OAuth 建立可編輯圖表、心智圖、線框圖和文件，並支援工作區搜尋、修改及評論。 |
+| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | 本機優先的圖示畫布、CLI 和 MCP：程式碼庫映射附檔案行號證據，支援可編輯 DSL 匯入及靜態、動畫匯出。 |
 
 ## ✨ 推薦使用方式
 
@@ -458,6 +458,7 @@
 | [Eraser AI](https://www.eraser.io/ai) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 渲染/匯出 |
 | [Whimsical AI](https://whimsical.com/ai) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |
+| [OpenFlowKit](https://github.com/openflowkit/openflowkit) [![Star](https://img.shields.io/github/stars/openflowkit/openflowkit?style=flat&logo=github&label=Star)](https://github.com/openflowkit/openflowkit/stargazers) | Text/ideas / DSL/code / Codebase / Data/tables | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Code map / Chart/dashboard / SVG/PNG/PDF / Video/audio | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | 文字/想法 / 代碼/技術描述 | 產品/SaaS | 架構圖/流程圖 / 白板/心智圖 | 瀏覽器/帳號 / 範本/素材 |

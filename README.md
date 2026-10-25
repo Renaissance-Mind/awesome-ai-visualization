@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-897_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--23-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@ Monthly bins from 2024-01; snapshot: 2026-10-15 19:39 (UTC+8). Covers 834 of 852
 [![Repositories created per month by category](public/activity/en/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/en/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-23)
+## Latest Refresh (2026-10-25)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) | Official hosted MCP for editable diagrams, mind maps, wireframes and docs, with OAuth sign-in and workspace search, revisions and comments. |
+| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | Local-first diagram canvas, CLI and MCP with codebase maps citing file:line evidence, editable DSL imports, and static or animated exports. |
 
 ## ✨ Recommended Use
 
@@ -476,6 +476,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Eraser AI](https://www.eraser.io/ai) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Rendering/export |
 | [Whimsical AI](https://whimsical.com/ai) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
+| [OpenFlowKit](https://github.com/openflowkit/openflowkit) [![Star](https://img.shields.io/github/stars/openflowkit/openflowkit?style=flat&logo=github&label=Star)](https://github.com/openflowkit/openflowkit/stargazers) | Text/ideas / DSL/code / Codebase / Data/tables | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Code map / Chart/dashboard / SVG/PNG/PDF / Video/audio | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
 | [Miro AI diagrams](https://help.miro.com/hc/en-us/articles/28782102127890-Miro-AI-with-Diagrams-and-mindmaps) | Text/ideas / Code/technical text | Product/SaaS | Architecture/flow diagram / Whiteboard/mind map | Browser/account / Templates/assets |
