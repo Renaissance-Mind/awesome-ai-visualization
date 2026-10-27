@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-25T07:01:20+00:00",
-  "lastResearched": "2026-10-25",
+  "generatedAt": "2026-10-27T07:03:02+00:00",
+  "lastResearched": "2026-10-27",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 898,
+    "total": 899,
     "openSource": 217,
     "saas": 81,
     "modelApi": 276,
-    "examples": 1911,
+    "examples": 1912,
     "effectAssets": 2343,
-    "docs": 2216
+    "docs": 2217
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
       "文本/想法": 591,
-      "数据/表格": 380,
+      "数据/表格": 381,
       "代码/技术描述": 192,
       "任意/多源": 170,
       "网页/搜索结果": 220,
-      "代码库": 103,
+      "代码库": 104,
       "DSL/代码": 187,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
@@ -31,7 +31,7 @@
     },
     "toolForms": {
       "开源应用/框架": 217,
-      "Agent Skill": 369,
+      "Agent Skill": 370,
       "Skill 集合": 89,
       "MCP Server": 295,
       "产品/SaaS": 81,
@@ -48,10 +48,10 @@
       "问答/学习材料": 23,
       "报告/长文档": 132,
       "证据表": 84,
-      "信息图/视觉报告": 122,
-      "图表/仪表盘": 290,
+      "信息图/视觉报告": 123,
+      "图表/仪表盘": 291,
       "架构图/流程图": 200,
-      "SVG/PNG/PDF": 398,
+      "SVG/PNG/PDF": 399,
       "报告/简报": 99,
       "白板/思维导图": 51,
       "图表/Mermaid": 81,
@@ -66,26 +66,26 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 766,
+      "本地语言环境": 767,
       "模型 API": 276,
       "文档解析/OCR": 129,
-      "渲染/导出": 797,
+      "渲染/导出": 798,
       "GPU/加速器": 24,
       "模板/素材": 453,
-      "Agent 宿主": 460,
+      "Agent 宿主": 461,
       "系统工具": 228,
       "浏览器/账号": 204,
       "存储/索引": 139,
       "MCP Client": 307,
       "外部检索/数据源": 185,
-      "代码分析工具": 65
+      "代码分析工具": 66
     },
     "categories": {
       "paper-visualization": 30,
       "doc-to-knowledge": 72,
       "research-report": 39,
       "infographic-report": 82,
-      "data-dashboard": 138,
+      "data-dashboard": 139,
       "diagram-generation": 105,
       "literature-map": 5,
       "presentation-tools": 275,
@@ -103,7 +103,7 @@
       "docs": 44,
       "support_doc_parse": 24,
       "presentation": 283,
-      "data": 132,
+      "data": 133,
       "video": 30,
       "code": 61,
       "support_render": 72,
@@ -73798,6 +73798,58 @@
       "docsCount": 5,
       "examplesCount": 1,
       "effectAssetsCount": 11
+    },
+    {
+      "name": "GitHub Repository Statistics Infographic Skill",
+      "url": "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md",
+      "primaryUrl": "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md",
+      "homepage": null,
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "代码分析工具"
+      ],
+      "stars": 5477,
+      "license": "MIT",
+      "updated": "2026-10-27",
+      "note": "Skill in GitHub's gh-aw repository that renders supplied repository summaries or JSON into an eight-panel 2560x5040 PNG infographic with 300-DPI metadata. Covers PR outcomes/durations, issues, code composition/history, individual-PR additions/deletions and human versus agent/bot contribution-author activity. Requires Python 3.9+, Pillow and supported fonts; scripts use cached API records and optional complete local Git history without fetching data or credentials. No rendering API or GPU is required. Independent source audits are separate from input validation; bot-account classification is not proof of AI use. The bundled example is explicitly synthetic. Agent-host data handling depends on its provider; GitHub metadata describes the parent gh-aw repository.",
+      "sourceTypes": [
+        "数据/表格",
+        "代码库"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "信息图/视觉报告",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "data",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "references/data-contract.md",
+          "url": "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/references/data-contract.md",
+          "source": "https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Synthetic example JSON (schema demonstration, not repository evidence)",
+          "url": "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/examples/example.json",
+          "source": "https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
     }
   ]
 }

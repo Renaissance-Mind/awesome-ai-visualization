@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-899_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--27-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-25)
+## Latest Refresh (2026-10-27)
 
 | Project | Catalog focus |
 | --- | --- |
-| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | ローカル優先の図作成キャンバス、CLI、MCP。ファイル行番号付きリポジトリマップ、DSL の編集、静止画・動画出力に対応。 |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) | 保存済みリポジトリ・PR 統計から8面の PNG 図を生成。ローカル描画、出典監査、アカウント帰属の限界を明示。 |
 
 ## ✨ 推奨される使い方
 
@@ -272,6 +272,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) [![Star](https://img.shields.io/github/stars/github/gh-aw?style=flat&logo=github&label=Star)](https://github.com/github/gh-aw/stargazers) | Data/tables / Codebase | Agent skill | Infographic/visual report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | データ/表 / データベース | オープンソースアプリ/フレームワーク | チャート/ダッシュボード / ブリーフィング/レポート | ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | データ/表 / テキスト/アイデア | Agent Skill | チャート/ダッシュボード / インフォグラフィック/ビジュアルレポート / ブリーフィング/レポート | Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |

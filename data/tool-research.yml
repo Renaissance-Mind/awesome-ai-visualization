@@ -1,4 +1,4 @@
-generated_at: "2026-10-25T07:01:20+00:00"
+generated_at: "2026-10-27T07:03:02+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 898
-  fetched_sources_ok: 1192
+  entries: 899
+  fetched_sources_ok: 1193
   fetched_sources_failed: 60
-  official_examples: 1911
+  official_examples: 1912
   official_effect_assets: 2343
-  official_docs: 2216
+  official_docs: 2217
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70381,3 +70381,46 @@ entries:
     - 2. Text and canvas are the same diagram
     - Ten diagram types, one language
     - Bring the diagrams you already have
+- name: GitHub Repository Statistics Infographic Skill
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 代码分析工具
+  catalog_note: Skill in GitHub's gh-aw repository that renders supplied repository summaries or JSON into an eight-panel
+    2560x5040 PNG infographic with 300-DPI metadata. Covers PR outcomes/durations, issues, code composition/history,
+    individual-PR additions/deletions and human versus agent/bot contribution-author activity. Requires Python 3.9+,
+    Pillow and supported fonts; scripts use cached API records and optional complete local Git history without fetching
+    data or credentials. No rendering API or GPU is required. Independent source audits are separate from input
+    validation; bot-account classification is not proof of AI use. The bundled example is explicitly synthetic.
+    Agent-host data handling depends on its provider; GitHub metadata describes the parent gh-aw repository.
+  fetched_sources:
+    - kind: github_blob_raw
+      url: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md
+      final_url: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md
+      status: 200
+      content_type: text/plain
+      title: Repository statistics infographic
+      bytes: 8992
+  official_examples:
+    - kind: example
+      title: Synthetic example JSON (schema demonstration, not repository evidence)
+      url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/examples/example.json
+      source: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md
+  official_docs:
+    - kind: docs
+      title: references/data-contract.md
+      url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/references/data-contract.md
+      source: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md
+  official_links:
+    - kind: example
+      title: Synthetic example JSON (schema demonstration, not repository evidence)
+      url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/examples/example.json
+      source: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md
+    - kind: docs
+      title: references/data-contract.md
+      url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/references/data-contract.md
+      source: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md

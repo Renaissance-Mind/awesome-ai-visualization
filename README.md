@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-899_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--27-brightgreen)](docs/search-log.md)
 
 English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@ Monthly bins from 2024-01; snapshot: 2026-10-15 19:39 (UTC+8). Covers 834 of 852
 [![Repositories created per month by category](public/activity/en/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/en/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-25)
+## Latest Refresh (2026-10-27)
 
 | Project | Catalog focus |
 | --- | --- |
-| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | Local-first diagram canvas, CLI and MCP with codebase maps citing file:line evidence, editable DSL imports, and static or animated exports. |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) | Eight-panel PNG infographics from cached repository and PR statistics, with local rendering, source audits and explicit attribution limits. |
 
 ## ✨ Recommended Use
 
@@ -288,6 +288,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) [![Star](https://img.shields.io/github/stars/Albert-Weasker/niubigeo?style=flat&logo=github&label=Star)](https://github.com/Albert-Weasker/niubigeo/stargazers) | Web/search / Data/tables / Any/multi-source | Open-source app/framework | Chart/dashboard / Briefing/report / Evidence table | Browser/account / Model API / Local runtime / External search/data / Storage/index |
 | [Codex Skill Stats & Dashboard](https://github.com/tonywei49/codex-skill-dashboard) [![Star](https://img.shields.io/github/stars/tonywei49/codex-skill-dashboard?style=flat&logo=github&label=Star)](https://github.com/tonywei49/codex-skill-dashboard/stargazers) | Codebase / Database / Data/tables | Agent skill | Chart/dashboard / Web/interactive page / Structured data/Markdown | Agent host / Local runtime / Storage/index / Rendering/export |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | Data/tables / Database | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) [![Star](https://img.shields.io/github/stars/github/gh-aw?style=flat&logo=github&label=Star)](https://github.com/github/gh-aw/stargazers) | Data/tables / Codebase | Agent skill | Infographic/visual report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | Data/tables / Database | Open-source app/framework | Chart/dashboard / Briefing/report | Local runtime / Model API / Rendering/export |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | Data/tables / Text/ideas | Agent skill | Chart/dashboard / Infographic/visual report / Briefing/report | Agent host / Local runtime / Rendering/export / Templates/assets |

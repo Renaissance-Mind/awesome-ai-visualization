@@ -1,4 +1,4 @@
-last_researched: '2026-10-25'
+last_researched: '2026-10-27'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23796,3 +23796,33 @@ entries:
   - 视频/音频
   catalog_section: main
   readme_group: text_visual
+- name: GitHub Repository Statistics Infographic Skill
+  url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 代码分析工具
+  stars: 5477
+  license: MIT
+  updated: '2026-10-27'
+  note: Skill in GitHub's gh-aw repository that renders supplied repository summaries or JSON into an eight-panel
+    2560x5040 PNG infographic with 300-DPI metadata. Covers PR outcomes/durations, issues, code composition/history,
+    individual-PR additions/deletions and human versus agent/bot contribution-author activity. Requires Python 3.9+,
+    Pillow and supported fonts; scripts use cached API records and optional complete local Git history without fetching
+    data or credentials. No rendering API or GPU is required. Independent source audits are separate from input validation;
+    bot-account classification is not proof of AI use. The bundled example is explicitly synthetic. Agent-host data handling
+    depends on its provider; GitHub metadata describes the parent gh-aw repository.
+  source_types:
+  - 数据/表格
+  - 代码库
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 信息图/视觉报告
+  - 图表/仪表盘
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: data

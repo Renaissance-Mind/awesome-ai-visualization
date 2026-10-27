@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-899_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--27-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-25)
+## Latest Refresh (2026-10-27)
 
 | Project | Catalog focus |
 | --- | --- |
-| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | 로컬 우선 다이어그램 캔버스, CLI 및 MCP. 파일·행 근거가 있는 저장소 맵, 편집 가능한 DSL 가져오기, 정적·애니메이션 내보내기를 지원합니다. |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) | 저장된 저장소·PR 통계를 8개 패널의 PNG 정보 그래픽으로 변환하며 로컬 렌더링, 출처 검증과 계정 귀속의 한계를 명시합니다. |
 
 ## ✨ 추천 사용법
 
@@ -272,6 +272,7 @@ Tools that turn CSVs, databases, metrics, or business data into charts, dashboar
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) [![Star](https://img.shields.io/github/stars/github/gh-aw?style=flat&logo=github&label=Star)](https://github.com/github/gh-aw/stargazers) | Data/tables / Codebase | Agent skill | Infographic/visual report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 데이터/표 / 데이터베이스 | 오픈소스 앱/프레임워크 | 차트/대시보드 / 브리핑/보고서 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | 데이터/표 / 텍스트/아이디어 | Agent Skill | 차트/대시보드 / 인포그래픽/비주얼 리포트 / 브리핑/리포트 | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |

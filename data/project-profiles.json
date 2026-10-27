@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-25",
+  "sourceLastResearched": "2026-10-27",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33362,9 +33362,44 @@
         "https://raw.githubusercontent.com/openflowkit/openflowkit/HEAD/README.md",
         "https://openflowkit.com/"
       ]
+    },
+    "GitHub Repository Statistics Infographic Skill": {
+      "name": "GitHub Repository Statistics Infographic Skill",
+      "url": "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md",
+      "sourceHash": "97723bf63c67d934346b2b6889f7102aab9e8a72b2d71e86264d4bf2e4e22d80",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "将仓库摘要或JSON转换为8面板2560x5040 PNG信息图",
+      "explanation": "该工具将提供的仓库摘要或JSON数据转换为8个面板的2560x5040 PNG信息图，包含PR结果、问题、代码组成、个人PR增删和人类与代理/机器人贡献者活动等信息。使用Python 3.9+、Pillow和受支持字体，依赖缓存的API记录和可选的本地Git历史，不需获取数据或凭证。",
+      "useCases": [
+        "生成仓库统计信息的高分辨率信息图",
+        "展示PR、问题和代码贡献的可视化数据"
+      ],
+      "input": [
+        "数据/表格",
+        "代码库"
+      ],
+      "output": [
+        "信息图/视觉报告",
+        "图表/仪表盘",
+        "SVG/PNG/PDF"
+      ],
+      "form": [
+        "Agent Skill"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "代码分析工具"
+      ],
+      "originalDescription": "Skill in GitHub's gh-aw repository that renders supplied repository summaries or JSON into an eight-panel 2560x5040 PNG infographic with 300-DPI metadata. Covers PR outcomes/durations, issues, code composition/history, individual-PR additions/deletions and human versus agent/bot contribution-author activity. Requires Python 3.9+, Pillow and supported fonts; scripts use cached API records and optional complete local Git history without fetching data or credentials. No rendering API or GPU is required. Independent source audits are separate from input validation; bot-account classification is not proof of AI use. The bundled example is explicitly synthetic. Agent-host data handling depends on its provider; GitHub metadata describes the parent gh-aw repository.",
+      "sources": [
+        "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md",
+        "https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md"
+      ]
     }
   },
-  "generatedAt": "2026-10-25T07:02:04.501Z",
+  "generatedAt": "2026-10-27T07:03:44.197Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

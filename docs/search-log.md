@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-25.
+Last researched: 2026-10-27.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-27: added GitHub Repository Statistics Infographic Skill from the official github/gh-aw skill, requirements manifest, directory listings and GitHub API metadata. It renders supplied summaries/cached PR data into an eight-panel PNG, with separate source auditing. Recorded Python/Pillow/font requirements, network-free script operation, optional complete Git history and account-attribution limitations. Its bundled example is explicitly synthetic and only demonstrates the input schema; this refresh generated no mock repository statistics. Targeted scraping fetched the official skill successfully and retained its schema example plus data-contract reference. Catalog coverage is 899 entries.
 
 Update on 2026-10-25: added OpenFlowKit from its official README, product/changelog pages, CLI/FAQ documentation and current GitHub metadata. Recorded agent canvas editing, diagram-code imports, repository maps with file:line evidence, static/animated exports, Node and WebGL requirements, self-hosting and offline boundaries, optional provider/local-model configuration, browser storage and external data flows. Targeted scraping fetched two official sources. Curated one real repository-map route, eleven artifact previews and five docs links; excluded duplicate root-app links, homepage poster and feature marketing pages from example surfaces. Catalog coverage is 898 entries.
 

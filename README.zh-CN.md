@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-898_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--25-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-899_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--27-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-25)
+## Latest Refresh (2026-10-27)
 
 | Project | Catalog focus |
 | --- | --- |
-| [OpenFlowKit](https://github.com/openflowkit/openflowkit) | 本地优先的图示画布、CLI 和 MCP：代码库映射带文件行号证据，支持可编辑 DSL 导入及静态、动画导出。 |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) | 将已缓存的仓库与 PR 统计生成八面板 PNG 信息图，提供本地渲染、来源复核及明确的账号归因边界。 |
 
 ## ✨ 推荐使用方式
 
@@ -270,6 +270,7 @@
 | [Re:port Flow MCP](https://github.com/re-port-flow/reportflow-mcp) [![Star](https://img.shields.io/github/stars/re-port-flow/reportflow-mcp?style=flat&logo=github&label=Star)](https://github.com/re-port-flow/reportflow-mcp/stargazers) | Text/ideas / Office docs / Data/tables | MCP server / Product/SaaS | Long report / Briefing/report / SVG/PNG/PDF | MCP client / Browser/account / Local runtime / Rendering/export / Templates/assets |
 | [regulated-reporting-mcp](https://github.com/dbett4/regulated-reporting-mcp) [![Star](https://img.shields.io/github/stars/dbett4/regulated-reporting-mcp?style=flat&logo=github&label=Star)](https://github.com/dbett4/regulated-reporting-mcp/stargazers) | Office docs / Data/tables / Database | MCP server | Long report / Evidence table / Structured data/Markdown | MCP client / Local runtime / Browser/account / External data / Rendering/export / System tools |
 | [Data Formulator](https://github.com/microsoft/data-formulator) [![Star](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat&logo=github&label=Star)](https://github.com/microsoft/data-formulator/stargazers) | 数据/表格 / 数据库 | 开源应用/框架 | 图表/仪表盘 / 报告/简报 | 本地语言环境 / 模型 API / 渲染/导出 |
+| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) [![Star](https://img.shields.io/github/stars/github/gh-aw?style=flat&logo=github&label=Star)](https://github.com/github/gh-aw/stargazers) | Data/tables / Codebase | Agent skill | Infographic/visual report / Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Axiom Visualization Skills](https://github.com/axiomhq/skills) [![Star](https://img.shields.io/github/stars/axiomhq/skills?style=flat&logo=github&label=Star)](https://github.com/axiomhq/skills/stargazers) | Text/ideas / Data/tables / DSL/code | Skill collection / Agent skill | Chart/dashboard / SVG/PNG/PDF | Agent host / Local runtime / System tools / Browser/account / Templates/assets |
 | [LIDA](https://github.com/microsoft/lida) [![Star](https://img.shields.io/github/stars/microsoft/lida?style=flat&logo=github&label=Star)](https://github.com/microsoft/lida/stargazers) | 数据/表格 / 数据库 | 开源应用/框架 | 图表/仪表盘 / 报告/简报 | 本地语言环境 / 模型 API / 渲染/导出 |
 | [tufte-claude-skill](https://github.com/aref-vc/tufte-claude-skill) [![Star](https://img.shields.io/github/stars/aref-vc/tufte-claude-skill?style=flat&logo=github&label=Star)](https://github.com/aref-vc/tufte-claude-skill/stargazers) | 数据/表格 / 文本/想法 | Agent Skill | 图表/仪表盘 / 信息图/视觉报告 / 报告/简报 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
