@@ -22,6 +22,8 @@ async function credentials() {
     // Wrangler owns the refresh-token exchange and persists the new credentials.
     refreshing ??= execute("npx", ["--yes", "wrangler@4.143.0", "whoami"], {
       timeout: 60000,
+      // npm may keep running after SIGTERM; release the publication lock on timeout.
+      killSignal: "SIGKILL",
       maxBuffer: 1024 * 1024,
     }).finally(() => { refreshing = undefined; });
     await refreshing;
