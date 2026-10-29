@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-27.
+Last researched: 2026-10-29.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-29: added video-use from Browser Use's official README, skill, transcription helper, product page and current GitHub metadata. Recorded raw-footage editing, cached word-level transcripts, local FFmpeg rendering, MP4/SRT/EDL outputs, optional overlay runtimes, ElevenLabs credentials/network requirements and audio/provider privacy boundaries. The documented hosted version remains a waitlist. Targeted scraping fetched two official sources; curated one official demo link, one deduplicated workflow preview and two project guides, removing waitlist/brand links and API-key settings from example surfaces. Catalog coverage is 900 entries.
 
 Update on 2026-10-27: added GitHub Repository Statistics Infographic Skill from the official github/gh-aw skill, requirements manifest, directory listings and GitHub API metadata. It renders supplied summaries/cached PR data into an eight-panel PNG, with separate source auditing. Recorded Python/Pillow/font requirements, network-free script operation, optional complete Git history and account-attribution limitations. Its bundled example is explicitly synthetic and only demonstrates the input schema; this refresh generated no mock repository statistics. Targeted scraping fetched the official skill successfully and retained its schema example plus data-contract reference. Catalog coverage is 899 entries.
 

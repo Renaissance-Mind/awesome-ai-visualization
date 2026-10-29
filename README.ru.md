@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-899_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-900_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--29-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -26,11 +26,11 @@
 [![Новые репозитории по месяцам и категориям](public/activity/ru/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-27)
+## Latest Refresh (2026-10-29)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) | PNG-инфографика из восьми панелей по сохранённой статистике репозитория и PR, с локальным рендерингом, аудитом источников и ограничениями атрибуции. |
+| [video-use](https://github.com/browser-use/video-use) | Монтаж исходного видео в MP4 через диалог: транскрипция, склейки, цвет, субтитры и анимация; нужны локальный FFmpeg и ElevenLabs. |
 
 ## ✨ Рекомендуемое использование
 
@@ -543,6 +543,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Demo Video Creator Skill](https://github.com/chacha95/demo-video-creator) [![Star](https://img.shields.io/github/stars/chacha95/demo-video-creator?style=flat&logo=github&label=Star)](https://github.com/chacha95/demo-video-creator/stargazers) | Web/search results / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas-VideoStudio/stargazers) | Текст/идеи / DSL/код | Приложение/фреймворк с открытым кодом / MCP-сервер | Видео/аудио | Agent host / Локальная среда / Рендеринг/экспорт / Системные инструменты / API модели |
 | [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) [![Star](https://img.shields.io/github/stars/haiderfarooq3/khan-explainer?style=flat&logo=github&label=Star)](https://github.com/haiderfarooq3/khan-explainer/stargazers) | Text/ideas / Web/search / Multi-source | Agent skill | Video/audio / Image previews | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
+| [video-use](https://github.com/browser-use/video-use) [![Star](https://img.shields.io/github/stars/browser-use/video-use?style=flat&logo=github&label=Star)](https://github.com/browser-use/video-use/stargazers) | Multi-source / Text/ideas | Agent skill | Video/audio / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Model API / System tools / Rendering/export |
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
 | [MaxVideoAI Plugin](https://github.com/camgraphe/maxvideoai-plugin) [![Star](https://img.shields.io/github/stars/camgraphe/maxvideoai-plugin?style=flat&logo=github&label=Star)](https://github.com/camgraphe/maxvideoai-plugin/stargazers) | Text/ideas / Web/search / Any/multi-source | MCP server / Product/SaaS | Video/audio / SVG/PNG/PDF | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |

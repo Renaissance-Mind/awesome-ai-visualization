@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-27T07:03:02+00:00",
-  "lastResearched": "2026-10-27",
+  "generatedAt": "2026-10-29T07:02:04+00:00",
+  "lastResearched": "2026-10-29",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 899,
+    "total": 900,
     "openSource": 217,
     "saas": 81,
-    "modelApi": 276,
-    "examples": 1912,
-    "effectAssets": 2343,
-    "docs": 2217
+    "modelApi": 277,
+    "examples": 1913,
+    "effectAssets": 2344,
+    "docs": 2219
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 591,
+      "文本/想法": 592,
       "数据/表格": 381,
       "代码/技术描述": 192,
-      "任意/多源": 170,
+      "任意/多源": 171,
       "网页/搜索结果": 220,
       "代码库": 104,
       "DSL/代码": 187,
@@ -31,7 +31,7 @@
     },
     "toolForms": {
       "开源应用/框架": 217,
-      "Agent Skill": 370,
+      "Agent Skill": 371,
       "Skill 集合": 89,
       "MCP Server": 295,
       "产品/SaaS": 81,
@@ -51,12 +51,12 @@
       "信息图/视觉报告": 123,
       "图表/仪表盘": 291,
       "架构图/流程图": 200,
-      "SVG/PNG/PDF": 399,
+      "SVG/PNG/PDF": 400,
       "报告/简报": 99,
       "白板/思维导图": 51,
       "图表/Mermaid": 81,
-      "视频/音频": 79,
-      "结构化数据/Markdown": 142,
+      "视频/音频": 80,
+      "结构化数据/Markdown": 143,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 50,
@@ -66,14 +66,14 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 767,
-      "模型 API": 276,
+      "本地语言环境": 768,
+      "模型 API": 277,
       "文档解析/OCR": 129,
-      "渲染/导出": 798,
+      "渲染/导出": 799,
       "GPU/加速器": 24,
       "模板/素材": 453,
-      "Agent 宿主": 461,
-      "系统工具": 228,
+      "Agent 宿主": 462,
+      "系统工具": 229,
       "浏览器/账号": 204,
       "存储/索引": 139,
       "MCP Client": 307,
@@ -90,7 +90,7 @@
       "literature-map": 5,
       "presentation-tools": 275,
       "rendering-primitive": 29,
-      "video-generation": 30,
+      "video-generation": 31,
       "codebase-map": 54,
       "commercial-site": 10,
       "meta-index": 29
@@ -104,7 +104,7 @@
       "support_doc_parse": 24,
       "presentation": 283,
       "data": 133,
-      "video": 30,
+      "video": 31,
       "code": 61,
       "support_render": 72,
       "diagrams": 20,
@@ -73850,6 +73850,73 @@
       "docsCount": 1,
       "examplesCount": 1,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "primaryUrl": "https://github.com/browser-use/video-use",
+      "homepage": "https://video-use.com",
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "stars": 30036,
+      "license": "MIT",
+      "updated": "2026-10-29",
+      "note": "Open-source agent skill for conversational editing of raw footage into final.mp4, with filler/silence cuts, color grading, audio fades, burned subtitles and optional animated overlays. Uses cached word-timestamped ElevenLabs Scribe transcripts plus on-demand timeline PNGs; produces EDL JSON, SRT, preview/final MP4 and project memory. Requires a shell-capable agent, local Python dependencies, ffmpeg/ffprobe and an ElevenLabs API key with network access for transcription; audio is sent to that service and host-agent data handling follows its provider. Optional HyperFrames or Remotion overlays need Node/npm (HyperFrames Node 22+); Manim/PIL and yt-dlp are optional workflows. No mandatory GPU is documented. Rendering is local, but the documented full workflow is not offline; hosted editing remains a waitlist.",
+      "sourceTypes": [
+        "任意/多源",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Editing workflow and production requirements",
+          "url": "https://github.com/browser-use/video-use/blob/HEAD/SKILL.md",
+          "source": "https://github.com/browser-use/video-use"
+        },
+        {
+          "kind": "docs",
+          "title": "Local installation and transcription setup",
+          "url": "https://github.com/browser-use/video-use/blob/HEAD/install.md",
+          "source": "https://github.com/browser-use/video-use/blob/HEAD/SKILL.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "demo",
+          "title": "Watch the 15-second demo",
+          "url": "https://www.tiktok.com/@browser_use/video/7639824093721758989",
+          "source": "https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Agent editing workflow preview",
+          "url": "https://video-use.com/demo.png",
+          "thumbnailUrl": null,
+          "source": "https://video-use.com/"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 1
     }
   ]
 }

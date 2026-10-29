@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-899_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--27-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-900_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--29-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-27)
+## Latest Refresh (2026-10-29)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GitHub Repository Statistics Infographic Skill](https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md) | 将已缓存的仓库与 PR 统计生成八面板 PNG 信息图，提供本地渲染、来源复核及明确的账号归因边界。 |
+| [video-use](https://github.com/browser-use/video-use) | 通过对话将原始素材剪成 MP4，支持转写、剪辑、调色、字幕和可选动画；需要本地 FFmpeg 与 ElevenLabs 转写。 |
 
 ## ✨ 推荐使用方式
 
@@ -541,6 +541,7 @@
 | [Demo Video Creator Skill](https://github.com/chacha95/demo-video-creator) [![Star](https://img.shields.io/github/stars/chacha95/demo-video-creator?style=flat&logo=github&label=Star)](https://github.com/chacha95/demo-video-creator/stargazers) | Web/search results / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page | Agent host / Browser/account / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas-VideoStudio/stargazers) | 文本/想法 / DSL/代码 | 开源应用/框架 / MCP Server | 视频/音频 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 系统工具 / 模型 API |
 | [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) [![Star](https://img.shields.io/github/stars/haiderfarooq3/khan-explainer?style=flat&logo=github&label=Star)](https://github.com/haiderfarooq3/khan-explainer/stargazers) | Text/ideas / Web/search / Multi-source | Agent skill | Video/audio / Image previews | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
+| [video-use](https://github.com/browser-use/video-use) [![Star](https://img.shields.io/github/stars/browser-use/video-use?style=flat&logo=github&label=Star)](https://github.com/browser-use/video-use/stargazers) | Multi-source / Text/ideas | Agent skill | Video/audio / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Model API / System tools / Rendering/export |
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
 | [MaxVideoAI Plugin](https://github.com/camgraphe/maxvideoai-plugin) [![Star](https://img.shields.io/github/stars/camgraphe/maxvideoai-plugin?style=flat&logo=github&label=Star)](https://github.com/camgraphe/maxvideoai-plugin/stargazers) | Text/ideas / Web/search / Any/multi-source | MCP server / Product/SaaS | Video/audio / SVG/PNG/PDF | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |

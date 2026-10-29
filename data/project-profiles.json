@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-27",
+  "sourceLastResearched": "2026-10-29",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33397,9 +33397,47 @@
         "https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/SKILL.md",
         "https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md"
       ]
+    },
+    "video-use": {
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "sourceHash": "bfed70e5a5786da4e9153677e05eb636a47fcd9396c4135af05f3b6a552f262a",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "开源工具，用于将原始视频剪辑为最终.mp4文件，支持剪辑、调色、字幕等",
+      "explanation": "通过缓存的带时间戳的ElevenLabs转录文本和按需时间线PNG，进行填充/静音剪辑、调色、音频淡入淡出、字幕烧录和可选动画叠加。生成EDL JSON、SRT、预览/最终MP4和项目记忆。需要shell支持的代理、本地Python依赖、ffmpeg/ffprobe和ElevenLabs API密钥。音频发送至该服务，主机代理数据处理遵循其提供方。可选HyperFrames或Remotion叠加需要Node/npm。",
+      "useCases": [
+        "将原始视频剪辑为最终.mp4文件",
+        "使用字幕和音频淡入淡出功能进行视频编辑"
+      ],
+      "input": [
+        "任意/多源",
+        "文本/想法"
+      ],
+      "output": [
+        "视频/音频",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "form": [
+        "Agent Skill"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "本地语言环境",
+        "模型 API",
+        "系统工具",
+        "渲染/导出"
+      ],
+      "originalDescription": "Open-source agent skill for conversational editing of raw footage into final.mp4, with filler/silence cuts, color grading, audio fades, burned subtitles and optional animated overlays. Uses cached word-timestamped ElevenLabs Scribe transcripts plus on-demand timeline PNGs; produces EDL JSON, SRT, preview/final MP4 and project memory. Requires a shell-capable agent, local Python dependencies, ffmpeg/ffprobe and an ElevenLabs API key with network access for transcription; audio is sent to that service and host-agent data handling follows its provider. Optional HyperFrames or Remotion overlays need Node/npm (HyperFrames Node 22+); Manim/PIL and yt-dlp are optional workflows. No mandatory GPU is documented. Rendering is local, but the documented full workflow is not offline; hosted editing remains a waitlist.",
+      "sources": [
+        "https://github.com/browser-use/video-use",
+        "https://video-use.com",
+        "https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md",
+        "https://video-use.com/"
+      ]
     }
   },
-  "generatedAt": "2026-10-27T07:03:44.197Z",
+  "generatedAt": "2026-10-29T07:02:43.880Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

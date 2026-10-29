@@ -1,4 +1,4 @@
-last_researched: '2026-10-27'
+last_researched: '2026-10-29'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23826,3 +23826,35 @@ entries:
   - SVG/PNG/PDF
   catalog_section: main
   readme_group: data
+- name: video-use
+  url: https://github.com/browser-use/video-use
+  homepage: https://video-use.com
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 模型 API
+  - 系统工具
+  - 渲染/导出
+  stars: 30036
+  license: MIT
+  updated: '2026-10-29'
+  note: Open-source agent skill for conversational editing of raw footage into final.mp4, with filler/silence cuts,
+    color grading, audio fades, burned subtitles and optional animated overlays. Uses cached word-timestamped ElevenLabs
+    Scribe transcripts plus on-demand timeline PNGs; produces EDL JSON, SRT, preview/final MP4 and project memory.
+    Requires a shell-capable agent, local Python dependencies, ffmpeg/ffprobe and an ElevenLabs API key with network access
+    for transcription; audio is sent to that service and host-agent data handling follows its provider. Optional HyperFrames
+    or Remotion overlays need Node/npm (HyperFrames Node 22+); Manim/PIL and yt-dlp are optional workflows. No mandatory
+    GPU is documented. Rendering is local, but the documented full workflow is not offline; hosted editing remains a waitlist.
+  source_types:
+  - 任意/多源
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: video

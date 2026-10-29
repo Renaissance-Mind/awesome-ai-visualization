@@ -1,4 +1,4 @@
-generated_at: "2026-10-27T07:03:02+00:00"
+generated_at: "2026-10-29T07:02:04+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 899
-  fetched_sources_ok: 1193
+  entries: 900
+  fetched_sources_ok: 1195
   fetched_sources_failed: 60
-  official_examples: 1912
-  official_effect_assets: 2343
-  official_docs: 2217
+  official_examples: 1913
+  official_effect_assets: 2344
+  official_docs: 2219
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70424,3 +70424,74 @@ entries:
       title: references/data-contract.md
       url: https://github.com/github/gh-aw/blob/main/.github/skills/statistics-infographic/references/data-contract.md
       source: https://raw.githubusercontent.com/github/gh-aw/main/.github/skills/statistics-infographic/SKILL.md
+- name: video-use
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/browser-use/video-use
+  homepage: https://video-use.com
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 模型 API
+    - 系统工具
+    - 渲染/导出
+  catalog_note: Open-source agent skill for conversational editing of raw footage into final.mp4, with filler/silence
+    cuts, color grading, audio fades, burned subtitles and optional animated overlays. Uses cached word-timestamped
+    ElevenLabs Scribe transcripts plus on-demand timeline PNGs; produces EDL JSON, SRT, preview/final MP4 and project
+    memory. Requires a shell-capable agent, local Python dependencies, ffmpeg/ffprobe and an ElevenLabs API key with
+    network access for transcription; audio is sent to that service and host-agent data handling follows its provider.
+    Optional HyperFrames or Remotion overlays need Node/npm (HyperFrames Node 22+); Manim/PIL and yt-dlp are optional
+    workflows. No mandatory GPU is documented. Rendering is local, but the documented full workflow is not offline;
+    hosted editing remains a waitlist.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: video-use
+      bytes: 5632
+    - kind: homepage
+      url: https://video-use.com/
+      final_url: https://video-use.com/
+      status: 200
+      content_type: text/html
+      title: video-use - Edit videos with coding agents
+      description: Drop raw footage in a folder, chat with Claude Code or Codex, get final.mp4 back. Open source. Join the
+        waitlist for the cloud-hosted version.
+      bytes: 25283
+  official_examples:
+    - kind: demo
+      title: Watch the 15-second demo
+      url: https://www.tiktok.com/@browser_use/video/7639824093721758989
+      source: https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Editing workflow and production requirements
+      url: https://github.com/browser-use/video-use/blob/HEAD/SKILL.md
+      source: https://github.com/browser-use/video-use
+    - kind: docs
+      title: Local installation and transcription setup
+      url: https://github.com/browser-use/video-use/blob/HEAD/install.md
+      source: https://github.com/browser-use/video-use/blob/HEAD/SKILL.md
+  official_effect_assets:
+    - kind: image
+      title: Agent editing workflow preview
+      url: https://video-use.com/demo.png
+      source: https://video-use.com/
+  official_links:
+    - kind: demo
+      title: Watch the 15-second demo
+      url: https://www.tiktok.com/@browser_use/video/7639824093721758989
+      source: https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md
+    - kind: docs
+      title: Editing workflow and production requirements
+      url: https://github.com/browser-use/video-use/blob/HEAD/SKILL.md
+      source: https://github.com/browser-use/video-use
+    - kind: docs
+      title: Local installation and transcription setup
+      url: https://github.com/browser-use/video-use/blob/HEAD/install.md
+      source: https://github.com/browser-use/video-use/blob/HEAD/SKILL.md
+  source_headings:
+    - video-use
+    - "ln -sfn ~/Developer/video-use ~/.codex/skills/video-use # Codex"
