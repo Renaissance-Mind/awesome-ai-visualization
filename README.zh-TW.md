@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-900_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--29-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-901_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--10--31-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-29)
+## Latest Refresh (2026-10-31)
 
 | Project | Catalog focus |
 | --- | --- |
-| [video-use](https://github.com/browser-use/video-use) | 透過對話將原始素材剪成 MP4，支援轉寫、剪輯、調色、字幕及可選動畫；需要本機 FFmpeg 與 ElevenLabs 轉寫。 |
+| [DataMagic](https://github.com/HKUSTDial/DataMagic) | 透過 Agent Skill、可重用配方和本機 Remotion 渲染，將表格與敘事目標轉為可編輯動態圖表和 MP4 資料故事。 |
 
 ## ✨ 推薦使用方式
 
@@ -542,6 +542,7 @@
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas-VideoStudio/stargazers) | 文本/想法 / DSL/程式碼 | 開源應用/框架 / MCP Server | 影片/音訊 | Agent 宿主 / 本地語言環境 / 渲染/匯出 / 系統工具 / 模型 API |
 | [khan-explainer](https://github.com/haiderfarooq3/khan-explainer) [![Star](https://img.shields.io/github/stars/haiderfarooq3/khan-explainer?style=flat&logo=github&label=Star)](https://github.com/haiderfarooq3/khan-explainer/stargazers) | Text/ideas / Web/search / Multi-source | Agent skill | Video/audio / Image previews | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [video-use](https://github.com/browser-use/video-use) [![Star](https://img.shields.io/github/stars/browser-use/video-use?style=flat&logo=github&label=Star)](https://github.com/browser-use/video-use/stargazers) | Multi-source / Text/ideas | Agent skill | Video/audio / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Model API / System tools / Rendering/export |
+| [DataMagic](https://github.com/HKUSTDial/DataMagic) [![Star](https://img.shields.io/github/stars/HKUSTDial/DataMagic?style=flat&logo=github&label=Star)](https://github.com/HKUSTDial/DataMagic/stargazers) | Data/tables / Text/ideas / Multi-source | Agent skill / Open-source app/framework | Video/audio / Chart/dashboard / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [claude-video-generator](https://github.com/Abhyuday98/claude-video-generator) [![Star](https://img.shields.io/github/stars/Abhyuday98/claude-video-generator?style=flat&logo=github&label=Star)](https://github.com/Abhyuday98/claude-video-generator/stargazers) | Text/ideas / Codebase / Web/search | Agent skill | Video/audio / PPT/deck / Web/interactive page | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [postward-creative-mcp](https://github.com/postward-cc/postward-creative-mcp) [![Star](https://img.shields.io/github/stars/postward-cc/postward-creative-mcp?style=flat&logo=github&label=Star)](https://github.com/postward-cc/postward-creative-mcp/stargazers) | Text/ideas / Code/technical text / Any/multi-source | MCP server | Video/audio / SVG/PNG/PDF | MCP client / Local runtime / System tools / Rendering/export |
 | [MaxVideoAI Plugin](https://github.com/camgraphe/maxvideoai-plugin) [![Star](https://img.shields.io/github/stars/camgraphe/maxvideoai-plugin?style=flat&logo=github&label=Star)](https://github.com/camgraphe/maxvideoai-plugin/stargazers) | Text/ideas / Web/search / Any/multi-source | MCP server / Product/SaaS | Video/audio / SVG/PNG/PDF | MCP client / Browser/account / Model API / Rendering/export / Templates/assets |

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-10-29",
+  "sourceLastResearched": "2026-10-31",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33435,9 +33435,48 @@
         "https://raw.githubusercontent.com/browser-use/video-use/HEAD/README.md",
         "https://video-use.com/"
       ]
+    },
+    "DataMagic": {
+      "name": "DataMagic",
+      "url": "https://github.com/HKUSTDial/DataMagic",
+      "sourceHash": "360e65887bef839d38d0ea6f767a5c232fd378a103596422abe8c258073c94f0",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "提供可重用、可编辑的动画数据视频和程序化可视化配方的代理技能和开放配方库。",
+      "explanation": "DataMagic 通过将表格、故事目标和提供的媒体转换为动画图表和可编辑的 MP4 数据故事，提供可视化功能。它包含 139 张卡片，提供预览、源代码、模式和示例属性，使用 Remotion/React 和 Node 20.10+ 以及兼容的无头浏览器。代理将源值映射到属性，渲染 MP4/静态图像并检查数值准确性和布局。",
+      "useCases": [
+        "创建可编辑的动画数据视频",
+        "生成程序化可视化内容"
+      ],
+      "input": [
+        "数据/表格",
+        "文本/想法",
+        "任意/多源"
+      ],
+      "output": [
+        "视频/音频",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "form": [
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "originalDescription": "Agent skill and open recipe library for turning tables, story goals and supplied media into animated charts and editable MP4 data stories. The library documents 139 cards with previews, source, schemas and sample props, using Remotion/React with Node 20.10+ and a compatible headless browser. Agents map source values into props, render MP4/stills and review numeric accuracy and layout. Longer narratives can use DVSpec for data bindings, narration and timing. Templates do not include a TTS service; optional voiceover uses separately configured providers or local audio. Remote TTS sends narration to its provider; edge-tts is an unofficial network service, not an offline path. Hosted DataMagic is a separate product. Local rendering needs no mandatory model API or GPU; agent/provider and media fetching determine network and privacy requirements. Experimental workbench delivery is documented as TODO.",
+      "sources": [
+        "https://github.com/HKUSTDial/DataMagic",
+        "https://datamagic.chat/cards/",
+        "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+      ]
     }
   },
-  "generatedAt": "2026-10-29T07:02:43.880Z",
+  "generatedAt": "2026-10-31T06:58:28.616Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

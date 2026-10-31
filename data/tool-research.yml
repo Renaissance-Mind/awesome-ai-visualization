@@ -1,4 +1,4 @@
-generated_at: "2026-10-29T07:02:04+00:00"
+generated_at: "2026-10-31T06:57:56+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 900
-  fetched_sources_ok: 1195
+  entries: 901
+  fetched_sources_ok: 1197
   fetched_sources_failed: 60
-  official_examples: 1913
-  official_effect_assets: 2344
-  official_docs: 2219
+  official_examples: 1919
+  official_effect_assets: 2350
+  official_docs: 2226
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70495,3 +70495,172 @@ entries:
   source_headings:
     - video-use
     - "ln -sfn ~/Developer/video-use ~/.codex/skills/video-use # Codex"
+- name: DataMagic
+  category: data-dashboard
+  surface: skill
+  primary_url: https://github.com/HKUSTDial/DataMagic
+  homepage: https://datamagic.chat/cards/
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Agent skill and open recipe library for turning tables, story goals and supplied media into animated
+    charts and editable MP4 data stories. The library documents 139 cards with previews, source, schemas and sample
+    props, using Remotion/React with Node 20.10+ and a compatible headless browser. Agents map source values into props,
+    render MP4/stills and review numeric accuracy and layout. Longer narratives can use DVSpec for data bindings,
+    narration and timing. Templates do not include a TTS service; optional voiceover uses separately configured
+    providers or local audio. Remote TTS sends narration to its provider; edge-tts is an unofficial network service, not
+    an offline path. Hosted DataMagic is a separate product. Local rendering needs no mandatory model API or GPU;
+    agent/provider and media fetching determine network and privacy requirements. Experimental workbench delivery is
+    documented as TODO.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: ✨ 最近更新
+      bytes: 13068
+    - kind: homepage
+      url: https://datamagic.chat/cards/
+      final_url: https://datamagic.chat/cards/
+      status: 200
+      content_type: text/html
+      title: DataMagic Cards
+      description: Reusable, editable recipes for animated data video and programmatic visualization.
+      bytes: 8629
+  official_examples:
+    - kind: paper
+      title: "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration"
+      url: https://arxiv.org/abs/2609.33403
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: paper
+      title: VLDB 2026 Demo：Transforming Tabular Data into Data Insight Video
+      url: https://arxiv.org/abs/2606.20388
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: example
+      title: 在线案例库
+      url: https://datamagic.chat/cards/
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: showcase
+      title: 展示素材说明
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/showcase.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: example
+      title: 查看系统演示、生成模式和更多完整案例 →
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/online-system.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: example
+      title: 输入输出示例
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/input-output-examples.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: 在线系统
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/online-system.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: Pipeline
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/pipeline-overview.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: DVSpec
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/dvspec-overview.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: 从数据策划完整视频
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/full-story-workflow.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: Agent skill and recipe workflow
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
+      source: https://github.com/HKUSTDial/DataMagic
+    - kind: docs
+      title: Local Remotion rendering requirements
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/cards-workflow.md
+      source: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
+    - kind: docs
+      title: Optional voiceover providers and timing
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/voiceover.md
+      source: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
+  official_effect_assets:
+    - kind: gif
+      title: 角色主持与透视数据板
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/CharacterPerspectiveBoard.gif
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: gif
+      title: 主持人与数据交接
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/PresenterDataTakeover.gif
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: gif
+      title: 倒序揭晓排行榜
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/RankedReveal.gif
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: gif
+      title: 实景转入数据证据
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/FootageEvidenceReveal.gif
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: gif
+      title: 趋势时间线镜头
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/ChartTimelineTravel.gif
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: gif
+      title: 区域地图与排名
+      url: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/ChoroplethRankMap.gif
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+  official_links:
+    - kind: paper
+      title: "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration"
+      url: https://arxiv.org/abs/2609.33403
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: paper
+      title: VLDB 2026 Demo：Transforming Tabular Data into Data Insight Video
+      url: https://arxiv.org/abs/2606.20388
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: example
+      title: 在线案例库
+      url: https://datamagic.chat/cards/
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: showcase
+      title: 展示素材说明
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/showcase.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: example
+      title: 查看系统演示、生成模式和更多完整案例 →
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/online-system.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: example
+      title: 输入输出示例
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/input-output-examples.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: 在线系统
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/online-system.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: Pipeline
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/pipeline-overview.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: DVSpec
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/dvspec-overview.zh-CN.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: 从数据策划完整视频
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/full-story-workflow.md
+      source: https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md
+    - kind: docs
+      title: Agent skill and recipe workflow
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
+      source: https://github.com/HKUSTDial/DataMagic
+    - kind: docs
+      title: Local Remotion rendering requirements
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/cards-workflow.md
+      source: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
+    - kind: docs
+      title: Optional voiceover providers and timing
+      url: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/voiceover.md
+      source: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
+  source_headings:
+    - 📚 研究与文档

@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-29.
+Last researched: 2026-10-31.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-31: added DataMagic from the official README, Agent Skill, recipe/voiceover workflows, cards package manifest and current GitHub metadata. Recorded table-to-animated-chart/video authoring, local Node/Remotion/headless-browser requirements, editable props/source and DVSpec workflows, optional remote/local narration, provider privacy and the experimental workbench boundary. Targeted scraping fetched the official README and recipe gallery. Curated six artifact previews, deduplicated paper/example links, and reclassified authoring instructions as docs; documented that recipe samples are replaced by the user's data. Catalog coverage is 901 entries.
 
 Update on 2026-10-29: added video-use from Browser Use's official README, skill, transcription helper, product page and current GitHub metadata. Recorded raw-footage editing, cached word-level transcripts, local FFmpeg rendering, MP4/SRT/EDL outputs, optional overlay runtimes, ElevenLabs credentials/network requirements and audio/provider privacy boundaries. The documented hosted version remains a waitlist. Targeted scraping fetched two official sources; curated one official demo link, one deduplicated workflow preview and two project guides, removing waitlist/brand links and API-key settings from example surfaces. Catalog coverage is 900 entries.
 

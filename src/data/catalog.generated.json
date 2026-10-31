@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-29T07:02:04+00:00",
-  "lastResearched": "2026-10-29",
+  "generatedAt": "2026-10-31T06:57:56+00:00",
+  "lastResearched": "2026-10-31",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 900,
-    "openSource": 217,
+    "total": 901,
+    "openSource": 218,
     "saas": 81,
     "modelApi": 277,
-    "examples": 1913,
-    "effectAssets": 2344,
-    "docs": 2219
+    "examples": 1919,
+    "effectAssets": 2350,
+    "docs": 2226
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 592,
-      "数据/表格": 381,
+      "文本/想法": 593,
+      "数据/表格": 382,
       "代码/技术描述": 192,
-      "任意/多源": 171,
+      "任意/多源": 172,
       "网页/搜索结果": 220,
       "代码库": 104,
       "DSL/代码": 187,
@@ -30,8 +30,8 @@
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 217,
-      "Agent Skill": 371,
+      "开源应用/框架": 218,
+      "Agent Skill": 372,
       "Skill 集合": 89,
       "MCP Server": 295,
       "产品/SaaS": 81,
@@ -49,14 +49,14 @@
       "报告/长文档": 132,
       "证据表": 84,
       "信息图/视觉报告": 123,
-      "图表/仪表盘": 291,
+      "图表/仪表盘": 292,
       "架构图/流程图": 200,
-      "SVG/PNG/PDF": 400,
+      "SVG/PNG/PDF": 401,
       "报告/简报": 99,
       "白板/思维导图": 51,
       "图表/Mermaid": 81,
-      "视频/音频": 80,
-      "结构化数据/Markdown": 143,
+      "视频/音频": 81,
+      "结构化数据/Markdown": 144,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 50,
@@ -66,13 +66,13 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 768,
+      "本地语言环境": 769,
       "模型 API": 277,
       "文档解析/OCR": 129,
-      "渲染/导出": 799,
+      "渲染/导出": 800,
       "GPU/加速器": 24,
-      "模板/素材": 453,
-      "Agent 宿主": 462,
+      "模板/素材": 454,
+      "Agent 宿主": 463,
       "系统工具": 229,
       "浏览器/账号": 204,
       "存储/索引": 139,
@@ -85,7 +85,7 @@
       "doc-to-knowledge": 72,
       "research-report": 39,
       "infographic-report": 82,
-      "data-dashboard": 139,
+      "data-dashboard": 140,
       "diagram-generation": 105,
       "literature-map": 5,
       "presentation-tools": 275,
@@ -104,7 +104,7 @@
       "support_doc_parse": 24,
       "presentation": 283,
       "data": 133,
-      "video": 31,
+      "video": 32,
       "code": 61,
       "support_render": 72,
       "diagrams": 20,
@@ -73917,6 +73917,170 @@
       "docsCount": 2,
       "examplesCount": 1,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "DataMagic",
+      "url": "https://github.com/HKUSTDial/DataMagic",
+      "primaryUrl": "https://github.com/HKUSTDial/DataMagic",
+      "homepage": "https://datamagic.chat/cards/",
+      "category": "data-dashboard",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 347,
+      "license": "MIT",
+      "updated": "2026-10-29",
+      "note": "Agent skill and open recipe library for turning tables, story goals and supplied media into animated charts and editable MP4 data stories. The library documents 139 cards with previews, source, schemas and sample props, using Remotion/React with Node 20.10+ and a compatible headless browser. Agents map source values into props, render MP4/stills and review numeric accuracy and layout. Longer narratives can use DVSpec for data bindings, narration and timing. Templates do not include a TTS service; optional voiceover uses separately configured providers or local audio. Remote TTS sends narration to its provider; edge-tts is an unofficial network service, not an offline path. Hosted DataMagic is a separate product. Local rendering needs no mandatory model API or GPU; agent/provider and media fetching determine network and privacy requirements. Experimental workbench delivery is documented as TODO.",
+      "sourceTypes": [
+        "数据/表格",
+        "文本/想法",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill",
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "图表/仪表盘",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "在线系统",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/online-system.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Pipeline",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/pipeline-overview.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "DVSpec",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/dvspec-overview.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "从数据策划完整视频",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/full-story-workflow.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Agent skill and recipe workflow",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md",
+          "source": "https://github.com/HKUSTDial/DataMagic"
+        },
+        {
+          "kind": "docs",
+          "title": "Local Remotion rendering requirements",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/cards-workflow.md",
+          "source": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Optional voiceover providers and timing",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/rules/voiceover.md",
+          "source": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "paper",
+          "title": "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration",
+          "url": "https://arxiv.org/abs/2609.33403",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "paper",
+          "title": "VLDB 2026 Demo：Transforming Tabular Data into Data Insight Video",
+          "url": "https://arxiv.org/abs/2606.20388",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "在线案例库",
+          "url": "https://datamagic.chat/cards/",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "showcase",
+          "title": "展示素材说明",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/showcase.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "查看系统演示、生成模式和更多完整案例 →",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/online-system.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "输入输出示例",
+          "url": "https://github.com/HKUSTDial/DataMagic/blob/HEAD/docs/input-output-examples.zh-CN.md",
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "gif",
+          "title": "角色主持与透视数据板",
+          "url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/CharacterPerspectiveBoard.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "主持人与数据交接",
+          "url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/PresenterDataTakeover.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "倒序揭晓排行榜",
+          "url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/RankedReveal.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "实景转入数据证据",
+          "url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/FootageEvidenceReveal.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "趋势时间线镜头",
+          "url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/ChartTimelineTravel.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        },
+        {
+          "kind": "gif",
+          "title": "区域地图与排名",
+          "url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/cards/gallery/media/readme/ChoroplethRankMap.gif",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/README.md"
+        }
+      ],
+      "docsCount": 7,
+      "examplesCount": 6,
+      "effectAssetsCount": 6
     }
   ]
 }

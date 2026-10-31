@@ -1,4 +1,4 @@
-last_researched: '2026-10-29'
+last_researched: '2026-10-31'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23854,6 +23854,41 @@ entries:
   - Agent Skill
   output_forms:
   - 视频/音频
+  - SVG/PNG/PDF
+  - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: video
+- name: DataMagic
+  url: https://github.com/HKUSTDial/DataMagic
+  homepage: https://datamagic.chat/cards/
+  category: data-dashboard
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 模板/素材
+  stars: 347
+  license: MIT
+  updated: '2026-10-29'
+  note: Agent skill and open recipe library for turning tables, story goals and supplied media into animated charts and
+    editable MP4 data stories. The library documents 139 cards with previews, source, schemas and sample props, using
+    Remotion/React with Node 20.10+ and a compatible headless browser. Agents map source values into props, render MP4/stills
+    and review numeric accuracy and layout. Longer narratives can use DVSpec for data bindings, narration and timing.
+    Templates do not include a TTS service; optional voiceover uses separately configured providers or local audio.
+    Remote TTS sends narration to its provider; edge-tts is an unofficial network service, not an offline path. Hosted
+    DataMagic is a separate product. Local rendering needs no mandatory model API or GPU; agent/provider and media fetching
+    determine network and privacy requirements. Experimental workbench delivery is documented as TODO.
+  source_types:
+  - 数据/表格
+  - 文本/想法
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  - 开源应用/框架
+  output_forms:
+  - 视频/音频
+  - 图表/仪表盘
   - SVG/PNG/PDF
   - 结构化数据/Markdown
   catalog_section: main
