@@ -17,7 +17,7 @@ The catalog is tagged by **information source**, **tool form**, **output artifac
 <!-- repository-activity:start -->
 ## Repository activity since 2024
 
-Monthly bins from 2024-01; snapshot: 2026-10-15 19:39 (UTC+8). Covers 834 of 852 repositories. Click either chart to open its interactive version. The current month is incomplete.
+Monthly bins from 2024-01; snapshot: 2026-11-01 00:11 (UTC+8). Covers 836 of 858 repositories. Click either chart to open its interactive version. The current month is incomplete.
 
 [![Monthly commits by category](public/activity/en/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/en/#commits)
 

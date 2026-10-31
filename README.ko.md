@@ -19,7 +19,7 @@
 <!-- repository-activity:start -->
 ## 2024년 이후 저장소 개발 활동
 
-2024-01부터 월별로 집계한 데이터입니다. 스냅샷: 2026-10-15 19:39 (UTC+8). 저장소 852개 중 834개를 포함합니다. 차트를 클릭하면 대화형 버전이 열립니다. 현재 월은 아직 끝나지 않았습니다.
+2024-01부터 월별로 집계한 데이터입니다. 스냅샷: 2026-11-01 00:11 (UTC+8). 저장소 858개 중 836개를 포함합니다. 차트를 클릭하면 대화형 버전이 열립니다. 현재 월은 아직 끝나지 않았습니다.
 
 [![분류별 월간 커밋 수](public/activity/ko/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#commits)
 

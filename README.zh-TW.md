@@ -17,7 +17,7 @@
 <!-- repository-activity:start -->
 ## 2024 年起的 repo 開發活動
 
-從 2024-01 起按月統計，資料快照截至 2026-10-15 19:39（UTC+8），涵蓋 834 / 852 個 repo。點擊任一圖表可開啟對應互動版；當月尚未結束。
+從 2024-01 起按月統計，資料快照截至 2026-11-01 00:11（UTC+8），涵蓋 836 / 858 個 repo。點擊任一圖表可開啟對應互動版；當月尚未結束。
 
 [![各類別每月 commit 數](public/activity/zh-TW/commits.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#commits)
 
