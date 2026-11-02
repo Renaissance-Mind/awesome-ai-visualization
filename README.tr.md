@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-901_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--31-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve
 [![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-31)
+## Latest Refresh (2026-11-02)
 
 | Project | Catalog focus |
 | --- | --- |
-| [DataMagic](https://github.com/HKUSTDial/DataMagic) | Tablolardan ve anlatı hedeflerinden düzenlenebilir hareketli grafikler ve MP4 veri hikâyeleri; Agent Skill, yeniden kullanılabilir tarifler ve yerel Remotion. |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | Teknoloji yığını açıklamalarından logolu mimari diyagramlar; bağımsız HTML, PNG ve React/TSX ile yerel, ağ ve paylaşım koşulları. |
 
 ## ✨ Önerilen kullanım
 
@@ -461,6 +461,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Eraser AI](https://www.eraser.io/ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Render/dışa aktarma |
 | [Whimsical AI](https://whimsical.com/ai) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) [![Star](https://img.shields.io/github/stars/caru-ini/stack-diagram?style=flat&logo=github&label=Star)](https://github.com/caru-ini/stack-diagram/stargazers) | Text/ideas / Code/technical text | Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / External data sources / Templates/assets |
 | [OpenFlowKit](https://github.com/openflowkit/openflowkit) [![Star](https://img.shields.io/github/stars/openflowkit/openflowkit?style=flat&logo=github&label=Star)](https://github.com/openflowkit/openflowkit/stargazers) | Text/ideas / DSL/code / Codebase / Data/tables | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Code map / Chart/dashboard / SVG/PNG/PDF / Video/audio | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | Metin/fikirler / Kod/teknik metin | Ürün/SaaS | Mimari/akış diyagramı / Beyaz tahta/zihin haritası | Tarayıcı/hesap / Şablonlar/assetler |

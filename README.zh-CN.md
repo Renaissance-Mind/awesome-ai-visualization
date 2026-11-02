@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-901_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--31-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-31)
+## Latest Refresh (2026-11-02)
 
 | Project | Catalog focus |
 | --- | --- |
-| [DataMagic](https://github.com/HKUSTDial/DataMagic) | 通过 Agent Skill、可复用配方和本地 Remotion 渲染，将表格与叙事目标转为可编辑动态图表和 MP4 数据故事。 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 将技术栈描述转为带品牌图标的架构图，交付自包含 HTML、PNG 和 React/TSX，并注明本地、联网与分享条件。 |
 
 ## ✨ 推荐使用方式
 
@@ -459,6 +459,7 @@
 | [Eraser AI](https://www.eraser.io/ai) | 文本/想法 / 代码/技术描述 | 产品/SaaS | 架构图/流程图 / 白板/思维导图 | 浏览器/账号 / 模板/素材 |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | 文本/想法 / 代码/技术描述 | 产品/SaaS | 架构图/流程图 / 白板/思维导图 | 浏览器/账号 / 渲染/导出 |
 | [Whimsical AI](https://whimsical.com/ai) | 文本/想法 / 代码/技术描述 | 产品/SaaS | 架构图/流程图 / 白板/思维导图 | 浏览器/账号 / 模板/素材 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) [![Star](https://img.shields.io/github/stars/caru-ini/stack-diagram?style=flat&logo=github&label=Star)](https://github.com/caru-ini/stack-diagram/stargazers) | Text/ideas / Code/technical text | Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / External data sources / Templates/assets |
 | [OpenFlowKit](https://github.com/openflowkit/openflowkit) [![Star](https://img.shields.io/github/stars/openflowkit/openflowkit?style=flat&logo=github&label=Star)](https://github.com/openflowkit/openflowkit/stargazers) | Text/ideas / DSL/code / Codebase / Data/tables | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Code map / Chart/dashboard / SVG/PNG/PDF / Video/audio | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | 文本/想法 / 代码/技术描述 | 产品/SaaS | 架构图/流程图 / 白板/思维导图 | 浏览器/账号 / 模板/素材 |

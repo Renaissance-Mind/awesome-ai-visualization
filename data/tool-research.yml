@@ -1,4 +1,4 @@
-generated_at: "2026-10-31T06:57:56+00:00"
+generated_at: "2026-11-02T07:05:24+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 901
-  fetched_sources_ok: 1197
+  entries: 902
+  fetched_sources_ok: 1198
   fetched_sources_failed: 60
-  official_examples: 1919
-  official_effect_assets: 2350
-  official_docs: 2226
+  official_examples: 1920
+  official_effect_assets: 2355
+  official_docs: 2228
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70664,3 +70664,85 @@ entries:
       source: https://github.com/HKUSTDial/DataMagic/blob/HEAD/skills/datamagic/SKILL.md
   source_headings:
     - 📚 研究与文档
+- name: stack-diagram
+  official_examples:
+    - kind: example
+      title: Stack, tooling, AI application and AWS examples
+      url: https://github.com/caru-ini/stack-diagram#more-examples
+      source: https://github.com/caru-ini/stack-diagram
+  official_docs:
+    - kind: docs
+      title: Agent workflow, dependencies and optional sharing
+      url: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md
+      source: https://github.com/caru-ini/stack-diagram
+    - kind: docs
+      title: Diagram geometry and connector routing
+      url: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/references/geometry.md
+      source: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md
+  category: diagram-generation
+  surface: skill
+  primary_url: https://github.com/caru-ini/stack-diagram
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 外部检索/数据源
+    - 模板/素材
+  catalog_note: Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams
+    with fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined
+    logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library
+    scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network
+    access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented;
+    host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit
+    confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and
+    downloaded logos retain their own terms and trademarks.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: stack-diagram
+      bytes: 6443
+  official_effect_assets:
+    - kind: image
+      title: "Architecture diagram: a user reaches Next.js on Vercel over HTTPS; Next.js calls a Hono API in the same Vercel
+        deployment over RPC; Hono queries Neon over SQL and calls Clerk for s"
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/hero.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+    - kind: image
+      title: "AI app diagram: a user asks Next.js on Vercel, which runs a vector search on Supabase pgvector and sends a
+        prompt to Claude; Inngest syncs Notion docs every night and stores embedd"
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/ai.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+    - kind: image
+      title: "AWS diagram: a user reaches CloudFront over HTTPS; CloudFront serves static paths from S3 and sends API paths to
+        an ALB in a VPC's public subnet; the ALB forwards to Fargate in a p"
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/aws.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+    - kind: image
+      title: "The monorepo tooling diagram cut diagonally: light theme on the upper left, dark theme on the lower right"
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/light-dark.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+    - kind: image
+      title: The docs chatbot diagram as an HTML page in a browser window, with a title, a short description, the diagram, a
+        legend and a footer
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/html-page.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+  source_headings:
+    - stack-diagram
+    - More examples
+    - Share it to the gallery
+  official_links:
+    - kind: example
+      title: Stack, tooling, AI application and AWS examples
+      url: https://github.com/caru-ini/stack-diagram#more-examples
+      source: https://github.com/caru-ini/stack-diagram
+    - kind: docs
+      title: Agent workflow, dependencies and optional sharing
+      url: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md
+      source: https://github.com/caru-ini/stack-diagram
+    - kind: docs
+      title: Diagram geometry and connector routing
+      url: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/references/geometry.md
+      source: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md

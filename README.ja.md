@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-901_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--10--31-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-10-31)
+## Latest Refresh (2026-11-02)
 
 | Project | Catalog focus |
 | --- | --- |
-| [DataMagic](https://github.com/HKUSTDial/DataMagic) | 表とストーリーの目的から編集可能な動的グラフと MP4 を制作。Agent Skill、再利用可能なレシピ、ローカル Remotion 描画を使用。 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 技術構成の説明からブランドロゴ付き構成図を作成。単一 HTML、PNG、React/TSX と実行・通信・共有条件を明示。 |
 
 ## ✨ 推奨される使い方
 
@@ -461,6 +461,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Eraser AI](https://www.eraser.io/ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
 | [Mermaid Chart AI](https://mermaid.ai/mermaid-ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / レンダリング/エクスポート |
 | [Whimsical AI](https://whimsical.com/ai) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) [![Star](https://img.shields.io/github/stars/caru-ini/stack-diagram?style=flat&logo=github&label=Star)](https://github.com/caru-ini/stack-diagram/stargazers) | Text/ideas / Code/technical text | Agent skill | Architecture/flow diagram / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / External data sources / Templates/assets |
 | [OpenFlowKit](https://github.com/openflowkit/openflowkit) [![Star](https://img.shields.io/github/stars/openflowkit/openflowkit?style=flat&logo=github&label=Star)](https://github.com/openflowkit/openflowkit/stargazers) | Text/ideas / DSL/code / Codebase / Data/tables | Open-source app/framework / MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Code map / Chart/dashboard / SVG/PNG/PDF / Video/audio | Agent host / Local runtime / Rendering/export / Code analysis |
 | [Whimsical Official Remote MCP](https://github.com/WhimsicalCode/mcp-server-guide) [![Star](https://img.shields.io/github/stars/WhimsicalCode/mcp-server-guide?style=flat&logo=github&label=Star)](https://github.com/WhimsicalCode/mcp-server-guide/stargazers) | Text/ideas / Code/technical text / Data/tables | MCP server / Product/SaaS | Architecture/flow diagram / Whiteboard/mind map / Report/document / SVG/PNG/PDF | MCP client / Browser/account / Rendering/export |
 | [Lucid AI](https://www.lucidchart.com/pages/use-cases/diagram-with-AI) | テキスト/アイデア / コード/技術文書 | 製品/SaaS | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ | ブラウザ/アカウント / テンプレート/素材 |

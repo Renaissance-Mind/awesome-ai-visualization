@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-31T06:57:56+00:00",
-  "lastResearched": "2026-10-31",
+  "generatedAt": "2026-11-02T07:05:24+00:00",
+  "lastResearched": "2026-11-02",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 901,
+    "total": 902,
     "openSource": 218,
     "saas": 81,
     "modelApi": 277,
-    "examples": 1919,
-    "effectAssets": 2350,
-    "docs": 2226
+    "examples": 1920,
+    "effectAssets": 2355,
+    "docs": 2228
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 593,
+      "文本/想法": 594,
       "数据/表格": 382,
-      "代码/技术描述": 192,
+      "代码/技术描述": 193,
       "任意/多源": 172,
       "网页/搜索结果": 220,
       "代码库": 104,
@@ -31,7 +31,7 @@
     },
     "toolForms": {
       "开源应用/框架": 218,
-      "Agent Skill": 372,
+      "Agent Skill": 373,
       "Skill 集合": 89,
       "MCP Server": 295,
       "产品/SaaS": 81,
@@ -44,14 +44,14 @@
     "outputForms": {
       "图形摘要/信息图": 70,
       "PPT/演示文稿": 384,
-      "网页/交互页面": 333,
+      "网页/交互页面": 334,
       "问答/学习材料": 23,
       "报告/长文档": 132,
       "证据表": 84,
       "信息图/视觉报告": 123,
       "图表/仪表盘": 292,
-      "架构图/流程图": 200,
-      "SVG/PNG/PDF": 401,
+      "架构图/流程图": 201,
+      "SVG/PNG/PDF": 402,
       "报告/简报": 99,
       "白板/思维导图": 51,
       "图表/Mermaid": 81,
@@ -66,18 +66,18 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 769,
+      "本地语言环境": 770,
       "模型 API": 277,
       "文档解析/OCR": 129,
-      "渲染/导出": 800,
+      "渲染/导出": 801,
       "GPU/加速器": 24,
-      "模板/素材": 454,
-      "Agent 宿主": 463,
+      "模板/素材": 455,
+      "Agent 宿主": 464,
       "系统工具": 229,
       "浏览器/账号": 204,
       "存储/索引": 139,
       "MCP Client": 307,
-      "外部检索/数据源": 185,
+      "外部检索/数据源": 186,
       "代码分析工具": 66
     },
     "categories": {
@@ -86,7 +86,7 @@
       "research-report": 39,
       "infographic-report": 82,
       "data-dashboard": 140,
-      "diagram-generation": 105,
+      "diagram-generation": 106,
       "literature-map": 5,
       "presentation-tools": 275,
       "rendering-primitive": 29,
@@ -97,7 +97,7 @@
     },
     "groups": {
       "paper": 45,
-      "text_visual": 110,
+      "text_visual": 111,
       "web_news": 9,
       "support_mindmap": 20,
       "docs": 44,
@@ -74081,6 +74081,101 @@
       "docsCount": 7,
       "examplesCount": 6,
       "effectAssetsCount": 6
+    },
+    {
+      "name": "stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "primaryUrl": "https://github.com/caru-ini/stack-diagram",
+      "homepage": null,
+      "category": "diagram-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "外部检索/数据源",
+        "模板/素材"
+      ],
+      "stars": 690,
+      "license": "MIT",
+      "updated": "2026-11-02",
+      "note": "Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and downloaded logos retain their own terms and trademarks.",
+      "sourceTypes": [
+        "文本/想法",
+        "代码/技术描述"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "架构图/流程图",
+        "网页/交互页面",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "text_visual",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Agent workflow, dependencies and optional sharing",
+          "url": "https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md",
+          "source": "https://github.com/caru-ini/stack-diagram"
+        },
+        {
+          "kind": "docs",
+          "title": "Diagram geometry and connector routing",
+          "url": "https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/references/geometry.md",
+          "source": "https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Stack, tooling, AI application and AWS examples",
+          "url": "https://github.com/caru-ini/stack-diagram#more-examples",
+          "source": "https://github.com/caru-ini/stack-diagram"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "Architecture diagram: a user reaches Next.js on Vercel over HTTPS; Next.js calls a Hono API in the same Vercel deployment over RPC; Hono queries Neon over SQL and calls Clerk for s",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/hero.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AI app diagram: a user asks Next.js on Vercel, which runs a vector search on Supabase pgvector and sends a prompt to Claude; Inngest syncs Notion docs every night and stores embedd",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/ai.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "AWS diagram: a user reaches CloudFront over HTTPS; CloudFront serves static paths from S3 and sends API paths to an ALB in a VPC's public subnet; the ALB forwards to Fargate in a p",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/aws.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The monorepo tooling diagram cut diagonally: light theme on the upper left, dark theme on the lower right",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/light-dark.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "The docs chatbot diagram as an HTML page in a browser window, with a title, a short description, the diagram, a legend and a footer",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/html-page.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        }
+      ],
+      "docsCount": 2,
+      "examplesCount": 1,
+      "effectAssetsCount": 5
     }
   ]
 }

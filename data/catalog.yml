@@ -1,4 +1,4 @@
-last_researched: '2026-10-31'
+last_researched: '2026-11-02'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23893,3 +23893,34 @@ entries:
   - 结构化数据/Markdown
   catalog_section: main
   readme_group: video
+- name: stack-diagram
+  url: https://github.com/caru-ini/stack-diagram
+  category: diagram-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 渲染/导出
+  - 外部检索/数据源
+  - 模板/素材
+  stars: 690
+  license: MIT
+  updated: '2026-11-02'
+  note: Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with
+    fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined logos/fonts,
+    PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons
+    and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML
+    can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its
+    provider. Public-gallery posting is optional and requires explicit confirmation; it publishes images and stack metadata.
+    Code/docs are MIT, bundled fonts use SIL OFL 1.1, and downloaded logos retain their own terms and trademarks.
+  source_types:
+  - 文本/想法
+  - 代码/技术描述
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 架构图/流程图
+  - 网页/交互页面
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: text_visual
