@@ -1,4 +1,4 @@
-generated_at: "2026-11-02T07:05:24+00:00"
+generated_at: "2026-11-06T07:00:43+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -14,7 +14,7 @@ summary:
   fetched_sources_ok: 1198
   fetched_sources_failed: 60
   official_examples: 1920
-  official_effect_assets: 2355
+  official_effect_assets: 2357
   official_docs: 2228
 entries:
 - name: Paper2Any
@@ -70689,11 +70689,12 @@ entries:
     - 外部检索/数据源
     - 模板/素材
   catalog_note: Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams
-    with fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined
-    logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library
-    scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network
-    access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented;
-    host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit
+    with fetched brand logos, grouped containers and orthogonal connectors. AWS, Google Cloud and Azure service icons
+    come from each vendor's official package, with documented cloud-specific examples. Delivers self-contained HTML with
+    inlined logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+
+    standard-library scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching
+    needs network access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is
+    documented; host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit
     confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and
     downloaded logos retain their own terms and trademarks.
   fetched_sources:
@@ -70703,7 +70704,7 @@ entries:
       status: 200
       content_type: text/plain
       title: stack-diagram
-      bytes: 6443
+      bytes: 8333
   official_effect_assets:
     - kind: image
       title: "Architecture diagram: a user reaches Next.js on Vercel over HTTPS; Next.js calls a Hono API in the same Vercel
@@ -70719,6 +70720,16 @@ entries:
       title: "AWS diagram: a user reaches CloudFront over HTTPS; CloudFront serves static paths from S3 and sends API paths to
         an ALB in a VPC's public subnet; the ALB forwards to Fargate in a p"
       url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/aws.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+    - kind: image
+      title: "Google Cloud diagram: a user reaches Cloud Load Balancing over HTTPS; the load balancer serves static paths from
+        Cloud Storage and sends API paths to GKE in one region of a VPC; GK"
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/gcp.png
+      source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
+    - kind: image
+      title: "Azure diagram: a user reaches Azure Front Door over HTTPS; Front Door serves static paths from Azure Blob
+        Storage and sends API paths to Azure App Service in the Japan East region;"
+      url: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/azure.png
       source: https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md
     - kind: image
       title: "The monorepo tooling diagram cut diagonally: light theme on the upper left, dark theme on the lower right"

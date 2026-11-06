@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Datos mensuales desde 2024-01; captura: 2026-11-01 00:11 (UTC+8). Incluye 836 de
 [![Repositorios creados al mes por categoría](public/activity/es/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-02)
+## Latest Refresh (2026-11-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | Descripciones de stacks a diagramas con logos, HTML autónomo, PNG y React/TSX; requisitos locales, de red y de publicación explícitos. |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | Actualizado el soporte de iconos oficiales y ejemplos de Google Cloud y Azure junto a AWS, con condiciones de renderizado local, consulta sin conexión y publicación opcional. |
 
 ## ✨ Uso recomendado
 

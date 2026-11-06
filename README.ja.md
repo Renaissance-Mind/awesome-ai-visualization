@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-02)
+## Latest Refresh (2026-11-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 技術構成の説明からブランドロゴ付き構成図を作成。単一 HTML、PNG、React/TSX と実行・通信・共有条件を明示。 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | AWS に加え、Google Cloud・Azure の公式アイコン対応と例を更新。ローカル描画、オフライン閲覧、任意の共有条件も明記。 |
 
 ## ✨ 推奨される使い方
 

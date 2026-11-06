@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-11-02.
+Last researched: 2026-11-06.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-11-06: refreshed stack-diagram after verifying new Google Cloud and Azure official icon-package support in the README and fetch_icons.py, new example paths in the repository tree, and current GitHub metadata. The existing Python/Playwright rendering and network/offline/privacy conditions still apply. Targeted scraping fetched the current official README and added the two cloud previews; prior example/workflow/geometry links were retained. Catalog coverage remains 902 entries.
 
 Update on 2026-11-02: added stack-diagram after official README, skill requirements, repository tree and current GitHub API verification. Recorded tech-stack-to-architecture diagrams, inlined HTML/PNG/React outputs, Python 3.9+, Playwright/Chromium export, network-dependent icon fetching, offline viewing of completed artifacts, optional public-gallery posting, and separate code/font/logo licensing. Targeted scraping fetched the official README; retained five actual preview assets, one example section and two workflow/geometry documents. Catalog coverage is 902 entries. Upstream already contains this month's refreshed activity charts, which are preserved.
 

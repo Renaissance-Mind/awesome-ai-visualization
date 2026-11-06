@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-02)
+## Latest Refresh (2026-11-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 將技術堆疊描述轉為含品牌圖示的架構圖，交付自包含 HTML、PNG 和 React/TSX，並註明本機、連網與分享條件。 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 更新 Google Cloud、Azure 官方圖示支援與範例，連同既有 AWS 支援，明確本機渲染、離線檢視和可選分享條件。 |
 
 ## ✨ 推薦使用方式
 

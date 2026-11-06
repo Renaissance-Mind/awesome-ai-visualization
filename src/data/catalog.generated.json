@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T07:05:24+00:00",
-  "lastResearched": "2026-11-02",
+  "generatedAt": "2026-11-06T07:00:43+00:00",
+  "lastResearched": "2026-11-06",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
     "total": 902,
@@ -8,7 +8,7 @@
     "saas": 81,
     "modelApi": 277,
     "examples": 1920,
-    "effectAssets": 2355,
+    "effectAssets": 2357,
     "docs": 2228
   },
   "facets": {
@@ -74096,10 +74096,10 @@
         "外部检索/数据源",
         "模板/素材"
       ],
-      "stars": 690,
+      "stars": 1884,
       "license": "MIT",
-      "updated": "2026-11-02",
-      "note": "Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and downloaded logos retain their own terms and trademarks.",
+      "updated": "2026-11-06",
+      "note": "Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with fetched brand logos, grouped containers and orthogonal connectors. AWS, Google Cloud and Azure service icons come from each vendor's official package, with documented cloud-specific examples. Delivers self-contained HTML with inlined logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and downloaded logos retain their own terms and trademarks.",
       "sourceTypes": [
         "文本/想法",
         "代码/技术描述"
@@ -74160,6 +74160,20 @@
         },
         {
           "kind": "image",
+          "title": "Google Cloud diagram: a user reaches Cloud Load Balancing over HTTPS; the load balancer serves static paths from Cloud Storage and sends API paths to GKE in one region of a VPC; GK",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/gcp.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
+          "title": "Azure diagram: a user reaches Azure Front Door over HTTPS; Front Door serves static paths from Azure Blob Storage and sends API paths to Azure App Service in the Japan East region;",
+          "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/azure.png",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
+        },
+        {
+          "kind": "image",
           "title": "The monorepo tooling diagram cut diagonally: light theme on the upper left, dark theme on the lower right",
           "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/docs/light-dark.png",
           "thumbnailUrl": null,
@@ -74175,7 +74189,7 @@
       ],
       "docsCount": 2,
       "examplesCount": 1,
-      "effectAssetsCount": 5
+      "effectAssetsCount": 7
     }
   ]
 }

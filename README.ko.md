@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-02)
+## Latest Refresh (2026-11-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 기술 스택 설명을 브랜드 로고가 있는 아키텍처 다이어그램으로 변환합니다. 독립 HTML, PNG, React/TSX와 실행·네트워크·공유 조건을 명시합니다. |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | AWS와 함께 Google Cloud·Azure 공식 아이콘 지원과 예제를 갱신하고 로컬 렌더링, 오프라인 보기 및 선택적 공유 조건을 명시했습니다. |
 
 ## ✨ 추천 사용법
 

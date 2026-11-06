@@ -1,4 +1,4 @@
-last_researched: '2026-11-02'
+last_researched: '2026-11-06'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23903,11 +23903,12 @@ entries:
   - 渲染/导出
   - 外部检索/数据源
   - 模板/素材
-  stars: 690
+  stars: 1884
   license: MIT
-  updated: '2026-11-02'
+  updated: '2026-11-06'
   note: Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with
-    fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined logos/fonts,
+    fetched brand logos, grouped containers and orthogonal connectors. AWS, Google Cloud and Azure service icons come from
+    each vendor's official package, with documented cloud-specific examples. Delivers self-contained HTML with inlined logos/fonts,
     PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons
     and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML
     can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its

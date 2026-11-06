@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve
 [![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-02)
+## Latest Refresh (2026-11-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | Teknoloji yığını açıklamalarından logolu mimari diyagramlar; bağımsız HTML, PNG ve React/TSX ile yerel, ağ ve paylaşım koşulları. |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | AWS yanında Google Cloud ve Azure resmi simge desteği ve örnekleri güncellendi; yerel çizim, çevrimdışı görüntüleme ve isteğe bağlı paylaşım koşulları belirtildi. |
 
 ## ✨ Önerilen kullanım
 

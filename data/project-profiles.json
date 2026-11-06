@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-11-02",
+  "sourceLastResearched": "2026-11-06",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33478,13 +33478,13 @@
     "stack-diagram": {
       "name": "stack-diagram",
       "url": "https://github.com/caru-ini/stack-diagram",
-      "sourceHash": "2214b806fe03d3e87a577da2f785399918dee70a3ba14fe9f40cb5a70151fb45",
-      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
-      "summary": "将技术栈和服务拓扑描述转换为带品牌图标和连接器的架构图",
-      "explanation": "该项目通过脚本获取品牌图标并生成包含图标的HTML、PNG和React组件。使用Python 3.9+标准库，PNG导出需要Playwright和Chromium。图标获取需要网络访问，但生成的HTML可离线查看。",
+      "sourceHash": "ad3361014d63d74b2f918a50c34d29d75b682677bb3ab9b4476fecd31d1fadb9",
+      "generatedBy": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "summary": "将技术栈和服务拓扑描述转换为带有品牌标志的架构图",
+      "explanation": "stack-diagram 使用 Python 3.9+ 标准库脚本来获取图标和构建文件，生成自包含的 HTML 文件和 PNG 图片。它支持 AWS、Google Cloud 和 Azure 服务图标，且无需单独的渲染 API 或 GPU。",
       "useCases": [
-        "生成技术栈的可视化架构图",
-        "导出可独立使用的HTML和PNG格式图表"
+        "生成带有品牌标志的架构图",
+        "将技术栈和服务拓扑描述转换为可视化图表"
       ],
       "input": [
         "文本/想法",
@@ -33505,14 +33505,14 @@
         "外部检索/数据源",
         "模板/素材"
       ],
-      "originalDescription": "Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with fetched brand logos, grouped containers and orthogonal connectors. Delivers self-contained HTML with inlined logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and downloaded logos retain their own terms and trademarks.",
+      "originalDescription": "Agent skill that turns tech-stack and service-topology descriptions into light/dark architecture diagrams with fetched brand logos, grouped containers and orthogonal connectors. AWS, Google Cloud and Azure service icons come from each vendor's official package, with documented cloud-specific examples. Delivers self-contained HTML with inlined logos/fonts, PNG and a dependency-free React/TSX component derived from that HTML. Python 3.9+ standard-library scripts fetch icons and build files; PNG export requires Playwright and Chromium. Icon fetching needs network access, while completed HTML can be viewed offline. No separate rendering API or mandatory GPU is documented; host-agent data handling follows its provider. Public-gallery posting is optional and requires explicit confirmation; it publishes images and stack metadata. Code/docs are MIT, bundled fonts use SIL OFL 1.1, and downloaded logos retain their own terms and trademarks.",
       "sources": [
         "https://github.com/caru-ini/stack-diagram",
         "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
       ]
     }
   },
-  "generatedAt": "2026-11-02T07:06:51.935Z",
+  "generatedAt": "2026-11-06T07:02:32.036Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

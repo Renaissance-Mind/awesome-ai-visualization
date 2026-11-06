@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--02-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -26,11 +26,11 @@
 [![Новые репозитории по месяцам и категориям](public/activity/ru/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-02)
+## Latest Refresh (2026-11-06)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | Описание стека в архитектурные схемы с логотипами: автономный HTML, PNG и React/TSX с явными условиями запуска, сети и публикации. |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | Обновлены официальные иконки и примеры Google Cloud и Azure наряду с AWS; указаны локальный рендеринг, автономный просмотр и добровольная публикация. |
 
 ## ✨ Рекомендуемое использование
 
