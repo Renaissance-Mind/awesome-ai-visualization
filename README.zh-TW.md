@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-903_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--08-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-06)
+## Latest Refresh (2026-11-08)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 更新 Google Cloud、Azure 官方圖示支援與範例，連同既有 AWS 支援，明確本機渲染、離線檢視和可選分享條件。 |
+| [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) | 本機 JSON/Markdown/YAML 簡報工具包、六個 Agent Skills 與 MCP，提供驗證及可選 PPTX/SVG/PNG/PDF 匯出，並註明保真度限制。 |
 
 ## ✨ 推薦使用方式
 
@@ -641,6 +641,7 @@
 | [LangChat Slides](https://github.com/LangChat/langchat-slides) [![Star](https://img.shields.io/github/stars/LangChat/langchat-slides?style=flat&logo=github&label=Star)](https://github.com/LangChat/langchat-slides/stargazers) | Text/ideas / Data/tables / Any/multi-source | Open-source app/framework | PPT/deck / Chart/dashboard / SVG/PNG/PDF / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
 | [slides-grab](https://github.com/NomaDamas/slides-grab) [![Star](https://img.shields.io/github/stars/NomaDamas/slides-grab?style=flat&logo=github&label=Star)](https://github.com/NomaDamas/slides-grab/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / API/SDK/library / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [presentation-skill](https://github.com/siril9/presentation-skill) [![Star](https://img.shields.io/github/stars/siril9/presentation-skill?style=flat&logo=github&label=Star)](https://github.com/siril9/presentation-skill/stargazers) | 文字/想法 / PDF/文件 / 資料/表格 / 論文/科研資料 | Agent Skill | PPT/簡報 / 圖表/儀表板 / 架構圖/流程圖 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
+| [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) [![Star](https://img.shields.io/github/stars/OpenPresentation/opf?style=flat&logo=github&label=Star)](https://github.com/OpenPresentation/opf/stargazers) | Text/ideas / Data/tables / DSL/code / Office documents | API/SDK/library / Skill collection / MCP server | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [deck](https://github.com/k1LoW/deck) [![Star](https://img.shields.io/github/stars/k1LoW/deck?style=flat&logo=github&label=Star)](https://github.com/k1LoW/deck/stargazers) | 文字/想法 / PDF/文件 / 網頁/搜尋結果 | API/SDK/庫 | PPT/簡報 | 本機語言環境 / 瀏覽器/帳號 / 外部檢索/資料源 / 渲染/匯出 / 範本/素材 |
 | [Bento](https://github.com/nyblnet/bento) [![Star](https://img.shields.io/github/stars/nyblnet/bento?style=flat&logo=github&label=Star)](https://github.com/nyblnet/bento/stargazers) | 文字/想法 / 資料/表格 / 任意/多來源 | 開源應用/框架 | PPT/簡報 / 網頁/互動頁面 / 圖表/儀表板 / SVG/PNG/PDF | 瀏覽器/帳號 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
 | [deckproof-mcp](https://github.com/OwnOptic/deckproof-mcp) [![Star](https://img.shields.io/github/stars/OwnOptic/deckproof-mcp?style=flat&logo=github&label=Star)](https://github.com/OwnOptic/deckproof-mcp/stargazers) | Office docs / Text/ideas | MCP server | PPT/deck / Evidence table | MCP client / Local runtime / Rendering/export / System tools / Templates/assets |

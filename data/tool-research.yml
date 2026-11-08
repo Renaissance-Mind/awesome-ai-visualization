@@ -1,4 +1,4 @@
-generated_at: "2026-11-06T07:00:43+00:00"
+generated_at: "2026-11-08T06:59:52+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 902
-  fetched_sources_ok: 1198
+  entries: 903
+  fetched_sources_ok: 1200
   fetched_sources_failed: 60
-  official_examples: 1920
+  official_examples: 1927
   official_effect_assets: 2357
-  official_docs: 2228
+  official_docs: 2250
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -70757,3 +70757,279 @@ entries:
       title: Diagram geometry and connector routing
       url: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/references/geometry.md
       source: https://github.com/caru-ini/stack-diagram/blob/HEAD/skills/stack-diagram/SKILL.md
+- name: Open Presentation Format (OPF)
+  category: presentation-tools
+  surface: library
+  primary_url: https://github.com/OpenPresentation/opf
+  homepage: https://www.openpresentation.org/
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Local presentation format/toolkit with six agent skills for authoring, layout, presets, editing, export
+    and schema inspection. CLI reads JSON/YAML/Markdown decks, validates content/layout and uses optional renderer/PPTX
+    engines for SVG/PNG/PDF and editable PowerPoint import/export. Requires Node 22+; documentation tests Node 24.
+    Export needs matching engines, font packages and format-specific converters; opf doctor reports missing
+    dependencies. After setup and supplying referenced assets, local tooling needs no model API, account or hosted OPF
+    service; agent-provider privacy is separate. Local stdio MCP exposes docs/catalogs, validation and text-format
+    conversion, not rendered PPTX export. PPTX text defaults to separate wrapped-line boxes without later reflow; fonts
+    are named, not embedded. Pre-1.0 schemas can change between minor versions; validation alone does not establish
+    visual fidelity. No mandatory GPU is documented.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Open Presentation Format (OPF)
+      bytes: 19055
+    - kind: homepage
+      url: https://www.openpresentation.org/
+      final_url: https://www.openpresentation.org/
+      status: 200
+      content_type: text/html
+      title: Slide decks, in plain JSON.
+      description: "OPF is an open file format for presentations. A deck is one JSON document: readable in review, diffable in
+        git, and structured so models can author it directly."
+      bytes: 103330
+  official_examples:
+    - kind: showcase
+      title: pptx.gallery
+      url: https://pptx.gallery
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: "`docs/examples.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/examples.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: "`examples/technical/`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/examples/technical
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: "`examples/gallery/`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/examples/gallery
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: Examples
+      url: https://www.openpresentation.org/examples
+      source: https://www.openpresentation.org/
+    - kind: demo
+      title: Playground
+      url: https://www.openpresentation.org/playground
+      source: https://www.openpresentation.org/
+    - kind: example
+      title: Complete developer quickstart source deck
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/quickstart/developer-quickstart.opf.json
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: OPF skill set
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/agent-skills.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: developer quickstart
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/quickstart.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: compatibility matrix
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/compatibility-matrix.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: the authoring guide
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/llm-authoring.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: dynamic composition
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/dynamic-composition.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: local ecosystem verification
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/ecosystem-development.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: guide
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/validate.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: rich text
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/rich-text.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: OPF files in Node
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/node.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: CSV and JSON data import
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/data-import.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: content conversions
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/conversions.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: Markdown and outlines
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/markdown.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: OPF as YAML
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/yaml.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/how-opf-works.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/how-opf-works.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/slide-design-principles.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/slide-design-principles.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/design-resolution.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/design-resolution.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/schema-reference.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/schema-reference.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/slide-sizes.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/slide-sizes.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/catalog-schema-reference.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/catalog-schema-reference.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`@openpresentation/gallery`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/packages/gallery
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: Templates and variables
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/templates-and-variables.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: Local MCP tools and export boundaries
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/mcp.md
+      source: https://github.com/OpenPresentation/opf
+  official_links:
+    - kind: showcase
+      title: pptx.gallery
+      url: https://pptx.gallery
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: "`docs/examples.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/examples.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: "`examples/technical/`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/examples/technical
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: "`examples/gallery/`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/examples/gallery
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: example
+      title: Examples
+      url: https://www.openpresentation.org/examples
+      source: https://www.openpresentation.org/
+    - kind: demo
+      title: Playground
+      url: https://www.openpresentation.org/playground
+      source: https://www.openpresentation.org/
+    - kind: example
+      title: Complete developer quickstart source deck
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/quickstart/developer-quickstart.opf.json
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: OPF skill set
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/agent-skills.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: developer quickstart
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/quickstart.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: compatibility matrix
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/compatibility-matrix.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: the authoring guide
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/llm-authoring.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: dynamic composition
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/dynamic-composition.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: local ecosystem verification
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/ecosystem-development.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: guide
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/validate.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: rich text
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/rich-text.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: OPF files in Node
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/node.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: CSV and JSON data import
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/data-import.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: content conversions
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/conversions.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: Markdown and outlines
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/markdown.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: OPF as YAML
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/yaml.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/how-opf-works.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/how-opf-works.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/slide-design-principles.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/slide-design-principles.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/design-resolution.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/design-resolution.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/schema-reference.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/schema-reference.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/slide-sizes.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/slide-sizes.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`docs/catalog-schema-reference.md`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/catalog-schema-reference.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: "`@openpresentation/gallery`"
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/packages/gallery
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: Templates and variables
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/templates-and-variables.md
+      source: https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md
+    - kind: docs
+      title: Local MCP tools and export boundaries
+      url: https://github.com/OpenPresentation/opf/blob/HEAD/docs/mcp.md
+      source: https://github.com/OpenPresentation/opf
+  source_headings:
+    - Open Presentation Format (OPF)
+    - Usage
+    - "or: npm install @openpresentation/opf"
+    - OpenPresentation Boundary

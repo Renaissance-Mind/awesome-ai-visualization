@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-11-06",
+  "sourceLastResearched": "2026-11-08",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33510,9 +33510,49 @@
         "https://github.com/caru-ini/stack-diagram",
         "https://raw.githubusercontent.com/caru-ini/stack-diagram/HEAD/README.md"
       ]
+    },
+    "Open Presentation Format (OPF)": {
+      "name": "Open Presentation Format (OPF)",
+      "url": "https://github.com/OpenPresentation/opf",
+      "sourceHash": "05a4b9386a8521caf2ecf1fe7ed7690dcf8848a25554d2fff2184cef9c2362b1",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "本地演示文稿格式/工具包，支持六种代理技能，用于创作、布局、预设、编辑、导出和模式检查。",
+      "explanation": "CLI 可读取 JSON/YAML/Markdown 演示文稿，验证内容/布局，并使用可选渲染器/PPTX 引擎生成 SVG/PNG/PDF 和可编辑的 PowerPoint 导入/导出。需要 Node 22+；文档测试 Node 24。导出需要匹配的引擎、字体包和格式特定转换器；opf doctor 报告缺失依赖项。设置并提供引用资源后，本地工具无需模型 API、账户或托管 OPF 服务。本地 stdio MCP 暴露文档/目录、验证和文本格式转换，不提供渲染的 PPTX 导出。PPTX 文本默认为单独的换行框，不支持后续重新排版；字体为命名，不嵌入。1.0 之前的模式在小版本间可能变化；验证本身不保证视觉一致性。未提及强制 GPU。",
+      "useCases": [
+        "使用 CLI 读取和验证 JSON/YAML/Markdown 格式的演示文稿",
+        "通过可选引擎生成 SVG/PNG/PDF 和可编辑的 PowerPoint 文件"
+      ],
+      "input": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码",
+        "Office 文档"
+      ],
+      "output": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "form": [
+        "API/SDK/库",
+        "Skill 集合",
+        "MCP Server"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "originalDescription": "Local presentation format/toolkit with six agent skills for authoring, layout, presets, editing, export and schema inspection. CLI reads JSON/YAML/Markdown decks, validates content/layout and uses optional renderer/PPTX engines for SVG/PNG/PDF and editable PowerPoint import/export. Requires Node 22+; documentation tests Node 24. Export needs matching engines, font packages and format-specific converters; opf doctor reports missing dependencies. After setup and supplying referenced assets, local tooling needs no model API, account or hosted OPF service; agent-provider privacy is separate. Local stdio MCP exposes docs/catalogs, validation and text-format conversion, not rendered PPTX export. PPTX text defaults to separate wrapped-line boxes without later reflow; fonts are named, not embedded. Pre-1.0 schemas can change between minor versions; validation alone does not establish visual fidelity. No mandatory GPU is documented.",
+      "sources": [
+        "https://github.com/OpenPresentation/opf",
+        "https://www.openpresentation.org/",
+        "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+      ]
     }
   },
-  "generatedAt": "2026-11-06T07:02:32.036Z",
+  "generatedAt": "2026-11-08T07:01:04.675Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

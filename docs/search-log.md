@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-11-06.
+Last researched: 2026-11-08.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-11-08: added Open Presentation Format (OPF) after official README, CLI manifest, quickstart, six-skill directory, MCP docs and GitHub API verification. Recorded local Node requirements, optional renderer/PPTX/font/converter packages, offline-after-setup operation, source formats and PowerPoint text-reflow/font limitations. Local MCP provides validation/catalog/text conversion rather than rendered PPTX export. Public pages currently differ on hosted-service availability and exact release pins, so this entry relies on verified local capabilities without asserting a hosted service or version set. Targeted scraping fetched two official sources; curated actual source-deck examples and moved package/template instructions into docs. Catalog coverage is 903 entries.
 
 Update on 2026-11-06: refreshed stack-diagram after verifying new Google Cloud and Azure official icon-package support in the README and fetch_icons.py, new example paths in the repository tree, and current GitHub metadata. The existing Python/Playwright rendering and network/offline/privacy conditions still apply. Targeted scraping fetched the current official README and added the two cloud previews; prior example/workflow/geometry links were retained. Catalog coverage remains 902 entries.
 

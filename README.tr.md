@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-902_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--06-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-903_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--08-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve
 [![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-06)
+## Latest Refresh (2026-11-08)
 
 | Project | Catalog focus |
 | --- | --- |
-| [stack-diagram](https://github.com/caru-ini/stack-diagram) | AWS yanında Google Cloud ve Azure resmi simge desteği ve örnekleri güncellendi; yerel çizim, çevrimdışı görüntüleme ve isteğe bağlı paylaşım koşulları belirtildi. |
+| [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) | Yerel JSON/Markdown/YAML sunum araçları, altı beceri ve MCP; doğrulama, isteğe bağlı PPTX/SVG/PNG/PDF dışa aktarma ve belgelenmiş görünüm sınırları. |
 
 ## ✨ Önerilen kullanım
 
@@ -643,6 +643,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [LangChat Slides](https://github.com/LangChat/langchat-slides) [![Star](https://img.shields.io/github/stars/LangChat/langchat-slides?style=flat&logo=github&label=Star)](https://github.com/LangChat/langchat-slides/stargazers) | Text/ideas / Data/tables / Any/multi-source | Open-source app/framework | PPT/deck / Chart/dashboard / SVG/PNG/PDF / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
 | [slides-grab](https://github.com/NomaDamas/slides-grab) [![Star](https://img.shields.io/github/stars/NomaDamas/slides-grab?style=flat&logo=github&label=Star)](https://github.com/NomaDamas/slides-grab/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / API/SDK/library / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [presentation-skill](https://github.com/siril9/presentation-skill) [![Star](https://img.shields.io/github/stars/siril9/presentation-skill?style=flat&logo=github&label=Star)](https://github.com/siril9/presentation-skill/stargazers) | Metin/fikirler / PDF/belgeler / Veri/tablolar / Makaleler/araştırma | Agent skill | PPT/sunum / Grafik/dashboard / Mimari/akış diyagramı / SVG/PNG/PDF | Agent host / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
+| [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) [![Star](https://img.shields.io/github/stars/OpenPresentation/opf?style=flat&logo=github&label=Star)](https://github.com/OpenPresentation/opf/stargazers) | Text/ideas / Data/tables / DSL/code / Office documents | API/SDK/library / Skill collection / MCP server | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [deck](https://github.com/k1LoW/deck) [![Star](https://img.shields.io/github/stars/k1LoW/deck?style=flat&logo=github&label=Star)](https://github.com/k1LoW/deck/stargazers) | Metin/fikirler / PDF/belgeler / Web/arama | API/SDK/kütüphane | PPT/sunum | Yerel runtime / Tarayıcı/hesap / Harici arama/veri / Render/dışa aktarma / Şablonlar/assetler |
 | [Bento](https://github.com/nyblnet/bento) [![Star](https://img.shields.io/github/stars/nyblnet/bento?style=flat&logo=github&label=Star)](https://github.com/nyblnet/bento/stargazers) | Metin/fikirler / Veri/tablolar / Herhangi/çok kaynaklı | Açık kaynak uygulama/framework | PPT/sunum / Web/etkileşimli sayfa / Grafik/dashboard / SVG/PNG/PDF | Tarayıcı/hesap / Yerel runtime / Render/dışa aktarma / Şablonlar/assetler |
 | [deckproof-mcp](https://github.com/OwnOptic/deckproof-mcp) [![Star](https://img.shields.io/github/stars/OwnOptic/deckproof-mcp?style=flat&logo=github&label=Star)](https://github.com/OwnOptic/deckproof-mcp/stargazers) | Office docs / Text/ideas | MCP server | PPT/deck / Evidence table | MCP client / Local runtime / Rendering/export / System tools / Templates/assets |

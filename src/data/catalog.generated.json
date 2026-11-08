@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-06T07:00:43+00:00",
-  "lastResearched": "2026-11-06",
+  "generatedAt": "2026-11-08T06:59:52+00:00",
+  "lastResearched": "2026-11-08",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 902,
+    "total": 903,
     "openSource": 218,
     "saas": 81,
     "modelApi": 277,
-    "examples": 1920,
+    "examples": 1927,
     "effectAssets": 2357,
-    "docs": 2228
+    "docs": 2250
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 594,
-      "数据/表格": 382,
+      "文本/想法": 595,
+      "数据/表格": 383,
       "代码/技术描述": 193,
       "任意/多源": 172,
       "网页/搜索结果": 220,
       "代码库": 104,
-      "DSL/代码": 187,
+      "DSL/代码": 188,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
-      "Office 文档": 177,
+      "Office 文档": 178,
       "引用网络": 5,
       "数据库": 80,
       "视频/音频": 3
@@ -32,18 +32,18 @@
     "toolForms": {
       "开源应用/框架": 218,
       "Agent Skill": 373,
-      "Skill 集合": 89,
-      "MCP Server": 295,
+      "Skill 集合": 90,
+      "MCP Server": 296,
       "产品/SaaS": 81,
       "数据集/评测": 5,
       "Bot/助手": 29,
       "研究原型": 13,
-      "API/SDK/库": 142,
+      "API/SDK/库": 143,
       "Awesome/索引": 27
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 384,
+      "PPT/演示文稿": 385,
       "网页/交互页面": 334,
       "问答/学习材料": 23,
       "报告/长文档": 132,
@@ -51,12 +51,12 @@
       "信息图/视觉报告": 123,
       "图表/仪表盘": 292,
       "架构图/流程图": 201,
-      "SVG/PNG/PDF": 402,
+      "SVG/PNG/PDF": 403,
       "报告/简报": 99,
       "白板/思维导图": 51,
       "图表/Mermaid": 81,
       "视频/音频": 81,
-      "结构化数据/Markdown": 144,
+      "结构化数据/Markdown": 145,
       "表格/时间线": 36,
       "引用答案": 9,
       "思维导图/知识地图": 50,
@@ -66,13 +66,13 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 770,
+      "本地语言环境": 771,
       "模型 API": 277,
       "文档解析/OCR": 129,
-      "渲染/导出": 801,
+      "渲染/导出": 802,
       "GPU/加速器": 24,
-      "模板/素材": 455,
-      "Agent 宿主": 464,
+      "模板/素材": 456,
+      "Agent 宿主": 465,
       "系统工具": 229,
       "浏览器/账号": 204,
       "存储/索引": 139,
@@ -88,7 +88,7 @@
       "data-dashboard": 140,
       "diagram-generation": 106,
       "literature-map": 5,
-      "presentation-tools": 275,
+      "presentation-tools": 276,
       "rendering-primitive": 29,
       "video-generation": 31,
       "codebase-map": 54,
@@ -102,7 +102,7 @@
       "support_mindmap": 20,
       "docs": 44,
       "support_doc_parse": 24,
-      "presentation": 283,
+      "presentation": 284,
       "data": 133,
       "video": 32,
       "code": 61,
@@ -74190,6 +74190,140 @@
       "docsCount": 2,
       "examplesCount": 1,
       "effectAssetsCount": 7
+    },
+    {
+      "name": "Open Presentation Format (OPF)",
+      "url": "https://github.com/OpenPresentation/opf",
+      "primaryUrl": "https://github.com/OpenPresentation/opf",
+      "homepage": "https://www.openpresentation.org/",
+      "category": "presentation-tools",
+      "surface": "library",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 9,
+      "license": "MIT",
+      "updated": "2026-11-08",
+      "note": "Local presentation format/toolkit with six agent skills for authoring, layout, presets, editing, export and schema inspection. CLI reads JSON/YAML/Markdown decks, validates content/layout and uses optional renderer/PPTX engines for SVG/PNG/PDF and editable PowerPoint import/export. Requires Node 22+; documentation tests Node 24. Export needs matching engines, font packages and format-specific converters; opf doctor reports missing dependencies. After setup and supplying referenced assets, local tooling needs no model API, account or hosted OPF service; agent-provider privacy is separate. Local stdio MCP exposes docs/catalogs, validation and text-format conversion, not rendered PPTX export. PPTX text defaults to separate wrapped-line boxes without later reflow; fonts are named, not embedded. Pre-1.0 schemas can change between minor versions; validation alone does not establish visual fidelity. No mandatory GPU is documented.",
+      "sourceTypes": [
+        "文本/想法",
+        "数据/表格",
+        "DSL/代码",
+        "Office 文档"
+      ],
+      "toolForms": [
+        "API/SDK/库",
+        "Skill 集合",
+        "MCP Server"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "SVG/PNG/PDF",
+        "结构化数据/Markdown"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "OPF skill set",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/agent-skills.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "developer quickstart",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/quickstart.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "compatibility matrix",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/compatibility-matrix.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "the authoring guide",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/llm-authoring.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "dynamic composition",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/dynamic-composition.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "local ecosystem verification",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/ecosystem-development.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "guide",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/validate.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "rich text",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/rich-text.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "showcase",
+          "title": "pptx.gallery",
+          "url": "https://pptx.gallery",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`docs/examples.md`",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/examples.md",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/technical/`",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/examples/technical",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "`examples/gallery/`",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/examples/gallery",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "Examples",
+          "url": "https://www.openpresentation.org/examples",
+          "source": "https://www.openpresentation.org/"
+        },
+        {
+          "kind": "demo",
+          "title": "Playground",
+          "url": "https://www.openpresentation.org/playground",
+          "source": "https://www.openpresentation.org/"
+        },
+        {
+          "kind": "example",
+          "title": "Complete developer quickstart source deck",
+          "url": "https://github.com/OpenPresentation/opf/blob/HEAD/docs/quickstart/developer-quickstart.opf.json",
+          "source": "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 22,
+      "examplesCount": 7,
+      "effectAssetsCount": 0
     }
   ]
 }
