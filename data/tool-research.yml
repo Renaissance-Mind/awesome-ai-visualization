@@ -1,4 +1,4 @@
-generated_at: "2026-11-08T06:59:52+00:00"
+generated_at: "2026-11-10T07:00:26+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -15,7 +15,7 @@ summary:
   fetched_sources_failed: 60
   official_examples: 1927
   official_effect_assets: 2357
-  official_docs: 2250
+  official_docs: 2253
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -59291,114 +59291,146 @@ entries:
   primary_url: https://github.com/genspark-ai/genoffice
   homepage: https://genoffice.ai/
   dependencies:
-  - 本地语言环境
-  - 模型 API
-  - 文档解析/OCR
-  - 渲染/导出
-  - 系统工具
-  catalog_note: Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX,
-    XLSX, PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.
+    - 本地语言环境
+    - 模型 API
+    - 文档解析/OCR
+    - 渲染/导出
+    - 系统工具
+  catalog_note: Desktop AI Office suite with bundled CLI, agent skill and MCP for local DOCX/XLSX/PPTX/PDF/Markdown/HTML
+    creation, conversion and editing. genoffice mcp runs over stdio without opening the app; optional in-app HTTP drives
+    a visible Word tab, and CLI HTTP supports file upload/download for remote clients. Network exposure needs explicit
+    host/token configuration; GENOFFICE_ALLOWED_ROOTS limits file access. Render/PDF commands still start a hidden
+    installed app; headless Linux hosts need a virtual display. File operations are local, while AI and
+    search/image/media calls use the configured provider or local endpoint. Application-only hidden selections do not
+    redact files read directly by CLI, MCP or headless export. Built-in AI supports account sign-in or provider keys;
+    local-model GPU needs depend on the model. ODF/legacy Word/Hancom imports save as OOXML copies rather than
+    round-tripping the original source format.
   fetched_sources:
-  - kind: github_readme
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-    final_url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-    status: 200
-    content_type: text/plain
-    title: Demo
-    bytes: 32484
-  - kind: homepage
-    url: https://genoffice.ai/
-    final_url: https://genoffice.ai/
-    status: 200
-    content_type: text/html
-    title: "GenOffice â\x80\x94 Free, Open-Source AI Office Suite"
-    description: Edit Word, Excel, PowerPoint and PDF files with built-in AI. Free, open-source desktop office apps for macOS,
-      Windows and Linux. Download GenOffice.
-    bytes: 60212
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Demo
+      bytes: 53469
+    - kind: homepage
+      url: https://genoffice.ai/
+      final_url: https://genoffice.ai/
+      status: 200
+      content_type: text/html
+      title: GenOffice - Free, Open-Source AI Office Suite
+      description: Edit Word, Excel, PowerPoint and PDF files with built-in AI. Free, open-source desktop office apps for
+        macOS, Windows and Linux. Download GenOffice.
+      bytes: 60212
   official_examples:
-  - kind: demo
-    title: Watch the demo
-    url: https://www.youtube.com/watch?v=B2pLdMX95v4
-    source: https://genoffice.ai/
+    - kind: demo
+      title: Watch the demo
+      url: https://www.youtube.com/watch?v=B2pLdMX95v4
+      source: https://genoffice.ai/
   official_docs:
-  - kind: docs
-    title: System requirements & installation guide
-    url: https://github.com/genspark-ai/genoffice
-    source: https://genoffice.ai/
+    - kind: docs
+      title: System requirements & installation guide
+      url: https://github.com/genspark-ai/genoffice
+      source: https://genoffice.ai/
+    - kind: docs
+      title: Bundled CLI and agent skill
+      url: https://github.com/genspark-ai/genoffice#command-line-and-agent-skill
+      source: https://github.com/genspark-ai/genoffice
+    - kind: docs
+      title: MCP transports, file boundaries and headless rendering
+      url: https://github.com/genspark-ai/genoffice#mcp-server
+      source: https://github.com/genspark-ai/genoffice
+    - kind: docs
+      title: Privacy and provider data handling
+      url: https://github.com/genspark-ai/genoffice/blob/HEAD/PRIVACY.md
+      source: https://github.com/genspark-ai/genoffice
   official_effect_assets:
-  - kind: image
-    title: GenOffice Docs rendering a two-column annual-report page with a full-width cover image, shaded KPI table, header
-      and footer, at 80% zoom with the AI panel collapsed
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-report.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'Time-lapse of GenOffice Slides generating the Aurora Home investor deck: the AI plans the storyline in the panel,
-      slides appear on the canvas one after another, and the finished de'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-generate.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice Slides: the cover slide of an AI-generated Aurora Home investor deck on the canvas, with the original
-      one-line prompt and the AI''s summary of what it built in the panel'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-cover.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice HTML: a generated landing page for a solar desk lamp in the dark Midnight Studio direction, shown in
-      the live preview with the AI panel summarizing the page it just built'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/html-ai.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice Slides showing an eight-slide Solar System deck that a coding agent built through the genoffice command
-      line: the cover slide on the canvas, eight thumbnails on the left '
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-deck-in-app.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'The eight rendered slides of the Solar System deck side by side: cover, exploration timeline, four key numbers,
-      planet-diameter bar chart, rocky worlds versus giants, the Sun''s 99.'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-slides-grid.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: video
-    title: Watch the demo
-    url: https://www.youtube.com/watch?v=B2pLdMX95v4
-    thumbnail_url: https://img.youtube.com/vi/B2pLdMX95v4/hqdefault.jpg
-    source: https://genoffice.ai/
-  - kind: image
-    title: 'GenOffice — the open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML with a built-in AI panel'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/hero.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice Docs: a company overview with a banner image; the AI tightened the Overview and inserted a new bulleted
-      section, and the panel offers a one-click roll back'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-ai.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice Sheets: the AI added a Summary sheet with revenue by region and category using SUMIF formulas, plus
-      a column chart, and reports 43 applied changes with an Undo button'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-ai.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice Sheets: asked which region led Q2 revenue, the AI answers Europe with the category breakdown and cites
-      the cells it used as links, next to the Orders sheet'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-qa.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
-  - kind: image
-    title: 'GenOffice Slides: the designed closing slide of the same 11-slide deck, with the thumbnail strip on the left and
-      the AI panel summarizing the storyline'
-    url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-ai.webp
-    source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: GenOffice Docs rendering a two-column annual-report page with a full-width cover image, shaded KPI table, header
+        and footer, at 80% zoom with the AI panel collapsed
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-report.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "Time-lapse of GenOffice Slides generating the Aurora Home investor deck: the AI plans the storyline in the
+        panel, slides appear on the canvas one after another, and the finished de"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-generate.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice Slides: the cover slide of an AI-generated Aurora Home investor deck on the canvas, with the original
+        one-line prompt and the AI's summary of what it built in the panel"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-cover.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice HTML: a generated landing page for a solar desk lamp in the dark Midnight Studio direction, shown in
+        the live preview with the AI panel summarizing the page it just built"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/html-ai.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "Two result lists for the query laptop refresh policy side by side: without Jev the dashboard refresh schedule,
+        brand refresh plan and browser cache refresh policy lead and the comp"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/search-jev-before-after.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice Slides showing an eight-slide Solar System deck that a coding agent built through the genoffice
+        command line: the cover slide on the canvas, eight thumbnails on the left "
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-deck-in-app.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "The eight rendered slides of the Solar System deck side by side: cover, exploration timeline, four key numbers,
+        planet-diameter bar chart, rocky worlds versus giants, the Sun's 99."
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-slides-grid.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice Slides showing the eight-slide Renewable Energy 2026 deck that Claude Code built through the genoffice
+        MCP server: the cover slide with a wind-farm photograph on the canv"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/mcp-deck-in-app.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice — the open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML with a built-in AI
+        panel"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/hero.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice Docs: a company overview with a banner image; the AI tightened the Overview and inserted a new
+        bulleted section, and the panel offers a one-click roll back"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/docs-ai.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice Sheets: the AI added a Summary sheet with revenue by region and category using SUMIF formulas, plus a
+        column chart, and reports 43 applied changes with an Undo button"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-ai.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
+    - kind: image
+      title: "GenOffice Sheets: asked which region led Q2 revenue, the AI answers Europe with the category breakdown and cites
+        the cells it used as links, next to the Orders sheet"
+      url: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-qa.webp
+      source: https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md
   official_links:
-  - kind: demo
-    title: Watch the demo
-    url: https://www.youtube.com/watch?v=B2pLdMX95v4
-    source: https://genoffice.ai/
-  - kind: docs
-    title: System requirements & installation guide
-    url: https://github.com/genspark-ai/genoffice
-    source: https://genoffice.ai/
+    - kind: demo
+      title: Watch the demo
+      url: https://www.youtube.com/watch?v=B2pLdMX95v4
+      source: https://genoffice.ai/
+    - kind: docs
+      title: System requirements & installation guide
+      url: https://github.com/genspark-ai/genoffice
+      source: https://genoffice.ai/
+    - kind: docs
+      title: Bundled CLI and agent skill
+      url: https://github.com/genspark-ai/genoffice#command-line-and-agent-skill
+      source: https://github.com/genspark-ai/genoffice
+    - kind: docs
+      title: MCP transports, file boundaries and headless rendering
+      url: https://github.com/genspark-ai/genoffice#mcp-server
+      source: https://github.com/genspark-ai/genoffice
+    - kind: docs
+      title: Privacy and provider data handling
+      url: https://github.com/genspark-ai/genoffice/blob/HEAD/PRIVACY.md
+      source: https://github.com/genspark-ai/genoffice
   source_headings:
-  - Demo
-  - 1 · Docs — open and edit `.docx` with an AI you can review
-  - 3 · Slides — from a prompt to a `.pptx` deck
-  - Quickstart from the terminal
+    - Demo
+    - 1 · Docs — open and edit `.docx` with an AI you can review
+    - 3 · Slides — from a prompt to a `.pptx` deck
+    - Quickstart from the terminal
 - name: Power BI Agentic Development
   category: data-dashboard
   surface: skill

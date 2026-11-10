@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-903_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--08-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--10-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-08)
+## Latest Refresh (2026-11-10)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) | 本地 JSON/Markdown/YAML 演示稿工具包、六个 Agent Skills 与 MCP，提供校验及可选 PPTX/SVG/PNG/PDF 导出，并注明保真度限制。 |
+| [GenOffice](https://github.com/genspark-ai/genoffice) | 更新 stdio/HTTP MCP、远程文件传输、无界面渲染条件及应用内隐藏内容的隐私边界。 |
 
 ## ✨ 推荐使用方式
 
@@ -629,7 +629,7 @@
 | [pptpress](https://github.com/liustack/pptpress) [![Star](https://img.shields.io/github/stars/liustack/pptpress?style=flat&logo=github&label=Star)](https://github.com/liustack/pptpress/stargazers) | 文本/想法 / DSL/代码 / Office 文档 | Agent Skill / API/SDK/库 | PPT/演示文稿 / 结构化数据/Markdown | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [AppAutomaton Presentation](https://github.com/appautomaton/presentation) [![Star](https://img.shields.io/github/stars/appautomaton/presentation?style=flat&logo=github&label=Star)](https://github.com/appautomaton/presentation/stargazers) | 文本/想法 / 网页/搜索结果 / 数据/表格 / 任意/多源 | Skill 集合 / Agent Skill | PPT/演示文稿 / 报告/简报 / SVG/PNG/PDF | Agent 宿主 / 本地语言环境 / 模型 API / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
 | [concept-skills](https://github.com/ontology-of-everything/concept-skills) [![Star](https://img.shields.io/github/stars/ontology-of-everything/concept-skills?style=flat&logo=github&label=Star)](https://github.com/ontology-of-everything/concept-skills/stargazers) | Text/ideas / Code/technical text / Data/tables / Knowledge base | Skill collection | PPT/deck / Web/interactive page / Mind map/knowledge map / Structured data/Markdown | Agent host / Local runtime / Storage/index / Rendering/export / Templates/assets |
-| [GenOffice](https://github.com/genspark-ai/genoffice) [![Star](https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat&logo=github&label=Star)](https://github.com/genspark-ai/genoffice/stargazers) | Office docs / PDF/documents / Text/ideas / Data/tables | Open-source app/framework / Agent skill / API/SDK/library | PPT/deck / Long report / Web/interactive page / Structured data/Markdown | Local runtime / Model API / Document parsing/OCR / Rendering/export / System tools |
+| [GenOffice](https://github.com/genspark-ai/genoffice) [![Star](https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat&logo=github&label=Star)](https://github.com/genspark-ai/genoffice/stargazers) | Office docs / PDF/documents / Text/ideas / Data/tables | Open-source app/framework / Agent skill / API/SDK/library / MCP server | PPT/deck / Long report / Web/interactive page / Structured data/Markdown | Local runtime / Model API / Document parsing/OCR / Rendering/export / System tools |
 | [skills-slides](https://github.com/nghiahsgs/skills-slides) [![Star](https://img.shields.io/github/stars/nghiahsgs/skills-slides?style=flat&logo=github&label=Star)](https://github.com/nghiahsgs/skills-slides/stargazers) | Text/ideas / Data/tables / DSL/code | Agent skill | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [open-gamma](https://github.com/composio-community/open-gamma) [![Star](https://img.shields.io/github/stars/composio-community/open-gamma?style=flat&logo=github&label=Star)](https://github.com/composio-community/open-gamma/stargazers) | 文本/想法 / 网页/搜索结果 / 任意/多源 | 开源应用/框架 / Bot/助手 | PPT/演示文稿 / 网页/交互页面 | 浏览器/账号 / 本地语言环境 / 模型 API / 外部检索/数据源 / 渲染/导出 / 模板/素材 |
 | [exploded-view](https://github.com/luisxavierxd/exploded-view) [![Star](https://img.shields.io/github/stars/luisxavierxd/exploded-view?style=flat&logo=github&label=Star)](https://github.com/luisxavierxd/exploded-view/stargazers) | 代码/技术描述 / 文本/想法 / DSL/代码 | Agent Skill | PPT/演示文稿 / 网页/交互页面 / 视频/音频 | Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 / 系统工具 |

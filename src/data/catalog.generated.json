@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T06:59:52+00:00",
-  "lastResearched": "2026-11-08",
+  "generatedAt": "2026-11-10T07:00:26+00:00",
+  "lastResearched": "2026-11-10",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
     "total": 903,
@@ -9,7 +9,7 @@
     "modelApi": 277,
     "examples": 1927,
     "effectAssets": 2357,
-    "docs": 2250
+    "docs": 2253
   },
   "facets": {
     "sourceTypes": {
@@ -33,7 +33,7 @@
       "开源应用/框架": 218,
       "Agent Skill": 373,
       "Skill 集合": 90,
-      "MCP Server": 296,
+      "MCP Server": 297,
       "产品/SaaS": 81,
       "数据集/评测": 5,
       "Bot/助手": 29,
@@ -62548,10 +62548,10 @@
         "渲染/导出",
         "系统工具"
       ],
-      "stars": 6841,
+      "stars": 12063,
       "license": "Apache-2.0",
-      "updated": "2026-09-15",
-      "note": "Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.",
+      "updated": "2026-11-10",
+      "note": "Desktop AI Office suite with bundled CLI, agent skill and MCP for local DOCX/XLSX/PPTX/PDF/Markdown/HTML creation, conversion and editing. genoffice mcp runs over stdio without opening the app; optional in-app HTTP drives a visible Word tab, and CLI HTTP supports file upload/download for remote clients. Network exposure needs explicit host/token configuration; GENOFFICE_ALLOWED_ROOTS limits file access. Render/PDF commands still start a hidden installed app; headless Linux hosts need a virtual display. File operations are local, while AI and search/image/media calls use the configured provider or local endpoint. Application-only hidden selections do not redact files read directly by CLI, MCP or headless export. Built-in AI supports account sign-in or provider keys; local-model GPU needs depend on the model. ODF/legacy Word/Hancom imports save as OOXML copies rather than round-tripping the original source format.",
       "sourceTypes": [
         "Office 文档",
         "PDF/文档",
@@ -62561,7 +62561,8 @@
       "toolForms": [
         "开源应用/框架",
         "Agent Skill",
-        "API/SDK/库"
+        "API/SDK/库",
+        "MCP Server"
       ],
       "outputForms": [
         "PPT/演示文稿",
@@ -62577,6 +62578,24 @@
           "title": "System requirements & installation guide",
           "url": "https://github.com/genspark-ai/genoffice",
           "source": "https://genoffice.ai/"
+        },
+        {
+          "kind": "docs",
+          "title": "Bundled CLI and agent skill",
+          "url": "https://github.com/genspark-ai/genoffice#command-line-and-agent-skill",
+          "source": "https://github.com/genspark-ai/genoffice"
+        },
+        {
+          "kind": "docs",
+          "title": "MCP transports, file boundaries and headless rendering",
+          "url": "https://github.com/genspark-ai/genoffice#mcp-server",
+          "source": "https://github.com/genspark-ai/genoffice"
+        },
+        {
+          "kind": "docs",
+          "title": "Privacy and provider data handling",
+          "url": "https://github.com/genspark-ai/genoffice/blob/HEAD/PRIVACY.md",
+          "source": "https://github.com/genspark-ai/genoffice"
         }
       ],
       "examples": [
@@ -62618,6 +62637,13 @@
         },
         {
           "kind": "image",
+          "title": "Two result lists for the query laptop refresh policy side by side: without Jev the dashboard refresh schedule, brand refresh plan and browser cache refresh policy lead and the comp",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/search-jev-before-after.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
+        },
+        {
+          "kind": "image",
           "title": "GenOffice Slides showing an eight-slide Solar System deck that a coding agent built through the genoffice command line: the cover slide on the canvas, eight thumbnails on the left ",
           "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/cli-deck-in-app.webp",
           "thumbnailUrl": null,
@@ -62631,11 +62657,11 @@
           "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
         },
         {
-          "kind": "video",
-          "title": "Watch the demo",
-          "url": "https://www.youtube.com/watch?v=B2pLdMX95v4",
-          "thumbnailUrl": "https://img.youtube.com/vi/B2pLdMX95v4/hqdefault.jpg",
-          "source": "https://genoffice.ai/"
+          "kind": "image",
+          "title": "GenOffice Slides showing the eight-slide Renewable Energy 2026 deck that Claude Code built through the genoffice MCP server: the cover slide with a wind-farm photograph on the canv",
+          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/mcp-deck-in-app.webp",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
         },
         {
           "kind": "image",
@@ -62664,16 +62690,9 @@
           "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/sheets-qa.webp",
           "thumbnailUrl": null,
           "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
-        },
-        {
-          "kind": "image",
-          "title": "GenOffice Slides: the designed closing slide of the same 11-slide deck, with the thumbnail strip on the left and the AI panel summarizing the storyline",
-          "url": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/docs/assets/readme/slides-ai.webp",
-          "thumbnailUrl": null,
-          "source": "https://raw.githubusercontent.com/genspark-ai/genoffice/HEAD/README.md"
         }
       ],
-      "docsCount": 1,
+      "docsCount": 4,
       "examplesCount": 1,
       "effectAssetsCount": 12
     },

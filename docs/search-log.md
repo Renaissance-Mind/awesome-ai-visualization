@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-11-08.
+Last researched: 2026-11-10.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-11-10: refreshed the existing GenOffice entry using its official README, detailed MCP/CLI sections and current GitHub API metadata. Added MCP as a tool form and recorded local stdio, visible in-app HTTP and optional network HTTP/file transfer, allowed roots and token configuration, installed-app/virtual-display requirements for headless rendering, cloud-provider calls and the limit of application-only hidden-content redaction. Recorded OOXML-copy behavior for ODF/legacy/Hancom imports. Targeted scraping fetched the official README; refreshed actual product/workflow previews and added CLI/MCP/privacy guides. Normalized a malformed legacy homepage-title dash to remove C1 controls exposed by Python YAML validation. Catalog coverage remains 903 entries.
 
 Update on 2026-11-08: added Open Presentation Format (OPF) after official README, CLI manifest, quickstart, six-skill directory, MCP docs and GitHub API verification. Recorded local Node requirements, optional renderer/PPTX/font/converter packages, offline-after-setup operation, source formats and PowerPoint text-reflow/font limitations. Local MCP provides validation/catalog/text conversion rather than rendered PPTX export. Public pages currently differ on hosted-service availability and exact release pins, so this entry relies on verified local capabilities without asserting a hosted service or version set. Targeted scraping fetched two official sources; curated actual source-deck examples and moved package/template instructions into docs. Catalog coverage is 903 entries.
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-11-08",
+  "sourceLastResearched": "2026-11-10",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -28487,13 +28487,13 @@
     "GenOffice": {
       "name": "GenOffice",
       "url": "https://github.com/genspark-ai/genoffice",
-      "sourceHash": "b9bc38b295740b7321d5f17862c2c2a947ca5ad2809a00498aa73b55980edd9a",
+      "sourceHash": "68a8f63f7184d0538302026a2a2d1acf6a7500c6a1da026abc3002429c3e0690",
       "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
-      "summary": "本地开源AI办公套件，支持多种文件格式的创建与编辑",
-      "explanation": "GenOffice是一个开源的AI办公套件，提供命令行接口，支持本地创建、转换、读取和编辑DOCX、XLSX、PPTX、PDF、Markdown和HTML文件，并提供可审查的AI编辑功能。",
+      "summary": "桌面AI办公套件，支持本地文档创建、转换和编辑",
+      "explanation": "GenOffice 是一个桌面 AI 办公套件，提供 DOCX/XLSX/PPTX/PDF/Markdown/HTML 的本地创建、转换和编辑功能。它包含 CLI、代理技能和 MCP，可通过标准输入输出运行，也可通过内置 HTTP 驱动可见的 Word 标签页操作。文件操作在本地进行，AI 和搜索等功能使用配置的提供者或本地端点。",
       "useCases": [
-        "编辑Word、Excel、PowerPoint和PDF文件",
-        "使用AI进行文件编辑并审查结果"
+        "编辑 Word、Excel、PowerPoint 和 PDF 文件",
+        "使用内置 AI 进行文档处理"
       ],
       "input": [
         "Office 文档",
@@ -28510,7 +28510,8 @@
       "form": [
         "开源应用/框架",
         "Agent Skill",
-        "API/SDK/库"
+        "API/SDK/库",
+        "MCP Server"
       ],
       "requirements": [
         "本地语言环境",
@@ -28519,7 +28520,7 @@
         "渲染/导出",
         "系统工具"
       ],
-      "originalDescription": "Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.",
+      "originalDescription": "Desktop AI Office suite with bundled CLI, agent skill and MCP for local DOCX/XLSX/PPTX/PDF/Markdown/HTML creation, conversion and editing. genoffice mcp runs over stdio without opening the app; optional in-app HTTP drives a visible Word tab, and CLI HTTP supports file upload/download for remote clients. Network exposure needs explicit host/token configuration; GENOFFICE_ALLOWED_ROOTS limits file access. Render/PDF commands still start a hidden installed app; headless Linux hosts need a virtual display. File operations are local, while AI and search/image/media calls use the configured provider or local endpoint. Application-only hidden selections do not redact files read directly by CLI, MCP or headless export. Built-in AI supports account sign-in or provider keys; local-model GPU needs depend on the model. ODF/legacy Word/Hancom imports save as OOXML copies rather than round-tripping the original source format.",
       "sources": [
         "https://github.com/genspark-ai/genoffice",
         "https://genoffice.ai/",
@@ -33552,7 +33553,7 @@
       ]
     }
   },
-  "generatedAt": "2026-11-08T07:01:04.675Z",
+  "generatedAt": "2026-11-10T07:01:41.167Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

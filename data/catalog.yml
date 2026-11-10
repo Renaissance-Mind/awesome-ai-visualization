@@ -1,4 +1,4 @@
-last_researched: '2026-11-08'
+last_researched: '2026-11-10'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -20143,11 +20143,17 @@ entries:
   - 文档解析/OCR
   - 渲染/导出
   - 系统工具
-  stars: 6841
+  stars: 12063
   license: Apache-2.0
-  updated: '2026-09-15'
-  note: Open-source AI Office suite and agent-ready CLI for creating, converting, reading, and editing real DOCX, XLSX,
-    PPTX, PDF, Markdown, and HTML files locally with reviewable AI edits.
+  updated: '2026-11-10'
+  note: Desktop AI Office suite with bundled CLI, agent skill and MCP for local DOCX/XLSX/PPTX/PDF/Markdown/HTML creation,
+    conversion and editing. genoffice mcp runs over stdio without opening the app; optional in-app HTTP drives a visible
+    Word tab, and CLI HTTP supports file upload/download for remote clients. Network exposure needs explicit host/token
+    configuration; GENOFFICE_ALLOWED_ROOTS limits file access. Render/PDF commands still start a hidden installed app;
+    headless Linux hosts need a virtual display. File operations are local, while AI and search/image/media calls use the
+    configured provider or local endpoint. Application-only hidden selections do not redact files read directly by CLI,
+    MCP or headless export. Built-in AI supports account sign-in or provider keys; local-model GPU needs depend on the model.
+    ODF/legacy Word/Hancom imports save as OOXML copies rather than round-tripping the original source format.
   source_types:
   - Office 文档
   - PDF/文档
@@ -20157,6 +20163,7 @@ entries:
   - 开源应用/框架
   - Agent Skill
   - API/SDK/库
+  - MCP Server
   output_forms:
   - PPT/演示文稿
   - 报告/长文档
