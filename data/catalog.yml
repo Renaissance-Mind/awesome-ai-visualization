@@ -1,4 +1,4 @@
-last_researched: '2026-11-10'
+last_researched: '2026-11-12'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23966,5 +23966,38 @@ entries:
   - PPT/演示文稿
   - SVG/PNG/PDF
   - 结构化数据/Markdown
+  catalog_section: main
+  readme_group: presentation
+- name: PowerPoint Agent Skills by geekfujiwara
+  url: https://github.com/geekfujiwara/powerpoint-agent-skills
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 浏览器/账号
+  - 模板/素材
+  stars: 18
+  license: MIT
+  updated: '2026-11-11'
+  note: Independent personal collection of ten instruction-only skills for Copilot in PowerPoint agent mode, not a
+    Microsoft product. Uses existing slides and supplied material for diagram restructuring, light/dark deck themes,
+    illustrations, key-point emphasis, hierarchy/journey diagrams, long-tail charts, restrained animations and approved
+    duplicate-shape cleanup. Install selected skill folders through PowerPoint's custom-skills OneDrive location; access
+    depends on Microsoft 365 subscription, organization settings and rollout. No local script, Python or separate skill
+    dependency is required. It is not an offline/self-hosted workflow; account and document data handling follow Microsoft
+    365 and organization policies. No separate API key or GPU requirement is documented. Ambiguous claims need evidence,
+    external search is on request, and duplicate deletion requires separate approval. Skills provide instructions rather
+    than new application capabilities; rendering and animation support vary by environment. Demos are captioned and silent.
+  source_types:
+  - Office 文档
+  - 文本/想法
+  - 数据/表格
+  tool_forms:
+  - Skill 集合
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 架构图/流程图
+  - 图表/仪表盘
   catalog_section: main
   readme_group: presentation

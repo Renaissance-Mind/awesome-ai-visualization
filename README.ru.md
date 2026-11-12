@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-903_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--10-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--12-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | Русский
 
@@ -26,11 +26,11 @@
 [![Новые репозитории по месяцам и категориям](public/activity/ru/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ru/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-10)
+## Latest Refresh (2026-11-12)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GenOffice](https://github.com/genspark-ai/genoffice) | Обновлены MCP stdio/HTTP, передача файлов, требования рендеринга без интерфейса и границы скрытия содержимого внутри приложения. |
+| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) | Независимые навыки для Copilot в PowerPoint: схемы, темы, графики и согласованная очистка; требуется поддерживаемая среда Microsoft 365/OneDrive. |
 
 ## ✨ Рекомендуемое использование
 
@@ -643,6 +643,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [LangChat Slides](https://github.com/LangChat/langchat-slides) [![Star](https://img.shields.io/github/stars/LangChat/langchat-slides?style=flat&logo=github&label=Star)](https://github.com/LangChat/langchat-slides/stargazers) | Text/ideas / Data/tables / Any/multi-source | Open-source app/framework | PPT/deck / Chart/dashboard / SVG/PNG/PDF / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
 | [slides-grab](https://github.com/NomaDamas/slides-grab) [![Star](https://img.shields.io/github/stars/NomaDamas/slides-grab?style=flat&logo=github&label=Star)](https://github.com/NomaDamas/slides-grab/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / API/SDK/library / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [presentation-skill](https://github.com/siril9/presentation-skill) [![Star](https://img.shields.io/github/stars/siril9/presentation-skill?style=flat&logo=github&label=Star)](https://github.com/siril9/presentation-skill/stargazers) | Текст/идеи / PDF/документы / Данные/таблицы / Статьи/исследования | Agent skill | PPT/презентация / График/дашборд / Архитектура/flow diagram / SVG/PNG/PDF | Agent host / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |
+| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) [![Star](https://img.shields.io/github/stars/geekfujiwara/powerpoint-agent-skills?style=flat&logo=github&label=Star)](https://github.com/geekfujiwara/powerpoint-agent-skills/stargazers) | Office documents / Text/ideas / Data/tables | Skill collection / Agent skill | PPT/deck / Architecture/flow diagram / Chart/dashboard | Agent host / Browser/account / Templates/assets |
 | [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) [![Star](https://img.shields.io/github/stars/OpenPresentation/opf?style=flat&logo=github&label=Star)](https://github.com/OpenPresentation/opf/stargazers) | Text/ideas / Data/tables / DSL/code / Office documents | API/SDK/library / Skill collection / MCP server | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [deck](https://github.com/k1LoW/deck) [![Star](https://img.shields.io/github/stars/k1LoW/deck?style=flat&logo=github&label=Star)](https://github.com/k1LoW/deck/stargazers) | Текст/идеи / PDF/документы / Веб/поиск | API/SDK/библиотека | PPT/презентация | Локальный runtime / Браузер/аккаунт / Внешний поиск/данные / Рендеринг/экспорт / Шаблоны/assets |
 | [Bento](https://github.com/nyblnet/bento) [![Star](https://img.shields.io/github/stars/nyblnet/bento?style=flat&logo=github&label=Star)](https://github.com/nyblnet/bento/stargazers) | Текст/идеи / Данные/таблицы / Любые/много источников | Open-source приложение/фреймворк | PPT/презентация / Веб/интерактивная страница / График/дашборд / SVG/PNG/PDF | Браузер/аккаунт / Локальный runtime / Рендеринг/экспорт / Шаблоны/assets |

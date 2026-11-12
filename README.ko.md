@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-903_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--10-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--12-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-10)
+## Latest Refresh (2026-11-12)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GenOffice](https://github.com/genspark-ai/genoffice) | stdio/HTTP MCP, 원격 파일 전송, 헤드리스 렌더링 조건 및 앱 내부 숨김 콘텐츠의 개인정보 경계를 갱신했습니다. |
+| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) | PowerPoint Copilot agent mode용 독립 스킬 모음. 다이어그램 재구성, 테마, 차트와 승인된 정리를 제공하며 지원되는 Microsoft 365/OneDrive 환경이 필요합니다. |
 
 ## ✨ 추천 사용법
 
@@ -643,6 +643,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [LangChat Slides](https://github.com/LangChat/langchat-slides) [![Star](https://img.shields.io/github/stars/LangChat/langchat-slides?style=flat&logo=github&label=Star)](https://github.com/LangChat/langchat-slides/stargazers) | Text/ideas / Data/tables / Any/multi-source | Open-source app/framework | PPT/deck / Chart/dashboard / SVG/PNG/PDF / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
 | [slides-grab](https://github.com/NomaDamas/slides-grab) [![Star](https://img.shields.io/github/stars/NomaDamas/slides-grab?style=flat&logo=github&label=Star)](https://github.com/NomaDamas/slides-grab/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / API/SDK/library / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [presentation-skill](https://github.com/siril9/presentation-skill) [![Star](https://img.shields.io/github/stars/siril9/presentation-skill?style=flat&logo=github&label=Star)](https://github.com/siril9/presentation-skill/stargazers) | 텍스트/아이디어 / PDF/문서 / 데이터/표 / 논문/연구 자료 | Agent Skill | PPT/덱 / 차트/대시보드 / 아키텍처/플로우 다이어그램 / SVG/PNG/PDF | Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
+| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) [![Star](https://img.shields.io/github/stars/geekfujiwara/powerpoint-agent-skills?style=flat&logo=github&label=Star)](https://github.com/geekfujiwara/powerpoint-agent-skills/stargazers) | Office documents / Text/ideas / Data/tables | Skill collection / Agent skill | PPT/deck / Architecture/flow diagram / Chart/dashboard | Agent host / Browser/account / Templates/assets |
 | [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) [![Star](https://img.shields.io/github/stars/OpenPresentation/opf?style=flat&logo=github&label=Star)](https://github.com/OpenPresentation/opf/stargazers) | Text/ideas / Data/tables / DSL/code / Office documents | API/SDK/library / Skill collection / MCP server | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [deck](https://github.com/k1LoW/deck) [![Star](https://img.shields.io/github/stars/k1LoW/deck?style=flat&logo=github&label=Star)](https://github.com/k1LoW/deck/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | API/SDK/라이브러리 | PPT/덱 | 로컬 런타임 / 브라우저/계정 / 외부 검색/데이터 / 렌더링/내보내기 / 템플릿/소재 |
 | [Bento](https://github.com/nyblnet/bento) [![Star](https://img.shields.io/github/stars/nyblnet/bento?style=flat&logo=github&label=Star)](https://github.com/nyblnet/bento/stargazers) | 텍스트/아이디어 / 데이터/표 / 임의/다중 소스 | 오픈소스 앱/프레임워크 | PPT/덱 / 웹/인터랙티브 페이지 / 차트/대시보드 / SVG/PNG/PDF | 브라우저/계정 / 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |

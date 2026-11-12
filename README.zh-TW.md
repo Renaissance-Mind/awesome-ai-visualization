@@ -2,8 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-903_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--10-brightgreen)](docs/search-log.md)
+[![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--12-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-10)
+## Latest Refresh (2026-11-12)
 
 | Project | Catalog focus |
 | --- | --- |
-| [GenOffice](https://github.com/genspark-ai/genoffice) | 更新 stdio/HTTP MCP、遠端檔案傳輸、無介面渲染條件及應用程式內隱藏內容的隱私邊界。 |
+| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) | 面向 PowerPoint Copilot agent mode 的獨立技能集：圖示重構、主題、圖表及經確認的清理；依賴受支援的 Microsoft 365/OneDrive 技能流程。 |
 
 ## ✨ 推薦使用方式
 
@@ -641,6 +641,7 @@
 | [LangChat Slides](https://github.com/LangChat/langchat-slides) [![Star](https://img.shields.io/github/stars/LangChat/langchat-slides?style=flat&logo=github&label=Star)](https://github.com/LangChat/langchat-slides/stargazers) | Text/ideas / Data/tables / Any/multi-source | Open-source app/framework | PPT/deck / Chart/dashboard / SVG/PNG/PDF / Web/interactive page | Browser/account / Local runtime / Model API / Rendering/export / Templates/assets |
 | [slides-grab](https://github.com/NomaDamas/slides-grab) [![Star](https://img.shields.io/github/stars/NomaDamas/slides-grab?style=flat&logo=github&label=Star)](https://github.com/NomaDamas/slides-grab/stargazers) | Text/ideas / PDF/documents / Office docs / Web/search | Agent skill / API/SDK/library / Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF | Agent host / Local runtime / Rendering/export / System tools / Templates/assets |
 | [presentation-skill](https://github.com/siril9/presentation-skill) [![Star](https://img.shields.io/github/stars/siril9/presentation-skill?style=flat&logo=github&label=Star)](https://github.com/siril9/presentation-skill/stargazers) | 文字/想法 / PDF/文件 / 資料/表格 / 論文/科研資料 | Agent Skill | PPT/簡報 / 圖表/儀表板 / 架構圖/流程圖 / SVG/PNG/PDF | Agent 宿主 / 本機語言環境 / 渲染/匯出 / 範本/素材 |
+| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) [![Star](https://img.shields.io/github/stars/geekfujiwara/powerpoint-agent-skills?style=flat&logo=github&label=Star)](https://github.com/geekfujiwara/powerpoint-agent-skills/stargazers) | Office documents / Text/ideas / Data/tables | Skill collection / Agent skill | PPT/deck / Architecture/flow diagram / Chart/dashboard | Agent host / Browser/account / Templates/assets |
 | [Open Presentation Format (OPF)](https://github.com/OpenPresentation/opf) [![Star](https://img.shields.io/github/stars/OpenPresentation/opf?style=flat&logo=github&label=Star)](https://github.com/OpenPresentation/opf/stargazers) | Text/ideas / Data/tables / DSL/code / Office documents | API/SDK/library / Skill collection / MCP server | PPT/deck / SVG/PNG/PDF / Structured data/Markdown | Agent host / Local runtime / Rendering/export / Templates/assets |
 | [deck](https://github.com/k1LoW/deck) [![Star](https://img.shields.io/github/stars/k1LoW/deck?style=flat&logo=github&label=Star)](https://github.com/k1LoW/deck/stargazers) | 文字/想法 / PDF/文件 / 網頁/搜尋結果 | API/SDK/庫 | PPT/簡報 | 本機語言環境 / 瀏覽器/帳號 / 外部檢索/資料源 / 渲染/匯出 / 範本/素材 |
 | [Bento](https://github.com/nyblnet/bento) [![Star](https://img.shields.io/github/stars/nyblnet/bento?style=flat&logo=github&label=Star)](https://github.com/nyblnet/bento/stargazers) | 文字/想法 / 資料/表格 / 任意/多來源 | 開源應用/框架 | PPT/簡報 / 網頁/互動頁面 / 圖表/儀表板 / SVG/PNG/PDF | 瀏覽器/帳號 / 本機語言環境 / 渲染/匯出 / 範本/素材 |

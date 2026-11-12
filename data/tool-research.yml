@@ -1,4 +1,4 @@
-generated_at: "2026-11-10T07:00:26+00:00"
+generated_at: "2026-11-12T07:03:54+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 903
-  fetched_sources_ok: 1200
+  entries: 904
+  fetched_sources_ok: 1201
   fetched_sources_failed: 60
-  official_examples: 1927
+  official_examples: 1928
   official_effect_assets: 2357
-  official_docs: 2253
+  official_docs: 2256
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -71065,3 +71065,67 @@ entries:
     - Usage
     - "or: npm install @openpresentation/opf"
     - OpenPresentation Boundary
+- name: PowerPoint Agent Skills by geekfujiwara
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/geekfujiwara/powerpoint-agent-skills
+  dependencies:
+    - Agent 宿主
+    - 浏览器/账号
+    - 模板/素材
+  catalog_note: Independent personal collection of ten instruction-only skills for Copilot in PowerPoint agent mode, not a
+    Microsoft product. Uses existing slides and supplied material for diagram restructuring, light/dark deck themes,
+    illustrations, key-point emphasis, hierarchy/journey diagrams, long-tail charts, restrained animations and approved
+    duplicate-shape cleanup. Install selected skill folders through PowerPoint's custom-skills OneDrive location; access
+    depends on Microsoft 365 subscription, organization settings and rollout. No local script, Python or separate skill
+    dependency is required. It is not an offline/self-hosted workflow; account and document data handling follow
+    Microsoft 365 and organization policies. No separate API key or GPU requirement is documented. Ambiguous claims need
+    evidence, external search is on request, and duplicate deletion requires separate approval. Skills provide
+    instructions rather than new application capabilities; rendering and animation support vary by environment. Demos
+    are captioned and silent.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: PowerPoint Agent Skills
+      bytes: 20229
+  official_examples:
+    - kind: example
+      title: Author-provided example slides and skill demos
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills#example-slides
+      source: https://github.com/geekfujiwara/powerpoint-agent-skills
+  official_docs:
+    - kind: docs
+      title: 利用上の注意
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/docs/SAFETY.md
+      source: https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md
+    - kind: docs
+      title: presentation-theme
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/skills/presentation-theme/SKILL.md
+      source: https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md
+    - kind: docs
+      title: Diagram restructuring and evidence checks
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/skills/optimize-slide-diagram/SKILL.md
+      source: https://github.com/geekfujiwara/powerpoint-agent-skills
+  official_links:
+    - kind: example
+      title: Author-provided example slides and skill demos
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills#example-slides
+      source: https://github.com/geekfujiwara/powerpoint-agent-skills
+    - kind: docs
+      title: 利用上の注意
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/docs/SAFETY.md
+      source: https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md
+    - kind: docs
+      title: presentation-theme
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/skills/presentation-theme/SKILL.md
+      source: https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md
+    - kind: docs
+      title: Diagram restructuring and evidence checks
+      url: https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/skills/optimize-slide-diagram/SKILL.md
+      source: https://github.com/geekfujiwara/powerpoint-agent-skills
+  source_headings:
+    - Example slides
+    - Improve an existing diagram

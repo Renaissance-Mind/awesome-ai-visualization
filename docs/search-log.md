@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-11-10.
+Last researched: 2026-11-12.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-11-12: added PowerPoint Agent Skills by geekfujiwara after official README, safety guide, repository tree and GitHub metadata verification. Recorded the independent project's ten instruction-only Copilot in PowerPoint skills, Microsoft 365/organization/rollout and OneDrive dependencies, environment-dependent rendering, evidence checks and separately approved duplicate cleanup. Targeted scraping fetched the official README; retained its example section plus safety/theme/diagram guides, reclassifying a skill file from template to docs. Two direct attachment HEAD probes returned 403, so no unverified attachment assets were added. Catalog coverage is 904 entries.
 
 Update on 2026-11-10: refreshed the existing GenOffice entry using its official README, detailed MCP/CLI sections and current GitHub API metadata. Added MCP as a tool form and recorded local stdio, visible in-app HTTP and optional network HTTP/file transfer, allowed roots and token configuration, installed-app/virtual-display requirements for headless rendering, cloud-provider calls and the limit of application-only hidden-content redaction. Recorded OOXML-copy behavior for ODF/legacy/Hancom imports. Targeted scraping fetched the official README; refreshed actual product/workflow previews and added CLI/MCP/privacy guides. Normalized a malformed legacy homepage-title dash to remove C1 controls exposed by Python YAML validation. Catalog coverage remains 903 entries.
 

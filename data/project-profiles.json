@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-11-10",
+  "sourceLastResearched": "2026-11-12",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -33551,9 +33551,45 @@
         "https://www.openpresentation.org/",
         "https://raw.githubusercontent.com/OpenPresentation/opf/HEAD/README.md"
       ]
+    },
+    "PowerPoint Agent Skills by geekfujiwara": {
+      "name": "PowerPoint Agent Skills by geekfujiwara",
+      "url": "https://github.com/geekfujiwara/powerpoint-agent-skills",
+      "sourceHash": "0a77c79332e405a1241b13866c95eb4268dc373922b1d4a6a106a979b35706d9",
+      "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "summary": "为PowerPoint代理模式提供十种指令型技能的个人集合",
+      "explanation": "该集合提供十种指令型技能，用于调整现有幻灯片，包括重新构建图表、切换主题、添加插图、强调重点、制作层次/流程图、长尾图表、限制动画和清理重复形状。技能通过OneDrive安装，依赖Microsoft 365订阅和组织设置。不需本地脚本或Python，也不需API密钥或GPU支持。技能仅提供指令，不扩展新功能，渲染和动画效果因环境而异。",
+      "useCases": [
+        "根据现有幻灯片重新构建图表",
+        "切换幻灯片主题并清理重复形状"
+      ],
+      "input": [
+        "Office 文档",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "output": [
+        "PPT/演示文稿",
+        "架构图/流程图",
+        "图表/仪表盘"
+      ],
+      "form": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "requirements": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "模板/素材"
+      ],
+      "originalDescription": "Independent personal collection of ten instruction-only skills for Copilot in PowerPoint agent mode, not a Microsoft product. Uses existing slides and supplied material for diagram restructuring, light/dark deck themes, illustrations, key-point emphasis, hierarchy/journey diagrams, long-tail charts, restrained animations and approved duplicate-shape cleanup. Install selected skill folders through PowerPoint's custom-skills OneDrive location; access depends on Microsoft 365 subscription, organization settings and rollout. No local script, Python or separate skill dependency is required. It is not an offline/self-hosted workflow; account and document data handling follow Microsoft 365 and organization policies. No separate API key or GPU requirement is documented. Ambiguous claims need evidence, external search is on request, and duplicate deletion requires separate approval. Skills provide instructions rather than new application capabilities; rendering and animation support vary by environment. Demos are captioned and silent.",
+      "sources": [
+        "https://github.com/geekfujiwara/powerpoint-agent-skills",
+        "https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md"
+      ]
     }
   },
-  "generatedAt": "2026-11-10T07:01:41.167Z",
+  "generatedAt": "2026-11-12T07:06:05.377Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

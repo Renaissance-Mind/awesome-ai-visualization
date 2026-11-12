@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-10T07:00:26+00:00",
-  "lastResearched": "2026-11-10",
+  "generatedAt": "2026-11-12T07:03:54+00:00",
+  "lastResearched": "2026-11-12",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 903,
+    "total": 904,
     "openSource": 218,
     "saas": 81,
     "modelApi": 277,
-    "examples": 1927,
+    "examples": 1928,
     "effectAssets": 2357,
-    "docs": 2253
+    "docs": 2256
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 263,
-      "文本/想法": 595,
-      "数据/表格": 383,
+      "文本/想法": 596,
+      "数据/表格": 384,
       "代码/技术描述": 193,
       "任意/多源": 172,
       "网页/搜索结果": 220,
@@ -24,15 +24,15 @@
       "DSL/代码": 188,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
-      "Office 文档": 178,
+      "Office 文档": 179,
       "引用网络": 5,
       "数据库": 80,
       "视频/音频": 3
     },
     "toolForms": {
       "开源应用/框架": 218,
-      "Agent Skill": 373,
-      "Skill 集合": 90,
+      "Agent Skill": 374,
+      "Skill 集合": 91,
       "MCP Server": 297,
       "产品/SaaS": 81,
       "数据集/评测": 5,
@@ -43,14 +43,14 @@
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 385,
+      "PPT/演示文稿": 386,
       "网页/交互页面": 334,
       "问答/学习材料": 23,
       "报告/长文档": 132,
       "证据表": 84,
       "信息图/视觉报告": 123,
-      "图表/仪表盘": 292,
-      "架构图/流程图": 201,
+      "图表/仪表盘": 293,
+      "架构图/流程图": 202,
       "SVG/PNG/PDF": 403,
       "报告/简报": 99,
       "白板/思维导图": 51,
@@ -71,10 +71,10 @@
       "文档解析/OCR": 129,
       "渲染/导出": 802,
       "GPU/加速器": 24,
-      "模板/素材": 456,
-      "Agent 宿主": 465,
+      "模板/素材": 457,
+      "Agent 宿主": 466,
       "系统工具": 229,
-      "浏览器/账号": 204,
+      "浏览器/账号": 205,
       "存储/索引": 139,
       "MCP Client": 307,
       "外部检索/数据源": 186,
@@ -88,7 +88,7 @@
       "data-dashboard": 140,
       "diagram-generation": 106,
       "literature-map": 5,
-      "presentation-tools": 276,
+      "presentation-tools": 277,
       "rendering-primitive": 29,
       "video-generation": 31,
       "codebase-map": 54,
@@ -102,7 +102,7 @@
       "support_mindmap": 20,
       "docs": 44,
       "support_doc_parse": 24,
-      "presentation": 284,
+      "presentation": 285,
       "data": 133,
       "video": 32,
       "code": 61,
@@ -74342,6 +74342,71 @@
       "effectAssets": [],
       "docsCount": 22,
       "examplesCount": 7,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "PowerPoint Agent Skills by geekfujiwara",
+      "url": "https://github.com/geekfujiwara/powerpoint-agent-skills",
+      "primaryUrl": "https://github.com/geekfujiwara/powerpoint-agent-skills",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "浏览器/账号",
+        "模板/素材"
+      ],
+      "stars": 18,
+      "license": "MIT",
+      "updated": "2026-11-11",
+      "note": "Independent personal collection of ten instruction-only skills for Copilot in PowerPoint agent mode, not a Microsoft product. Uses existing slides and supplied material for diagram restructuring, light/dark deck themes, illustrations, key-point emphasis, hierarchy/journey diagrams, long-tail charts, restrained animations and approved duplicate-shape cleanup. Install selected skill folders through PowerPoint's custom-skills OneDrive location; access depends on Microsoft 365 subscription, organization settings and rollout. No local script, Python or separate skill dependency is required. It is not an offline/self-hosted workflow; account and document data handling follow Microsoft 365 and organization policies. No separate API key or GPU requirement is documented. Ambiguous claims need evidence, external search is on request, and duplicate deletion requires separate approval. Skills provide instructions rather than new application capabilities; rendering and animation support vary by environment. Demos are captioned and silent.",
+      "sourceTypes": [
+        "Office 文档",
+        "文本/想法",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "Skill 集合",
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "架构图/流程图",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "利用上の注意",
+          "url": "https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/docs/SAFETY.md",
+          "source": "https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "presentation-theme",
+          "url": "https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/skills/presentation-theme/SKILL.md",
+          "source": "https://raw.githubusercontent.com/geekfujiwara/powerpoint-agent-skills/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "Diagram restructuring and evidence checks",
+          "url": "https://github.com/geekfujiwara/powerpoint-agent-skills/blob/HEAD/skills/optimize-slide-diagram/SKILL.md",
+          "source": "https://github.com/geekfujiwara/powerpoint-agent-skills"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "example",
+          "title": "Author-provided example slides and skill demos",
+          "url": "https://github.com/geekfujiwara/powerpoint-agent-skills#example-slides",
+          "source": "https://github.com/geekfujiwara/powerpoint-agent-skills"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 3,
+      "examplesCount": 1,
       "effectAssetsCount": 0
     }
   ]
