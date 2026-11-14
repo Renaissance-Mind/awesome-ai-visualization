@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--12-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-12)
+## Latest Refresh (2026-11-14)
 
 | Project | Catalog focus |
 | --- | --- |
-| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) | 面向 PowerPoint Copilot agent mode 的独立技能集：图示重构、主题、图表与经确认的清理；依赖受支持的 Microsoft 365/OneDrive 技能流程。 |
+| [Bang Motion](https://github.com/bangtutorial/bang-motion) | 将产物校正为浏览器 HTML 和可选 MP4，补齐 CDN 播放、Node/Puppeteer/FFmpeg 导出及服务商和联网条件。 |
 
 ## ✨ 推荐使用方式
 
@@ -533,7 +533,7 @@
 | [Pireel Studio](https://github.com/pireel/pireel) [![Star](https://img.shields.io/github/stars/pireel/pireel?style=flat&logo=github&label=Star)](https://github.com/pireel/pireel/stargazers) | 任意/多源 / 网页/搜索结果 / 文本/想法 | 开源应用/框架 / Agent Skill | 视频/音频 / SVG/PNG/PDF | 浏览器/账号 / Agent 宿主 / 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) [![Star](https://img.shields.io/github/stars/Vincentwei1021/video-shotcraft?style=flat&logo=github&label=Star)](https://github.com/Vincentwei1021/video-shotcraft/stargazers) | 文本/想法 / 网页/搜索结果 / 任意/多源 | Agent Skill | 视频/音频 / 网页/交互页面 | Agent 宿主 / 本地语言环境 / 浏览器/账号 / 渲染/导出 / 模板/素材 |
 | [drama-skills](https://github.com/zenstory-ai/drama-skills) [![Star](https://img.shields.io/github/stars/zenstory-ai/drama-skills?style=flat&logo=github&label=Star)](https://github.com/zenstory-ai/drama-skills/stargazers) | 文本/想法 / PDF/文档 / 任意/多源 | Skill 集合 | 视频/音频 / 结构化数据/Markdown / 图形摘要/信息图 | Agent 宿主 / 本地语言环境 / 模型 API / 渲染/导出 / 模板/素材 |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) [![Star](https://img.shields.io/github/stars/bangtutorial/bang-motion?style=flat&logo=github&label=Star)](https://github.com/bangtutorial/bang-motion/stargazers) | Text/ideas / Web/search / Code/technical text | Agent skill | Video/audio / Web/interactive page / PPT/deck | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Bang Motion](https://github.com/bangtutorial/bang-motion) [![Star](https://img.shields.io/github/stars/bangtutorial/bang-motion?style=flat&logo=github&label=Star)](https://github.com/bangtutorial/bang-motion/stargazers) | Text/ideas / Web/search / Code/technical text | Agent skill | Video/audio / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets / External data sources |
 | [Awesome AI Motion](https://github.com/gongnyang/awesome-ai-motion) [![Star](https://img.shields.io/github/stars/gongnyang/awesome-ai-motion?style=flat&logo=github&label=Star)](https://github.com/gongnyang/awesome-ai-motion/stargazers) | Text/ideas / Data/tables / Any/multi-source | Agent skill / Awesome/index | Video/audio / Web/interactive page / Infographic/visual report | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Voice Film Skill](https://github.com/artkruglov/voice-film) [![Star](https://img.shields.io/github/stars/artkruglov/voice-film?style=flat&logo=github&label=Star)](https://github.com/artkruglov/voice-film/stargazers) | Papers/research / PDF/documents / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page / Chart/dashboard | Agent host / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Explainer Video Skill by rohithgoud30](https://github.com/rohithgoud30/explainer-video) [![Star](https://img.shields.io/github/stars/rohithgoud30/explainer-video?style=flat&logo=github&label=Star)](https://github.com/rohithgoud30/explainer-video/stargazers) | Text/ideas / Web/search results / Code/technical text / Any/multi-source | Agent skill | Video/audio / Structured data/Markdown | Agent host / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |

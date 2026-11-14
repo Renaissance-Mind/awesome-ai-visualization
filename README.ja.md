@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--12-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-12)
+## Latest Refresh (2026-11-14)
 
 | Project | Catalog focus |
 | --- | --- |
-| [PowerPoint Agent Skills by geekfujiwara](https://github.com/geekfujiwara/powerpoint-agent-skills) | PowerPoint Copilot agent mode 向け独立スキル集。図の再構成、テーマ、グラフ、承認後の整理。対応する Microsoft 365/OneDrive 環境が必要。 |
+| [Bang Motion](https://github.com/bangtutorial/bang-motion) | 出力をブラウザ HTML と任意の MP4 に訂正。CDN、Node/Puppeteer/FFmpeg と通信・外部サービス条件を明記。 |
 
 ## ✨ 推奨される使い方
 
@@ -535,7 +535,7 @@ Tools that turn prompts, drafts, whiteboard ideas, or semi-structured text into 
 | [Pireel Studio](https://github.com/pireel/pireel) [![Star](https://img.shields.io/github/stars/pireel/pireel?style=flat&logo=github&label=Star)](https://github.com/pireel/pireel/stargazers) | 任意/マルチソース / Web/検索 / テキスト/アイデア | オープンソースアプリ/フレームワーク / Agent skill | 動画/音声 / SVG/PNG/PDF | ブラウザ/アカウント / Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 | [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) [![Star](https://img.shields.io/github/stars/Vincentwei1021/video-shotcraft?style=flat&logo=github&label=Star)](https://github.com/Vincentwei1021/video-shotcraft/stargazers) | テキスト/アイデア / Web/検索 / 任意/マルチソース | Agent skill | 動画/音声 / Web/インタラクティブページ | Agent ホスト / ローカル実行環境 / ブラウザ/アカウント / レンダリング/エクスポート / テンプレート/素材 |
 | [drama-skills](https://github.com/zenstory-ai/drama-skills) [![Star](https://img.shields.io/github/stars/zenstory-ai/drama-skills?style=flat&logo=github&label=Star)](https://github.com/zenstory-ai/drama-skills/stargazers) | テキスト/アイデア / PDF/文書 / 任意/マルチソース | Skill 集合 | 動画/音声 / 構造化データ/Markdown / グラフィカルアブストラクト/インフォグラフィック | Agent ホスト / ローカル実行環境 / Model API / レンダリング/エクスポート / テンプレート/素材 |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) [![Star](https://img.shields.io/github/stars/bangtutorial/bang-motion?style=flat&logo=github&label=Star)](https://github.com/bangtutorial/bang-motion/stargazers) | Text/ideas / Web/search / Code/technical text | Agent skill | Video/audio / Web/interactive page / PPT/deck | Agent host / Local runtime / Rendering/export / Templates/assets |
+| [Bang Motion](https://github.com/bangtutorial/bang-motion) [![Star](https://img.shields.io/github/stars/bangtutorial/bang-motion?style=flat&logo=github&label=Star)](https://github.com/bangtutorial/bang-motion/stargazers) | Text/ideas / Web/search / Code/technical text | Agent skill | Video/audio / Web/interactive page | Agent host / Local runtime / Rendering/export / Templates/assets / External data sources |
 | [Awesome AI Motion](https://github.com/gongnyang/awesome-ai-motion) [![Star](https://img.shields.io/github/stars/gongnyang/awesome-ai-motion?style=flat&logo=github&label=Star)](https://github.com/gongnyang/awesome-ai-motion/stargazers) | Text/ideas / Data/tables / Any/multi-source | Agent skill / Awesome/index | Video/audio / Web/interactive page / Infographic/visual report | Agent host / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Voice Film Skill](https://github.com/artkruglov/voice-film) [![Star](https://img.shields.io/github/stars/artkruglov/voice-film?style=flat&logo=github&label=Star)](https://github.com/artkruglov/voice-film/stargazers) | Papers/research / PDF/documents / Text/ideas / Data/tables / Any/multi-source | Agent skill | Video/audio / Web/interactive page / Chart/dashboard | Agent host / Model API / Local runtime / System tools / Rendering/export / Templates/assets |
 | [Explainer Video Skill by rohithgoud30](https://github.com/rohithgoud30/explainer-video) [![Star](https://img.shields.io/github/stars/rohithgoud30/explainer-video?style=flat&logo=github&label=Star)](https://github.com/rohithgoud30/explainer-video/stargazers) | Text/ideas / Web/search results / Code/technical text / Any/multi-source | Agent skill | Video/audio / Structured data/Markdown | Agent host / Local runtime / System tools / External search/data / Rendering/export / Templates/assets |

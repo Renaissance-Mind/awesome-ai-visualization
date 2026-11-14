@@ -1,4 +1,4 @@
-generated_at: "2026-11-12T07:03:54+00:00"
+generated_at: "2026-11-14T07:02:35+00:00"
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -15,7 +15,7 @@ summary:
   fetched_sources_failed: 60
   official_examples: 1928
   official_effect_assets: 2357
-  official_docs: 2256
+  official_docs: 2258
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -59898,83 +59898,106 @@ entries:
   surface: skill
   primary_url: https://github.com/bangtutorial/bang-motion
   dependencies:
-  - Agent 宿主
-  - 本地语言环境
-  - 渲染/导出
-  - 模板/素材
-  catalog_note: Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single
-    playable index.html with video-like motion and optional MP4 export.
+    - Agent 宿主
+    - 本地语言环境
+    - 渲染/导出
+    - 模板/素材
+    - 外部检索/数据源
+  catalog_note: Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a
+    single playable index.html with video-like motion and optional MP4 export, not a PowerPoint deck. Playback requires
+    a browser and network access because GSAP and fonts load from CDNs; npm installation is not needed just to watch.
+    Optional frame verification uses Node/Puppeteer, and MP4 export also requires ffmpeg. Voiceover pause detection can
+    run in-browser; optional image generation uses an image MCP, while After Effects authoring needs After Effects and a
+    Higgsfield bridge. The default output is not fully offline. Agent/image-provider data handling follows the selected
+    provider, and CDN requests leave the browser; no mandatory GPU is documented for the core browser workflow.
   fetched_sources:
-  - kind: github_readme
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-    final_url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-    status: 200
-    content_type: text/plain
-    title: Bang Motion
-    bytes: 19806
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Bang Motion
+      bytes: 19806
   official_examples:
-  - kind: tutorial
-    title: Bang Tutorial
-    url: https://youtube.com/bangtutorial
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: showcase
+      title: Motion styles and example prompts
+      url: https://github.com/bangtutorial/bang-motion#style-gallery
+      source: https://github.com/bangtutorial/bang-motion
   official_effect_assets:
-  - kind: image
-    title: 'A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos,
-      visual journalism explainer, continuous action explainer, cartoon col'
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/hero.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Grainy gradient opener
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/01-grainy-gradient.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Kinetic typography in poster color-block
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/02-kinetic-colorblock.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: SaaS product tour
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/03-saas-ui-tour.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Flat vector illustration promo
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/04-flat-vector.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Flat pop with photos promo
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/07-flat-pop-photo.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Continuous action explainer
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/05-continuous-action.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Visual journalism explainer
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/09-visual-journalism.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: White catalog explainer
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/08-white-catalog.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Vintage sketch explainer
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/10-vintage-sketch.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Cartoon collage explainer
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/11-cartoon-collage.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
-  - kind: image
-    title: Cartoon stage explainer
-    url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/06-cartoon-stage.jpg
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: "A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos,
+        visual journalism explainer, continuous action explainer, cartoon col"
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/hero.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Grainy gradient opener
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/01-grainy-gradient.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Kinetic typography in poster color-block
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/02-kinetic-colorblock.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: SaaS product tour
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/03-saas-ui-tour.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Flat vector illustration promo
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/04-flat-vector.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Flat pop with photos promo
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/07-flat-pop-photo.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Continuous action explainer
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/05-continuous-action.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Visual journalism explainer
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/09-visual-journalism.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: White catalog explainer
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/08-white-catalog.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Vintage sketch explainer
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/10-vintage-sketch.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Cartoon collage explainer
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/11-cartoon-collage.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: image
+      title: Cartoon stage explainer
+      url: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/docs/gallery/06-cartoon-stage.jpg
+      source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
   official_links:
-  - kind: tutorial
-    title: Bang Tutorial
-    url: https://youtube.com/bangtutorial
-    source: https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md
+    - kind: showcase
+      title: Motion styles and example prompts
+      url: https://github.com/bangtutorial/bang-motion#style-gallery
+      source: https://github.com/bangtutorial/bang-motion
+    - kind: docs
+      title: Motion authoring workflow and requirements
+      url: https://github.com/bangtutorial/bang-motion/blob/HEAD/SKILL.md
+      source: https://github.com/bangtutorial/bang-motion
+    - kind: docs
+      title: Frame-by-frame MP4 exporter
+      url: https://github.com/bangtutorial/bang-motion/blob/HEAD/scripts/export-frames.mjs
+      source: https://github.com/bangtutorial/bang-motion
   source_headings:
-  - Style gallery
-  - Example prompts
+    - Style gallery
+    - Example prompts
+  official_docs:
+    - kind: docs
+      title: Motion authoring workflow and requirements
+      url: https://github.com/bangtutorial/bang-motion/blob/HEAD/SKILL.md
+      source: https://github.com/bangtutorial/bang-motion
+    - kind: docs
+      title: Frame-by-frame MP4 exporter
+      url: https://github.com/bangtutorial/bang-motion/blob/HEAD/scripts/export-frames.mjs
+      source: https://github.com/bangtutorial/bang-motion
 - name: skills-slides
   category: presentation-tools
   surface: skill

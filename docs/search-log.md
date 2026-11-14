@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-11-12.
+Last researched: 2026-11-14.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-11-14: corrected Bang Motion's unsupported PPT output tag using the official README, starter HTML, exporter paths and GitHub metadata. The documented output is browser HTML with optional MP4; playback loads GSAP/fonts from CDNs, and export needs Node/Puppeteer/FFmpeg. Recorded optional image-generation and After Effects paths, provider privacy and network boundaries. Targeted scraping fetched the current README; retained twelve real style previews and curated the style gallery, authoring guide and exporter, excluding a generic YouTube channel from examples. Existing-entry coverage remains 904. An initial unchanged-live publication check passed before this catalog correction was identified.
 
 Update on 2026-11-12: added PowerPoint Agent Skills by geekfujiwara after official README, safety guide, repository tree and GitHub metadata verification. Recorded the independent project's ten instruction-only Copilot in PowerPoint skills, Microsoft 365/organization/rollout and OneDrive dependencies, environment-dependent rendering, evidence checks and separately approved duplicate cleanup. Targeted scraping fetched the official README; retained its example section plus safety/theme/diagram guides, reclassifying a skill file from template to docs. Two direct attachment HEAD probes returned 403, so no unverified attachment assets were added. Catalog coverage is 904 entries.
 

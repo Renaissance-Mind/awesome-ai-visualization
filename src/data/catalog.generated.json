@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T07:03:54+00:00",
-  "lastResearched": "2026-11-12",
+  "generatedAt": "2026-11-14T07:02:35+00:00",
+  "lastResearched": "2026-11-14",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
     "total": 904,
@@ -9,7 +9,7 @@
     "modelApi": 277,
     "examples": 1928,
     "effectAssets": 2357,
-    "docs": 2256
+    "docs": 2258
   },
   "facets": {
     "sourceTypes": {
@@ -43,7 +43,7 @@
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 386,
+      "PPT/演示文稿": 385,
       "网页/交互页面": 334,
       "问答/学习材料": 23,
       "报告/长文档": 132,
@@ -77,7 +77,7 @@
       "浏览器/账号": 205,
       "存储/索引": 139,
       "MCP Client": 307,
-      "外部检索/数据源": 186,
+      "外部检索/数据源": 187,
       "代码分析工具": 66
     },
     "categories": {
@@ -63140,12 +63140,13 @@
         "Agent 宿主",
         "本地语言环境",
         "渲染/导出",
-        "模板/素材"
+        "模板/素材",
+        "外部检索/数据源"
       ],
-      "stars": 333,
+      "stars": 2134,
       "license": "MIT",
-      "updated": "2026-09-15",
-      "note": "Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single playable index.html with video-like motion and optional MP4 export.",
+      "updated": "2026-11-14",
+      "note": "Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single playable index.html with video-like motion and optional MP4 export, not a PowerPoint deck. Playback requires a browser and network access because GSAP and fonts load from CDNs; npm installation is not needed just to watch. Optional frame verification uses Node/Puppeteer, and MP4 export also requires ffmpeg. Voiceover pause detection can run in-browser; optional image generation uses an image MCP, while After Effects authoring needs After Effects and a Higgsfield bridge. The default output is not fully offline. Agent/image-provider data handling follows the selected provider, and CDN requests leave the browser; no mandatory GPU is documented for the core browser workflow.",
       "sourceTypes": [
         "文本/想法",
         "网页/搜索结果",
@@ -63156,18 +63157,30 @@
       ],
       "outputForms": [
         "视频/音频",
-        "网页/交互页面",
-        "PPT/演示文稿"
+        "网页/交互页面"
       ],
       "catalogSection": "main",
       "readmeGroup": "video",
-      "docs": [],
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Motion authoring workflow and requirements",
+          "url": "https://github.com/bangtutorial/bang-motion/blob/HEAD/SKILL.md",
+          "source": "https://github.com/bangtutorial/bang-motion"
+        },
+        {
+          "kind": "docs",
+          "title": "Frame-by-frame MP4 exporter",
+          "url": "https://github.com/bangtutorial/bang-motion/blob/HEAD/scripts/export-frames.mjs",
+          "source": "https://github.com/bangtutorial/bang-motion"
+        }
+      ],
       "examples": [
         {
-          "kind": "tutorial",
-          "title": "Bang Tutorial",
-          "url": "https://youtube.com/bangtutorial",
-          "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
+          "kind": "showcase",
+          "title": "Motion styles and example prompts",
+          "url": "https://github.com/bangtutorial/bang-motion#style-gallery",
+          "source": "https://github.com/bangtutorial/bang-motion"
         }
       ],
       "effectAssets": [
@@ -63256,7 +63269,7 @@
           "source": "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
         }
       ],
-      "docsCount": 0,
+      "docsCount": 2,
       "examplesCount": 1,
       "effectAssetsCount": 12
     },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-11-12",
+  "sourceLastResearched": "2026-11-14",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -28646,13 +28646,13 @@
     "Bang Motion": {
       "name": "Bang Motion",
       "url": "https://github.com/bangtutorial/bang-motion",
-      "sourceHash": "f79d4f05896d5ae36b871b583e656c2c22404f404afb0d4683f2b42db20cec34",
+      "sourceHash": "2614f9218043750c57367230c9cb2c49faea54002cd155842803b36ae4748e8f",
       "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
-      "summary": "浏览器动态图形代理技能，可生成可播放的index.html文件。",
-      "explanation": "Bang Motion 是一个代理技能，可将提示、品牌、产品演示和解释器转换为可播放的index.html文件。支持视频般的动态效果，并可选择导出MP4。",
+      "summary": "将提示、品牌、产品演示和解释器转换为可播放的index.html文件",
+      "explanation": "该工具通过浏览器生成具有视频效果的动态图形，支持可选的MP4导出。GSAP和字体从CDN加载，无需npm安装即可播放。可选的帧验证和MP4导出需要额外工具，语音暂停检测可在浏览器中运行。",
       "useCases": [
-        "将产品演示转换为动态网页",
-        "生成带有动态效果的解释器"
+        "将产品演示转换为可播放的网页文件",
+        "生成带有动画效果的解释器内容"
       ],
       "input": [
         "文本/想法",
@@ -28661,8 +28661,7 @@
       ],
       "output": [
         "视频/音频",
-        "网页/交互页面",
-        "PPT/演示文稿"
+        "网页/交互页面"
       ],
       "form": [
         "Agent Skill"
@@ -28671,9 +28670,10 @@
         "Agent 宿主",
         "本地语言环境",
         "渲染/导出",
-        "模板/素材"
+        "模板/素材",
+        "外部检索/数据源"
       ],
-      "originalDescription": "Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single playable index.html with video-like motion and optional MP4 export.",
+      "originalDescription": "Agent skill for browser motion graphics that turns prompts, brands, product demos, and explainers into a single playable index.html with video-like motion and optional MP4 export, not a PowerPoint deck. Playback requires a browser and network access because GSAP and fonts load from CDNs; npm installation is not needed just to watch. Optional frame verification uses Node/Puppeteer, and MP4 export also requires ffmpeg. Voiceover pause detection can run in-browser; optional image generation uses an image MCP, while After Effects authoring needs After Effects and a Higgsfield bridge. The default output is not fully offline. Agent/image-provider data handling follows the selected provider, and CDN requests leave the browser; no mandatory GPU is documented for the core browser workflow.",
       "sources": [
         "https://github.com/bangtutorial/bang-motion",
         "https://raw.githubusercontent.com/bangtutorial/bang-motion/HEAD/README.md"
@@ -33589,7 +33589,7 @@
       ]
     }
   },
-  "generatedAt": "2026-11-12T07:06:05.377Z",
+  "generatedAt": "2026-11-14T07:03:55.009Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"
