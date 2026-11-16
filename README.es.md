@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--16-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Datos mensuales desde 2024-01; captura: 2026-11-01 00:11 (UTC+8). Incluye 836 de
 [![Repositorios creados al mes por categoría](public/activity/es/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/es/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-14)
+## Latest Refresh (2026-11-16)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | Salidas corregidas a HTML y MP4 opcional; documentadas la reproducción con CDN, exportación Node/Puppeteer/FFmpeg y condiciones de red y proveedores. |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | Actualizados CLI/REST, renderizado PNG/SVG sin conexión, PNG editable, requisitos de Node/fuentes y condiciones de CDN, subida opcional y almacenamiento privado. |
 
 ## ✨ Uso recomendado
 
@@ -956,7 +956,7 @@ Herramientas de postprocesamiento y renderizado que ayudan a agentes a generar, 
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | Texto/ideas / Código/texto técnico / DSL/código | Servidor MCP | Diagrama/Mermaid / Arquitectura/diagrama de flujo / SVG/PNG/PDF | Cliente MCP / Runtime local / Renderizado/exportación |
 | [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | Texto/ideas / Código/texto técnico / DSL/código | Servidor MCP / Agent skill | Arquitectura/diagrama de flujo / Diagrama/Mermaid / SVG/PNG/PDF | Cliente MCP / Host de Agent / Runtime local / Renderizado/exportación / Herramientas de sistema |
 | [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | Texto/ideas / Código/texto técnico | Servidor MCP | Arquitectura/diagrama de flujo / Pizarra/mapa mental / Web/página interactiva | Cliente MCP / Navegador/cuenta / Runtime local / Renderizado/exportación |
-| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export / External data sources / Storage/index |
 | [whiteboard](https://github.com/kamiazya/whiteboard) [![Star](https://img.shields.io/github/stars/kamiazya/whiteboard?style=flat&logo=github&label=Star)](https://github.com/kamiazya/whiteboard/stargazers) | Texto/ideas / Código/texto técnico / Base de conocimiento | Servidor MCP / Skill de agente / App/framework open source | Pizarra/mapa mental / Diagrama de arquitectura/flujo / Web/página interactiva / SVG/PNG/PDF | Cliente MCP / Host de agente / Navegador/cuenta / Runtime local / Renderizado/exportación / Almacenamiento/índice |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | Texto/ideas / Datos/tablas / DSL/código | API/SDK/biblioteca | Infografía/informe visual / Gráfico/salida renderizada / SVG/PNG/PDF | Runtime local / Renderizado/exportación / Plantillas/recursos |
 | [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) [![Star](https://img.shields.io/github/stars/VancySavoki/infographic-mcp-app?style=flat&logo=github&label=Star)](https://github.com/VancySavoki/infographic-mcp-app/stargazers) | Text/ideas / DSL/code | MCP server | Infographic/visual report / Architecture/flow diagram / Web/interactive page | MCP client / Local runtime / Rendering/export / Templates/assets |

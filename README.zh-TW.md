@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--16-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | 繁體中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各類別每月新建 repo 數](public/activity/zh-TW/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-TW/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-14)
+## Latest Refresh (2026-11-16)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | 將產物校正為瀏覽器 HTML 和可選 MP4，補齊 CDN 播放、Node/Puppeteer/FFmpeg 匯出及服務商和連網條件。 |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | 更新 CLI/REST 存取、離線 PNG/SVG 算繪、可編輯 PNG、Node/字型需求，以及 CDN、選用分享上傳與私有持久化界線。 |
 
 ## ✨ 推薦使用方式
 
@@ -954,7 +954,7 @@
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server | 圖表/Mermaid / 架構圖/流程圖 / SVG/PNG/PDF | MCP Client / 本機語言環境 / 渲染/匯出 |
 | [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | 文字/想法 / 代碼/技術描述 / DSL/代碼 | MCP Server / Agent Skill | 架構圖/流程圖 / 圖表/Mermaid / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本機語言環境 / 渲染/匯出 / 系統工具 |
 | [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | 文字/想法 / 代碼/技術描述 | MCP Server | 架構圖/流程圖 / 白板/心智圖 / 網頁/互動頁 | MCP Client / 瀏覽器/帳號 / 本機語言環境 / 渲染/匯出 |
-| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export / External data sources / Storage/index |
 | [whiteboard](https://github.com/kamiazya/whiteboard) [![Star](https://img.shields.io/github/stars/kamiazya/whiteboard?style=flat&logo=github&label=Star)](https://github.com/kamiazya/whiteboard/stargazers) | 文字/想法 / 程式碼/技術描述 / 知識庫/個人資料 | MCP Server / Agent Skill / 開源應用/框架 | 白板/心智圖 / 架構圖/流程圖 / 網頁/互動頁面 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 瀏覽器/帳號 / 本地語言環境 / 渲染/匯出 / 儲存/索引 |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | 文字/想法 / 資料/表格 / DSL/程式碼 | API/SDK/庫 | 資訊圖/視覺報告 / 圖表/渲染輸出 / SVG/PNG/PDF | 本機語言環境 / 渲染/匯出 / 模板/素材 |
 | [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) [![Star](https://img.shields.io/github/stars/VancySavoki/infographic-mcp-app?style=flat&logo=github&label=Star)](https://github.com/VancySavoki/infographic-mcp-app/stargazers) | 文字/想法 / DSL/代碼 | MCP Server | 資訊圖/視覺報告 / 架構圖/流程圖 / 網頁/互動頁面 | MCP Client / 本機語言環境 / 渲染/匯出 / 模板/素材 |

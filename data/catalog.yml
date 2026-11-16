@@ -1,4 +1,4 @@
-last_researched: '2026-11-14'
+last_researched: '2026-11-16'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -6447,10 +6447,18 @@ entries:
   - 浏览器/账号
   - 本地语言环境
   - 渲染/导出
-  stars: 2127
+  - 外部检索/数据源
+  - 存储/索引
+  stars: 2650
   license: MIT
-  updated: '2026-07-05'
-  note: MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.
+  updated: '2026-11-16'
+  note: Excalidraw v2.2 CLI, agent skill, 27-tool MCP server and REST API for editable diagrams. Node >=20; core drawing
+    needs no account, API key or GPU. Installed headless PNG/SVG rendering and file rendering work offline with bundled
+    Latin fonts; CJK/emoji need system fonts. Mermaid conversion and viewport control need a browser tab; canvas fonts
+    use esm.sh CDN. Optional share encrypts and uploads scenes to excalidraw.com or a configured self-hosted target;
+    full links grant access. Optional durable storage contains diagrams and embedded images and should use a private
+    directory outside repositories/shared folders. PNG scene embedding is opt-in. MCP Client is needed only for MCP
+    mode; model/provider privacy depends on the agent host.
   source_types:
   - 文本/想法
   - 代码/技术描述
@@ -6458,6 +6466,7 @@ entries:
   tool_forms:
   - MCP Server
   - Agent Skill
+  - API/SDK/库
   output_forms:
   - 架构图/流程图
   - 白板/思维导图

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-14T07:02:35+00:00",
-  "lastResearched": "2026-11-14",
+  "generatedAt": "2026-11-16T07:06:52+00:00",
+  "lastResearched": "2026-11-16",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
     "total": 904,
     "openSource": 218,
     "saas": 81,
     "modelApi": 277,
-    "examples": 1928,
-    "effectAssets": 2357,
-    "docs": 2258
+    "examples": 1927,
+    "effectAssets": 2356,
+    "docs": 2263
   },
   "facets": {
     "sourceTypes": {
@@ -38,7 +38,7 @@
       "数据集/评测": 5,
       "Bot/助手": 29,
       "研究原型": 13,
-      "API/SDK/库": 143,
+      "API/SDK/库": 144,
       "Awesome/索引": 27
     },
     "outputForms": {
@@ -75,9 +75,9 @@
       "Agent 宿主": 466,
       "系统工具": 229,
       "浏览器/账号": 205,
-      "存储/索引": 139,
+      "存储/索引": 140,
       "MCP Client": 307,
-      "外部检索/数据源": 187,
+      "外部检索/数据源": 188,
       "代码分析工具": 66
     },
     "categories": {
@@ -21629,12 +21629,14 @@
         "Agent 宿主",
         "浏览器/账号",
         "本地语言环境",
-        "渲染/导出"
+        "渲染/导出",
+        "外部检索/数据源",
+        "存储/索引"
       ],
-      "stars": 2127,
+      "stars": 2650,
       "license": "MIT",
-      "updated": "2026-07-05",
-      "note": "MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.",
+      "updated": "2026-11-16",
+      "note": "Excalidraw v2.2 CLI, agent skill, 27-tool MCP server and REST API for editable diagrams. Node >=20; core drawing needs no account, API key or GPU. Installed headless PNG/SVG rendering and file rendering work offline with bundled Latin fonts; CJK/emoji need system fonts. Mermaid conversion and viewport control need a browser tab; canvas fonts use esm.sh CDN. Optional share encrypts and uploads scenes to excalidraw.com or a configured self-hosted target; full links grant access. Optional durable storage contains diagrams and embedded images and should use a private directory outside repositories/shared folders. PNG scene embedding is opt-in. MCP Client is needed only for MCP mode; model/provider privacy depends on the agent host.",
       "sourceTypes": [
         "文本/想法",
         "代码/技术描述",
@@ -21642,7 +21644,8 @@
       ],
       "toolForms": [
         "MCP Server",
-        "Agent Skill"
+        "Agent Skill",
+        "API/SDK/库"
       ],
       "outputForms": [
         "架构图/流程图",
@@ -21652,7 +21655,38 @@
       ],
       "catalogSection": "support_render",
       "readmeGroup": "support_render",
-      "docs": [],
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "agent skill",
+          "url": "https://github.com/yctimlin/mcp_excalidraw#agent-skill",
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "cli reference",
+          "url": "https://github.com/yctimlin/mcp_excalidraw#cli-reference",
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "headless rendering",
+          "url": "https://github.com/yctimlin/mcp_excalidraw#headless-rendering",
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "are my diagrams persistent",
+          "url": "https://github.com/yctimlin/mcp_excalidraw#are-my-diagrams-persistent",
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        },
+        {
+          "kind": "docs",
+          "title": "are excalidrawcom share links private",
+          "url": "https://github.com/yctimlin/mcp_excalidraw#are-excalidrawcom-share-links-private",
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
+        }
+      ],
       "examples": [
         {
           "kind": "video",
@@ -21664,29 +21698,22 @@
       "effectAssets": [
         {
           "kind": "gif",
-          "title": "MCP Excalidraw Demo",
+          "title": "AI agent drawing an architecture diagram on a live Excalidraw canvas via MCP",
           "url": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/demo.gif",
           "thumbnailUrl": null,
           "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
         },
         {
-          "kind": "gif",
-          "title": "mcp_excalidraw — a whiteboard for your AI agent",
-          "url": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/main/demo.gif",
-          "thumbnailUrl": null,
-          "source": "https://mcp-excalidraw-landing.vercel.app/"
-        },
-        {
           "kind": "video",
-          "title": "Watch 90-sec demo",
+          "title": "Demo video",
           "url": "https://youtu.be/ufW78Amq5qA",
-          "thumbnailUrl": "https://img.youtube.com/vi/ufW78Amq5qA/hqdefault.jpg",
-          "source": "https://mcp-excalidraw-landing.vercel.app/"
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md"
         }
       ],
-      "docsCount": 0,
-      "examplesCount": 2,
-      "effectAssetsCount": 3
+      "docsCount": 5,
+      "examplesCount": 1,
+      "effectAssetsCount": 2
     },
     {
       "name": "whiteboard",

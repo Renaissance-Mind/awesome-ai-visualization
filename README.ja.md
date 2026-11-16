@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--16-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![カテゴリ別の月間新規リポジトリ数](public/activity/ja/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ja/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-14)
+## Latest Refresh (2026-11-16)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | 出力をブラウザ HTML と任意の MP4 に訂正。CDN、Node/Puppeteer/FFmpeg と通信・外部サービス条件を明記。 |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | CLI/REST、オフライン PNG/SVG 描画、編集可能 PNG、Node・フォント要件、CDN・任意の共有アップロード・非公開保存の条件を更新。 |
 
 ## ✨ 推奨される使い方
 
@@ -956,7 +956,7 @@ Agent が Mermaid、SVG、PNG、PDF、図表成果物を生成・検証・エク
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | テキスト/アイデア / コード/技術文書 / DSL/コード | MCP Server | 図/Mermaid / アーキテクチャ/フロー図 / SVG/PNG/PDF | MCP クライアント / ローカル実行環境 / レンダリング/エクスポート |
 | [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | テキスト/アイデア / コード/技術文書 / DSL/コード | MCP Server / Agent Skill | アーキテクチャ/フロー図 / 図/Mermaid / SVG/PNG/PDF | MCP クライアント / Agent ホスト / ローカル実行環境 / レンダリング/エクスポート / システムツール |
 | [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | テキスト/アイデア / コード/技術文書 | MCP Server | アーキテクチャ/フロー図 / ホワイトボード/マインドマップ / Web/インタラクティブページ | MCP クライアント / ブラウザ/アカウント / ローカル実行環境 / レンダリング/エクスポート |
-| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export / External data sources / Storage/index |
 | [whiteboard](https://github.com/kamiazya/whiteboard) [![Star](https://img.shields.io/github/stars/kamiazya/whiteboard?style=flat&logo=github&label=Star)](https://github.com/kamiazya/whiteboard/stargazers) | テキスト/アイデア / コード/技術説明 / ナレッジベース/個人資料 | MCP Server / Agent skill / オープンソースアプリ/フレームワーク | ホワイトボード/マインドマップ / アーキテクチャ/フロー図 / Web/インタラクティブページ / SVG/PNG/PDF | MCP Client / Agent host / ブラウザ/アカウント / ローカル実行環境 / レンダリング/エクスポート / ストレージ/インデックス |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | テキスト/アイデア / データ/表 / DSL/コード | API/SDK/ライブラリ | インフォグラフィック/ビジュアルレポート / チャート/レンダリング出力 / SVG/PNG/PDF | ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 | [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) [![Star](https://img.shields.io/github/stars/VancySavoki/infographic-mcp-app?style=flat&logo=github&label=Star)](https://github.com/VancySavoki/infographic-mcp-app/stargazers) | Text/ideas / DSL/code | MCP server | Infographic/visual report / Architecture/flow diagram / Web/interactive page | MCP client / Local runtime / Rendering/export / Templates/assets |

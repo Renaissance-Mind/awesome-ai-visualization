@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--16-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Türkçe | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@ Bazı proje adları, resmi terimler ve kısa açıklamalar arama kolaylığı ve
 [![Kategoriye göre aylık yeni depo sayısı](public/activity/tr/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/tr/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-14)
+## Latest Refresh (2026-11-16)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | Çıktılar tarayıcı HTML ve isteğe bağlı MP4 olarak düzeltildi; CDN, Node/Puppeteer/FFmpeg, ağ ve sağlayıcı koşulları belirtildi. |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | CLI/REST, çevrimdışı PNG/SVG işleme, düzenlenebilir PNG, Node/yazı tipi gereksinimleri ve CDN, isteğe bağlı paylaşım ve özel depolama koşulları güncellendi. |
 
 ## ✨ Önerilen kullanım
 
@@ -956,7 +956,7 @@ Agentların Mermaid, SVG, PNG, PDF ve diyagram çıktıları üretmesine, doğru
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | Metin/fikirler / Kod/teknik metin / DSL/kod | MCP server | Diyagram/Mermaid / Mimari/akış diyagramı / SVG/PNG/PDF | MCP client / Yerel runtime / Render/dışa aktarma |
 | [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | Metin/fikirler / Kod/teknik metin / DSL/kod | MCP server / Agent skill | Mimari/akış diyagramı / Diyagram/Mermaid / SVG/PNG/PDF | MCP client / Agent host / Yerel runtime / Render/dışa aktarma / Sistem araçları |
 | [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | Metin/fikirler / Kod/teknik metin | MCP server | Mimari/akış diyagramı / Beyaz tahta/zihin haritası / Web/etkileşimli sayfa | MCP client / Tarayıcı/hesap / Yerel runtime / Render/dışa aktarma |
-| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export / External data sources / Storage/index |
 | [whiteboard](https://github.com/kamiazya/whiteboard) [![Star](https://img.shields.io/github/stars/kamiazya/whiteboard?style=flat&logo=github&label=Star)](https://github.com/kamiazya/whiteboard/stargazers) | Metin/fikirler / Kod/teknik metin / Bilgi tabanı/kişisel veri | MCP server / Agent skill / Açık kaynak uygulama/framework | Beyaz tahta/zihin haritası / Mimari/akış diyagramı / Web/etkileşimli sayfa / SVG/PNG/PDF | MCP client / Agent host / Tarayıcı/hesap / Yerel runtime / Render/dışa aktarma / Depolama/indeks |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | Metin/fikirler / Veri/tablolar / DSL/kod | API/SDK/kütüphane | İnfografik/görsel rapor / Grafik/render çıktısı / SVG/PNG/PDF | Yerel runtime / Render/dışa aktarma / Şablonlar/varlıklar |
 | [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) [![Star](https://img.shields.io/github/stars/VancySavoki/infographic-mcp-app?style=flat&logo=github&label=Star)](https://github.com/VancySavoki/infographic-mcp-app/stargazers) | Text/ideas / DSL/code | MCP server | Infographic/visual report / Architecture/flow diagram / Web/interactive page | MCP client / Local runtime / Rendering/export / Templates/assets |

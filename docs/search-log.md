@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-11-14.
+Last researched: 2026-11-16.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-11-16: refreshed mcp_excalidraw using the current official README and GitHub API (MIT, 2,650 stars). Recorded CLI/REST access, 27 MCP tools, Node >=20, browser-only Mermaid/viewport operations, installed offline headless PNG/SVG rendering, optional embedded-scene PNGs, CJK/system-font requirements, CDN canvas fonts, encrypted optional sharing and private durable storage. Model privacy depends on the host. Targeted scraping fetched the README and homepage; preferred the current repository over the older homepage description, deduplicated demo links/assets and added official CLI/rendering/persistence/privacy sections. Coverage remains 904; other discovery results mainly repeated existing entries. Capabilities are documentation-backed, not a runtime test of the candidate.
 
 Update on 2026-11-14: corrected Bang Motion's unsupported PPT output tag using the official README, starter HTML, exporter paths and GitHub metadata. The documented output is browser HTML with optional MP4; playback loads GSAP/fonts from CDNs, and export needs Node/Puppeteer/FFmpeg. Recorded optional image-generation and After Effects paths, provider privacy and network boundaries. Targeted scraping fetched the current README; retained twelve real style previews and curated the style gallery, authoring guide and exporter, excluding a generic YouTube channel from examples. Existing-entry coverage remains 904. An initial unchanged-live publication check passed before this catalog correction was identified.
 

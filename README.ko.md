@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--16-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -26,11 +26,11 @@
 [![분류별 월간 신규 저장소 수](public/activity/ko/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/ko/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-14)
+## Latest Refresh (2026-11-16)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | 출력을 브라우저 HTML과 선택적 MP4로 정정하고 CDN 재생, Node/Puppeteer/FFmpeg 및 네트워크·제공자 조건을 명시했습니다. |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | CLI/REST, 오프라인 PNG/SVG 렌더링, 편집 가능한 PNG, Node·글꼴 요구 사항과 CDN·선택적 공유 업로드·비공개 저장 조건을 갱신했습니다. |
 
 ## ✨ 추천 사용법
 
@@ -956,7 +956,7 @@ Agent가 Mermaid, SVG, PNG, PDF 및 다이어그램 결과물을 생성, 검증,
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server | 다이어그램/Mermaid / 아키텍처/흐름도 / SVG/PNG/PDF | MCP 클라이언트 / 로컬 런타임 / 렌더링/내보내기 |
 | [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 / DSL/코드 | MCP Server / Agent Skill | 아키텍처/흐름도 / 다이어그램/Mermaid / SVG/PNG/PDF | MCP 클라이언트 / Agent 호스트 / 로컬 런타임 / 렌더링/내보내기 / 시스템 도구 |
 | [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | 텍스트/아이디어 / 코드/기술 텍스트 | MCP Server | 아키텍처/흐름도 / 화이트보드/마인드맵 / 웹/인터랙티브 페이지 | MCP 클라이언트 / 브라우저/계정 / 로컬 런타임 / 렌더링/내보내기 |
-| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | Text/ideas / Code/technical text / DSL/code | MCP server / Agent skill / API/SDK/library | Architecture/flow diagram / Whiteboard/mind map / Web/interactive page / SVG/PNG/PDF | MCP client / Agent host / Browser/account / Local runtime / Rendering/export / External data sources / Storage/index |
 | [whiteboard](https://github.com/kamiazya/whiteboard) [![Star](https://img.shields.io/github/stars/kamiazya/whiteboard?style=flat&logo=github&label=Star)](https://github.com/kamiazya/whiteboard/stargazers) | 텍스트/아이디어 / 코드/기술 설명 / 지식베이스/개인 자료 | MCP Server / Agent skill / 오픈소스 앱/프레임워크 | 화이트보드/마인드맵 / 아키텍처/흐름도 / 웹/인터랙티브 페이지 / SVG/PNG/PDF | MCP Client / Agent host / 브라우저/계정 / 로컬 런타임 / 렌더링/내보내기 / 스토리지/인덱스 |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | 텍스트/아이디어 / 데이터/표 / DSL/코드 | API/SDK/라이브러리 | 인포그래픽/비주얼 리포트 / 차트/렌더링 출력 / SVG/PNG/PDF | 로컬 런타임 / 렌더링/내보내기 / 템플릿/소재 |
 | [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) [![Star](https://img.shields.io/github/stars/VancySavoki/infographic-mcp-app?style=flat&logo=github&label=Star)](https://github.com/VancySavoki/infographic-mcp-app/stargazers) | Text/ideas / DSL/code | MCP server | Infographic/visual report / Architecture/flow diagram / Web/interactive page | MCP client / Local runtime / Rendering/export / Templates/assets |

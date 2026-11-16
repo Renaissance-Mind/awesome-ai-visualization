@@ -1,4 +1,4 @@
-generated_at: "2026-11-14T07:02:35+00:00"
+generated_at: '2026-11-16T07:06:52+00:00'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -13,9 +13,9 @@ summary:
   entries: 904
   fetched_sources_ok: 1201
   fetched_sources_failed: 60
-  official_examples: 1928
-  official_effect_assets: 2357
-  official_docs: 2258
+  official_examples: 1927
+  official_effect_assets: 2356
+  official_docs: 2263
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -23779,66 +23779,103 @@ entries:
   primary_url: https://github.com/yctimlin/mcp_excalidraw
   homepage: https://mcp-excalidraw-landing.vercel.app/
   dependencies:
-  - MCP Client
-  - Agent 宿主
-  - 浏览器/账号
-  - 本地语言环境
-  - 渲染/导出
-  catalog_note: MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn
-    diagrams through a local canvas bridge.
+    - MCP Client
+    - Agent 宿主
+    - 浏览器/账号
+    - 本地语言环境
+    - 渲染/导出
+    - 外部检索/数据源
+    - 存储/索引
+  catalog_note: Excalidraw v2.2 CLI, agent skill, 27-tool MCP server and REST API for editable diagrams. Node >=20; core
+    drawing needs no account, API key or GPU. Installed headless PNG/SVG rendering and file rendering work offline with
+    bundled Latin fonts; CJK/emoji need system fonts. Mermaid conversion and viewport control need a browser tab; canvas
+    fonts use esm.sh CDN. Optional share encrypts and uploads scenes to excalidraw.com or a configured self-hosted
+    target; full links grant access. Optional durable storage contains diagrams and embedded images and should use a
+    private directory outside repositories/shared folders. PNG scene embedding is opt-in. MCP Client is needed only for
+    MCP mode; model/provider privacy depends on the agent host.
   fetched_sources:
-  - kind: github_readme
-    url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
-    final_url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
-    status: 200
-    content_type: text/plain
-    title: Excalidraw MCP Server & Agent Skill
-    bytes: 17448
-  - kind: homepage
-    url: https://mcp-excalidraw-landing.vercel.app/
-    final_url: https://mcp-excalidraw-landing.vercel.app/
-    status: 200
-    content_type: text/html
-    title: mcp_excalidraw — a whiteboard for your AI agent
-    description: Drop-in agent skill (and MCP server) that gives Claude Code, Codex CLI, Cursor & friends a live Excalidraw
-      canvas — 26 tools to draw, look, and refine.
-    bytes: 81758
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: Excalidraw MCP Server, CLI & Agent Skill
+      bytes: 46760
+    - kind: homepage
+      url: https://mcp-excalidraw-landing.vercel.app/
+      final_url: https://mcp-excalidraw-landing.vercel.app/
+      status: 200
+      content_type: text/html
+      title: mcp_excalidraw — a whiteboard for your AI agent
+      description: Drop-in agent skill (and MCP server) that gives Claude Code, Codex CLI, Cursor & friends a live Excalidraw
+        canvas — 26 tools to draw, look, and refine.
+      bytes: 81758
   official_examples:
-  - kind: video
-    title: Watch full video on YouTube
-    url: https://youtu.be/ufW78Amq5qA
-    source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
-  - kind: demo
-    title: Watch 90-sec demo
-    url: https://youtu.be/ufW78Amq5qA
-    source: https://mcp-excalidraw-landing.vercel.app/
+    - kind: video
+      title: Watch full video on YouTube
+      url: https://youtu.be/ufW78Amq5qA
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
   official_effect_assets:
-  - kind: gif
-    title: MCP Excalidraw Demo
-    url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/demo.gif
-    source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
-  - kind: gif
-    title: mcp_excalidraw — a whiteboard for your AI agent
-    url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/main/demo.gif
-    source: https://mcp-excalidraw-landing.vercel.app/
-  - kind: video
-    title: Watch 90-sec demo
-    url: https://youtu.be/ufW78Amq5qA
-    thumbnail_url: https://img.youtube.com/vi/ufW78Amq5qA/hqdefault.jpg
-    source: https://mcp-excalidraw-landing.vercel.app/
+    - kind: gif
+      title: AI agent drawing an architecture diagram on a live Excalidraw canvas via MCP
+      url: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/demo.gif
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: video
+      title: Demo video
+      url: https://youtu.be/ufW78Amq5qA
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
   official_links:
-  - kind: video
-    title: Watch full video on YouTube
-    url: https://youtu.be/ufW78Amq5qA
-    source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
-  - kind: demo
-    title: Watch 90-sec demo
-    url: https://youtu.be/ufW78Amq5qA
-    source: https://mcp-excalidraw-landing.vercel.app/
+    - kind: video
+      title: Watch full video on YouTube
+      url: https://youtu.be/ufW78Amq5qA
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: agent skill
+      url: https://github.com/yctimlin/mcp_excalidraw#agent-skill
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: cli reference
+      url: https://github.com/yctimlin/mcp_excalidraw#cli-reference
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: headless rendering
+      url: https://github.com/yctimlin/mcp_excalidraw#headless-rendering
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: are my diagrams persistent
+      url: https://github.com/yctimlin/mcp_excalidraw#are-my-diagrams-persistent
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: are excalidrawcom share links private
+      url: https://github.com/yctimlin/mcp_excalidraw#are-excalidrawcom-share-links-private
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
   source_headings:
-  - Demo
-  - Install The Skill (Codex CLI example)
-  - (example for Claude Desktop config — same shape for others)
+    - Demo
+    - diagrams as repo artifacts
+    - Can the AI actually see the diagram it drew?
+    - Are my diagrams persistent?
+    - (example for Claude Desktop config — same shape for others)
+  official_docs:
+    - kind: docs
+      title: agent skill
+      url: https://github.com/yctimlin/mcp_excalidraw#agent-skill
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: cli reference
+      url: https://github.com/yctimlin/mcp_excalidraw#cli-reference
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: headless rendering
+      url: https://github.com/yctimlin/mcp_excalidraw#headless-rendering
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: are my diagrams persistent
+      url: https://github.com/yctimlin/mcp_excalidraw#are-my-diagrams-persistent
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
+    - kind: docs
+      title: are excalidrawcom share links private
+      url: https://github.com/yctimlin/mcp_excalidraw#are-excalidrawcom-share-links-private
+      source: https://raw.githubusercontent.com/yctimlin/mcp_excalidraw/HEAD/README.md
 - name: mindmapio-mcp
   category: doc-to-knowledge
   surface: mcp

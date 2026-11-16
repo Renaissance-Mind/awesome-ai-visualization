@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-  "sourceLastResearched": "2026-11-14",
+  "sourceLastResearched": "2026-11-16",
   "entries": {
     "Paper2Any": {
       "name": "Paper2Any",
@@ -9212,13 +9212,13 @@
     "mcp_excalidraw": {
       "name": "mcp_excalidraw",
       "url": "https://github.com/yctimlin/mcp_excalidraw",
-      "sourceHash": "6a44e343865e616a917d539b5fb0f3faf29d93293276a399a5d28524f0368f4b",
+      "sourceHash": "00d28ad756078f18abeda2f2dd722e9d657e6a177f7e2f59df99ef597900f507",
       "generatedBy": "@cf/qwen/qwen3-30b-a3b-fp8",
-      "summary": "支持代理实时同步和编辑手绘图表的MCP服务器和代码技能",
-      "explanation": "通过本地画布桥，让代理创建、编辑、导出并实时同步手绘图表。",
+      "summary": "Excalidraw v2.2 CLI 和 MCP 服务，支持可编辑图表和场景分享",
+      "explanation": "提供 Excalidraw 的命令行接口和 MCP 服务器，支持 27 个工具进行图表绘制和编辑。核心绘图功能无需账户、API 密钥或 GPU。可离线生成 PNG/SVG 图像，但 CJK/emoji 需系统字体。Mermaid 转换和视口控制需要浏览器标签。可选分享功能加密并上传场景至 excalidraw.com 或自托管地址。",
       "useCases": [
-        "代理通过本地画布桥创建手绘图表",
-        "代理实时同步和编辑手绘图表"
+        "在 Claude Code 等工具中集成 Excalidraw 实时画布",
+        "离线生成可编辑的图表并保存到私有目录"
       ],
       "input": [
         "文本/想法",
@@ -9233,16 +9233,19 @@
       ],
       "form": [
         "MCP Server",
-        "Agent Skill"
+        "Agent Skill",
+        "API/SDK/库"
       ],
       "requirements": [
         "MCP Client",
         "Agent 宿主",
         "浏览器/账号",
         "本地语言环境",
-        "渲染/导出"
+        "渲染/导出",
+        "外部检索/数据源",
+        "存储/索引"
       ],
-      "originalDescription": "MCP server and Claude Code skill for Excalidraw that lets agents create, edit, export, and live-sync hand-drawn diagrams through a local canvas bridge.",
+      "originalDescription": "Excalidraw v2.2 CLI, agent skill, 27-tool MCP server and REST API for editable diagrams. Node >=20; core drawing needs no account, API key or GPU. Installed headless PNG/SVG rendering and file rendering work offline with bundled Latin fonts; CJK/emoji need system fonts. Mermaid conversion and viewport control need a browser tab; canvas fonts use esm.sh CDN. Optional share encrypts and uploads scenes to excalidraw.com or a configured self-hosted target; full links grant access. Optional durable storage contains diagrams and embedded images and should use a private directory outside repositories/shared folders. PNG scene embedding is opt-in. MCP Client is needed only for MCP mode; model/provider privacy depends on the agent host.",
       "sources": [
         "https://github.com/yctimlin/mcp_excalidraw",
         "https://mcp-excalidraw-landing.vercel.app/",
@@ -33589,7 +33592,7 @@
       ]
     }
   },
-  "generatedAt": "2026-11-14T07:03:55.009Z",
+  "generatedAt": "2026-11-16T07:07:53.893Z",
   "models": [
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "@cf/qwen/qwen3-30b-a3b-fp8"

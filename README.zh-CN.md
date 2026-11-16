@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-904_items-blue)](data/catalog.yml)
-[![Last researched](https://img.shields.io/badge/last_researched-2026--11--14-brightgreen)](docs/search-log.md)
+[![Last researched](https://img.shields.io/badge/last_researched-2026--11--16-brightgreen)](docs/search-log.md)
 
 [English](README.md) | 简体中文 | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
 
@@ -24,11 +24,11 @@
 [![各类别每月新建 repo 数](public/activity/zh-CN/repos-created.svg)](https://awesome-ai-visualization.renaissancemind.ai/activity/zh-CN/#repos-created)
 <!-- repository-activity:end -->
 
-## Latest Refresh (2026-11-14)
+## Latest Refresh (2026-11-16)
 
 | Project | Catalog focus |
 | --- | --- |
-| [Bang Motion](https://github.com/bangtutorial/bang-motion) | 将产物校正为浏览器 HTML 和可选 MP4，补齐 CDN 播放、Node/Puppeteer/FFmpeg 导出及服务商和联网条件。 |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | 更新 CLI/REST 接入、离线 PNG/SVG 渲染、可编辑 PNG、Node/字体要求，以及 CDN、可选分享上传和私有持久化边界。 |
 
 ## ✨ 推荐使用方式
 
@@ -954,7 +954,7 @@
 | [Kroki-MCP](https://github.com/utain/kroki-mcp) [![Star](https://img.shields.io/github/stars/utain/kroki-mcp?style=flat&logo=github&label=Star)](https://github.com/utain/kroki-mcp/stargazers) | 文本/想法 / 代码/技术描述 / DSL/代码 | MCP Server | 图表/Mermaid / 架构图/流程图 / SVG/PNG/PDF | MCP Client / 本地语言环境 / 渲染/导出 |
 | [drawio-mcp](https://github.com/jgraph/drawio-mcp) [![Star](https://img.shields.io/github/stars/jgraph/drawio-mcp?style=flat&logo=github&label=Star)](https://github.com/jgraph/drawio-mcp/stargazers) | 文本/想法 / 代码/技术描述 / DSL/代码 | MCP Server / Agent Skill | 架构图/流程图 / 图表/Mermaid / SVG/PNG/PDF | MCP Client / Agent 宿主 / 本地语言环境 / 渲染/导出 / 系统工具 |
 | [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) [![Star](https://img.shields.io/github/stars/excalidraw/excalidraw-mcp?style=flat&logo=github&label=Star)](https://github.com/excalidraw/excalidraw-mcp/stargazers) | 文本/想法 / 代码/技术描述 | MCP Server | 架构图/流程图 / 白板/思维导图 / 网页/交互页面 | MCP Client / 浏览器/账号 / 本地语言环境 / 渲染/导出 |
-| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | 文本/想法 / 代码/技术描述 / DSL/代码 | MCP Server / Agent Skill | 架构图/流程图 / 白板/思维导图 / 网页/交互页面 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 浏览器/账号 / 本地语言环境 / 渲染/导出 |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) [![Star](https://img.shields.io/github/stars/yctimlin/mcp_excalidraw?style=flat&logo=github&label=Star)](https://github.com/yctimlin/mcp_excalidraw/stargazers) | 文本/想法 / 代码/技术描述 / DSL/代码 | MCP Server / Agent Skill / API/SDK/库 | 架构图/流程图 / 白板/思维导图 / 网页/交互页面 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 浏览器/账号 / 本地语言环境 / 渲染/导出 / 外部检索/数据源 / 存储/索引 |
 | [whiteboard](https://github.com/kamiazya/whiteboard) [![Star](https://img.shields.io/github/stars/kamiazya/whiteboard?style=flat&logo=github&label=Star)](https://github.com/kamiazya/whiteboard/stargazers) | 文本/想法 / 代码/技术描述 / 知识库/个人资料 | MCP Server / Agent Skill / 开源应用/框架 | 白板/思维导图 / 架构图/流程图 / 网页/交互页面 / SVG/PNG/PDF | MCP Client / Agent 宿主 / 浏览器/账号 / 本地语言环境 / 渲染/导出 / 存储/索引 |
 | [AntV Infographic](https://github.com/antvis/infographic) [![Star](https://img.shields.io/github/stars/antvis/infographic?style=flat&logo=github&label=Star)](https://github.com/antvis/infographic/stargazers) | 文本/想法 / 数据/表格 / DSL/代码 | API/SDK/库 | 信息图/视觉报告 / 图表/渲染输出 / SVG/PNG/PDF | 本地语言环境 / 渲染/导出 / 模板/素材 |
 | [Infographic MCP App](https://github.com/VancySavoki/infographic-mcp-app) [![Star](https://img.shields.io/github/stars/VancySavoki/infographic-mcp-app?style=flat&logo=github&label=Star)](https://github.com/VancySavoki/infographic-mcp-app/stargazers) | 文本/想法 / DSL/代码 | MCP Server | 信息图/视觉报告 / 架构图/流程图 / 网页/交互页面 | MCP Client / 本地语言环境 / 渲染/导出 / 模板/素材 |
