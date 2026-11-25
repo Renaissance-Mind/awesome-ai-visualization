@@ -12,8 +12,8 @@ collector runs independently on GitHub.
 
 The maintenance command fetches `origin/main` and creates an isolated detached
 worktree. A lock in the repository's common Git directory serializes overlapping
-research and publication runs. The user's working files are never staged by this
-command. Public Git histories and embedding checkpoints persist under
+research runs, manual deployments and Vectorize cleanup. The user's working
+files are never staged by this command. Public Git histories and embedding checkpoints persist under
 `<git-common-dir>/publication/` and are reused by later worktrees.
 
 On the first run of a new Shanghai calendar month, it refreshes the complete
@@ -39,7 +39,9 @@ vectors, all localized charts/pages, CSV, chart code and a real catalog preview.
 The Worker is then deployed with pinned Wrangler. Verification compares live
 metadata and asset bytes with the prepared build, checks the freshness of daily
 signals, and tests real search, combined filters, validation errors and the vector
-asset checksum. A release is complete only after these checks pass.
+asset checksum. After verification, it retires prior Vectorize catalog versions
+and confirms the exact live ID set and vector count. Healthy checks on an
+unchanged release also retry this cleanup without redeploying.
 
 ## Retries and notifications
 

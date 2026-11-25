@@ -77,9 +77,16 @@ document, filter classification or model creates a new index version.
 
 Vector IDs include their version, and each version has its own Vectorize
 namespace. Index updates therefore leave the currently deployed site's
-namespace intact. Complete ingestion and check every new vector ID before
-deploying the matching site. Prior namespaces can be retained for rollback;
-delete their vector IDs only after confirming they are no longer deployed.
+namespace intact during staging. Both publication commands verify the deployed
+site and search before retiring earlier catalog vectors. They check the live
+manifest, all current IDs and the single active Worker deployment, then wait
+for Vectorize to contain just that catalog. For a rollback, sync the matching
+vectors from the target Git revision before switching the site back.
+
+`npm run prune:search -- --dry-run` reports the live and retired vector counts.
+`npm run prune:search` reconciles an already verified release and can be rerun
+after interruption. A newly staged namespace outside the live release's Git
+history is protected while its publication is in progress.
 
 `npm run check:search` checks profile coverage, source retention, vector
 dimensions and normalization, verifies every remote vector ID, and runs real

@@ -3,24 +3,12 @@ import { execFileSync } from "node:child_process";
 import { mkdir, readFile, writeFile, rename, rm, mkdtemp, symlink } from "node:fs/promises";
 import { resolve, join } from "node:path";
 import { tmpdir } from "node:os";
-import { origin, retry, command, activityDue } from "./lib/publication.mjs";
+import { origin, retry, command, activityDue, acquirePublicationLock } from "./lib/publication.mjs";
 
 const git = (...args) => execFileSync("git", args, { encoding: "utf8" }).trim();
-const common = git("rev-parse", "--path-format=absolute", "--git-common-dir");
-const stateDir = join(common, "publication");
-await mkdir(stateDir, { recursive: true });
-const lock = join(stateDir, "lock");
-try { await mkdir(lock); }
-catch (error) {
-  if (error.code !== "EEXIST") throw error;
-  // Never take over a live run. A crashed run can be resumed by the next heartbeat.
-  const owner = JSON.parse(await readFile(join(lock, "owner.json"), "utf8"));
-  try { process.kill(owner.pid, 0); console.log("Publication already running."); process.exit(0); }
-  catch (error) { if (error.code !== "ESRCH") throw error; }
-  await rm(lock, { recursive: true });
-  await mkdir(lock);
-}
-await writeFile(join(lock, "owner.json"), JSON.stringify({ pid: process.pid, startedAt: new Date().toISOString() }));
+const lock = await acquirePublicationLock();
+if (!lock) { console.log("Publication already running."); process.exit(0); }
+const { stateDir } = lock;
 let previous = {};
 try { previous = JSON.parse(await readFile(join(stateDir, "status.json"), "utf8")); }
 catch (error) { if (error.code !== "ENOENT") throw error; }
@@ -125,6 +113,7 @@ try {
     await step("published search", () => npm("check:search-api"));
     status.status = "published";
   }
+  await step("retire old search vectors", () => run("node", ["scripts/prune-search-index.mjs"]));
   status.commit = localGit("rev-parse", "HEAD");
   status.completedAt = new Date().toISOString(); status.phase = "complete";
   status.lastSuccessfulCommit = status.commit;
@@ -141,5 +130,5 @@ try {
   console.error("PUBLICATION_FAILURE " + JSON.stringify(status));
   process.exitCode = 1;
 } finally {
-  await rm(lock, { recursive: true });
+  await lock.release();
 }
